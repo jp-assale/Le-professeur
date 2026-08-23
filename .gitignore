@@ -1,0 +1,29 @@
+# Secrets - ne jamais committer
+backend/.env
+backend/.fly_token
+
+# Donnees locales (quota, abonnements, logs) - pas de code, pas a versionner
+backend/*.json
+backend/*.jsonl
+
+# Python
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Node / Capacitor
+node_modules/
+
+# Android build outputs (regeneres par gradlew, tres volumineux)
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+
+# Divers
+.DS_Store
+Thumbs.db
+email-cinetpay.txt

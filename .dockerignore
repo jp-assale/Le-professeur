@@ -1,0 +1,9 @@
+backend/.venv
+backend/__pycache__
+backend/.env
+backend/.fly_token
+backend/*.json
+backend/*.jsonl
+node_modules
+android
+.git

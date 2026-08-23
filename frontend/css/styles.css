@@ -1,0 +1,315 @@
+:root {
+  --green: #0d7a5f;
+  --green-dark: #08543f;
+  --green-light: #e6f4ef;
+  --bg: #f5f7f6;
+  --surface: #ffffff;
+  --text: #1c2321;
+  --text-muted: #6b7570;
+  --border: #e1e6e3;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--bg);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--green);
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.brand { display: flex; align-items: baseline; gap: 8px; }
+.brand-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #ffd166; display: inline-block;
+}
+.brand-name { font-weight: 700; font-size: 1.1rem; }
+.brand-tag { font-size: 0.75rem; opacity: 0.85; }
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-btn {
+  background: rgba(255,255,255,0.18);
+  border: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.quota {
+  font-size: 0.75rem;
+  background: rgba(255,255,255,0.18);
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  padding-bottom: max(8px, env(safe-area-inset-bottom));
+}
+
+.app-footer a, .link-btn {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.link-btn:hover, .app-footer a:hover { color: var(--green-dark); }
+
+.setup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.field { display: flex; flex-direction: column; gap: 2px; }
+.field label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+}
+.field select {
+  font-size: 0.8rem;
+  padding: 6px 6px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.epreuves-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.epreuves-toggle, .epreuve-quit {
+  font-size: 0.78rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.epreuve-quit {
+  background: var(--green-light);
+  border-color: var(--green);
+  color: var(--green-dark);
+}
+
+.epreuve-active {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.epreuves-panel {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 12px;
+  flex-shrink: 0;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.epreuves-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+
+.epreuves-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.epreuves-list li button {
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.epreuves-list li button:hover { border-color: var(--green); }
+
+.epreuves-empty {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 12px 0;
+}
+
+.chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  line-height: 1.45;
+  font-size: 0.92rem;
+  white-space: pre-wrap;
+}
+
+.msg p { margin: 0; }
+
+.msg-bot {
+  align-self: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+
+.msg-user {
+  align-self: flex-end;
+  background: var(--green);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+
+.msg-error {
+  align-self: center;
+  background: #fdeceb;
+  color: #9b2c2c;
+  border: 1px solid #f3c6c2;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.msg-loading {
+  align-self: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.composer {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+}
+
+.composer textarea {
+  flex: 1;
+  resize: none;
+  max-height: 120px;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-family: inherit;
+  font-size: 0.92rem;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.composer textarea:focus { outline: 2px solid var(--green-light); border-color: var(--green); }
+
+.composer button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: var(--green);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.composer button:disabled {
+  background: #a9c9c0;
+  cursor: not-allowed;
+}
+
+.attach-btn {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.attach-btn:disabled {
+  color: var(--text-muted) !important;
+}
+
+@media (max-width: 420px) {
+  .setup { grid-template-columns: 1fr 1fr; }
+  .setup .field:nth-child(3) { grid-column: span 2; }
+}

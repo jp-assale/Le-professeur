@@ -1,0 +1,8 @@
+{
+  "appId": "com.aida.assistant",
+  "appName": "Le Professeur",
+  "webDir": "frontend",
+  "server": {
+    "androidScheme": "https"
+  }
+}

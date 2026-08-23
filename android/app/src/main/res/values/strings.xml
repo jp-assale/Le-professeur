@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Le Professeur</string>
+    <string name="title_activity_main">Le Professeur</string>
+    <string name="package_name">com.aida.assistant</string>
+    <string name="custom_url_scheme">com.aida.assistant</string>
+</resources>
