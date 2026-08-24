@@ -4,7 +4,7 @@ import re
 
 from anthropic import Anthropic
 from dotenv import load_dotenv
-from flask import Flask, abort, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 
 import cinetpay
@@ -541,13 +541,18 @@ def get_pdf_sujet_file(sujet_id):
 
 def _require_admin():
     token = request.headers.get("X-Admin-Token")
-    if not ADMIN_TOKEN or token != ADMIN_TOKEN:
-        abort(403)
+    if not ADMIN_TOKEN:
+        return jsonify({"error": "ADMIN_TOKEN non configure cote serveur"}), 500
+    if token != ADMIN_TOKEN:
+        return jsonify({"error": "Jeton admin incorrect"}), 403
+    return None
 
 
 @app.route("/api/admin/pdf-sujets", methods=["POST"])
 def admin_add_pdf_sujet():
-    _require_admin()
+    denied = _require_admin()
+    if denied:
+        return denied
 
     file = request.files.get("file")
     if not file or file.mimetype != "application/pdf":
@@ -575,7 +580,9 @@ def admin_add_pdf_sujet():
 
 @app.route("/api/admin/pdf-sujets/<sujet_id>", methods=["DELETE"])
 def admin_delete_pdf_sujet(sujet_id):
-    _require_admin()
+    denied = _require_admin()
+    if denied:
+        return denied
     ok = pdf_library.delete_pdf_sujet(sujet_id)
     if not ok:
         return jsonify({"error": "PDF introuvable"}), 404
