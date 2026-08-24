@@ -205,6 +205,47 @@ body {
   padding: 12px 0;
 }
 
+.epreuves-section-header {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  margin: 10px 0 2px;
+}
+
+.epreuves-section-header:first-child { margin-top: 0; }
+
+.pdf-sujet-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--green);
+  background: var(--green-light);
+}
+
+.pdf-sujet-view {
+  font-size: 0.85rem;
+  color: var(--green-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pdf-sujet-view:hover { text-decoration: underline; }
+
+.pdf-sujet-item button {
+  align-self: flex-start;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--green);
+  background: #fff;
+  color: var(--green-dark);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
 .chat {
   flex: 1;
   overflow-y: auto;

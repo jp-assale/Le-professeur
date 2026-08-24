@@ -2,9 +2,11 @@ import os
 
 from anthropic import Anthropic
 from dotenv import load_dotenv
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, abort, jsonify, request, send_from_directory
+from flask_cors import CORS
 
 import cinetpay
+import pdf_library
 import payments_store
 import quota_store
 import reports
@@ -18,6 +20,10 @@ load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 DAILY_FREE_LIMIT = int(os.environ.get("DAILY_FREE_LIMIT", "5"))
 MODEL = os.environ.get("ASSISTANT_MODEL", "claude-haiku-4-5-20251001")
+
+# Secret partage pour proteger l'ajout/suppression de PDF (toi seul devrait
+# pouvoir en ajouter). A definir dans .env - choisis une chaine aleatoire.
+ADMIN_TOKEN = os.environ.get("ADMIN_TOKEN")
 
 # URL publique de CE backend (pas localhost) - obligatoire pour que CinetPay
 # puisse appeler notify_url depuis internet. A definir dans .env une fois le
@@ -33,6 +39,10 @@ IP_DAILY_LIMIT = DAILY_FREE_LIMIT * int(os.environ.get("IP_LIMIT_MULTIPLIER", "6
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend")
 
 app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
+# L'appli Android empaquetee (Capacitor) appelle ce backend depuis une autre
+# origine (https://localhost dans la WebView) - CORS doit etre ouvert sur
+# /api/* pour que ces appels ne soient pas bloques par le navigateur.
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
 
 
@@ -206,6 +216,69 @@ def get_one_epreuve(epreuve_id):
     if not epreuve:
         return jsonify({"error": "epreuve introuvable"}), 404
     return jsonify(epreuve)
+
+
+@app.route("/api/pdf-sujets", methods=["GET"])
+def get_pdf_sujets():
+    pays = request.args.get("pays") or None
+    niveau = request.args.get("niveau") or None
+    matiere = request.args.get("matiere") or None
+    return jsonify(pdf_library.list_pdf_sujets(pays, niveau, matiere))
+
+
+@app.route("/api/pdf-sujets/<sujet_id>/fichier", methods=["GET"])
+def get_pdf_sujet_file(sujet_id):
+    entry = pdf_library.get_pdf_sujet(sujet_id)
+    if not entry:
+        return jsonify({"error": "PDF introuvable"}), 404
+    return send_from_directory(
+        pdf_library.PDF_DIR, entry["filename"],
+        mimetype="application/pdf",
+        download_name=entry["titre"] + ".pdf",
+    )
+
+
+def _require_admin():
+    token = request.headers.get("X-Admin-Token")
+    if not ADMIN_TOKEN or token != ADMIN_TOKEN:
+        abort(403)
+
+
+@app.route("/api/admin/pdf-sujets", methods=["POST"])
+def admin_add_pdf_sujet():
+    _require_admin()
+
+    file = request.files.get("file")
+    if not file or file.mimetype != "application/pdf":
+        return jsonify({"error": "Fichier PDF manquant ou invalide"}), 400
+
+    file_bytes = file.read()
+    if len(file_bytes) > 20 * 1024 * 1024:
+        return jsonify({"error": "PDF trop volumineux (max 20 Mo)"}), 400
+
+    try:
+        entry = pdf_library.add_pdf_sujet(
+            pays=request.form["pays"],
+            niveau=request.form["niveau"],
+            matiere=request.form["matiere"],
+            annee=int(request.form["annee"]),
+            titre=request.form["titre"],
+            source=request.form.get("source", ""),
+            file_bytes=file_bytes,
+        )
+    except KeyError as exc:
+        return jsonify({"error": f"Champ manquant: {exc}"}), 400
+
+    return jsonify(entry), 201
+
+
+@app.route("/api/admin/pdf-sujets/<sujet_id>", methods=["DELETE"])
+def admin_delete_pdf_sujet(sujet_id):
+    _require_admin()
+    ok = pdf_library.delete_pdf_sujet(sujet_id)
+    if not ok:
+        return jsonify({"error": "PDF introuvable"}), 404
+    return jsonify({"ok": True})
 
 
 @app.route("/api/quota", methods=["GET"])

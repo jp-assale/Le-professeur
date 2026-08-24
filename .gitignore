@@ -2,9 +2,10 @@
 backend/.env
 backend/.fly_token
 
-# Donnees locales (quota, abonnements, logs) - pas de code, pas a versionner
+# Donnees locales (quota, abonnements, logs, PDF ajoutes) - pas de code, pas a versionner
 backend/*.json
 backend/*.jsonl
+backend/pdfs/
 
 # Python
 backend/.venv/

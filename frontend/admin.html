@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Administration — Sujets PDF</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .admin { max-width: 640px; margin: 0 auto; padding: 20px 16px 60px; }
+  .admin h1 { font-size: 1.2rem; }
+  .admin-field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+  .admin-field label { font-size: 0.8rem; color: var(--text-muted); }
+  .admin-field input, .admin-field select {
+    padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface); font-size: 0.9rem;
+  }
+  .admin-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .admin button {
+    padding: 10px 16px; border-radius: 8px; border: none;
+    background: var(--green); color: #fff; font-size: 0.9rem; cursor: pointer;
+  }
+  .admin-msg { font-size: 0.85rem; margin-top: 10px; }
+  .admin-msg.ok { color: var(--green-dark); }
+  .admin-msg.err { color: #9b2c2c; }
+  .pdf-list { list-style: none; padding: 0; margin-top: 20px; }
+  .pdf-list li {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+    margin-bottom: 6px; font-size: 0.85rem;
+  }
+  .pdf-list button {
+    background: #fdeceb; color: #9b2c2c; border: 1px solid #f3c6c2;
+    padding: 4px 10px; font-size: 0.78rem;
+  }
+</style>
+</head>
+<body>
+<div class="admin">
+  <p><a href="index.html">← Retour à l'appli</a></p>
+  <h1>Administration — Bibliothèque de sujets PDF</h1>
+  <p style="font-size:0.82rem;color:var(--text-muted)">
+    Ajoute ici de vrais sujets d'examens (PDF) que tu as légitimement obtenus
+    (CNECE, annales papier scannées...). Réservé à toi : il faut le jeton
+    admin défini dans <code>backend/.env</code> (<code>ADMIN_TOKEN</code>).
+  </p>
+
+  <div class="admin-field">
+    <label for="admin-token">Jeton admin</label>
+    <input type="password" id="admin-token" placeholder="Colle ton ADMIN_TOKEN ici">
+  </div>
+
+  <form id="pdf-form">
+    <div class="admin-row">
+      <div class="admin-field">
+        <label for="f-pays">Pays</label>
+        <select id="f-pays"></select>
+      </div>
+      <div class="admin-field">
+        <label for="f-niveau">Niveau</label>
+        <select id="f-niveau"></select>
+      </div>
+    </div>
+    <div class="admin-row">
+      <div class="admin-field">
+        <label for="f-matiere">Matière</label>
+        <select id="f-matiere"></select>
+      </div>
+      <div class="admin-field">
+        <label for="f-annee">Année</label>
+        <input type="number" id="f-annee" value="2024" min="1990" max="2100">
+      </div>
+    </div>
+    <div class="admin-field">
+      <label for="f-titre">Titre (ex: "DEF Mathématiques 2024, session normale")</label>
+      <input type="text" id="f-titre" required>
+    </div>
+    <div class="admin-field">
+      <label for="f-source">Source (ex: "CNECE", "Annales papier scannées")</label>
+      <input type="text" id="f-source">
+    </div>
+    <div class="admin-field">
+      <label for="f-file">Fichier PDF</label>
+      <input type="file" id="f-file" accept="application/pdf" required>
+    </div>
+    <button type="submit">Ajouter ce PDF</button>
+    <div class="admin-msg" id="admin-msg"></div>
+  </form>
+
+  <h2 style="font-size:1rem;margin-top:24px;">PDF déjà ajoutés</h2>
+  <ul class="pdf-list" id="pdf-list"></ul>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  const tokenInput = document.getElementById("admin-token");
+  tokenInput.value = localStorage.getItem("admin_token") || "";
+  tokenInput.addEventListener("change", () => {
+    localStorage.setItem("admin_token", tokenInput.value);
+  });
+
+  const selPays = document.getElementById("f-pays");
+  const selNiveau = document.getElementById("f-niveau");
+  const selMatiere = document.getElementById("f-matiere");
+  const pdfList = document.getElementById("pdf-list");
+  const msg = document.getElementById("admin-msg");
+
+  async function loadCurriculum() {
+    const data = await fetch("/api/curriculum").then((r) => r.json());
+    data.pays.forEach((p) => selPays.add(new Option(p.label, p.code)));
+    data.niveaux.forEach((n) => selNiveau.add(new Option(n.label, n.code)));
+    data.matieres.forEach((m) => selMatiere.add(new Option(m, m)));
+  }
+
+  async function loadList() {
+    const items = await fetch("/api/pdf-sujets").then((r) => r.json());
+    pdfList.innerHTML = "";
+    if (!items.length) {
+      pdfList.innerHTML = "<li>Aucun PDF pour l'instant.</li>";
+      return;
+    }
+    items.forEach((item) => {
+      const li = document.createElement("li");
+      const label = document.createElement("span");
+      label.textContent = `${item.titre} — ${item.pays}/${item.niveau}/${item.matiere} (${item.annee})`;
+      const delBtn = document.createElement("button");
+      delBtn.textContent = "Supprimer";
+      delBtn.addEventListener("click", () => removeItem(item.id));
+      li.appendChild(label);
+      li.appendChild(delBtn);
+      pdfList.appendChild(li);
+    });
+  }
+
+  async function removeItem(id) {
+    if (!confirm("Supprimer ce PDF ?")) return;
+    const res = await fetch("/api/admin/pdf-sujets/" + id, {
+      method: "DELETE",
+      headers: { "X-Admin-Token": tokenInput.value },
+    });
+    if (res.ok) loadList();
+    else msg.textContent = "Erreur lors de la suppression.";
+  }
+
+  document.getElementById("pdf-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "Envoi en cours…";
+    msg.className = "admin-msg";
+
+    const formData = new FormData();
+    formData.append("pays", selPays.value);
+    formData.append("niveau", selNiveau.value);
+    formData.append("matiere", selMatiere.value);
+    formData.append("annee", document.getElementById("f-annee").value);
+    formData.append("titre", document.getElementById("f-titre").value);
+    formData.append("source", document.getElementById("f-source").value);
+    formData.append("file", document.getElementById("f-file").files[0]);
+
+    try {
+      const res = await fetch("/api/admin/pdf-sujets", {
+        method: "POST",
+        headers: { "X-Admin-Token": tokenInput.value },
+        body: formData,
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        msg.textContent = data.error || "Erreur inconnue.";
+        msg.className = "admin-msg err";
+        return;
+      }
+      msg.textContent = "PDF ajouté !";
+      msg.className = "admin-msg ok";
+      document.getElementById("pdf-form").reset();
+      loadList();
+    } catch (err) {
+      msg.textContent = "Connexion impossible.";
+      msg.className = "admin-msg err";
+    }
+  });
+
+  loadCurriculum();
+  loadList();
+})();
+</script>
+</body>
+</html>

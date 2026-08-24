@@ -10,4 +10,10 @@
 // ci-dessous par l'URL PUBLIQUE du backend deploye, par exemple :
 //   window.AIDA_API_BASE_URL = "https://api.aida-assistant.com";
 // (sans "/api" a la fin, sans slash final)
-window.AIDA_API_BASE_URL = "";
+// N'utilise l'URL absolue que dans l'appli Android empaquetee (Capacitor) -
+// en navigateur normal (local ou sur le domaine de prod lui-meme), une URL
+// relative vide est correcte et evite les soucis de CORS inutiles.
+window.AIDA_API_BASE_URL =
+  (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform())
+    ? "https://le-professeur.onrender.com"
+    : "";

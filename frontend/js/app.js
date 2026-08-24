@@ -125,26 +125,63 @@
       matiere: selectMatiere.value,
     });
     try {
-      const res = await fetch(apiUrl("/api/epreuves?" + params.toString()));
-      const list = await res.json();
+      const [pdfSujets, exercices] = await Promise.all([
+        fetch(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json()),
+        fetch(apiUrl("/api/epreuves?" + params.toString())).then((r) => r.json()),
+      ]);
       epreuvesList.innerHTML = "";
-      if (!list.length) {
+
+      if (pdfSujets.length) {
+        epreuvesList.appendChild(sectionHeader("📄 Sujets officiels (PDF)"));
+        pdfSujets.forEach((s) => {
+          const li = document.createElement("li");
+          li.className = "pdf-sujet-item";
+
+          const viewLink = document.createElement("a");
+          viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier");
+          viewLink.target = "_blank";
+          viewLink.rel = "noopener";
+          viewLink.className = "pdf-sujet-view";
+          viewLink.textContent = "📄 " + s.titre + " (" + s.annee + ")";
+
+          const workBtn = document.createElement("button");
+          workBtn.type = "button";
+          workBtn.textContent = "💬 Corriger avec Le Professeur";
+          workBtn.addEventListener("click", () => workOnPdfSujet(s.id, s.titre));
+
+          li.appendChild(viewLink);
+          li.appendChild(workBtn);
+          epreuvesList.appendChild(li);
+        });
+      }
+
+      if (exercices.length) {
+        epreuvesList.appendChild(sectionHeader("📝 Exercices type (originaux)"));
+        exercices.forEach((ep) => {
+          const li = document.createElement("li");
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = ep.titre + " (" + ep.annee + ")";
+          btn.addEventListener("click", () => startEpreuve(ep.id));
+          li.appendChild(btn);
+          epreuvesList.appendChild(li);
+        });
+      }
+
+      if (!pdfSujets.length && !exercices.length) {
         epreuvesList.innerHTML =
           '<li class="epreuves-empty">Aucun sujet pour cette combinaison pays / niveau / matière pour l\'instant.</li>';
-        return;
       }
-      list.forEach((ep) => {
-        const li = document.createElement("li");
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.textContent = ep.titre + " (" + ep.annee + ")";
-        btn.addEventListener("click", () => startEpreuve(ep.id));
-        li.appendChild(btn);
-        epreuvesList.appendChild(li);
-      });
     } catch (e) {
       epreuvesList.innerHTML = '<li class="epreuves-empty">Erreur de chargement.</li>';
     }
+  }
+
+  function sectionHeader(text) {
+    const li = document.createElement("li");
+    li.className = "epreuves-section-header";
+    li.textContent = text;
+    return li;
   }
 
   async function startEpreuve(id) {
@@ -256,13 +293,7 @@
     });
   }
 
-  attachBtn.addEventListener("click", () => attachInput.click());
-
-  attachInput.addEventListener("change", async () => {
-    const file = attachInput.files[0];
-    attachInput.value = "";
-    if (!file) return;
-
+  async function processFileForCorrection(file, displayLabel) {
     const MAX_BYTES = 9 * 1024 * 1024;
     const ALLOWED = ["image/jpeg", "image/png", "image/webp", "image/gif", "application/pdf"];
 
@@ -278,10 +309,11 @@
     currentEpreuveId = null;
     history = [];
     clearChat();
-    addMessage("📎 " + file.name, "msg-user");
+    addMessage("📎 " + (displayLabel || file.name), "msg-user");
     const loadingEl = addMessage("Le Professeur regarde ton sujet…", "msg-loading");
     sendBtn.disabled = true;
     attachBtn.disabled = true;
+    epreuvesPanel.hidden = true;
 
     try {
       const base64 = await fileToBase64(file);
@@ -312,7 +344,7 @@
         { role: "assistant", content: data.answer },
       ];
       epreuveActive.hidden = false;
-      epreuveActive.textContent = "Sujet envoyé : " + file.name;
+      epreuveActive.textContent = "Sujet envoyé : " + (displayLabel || file.name);
       quitEpreuveBtn.hidden = false;
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
@@ -323,7 +355,30 @@
       sendBtn.disabled = false;
       attachBtn.disabled = false;
     }
+  }
+
+  attachBtn.addEventListener("click", () => attachInput.click());
+
+  attachInput.addEventListener("change", () => {
+    const file = attachInput.files[0];
+    attachInput.value = "";
+    if (file) processFileForCorrection(file);
   });
+
+  async function workOnPdfSujet(sujetId, titre) {
+    try {
+      const res = await fetch(apiUrl("/api/pdf-sujets/" + encodeURIComponent(sujetId) + "/fichier"));
+      if (!res.ok) {
+        addMessage("Impossible de récupérer ce PDF.", "msg-error");
+        return;
+      }
+      const blob = await res.blob();
+      const file = new File([blob], titre + ".pdf", { type: "application/pdf" });
+      processFileForCorrection(file, titre);
+    } catch (e) {
+      addMessage("Connexion impossible. Réessaie plus tard.", "msg-error");
+    }
+  }
 
   deviceCodeBtn.addEventListener("click", () => {
     const input = window.prompt(

@@ -68,24 +68,43 @@ Fait :
   (`🔑`) pour changer de téléphone sans perdre son quota
 - **Toolchain Android complète installée** : Node.js, JDK 21, SDK Android
   (platform-tools, build-tools 35, platform 35) — voir "Compiler l'APK" ci-dessous
-- **Premier APK debug compilé avec succès** (`android/app/build/outputs/apk/debug/app-debug.apk`,
-  ~3,9 Mo) — preuve que la chaîne de compilation fonctionne de bout en bout
+- **Backend déployé publiquement et fonctionnel** : https://le-professeur.onrender.com
+  (Render, plan gratuit). Redéploie automatiquement à chaque `git push` sur `main`.
+  ⚠️ Plan gratuit = le service s'endort après inactivité (jusqu'à ~50s de délai
+  au premier appel) et le disque est **éphémère** (fichiers `*.json`/`*.jsonl`/
+  PDF perdus à chaque redéploiement) — a upgrader avant une vraie mise en prod
+- **Vraie clé API Anthropic configurée et testée** — le chat répond réellement,
+  en production
+- **CORS ouvert sur `/api/*`** (`flask-cors`) — necessaire car l'appli Android
+  empaquetée appelle ce backend depuis une autre origine
+- **`frontend/js/config.js` detecte automatiquement le contexte** : URL relative
+  en navigateur normal (local ou sur le domaine de prod), URL absolue du
+  backend Render uniquement dans l'appli Android empaquetée (detection via
+  `Capacitor.isNativePlatform()`)
+- **Bibliothèque de vrais PDF d'examens** (`backend/pdf_library.py`,
+  `frontend/admin.html`) : page d'administration pour ajouter/supprimer de
+  vrais sujets PDF (protégée par `ADMIN_TOKEN`), affichés séparément des
+  exercices originaux dans le panneau "Sujets d'examen", avec un bouton
+  "Corriger avec Le Professeur" qui réutilise le pipeline vision existant
+- **APK compilé et connecté au backend réel** — testé, le chat répond vraiment
+  sur un appareil
 
 Pas encore fait (décisions à prendre avec toi) :
 - **Icônes PWA réelles** (`frontend/icons/icon-192.png`, `icon-512.png` manquants)
   — l'APK actuel utilise les icônes par défaut de Capacitor, à remplacer avant
   publication
-- **Vrai paiement CinetPay** — nécessite que tu créés le compte marchand (KYC),
-  je ne peux pas le faire à ta place
-- **Backend pas encore déployé publiquement** — l'APK actuel pointe vers
-  `AIDA_API_BASE_URL = ""` (vide), donc il ne fonctionnera sur un vrai téléphone
-  que si le backend tourne sur le même réseau/`localhost` accessible. Pour un
-  vrai test ou une publication, il faut héberger `backend/` quelque part de
-  public (Render, Fly.io, VPS...) puis mettre l'URL dans
-  `frontend/js/config.js` et relancer `npx cap sync android` + rebuild
+- **Vrai paiement CinetPay** — compte marchand en cours de création (RCCM
+  disponible), en attente de leur réponse sur le bug d'inscription
+- **Stockage persistant** — sur Render gratuit, tout fichier local (quota,
+  abonnements, PDF ajoutés...) disparaît au redéploiement. Nécessaire avant la
+  prod : disque payant Render, ou migration vers une vraie base de données /
+  stockage objet (S3, Cloudflare R2 pour les PDF)
 - **APK non signé pour la release** — celui compilé est un build *debug*
   (installable pour tester, pas publiable tel quel). Il faudra générer une clé
   de signature et un build *release* avant le Play Store
+- **Aucun vrai sujet PDF officiel encore ajouté** — la bibliothèque existe mais
+  est vide ; à remplir via `/admin.html` une fois des PDF légitimement obtenus
+  (CNECE, annales papier scannées...)
 - **`appId` encore un placeholder** (`com.aida.assistant` dans
   `capacitor.config.json`) — à figer avant la première publication (permanent
   une fois publié)
@@ -110,6 +129,20 @@ pour que les fichiers web soient recopiés dans le projet Android.
   signalement aide mais ne remplace pas une vraie relecture initiale
 - Choix stratégique : rester pan-régional (8 pays) ou concentrer l'effort sur le
   Mali d'abord pour mieux valider avant d'étendre
+
+## Ajouter de vrais sujets PDF
+
+Va sur `/admin.html` (ex: https://le-professeur.onrender.com/admin.html), colle
+ton `ADMIN_TOKEN` (défini dans les variables d'environnement Render/`.env`),
+remplis le formulaire et choisis le fichier PDF. Le PDF apparaît alors dans le
+panneau "Sujets d'examen" de l'appli, dans une section séparée des exercices
+originaux, avec un lien pour le consulter et un bouton pour le travailler avec
+l'IA.
+
+Sources légitimes uniquement : PDF fournis par CNECE/ministère sur demande
+directe, annales papier que tu as achetées et scannées, documents de ton
+école. Ne jamais ajouter de PDF récupérés sur des sites d'agrégation tiers
+(voir la discussion sur le droit d'auteur plus haut dans le projet).
 
 ## Créer le compte marchand CinetPay
 
