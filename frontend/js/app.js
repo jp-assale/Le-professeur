@@ -47,6 +47,7 @@
   const quitEpreuveBtn = document.getElementById("quit-epreuve-btn");
   const attachBtn = document.getElementById("attach-btn");
   const attachInput = document.getElementById("attach-input");
+  const shareBtn = document.getElementById("share-btn");
   const deviceCodeBtn = document.getElementById("device-code-btn");
   const reportBtn = document.getElementById("report-btn");
   const upgradeLink = document.getElementById("upgrade-link");
@@ -57,6 +58,13 @@
   let isPremium = false;
 
   const DEVICE_ID = getOrCreateDeviceId();
+  const SHARE_URL = "https://le-professeur.onrender.com";
+
+  function shareToWhatsApp(text) {
+    const url = "https://wa.me/?text=" + encodeURIComponent(text + "\n\n" + SHARE_URL);
+    window.open(url, "_blank", "noopener");
+  }
+
   const WELCOME_TEXT = "Salut ! Je suis Le Professeur, ton assistant pour les devoirs. " +
     "Choisis ton pays, ton niveau et ta matière ci-dessus, puis pose-moi ta " +
     "question de cours ou d'exercice — je t'explique étape par étape, je ne " +
@@ -408,6 +416,18 @@
     }
   }
 
+  shareBtn.addEventListener("click", () => {
+    if (!lastBotMessage) {
+      window.alert("Pose d'abord une question, puis partage l'explication sur WhatsApp.");
+      return;
+    }
+    const excerpt = lastBotMessage.length > 200 ? lastBotMessage.slice(0, 200) + "…" : lastBotMessage;
+    shareToWhatsApp(
+      "🎓 Le Professeur vient de m'expliquer ça :\n\n« " + excerpt + " »\n\n" +
+      "Essaie toi aussi, c'est gratuit :"
+    );
+  });
+
   deviceCodeBtn.addEventListener("click", () => {
     const input = window.prompt(
       "Ton code appareil (note-le pour retrouver tes questions restantes sur un " +
@@ -555,6 +575,20 @@
       chatEl.scrollTop = chatEl.scrollHeight;
 
       const pays = selectPays.value, niveau = selectNiveau.value, matiere = selectMatiere.value;
+
+      if (mode !== "diagnostic") {
+        const shareScoreBtn = document.createElement("button");
+        shareScoreBtn.type = "button";
+        shareScoreBtn.className = "quiz-note";
+        shareScoreBtn.textContent = "📤 Partager mon score";
+        shareScoreBtn.addEventListener("click", () => {
+          shareToWhatsApp(
+            "🎯 J'ai eu " + score + "/" + questions.length + " à un quiz de " + matiere +
+            " sur Le Professeur (assistant IA gratuit pour les devoirs) !\n\nEssaie toi aussi :"
+          );
+        });
+        box.appendChild(shareScoreBtn);
+      }
 
       if (mode === "diagnostic") {
         const noteBtn = document.createElement("button");
