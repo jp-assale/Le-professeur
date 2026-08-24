@@ -68,24 +68,14 @@
 
   <div class="correction-panel" id="correction-panel" hidden>
     <p class="epreuves-note">
-      Rédige (ou photographie) ta réponse complète à un exercice — Le Professeur
-      la corrige comme un vrai examinateur, avec une note sur barème.
+      Écris ou photographie ta copie (question + ta réponse) — Le Professeur
+      la corrige comme un vrai examinateur.
     </p>
     <div class="admin-field">
-      <label for="corr-enonce">Énoncé de la question</label>
-      <textarea id="corr-enonce" rows="2" placeholder="Ex: Résoudre dans R l'équation 3x - 7 = 2x + 5"></textarea>
+      <textarea id="corr-reponse" rows="5" placeholder="Écris ici ta question et ta réponse, ou laisse vide et joins une photo de ta copie"></textarea>
     </div>
     <div class="admin-field">
-      <label for="corr-reponse">Ta réponse (texte)</label>
-      <textarea id="corr-reponse" rows="4" placeholder="Écris ta réponse complète ici, ou laisse vide et joins une photo ci-dessous"></textarea>
-    </div>
-    <div class="admin-field">
-      <label for="corr-photo">Ou une photo de ta copie (optionnel)</label>
       <input type="file" id="corr-photo" accept="image/jpeg,image/png,image/webp,image/gif,application/pdf">
-    </div>
-    <div class="admin-field">
-      <label for="corr-bareme">Barème (points)</label>
-      <input type="number" id="corr-bareme" value="20" min="1" max="100">
     </div>
     <button type="button" id="corr-submit">Faire corriger</button>
   </div>

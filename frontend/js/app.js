@@ -54,10 +54,8 @@
   const diagnosticBtn = document.getElementById("diagnostic-btn");
   const correctionBtn = document.getElementById("correction-btn");
   const correctionPanel = document.getElementById("correction-panel");
-  const corrEnonce = document.getElementById("corr-enonce");
   const corrReponse = document.getElementById("corr-reponse");
   const corrPhoto = document.getElementById("corr-photo");
-  const corrBareme = document.getElementById("corr-bareme");
   const corrSubmit = document.getElementById("corr-submit");
 
   let lastBotMessage = "";
@@ -668,17 +666,11 @@
   });
 
   corrSubmit.addEventListener("click", async () => {
-    const enonce = corrEnonce.value.trim();
     const reponseTexte = corrReponse.value.trim();
     const photoFile = corrPhoto.files[0];
-    const bareme = parseInt(corrBareme.value, 10) || 20;
 
-    if (!enonce) {
-      window.alert("Indique l'énoncé de la question.");
-      return;
-    }
     if (!reponseTexte && !photoFile) {
-      window.alert("Écris ta réponse ou joins une photo de ta copie.");
+      window.alert("Écris ta copie (question + réponse) ou joins-en une photo.");
       return;
     }
 
@@ -686,7 +678,7 @@
     corrSubmit.textContent = "Correction en cours…";
     correctionPanel.hidden = true;
 
-    addMessage("✍️ Copie envoyée pour correction : " + enonce, "msg-user");
+    addMessage("✍️ Copie envoyée pour correction" + (photoFile ? " (photo)" : ""), "msg-user");
     const loadingEl = addMessage("Le Professeur corrige ta copie…", "msg-loading");
 
     try {
@@ -695,9 +687,7 @@
         pays: selectPays.value,
         niveau: selectNiveau.value,
         matiere: selectMatiere.value,
-        enonce: enonce,
         reponse_texte: reponseTexte,
-        bareme: bareme,
       };
       if (photoFile) {
         body.mime_type = photoFile.type;
@@ -719,7 +709,6 @@
       addMessage(data.answer, "msg-bot");
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
-      corrEnonce.value = "";
       corrReponse.value = "";
       corrPhoto.value = "";
     } catch (e) {

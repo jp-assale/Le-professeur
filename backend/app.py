@@ -156,14 +156,18 @@ def build_correction_copie_prompt(pays_code: str, niveau_code: str, matiere: str
     return (
         f"Tu es un examinateur qui corrige la copie d'un(e) eleve du {niveau} en {matiere}, "
         f"au {pays_label}. Reponds toujours en francais simple et clair.\n\n"
-        f"Note la copie sur {bareme} points, en te basant sur l'enonce et la reponse fournis.\n\n"
+        "L'eleve t'envoie sa copie (texte ou photo), qui contient generalement a la fois la "
+        "question et sa reponse. Identifie d'abord la question traitee, puis corrige.\n\n"
+        f"Note la copie sur {bareme} points.\n\n"
         "Structure ta correction exactement ainsi :\n"
         f"1) Une premiere ligne exactement au format : NOTE: X/{bareme}\n"
         "2) Le detail du bareme applique (points accordes par partie/question)\n"
         "3) Les points forts de la copie\n"
         "4) Les erreurs precises a corriger, avec explication pedagogique\n"
         "Sois juste mais bienveillant, comme un vrai correcteur d'examen - ni trop severe, "
-        "ni complaisant."
+        "ni complaisant.\n\n"
+        "Si la question traitee n'est pas identifiable du tout dans ce qui est fourni, "
+        "dis-le clairement et demande a l'eleve de preciser plutot que d'inventer un enonce."
     )
 
 
@@ -422,7 +426,6 @@ def correction_copie():
     pays = payload.get("pays", "mali")
     niveau = payload.get("niveau", "college")
     matiere = payload.get("matiere", "Mathematiques")
-    enonce = (payload.get("enonce") or "").strip()
     reponse_texte = (payload.get("reponse_texte") or "").strip()
     mime_type = payload.get("mime_type")
     data_b64 = payload.get("data")
@@ -430,8 +433,6 @@ def correction_copie():
 
     if not device_id:
         return jsonify({"error": "device_id manquant"}), 400
-    if not enonce:
-        return jsonify({"error": "enonce manquant"}), 400
     if not reponse_texte and not (mime_type and data_b64):
         return jsonify({"error": "reponse manquante (texte ou photo)"}), 400
     if not isinstance(bareme, int) or bareme <= 0:
@@ -456,7 +457,7 @@ def correction_copie():
         return jsonify({"error": "Format de fichier non supporte."}), 400
 
     system_prompt = build_correction_copie_prompt(pays, niveau, matiere, bareme)
-    content = [{"type": "text", "text": f"Enonce :\n{enonce}\n\nReponse de l'eleve :"}]
+    content = [{"type": "text", "text": "Voici la copie de l'eleve (question et reponse) :"}]
     if reponse_texte:
         content.append({"type": "text", "text": reponse_texte})
     if has_photo:
