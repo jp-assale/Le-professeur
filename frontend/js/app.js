@@ -713,9 +713,19 @@
 
   progressBtn.addEventListener("click", async () => {
     progressOverlay.hidden = false;
-    progressContent.innerHTML = '<p class="epreuves-empty">Chargement…</p>';
+    progressContent.innerHTML = '<p class="epreuves-empty">Chargement… (jusqu\'à 60s si le serveur se réveille)</p>';
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000);
     try {
-      const res = await fetch(apiUrl("/api/progress?device_id=" + encodeURIComponent(DEVICE_ID)));
+      const res = await fetch(
+        apiUrl("/api/progress?device_id=" + encodeURIComponent(DEVICE_ID)),
+        { signal: controller.signal }
+      );
+      clearTimeout(timeoutId);
+      if (!res.ok) {
+        progressContent.innerHTML = '<p class="epreuves-empty">Erreur serveur (' + res.status + '). Réessaie plus tard.</p>';
+        return;
+      }
       const data = await res.json();
       if (!data.matieres || !data.matieres.length) {
         progressContent.innerHTML = '<p class="epreuves-empty">Pas encore d\'activité enregistrée — pose des questions, fais un quiz !</p>';
@@ -737,7 +747,12 @@
         progressContent.appendChild(row);
       });
     } catch (e) {
-      progressContent.innerHTML = '<p class="epreuves-empty">Erreur de chargement.</p>';
+      clearTimeout(timeoutId);
+      console.error("Erreur /api/progress:", e);
+      const msg = e.name === "AbortError"
+        ? "Le serveur met trop de temps à répondre (plus de 60s). Vérifie ta connexion et réessaie."
+        : "Connexion impossible (" + (e.message || e) + "). Vérifie ta connexion et réessaie.";
+      progressContent.innerHTML = '<p class="epreuves-empty">' + msg + '</p>';
     }
   });
 
