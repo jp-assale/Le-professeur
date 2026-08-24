@@ -88,6 +88,19 @@ Fait :
   "Corriger avec Le Professeur" qui réutilise le pipeline vision existant
 - **APK compilé et connecté au backend réel** — testé, le chat répond vraiment
   sur un appareil
+- **Quiz automatique** (`📝`) : génère 3-4 QCM sur la dernière explication donnée,
+  notation immédiate avec explication par question, score envoyé à la
+  progression
+- **Diagnostic de niveau** (`🎯`) : quiz de 6 questions couvrant les bases de la
+  matière choisie ; à la fin, un bilan personnalisé est généré par l'IA et
+  **mémorisé** — les futures explications de cet élève en tiennent compte
+  automatiquement (`progress_store.py`, injecté dans le prompt système)
+- **Correction de copie** (`✍️`) : l'élève rédige ou photographie sa réponse
+  complète à un exercice, l'IA la note sur barème comme un examinateur (note
+  extraite automatiquement pour la progression)
+- **Suivi de progression** (`📊`) : tableau de bord par matière (nb de
+  questions posées, score moyen aux quiz/diagnostics/corrections, dernière
+  activité) — `backend/progress_store.py`
 
 Pas encore fait (décisions à prendre avec toi) :
 - **Icônes PWA réelles** (`frontend/icons/icon-192.png`, `icon-512.png` manquants)

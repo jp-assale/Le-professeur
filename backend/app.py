@@ -1,4 +1,6 @@
+import json
 import os
+import re
 
 from anthropic import Anthropic
 from dotenv import load_dotenv
@@ -8,6 +10,7 @@ from flask_cors import CORS
 import cinetpay
 import pdf_library
 import payments_store
+import progress_store
 import quota_store
 import reports
 import subscription
@@ -46,7 +49,8 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
 
 
-def build_system_prompt(pays_code: str, niveau_code: str, matiere: str, epreuve: dict | None = None) -> str:
+def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
+                         epreuve: dict | None = None, profile_note: str | None = None) -> str:
     pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
     niveau = niveau_label(pays_code, niveau_code)
 
@@ -55,6 +59,12 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str, epreuve:
         f"en {matiere}, au {pays_label}, dans le systeme scolaire francophone d'Afrique "
         "de l'Ouest. Reponds toujours en francais simple et clair."
     )
+    if profile_note:
+        base += (
+            "\n\nCe que tu sais deja de cet eleve suite a un diagnostic precedent "
+            f"(adapte tes explications en consequence, sans le repeter mot pour mot) :\n"
+            f"{profile_note}"
+        )
 
     if epreuve:
         return (
@@ -110,6 +120,63 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str) -
         "3) Si l'image ou le PDF est illisible, flou ou incomplet, dis-le clairement et "
         "demande une meilleure photo au lieu d'inventer un enonce.\n"
         "Reste concis: 250-300 mots maximum pour ce premier message."
+    )
+
+
+def build_quiz_system_prompt(pays_code: str, niveau_code: str, matiere: str, sujet: str, n_questions: int) -> str:
+    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    niveau = niveau_label(pays_code, niveau_code)
+    return (
+        f"Tu es un professeur pour un(e) eleve du {niveau} en {matiere}, au {pays_label}.\n\n"
+        f"Genere un quiz de {n_questions} questions a choix multiples (QCM) sur ce sujet :\n"
+        f"---\n{sujet}\n---\n\n"
+        "Consignes :\n"
+        "- Chaque question a exactement 4 options, une seule correcte.\n"
+        "- Varie la difficulte, de facile a plus exigeant.\n"
+        "- Reponds UNIQUEMENT avec un objet JSON valide, sans texte autour, sans balises "
+        "markdown ```, exactement dans ce format :\n"
+        '{"questions": [{"question": "...", "options": ["...", "...", "...", "..."], '
+        '"correct_index": 0, "explication": "..."}]}\n'
+        "L'explication justifie en une phrase pourquoi la reponse est correcte."
+    )
+
+
+def _parse_quiz_json(raw_text: str) -> dict:
+    text = raw_text.strip()
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+    return json.loads(text.strip())
+
+
+def build_correction_copie_prompt(pays_code: str, niveau_code: str, matiere: str, bareme: int) -> str:
+    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    niveau = niveau_label(pays_code, niveau_code)
+    return (
+        f"Tu es un examinateur qui corrige la copie d'un(e) eleve du {niveau} en {matiere}, "
+        f"au {pays_label}. Reponds toujours en francais simple et clair.\n\n"
+        f"Note la copie sur {bareme} points, en te basant sur l'enonce et la reponse fournis.\n\n"
+        "Structure ta correction exactement ainsi :\n"
+        f"1) Une premiere ligne exactement au format : NOTE: X/{bareme}\n"
+        "2) Le detail du bareme applique (points accordes par partie/question)\n"
+        "3) Les points forts de la copie\n"
+        "4) Les erreurs precises a corriger, avec explication pedagogique\n"
+        "Sois juste mais bienveillant, comme un vrai correcteur d'examen - ni trop severe, "
+        "ni complaisant."
+    )
+
+
+def build_profile_system_prompt(pays_code: str, niveau_code: str, matiere: str) -> str:
+    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    niveau = niveau_label(pays_code, niveau_code)
+    return (
+        f"Tu es un professeur qui vient de faire passer un diagnostic a un(e) eleve du "
+        f"{niveau} en {matiere}, au {pays_label}. Voici les questions posees, la reponse "
+        "de l'eleve et la bonne reponse pour chacune.\n\n"
+        "Redige un court paragraphe (60 a 80 mots), adresse directement a l'eleve (tutoiement), "
+        "resumant ses points forts et ses lacunes precises a travailler en priorite. Sois "
+        "bienveillant, concret, et evite le jargon."
     )
 
 
@@ -193,6 +260,239 @@ def upload_exercice():
     else:
         quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=UPLOAD_QUESTION_WEIGHT)
         remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=UPLOAD_QUESTION_WEIGHT)
+
+    return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
+
+
+QUIZ_QUESTION_COUNT_DEFAULT = 4
+QUIZ_QUESTION_COUNT_DIAGNOSTIC = 6
+
+
+@app.route("/api/quiz", methods=["POST"])
+def generate_quiz():
+    if client is None:
+        return jsonify({
+            "error": "ANTHROPIC_API_KEY non configuree cote serveur. "
+                     "Voir backend/.env.example."
+        }), 500
+
+    payload = request.get_json(silent=True) or {}
+    device_id = payload.get("device_id", "")
+    pays = payload.get("pays", "mali")
+    niveau = payload.get("niveau", "college")
+    matiere = payload.get("matiere", "Mathematiques")
+    sujet = (payload.get("sujet") or "").strip()
+    diagnostic = bool(payload.get("diagnostic"))
+
+    if not device_id:
+        return jsonify({"error": "device_id manquant"}), 400
+
+    if diagnostic and not sujet:
+        sujet = (
+            f"Notions de base attendues en {matiere} pour ce niveau scolaire "
+            "(couvre plusieurs notions differentes du programme)."
+        )
+    if not sujet:
+        return jsonify({"error": "sujet manquant"}), 400
+
+    premium = subscription.is_premium(device_id)
+    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
+    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+
+    if not premium and (remaining_before <= 0 or ip_remaining <= 0):
+        return jsonify({
+            "error": "quota_depasse",
+            "message": "Tu as utilise tes questions gratuites du jour. Reviens demain, "
+                       "ou passe en illimite.",
+            "remaining": min(remaining_before, ip_remaining),
+        }), 429
+
+    n_questions = QUIZ_QUESTION_COUNT_DIAGNOSTIC if diagnostic else QUIZ_QUESTION_COUNT_DEFAULT
+    system_prompt = build_quiz_system_prompt(pays, niveau, matiere, sujet[:4000], n_questions)
+
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=1500,
+            system=system_prompt,
+            messages=[{"role": "user", "content": "Genere le quiz au format demande."}],
+        )
+        raw = "".join(b.text for b in response.content if b.type == "text")
+        quiz = _parse_quiz_json(raw)
+        usage_log.log_call(MODEL, "quiz", response.usage.input_tokens, response.usage.output_tokens)
+    except (json.JSONDecodeError, IndexError):
+        return jsonify({"error": "Reponse IA invalide, reessaie."}), 502
+    except Exception as exc:
+        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+
+    if premium:
+        remaining_after = remaining_before
+    else:
+        quota_store.consume(_client_ip(), IP_DAILY_LIMIT)
+        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT)
+
+    return jsonify({"questions": quiz.get("questions", []), "remaining": remaining_after, "premium": premium})
+
+
+@app.route("/api/progress/log-quiz", methods=["POST"])
+def log_quiz_result():
+    payload = request.get_json(silent=True) or {}
+    device_id = payload.get("device_id", "")
+    pays = payload.get("pays", "mali")
+    niveau = payload.get("niveau", "college")
+    matiere = payload.get("matiere", "Mathematiques")
+    score = payload.get("score")
+    total = payload.get("total")
+
+    if not device_id or not isinstance(score, int) or not isinstance(total, int) or total <= 0:
+        return jsonify({"error": "parametres invalides"}), 400
+
+    progress_store.log_event(device_id, "quiz", pays, niveau, matiere, score=score, total=total)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/progress", methods=["GET"])
+def get_progress_route():
+    device_id = request.args.get("device_id", "")
+    if not device_id:
+        return jsonify({"error": "device_id manquant"}), 400
+    return jsonify(progress_store.get_progress(device_id))
+
+
+@app.route("/api/diagnostic/complete", methods=["POST"])
+def diagnostic_complete():
+    if client is None:
+        return jsonify({
+            "error": "ANTHROPIC_API_KEY non configuree cote serveur. "
+                     "Voir backend/.env.example."
+        }), 500
+
+    payload = request.get_json(silent=True) or {}
+    device_id = payload.get("device_id", "")
+    pays = payload.get("pays", "mali")
+    niveau = payload.get("niveau", "college")
+    matiere = payload.get("matiere", "Mathematiques")
+    results = payload.get("results") or []
+    score = payload.get("score")
+    total = payload.get("total")
+
+    if not device_id or not isinstance(score, int) or not isinstance(total, int) or total <= 0:
+        return jsonify({"error": "parametres invalides"}), 400
+    if not results:
+        return jsonify({"error": "results manquant"}), 400
+
+    progress_store.log_event(device_id, "diagnostic", pays, niveau, matiere, score=score, total=total)
+
+    lines = []
+    for i, r in enumerate(results[:10], 1):
+        statut = "correcte" if r.get("correct") else "incorrecte"
+        lines.append(
+            f"{i}. {r.get('question', '')}\n   Reponse eleve : {r.get('user_answer', '')} ({statut})\n"
+            f"   Bonne reponse : {r.get('correct_answer', '')}"
+        )
+    results_text = "\n".join(lines)
+
+    system_prompt = build_profile_system_prompt(pays, niveau, matiere)
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=400,
+            system=system_prompt,
+            messages=[{"role": "user", "content": results_text}],
+        )
+        note = "".join(b.text for b in response.content if b.type == "text")
+        usage_log.log_call(MODEL, "diagnostic-profile", response.usage.input_tokens, response.usage.output_tokens)
+    except Exception as exc:
+        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+
+    progress_store.set_profile_note(device_id, matiere, note)
+    return jsonify({"note": note})
+
+
+@app.route("/api/correction-copie", methods=["POST"])
+def correction_copie():
+    if client is None:
+        return jsonify({
+            "error": "ANTHROPIC_API_KEY non configuree cote serveur. "
+                     "Voir backend/.env.example."
+        }), 500
+
+    payload = request.get_json(silent=True) or {}
+    device_id = payload.get("device_id", "")
+    pays = payload.get("pays", "mali")
+    niveau = payload.get("niveau", "college")
+    matiere = payload.get("matiere", "Mathematiques")
+    enonce = (payload.get("enonce") or "").strip()
+    reponse_texte = (payload.get("reponse_texte") or "").strip()
+    mime_type = payload.get("mime_type")
+    data_b64 = payload.get("data")
+    bareme = payload.get("bareme") or 20
+
+    if not device_id:
+        return jsonify({"error": "device_id manquant"}), 400
+    if not enonce:
+        return jsonify({"error": "enonce manquant"}), 400
+    if not reponse_texte and not (mime_type and data_b64):
+        return jsonify({"error": "reponse manquante (texte ou photo)"}), 400
+    if not isinstance(bareme, int) or bareme <= 0:
+        bareme = 20
+
+    has_photo = bool(mime_type and data_b64)
+    weight = UPLOAD_QUESTION_WEIGHT if has_photo else 1
+
+    premium = subscription.is_premium(device_id)
+    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
+    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+
+    if not premium and (remaining_before < weight or ip_remaining < weight):
+        return jsonify({
+            "error": "quota_depasse",
+            "message": "Il ne te reste pas assez de questions gratuites aujourd'hui pour "
+                       "cette correction. Reviens demain, ou passe en illimite.",
+            "remaining": min(remaining_before, ip_remaining),
+        }), 429
+
+    if has_photo and mime_type not in ALLOWED_UPLOAD_MIME:
+        return jsonify({"error": "Format de fichier non supporte."}), 400
+
+    system_prompt = build_correction_copie_prompt(pays, niveau, matiere, bareme)
+    content = [{"type": "text", "text": f"Enonce :\n{enonce}\n\nReponse de l'eleve :"}]
+    if reponse_texte:
+        content.append({"type": "text", "text": reponse_texte})
+    if has_photo:
+        block_type = "document" if mime_type == "application/pdf" else "image"
+        content.append({
+            "type": block_type,
+            "source": {"type": "base64", "media_type": mime_type, "data": data_b64},
+        })
+
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=1000,
+            system=system_prompt,
+            messages=[{"role": "user", "content": content}],
+        )
+        answer = "".join(b.text for b in response.content if b.type == "text")
+        usage_log.log_call(MODEL, "correction-copie", response.usage.input_tokens, response.usage.output_tokens)
+    except Exception as exc:
+        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+
+    match = re.search(r"NOTE:\s*(\d+(?:[.,]\d+)?)\s*/\s*(\d+)", answer)
+    if match:
+        try:
+            note_score = round(float(match.group(1).replace(",", ".")))
+            note_total = int(match.group(2))
+            progress_store.log_event(device_id, "correction", pays, niveau, matiere,
+                                      score=note_score, total=note_total)
+        except ValueError:
+            pass
+
+    if premium:
+        remaining_after = remaining_before
+    else:
+        quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
+        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 
@@ -426,7 +726,8 @@ def ask():
         }), 429
 
     epreuve = get_epreuve(epreuve_id) if epreuve_id else None
-    system_prompt = build_system_prompt(pays, niveau, matiere, epreuve)
+    profile_note = progress_store.get_profile_note(device_id, matiere)
+    system_prompt = build_system_prompt(pays, niveau, matiere, epreuve, profile_note)
 
     # Historique fourni par le frontend, limite pour controler le cout des appels API.
     safe_history = [
@@ -447,6 +748,7 @@ def ask():
             block.text for block in response.content if block.type == "text"
         )
         usage_log.log_call(MODEL, "ask", response.usage.input_tokens, response.usage.output_tokens)
+        progress_store.log_event(device_id, "ask", pays, niveau, matiere)
     except Exception as exc:  # surface a readable error to the frontend
         return jsonify({"error": f"Erreur IA: {exc}"}), 502
 

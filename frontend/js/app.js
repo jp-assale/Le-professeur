@@ -24,6 +24,19 @@
   const deviceCodeBtn = document.getElementById("device-code-btn");
   const reportBtn = document.getElementById("report-btn");
   const upgradeLink = document.getElementById("upgrade-link");
+  const quizBtn = document.getElementById("quiz-btn");
+  const diagnosticBtn = document.getElementById("diagnostic-btn");
+  const correctionBtn = document.getElementById("correction-btn");
+  const correctionPanel = document.getElementById("correction-panel");
+  const corrEnonce = document.getElementById("corr-enonce");
+  const corrReponse = document.getElementById("corr-reponse");
+  const corrPhoto = document.getElementById("corr-photo");
+  const corrBareme = document.getElementById("corr-bareme");
+  const corrSubmit = document.getElementById("corr-submit");
+  const progressBtn = document.getElementById("progress-btn");
+  const progressOverlay = document.getElementById("progress-overlay");
+  const progressClose = document.getElementById("progress-close");
+  const progressContent = document.getElementById("progress-content");
 
   let lastBotMessage = "";
   let isPremium = false;
@@ -214,6 +227,7 @@
   }
 
   toggleEpreuvesBtn.addEventListener("click", () => {
+    correctionPanel.hidden = true;
     epreuvesPanel.hidden = !epreuvesPanel.hidden;
     if (!epreuvesPanel.hidden) loadEpreuvesList();
   });
@@ -448,6 +462,288 @@
     } finally {
       upgradeLink.disabled = false;
     }
+  });
+
+  // --- Quiz interactif (topic ou diagnostic) ---------------------------
+
+  function renderQuizInChat(questions, mode) {
+    const box = document.createElement("div");
+    box.className = "quiz-box";
+
+    const answers = new Array(questions.length).fill(null);
+
+    questions.forEach((q, qi) => {
+      const qDiv = document.createElement("div");
+      qDiv.className = "quiz-question";
+      const p = document.createElement("p");
+      p.textContent = (qi + 1) + ". " + q.question;
+      qDiv.appendChild(p);
+
+      q.options.forEach((opt, oi) => {
+        const optBtn = document.createElement("button");
+        optBtn.type = "button";
+        optBtn.className = "quiz-option";
+        optBtn.textContent = opt;
+        optBtn.addEventListener("click", () => {
+          if (optBtn.disabled) return;
+          qDiv.querySelectorAll(".quiz-option").forEach((b) => b.classList.remove("selected"));
+          optBtn.classList.add("selected");
+          answers[qi] = oi;
+        });
+        qDiv.appendChild(optBtn);
+      });
+
+      const expl = document.createElement("div");
+      expl.className = "quiz-explication";
+      expl.hidden = true;
+      expl.textContent = q.explication || "";
+      qDiv.appendChild(expl);
+
+      box.appendChild(qDiv);
+    });
+
+    const submitBtn = document.createElement("button");
+    submitBtn.type = "button";
+    submitBtn.className = "quiz-submit";
+    submitBtn.textContent = "Valider mes réponses";
+    box.appendChild(submitBtn);
+
+    const scoreEl = document.createElement("div");
+    scoreEl.className = "quiz-score";
+    scoreEl.hidden = true;
+    box.appendChild(scoreEl);
+
+    submitBtn.addEventListener("click", async () => {
+      let score = 0;
+      const results = [];
+      box.querySelectorAll(".quiz-question").forEach((qDiv, qi) => {
+        const q = questions[qi];
+        const opts = qDiv.querySelectorAll(".quiz-option");
+        opts.forEach((b, oi) => {
+          b.disabled = true;
+          if (oi === q.correct_index) b.classList.add("correct");
+          else if (oi === answers[qi]) b.classList.add("incorrect");
+        });
+        qDiv.querySelector(".quiz-explication").hidden = false;
+        const correct = answers[qi] === q.correct_index;
+        if (correct) score++;
+        results.push({
+          question: q.question,
+          user_answer: answers[qi] !== null ? q.options[answers[qi]] : "(sans réponse)",
+          correct_answer: q.options[q.correct_index],
+          correct: correct,
+        });
+      });
+
+      submitBtn.hidden = true;
+      scoreEl.hidden = false;
+      scoreEl.textContent = "Score : " + score + "/" + questions.length;
+      chatEl.scrollTop = chatEl.scrollHeight;
+
+      const pays = selectPays.value, niveau = selectNiveau.value, matiere = selectMatiere.value;
+
+      if (mode === "diagnostic") {
+        const noteBtn = document.createElement("button");
+        noteBtn.type = "button";
+        noteBtn.className = "quiz-note";
+        noteBtn.textContent = "Voir mon bilan personnalisé";
+        box.appendChild(noteBtn);
+        noteBtn.addEventListener("click", async () => {
+          noteBtn.disabled = true;
+          noteBtn.textContent = "Analyse en cours…";
+          try {
+            const res = await fetch(apiUrl("/api/diagnostic/complete"), {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ device_id: DEVICE_ID, pays, niveau, matiere, score, total: questions.length, results }),
+            });
+            const data = await res.json();
+            noteBtn.remove();
+            if (!res.ok) {
+              addMessage(data.message || data.error || "Erreur lors de l'analyse.", "msg-error");
+              return;
+            }
+            addMessage("🎯 " + data.note, "msg-bot");
+          } catch (e) {
+            addMessage("Connexion impossible pour générer le bilan.", "msg-error");
+          }
+        });
+      } else {
+        try {
+          await fetch(apiUrl("/api/progress/log-quiz"), {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ device_id: DEVICE_ID, pays, niveau, matiere, score, total: questions.length }),
+          });
+        } catch (e) {
+          // silencieux
+        }
+      }
+    });
+
+    chatEl.appendChild(box);
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
+
+  async function startQuiz(diagnostic) {
+    if (!diagnostic && !lastBotMessage) {
+      window.alert("Pose d'abord une question, puis lance un quiz sur cette explication.");
+      return;
+    }
+    if (diagnostic && !window.confirm(
+      "Le diagnostic te pose 6 questions de base sur la matière choisie pour repérer " +
+      "tes points forts et tes lacunes. Ça compte pour 1 question de ton quota. Continuer ?"
+    )) return;
+
+    const btn = diagnostic ? diagnosticBtn : quizBtn;
+    btn.disabled = true;
+    const loadingEl = addMessage(diagnostic ? "Préparation du diagnostic…" : "Préparation du quiz…", "msg-loading");
+
+    try {
+      const res = await fetch(apiUrl("/api/quiz"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          device_id: DEVICE_ID,
+          pays: selectPays.value,
+          niveau: selectNiveau.value,
+          matiere: selectMatiere.value,
+          sujet: diagnostic ? "" : lastBotMessage.slice(0, 1500),
+          diagnostic: diagnostic,
+        }),
+      });
+      const data = await res.json();
+      loadingEl.remove();
+
+      if (!res.ok) {
+        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
+        return;
+      }
+      if (!data.questions || !data.questions.length) {
+        addMessage("Le quiz n'a pas pu être généré, réessaie.", "msg-error");
+        return;
+      }
+      renderQuizInChat(data.questions, diagnostic ? "diagnostic" : "topic");
+      isPremium = !!data.premium;
+      setQuota(data.remaining, undefined);
+    } catch (e) {
+      loadingEl.remove();
+      addMessage("Connexion impossible. Réessaie plus tard.", "msg-error");
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  quizBtn.addEventListener("click", () => startQuiz(false));
+  diagnosticBtn.addEventListener("click", () => startQuiz(true));
+
+  // --- Correction de copie ----------------------------------------------
+
+  correctionBtn.addEventListener("click", () => {
+    epreuvesPanel.hidden = true;
+    correctionPanel.hidden = !correctionPanel.hidden;
+  });
+
+  corrSubmit.addEventListener("click", async () => {
+    const enonce = corrEnonce.value.trim();
+    const reponseTexte = corrReponse.value.trim();
+    const photoFile = corrPhoto.files[0];
+    const bareme = parseInt(corrBareme.value, 10) || 20;
+
+    if (!enonce) {
+      window.alert("Indique l'énoncé de la question.");
+      return;
+    }
+    if (!reponseTexte && !photoFile) {
+      window.alert("Écris ta réponse ou joins une photo de ta copie.");
+      return;
+    }
+
+    corrSubmit.disabled = true;
+    corrSubmit.textContent = "Correction en cours…";
+    correctionPanel.hidden = true;
+
+    addMessage("✍️ Copie envoyée pour correction : " + enonce, "msg-user");
+    const loadingEl = addMessage("Le Professeur corrige ta copie…", "msg-loading");
+
+    try {
+      const body = {
+        device_id: DEVICE_ID,
+        pays: selectPays.value,
+        niveau: selectNiveau.value,
+        matiere: selectMatiere.value,
+        enonce: enonce,
+        reponse_texte: reponseTexte,
+        bareme: bareme,
+      };
+      if (photoFile) {
+        body.mime_type = photoFile.type;
+        body.data = await fileToBase64(photoFile);
+      }
+      const res = await fetch(apiUrl("/api/correction-copie"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      loadingEl.remove();
+
+      if (!res.ok) {
+        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
+        return;
+      }
+      addMessage(data.answer, "msg-bot");
+      isPremium = !!data.premium;
+      setQuota(data.remaining, undefined);
+      corrEnonce.value = "";
+      corrReponse.value = "";
+      corrPhoto.value = "";
+    } catch (e) {
+      loadingEl.remove();
+      addMessage("Connexion impossible. Réessaie plus tard.", "msg-error");
+    } finally {
+      corrSubmit.disabled = false;
+      corrSubmit.textContent = "Faire corriger";
+    }
+  });
+
+  // --- Suivi de progression ----------------------------------------------
+
+  progressBtn.addEventListener("click", async () => {
+    progressOverlay.hidden = false;
+    progressContent.innerHTML = '<p class="epreuves-empty">Chargement…</p>';
+    try {
+      const res = await fetch(apiUrl("/api/progress?device_id=" + encodeURIComponent(DEVICE_ID)));
+      const data = await res.json();
+      if (!data.matieres || !data.matieres.length) {
+        progressContent.innerHTML = '<p class="epreuves-empty">Pas encore d\'activité enregistrée — pose des questions, fais un quiz !</p>';
+        return;
+      }
+      progressContent.innerHTML = "";
+      data.matieres.forEach((m) => {
+        const row = document.createElement("div");
+        row.className = "progress-row";
+        const pct = m.avg_score_pct;
+        row.innerHTML =
+          '<div class="matiere-name">' + m.matiere + "</div>" +
+          '<div class="progress-stats">' + m.questions + " question(s) posée(s)" +
+          (m.quiz_count ? " · " + m.quiz_count + " quiz/test(s), score moyen " + pct + "%" : "") +
+          "</div>" +
+          (pct !== null && pct !== undefined
+            ? '<div class="progress-bar-track"><div class="progress-bar-fill" style="width:' + pct + '%"></div></div>'
+            : "");
+        progressContent.appendChild(row);
+      });
+    } catch (e) {
+      progressContent.innerHTML = '<p class="epreuves-empty">Erreur de chargement.</p>';
+    }
+  });
+
+  progressClose.addEventListener("click", () => { progressOverlay.hidden = true; });
+  progressOverlay.addEventListener("click", (e) => {
+    if (e.target === progressOverlay) progressOverlay.hidden = true;
   });
 
   loadCurriculum();

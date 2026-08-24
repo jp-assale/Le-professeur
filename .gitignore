@@ -1,6 +1,7 @@
 # Secrets - ne jamais committer
 backend/.env
 backend/.fly_token
+ADMIN TOKEN.txt
 
 # Donnees locales (quota, abonnements, logs, PDF ajoutes) - pas de code, pas a versionner
 backend/*.json
