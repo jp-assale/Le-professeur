@@ -98,9 +98,15 @@ Fait :
 - **Correction de copie** (`✍️`) : l'élève rédige ou photographie sa réponse
   complète à un exercice, l'IA la note sur barème comme un examinateur (note
   extraite automatiquement pour la progression)
-- **Suivi de progression** (`📊`) : tableau de bord par matière (nb de
-  questions posées, score moyen aux quiz/diagnostics/corrections, dernière
-  activité) — `backend/progress_store.py`
+- **Suivi de progression — backend prêt, bouton retiré de l'interface** :
+  `backend/progress_store.py` et `/api/progress` fonctionnent (testés), mais
+  le bouton `📊` a été retiré du frontend à la demande de l'utilisateur après
+  un long débogage ayant révélé que le plan gratuit Render met le service en
+  veille après inactivité (écran de réveil "Application loading" pouvant
+  ressembler à un blocage) — corrigible avec un plan payant (~7$/mois),
+  refusé pour l'instant. Le diagnostic/quiz continuent d'alimenter
+  `progress_store` en arrière-plan, prêt à réafficher un tableau de bord plus
+  tard si besoin.
 
 Pas encore fait (décisions à prendre avec toi) :
 - **Icônes PWA réelles** (`frontend/icons/icon-192.png`, `icon-512.png` manquants)
