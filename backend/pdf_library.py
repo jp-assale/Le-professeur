@@ -1,16 +1,18 @@
 """Bibliotheque de VRAIS sujets d'examens en PDF (contrairement a epreuves.py
 qui contient des exercices originaux ecrits par l'IA).
 
-Chaque entree pointe vers un fichier PDF stocke dans DATA_DIR/pdfs/. Les PDF
-eux-memes ne sont jamais dans le code source (git) - ils sont ajoutes via
-POST /api/admin/pdf-sujets (protege par ADMIN_TOKEN), a partir de sources que
-l'utilisateur a legitimement obtenues (CNECE, annales papier scannees, etc.).
+Deux sources, fusionnees a la lecture :
 
-ATTENTION stockage : sur Render (plan gratuit), le systeme de fichiers est
-EPHEMERE - un fichier ajoute ici disparait au prochain redeploiement/redemarrage
-du service. Pour une vraie persistance il faudra soit un disque payant, soit un
-stockage objet externe (S3, Cloudflare R2...). Pour l'instant, considerer ces
-PDF comme "a re-uploader apres chaque deploiement" tant que ce n'est pas regle.
+1) "seed" (backend/pdf_seed/) : PDF + manifest.json COMMITTES DANS GIT.
+   Survivent a tous les redeploiements car ils font partie du code livre.
+   C'est la source a utiliser pour tout PDF qu'on veut garder durablement -
+   donne le fichier a l'assistant pour qu'il l'ajoute ici et le commit.
+
+2) "runtime" (DATA_DIR/pdfs/) : PDF ajoutes en direct via POST
+   /api/admin/pdf-sujets (protege par ADMIN_TOKEN). Pratique pour tester
+   rapidement, mais sur Render (plan gratuit) le disque est EPHEMERE - tout
+   fichier ajoute ici disparait au prochain redeploiement. A ne pas
+   considerer comme un stockage definitif.
 """
 import json
 import os
@@ -21,29 +23,46 @@ from datetime import date
 from paths import DATA_DIR
 
 _LOCK = threading.Lock()
-_META_PATH = os.path.join(DATA_DIR, "pdf_sujets.json")
-PDF_DIR = os.path.join(DATA_DIR, "pdfs")
-os.makedirs(PDF_DIR, exist_ok=True)
+
+SEED_DIR = os.path.join(os.path.dirname(__file__), "pdf_seed")
+_SEED_MANIFEST_PATH = os.path.join(SEED_DIR, "manifest.json")
+os.makedirs(SEED_DIR, exist_ok=True)
+
+_RUNTIME_META_PATH = os.path.join(DATA_DIR, "pdf_sujets.json")
+RUNTIME_PDF_DIR = os.path.join(DATA_DIR, "pdfs")
+os.makedirs(RUNTIME_PDF_DIR, exist_ok=True)
 
 
-def _load() -> list:
-    if not os.path.exists(_META_PATH):
+def _load_json(path: str) -> list:
+    if not os.path.exists(path):
         return []
-    with open(_META_PATH, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         try:
             return json.load(f)
         except json.JSONDecodeError:
             return []
 
 
-def _save(data: list) -> None:
-    with open(_META_PATH, "w", encoding="utf-8") as f:
+def _load_seed() -> list:
+    return [dict(i, _origin="seed") for i in _load_json(_SEED_MANIFEST_PATH)]
+
+
+def _load_runtime() -> list:
+    return [dict(i, _origin="runtime") for i in _load_json(_RUNTIME_META_PATH)]
+
+
+def _save_runtime(data: list) -> None:
+    with open(_RUNTIME_META_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
+
+
+def _all() -> list:
+    return _load_seed() + _load_runtime()
 
 
 def list_pdf_sujets(pays: str | None = None, niveau: str | None = None,
                      matiere: str | None = None) -> list:
-    items = _load()
+    items = _all()
     if pays:
         items = [i for i in items if i["pays"] == pays]
     if niveau:
@@ -51,23 +70,30 @@ def list_pdf_sujets(pays: str | None = None, niveau: str | None = None,
     if matiere:
         items = [i for i in items if i["matiere"] == matiere]
     return [
-        {k: v for k, v in i.items() if k != "filename"}
+        {k: v for k, v in i.items() if k not in ("filename", "_origin")}
         for i in items
     ]
 
 
 def get_pdf_sujet(sujet_id: str) -> dict | None:
-    for i in _load():
+    for i in _all():
         if i["id"] == sujet_id:
             return i
     return None
 
 
+def get_pdf_dir(entry: dict) -> str:
+    return SEED_DIR if entry.get("_origin") == "seed" else RUNTIME_PDF_DIR
+
+
 def add_pdf_sujet(pays: str, niveau: str, matiere: str, annee: int, titre: str,
                    source: str, file_bytes: bytes) -> dict:
+    """Ajout RUNTIME (ephemere sur Render gratuit - voir docstring du module).
+    Pour un ajout permanent, transmettre le fichier a l'assistant pour qu'il
+    l'ajoute a pdf_seed/manifest.json et le commit."""
     sujet_id = uuid.uuid4().hex[:16]
     filename = f"{sujet_id}.pdf"
-    with open(os.path.join(PDF_DIR, filename), "wb") as f:
+    with open(os.path.join(RUNTIME_PDF_DIR, filename), "wb") as f:
         f.write(file_bytes)
 
     entry = {
@@ -82,22 +108,22 @@ def add_pdf_sujet(pays: str, niveau: str, matiere: str, annee: int, titre: str,
         "added": date.today().isoformat(),
     }
     with _LOCK:
-        data = _load()
+        data = _load_json(_RUNTIME_META_PATH)
         data.append(entry)
-        _save(data)
-    return entry
+        _save_runtime(data)
+    return dict(entry, _origin="runtime")
 
 
 def delete_pdf_sujet(sujet_id: str) -> bool:
     with _LOCK:
-        data = _load()
+        data = _load_json(_RUNTIME_META_PATH)
         entry = next((i for i in data if i["id"] == sujet_id), None)
         if not entry:
-            return False
+            return False  # les PDF "seed" ne se suppriment pas via l'API - editer le repo
         data = [i for i in data if i["id"] != sujet_id]
-        _save(data)
+        _save_runtime(data)
         try:
-            os.remove(os.path.join(PDF_DIR, entry["filename"]))
+            os.remove(os.path.join(RUNTIME_PDF_DIR, entry["filename"]))
         except OSError:
             pass
         return True

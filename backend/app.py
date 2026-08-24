@@ -533,7 +533,7 @@ def get_pdf_sujet_file(sujet_id):
     if not entry:
         return jsonify({"error": "PDF introuvable"}), 404
     return send_from_directory(
-        pdf_library.PDF_DIR, entry["filename"],
+        pdf_library.get_pdf_dir(entry), entry["filename"],
         mimetype="application/pdf",
         download_name=entry["titre"] + ".pdf",
     )
