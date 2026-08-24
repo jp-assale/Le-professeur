@@ -6,6 +6,32 @@
     return API_BASE + path;
   }
 
+  // Connexion instable frequente sur le terrain (Afrique de l'Ouest) : les
+  // lectures simples (GET) reessaient automatiquement avant d'abandonner,
+  // avec un delai maximum par tentative pour ne jamais rester bloque sans
+  // retour visuel a l'ecran.
+  async function fetchWithRetry(url, options, retries, timeoutMs) {
+    retries = retries === undefined ? 2 : retries;
+    timeoutMs = timeoutMs === undefined ? 15000 : timeoutMs;
+    let lastError;
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const res = await fetch(url, Object.assign({}, options, { signal: controller.signal }));
+        clearTimeout(timeoutId);
+        return res;
+      } catch (e) {
+        clearTimeout(timeoutId);
+        lastError = e;
+        if (attempt < retries) {
+          await new Promise((r) => setTimeout(r, 500 * (attempt + 1)));
+        }
+      }
+    }
+    throw lastError;
+  }
+
   const chatEl = document.getElementById("chat");
   const form = document.getElementById("composer");
   const input = document.getElementById("question-input");
@@ -86,7 +112,7 @@
   }
 
   async function loadCurriculum() {
-    const res = await fetch(apiUrl("/api/curriculum"));
+    const res = await fetchWithRetry(apiUrl("/api/curriculum"));
     const data = await res.json();
 
     data.pays.forEach((p) => {
@@ -139,8 +165,8 @@
     });
     try {
       const [pdfSujets, exercices] = await Promise.all([
-        fetch(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json()),
-        fetch(apiUrl("/api/epreuves?" + params.toString())).then((r) => r.json()),
+        fetchWithRetry(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json()),
+        fetchWithRetry(apiUrl("/api/epreuves?" + params.toString())).then((r) => r.json()),
       ]);
       epreuvesList.innerHTML = "";
 
@@ -236,7 +262,7 @@
 
   async function loadQuota() {
     try {
-      const res = await fetch(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)));
+      const res = await fetchWithRetry(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)));
       const data = await res.json();
       isPremium = !!data.premium;
       setQuota(data.remaining, data.limit);
@@ -713,15 +739,12 @@
 
   progressBtn.addEventListener("click", async () => {
     progressOverlay.hidden = false;
-    progressContent.innerHTML = '<p class="epreuves-empty">Chargement… (jusqu\'à 60s si le serveur se réveille)</p>';
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 60000);
+    progressContent.innerHTML = '<p class="epreuves-empty">Chargement… (nouvelle tentative automatique si ça ne répond pas)</p>';
     try {
-      const res = await fetch(
+      const res = await fetchWithRetry(
         apiUrl("/api/progress?device_id=" + encodeURIComponent(DEVICE_ID)),
-        { signal: controller.signal }
+        undefined, 2, 15000
       );
-      clearTimeout(timeoutId);
       if (!res.ok) {
         progressContent.innerHTML = '<p class="epreuves-empty">Erreur serveur (' + res.status + '). Réessaie plus tard.</p>';
         return;
