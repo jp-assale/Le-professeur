@@ -59,10 +59,6 @@
   const corrPhoto = document.getElementById("corr-photo");
   const corrBareme = document.getElementById("corr-bareme");
   const corrSubmit = document.getElementById("corr-submit");
-  const progressBtn = document.getElementById("progress-btn");
-  const progressOverlay = document.getElementById("progress-overlay");
-  const progressClose = document.getElementById("progress-close");
-  const progressContent = document.getElementById("progress-content");
 
   let lastBotMessage = "";
   let isPremium = false;
@@ -733,55 +729,6 @@
       corrSubmit.disabled = false;
       corrSubmit.textContent = "Faire corriger";
     }
-  });
-
-  // --- Suivi de progression ----------------------------------------------
-
-  progressBtn.addEventListener("click", async () => {
-    progressOverlay.hidden = false;
-    progressContent.innerHTML = '<p class="epreuves-empty">Chargement… (nouvelle tentative automatique si ça ne répond pas)</p>';
-    try {
-      const res = await fetchWithRetry(
-        apiUrl("/api/progress?device_id=" + encodeURIComponent(DEVICE_ID)),
-        undefined, 2, 15000
-      );
-      if (!res.ok) {
-        progressContent.innerHTML = '<p class="epreuves-empty">Erreur serveur (' + res.status + '). Réessaie plus tard.</p>';
-        return;
-      }
-      const data = await res.json();
-      if (!data.matieres || !data.matieres.length) {
-        progressContent.innerHTML = '<p class="epreuves-empty">Pas encore d\'activité enregistrée — pose des questions, fais un quiz !</p>';
-        return;
-      }
-      progressContent.innerHTML = "";
-      data.matieres.forEach((m) => {
-        const row = document.createElement("div");
-        row.className = "progress-row";
-        const pct = m.avg_score_pct;
-        row.innerHTML =
-          '<div class="matiere-name">' + m.matiere + "</div>" +
-          '<div class="progress-stats">' + m.questions + " question(s) posée(s)" +
-          (m.quiz_count ? " · " + m.quiz_count + " quiz/test(s), score moyen " + pct + "%" : "") +
-          "</div>" +
-          (pct !== null && pct !== undefined
-            ? '<div class="progress-bar-track"><div class="progress-bar-fill" style="width:' + pct + '%"></div></div>'
-            : "");
-        progressContent.appendChild(row);
-      });
-    } catch (e) {
-      clearTimeout(timeoutId);
-      console.error("Erreur /api/progress:", e);
-      const msg = e.name === "AbortError"
-        ? "Le serveur met trop de temps à répondre (plus de 60s). Vérifie ta connexion et réessaie."
-        : "Connexion impossible (" + (e.message || e) + "). Vérifie ta connexion et réessaie.";
-      progressContent.innerHTML = '<p class="epreuves-empty">' + msg + '</p>';
-    }
-  });
-
-  progressClose.addEventListener("click", () => { progressOverlay.hidden = true; });
-  progressOverlay.addEventListener("click", (e) => {
-    if (e.target === progressOverlay) progressOverlay.hidden = true;
   });
 
   loadCurriculum();
