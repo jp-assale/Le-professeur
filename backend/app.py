@@ -46,7 +46,7 @@ app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
 # origine (https://localhost dans la WebView) - CORS doit etre ouvert sur
 # /api/* pour que ces appels ne soient pas bloques par le navigateur.
 CORS(app, resources={r"/api/*": {"origins": "*"}})
-client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
+client = Anthropic(api_key=ANTHROPIC_API_KEY, timeout=45.0) if ANTHROPIC_API_KEY else None
 
 
 def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
