@@ -52,11 +52,6 @@
   const upgradeLink = document.getElementById("upgrade-link");
   const quizBtn = document.getElementById("quiz-btn");
   const diagnosticBtn = document.getElementById("diagnostic-btn");
-  const correctionBtn = document.getElementById("correction-btn");
-  const correctionPanel = document.getElementById("correction-panel");
-  const corrReponse = document.getElementById("corr-reponse");
-  const corrPhoto = document.getElementById("corr-photo");
-  const corrSubmit = document.getElementById("corr-submit");
 
   let lastBotMessage = "";
   let isPremium = false;
@@ -247,7 +242,6 @@
   }
 
   toggleEpreuvesBtn.addEventListener("click", () => {
-    correctionPanel.hidden = true;
     epreuvesPanel.hidden = !epreuvesPanel.hidden;
     if (!epreuvesPanel.hidden) loadEpreuvesList();
   });
@@ -658,67 +652,6 @@
   quizBtn.addEventListener("click", () => startQuiz(false));
   diagnosticBtn.addEventListener("click", () => startQuiz(true));
 
-  // --- Correction de copie ----------------------------------------------
-
-  correctionBtn.addEventListener("click", () => {
-    epreuvesPanel.hidden = true;
-    correctionPanel.hidden = !correctionPanel.hidden;
-  });
-
-  corrSubmit.addEventListener("click", async () => {
-    const reponseTexte = corrReponse.value.trim();
-    const photoFile = corrPhoto.files[0];
-
-    if (!reponseTexte && !photoFile) {
-      window.alert("Écris ta copie (question + réponse) ou joins-en une photo.");
-      return;
-    }
-
-    corrSubmit.disabled = true;
-    corrSubmit.textContent = "Correction en cours…";
-    correctionPanel.hidden = true;
-
-    addMessage("✍️ Copie envoyée pour correction" + (photoFile ? " (photo)" : ""), "msg-user");
-    const loadingEl = addMessage("Le Professeur corrige ta copie…", "msg-loading");
-
-    try {
-      const body = {
-        device_id: DEVICE_ID,
-        pays: selectPays.value,
-        niveau: selectNiveau.value,
-        matiere: selectMatiere.value,
-        reponse_texte: reponseTexte,
-      };
-      if (photoFile) {
-        body.mime_type = photoFile.type;
-        body.data = await fileToBase64(photoFile);
-      }
-      const res = await fetch(apiUrl("/api/correction-copie"), {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      const data = await res.json();
-      loadingEl.remove();
-
-      if (!res.ok) {
-        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
-        if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
-        return;
-      }
-      addMessage(data.answer, "msg-bot");
-      isPremium = !!data.premium;
-      setQuota(data.remaining, undefined);
-      corrReponse.value = "";
-      corrPhoto.value = "";
-    } catch (e) {
-      loadingEl.remove();
-      addMessage("Connexion impossible. Réessaie plus tard.", "msg-error");
-    } finally {
-      corrSubmit.disabled = false;
-      corrSubmit.textContent = "Faire corriger";
-    }
-  });
 
   loadCurriculum();
   loadQuota();

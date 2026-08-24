@@ -49,9 +49,6 @@
     <button type="button" id="diagnostic-btn" class="epreuves-toggle" title="Diagnostic de niveau">
       🎯 Diagnostic
     </button>
-    <button type="button" id="correction-btn" class="epreuves-toggle" title="Faire corriger ma copie">
-      ✍️ Corriger ma copie
-    </button>
     <span class="epreuve-active" id="epreuve-active" hidden></span>
     <button type="button" id="quit-epreuve-btn" class="epreuve-quit" hidden>
       ✕ Question libre
@@ -66,19 +63,6 @@
     <ul class="epreuves-list" id="epreuves-list"></ul>
   </div>
 
-  <div class="correction-panel" id="correction-panel" hidden>
-    <p class="epreuves-note">
-      Écris ou photographie ta copie (question + ta réponse) — Le Professeur
-      la corrige comme un vrai examinateur.
-    </p>
-    <div class="admin-field">
-      <textarea id="corr-reponse" rows="5" placeholder="Écris ici ta question et ta réponse, ou laisse vide et joins une photo de ta copie"></textarea>
-    </div>
-    <div class="admin-field">
-      <input type="file" id="corr-photo" accept="image/jpeg,image/png,image/webp,image/gif,application/pdf">
-    </div>
-    <button type="button" id="corr-submit">Faire corriger</button>
-  </div>
 
   <main class="chat" id="chat">
     <div class="msg msg-bot">
