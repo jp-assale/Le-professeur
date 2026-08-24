@@ -156,15 +156,30 @@
     formData.append("source", document.getElementById("f-source").value);
     formData.append("file", document.getElementById("f-file").files[0]);
 
+    const file = document.getElementById("f-file").files[0];
+    if (file && file.size > 19 * 1024 * 1024) {
+      msg.textContent = "Fichier trop volumineux (" + Math.round(file.size / 1024 / 1024) + " Mo, max 20 Mo).";
+      msg.className = "admin-msg err";
+      return;
+    }
+
     try {
       const res = await fetch("/api/admin/pdf-sujets", {
         method: "POST",
         headers: { "X-Admin-Token": tokenInput.value },
         body: formData,
       });
-      const data = await res.json();
+      let data;
+      try {
+        data = await res.json();
+      } catch (parseErr) {
+        msg.textContent = "Reponse serveur invalide (statut " + res.status + "). " +
+          "Le fichier est peut-etre trop volumineux pour l'hebergeur, ou le serveur redemarrait - reessaie.";
+        msg.className = "admin-msg err";
+        return;
+      }
       if (!res.ok) {
-        msg.textContent = data.error || "Erreur inconnue.";
+        msg.textContent = data.error || ("Erreur (statut " + res.status + ").");
         msg.className = "admin-msg err";
         return;
       }
@@ -173,7 +188,7 @@
       document.getElementById("pdf-form").reset();
       loadList();
     } catch (err) {
-      msg.textContent = "Connexion impossible.";
+      msg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
       msg.className = "admin-msg err";
     }
   });
