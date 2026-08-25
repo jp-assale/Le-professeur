@@ -108,25 +108,36 @@ Fait :
   `progress_store` en arrière-plan, prêt à réafficher un tableau de bord plus
   tard si besoin.
 
+- **Icônes réelles générées** (`backend/gen_icons.py` - chapeau de diplôme blanc
+  sur fond vert marque) : PWA (`frontend/icons/`) et toutes les densités
+  Android (mipmap-*), relancer le script si le design doit changer
+- **Package Android finalisé** : `com.leprofesseur.app` (remplace le
+  `com.aida.assistant` provisoire) - permanent maintenant que l'APK debug a
+  été partagé, à ne plus changer
+- **Build signé prêt pour le Play Store** : clé de signature générée
+  (`keystore/le-professeur-release.keystore`, **jamais commit, à sauvegarder
+  ailleurs aussi** - sa perte empêche toute mise à jour future de l'appli),
+  configurée dans `android/keystore.properties` (non commit). `bundleRelease`
+  produit l'AAB signé à uploader sur Play Console
+- **Bibliothèque de vrais PDF avec stockage permanent** (`backend/pdf_seed/`,
+  committé dans git - survit aux redéploiements, contrairement aux uploads
+  via `/admin.html` qui restent éphémères sur Render gratuit) - 1 sujet réel
+  ajouté (BEPC Anglais 2026, Côte d'Ivoire), à enrichir
+
 Pas encore fait (décisions à prendre avec toi) :
-- **Icônes PWA réelles** (`frontend/icons/icon-192.png`, `icon-512.png` manquants)
-  — l'APK actuel utilise les icônes par défaut de Capacitor, à remplacer avant
-  publication
+- **Compte Google Play Console** — 25$ US, paiement unique, à créer par toi
+  (je ne peux pas créer de compte ni entrer d'infos de paiement à ta place).
+  Une fois fait : uploader `app-release.aab`, remplir la fiche (description,
+  captures d'écran, formulaire Data Safety), soumettre à la revue Google
 - **Vrai paiement CinetPay** — compte marchand en cours de création (RCCM
   disponible), en attente de leur réponse sur le bug d'inscription
-- **Stockage persistant** — sur Render gratuit, tout fichier local (quota,
-  abonnements, PDF ajoutés...) disparaît au redéploiement. Nécessaire avant la
-  prod : disque payant Render, ou migration vers une vraie base de données /
-  stockage objet (S3, Cloudflare R2 pour les PDF)
-- **APK non signé pour la release** — celui compilé est un build *debug*
-  (installable pour tester, pas publiable tel quel). Il faudra générer une clé
-  de signature et un build *release* avant le Play Store
-- **Aucun vrai sujet PDF officiel encore ajouté** — la bibliothèque existe mais
-  est vide ; à remplir via `/admin.html` une fois des PDF légitimement obtenus
-  (CNECE, annales papier scannées...)
-- **`appId` encore un placeholder** (`com.aida.assistant` dans
-  `capacitor.config.json`) — à figer avant la première publication (permanent
-  une fois publié)
+- **Stockage persistant pour le reste** (quota, abonnements) — sur Render
+  gratuit, ces fichiers disparaissent au redéploiement (les PDF, eux, sont
+  maintenant permanents via `pdf_seed/`). Nécessaire avant la prod : disque
+  payant Render, ou vraie base de données
+- **Plus de vrais PDF officiels** — la bibliothèque n'en a qu'un ; donne-moi le
+  chemin de tout fichier obtenu légitimement (CNECE, annales papier
+  scannées...) pour que je l'ajoute de façon permanente
 
 ## Compiler l'APK
 
