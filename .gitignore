@@ -3,6 +3,8 @@ backend/.env
 backend/.fly_token
 backend/.github_token
 ADMIN TOKEN.txt
+keystore/
+android/keystore.properties
 
 # Donnees locales (quota, abonnements, logs, PDF ajoutes) - pas de code, pas a versionner
 backend/*.json

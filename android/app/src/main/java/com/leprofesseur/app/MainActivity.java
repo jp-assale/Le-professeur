@@ -1,4 +1,4 @@
-package com.aida.assistant;
+package com.leprofesseur.app;
 
 import com.getcapacitor.BridgeActivity;
 
