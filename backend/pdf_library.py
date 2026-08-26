@@ -70,7 +70,7 @@ def list_pdf_sujets(pays: str | None = None, niveau: str | None = None,
     if matiere:
         items = [i for i in items if i["matiere"] == matiere]
     return [
-        {k: v for k, v in i.items() if k not in ("filename", "_origin")}
+        {k: v for k, v in i.items() if k not in ("filename", "_origin", "_source")}
         for i in items
     ]
 

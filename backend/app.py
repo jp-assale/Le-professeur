@@ -1,10 +1,12 @@
+import base64
 import json
 import os
 import re
 
+import requests
 from anthropic import Anthropic
 from dotenv import load_dotenv
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, redirect, request, send_from_directory
 from flask_cors import CORS
 
 import cinetpay
@@ -532,11 +534,99 @@ def get_pdf_sujet_file(sujet_id):
     entry = pdf_library.get_pdf_sujet(sujet_id)
     if not entry:
         return jsonify({"error": "PDF introuvable"}), 404
+    if entry.get("url"):
+        # PDF heberge ailleurs (ex: GitHub Releases) - trop volumineux pour
+        # etre committe dans le depot. On redirige simplement vers le fichier.
+        return redirect(entry["url"], code=302)
     return send_from_directory(
         pdf_library.get_pdf_dir(entry), entry["filename"],
         mimetype="application/pdf",
         download_name=entry["titre"] + ".pdf",
     )
+
+
+@app.route("/api/pdf-sujets/<sujet_id>/corriger", methods=["POST"])
+def pdf_sujet_corriger(sujet_id):
+    """Recupere le PDF cote serveur (local ou externe) et lance la correction
+    IA directement, sans faire telecharger/reuploader le fichier par l'eleve -
+    important vu la taille de certains PDF et le cout des donnees mobiles."""
+    if client is None:
+        return jsonify({
+            "error": "ANTHROPIC_API_KEY non configuree cote serveur. "
+                     "Voir backend/.env.example."
+        }), 500
+
+    entry = pdf_library.get_pdf_sujet(sujet_id)
+    if not entry:
+        return jsonify({"error": "PDF introuvable"}), 404
+
+    payload = request.get_json(silent=True) or {}
+    device_id = payload.get("device_id", "")
+    pays = payload.get("pays") or entry["pays"]
+    niveau = payload.get("niveau") or entry["niveau"]
+    matiere = payload.get("matiere") or entry["matiere"]
+
+    if not device_id:
+        return jsonify({"error": "device_id manquant"}), 400
+
+    premium = subscription.is_premium(device_id)
+    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
+    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+    weight = UPLOAD_QUESTION_WEIGHT
+
+    if not premium and (remaining_before < weight or ip_remaining < weight):
+        return jsonify({
+            "error": "quota_depasse",
+            "message": "Ouvrir ce sujet compte pour "
+                       f"{weight} questions et il ne t'en reste pas assez "
+                       "aujourd'hui. Reviens demain, ou passe en illimite.",
+            "remaining": min(remaining_before, ip_remaining),
+        }), 429
+
+    try:
+        if entry.get("url"):
+            resp = requests.get(entry["url"], timeout=25)
+            resp.raise_for_status()
+            file_bytes = resp.content
+        else:
+            path = os.path.join(pdf_library.get_pdf_dir(entry), entry["filename"])
+            with open(path, "rb") as f:
+                file_bytes = f.read()
+        data_b64 = base64.b64encode(file_bytes).decode("ascii")
+    except Exception as exc:
+        return jsonify({"error": f"Impossible de recuperer le PDF: {exc}"}), 502
+
+    system_prompt = build_upload_system_prompt(pays, niveau, matiere)
+    content = [
+        {
+            "type": "document",
+            "source": {"type": "base64", "media_type": "application/pdf", "data": data_b64},
+        },
+        {
+            "type": "text",
+            "text": "Voici mon sujet, aide-moi a le comprendre etape par etape.",
+        },
+    ]
+
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=900,
+            system=system_prompt,
+            messages=[{"role": "user", "content": content}],
+        )
+        answer = "".join(b.text for b in response.content if b.type == "text")
+        usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens)
+    except Exception as exc:
+        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+
+    if premium:
+        remaining_after = remaining_before
+    else:
+        quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
+        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
+
+    return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 
 
 def _require_admin():

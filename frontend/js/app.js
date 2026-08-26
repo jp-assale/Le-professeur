@@ -402,16 +402,45 @@
   });
 
   async function workOnPdfSujet(sujetId, titre) {
+    currentEpreuveId = null;
+    history = [];
+    clearChat();
+    addMessage("📄 " + titre, "msg-user");
+    const loadingEl = addMessage("Le Professeur regarde ton sujet…", "msg-loading");
+    epreuvesPanel.hidden = true;
+
     try {
-      const res = await fetch(apiUrl("/api/pdf-sujets/" + encodeURIComponent(sujetId) + "/fichier"));
+      const res = await fetch(apiUrl("/api/pdf-sujets/" + encodeURIComponent(sujetId) + "/corriger"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          device_id: DEVICE_ID,
+          pays: selectPays.value,
+          niveau: selectNiveau.value,
+          matiere: selectMatiere.value,
+        }),
+      });
+      const data = await res.json();
+      loadingEl.remove();
+
       if (!res.ok) {
-        addMessage("Impossible de récupérer ce PDF.", "msg-error");
+        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
         return;
       }
-      const blob = await res.blob();
-      const file = new File([blob], titre + ".pdf", { type: "application/pdf" });
-      processFileForCorrection(file, titre);
+
+      addMessage(data.answer, "msg-bot");
+      history = [
+        { role: "user", content: "[L'élève travaille sur : " + titre + "]" },
+        { role: "assistant", content: data.answer },
+      ];
+      epreuveActive.hidden = false;
+      epreuveActive.textContent = "Sujet : " + titre;
+      quitEpreuveBtn.hidden = false;
+      isPremium = !!data.premium;
+      setQuota(data.remaining, undefined);
     } catch (e) {
+      loadingEl.remove();
       addMessage("Connexion impossible. Réessaie plus tard.", "msg-error");
     }
   }
