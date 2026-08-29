@@ -232,14 +232,10 @@
       matiere: selectMatiere.value,
     });
     try {
-      const [pdfSujets, exercices] = await Promise.all([
-        fetchWithRetry(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json()),
-        fetchWithRetry(apiUrl("/api/epreuves?" + params.toString())).then((r) => r.json()),
-      ]);
+      const pdfSujets = await fetchWithRetry(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json());
       epreuvesList.innerHTML = "";
 
       if (pdfSujets.length) {
-        epreuvesList.appendChild(sectionHeader("📄 Sujets officiels (PDF)"));
         pdfSujets.forEach((s) => {
           const li = document.createElement("li");
           li.className = "pdf-sujet-item";
@@ -260,54 +256,12 @@
           li.appendChild(workBtn);
           epreuvesList.appendChild(li);
         });
-      }
-
-      if (exercices.length) {
-        epreuvesList.appendChild(sectionHeader("📝 Exercices type (originaux)"));
-        exercices.forEach((ep) => {
-          const li = document.createElement("li");
-          const btn = document.createElement("button");
-          btn.type = "button";
-          btn.textContent = ep.titre + " (" + ep.annee + ")";
-          btn.addEventListener("click", () => startEpreuve(ep.id));
-          li.appendChild(btn);
-          epreuvesList.appendChild(li);
-        });
-      }
-
-      if (!pdfSujets.length && !exercices.length) {
+      } else {
         epreuvesList.innerHTML =
           '<li class="epreuves-empty">Aucun sujet pour cette combinaison pays / niveau / matière pour l\'instant.</li>';
       }
     } catch (e) {
       epreuvesList.innerHTML = '<li class="epreuves-empty">Erreur de chargement.</li>';
-    }
-  }
-
-  function sectionHeader(text) {
-    const li = document.createElement("li");
-    li.className = "epreuves-section-header";
-    li.textContent = text;
-    return li;
-  }
-
-  async function startEpreuve(id) {
-    try {
-      const res = await fetch(apiUrl("/api/epreuves/" + encodeURIComponent(id)));
-      if (!res.ok) return;
-      const ep = await res.json();
-
-      currentEpreuveId = ep.id;
-      history = [];
-      clearChat();
-      addMessage("📄 " + ep.titre + " (" + ep.annee + ")\n\n" + ep.enonce, "msg-bot");
-
-      epreuveActive.hidden = false;
-      epreuveActive.textContent = "Sujet : " + ep.titre;
-      quitEpreuveBtn.hidden = false;
-      epreuvesPanel.hidden = true;
-    } catch (e) {
-      // silencieux: l'utilisateur peut réessayer
     }
   }
 
@@ -365,7 +319,6 @@
           niveau: selectNiveau.value,
           matiere: selectMatiere.value,
           question: question,
-          epreuve_id: currentEpreuveId,
           history: history,
         }),
       });

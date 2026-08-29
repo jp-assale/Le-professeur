@@ -1,5 +1,4 @@
-"""Bibliotheque de VRAIS sujets d'examens en PDF (contrairement a epreuves.py
-qui contient des exercices originaux ecrits par l'IA).
+"""Bibliotheque de VRAIS sujets d'examens en PDF.
 
 Deux sources, fusionnees a la lecture :
 

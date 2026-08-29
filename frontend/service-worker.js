@@ -47,11 +47,11 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// GET /api/curriculum et /api/epreuves(/:id) sont mis en cache pour rester
-// consultables hors-ligne (faiblesse #5 : cout des donnees en Afrique de
-// l'Ouest). Les appels IA (POST /api/ask, /api/upload-exercice, /api/report)
-// ont besoin du reseau a chaque fois et ne sont jamais mis en cache.
-const CACHEABLE_API_GET = [/^\/api\/curriculum$/, /^\/api\/epreuves(\/.*)?$/];
+// GET /api/curriculum est mis en cache pour rester consultable hors-ligne
+// (faiblesse #5 : cout des donnees en Afrique de l'Ouest). Les appels IA
+// (POST /api/ask, /api/upload-exercice, /api/report) ont besoin du reseau a
+// chaque fois et ne sont jamais mis en cache.
+const CACHEABLE_API_GET = [/^\/api\/curriculum$/];
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;

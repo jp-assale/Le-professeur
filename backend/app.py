@@ -18,7 +18,6 @@ import reports
 import subscription
 import usage_log
 from curriculum import MATIERES, NIVEAUX, PAYS, niveau_label
-from epreuves import get_epreuve, list_epreuves
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -52,7 +51,7 @@ client = Anthropic(api_key=ANTHROPIC_API_KEY, timeout=45.0) if ANTHROPIC_API_KEY
 
 
 def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
-                         epreuve: dict | None = None, profile_note: str | None = None) -> str:
+                         profile_note: str | None = None) -> str:
     pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
     niveau = niveau_label(pays_code, niveau_code)
 
@@ -66,37 +65,6 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
             "\n\nCe que tu sais deja de cet eleve suite a un diagnostic precedent "
             f"(adapte tes explications en consequence, sans le repeter mot pour mot) :\n"
             f"{profile_note}"
-        )
-
-    if epreuve:
-        return (
-            base + "\n\n"
-            f"L'eleve travaille actuellement sur un sujet type '{epreuve['titre']}'. "
-            "Voici l'enonce complet de l'exercice:\n"
-            "---\n" + epreuve["enonce"] + "\n---\n\n"
-            "Tu joues le role d'un correcteur qui aide l'eleve a resoudre CET exercice "
-            "precis, pas un autre.\n\n"
-            "Regles:\n"
-            "- Au tout premier message, ne donne pas la solution: demande a l'eleve ce "
-            "qu'il/elle a deja essaye ou par ou il/elle veut commencer.\n"
-            "- Guide etape par etape, valide ce qui est juste, corrige les erreurs avec "
-            "bienveillance, sans donner la reponse finale trop vite.\n"
-            "- Si l'eleve bloque completement ou demande explicitement la solution, "
-            "donne alors une correction complete et pedagogique de la question posee.\n"
-            "- Reste concis a chaque message: 200-250 mots maximum.\n"
-            "- Si l'eleve devie completement vers un sujet hors devoirs, ramene-le "
-            "poliment vers l'exercice en cours.\n"
-            "- Pour toute formule ou notation mathematique (puissances, indices, "
-            "fractions, racines, fonctions...), utilise TOUJOURS la notation LaTeX "
-            "entre signes dollar: $...$ pour une formule dans le texte, $$...$$ "
-            "pour une formule mise en avant sur sa propre ligne. Exemple: $P_{n+1} "
-            "= P_n + 40$ plutot que 'P indice n+1 = P indice n + 40'.\n"
-            "- Dans une formule entre signes dollar, ne mets QUE des symboles, "
-            "chiffres et lettres de variables - jamais de mots francais entiers. "
-            "Exemple: $C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$ + energie, "
-            "et PAS '... + $\\text{Energie (ATP)}$' (les mots francais restent "
-            "en dehors des $...$, sinon la formule devient trop longue pour "
-            "tenir sur un petit ecran de telephone)."
         )
 
     return (
@@ -533,22 +501,6 @@ def get_curriculum():
     return jsonify({"pays": PAYS, "niveaux": NIVEAUX, "matieres": MATIERES})
 
 
-@app.route("/api/epreuves", methods=["GET"])
-def get_epreuves():
-    pays = request.args.get("pays") or None
-    niveau = request.args.get("niveau") or None
-    matiere = request.args.get("matiere") or None
-    return jsonify(list_epreuves(pays, niveau, matiere))
-
-
-@app.route("/api/epreuves/<epreuve_id>", methods=["GET"])
-def get_one_epreuve(epreuve_id):
-    epreuve = get_epreuve(epreuve_id)
-    if not epreuve:
-        return jsonify({"error": "epreuve introuvable"}), 404
-    return jsonify(epreuve)
-
-
 @app.route("/api/pdf-sujets", methods=["GET"])
 def get_pdf_sujets():
     pays = request.args.get("pays") or None
@@ -839,7 +791,6 @@ def ask():
     niveau = payload.get("niveau", "college")
     matiere = payload.get("matiere", "Mathematiques")
     question = (payload.get("question") or "").strip()
-    epreuve_id = payload.get("epreuve_id")
     history = payload.get("history") or []
 
     if not device_id:
@@ -862,9 +813,8 @@ def ask():
             "remaining": min(remaining_before, ip_remaining),
         }), 429
 
-    epreuve = get_epreuve(epreuve_id) if epreuve_id else None
     profile_note = progress_store.get_profile_note(device_id, matiere)
-    system_prompt = build_system_prompt(pays, niveau, matiere, epreuve, profile_note)
+    system_prompt = build_system_prompt(pays, niveau, matiere, profile_note)
 
     # Historique fourni par le frontend, limite pour controler le cout des appels API.
     safe_history = [

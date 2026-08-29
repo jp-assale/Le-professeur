@@ -206,17 +206,6 @@ body {
   padding: 12px 0;
 }
 
-.epreuves-section-header {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--text-muted);
-  margin: 10px 0 2px;
-}
-
-.epreuves-section-header:first-child { margin-top: 0; }
-
 .pdf-sujet-item {
   display: flex;
   flex-direction: column;
