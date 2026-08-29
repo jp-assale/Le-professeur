@@ -131,11 +131,27 @@
     }
   }
 
+  // Une equation longue (chimie, biologie...) peut deborder la largeur de la
+  // bulle sur un petit ecran - reduit sa taille pour qu'elle reste entiere-
+  // ment visible sans que l'eleve ait besoin de deviner qu'il faut la faire
+  // defiler horizontalement. Ne peut mesurer la largeur reelle qu'une fois
+  // l'element attache au DOM visible, donc appele apres chatEl.appendChild.
+  function shrinkOverflowingMath(container) {
+    container.querySelectorAll(".katex-display").forEach((displayEl) => {
+      const katexEl = displayEl.querySelector(".katex");
+      if (!katexEl || displayEl.scrollWidth <= displayEl.clientWidth + 1) return;
+      const ratio = displayEl.clientWidth / displayEl.scrollWidth;
+      const currentSize = parseFloat(getComputedStyle(katexEl).fontSize) || 16;
+      katexEl.style.fontSize = Math.max(currentSize * ratio * 0.95, 10) + "px";
+    });
+  }
+
   function addMessage(text, cls) {
     const div = document.createElement("div");
     div.className = "msg " + cls;
+    let content = null;
     if (cls === "msg-bot") {
-      const content = document.createElement("div");
+      content = document.createElement("div");
       content.className = "msg-content";
       renderBotContent(content, text);
       div.appendChild(content);
@@ -145,6 +161,7 @@
       div.appendChild(p);
     }
     chatEl.appendChild(div);
+    if (content) shrinkOverflowingMath(content);
     chatEl.scrollTop = chatEl.scrollHeight;
     if (cls === "msg-bot") lastBotMessage = text;
     return div;

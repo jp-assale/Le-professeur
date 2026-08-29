@@ -475,11 +475,39 @@ body {
 
 .msg-content a { color: var(--green); }
 
+/* display:block permet au tableau de defiler horizontalement sur petit
+   ecran plutot que de deborder de la bulle ou d'ecraser illisiblement les
+   colonnes. */
+.msg-content table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0.4em 0 0.6em 0;
+  font-size: 0.86em;
+}
+
+.msg-content th, .msg-content td {
+  border: 1px solid var(--border);
+  padding: 0.35em 0.55em;
+  text-align: left;
+  white-space: normal;
+}
+
+.msg-content th {
+  background: var(--green-light);
+  color: var(--green-dark);
+}
+
 .msg-bot {
   align-self: flex-start;
   background: var(--surface);
   border: 1px solid var(--border);
   border-bottom-left-radius: 4px;
+  /* Un peu plus large que les autres bulles - les reponses de l'IA
+     contiennent parfois des equations (chimie, biologie) qui ont besoin de
+     place pour tenir sans defilement horizontal. */
+  max-width: 94%;
 }
 
 .msg-user {

@@ -90,7 +90,13 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
             "fractions, racines, fonctions...), utilise TOUJOURS la notation LaTeX "
             "entre signes dollar: $...$ pour une formule dans le texte, $$...$$ "
             "pour une formule mise en avant sur sa propre ligne. Exemple: $P_{n+1} "
-            "= P_n + 40$ plutot que 'P indice n+1 = P indice n + 40'."
+            "= P_n + 40$ plutot que 'P indice n+1 = P indice n + 40'.\n"
+            "- Dans une formule entre signes dollar, ne mets QUE des symboles, "
+            "chiffres et lettres de variables - jamais de mots francais entiers. "
+            "Exemple: $C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$ + energie, "
+            "et PAS '... + $\\text{Energie (ATP)}$' (les mots francais restent "
+            "en dehors des $...$, sinon la formule devient trop longue pour "
+            "tenir sur un petit ecran de telephone)."
         )
 
     return (
@@ -134,7 +140,11 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str) -
         "Pour toute formule ou notation mathematique (puissances, indices, fractions, "
         "racines, fonctions...), utilise TOUJOURS la notation LaTeX entre signes "
         "dollar: $...$ pour une formule dans le texte, $$...$$ pour une formule mise "
-        "en avant sur sa propre ligne - y compris en retranscrivant l'enonce.\n"
+        "en avant sur sa propre ligne - y compris en retranscrivant l'enonce. Dans une "
+        "formule entre signes dollar, ne mets QUE des symboles, chiffres et lettres de "
+        "variables - jamais de mots francais entiers (ils restent en dehors des $...$, "
+        "sinon la formule devient trop longue pour tenir sur un petit ecran de "
+        "telephone).\n"
         "Reste concis: 250-300 mots maximum pour ce premier message."
     )
 
@@ -153,7 +163,11 @@ def build_quiz_system_prompt(pays_code: str, niveau_code: str, matiere: str, suj
         "markdown ```, exactement dans ce format :\n"
         '{"questions": [{"question": "...", "options": ["...", "...", "...", "..."], '
         '"correct_index": 0, "explication": "..."}]}\n'
-        "L'explication justifie en une phrase pourquoi la reponse est correcte."
+        "L'explication justifie en une phrase pourquoi la reponse est correcte.\n"
+        "Pour toute formule (puissances, indices, fractions, formules chimiques...), "
+        "utilise la notation LaTeX entre signes dollar: $...$. Dans une formule entre "
+        "signes dollar, ne mets QUE des symboles, chiffres et lettres de variables - "
+        "jamais de mots francais entiers, qui restent en dehors des $...$."
     )
 
 
@@ -633,7 +647,7 @@ def pdf_sujet_corriger(sujet_id):
         try:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=900,
+                max_tokens=1200,
                 system=system_prompt,
                 messages=[{"role": "user", "content": content}],
             )
@@ -863,7 +877,7 @@ def ask():
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=800,
+            max_tokens=1100,
             system=system_prompt,
             messages=messages,
         )
