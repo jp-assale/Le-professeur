@@ -4,23 +4,22 @@
 # nom de diplome different).
 EXAMEN_COLLEGE = {
     "mali": "DEF (Diplome d'Etudes Fondamentales)",
-    "niger": "DEF (Diplome d'Etudes Fondamentales)",
     "guinee": "DEF (Diplome d'Etudes Fondamentales)",
     "senegal": "BEPC (Brevet de Fin d'Etudes Moyennes)",
     "cote_ivoire": "BEPC (Brevet d'Etudes du Premier Cycle)",
     "burkina_faso": "BEPC (Brevet d'Etudes du Premier Cycle)",
     "benin": "BEPC (Brevet d'Etudes du Premier Cycle)",
-    "togo": "BEPC (Brevet d'Etudes du Premier Cycle)",
 }
 
+# Togo et Niger retires temporairement (2026-08-29): aucun sujet d'examen
+# dans la bibliotheque pour ces pays - les reintroduire ici (et dans
+# play-store-fiche.txt) seulement une fois du contenu importe pour eux.
 PAYS = [
     {"code": "mali", "label": "Mali"},
     {"code": "senegal", "label": "Senegal"},
     {"code": "cote_ivoire", "label": "Cote d'Ivoire"},
     {"code": "burkina_faso", "label": "Burkina Faso"},
     {"code": "benin", "label": "Benin"},
-    {"code": "togo", "label": "Togo"},
-    {"code": "niger", "label": "Niger"},
     {"code": "guinee", "label": "Guinee"},
 ]
 
