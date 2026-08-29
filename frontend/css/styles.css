@@ -417,6 +417,64 @@ body {
   margin: 0.4em 0;
 }
 
+/* Le contenu des reponses de l'IA est rendu depuis du Markdown (voir
+   renderBotContent dans app.js) - la structure HTML (p, ul, h1-h3...) gere
+   deja les espacements, donc on desactive le pre-wrap herite de .msg qui
+   servait uniquement quand le texte brut etait affiche tel quel. */
+.msg-bot .msg-content {
+  white-space: normal;
+}
+
+.msg-content > *:first-child { margin-top: 0; }
+.msg-content > *:last-child { margin-bottom: 0; }
+
+.msg-content p { margin: 0 0 0.6em 0; }
+
+.msg-content ul, .msg-content ol {
+  margin: 0.2em 0 0.6em 0;
+  padding-left: 1.3em;
+}
+
+.msg-content li { margin: 0.15em 0; }
+
+.msg-content h1, .msg-content h2, .msg-content h3, .msg-content h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin: 0.8em 0 0.35em 0;
+}
+
+.msg-content strong { font-weight: 700; }
+
+.msg-content code {
+  background: var(--green-light);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+.msg-content pre {
+  background: var(--green-light);
+  padding: 0.6em 0.8em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.4em 0 0.6em 0;
+}
+
+.msg-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.msg-content blockquote {
+  margin: 0.3em 0 0.6em 0;
+  padding-left: 0.8em;
+  border-left: 3px solid var(--border);
+  color: var(--text-muted);
+}
+
+.msg-content a { color: var(--green); }
+
 .msg-bot {
   align-self: flex-start;
   background: var(--surface);

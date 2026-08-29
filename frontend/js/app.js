@@ -84,24 +84,67 @@
     return id;
   }
 
+  // Formules entre $...$ / $$...$$ / \(...\) / \[...\] - protegees avant le
+  // passage par le parseur Markdown (des soulignes/asterisques a l'interieur
+  // d'une formule, ex $P_{n+1}$, seraient sinon mal interpretes comme de la
+  // mise en forme), puis restaurees et rendues par KaTeX une fois le HTML en
+  // place.
+  const MATH_REGEX = /\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\$[^\n$]+?\$|\\\([^\n]+?\\\)/g;
+  const MATH_DELIMITERS = [
+    { left: "$$", right: "$$", display: true },
+    { left: "\\[", right: "\\]", display: true },
+    { left: "$", right: "$", display: false },
+    { left: "\\(", right: "\\)", display: false },
+  ];
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // Version allegee pour les contextes ou le Markdown bloc (listes, titres)
+  // ne convient pas structurellement - texte de question/option de quiz,
+  // qui peut neanmoins contenir des formules a rendre.
+  function renderMathOnly(container, text) {
+    container.textContent = text;
+    if (window.renderMathInElement) {
+      renderMathInElement(container, { delimiters: MATH_DELIMITERS, throwOnError: false });
+    }
+  }
+
+  function renderBotContent(container, text) {
+    const mathBlocks = [];
+    const protectedText = text.replace(MATH_REGEX, (m) => {
+      mathBlocks.push(m);
+      return "@@MATH" + (mathBlocks.length - 1) + "@@";
+    });
+
+    let html = window.marked
+      ? marked.parse(protectedText, { breaks: true })
+      : escapeHtml(protectedText).replace(/\n/g, "<br>");
+
+    html = html.replace(/@@MATH(\d+)@@/g, (_, i) => escapeHtml(mathBlocks[Number(i)]));
+
+    container.innerHTML = window.DOMPurify ? DOMPurify.sanitize(html) : html;
+
+    if (window.renderMathInElement) {
+      renderMathInElement(container, { delimiters: MATH_DELIMITERS, throwOnError: false });
+    }
+  }
+
   function addMessage(text, cls) {
     const div = document.createElement("div");
     div.className = "msg " + cls;
-    const p = document.createElement("p");
-    p.textContent = text;
-    div.appendChild(p);
-    chatEl.appendChild(div);
-    if (cls === "msg-bot" && window.renderMathInElement) {
-      renderMathInElement(p, {
-        delimiters: [
-          { left: "$$", right: "$$", display: true },
-          { left: "\\[", right: "\\]", display: true },
-          { left: "$", right: "$", display: false },
-          { left: "\\(", right: "\\)", display: false },
-        ],
-        throwOnError: false,
-      });
+    if (cls === "msg-bot") {
+      const content = document.createElement("div");
+      content.className = "msg-content";
+      renderBotContent(content, text);
+      div.appendChild(content);
+    } else {
+      const p = document.createElement("p");
+      p.textContent = text;
+      div.appendChild(p);
     }
+    chatEl.appendChild(div);
     chatEl.scrollTop = chatEl.scrollHeight;
     if (cls === "msg-bot") lastBotMessage = text;
     return div;
@@ -550,14 +593,19 @@
       const qDiv = document.createElement("div");
       qDiv.className = "quiz-question";
       const p = document.createElement("p");
-      p.textContent = (qi + 1) + ". " + q.question;
+      const numSpan = document.createElement("span");
+      numSpan.textContent = (qi + 1) + ". ";
+      p.appendChild(numSpan);
+      const qContent = document.createElement("span");
+      renderMathOnly(qContent, q.question);
+      p.appendChild(qContent);
       qDiv.appendChild(p);
 
       q.options.forEach((opt, oi) => {
         const optBtn = document.createElement("button");
         optBtn.type = "button";
         optBtn.className = "quiz-option";
-        optBtn.textContent = opt;
+        renderMathOnly(optBtn, opt);
         optBtn.addEventListener("click", () => {
           if (optBtn.disabled) return;
           qDiv.querySelectorAll(".quiz-option").forEach((b) => b.classList.remove("selected"));
@@ -570,7 +618,7 @@
       const expl = document.createElement("div");
       expl.className = "quiz-explication";
       expl.hidden = true;
-      expl.textContent = q.explication || "";
+      renderMathOnly(expl, q.explication || "");
       qDiv.appendChild(expl);
 
       box.appendChild(qDiv);
