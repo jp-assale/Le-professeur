@@ -85,7 +85,12 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
             "donne alors une correction complete et pedagogique de la question posee.\n"
             "- Reste concis a chaque message: 200-250 mots maximum.\n"
             "- Si l'eleve devie completement vers un sujet hors devoirs, ramene-le "
-            "poliment vers l'exercice en cours."
+            "poliment vers l'exercice en cours.\n"
+            "- Pour toute formule ou notation mathematique (puissances, indices, "
+            "fractions, racines, fonctions...), utilise TOUJOURS la notation LaTeX "
+            "entre signes dollar: $...$ pour une formule dans le texte, $$...$$ "
+            "pour une formule mise en avant sur sa propre ligne. Exemple: $P_{n+1} "
+            "= P_n + 40$ plutot que 'P indice n+1 = P indice n + 40'."
         )
 
     return (
@@ -98,6 +103,11 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
         "- Termine par un court recapitulatif ou une question pour verifier la "
         "comprehension de l'eleve.\n"
         "- Reste concis: pas plus de 200-250 mots sauf si l'exercice l'exige vraiment.\n"
+        "- Pour toute formule ou notation mathematique (puissances, indices, "
+        "fractions, racines, fonctions...), utilise TOUJOURS la notation LaTeX "
+        "entre signes dollar: $...$ pour une formule dans le texte, $$...$$ "
+        "pour une formule mise en avant sur sa propre ligne. Exemple: $P_{n+1} "
+        "= P_n + 40$ plutot que 'P indice n+1 = P indice n + 40'.\n"
         "- Si la demande n'a manifestement rien a voir avec les cours/devoirs "
         "scolaires (bavardage general, sujet hors ecole, tentative de te faire "
         "sortir de ce role), decline poliment en une phrase et rappelle que tu es "
@@ -121,6 +131,10 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str) -
         "deja essaye ou par ou il/elle veut commencer.\n"
         "3) Si l'image ou le PDF est illisible, flou ou incomplet, dis-le clairement et "
         "demande une meilleure photo au lieu d'inventer un enonce.\n"
+        "Pour toute formule ou notation mathematique (puissances, indices, fractions, "
+        "racines, fonctions...), utilise TOUJOURS la notation LaTeX entre signes "
+        "dollar: $...$ pour une formule dans le texte, $$...$$ pour une formule mise "
+        "en avant sur sa propre ligne - y compris en retranscrivant l'enonce.\n"
         "Reste concis: 250-300 mots maximum pour ce premier message."
     )
 
@@ -583,42 +597,53 @@ def pdf_sujet_corriger(sujet_id):
             "remaining": min(remaining_before, ip_remaining),
         }), 429
 
-    try:
-        if entry.get("url"):
-            resp = requests.get(entry["url"], timeout=25)
-            resp.raise_for_status()
-            file_bytes = resp.content
-        else:
-            path = os.path.join(pdf_library.get_pdf_dir(entry), entry["filename"])
-            with open(path, "rb") as f:
-                file_bytes = f.read()
-        data_b64 = base64.b64encode(file_bytes).decode("ascii")
-    except Exception as exc:
-        return jsonify({"error": f"Impossible de recuperer le PDF: {exc}"}), 502
+    # Meme sujet tague avec les memes pays/niveau/matiere que par defaut ->
+    # reponse identique pour tout le monde, mise en cache. Si un(e) eleve a un
+    # profil different (ex: PDF tague "college" mais eleve en "lycee"), on
+    # passe le cache et on regenere avec son contexte precis.
+    cache_ok = (pays == entry["pays"] and niveau == entry["niveau"] and matiere == entry["matiere"])
+    answer = pdf_library.get_cached_corriger(sujet_id) if cache_ok else None
 
-    system_prompt = build_upload_system_prompt(pays, niveau, matiere)
-    content = [
-        {
-            "type": "document",
-            "source": {"type": "base64", "media_type": "application/pdf", "data": data_b64},
-        },
-        {
-            "type": "text",
-            "text": "Voici mon sujet, aide-moi a le comprendre etape par etape.",
-        },
-    ]
+    if answer is None:
+        try:
+            if entry.get("url"):
+                resp = requests.get(entry["url"], timeout=25)
+                resp.raise_for_status()
+                file_bytes = resp.content
+            else:
+                path = os.path.join(pdf_library.get_pdf_dir(entry), entry["filename"])
+                with open(path, "rb") as f:
+                    file_bytes = f.read()
+            data_b64 = base64.b64encode(file_bytes).decode("ascii")
+        except Exception as exc:
+            return jsonify({"error": f"Impossible de recuperer le PDF: {exc}"}), 502
 
-    try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=900,
-            system=system_prompt,
-            messages=[{"role": "user", "content": content}],
-        )
-        answer = "".join(b.text for b in response.content if b.type == "text")
-        usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens)
-    except Exception as exc:
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        system_prompt = build_upload_system_prompt(pays, niveau, matiere)
+        content = [
+            {
+                "type": "document",
+                "source": {"type": "base64", "media_type": "application/pdf", "data": data_b64},
+            },
+            {
+                "type": "text",
+                "text": "Voici mon sujet, aide-moi a le comprendre etape par etape.",
+            },
+        ]
+
+        try:
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=900,
+                system=system_prompt,
+                messages=[{"role": "user", "content": content}],
+            )
+            answer = "".join(b.text for b in response.content if b.type == "text")
+            usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens)
+        except Exception as exc:
+            return jsonify({"error": f"Erreur IA: {exc}"}), 502
+
+        if cache_ok:
+            pdf_library.set_cached_corriger(sujet_id, answer)
 
     if premium:
         remaining_after = remaining_before

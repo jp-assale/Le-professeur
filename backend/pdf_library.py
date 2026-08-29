@@ -32,6 +32,9 @@ _RUNTIME_META_PATH = os.path.join(DATA_DIR, "pdf_sujets.json")
 RUNTIME_PDF_DIR = os.path.join(DATA_DIR, "pdfs")
 os.makedirs(RUNTIME_PDF_DIR, exist_ok=True)
 
+_CORRIGER_CACHE_PATH = os.path.join(DATA_DIR, "pdf_corriger_cache.json")
+_CACHE_LOCK = threading.Lock()
+
 
 def _load_json(path: str) -> list:
     if not os.path.exists(path):
@@ -127,3 +130,22 @@ def delete_pdf_sujet(sujet_id: str) -> bool:
         except OSError:
             pass
         return True
+
+
+def get_cached_corriger(sujet_id: str) -> str | None:
+    """Reponse deja generee pour la premiere ouverture de ce sujet - evite de
+    rappeler l'IA (cout, latence) et surtout garantit que tous les eleves qui
+    ouvrent le meme sujet voient exactement le meme enonce retranscrit,
+    au lieu d'une nouvelle transcription potentiellement differente a chaque fois."""
+    with _CACHE_LOCK:
+        cache = _load_json(_CORRIGER_CACHE_PATH)
+    return cache.get(sujet_id) if isinstance(cache, dict) else None
+
+
+def set_cached_corriger(sujet_id: str, answer: str) -> None:
+    with _CACHE_LOCK:
+        raw = _load_json(_CORRIGER_CACHE_PATH)
+        cache = raw if isinstance(raw, dict) else {}
+        cache[sujet_id] = answer
+        with open(_CORRIGER_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)

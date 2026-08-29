@@ -91,6 +91,17 @@
     p.textContent = text;
     div.appendChild(p);
     chatEl.appendChild(div);
+    if (cls === "msg-bot" && window.renderMathInElement) {
+      renderMathInElement(p, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+        ],
+        throwOnError: false,
+      });
+    }
     chatEl.scrollTop = chatEl.scrollHeight;
     if (cls === "msg-bot") lastBotMessage = text;
     return div;

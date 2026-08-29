@@ -411,6 +411,12 @@ body {
 
 .msg p { margin: 0; }
 
+.msg .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0.4em 0;
+}
+
 .msg-bot {
   align-self: flex-start;
   background: var(--surface);

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "C:/Users/jp.assale/AppData/Local/Programs/Python/Python314/python.exe",
+      "runtimeArgs": ["backend/app.py"],
+      "port": 5000
+    }
+  ]
+}
