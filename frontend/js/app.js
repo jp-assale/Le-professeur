@@ -65,7 +65,7 @@
     window.open(url, "_blank", "noopener");
   }
 
-  const WELCOME_TEXT = "Salut ! Je suis JPA Assistant Scolaire, ton assistant pour les devoirs. " +
+  const WELCOME_TEXT = "Salut ! Je suis Le Prof JPA, ton assistant pour les devoirs. " +
     "Choisis ton pays, ton niveau et ta matière ci-dessus, puis pose-moi ta " +
     "question de cours ou d'exercice — je t'explique étape par étape, je ne " +
     "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
