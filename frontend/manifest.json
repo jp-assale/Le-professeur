@@ -1,6 +1,6 @@
 {
-  "name": "Le Professeur — Assistant scolaire IA",
-  "short_name": "Le Professeur",
+  "name": "JPA Assistant Scolaire",
+  "short_name": "JPA Assistant",
   "description": "Aide aux devoirs par IA pour les élèves d'Afrique de l'Ouest francophone",
   "start_url": "/",
   "display": "standalone",

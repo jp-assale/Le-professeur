@@ -1,11 +1,13 @@
-# Le Professeur — Assistant scolaire IA (MVP)
+# JPA Assistant Scolaire (MVP)
 
 Appli web (PWA) qui aide les élèves d'Afrique de l'Ouest francophone à comprendre
 leurs devoirs grâce à l'IA — pas juste des annales PDF statiques, une vraie
 explication étape par étape, adaptée au pays/niveau/matière choisis.
 
-Nom "Le Professeur" — l'`appId` technique (`com.aida.assistant`) reste un
-placeholder distinct, à figer avant publication (voir plus bas).
+Nom affiché "JPA Assistant Scolaire" — l'`appId` technique
+(`com.leprofesseur.app`) reste distinct du nom affiché, ne pas le modifier
+une fois l'app publiée sur le Play Store (il identifie l'app de façon
+permanente, lié au keystore de signature).
 
 ## Comment ça marche
 
@@ -85,7 +87,7 @@ Fait :
   `frontend/admin.html`) : page d'administration pour ajouter/supprimer de
   vrais sujets PDF (protégée par `ADMIN_TOKEN`), affichés séparément des
   exercices originaux dans le panneau "Sujets d'examen", avec un bouton
-  "Corriger avec Le Professeur" qui réutilise le pipeline vision existant
+  "Corriger avec JPA Assistant Scolaire" qui réutilise le pipeline vision existant
 - **APK compilé et connecté au backend réel** — testé, le chat répond vraiment
   sur un appareil
 - **Quiz automatique** (`📝`) : génère 3-4 QCM sur la dernière explication donnée,

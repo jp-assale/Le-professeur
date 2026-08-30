@@ -1,6 +1,6 @@
 {
   "appId": "com.leprofesseur.app",
-  "appName": "Le Professeur",
+  "appName": "JPA Assistant Scolaire",
   "webDir": "frontend",
   "server": {
     "androidScheme": "https"

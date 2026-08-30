@@ -729,7 +729,7 @@ def subscribe():
         result = cinetpay.create_payment(
             transaction_id=transaction_id,
             amount_fcfa=SUBSCRIPTION_PRICE_FCFA,
-            description="Abonnement illimite - Le Professeur",
+            description="Abonnement illimite - JPA Assistant Scolaire",
             notify_url=f"{PUBLIC_BASE_URL}/api/cinetpay/webhook",
             return_url=f"{PUBLIC_BASE_URL}/",
         )

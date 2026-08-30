@@ -65,7 +65,7 @@
     window.open(url, "_blank", "noopener");
   }
 
-  const WELCOME_TEXT = "Salut ! Je suis Le Professeur, ton assistant pour les devoirs. " +
+  const WELCOME_TEXT = "Salut ! Je suis JPA Assistant Scolaire, ton assistant pour les devoirs. " +
     "Choisis ton pays, ton niveau et ta matière ci-dessus, puis pose-moi ta " +
     "question de cours ou d'exercice — je t'explique étape par étape, je ne " +
     "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
@@ -249,7 +249,7 @@
 
           const workBtn = document.createElement("button");
           workBtn.type = "button";
-          workBtn.textContent = "💬 Corriger avec Le Professeur";
+          workBtn.textContent = "💬 Corriger avec JPA Assistant Scolaire";
           workBtn.addEventListener("click", () => workOnPdfSujet(s.id, s.titre));
 
           li.appendChild(viewLink);
@@ -307,7 +307,7 @@
     input.style.height = "auto";
     sendBtn.disabled = true;
 
-    const loadingEl = addMessage("Le Professeur réfléchit…", "msg-loading");
+    const loadingEl = addMessage("JPA Assistant Scolaire réfléchit…", "msg-loading");
 
     try {
       const res = await fetch(apiUrl("/api/ask"), {
@@ -370,7 +370,7 @@
     history = [];
     clearChat();
     addMessage("📎 " + (displayLabel || file.name), "msg-user");
-    const loadingEl = addMessage("Le Professeur regarde ton sujet…", "msg-loading");
+    const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
     sendBtn.disabled = true;
     attachBtn.disabled = true;
     epreuvesPanel.hidden = true;
@@ -430,7 +430,7 @@
     history = [];
     clearChat();
     addMessage("📄 " + titre, "msg-user");
-    const loadingEl = addMessage("Le Professeur regarde ton sujet…", "msg-loading");
+    const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
     epreuvesPanel.hidden = true;
 
     try {
@@ -476,7 +476,7 @@
     }
     const excerpt = lastBotMessage.length > 200 ? lastBotMessage.slice(0, 200) + "…" : lastBotMessage;
     shareToWhatsApp(
-      "🎓 Le Professeur vient de m'expliquer ça :\n\n« " + excerpt + " »\n\n" +
+      "🎓 JPA Assistant Scolaire vient de m'expliquer ça :\n\n« " + excerpt + " »\n\n" +
       "Essaie toi aussi, c'est gratuit :"
     );
   });
@@ -501,7 +501,7 @@
       return;
     }
     const comment = window.prompt(
-      "Qu'est-ce qui semble faux ou pose problème dans la dernière réponse du Professeur ? " +
+      "Qu'est-ce qui semble faux ou pose problème dans la dernière réponse ? " +
       "(optionnel, tu peux laisser vide)",
       ""
     );
@@ -642,7 +642,7 @@
         shareScoreBtn.addEventListener("click", () => {
           shareToWhatsApp(
             "🎯 J'ai eu " + score + "/" + questions.length + " à un quiz de " + matiere +
-            " sur Le Professeur (assistant IA gratuit pour les devoirs) !\n\nEssaie toi aussi :"
+            " sur JPA Assistant Scolaire (assistant IA gratuit pour les devoirs) !\n\nEssaie toi aussi :"
           );
         });
         box.appendChild(shareScoreBtn);
