@@ -4,10 +4,12 @@ import os
 import re
 
 import requests
+import sentry_sdk
 from anthropic import Anthropic
 from dotenv import load_dotenv
 from flask import Flask, jsonify, redirect, request, send_from_directory
 from flask_cors import CORS
+from sentry_sdk.integrations.flask import FlaskIntegration
 
 import cinetpay
 import pdf_library
@@ -20,6 +22,19 @@ import usage_log
 from curriculum import MATIERES, NIVEAUX, PAYS, niveau_label
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+
+# Surveillance d'erreurs en production (Sentry, gratuit jusqu'a 5k evenements/
+# mois) - desactive automatiquement si SENTRY_DSN n'est pas defini, donc sans
+# effet en local/dev tant qu'on n'a pas cree de compte Sentry et rempli .env.
+SENTRY_DSN = os.environ.get("SENTRY_DSN")
+if SENTRY_DSN:
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        integrations=[FlaskIntegration()],
+        environment=os.environ.get("SENTRY_ENVIRONMENT", "production"),
+        traces_sample_rate=0.0,  # pas de suivi de performance, erreurs uniquement
+        send_default_pii=False,  # ne jamais remonter le contenu des questions/photos des eleves
+    )
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 DAILY_FREE_LIMIT = int(os.environ.get("DAILY_FREE_LIMIT", "5"))

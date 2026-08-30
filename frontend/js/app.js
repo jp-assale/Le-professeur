@@ -37,6 +37,7 @@
   const input = document.getElementById("question-input");
   const sendBtn = document.getElementById("send-btn");
   const quotaBadge = document.getElementById("quota-badge");
+  const streakBadge = document.getElementById("streak-badge");
   const selectPays = document.getElementById("select-pays");
   const selectNiveau = document.getElementById("select-niveau");
   const selectMatiere = document.getElementById("select-matiere");
@@ -165,6 +166,46 @@
     chatEl.scrollTop = chatEl.scrollHeight;
     if (cls === "msg-bot") lastBotMessage = text;
     return div;
+  }
+
+  // Serie de jours consecutifs d'utilisation - purement locale (localStorage),
+  // pas d'appel serveur, pour eviter le probleme rencontre avec l'ancien
+  // tableau de progression (lenteur due au reveil du serveur Render gratuit).
+  const STREAK_DATE_KEY = "aida_streak_date";
+  const STREAK_COUNT_KEY = "aida_streak_count";
+
+  function todayISO() {
+    return new Date().toISOString().slice(0, 10);
+  }
+
+  function renderStreak(count) {
+    if (!count || count < 2) {
+      streakBadge.hidden = true;
+      return;
+    }
+    streakBadge.hidden = false;
+    streakBadge.textContent = "🔥 " + count + "j";
+  }
+
+  function showStoredStreak() {
+    renderStreak(parseInt(localStorage.getItem(STREAK_COUNT_KEY) || "0", 10));
+  }
+
+  // Appele apres une vraie interaction (question envoyee, sujet ouvert, quiz
+  // genere) - pas juste a l'ouverture de l'appli, pour que la serie reflete
+  // un usage reel plutot qu'un onglet laisse ouvert en arriere-plan.
+  function recordActivity() {
+    const today = todayISO();
+    const lastDate = localStorage.getItem(STREAK_DATE_KEY);
+    if (lastDate === today) return;
+
+    let count = parseInt(localStorage.getItem(STREAK_COUNT_KEY) || "0", 10);
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    count = lastDate === yesterday ? count + 1 : 1;
+
+    localStorage.setItem(STREAK_DATE_KEY, today);
+    localStorage.setItem(STREAK_COUNT_KEY, String(count));
+    renderStreak(count);
   }
 
   function setQuota(remaining, limit) {
@@ -332,6 +373,7 @@
       }
 
       addMessage(data.answer, "msg-bot");
+      recordActivity();
       history.push({ role: "user", content: question });
       history.push({ role: "assistant", content: data.answer });
       isPremium = !!data.premium;
@@ -399,6 +441,7 @@
       }
 
       addMessage(data.answer, "msg-bot");
+      recordActivity();
       history = [
         { role: "user", content: "[L'élève a envoyé une photo/PDF de son sujet]" },
         { role: "assistant", content: data.answer },
@@ -454,6 +497,7 @@
       }
 
       addMessage(data.answer, "msg-bot");
+      recordActivity();
       history = [
         { role: "user", content: "[L'élève travaille sur : " + titre + "]" },
         { role: "assistant", content: data.answer },
@@ -731,6 +775,7 @@
         return;
       }
       renderQuizInChat(data.questions, diagnostic ? "diagnostic" : "topic");
+      recordActivity();
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
     } catch (e) {
@@ -747,6 +792,7 @@
 
   loadCurriculum();
   loadQuota();
+  showStoredStreak();
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
