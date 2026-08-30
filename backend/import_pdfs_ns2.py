@@ -46,6 +46,9 @@ MATIERE_PATTERNS = [
     (re.compile(r"fran[cç]ais|r[ée]daction|dict[ée]e|linguistique", re.I), "Francais"),
     (re.compile(r"anglais", re.I), "Anglais"),
     (re.compile(r"philosophie", re.I), "Philosophie"),
+    (re.compile(r"[ée]conomie", re.I), "Economie"),
+    (re.compile(r"allemand", re.I), "Allemand"),
+    (re.compile(r"espagnol", re.I), "Espagnol"),
 ]
 
 

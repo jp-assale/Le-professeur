@@ -37,6 +37,9 @@ MATIERES = [
     "Histoire-Geographie",
     "Anglais",
     "Philosophie",
+    "Economie",
+    "Allemand",
+    "Espagnol",
 ]
 
 
