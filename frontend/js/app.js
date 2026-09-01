@@ -355,7 +355,7 @@
 
           const workBtn = document.createElement("button");
           workBtn.type = "button";
-          workBtn.textContent = "💬 Corriger avec JPA Assistant Scolaire";
+          workBtn.textContent = "💬 Corriger avec Le Prof JPA";
           workBtn.addEventListener("click", () => workOnPdfSujet(s.id, s.titre));
 
           li.appendChild(viewLink);
@@ -415,7 +415,7 @@
     input.style.height = "auto";
     sendBtn.disabled = true;
 
-    const loadingEl = addMessage("JPA Assistant Scolaire réfléchit…", "msg-loading");
+    const loadingEl = addMessage("Le Prof JPA réfléchit…", "msg-loading");
 
     try {
       const res = await fetch(apiUrl("/api/ask"), {
@@ -482,7 +482,7 @@
     clearPersistedChatState();
     clearChat();
     addMessage("📎 " + (displayLabel || file.name), "msg-user");
-    const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
+    const loadingEl = addMessage("Le Prof JPA regarde ton sujet…", "msg-loading");
     sendBtn.disabled = true;
     attachBtn.disabled = true;
     epreuvesPanel.hidden = true;
@@ -546,7 +546,7 @@
     clearPersistedChatState();
     clearChat();
     addMessage("📄 " + titre, "msg-user");
-    const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
+    const loadingEl = addMessage("Le Prof JPA regarde ton sujet…", "msg-loading");
     epreuvesPanel.hidden = true;
 
     try {
@@ -594,7 +594,7 @@
     }
     const excerpt = lastBotMessage.length > 200 ? lastBotMessage.slice(0, 200) + "…" : lastBotMessage;
     shareToWhatsApp(
-      "🎓 JPA Assistant Scolaire vient de m'expliquer ça :\n\n« " + excerpt + " »\n\n" +
+      "🎓 Le Prof JPA vient de m'expliquer ça :\n\n« " + excerpt + " »\n\n" +
       "Essaie toi aussi, c'est gratuit :"
     );
   });

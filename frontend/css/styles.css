@@ -36,7 +36,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 16px;
+  /* max(...) pousse l'en-tete sous la barre de statut du telephone (heure,
+     batterie) sur Android/iOS, ou le viewport couvre tout l'ecran
+     (viewport-fit=cover) - sans ca le texte se melange avec les icones
+     systeme en haut de l'ecran. */
+  padding: max(14px, env(safe-area-inset-top)) 16px 14px;
   background: var(--green);
   color: #fff;
   flex-shrink: 0;
