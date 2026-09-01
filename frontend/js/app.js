@@ -165,7 +165,72 @@
     if (content) shrinkOverflowingMath(content);
     chatEl.scrollTop = chatEl.scrollHeight;
     if (cls === "msg-bot") lastBotMessage = text;
+    if (!restoringChat && (cls === "msg-user" || cls === "msg-bot")) {
+      chatLog.push({ text, cls });
+      persistChatState();
+    }
     return div;
+  }
+
+  // Conserve la conversation en cours (localStorage) pour que revenir dans
+  // l'appli apres etre passe en arriere-plan ne remette pas a zero - sur
+  // Android, le systeme tue souvent le processus en arriere-plan sur les
+  // telephones d'entree de gamme (peu de RAM), ce qui recharge la page a
+  // vide et effacait toute la discussion (retour direct de plusieurs
+  // testeurs du test ferme).
+  const CHAT_STATE_KEY = "aida_chat_state";
+  let chatLog = [];
+  let restoringChat = false;
+
+  function persistChatState() {
+    try {
+      localStorage.setItem(CHAT_STATE_KEY, JSON.stringify({
+        chatLog: chatLog,
+        history: history,
+        lastBotMessage: lastBotMessage,
+        epreuveActiveText: epreuveActive.hidden ? null : epreuveActive.textContent,
+      }));
+    } catch (e) {
+      // stockage plein ou indisponible (navigation privee) - tant pis, pas bloquant
+    }
+  }
+
+  function clearPersistedChatState() {
+    try {
+      localStorage.removeItem(CHAT_STATE_KEY);
+    } catch (e) {}
+  }
+
+  function restoreChatState() {
+    let raw;
+    try {
+      raw = localStorage.getItem(CHAT_STATE_KEY);
+    } catch (e) {
+      return false;
+    }
+    if (!raw) return false;
+    let saved;
+    try {
+      saved = JSON.parse(raw);
+    } catch (e) {
+      return false;
+    }
+    if (!saved || !Array.isArray(saved.chatLog) || !saved.chatLog.length) return false;
+
+    restoringChat = true;
+    clearChat();
+    saved.chatLog.forEach((m) => addMessage(m.text, m.cls));
+    restoringChat = false;
+
+    chatLog = saved.chatLog;
+    history = Array.isArray(saved.history) ? saved.history : [];
+    lastBotMessage = saved.lastBotMessage || lastBotMessage;
+    if (saved.epreuveActiveText) {
+      epreuveActive.hidden = false;
+      epreuveActive.textContent = saved.epreuveActiveText;
+      quitEpreuveBtn.hidden = false;
+    }
+    return true;
   }
 
   // Serie de jours consecutifs d'utilisation - purement locale (localStorage),
@@ -309,6 +374,8 @@
   function quitEpreuve() {
     currentEpreuveId = null;
     history = [];
+    chatLog = [];
+    clearPersistedChatState();
     clearChat();
     addMessage(WELCOME_TEXT, "msg-bot");
     epreuveActive.hidden = true;
@@ -376,6 +443,7 @@
       recordActivity();
       history.push({ role: "user", content: question });
       history.push({ role: "assistant", content: data.answer });
+      persistChatState();
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
     } catch (err) {
@@ -410,6 +478,8 @@
 
     currentEpreuveId = null;
     history = [];
+    chatLog = [];
+    clearPersistedChatState();
     clearChat();
     addMessage("📎 " + (displayLabel || file.name), "msg-user");
     const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
@@ -449,6 +519,7 @@
       epreuveActive.hidden = false;
       epreuveActive.textContent = "Sujet envoyé : " + (displayLabel || file.name);
       quitEpreuveBtn.hidden = false;
+      persistChatState();
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
     } catch (err) {
@@ -471,6 +542,8 @@
   async function workOnPdfSujet(sujetId, titre) {
     currentEpreuveId = null;
     history = [];
+    chatLog = [];
+    clearPersistedChatState();
     clearChat();
     addMessage("📄 " + titre, "msg-user");
     const loadingEl = addMessage("JPA Assistant Scolaire regarde ton sujet…", "msg-loading");
@@ -505,6 +578,7 @@
       epreuveActive.hidden = false;
       epreuveActive.textContent = "Sujet : " + titre;
       quitEpreuveBtn.hidden = false;
+      persistChatState();
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
     } catch (e) {
@@ -793,6 +867,7 @@
   loadCurriculum();
   loadQuota();
   showStoredStreak();
+  restoreChatState();
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
