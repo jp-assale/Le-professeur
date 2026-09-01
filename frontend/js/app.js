@@ -48,6 +48,8 @@
   const quitEpreuveBtn = document.getElementById("quit-epreuve-btn");
   const attachBtn = document.getElementById("attach-btn");
   const attachInput = document.getElementById("attach-input");
+  const cameraBtn = document.getElementById("camera-btn");
+  const cameraInput = document.getElementById("camera-input");
   const shareBtn = document.getElementById("share-btn");
   const deviceCodeBtn = document.getElementById("device-code-btn");
   const reportBtn = document.getElementById("report-btn");
@@ -532,6 +534,13 @@
   }
 
   attachBtn.addEventListener("click", () => attachInput.click());
+  cameraBtn.addEventListener("click", () => cameraInput.click());
+
+  cameraInput.addEventListener("change", () => {
+    const file = cameraInput.files[0];
+    cameraInput.value = "";
+    if (file) processFileForCorrection(file, "Photo de mon sujet");
+  });
 
   attachInput.addEventListener("change", () => {
     const file = attachInput.files[0];

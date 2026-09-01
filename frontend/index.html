@@ -80,6 +80,9 @@
   </main>
 
   <form class="composer" id="composer">
+    <button type="button" id="camera-btn" class="attach-btn"
+      aria-label="Prendre une photo de ton sujet" title="Prendre une photo">📷</button>
+    <input type="file" id="camera-input" accept="image/*" capture="environment" hidden>
     <button type="button" id="attach-btn" class="attach-btn"
       aria-label="Envoyer une photo ou un PDF de ton sujet" title="Envoyer une photo ou un PDF">📎</button>
     <input type="file" id="attach-input" accept="image/jpeg,image/png,image/webp,image/gif,application/pdf" hidden>
