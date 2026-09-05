@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-connaissance-du-vivant",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La connaissance du vivant",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La connaissance du vivant",
+  "intro": {
+    "heading": "Mise en situation : Un paysan face à l'énigme de la vie",
+    "body": "Un cultivateur du Burkina observe ses champs : pourquoi une graine devient-elle plante ? Pourquoi son enfant ressemble à ses parents ? Pourquoi certains animaux malades guérissent tandis que d'autres meurent ? Ces questions simples cachent une profonde énigme : comment connaître le vivant ? Est-ce par l'observation directe, par la raison, ou faut-il chercher les règles cachées qui gouvernent la vie ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la connaissance du vivant ?",
+    "explanation": "La connaissance du vivant est l'effort philosophique pour comprendre ce qui caractérise les êtres vivants et comment nous pouvons les connaître. Contrairement aux objets inanimés, le vivant présente une particularité : il change, il se reproduit, il s'adapte, il meurt. Le défi est donc double : identifier les traits qui définissent le vivant, et trouver les bonnes méthodes pour l'étudier sans réduire sa complexité à de simples mécanismes.",
+    "highlight": "Le vivant n'est pas une simple machine : il possède organisation, finalité interne et capacité d'auto-reproduction."
+  },
+  "example": {
+    "problem": "Analysons le cas d'une femme enceinte qui demande à un guérisseur traditionnel et à un médecin moderne comment son enfant se développe dans le ventre. Comment ces deux formes de connaissance du vivant diffèrent-elles ?",
+    "steps": [
+      "Étape 1 : Le guérisseur traditionnel observe les symptômes visibles (gonflements, mouvements) et utilise une connaissance transmise par l'expérience accumulée des générations. Il sait que la vie existe, mais il l'explique par des forces invisibles ou spirituelles.",
+      "Étape 2 : Le médecin modern observe aussi, mais il ajoute des outils (échographie, analyses biologiques) qui lui permettent de voir des structures internes : l'embryon, ses organes qui se forment, le cœur qui bat.",
+      "Étape 3 : Le guérisseur connaît le vivant de manière holistique : l'enfant à naître est lié à la mère, à la communauté, au cosmos. Sa connaissance n'isole pas l'embryon du reste.",
+      "Étape 4 : Le médecin isole les éléments : il étudie la cellule, l'ADN, les processus biochimiques. Il cherche des lois universelles qui s'appliquent partout de la même façon.",
+      "Étape 5 : Aucun des deux n'a complètement tort. Le guérisseur saisit l'unité du vivant et son inscription dans la vie réelle. Le médecin dévoile les mécanismes cachés. Mais ensemble, ils montrent que connaître le vivant demande plusieurs approches : l'observation sensible, le respect du contexte, et la rigueur de l'analyse rationnelle.",
+      "Étape 6 : La question philosophique émerge : une connaissance purement mécaniste du vivant (réduire l'embryon à des réactions chimiques) suffit-elle ? Ou avons-nous besoin de la comprendre aussi comme phénomène de vie intégrale ?"
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés exprime le mieux la difficulté philosophique de la connaissance du vivant ?",
+    "reponse_calculee": "Le vivant présente une organisation et une finalité interne que les méthodes purement mécaniques ne peuvent pas épuiser.",
+    "choices": [
+      {
+        "label": "Le vivant ne peut être connu que par l'observation directe, sans aucun instrument.",
+        "correct": false
+      },
+      {
+        "label": "Le vivant présente une organisation et une finalité interne que les méthodes purement mécaniques ne peuvent pas épuiser.",
+        "correct": true
+      },
+      {
+        "label": "Seule la biologie moderne peut vraiment connaître le vivant, les autres savoirs sont inutiles.",
+        "correct": false
+      },
+      {
+        "label": "Le vivant est identique aux objets inanimés, donc il obéit aux mêmes lois simples.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. C'est la tension centrale du chapitre : le vivant n'est pas réductible à un simple mécanisme. Il organise lui-même ses éléments vers une fin (se nourrir, se reproduire, s'adapter). Connaître le vivant exige donc de dépasser une approche purement analytique et mécaniste, tout en gardant la rigueur rationnelle. C'est ce qui fait la richesse et la difficulté de cette connaissance.",
+    "feedback_wrong": "Pas tout à fait. La question philosophique centrale n'est pas l'instrument de connaissance, ni la rivalité entre savoirs. C'est la nature même du vivant : il possède une organisation interne et une orientation vers des fins (sa propre survie, sa reproduction) que les objets inertes n'ont pas. Cela signifie que le décrire comme une pure mécanique, c'est risquer de passer à côté de ce qui le définit vraiment."
+  }
+}

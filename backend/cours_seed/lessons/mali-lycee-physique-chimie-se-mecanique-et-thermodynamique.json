@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-mecanique-et-thermodynamique",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Mécanique et thermodynamique",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Mécanique et thermodynamique",
+  "intro": {
+    "heading": "Mise en situation : Un moteur à trois-roues sous le soleil du Sahel",
+    "body": "Tu observes un bajaj (un taxi à trois-roues) qui démarre au marché de Bamako. Son moteur consomme du carburant et produit de la chaleur. Le véhicule accélère, monte une pente, puis freine. Derrière ces gestes simples se cachent des lois physiques : comment l'énergie chimique du carburant devient-elle mouvement ? Comment la chaleur et le travail sont-ils liés ? C'est le cœur de la mécanique et de la thermodynamique."
+  },
+  "concept": {
+    "heading": "Mécanique et thermodynamique : Les deux piliers du mouvement et de l'énergie",
+    "explanation": "La mécanique étudie le mouvement des objets sous l'action de forces : elle nous permet de calculer la vitesse, l'accélération, et l'énergie cinétique d'un corps. La thermodynamique, elle, s'intéresse à la chaleur, à l'énergie interne des systèmes, et à la transformation de la chaleur en travail utile. Ces deux disciplines sont intimement liées : tout moteur (le bajaj, un four, une centrale électrique) convertit de l'énergie thermique en travail mécanique.",
+    "highlight": "Théorème fondamental : L'énergie totale d'un système isolé se conserve. Elle peut passer de la forme mécanique (mouvement) à la forme thermique (chaleur), mais ne se crée ni ne se détruit."
+  },
+  "example": {
+    "problem": "Un bajaj de masse totale 800 kg (avec le conducteur et les passagers) démarre du repos et atteint une vitesse de 10 m/s après avoir parcouru 50 m sur une route horizontale. Le moteur produit une force de traction constante. Calcule l'accélération du bajaj, puis l'énergie cinétique finale. (On prendra $g = 10 \\, \\text{m/s}^2$)",
+    "steps": [
+      "Étape 1 : Identifie les données. Masse $m = 800 \\, \\text{kg}$, vitesse initiale $v_0 = 0 \\, \\text{m/s}$, vitesse finale $v = 10 \\, \\text{m/s}$, distance $d = 50 \\, \\text{m}$.",
+      "Étape 2 : Calcule l'accélération avec la formule cinématique $v^2 = v_0^2 + 2ad$. Donc $10^2 = 0 + 2 \\times a \\times 50$, ce qui donne $100 = 100a$, soit $a = 1 \\, \\text{m/s}^2$.",
+      "Étape 3 : Vérifie que cette accélération est cohérente : elle est faible mais constante, typique d'un démarrage progressif.",
+      "Étape 4 : Calcule l'énergie cinétique finale avec $E_c = \\frac{1}{2}mv^2$. On obtient $E_c = \\frac{1}{2} \\times 800 \\times 10^2 = 400 \\times 100 = 40 \\, 000 \\, \\text{J}$.",
+      "Étape 5 : Interprète : cette énergie de 40 kJ provient de la combustion du carburant dans le moteur, convertie en travail mécanique par le système thermodynamique du moteur."
+    ]
+  },
+  "quiz": {
+    "question": "Un objet de 500 kg se déplace à 6 m/s. Quelle est son énergie cinétique ?",
+    "reponse_calculee": "9000 J",
+    "choices": [
+      {
+        "label": "3000 J",
+        "correct": false
+      },
+      {
+        "label": "9000 J",
+        "correct": true
+      },
+      {
+        "label": "15000 J",
+        "correct": false
+      },
+      {
+        "label": "1500 J",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'énergie cinétique se calcule avec $E_c = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 500 \\times 6^2 = 250 \\times 36 = 9000 \\, \\text{J}$. C'est l'énergie que le moteur du bajaj doit fournir pour accélérer la charge.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que l'énergie cinétique dépend de la masse et du carré de la vitesse : $E_c = \\frac{1}{2}mv^2$. Ici, $E_c = \\frac{1}{2} \\times 500 \\times 6^2 = \\frac{1}{2} \\times 500 \\times 36 = 9000 \\, \\text{J}$. Le carré de la vitesse est crucial : c'est pourquoi doubler la vitesse quadruple l'énergie."
+  }
+}

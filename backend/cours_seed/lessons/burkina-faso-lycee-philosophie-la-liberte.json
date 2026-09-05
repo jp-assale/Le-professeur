@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-liberte",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La liberté",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La liberté",
+  "intro": {
+    "heading": "Mise en situation : une décision qui te regarde",
+    "body": "Tu es assis(e) devant ton téléphone. Tu peux choisir de réviser ta philo, d'appeler un ami, de dormir ou de regarder une vidéo. Personne ne te force. Mais attends : est-ce vraiment libre ? Tes parents t'ont dit de réviser, ton ami t'attend peut-être, tu as besoin de sommeil... Où commence ta liberté ? Où s'arrête-t-elle ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la liberté ?",
+    "explanation": "La liberté n'est pas simplement l'absence de contrainte. C'est la capacité à agir selon sa volonté propre, tout en reconnaissant que cette volonté existe dans un contexte : les lois, la société, la responsabilité envers autrui. Un(e) vrai(e) philosophe ne confond pas liberté et caprice. La liberté consiste à choisir conscient de ce qu'on choisit et de ses conséquences.",
+    "highlight": "La liberté est le pouvoir d'agir selon sa volonté, en acceptant les limites que la vie en société impose."
+  },
+  "example": {
+    "problem": "Un lycéen du Burkina Faso décide de quitter les cours pour rejoindre un groupe de musique rap sans prévenir ses parents ni le directeur. Il dit : 'Je suis libre, donc je fais ce que je veux'. Est-ce une véritable liberté ? Analyse ce cas.",
+    "steps": [
+      "Étape 1 : Le lycéen croit que la liberté = faire ce qu'on veut. Or, il oublie que liberté ≠ absence totale de règles. Il existe des règles à l'école, des obligations envers ses parents, des conséquences réelles.",
+      "Étape 2 : Vérifions : agit-il vraiment selon sa volonté consciente ? Ou fuit-il par impulsion, par rébellion ? Si c'est un réflexe émotionnel, ce n'est pas une décision libre au sens philosophique.",
+      "Étape 3 : La vraie liberté exige de connaître les conséquences. Quitter l'école sans permission peut lui fermer des portes, inquiéter sa famille. Agir librement, c'est aussi agir en sachant ce qu'on risque.",
+      "Étape 4 : Une liberté authentique respecterait les cadres : discuter avec les parents, négocier du temps pour la musique, continuer l'école. C'est plus difficile, mais c'est vrai liberté.",
+      "Étape 5 : Conclusion : le lycéen confond liberté et licence (faire n'importe quoi). La vraie liberté, c'est choisir de poursuivre ses passions DANS un contexte social responsable."
+    ]
+  },
+  "quiz": {
+    "question": "Selon ce que tu as appris, quelle affirmation défend le mieux la notion de liberté ?",
+    "reponse_calculee": "C",
+    "choices": [
+      {
+        "label": "A) La liberté, c'est faire absolument tout ce qu'on veut, sans aucune limite.",
+        "correct": false
+      },
+      {
+        "label": "B) La liberté, c'est obéir à toutes les règles de la société sans jamais les remettre en question.",
+        "correct": false
+      },
+      {
+        "label": "C) La liberté, c'est choisir consciemment ses actions en reconnaissant les limites et les conséquences.",
+        "correct": true
+      },
+      {
+        "label": "D) La liberté n'existe pas vraiment parce que nous sommes toujours contrôlés par la société.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien compris. La liberté n'est ni le chaos total (faire tout ce qu'on veut) ni l'obéissance aveugle. C'est l'équilibre : pouvoir choisir EN SACHANT ce qu'on choisit et pourquoi.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : la liberté n'est pas l'absence totale de limites (réponse A est trop extrême), ni l'obéissance complète (réponse B), ni l'impossibilité (réponse D). La vraie liberté, c'est choisir ses actes de façon réfléchie dans un cadre social."
+  }
+}

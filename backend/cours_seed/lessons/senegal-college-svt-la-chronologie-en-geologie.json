@@ -1,0 +1,70 @@
+{
+  "slug": "senegal-college-svt-la-chronologie-en-geologie",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La chronologie en géologie",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La chronologie en géologie",
+  "intro": {
+    "heading": "Mise en situation : Les couches de latérite du Sénégal",
+    "body": "Imagine que tu creuses un puits dans ta région et que tu observes différentes couches de terre et de roche, empilées les unes sur les autres. Comment sais-tu laquelle s'est formée en premier ? Les géologues utilisent des méthodes précises pour dater ces couches et raconter l'histoire de la Terre. C'est ce qu'on appelle la chronologie en géologie."
+  },
+  "concept": {
+    "heading": "La chronologie en géologie : définition et principe",
+    "explanation": "La chronologie en géologie est l'ensemble des méthodes qui permettent de déterminer l'âge des roches et des fossiles, et d'établir l'ordre de succession des événements géologiques. Il existe deux grandes approches : la chronologie relative (qui établit l'ordre sans donner l'âge exact) et la chronologie absolue (qui donne un âge en années). Le principe fondamental repose sur l'observation des couches de roches (stratigraphie) et l'étude des fossiles.",
+    "highlight": "Principe fondamental : Dans une série de couches non perturbées, la couche la plus ancienne est en bas et la plus récente en haut."
+  },
+  "concept_2": {
+    "heading": "Les deux méthodes principales",
+    "explanation": "1) La chronologie relative utilise le classement des couches et l'évolution des fossiles. Les fossiles stratégraphiques (comme certains ammonites ou trilobites) permettent de comparer des roches d'âges différents. 2) La chronologie absolue utilise la radioactivité naturelle : certains atomes instables (comme le carbone 14 ou le potassium 40) se désintègrent régulièrement au fil du temps. En mesurant la proportion d'atomes restants, on calcule l'âge précis de la roche.",
+    "highlight": "Formule de la désintégration radioactive : $N(t) = N_0 \\times e^{-\\lambda t}$ où N est le nombre d'atomes restants, $N_0$ le nombre initial, $\\lambda$ la constante de désintégration, et t le temps."
+  },
+  "example": {
+    "problem": "On observe trois couches de roches sédimentaires dans une falaise (de bas en haut : couche A, couche B, couche C). La couche A contient des fossiles de trilobites datant de 500 millions d'années. La couche C contient des fossiles de dinosaures datant de 100 millions d'années. Utilise la chronologie relative pour ordonner ces couches et dis laquelle est la plus ancienne.",
+    "steps": [
+      "Étape 1 : Identifier les couches. On a trois couches empilées : A (bas), B (milieu), C (haut).",
+      "Étape 2 : Appliquer le principe fondamental de la stratigraphie. La couche la plus basse s'est toujours formée en premier.",
+      "Étape 3 : Conclure sur l'ordre de formation. Couche A (la plus ancienne) → Couche B (intermédiaire) → Couche C (la plus récente).",
+      "Étape 4 : Vérifier avec les fossiles. Les trilobites (500 millions d'années) en A et les dinosaures (100 millions d'années) en C confirment cet ordre : A est bien plus ancienne que C.",
+      "Résultat : Par chronologie relative, la couche A est la plus ancienne, la couche C est la plus récente, et la couche B est intermédiaire."
+    ]
+  },
+  "example_2": {
+    "problem": "Un géologue mesure la radioactivité d'une roche volcanique. Il compte 12 500 atomes de potassium 40 dans l'échantillon actuel, alors que la roche en contenait initialement 50 000. La demi-vie du potassium 40 est de 1,25 milliard d'années. Calcule l'âge approximatif de cette roche.",
+    "steps": [
+      "Étape 1 : Identifier les données. $N(t) = 12 500$ atomes restants, $N_0 = 50 000$ atomes initiaux, demi-vie = 1,25 milliard d'années.",
+      "Étape 2 : Calculer le nombre de demi-vies écoulées. Fraction restante = $\\frac{N(t)}{N_0} = \\frac{12 500}{50 000} = 0,25 = \\frac{1}{4}$.",
+      "Étape 3 : Reconnaître que 0,25 = $(0,5)^2$, donc 2 demi-vies ont passé.",
+      "Étape 4 : Multiplier le nombre de demi-vies par la durée d'une demi-vie. Âge = $2 \\times 1,25 = 2,5$ milliards d'années.",
+      "Résultat : La roche volcanique a environ 2,5 milliards d'années."
+    ]
+  },
+  "quiz": {
+    "question": "Un sondage géologique traverse quatre couches numérotées 1 (bas), 2, 3 et 4 (haut). La couche 2 contient des ammonites datées à 180 millions d'années. La couche 3 contient des fossiles datés à 100 millions d'années. Quel est l'ordre de formation des couches du plus ancien au plus récent ?",
+    "reponse_calculee": "Couche 1, couche 2, couche 3, couche 4",
+    "choices": [
+      {
+        "label": "Couche 4, couche 3, couche 2, couche 1",
+        "correct": false
+      },
+      {
+        "label": "Couche 1, couche 2, couche 3, couche 4",
+        "correct": true
+      },
+      {
+        "label": "Couche 2, couche 1, couche 4, couche 3",
+        "correct": false
+      },
+      {
+        "label": "Couche 3, couche 2, couche 4, couche 1",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué le principe fondamental de la stratigraphie : dans une série de couches non perturbées, la plus basse est toujours la plus ancienne. La couche 1 au bas s'est formée en premier, puis la couche 2 (180 millions d'années), puis la couche 3 (100 millions d'années), et enfin la couche 4 au sommet. Les fossiles confirment cet ordre puisque 180 millions > 100 millions.",
+    "feedback_wrong": "Réfléchis bien. La règle est simple : dans une pile de couches non perturbées, celle qui est tout en bas s'est toujours déposée en premier, et celle au sommet est la plus récente. Ici, la couche 1 est au bas, donc elle est la plus ancienne. La couche 4 est au haut, donc elle est la plus récente. Les fossiles (180 millions pour la couche 2, 100 millions pour la couche 3) respectent aussi cet ordre : les plus anciens fossiles sont dans les couches plus basses."
+  }
+}

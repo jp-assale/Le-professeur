@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-l-afrique-face-a-la-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'Afrique face à la mondialisation",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'Afrique face à la mondialisation",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu achètes un téléphone Samsung fabriqué en Asie, tu manges du riz importé d'Asie du Sud-Est, et tu regardes une série Netflix produite aux États-Unis. En même temps, la Côte d'Ivoire exporte son cacao vers l'Europe et les États-Unis. Le monde est connecté : les produits, l'argent, les idées circulent sans arrêt. Comment l'Afrique s'insère-t-elle dans ce système mondial ? Quels en sont les avantages et les risques pour nos pays ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la mondialisation ?",
+    "explanation": "La mondialisation est le processus d'interconnexion croissante entre tous les pays du monde. Elle se manifeste par les échanges commerciaux, la circulation des capitaux (argent), la mobilité des personnes, et la diffusion des technologies et des cultures. L'Afrique, comme tous les continents, est prise dans ce mouvement. Mais elle ne participe pas au même titre que l'Europe ou l'Asie du Sud-Est : elle exporte surtout des matières premières (cacao, café, pétrole, minerais) et importe des produits finis (vêtements, électronique, machines). Cette position la rend à la fois dépendante des marchés mondiaux et vulnérable aux crises extérieures.",
+    "highlight": "La mondialisation : interconnexion des économies, des échanges et des cultures à l'échelle planétaire"
+  },
+  "example": {
+    "problem": "Analyse cette situation : un paysan cacaoyer de Côte d'Ivoire dépend entièrement du prix du cacao fixé sur les marchés mondiaux. Quand la demande mondiale baisse (crise économique en Europe), le prix s'effondre. Le paysan gagne alors beaucoup moins, même s'il produit la même quantité. En même temps, les engrais qu'il achète coûtent plus cher car leur prix dépend du pétrole, dont le coût fluctue aussi mondialement. Comment cette situation illustre-t-elle l'insertion de l'Afrique dans la mondialisation ?",
+    "steps": [
+      "Étape 1 : Identifier les flux. Le paysan ivoirien exporte du cacao (matière première) vers le marché mondial. Il importe des engrais (produit transformé). C'est un échange inégal : il vend du brut, il achète du fini.",
+      "Étape 2 : Reconnaître la dépendance. Le paysan ne contrôle pas le prix du cacao : il est fixé à Londres ou à New York par les marchés internationaux. Il est passif, preneur de prix.",
+      "Étape 3 : Voir l'interconnexion. Quand la crise économique frappe l'Europe (acheteur principal), la demande de cacao baisse immédiatement. Le prix s'effondre en Côte d'Ivoire. L'Afrique subit les chocs mondiaux.",
+      "Étape 4 : Observer la vulnérabilité croisée. Le paysan subit aussi la hausse du prix du pétrole (mondial) qui fait monter les coûts des engrais. Il est pris dans plusieurs dépendances à la fois.",
+      "Étape 5 : Conclure. Cette situation montre que l'Afrique est intégrée à l'économie mondiale, mais de manière fragile et déséquilibrée : elle exporte des matières premières bon marché et importe des biens chers, en restant exposée aux chocs des économies riches."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments caractérise MIEUX la position de l'Afrique dans la mondialisation ?",
+    "reponse_calculee": "L'Afrique exporte surtout des matières premières et importe des produits finis, ce qui la rend dépendante des marchés mondiaux et vulnérable aux crises",
+    "choices": [
+      {
+        "label": "L'Afrique contrôle les prix mondiaux du cacao et du pétrole",
+        "correct": false
+      },
+      {
+        "label": "L'Afrique exporte surtout des matières premières et importe des produits finis, ce qui la rend dépendante des marchés mondiaux et vulnérable aux crises",
+        "correct": true
+      },
+      {
+        "label": "L'Afrique fabrique la plupart des produits électroniques vendus mondialement",
+        "correct": false
+      },
+      {
+        "label": "L'Afrique n'est pas du tout connectée à l'économie mondiale",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris. L'Afrique est prise dans la mondialisation, mais de manière asymétrique : elle fournit des matières premières brutes (cacao, café, pétrole, minerais) et achète des biens transformés plus chers. Elle subit les prix fixés ailleurs et les chocs économiques des pays riches. C'est ce déséquilibre qui pose problème.",
+    "feedback_wrong": "Pas tout à fait. Relis bien la définition : l'Afrique exporte surtout des matières premières (cacao, café, pétrole, minerais) vers les pays riches, et importe des produits finis (machines, électronique, vêtements). Elle ne contrôle pas les prix mondiaux et reste vulnérable aux crises des économies riches. C'est justement ce déséquilibre qui caractérise sa mondialisation."
+  }
+}

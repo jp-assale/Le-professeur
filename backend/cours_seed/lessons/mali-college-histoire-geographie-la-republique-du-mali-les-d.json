@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-republique-du-mali-les-d",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La République du Mali (les différentes républiques, l'indépendance de 1960, le 26 mars 1991)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La République du Mali : des origines à 1991",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi parler de « République » ?",
+    "body": "Imagine que tu dois expliquer à un ami étranger ce qu'est le Mali aujourd'hui. Tu lui dis : « C'est une République ». Mais qu'est-ce que cela signifie vraiment ? Et surtout, le Mali n'a pas toujours été organisé de la même manière. Entre l'indépendance en 1960 et le changement majeur de 1991, le pays a connu plusieurs formes de gouvernement. C'est cette histoire politique que nous allons explorer."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la République du Mali ?",
+    "explanation": "Le Mali est devenu indépendant de la France le 22 septembre 1960. Depuis cette date, le pays s'organise sous forme de République, c'est-à-dire un régime politique où le pouvoir n'appartient pas à un monarque héréditaire, mais à des institutions représentant le peuple. Cependant, le Mali a connu plusieurs Républiques successives, marquées par des changements constitutionnels et politiques importants. Le tournant majeur de 1991 a marqué la fin d'une période autoritaire et l'établissement d'une nouvelle forme démocratique.",
+    "highlight": "Une République est un régime où le pouvoir vient du peuple et non d'un roi ou prince héréditaire."
+  },
+  "example": {
+    "problem": "Analysons comment le Mali a transformé son système politique entre 1960 et 1991.",
+    "steps": [
+      "En 1960, le Mali accède à l'indépendance et adopte sa première Constitution. C'est la Première République. Le pays se dote d'institutions républicaines : un président, une assemblée, des ministres.",
+      "Entre 1960 et 1968, la Première République connaît des difficultés économiques et politiques. Le régime devient de plus en plus autoritaire, concentrant le pouvoir à la présidence.",
+      "En 1968, un coup d'État militaire renverse le gouvernement. S'installe alors la Deuxième République, dirigée par un régime militaire qui gouverne sans respect des libertés démocratiques.",
+      "Pendant plus de vingt ans (1968-1991), la Deuxième République maintient un système très centralisé où une seule personne ou un petit groupe militaire contrôle tout le pouvoir politique et économique.",
+      "En mars 1991, un mouvement populaire et des mutineries militaires forcent le régime autoritaire à abandonner le pouvoir. C'est le tournant du 26 mars 1991.",
+      "À partir de 1991, le Mali entre dans la Troisième République, fondée sur des principes démocratiques : pluralisme politique, élections libres, libertés publiques restaurées."
+    ]
+  },
+  "quiz": {
+    "question": "Quel événement du 26 mars 1991 a marqué un tournant politique majeur au Mali ?",
+    "reponse_calculee": "La chute du régime militaire autoritaire et l'établissement de la Troisième République démocratique",
+    "choices": [
+      {
+        "label": "L'adoption de la première Constitution du Mali indépendant",
+        "correct": false
+      },
+      {
+        "label": "La chute du régime militaire autoritaire et l'établissement de la Troisième République démocratique",
+        "correct": true
+      },
+      {
+        "label": "Le premier coup d'État militaire qui a instauré la Deuxième République",
+        "correct": false
+      },
+      {
+        "label": "L'indépendance du Mali par rapport à la France",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le 26 mars 1991 marque la fin de la Deuxième République autoritaire. Un soulèvement populaire, appuyé par des militaires dissidents, force le régime à céder le pouvoir. C'est le moment fondateur de la Troisième République, basée sur la démocratie et le respect des libertés. Cet événement montre comment un peuple peut exiger le changement face à l'oppression.",
+    "feedback_wrong": "Pas tout à fait. Le 26 mars 1991 n'est pas l'indépendance (qui date de 1960), ni le premier coup d'État (qui date de 1968). C'est le moment où un mouvement populaire et des mutins militaires ont forcé la chute du régime autoritaire de la Deuxième République, permettant la naissance de la Troisième République démocratique. C'est un événement récent et fondamental dans l'histoire politique du Mali."
+  }
+}

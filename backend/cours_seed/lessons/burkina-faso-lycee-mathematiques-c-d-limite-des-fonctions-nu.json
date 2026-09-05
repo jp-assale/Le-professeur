@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-mathematiques-c-d-limite-des-fonctions-nu",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Mathematiques",
+  "chapitre": "Limite des fonctions numériques",
+  "source": "fasoeducation.bf (catalogue de cours)",
+  "template": "text_only",
+  "title": "Limite des fonctions numériques",
+  "intro": {
+    "heading": "Mise en situation : Le marché de Ouagadougou",
+    "body": "Imagine que tu observes le prix du riz au marché central. Chaque jour, il fluctue légèrement : 450 F CFA, puis 452 F CFA, puis 451 F CFA... Le prix semble osciller autour d'une valeur centrale, comme s'il cherchait à se stabiliser. En mathématiques, on appelle cette valeur vers laquelle la fonction « se rapproche » une limite. C'est exactement ce concept que nous allons explorer aujourd'hui."
+  },
+  "concept": {
+    "heading": "Définition : Limite d'une fonction",
+    "explanation": "Lorsqu'une variable x s'approche d'une valeur donnée (ou devient très grande), la fonction f(x) correspondante peut s'approcher elle aussi d'une valeur bien déterminée. Cette valeur est appelée limite de la fonction. On dit que f(x) a pour limite L quand x tend vers a si les valeurs de f(x) se rapprochent autant qu'on le souhaite de L à mesure que x se rapproche de a.",
+    "highlight": "lim(x→a) f(x) = L signifie que f(x) devient arbitrairement proche de L quand x devient arbitrairement proche de a"
+  },
+  "example": {
+    "problem": "On considère la fonction f(x) = (x² - 1)/(x - 1) pour x ≠ 1. Calcule la limite de f(x) quand x tend vers 1.",
+    "steps": [
+      "Étape 1 : Observer que x = 1 annule le dénominateur. On ne peut pas remplacer directement x par 1 (forme indéterminée 0/0).",
+      "Étape 2 : Factoriser le numérateur : x² - 1 = (x - 1)(x + 1)",
+      "Étape 3 : Réécrire la fonction : f(x) = [(x - 1)(x + 1)]/(x - 1)",
+      "Étape 4 : Simplifier pour x ≠ 1 : f(x) = x + 1",
+      "Étape 5 : Calculer la limite : quand x tend vers 1, f(x) = x + 1 tend vers 1 + 1 = 2",
+      "Réponse : lim(x→1) f(x) = 2"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la limite de la fonction g(x) = (3x² + 2x)/(x) quand x tend vers 0, sachant que x ≠ 0 ?",
+    "reponse_calculee": "2",
+    "choices": [
+      {
+        "label": "0",
+        "correct": false
+      },
+      {
+        "label": "2",
+        "correct": true
+      },
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "La limite n'existe pas",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pour x ≠ 0, on peut simplifier : g(x) = (3x² + 2x)/x = x(3x + 2)/x = 3x + 2. Quand x tend vers 0, la limite est 3(0) + 2 = 2. Tu as bien maîtrisé la factorisation et la simplification avant de calculer la limite.",
+    "feedback_wrong": "Pas tout à fait. Il faut d'abord simplifier la fraction : factorise le numérateur par x pour obtenir g(x) = (x(3x + 2))/x = 3x + 2 (quand x ≠ 0). Ensuite, calcule la limite de 3x + 2 quand x tend vers 0 : tu obtiens 2. Révise l'étape de factorisation."
+  }
+}

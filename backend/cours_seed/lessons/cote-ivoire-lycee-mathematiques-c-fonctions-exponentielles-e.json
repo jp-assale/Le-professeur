@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-fonctions-exponentielles-e",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions exponentielles et fonctions puissances",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Fonctions exponentielles et fonctions puissances",
+  "intro": {
+    "heading": "Mise en situation : La croissance d'une épidémie",
+    "body": "En Côte d'Ivoire, lors d'une épidémie, le nombre de cas confirmés double chaque semaine. Si on compte 10 cas la première semaine, combien en aura-t-on après 5 semaines ? Ce type de croissance rapide, qu'on ne peut pas décrire avec une simple ligne droite, est exactement ce que les fonctions exponentielles modélisent. C'est le sujet de ce chapitre."
+  },
+  "concept": {
+    "heading": "Définition : Fonction exponentielle et fonction puissance",
+    "explanation": "Une fonction exponentielle est une fonction de la forme $f(x) = a^x$ où $a > 0$ et $a \\neq 1$. Elle décrit une croissance (ou décroissance) très rapide. Une fonction puissance est une fonction de la forme $f(x) = x^n$ où $n$ est un nombre réel fixe. Contrairement à la fonction exponentielle où la variable $x$ est à l'exposant, dans la fonction puissance l'exposant est fixe et la base varie.",
+    "highlight": "Exponentielle : $f(x) = a^x$ (exposant variable) | Puissance : $f(x) = x^n$ (exposant fixe)"
+  },
+  "example": {
+    "problem": "Un investissement initial de 500 000 francs CFA est placé à un taux d'intérêt composé de 8% par an. Le capital après $t$ années est donné par $C(t) = 500000 \\times 1{,}08^t$. Calcule le capital disponible après 10 ans.",
+    "steps": [
+      "Identifie la formule : $C(t) = 500000 \\times 1{,}08^t$ avec $t = 10$.",
+      "Remplace $t$ par 10 : $C(10) = 500000 \\times 1{,}08^{10}$.",
+      "Calcule $1{,}08^{10}$ à la calculatrice : $1{,}08^{10} \\approx 2{,}1589$.",
+      "Multiplie : $C(10) = 500000 \\times 2{,}1589 = 1079450$ francs CFA.",
+      "Conclusion : après 10 ans, le capital aura plus que doublé, passant de 500 000 à environ 1 079 450 francs CFA. C'est la puissance de la croissance exponentielle."
+    ]
+  },
+  "quiz": {
+    "question": "Une substance radioactive se désintègre selon la formule $N(t) = 1000 \\times 0{,}5^t$ où $N(t)$ est la masse restante (en grammes) après $t$ jours. Quelle est la masse restante après 3 jours ?",
+    "reponse_calculee": "125",
+    "choices": [
+      {
+        "label": "250 grammes",
+        "correct": false
+      },
+      {
+        "label": "500 grammes",
+        "correct": false
+      },
+      {
+        "label": "125 grammes",
+        "correct": true
+      },
+      {
+        "label": "375 grammes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien remplacé $t$ par 3 : $N(3) = 1000 \\times 0{,}5^3 = 1000 \\times 0{,}125 = 125$ grammes. La base 0,5 (inférieure à 1) signifie que la substance décroît exponentiellement : elle est divisée par 2 chaque jour.",
+    "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : $0{,}5^3 = 0{,}5 \\times 0{,}5 \\times 0{,}5 = 0{,}125$. Puis $1000 \\times 0{,}125 = 125$ grammes. Rappelle-toi que dans une fonction exponentielle $f(x) = a^x$, quand la base $a$ est entre 0 et 1, la fonction décroît rapidement."
+  }
+}

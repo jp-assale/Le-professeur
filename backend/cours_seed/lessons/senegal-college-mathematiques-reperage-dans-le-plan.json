@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-mathematiques-reperage-dans-le-plan",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Repérage dans le plan",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Repérage dans le plan",
+  "intro": {
+    "heading": "Mise en situation : Où se retrouver au marché ?",
+    "body": "Imagine que tu dois retrouver un ami au grand marché de Dakar. Tu lui dis : « Je suis à la troisième allée, à côté du étalage de tissus ». Mais c'est vague ! Comment localiser précisément un point dans l'espace ? En mathématiques, on utilise un système de coordonnées : deux nombres qui donnent la position exacte d'un point. C'est ce qu'on appelle le repérage dans le plan."
+  },
+  "concept": {
+    "heading": "Le repère orthonormé du plan",
+    "explanation": "Pour repérer un point dans le plan, on utilise deux droites perpendiculaires qui se croisent en un point appelé l'origine (noté O). L'une est horizontale (axe des abscisses, souvent notée x), l'autre est verticale (axe des ordonnées, notée y). Chaque point du plan est alors identifié par un couple de nombres appelé coordonnées.",
+    "highlight": "Un point P dans le plan a pour coordonnées (x; y), où x est l'abscisse et y est l'ordonnée."
+  },
+  "example": {
+    "problem": "Dans un repère orthonormé, on place les points A(2; 3), B(-1; 2) et C(3; -2). Détermine les coordonnées du milieu M du segment [AC].",
+    "steps": [
+      "Étape 1 : Identifie les coordonnées des points A et C. On a A(2; 3) et C(3; -2).",
+      "Étape 2 : Rappelle la formule du milieu. Le milieu M d'un segment [AC] a pour coordonnées : $M\\left(\\frac{x_A + x_C}{2}; \\frac{y_A + y_C}{2}\\right)$",
+      "Étape 3 : Calcule l'abscisse du milieu. $x_M = \\frac{2 + 3}{2} = \\frac{5}{2} = 2,5$",
+      "Étape 4 : Calcule l'ordonnée du milieu. $y_M = \\frac{3 + (-2)}{2} = \\frac{1}{2} = 0,5$",
+      "Étape 5 : Écris les coordonnées du milieu. Le milieu M a pour coordonnées $(2,5; 0,5)$ ou encore $(\\frac{5}{2}; \\frac{1}{2})$."
+    ]
+  },
+  "quiz": {
+    "question": "Deux points P et Q ont pour coordonnées P(4; -1) et Q(-2; 5). Quel est le milieu N du segment [PQ] ?",
+    "reponse_calculee": "(1; 2)",
+    "choices": [
+      {
+        "label": "(1; 2)",
+        "correct": true
+      },
+      {
+        "label": "(3; 2)",
+        "correct": false
+      },
+      {
+        "label": "(1; 3)",
+        "correct": false
+      },
+      {
+        "label": "(2; 1)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Correct ! En utilisant la formule du milieu, tu obtiens : $x_N = \\frac{4 + (-2)}{2} = \\frac{2}{2} = 1$ et $y_N = \\frac{-1 + 5}{2} = \\frac{4}{2} = 2$. Donc N(1; 2). Tu maîtrises bien le repérage dans le plan.",
+    "feedback_wrong": "Ce n'est pas correct. Utilise la formule du milieu : $N\\left(\\frac{x_P + x_Q}{2}; \\frac{y_P + y_Q}{2}\\right)$. Avec P(4; -1) et Q(-2; 5), tu dois calculer : abscisse = $\\frac{4 + (-2)}{2} = 1$ et ordonnée = $\\frac{-1 + 5}{2} = 2$. Le milieu est N(1; 2)."
+  }
+}

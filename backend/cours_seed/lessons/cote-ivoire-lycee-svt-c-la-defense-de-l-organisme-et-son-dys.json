@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-la-defense-de-l-organisme-et-son-dys",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "La défense de l'organisme et son dysfonctionnement",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La défense de l'organisme et son dysfonctionnement",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu reviens de l'école avec de la fièvre et des ganglions gonflés au cou. Ta mère te dit que c'est ton corps qui se défend contre une infection. Mais comment ton organisme sait-il qu'il y a un intrus ? Et que se passe-t-il quand cette défense ne fonctionne pas bien ? C'est ce que nous allons explorer."
+  },
+  "concept": {
+    "heading": "La défense de l'organisme : un système complexe",
+    "explanation": "Ton corps possède des barrières naturelles (peau, muqueuses) et un système immunitaire sophistiqué composé de cellules spécialisées (lymphocytes, macrophages, neutrophiles) et d'organes lymphoïdes (ganglions, rate, thymus). Ces éléments travaillent ensemble pour reconnaître et éliminer les pathogènes (virus, bactéries, parasites). Quand ce système fonctionne mal, on parle de dysfonctionnement immunitaire : cela peut être une défaillance (immunodéficience comme le VIH), une surréaction (allergie, auto-immunité) ou une absence de réponse appropriée.",
+    "highlight": "La défense de l'organisme = barrières + système immunitaire qui reconnaît et élimine les menaces ; son dysfonctionnement = défaillance, surréaction ou absence de réponse."
+  },
+  "example": {
+    "problem": "Un élève du lycée contracte une infection bactérienne. Au jour 0, il y a 1 000 bactéries dans son organisme. Ses lymphocytes commencent à les détruire : le nombre de bactéries diminue de 40 % par jour. Après combien de jours le nombre de bactéries sera-t-il inférieur à 100 ?",
+    "steps": [
+      "Étape 1 : Identifie le modèle. Chaque jour, le nombre de bactéries est multiplié par (1 - 0,40) = 0,60.",
+      "Étape 2 : Écris la formule. Après n jours : $N(n) = 1000 \\times 0,60^n$",
+      "Étape 3 : Pose l'inéquation. On cherche n tel que $1000 \\times 0,60^n < 100$, soit $0,60^n < 0,1$",
+      "Étape 4 : Calcule jour par jour. Jour 1 : $1000 \\times 0,60 = 600$ bactéries. Jour 2 : $600 \\times 0,60 = 360$. Jour 3 : $360 \\times 0,60 = 216$. Jour 4 : $216 \\times 0,60 = 129,6$. Jour 5 : $129,6 \\times 0,60 = 77,76$ bactéries.",
+      "Étape 5 : Conclusion. Au jour 5, le nombre de bactéries est inférieur à 100. Le système immunitaire a besoin d'environ 5 jours pour maîtriser cette infection si la réponse est efficace."
+    ]
+  },
+  "quiz": {
+    "question": "Un patient atteint d'immunodéficience a un nombre de lymphocytes T CD4+ égal à 150 cellules par millilitre de sang. Un patient sain en possède entre 800 et 1 200 cellules/mm³. Le patient immunodéficient a quel pourcentage du minimum normal ?",
+    "reponse_calculee": "18,75%",
+    "choices": [
+      {
+        "label": "12,5%",
+        "correct": false
+      },
+      {
+        "label": "18,75%",
+        "correct": true
+      },
+      {
+        "label": "25%",
+        "correct": false
+      },
+      {
+        "label": "30%",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour trouver le pourcentage, tu divises la valeur du patient par le minimum normal : (150 / 800) × 100 = 18,75 %. Ce résultat montre que la défense immunitaire est gravement compromise, ce qui caractérise une immunodéficience.",
+    "feedback_wrong": "Pas tout à fait. Le calcul est : (150 / 800) × 100. Le minimum normal pour un patient sain est 800 cellules/mm³. Divise le nombre du patient par ce minimum, puis multiplie par 100 pour obtenir le pourcentage. Tu devrais trouver 18,75 %."
+  }
+}

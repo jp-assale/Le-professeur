@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-la-semantique",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "La sémantique",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La sémantique",
+  "intro": {
+    "heading": "Mise en situation : Un malentendu au marché",
+    "body": "Tu es au marché d'Abidjan. Une vendeuse crie : « Venez voir mes belles bananes ! » Un client demande : « Combien coûte la banane ? » Une autre cliente répond : « Non, je cherche la banane plantain, pas la banane dessert ! » Pourquoi le même mot « banane » crée de la confusion ? Parce que les mots n'ont pas un seul sens : c'est la sémantique qui nous l'explique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la sémantique ?",
+    "explanation": "La sémantique est la branche de la linguistique qui étudie le sens des mots et des phrases. Elle répond à la question : qu'est-ce qu'un mot signifie réellement ? Un même mot peut avoir plusieurs sens (polysémie), des sens proches (synonymie), ou des sens opposés (antonymie). Comprendre la sémantique, c'est comprendre comment les mots créent du sens dans une langue.",
+    "highlight": "La sémantique étudie le sens des mots et comment ils produisent du sens dans une phrase ou un texte."
+  },
+  "example": {
+    "problem": "Analyse le mot « feuille » dans ces trois contextes différents et montre comment la sémantique nous aide à comprendre qu'il y a plusieurs sens.",
+    "steps": [
+      "Étape 1 : Lis le contexte 1 : « L'enfant ramasse une feuille d'arbre tombée par terre. » Ici, « feuille » désigne la partie verte et plate d'une plante.",
+      "Étape 2 : Lis le contexte 2 : « Le professeur distribue une feuille de papier à chaque élève. » Ici, « feuille » désigne un morceau de papier destiné à écrire.",
+      "Étape 3 : Lis le contexte 3 : « Je dois remplir ma feuille de présence au travail. » Ici, « feuille » désigne un document administratif.",
+      "Étape 4 : Reconnaissons le phénomène : le même mot « feuille » a trois sens différents, mais chacun est compréhensible grâce au contexte. C'est la polysémie : un seul mot, plusieurs sens liés.",
+      "Étape 5 : C'est la sémantique qui nous permet d'identifier ces différences de sens et de comprendre comment un mot peut avoir plusieurs significations sans créer de confusion réelle."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Le directeur a fermé l'école pour la journée », le mot « fermé » signifie :",
+    "reponse_calculee": "a décidé de ne pas ouvrir l'école aux élèves",
+    "choices": [
+      {
+        "label": "a utilisé une clé pour bloquer la porte",
+        "correct": false
+      },
+      {
+        "label": "a décidé de ne pas ouvrir l'école aux élèves",
+        "correct": true
+      },
+      {
+        "label": "a barricadé tous les bâtiments avec du ciment",
+        "correct": false
+      },
+      {
+        "label": "a annulé le permis de fonctionnement de l'école",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Ici, le contexte « pour la journée » montre que « fermé » ne signifie pas fermer une porte avec une clé, mais plutôt prendre une décision administrative. C'est un sens figuré du verbe « fermer ». La sémantique te permet de saisir le bon sens selon le contexte.",
+    "feedback_wrong": "Pas tout à fait. Regarde le contexte : « pour la journée » est une indication importante. Le directeur ne ferme pas physiquement une porte, mais il prend une décision : il décide que l'école n'accueillera pas d'élèves ce jour-là. C'est le sens figuré et administratif du mot « fermé » que tu dois reconnaître grâce à la sémantique."
+  }
+}

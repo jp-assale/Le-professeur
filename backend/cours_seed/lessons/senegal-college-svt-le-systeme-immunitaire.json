@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-le-systeme-immunitaire",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Le système immunitaire",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Le Système Immunitaire",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi tu ne tombes pas malade à chaque fois ?",
+    "body": "Tu es à l'école, assis à côté d'un camarade qui tousse depuis le matin. Les virus et les microbes volent partout autour de toi. Pourtant, tu ne tombes pas malade systématiquement. C'est parce que ton corps possède une armée invisible qui le protège : ton système immunitaire. Découvrez comment fonctionne cette défense naturelle qui te sauve chaque jour."
+  },
+  "concept": {
+    "heading": "Définition et rôle du système immunitaire",
+    "explanation": "Le système immunitaire est l'ensemble des organes, des cellules et des molécules qui travaillent ensemble pour défendre ton corps contre les agents pathogènes (virus, bactéries, parasites) et les substances étrangères. Cette défense fonctionne selon deux niveaux : une barrière de protection (peau, muqueuses) et une réaction cellulaire spécifique (globules blancs, anticorps). Sans ce système, chaque microbe pourrait t'envahir et te rendre gravement malade.",
+    "highlight": "Le système immunitaire = défense du corps contre les agents pathogènes grâce aux globules blancs et aux anticorps."
+  },
+  "example": {
+    "problem": "Au cours d'une semaine, une école enregistre 180 élèves en classe. Sur ces élèves, 45 développent une infection respiratoire (grippe). Parmi ces 45 élèves infectés, 36 produisent rapidement des anticorps spécifiques qui combattent le virus. Calcule le pourcentage d'élèves infectés qui ont une réaction immunitaire efficace (avec production d'anticorps).",
+    "steps": [
+      "Identifie les données : nombre total d'élèves infectés = 45 ; nombre d'élèves avec réaction immunitaire efficace = 36.",
+      "Formule à utiliser : pourcentage = (nombre d'élèves avec anticorps / nombre total d'élèves infectés) × 100.",
+      "Remplace par les chiffres : pourcentage = (36 / 45) × 100.",
+      "Calcule la division : 36 ÷ 45 = 0,8.",
+      "Multiplie par 100 : 0,8 × 100 = 80%.",
+      "Conclusion : 80% des élèves infectés ont développé une réaction immunitaire efficace avec production d'anticorps."
+    ]
+  },
+  "quiz": {
+    "question": "Dans une région, on teste 250 personnes pour vérifier leur immunité contre une maladie. On constate que 200 personnes possèdent des anticorps protecteurs dans leur sang. Quel pourcentage de la population testée possède une protection immunitaire ?",
+    "reponse_calculee": "80%",
+    "choices": [
+      {
+        "label": "50%",
+        "correct": false
+      },
+      {
+        "label": "75%",
+        "correct": false
+      },
+      {
+        "label": "80%",
+        "correct": true
+      },
+      {
+        "label": "90%",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pour trouver le pourcentage : (200 ÷ 250) × 100 = 0,8 × 100 = 80%. Cela signifie que 4 personnes sur 5 dans cette région ont développé une protection immunitaire (grâce à des anticorps). C'est une bonne couverture immunitaire pour la communauté.",
+    "feedback_wrong": "Pas tout à fait. Pour calculer un pourcentage, tu dois diviser le nombre de personnes protégées par le nombre total testé, puis multiplier par 100. Ici : (200 ÷ 250) × 100 = 80%. C'est le pourcentage de la population qui possède des anticorps protecteurs."
+  }
+}

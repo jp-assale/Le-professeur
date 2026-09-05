@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-chimie-organique",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Chimie organique",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Chimie organique – Les bases de la molécule organique",
+  "intro": {
+    "heading": "Mise en situation : pourquoi le sucre de canne brûle différemment que le sel ?",
+    "body": "En Côte d'Ivoire, tu vois chaque jour du sucre de canne, de l'huile de palme, du bois qui brûle au feu de bois. Ces matières contiennent du carbone lié à d'autres atomes. Contrairement au sel (composé minéral), elles se décomposent, noircissent, dégagent des fumées noires en chauffant. C'est parce qu'elles sont des molécules organiques. Comprendre leur structure, c'est comprendre pourquoi elles réagissent différemment et comment on peut les transformer."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une molécule organique ?",
+    "explanation": "Une molécule organique est une molécule qui contient du carbone lié à d'autres atomes (hydrogène, oxygène, azote, soufre, etc.). Le carbone est l'atome central et permet de former des chaînes et des cycles très variés. Contrairement aux molécules minérales (comme le sel NaCl), les molécules organiques sont généralement plus complexes, plus nombreuses, et beaucoup contiennent aussi de l'hydrogène. Elles forment la base de la chimie de la vie : protéines, glucides, lipides, vitamines, etc.",
+    "highlight": "Molécule organique = molécule contenant du carbone lié à d'autres atomes (généralement C, H, O, N)"
+  },
+  "example": {
+    "problem": "On analyse une molécule isolée d'une huile végétale. La formule brute est $C_{3}H_{8}O$. Vérifie que cette molécule est organique et identifie les atomes qui la composent.",
+    "steps": [
+      "Étape 1 : Lister les atomes présents. La formule $C_{3}H_{8}O$ contient 3 atomes de carbone, 8 atomes d'hydrogène et 1 atome d'oxygène.",
+      "Étape 2 : Vérifier la présence de carbone. Oui, il y a 3 atomes de carbone (C).",
+      "Étape 3 : Vérifier que le carbone est lié à d'autres atomes. Le carbone est lié à l'hydrogène et à l'oxygène (qui sont présents dans la molécule).",
+      "Étape 4 : Conclusion. Puisque la molécule contient du carbone lié à d'autres atomes (H et O), c'est une molécule organique.",
+      "Étape 5 : Identifier la fonction. Cette molécule a 1 oxygène : c'est un alcool (groupe -OH) ou un éther. La structure exacte dépendrait de l'arrangement, mais elle est clairement organique."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les formules brutes suivantes, laquelle représente UNE molécule organique ?",
+    "reponse_calculee": "$C_{2}H_{6}O$",
+    "choices": [
+      {
+        "label": "$NaCl$",
+        "correct": false
+      },
+      {
+        "label": "$C_{2}H_{6}O$",
+        "correct": true
+      },
+      {
+        "label": "$CaCO_{3}$",
+        "correct": false
+      },
+      {
+        "label": "$KOH$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La formule $C_{2}H_{6}O$ contient du carbone lié à d'autres atomes (hydrogène et oxygène). C'est donc une molécule organique. C'est d'ailleurs l'éthanol, l'alcool présent dans les boissons fermentées. Les trois autres formules (NaCl, CaCO₃, KOH) sont des composés minéraux : elles ne contiennent pas de carbone lié, ou ne contiennent pas du tout de carbone pour NaCl et KOH.",
+    "feedback_wrong": "Non, réfléchis bien. Une molécule organique DOIT contenir du carbone lié à d'autres atomes. NaCl est du sel (minéral), CaCO₃ est du calcaire (minéral), et KOH est de la potasse (minéral). Seule $C_{2}H_{6}O$ contient du carbone lié à l'hydrogène et à l'oxygène : c'est une molécule organique."
+  }
+}

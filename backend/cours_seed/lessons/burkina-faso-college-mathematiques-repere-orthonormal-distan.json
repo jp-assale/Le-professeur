@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-repere-orthonormal-distan",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Repère orthonormal (distance, droites, parallélisme)",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Repère orthonormal : distance, droites, parallélisme",
+  "intro": {
+    "heading": "Mise en situation : construire un marché équitable",
+    "body": "Imagine qu'on te demande de tracer le plan d'un marché communautaire à Ouagadougou. Tu dois placer précisément les étals des marchands, vérifier que deux allées sont parallèles, et calculer la distance entre deux points de vente. Sans repère orthonormal et sans formules, c'est impossible ! Voyons comment les mathématiques nous aident à organiser l'espace de façon rigoureuse."
+  },
+  "concept": {
+    "heading": "Le repère orthonormal et ses outils",
+    "explanation": "Un repère orthonormal est composé de deux axes perpendiculaires (qui se coupent à 90°) gradués de façon égale. L'axe horizontal est l'axe des abscisses (x), l'axe vertical est l'axe des ordonnées (y). Ils se croisent au point O appelé origine. Chaque point du plan est repéré par un couple de coordonnées (x ; y). Ce repère te permet de calculer des distances entre deux points, de vérifier si deux droites sont parallèles en comparant leurs pentes, et de construire précisément des figures géométriques.",
+    "highlight": "Distance entre deux points A(x₁ ; y₁) et B(x₂ ; y₂) : AB = √[(x₂ - x₁)² + (y₂ - y₁)²]"
+  },
+  "example": {
+    "problem": "Deux points d'un marché sont repérés dans un repère orthonormal : A(2 ; 1) est l'emplacement de l'étal de fruits, et B(5 ; 5) est l'emplacement de l'étal de légumes. Calcule la distance réelle entre ces deux étals sachant que l'unité du repère représente 10 mètres.",
+    "steps": [
+      "Étape 1 : Identifier les coordonnées. A a pour coordonnées (2 ; 1) et B a pour coordonnées (5 ; 5).",
+      "Étape 2 : Appliquer la formule de distance. AB = √[(x₂ - x₁)² + (y₂ - y₁)²]",
+      "Étape 3 : Remplacer les valeurs. AB = √[(5 - 2)² + (5 - 1)²] = √[3² + 4²]",
+      "Étape 4 : Calculer les carrés. AB = √[9 + 16] = √25",
+      "Étape 5 : Extraire la racine carrée. AB = 5 unités du repère",
+      "Étape 6 : Convertir en mètres. Distance réelle = 5 × 10 = 50 mètres"
+    ]
+  },
+  "quiz": {
+    "question": "Deux points C et D sont placés dans un repère orthonormal. C a pour coordonnées (1 ; 2) et D a pour coordonnées (4 ; 6). Quelle est la distance CD ?",
+    "reponse_calculee": "5",
+    "choices": [
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "5",
+        "correct": true
+      },
+      {
+        "label": "7",
+        "correct": false
+      },
+      {
+        "label": "√34",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! CD = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5. Tu as bien appliqué la formule de distance entre deux points.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : CD = √[(4-1)² + (6-2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5. Vérifie que tu as bien soustrait les coordonnées dans le bon ordre et que tu as élevé au carré avant de tout additionner."
+  }
+}

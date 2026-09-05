@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-francais-l1-l2-s1-s2-poesie-boileau-hugo-la-fo",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2/S1/S2",
+  "matiere": "Francais",
+  "chapitre": "Poésie — Boileau, Hugo, La Fontaine / Senghor, Damas, D. Diop",
+  "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)",
+  "template": "text_only",
+  "title": "Poésie — Boileau, Hugo, La Fontaine / Senghor, Damas, D. Diop",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es assis sous un grand baobab au Sénégal, et tu écoutes un griот raconter l'histoire de tes ancêtres en vers musicaux. À côté, tu lis un poème de Hugo écrit en France il y a deux siècles. Pourtant, tous deux te touchent, te font sentir quelque chose. Pourquoi ? Parce que la poésie, qu'elle vienne d'Europe ou d'Afrique, parle au cœur. Ce chapitre t'invite à découvrir comment six grands poètes — français et africains — ont utilisé les mots comme des armes, des cris, des rêves, pour exprimer ce qui ne peut pas se dire autrement."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la poésie dans ce programme ?",
+    "explanation": "La poésie est un art du langage qui transcende les frontières et les siècles. Elle n'est pas qu'une question de rimes ou de mètres : c'est une manière de voir le monde, d'exprimer une révolte, une beauté, une identité. Dans ce chapitre, tu étudies deux traditions poétiques qui dialoguent : la tradition française classique et moderne (Boileau, Hugo, La Fontaine), et la tradition poétique de la Négritude et de l'Afrique coloniale (Senghor, Damas, Diop). Chacun de ces poètes a des préoccupations différentes, mais tous cherchent à transformer la réalité par le pouvoir des mots.",
+    "highlight": "La poésie est une parole vivante qui mêle forme et sens pour dire l'indicible."
+  },
+  "example": {
+    "problem": "Analysons comment Hugo et Senghor, bien que séparés par le temps et l'espace, partagent la même ambition : faire de la poésie une voix pour les opprimés. Hugo écrit sur les misérables de Paris au XIXe siècle ; Senghor chante la dignité noire et l'Afrique colonisée. Comment la forme poétique (rythme, images, répétitions) sert-elle cette ambition commune ?",
+    "steps": [
+      "Étape 1 : Identifier le contexte. Hugo écrit dans une France industrialisée où les pauvres souffrent ; Senghor écrit en Afrique coloniale où les Noirs sont humiliés. Deux mondes différents, une même injustice.",
+      "Étape 2 : Observer la forme. Hugo utilise des alexandrins réguliers, des images violentes (« la misère », « les ténèbres ») ; Senghor adopte un style plus libre, lyrique, avec des anaphores (répétitions en début de vers) et des appels à la mémoire africaine.",
+      "Étape 3 : Comprendre le rôle du rythme. Chez Hugo, le rythme régulier marche comme un tambour qui force à écouter ; chez Senghor, le rythme épousant la respiration du griоt africain crée une intimité, un dialogue.",
+      "Étape 4 : Analyser les images. Hugo crie « Regardez ! » avec des images de souffrance concrètes ; Senghor invoque « l'Afrique », « l'ancêtre », « la nuit » — des images qui symbolisent à la fois la beauté perdue et la dignité à retrouver.",
+      "Étape 5 : Reconnaître la stratégie commune. Les deux poètes refusent le silence. Ils transforment la poésie en un acte politique : elle ne parle pas pour les opprimés, elle les fait parler.",
+      "Étape 6 : Conclusion. La poésie, chez ces deux auteurs, n'est pas une décoration littéraire ; c'est une arme d'humanité."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le trait commun principal entre la démarche poétique de Hugo et celle de Senghor ?",
+    "reponse_calculee": "Tous deux font de la poésie un acte politique et humaniste qui donne voix à ceux qui sont marginalisés ou opprimés.",
+    "choices": [
+      {
+        "label": "Ils utilisent exactement la même structure de vers et les mêmes mètres.",
+        "correct": false
+      },
+      {
+        "label": "Tous deux font de la poésie un acte politique et humaniste qui donne voix à ceux qui sont marginalisés ou opprimés.",
+        "correct": true
+      },
+      {
+        "label": "Ils écrivent uniquement sur la nature et les saisons.",
+        "correct": false
+      },
+      {
+        "label": "Ils rejettent totalement l'influence de la tradition française dans leur écriture.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Hugo et Senghor, bien qu'éloignés dans le temps et l'espace, partagent une conviction profonde : la poésie est une force pour transformer la réalité et humaniser ceux que la société oublie. Ils ne peuvent pas ignorer les souffrances de leur époque, et la poésie devient leur moyen d'agir.",
+    "feedback_wrong": "Pas tout à fait. Ce n'est pas la technique versifiée qui rapproche ces deux poètes, ni le rejet de la tradition. C'est leur engagement : ils croient que la poésie peut et doit parler pour les marginalisés, donner une dignité aux voix étouffées. Relis la question en pensant à l'intention politique derrière chaque vers."
+  }
+}

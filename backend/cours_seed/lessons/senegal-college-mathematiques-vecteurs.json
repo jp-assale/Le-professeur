@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-mathematiques-vecteurs",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Vecteurs",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Vecteurs — Leçon BEPC",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un taxi qui part de la gare routière de Dakar et se dirige vers Thiès. Le chauffeur ne communique pas seulement la distance (80 km), mais aussi la direction (vers l'est) et le sens (de Dakar à Thiès). En mathématiques, cette information complète — distance, direction et sens — c'est exactement ce qu'on appelle un vecteur. C'est l'outil qui te permet de décrire un mouvement ou un déplacement de façon précise."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un vecteur ?",
+    "explanation": "Un vecteur est un objet mathématique qui représente un déplacement. Il est entièrement défini par trois caractéristiques : une direction (la ligne suivie), un sens (de quel côté on se déplace), et une longueur ou norme (la distance parcourue). On note un vecteur avec une flèche au-dessus de deux points. Par exemple, le vecteur $\\overrightarrow{AB}$ va du point A au point B. Deux vecteurs sont égaux s'ils ont la même direction, le même sens et la même norme, peu importe où ils sont situés dans le plan.",
+    "highlight": "Un vecteur = direction + sens + norme (longueur)"
+  },
+  "example": {
+    "problem": "On considère un triangle ABC où A = (0 ; 0), B = (3 ; 2) et C = (5 ; 0). Calcule les coordonnées du vecteur $\\overrightarrow{AB}$, puis celles du vecteur $\\overrightarrow{AC}$. Ensuite, détermine si le vecteur $\\overrightarrow{AB}$ est égal au vecteur $\\overrightarrow{DC}$ où D = (2 ; -2).",
+    "steps": [
+      "Étape 1 — Coordonnées de $\\overrightarrow{AB}$ : On utilise la formule $\\overrightarrow{AB} = (x_B - x_A ; y_B - y_A)$. Donc $\\overrightarrow{AB} = (3 - 0 ; 2 - 0) = (3 ; 2)$.",
+      "Étape 2 — Coordonnées de $\\overrightarrow{AC}$ : De même, $\\overrightarrow{AC} = (x_C - x_A ; y_C - y_A) = (5 - 0 ; 0 - 0) = (5 ; 0)$.",
+      "Étape 3 — Coordonnées de $\\overrightarrow{DC}$ : On calcule $\\overrightarrow{DC} = (x_C - x_D ; y_C - y_D) = (5 - 2 ; 0 - (-2)) = (3 ; 2)$.",
+      "Étape 4 — Comparaison : On voit que $\\overrightarrow{AB} = (3 ; 2)$ et $\\overrightarrow{DC} = (3 ; 2)$.",
+      "Étape 5 — Conclusion : Puisque $\\overrightarrow{AB}$ et $\\overrightarrow{DC}$ ont exactement les mêmes coordonnées, ces deux vecteurs sont égaux : $\\overrightarrow{AB} = \\overrightarrow{DC}$. Cela signifie qu'ils ont la même direction, le même sens et la même norme."
+    ]
+  },
+  "quiz": {
+    "question": "Soit deux points P = (1 ; 3) et Q = (4 ; 7). Quelles sont les coordonnées du vecteur $\\overrightarrow{PQ}$ ?",
+    "reponse_calculee": "(3 ; 4)",
+    "choices": [
+      {
+        "label": "(3 ; 10)",
+        "correct": false
+      },
+      {
+        "label": "(3 ; 4)",
+        "correct": true
+      },
+      {
+        "label": "(5 ; 10)",
+        "correct": false
+      },
+      {
+        "label": "(-3 ; -4)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule des coordonnées d'un vecteur : $\\overrightarrow{PQ} = (x_Q - x_P ; y_Q - y_P) = (4 - 1 ; 7 - 3) = (3 ; 4)$. Bien compris !",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi : pour trouver les coordonnées de $\\overrightarrow{PQ}$, on soustrait les coordonnées du point de départ (P) de celles du point d'arrivée (Q). Calcule $(x_Q - x_P ; y_Q - y_P) = (4 - 1 ; 7 - 3)$."
+  }
+}

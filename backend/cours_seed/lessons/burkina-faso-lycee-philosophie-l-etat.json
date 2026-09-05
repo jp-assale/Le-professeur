@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-l-etat",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'État",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "L'État",
+  "intro": {
+    "heading": "Mise en situation : Une question qui traverse ta vie quotidienne",
+    "body": "Tu traverses une rue à Ouagadougou ou à Bobo-Dioulasso. Il y a des feux tricolores, des policiers qui règlent la circulation, des routes entretenues. Plus tard, tu vas à l'école : il y a des professeurs payés, un programme national, des examens reconnus partout. Qui fait tout cela ? Qui décide que tu dois aller à l'école ? Qui a le pouvoir de te punir ou de te protéger ? La réponse, c'est l'État. Mais qu'est-ce que l'État au juste ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'État ?",
+    "explanation": "L'État n'est pas une personne, ni un bâtiment, ni même le gouvernement seul. L'État est une institution politique qui organise la vie en commun d'un peuple sur un territoire donné. Il repose sur trois éléments inséparables : un territoire (une terre définie), une population (les citoyens qui y vivent), et une autorité souveraine (un pouvoir qui fait les lois et les applique). Cette autorité a le monopole de la contrainte légitime, c'est-à-dire qu'elle est la seule à pouvoir forcer les citoyens à obéir aux règles communes.",
+    "highlight": "L'État = territoire + population + autorité souveraine ayant le monopole de la contrainte légitime"
+  },
+  "example": {
+    "problem": "Analysons le cas du Burkina Faso pour comprendre comment l'État fonctionne concrètement. Un citoyen refuse de payer ses impôts. Pourquoi l'État peut-il le forcer à le faire, alors qu'un commerçant voisin ne le peut pas ?",
+    "steps": [
+      "Étape 1 : Identifier le territoire. Le Burkina Faso est un État souverain avec des frontières reconnues internationalement. Seul l'État burkinabè a le droit d'exercer son autorité sur ce territoire et sur toutes les personnes qui y vivent.",
+      "Étape 2 : Identifier la population. Tous les citoyens burkinabè, qu'ils soient riches ou pauvres, acceptent implicitement un contrat social : ils obéissent aux lois en échange de la protection et des services publics de l'État.",
+      "Étape 3 : Comprendre l'autorité. L'État burkinabè, par ses institutions (gouvernement, parlement, administration), établit des lois qui s'appliquent à tous les citoyens sans exception. L'impôt en est une.",
+      "Étape 4 : La contrainte légitime. Si le citoyen refuse de payer, l'État peut le contraindre légalement : saisie de biens, poursuites judiciaires, amendes. Le commerçant voisin, lui, n'a pas ce droit, car il n'a pas le monopole de la contrainte.",
+      "Étape 5 : La légitimité. Cette contrainte est considérée comme légitime parce qu'elle émane d'une autorité reconnue et parce qu'elle s'applique de manière égale à tous. C'est ce qui la distingue de la simple violence ou de l'oppression.",
+      "Conclusion : L'État peut forcer le citoyen à payer ses impôts, alors qu'un commerçant ne le peut pas, précisément parce que l'État détient seul le monopole de la contrainte légitime sur un territoire et une population donnés."
+    ]
+  },
+  "quiz": {
+    "question": "Dans lequel de ces cas l'État exerce-t-il légalement son monopole de la contrainte ?",
+    "reponse_calculee": "Arrêter une personne qui a commis un vol et la traduire en justice",
+    "choices": [
+      {
+        "label": "Un voisin te force à rembourser une dette en te menaçant",
+        "correct": false
+      },
+      {
+        "label": "Arrêter une personne qui a commis un vol et la traduire en justice",
+        "correct": true
+      },
+      {
+        "label": "Un policier te demande un pot-de-vin pour te laisser passer",
+        "correct": false
+      },
+      {
+        "label": "Un employeur réduit ton salaire sans raison ni autorisation légale",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. L'État exerce légalement son monopole de la contrainte quand il applique la loi de manière régulière et reconnue : arrêter quelqu'un qui a commis un crime, le juger, et le punir selon le code pénal. C'est une contrainte légitime parce qu'elle respecte des procédures établies et s'applique également à tous.",
+    "feedback_wrong": "Non. Regarde chaque option : un voisin qui menace n'a pas le droit de contraindre (c'est de la violence privée), un policier qui demande un pot-de-vin abuse de son pouvoir (ce n'est pas légitime), et un employeur qui réduit le salaire sans raison viole les droits du travailleur. Seule l'arrestation légale d'un criminel est un exercice légitime du monopole de l'État sur la contrainte."
+  }
+}

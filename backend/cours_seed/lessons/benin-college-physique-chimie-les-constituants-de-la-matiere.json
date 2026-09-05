@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-les-constituants-de-la-matiere",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les constituants de la matière",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Les constituants de la matière",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Afrique de l'Ouest, l'eau du puits est souvent trouble après les pluies. Quand tu la laisses reposer quelques jours, les petites particules se déposent au fond et l'eau redevient claire. Que s'est-il passé ? Comment la matière est-elle organisée ? C'est à ces questions que nous allons répondre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Structure de la matière : atomes et molécules",
+    "explanation": "Toute la matière qui nous entoure — l'eau, l'air, le sol, ton téléphone, ta peau — est constituée de très petites particules appelées atomes. Les atomes peuvent se combiner entre eux pour former des molécules. Par exemple, deux atomes d'hydrogène et un atome d'oxygène forment une molécule d'eau. La matière est donc organisée en trois niveaux : l'atome (la plus petite unité), la molécule (groupement d'atomes), et enfin les objets que nous voyons à l'œil nu.",
+    "highlight": "La matière est constituée d'atomes, qui se groupent en molécules."
+  },
+  "example": {
+    "problem": "Une molécule de dioxyde de carbone (CO₂) est composée d'atomes. Combien d'atomes au total contient une molécule de CO₂ ? En supposant qu'une mole de CO₂ contient 6 × 10²³ molécules, combien d'atomes d'oxygène y a-t-il dans une mole de CO₂ ?",
+    "steps": [
+      "Étape 1 : Analyser la formule CO₂. Le « 2 » signifie qu'il y a 2 atomes d'oxygène liés à 1 atome de carbone.",
+      "Étape 2 : Compter le nombre total d'atomes par molécule : 1 (carbone) + 2 (oxygènes) = 3 atomes par molécule de CO₂.",
+      "Étape 3 : Dans une mole de CO₂, il y a 6 × 10²³ molécules.",
+      "Étape 4 : Chaque molécule contient 2 atomes d'oxygène.",
+      "Étape 5 : Nombre d'atomes d'oxygène = 2 × 6 × 10²³ = 12 × 10²³ = 1,2 × 10²⁴ atomes d'oxygène.",
+      "Réponse : Une molécule de CO₂ contient 3 atomes. Une mole de CO₂ contient 1,2 × 10²⁴ atomes d'oxygène."
+    ]
+  },
+  "quiz": {
+    "question": "Un atome de sodium (Na) et un atome de chlore (Cl) se combinent pour former une molécule de chlorure de sodium (NaCl). Combien de molécules de NaCl contiennent au total 6 atomes ?",
+    "reponse_calculee": "3",
+    "choices": [
+      {
+        "label": "2",
+        "correct": false
+      },
+      {
+        "label": "3",
+        "correct": true
+      },
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "12",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Correct ! Chaque molécule de NaCl est formée de 2 atomes (1 sodium + 1 chlore). Donc pour avoir 6 atomes au total, tu dois diviser 6 par 2, ce qui donne 3 molécules de NaCl.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que chaque molécule de NaCl est composée de 2 atomes (1 Na + 1 Cl). Si tu as 6 atomes en total, tu dois calculer combien de molécules cela représente. Divise 6 par 2 pour trouver la réponse."
+  }
+}

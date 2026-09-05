@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-orthogonalite-dans-l-espac",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Orthogonalité dans l'espace",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Orthogonalité dans l'espace",
+  "intro": {
+    "heading": "Mise en situation : La charpente d'une maison",
+    "body": "Imagine un charpentier qui construit la toiture d'une maison. Il doit vérifier que les poutres de soutien sont bien perpendiculaires aux murs porteurs, sinon la structure ne tiendra pas. En mathématiques, c'est exactement ce que tu vas apprendre : comment vérifier que deux droites, deux plans, ou une droite et un plan sont perpendiculaires dans l'espace à trois dimensions."
+  },
+  "concept": {
+    "heading": "Définition : Orthogonalité dans l'espace",
+    "explanation": "L'orthogonalité est la généralisation de la perpendicularité au-delà du plan. Dans l'espace, deux droites sont orthogonales si leurs vecteurs directeurs sont perpendiculaires (produit scalaire nul). Une droite est orthogonale à un plan si elle est perpendiculaire à au moins deux droites sécantes de ce plan. Deux plans sont orthogonaux si l'un contient une droite orthogonale à l'autre.",
+    "highlight": "Deux vecteurs $\\vec{u}$ et $\\vec{v}$ sont orthogonaux si et seulement si $\\vec{u} \\cdot \\vec{v} = 0$"
+  },
+  "example": {
+    "problem": "On considère l'espace muni d'un repère orthonormé. Soit $A(1, 0, 2)$, $B(3, 1, 2)$ et $C(1, 2, 4)$. Vérifie que la droite $(AB)$ est orthogonale à la droite $(AC)$.",
+    "steps": [
+      "Étape 1 : Calcule le vecteur directeur $\\vec{AB}$. On a $\\vec{AB} = B - A = (3-1, 1-0, 2-2) = (2, 1, 0)$.",
+      "Étape 2 : Calcule le vecteur directeur $\\vec{AC}$. On a $\\vec{AC} = C - A = (1-1, 2-0, 4-2) = (0, 2, 2)$.",
+      "Étape 3 : Calcule le produit scalaire $\\vec{AB} \\cdot \\vec{AC} = (2)(0) + (1)(2) + (0)(2) = 0 + 2 + 0 = 2$.",
+      "Étape 4 : Analyse le résultat. Puisque $\\vec{AB} \\cdot \\vec{AC} = 2 \\neq 0$, les vecteurs ne sont pas orthogonaux.",
+      "Conclusion : Les droites $(AB)$ et $(AC)$ ne sont pas orthogonales."
+    ]
+  },
+  "quiz": {
+    "question": "On donne deux vecteurs $\\vec{u} = (1, -2, 3)$ et $\\vec{v} = (2, 1, k)$ où $k$ est un réel inconnu. Détermine la valeur de $k$ pour que $\\vec{u}$ et $\\vec{v}$ soient orthogonaux.",
+    "reponse_calculee": "k = 0",
+    "choices": [
+      {
+        "label": "k = 1",
+        "correct": false
+      },
+      {
+        "label": "k = 0",
+        "correct": true
+      },
+      {
+        "label": "k = 4",
+        "correct": false
+      },
+      {
+        "label": "k = -4",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour que deux vecteurs soient orthogonaux, leur produit scalaire doit être nul. On calcule : $\\vec{u} \\cdot \\vec{v} = (1)(2) + (-2)(1) + (3)(k) = 2 - 2 + 3k = 3k$. Pour l'orthogonalité, il faut $3k = 0$, donc $k = 0$.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que deux vecteurs sont orthogonaux si leur produit scalaire vaut 0. Calcule $\\vec{u} \\cdot \\vec{v} = (1)(2) + (-2)(1) + (3)(k) = 2 - 2 + 3k = 3k$. Ensuite, pose l'équation $3k = 0$ pour trouver $k$."
+  }
+}

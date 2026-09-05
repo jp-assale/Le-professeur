@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-applications-affines",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Applications affines",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "function_affine",
+  "title": "Applications affines",
+  "intro": {
+    "heading": "Une facture d'électricité qui augmente",
+    "body": "Chaque mois, tu reçois une facture d'électricité. Il y a un coût fixe (l'abonnement) et un coût variable (selon ta consommation en kilowattheures). Le montant total dépend donc de deux choses : un nombre de départ et une quantité qui change. C'est exactement ce qu'une application affine permet de calculer simplement."
+  },
+  "concept": {
+    "heading": "Définition d'une application affine",
+    "explanation": "Une application affine est une fonction qui transforme un nombre en en multipliant par une constante, puis en ajoutant une autre constante. Si tu appelles $x$ le nombre d'entrée et $f(x)$ le résultat, tu peux écrire : le résultat dépend de deux paramètres, $a$ (le coefficient de multiplication) et $b$ (le décalage constant). En reprenant l'exemple de l'électricité : $x$ est le nombre de kilowattheures consommés, $a$ est le tarif par kilowattheure, et $b$ est le coût fixe de l'abonnement.",
+    "highlight": "f(x) = a*x + b, où a et b sont des nombres fixés"
+  },
+  "example": {
+    "problem": "Un opérateur télécom propose un forfait mensuel avec : un coût fixe de 5 000 FCFA (l'abonnement) et 150 FCFA par minute de communication dépassant le forfait inclus. On appelle $x$ le nombre de minutes dépassant le forfait et $f(x)$ le coût total en FCFA. Écris l'expression de $f(x)$ et calcule le coût si tu dépasses de 20 minutes.",
+    "steps": [
+      "Identifie les paramètres : le coût fixe est $b = 5000$ FCFA (c'est ce qu'on paie toujours, même sans dépassement).",
+      "Identifie le coefficient : chaque minute de dépassement coûte 150 FCFA, donc $a = 150$.",
+      "Écris l'expression : $f(x) = 150x + 5000$.",
+      "Remplace $x$ par 20 pour trouver le coût avec 20 minutes de dépassement : $f(20) = 150 \times 20 + 5000$.",
+      "Calcule : $150 \times 20 = 3000$, puis $3000 + 5000 = 8000$.",
+      "Conclusion : avec 20 minutes de dépassement, le coût total est 8 000 FCFA."
+    ]
+  },
+  "quiz": {
+    "question": "Un commerçant loue un étal au marché. Il paie 2 000 FCFA par jour pour le loyer de l'étal, plus 50 FCFA par article vendu. Si $x$ est le nombre d'articles vendus et $f(x)$ le coût total en FCFA, quelle est la valeur de $f(x)$ pour une journée où il vend 60 articles ?",
+    "reponse_calculee": "5000",
+    "choices": [
+      {
+        "label": "3000 FCFA",
+        "correct": false
+      },
+      {
+        "label": "5000 FCFA",
+        "correct": true
+      },
+      {
+        "label": "5200 FCFA",
+        "correct": false
+      },
+      {
+        "label": "4000 FCFA",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'expression est $f(x) = 50x + 2000$. Pour $x = 60$ : $f(60) = 50 \times 60 + 2000 = 3000 + 2000 = 5000$ FCFA. Tu as bien identifié le coefficient (50) et la constante (2000), puis tu as substitué correctement.",
+    "feedback_wrong": "Ce n'est pas exact. Rappelle-toi que l'application affine est $f(x) = a \times x + b$. Ici, $a = 50$ FCFA par article et $b = 2000$ FCFA (le coût fixe). Calcule $f(60) = 50 \times 60 + 2000 = 3000 + 2000 = 5000$ FCFA."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-produire-un-recit-integrant-un",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Produire un récit intégrant un dialogue et/ou un portrait",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Produire un récit intégrant un dialogue et/ou un portrait",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois raconter à tes camarades une histoire qui s'est passée au marché de ton quartier : tu as rencontré un ancien voisin que tu n'avais pas vu depuis longtemps. Pour que ton histoire soit vivante et intéressante, tu ne dois pas juste dire « j'ai vu untel », tu dois le décrire (comment il était), rapporter ce qu'il t'a dit (un dialogue), et raconter ce qui s'est passé. C'est exactement ce qu'on appelle intégrer un dialogue et un portrait dans un récit."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'intégrer un dialogue et/ou un portrait dans un récit ?",
+    "explanation": "Produire un récit, c'est raconter une histoire avec un début, des actions et une fin. Mais raconter c'est aussi montrer, pas seulement dire. Intégrer un dialogue, c'est rapporter les paroles des personnages pour qu'on les entende vraiment. Intégrer un portrait, c'est décrire l'apparence ou le caractère d'un personnage pour qu'on le voie. Ces deux techniques rendent le récit plus vivant, plus réaliste et plus captivant. Elles ne sont pas ajoutées à côté du récit : elles en font partie, elles s'y insèrent naturellement pour le servir.",
+    "highlight": "Un récit réussi mélange l'action (ce qui se passe), le dialogue (ce qui se dit) et le portrait (comment on voit le personnage)."
+  },
+  "example": {
+    "problem": "Voici un début de récit très pauvre : « J'ai rencontré mon oncle au marché. Il était différent. On a parlé et il m'a invité chez lui. » Transforme ce récit en y intégrant un vrai dialogue et un portrait du personnage, étape par étape.",
+    "steps": [
+      "Étape 1 — Cherche un détail qui montre comment il était. Au lieu de dire « il était différent », demande-toi : comment je l'ai reconnu ? Qu'est-ce qui a changé chez lui ? Exemple : « Ses cheveux étaient complètement gris, son visage était creusé par les rides, et il boitait légèrement en marchant. »",
+      "Étape 2 — Identifie le moment clé où vous vous parlez. C'est là qu'il faut placer le dialogue. Par exemple : dès qu'il t'a vu, qu'a-t-il dit ?",
+      "Étape 3 — Écris le dialogue comme il s'est vraiment déroulé, avec les tirets et les verbes de parole. Exemple : « — Toi ! s'écria-t-il en levant les mains. Combien de temps ! Tu as grandi ! — Oncle ! Je... je ne t'avais pas reconnu au début. »",
+      "Étape 4 — Insère maintenant le portrait dans le récit, pas séparé. Il faut qu'il arrive naturellement quand tu le vois pour la première fois. Exemple : « Je l'ai aperçu près des tomates. Ses cheveux étaient gris, son visage creusé... »",
+      "Étape 5 — Place le dialogue tout de suite après, pour que le lecteur le voie et l'entende en même temps. Cela crée une vraie scène.",
+      "Étape 6 — Relis : est-ce que je raconte une action (la rencontre), est-ce que je montre comment il est (portrait), est-ce que j'entends parler les personnages (dialogue) ? Si oui, tu as réussi à intégrer."
+    ]
+  },
+  "quiz": {
+    "question": "Tu dois écrire un récit sur un moment où ton camarade te surprend avec une nouvelle. Laquelle de ces phrases contient à la fois un portrait ET un dialogue intégré dans le récit ?",
+    "reponse_calculee": "B",
+    "choices": [
+      {
+        "label": "A) Aïssatou avait un secret. Elle était grande et souriante.",
+        "correct": false
+      },
+      {
+        "label": "B) Aïssatou s'approcha, les yeux brillants. « J'ai une nouvelle ! » cria-t-elle. J'aperçus son large sourire en voyant sa joie.",
+        "correct": true
+      },
+      {
+        "label": "C) Aïssatou était contente. Elle m'a parlé.",
+        "correct": false
+      },
+      {
+        "label": "D) Elle portait une robe bleue et elle a dit qu'elle avait quelque chose à me dire.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Très bien ! La phrase B mélange vraiment l'action (s'approcher), le portrait (les yeux brillants, le large sourire) et le dialogue (« J'ai une nouvelle ! »). On voit, on entend et on comprend l'émotion du personnage. C'est ça, intégrer.",
+    "feedback_wrong": "Pas tout à fait. Les autres phrases séparent le portrait de la description, ou le dialogue est trop faible. Pour intégrer, il faut que le portrait et le dialogue se mélangent dans la même scène, au même moment. Relis la phrase B : elle montre comment Aïssatou se comporte, ce qu'elle dit, et pourquoi elle agit ainsi."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-les-progres-scientifiques-e",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les progrès scientifiques et techniques du XIXe siècle",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Les progrès scientifiques et techniques du XIXe siècle",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un village au Mali en 1800 : les gens voyagent à pied ou à cheval, s'éclairent à la chandelle, communiquent par messager. Cent ans plus tard, en 1900, des trains roulent, l'électricité illumine les villes, les bateaux à vapeur traversent les océans. Qu'est-ce qui a changé ? Le XIXe siècle a apporté des découvertes et inventions qui ont transformé la vie quotidienne de millions de personnes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les progrès scientifiques et techniques du XIXe siècle ?",
+    "explanation": "Le XIXe siècle (1800-1900) est une période où les scientifiques ont découvert de nouvelles lois de la nature (physique, chimie, électricité) et où les ingénieurs ont créé des machines révolutionnaires basées sur ces découvertes. Ces progrès ont d'abord changé l'industrie (fabrique, transport, communication), puis progressivement transformé la façon de vivre, de travailler et de se déplacer. C'est ce qu'on appelle la Révolution industrielle.",
+    "highlight": "Un progrès scientifique est une découverte nouvelle sur comment fonctionne la nature ; un progrès technique est l'invention d'une machine ou d'un outil qui utilise cette découverte."
+  },
+  "example": {
+    "problem": "Analyse comment la découverte de l'électricité au XIXe siècle a transformé la vie urbaine en Europe et a influencé progressivement les colonies africaines.",
+    "steps": [
+      "Étape 1 : Au départ (années 1780-1800), les savants comme Volta et Faraday découvrent comment produire et contrôler l'électricité. C'est la découverte scientifique.",
+      "Étape 2 : Dans les années 1870-1880, des ingénieurs comme Edison et Tesla inventent l'ampoule électrique et créent les premiers réseaux électriques. C'est le progrès technique.",
+      "Étape 3 : Les villes européennes comme Paris et Londres s'éclairent à l'électricité. Les rues deviennent sûres la nuit, les usines produisent plus, le commerce s'intensifie.",
+      "Étape 4 : À cause du commerce colonial, les grandes villes des colonies (comme Dakar au Sénégal) reçoivent aussi l'électricité, mais bien plus tard et seulement dans les quartiers des Européens et des riches marchands.",
+      "Étape 5 : Conclusion : une découverte scientifique (l'électricité existe) devient un progrès technique (la machine qui la produit), qui transforme d'abord la vie en Occident, puis s'exporte inégalement vers les colonies."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les affirmations suivantes, laquelle décrit correctement la relation entre progrès scientifique et progrès technique au XIXe siècle ?",
+    "reponse_calculee": "La découverte scientifique permet de comprendre les lois de la nature, et le progrès technique transforme cette compréhension en machines utiles",
+    "choices": [
+      {
+        "label": "Le progrès technique précède toujours le progrès scientifique",
+        "correct": false
+      },
+      {
+        "label": "La découverte scientifique permet de comprendre les lois de la nature, et le progrès technique transforme cette compréhension en machines utiles",
+        "correct": true
+      },
+      {
+        "label": "Les progrès scientifiques et techniques n'ont aucun lien entre eux",
+        "correct": false
+      },
+      {
+        "label": "Seul le progrès technique compte ; la science n'a pas d'importance",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as bien compris : d'abord les savants découvrent comment fonctionne la nature (exemple : l'électricité), puis les ingénieurs utilisent cette connaissance pour créer des machines (exemple : l'ampoule). L'un nourrit l'autre.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis : sans comprendre comment fonctionne l'électricité (découverte scientifique), comment les ingénieurs auraient-ils pu inventer l'ampoule électrique (progrès technique) ? La science vient souvent en premier."
+  }
+}

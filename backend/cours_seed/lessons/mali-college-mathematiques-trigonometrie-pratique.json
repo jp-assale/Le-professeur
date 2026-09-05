@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-mathematiques-trigonometrie-pratique",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Trigonométrie (pratique)",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Trigonométrie (pratique)",
+  "intro": {
+    "heading": "Mise en situation : Un charpentier face à une toiture",
+    "body": "Un charpentier au Mali doit construire une toiture inclinée pour une maison. Il connaît la hauteur du mur (3 mètres) et la distance horizontale du mur au bord du toit (4 mètres). Pour commander le bois de la bonne longueur, il a besoin de trouver l'angle d'inclinaison de la toiture. Comment peut-il utiliser les mathématiques pour résoudre ce problème sans mesurer directement ?"
+  },
+  "concept": {
+    "heading": "Les rapports trigonométriques dans un triangle rectangle",
+    "explanation": "La trigonométrie pratique consiste à utiliser les relations entre les côtés et les angles d'un triangle rectangle. Dans un triangle rectangle, on peut calculer un angle si on connaît deux côtés, ou on peut calculer un côté si on connaît un angle et un autre côté. Les trois rapports fondamentaux sont le sinus, le cosinus et la tangente.",
+    "highlight": "sin(angle) = côté opposé / hypoténuse  |  cos(angle) = côté adjacent / hypoténuse  |  tan(angle) = côté opposé / côté adjacent"
+  },
+  "example": {
+    "problem": "Dans une cour d'école, un enfant tire une corde de 10 mètres attachée en haut d'un poteau vertical de 6 mètres. Quel est l'angle que fait cette corde avec le sol ?",
+    "steps": [
+      "Étape 1 : Identifie les éléments. On a un triangle rectangle : le poteau (6 m) est la hauteur, la corde (10 m) est l'hypoténuse, et on cherche l'angle au sol.",
+      "Étape 2 : Choisis le bon rapport. Puisqu'on connaît le côté opposé à l'angle (6 m) et l'hypoténuse (10 m), on utilise le sinus : sin(angle) = 6 / 10 = 0,6",
+      "Étape 3 : Calcule le sinus. sin(angle) = 0,6",
+      "Étape 4 : Trouve l'angle avec la fonction inverse. angle = arcsin(0,6) ≈ 36,87°",
+      "Étape 5 : Conclusion. La corde fait un angle d'environ 37° avec le sol."
+    ]
+  },
+  "quiz": {
+    "question": "Un échelle de 5 mètres est appuyée contre un mur. Elle touche le sol à 3 mètres du pied du mur. Quel est le sinus de l'angle entre l'échelle et le sol ?",
+    "reponse_calculee": "0,8",
+    "choices": [
+      {
+        "label": "0,6",
+        "correct": false
+      },
+      {
+        "label": "0,8",
+        "correct": true
+      },
+      {
+        "label": "1,67",
+        "correct": false
+      },
+      {
+        "label": "0,75",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien identifié que dans ce triangle rectangle, la corde (5 m) est l'hypoténuse et le côté opposé à l'angle au sol est la hauteur du mur. Pour trouver cette hauteur, tu utilises Pythagore : $h^2 + 3^2 = 5^2$, donc $h^2 = 25 - 9 = 16$, d'où $h = 4$ m. Alors sin(angle) = 4 / 5 = 0,8. C'est correct !",
+    "feedback_wrong": "Pas encore. Rappelle-toi : dans ce triangle rectangle, l'échelle est l'hypoténuse (5 m). Le côté opposé à l'angle au sol est la hauteur du mur. Tu dois d'abord trouver cette hauteur avec Pythagore : $h^2 + 3^2 = 5^2$, donc $h = 4$ m. Ensuite, sin(angle) = côté opposé / hypoténuse = 4 / 5 = 0,8. Essaie à nouveau !"
+  }
+}

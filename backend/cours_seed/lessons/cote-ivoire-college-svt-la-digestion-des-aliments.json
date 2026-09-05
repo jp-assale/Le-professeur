@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-la-digestion-des-aliments",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La digestion des aliments",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La digestion des aliments",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu viens de manger un morceau de pain à midi. Pourtant, quelques heures plus tard, tu ne le vois plus dans ton assiette ni dans ta bouche. Où est-il allé ? Comment ton corps l'a-t-il transformé pour en tirer de l'énergie ? C'est tout le processus de la digestion que nous allons explorer ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la digestion ?",
+    "explanation": "La digestion est l'ensemble des transformations physiques et chimiques que subissent les aliments dans le tube digestif pour devenir des nutriments simples que ton corps peut absorber et utiliser. Ce processus commence dès ta bouche et se termine dans l'intestin grêle.",
+    "highlight": "La digestion = transformation des aliments en nutriments simples par actions mécaniques et chimiques"
+  },
+  "example": {
+    "problem": "Un morceau de viande crue pèse 100 g. Lors de sa digestion dans l'estomac, elle est brassée mécaniquement (ce qui réduit sa taille) et les sucs gastriques commencent à la dégrader chimiquement. Après 2 heures dans l'estomac, 30 % de la protéine a été transformée en formes plus simples (peptides). Calcule la masse de protéine qui a été dégradée.",
+    "steps": [
+      "Étape 1 : Identifie les données. Masse initiale = 100 g ; pourcentage dégradé = 30 % ; durée = 2 heures (information contextuelle).",
+      "Étape 2 : Rappelle-toi que « 30 % » signifie « 30 pour cent », soit 30/100 ou 0,30.",
+      "Étape 3 : Calcule la masse dégradée avec la formule : Masse dégradée = Masse initiale × Pourcentage dégradé.",
+      "Étape 4 : Applique les nombres : Masse dégradée = 100 g × 0,30 = 30 g.",
+      "Étape 5 : Interprète le résultat. Après 2 heures, 30 g de protéine ont été transformés en peptides par l'action combinée du brassage (action mécanique) et des enzymes (action chimique)."
+    ]
+  },
+  "quiz": {
+    "question": "Une banane de 120 g contient 20 g de sucres simples. Durant sa digestion, 40 % de ces sucres simples sont directement absorbés dans l'estomac. Quelle masse de sucres simples a été absorbée dans l'estomac ?",
+    "reponse_calculee": "8 g",
+    "choices": [
+      {
+        "label": "4 g",
+        "correct": false
+      },
+      {
+        "label": "8 g",
+        "correct": true
+      },
+      {
+        "label": "12 g",
+        "correct": false
+      },
+      {
+        "label": "48 g",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule : 20 g × 0,40 = 8 g. Attention à bien appliquer le pourcentage à la masse de sucres simples (20 g), pas à la masse totale de la banane (120 g) — sinon on obtiendrait 48 g, ce qui serait faux puisque la banane n'est pas composée à 100 % de sucres simples.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que 40 % signifie 40/100 = 0,40, et qu'il faut l'appliquer à la masse de sucres simples (20 g), pas à la masse totale de la banane (120 g). Calcule : 20 g × 0,40 = ?"
+  }
+}

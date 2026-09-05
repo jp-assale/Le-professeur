@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-la-respiration-chez-l-espece-humaine",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La respiration chez l'espèce humaine",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La respiration chez l'espèce humaine",
+  "intro": {
+    "heading": "Mise en situation : pourquoi tu respires plus vite après le foot ?",
+    "body": "Imagine que tu joues au football sous le soleil du Sénégal. Après 10 minutes, tu respires beaucoup plus vite et plus profondément qu'avant. Ton corps a besoin de plus d'oxygène pour fournir l'énergie à tes muscles. La respiration n'est pas juste un acte automatique : c'est un processus qui alimente chaque cellule de ton corps en oxygène et évacue les déchets qu'elle produit."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce que la respiration ?",
+    "explanation": "La respiration est l'ensemble des processus par lesquels ton organisme capture l'oxygène de l'air (par les poumons), le transporte dans le sang, et l'utilise dans chaque cellule pour produire l'énergie. En échange, tes cellules produisent du dioxyde de carbone (CO2) qui doit être évacué par les poumons. C'est un échange permanent entre l'air extérieur et ton corps.",
+    "highlight": "Respiration = prise d'O2 + utilisation cellulaire de l'O2 + rejet du CO2"
+  },
+  "example": {
+    "problem": "Un collégien au repos respire 15 fois par minute et inhale 500 mL d'air à chaque respiration. Après avoir couru, sa fréquence respiratoire monte à 40 respirations par minute avec 800 mL d'air inhalé à chaque fois. Calcule le volume d'air total inhalé en 1 minute : d'abord au repos, puis après la course. De combien le volume a-t-il augmenté (en pourcentage) ?",
+    "steps": [
+      "Étape 1 : calcule le volume au repos. Volume total au repos = nombre de respirations × volume par respiration = 15 × 500 = 7 500 mL",
+      "Étape 2 : calcule le volume après la course. Volume total après course = 40 × 800 = 32 000 mL",
+      "Étape 3 : calcule la différence. Différence = 32 000 − 7 500 = 24 500 mL",
+      "Étape 4 : calcule l'augmentation en pourcentage. Pourcentage d'augmentation = (Différence ÷ Volume initial) × 100 = (24 500 ÷ 7 500) × 100 = 3,27 × 100 = 327 %",
+      "Réponse : Au repos, le volume inhalé est 7 500 mL par minute. Après la course, il est 32 000 mL par minute. Le volume a augmenté de 327 % (ou : il a été multiplié par environ 4,3)."
+    ]
+  },
+  "quiz": {
+    "question": "Un élève respire 12 fois par minute au repos et inhale 600 mL d'air à chaque respiration. Quel est le volume total d'air inhalé en 5 minutes ?",
+    "reponse_calculee": "36 000 mL",
+    "choices": [
+      {
+        "label": "7 200 mL",
+        "correct": false
+      },
+      {
+        "label": "36 000 mL",
+        "correct": true
+      },
+      {
+        "label": "3 600 mL",
+        "correct": false
+      },
+      {
+        "label": "72 000 mL",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Tu as appliqué la formule correctement : volume total = nombre de respirations × volume par respiration × durée = 12 × 600 × 5 = 36 000 mL. C'est la clé : multiplier la fréquence respiratoire par le volume de chaque respiration, puis par le temps.",
+    "feedback_wrong": "Ce n'est pas exact. Revois le calcul : tu dois multiplier la fréquence respiratoire (12 fois/minute) par le volume par respiration (600 mL) par le nombre de minutes (5). Cela donne 12 × 600 × 5 = 36 000 mL. La réponse correcte est 36 000 mL."
+  }
+}

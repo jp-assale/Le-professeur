@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-fonction-exponentielle",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonction exponentielle",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Fonction exponentielle",
+  "intro": {
+    "heading": "Mise en situation : La croissance d'une épidémie",
+    "body": "En Afrique de l'Ouest, lors d'une épidémie, le nombre de cas confirmés double chaque semaine. La première semaine, on détecte 10 cas. Comment prédire le nombre de cas après plusieurs semaines ? Les modèles qui décrivent cette croissance très rapide utilisent une fonction exponentielle, l'outil mathématique le plus puissant pour les phénomènes qui s'accélèrent."
+  },
+  "concept": {
+    "heading": "Définition : La fonction exponentielle",
+    "explanation": "La fonction exponentielle est la fonction qui associe à tout nombre réel $x$ le nombre $e^x$, où $e \\approx 2,718$ est une constante mathématique fondamentale. C'est la seule fonction qui croît de façon proportionnelle à sa valeur actuelle. Elle modélise tous les phénomènes de croissance exponentielle (épidémies, intérêts bancaires, radioactivité, populations biologiques).",
+    "highlight": "La fonction exponentielle est définie par $f(x) = e^x$ pour tout $x \\in \\mathbb{R}$."
+  },
+  "example": {
+    "problem": "Une population de bactéries débute avec 1000 individus. Elle croit selon le modèle $P(t) = 1000 \\times e^{0,5t}$, où $t$ est le temps en heures. Calcule la population après 4 heures. (On utilise $e \\approx 2,718$.)",
+    "steps": [
+      "Étape 1 : Identifie la formule donnée. On a $P(t) = 1000 \\times e^{0,5t}$ et on cherche $P(4)$.",
+      "Étape 2 : Remplace $t$ par 4 dans la formule. $P(4) = 1000 \\times e^{0,5 \\times 4} = 1000 \\times e^2$.",
+      "Étape 3 : Calcule $e^2$. Utilise $e \\approx 2,718$, donc $e^2 \\approx 2,718^2 \\approx 7,389$.",
+      "Étape 4 : Multiplie par 1000. $P(4) = 1000 \\times 7,389 = 7389$ bactéries.",
+      "Étape 5 : Conclusion. Après 4 heures, la population a atteint environ 7389 bactéries, soit près de 7,4 fois la population initiale."
+    ]
+  },
+  "quiz": {
+    "question": "Une substance radioactive suit le modèle $M(t) = 500 \\times e^{-0,2t}$, où $M(t)$ est la masse en grammes et $t$ le temps en années. Quelle est la masse après 5 années ? (Arrondis au gramme entier. Utilise $e \\approx 2,718$.)",
+    "reponse_calculee": "184",
+    "choices": [
+      {
+        "label": "250 grammes",
+        "correct": false
+      },
+      {
+        "label": "184 grammes",
+        "correct": true
+      },
+      {
+        "label": "137 grammes",
+        "correct": false
+      },
+      {
+        "label": "412 grammes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : $M(5) = 500 \\times e^{-0,2 \\times 5} = 500 \\times e^{-1}$. Or $e^{-1} = \\frac{1}{e} \\approx \\frac{1}{2,718} \\approx 0,368$. Donc $M(5) \\approx 500 \\times 0,368 = 184$ grammes. L'exposant négatif ralentit la décroissance, c'est typique des phénomènes de radioactivité.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu substitues correctement $t = 5$ : l'exposant devient $-0,2 \\times 5 = -1$. Puis calcule $e^{-1} = \\frac{1}{e} \\approx 0,368$ (attention au signe négatif !). Enfin, multiplie : $500 \\times 0,368 \\approx 184$ grammes."
+  }
+}

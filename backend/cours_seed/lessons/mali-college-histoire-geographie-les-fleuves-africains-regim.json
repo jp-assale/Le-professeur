@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-les-fleuves-africains-regim",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les fleuves africains (régime, source, embouchure, delta)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Les fleuves africains (régime, source, embouchure, delta)",
+  "intro": {
+    "heading": "Mise en situation : les fleuves, artères de l'Afrique",
+    "body": "En Afrique de l'Ouest, tu as probablement observé comment le Niger façonne la vie des villages : ses crues annuelles apportent l'eau et la fertilité, ses rives accueillent pêcheurs et agriculteurs. Mais d'où vient ce fleuve ? Où va-t-il ? Et pourquoi son régime change-t-il au fil des saisons ? Comprendre les fleuves africains, c'est comprendre les richesses et les défis de tout un continent."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce qu'un fleuve africain ?",
+    "explanation": "Un fleuve africain est un cours d'eau permanent qui traverse des régions entières. Il possède quatre caractéristiques essentielles qu'il faut maîtriser : sa source (où il naît), son régime (comment l'eau s'y coule au cours de l'année), son embouchure (où il se jette) et son delta (quand il existe). Ces quatre éléments ensemble décrivent complètement la vie d'un fleuve.",
+    "highlight": "Un fleuve = source + régime + embouchure + delta"
+  },
+  "example": {
+    "problem": "Analyse le Niger en appliquant les quatre caractéristiques des fleuves africains.",
+    "steps": [
+      "Étape 1 - La source : Le Niger naît en Guinée, dans les montagnes du Fouta-Djalon, à l'ouest du continent. C'est un point haut où l'eau commence son long voyage.",
+      "Étape 2 - Le régime : Le Niger a un régime tropical, c'est-à-dire qu'il gonfle énormément pendant la saison des pluies (juillet à octobre) et baisse fortement pendant la saison sèche. Cette variation façonne la vie des habitants : les inondations fertilisent les champs, puis le fleuve se retire.",
+      "Étape 3 - Le trajet : Depuis sa source en Guinée, le Niger parcourt des milliers de kilomètres en serpentant à travers le Mali, le Niger et le Nigéria, alimentant des populations entières.",
+      "Étape 4 - L'embouchure : Le Niger se jette dans l'océan Atlantique au Nigéria, dans le golfe de Guinée. C'est là que le fleuve rencontre l'eau salée.",
+      "Étape 5 - Le delta : À son embouchure, le Niger forme un grand delta (une plaine triangulaire à plusieurs bras), riche en ressources (pétrole, poisson, terres fertiles). Le delta du Niger est l'un des plus grands d'Afrique.",
+      "Conclusion : Le Niger illustre parfaitement comment un fleuve africain nait en montagne, suit un régime saisonnier, traverse plusieurs pays et se termine en delta productive."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments ne fait PAS partie des quatre caractéristiques définissant un fleuve africain ?",
+    "reponse_calculee": "La longueur en kilomètres",
+    "choices": [
+      {
+        "label": "La source",
+        "correct": false
+      },
+      {
+        "label": "La longueur en kilomètres",
+        "correct": true
+      },
+      {
+        "label": "Le régime",
+        "correct": false
+      },
+      {
+        "label": "Le delta ou l'embouchure",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les quatre caractéristiques sont : la source, le régime, l'embouchure et le delta. La longueur n'est pas une caractéristique définissante — deux fleuves différents peuvent avoir des longueurs très différentes. Ce qui compte, c'est comment et où l'eau s'y coule.",
+    "feedback_wrong": "Pas tout à fait. Vérifie : source, régime, embouchure et delta — ce sont les quatre piliers. La longueur n'en fait pas partie. Relis le concept pour être sûr."
+  }
+}

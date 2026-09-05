@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-les-figures-de-style",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Les figures de style",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les figures de style",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi parle-t-on différemment selon le contexte ?",
+    "body": "Imagine que tu décris à un ami une pluie torrентielle. Tu ne dis pas simplement « il pleuvait beaucoup ». Tu dis plutôt « l'eau tombait comme des cordes » ou « le ciel pleurait ». Ces tournures plus vivantes, plus expressives, ce sont les figures de style. Elles transforment une phrase ordinaire en image poétique qui touche davantage celui qui écoute. C'est l'art de dire les choses autrement pour les rendre plus frappantes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une figure de style ?",
+    "explanation": "Une figure de style est un procédé d'expression qui s'écarte de l'usage ordinaire du langage pour créer un effet particulier : émouvoir, surprendre, clarifier, ou rendre l'idée plus mémorable. Elle joue sur les sons, les sens des mots, ou la structure même de la phrase. Les figures de style sont essentielles en littérature et en poésie, mais aussi dans la vie quotidienne : la publicité, la chanson, les discours publics en usent constamment.",
+    "highlight": "Une figure de style détourne le langage de son sens littéral pour produire un effet expressif ou esthétique."
+  },
+  "example": {
+    "problem": "Analyse cette phrase extraite d'un poème sur la beauté : « Ses yeux sont deux étoiles qui illuminent la nuit. » Quel procédé y est utilisé et quel est son effet ?",
+    "steps": [
+      "Première étape : Identifie le sens littéral. Littéralement, les yeux ne sont pas des astres qui brillent dans l'espace. Cette phrase dit quelque chose qui n'est pas vrai au sens propre.",
+      "Deuxième étape : Repère la comparaison cachée. On compare les yeux à des étoiles sans utiliser « comme ». On dit directement « ses yeux sont deux étoiles ». Cela s'appelle une métaphore.",
+      "Troisième étape : Comprends pourquoi cette comparaison a été choisie. Les étoiles évoquent la lumière, l'éclat, la beauté mystérieuse. En les rapprochant des yeux, le poète enrichit la description.",
+      "Quatrième étape : Mesure l'effet produit. Au lieu de dire « ses yeux sont beaux et brillants », la métaphore crée une image poétique bien plus vivante et mémorable. Elle touche l'imagination.",
+      "Cinquième étape : Conclusion. La figure de style (métaphore) transforme une simple constatation en moment d'émotion poétique."
+    ]
+  },
+  "quiz": {
+    "question": "Lis cette phrase : « Cette maison est un château fort, inexpugnable. » Quelle figure de style reconnais-tu ici ?",
+    "reponse_calculee": "Une métaphore",
+    "choices": [
+      {
+        "label": "Une comparaison avec « comme »",
+        "correct": false
+      },
+      {
+        "label": "Une métaphore",
+        "correct": true
+      },
+      {
+        "label": "Une personnification",
+        "correct": false
+      },
+      {
+        "label": "Une hyperbole",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! La maison n'est pas littéralement un château fort. On établit une identification directe (sans « comme ») entre la maison et un château pour exprimer son caractère inébranlable et protégé. C'est une métaphore.",
+    "feedback_wrong": "Pas tout à fait. Il n'y a pas de comparaison marquée par « comme », et on ne donne pas de qualités humaines à un objet inanimé. Ici, on affirme que la maison EST un château fort. C'est une identification directe, c'est-à-dire une métaphore."
+  }
+}

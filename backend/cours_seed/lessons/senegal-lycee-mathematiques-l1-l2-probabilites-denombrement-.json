@@ -1,0 +1,54 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-probabilites-denombrement-",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilités : dénombrement, équiprobabilité",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Probabilités : dénombrement, équiprobabilité",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'une école à Dakar organise un tirage au sort pour désigner deux élèves qui représenteront le Sénégal à un concours international. Il y a 30 élèves en tout dans la classe. Comment compter toutes les façons possibles de choisir ces deux élèves ? Et comment s'assurer que chaque élève a exactement la même chance d'être choisi ? C'est exactement ce que tu vas apprendre."
+  },
+  "concept": {
+    "heading": "Dénombrement et équiprobabilité",
+    "explanation": "Le dénombrement, c'est l'art de compter le nombre de façons d'organiser ou de choisir des éléments. L'équiprobabilité signifie que tous les résultats possibles ont exactement la même probabilité de se produire. Quand tu as un dénombrement correct et une situation équiprobable, tu peux calculer la probabilité d'un événement simplement en divisant le nombre de cas favorables par le nombre de cas possibles.",
+    "highlight": "P(événement) = (nombre de cas favorables) / (nombre de cas possibles)"
+  },
+  "example": {
+    "problem": "Un magasin de vêtements à Kaolack propose une promotion : chaque client tire au hasard dans un sac opaque contenant 5 bons d'achat rouges (20 % de réduction), 3 bons bleus (10 % de réduction) et 2 bons verts (5 % de réduction). Quelle est la probabilité qu'un client tire un bon rouge ?",
+    "steps": [
+      "Étape 1 : Identifier tous les cas possibles. Le sac contient 5 + 3 + 2 = 10 bons au total. Il y a donc 10 résultats possibles équiprobables (chaque bon a la même chance d'être tiré).",
+      "Étape 2 : Identifier les cas favorables. Un cas favorable est le tirage d'un bon rouge. Il y en a 5 dans le sac.",
+      "Étape 3 : Appliquer la formule. P(tirer un bon rouge) = 5 / 10 = 1 / 2 = 0,5.",
+      "Étape 4 : Interpréter le résultat. Le client a 50 % de chance de tirer un bon rouge, soit une probabilité de 0,5 ou 1/2."
+    ]
+  },
+  "quiz": {
+    "question": "Une association de jeunes à Saint-Louis organise un tirage de trois lots différents parmi les 12 membres de l'association. Un même membre ne peut recevoir qu'un seul lot. De combien de façons différentes peut-on distribuer ces trois lots ?",
+    "reponse_calculee": "1320",
+    "choices": [
+      {
+        "label": "220",
+        "correct": false
+      },
+      {
+        "label": "1320",
+        "correct": true
+      },
+      {
+        "label": "1728",
+        "correct": false
+      },
+      {
+        "label": "36",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Puisque les trois lots sont différents, l'ordre compte. Pour le premier lot, tu as 12 choix. Pour le deuxième lot, 11 choix restants. Pour le troisième lot, 10 choix restants. Le total est 12 × 11 × 10 = 1320 façons. C'est un arrangement de 3 éléments parmi 12, noté $A_{12}^{3}$ ou $A_3^{12}$.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi que les trois lots sont différents, donc l'ordre de distribution compte. Il ne faut pas diviser par le nombre de permutations. Tu dois calculer : 12 × 11 × 10 (le premier lot peut aller à l'un des 12 membres, le deuxième à l'un des 11 restants, le troisième à l'un des 10 restants). Cela te donne 1320 façons."
+  }
+}

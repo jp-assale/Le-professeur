@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-l-art",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'art",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "L'art",
+  "intro": {
+    "heading": "Mise en situation : Une danse au cœur du village",
+    "body": "Tu passes devant une cérémonie au village. Des danseurs en costumes traditionnels se meuvent au rythme des tambours, créant des formes, racontant des histoires avec leur corps. Une vieille femme à côté de toi ferme les yeux, émue. Qu'est-ce qui rend ce moment si puissant ? Pourquoi cette danse te touche-t-elle différemment qu'une simple agitation ? C'est cela que nous allons explorer : qu'est-ce que l'art, et comment crée-t-il du sens?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'art ?",
+    "explanation": "L'art n'est pas simplement la reproduction de ce qui existe. C'est une activité humaine qui crée une œuvre destinée à être contemplée, appréciée et à produire une expérience esthétique. L'art exprime une vision, une émotion, une idée à travers des formes sensibles (son, image, mouvement, parole). Il ne vise pas l'utilité pratique, mais la création de sens et de beauté. Chaque forme d'art—danse, sculpture, musique, peinture, littérature—utilise un matériau et des techniques pour transformer la réalité en création unique.",
+    "highlight": "L'art est la création d'une œuvre sensible destinée à être contemplée et qui produit une expérience esthétique, non une utilité pratique."
+  },
+  "example": {
+    "problem": "Analyse la différence entre un masque porté lors d'une danse traditionnelle et un masque chirurgical. Pourquoi l'un est-il une œuvre d'art et l'autre non?",
+    "steps": [
+      "Étape 1 : Observe l'intention de celui qui crée. Le masque traditionnel est fabriqué pour exprimer une émotion, un personnage spirituel, une histoire. Le masque chirurgical est fabriqué pour protéger, c'est un outil médical.",
+      "Étape 2 : Examine le matériau et la forme. Le masque traditionnel utilise du bois, des couleurs, des motifs travaillés avec soin pour frapper l'œil et l'esprit. Le masque chirurgical est en tissu blanc neutre, conçu pour être invisible et fonctionnel.",
+      "Étape 3 : Considère la destination de l'objet. Le masque traditionnel est présenté pour être contemplé, admiré, pour émouvoir celui qui le voit. Le masque chirurgical est juste porté, puis jeté—on ne le regarde pas.",
+      "Étape 4 : Reconnaître l'expérience esthétique. Le masque traditionnel produit chez le spectateur une expérience : émerveillement, reconnaissance d'une culture, frisson. Le masque chirurgical produit une sensation : sécurité, mais pas une réflexion esthétique.",
+      "Étape 5 : Conclusion. Le masque traditionnel est une œuvre d'art car il crée du sens sensible et une expérience contemplative. Le masque chirurgical est un objet utile, pas une œuvre d'art, même s'il demande du savoir-faire."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le concept d'art étudié, lequel de ces éléments est ESSENTIEL pour qu'un objet soit considéré comme une œuvre d'art?",
+    "reponse_calculee": "Qu'il soit destiné à produire une expérience esthétique de contemplation, pas seulement une utilité pratique",
+    "choices": [
+      {
+        "label": "Qu'il soit très cher et vendu dans une galerie prestigieuse",
+        "correct": false
+      },
+      {
+        "label": "Qu'il soit destiné à produire une expérience esthétique de contemplation, pas seulement une utilité pratique",
+        "correct": true
+      },
+      {
+        "label": "Qu'il soit créé par quelqu'un de très célèbre et reconnu internationalement",
+        "correct": false
+      },
+      {
+        "label": "Qu'il soit fabriqué à la main et prenne beaucoup de temps à réaliser",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Juste! L'art se définit par sa visée esthétique et contemplative, non par son prix, la célébrité de l'auteur ou la durée de sa fabrication. Un enfant peut créer une œuvre d'art authentique, tout comme un artiste célèbre peut produire un objet sans intention esthétique.",
+    "feedback_wrong": "Pas exactement. Le prix, la célébrité et le temps ne définissent pas l'art. Ce qui en fait une œuvre d'art, c'est qu'elle soit créée pour être contemplée et produire une expérience esthétique, indépendamment de ces autres facteurs. Une sculpture simple dans un village peut être une vraie œuvre d'art."
+  }
+}

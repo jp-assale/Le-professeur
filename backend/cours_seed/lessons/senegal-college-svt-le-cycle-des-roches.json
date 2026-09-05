@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-le-cycle-des-roches",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Le cycle des roches",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Le cycle des roches",
+  "intro": {
+    "heading": "Mise en situation : Les roches autour de toi",
+    "body": "En Afrique de l'Ouest, tu vois partout des roches : les pavés de latérite rouge des routes, les pierres blanches des plages, les falaises de grès du fleuve Sénégal. Mais d'où viennent ces roches ? Où vont-elles ? Et comment une roche peut-elle se transformer en une autre roche entièrement différente ? C'est justement ce que tu vas découvrir avec le cycle des roches."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le cycle des roches ?",
+    "explanation": "Le cycle des roches est un processus continu qui transforme les roches les unes en les autres. À la surface de la Terre, les roches se forment, se modifient, se cassent et se recréent sans arrêt. Ce cycle relie trois types de roches principales : les roches magmatiques (nées du magma), les roches sédimentaires (formées par l'accumulation et la compaction de débris) et les roches métamorphiques (transformées par la chaleur et la pression). Chaque type de roche peut devenir un autre type, et ce mouvement perpétuel dure depuis des millions d'années.",
+    "highlight": "Une roche ne reste jamais définitive : elle peut se transformer en une autre roche via l'érosion, l'enfouissement, la chaleur et la pression."
+  },
+  "example": {
+    "problem": "Imagine une roche granitique (magmatique) qui affleure en montagne. Elle subit l'érosion pendant 2 millions d'années et ses débris (sable, argile) sont transportés par un fleuve. Ces sédiments s'accumulent dans un bassin marin pendant 3 millions d'années et se compactent en grès. Si ce grès s'enfonce ensuite à 15 km de profondeur sous l'effet de la tectonique, la température y atteint 300°C. Décris et ordonne chronologiquement les trois roches du cycle que tu reconnais dans cette histoire.",
+    "steps": [
+      "Étape 1 : Identifie la première roche. Le granite existe au départ en montagne → c'est une roche magmatique (refroidissement du magma en profondeur).",
+      "Étape 2 : L'érosion casse le granite en grains. Ces grains (sédiments) sont transportés par le fleuve et déposés dans la mer.",
+      "Étape 3 : Les sédiments s'accumulent et se compactent pendant des millions d'années → formation du grès, une roche sédimentaire.",
+      "Étape 4 : Le grès s'enfonce profondément (15 km) et chauffe à 300°C. La chaleur et la pression le transforment → c'est une roche métamorphique (ex. : schiste ou gneiss).",
+      "Étape 5 : Ordre chronologique du cycle : Granite (magmatique) → Grès (sédimentaire) → Schiste/Gneiss (métamorphique).",
+      "Étape 6 : Note que si la roche métamorphique remonte et fond, elle redevient magma, qui refroidira en granite : le cycle recommence."
+    ]
+  },
+  "quiz": {
+    "question": "Un sédiment de sable reste enfoui 4 millions d'années dans un bassin marin, compacté progressivement par le poids des couches supérieures. Quelle est la roche sédimentaire formée, et quel est le processus principal qui l'a créée ?",
+    "reponse_calculee": "Grès formé par compaction et cimentation des grains de sable",
+    "choices": [
+      {
+        "label": "Granite formé par refroidissement du magma",
+        "correct": false
+      },
+      {
+        "label": "Grès formé par compaction et cimentation des grains de sable",
+        "correct": true
+      },
+      {
+        "label": "Calcaire formé par la cristallisation directe de l'eau de mer",
+        "correct": false
+      },
+      {
+        "label": "Marbre formé par transformation sous chaleur et pression",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Quand des grains de sable s'accumulent et sont compactés par le poids des couches au-dessus pendant longtemps, ils se cimentent ensemble pour former le grès, une roche sédimentaire typique. C'est un exemple parfait d'une roche qui naît par l'érosion et la sédimentation.",
+    "feedback_wrong": "Pas tout à fait. Le granite se forme par refroidissement du magma (roche magmatique), le calcaire par cristallisation ou accumulation de coquilles (roche sédimentaire), et le marbre par transformation sous chaleur (roche métamorphique). Dans ce cas, le sable compacté devient du grès, une roche sédimentaire. Relis la définition du cycle : l'accumulation et la compaction de débris = sédimentaire."
+  }
+}

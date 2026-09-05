@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-secteurs-d-activit",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les secteurs d'activités économiques de la Côte d'Ivoire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les secteurs d'activités économiques de la Côte d'Ivoire",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu te réveilles le matin : ta mère prépare le petit-déjeuner avec du cacao acheté au marché, tu mets un t-shirt en coton, et en chemin vers le lycée tu passes devant le port d'Abidjan où des camions déchargent du matériel. Chacune de ces scènes te montre que la Côte d'Ivoire ne produit pas qu'une seule chose : elle a plusieurs secteurs d'activités qui font vivre le pays. Mais comment fonctionnent-ils ? Et qui produit quoi ?"
+  },
+  "concept": {
+    "heading": "Définition : Les secteurs d'activités économiques",
+    "explanation": "Un secteur d'activité économique est un ensemble d'entreprises ou de travailleurs qui produisent les mêmes types de biens ou services. En Côte d'Ivoire, on distingue traditionnellement trois grands secteurs : le secteur primaire (agriculture, mines, pêche), le secteur secondaire (industrie, transformation, construction) et le secteur tertiaire (commerce, transport, services publics, tourisme). La structure économique du pays dépend de la part de chaque secteur dans la production nationale et de l'emploi qu'il crée.",
+    "highlight": "La Côte d'Ivoire dépend surtout du secteur primaire, notamment l'agriculture (cacao, café, caoutchouc) qui reste le moteur de son économie."
+  },
+  "example": {
+    "problem": "Analyse la chaîne économique du cacao ivoirien en identifiant les trois secteurs d'activités qui y interviennent et montrant comment ils sont liés.",
+    "steps": [
+      "Étape 1 : Le secteur primaire. Des millions de paysans cultivent le cacaoyer dans les régions du centre et du sud (Yamoussoukro, Gagnoa, Divo). Ils récoltent la cabosse, l'ouvrent et en extraient les fèves brutes. C'est la production à la source.",
+      "Étape 2 : Le transport et la collecte. Les fèves sont vendues à des collecteurs qui les transportent vers les villes. C'est déjà une activité tertiaire (commerce, transport).",
+      "Étape 3 : Le secteur secondaire. En Côte d'Ivoire, des usines (notamment à Abidjan) fermentent, sèchent et transforment les fèves brutes en cacao traité, chocolat ou dérivés. C'est la transformation industrielle.",
+      "Étape 4 : La distribution. Le produit fini est stocké, transporté vers le port ou vers les marchés locaux. C'est encore du tertiaire (logistique, commerce de détail).",
+      "Étape 5 : Interconnexion des secteurs. Sans le primaire, pas de matière première ; sans le secondaire, pas de valeur ajoutée ; sans le tertiaire, pas de commercialisation. Chaque secteur dépend des autres.",
+      "Conclusion : Le cacao montre que l'économie ivoirienne fonctionne en chaîne. Bien que le primaire soit le plus puissant, tous les secteurs doivent travailler ensemble."
+    ]
+  },
+  "quiz": {
+    "question": "Un pêcheur attrape du poisson à Grand-Lahou, puis une usine le transforme en farine de poisson, et ensuite un commerçant la vend à un éleveur. Combien de secteurs d'activités différents sont représentés dans cette chaîne ?",
+    "reponse_calculee": "3",
+    "choices": [
+      {
+        "label": "1 seul secteur",
+        "correct": false
+      },
+      {
+        "label": "2 secteurs",
+        "correct": false
+      },
+      {
+        "label": "3 secteurs",
+        "correct": true
+      },
+      {
+        "label": "4 secteurs",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le pêcheur représente le secteur primaire (extraction de ressource naturelle), l'usine représente le secteur secondaire (transformation industrielle), et le commerçant représente le secteur tertiaire (commerce et services). C'est un très bon exemple de la façon dont les trois secteurs s'articulent en Côte d'Ivoire.",
+    "feedback_wrong": "Pas tout à fait. Compte bien : 1) le pêcheur (primaire), 2) l'usine qui transforme (secondaire), 3) le commerçant qui vend (tertiaire). Ce sont trois secteurs différents. Relis l'exemple du cacao pour mieux comprendre comment ils s'enchaînent."
+  }
+}

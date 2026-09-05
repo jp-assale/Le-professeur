@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-le-mouvement-imperia",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Le mouvement impérialiste",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le mouvement impérialiste",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'une grande puissance économique mondiale décide d'investir massivement dans ton pays : elle construit des routes, des ports, des mines, des usines. Au début, ça semble bénéfique… mais peu à peu, tu réalises que toutes les décisions importantes sont prises par des étrangers, que les richesses extraites partent ailleurs, et que ton pays ne contrôle plus vraiment ses propres affaires. C'est exactement ce qui s'est passé en Afrique entre le XIXe et le XXe siècle : c'est le mouvement impérialiste."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce que l'impérialisme ?",
+    "explanation": "L'impérialisme est la politique menée par les puissances européennes et américaines pour dominer économiquement, politiquement et culturellement les territoires et peuples d'Afrique, d'Asie et d'Océanie. Les grandes puissances industrielles (Grande-Bretagne, France, Belgique, Allemagne, États-Unis) cherchent à étendre leur contrôle pour exploiter les ressources naturelles, créer des marchés pour leurs produits, et affirmer leur supériorité. Ce n'est pas seulement de la colonisation classique : c'est une domination systématique, justifiée par une idéologie de supériorité civilisatrice.",
+    "highlight": "L'impérialisme = domination économique, politique et culturelle des puissances fortes sur les peuples faibles, justifiée par des arguments de « civilisation »."
+  },
+  "example": {
+    "problem": "Analysons comment la France a établi son contrôle impérialiste en Afrique de l'Ouest (dont la Côte d'Ivoire) : comprendre les étapes et les mécanismes concrets de cette domination.",
+    "steps": [
+      "Étape 1 - L'arrivée commerciale : Au départ, les Français arrivent en tant que commerçants. Ils établissent des comptoirs côtiers et échangent des produits manufacturés contre de l'or, de l'ivoire, et d'autres ressources précieuses. Cela semble être un commerce normal.",
+      "Étape 2 - L'expansion territoriale : Progressivement, la France ne se contente plus des côtes. Elle signe des traités avec les chefs locaux (souvent sous la menace ou par la tromperie) pour obtenir le droit de contrôler de plus vastes terres. Ces chefs ne comprennent pas toujours qu'ils renoncent à leur souveraineté.",
+      "Étape 3 - L'établissement administratif : La France met en place une administration coloniale, nomme des gouverneurs français, crée des lois françaises. Le pouvoir politique local est supprimé ou réduit à une simple façade.",
+      "Étape 4 - L'exploitation des ressources : Des entreprises françaises et des colons arrivent pour exploiter systématiquement les ressources : plantations de cacao, cacahuètes, bois, mines. Les bénéfices partent vers la France, pas vers le développement local.",
+      "Étape 5 - La justification idéologique : La France proclame qu'elle apporte la « civilisation », l'éducation française, le christianisme. Elle présente cette domination comme un bien pour les peuples colonisés, masquant ainsi son véritable objectif : l'enrichissement métropolitain.",
+      "Étape 6 - La dépendance économique et culturelle : À long terme, le territoire colonisé devient totalement dépendant : son économie produit ce que la métropole demande, son élite est formée à l'école française, sa culture est minorée. C'est de l'impérialisme complet."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les éléments suivants, lequel caractérise principalement le mouvement impérialiste du XIXe-XXe siècle ?",
+    "reponse_calculee": "La domination économique, politique et culturelle des puissances industrielles européennes et américaines sur des territoires en Afrique, Asie et Océanie",
+    "choices": [
+      {
+        "label": "L'échange commercial équitable entre nations de même puissance économique",
+        "correct": false
+      },
+      {
+        "label": "La domination économique, politique et culturelle des puissances industrielles européennes et américaines sur des territoires en Afrique, Asie et Océanie",
+        "correct": true
+      },
+      {
+        "label": "L'aide humanitaire fournie par les pays riches aux pays pauvres sans attendre de contrôle en retour",
+        "correct": false
+      },
+      {
+        "label": "La création de partenariats commerciaux librement consentis basés sur le respect mutuel",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris. L'impérialisme, c'est la domination à plusieurs niveaux (économique, politique, culturelle) des grandes puissances sur des territoires qu'elles cherchent à contrôler pour leurs propres intérêts. Ce n'est ni un échange égal, ni de l'aide désintéressée : c'est une exploitation systématique justifiée par une fausse idée de supériorité civilisatrice.",
+    "feedback_wrong": "Pas tout à fait. L'impérialisme n'est pas un simple échange commercial, ni de l'aide humanitaire, ni un partenariat égal. C'est une domination unilatérale : les puissances fortes prennent le contrôle économique, politique et culturel de territoires faibles pour les exploiter. Relis la définition et l'exemple de la Côte d'Ivoire pour bien saisir le mécanisme."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-fonctions-numeriques",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions numériques",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Fonctions numériques",
+  "intro": {
+    "heading": "Mise en situation : Le tarif d'un taxi à Dakar",
+    "body": "Un taxi à Dakar facture 250 francs de prise en charge, puis 150 francs par kilomètre parcouru. Si tu dois aller chez un ami, comment calcules-tu le prix total en fonction de la distance ? Tu découvres là une fonction : à chaque distance correspond un prix unique. C'est exactement ce que tu vas apprendre à maîtriser."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une fonction numérique ?",
+    "explanation": "Une fonction numérique est une correspondance qui associe à chaque nombre d'un ensemble de départ (appelé domaine ou ensemble de définition) un seul et un unique nombre de l'ensemble d'arrivée. On dit que le nombre associé est l'image du nombre de départ. Si tu notes ta fonction $f$ et le nombre de départ $x$, son image s'écrit $f(x)$. Dans l'exemple du taxi, la distance parcourue est $x$, et le prix total est $f(x) = 250 + 150x$.",
+    "highlight": "Une fonction numérique $f : D \\to \\mathbb{R}$ associe à tout élément $x \\in D$ un unique réel $f(x)$."
+  },
+  "example": {
+    "problem": "Un vendeur de jus de fruit au bord de la route vend des verres de jus à 500 francs l'unité. Ses frais fixes (loyer du point de vente par jour) sont de 2000 francs. On note $x$ le nombre de verres vendus et $f(x)$ le bénéfice net du jour (recette moins frais). Détermine la fonction $f(x)$, puis calcule le bénéfice net si le vendeur vend 15 verres dans la journée.",
+    "steps": [
+      "Étape 1 : Identifier les composantes. La recette totale pour $x$ verres vendus est $500x$ francs. Les frais fixes sont 2000 francs.",
+      "Étape 2 : Écrire la fonction. Le bénéfice net est recette moins frais : $f(x) = 500x - 2000$ pour tout $x \\geq 0$.",
+      "Étape 3 : Vérifier le domaine. Puisqu'on ne peut pas vendre un nombre négatif de verres, le domaine de définition est $D = [0 ; +\\infty)$ ou $\\mathbb{N}$ si on vend des quantités entières.",
+      "Étape 4 : Calculer l'image de 15. On remplace $x$ par 15 : $f(15) = 500 \\times 15 - 2000 = 7500 - 2000 = 5500$.",
+      "Étape 5 : Interpréter le résultat. Si le vendeur vend 15 verres, son bénéfice net est 5500 francs."
+    ]
+  },
+  "quiz": {
+    "question": "Une fonction $g$ est définie par $g(x) = 3x^2 - 5$ sur $\\mathbb{R}$. Quelle est la valeur de $g(4)$ ?",
+    "reponse_calculee": "43",
+    "choices": [
+      {
+        "label": "27",
+        "correct": false
+      },
+      {
+        "label": "43",
+        "correct": true
+      },
+      {
+        "label": "51",
+        "correct": false
+      },
+      {
+        "label": "48",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $g(4) = 3 \\times 4^2 - 5 = 3 \\times 16 - 5 = 48 - 5 = 43$. Cela montre que tu sais remplacer la variable $x$ par la valeur donnée et respecter l'ordre des opérations.",
+    "feedback_wrong": "Ce n'est pas le bon résultat. Reprends le calcul pas à pas : d'abord $4^2 = 16$, puis $3 \\times 16 = 48$, enfin $48 - 5 = 43$. Vérifie que tu as appliqué la multiplication avant la soustraction."
+  }
+}

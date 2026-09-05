@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-energie-mecanique",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Énergie mécanique",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Énergie mécanique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu lâches une noix de coco du haut d'un cocotier. Au fur et à mesure qu'elle tombe, elle gagne en vitesse. Pourtant, personne ne lui donne un coup de pied pendant la chute ! D'où vient cette énergie qui la met en mouvement ? C'est l'énergie mécanique qui transforme sa position en mouvement."
+  },
+  "concept": {
+    "heading": "Définition et principe fondamental",
+    "explanation": "L'énergie mécanique est la capacité d'un objet à accomplir un travail. Elle est la somme de deux formes d'énergie : l'énergie potentielle (due à la position) et l'énergie cinétique (due au mouvement). Quand il n'y a pas de frottement, l'énergie mécanique totale d'un système reste constante : elle se transforme mais ne disparaît pas.",
+    "highlight": "$E_{mécanique} = E_{potentielle} + E_{cinétique} = mgh + \\frac{1}{2}mv^2$"
+  },
+  "example": {
+    "problem": "Une boule de masse 2 kg est lâchée sans vitesse initiale du haut d'un immeuble de 5 m de hauteur. On prend g = 10 N/kg. Calcule l'énergie mécanique initiale de cette boule (au moment du lâcher). Quelle sera sa vitesse juste avant de toucher le sol (en supposant l'absence de frottement) ?",
+    "steps": [
+      "Étape 1 : Identifie les données. m = 2 kg, h = 5 m, g = 10 N/kg, vitesse initiale v₀ = 0 m/s.",
+      "Étape 2 : Calcule l'énergie potentielle au départ. $E_p = mgh = 2 \\times 10 \\times 5 = 100$ J.",
+      "Étape 3 : Calcule l'énergie cinétique au départ. $E_c = \\frac{1}{2}mv_0^2 = \\frac{1}{2} \\times 2 \\times 0^2 = 0$ J.",
+      "Étape 4 : Déduis l'énergie mécanique initiale. $E_{mécanique} = 100 + 0 = 100$ J.",
+      "Étape 5 : Juste avant de toucher le sol, h = 0, donc $E_p = 0$. Par conservation, $E_c = 100$ J. Alors $\\frac{1}{2} \\times 2 \\times v^2 = 100$, donc $v^2 = 100$, d'où $v = 10$ m/s."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant de 30 kg monte au sommet d'un arbre situé à 8 m de hauteur. À cet instant, il est immobile. Quelle est son énergie potentielle de pesanteur ? (On prend g = 10 N/kg et on mesure la hauteur par rapport au sol.)",
+    "reponse_calculee": "2400 J",
+    "choices": [
+      {
+        "label": "240 J",
+        "correct": false
+      },
+      {
+        "label": "2400 J",
+        "correct": true
+      },
+      {
+        "label": "3000 J",
+        "correct": false
+      },
+      {
+        "label": "1200 J",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué la formule $E_p = mgh = 30 \\times 10 \\times 8 = 2400$ J. L'enfant immobile en haut de l'arbre possède une grande énergie potentielle du fait de sa position élevée.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la formule $E_p = mgh$ avec m = 30 kg, g = 10 N/kg et h = 8 m. Recalcule le produit 30 × 10 × 8."
+  }
+}

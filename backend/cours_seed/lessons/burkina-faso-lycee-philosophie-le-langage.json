@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-le-langage",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Le langage",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Le langage",
+  "intro": {
+    "heading": "Mise en situation : Au marché de Ouagadougou",
+    "body": "Tu es au marché, tu cherches des tomates. Tu dis au vendeur : « Donne-moi des tomates bien mûres ». Le vendeur comprend immédiatement ce que tu veux, et te tend ses plus beaux fruits. Mais comment cette suite de sons sortis de ta bouche a-t-elle pu créer du sens dans l'esprit du vendeur ? C'est cela, le mystère du langage : comment les mots construisent la réalité et nous permettent de partager le monde."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le langage ?",
+    "explanation": "Le langage est le système de signes (paroles, gestes, écritures) par lequel nous exprimons nos pensées et communiquons avec autrui. Il est unique à l'être humain car il ne se limite pas à signaler une réalité immédiate : il peut parler du passé, du futur, de l'absent, de l'imaginaire. Le langage est un intermédiaire entre notre pensée interne et le monde extérieur. C'est à travers lui que nous construisons notre compréhension commune de la réalité et que nous nous humanisons.",
+    "highlight": "Le langage est ce qui transforme un simple cri en parole chargée de sens."
+  },
+  "example": {
+    "problem": "Analyse cette situation : Un enfant crie « Maman, j'ai peur ! » pendant un orage. Pourquoi ce cri est-il du langage, tandis que le cri d'un animal apeuré ne l'est pas ?",
+    "steps": [
+      "Étape 1 : Observer le cri de l'animal. Un chien qui aboie face à un danger exprime une émotion immédiate, une réaction instinctive au présent. C'est un signal, pas du langage.",
+      "Étape 2 : Observer le cri de l'enfant. Les mots « Maman, j'ai peur » ne se limitent pas à exprimer un état présent : ils nomment le sentiment, ils l'articulent en le mettant en mots.",
+      "Étape 3 : Comprendre la différence de structure. Le cri de l'animal dit simplement « Danger ! » (ici, maintenant). Les mots de l'enfant construisent une phrase : sujet (« je »), verbe (« avoir »), objet (« peur »). C'est une structure.",
+      "Étape 4 : Saisir la portée du sens. L'enfant, en prononçant ces mots, crée un lien social : il se désigne lui-même (« je »), il interpelle quelqu'un (« Maman »), il partage un état intérieur invisible. Cela n'est possible que par le langage.",
+      "Étape 5 : Conclure. Le langage ici ne transmet pas seulement une information, il crée du sens partagé et du lien. C'est cela qui le distingue du simple cri animal."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces situations, laquelle relève véritablement du langage ?",
+    "reponse_calculee": "Un homme qui raconte à son ami comment s'est passée sa journée d'hier",
+    "choices": [
+      {
+        "label": "Un chien qui aboie en voyant une voiture approcher",
+        "correct": false
+      },
+      {
+        "label": "Un homme qui raconte à son ami comment s'est passée sa journée d'hier",
+        "correct": true
+      },
+      {
+        "label": "Un oiseau qui pousse un cri d'alarme pour avertir son groupe d'un prédateur",
+        "correct": false
+      },
+      {
+        "label": "Un bébé qui pleure pour signaler qu'il a faim",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Seul l'homme peut raconter quelque chose qui s'est passé dans le passé, absent du moment présent. Le langage a la capacité de transcender le ici-maintenant. Les autres situations sont des signaux instinctifs qui ne mobilisent pas cette richesse de structure et de sens.",
+    "feedback_wrong": "Pas tout à fait. Le langage n'est pas un simple signal d'alarme ou d'expression immédiate. C'est ce qui nous permet de parler d'absence, de passé, d'imaginaire. Seule la situation où quelqu'un raconte son passé utilise cette puissance du langage."
+  }
+}

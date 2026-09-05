@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-la-mole",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "La mole",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "La mole — Leçon complète BEPC",
+  "intro": {
+    "heading": "Mise en situation : Au marché de Cotonou",
+    "body": "Tu vas au marché acheter des arachides. Le vendeur te dit : « Un kilogramme d'arachides, c'est environ 2 000 graines. » Sans les compter une à une, tu sais qu'un kg représente une certaine quantité. En chimie, c'est pareil : on ne compte pas les atomes ou les molécules un par un, on les groupe par « paquets » appelés moles. La mole est l'outil qui permet aux chimistes de parler de quantités énormes de particules sans perdre la tête !"
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'une mole ?",
+    "explanation": "La mole est une unité de quantité de matière. Elle représente un nombre fixe de particules (atomes, molécules, ions...), exactement comme une douzaine représente 12 objets. Ce nombre s'appelle le nombre d'Avogadro et vaut environ 6,02 × 10²³. Autrement dit : 1 mole = 6,02 × 10²³ particules. C'est un nombre énorme, mais c'est précisément ce qui rend la mole utile : elle permet de transformer un nombre gigantesque de particules invisibles en une quantité que tu peux mesurer (en grammes, par exemple).",
+    "highlight": "n = m / M    où n = nombre de moles, m = masse en grammes, M = masse molaire en g/mol"
+  },
+  "example": {
+    "problem": "Tu dois préparer une expérience de chimie. On te donne 48 grammes de carbone pur (élément C). La masse molaire du carbone est M = 12 g/mol. Combien de moles de carbone as-tu ?",
+    "steps": [
+      "Étape 1 : Identifie ce que tu cherches. Tu cherches le nombre de moles (n) de carbone.",
+      "Étape 2 : Rassemble les données. Tu as : m = 48 g (masse de carbone donnée) et M = 12 g/mol (masse molaire du carbone, c'est une constante).",
+      "Étape 3 : Écris la formule. n = m / M",
+      "Étape 4 : Remplace par les chiffres. n = 48 / 12",
+      "Étape 5 : Effectue le calcul. n = 4 moles",
+      "Étape 6 : Interprète le résultat. Les 48 grammes de carbone que tu as correspondent à exactement 4 moles, c'est-à-dire à 4 × 6,02 × 10²³ = 2,408 × 10²⁴ atomes de carbone en tout."
+    ]
+  },
+  "quiz": {
+    "question": "Un chimiste dispose de 11 grammes de dioxyde de carbone (CO₂). La masse molaire du CO₂ est M = 44 g/mol. Quel est le nombre de moles de CO₂ ?",
+    "reponse_calculee": "0,25 mole",
+    "choices": [
+      {
+        "label": "0,5 mole",
+        "correct": false
+      },
+      {
+        "label": "0,25 mole",
+        "correct": true
+      },
+      {
+        "label": "4 moles",
+        "correct": false
+      },
+      {
+        "label": "484 moles",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule : n = m / M = 11 / 44 = 0,25 mole. Cela signifie que ces 11 grammes de CO₂ contiennent 0,25 × 6,02 × 10²³ ≈ 1,5 × 10²³ molécules de CO₂. Bravo !",
+    "feedback_wrong": "Pas tout à fait. Reviens à la formule n = m / M. Tu dois diviser la masse (11 g) par la masse molaire (44 g/mol). Le calcul donne : 11 ÷ 44 = 0,25 mole. Assure-toi de bien distinguer « diviser » de « multiplier »."
+  }
+}

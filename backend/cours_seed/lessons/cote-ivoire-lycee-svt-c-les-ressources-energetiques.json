@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-les-ressources-energetiques",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "Les ressources énergétiques",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les ressources énergétiques",
+  "intro": {
+    "heading": "Mise en situation : L'énergie, au cœur de ta vie quotidienne",
+    "body": "En Côte d'Ivoire, chaque jour, tu utilises l'électricité pour charger ton téléphone, tu consommes de l'essence pour te déplacer, tu cuisines avec du gaz ou du bois. Toutes ces activités dépendent des ressources énergétiques disponibles sur terre. Mais d'où viennent réellement ces énergies ? Sont-elles illimitées ? Et comment les classes-t-on ? C'est ce que nous allons explorer ensemble dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Définition et classification des ressources énergétiques",
+    "explanation": "Les ressources énergétiques sont l'ensemble des sources d'énergie que l'être humain exploite pour satisfaire ses besoins (électricité, chauffage, transport, industrie). On les classe en deux grandes catégories selon leur nature et leur disponibilité : les ressources énergétiques renouvelables, qui se régénèrent naturellement et sont inépuisables à l'échelle humaine, et les ressources énergétiques non renouvelables, qui s'épuisent au fur et à mesure de leur exploitation. Comprendre cette distinction est essentiel pour anticiper l'avenir énergétique.",
+    "highlight": "Ressources renouvelables = inépuisables et se régénèrent | Ressources non renouvelables = limitées et s'épuisent"
+  },
+  "example": {
+    "problem": "Un village en Côte d'Ivoire consomme actuellement 120 MWh d'électricité par an en utilisant exclusivement le pétrole. Le gouvernement décide de remplacer 40 % de cette consommation par de l'énergie hydroélectrique (renouvelable) et 30 % par de l'énergie solaire (renouvelable). Calcule : (1) la quantité d'électricité qui proviendra de sources renouvelables, (2) la quantité d'électricité qui continuera à provenir du pétrole, et (3) le pourcentage de consommation énergétique qui dépendra encore de ressources non renouvelables.",
+    "steps": [
+      "Étape 1 : Identifier les données. Consommation totale = 120 MWh. Hydroélectricité = 40 %. Énergie solaire = 30 %. Pétrole (non renouvelable) = 100 % − 40 % − 30 % = 30 %.",
+      "Étape 2 : Calculer la part hydroélectrique. 40 % de 120 = 0,40 × 120 = 48 MWh.",
+      "Étape 3 : Calculer la part solaire. 30 % de 120 = 0,30 × 120 = 36 MWh.",
+      "Étape 4 : Additionner les parts renouvelables. 48 + 36 = 84 MWh d'électricité provenant de ressources renouvelables.",
+      "Étape 5 : Calculer la part restante issue du pétrole. 120 − 84 = 36 MWh (ou 30 % de 120 = 36 MWh).",
+      "Étape 6 : Exprimer le pourcentage de consommation dépendant encore de ressources non renouvelables. (36 ÷ 120) × 100 = 30 %. Conclusion : 84 MWh provient de ressources renouvelables, 36 MWh du pétrole (non renouvelable), et 30 % de la consommation dépend encore d'énergies non renouvelables."
+    ]
+  },
+  "quiz": {
+    "question": "Une région productrice d'électricité dispose de trois sources : une centrale charbon (non renouvelable) fournissant 150 MW, une centrale hydroélectrique (renouvelable) fournissant 200 MW, et un parc éolien (renouvelable) fournissant 100 MW. Quelle est la capacité énergétique totale provenant de ressources renouvelables ?",
+    "reponse_calculee": "300 MW",
+    "choices": [
+      {
+        "label": "150 MW",
+        "correct": false
+      },
+      {
+        "label": "250 MW",
+        "correct": false
+      },
+      {
+        "label": "300 MW",
+        "correct": true
+      },
+      {
+        "label": "450 MW",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les ressources renouvelables sont l'hydroélectricité (200 MW) et l'éolien (100 MW). En les additionnant : 200 + 100 = 300 MW. Le charbon est une ressource non renouvelable, donc il ne compte pas. Tu as bien compris la distinction entre les deux catégories de ressources énergétiques.",
+    "feedback_wrong": "À retenir : seules les sources qui se régénèrent naturellement ou inépuisables à l'échelle humaine sont renouvelables. Ici, ce sont l'hydroélectricité (200 MW) et l'éolien (100 MW). Le charbon s'épuise, donc ce n'est pas renouvelable. Additionne uniquement 200 + 100 = 300 MW pour obtenir la réponse correcte."
+  }
+}

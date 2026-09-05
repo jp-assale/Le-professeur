@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-de-la-decolonisation-a",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "De la décolonisation aux efforts d'organisation (nationalismes africains, indépendances CI et Algérie, Union Africaine)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "De la décolonisation aux efforts d'organisation : nationalismes africains, indépendances et Union Africaine",
+  "intro": {
+    "heading": "Mise en situation : pourquoi l'Afrique s'est libérée",
+    "body": "Imagine ton grand-mère qui te raconte comment, avant 1960, la Côte d'Ivoire n'était pas indépendante : les Français décidaient des lois, de l'économie, de tout. Un jour, des hommes comme Félix Houphouët-Boigny se sont levés et ont dit « Non, c'est notre pays, nous devons le gouverner nous-mêmes ». Cette envie de liberté et d'autonomie s'est propagée partout en Afrique. Comment ce mouvement s'est-il organisé ? Qui l'a porté ? Et comment les nouveaux États africains ont-ils décidé de travailler ensemble ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la décolonisation et l'organisation africaine ?",
+    "explanation": "La décolonisation est le processus par lequel les peuples africains et asiatiques, dominés par les puissances européennes (France, Belgique, Royaume-Uni, etc.), ont conquis leur indépendance politique. Ce mouvement s'appuie sur les nationalismes africains : des mouvements politiques et culturels affirmant que chaque peuple doit être maître de son propre territoire et de son destin. Une fois indépendants, les États africains ont cherché à s'unir pour peser davantage sur la scène mondiale et défendre leurs intérêts communs.",
+    "highlight": "Décolonisation = fin du contrôle étranger ; Nationalisme = affirmation de l'identité et de l'autonomie ; Intégration africaine = coopération entre États africains indépendants."
+  },
+  "example": {
+    "problem": "Analyse comment la Côte d'Ivoire a accédé à l'indépendance en 1960 : quels acteurs, quels enjeux, et comment ce mouvement s'inscrit dans la vague de décolonisation africaine.",
+    "steps": [
+      "Identifier le contexte : avant 1960, la Côte d'Ivoire est une colonie française. Les Français contrôlent l'administration, l'économie, les ressources (cacao, café). Les Ivoiriens n'ont aucun pouvoir de décision nationale.",
+      "Repérer les acteurs du nationalisme : des hommes politiques ivoiriens, notamment Félix Houphouët-Boigny et d'autres leaders, organisent des mouvements politiques pour réclamer l'indépendance. Ils s'inspirent aussi des mouvements nationalistes dans toute l'Afrique de l'Ouest.",
+      "Comprendre les raisons du nationalisme : les Ivoiriens veulent gouverner leur pays, garder leurs ressources, décider de leur propre culture et politique. C'est une affirmation d'identité et de dignité après des décennies de domination.",
+      "Reconnaître le processus : l'indépendance n'a pas toujours été obtenue par la violence ; en Côte d'Ivoire, elle s'est faite par négociation avec la France (contrairement à l'Algérie qui a connu une guerre féroce). La France, affaiblie après la Deuxième Guerre mondiale, a progressivement accepté les indépendances.",
+      "Situer l'événement dans la vague africaine : 1960 est l'année de l'indépendance pour environ 17 États africains. La Côte d'Ivoire n'est pas seule ; elle s'inscrit dans un mouvement continental où chaque peuple réclame son droit à l'autodétermination.",
+      "Constater l'étape suivante : une fois indépendante, la Côte d'Ivoire rejoint d'autres États africains pour former des organisations communes (comme l'Union Africaine, fondée en 1963). L'objectif : s'unir pour être plus fort face aux anciennes puissances coloniales et aux défis du monde."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés décrit correctement le lien entre nationalisme africain et décolonisation ?",
+    "reponse_calculee": "Le nationalisme africain est le mouvement idéologique et politique qui justifie et porte la décolonisation en affirmant que chaque peuple africain doit contrôler son propre territoire et son destin.",
+    "choices": [
+      {
+        "label": "Le nationalisme africain est une idée venue d'Europe pour aider l'Afrique à se développer.",
+        "correct": false
+      },
+      {
+        "label": "Le nationalisme africain est le mouvement idéologique et politique qui justifie et porte la décolonisation en affirmant que chaque peuple africain doit contrôler son propre territoire et son destin.",
+        "correct": true
+      },
+      {
+        "label": "Le nationalisme africain a empêché la décolonisation en maintenant les peuples divisés.",
+        "correct": false
+      },
+      {
+        "label": "La décolonisation a précédé le nationalisme africain ; le nationalisme n'est venu qu'après.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le nationalisme africain est à la fois une prise de conscience et une revendication : les peuples africains décident qu'ils ne veulent plus être gouvernés par des étrangers, qu'ils ont une identité propre et des droits. C'est ce mouvement qui donne la légitimité et la force à la décolonisation. Sans cette conscience nationaliste, les indépendances n'auraient pas eu lieu.",
+    "feedback_wrong": "Pas tout à fait. Le nationalisme africain n'est pas une importation européenne ; c'est un mouvement né en Afrique elle-même, porté par des Africains qui refusent la domination étrangère et affirment leur droit à l'autodétermination. C'est cette force qui a rendu possible la décolonisation. Relis la définition : nationalisme = affirmation de l'identité et de l'autonomie d'un peuple."
+  }
+}

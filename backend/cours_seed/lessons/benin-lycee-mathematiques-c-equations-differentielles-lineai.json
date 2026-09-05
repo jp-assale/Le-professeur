@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-equations-differentielles-lineai",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Équations différentielles linéaires à coefficients constants",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Équations différentielles linéaires à coefficients constants",
+  "intro": {
+    "heading": "Mise en situation : La charge d'une batterie",
+    "body": "Imagine une batterie qui se charge progressivement dans ton téléphone. La vitesse de charge dépend de la charge actuelle et de la puissance du chargeur. Comprendre comment cette charge évolue dans le temps, c'est résoudre une équation où la dérivée de la charge est liée à la charge elle-même. C'est exactement le type de problème que les équations différentielles linéaires permettent de résoudre."
+  },
+  "concept": {
+    "heading": "Définition et forme générale",
+    "explanation": "Une équation différentielle linéaire à coefficients constants est une équation qui relie une fonction inconnue $y(t)$ et ses dérivées, où tous les coefficients sont des nombres fixes. La forme la plus simple que tu rencontreras est du premier ordre. Résoudre cette équation, c'est trouver la fonction $y(t)$ qui satisfait la relation.",
+    "highlight": "Forme générale du premier ordre : $a\\frac{dy}{dt} + by = f(t)$ où $a, b$ sont des constantes non nulles et $f(t)$ est une fonction connue."
+  },
+  "example": {
+    "problem": "Résous l'équation différentielle suivante : $2\\frac{dy}{dt} + 6y = 12$ avec la condition initiale $y(0) = 1$.",
+    "steps": [
+      "Étape 1 : Mets l'équation sous forme standard en divisant par le coefficient de la dérivée. On obtient : $\\frac{dy}{dt} + 3y = 6$",
+      "Étape 2 : Identifie la solution. Pour une équation de la forme $\\frac{dy}{dt} + py = q$ (où $p$ et $q$ sont des constantes), la solution générale est : $y(t) = e^{-pt}\\left(C + q\\int e^{pt}dt\\right)$",
+      "Étape 3 : Applique la formule avec $p = 3$ et $q = 6$. On calcule : $y(t) = e^{-3t}\\left(C + 6\\int e^{3t}dt\\right) = e^{-3t}\\left(C + 6 \\cdot \\frac{e^{3t}}{3}\\right) = e^{-3t}\\left(C + 2e^{3t}\\right)$",
+      "Étape 4 : Développe : $y(t) = Ce^{-3t} + 2$",
+      "Étape 5 : Utilise la condition initiale $y(0) = 1$. On obtient : $1 = Ce^{0} + 2 = C + 2$, donc $C = -1$",
+      "Étape 6 : La solution particulière est : $y(t) = -e^{-3t} + 2$ ou $y(t) = 2 - e^{-3t}$"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la solution générale de l'équation différentielle $\\frac{dy}{dt} - 4y = 0$ ?",
+    "reponse_calculee": "$y(t) = Ce^{4t}$",
+    "choices": [
+      {
+        "label": "$y(t) = Ce^{-4t}$",
+        "correct": false
+      },
+      {
+        "label": "$y(t) = Ce^{4t}$",
+        "correct": true
+      },
+      {
+        "label": "$y(t) = C + e^{4t}$",
+        "correct": false
+      },
+      {
+        "label": "$y(t) = 4Ce^{t}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour l'équation homogène $\\frac{dy}{dt} - 4y = 0$, tu dois trouver une fonction dont la dérivée égale 4 fois la fonction elle-même. L'exponentielle $e^{4t}$ a exactement cette propriété : sa dérivée est $4e^{4t}$. Donc $y(t) = Ce^{4t}$ est la solution générale.",
+    "feedback_wrong": "Pas tout à fait. Pour résoudre $\\frac{dy}{dt} - 4y = 0$, tu cherches une fonction où la dérivée est égale à 4 fois la fonction. Rappelle-toi que la dérivée de $e^{4t}$ est $4e^{4t}$. La solution générale doit donc contenir $e^{4t}$ avec un exposant positif, pas négatif."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-la-cedeao",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La CEDEAO",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La CEDEAO",
+  "intro": {
+    "heading": "Mise en situation : Voyager en Afrique de l'Ouest sans frontière ?",
+    "body": "Imagine que tu veux voyager du Mali à la Côte d'Ivoire pour voir ta famille. Avant, tu devais passer des douanes, montrer tes papiers à chaque frontière, attendre longtemps. Aujourd'hui, grâce à une organisation régionale, tu peux circuler plus librement avec juste ta carte d'identité. C'est la CEDEAO qui rend cela possible. Elle facilite les échanges et la libre circulation entre les pays d'Afrique de l'Ouest."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la CEDEAO ?",
+    "explanation": "La CEDEAO est une organisation créée pour unir les pays d'Afrique de l'Ouest et les aider à travailler ensemble. Elle a été fondée en 1975 par le Traité de Lagos, signé par 16 pays d'Afrique de l'Ouest. Son objectif principal est de promouvoir l'intégration économique et politique de la région, de permettre la libre circulation des personnes et des biens, et de renforcer la paix et la stabilité. La CEDEAO regroupe le Mali, le Sénégal, la Côte d'Ivoire, le Nigeria, le Burkina Faso et d'autres pays de la région.",
+    "highlight": "La CEDEAO est une union économique et politique qui facilite la coopération et l'intégration entre les États d'Afrique de l'Ouest."
+  },
+  "example": {
+    "problem": "Analyse comment la CEDEAO permet à un commerçant malien de vendre ses produits plus facilement en Guinée.",
+    "steps": [
+      "Étape 1 : Sans la CEDEAO, le commerçant devrait payer des droits de douane élevés pour exporter ses produits (par exemple du coton ou des arachides) en Guinée. Ces taxes augmentent le prix final.",
+      "Étape 2 : Avec la CEDEAO et son accord de libre-échange, les droits de douane entre les pays membres sont réduits ou supprimés. Le commerçant paie moins pour exporter.",
+      "Étape 3 : De plus, les marchandises circulent plus rapidement car les contrôles douaniers à la frontière Mali-Guinée sont simplifiés grâce aux protocoles de la CEDEAO.",
+      "Étape 4 : Le commerçant peut donc vendre ses produits à un prix plus compétitif en Guinée, et ses clients guinéens accèdent à des produits moins chers.",
+      "Étape 5 : Cette facilité d'échange stimule le commerce régional, crée des emplois, et renforce les liens économiques entre les pays."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces objectifs est un but principal de la CEDEAO ?",
+    "reponse_calculee": "Promouvoir l'intégration économique et faciliter la libre circulation des personnes et des biens entre les pays membres",
+    "choices": [
+      {
+        "label": "Créer une monnaie unique dans toute l'Afrique",
+        "correct": false
+      },
+      {
+        "label": "Promouvoir l'intégration économique et faciliter la libre circulation des personnes et des biens entre les pays membres",
+        "correct": true
+      },
+      {
+        "label": "Contrôler strictement les frontières et interdire la migration",
+        "correct": false
+      },
+      {
+        "label": "Imposer une langue officielle unique à tous les pays",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! La CEDEAO vise avant tout à rapprocher les pays d'Afrique de l'Ouest économiquement et politiquement, en supprimant les barrières commerciales et en permettant aux personnes de circuler librement. C'est son fondement depuis 1975.",
+    "feedback_wrong": "Pas tout à fait. La CEDEAO ne crée pas une monnaie unique, ne restreint pas la libre circulation, et ne force pas une langue unique. Son vrai objectif est de promouvoir l'intégration économique et la libre circulation des personnes et des biens entre les pays membres, pour renforcer la région."
+  }
+}

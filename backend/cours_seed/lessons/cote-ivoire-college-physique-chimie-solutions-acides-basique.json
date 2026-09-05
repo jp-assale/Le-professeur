@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-solutions-acides-basique",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Solutions acides, basiques et neutres",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Solutions acides, basiques et neutres",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu prépares du jus de citron frais pour ta famille, tu ajoutes du savon pour laver la vaisselle, tu nettoies une surface avec de l'eau de Javel. Sans le savoir, tu manipules des solutions qui ont des propriétés très différentes. Comment reconnaître si une solution est acide, basique ou neutre ? C'est ce que tu vas apprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une solution acide, basique ou neutre ?",
+    "explanation": "Une solution est un mélange homogène d'une substance dissoute (soluté) dans un liquide (solvant, généralement l'eau). Selon sa composition chimique, une solution peut avoir trois caractères différents. Le caractère acide ou basique d'une solution dépend de la concentration en ions $H^+$ (hydrogène) et en ions $OH^-$ (hydroxyde) qu'elle contient. On utilise l'échelle de pH (potentiel hydrogène), qui va de 0 à 14, pour classer les solutions.",
+    "highlight": "pH < 7 : acide | pH = 7 : neutre | pH > 7 : basique"
+  },
+  "example": {
+    "problem": "Un laboratoire scolaire possède trois solutions mystère. On mesure leur pH à l'aide d'un papier pH. La solution A a un pH de 2, la solution B a un pH de 7, et la solution C a un pH de 11. Classe ces trois solutions selon leur caractère (acide, neutre ou basique) et identifie laquelle pourrait être du vinaigre blanc (connu pour être acide).",
+    "steps": [
+      "Étape 1 : Rappelle-toi l'échelle de pH. Elle va de 0 à 14. Les valeurs inférieures à 7 correspondent aux solutions acides, 7 correspond à la neutralité, et les valeurs supérieures à 7 correspondent aux solutions basiques.",
+      "Étape 2 : Examine la solution A avec pH = 2. Puisque 2 < 7, la solution A est acide.",
+      "Étape 3 : Examine la solution B avec pH = 7. Puisque pH = 7, la solution B est neutre.",
+      "Étape 4 : Examine la solution C avec pH = 11. Puisque 11 > 7, la solution C est basique.",
+      "Étape 5 : Le vinaigre blanc est une solution acide bien connue. Parmi nos trois solutions, seule la solution A (pH = 2) est acide. La solution A est donc le vinaigre blanc."
+    ]
+  },
+  "quiz": {
+    "question": "Une solution d'eau de Javel a un pH de 13. Quel est son caractère et peux-tu justifier pourquoi on doit la manipuler avec prudence ?",
+    "reponse_calculee": "basique - parce que 13 > 7",
+    "choices": [
+      {
+        "label": "acide - parce que sa concentration en ions H+ est élevée",
+        "correct": false
+      },
+      {
+        "label": "basique - parce que 13 > 7",
+        "correct": true
+      },
+      {
+        "label": "neutre - parce que 13 est proche de 14",
+        "correct": false
+      },
+      {
+        "label": "acide - parce que l'eau de Javel contient du chlore",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Une solution avec pH = 13 est basique puisque 13 est supérieur à 7. Les solutions basiques (comme l'eau de Javel) sont causticuses et peuvent brûler la peau ; c'est pourquoi il faut les manipuler avec des gants de protection.",
+    "feedback_wrong": "Attention : une solution est basique si son pH est supérieur à 7. Ici, pH = 13 > 7, donc l'eau de Javel est basique, non acide ni neutre. Les solutions basiques sont dangereuses car elles contiennent une forte concentration en ions OH-, ce qui les rend corrosives."
+  }
+}

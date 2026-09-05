@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-la-communication-dans-l-organisme-co",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "La communication dans l'organisme (communication nerveuse)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La communication nerveuse dans l'organisme",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es assis sous un manguier au bord de la route. Soudain, une voiture klaxonne très fort. Sans réfléchir, tu sursautes et tu te lèves d'un bond. Comment ton corps a-t-il reçu le signal du bruit, l'a traité, et a commandé à tes muscles de réagir si vite ? C'est le système nerveux qui coordonne tout cela en quelques millisecondes, permettant à ton organisme de répondre rapidement à son environnement."
+  },
+  "concept": {
+    "heading": "La communication nerveuse : définition et rôle",
+    "explanation": "La communication nerveuse est l'ensemble des mécanismes par lesquels le système nerveux transmet des informations entre différentes parties du corps et coordonne les réponses de l'organisme face aux stimulus (signaux) de l'environnement. Elle repose sur la transmission rapide d'influx nerveux par les neurones, permettant au cerveau et à la moelle épinière de commander les actions du corps.",
+    "highlight": "La communication nerveuse transmet rapidement des signaux électriques et chimiques pour coordonner les fonctions de l'organisme."
+  },
+  "example": {
+    "problem": "Un élève touch accidentellement une casserole chaude posée sur un foyer. Son système nerveux détecte la douleur à 37°C. Le temps de réaction du cerveau est de 100 millisecondes. La distance entre la main et le cerveau est de 50 cm. Calcule la vitesse approximative de transmission de l'influx nerveux sensoriel (du doigt jusqu'au cerveau). (On suppose une transmission en ligne droite le long des nerfs.)",
+    "steps": [
+      "Étape 1 : Identifie les données. Distance = 50 cm = 0,5 m ; Temps = 100 ms = 0,1 s.",
+      "Étape 2 : Rappelle la formule de la vitesse : $v = \\frac{d}{t}$ où d est la distance et t est le temps.",
+      "Étape 3 : Remplace les valeurs : $v = \\frac{0,5 \\text{ m}}{0,1 \\text{ s}}$.",
+      "Étape 4 : Effectue la division : $v = 5 \\text{ m/s}$.",
+      "Étape 5 : Convertis en km/h si nécessaire : $5 \\text{ m/s} = 5 \\times 3,6 = 18 \\text{ km/h}$. La vitesse de transmission de l'influx nerveux sensoriel est donc environ 5 m/s."
+    ]
+  },
+  "quiz": {
+    "question": "Lors d'une réaction réflexe (par exemple retirer la main d'une flamme), l'influx nerveux suit un chemin appelé arc réflexe. Cet arc comporte généralement trois éléments fondamentaux. Quel est l'ordre correct de transmission de l'influx nerveux dans un arc réflexe simple ?",
+    "reponse_calculee": "Récepteur sensoriel → Moelle épinière → Effecteur moteur",
+    "choices": [
+      {
+        "label": "Récepteur sensoriel → Effecteur moteur → Moelle épinière",
+        "correct": false
+      },
+      {
+        "label": "Moelle épinière → Récepteur sensoriel → Effecteur moteur",
+        "correct": false
+      },
+      {
+        "label": "Récepteur sensoriel → Moelle épinière → Effecteur moteur",
+        "correct": true
+      },
+      {
+        "label": "Effecteur moteur → Récepteur sensoriel → Cerveau",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'arc réflexe commence au récepteur sensoriel (qui détecte le stimulus, comme la chaleur), passe par la moelle épinière (qui traite l'information rapidement sans attendre le cerveau), puis se termine à l'effecteur moteur (le muscle qui agit). C'est cette voie courte qui explique pourquoi tu retires ta main avant même d'avoir conscience de la douleur.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à l'ordre logique : d'abord, le corps doit détecter le danger (récepteur), ensuite le centre nerveux doit analyser et commander une action (moelle épinière), enfin le muscle doit exécuter le mouvement (effecteur). C'est la séquence de l'arc réflexe."
+  }
+}

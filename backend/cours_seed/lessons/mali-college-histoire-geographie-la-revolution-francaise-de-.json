@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-revolution-francaise-de-",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Révolution française de 1789 (causes, conséquences)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La Révolution française de 1789 : causes et conséquences",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un village au Mali où les habitants paient des impôts très lourds, où la nourriture manque, mais où les chefs et les nobles vivent dans le luxe sans rien faire. La colère monte, les gens en ont assez de cette injustice. Un jour, ils se révoltent ensemble, renversent le système et changent tout. C'est exactement ce qui s'est passé en France en 1789 : une révolution qui a transformé un royaume entier."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la Révolution française de 1789 ?",
+    "explanation": "La Révolution française de 1789 est un mouvement de révolte massive du peuple français contre la monarchie absolue et l'inégalité sociale. Elle a éclaté parce que le peuple était écrasé par les impôts, la faim était grande, et le pouvoir était concentré entre les mains du roi et des nobles. Cette révolution a complètement changé la structure de la France et a inspiré d'autres peuples à travers le monde.",
+    "highlight": "La Révolution française = révolte du peuple contre l'injustice, la faim et le pouvoir absolu du roi"
+  },
+  "example": {
+    "problem": "Analysons pourquoi la Révolution française a éclaté en 1789 en examinant les causes principales.",
+    "steps": [
+      "Étape 1 : Observe la situation du peuple. Les paysans et les ouvriers paient des impôts très élevés au roi et à l'Église, mais c'est le peuple qui souffre de la faim et de la pauvreté.",
+      "Étape 2 : Remarque l'inégalité sociale. Le roi, les nobles et les évêques vivent dans le luxe absolument sans travailler, tandis que le peuple crève de faim. Cette injustice crée de la rage.",
+      "Étape 3 : Comprends la crise économique. La France a des dettes énormes, et le roi essaie d'augmenter les impôts encore plus. Le prix du pain monte, les familles ne peuvent plus se nourrir.",
+      "Étape 4 : Saisis le rôle des idées nouvelles. Des penseurs comme Voltaire et Rousseau disent que tous les hommes sont égaux et qu'ils doivent avoir une voix dans les décisions. Ces idées se répandent partout.",
+      "Étape 5 : Vois comment la colère explose. Le peuple se révolte : il prend la Bastille (une prison du roi), il demande une constitution et des droits. Le système ancien s'écroule.",
+      "Étape 6 : Reconnais les conséquences immédiates. L'Église perd ses terres, les nobles perdent leurs privilèges, une déclaration des droits de l'homme est créée. La France devient une monarchie constitutionnelle, puis une République."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces affirmations décrit correctement UNE cause directe de la Révolution française de 1789 ?",
+    "reponse_calculee": "Le peuple payait des impôts très lourds pendant qu'il souffrait de la faim, tandis que le roi et les nobles vivaient dans le luxe.",
+    "choices": [
+      {
+        "label": "La France voulait conquérir l'Angleterre et avait besoin d'une armée plus forte.",
+        "correct": false
+      },
+      {
+        "label": "Le peuple payait des impôts très lourds pendant qu'il souffrait de la faim, tandis que le roi et les nobles vivaient dans le luxe.",
+        "correct": true
+      },
+      {
+        "label": "Le roi Louis XVI voulait abolir la monarchie et donner le pouvoir aux paysans.",
+        "correct": false
+      },
+      {
+        "label": "L'Église catholique refusait de reconnaître l'autorité du roi sur la France.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as identifié la cause centrale : l'inégalité sociale extrême. Le peuple était écrasé par les impôts et la faim tandis que les privilégiés vivaient dans le luxe sans rien faire. Cette injustice insoutenable a provoqué la révolte massive de 1789.",
+    "feedback_wrong": "Pas tout à fait. Relis bien la question. La vraie cause de la Révolution, c'est l'inégalité sociale extrême : le peuple payait des impôts énormes, mourait de faim, tandis que le roi et les nobles jouissaient d'un luxe absolument injustifié. Cette rage face à cette injustice a déclenché la révolution."
+  }
+}

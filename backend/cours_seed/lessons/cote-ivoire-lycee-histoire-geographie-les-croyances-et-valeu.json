@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-croyances-et-valeu",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les croyances et valeurs dans le monde d'aujourd'hui",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les croyances et valeurs dans le monde d'aujourd'hui",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine une rue à Abidjan ou à Accra : tu croiseras des églises pentecôtistes, des mosquées, des temples traditionnels, des gens qui portent des gris-gris, d'autres qui jurent sur la Bible, d'autres encore qui consultent des devins. Chacun de ces espaces, chacun de ces gestes exprime des croyances et des valeurs différentes. Comment ces mondes religieux et culturels coexistent-ils aujourd'hui ? Comment façonnent-ils nos sociétés ?"
+  },
+  "concept": {
+    "heading": "Concept : Les croyances et valeurs dans le monde d'aujourd'hui",
+    "explanation": "Les croyances sont les convictions profondes qu'une personne ou un groupe accepte comme vraies (religieuses, spirituelles, philosophiques). Les valeurs sont les principes moraux et sociaux que les gens considèrent comme importants et justes. Dans le monde contemporain, ces croyances et valeurs coexistent, se rencontrent, entrent en dialogue ou en conflit. Elles structurent les identités, les comportements, les politiques et les rapports sociaux. Comprendre le monde d'aujourd'hui, c'est donc reconnaître la pluralité des croyances et valeurs qui le composent et analyser comment elles interagissent.",
+    "highlight": "Les croyances et valeurs sont des forces sociales qui façonnent les identités, les comportements et les choix politiques dans un monde pluriel et interconnecté."
+  },
+  "example": {
+    "problem": "En Côte d'Ivoire et dans beaucoup de pays d'Afrique de l'Ouest, la question du mariage est un bon terrain d'analyse. Prenons le cas d'une jeune fille dont la famille pratique un islam traditionnel strict, mais qui a grandi dans un environnement urbain où elle a été scolarisée et expose à des valeurs d'égalité des genres. Elle veut choisir son mari librement, mais sa famille souhaite un mariage arrangé selon les traditions. Analysons comment les croyances et valeurs entrent en tension ici.",
+    "steps": [
+      "D'abord, identifions les systèmes de croyances en présence. La famille représente une vision religieuse et culturelle où le respect de l'autorité parentale et les traditions matrimoniales sont sacrés. La jeune fille, elle, a intériorisé des valeurs d'autonomie individuelle et d'égalité.",
+      "Deuxième étape : reconnaissons que ces deux systèmes ne sont pas simplement opposés, mais coexistent dans la même personne et la même société. Ce ne sont pas des mondes fermés—ils communiquent.",
+      "Troisième étape : observons comment ces croyances et valeurs produisent des comportements différents. La famille agit selon ses convictions religieuses et ses traditions ; la jeune fille agit selon ses valeurs d'autonomie personnelle.",
+      "Quatrième étape : examinons les tensions sociales qui en résultent. Cette tension n'est pas un problème à éliminer ; c'est une caractéristique du monde d'aujourd'hui, où plusieurs systèmes de valeurs cohabitent.",
+      "Cinquième étape : voyons comment la société (État, écoles, médias) intervient. Les lois sur le mariage, les campagnes d'éducation aux droits des femmes, les débats publics reflètent des choix de valeurs. Aucune société n'est neutre.",
+      "Conclusion : analyser les croyances et valeurs dans le monde d'aujourd'hui, c'est montrer comment elles coexistent, entrent en dialogue, créent des tensions, mais aussi offrent des ressources de sens et d'identité aux individus et aux groupes."
+    ]
+  },
+  "quiz": {
+    "question": "Une organisation internationale promeut le droit au mariage pour tous, peu importe le sexe du partenaire. Cette position reflète quelle réalité des croyances et valeurs dans le monde d'aujourd'hui ?",
+    "reponse_calculee": "La coexistence de systèmes de valeurs divergents et la diffusion globale de certaines normes qui entrent en tension avec des traditions et convictions religieuses locales.",
+    "choices": [
+      {
+        "label": "L'absence totale de croyances religieuses dans les sociétés modernes.",
+        "correct": false
+      },
+      {
+        "label": "La coexistence de systèmes de valeurs divergents et la diffusion globale de certaines normes qui entrent en tension avec des traditions et convictions religieuses locales.",
+        "correct": true
+      },
+      {
+        "label": "Le fait que toutes les religions du monde partagent exactement les mêmes valeurs morales.",
+        "correct": false
+      },
+      {
+        "label": "L'impossibilité pour des croyances différentes de coexister dans une même société.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Cette position illustre parfaitement le monde d'aujourd'hui : certains pays, organisations ou groupes défendent des valeurs d'égalité et d'inclusion universelles, tandis que d'autres fondent leurs positions sur des convictions religieuses ou culturelles différentes. Ce n'est ni un conflit simple ni une harmonie totale—c'est une coexistence complexe de systèmes de croyances pluriels qui dialoguent, se confrontent et parfois se transforment mutuellement.",
+    "feedback_wrong": "Pas tout à fait. Relisons la question : elle parle de la tension entre une norme promue globalement et les réalités locales de croyances et traditions. Le monde d'aujourd'hui n'est pas un espace homogène de croyances unifiées. C'est justement ce pluralisme—cette coexistence de valeurs différentes et souvent en tension—qui définit notre époque. L'option correcte reconnaît cette complexité."
+  }
+}

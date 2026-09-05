@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-oscillateurs-libres",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Oscillateurs libres",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Oscillateurs libres",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un pendule dans une case traditionnelle, ou une branche qui oscille après que tu l'aies écartée. Sans aucune force externe, le système revient toujours à son équilibre en oscillant librement. C'est exactement ce que tu vas étudier aujourd'hui : comment un objet se met à vibrer tout seul, puis comment cette vibration disparaît progressivement à cause des frottements. Ce phénomène naturel se retrouve partout autour de toi."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un oscillateur libre ?",
+    "explanation": "Un oscillateur libre est un système mécanique (pendule, ressort, etc.) qui, une fois écarté de sa position d'équilibre, revient vers cette position en oscillant. Il n'y a pas de force extérieure qui le pousse continuellement : seules les forces internes (tension du ressort, poids) et la résistance de l'air agissent sur lui. Le mouvement est périodique et caractérisé par une période $T$ (temps pour une oscillation complète) et une fréquence $f = 1/T$ (nombre d'oscillations par seconde).",
+    "highlight": "Période : $T = 2\\pi\\sqrt{\\frac{m}{k}}$ pour un ressort ; Fréquence : $f = \\frac{1}{T}$ (en Hertz)"
+  },
+  "example": {
+    "problem": "Une masse de 200 g est accrochée à un ressort horizontal. On écarte la masse de 5 cm de sa position d'équilibre, puis on la lâche. Le ressort a une raideur $k = 50$ N/m. Calcule la période et la fréquence de cet oscillateur libre (en négligeant les frottements).",
+    "steps": [
+      "Étape 1 : Identifie les données. $m = 200$ g $= 0,2$ kg ; $k = 50$ N/m ; amplitude initiale $A = 5$ cm (ne change pas la période).",
+      "Étape 2 : Applique la formule de la période. $T = 2\\pi\\sqrt{\\frac{m}{k}} = 2\\pi\\sqrt{\\frac{0,2}{50}}$",
+      "Étape 3 : Calcule le rapport sous la racine. $\\frac{0,2}{50} = 0,004$ s²",
+      "Étape 4 : Calcule la racine carrée. $\\sqrt{0,004} = 0,0632$ s",
+      "Étape 5 : Multiplie par $2\\pi$. $T = 2\\pi \\times 0,0632 = 2 \\times 3,14 \\times 0,0632 \\approx 0,397$ s, soit environ $0,4$ s.",
+      "Étape 6 : Calcule la fréquence. $f = \\frac{1}{T} = \\frac{1}{0,397} \\approx 2,52$ Hz. La masse oscille environ 2,5 fois par seconde."
+    ]
+  },
+  "quiz": {
+    "question": "Une masse de 500 g est accrochée à un ressort de raideur $k = 20$ N/m. En l'absence de frottements, quelle est la période de cet oscillateur libre ? (Utilise $\\pi \\approx 3,14$)",
+    "reponse_calculee": "3,14 s",
+    "choices": [
+      {
+        "label": "1,57 s",
+        "correct": false
+      },
+      {
+        "label": "3,14 s",
+        "correct": true
+      },
+      {
+        "label": "0,63 s",
+        "correct": false
+      },
+      {
+        "label": "6,28 s",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule. $T = 2\\pi\\sqrt{\\frac{m}{k}} = 2\\pi\\sqrt{\\frac{0,5}{20}} = 2\\pi\\sqrt{0,025} = 2\\pi \\times 0,158 \\approx 2 \\times 3,14 \\times 0,158 = 3,14$ s. Bien joué !",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti les grammes en kilogrammes (500 g = 0,5 kg), et que tu appliques la formule complète : $T = 2\\pi\\sqrt{\\frac{m}{k}}$. N'oublie pas le facteur $2\\pi$ !"
+  }
+}

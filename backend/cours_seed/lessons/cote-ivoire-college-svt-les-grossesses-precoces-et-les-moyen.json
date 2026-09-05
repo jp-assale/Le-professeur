@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-svt-les-grossesses-precoces-et-les-moyen",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Les grossesses précoces et les moyens de prévention",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les grossesses précoces et les moyens de prévention",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Dans un village de la région de Yamoussoukro, Ama a 14 ans. Elle vient de redoubler sa classe de 3ème et son professeur remarque qu'elle s'absente de plus en plus. Ses camarades murmurrent qu'elle est enceinte. Ama n'a jamais reçu d'éducation sexuelle à l'école ni à la maison. Aujourd'hui, tu vas comprendre ce qu'est une grossesse précoce, pourquoi c'est dangereux, et comment on peut l'éviter."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une grossesse précoce ?",
+    "explanation": "Une grossesse précoce est une grossesse qui survient chez une jeune fille avant la fin de l'adolescence, généralement avant 18 ans. À cet âge, le corps et surtout l'esprit ne sont pas encore totalement préparés à porter un enfant. Cela expose la jeune mère et l'enfant à de graves risques : complications médicales, abandon scolaire, marginalisation sociale, et problèmes psychologiques. En Côte d'Ivoire et en Afrique de l'Ouest, c'est un problème majeur de santé publique.",
+    "highlight": "Une grossesse précoce = une grossesse avant 18 ans, avec des risques graves pour la jeune mère et l'enfant"
+  },
+  "example": {
+    "problem": "Une enquête menée dans un lycée a montré que sur 240 élèves filles de 13 à 17 ans, 18 ont connu une grossesse précoce. Calcule le pourcentage de jeunes filles concernées par ce phénomène dans ce lycée.",
+    "steps": [
+      "Identifie les données : nombre total de filles = 240 ; nombre de filles ayant eu une grossesse précoce = 18",
+      "Applique la formule du pourcentage : Pourcentage = (Nombre de cas concernés ÷ Nombre total) × 100",
+      "Pose l'opération : Pourcentage = (18 ÷ 240) × 100",
+      "Effectue la division : 18 ÷ 240 = 0,075",
+      "Multiplie par 100 : 0,075 × 100 = 7,5 %",
+      "Conclusion : 7,5 % des filles de ce lycée ont connu une grossesse précoce. C'est une proportion significative qui justifie une action de prévention."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un quartier de Cocody, on a recensé 156 cas de grossesses précoces chez les jeunes filles de 13 à 17 ans sur une population totale de 1 300 jeunes filles du même âge. Quel est le pourcentage de grossesses précoces dans ce quartier ?",
+    "reponse_calculee": "12 %",
+    "choices": [
+      {
+        "label": "8,3 %",
+        "correct": false
+      },
+      {
+        "label": "12 %",
+        "correct": true
+      },
+      {
+        "label": "15,6 %",
+        "correct": false
+      },
+      {
+        "label": "20 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : (156 ÷ 1 300) × 100 = 0,12 × 100 = 12 %. Ce taux montre que près d'une jeune fille sur huit dans ce quartier est concernée par une grossesse précoce. C'est pourquoi les moyens de prévention (éducation sexuelle, accès à la contraception, scolarisation) sont essentiels.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi la formule : Pourcentage = (Nombre de cas ÷ Total) × 100. Ici : (156 ÷ 1 300) × 100 = 12 %. Revérifie ton calcul étape par étape."
+  }
+}

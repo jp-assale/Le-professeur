@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-statistique",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Statistique",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Statistique - BFEM Mathématiques",
+  "intro": {
+    "heading": "Mise en situation : Les résultats du marché",
+    "body": "Imagine que tu aides ton parent qui tient un petit commerce à Dakar. Il vend des téléphones reconditionnés et veut savoir quel modèle il vend le plus, quel prix moyen il pratique, et comment ses ventes varient d'une semaine à l'autre. Pour répondre à ces questions, il faut organiser et analyser les données : c'est la statistique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la statistique ?",
+    "explanation": "La statistique est la science qui permet de collecter, organiser, analyser et interpréter des données numériques pour en tirer des conclusions. Elle nous aide à résumer une grande quantité d'informations par quelques nombres significatifs : la moyenne, la médiane, l'étendue, et la fréquence.",
+    "highlight": "Moyenne = (somme de tous les termes) / (nombre de termes)"
+  },
+  "example": {
+    "problem": "Un élève a obtenu les notes suivantes en mathématiques sur 10 : 8, 7, 9, 7, 6, 8, 9, 8. Calcule la moyenne et identifie la note qui revient le plus souvent (le mode).",
+    "steps": [
+      "Étape 1 : Liste les données : 8, 7, 9, 7, 6, 8, 9, 8. Nous avons 8 notes au total.",
+      "Étape 2 : Additionne toutes les notes : 8 + 7 + 9 + 7 + 6 + 8 + 9 + 8 = 62.",
+      "Étape 3 : Applique la formule de la moyenne : Moyenne = 62 ÷ 8 = 7,75. La moyenne est 7,75 sur 10.",
+      "Étape 4 : Pour trouver le mode, compte la fréquence de chaque note. La note 8 apparaît 3 fois, la note 7 apparaît 2 fois, la note 9 apparaît 2 fois, la note 6 apparaît 1 fois.",
+      "Étape 5 : Le mode (la note la plus fréquente) est 8, car elle revient 3 fois.",
+      "Conclusion : Moyenne = 7,75 et Mode = 8."
+    ]
+  },
+  "quiz": {
+    "question": "Une vendeuse d'arachides grillées a compté ses ventes sur 5 jours : 12 kg, 15 kg, 12 kg, 18 kg, et 13 kg. Quelle est la moyenne de ses ventes quotidiennes ?",
+    "reponse_calculee": "14 kg",
+    "choices": [
+      {
+        "label": "12 kg",
+        "correct": false
+      },
+      {
+        "label": "14 kg",
+        "correct": true
+      },
+      {
+        "label": "15 kg",
+        "correct": false
+      },
+      {
+        "label": "18 kg",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule. La somme est 12 + 15 + 12 + 18 + 13 = 70 kg. Divisée par 5 jours, cela donne 70 ÷ 5 = 14 kg de moyenne quotidienne. Tu maîtrises bien le calcul de moyenne.",
+    "feedback_wrong": "Ce n'est pas correct. Vérifie ton calcul : additionne d'abord toutes les ventes (12 + 15 + 12 + 18 + 13 = 70), puis divise par le nombre de jours (5). Tu dois obtenir 70 ÷ 5 = 14 kg. Recommence en détaillant chaque étape."
+  }
+}

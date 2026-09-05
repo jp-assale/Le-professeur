@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-la-coree-du-sud-puissa",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Corée du Sud, puissance émergente",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La Corée du Sud, puissance émergente",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as un téléphone Samsung, tu regardes des séries Netflix coréennes, tu connais peut-être BTS ou Blackpink. Ces produits viennent d'un petit pays d'Asie qui, il y a seulement 60 ans, sortait à peine de la guerre et était l'un des plus pauvres du monde. Comment la Corée du Sud est-elle devenue une puissance technologique et culturelle mondiale ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une puissance émergente ?",
+    "explanation": "La Corée du Sud est un exemple de puissance émergente : un pays qui, par une transformation économique et technologique rapide, passe du statut de nation en développement à celui de pays riche et influent sur la scène mondiale. Cela s'est produit sur quelques décennies seulement, grâce à des choix politiques d'industrialisation volontaire, d'investissement massif dans l'éducation et la technologie, et d'une intégration dans les échanges mondiaux.",
+    "highlight": "Une puissance émergente transforme rapidement son économie et son influence par l'innovation, l'industrie et la technologie."
+  },
+  "example": {
+    "problem": "Analyse comment la Corée du Sud est passée d'un pays agricole et détruit par la guerre à une puissance industrielle mondialement reconnue.",
+    "steps": [
+      "Étape 1 : Contexte initial (années 1950-60). Après la Guerre de Corée (1950-1953), le pays est ruiné, très pauvre, avec une population essentiellement rurale et agricole. Les ressources sont limitées, les infrastructures détruites.",
+      "Étape 2 : Choix politique de l'État. Les gouvernements sud-coréens décident que l'industrialisation est la clé de la survie. L'État n'attend pas passivement : il planifie, il investit, il crée les conditions pour que les entreprises se développent rapidement.",
+      "Étape 3 : Secteurs clés ciblés. Le pays choisit de se concentrer sur des industries où il peut être compétitif : d'abord le textile et l'électronique légère, puis progressivement les semiconducteurs, l'électronique grand public (télévisions, magnétoscopes), l'automobile.",
+      "Étape 4 : Rôle des grandes entreprises (chaebols). Des groupes comme Samsung, Hyundai, LG reçoivent le soutien de l'État et deviennent des géants mondiaux. Ces entreprises innovent, exportent massivement, créent des emplois.",
+      "Étape 5 : Investissement dans l'éducation et la technologie. Le pays forme ses ingénieurs, ouvre des universités d'excellence, crée des centres de recherche. La main-d'œuvre devient hautement qualifiée.",
+      "Étape 6 : Intégration mondiale. La Corée du Sud exporte ses produits vers le monde entier. Elle rejoint les organisations internationales, attire les investissements étrangers, s'insère dans les réseaux d'échanges globaux. Elle devient riche et puissante."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments a le MOINS contribué à la transformation de la Corée du Sud en puissance émergente ?",
+    "reponse_calculee": "L'abondance de ressources naturelles",
+    "choices": [
+      {
+        "label": "L'investissement massif de l'État dans l'éducation et la technologie",
+        "correct": false
+      },
+      {
+        "label": "L'émergence de grandes entreprises innovantes soutenues par l'État",
+        "correct": false
+      },
+      {
+        "label": "L'abondance de ressources naturelles",
+        "correct": true
+      },
+      {
+        "label": "L'intégration dans les réseaux mondiaux d'échanges et d'exportation",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. La Corée du Sud n'a pas de grandes ressources naturelles (pas de pétrole, peu de minerais importants). Ce qui l'a sauvée, c'est précisément qu'elle a dû compter sur l'intelligence, la technologie et le travail humain organisé. Elle a transformé son handicap en force.",
+    "feedback_wrong": "Pas tout à fait. Pense au contraire : la Corée du Sud n'a JAMAIS eu d'abondantes ressources naturelles. Ce manque l'a forcée à miser sur l'éducation, la technologie et l'innovation. C'est cette absence de ressources qui explique son modèle unique de développement."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-la-defense-de-l-organisme-et-son-dys",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué qu'après une blessure à l'école, la plaie rougit et enfle pendant quelques jours avant de guérir. Ailleurs, un de tes cousins a reçu un diagnostic positif au VIH et tu te demandes comment ce virus affaiblit le corps. Ces deux situations montrent comment ton organisme se défend contre les menaces extérieures, et ce qui se passe quand cette défense échoue."
+  },
+  "concept": {
+    "heading": "Concept central : la défense de l'organisme",
+    "explanation": "Ton corps possède un système de défense appelé système immunitaire. Il reconnaît et détruit les microbes (bactéries, virus, parasites) et les corps étrangers qui tentent d'envahir l'organisme. Ce système fonctionne en deux phases : d'abord une défense rapide et non spécifique (les barrières naturelles et l'inflammation), puis une défense lente mais très précise (les anticorps et les lymphocytes). Quand ce système s'affaiblit ou dysfonctionnne, comme lors d'une infection au VIH, l'organisme devient vulnérable aux maladies.",
+    "highlight": "L'immunité = capacité de l'organisme à reconnaître et éliminer les éléments pathogènes pour maintenir l'intégrité du corps."
+  },
+  "example": {
+    "problem": "Un laboratoire ivoirien effectue un comptage de lymphocytes $T_{CD4}$ chez un patient infecté par le VIH. Le résultat initial est de 800 cellules par mm³ de sang. Après 3 ans sans traitement antirétroviral, ce nombre diminue de 15% par an en moyenne. Quel sera le nombre approximatif de lymphocytes $T_{CD4}$ après 3 ans ? (Considère que la diminution s'applique chaque année de manière progressive.)",
+    "steps": [
+      "Étape 1 : Identifie la valeur initiale : $N_0 = 800$ cellules/mm³.",
+      "Étape 2 : Si la diminution est de 15% par an, cela signifie que 85% des cellules restent chaque année. Le coefficient multiplicateur est donc $0,85$.",
+      "Étape 3 : Après 1 an : $N_1 = 800 \\times 0,85 = 680$ cellules/mm³.",
+      "Étape 4 : Après 2 ans : $N_2 = 680 \\times 0,85 = 578$ cellules/mm³.",
+      "Étape 5 : Après 3 ans : $N_3 = 578 \\times 0,85 = 491,3$ cellules/mm³. On peut aussi utiliser la formule : $N_3 = 800 \\times (0,85)^3 = 800 \\times 0,614125 ≈ 491$ cellules/mm³.",
+      "Étape 6 : Conclusion : le nombre de lymphocytes $T_{CD4}$ descend à environ 491 cellules/mm³, ce qui indique une immunodéficience grave (le seuil normal est supérieur à 500 cellules/mm³)."
+    ]
+  },
+  "quiz": {
+    "question": "Le VIH attaque spécifiquement un type de lymphocyte essentiel à la coordination de la réponse immunitaire. Quel est le nom de ce lymphocyte et quel est son rôle principal ?",
+    "reponse_calculee": "lymphocyte T CD4 (ou cellule T helper/auxiliaire) - coordination et activation de la réponse immunitaire spécifique",
+    "choices": [
+      {
+        "label": "Lymphocyte B - production d'anticorps",
+        "correct": false
+      },
+      {
+        "label": "Lymphocyte T CD4 - coordination de la réponse immunitaire spécifique",
+        "correct": true
+      },
+      {
+        "label": "Macrophage - phagocytose des bactéries",
+        "correct": false
+      },
+      {
+        "label": "Lymphocyte T cytotoxique - destruction des cellules infectées",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le lymphocyte T CD4, aussi appelé cellule T auxiliaire ou T helper, est le chef d'orchestre de l'immunité adaptative. Il coordonne l'activation des lymphocytes B et des lymphocytes T cytotoxiques. C'est précisément ce lymphocyte que le VIH détruit progressivement, ce qui explique pourquoi les patients atteints du SIDA deviennent vulnérables à des infections opportunistes.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Le VIH cible spécifiquement le lymphocyte T CD4 (cellule T helper), qui est responsable de la coordination globale de la réponse immunitaire. Les autres cellules que tu as mentionnées jouent aussi un rôle dans l'immunité, mais le VIH affaiblit principalement la réponse immunitaire en détruisant les T CD4, ce qui explique l'apparition du SIDA quand leur nombre devient très faible (moins de 200 cellules/mm³)."
+  }
+}

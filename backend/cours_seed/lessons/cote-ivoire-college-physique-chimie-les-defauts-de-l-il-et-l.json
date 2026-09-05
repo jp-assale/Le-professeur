@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-les-defauts-de-l-il-et-l",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les défauts de l'œil et leurs corrections",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les défauts de l'œil et leurs corrections",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué que ton grand-mère tient son téléphone très loin pour lire ses messages, alors que toi tu le lis sans problème de près. Ton petit cousin, lui, plisse les yeux pour voir le tableau à l'école. Ces trois situations décrivent des défauts de l'œil très courants. Comprendre comment l'œil fonctionne et pourquoi il « s'use » t'aidera à savoir pourquoi certaines personnes ont besoin de lunettes."
+  },
+  "concept": {
+    "heading": "Les défauts de l'œil : définition et principes",
+    "explanation": "L'œil normal (emmétrope) forme l'image d'un objet exactement sur la rétine. Quand cette image se forme avant ou après la rétine, on parle de défaut de l'œil. Les deux défauts les plus courants sont : la myopie (vision floue de loin), où l'image se forme avant la rétine, et l'hypermétropie (vision floue de près), où l'image se forme après la rétine. La presbytie est la perte progressive de l'accommodation liée à l'âge. Ces défauts se corrigent avec des verres appropriés (lunettes ou lentilles) qui dévient les rayons lumineux pour que l'image se forme exactement sur la rétine.",
+    "highlight": "Un defaut de l'oeil provient d'une mauvaise convergence des rayons lumineux : l'image se forme avant ou apres la retine au lieu de s'y former precisement."
+  },
+  "example": {
+    "problem": "Un élève myope ne voit net que jusqu'à 50 cm de distance. Pour corriger sa myopie, on lui prescrit des verres divergents de vergence -2 dioptries. Quelle est la distance focale de ces verres ? Cet élève pourra-t-il, avec ces verres, lire correctement un livre à 25 cm ?",
+    "steps": [
+      "Étape 1 : Rappelle-toi que la vergence $C$ (en dioptries) et la distance focale $f$ (en mètres) sont liées par la formule $C = \\frac{1}{f}$.",
+      "Étape 2 : Calcule la distance focale. Ici, $C = -2$ dioptries, donc $f = \\frac{1}{C} = \\frac{1}{-2} = -0,5$ m = -50 cm. Le signe négatif confirme qu'il s'agit de verres divergents (concaves).",
+      "Étape 3 : Comprends ce que cela signifie : sans correction, cet élève voit net jusqu'à 50 cm. Avec des verres de distance focale -50 cm, les verres « reculent » l'image nette à l'infini, ce qui lui permet de voir loin.",
+      "Étape 4 : Pour la lecture à 25 cm, l'œil doit faire une accommodation (ajustement du cristallin). Avec les verres correcteurs, l'élève retrouve la capacité d'accommodation d'un œil normal.",
+      "Étape 5 : Conclusion : oui, avec ces verres, il pourra lire à 25 cm, car les verres corrigent le défaut en le permettant d'accommoder normalement pour les distances proches."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant hypermétrope voit mal de près. On lui prescrit des verres de correction de vergence +3 dioptries. Quelle est la distance focale de ces verres ?",
+    "reponse_calculee": "0,33 m ou 33 cm",
+    "choices": [
+      {
+        "label": "-0,33 m",
+        "correct": false
+      },
+      {
+        "label": "0,33 m",
+        "correct": true
+      },
+      {
+        "label": "3 m",
+        "correct": false
+      },
+      {
+        "label": "-3 m",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule $f = \\frac{1}{C}$. Avec $C = +3$ dioptries, tu obtiens $f = \\frac{1}{3} \\approx 0,33$ m. Le signe positif indique des verres convergents (convexes), appropriés pour corriger l'hypermétropie en aidant l'œil à converger les rayons plus fortement.",
+    "feedback_wrong": "Pas tout à fait. Utilise la formule $f = \\frac{1}{C}$ où $C = +3$ dioptries. Cela donne $f = \\frac{1}{3} \\approx 0,33$ m (et non -0,33 m). Le signe positif est crucial : il indique que ce sont des verres convergents (convexes), adaptés à l'hypermétropie. Attention à ne pas confondre le type de verres avec le signe de la vergence !"
+  }
+}

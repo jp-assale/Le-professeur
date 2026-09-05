@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-personne",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La personne",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La personne | Philosophie Baccalauréat",
+  "intro": {
+    "heading": "Mise en situation : Qui es-tu vraiment ?",
+    "body": "Imagine que tu rencontres quelqu'un pour la première fois. Il te demande : « Qui es-tu ? » Tu pourrais répondre par ton nom, ton âge, ta famille, tes études. Mais ce nom, c'est vraiment toi ? Et demain, si tu changes d'avis sur tes rêves, seras-tu toujours la même personne ? La question « Qui suis-je ? » n'est pas aussi simple qu'elle le paraît. C'est justement ce que nous allons explorer ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une personne ?",
+    "explanation": "En philosophie, la personne n'est pas seulement un individu biologique parmi d'autres. Une personne est un être capable de conscience, de réflexion et de liberté. Elle peut penser à elle-même, reconnaître sa propre existence, faire des choix et en assumer les responsabilités. Contrairement à une chose ou à un animal, la personne possède une dignité morale : elle est un sujet, jamais un simple objet. Elle n'est pas réductible à son corps, à son rôle social ou à ses possessions. C'est cette conscience de soi et cette capacité à agir librement qui font de toi une personne.",
+    "highlight": "Une personne est un être conscient, libre et responsable, doté d'une dignité morale inviolable."
+  },
+  "example": {
+    "problem": "Analyse cette situation : Kofi est un jeune homme de 17 ans au Burkina. Ses parents ont prévu pour lui un mariage arrangé avec la fille d'une famille amie, selon la tradition. Mais Kofi aime quelqu'un d'autre et refuse ce mariage. Ses parents disent : « Tu dois accepter, c'est notre décision, c'est la tradition. » La question : Est-ce que Kofi est traité comme une personne dans cette situation ? Pourquoi ?",
+    "steps": [
+      "Étape 1 - Reconnaissance de l'être : Kofi est un être humain vivant. Mais suffit-il d'être humain pour être traité comme une personne ?",
+      "Étape 2 - La conscience de soi : Kofi sait ce qu'il ressent, il connaît son propre cœur et ses désirs. Il a une conscience claire de qui il est et de ce qu'il veut.",
+      "Étape 3 - La liberté : Kofi est capable de faire un choix personnel. Il n'est pas contraint physiquement, mais on le presse de renoncer à son propre jugement.",
+      "Étape 4 - La responsabilité : Kofi accepterait les conséquences de son refus (déception familiale, tensions sociales). Il agit en connaissance de cause.",
+      "Étape 5 - Le traitement reçu : Ses parents le traitent comme un exécutant de leur volonté, pas comme un être capable de décider de sa propre vie. Ils ignorent sa conscience et sa liberté.",
+      "Étape 6 - Conclusion : Non, Kofi n'est PAS traité comme une personne ici. On lui refuse le droit de réfléchir et de choisir librement. Une véritable reconnaissance de sa personne exigerait d'écouter sa voix, même si on désapprouve son choix."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces exemples montre le non-respect de la personne selon la philosophie ?",
+    "reponse_calculee": "Traiter quelqu'un comme un objet utile plutôt que comme un être capable de penser et de décider",
+    "choices": [
+      {
+        "label": "Un parent qui pose des questions à son enfant et lui explique pourquoi une règle existe",
+        "correct": false
+      },
+      {
+        "label": "Traiter quelqu'un comme un objet utile plutôt que comme un être capable de penser et de décider",
+        "correct": true
+      },
+      {
+        "label": "Un professeur qui donne des devoirs et évalue le travail de ses élèves",
+        "correct": false
+      },
+      {
+        "label": "Une communauté qui partage des valeurs communes et des traditions",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. Traiter quelqu'un comme un objet—un instrument au service d'autres fins—c'est nier sa qualité de personne. Une personne possède une fin en elle-même (sa propre vie, ses choix), elle n'est jamais un simple moyen. Les autres exemples (dialogue, évaluation, partage de valeurs) respectent la capacité de conscience et de liberté de la personne.",
+    "feedback_wrong": "Réfléchis davantage. La question demande ce qui VIOLE le respect de la personne. Une personne, c'est avant tout quelqu'un capable de penser, de décider et d'avoir de la valeur en soi. Si on la traite comme un outil ou une chose inerte, on nie précisément cela. Relis la définition du concept et teste chaque option : laquelle nie la conscience et la liberté ?"
+  }
+}

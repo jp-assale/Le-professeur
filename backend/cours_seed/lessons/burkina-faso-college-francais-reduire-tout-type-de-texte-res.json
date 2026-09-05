@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-reduire-tout-type-de-texte-res",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Réduire tout type de texte (résumé)",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Réduire tout type de texte (résumé)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as un ami qui rentre de l'école et te raconte sa journée pendant 10 minutes. Mais tu dois envoyer un SMS à ta mère pour lui expliquer pourquoi tu rentreras tard. Tu ne peux pas écrire tout le détail : tu dois garder l'essentiel en quelques lignes. C'est exactement ce qu'on fait quand on résume un texte. Apprendre à réduire un texte, c'est apprendre à garder les idées principales et à enlever le superflu."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que résumer un texte ?",
+    "explanation": "Résumer un texte, c'est le réduire en gardant seulement les informations essentielles. Tu dois comprendre le sens du texte original, identifier ce qui est vraiment important, et le réécrire de manière plus courte, dans tes propres mots. C'est une compétence utile pour étudier, pour communiquer rapidement, et pour montrer que tu as bien compris ce que tu lis.",
+    "highlight": "Résumer = garder l'essentiel + enlever les détails + réécrire plus court"
+  },
+  "example": {
+    "problem": "Voici un texte à résumer : « Hier, Kofi s'est réveillé très tôt à 5 heures du matin. Il a pris une douche froide qui l'a bien réveillé. Ensuite, il a mangé un bol de pâte avec du lait et du pain grillé pour le petit-déjeuner. Il a mis ses vêtements neufs qu'il avait reçus pour son anniversaire la semaine précédente. Il a pris son sac à dos, ses cahiers, ses stylos et son crayon à papier. À 6h30, il a dit au revoir à sa mère et il est parti à l'école à pied. Sur le chemin, il a croisé deux copains et ils ont discuté du match de football qui avait eu lieu samedi. À 7h15, il est arrivé à l'école et il a commencé son cours de français. »",
+    "steps": [
+      "Étape 1 – Lis le texte et comprends son idée générale : De quoi parle-t-on ? Réponse : on parle de la routine matinale de Kofi avant d'aller à l'école.",
+      "Étape 2 – Identifie les informations PRINCIPALES : Kofi s'est réveillé tôt, il a préparé ses affaires, il est parti à l'école, il est arrivé à l'heure.",
+      "Étape 3 – Repère les détails inutiles pour l'idée générale : l'heure exacte du réveil (5h), le type de douche, ce qu'il a mangé précisément, ses vêtements neufs, la liste de tous ses objets d'école, la conversation sur le football, l'heure précise d'arrivée.",
+      "Étape 4 – Garde seulement ce qui est vraiment nécessaire : le fait qu'il s'est levé tôt, qu'il s'est préparé, qu'il est parti à l'école.",
+      "Étape 5 – Rédige ton résumé en texte court et clair : « Kofi s'est réveillé tôt, s'est préparé et est parti à l'école à pied. »",
+      "Étape 6 – Vérifie : est-ce que mon résumé dit l'essentiel du texte original sans les détails ? Oui. C'est bon."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les quatre phrases suivantes, laquelle est le meilleur résumé de ce texte : « Marie a étudié pendant deux heures. Elle a d'abord révisé ses leçons de mathématiques pendant 45 minutes. Elle a bu un verre d'eau froide. Ensuite, elle a fait ses exercices de français pendant 30 minutes. Elle a aussi lu un chapitre de son manuel de géographie pendant 20 minutes. Après, elle était très fatiguée. » ?",
+    "reponse_calculee": "Marie a étudié plusieurs matières pendant deux heures.",
+    "choices": [
+      {
+        "label": "Marie a bu un verre d'eau froide et elle était très fatiguée.",
+        "correct": false
+      },
+      {
+        "label": "Marie a étudié plusieurs matières pendant deux heures.",
+        "correct": true
+      },
+      {
+        "label": "Marie a révisé les mathématiques pendant 45 minutes et elle a fait du français pendant 30 minutes.",
+        "correct": false
+      },
+      {
+        "label": "Marie a étudié pendant deux heures, puis elle a lu un chapitre de géographie et elle était très fatiguée.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as gardé l'idée principale (Marie a étudié) sans les détails spécifiques comme les durées exactes, le verre d'eau ou la fatigue. C'est ça, bien résumer.",
+    "feedback_wrong": "Pas tout à fait. Regarde bien : tu as peut-être gardé trop de détails (comme les chiffres de minutes) ou tu as mis des informations qui ne sont pas vraiment essentielles (comme le verre d'eau). Le meilleur résumé dit seulement le cœur du texte : pourquoi parle-t-on de Marie ? Pour dire qu'elle a étudié. Tout le reste sont des détails."
+  }
+}

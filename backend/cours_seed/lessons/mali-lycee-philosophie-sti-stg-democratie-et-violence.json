@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-democratie-et-violence",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Démocratie et violence",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Démocratie et violence",
+  "intro": {
+    "heading": "Mise en situation : une rue de Bamako en tension",
+    "body": "Imagine une manifestation pacifique pour réclamer de meilleures écoles. Les manifestants scandent, portent des pancartes, occupent une place publique. Soudain, des affrontements éclatent : certains lancent des pierres, la police riposte. La question surgit : la démocratie, c'est le droit de manifester pacifiquement... mais qu'arrive-t-il quand la violence s'en mêle ? Qui a le droit d'user de force ? Et jusqu'où ?"
+  },
+  "concept": {
+    "heading": "Démocratie et violence : le paradoxe central",
+    "explanation": "La démocratie repose sur le principe que le peuple exprime sa volonté par des moyens pacifiques et légaux : vote, débat, manifestation non-violente. Cependant, la démocratie fait face à une tension profonde : d'un côté, elle interdit la violence privée et arbitraire pour maintenir l'ordre ; de l'autre, elle doit parfois tolérer ou utiliser la force (police, armée) pour se défendre elle-même contre ceux qui la menacent. Le vrai enjeu philosophique est donc : comment une démocratie peut-elle rester fidèle à ses principes pacifiques tout en se protégeant contre la violence qui viserait à la détruire ?",
+    "highlight": "La démocratie doit résoudre le paradoxe : interdire la violence tout en la possédant légalement pour survivre."
+  },
+  "example": {
+    "problem": "Analyse cette situation concrète : Un gouvernement démocratique apprend qu'un groupe armé prépare un coup d'État violent pour renverser la démocratie elle-même. Le gouvernement doit-il utiliser la force pour arrêter ce groupe ? Est-ce compatible avec les principes démocratiques ?",
+    "steps": [
+      "Étape 1 : Identifier le conflit. D'un côté, la démocratie affirme que tout pouvoir doit être pacifique et soumis au vote ; de l'autre, le gouvernement démocratique dispose de la police et de l'armée, qui sont des instruments de force.",
+      "Étape 2 : Reconnaître la menace. Si un groupe violent cherche à abolir la démocratie elle-même, la démocratie est en péril. Elle ne peut pas fonctionner si elle est détruite.",
+      "Étape 3 : Distinguer les deux violences. La violence du groupe armé est *anti-démocratique* (elle vise à abolir la démocratie) ; la violence de l'État démocratique, si elle arrête ce groupe, est *défensive* et *légitime* parce qu'elle protège l'ordre démocratique.",
+      "Étape 4 : Poser la limite. Mais cette légitime défense a une condition : elle ne doit pas détruire elle-même les règles démocratiques. L'État ne peut pas, au prétexte de combattre la violence, devenir totalitaire ou suspendre les droits humains.",
+      "Étape 5 : Conclusion : La démocratie a le droit, et même le devoir, d'user de la force pour se défendre contre ceux qui la nient. Mais cette force doit rester encadrée par la loi, contrôlée et justifiée, sinon elle devient elle-même tyrannique.",
+      "Étape 6 : Leçon générale. Ce paradoxe montre que la démocratie n'est pas naïve : elle reconnaît que la paix pacifique exige parfois de neutraliser ceux qui refusent le jeu démocratique. Mais elle doit rester vigilante pour ne pas se transformer en dictature au nom de sa propre survie."
+    ]
+  },
+  "quiz": {
+    "question": "Une manifestation pacifique pour l'égalité des genres dégénère en émeute : les manifestants cassent des vitrines, incendient des pneus. La police intervient avec force. Selon la leçon sur démocratie et violence, quel est le problème philosophique central que cette situation pose ?",
+    "reponse_calculee": "C) Déterminer si et comment l'État démocratique peut légitimement user de la force pour maintenir l'ordre sans devenir lui-même violent et antidémocratique.",
+    "choices": [
+      {
+        "label": "A) Savoir si les manifestants avaient raison ou tort dans leurs revendications initiales.",
+        "correct": false
+      },
+      {
+        "label": "B) Empêcher toute manifestation pour éviter qu'elle ne tourne à la violence.",
+        "correct": false
+      },
+      {
+        "label": "C) Déterminer si et comment l'État démocratique peut légitimement user de la force pour maintenir l'ordre sans devenir lui-même violent et antidémocratique.",
+        "correct": true
+      },
+      {
+        "label": "D) Prouver que la démocratie est faible et qu'il faudrait une dictature pour garder l'ordre.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as saisi le cœur du paradoxe. La démocratie doit pouvoir se défendre (donc user de force), mais sans violer ses propres principes. Le vrai enjeu n'est pas d'empêcher toute manifestation, ni de juger les revendications, ni d'abandonner la démocratie : c'est de trouver comment encadrer la force de l'État pour qu'elle reste au service de la loi, pas du pouvoir arbitraire.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis : la question n'est pas simplement d'arrêter les émeutiers (la police le fait déjà), ni de juger si les manifestants avaient raison. Le vrai problème philosophique est plus profond : comment peut-on autoriser l'État à utiliser la force sans que cette force devienne elle-même une menace pour la démocratie ? C'est le paradoxe central du chapitre."
+  }
+}

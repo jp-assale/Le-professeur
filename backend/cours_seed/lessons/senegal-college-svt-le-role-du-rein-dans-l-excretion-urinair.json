@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-le-role-du-rein-dans-l-excretion-urinair",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as joué au football toute l'après-midi sous le soleil de Dakar. Tu as transpiré beaucoup, tu as bu de l'eau régulièrement, et maintenant tu as envie d'uriner. Pourquoi ton corps produit-il de l'urine ? Qu'est-ce que tes reins font exactement pour te garder en bonne santé ? C'est ce que nous allons découvrir ensemble."
+  },
+  "concept": {
+    "heading": "Le rein : un filtre vital pour le corps",
+    "explanation": "Le rein est l'organe principal de l'excrétion. Son rôle est double : d'une part, il élimine les déchets du métabolisme (comme l'urée) sous forme d'urine ; d'autre part, il régule la composition du milieu intérieur (le sang et les liquides qui entourent les cellules) en contrôlant la quantité d'eau, de sels minéraux et d'autres substances. Sans cette régulation constante, ton corps ne pourrait pas fonctionner correctement.",
+    "highlight": "Le rein filtre le sang, élimine les déchets dans l'urine, et maintient l'équilibre hydrique et minéral du corps."
+  },
+  "example": {
+    "problem": "Un laboratoire d'analyse mesure la concentration d'urée dans le sang d'une personne : 0,30 g par litre de sang. Sachant que cette personne produit environ 1,5 litre d'urine par jour, et que la concentration d'urée dans l'urine est de 20 g par litre, calcule la masse totale d'urée éliminée en une journée.",
+    "steps": [
+      "Étape 1 : Identifie les données. Volume d'urine par jour = 1,5 L ; concentration d'urée dans l'urine = 20 g/L.",
+      "Étape 2 : Applique la formule de calcul de masse. Masse = concentration × volume.",
+      "Étape 3 : Substitue les valeurs. Masse d'urée = 20 g/L × 1,5 L.",
+      "Étape 4 : Effectue la multiplication. 20 × 1,5 = 30 g.",
+      "Étape 5 : Conclusion. La personne élimine 30 grammes d'urée par jour. C'est la quantité de déchet que ses reins ont filtrée et rejetée pour maintenir l'équilibre du sang."
+    ]
+  },
+  "quiz": {
+    "question": "Pendant une journée très chaude, un élève boit 3 litres d'eau de plus que d'habitude. Ses reins produisent alors 2,5 litres d'urine au lieu de 1,5 litre normalement. Quel est le rôle principal des reins dans cette situation ?",
+    "reponse_calculee": "Réguler l'équilibre hydrique du milieu intérieur en éliminant l'excès d'eau",
+    "choices": [
+      {
+        "label": "Augmenter la concentration du sang pour compenser l'eau supplémentaire",
+        "correct": false
+      },
+      {
+        "label": "Réguler l'équilibre hydrique du milieu intérieur en éliminant l'excès d'eau",
+        "correct": true
+      },
+      {
+        "label": "Empêcher le corps de transpirer davantage",
+        "correct": false
+      },
+      {
+        "label": "Stocker l'eau excédentaire dans la vessie pour la journée suivante",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tes reins ont augmenté la production d'urine pour éliminer l'excès d'eau et maintenir la concentration normale du sang. C'est la régulation du milieu intérieur en action : en modifiant le volume d'urine, tes reins gardent l'équilibre hydrique stable malgré les apports supplémentaires.",
+    "feedback_wrong": "Pas tout à fait. Observe bien : quand tu bois beaucoup, tes reins produisent plus d'urine pour éliminer l'eau en excès. Leur rôle n'est pas de stocker l'eau ou de concentrer le sang davantage, mais de maintenir un équilibre constant du milieu intérieur en ajustant la quantité d'eau éliminée. C'est la régulation dont parle le chapitre."
+  }
+}

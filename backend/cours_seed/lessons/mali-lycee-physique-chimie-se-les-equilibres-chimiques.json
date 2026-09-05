@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-equilibres-chimiques",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les équilibres chimiques",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les équilibres chimiques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine une bassine d'eau qui s'évapore au soleil sous la chaleur sahélienne, mais aussi de la vapeur d'eau qui se condense et retombe. À un moment, l'eau qui part et celle qui revient s'équilibrent : c'est le même principe dans une réaction chimique. Les réactifs se transforment en produits, mais les produits peuvent aussi se retransformer en réactifs. Quand ces deux sens d'évolution se font à la même vitesse, on atteint l'équilibre chimique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un équilibre chimique ?",
+    "explanation": "Un équilibre chimique est un état statique apparent où, à l'échelle macroscopique, les concentrations des réactifs et des produits restent constantes. En réalité, à l'échelle moléculaire, la réaction continue dans les deux sens à la même vitesse : c'est l'équilibre dynamique. Cet état est caractérisé par une constante d'équilibre K qui dépend de la température.",
+    "highlight": "A l'équilibre : vitesse réaction directe = vitesse réaction inverse, et les concentrations ne changent plus."
+  },
+  "example": {
+    "problem": "On considère la réaction de dissociation du dioxyde d'azote : $2 NO_2 \\rightleftharpoons N_2 O_4$. Au départ, on place 0,4 mol de $NO_2$ dans un récipient de 1 L. À l'équilibre, il reste 0,28 mol de $NO_2$. Calcule la concentration en $N_2 O_4$ à l'équilibre.",
+    "steps": [
+      "Étape 1 : Concentrations initiales. $[NO_2]_0 = 0,4 \\text{ mol/L}$ et $[N_2 O_4]_0 = 0 \\text{ mol/L}$ (pas de $N_2 O_4$ au départ).",
+      "Étape 2 : Quantité de $NO_2$ ayant réagi. $\\Delta n(NO_2) = 0,4 - 0,28 = 0,12 \\text{ mol}$.",
+      "Étape 3 : D'après l'équation, pour 2 mol de $NO_2$ qui disparaissent, 1 mol de $N_2 O_4$ se forme. Donc $\\Delta n(N_2 O_4) = 0,12 ÷ 2 = 0,06 \\text{ mol}$.",
+      "Étape 4 : Concentration en $N_2 O_4$ à l'équilibre. $[N_2 O_4] = \\frac{0,06}{1} = 0,06 \\text{ mol/L}$.",
+      "Étape 5 : Vérification : concentration de $NO_2$ à l'équilibre = $\\frac{0,28}{1} = 0,28 \\text{ mol/L}$ ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Une réaction d'équilibre $A + B \\rightleftharpoons C + D$ démarre avec 0,5 mol/L de A et 0,5 mol/L de B. À l'équilibre, 0,2 mol/L de A a réagi. Quelle est la concentration de C à l'équilibre ?",
+    "reponse_calculee": "0,2 mol/L",
+    "choices": [
+      {
+        "label": "0,1 mol/L",
+        "correct": false
+      },
+      {
+        "label": "0,2 mol/L",
+        "correct": true
+      },
+      {
+        "label": "0,3 mol/L",
+        "correct": false
+      },
+      {
+        "label": "0,5 mol/L",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Selon l'équation bilan, 1 mol de A produit 1 mol de C. Si 0,2 mol/L de A a réagi, alors 0,2 mol/L de C s'est formée. Tu maîtrises la stœchiométrie des équilibres chimiques.",
+    "feedback_wrong": "Pas tout à fait. Regarde la stœchiométrie de la réaction : $A + B \\rightleftharpoons C + D$. Si 0,2 mol/L de A réagit, combien de moles de C se forment ? Rappelle-toi que les coefficients stœchiométriques sont 1 pour chaque espèce."
+  }
+}

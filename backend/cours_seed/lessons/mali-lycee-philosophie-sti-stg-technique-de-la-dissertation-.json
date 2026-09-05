@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-technique-de-la-dissertation-",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Technique de la dissertation philosophique",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Technique de la dissertation philosophique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'on te demande à l'examen : « La technique est-elle une forme de liberté ou d'asservissement ? » Tu dois répondre en trois pages, structurées et argumentées. Ce n'est pas un texte libre où tu dis ce que tu penses : c'est une démonstration logique, comme un avocat qui défend une cause devant le tribunal. C'est là qu'intervient la dissertation philosophique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la dissertation philosophique ?",
+    "explanation": "La dissertation philosophique est une méthode d'argumentation écrite qui te permet de traiter une question ou une affirmation en développant ta pensée de manière structurée et rigoureuse. Elle n'est pas un exposé personnel : c'est un exercice de réflexion logique où tu dois analyser le problème posé, explorer différentes perspectives, et construire une démonstration cohérente. En classe de Baccalauréat, c'est l'outil principal pour montrer que tu sais penser philosophiquement, c'est-à-dire que tu peux interroger une idée en profondeur.",
+    "highlight": "La dissertation : analyser, argumenter, synthétiser pour répondre à une question philosophique de manière rigoureuse et structurée."
+  },
+  "example": {
+    "problem": "Sujet de dissertation : « L'homme a-t-il besoin de la technique pour être libre ? » Montrons comment construire une dissertation sur cette question en suivant les étapes de la technique.",
+    "steps": [
+      "Étape 1 - Identifier le problème : Le sujet porte sur deux notions clés : la liberté et la technique. La question « a-t-il besoin » suggère une relation de dépendance. Tu dois d'abord comprendre ce que le sujet te demande vraiment : la technique est-elle une condition nécessaire à la liberté humaine, ou au contraire un obstacle ?",
+      "Étape 2 - Définir les termes : Avant d'argumenter, définis clairement. Par exemple : liberté = capacité à agir selon sa volonté sans contrainte extérieure ; technique = ensemble des savoirs et des outils qui permettent à l'homme de transformer la nature. Ces définitions te servent de base de travail.",
+      "Étape 3 - Construire une thèse : Une thèse n'est pas une opinion, c'est une réponse fondée. Par exemple : « L'homme a besoin de la technique pour conquérir sa liberté matérielle (produire, construire, survivre), mais cette dépendance technique risque de limiter sa liberté de pensée si elle devient une fin en soi. » Cette formulation reconnaît une complexité, ce qui est le signe d'une bonne pensée philosophique.",
+      "Étape 4 - Argumenter avec des preuves : Pour chaque point, propose un argument appuyé par un exemple concret. Par exemple : « La médecine est une technique qui libère l'homme de la souffrance et de la mort prématurée, donc elle favorise la liberté. » Cet argument est bien fondé parce qu'il repose sur une réalité observable.",
+      "Étape 5 - Anticiper les objections : Une bonne dissertation reconnaît les contre-arguments. Par exemple : « On pourrait dire que la technique asservit l'homme parce que celui-ci devient dépendant des machines (téléphone, internet). Mais cette dépendance est paradoxale : c'est l'homme qui a créé ces outils pour étendre ses capacités. » Réfuter les objections renforce ton argumentation.",
+      "Étape 6 - Conclure en répondant précisément : Reviens à la question initiale avec une réponse nuancée : « La technique n'est pas une condition suffisante à la liberté, mais elle en est une condition nécessaire. Cependant, la vraie liberté exige que l'homme reste maître de ses techniques plutôt que d'en être l'esclave. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans la technique de la dissertation philosophique, quelle est la première étape obligatoire après la lecture du sujet ?",
+    "reponse_calculee": "Identifier et analyser le problème posé par le sujet en repérant les notions clés et la question centrale",
+    "choices": [
+      {
+        "label": "Écrire immédiatement ta position personnelle sans réfléchir",
+        "correct": false
+      },
+      {
+        "label": "Identifier et analyser le problème posé par le sujet en repérant les notions clés et la question centrale",
+        "correct": true
+      },
+      {
+        "label": "Chercher des citations de philosophes célèbres pour les placer dans ta copie",
+        "correct": false
+      },
+      {
+        "label": "Rédiger l'introduction sans comprendre le sujet",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Avant de te lancer dans l'argumentation, tu dois d'abord comprendre ce que le sujet te demande. Cela passe par l'identification des notions centrales et la reformulation de la question en tes propres termes. C'est ce qui fait la différence entre une dissertation structurée et un texte confus.",
+    "feedback_wrong": "Non, ce n'est pas correct. La dissertation n'est pas un exercice où tu donnes ton avis d'emblée, ni où tu accumules des citations pour impressionner. La première étape est toujours de bien comprendre le problème : quelles sont les notions en jeu ? Quelle est la véritable question ? Cette compréhension préalable garantit que le reste de ta dissertation répond vraiment au sujet posé."
+  }
+}

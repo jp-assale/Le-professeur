@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-les-aliments-et-l-homme",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Les aliments et l'Homme",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les aliments et l'Homme",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es à table avec ta famille après une journée d'école. Au menu : du riz, du poisson grillé, des légumes et une banane en dessert. Chacun de ces aliments que tu manges contient des substances différentes qui nourrissent ton corps et lui permettent de fonctionner, de grandir et de rester en bonne santé. Mais sais-tu vraiment ce que tu manges et pourquoi ton corps en a besoin ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un aliment ?",
+    "explanation": "Un aliment est une substance que tu ingères (que tu manges ou bois) et qui apporte à ton corps les nutriments nécessaires à son fonctionnement. Ces nutriments, appelés aussi principes nutritifs, sont de plusieurs sortes : les protéines, les lipides (graisses), les glucides (sucres), les sels minéraux, les vitamines et l'eau. Chaque catégorie joue un rôle précis dans ton organisme. Les aliments peuvent être d'origine animale (viande, œuf, poisson, lait) ou végétale (fruits, légumes, céréales, légumineuses).",
+    "highlight": "Les aliments fournissent six catégories de nutriments : protéines, lipides, glucides, sels minéraux, vitamines et eau."
+  },
+  "example": {
+    "problem": "Un repas type en Côte d'Ivoire comprend 200 g de riz cuit, 150 g de sauce à base d'arachides (contenant 40 % de lipides), et 100 g de poisson. On estime que : le riz fournit 130 kcal pour 100 g, la sauce d'arachides fournit 180 kcal pour 100 g, le poisson fournit 90 kcal pour 100 g. Calcule l'énergie totale (en kcal) apportée par ce repas.",
+    "steps": [
+      "Étape 1 : Calcule l'énergie du riz. Riz : 200 g × (130 kcal / 100 g) = 260 kcal",
+      "Étape 2 : Calcule l'énergie de la sauce d'arachides. Sauce : 150 g × (180 kcal / 100 g) = 270 kcal",
+      "Étape 3 : Calcule l'énergie du poisson. Poisson : 100 g × (90 kcal / 100 g) = 90 kcal",
+      "Étape 4 : Additionne les trois énergies. Énergie totale = 260 + 270 + 90 = 620 kcal",
+      "Résultat : Ce repas apporte 620 kcal, ce qui couvre une part importante des besoins énergétiques d'un jeune de ton âge (qui en a besoin d'environ 2000 à 2500 kcal par jour)."
+    ]
+  },
+  "quiz": {
+    "question": "Une portion de pâtes cuites fournit 120 kcal pour 100 g. Un élève en mange 250 g. Combien de kilocalories cela représente-t-il ?",
+    "reponse_calculee": "300",
+    "choices": [
+      {
+        "label": "120 kcal",
+        "correct": false
+      },
+      {
+        "label": "250 kcal",
+        "correct": false
+      },
+      {
+        "label": "300 kcal",
+        "correct": true
+      },
+      {
+        "label": "370 kcal",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la proportionnalité : 250 g × (120 kcal / 100 g) = 300 kcal. Cela montre que tu maîtrises le calcul de l'énergie apportée par un aliment.",
+    "feedback_wrong": "Ce n'est pas correct. La bonne méthode est de faire une proportionnalité : si 100 g fournissent 120 kcal, alors 250 g fournissent (250 × 120) / 100 = 300 kcal. Relis bien les données et refais le calcul étape par étape."
+  }
+}

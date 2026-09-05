@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-electrolyse-et-synthese-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électrolyse et synthèse de l'eau",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Électrolyse et synthèse de l'eau",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, lors des coupures d'électricité, certaines familles se demandent comment l'eau du robinet pourrait être produite autrement. Imagine que tu pourrais créer de l'eau à partir de ses éléments constitutifs en utilisant l'électricité, ou au contraire décomposer l'eau pour récupérer ces éléments. C'est exactement ce que tu vas apprendre : comment l'électricité et l'eau se transforment mutuellement."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'électrolyse et la synthèse de l'eau ?",
+    "explanation": "L'électrolyse de l'eau est la décomposition de l'eau en ses éléments chimiques (hydrogène et oxygène) grâce à un courant électrique continu. À l'inverse, la synthèse de l'eau est la formation de l'eau à partir d'hydrogène et d'oxygène, souvent avec dégagement d'énergie. Ces deux réactions sont complémentaires et s'écrivent avec la même formule chimique, mais dans des sens opposés.",
+    "highlight": "$2H_2O \\longleftrightarrow 2H_2 + O_2$ (électrolyse si on va à droite, synthèse si on va à gauche)"
+  },
+  "example": {
+    "problem": "Lors d'une expérience d'électrolyse, on décompose 36 g d'eau en utilisant un courant électrique. On rappelle que la masse molaire de l'eau est 18 g/mol, celle de l'hydrogène est 2 g/mol et celle de l'oxygène est 32 g/mol. Quelle masse d'oxygène se dégage à l'anode ? (On suppose la réaction complète.)",
+    "steps": [
+      "Étape 1 : Calcule le nombre de moles d'eau initiale. $n(H_2O) = \\frac{36}{18} = 2$ mol",
+      "Étape 2 : Écris l'équation équilibrée de l'électrolyse. $2H_2O \\longrightarrow 2H_2 + O_2$ (en présence d'électricité)",
+      "Étape 3 : Identifie les coefficients stœchiométriques. Pour 2 moles d'eau, on obtient 1 mole d'oxygène.",
+      "Étape 4 : Utilise la proportionnalité. Si 2 mol d'eau donnent 1 mol d'O₂, alors 2 mol d'eau donnent 1 mol d'O₂.",
+      "Étape 5 : Calcule la masse d'oxygène. $m(O_2) = n(O_2) \\times M(O_2) = 1 \\times 32 = 32$ g",
+      "Conclusion : La masse d'oxygène dégagée à l'anode est 32 g."
+    ]
+  },
+  "quiz": {
+    "question": "Lors de l'électrolyse de 180 g d'eau, quelle est la masse totale de gaz (hydrogène + oxygène) qui se dégage ? (Masses molaires : H₂O = 18 g/mol ; H₂ = 2 g/mol ; O₂ = 32 g/mol)",
+    "reponse_calculee": "180 g",
+    "choices": [
+      {
+        "label": "90 g",
+        "correct": false
+      },
+      {
+        "label": "144 g",
+        "correct": false
+      },
+      {
+        "label": "180 g",
+        "correct": true
+      },
+      {
+        "label": "212 g",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Voici pourquoi : 180 g d'eau représentent 180 ÷ 18 = 10 mol d'eau. D'après l'équation $2H_2O \\longrightarrow 2H_2 + O_2$, les 10 mol d'eau produisent 10 mol de H₂ et 5 mol d'O₂. Masse de H₂ : 10 × 2 = 20 g. Masse d'O₂ : 5 × 32 = 160 g. Total : 20 + 160 = 180 g. La masse se conserve !",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que dans l'électrolyse $2H_2O \\longrightarrow 2H_2 + O_2$, la masse totale des produits égale la masse des réactifs (conservation de la masse). Calcule d'abord le nombre de moles d'eau (180 ÷ 18 = 10 mol), puis applique la stœchiométrie pour trouver les moles de H₂ et O₂, enfin leur masse. Tu trouveras que la masse totale des gaz est égale à la masse d'eau initiale."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-college-mathematiques-sections-de-solides-pytha",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Sections de solides (Pythagore/Thalès dans l'espace)",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Sections de solides (Pythagore/Thalès dans l'espace)",
+  "intro": {
+    "heading": "Mise en situation : Un charpentier face à un défi",
+    "body": "Un charpentier du quartier reçoit une commande : tailler un bloc de bois cubique pour fabriquer une poutre. Pour éviter les erreurs coûteuses, il doit calculer les dimensions de la surface qu'il va couper à travers le bloc. Comment prévoir exactement ce qu'il verra en tranchant le bois ? Les théorèmes que tu connais en 2D (Pythagore et Thalès) vont t'aider à résoudre ce problème en trois dimensions."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une section de solide ?",
+    "explanation": "Une section de solide est la figure plane obtenue quand on coupe un solide (cube, pyramide, prisme, etc.) par un plan. Cette section est un polygone (triangle, carré, rectangle, etc.). Pour calculer les longueurs et les aires de cette section, tu dois appliquer les mêmes théorèmes qu'en géométrie plane : le théorème de Pythagore te permet de trouver les longueurs des côtés de la section, et le théorème de Thalès t'aide quand des droites sont parallèles dans l'espace.",
+    "highlight": "Une section d'un solide par un plan est une figure plane. On y utilise Pythagore et Thalès exactement comme en 2D."
+  },
+  "example": {
+    "problem": "Un cube a une arête de 6 cm. On le coupe par un plan qui passe par deux sommets opposés d'une face (les points A et B) et par un sommet du haut (le point C), comme sur une pyramide inversée. Calcule la longueur AC de cette section.",
+    "steps": [
+      "Étape 1 : Identifie la position de chaque point. Le point A est sur la base du cube, le point B est à côté de A sur la même base (arête commune = 6 cm). Le point C est directement au-dessus de B, à la même hauteur qu'A mais sur la face supérieure.",
+      "Étape 2 : Reconnaître la forme. Le triangle ABC (ou le polygone formé) est ta section. Tu dois calculer AC.",
+      "Étape 3 : Décompose en étapes 2D. Projette C sur la base : il se projette en un point C' qui est à 6 cm de A (horizontalement). La hauteur du cube est 6 cm.",
+      "Étape 4 : Applique Pythagore au triangle rectangle ACC'. Les deux côtés de l'angle droit sont : AC' = 6 cm (distance horizontale) et CC' = 6 cm (hauteur).",
+      "Étape 5 : Calcule AC avec la formule $AC^2 = AC'^2 + CC'^2 = 6^2 + 6^2 = 36 + 36 = 72$, donc $AC = \\sqrt{72} = 6\\sqrt{2}$ cm ≈ 8,49 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Un prisme rectangulaire a une base carrée de 4 cm de côté et une hauteur de 3 cm. On le coupe par un plan qui passe par deux sommets opposés de la base (points distants de 4 cm en diagonale) et par un point au sommet. Quelle est la longueur de la diagonale de la base (celle qui mesure 4 cm de côté) ?",
+    "reponse_calculee": "4√2 cm",
+    "choices": [
+      {
+        "label": "4 cm",
+        "correct": false
+      },
+      {
+        "label": "4√2 cm",
+        "correct": true
+      },
+      {
+        "label": "8 cm",
+        "correct": false
+      },
+      {
+        "label": "7 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Pour la diagonale d'un carré de côté 4 cm, tu appliques Pythagore : $d^2 = 4^2 + 4^2 = 16 + 16 = 32$, donc $d = \\sqrt{32} = 4\\sqrt{2}$ cm. Tu as bien reconnu que cette diagonale fait partie de la section plane.",
+    "feedback_wrong": "Pas tout à fait. La base est un carré de 4 cm de côté. Quand deux sommets opposés du carré sont reliés, ils forment une diagonale. Utilise Pythagore : $d^2 = 4^2 + 4^2 = 32$, d'où $d = 4\\sqrt{2}$ cm ≈ 5,66 cm. Ce n'est pas simplement 4 cm (c'est un côté, pas une diagonale)."
+  }
+}

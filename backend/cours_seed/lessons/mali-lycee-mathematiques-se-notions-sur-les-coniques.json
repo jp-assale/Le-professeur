@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-notions-sur-les-coniques",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Notions sur les coniques",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Notions sur les coniques",
+  "intro": {
+    "heading": "Mise en situation : Les orbites et les trajectoires autour de nous",
+    "body": "Imagine un satellite qui tourne autour de la Terre, ou une comète qui s'approche du Soleil puis s'éloigne. La trajectoire qu'il suit n'est jamais une ligne droite : c'est une courbe spéciale appelée conique. Ces courbes apparaissent partout en astronomie, en architecture, et même dans les antennes paraboliques que tu vois sur les toits. Comprendre les coniques, c'est comprendre comment les objets se déplacent dans l'espace."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une conique ?",
+    "explanation": "Une conique est une courbe obtenue en coupant un cône (un objet en forme de cornet de glace pointu) par un plan. Selon l'angle et la position du plan, on obtient différentes formes : un cercle, une ellipse, une parabole ou une hyperbole. Chacune a des propriétés géométriques uniques et peut être décrite par une équation algébrique.",
+    "highlight": "Une conique est l'intersection d'un plan avec un cône de révolution. Son équation générale dans un repère orthonormé est : $ax^2 + by^2 + cxy + dx + ey + f = 0$"
+  },
+  "example": {
+    "problem": "On considère une ellipse d'équation $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Détermine :\n(1) La longueur du grand axe.\n(2) La longueur du petit axe.\n(3) Les coordonnées des deux foyers.",
+    "steps": [
+      "Étape 1 : Identifie les paramètres. L'équation est sous forme canonique $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ avec $a^2 = 25$ et $b^2 = 9$, donc $a = 5$ et $b = 3$.",
+      "Étape 2 : Compare $a$ et $b$. Puisque $a = 5 > b = 3$, le grand axe est horizontal (selon l'axe des $x$).",
+      "Étape 3 : Calcule la longueur du grand axe. Elle vaut $2a = 2 \\times 5 = 10$.",
+      "Étape 4 : Calcule la longueur du petit axe. Elle vaut $2b = 2 \\times 3 = 6$.",
+      "Étape 5 : Trouve la distance focale. Pour une ellipse, $c^2 = a^2 - b^2 = 25 - 9 = 16$, donc $c = 4$.",
+      "Étape 6 : Donne les coordonnées des foyers. Ils sont situés sur le grand axe à distance $c$ du centre. Les foyers sont donc aux points $F_1(-4, 0)$ et $F_2(4, 0)$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit l'équation $y^2 = 8x$. À quelle conique correspond-elle et quel est le paramètre $p$ (distance du sommet au foyer) ?",
+    "reponse_calculee": "C'est une parabole avec $p = 2$",
+    "choices": [
+      {
+        "label": "C'est une ellipse avec $p = 2$",
+        "correct": false
+      },
+      {
+        "label": "C'est une parabole avec $p = 2$",
+        "correct": true
+      },
+      {
+        "label": "C'est une parabole avec $p = 4$",
+        "correct": false
+      },
+      {
+        "label": "C'est une hyperbole avec $p = 2$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'équation $y^2 = 8x$ est de la forme $y^2 = 4px$, ce qui est l'équation canonique d'une parabole d'axe horizontal. En comparant, $4p = 8$, donc $p = 2$. Le foyer se trouve à $(2, 0)$ et la directrice est la droite $x = -2$.",
+    "feedback_wrong": "Pas tout à fait. L'équation $y^2 = 8x$ est de la forme $y^2 = 4px$ (équation d'une parabole). En comparant les deux, tu obtiens $4p = 8$, d'où $p = 2$. Souviens-toi que les paraboles ont une équation du second degré en une seule variable (ici $y^2$) et une équation du premier degré dans l'autre ($x$)."
+  }
+}

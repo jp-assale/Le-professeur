@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-la-gestion-des-sols",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "La gestion des sols",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La gestion des sols",
+  "intro": {
+    "heading": "Mise en situation : un problème paysan en Côte d'Ivoire",
+    "body": "Un agriculteur cultive du cacao depuis 15 ans sur la même parcelle. Chaque année, ses rendements baissent : autrefois 800 kg à l'hectare, aujourd'hui à peine 400 kg. Le sol s'érode lors des pluies, sa couleur change, et les plantes poussent mal. Il demande : comment retrouver un sol fertile et productif ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la gestion des sols ?",
+    "explanation": "La gestion des sols est l'ensemble des pratiques et techniques permettant de maintenir ou d'améliorer la fertilité, la structure et la productivité du sol pour une exploitation durable. En Afrique de l'Ouest, où l'agriculture vivrière et commerciale dépendent directement de la qualité du sol, cette gestion est cruciale face à l'érosion, l'appauvrissement en éléments nutritifs et la dégradation.",
+    "highlight": "La gestion des sols = maintenir la fertilité et prévenir la dégradation par des pratiques adaptées."
+  },
+  "example": {
+    "problem": "Un agronome évalue une parcelle de 2 hectares. Avant intervention, elle perd 5 tonnes de sol par hectare chaque saison des pluies (érosion). Il propose un système de courbes de niveau associé à des haies vives qui réduirait cette perte de 60 %. Calcule la masse totale de sol conservée grâce à cette mesure sur les 2 hectares en une saison.",
+    "steps": [
+      "Étape 1 : Identifie les données. Superficie = 2 ha ; perte initiale par hectare = 5 tonnes ; réduction par mesure = 60 %.",
+      "Étape 2 : Calcule la perte totale sans intervention. Perte = 5 tonnes/ha × 2 ha = 10 tonnes.",
+      "Étape 3 : Calcule la réduction de perte grâce aux courbes de niveau. Réduction = 10 tonnes × 60 % = 10 × 0,6 = 6 tonnes.",
+      "Étape 4 : La masse de sol conservée = réduction obtenue = 6 tonnes.",
+      "Résultat : Grâce aux courbes de niveau et haies vives, 6 tonnes de sol sont conservées en une saison sur cette parcelle."
+    ]
+  },
+  "quiz": {
+    "question": "Une parcelle de 3 hectares subit une dégradation du sol. Sans mesure de gestion, elle perd 4 tonnes de matière organique par hectare chaque année. En mettant en place le compostage et la rotation des cultures, on réduit cette perte de 75 %. Quelle est la quantité totale de matière organique conservée annuellement sur les 3 hectares ?",
+    "reponse_calculee": "9 tonnes",
+    "choices": [
+      {
+        "label": "3 tonnes",
+        "correct": false
+      },
+      {
+        "label": "9 tonnes",
+        "correct": true
+      },
+      {
+        "label": "12 tonnes",
+        "correct": false
+      },
+      {
+        "label": "4,5 tonnes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Perte initiale = 4 tonnes/ha × 3 ha = 12 tonnes. Réduction = 12 tonnes × 75 % = 9 tonnes conservées. Les pratiques comme le compostage et la rotation permettent donc de garder 9 tonnes de matière organique précieuse chaque année.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis étape par étape : quelle est la perte totale sur 3 hectares ? Puis, combien représente 75 % de cette perte ? C'est la quantité conservée. Recalcule."
+  }
+}

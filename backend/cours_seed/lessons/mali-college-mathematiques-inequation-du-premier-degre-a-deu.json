@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-mathematiques-inequation-du-premier-degre-a-deu",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Inéquation du premier degré à deux inconnues",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Inéquation du premier degré à deux inconnues",
+  "intro": {
+    "heading": "Mise en situation : un problème de budget",
+    "body": "Imagine que tu vends des cahiers et des stylos au marché. Un cahier coûte 500 francs CFA et un stylo coûte 200 francs CFA. Tu as un budget de 3000 francs CFA pour acheter ton stock. Comment peux-tu savoir toutes les combinaisons possibles de cahiers et de stylos que tu peux acheter sans dépasser ton budget ? C'est exactement ce que nous allons apprendre à résoudre avec les inéquations du premier degré à deux inconnues."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une inéquation du premier degré à deux inconnues ?",
+    "explanation": "Une inéquation du premier degré à deux inconnues est une inégalité qui contient deux variables (généralement $x$ et $y$) et où chaque variable apparaît avec une puissance de 1. Elle permet de décrire un ensemble de solutions, souvent représentées dans un plan cartésien. L'inéquation peut utiliser les symboles $<$, $>$, $\\leq$ ou $\\geq$. Contrairement à une équation qui a un ensemble fini de solutions, une inéquation a généralement une infinité de solutions formant une région du plan.",
+    "highlight": "Forme générale : $ax + by \\leq c$ (ou $<$, $>$, $\\geq$) où $a$, $b$ et $c$ sont des nombres connus, et $x$, $y$ sont les inconnues."
+  },
+  "example": {
+    "problem": "Un atelier de couture produit des chemises et des pantalons. Une chemise nécessite 2 mètres de tissu et un pantalon nécessite 3 mètres de tissu. L'atelier dispose de 30 mètres de tissu par jour. Écris l'inéquation et trouve trois couples de solutions possibles.",
+    "steps": [
+      "Étape 1 : Définis les inconnues. Soit $x$ = nombre de chemises et $y$ = nombre de pantalons.",
+      "Étape 2 : Traduis les informations. Une chemise utilise 2 m, un pantalon utilise 3 m, total disponible = 30 m.",
+      "Étape 3 : Écris l'inéquation. $2x + 3y \\leq 30$ (le tissu utilisé ne doit pas dépasser 30 mètres).",
+      "Étape 4 : Trouve des solutions. Teste quelques couples : si $x = 10$ et $y = 3$, alors $2(10) + 3(3) = 20 + 9 = 29 \\leq 30$ ✓",
+      "Étape 5 : Trouve d'autres solutions. $(x = 0, y = 10)$ donne $0 + 30 = 30 \\leq 30$ ✓ et $(x = 15, y = 0)$ donne $30 + 0 = 30 \\leq 30$ ✓",
+      "Étape 6 : Conclusion. Trois solutions : $(10, 3)$, $(0, 10)$ et $(15, 0)$ (et il en existe une infinité d'autres)."
+    ]
+  },
+  "quiz": {
+    "question": "Un menuisier fabrique des chaises et des tables. Une chaise nécessite 4 heures de travail et une table nécessite 6 heures. Il dispose de 48 heures par semaine. Si $x$ est le nombre de chaises et $y$ le nombre de tables, quelle est l'inéquation qui décrit cette situation ?",
+    "reponse_calculee": "$4x + 6y \\leq 48$",
+    "choices": [
+      {
+        "label": "$4x + 6y \\geq 48$",
+        "correct": false
+      },
+      {
+        "label": "$4x + 6y \\leq 48$",
+        "correct": true
+      },
+      {
+        "label": "$6x + 4y \\leq 48$",
+        "correct": false
+      },
+      {
+        "label": "$4x + 6y = 48$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Puisque le menuisier NE DOIT PAS dépasser 48 heures, on utilise le symbole $\\leq$. Une chaise prend 4 heures (coefficient de $x$) et une table prend 6 heures (coefficient de $y$). L'inéquation est bien $4x + 6y \\leq 48$.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : le menuisier dispose de 48 heures, il ne peut pas les dépasser. Donc le temps total utilisé ($4x + 6y$) doit être inférieur ou égal à 48. Le symbole correct est $\\leq$, et les coefficients doivent correspondre aux heures de chaque objet : 4 pour une chaise, 6 pour une table."
+  }
+}

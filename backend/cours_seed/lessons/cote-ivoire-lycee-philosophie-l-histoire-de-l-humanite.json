@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-l-histoire-de-l-humanite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'histoire de l'humanité",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "L'histoire de l'humanité — Leçon animée",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu regardes un documentaire sur la chaîne nationale : on parle de la découverte d'outils de pierre vieux de plusieurs milliers d'années en Afrique de l'Ouest. L'historien explique que ces objets racontent comment nos ancêtres ont progressivement transformé leur environnement et leur mode de vie. Tu te demandes : comment l'humanité a-t-elle vraiment changé au fil du temps ? Quels sont les grands tournants qui ont marqué notre histoire ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'histoire de l'humanité ?",
+    "explanation": "L'histoire de l'humanité, c'est l'étude du parcours de l'homme depuis son apparition jusqu'à nos jours. Elle se demande comment les sociétés humaines se sont transformées, comment l'homme a progressivement maîtrisé la nature, développé des outils, des langages, des institutions politiques et des systèmes de pensée. C'est comprendre que l'humanité n'a pas toujours été comme elle est maintenant : elle a une trajectoire, des ruptures, des progrès.",
+    "highlight": "L'histoire de l'humanité est l'étude des transformations progressives des sociétés et des modes de vie humains à travers le temps."
+  },
+  "example": {
+    "problem": "Analysons comment le passage de la chasse-cueillette à l'agriculture a transformé les sociétés humaines.",
+    "steps": [
+      "Étape 1 — Situation initiale : pendant très longtemps, les humains ont chassé les animaux et cueilli les fruits de la nature. Ils se déplaçaient constamment pour trouver leur nourriture. Il n'y avait pas de villages permanents.",
+      "Étape 2 — Le changement crucial : certains groupes ont découvert qu'ils pouvaient planter des graines et attendre la récolte. Cela demandait de rester au même endroit plusieurs mois.",
+      "Étape 3 — Conséquence : puisqu'ils restaient au même lieu, les gens ont construit des habitations durables. Les premiers villages sont nés. C'est ce qu'on appelle la révolution néolithique.",
+      "Étape 4 — Nouveaux besoins : avec l'agriculture, il fallait organiser le travail, partager les terres, stocker les récoltes. Des règles communes ont émergé : les premières formes d'autorité, de loi.",
+      "Étape 5 — Accumulation de savoir : avec un surplus de nourriture, certains pouvaient se consacrer à d'autres activités : fabriquer de meilleures outils, développer des rituels, inventer l'écriture.",
+      "Étape 6 — Bilan : ce changement unique a créé une dynamique nouvelle. L'humanité ne s'adapte plus seulement à la nature ; elle la transforme. C'est le début de la civilisation."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le principe fondamental qui caractérise l'histoire de l'humanité selon la définition vue en cours ?",
+    "reponse_calculee": "Les transformations progressives des modes de vie et des sociétés à travers le temps.",
+    "choices": [
+      {
+        "label": "La répétition identique des mêmes événements sans changement notable.",
+        "correct": false
+      },
+      {
+        "label": "Les transformations progressives des modes de vie et des sociétés à travers le temps.",
+        "correct": true
+      },
+      {
+        "label": "L'étude exclusive des grands personnages politiques et militaires.",
+        "correct": false
+      },
+      {
+        "label": "La description figée de comment vivaient les anciens peuples.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'histoire de l'humanité, c'est d'abord reconnaître que les sociétés changent, qu'elles se transforment. Ce n'est pas une simple description du passé, mais l'étude de ces mouvements, de ces ruptures et de ces continuités. Tu as bien compris le cœur du chapitre.",
+    "feedback_wrong": "Pas tout à fait. Relis la définition : l'histoire de l'humanité n'est pas la répétition du même, ni l'étude exclusive des grands hommes, ni une photo figée du passé. C'est l'étude du CHANGEMENT, de la façon dont les sociétés et les modes de vie se transforment au fil du temps. C'est une dynamique, un mouvement."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-mathematiques-se-etude-des-nombres-complexes",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Étude des nombres complexes",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Étude des nombres complexes",
+  "intro": {
+    "heading": "Mise en situation : les nombres complexes autour de toi",
+    "body": "Imagine un ingénieur en électricité à Bamako qui doit analyser les courants alternatifs dans un réseau électrique. Les tensions et les courants varient sinusoïdalement dans le temps, et pour les calculer facilement, les électriciens utilisent une représentation spéciale : les nombres complexes. Sans eux, certains calculs en physique et en ingénierie seraient beaucoup plus longs. Aujourd'hui, tu vas comprendre ce qu'est un nombre complexe et comment on les manipule."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un nombre complexe ?",
+    "explanation": "Un nombre complexe est une extension des nombres réels. Il combine une partie réelle et une partie imaginaire. La partie imaginaire est basée sur l'unité imaginaire $i$, définie par la propriété fondamentale $i^2 = -1$. Cela permet de résoudre des équations qui n'ont pas de solution dans les nombres réels seuls, comme $x^2 + 1 = 0$.",
+    "highlight": "Un nombre complexe s'écrit sous la forme $z = a + bi$ où $a$ et $b$ sont des nombres réels, et $i^2 = -1$."
+  },
+  "example": {
+    "problem": "On considère deux nombres complexes : $z_1 = 3 + 2i$ et $z_2 = 1 - 4i$. Calcule la somme $z_1 + z_2$ et le produit $z_1 \\times z_2$.",
+    "steps": [
+      "Étape 1 : Pour la somme, on additionne les parties réelles ensemble et les parties imaginaires ensemble. Parties réelles : $3 + 1 = 4$. Parties imaginaires : $2i + (-4i) = -2i$. Donc $z_1 + z_2 = 4 - 2i$.",
+      "Étape 2 : Pour le produit, on utilise la distributivité comme pour les polynômes : $z_1 \\times z_2 = (3 + 2i)(1 - 4i)$.",
+      "Étape 3 : Développe chaque terme : $3 \\times 1 = 3$, $3 \\times (-4i) = -12i$, $2i \\times 1 = 2i$, $2i \\times (-4i) = -8i^2$.",
+      "Étape 4 : Remplace $i^2$ par $-1$ : $-8i^2 = -8 \\times (-1) = 8$.",
+      "Étape 5 : Regroupe les termes réels et imaginaires : $3 + 8 = 11$ et $-12i + 2i = -10i$. Donc $z_1 \\times z_2 = 11 - 10i$."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule le produit des nombres complexes $z = 2 + i$ et $w = 3 - 2i$.",
+    "reponse_calculee": "8 - i",
+    "choices": [
+      {
+        "label": "6 - 4i",
+        "correct": false
+      },
+      {
+        "label": "8 - i",
+        "correct": true
+      },
+      {
+        "label": "5 + 3i",
+        "correct": false
+      },
+      {
+        "label": "6 - 2i",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la distributivité : $(2 + i)(3 - 2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = 8 - i$. N'oublie pas que $i^2 = -1$.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien multiplié chaque terme du premier nombre par chaque terme du second, et surtout, remplace $i^2$ par $-1$. Recommence : $(2 + i)(3 - 2i) = 2 \\times 3 + 2 \\times (-2i) + i \\times 3 + i \\times (-2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = 8 - i$."
+  }
+}

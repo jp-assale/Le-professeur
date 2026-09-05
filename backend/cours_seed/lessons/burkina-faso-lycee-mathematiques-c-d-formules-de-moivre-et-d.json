@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-mathematiques-c-d-formules-de-moivre-et-d",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Mathematiques",
+  "chapitre": "Formules de Moivre et d'Euler",
+  "source": "fasoeducation.bf (catalogue de cours)",
+  "template": "text_only",
+  "title": "Formules de Moivre et d'Euler",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En électrotechnique, les ingénieurs ouest-africains travaillent avec des courants alternatifs qui oscillent de façon régulière. Pour analyser ces oscillations et calculer rapidement les puissances élevées de ces signaux, on a besoin d'un outil mathématique puissant : les formules de Moivre et d'Euler. Ces deux formules permettent de transformer des calculs compliqués en opérations simples sur des angles et des exponentielles."
+  },
+  "concept": {
+    "heading": "Les formules de Moivre et d'Euler",
+    "explanation": "La formule d'Euler établit un lien fondamental entre la fonction exponentielle complexe et les fonctions trigonométriques. Elle s'écrit : $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$. La formule de Moivre en découle directement et permet de calculer les puissances et les racines de nombres complexes sous forme trigonométrique. Ces deux formules sont essentielles pour manipuler les nombres complexes de manière efficace.",
+    "highlight": "Formule d'Euler : $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$ | Formule de Moivre : $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$"
+  },
+  "example": {
+    "problem": "Calcule $(1 + i)^5$ en utilisant la formule de Moivre.",
+    "steps": [
+      "Étape 1 : Convertis $1 + i$ en forme trigonométrique. Le module est $r = \\sqrt{1^2 + 1^2} = \\sqrt{2}$.",
+      "Étape 2 : L'argument est $\\theta = \\arctan(1/1) = \\pi/4$ (car le point est dans le premier quadrant).",
+      "Étape 3 : Écris donc $1 + i = \\sqrt{2}(\\cos(\\pi/4) + i\\sin(\\pi/4))$.",
+      "Étape 4 : Applique Moivre : $(1 + i)^5 = (\\sqrt{2})^5(\\cos(5\\pi/4) + i\\sin(5\\pi/4))$.",
+      "Étape 5 : Calcule $(\\sqrt{2})^5 = 2^{5/2} = 4\\sqrt{2}$. Puis $\\cos(5\\pi/4) = -\\frac{\\sqrt{2}}{2}$ et $\\sin(5\\pi/4) = -\\frac{\\sqrt{2}}{2}$.",
+      "Étape 6 : Donc $(1 + i)^5 = 4\\sqrt{2} \\cdot (-\\frac{\\sqrt{2}}{2} - i\\frac{\\sqrt{2}}{2}) = -4 - 4i$."
+    ]
+  },
+  "quiz": {
+    "question": "Utilise la formule d'Euler pour calculer $e^{i\\pi/3}$. Quel est le résultat sous forme $a + bi$ ?",
+    "reponse_calculee": "$\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$",
+    "choices": [
+      {
+        "label": "$-\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$",
+        "correct": false
+      },
+      {
+        "label": "$\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$",
+        "correct": true
+      },
+      {
+        "label": "$\\frac{\\sqrt{3}}{2} + i\\frac{1}{2}$",
+        "correct": false
+      },
+      {
+        "label": "$1 + i\\sqrt{3}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule d'Euler : $e^{i\\pi/3} = \\cos(\\pi/3) + i\\sin(\\pi/3) = \\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$. C'est bien parce que $\\cos(\\pi/3) = 1/2$ et $\\sin(\\pi/3) = \\sqrt{3}/2$.",
+    "feedback_wrong": "Pas tout à fait. Relis bien la formule d'Euler : $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$. Ici $\\theta = \\pi/3$, donc tu dois calculer $\\cos(\\pi/3) = 1/2$ et $\\sin(\\pi/3) = \\sqrt{3}/2$. Le résultat est donc $\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$."
+  }
+}

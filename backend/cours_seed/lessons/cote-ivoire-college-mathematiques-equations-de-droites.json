@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-equations-de-droites",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équations de droites",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Équations de droites",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois construire une route qui traverse un village. Pour que les ouvriers sachent exactement où creuser, tu dois donner une équation qui décrit le chemin exact de cette route sur un plan. C'est exactement ce qu'on fait en mathématiques avec les équations de droites : on traduit une ligne par une formule pour pouvoir la situer, la tracer, ou vérifier si un point appartient à la route."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une équation de droite ?",
+    "explanation": "Une équation de droite est une égalité mathématique qui décrit tous les points situés sur une même droite dans un plan. Elle établit une relation entre les coordonnées $x$ et $y$ de chaque point de la droite. Il existe plusieurs formes d'équations de droites selon ce que tu connais : la pente et un point, deux points, ou l'ordonnée à l'origine.",
+    "highlight": "y = mx + p ou ax + by + c = 0, où m est la pente et p l'ordonnée à l'origine"
+  },
+  "example": {
+    "problem": "On te donne deux points : A(2 ; 1) et B(4 ; 5). Trouve l'équation de la droite qui passe par ces deux points.",
+    "steps": [
+      "Étape 1 : Calcule la pente m. La pente mesure l'inclinaison de la droite. Formule : $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{5 - 1}{4 - 2} = \\frac{4}{2} = 2$",
+      "Étape 2 : Utilise la forme y = mx + p avec m = 2. L'équation devient : y = 2x + p",
+      "Étape 3 : Remplace les coordonnées d'un point (par exemple A) dans l'équation pour trouver p. Avec A(2 ; 1) : $1 = 2 \\times 2 + p$, donc $1 = 4 + p$, d'où $p = -3$",
+      "Étape 4 : Écris l'équation finale : y = 2x − 3",
+      "Étape 5 : Vérifie avec le second point B(4 ; 5) : $y = 2 \\times 4 - 3 = 8 - 3 = 5$ ✓ C'est correct !"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est l'équation de la droite qui passe par le point C(1 ; 3) et qui a pour pente m = −2 ?",
+    "reponse_calculee": "y = -2x + 5",
+    "choices": [
+      {
+        "label": "y = -2x + 1",
+        "correct": false
+      },
+      {
+        "label": "y = -2x + 5",
+        "correct": true
+      },
+      {
+        "label": "y = 2x + 5",
+        "correct": false
+      },
+      {
+        "label": "y = -2x - 1",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! En utilisant y = mx + p avec m = -2 et en remplaçant les coordonnées du point C(1 ; 3), tu obtiens : 3 = -2(1) + p, donc 3 = -2 + p, d'où p = 5. L'équation est y = -2x + 5.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : avec une pente m et un point (x₀ ; y₀), remplace dans y = mx + p pour trouver p. Ici : 3 = -2(1) + p donne p = 5. L'équation correcte est y = -2x + 5."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-les-ressources-minieres",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "Les ressources minières",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les ressources minières",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, le cacao n'est pas la seule richesse du sous-sol. Depuis des années, des entreprises exploitent l'or, le nickel et d'autres minéraux qui enrichissent le pays. Mais d'où viennent ces ressources ? Comment les trouve-t-on ? Et surtout, comment les extraire sans épuiser les réserves de notre terre ? Voilà les questions que tu vas résoudre dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Définition : Les ressources minières",
+    "explanation": "Les ressources minières sont des substances naturelles solides, liquides ou gazeuses extraites du sous-sol terrestre. Elles incluent les minéraux (comme l'or, le cuivre, le fer), les roches utiles, et les hydrocarbures (pétrole, gaz naturel). Chaque ressource minière possède une concentration particulière dans la croûte terrestre et se forme selon des processus géologiques spécifiques. L'extraction et l'exploitation de ces ressources constituent une activité économique majeure, surtout en Afrique de l'Ouest.",
+    "highlight": "Les ressources minières = substances naturelles du sous-sol exploitables à titre économique."
+  },
+  "example": {
+    "problem": "Un site d'extraction minier en Afrique de l'Ouest peut produire en moyenne 2 500 tonnes de minerai brut par jour. Sachant que le minerai brut contient 5 % de métal pur utilisable, et que le coût d'extraction et de raffinage s'élève à 12 000 francs CFA par tonne de métal pur produit, calcule : (a) la masse de métal pur obtenue par jour ; (b) le coût total journalier de production.",
+    "steps": [
+      "Étape 1 : Identifier les données. Minerai brut par jour = 2 500 tonnes ; teneur en métal pur = 5 % ; coût de raffinage = 12 000 F CFA/tonne de métal pur.",
+      "Étape 2 : Calculer la masse de métal pur. Métal pur = 2 500 × 5 % = 2 500 × 0,05 = 125 tonnes par jour.",
+      "Étape 3 : Vérifier le résultat. 125 tonnes représent bien 5 % de 2 500 tonnes.",
+      "Étape 4 : Calculer le coût total journalier. Coût = 125 tonnes × 12 000 F CFA/tonne = 1 500 000 F CFA par jour.",
+      "Étape 5 : Vérifier la cohérence. Le coût augmente avec la quantité de métal pur : c'est logique."
+    ]
+  },
+  "quiz": {
+    "question": "Un gisement de nickel contient une réserve totale estimée à 8 000 000 tonnes de minerai. Si l'exploitation annuelle est de 400 000 tonnes, combien d'années faudra-t-il pour épuiser complètement ce gisement, en supposant que le taux d'extraction reste constant ?",
+    "reponse_calculee": "20 ans",
+    "choices": [
+      {
+        "label": "8 ans",
+        "correct": false
+      },
+      {
+        "label": "20 ans",
+        "correct": true
+      },
+      {
+        "label": "32 ans",
+        "correct": false
+      },
+      {
+        "label": "50 ans",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour trouver la durée d'exploitation, on divise la réserve totale par la quantité extraite chaque année : 8 000 000 ÷ 400 000 = 20 ans. Ce calcul te montre l'importance de connaître les réserves estimées pour planifier l'extraction durable d'une ressource minière.",
+    "feedback_wrong": "Pas tout à fait. Il faut diviser la réserve totale (8 000 000 tonnes) par l'exploitation annuelle (400 000 tonnes) pour obtenir le nombre d'années : 8 000 000 ÷ 400 000 = 20 ans. Ce type de calcul est essentiel pour évaluer la viabilité économique et environnementale d'une exploitation minière."
+  }
+}

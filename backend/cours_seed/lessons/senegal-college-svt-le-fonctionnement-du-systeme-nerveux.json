@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-le-fonctionnement-du-systeme-nerveux",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Le fonctionnement du système nerveux",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Le fonctionnement du système nerveux",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es en train de jouer au football sur un terrain à Dakar. Soudain, le ballon arrive droit vers toi à grande vitesse. Sans même y penser, tu lèves ton bras pour le bloquer en une fraction de seconde. Comment ton corps a-t-il pu réagir aussi vite ? C'est ton système nerveux qui a détecté le danger, transmis l'information et commandé le mouvement. Aujourd'hui, on comprend comment ce système extraordinaire fonctionne."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le système nerveux ?",
+    "explanation": "Le système nerveux est l'ensemble des structures qui permettent à ton corps de recevoir des informations de l'environnement, de les traiter et de réagir. Il est composé de deux parties principales : le système nerveux central (cerveau et moelle épinière) et le système nerveux périphérique (nerfs). Le fonctionnement du système nerveux repose sur la transmission de messages nerveux appelés influx nerveux, qui circulent très rapidement d'une cellule à l'autre.",
+    "highlight": "Le système nerveux intègre l'information sensorielle, la traite au niveau du cerveau et de la moelle épinière, puis commande une réponse motrice ou glandulaire."
+  },
+  "example": {
+    "problem": "Un élève touche accidentellement une casserole chaude sur un foyer en étudiant à la maison. Son bras se retire immédiatement, avant même qu'il ait conscience de la douleur. Le trajet du message nerveux est le suivant : récepteurs sensoriels (peau) → nerf sensitif → moelle épinière → nerf moteur → muscles du bras. La vitesse moyenne de transmission de l'influx nerveux dans ce trajet est de 120 mètres par seconde. Le trajet total parcourt une distance de 1,8 mètre (bras jusqu'à la moelle épinière et retour). Calcule le temps total que met l'influx nerveux pour faire l'aller-retour.",
+    "steps": [
+      "Identifie les données : vitesse = 120 m/s ; distance totale = 1,8 m",
+      "Rappelle la formule : temps = distance ÷ vitesse",
+      "Applique la formule : temps = 1,8 ÷ 120",
+      "Effectue la division : 1,8 ÷ 120 = 0,015 secondes",
+      "Convertis en millisecondes pour mieux comprendre : 0,015 s = 15 millisecondes",
+      "Conclusion : l'influx nerveux a parcouru le trajet complet en 15 millisecondes, ce qui explique pourquoi la réaction est quasi instantanée."
+    ]
+  },
+  "quiz": {
+    "question": "Un message nerveux parcourt une distance de 2,4 mètres dans le corps à une vitesse de 80 mètres par seconde. Combien de temps, en secondes, met ce message nerveux pour parcourir cette distance ?",
+    "reponse_calculee": "0,03",
+    "choices": [
+      {
+        "label": "0,02 secondes",
+        "correct": false
+      },
+      {
+        "label": "0,03 secondes",
+        "correct": true
+      },
+      {
+        "label": "0,05 secondes",
+        "correct": false
+      },
+      {
+        "label": "0,04 secondes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Très juste ! Tu as correctement appliqué la formule temps = distance ÷ vitesse, soit 2,4 ÷ 80 = 0,03 secondes. C'est cette rapidité de transmission qui permet à ton système nerveux de réagir instantanément face aux stimuli de l'environnement.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule : temps = distance ÷ vitesse. Ici, distance = 2,4 m et vitesse = 80 m/s. En effectuant le calcul 2,4 ÷ 80, tu obtiens 0,03 secondes. L'influx nerveux est remarquablement rapide, mais c'est cette vitesse que tu dois utiliser dans ta formule."
+  }
+}

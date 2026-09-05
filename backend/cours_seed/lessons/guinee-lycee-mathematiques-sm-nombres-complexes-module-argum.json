@@ -1,0 +1,55 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-nombres-complexes-module-argum",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres complexes (module, arguments, représentation géométrique)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Nombres complexes : module, arguments, représentation géométrique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois calculer la distance entre deux villes en Guinée, ou prévoir la trajectoire d'un signal radio qui se propage en deux dimensions à la fois. Les nombres réels seuls ne suffisent pas : tu as besoin d'une paire de coordonnées, d'une direction et d'une distance. C'est exactement ce que font les nombres complexes. Ils te permettent de représenter, mesurer et orienter des phénomènes qui se déploient dans un plan."
+  },
+  "concept": {
+    "heading": "Les nombres complexes : définition et propriétés géométriques",
+    "explanation": "Un nombre complexe est un nombre de la forme $z = a + ib$, où $a$ et $b$ sont des nombres réels et $i$ est l'unité imaginaire ($i^2 = -1$). Géométriquement, tu le représentes comme un point ou un vecteur dans un plan appelé plan complexe : l'axe horizontal porte la partie réelle $a$, l'axe vertical porte la partie imaginaire $b$. Deux propriétés fondamentales décrivent ce nombre : son module (la distance de ce point à l'origine) et son argument (l'angle que le vecteur fait avec l'axe réel positif).",
+    "highlight": "Module : $|z| = \\sqrt{a^2 + b^2}$  |  Argument : $\\arg(z) = \\theta$ où $\\tan(\\theta) = \\frac{b}{a}$"
+  },
+  "example": {
+    "problem": "Soit le nombre complexe $z = 3 + 4i$. Calcule son module et détermine son argument (donne l'angle en radians arrondi à 0,01 près). Représente ce nombre dans le plan complexe.",
+    "steps": [
+      "Identifie les composantes : $a = 3$ (partie réelle) et $b = 4$ (partie imaginaire).",
+      "Calcule le module : $|z| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+      "Calcule l'argument en trouvant l'angle : $\\tan(\\theta) = \\frac{4}{3}$, donc $\\theta = \\arctan\\left(\\frac{4}{3}\\right) \\approx 0,93$ radians (ou environ 53°).",
+      "Vérifie que le nombre est dans le premier quadrant (parties réelle et imaginaire toutes deux positives), donc l'argument est bien positif et entre 0 et $\\frac{\\pi}{2}$.",
+      "Représentation géométrique : place un point aux coordonnées $(3, 4)$ dans le plan complexe. Trace un vecteur de l'origine vers ce point. Sa longueur vaut 5 et il fait un angle d'environ 0,93 rad avec l'axe réel."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le module du nombre complexe $z = -2 + 2i$ ?",
+    "reponse_calculee": "$2\\sqrt{2}$",
+    "choices": [
+      {
+        "label": "$2$",
+        "correct": false
+      },
+      {
+        "label": "$2\\sqrt{2}$",
+        "correct": true
+      },
+      {
+        "label": "$4$",
+        "correct": false
+      },
+      {
+        "label": "$\\sqrt{2}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien appliqué la formule du module. Avec $a = -2$ et $b = 2$, le module est $|z| = \\sqrt{(-2)^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. Le module est toujours positif, même si la partie réelle est négative.",
+    "feedback_wrong": "Pas tout à fait. Utilise la formule $|z| = \\sqrt{a^2 + b^2}$. Ici, $a = -2$ et $b = 2$, donc $|z| = \\sqrt{(-2)^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. N'oublie pas que le carré d'un nombre négatif est positif."
+  }
+}

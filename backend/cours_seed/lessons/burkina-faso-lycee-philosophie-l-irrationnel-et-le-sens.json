@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-l-irrationnel-et-le-sens",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'irrationnel et le sens",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "L'irrationnel et le sens",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es assis sous un grand baobab le soir avec ta grand-mère. Elle te raconte comment, la nuit dernière, elle a rêvé de ton oncle décédé il y a des années, et le lendemain matin, une lettre de sa famille lointaine arrive avec des nouvelles de lui. Ta grand-mère est certaine que ce rêve avait un sens, une signification cachée. Mais comment donner du sens à quelque chose qui échappe à la logique et à la raison ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'irrationnel et le sens ?",
+    "explanation": "L'irrationnel désigne tout ce qui ne peut pas être expliqué par la raison logique, par les lois de la nature ou par la science. C'est ce qui échappe au raisonnement méthodique : les rêves, les pressentiments, les croyances, les intuitions, les phénomènes mystérieux. Pourtant, l'être humain cherche constamment à donner du sens à ces expériences irrationnelles. La question philosophique centrale est : peut-on attribuer un sens véritable à ce qui n'obéit pas à la raison ? Le sens que nous donnons à l'irrationnel est-il réel ou seulement une projection de notre désir de comprendre ?",
+    "highlight": "L'irrationnel échappe à la raison, mais l'homme cherche à lui donner un sens."
+  },
+  "example": {
+    "problem": "Analysons le cas de ta grand-mère et son rêve prémonitoire. Comment penser ce qui s'est passé sans tomber ni dans la crédulité aveugle, ni dans le rejet complet ?",
+    "steps": [
+      "Étape 1 : Identifier l'irrationnel. Le rêve lui-même n'obéit pas aux lois de la logique. Il n'y a pas de causalité scientifique entre rêver et recevoir une lettre. C'est un phénomène irrationnel au sens strict.",
+      "Étape 2 : Reconnaître le désir de sens. Ta grand-mère, comme tout être humain, cherche à relier les événements ensemble. Elle a naturellement créé un lien entre deux faits pour leur donner une signification : 'Le rêve m'avertissait'.",
+      "Étape 3 : Examiner l'origine du sens attribué. Ce sens n'est pas dans le rêve lui-même, mais dans l'interprétation que ta grand-mère en fait. Son expérience de vie, ses croyances, son affection pour cet oncle façonnent cette lecture.",
+      "Étape 4 : Poser la question critique. Le sens existe-t-il objectivement (le rêve contenait vraiment un message) ou seulement subjectivement (ta grand-mère y a projeté un sens) ? C'est la tension entre deux compréhensions du sens.",
+      "Étape 5 : Accepter la complexité. La sagesse philosophique consiste à reconnaître que l'irrationnel peut porter une signification pour celui qui le vit, sans pour autant affirmer que cette signification obéit aux règles de la raison.",
+      "Étape 6 : Conclusion. Le sens donné à l'irrationnel n'est jamais purement objectif ni purement illusoire ; il relève d'une expérience humaine où la raison et l'irrationnel coexistent."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le chapitre sur l'irrationnel et le sens, quelle est la caractéristique principale de l'irrationnel ?",
+    "reponse_calculee": "Il échappe aux explications logiques et scientifiques, mais l'homme cherche à lui donner du sens",
+    "choices": [
+      {
+        "label": "C'est un phénomène que la science finira toujours par expliquer complètement",
+        "correct": false
+      },
+      {
+        "label": "C'est quelque chose qui n'a absolument aucun sens et doit être rejeté",
+        "correct": false
+      },
+      {
+        "label": "Il échappe aux explications logiques et scientifiques, mais l'homme cherche à lui donner du sens",
+        "correct": true
+      },
+      {
+        "label": "C'est un domaine réservé uniquement aux religions et aux croyances sans rapport avec la philosophie",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. L'irrationnel n'est pas compréhensible par la raison seule, mais c'est précisément parce qu'il échappe à la logique que l'être humain ressent le besoin d'y attribuer un sens. C'est cette tension entre absence de raison et recherche de signification qui constitue le cœur du chapitre.",
+    "feedback_wrong": "Pas tout à fait. Reviens à la définition : l'irrationnel, c'est ce qui échappe à la raison et à la science. Mais ce n'est pas pour autant dépourvu de sens. Au contraire, l'être humain s'efforce constamment d'en faire quelque chose de signifiant, même s'il n'y a pas d'explication logique. C'est là que réside la vraie question philosophique."
+  }
+}

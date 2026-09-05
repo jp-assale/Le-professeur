@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-les-valeurs-des-temps-verbaux",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Les valeurs des temps verbaux",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les valeurs des temps verbaux",
+  "intro": {
+    "heading": "Mise en situation : Un récit à trois moments",
+    "body": "Imagine que tu racontes ta journée à un ami. Tu dis : « Ce matin, j'ai mangé l'attiéké avant de partir à l'école. En ce moment, je suis en cours. Ce soir, je vais jouer au football. » Sans le savoir, tu utilises trois temps différents pour trois moments différents. Mais il y a plus : chaque temps exprime aussi une façon particulière de voir l'action. C'est cela que nous allons explorer."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la valeur d'un temps verbal ?",
+    "explanation": "La valeur d'un temps verbal, c'est le sens et la portée qu'il porte au-delà de la simple localisation dans le temps. Un verbe peut indiquer non seulement quand l'action se déroule (passé, présent, futur), mais aussi comment elle se déroule : est-elle achevée ? en cours ? habituelle ? En français, plusieurs temps peuvent exprimer le même moment (par exemple, le passé composé et le passé simple expriment tous deux du passé), mais avec des nuances différentes. La valeur d'un temps, c'est donc cette nuance, cette couleur particulière qu'il donne à l'action.",
+    "highlight": "Un temps verbal n'exprime pas seulement QUAND, mais aussi COMMENT et POURQUOI : c'est sa valeur."
+  },
+  "example": {
+    "problem": "Analyse les trois phrases suivantes et montre comment le même moment (le passé) peut être exprimé avec des valeurs différentes :\n1. « Elle a mangé le repas hier. »\n2. « Elle mangeait quand je suis arrivé. »\n3. « Elle mangea en silence. »",
+    "steps": [
+      "Identifie le temps utilisé dans chaque phrase : passé composé (phrase 1), imparfait (phrase 2), passé simple (phrase 3). Tous trois parlent du passé.",
+      "Dans la phrase 1 (passé composé), l'action est présentée comme achevée, complète, avec un résultat visible. C'est une action ponctuelle qu'on raconte au présent de qui parle.",
+      "Dans la phrase 2 (imparfait), l'action est en cours au moment où une autre action (« je suis arrivé ») s'est produite. C'est une action qui durait, inachevée à ce moment-là. L'imparfait sert de décor.",
+      "Dans la phrase 3 (passé simple), l'action est présentée de manière neutre, distante, comme dans un récit historique ou littéraire. Elle s'intègre dans une succession d'événements.",
+      "Conclusion : Les trois temps disent « c'était dans le passé », mais chacun valorise l'action différemment : achevée (composé), en cours (imparfait), ou narrée (simple). C'est cela, la valeur d'un temps."
+    ]
+  },
+  "quiz": {
+    "question": "Observe cette phrase : « Quand tu arrives, je regardais la télévision depuis une heure. » Quelle valeur l'imparfait (regardais) exprime-t-il ici ?",
+    "reponse_calculee": "Une action déjà en cours au moment où arrive l'autre action, présentée comme un état ou un décor, non terminée.",
+    "choices": [
+      {
+        "label": "Une action habituelle qui se répète régulièrement.",
+        "correct": false
+      },
+      {
+        "label": "Une action déjà en cours au moment où arrive l'autre action, présentée comme un état ou un décor, non terminée.",
+        "correct": true
+      },
+      {
+        "label": "Une action qui vient de se terminer avec un résultat visible.",
+        "correct": false
+      },
+      {
+        "label": "Une action future qui doit se faire dans peu de temps.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'imparfait exprime ici une action qui avait déjà commencé et qui était encore en cours quand tu es arrivé. C'est sa valeur d'action inachevée, de décor ou d'arrière-plan. L'ajout « depuis une heure » renforce cette duée.",
+    "feedback_wrong": "Attention. L'imparfait ici ne marque pas une simple habitude, ni une action terminée, ni du futur. Il décrit une action qui était en train de se faire au moment où tu es arrivé, une action non terminée qui servait de contexte à ton arrivée. C'est cela, sa valeur."
+  }
+}

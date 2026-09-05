@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-racines-carrees",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Racines carrées",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Racines carrées",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un menuisier en Côte d'Ivoire doit construire une petite table carrée. On lui dit que la surface de cette table doit être de 144 cm². Mais il a besoin de connaître la longueur d'un côté pour découper son bois. Comment trouver cette longueur à partir de la surface ? C'est là qu'interviennent les racines carrées !"
+  },
+  "concept": {
+    "heading": "Définition et concept clé",
+    "explanation": "La racine carrée d'un nombre positif est le nombre positif qui, multiplié par lui-même, donne ce nombre initial. Si tu dois trouver un nombre $x$ tel que $x \\times x = a$, alors $x = \\sqrt{a}$ (lire « racine carrée de $a$ »). Les racines carrées permettent de résoudre des problèmes d'aires carrées, de distances, ou d'optimisation dans la vie courante.",
+    "highlight": "Si $x^2 = a$ (avec $a \\geq 0$), alors $x = \\sqrt{a}$."
+  },
+  "example": {
+    "problem": "Le menuisier a besoin d'une table carrée de 144 cm² de surface. Quelle doit être la longueur d'un côté ?",
+    "steps": [
+      "Étape 1 : Rappelle-toi que pour un carré, Aire = côté × côté = côté².",
+      "Étape 2 : On te dit que l'aire = 144 cm², donc côté² = 144.",
+      "Étape 3 : Pour trouver le côté, tu dois calculer la racine carrée de 144.",
+      "Étape 4 : Cherche quel nombre, multiplié par lui-même, donne 144. On teste : 12 × 12 = 144. ✓",
+      "Étape 5 : Donc $\\sqrt{144} = 12$.",
+      "Étape 6 : La longueur du côté de la table est 12 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Un champ carré a une surface de 225 m². Quelle est la longueur d'un de ses côtés ?",
+    "reponse_calculee": "15 m",
+    "choices": [
+      {
+        "label": "11,2 m",
+        "correct": false
+      },
+      {
+        "label": "15 m",
+        "correct": true
+      },
+      {
+        "label": "112,5 m",
+        "correct": false
+      },
+      {
+        "label": "450 m",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris. Puisque côté² = 225, il faut calculer $\\sqrt{225}$. Or 15 × 15 = 225, donc $\\sqrt{225} = 15$ m. Le côté du champ mesure 15 m.",
+    "feedback_wrong": "Ce n'est pas bon. Rappelle-toi : l'aire d'un carré = côté². Ici, côté² = 225. Tu dois trouver le nombre qui, multiplié par lui-même, donne 225. Essaie : 15 × 15 = 225, donc $\\sqrt{225} = 15$ m."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-quelques-machines-simples",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Quelques machines simples",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Quelques machines simples",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu aides ton père à soulever une lourde charge de sacs de ciment pour construire une maison. Sans outil, c'est impossible. Mais avec une barre de fer utilisée comme levier, appuyée sur une pierre, tu peux soulever la charge beaucoup plus facilement. Comment une simple barre peut-elle multiplier ta force ? C'est le secret des machines simples, qui existent partout autour de toi : la poulie du puits du village, le plan incliné de la rampe d'accès, la vis qui serre une planche."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une machine simple ?",
+    "explanation": "Une machine simple est un dispositif qui permet de modifier l'intensité ou la direction d'une force pour accomplir un travail plus facilement. Elle ne crée pas d'énergie, mais elle la transforme. Les machines simples fondamentales que tu dois connaître sont : le levier, la poulie, le plan incliné, la vis et le coin. Chacune repose sur le principe de l'avantage mécanique : en utilisant une plus longue distance ou un plus long bras, on peut soulever une charge plus lourde avec une force plus petite.",
+    "highlight": "Une machine simple divise la force à fournir mais augmente la distance de déplacement : Avantage mécanique = Force résistante / Force motrice"
+  },
+  "example": {
+    "problem": "Un enfant utilise un levier pour soulever une pierre. Le levier est appuyé sur un pivot (fulcrum). La distance entre le pivot et le point d'application de la force de l'enfant (bras moteur) est 1,2 m. La distance entre le pivot et la pierre (bras résistant) est 0,3 m. La pierre pèse 90 N. Quelle force minimale l'enfant doit-il exercer pour soulever la pierre ?",
+    "steps": [
+      "Étape 1 : Identifie les données. Force résistante (poids de la pierre) = 90 N. Bras moteur = 1,2 m. Bras résistant = 0,3 m.",
+      "Étape 2 : Rappelle-toi la formule du levier. Le moment (ou couple) doit être équilibré de part et d'autre du pivot : Force motrice × Bras moteur = Force résistante × Bras résistant.",
+      "Étape 3 : Remplace les valeurs. Force motrice × 1,2 = 90 × 0,3.",
+      "Étape 4 : Calcule le produit à droite. Force motrice × 1,2 = 27.",
+      "Étape 5 : Isole la force motrice en divisant les deux côtés par 1,2. Force motrice = 27 ÷ 1,2 = 22,5 N.",
+      "Étape 6 : Interprète le résultat. L'enfant doit exercer seulement 22,5 N au lieu de 90 N pour soulever la pierre. L'avantage mécanique est 90 ÷ 22,5 = 4."
+    ]
+  },
+  "quiz": {
+    "question": "Un menuisier utilise une poulie fixe pour hisser un sac de 200 N sur un toit. La corde passe autour d'une poulie attachée au toit. Sans la poulie, le menuisier devrait exercer une force de 200 N vers le haut (très difficile). Avec la poulie fixe, quelle force doit-il exercer pour hisser le sac ?",
+    "reponse_calculee": "200 N",
+    "choices": [
+      {
+        "label": "100 N",
+        "correct": false
+      },
+      {
+        "label": "200 N",
+        "correct": true
+      },
+      {
+        "label": "50 N",
+        "correct": false
+      },
+      {
+        "label": "400 N",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Une poulie fixe ne réduit pas la force à exercer (elle reste égale au poids : 200 N). Elle change seulement la direction de la force : tu peux tirer vers le bas au lieu de soulever vers le haut, ce qui est plus pratique et plus sûr. L'avantage mécanique d'une poulie fixe est donc 1.",
+    "feedback_wrong": "Pas tout à fait. Une poulie fixe ne réduit pas la force à exercer. Elle change uniquement la direction de la force, ce qui est pratique (tu peux tirer vers le bas), mais l'intensité reste la même : tu dois toujours exercer 200 N, égale au poids du sac. Pour réduire la force, il faut utiliser une poulie mobile, pas une poulie fixe."
+  }
+}

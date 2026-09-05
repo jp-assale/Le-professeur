@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-equilibre-d-un-solide-so",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Équilibre d'un solide soumis à deux forces",
+  "source": "dpfc-ci.net",
+  "template": "physics_vector",
+  "title": "Équilibre d'un solide soumis à deux forces",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un pêcheur en Côte d'Ivoire qui tire un filet avec une corde. Son ami tire de l'autre côté avec une force différente. Si les deux forces ne sont pas bien ajustées, le filet se déplace. Mais si ton ami tire avec exactement la bonne intensité et la bonne direction, le filet reste immobile. C'est l'équilibre ! Aujourd'hui, tu vas apprendre à trouver les conditions exactes pour qu'un objet reste en équilibre sous deux forces."
+  },
+  "concept": {
+    "heading": "Définition : Équilibre d'un solide sous deux forces",
+    "explanation": "Un solide soumis à deux forces est en équilibre si ces deux forces annulent mutuellement leur effet. Cela signifie que le solide ne se met pas en mouvement : il reste immobile ou continue son mouvement de façon uniforme. Pour que cet équilibre soit réalisé, les deux forces doivent satisfaire des conditions très précises que tu vas maintenant découvrir.",
+    "highlight": "Pour qu'un solide soit en équilibre sous deux forces : les deux forces doivent avoir la même intensité (même norme), la même ligne d'action (même direction) et des sens opposés."
+  },
+  "example": {
+    "problem": "Une boîte est suspendue par deux cordes attachées à un plafond. La première corde exerce une force $F_1 = 60$ N verticalement vers le haut. Pour que la boîte soit en équilibre, quelle doit être l'intensité de la force $F_2$ exercée par la deuxième corde ? Dans quelle direction doit agir $F_2$ ?",
+    "steps": [
+      "Identifie les deux forces : $F_1 = 60$ N dirigée vers le haut, et $F_2$ inconnue.",
+      "Applique la condition d'équilibre : l'intensité de $F_2$ doit être égale à celle de $F_1$. Donc $F_2 = 60$ N.",
+      "Détermine la direction : puisque $F_1$ est dirigée vers le haut, $F_2$ doit être dirigée vers le bas pour s'opposer à $F_1$.",
+      "Vérifie que les deux forces ont la même ligne d'action (même droite d'application) : oui, elles agissent toutes les deux verticalement.",
+      "Conclusion : $F_2 = 60$ N, dirigée vers le bas, sens opposé à $F_1$. La boîte est alors en équilibre."
+    ]
+  },
+  "quiz": {
+    "question": "Une porte de maison est poussée par la gauche avec une force de 80 N. Un enfant la pousse de l'autre côté (par la droite) avec une force de 50 N. La porte peut-elle être en équilibre ? Si non, pourquoi ? Si oui, qu'faut-il changer ?",
+    "reponse_calculee": "Non, la porte ne peut pas être en équilibre car les intensités des forces sont différentes (80 N ≠ 50 N)",
+    "choices": [
+      {
+        "label": "Oui, la porte est déjà en équilibre avec ces forces",
+        "correct": false
+      },
+      {
+        "label": "Non, la porte ne peut pas être en équilibre car les intensités des forces sont différentes (80 N ≠ 50 N)",
+        "correct": true
+      },
+      {
+        "label": "Oui, il suffit de changer la direction des forces",
+        "correct": false
+      },
+      {
+        "label": "Non, parce que les deux forces ne peuvent jamais agir sur la même porte",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour que la porte soit en équilibre, l'enfant doit pousser avec une force de 80 N exactement, dans la direction opposée à celle de 80 N. Les deux forces doivent avoir la même intensité pour que leurs effets s'annulent.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour qu'un solide soit en équilibre sous deux forces, il faut que ces deux forces aient exactement la même intensité. Ici, 80 N et 50 N ne sont pas égales, donc l'équilibre est impossible avec ces valeurs. Il faudrait que l'enfant pousse avec 80 N."
+  }
+}

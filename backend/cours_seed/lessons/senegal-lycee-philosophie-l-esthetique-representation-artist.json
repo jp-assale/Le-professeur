@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-philosophie-l-esthetique-representation-artist",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L",
+  "matiere": "Philosophie",
+  "chapitre": "Esthétique (représentation artistique, formes et fonctions de l'art)",
+  "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)",
+  "template": "text_only",
+  "title": "Esthétique : représentation artistique, formes et fonctions de l'art",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu passes devant une fresque murale dans les rues de Dakar : des couleurs vives, des personnages stylisés, des symboles de la vie quotidienne. Un passant dit « C'est beau », un autre « C'est juste de la décoration », un troisième « C'est un message politique ». Pourquoi le même objet provoque-t-il des réactions si différentes ? Qu'est-ce qui fait qu'une œuvre d'art n'est pas qu'une image sur un mur, mais quelque chose qui nous parle, qui nous fait réfléchir, qui change notre façon de voir le monde ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'esthétique en philosophie ?",
+    "explanation": "L'esthétique est la discipline philosophique qui interroge l'art, la beauté et notre expérience face aux œuvres. Elle pose des questions fondamentales : qu'est-ce qui fait qu'une création est une œuvre d'art ? Qu'est-ce que la beauté ? L'art a-t-il une fonction, ou existe-t-il pour lui-même ? Comment une représentation (un tableau, une sculpture, un récit, une danse) nous touche et nous transforme ? L'esthétique ne juge pas « c'est beau » ou « c'est laid » de manière subjective ; elle cherche à comprendre les mécanismes par lesquels l'art crée du sens, provoque des émotions, et reflète ou critique la réalité.",
+    "highlight": "L'art est une représentation qui crée du sens et transforme notre rapport au monde."
+  },
+  "example": {
+    "problem": "Analysons la fresque murale de Dakar : comment cette œuvre fonctionne-t-elle comme représentation artistique, et quelles fonctions remplit-elle ?",
+    "steps": [
+      "Étape 1 — Identifier l'objet : c'est une fresque murale, un art visuel urbain. Ce n'est pas une simple peinture décorée pour remplir un espace vide ; c'est un choix d'où placer l'œuvre, de quel public l'atteindra.",
+      "Étape 2 — Reconnaître la représentation : la fresque ne montre pas la réalité telle quelle (des gens qui marchent dans la rue). Elle stylise, sélectionne, transforme. Elle choisit certains visages, certains gestes, certaines couleurs. C'est déjà une interprétation.",
+      "Étape 3 — Décoder le sens : les symboles choisis (instruments de musique, métiers, vêtements traditionnels) ne sont pas innocents. L'artiste communique une idée : « Cette culture, ces gens, cette identité existent et méritent d'être visibles. » C'est une représentation qui porte un message.",
+      "Étape 4 — Examiner la fonction esthétique : la fresque crée de la beauté, elle plaît à l'œil. Mais ce n'est pas sa seule fonction. Elle sert aussi à affirmer une identité, à occuper l'espace public, à créer un lien collectif.",
+      "Étape 5 — Examiner la fonction sociale et critique : en représentant la vie quotidienne sur un mur public, elle dit aussi « Regardez ce qui existe normalement mais qu'on ne voit pas. » Elle peut contester l'oubli, l'invisibilité, l'indifférence.",
+      "Conclusion : la fresque n'est pas juste belle, elle fonctionne comme une œuvre d'art complète parce qu'elle représente en transformant, qu'elle crée du sens (beauté + identité + message), et qu'elle assume plusieurs fonctions à la fois (esthétique, mémorielle, politique)."
+    ]
+  },
+  "quiz": {
+    "question": "Une représentation artistique se distingue de la simple imitation de la réalité par :",
+    "reponse_calculee": "son choix de transformer, de styliser et de créer du sens là où la simple imitation reproduirait sans interpréter",
+    "choices": [
+      {
+        "label": "son coût d'exécution et sa durabilité dans le temps",
+        "correct": false
+      },
+      {
+        "label": "son choix de transformer, de styliser et de créer du sens là où la simple imitation reproduirait sans interpréter",
+        "correct": true
+      },
+      {
+        "label": "le fait qu'elle utilise des matériaux rares ou précieux",
+        "correct": false
+      },
+      {
+        "label": "le fait qu'elle plaît à tous les spectateurs sans exception",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Une représentation artistique est toujours un acte d'interprétation. L'artiste choisit quoi montrer, comment le montrer, quelles couleurs, quelles formes, quels détails garder ou oublier. C'est cette transformation volontaire qui crée du sens et qui fait que l'art n'est jamais une simple copie de la réalité, mais toujours une vision, un point de vue, un message.",
+    "feedback_wrong": "Pas tout à fait. Le coût, la durabilité ou les matériaux ne définissent pas une représentation artistique. Un art peut être éphémère, fait de matériaux simples, et rester une véritable création. Ce qui compte, c'est que l'artiste transforme la réalité pour créer du sens. C'est cet acte d'interprétation consciente qui distingue l'art de la simple reproduction."
+  }
+}

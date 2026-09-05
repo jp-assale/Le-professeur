@@ -1,0 +1,57 @@
+{
+  "slug": "senegal-college-physique-chimie-forces",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Forces",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "physics_vector",
+  "title": "Forces",
+  "intro": {
+    "heading": "Mise en situation : L'équilibre d'une charge",
+    "body": "Imagine que tu aides à décharger des marchandises au marché. Deux cordes tirent sur un sac posé au sol : l'une avec une force fixe, l'autre avec une force que tu peux ajuster. Pour que le sac reste immobile et ne glisse pas, il faut que ces deux forces se compensent parfaitement. Comment savoir quelle force appliquer et dans quelle direction ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une force ? L'équilibre de deux forces",
+    "explanation": "Une force est une action capable de modifier le mouvement ou la forme d'un objet. Elle est caractérisée par une intensité (exprimée en newtons, N), une direction et un sens. Lorsque deux forces s'exercent sur un même objet, cet objet est en équilibre si et seulement si ces deux forces ont la même intensité, la même direction mais des sens opposés. Dans ce cas, l'objet reste immobile ou continue son mouvement rectiligne uniforme.",
+    "highlight": "Equilibre : deux forces egales, opposees et colineaires annulent leurs effets."
+  },
+  "example": {
+    "problem": "Un solide est soumis à deux forces colinéaires : une force F1 de 15 N dirigée vers la droite, et une force F2 que tu dois déterminer. Pour que le solide soit en équilibre, quelle doit être l'intensité et la direction de F2 ?",
+    "steps": [
+      "Identifie la première force : F1 = 15 N, direction horizontale, sens vers la droite.",
+      "Applique la condition d'équilibre : la somme vectorielle des forces doit être nulle.",
+      "Pour que l'équilibre existe, F2 doit avoir la même intensité que F1.",
+      "Calcule : |F2| = |F1| = 15 N.",
+      "Détermine la direction : F2 doit être colinéaire à F1 (même ligne d'action).",
+      "Détermine le sens : F2 doit être de sens opposé à F1, donc vers la gauche.",
+      "Conclusion : F2 = 15 N, direction horizontale, sens vers la gauche."
+    ]
+  },
+  "quiz": {
+    "question": "Un objet est en équilibre sous l'action de deux forces colinéaires. La première force F1 a une intensité de 25 N et est dirigée vers le bas. Quelle est l'intensité de la deuxième force F2 qui équilibre le système ?",
+    "reponse_calculee": "25 N",
+    "choices": [
+      {
+        "label": "12,5 N",
+        "correct": false
+      },
+      {
+        "label": "25 N",
+        "correct": true
+      },
+      {
+        "label": "50 N",
+        "correct": false
+      },
+      {
+        "label": "0 N",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Lorsque deux forces colinéaires équilibrent un objet, elles doivent avoir la même intensité. Ici, F2 = F1 = 25 N. La seule différence est leur direction opposée : si F1 pointe vers le bas, F2 pointe vers le haut.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'équilibre de deux forces colinéaires exige que leurs intensités soient égales. Puisque F1 = 25 N, alors F2 doit aussi valoir 25 N, mais en sens opposé. Relire la condition d'équilibre t'aidera."
+  }
+}

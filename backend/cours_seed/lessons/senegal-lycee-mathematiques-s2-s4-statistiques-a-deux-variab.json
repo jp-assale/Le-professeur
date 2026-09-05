@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-s2-s4-statistiques-a-deux-variab",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitre": "Statistiques à deux variables",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Statistiques à deux variables",
+  "intro": {
+    "heading": "Mise en situation : Le commerce au marché",
+    "body": "Imagine que tu aides un vendeur de fruits au marché de Dakar. Il remarque que plus il augmente le prix de ses mangues, moins de clients en achètent. Mais comment mesurer précisément cette relation ? Comment prédire ses ventes si le prix change ? Voilà exactement ce que tu vas apprendre : analyser le lien entre deux quantités qui varient ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une série statistique à deux variables ?",
+    "explanation": "Une série statistique à deux variables, c'est un ensemble d'observations où chaque individu ou situation possède deux caractères mesurables. Par exemple, pour chaque mois on mesure à la fois le prix d'un produit ET la quantité vendue. L'objectif est de découvrir s'il existe une relation (appelée corrélation) entre ces deux variables, et si oui, de la quantifier pour faire des prédictions. Les outils principaux sont le nuage de points, la droite d'ajustement et le coefficient de corrélation.",
+    "highlight": "Corrélation linéaire : mesurer et visualiser le lien entre deux variables numériques."
+  },
+  "example": {
+    "problem": "Un propriétaire de petite école veut comprendre le lien entre le nombre d'heures d'étude hebdomadaires et la note obtenue à l'examen. Il observe 5 élèves : l'élève A étudie 2 heures et obtient 8/20 ; l'élève B : 4 heures, 12/20 ; l'élève C : 6 heures, 16/20 ; l'élève D : 8 heures, 18/20 ; l'élève E : 10 heures, 20/20. Calcule la moyennes des heures d'étude $\\bar{x}$, la moyenne des notes $\\bar{y}$, puis détermine s'il existe une relation linéaire entre ces deux variables.",
+    "steps": [
+      "Étape 1 : Organise les données. Variables : $x$ = heures d'étude, $y$ = note. Données : $(2, 8), (4, 12), (6, 16), (8, 18), (10, 20)$.",
+      "Étape 2 : Calcule la moyenne des heures : $\\bar{x} = \\frac{2 + 4 + 6 + 8 + 10}{5} = \\frac{30}{5} = 6$ heures.",
+      "Étape 3 : Calcule la moyenne des notes : $\\bar{y} = \\frac{8 + 12 + 16 + 18 + 20}{5} = \\frac{74}{5} = 14,8$ points.",
+      "Étape 4 : Observe les variations. Pour chaque élève, quand $x$ augmente de 2, $y$ augmente de 4. C'est régulier : la relation est linéaire.",
+      "Étape 5 : Déduis la droite. La pente vaut $\\frac{\\Delta y}{\\Delta x} = \\frac{4}{2} = 2$. La droite d'ajustement est approximativement $y = 2x - 4$. (Vérification : quand $x = 6$, $y = 2(6) - 4 = 8$... ajuste légèrement : $y = 2x + 2,8$ passe par $(6; 14,8)$.) Il existe une très forte corrélation positive."
+    ]
+  },
+  "quiz": {
+    "question": "Une boulangerie relève pendant 4 jours le nombre de clients $x$ et le chiffre d'affaires en milliers de francs CFA, noté $y$. Les données sont : jour 1 : $x = 20$ clients, $y = 5$ mille FCFA ; jour 2 : $x = 30$, $y = 7$ ; jour 3 : $x = 40$, $y = 9$ ; jour 4 : $x = 50$, $y = 11$. Quel est le coefficient directeur (la pente) de la droite d'ajustement linéaire ?",
+    "reponse_calculee": "0,2",
+    "choices": [
+      {
+        "label": "0,1",
+        "correct": false
+      },
+      {
+        "label": "0,2",
+        "correct": true
+      },
+      {
+        "label": "0,5",
+        "correct": false
+      },
+      {
+        "label": "2",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En observant les données, pour chaque augmentation de 10 clients, le chiffre d'affaires augmente de 2 mille FCFA. Donc la pente est $\\frac{\\Delta y}{\\Delta x} = \\frac{2}{10} = 0,2$. C'est une corrélation positive et linéaire : plus il y a de clients, plus la boulangerie gagne, proportionnellement.",
+    "feedback_wrong": "Pas tout à fait. Regarde la variation entre deux points consécutifs : par exemple du jour 1 au jour 2, $x$ passe de 20 à 30 (augmentation de 10) et $y$ passe de 5 à 7 (augmentation de 2). La pente est donc $\\frac{2}{10} = 0,2$. Vérifie que cette pente fonctionne pour tous les autres intervalles aussi."
+  }
+}

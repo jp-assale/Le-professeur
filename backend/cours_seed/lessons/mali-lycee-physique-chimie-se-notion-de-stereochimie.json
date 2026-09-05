@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-notion-de-stereochimie",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Notion de stéréochimie",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Notion de stéréochimie",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine deux molécules de sucre en poudre : elles ont exactement la même formule chimique, le même nombre d'atomes de carbone, d'hydrogène et d'oxygène. Pourtant, l'une tourne la lumière polarisée vers la droite, l'autre vers la gauche. Elles ne sont pas identiques ! C'est la stéréochimie qui explique pourquoi deux molécules peuvent avoir le même squelette atomique mais des propriétés biologiques complètement différentes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la stéréochimie ?",
+    "explanation": "La stéréochimie est l'étude de l'arrangement spatial des atomes dans une molécule. Deux molécules peuvent avoir la même formule moléculaire et la même connectivité (le même ordre de liaison entre atomes), mais si leurs atomes sont disposés différemment dans l'espace, ce sont des isomères stéréoisomères. Cette différence d'arrangement spatial crée des molécules distinctes avec des propriétés différentes, en particulier optiques (rotation de la lumière polarisée) et biologiques.",
+    "highlight": "Deux isomères stéréoisomères ont la même formule moléculaire et la même structure de liaison, mais un arrangement spatial différent des atomes."
+  },
+  "example": {
+    "problem": "On considère deux isomères stéréoisomères du 2-butanol : le 2-butanol dextrogyre (qui tourne la lumière polarisée de 13,5° vers la droite) et le 2-butanol lévogyre (qui tourne la lumière de 13,5° vers la gauche). Calcule la rotation optique spécifique du 2-butanol dextrogyre sachant que le pouvoir rotatoire spécifique $[α]$ se calcule selon la formule : $[α] = \\frac{α}{l × c}$, où α est la rotation observée (en degrés), l est la longueur de la cuve (1 dm), et c est la concentration en g/mL. Pour le 2-butanol dextrogyre observé, α = 13,5°, l = 1 dm et c = 0,1 g/mL.",
+    "steps": [
+      "Identifie les données : α = 13,5° (rotation observée), l = 1 dm (longueur), c = 0,1 g/mL (concentration).",
+      "Rappelle la formule du pouvoir rotatoire spécifique : $[α] = \\frac{α}{l × c}$",
+      "Substitue les valeurs : $[α] = \\frac{13,5°}{1 × 0,1} = \\frac{13,5°}{0,1}$",
+      "Effectue la division : $[α] = 135°$ (exprimé en degrés par décimètre et par unité de concentration).",
+      "Conclusion : Le pouvoir rotatoire spécifique du 2-butanol dextrogyre est 135°, ce qui indique qu'il dévie fortement la lumière polarisée vers la droite. Son isomère lévogyre aurait $[α] = -135°$."
+    ]
+  },
+  "quiz": {
+    "question": "Deux molécules de même formule moléculaire $C_4H_{10}O$ possèdent des arrangements spatiaux différents autour d'un atome de carbone asymétrique. L'une dévie la lumière polarisée de +25° (dextrogyre) et l'autre de -25° (lévogyre), avec une longueur de cuve de 1 dm et une concentration de 0,05 g/mL. Quel est le pouvoir rotatoire spécifique du composé lévogyre ?",
+    "reponse_calculee": "-500°",
+    "choices": [
+      {
+        "label": "+500°",
+        "correct": false
+      },
+      {
+        "label": "-500°",
+        "correct": true
+      },
+      {
+        "label": "-25°",
+        "correct": false
+      },
+      {
+        "label": "+250°",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En utilisant $[α] = \\frac{α}{l × c} = \\frac{-25°}{1 × 0,05} = -500°$, tu obtiens bien -500°. Le signe négatif indique que cet isomère est lévogyre (dévie vers la gauche). Cette différence de signe entre les deux isomères stéréoisomères montre qu'ils ne sont pas superposables : ce sont des énantiomères.",
+    "feedback_wrong": "Revois ton calcul. La formule est $[α] = \\frac{α}{l × c}$. Ici, α = -25° (négatif car lévogyre), l = 1 dm, c = 0,05 g/mL. Calcule : $\\frac{-25°}{1 × 0,05} = \\frac{-25°}{0,05} = -500°$. Le pouvoir rotatoire spécifique dépend à la fois de la rotation observée ET des conditions de mesure (longueur et concentration)."
+  }
+}

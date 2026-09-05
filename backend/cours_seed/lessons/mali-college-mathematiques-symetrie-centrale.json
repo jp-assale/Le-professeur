@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-mathematiques-symetrie-centrale",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Symétrie centrale",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Symétrie centrale",
+  "intro": {
+    "heading": "Mise en situation : Un motif sur un tissu traditionnel",
+    "body": "Tu regardes un bogolan, ce beau tissu malien avec ses motifs géométriques. Tu remarques que certains dessins sont disposés de façon très régulière : si tu tournes le motif de 180° autour d'un point central, tu retrouves exactement le même dessin. C'est ça, la symétrie centrale ! Elle est partout autour de toi : dans l'architecture, les ornements, et même dans la nature."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce que la symétrie centrale ?",
+    "explanation": "La symétrie centrale est une transformation qui fait tourner une figure autour d'un point fixe, appelé centre de symétrie, d'un angle de 180°. Après cette rotation, la figure obtenue est identique à la figure de départ, mais en position inversée. Si tu plies un papier au point central et que la figure coïncide parfaitement de chaque côté, tu as une symétrie centrale.",
+    "highlight": "Deux points A et A' sont symétriques par rapport à un centre O si O est le milieu du segment AA'."
+  },
+  "example": {
+    "problem": "On considère un point A situé à 6 cm du centre de symétrie O. Construis le point A', symétrique de A par rapport à O. Quelle est la distance OA' ?",
+    "steps": [
+      "Étape 1 : Identifie le centre O et le point A. La distance OA = 6 cm.",
+      "Étape 2 : Rappelle-toi la propriété clé : si A' est le symétrique de A par rapport à O, alors O est le milieu du segment AA'.",
+      "Étape 3 : Cela signifie que OA = OA', car le centre divise le segment en deux parties égales.",
+      "Étape 4 : Puisque OA = 6 cm, alors OA' = 6 cm.",
+      "Étape 5 : Place A' sur la droite passant par O et A, de l'autre côté de O, à 6 cm de distance.",
+      "Conclusion : La distance OA' = 6 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Un segment AB a une longueur de 8 cm. Son symétrique A'B' par rapport à un centre O a quelle longueur ?",
+    "reponse_calculee": "8 cm",
+    "choices": [
+      {
+        "label": "4 cm",
+        "correct": false
+      },
+      {
+        "label": "8 cm",
+        "correct": true
+      },
+      {
+        "label": "16 cm",
+        "correct": false
+      },
+      {
+        "label": "0 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! La symétrie centrale conserve les distances. Un segment et son symétrique ont exactement la même longueur. Donc si AB = 8 cm, alors A'B' = 8 cm aussi.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi que la symétrie centrale est une transformation qui préserve les longueurs. Un segment et son image par symétrie centrale gardent la même mesure. Réfléchis : quelle doit être la longueur de A'B' ?"
+  }
+}

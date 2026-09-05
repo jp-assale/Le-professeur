@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-l-histoire",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'histoire",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "L'histoire - Leçon de Philosophie (Baccalauréat)",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi racontes-tu ton histoire ?",
+    "body": "Imagine que tu relates à tes camarades ce qui s'est passé lors d'une fête au lycée. Ton ami dit : « Non, ce n'est pas comme ça que ça s'est passé ! » Soudain, vous vous rendez compte que vous ne racontez pas la même histoire. Mais laquelle est la vraie ? Et comment le sais-tu ? C'est à cette question que s'intéresse la philosophie de l'histoire : qu'est-ce que l'histoire, comment la connaître, et peut-on vraiment dire qu'une version est « vraie » ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'histoire ?",
+    "explanation": "L'histoire n'est pas simplement une suite de faits passés qui se sont réellement déroulés. C'est une construction humaine : elle est le résultat d'un travail d'interprétation, de sélection et de mise en sens des événements par ceux qui les racontent. L'historien ne découvre pas passivement le passé ; il l'interroge, le questionne, et construit une explication. L'histoire est donc à la fois une connaissance du réel et une création de sens.",
+    "highlight": "L'histoire est la construction d'une intelligibilité du passé par le présent."
+  },
+  "example": {
+    "problem": "Analyse : Pourquoi deux historiens peuvent-ils raconter la conquête coloniale de manière très différente ?",
+    "steps": [
+      "Étape 1 : Observons les faits bruts. La colonisation est un événement qui s'est produit. Les dates, les noms des conquérants, les territoires occupés sont vérifiables.",
+      "Étape 2 : Mais l'historien ne peut pas tout raconter. Il doit choisir quels faits importent : les traités signés ? Les résistances locales ? Les conséquences économiques ? Le choix révèle une perspective.",
+      "Étape 3 : L'historien place aussi ces faits dans une explication globale. L'un peut dire « c'était une nécessité civilisatrice », un autre « c'était une spoliation systématique ». Ces deux récits ne contredisent pas les mêmes faits, mais les interprètent différemment.",
+      "Étape 4 : Ces interprétations dépendent aussi du présent de l'historien, de ses questions, de sa culture. Un historien burkinabè et un historien français ne poseront pas les mêmes questions au passé.",
+      "Étape 5 : Conclusion : l'histoire n'est pas l'addition neutre des faits. C'est un travail humain de sélection et d'interprétation. Cela ne veut pas dire qu'elle est fausse ; cela veut dire qu'elle est construite, et donc jamais définitive.",
+      "Étape 6 : Deux histoires peuvent donc être toutes deux valides dans leurs faits, mais différentes dans leur signification et leur sens."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle exprime correctement la nature de l'histoire selon la philosophie ?",
+    "reponse_calculee": "L'histoire est une construction de sens du passé par le présent, qui sélectionne et interprète les faits.",
+    "choices": [
+      {
+        "label": "L'histoire est la simple accumulation objective de tous les faits qui se sont passés, sans aucune intervention humaine.",
+        "correct": false
+      },
+      {
+        "label": "L'histoire est une construction de sens du passé par le présent, qui sélectionne et interprète les faits.",
+        "correct": true
+      },
+      {
+        "label": "L'histoire est une fiction entièrement inventée par les historiens sans rapport avec la réalité.",
+        "correct": false
+      },
+      {
+        "label": "L'histoire ne change jamais : une fois racontée, elle reste identique pour tous et pour toujours.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as compris le cœur de la leçon. L'histoire n'est ni une photographie neutre du passé, ni une pure fiction. C'est un travail vivant d'interprétation où le présent interroge le passé. Cela explique pourquoi des historiens peuvent proposer des visions différentes sans que l'une soit simplement « vraie » ou « fausse ».",
+    "feedback_wrong": "Pas tout à fait. Réfléchis bien : l'histoire peut-elle être une simple liste objective de tous les faits ? Non, car aucun récit ne peut tout raconter. Peut-elle être une pure invention ? Non, elle est ancrée dans le réel. L'histoire est une tension entre les faits réels et l'interprétation humaine."
+  }
+}

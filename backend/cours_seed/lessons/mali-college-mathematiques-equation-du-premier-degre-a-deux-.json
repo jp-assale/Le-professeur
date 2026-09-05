@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-mathematiques-equation-du-premier-degre-a-deux-",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équation du premier degré à deux inconnues",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Équation du premier degré à deux inconnues",
+  "intro": {
+    "heading": "Mise en situation : Au marché de Bamako",
+    "body": "Tu es au marché avec 5 000 francs CFA. Tu veux acheter des mangues et des oranges. Les mangues coûtent 500 F l'une, les oranges 300 F l'une. Comment peux-tu trouver tous les couples de quantités possibles ? Pour répondre, tu dois résoudre une équation à deux inconnues. C'est exactement ce que nous allons apprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'une équation du premier degré à deux inconnues ?",
+    "explanation": "Une équation du premier degré à deux inconnues est une égalité qui contient deux variables (souvent notées x et y) et où chacune apparaît au maximum à la puissance 1. Elle décrit une relation entre deux grandeurs. Par exemple, si x est le nombre de mangues et y le nombre d'oranges, l'équation 500x + 300y = 5000 traduit ton problème d'achat au marché.",
+    "highlight": "Forme générale : ax + by = c, où a, b et c sont des nombres connus, et x, y sont les inconnues"
+  },
+  "example": {
+    "problem": "Résous l'équation 2x + 3y = 12 et trouve trois couples de solutions (x ; y) avec des nombres entiers positifs.",
+    "steps": [
+      "Étape 1 : Isole y en fonction de x. À partir de 2x + 3y = 12, on obtient 3y = 12 - 2x, donc y = (12 - 2x) / 3.",
+      "Étape 2 : Choisis une valeur de x et calcule y correspondant. Si x = 0 : y = (12 - 0) / 3 = 4. Première solution : (0 ; 4).",
+      "Étape 3 : Essaie x = 3. Alors y = (12 - 6) / 3 = 2. Deuxième solution : (3 ; 2).",
+      "Étape 4 : Essaie x = 6. Alors y = (12 - 12) / 3 = 0. Troisième solution : (6 ; 0).",
+      "Étape 5 : Vérifie une solution. Pour (3 ; 2) : 2(3) + 3(2) = 6 + 6 = 12. ✓ C'est correct.",
+      "Conclusion : L'équation 2x + 3y = 12 a une infinité de solutions. Trois d'entre elles sont (0 ; 4), (3 ; 2) et (6 ; 0)."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les couples suivants, lequel est une solution de l'équation x + 2y = 7 ?",
+    "reponse_calculee": "(3 ; 2)",
+    "choices": [
+      {
+        "label": "(1 ; 3)",
+        "correct": false
+      },
+      {
+        "label": "(3 ; 2)",
+        "correct": true
+      },
+      {
+        "label": "(5 ; 1)",
+        "correct": false
+      },
+      {
+        "label": "(2 ; 2)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Vérifions : 3 + 2(2) = 3 + 4 = 7. Le couple (3 ; 2) satisfait bien l'équation x + 2y = 7. Tu as compris comment vérifier qu'un couple est solution.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Pour vérifier si un couple (x ; y) est solution, remplace x et y par leurs valeurs dans l'équation et vérife que l'égalité est vraie. Par exemple, pour (3 ; 2) : 3 + 2(2) = 3 + 4 = 7. C'est juste ! Essaie à nouveau."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-problemes-de-devel",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les problèmes de développement économique de la Côte d'Ivoire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les problèmes de développement économique de la Côte d'Ivoire",
+  "intro": {
+    "heading": "Mise en situation : Une économie qui peine à se diversifier",
+    "body": "Imaginez une famille en Côte d'Ivoire qui dépend entièrement de la culture du cacao pour vivre. Quand le prix du cacao baisse sur le marché mondial, ses revenus s'effondrent. C'est exactement le défi que connaît la Côte d'Ivoire depuis des décennies : une économie trop dépendante d'une seule matière première, incapable de créer d'autres sources de richesse. Comprendre ces blocages économiques, c'est comprendre pourquoi le développement tarde à venir."
+  },
+  "concept": {
+    "heading": "Le concept : Les problèmes structurels du développement économique ivoirien",
+    "explanation": "La Côte d'Ivoire, indépendante depuis 1960, fait face à des obstacles profonds qui freinent son développement économique. Il ne s'agit pas seulement de pauvreté ou de manque d'argent, mais de problèmes structurels : l'économie repose essentiellement sur l'exportation de matières premières (cacao, café, bois), les infrastructures sont insuffisantes, l'industrie manufacturière est faible, et les investissements publics ne suffisent pas à créer une véritable diversification. Ces problèmes sont interconnectés et créent un cercle vicieux où la dépendance économique empêche l'émergence d'une économie moderne et équilibrée.",
+    "highlight": "Une économie de rente basée sur les matières premières ne peut pas assurer le développement durable."
+  },
+  "example": {
+    "problem": "Analyse la situation économique suivante : La Côte d'Ivoire exporte massivement du cacao brut vers l'Europe et l'Asie. Les paysans reçoivent peu de revenus, les infrastructures de transport sont défaillantes, il y a peu de transformations industrielles du cacao sur place, et les revenus des exportations ne financent pas suffisamment l'éducation ni la santé. Comment cette situation illustre-t-elle les problèmes structurels du développement économique ivoirien ?",
+    "steps": [
+      "Étape 1 - Identifier la dépendance : La Côte d'Ivoire exporte du cacao brut, pas du cacao transformé. Elle reste donc dans une position de fournisseur de matière première, pas de producteur de bien fini à forte valeur ajoutée.",
+      "Étape 2 - Reconnaître le manque de diversification : L'économie repose quasi exclusivement sur une ou deux cultures d'exportation. Si le marché du cacao baisse, tout l'économie du pays s'effondre. Il n'y a pas d'autres secteurs économiques solides pour compenser.",
+      "Étape 3 - Analyser les infrastructures insuffisantes : Les routes et ports ne sont pas assez développés pour permettre une transformation industrielle sur place. Sans usines de transformation, le cacao reste une matière première brute, et la valeur reste faible.",
+      "Étape 4 - Évaluer les revenus faibles : Les paysans gagnent peu car ils ne contrôlent pas toute la chaîne de production. Les profits énormes vont aux acheteurs étrangers qui transforment et revendent le produit fini.",
+      "Étape 5 - Comprendre le manque d'investissement public : Les revenus insuffisants des exportations ne permettent pas au gouvernement d'investir massivement dans l'éducation et la santé, ce qui limite la qualité du capital humain et la productivité future.",
+      "Étape 6 - Voir le cercle vicieux : Sans éducation de qualité, pas de main-d'œuvre qualifiée pour l'industrie. Sans industrie, pas de création de richesse. Sans richesse, pas de ressources pour l'éducation. Le problème se perpétue."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments ne constitue PAS directement un problème structurel de développement économique en Côte d'Ivoire selon le chapitre ?",
+    "reponse_calculee": "L'absence de plages touristiques côtières",
+    "choices": [
+      {
+        "label": "L'absence de plages touristiques côtières",
+        "correct": true
+      },
+      {
+        "label": "La dépendance envers l'exportation de matières premières brutes",
+        "correct": false
+      },
+      {
+        "label": "L'insuffisance des infrastructures de transport et de transformation industrielle",
+        "correct": false
+      },
+      {
+        "label": "Le manque de diversification économique au-delà du cacao et du café",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Bien que le tourisme soit un secteur potentiel, l'absence de plages côtières n'est pas un problème structurel du développement ivoirien abordé dans ce chapitre. Les vrais blocages sont la mono-dépendance économique, les infrastructures insuffisantes et le manque de transformation industrielle locale.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : quels sont les véritables obstacles structurels mentionnés ? La dépendance aux matières premières, l'insuffisance des infrastructures, et le manque de diversification économique sont les problèmes clés du chapitre. L'absence de tourisme côtier n'en fait pas partie."
+  }
+}

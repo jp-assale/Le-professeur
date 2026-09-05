@@ -1,0 +1,172 @@
+[
+  {
+    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Mathematiques",
+    "chapitres": ["Calcul littéral", "Propriétés de Thalès dans un triangle", "Racines carrées", "Triangle rectangle", "Calcul numérique", "Angles inscrits", "Vecteurs", "Équations et inéquations dans ℝ", "Coordonnées de vecteurs", "Équations de droites", "Statistique", "Équations et inéquations dans ℝ×ℝ", "Applications affines", "Pyramides et cônes"],
+    "source": "dpfc-ci.net — Progressions annuelles 2024-2025"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Physique-Chimie",
+    "chapitres": ["Les lentilles", "Les défauts de l'œil et leurs corrections", "Masse et poids d'un corps", "Les forces", "Équilibre d'un solide soumis à deux forces", "Travail et puissance mécaniques", "Énergie mécanique", "Puissance et énergie électriques", "Le conducteur ohmique", "Électrolyse et synthèse de l'eau", "Les alcanes", "Oxydation des corps purs simples", "Réduction des oxydes", "Solutions acides, basiques et neutres"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "SVT",
+    "chapitres": ["Les aliments et l'Homme", "La digestion des aliments", "Le sang", "La transfusion sanguine", "La circulation sanguine", "Les grossesses précoces et les moyens de prévention", "L'infection au VIH", "Les caractéristiques d'un sol", "Les relations sols-plantes", "La dégradation des sols", "La protection et l'amélioration des sols"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Histoire-Geographie",
+    "chapitres": ["L'évolution sociopolitique de la Côte d'Ivoire et de l'Afrique du XIXe siècle", "De la Seconde Guerre mondiale aux efforts de construction du monde", "Le mouvement impérialiste", "L'accession de la Côte d'Ivoire à l'indépendance", "Étude économique de la Côte d'Ivoire", "L'Afrique face à la mondialisation"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "D", "matiere": "Mathematiques",
+    "chapitres": ["Nombres complexes", "Limites et continuité", "Dérivabilité et étude de fonctions", "Primitives", "Fonctions logarithmes", "Fonctions exponentielles et fonctions puissances", "Calcul intégral", "Suites numériques", "Équations différentielles", "Statistique à deux variables", "Probabilité conditionnelle et variable aléatoire", "Géométrie du plan (nombres complexes et transformations)", "Orthogonalité dans l'espace"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "Mathematiques",
+    "chapitres": ["Barycentre et lignes de niveaux", "Limites et continuité", "Divisibilité dans ℤ", "Dérivabilité et étude de fonctions", "Géométrie analytique de l'espace", "Primitives", "Fonctions logarithmes", "Coniques", "Fonctions exponentielles et fonctions puissances", "Nombres complexes"],
+    "source": "dpfc-ci.net — Progressions 2024-2025"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Philosophie",
+    "chapitres": ["La dissertation philosophique (méthodologie)", "Le commentaire de texte philosophique (méthodologie)", "La connaissance de l'homme", "La vie en société", "Dieu et la religion", "L'histoire de l'humanité", "La valeur de la philosophie", "Progrès et bonheur", "Langage et vérité", "La connaissance scientifique"],
+    "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C/D", "matiere": "Physique-Chimie",
+    "chapitres": ["Mécanique", "Électromagnétisme", "Électricité", "La lumière : onde ou particule", "Réactions nucléaires", "Chimie organique", "Chimie générale"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "D", "matiere": "SVT",
+    "chapitres": ["Les ressources minières", "La gestion des sols", "La reproduction chez les mammifères et chez les spermaphytes", "La transmission des caractères héréditaires", "Le milieu intérieur", "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "SVT",
+    "chapitres": ["Les ressources énergétiques", "La gestion des sols", "La reproduction chez l'Homme", "La transmission des caractères héréditaires", "Le métabolisme énergétique et l'activité musculaire", "La défense de l'organisme et son dysfonctionnement", "La communication dans l'organisme (communication nerveuse)"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Histoire-Geographie",
+    "chapitres": ["Les relations internationales de 1945 à nos jours (ONU, bipolarisation, monde multipolaire)", "De la décolonisation aux efforts d'organisation (nationalismes africains, indépendances CI et Algérie, Union Africaine)", "Les croyances et valeurs dans le monde d'aujourd'hui", "Les fondements du développement économique de la Côte d'Ivoire", "Les secteurs d'activités économiques de la Côte d'Ivoire", "Les problèmes de développement économique de la Côte d'Ivoire", "L'économie de la France", "La Corée du Sud, puissance émergente", "La CEDEAO", "Les relations UE/ACP"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Francais",
+    "chapitres": ["Étude d'une œuvre intégrale narrative (littérature africaine ou étrangère)", "Étude d'un groupement de textes théâtraux", "Étude d'une œuvre intégrale poétique (série A)", "L'énonciation", "Les outils de l'argumentation", "La sémantique", "La focalisation", "Les tonalités littéraires", "Les figures de style", "Les valeurs des temps verbaux", "Le rythme dans le texte poétique et la prose", "Le commentaire composé", "La dissertation littéraire"],
+    "source": "dpfc-ci.net"
+  },
+  {
+    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SE", "matiere": "Mathematiques",
+    "chapitres": ["Arithmétique", "Étude de fonctions numériques d'une variable réelle", "Étude des suites numériques", "Calcul intégral et équations différentielles", "Étude des nombres complexes", "Calculs barycentriques", "Étude des applications affines du plan et de l'espace", "Notions sur les coniques", "Notion de probabilité"],
+    "source": "bkalan.ml (API pédagogique)"
+  },
+  {
+    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SE", "matiere": "Physique-Chimie",
+    "chapitres": ["Mécanique et thermodynamique", "Induction électromagnétique et auto-induction", "Oscillateurs libres", "Oscillations forcées", "Optique physique", "Physique atomique et nucléaire", "Notion de stéréochimie", "Les alcools", "Les amines", "Les acides carboxyliques et fonctions dérivées", "Les acides α-aminés", "Les polymères synthétiques", "La cinétique chimique", "Les équilibres chimiques", "Produit ionique de l'eau / pH d'une solution aqueuse"],
+    "source": "bkalan.ml"
+  },
+  {
+    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "STI-STG", "matiere": "Philosophie",
+    "chapitres": ["Démocratie et violence", "Technique de la dissertation philosophique", "Science et technique", "Raison et croyance", "Technique de l'explication de texte", "Passions et désir"],
+    "source": "bkalan.ml"
+  },
+  {
+    "pays": "burkina_faso", "niveau": "college", "examen": "BEPC", "matiere": "Mathematiques",
+    "chapitres": ["Vecteurs du plan et repère cartésien", "Nombres réels et racine carrée d'un réel positif", "Projection (rapport de projection, projection orthogonale)", "Triangle rectangle (Pythagore et réciproque, trigonométrie)", "Équations et inéquations du premier degré, puis systèmes", "Monômes et polynômes", "Théorème de Thalès et réciproque", "Repère orthonormal (distance, droites, parallélisme)", "Angles inscrits et angles au centre", "Fonctions et applications (rationnelles, affines)", "Positions relatives d'une droite et d'un cercle", "Isométries du plan", "Statistiques", "Sections de solides (Pythagore/Thalès dans l'espace)", "Logique / entraînement à la démonstration"],
+    "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018"
+  },
+  {
+    "pays": "burkina_faso", "niveau": "college", "examen": "BEPC", "matiere": "Francais",
+    "chapitres": ["Écrire une lettre privée et/ou officielle", "Produire un récit intégrant un dialogue et/ou un portrait", "Produire la scène antérieure d'un texte (récit)", "Réduire tout type de texte (résumé)", "Produire tout type d'argumentation", "Produire un texte de dialogue argumenté", "Lecture de textes longs (œuvre intégrale)"],
+    "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e"
+  },
+  {
+    "pays": "burkina_faso", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Philosophie",
+    "chapitres": ["Le bonheur", "La connaissance du vivant", "Le droit et la justice", "Le langage", "L'existence et la mort", "La liberté", "Logique et mathématiques", "Le temps", "La théorie et l'expérience", "La violence et la paix", "La conscience / l'inconscient", "Société et pouvoir", "L'État", "Autrui", "La personne", "L'histoire", "La religion", "L'art", "La nature et la culture", "L'irrationnel et le sens", "La vérité", "La technique"],
+    "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010"
+  },
+  {
+    "pays": "burkina_faso", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C/D", "matiere": "Mathematiques",
+    "chapitres": ["Courbes paramétrées du plan", "Formules de Moivre et d'Euler", "Limite des fonctions numériques", "Dérivée de ln∘u et primitive de u'/u"],
+    "source": "fasoeducation.bf (catalogue de cours)"
+  },
+  {
+    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L1/L2", "matiere": "Mathematiques",
+    "chapitres": ["Algèbre : composition d'applications, factorisation de polynômes (méthode de Horner)", "Probabilités : dénombrement, équiprobabilité", "Statistique : ajustement linéaire, corrélation", "Analyse : limites-continuité, dérivabilité, étude de fonctions", "Fonction logarithme népérien", "Fonction exponentielle", "Suites numériques", "Calcul intégral"],
+    "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)"
+  },
+  {
+    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "S1/S3", "matiere": "Mathematiques",
+    "chapitres": ["Probabilités : variables aléatoires, loi binomiale, Bernoulli", "Nombres complexes : module, argument, formule de Moivre", "Arithmétique : PGCD/PPCM, congruences, systèmes de numération", "Suites numériques", "Fonctions numériques", "Calcul intégral", "Équations différentielles", "Géométrie plane : barycentres, similitudes", "Géométrie dans l'espace : produit vectoriel/mixte, transformations", "Courbes planes et coniques"],
+    "source": "officedubac.sn — Programme_Maths-LS.pdf"
+  },
+  {
+    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "S2/S4", "matiere": "Mathematiques",
+    "chapitres": ["Fonctions numériques, suites, calcul intégral, équations différentielles", "Statistiques à deux variables", "Probabilités, loi binomiale", "Nombres complexes", "Similitudes planes directes"],
+    "source": "officedubac.sn — Programme_Maths-LS.pdf"
+  },
+  {
+    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L", "matiere": "Philosophie",
+    "chapitres": ["La réflexion philosophique (origines, grandes interrogations, enjeux, idée d'une philosophie africaine)", "La vie sociale (nature et culture, individu et société, conscience et inconscient, la liberté, l'État)", "Épistémologie (émergence de la pensée scientifique, types de sciences, science et technique)", "Esthétique (représentation artistique, formes et fonctions de l'art)"],
+    "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)"
+  },
+  {
+    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L1/L2/S1/S2", "matiere": "Francais",
+    "chapitres": ["Le Surréalisme (Apollinaire, Aragon, Éluard, Soupault, Desnos, Char, Césaire, Senghor, Depestre)", "Poésie — Boileau, Hugo, La Fontaine / Senghor, Damas, D. Diop", "Roman — Abbé Prévost, Camus / Kourouma, Hampâté Bâ", "Théâtre — Corneille, Hugo, Musset, Anouilh, Sartre, Beckett / Badian, Ndébéka, Dadié, Cheikh Aliou Ndao"],
+    "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)"
+  },
+  {
+    "pays": "guinee", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SM", "matiere": "Mathematiques",
+    "chapitres": ["Nombres complexes (module, arguments, représentation géométrique)", "Arithmétique (numération décimale/binaire, anneau ℤ, sous-groupes de ℤ)", "Applications (injections, surjections, bijections)", "Suites (récurrence, convergence, monotonie)", "Probabilités (dénombrement, formule du binôme, loi binomiale)", "Fonctions réelles (limites, continuité, dérivées, intégration, équations différentielles)", "Géométrie (angles inscrits/orientés, barycentres, isométries, similitudes, géométrie de l'espace, coniques)"],
+    "source": "Animathor.fr — résumé du programme Terminale SM Guinée"
+  },
+  {
+    "pays": "benin", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "Mathematiques",
+    "chapitres": ["Calcul vectoriel de l'espace (barycentre, produit vectoriel), applications affines de l'espace", "Arithmétique (anneaux, division euclidienne, systèmes de numération, divisibilité)", "Nombres complexes (forme algébrique, module/argument, formes trigonométrique/exponentielle, équations)", "Probabilités", "Limites et continuité", "Dérivabilité — étude de fonctions", "Primitives", "Fonction logarithme népérien", "Fonction exponentielle népérienne et fonctions exponentielles/puissances", "Calcul intégral", "Équations différentielles linéaires à coefficients constants", "Suites numériques", "Géométrie plane (barycentre de n points, isométries, applications affines, coniques, similitudes planes directes)"],
+    "source": "Document « Mathématiques Terminale C Bénin »"
+  },
+  {
+    "pays": "benin", "niveau": "lycee", "examen": "Baccalaureat", "serie": "A", "matiere": "Philosophie",
+    "chapitres": ["Séquence d'apprentissage 1 : L'homme et le monde", "Séquence d'apprentissage 2 : La connaissance scientifique"],
+    "source": "Résumé « Philosophie Terminale A Bénin Complet »"
+  },
+  {
+    "pays": "mali", "niveau": "college", "examen": "DEF", "matiere": "Mathematiques",
+    "chapitres": ["Ensemble des nombres réels ℝ", "Équation du premier degré à deux inconnues", "Système de deux équations du premier degré à deux inconnues (résolution graphique)", "Inéquation du premier degré à deux inconnues", "Système d'inéquations du premier degré à une et deux inconnues (résolution graphique)", "Fonction rationnelle (ensemble de définition, calcul de valeurs numériques)", "Trigonométrie (pratique)", "Translation", "Symétrie centrale", "Symétrie orthogonale", "Homothétie"],
+    "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies"
+  },
+  {
+    "pays": "mali", "niveau": "college", "examen": "DEF", "matiere": "Histoire-Geographie",
+    "chapitres": ["La Révolution française de 1789 (causes, conséquences)", "Les progrès scientifiques et techniques du XIXe siècle", "La Première Guerre mondiale (contribution africaine)", "La colonisation et l'impérialisme européen en Afrique (causes, résistances)", "La Conférence de Berlin", "La décolonisation de l'Afrique (formes, facteurs)", "Le panafricanisme et la négritude", "L'ONU (création, objectifs, Conseil de sécurité)", "L'OUA (création, objectifs, organes)", "La République du Mali (les différentes républiques, l'indépendance de 1960, le 26 mars 1991)", "Le relief africain (hauts sommets)", "Les fleuves africains (régime, source, embouchure, delta)", "Les climats d'Afrique et leurs facteurs", "L'Office du Niger", "La CEDEAO", "L'UEMOA", "La démographie (natalité, mortalité, exode rural, migrations)", "Les problèmes de développement de l'Afrique et de la zone soudano-sahélienne"],
+    "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant"
+  },
+  {
+    "pays": "benin", "niveau": "college", "examen": "BEPC", "matiere": "Physique-Chimie",
+    "chapitres": ["Les constituants de la matière", "Classification des éléments chimiques", "La mole", "Notion de réaction chimique", "Électrolyse et synthèse de l'eau", "Les solutions aqueuses", "Quelques machines simples", "Production d'un courant électrique", "Électricité domestique", "Les pétroles et gaz naturels", "Les matières plastiques", "Dessin technique", "Transmission du mouvement de rotation", "Projet de moteur à combustion interne", "Projet de moteur électrique", "Circuit électrique domestique", "Maintenance des objets techniques"],
+    "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024"
+  },
+  {
+    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Mathematiques",
+    "chapitres": ["Racine carrée", "Équations et inéquations à une inconnue", "Équations et systèmes d'équations à deux inconnues", "Inéquations et systèmes d'inéquations à deux inconnues", "Applications affines", "Statistique", "Théorème de Thalès", "Relations trigonométriques dans un triangle rectangle", "Angles inscrits, angles au centre", "Vecteurs", "Transformations du plan", "Repérage dans le plan", "Géométrie dans l'espace"],
+    "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+  },
+  {
+    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Physique-Chimie",
+    "chapitres": ["Lentilles minces", "Dispersion de la lumière", "Forces", "Travail et puissance mécanique", "Électrisation par frottement, le courant électrique", "Résistance électrique", "Énergie et rendement", "Solutions aqueuses", "Acides et bases", "Quelques propriétés chimiques des métaux usuels", "Les hydrocarbures"],
+    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+  },
+  {
+    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "SVT",
+    "chapitres": ["Le fonctionnement du système nerveux", "Étude de la vision", "La respiration chez l'espèce humaine", "Phénomènes énergétiques accompagnant la respiration", "La fermentation, un autre moyen de se procurer de l'énergie", "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur", "L'immunité et la réponse immunitaire", "Le système immunitaire", "Les groupes sanguins (spécificité immunologique)", "Aide à l'immunité", "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)", "La tectonique des plaques et la formation des roches métamorphiques", "Le cycle des roches", "La chronologie en géologie"],
+    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+  },
+  {
+    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Histoire-Geographie",
+    "chapitres": ["La 2e révolution industrielle et ses conséquences", "Le développement du capitalisme et les mutations sociales", "Les doctrines sociales : syndicalisme et socialisme", "L'impérialisme en Afrique (missions et explorations, congrès de Berlin, résistances, systèmes coloniaux)", "L'impérialisme dans le reste du monde (Japon, Asie, États-Unis)", "Conflits et révolutions au XXe siècle (révolutions chinoises, Première Guerre mondiale, révolution russe, crise des années 30, Deuxième Guerre mondiale, relations Est-Ouest 1945-90)", "La décolonisation et la naissance du Tiers-monde (causes et formes de la décolonisation, le Sénégal de 1944 à 1962, Bandoeng)", "La Terre, une planète du système solaire", "La Terre, une planète menacée (surexploitation des ressources, conséquences climatiques)", "La Terre, une planète divisée (inégalités de développement, systèmes économiques)", "La Terre, une planète solidaire (coopération, communication)"],
+    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com"
+  }
+]

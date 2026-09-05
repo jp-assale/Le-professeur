@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-s2-s4-similitudes-planes-directe",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitre": "Similitudes planes directes",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Similitudes planes directes",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois agrandir une carte du Sénégal pour un projet scolaire, ou redimensionner une photo de famille sans la déformer. Dans les deux cas, tu conserves les angles et les proportions : c'est exactement ce qu'une similitude plane directe fait en mathématiques. C'est une transformation qui combine une rotation, une homothétie (agrandissement ou réduction) et une translation, tout en préservant les angles et les rapports de distances."
+  },
+  "concept": {
+    "heading": "Définition : Similitude plane directe",
+    "explanation": "Une similitude plane directe est une transformation du plan qui conserve les angles orientés et multiplie toutes les distances par un même nombre positif appelé rapport. En langage complexe, une similitude directe se représente par une fonction de la forme $f(z) = az + b$, où $a$ et $b$ sont des nombres complexes et $a \\neq 0$. Le nombre complexe $a$ encode la rotation et le rapport de similitude, tandis que $b$ représente la translation.",
+    "highlight": "Une similitude directe a pour expression complexe : $f(z) = az + b$ avec $a \\neq 0$"
+  },
+  "example": {
+    "problem": "On considère la similitude directe $f(z) = (1 + i)z + 2$. Détermine l'image du point $M$ d'affixe $z_M = 1$ et calcule le rapport de similitude.",
+    "steps": [
+      "Étape 1 : Identifie les paramètres. On a $a = 1 + i$ et $b = 2$.",
+      "Étape 2 : Calcule le module de $a$ (qui est le rapport de similitude). $|a| = |1 + i| = \\sqrt{1^2 + 1^2} = \\sqrt{2}$.",
+      "Étape 3 : Calcule l'argument de $a$ (qui est l'angle de rotation). $\\arg(a) = \\arg(1 + i) = \\frac{\\pi}{4}$ radians (ou 45°).",
+      "Étape 4 : Applique $f$ au point $M$. $f(z_M) = f(1) = (1 + i) \\times 1 + 2 = 1 + i + 2 = 3 + i$.",
+      "Étape 5 : L'image $M'$ a pour affixe $3 + i$. Le rapport de similitude est $\\sqrt{2}$ et l'angle de rotation est $\\frac{\\pi}{4}$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit la similitude directe $f(z) = 2iz + 1$. Quel est le rapport de similitude ?",
+    "reponse_calculee": "2",
+    "choices": [
+      {
+        "label": "1",
+        "correct": false
+      },
+      {
+        "label": "2",
+        "correct": true
+      },
+      {
+        "label": "$i$",
+        "correct": false
+      },
+      {
+        "label": "$\\sqrt{5}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le rapport de similitude est le module du coefficient $a = 2i$. On a $|2i| = 2 \\times |i| = 2 \\times 1 = 2$. C'est ce facteur qui agrandit ou réduit les distances dans le plan.",
+    "feedback_wrong": "Attention, tu confonds peut-être avec d'autres éléments de la similitude. Le rapport de similitude est toujours le module du coefficient complexe $a$. Ici, $a = 2i$, donc le rapport est $|2i| = 2$. Le terme constant $b = 1$ ne joue aucun rôle dans le rapport."
+  }
+}

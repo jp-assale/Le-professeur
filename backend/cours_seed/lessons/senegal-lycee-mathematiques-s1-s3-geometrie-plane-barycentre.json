@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-geometrie-plane-barycentre",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie plane : barycentres, similitudes",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Géométrie plane : barycentres et similitudes",
+  "intro": {
+    "heading": "Mise en situation : L'équilibre du marché",
+    "body": "Imagine que tu dois partager équitablement une aide alimentaire entre trois villages : l'un compte 150 habitants, l'autre 200, et le dernier 100. Comment calculer le point central où concentrer les ressources pour que le transport soit optimal ? C'est le barycentre. Et si tu dois agrandir une carte du Sénégal en conservant exactement sa forme, tu utilises une similitude. Ces deux outils te permettent de résoudre des problèmes réels de géométrie."
+  },
+  "concept": {
+    "heading": "Le barycentre : définition et propriété",
+    "explanation": "Le barycentre de plusieurs points pondérés est le point d'équilibre unique qui représente leur « centre de masse ». Si tu associes à chaque point $A_i$ un coefficient (ou poids) $m_i$, le barycentre $G$ est le point qui satisfait une relation vectorielle fondamentale. Ce concept est utilisé en physique (centre de gravité), en économie (moyenne pondérée) et en géométrie pour construire des figures équilibrées.",
+    "highlight": "Relation vectorielle du barycentre : $\\vec{m_1GA_1} + \\vec{m_2GA_2} + \\vec{m_3GA_3} + ... = \\vec{0}$ (la somme des vecteurs pondérés est nulle au barycentre)"
+  },
+  "example": {
+    "problem": "Soit trois points $A$, $B$ et $C$ du plan. On cherche le barycentre $G$ de ces trois points affectés des coefficients respectifs 2, 3 et 5. On place $A$ à l'origine, $B$ à $(4, 0)$ et $C$ à $(0, 6)$. Calcule les coordonnées de $G$.",
+    "steps": [
+      "Étape 1 : Identifie les masses. On a $m_A = 2$, $m_B = 3$, $m_C = 5$. La masse totale est $m = 2 + 3 + 5 = 10$.",
+      "Étape 2 : Utilise la formule des coordonnées du barycentre. L'abscisse de $G$ est $x_G = \\frac{m_A \\cdot x_A + m_B \\cdot x_B + m_C \\cdot x_C}{m_A + m_B + m_C}$.",
+      "Étape 3 : Calcule l'abscisse. $x_G = \\frac{2 \\cdot 0 + 3 \\cdot 4 + 5 \\cdot 0}{10} = \\frac{0 + 12 + 0}{10} = \\frac{12}{10} = 1,2$.",
+      "Étape 4 : Utilise la même formule pour l'ordonnée. $y_G = \\frac{m_A \\cdot y_A + m_B \\cdot y_B + m_C \\cdot y_C}{m_A + m_B + m_C}$.",
+      "Étape 5 : Calcule l'ordonnée. $y_G = \\frac{2 \\cdot 0 + 3 \\cdot 0 + 5 \\cdot 6}{10} = \\frac{0 + 0 + 30}{10} = 3$.",
+      "Étape 6 : Conclusion. Le barycentre est $G(1,2 ; 3)$. Ce point représente le centre d'équilibre des trois masses."
+    ]
+  },
+  "quiz": {
+    "question": "Soit deux points $P(2, 5)$ et $Q(8, 1)$ affectés respectivement des coefficients 3 et 1. Quel est le barycentre $G$ de ces deux points ?",
+    "reponse_calculee": "G(3,5 ; 4)",
+    "choices": [
+      {
+        "label": "G(5 ; 3)",
+        "correct": false
+      },
+      {
+        "label": "G(3,5 ; 4)",
+        "correct": true
+      },
+      {
+        "label": "G(6 ; 2)",
+        "correct": false
+      },
+      {
+        "label": "G(4 ; 3,5)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule du barycentre de deux points. Avec $m_P = 3$ et $m_Q = 1$, la masse totale est 4. L'abscisse est $x_G = \\frac{3 \\cdot 2 + 1 \\cdot 8}{4} = \\frac{14}{4} = 3,5$ et l'ordonnée est $y_G = \\frac{3 \\cdot 5 + 1 \\cdot 1}{4} = \\frac{16}{4} = 4$. Le barycentre est bien $G(3,5 ; 4)$.",
+    "feedback_wrong": "Attention ! Tu ne dois pas confondre avec une moyenne simple. Rappelle-toi que chaque coefficient pondère le point correspondant. Applique la formule : $x_G = \\frac{m_P \\cdot x_P + m_Q \\cdot x_Q}{m_P + m_Q} = \\frac{3 \\cdot 2 + 1 \\cdot 8}{4} = \\frac{14}{4} = 3,5$ et $y_G = \\frac{3 \\cdot 5 + 1 \\cdot 1}{4} = \\frac{16}{4} = 4$."
+  }
+}

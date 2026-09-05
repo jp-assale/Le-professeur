@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-le-panafricanisme-et-la-neg",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Le panafricanisme et la négritude",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Le panafricanisme et la négritude",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es au lycée à Bamako, et tu vois des affichettes qui parlent d'« unité africaine » et de « fierté noire ». Un camarade te demande : « Pourquoi les Africains parlent-ils tant d'unité alors qu'on a des pays différents ? » Bonne question. C'est justement parce qu'à un moment de l'histoire, les Africains ont décidé de se reconnaître comme frères malgré les frontières, face au colonialisme et au racisme. Ce mouvement s'appelle le panafricanisme, et il s'accompagne d'une affirmation de la beauté et de la dignité de l'identité noire : la négritude."
+  },
+  "concept": {
+    "heading": "Le panafricanisme et la négritude : définitions",
+    "explanation": "Le panafricanisme est un mouvement politique et culturel qui vise l'unité des peuples africains et des descendants d'Africains dispersés par l'esclavage et la colonisation. La négritude, elle, est un mouvement littéraire et idéologique qui célèbre et réaffirme les valeurs, la culture et la dignité des peuples noirs, face au mépris colonial et raciste. Ces deux mouvements sont nés à la fin du 19e et au 20e siècle, quand l'Afrique était dominée par les puissances européennes et quand les Africains et leurs descendants cherchaient à retrouver fierté et conscience collective.",
+    "highlight": "Le panafricanisme = unité politique et géopolitique des Africains; la négritude = revendication culturelle et identitaire de la dignité noire."
+  },
+  "example": {
+    "problem": "Un écrivain haïtien, Aimé Césaire, a écrit un poème en 1939 intitulé 'Cahier d'un retour au pays natal', où il utilisait le mot 'négritude' pour dire qu'il était fier d'être noir et de ses racines africaines, contrairement à ce qu'on lui avait enseigné à l'école coloniale française. Comment ce poème illustre-t-il à la fois la négritude et le lien avec le panafricanisme?",
+    "steps": [
+      "Étape 1 : Comprendre le contexte. Haïti était une colonie, et Haïti comme partout, la culture coloniale enseignait que l'Europe était supérieure et que la noirceur était une honte. Césaire a grandi en écoutant cela.",
+      "Étape 2 : Identifier l'acte de révolte. En écrivant ce poème, Césaire refuse le mépris colonial. Il dit : 'Non, je suis fier d'être noir.' C'est la négritude — l'affirmation de la dignité noire.",
+      "Étape 3 : Voir le lien avec l'Afrique. Bien que né en Haïti (loin de l'Afrique géographiquement), Césaire regarde vers l'Afrique comme sa mère spirituelle. Il se reconnaît comme africain par l'héritage et l'âme.",
+      "Étape 4 : Relier au panafricanisme. Ce poème contribue au panafricanisme parce qu'il unit les descendants d'Africains partout dans le monde — en Haïti, aux Antilles, en Afrique — autour d'une même fierté et d'une même lutte. C'est une voix qui dit : 'Nous sommes tous frères, tous fiers d'être noirs.'",
+      "Étape 5 : Conclusion. Le poème de Césaire montre que panafricanisme et négritude sont inséparables : on ne peut pas réclamer l'unité africaine sans affirmer la dignité et la beauté de l'identité noire."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le lien principal entre le panafricanisme et la négritude?",
+    "reponse_calculee": "Le panafricanisme cherche l'unité politique et géopolitique des Africains, tandis que la négritude affirme la dignité culturelle et identitaire des peuples noirs; ensemble, ils forment une même lutte contre le colonialisme et le racisme.",
+    "choices": [
+      {
+        "label": "A) Le panafricanisme est un mouvement politique d'unité africaine, et la négritude en est uniquement une branche littéraire sans lien réel avec la politique.",
+        "correct": false
+      },
+      {
+        "label": "B) Le panafricanisme vise l'unité politique des Africains tandis que la négritude affirme la dignité culturelle des peuples noirs; ensemble, ils forment une lutte commune contre le colonialisme et le racisme.",
+        "correct": true
+      },
+      {
+        "label": "C) La négritude est le vrai mouvement d'unité, et le panafricanisme n'en est qu'un slogan sans importance historique.",
+        "correct": false
+      },
+      {
+        "label": "D) Le panafricanisme et la négritude sont deux mouvements totalement opposés, l'un politique et l'autre culturel, sans connexion.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact! Tu as compris le cœur du chapitre. Le panafricanisme et la négritude sont deux facettes d'un même mouvement de conscience et de libération : l'un agit sur le plan politique et géopolitique (l'unité), l'autre sur le plan culturel et identitaire (la fierté). Ensemble, ils permettent aux Africains et aux peuples noirs de se redécouvrir, de s'unir et de résister au colonialisme.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : le panafricanisme est le mouvement qui vise l'unité politique et la solidarité entre tous les peuples africains et les descendants d'Africains. La négritude, elle, affirme les valeurs culturelles et la dignité de l'identité noire. Ces deux mouvements ne s'opposent pas — au contraire, ils se renforcent mutuellement dans la lutte contre le colonialisme et le racisme. Relis le concept et l'exemple pour mieux voir comment ils travaillent ensemble."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-physique-atomique-et-nucleaire",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Physique atomique et nucléaire",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Physique atomique et nucléaire",
+  "intro": {
+    "heading": "Mise en situation : L'énergie nucléaire au Mali",
+    "body": "Imagine que ton pays envisage de construire une centrale nucléaire pour produire de l'électricité et réduire la dépendance aux énergies fossiles. Avant de prendre cette décision, les ingénieurs doivent comprendre comment l'atome se désintègre et libère son énergie. C'est exactement ce que nous allons étudier : la structure du noyau et les réactions nucléaires qui transforment la matière en énergie."
+  },
+  "concept": {
+    "heading": "Le noyau atomique et la radioactivité",
+    "explanation": "Le noyau d'un atome est constitué de protons et de neutrons. Certains noyaux sont instables : ils se désintègrent spontanément en émettant des particules ou de l'énergie. Ce phénomène s'appelle la radioactivité. Chaque type de rayonnement correspond à une perte de masse et une libération d'énergie massive, selon la célèbre relation d'Einstein.",
+    "highlight": "E = m·c² (l'énergie libérée égale la masse perdue multipliée par le carré de la vitesse de la lumière)"
+  },
+  "example": {
+    "problem": "Un noyau de carbone-14 se désintègre par émission bêta. La masse du noyau initial est 14,003 u (unité de masse atomique). Après la désintègre, la masse finale des produits est 13,999 u. Calcule l'énergie libérée lors de cette réaction. (Rappel : 1 u = 1,66 × 10⁻²⁷ kg et c = 3 × 10⁸ m/s)",
+    "steps": [
+      "Étape 1 : Calcule le défaut de masse (perte de masse) : Δm = masse initiale − masse finale = 14,003 − 13,999 = 0,004 u",
+      "Étape 2 : Convertis le défaut de masse en kilogrammes : Δm = 0,004 × 1,66 × 10⁻²⁷ = 6,64 × 10⁻³⁰ kg",
+      "Étape 3 : Applique la formule E = m·c² : E = 6,64 × 10⁻³⁰ × (3 × 10⁸)²",
+      "Étape 4 : Calcule le carré de la vitesse : (3 × 10⁸)² = 9 × 10¹⁶ m²/s²",
+      "Étape 5 : Effectue la multiplication finale : E = 6,64 × 10⁻³⁰ × 9 × 10¹⁶ = 59,76 × 10⁻¹⁴ = 5,976 × 10⁻¹³ J ≈ 5,98 × 10⁻¹³ J"
+    ]
+  },
+  "quiz": {
+    "question": "Un noyau radioactif perd une masse de 2 × 10⁻²⁸ kg lors d'une désintégration. Quelle est l'énergie libérée ? (Utilise c = 3 × 10⁸ m/s)",
+    "reponse_calculee": "1,8 × 10⁻¹¹ J",
+    "choices": [
+      {
+        "label": "6 × 10⁻²⁰ J",
+        "correct": false
+      },
+      {
+        "label": "1,8 × 10⁻¹¹ J",
+        "correct": true
+      },
+      {
+        "label": "2 × 10⁻¹⁰ J",
+        "correct": false
+      },
+      {
+        "label": "3,6 × 10⁻²⁸ J",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement appliqué E = m·c². Avec Δm = 2 × 10⁻²⁸ kg et c² = 9 × 10¹⁶ m²/s², on obtient E = 2 × 10⁻²⁸ × 9 × 10¹⁶ = 1,8 × 10⁻¹¹ J. Cette quantité d'énergie, bien que petite à l'échelle humaine, est colossale à l'échelle d'un noyau atomique : c'est ce qui rend la réaction nucléaire si puissante.",
+    "feedback_wrong": "Regarde bien le calcul. Il faut appliquer strictement E = m·c². La masse perdue est 2 × 10⁻²⁸ kg, et tu dois la multiplier par c² = (3 × 10⁸)² = 9 × 10¹⁶ m²/s². Le résultat numérique doit être E = 2 × 10⁻²⁸ × 9 × 10¹⁶. Fais attention à l'ordre de grandeur final en utilisant correctement les puissances de dix : 10⁻²⁸ × 10¹⁶ = 10⁻¹². Recalcule patiemment en séparant les chiffres des puissances."
+  }
+}

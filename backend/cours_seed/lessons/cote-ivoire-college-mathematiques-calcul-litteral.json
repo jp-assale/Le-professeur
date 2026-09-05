@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-calcul-litteral",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul littéral",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Calcul littéral",
+  "intro": {
+    "heading": "Mise en situation : Le prix de la récolte",
+    "body": "Un producteur de cacao vend ses sacs de fèves. Chaque sac coûte un prix qui varie selon la qualité. Pour calculer son revenu total, il ne peut pas vérifier chaque sac individuellement : il doit écrire une formule qui marche peu importe le nombre de sacs ou le prix. C'est exactement ce que le calcul littéral te permet de faire : utiliser des lettres pour représenter des nombres inconnus ou variables."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le calcul littéral ?",
+    "explanation": "Le calcul littéral, c'est l'art de calculer avec des lettres pour représenter des nombres. Au lieu de travailler uniquement avec des chiffres (3, 5, 10...), tu utilises des lettres comme $x$, $y$, $a$ pour désigner des valeurs inconnues ou variables. Cela te permet de résoudre des problèmes généraux : une seule formule peut s'appliquer à des milliers de situations différentes.",
+    "highlight": "Calcul littéral = utiliser des lettres pour représenter des nombres et effectuer des opérations (+, −, ×, ÷) dessus comme on le ferait avec des chiffres."
+  },
+  "example": {
+    "problem": "Un artisan fabrique des paniers. Le coût pour fabriquer un panier est de 2500 francs CFA pour les matériaux, plus 1500 francs CFA pour le travail. Il vend chaque panier à 6000 francs CFA. Exprime le profit pour $n$ paniers fabriqués et vendus, puis calcule le profit pour 10 paniers.",
+    "steps": [
+      "Étape 1 : Identifier ce qui change. Le nombre de paniers est $n$ (variable). Le coût et le prix de vente sont fixes.",
+      "Étape 2 : Écrire le coût total pour $n$ paniers. Coût par panier = 2500 + 1500 = 4000 francs CFA. Coût pour $n$ paniers = $4000n$ francs CFA.",
+      "Étape 3 : Écrire la recette totale pour $n$ paniers. Recette = $6000n$ francs CFA.",
+      "Étape 4 : Exprimer le profit. Profit = Recette − Coût = $6000n - 4000n$ francs CFA.",
+      "Étape 5 : Simplifier l'expression littérale. $6000n - 4000n = 2000n$ francs CFA. C'est la formule du profit.",
+      "Étape 6 : Calculer pour $n = 10$. Profit = $2000 × 10 = 20000$ francs CFA pour 10 paniers."
+    ]
+  },
+  "quiz": {
+    "question": "Simplifie l'expression littérale suivante : $3x + 5x - 2x + 4$",
+    "reponse_calculee": "$6x + 4$",
+    "choices": [
+      {
+        "label": "$10x$",
+        "correct": false
+      },
+      {
+        "label": "$6x + 4$",
+        "correct": true
+      },
+      {
+        "label": "$5x + 4$",
+        "correct": false
+      },
+      {
+        "label": "$8x$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as regroupé les termes en $x$ : $3x + 5x - 2x = 6x$. Le $+4$ reste inchangé car ce n'est pas un terme en $x$. La réponse simplifiée est $6x + 4$. Bien compris le principe de réduire les termes semblables !",
+    "feedback_wrong": "Pas tout à fait. Pour simplifier, tu dois regrouper les termes qui contiennent $x$ entre eux, et les nombres seuls entre eux. Calcule : $3x + 5x - 2x = (3 + 5 - 2)x = 6x$. Le $4$ n'a pas de $x$ donc il reste $+4$. La réponse est $6x + 4$."
+  }
+}

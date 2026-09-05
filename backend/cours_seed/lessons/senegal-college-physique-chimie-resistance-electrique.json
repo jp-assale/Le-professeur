@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-physique-chimie-resistance-electrique",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Résistance électrique",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Résistance électrique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu utilises ton téléphone tous les jours, mais as-tu remarqué que le câble de charge chauffe parfois ? Ou que certaines ampoules brillent plus que d'autres avec le même courant ? C'est la résistance électrique qui explique ces phénomènes. Elle mesure l'opposition qu'un matériau offre au passage du courant électrique — et c'est ce qui crée de la chaleur."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la résistance électrique ?",
+    "explanation": "La résistance électrique est une propriété des matériaux qui mesure leur capacité à s'opposer au passage du courant électrique. C'est elle qui convertit une partie de l'énergie électrique en chaleur (effet Joule). Elle se mesure en ohms (Ω) et dépend du matériau, de sa longueur et de sa section.",
+    "highlight": "R = ρ × L / A, où R est la résistance (Ω), ρ la résistivité du matériau (Ω·m), L la longueur (m) et A la section (m²)."
+  },
+  "example": {
+    "problem": "Un fil de cuivre destiné à une installation électrique a une résistivité ρ = 1,7 × 10⁻⁸ Ω·m. Ce fil mesure 50 m de long et a une section de 2,5 × 10⁻⁶ m². Calcule sa résistance.",
+    "steps": [
+      "Étape 1 : Identifie les données. ρ = 1,7 × 10⁻⁸ Ω·m ; L = 50 m ; A = 2,5 × 10⁻⁶ m²",
+      "Étape 2 : Utilise la formule R = ρ × L / A",
+      "Étape 3 : Calcule le numérateur : ρ × L = 1,7 × 10⁻⁸ × 50 = 85 × 10⁻⁸ = 8,5 × 10⁻⁷ Ω·m²",
+      "Étape 4 : Divise par la section : R = (8,5 × 10⁻⁷) / (2,5 × 10⁻⁶)",
+      "Étape 5 : Effectue la division : R = 3,4 × 10⁻¹ = 0,34 Ω",
+      "Réponse : La résistance du fil de cuivre est 0,34 Ω."
+    ]
+  },
+  "quiz": {
+    "question": "Un fil en alliage a une résistivité ρ = 4,4 × 10⁻⁷ Ω·m, une longueur de 20 m et une section de 1,1 × 10⁻⁶ m². Quelle est sa résistance ?",
+    "reponse_calculee": "8 Ω",
+    "choices": [
+      {
+        "label": "0,8 Ω",
+        "correct": false
+      },
+      {
+        "label": "8 Ω",
+        "correct": true
+      },
+      {
+        "label": "80 Ω",
+        "correct": false
+      },
+      {
+        "label": "0,08 Ω",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! R = (4,4 × 10⁻⁷ × 20) / (1,1 × 10⁻⁶) = (8,8 × 10⁻⁶) / (1,1 × 10⁻⁶) = 8 Ω. Plus le fil est long, plus sa résistance augmente ; plus sa section est grande, plus elle diminue.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : R = ρ × L / A. Calcule d'abord ρ × L = 4,4 × 10⁻⁷ × 20 = 8,8 × 10⁻⁶, puis divise par A = 1,1 × 10⁻⁶ pour obtenir 8 Ω. Attention aux puissances de 10 !"
+  }
+}

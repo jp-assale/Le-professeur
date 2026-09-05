@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-les-groupes-sanguins-specificite-immunol",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Les groupes sanguins (spécificité immunologique)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Les groupes sanguins (spécificité immunologique)",
+  "intro": {
+    "heading": "Mise en situation : une urgence à l'hôpital",
+    "body": "Tu es aux urgences avec ton ami qui a eu un accident de moto. Le médecin annonce : « Il faut une transfusion sanguine immédiatement ». Mais le docteur ne prend pas n'importe quel sang — il consulte d'abord le groupe sanguin de ton ami. Pourquoi ? Parce que donner le mauvais type de sang peut être mortel. C'est le secret des groupes sanguins."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un groupe sanguin ?",
+    "explanation": "Le groupe sanguin est une caractéristique biologique qui dépend de la présence ou l'absence d'antigènes (petites protéines) à la surface des globules rouges. Ces antigènes sont comme des badges d'identité : si tu reçois un sang avec des antigènes différents des tiens, ton système immunitaire les reconnaît comme « étrangers » et les attaque. C'est pourquoi il existe quatre groupes principaux : A, B, AB et O.",
+    "highlight": "Le groupe sanguin est déterminé par les antigènes présents sur les globules rouges et reconnu par le système immunitaire."
+  },
+  "example": {
+    "problem": "Un hôpital reçoit 5 patients blessés. Voici leurs groupes sanguins : Patient 1 (groupe A), Patient 2 (groupe B), Patient 3 (groupe AB), Patient 4 (groupe O), Patient 5 (groupe A). La banque de sang dispose de 3 poches : une de groupe O, une de groupe AB et une de groupe B. Combien de patients pourront recevoir une transfusion compatible avec les réserves disponibles ? (Rappel : le groupe O est universel et peut être donné à tous ; AB peut recevoir de tous les groupes.)",
+    "steps": [
+      "Étape 1 : Identifie les patients et leurs besoins. Patient 1 (A), Patient 2 (B), Patient 3 (AB), Patient 4 (O), Patient 5 (A).",
+      "Étape 2 : Vérifie la compatibilité du groupe O. Le groupe O est universel : il convient à tous les patients. Une seule poche O satisfait 1 patient.",
+      "Étape 3 : Vérifie la compatibilité du groupe AB. Le groupe AB peut recevoir de tous les groupes (donneur universel de plasma, receveur universel de globules rouges). Une poche AB convient à Patient 3 (groupe AB).",
+      "Étape 4 : Vérifie la compatibilité du groupe B. Une poche B convient à Patient 2 (groupe B).",
+      "Étape 5 : Compte les patients appariés. Patients 1 et 5 (groupe A) n'ont pas de poche A disponible, donc ils ne peuvent pas être transfusés avec les réserves actuelles.",
+      "Étape 6 : Bilan : 3 patients sur 5 peuvent recevoir une transfusion (Patient 2, Patient 3 et 1 parmi les groupes A/O)."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant de groupe sanguin B reçoit par erreur une transfusion de sang du groupe A. Que se passe-t-il immédiatement dans son organisme ?",
+    "reponse_calculee": "Son système immunitaire reconnaît les antigènes A comme étrangers et attaque les globules rouges du donneur (réaction hémolytique)",
+    "choices": [
+      {
+        "label": "Les globules rouges du donneur se multiplient normalement",
+        "correct": false
+      },
+      {
+        "label": "Son système immunitaire reconnaît les antigènes A comme étrangers et attaque les globules rouges du donneur",
+        "correct": true
+      },
+      {
+        "label": "Le sang A se transforme en sang B dans les veines de l'enfant",
+        "correct": false
+      },
+      {
+        "label": "Aucune réaction ne se produit car le sang circule partout",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C'est la spécificité immunologique. Les antigènes A du donneur sont reconnus comme « non-soi » par le système immunitaire de l'enfant de groupe B. Les anticorps naturels de l'enfant attaquent et détruisent les globules rouges transfusés : c'est la réaction hémolytique, qui peut être très grave. C'est pourquoi la compatibilité des groupes sanguins est cruciale.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que chaque groupe sanguin porte des antigènes spécifiques. Quand un antigène du donneur ne correspond pas à celui du receveur, le système immunitaire du receveur le reconnaît comme étranger et l'attaque. Ici, le groupe B perçoit l'antigène A comme une menace et le détruit."
+  }
+}

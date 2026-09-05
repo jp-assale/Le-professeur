@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-les-climats-d-afrique-et-le",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les climats d'Afrique et leurs facteurs",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Les climats d'Afrique et leurs facteurs",
+  "intro": {
+    "heading": "Mise en situation : pourquoi le Mali n'a pas la même pluie que la Côte d'Ivoire ?",
+    "body": "Tu as peut-être remarqué que pendant l'hivernage, Bamako reçoit beaucoup moins de pluie que les régions côtières de l'Afrique de l'Ouest. Et au Sahara, il ne pleut presque jamais. Pourtant, c'est le même continent ! Pourquoi ces différences ? Quels éléments naturels font que certaines régions d'Afrique sont vertes et humides, tandis que d'autres sont désertiques et sèches ? C'est ce que nous allons découvrir."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un climat et quels sont ses facteurs ?",
+    "explanation": "Un climat est l'ensemble des conditions météorologiques (pluie, température, vent, humidité) qui caractérisent une région sur une longue période. En Afrique, le climat varie énormément d'un endroit à l'autre. Cette variation n'est pas du hasard : elle dépend de plusieurs facteurs naturels qui agissent ensemble. Comprendre ces facteurs, c'est comprendre pourquoi l'Afrique possède des régions si différentes les unes des autres.",
+    "highlight": "Les facteurs du climat sont : la latitude, l'altitude, la proximité de la mer, et les courants océaniques."
+  },
+  "example": {
+    "problem": "Analyse les différences climatiques entre trois régions : Dakar (côte sénégalaise), Tombouctou (centre du Mali) et une région de montagne en Éthiopie. Explique pourquoi leurs climats sont si différents.",
+    "steps": [
+      "Étape 1 : Observer la latitude. Dakar est sur la côte ouest, proche de l'équateur (latitude tropicale). Tombouctou est plus au nord, en zone sahélienne. L'Éthiopie est une région montagneuse. Chaque position géographique crée déjà une première différence climatique.",
+      "Étape 2 : Considérer l'influence de la mer. Dakar bénéficie de la proximité de l'océan Atlantique : l'eau régule la température (ni trop chaud ni trop froid) et apporte l'humidité. Tombouctou, loin de la mer, n'a pas cet avantage.",
+      "Étape 3 : Analyser l'altitude. En Éthiopie, les montagnes refroidissent l'air. Plus on monte, plus il fait froid et plus les conditions changent. C'est pourquoi certains sommets africains ont même de la neige.",
+      "Étape 4 : Examiner les courants océaniques. Le courant des Canaries, qui vient du nord vers Dakar, apporte de l'eau froide et modifie les conditions météorologiques côtières.",
+      "Étape 5 : Récapituler les résultats. Dakar : climat tropical humide (océan proche, latitude favorable). Tombouctou : climat désertique et sec (loin de la mer, latitude sahélienne). Éthiopie : climat tempéré en montagne (altitude élevée). Trois facteurs différents = trois climats différents."
+    ]
+  },
+  "quiz": {
+    "question": "Quel facteur explique principalement pourquoi les côtes ouest de l'Afrique reçoivent beaucoup plus de pluie que le Sahara situé à l'intérieur du continent ?",
+    "reponse_calculee": "La proximité de l'océan et l'humidité qu'il apporte",
+    "choices": [
+      {
+        "label": "L'altitude des régions côtières",
+        "correct": false
+      },
+      {
+        "label": "La proximité de l'océan et l'humidité qu'il apporte",
+        "correct": true
+      },
+      {
+        "label": "La latitude de l'Afrique par rapport à l'équateur",
+        "correct": false
+      },
+      {
+        "label": "L'absence de montagnes sur les côtes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'océan est une source d'humidité. L'eau s'évapore de sa surface et crée les conditions pour que les pluies se forment. Les régions côtières en bénéficient directement, tandis que le Sahara, loin de toute grande masse d'eau, reste aride. La proximité de la mer est un facteur fondamental du climat.",
+    "feedback_wrong": "Pas tout à fait. L'altitude et la latitude jouent un rôle, mais le facteur décisif ici est l'eau. L'océan fournit l'humidité nécessaire aux pluies. Regarde la carte : toutes les côtes africaines reçoivent plus de précipitations que les déserts intérieurs. C'est parce que l'océan apporte cette humidité."
+  }
+}

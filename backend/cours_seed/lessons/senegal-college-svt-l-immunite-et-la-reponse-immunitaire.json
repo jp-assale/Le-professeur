@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-l-immunite-et-la-reponse-immunitaire",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "L'immunité et la réponse immunitaire",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "L'immunité et la réponse immunitaire",
+  "intro": {
+    "heading": "Mise en situation : pourquoi tu ne tombes pas malade à chaque rhume ?",
+    "body": "Pendant la saison sèche au Sénégal, les rhumes circulent dans les écoles et les familles. Pourtant, certains enfants restent en bonne santé alors que d'autres tombent malades. D'autres encore attrapent le rhume une fois, puis leur corps semble « se souvenir » et ils ne l'attrapent plus. Ton corps possède un système de défense invisible mais très puissant : c'est ton immunité. Comment fonctionne-t-elle ? Comment ton corps reconnaît et combat les microbes ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'immunité et la réponse immunitaire ?",
+    "explanation": "L'immunité est la capacité de ton organisme à se défendre contre les agents pathogènes (virus, bactéries, parasites). La réponse immunitaire est l'ensemble des mécanismes que ton corps met en place pour combattre ces envahisseurs. Elle fait intervenir des cellules spécialisées (les globules blancs ou leucocytes) qui circulent dans le sang et la lymphe. Dès qu'un pathogène entre dans ton corps, ces cellules le reconnaissent comme étranger et l'attaquent. C'est une véritable armée défensive qui agit en trois temps : la reconnaissance, la réaction, et la mémorisation.",
+    "highlight": "L'immunité = capacité à reconnaître et éliminer les agents pathogènes grâce aux globules blancs"
+  },
+  "example": {
+    "problem": "Lors d'une épidémie hypothétique de grippe dans une école, on observe que sur 150 élèves, 60 % n'ont jamais eu la grippe et possèdent donc une immunité naturelle innée. Parmi les 40 % restants (qui ont déjà eu la grippe), 75 % ont développé une immunité acquise (ils ont des anticorps). Combien d'élèves possèdent une immunité acquise suite à une infection antérieure ?",
+    "steps": [
+      "Étape 1 : Identifie le nombre total d'élèves = 150",
+      "Étape 2 : Calcule le nombre d'élèves qui ont déjà eu la grippe = 40 % de 150 = 0,40 × 150 = 60 élèves",
+      "Étape 3 : Parmi ces 60 élèves, identifie ceux qui ont une immunité acquise = 75 % de 60",
+      "Étape 4 : Effectue le calcul = 0,75 × 60 = 45 élèves",
+      "Étape 5 : Interprète le résultat : 45 élèves ont développé une immunité acquise (avec anticorps) après avoir eu la grippe."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un village, 200 enfants sont exposés à une infection. 30 % d'entre eux ont une immunité innée et ne tombent pas malades. Parmi les 140 enfants qui tombent malades, 80 % développent une immunité acquise durable après guérison. Combien d'enfants ont finalement une immunité acquise ?",
+    "reponse_calculee": "112",
+    "choices": [
+      {
+        "label": "100 enfants",
+        "correct": false
+      },
+      {
+        "label": "112 enfants",
+        "correct": true
+      },
+      {
+        "label": "140 enfants",
+        "correct": false
+      },
+      {
+        "label": "120 enfants",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris. Sur 200 enfants, 30 % ont l'immunité innée (60 enfants). Les 140 restants tombent malades. Parmi eux, 80 % développent une immunité acquise durable : 0,80 × 140 = 112 enfants. C'est le résultat de la réponse immunitaire adaptée de leur organisme face à l'antigène.",
+    "feedback_wrong": "Pas encore juste. Relis bien : 30 % des 200 enfants ont l'immunité innée, donc 70 % tombent malades (140 enfants). Parmi ces 140, c'est 80 % qui développent l'immunité acquise. Calcule : 0,80 × 140 pour trouver le nombre exact d'enfants ayant l'immunité acquise."
+  }
+}

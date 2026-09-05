@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-francais-l1-l2-s1-s2-roman-abbe-prevost-camus-",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2/S1/S2",
+  "matiere": "Francais",
+  "chapitre": "Roman — Abbé Prévost, Camus / Kourouma, Hampâté Bâ",
+  "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)",
+  "template": "text_only",
+  "title": "Le Roman au Baccalauréat : Abbé Prévost, Camus, Kourouma, Hampâté Bâ",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as devant toi quatre auteurs et quatre mondes : un moine français du XVIIIe siècle qui raconte une passion impossible, un Français de l'Algérie coloniale révolté par l'absurde, un Ivoirien qui crie la douleur de la guerre civile, un Malien qui se souvient de la sagesse des anciens. Comment ces quatre écrivains, si différents, parlent-ils tous du désir humain, de la révolte, de la mémoire ? C'est ce que tu dois comprendre pour le Bac."
+  },
+  "concept": {
+    "heading": "Le roman : miroir des passions et des révoltes humaines",
+    "explanation": "Le roman est un genre qui peint les passions des individus face au monde. Au programme du Bac, tu étudies quatre romans qui montrent comment des hommes et des femmes confrontent leurs désirs, leurs souffrances, leurs révoltes à la réalité. Chaque auteur choisit un moment de crise : la passion amoureuse impossible chez Prévost, l'absurdité de l'existence chez Camus, la folie de la guerre chez Kourouma, la transmission du savoir face à l'oubli chez Hampâté Bâ. Le roman ne raconte pas juste une histoire : il questionne comment on vit, comment on meurt, comment on se souvient.",
+    "highlight": "Le roman explore les passions humaines à travers un personnage en crise face à son époque et à ses limites."
+  },
+  "example": {
+    "problem": "Analyse comment le personnage principal d'un roman représente une forme de révolte ou de souffrance face à son environnement. Prends comme exemple un personnage confronté à une situation qui le dépasse (passion, injustice, oubli, absurde). Comment le romancier montre-t-il cette tension ?",
+    "steps": [
+      "Étape 1 : Identifie le moment de crise. Par exemple, dans un roman, un personnage découvre qu'il ne peut pas être avec celui ou celle qu'il aime. Ce n'est pas un simple « problème » : c'est une rupture entre son désir et la réalité.",
+      "Étape 2 : Observe comment le romancier décrit cette crise intérieurement. Il ne dit pas juste « il était triste ». Il montre les pensées du personnage, ses regrets, sa lucidité ou son aveuglement.",
+      "Étape 3 : Repère les actions du personnage. Luttera-t-il ? Fuira-t-il ? Acceptera-t-il ? Ces choix révèlent sa nature et la vision que l'auteur a de l'existence.",
+      "Étape 4 : Examine le contexte social ou historique. La passion est-elle impossible à cause de l'amour lui-même ou à cause de la société, de la colonisation, de la tradition ?",
+      "Étape 5 : Conclus : le roman montre que le personnage n'est pas seul face à l'absurde ou à la souffrance. L'écrivain partage sa révolte avec le lecteur et pose une question universelle sur la condition humaine."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est l'enjeu commun aux quatre œuvres au programme (Prévost, Camus, Kourouma, Hampâté Bâ) ?",
+    "reponse_calculee": "La représentation des passions et des crises humaines face à la réalité, l'époque et les limites imposées à l'individu.",
+    "choices": [
+      {
+        "label": "Décrire uniquement les paysages et la nature de l'Afrique de l'Ouest.",
+        "correct": false
+      },
+      {
+        "label": "Montrer comment l'individu confronte ses passions, souffrances ou révoltes à un monde qui le dépasse ou l'écrase.",
+        "correct": true
+      },
+      {
+        "label": "Raconter une histoire d'amour sans conflit ni tension.",
+        "correct": false
+      },
+      {
+        "label": "Critiquer uniquement la religion et les traditions sans parler de l'individu.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. Le point commun n'est pas une époque ou un style, mais une vision : chaque roman montre un personnage humain en crise face à quelque chose qui le dépasse. Prévost peint la passion impossible, Camus l'absurde, Kourouma la violence de l'histoire, Hampâté Bâ la perte de la mémoire. C'est cela le roman au Bac.",
+    "feedback_wrong": "Non. Attention : le roman ne décrit pas juste des paysages, n'évite pas le conflit, et ne réduit pas les enjeux à une seule critique. Les quatre œuvres au programme partagent un enjeu plus profond : la représentation des passions et des crises humaines. Relis la définition du concept."
+  }
+}

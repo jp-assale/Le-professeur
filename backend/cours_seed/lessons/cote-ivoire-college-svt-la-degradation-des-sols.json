@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-la-degradation-des-sols",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La dégradation des sols",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La dégradation des sols",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, beaucoup de paysans remarquent que leurs champs produisent de moins en moins, même avec les mêmes efforts qu'avant. Les terres deviennent dures, se lavent à chaque pluie, et les mauvaises herbes prennent le dessus. C'est un problème qui touche directement ta région et celle de nombreuses familles : c'est la dégradation des sols."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la dégradation des sols ?",
+    "explanation": "La dégradation des sols est la perte progressive de la qualité et de la fertilité d'un sol, rendant celui-ci de moins en moins capable de supporter la vie des plantes et les activités humaines. En Afrique de l'Ouest, c'est une menace majeure pour l'agriculture et l'alimentation. Cette dégradation peut avoir deux origines principales : naturelle (érosion par les pluies et le vent, lessivage des éléments nutritifs) ou humaine (surpâturage, déforestation, cultures répétées sans repos du sol, utilisation excessive de produits chimiques).",
+    "highlight": "La dégradation des sols = perte de fertilité et de structure du sol due à des processus naturels ou à des activités humaines."
+  },
+  "example": {
+    "problem": "Un agriculteur cultive la même parcelle de 2 hectares depuis 10 ans sans jachère. Initialement, le sol contenait 4,5 kg de matière organique par $m^2$. Après 10 ans de culture intensive, ce sol n'en contient plus que 2,7 kg par $m^2$. Calcule la perte de matière organique en kilogrammes pour l'ensemble de la parcelle.",
+    "steps": [
+      "Étape 1 : Convertir les hectares en $m^2$. On sait que 1 hectare = 10 000 $m^2$. Donc 2 hectares = 2 × 10 000 = 20 000 $m^2$.",
+      "Étape 2 : Calculer la matière organique initiale. Quantité initiale = 4,5 kg/$m^2$ × 20 000 $m^2$ = 90 000 kg.",
+      "Étape 3 : Calculer la matière organique restante. Quantité restante = 2,7 kg/$m^2$ × 20 000 $m^2$ = 54 000 kg.",
+      "Étape 4 : Calculer la perte. Perte = 90 000 kg − 54 000 kg = 36 000 kg.",
+      "Étape 5 : Vérifier avec le pourcentage : (36 000 ÷ 90 000) × 100 % = 40 %. Le sol a perdu 40 % de sa matière organique, ce qui confirme une dégradation grave."
+    ]
+  },
+  "quiz": {
+    "question": "Un sol dégradé perd progressivement sa matière organique et sa structure. Parmi les propositions suivantes, laquelle NE constitue PAS une cause de dégradation des sols ?",
+    "reponse_calculee": "L'application modérée de fumier animal comme engrais naturel",
+    "choices": [
+      {
+        "label": "Le surpâturage par trop de troupeaux",
+        "correct": false
+      },
+      {
+        "label": "L'application modérée de fumier animal comme engrais naturel",
+        "correct": true
+      },
+      {
+        "label": "La déforestation sans replantation",
+        "correct": false
+      },
+      {
+        "label": "Les cultures répétées sans jachère (repos du sol)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'application modérée de fumier animal enrichit le sol en matière organique et améliore sa fertilité. C'est une pratique qui COMBAT la dégradation, au contraire. Les trois autres options (surpâturage, déforestation, cultures continues) sont toutes des causes majeures de dégradation des sols.",
+    "feedback_wrong": "Non, réfléchis bien. Trois de ces réponses sont clairement des causes de dégradation : le surpâturage compacte le sol, la déforestation l'expose à l'érosion, et cultiver sans pause épuise ses éléments nutritifs. L'une d'elles améliore au contraire le sol. Laquelle aide à restaurer la fertilité ?"
+  }
+}

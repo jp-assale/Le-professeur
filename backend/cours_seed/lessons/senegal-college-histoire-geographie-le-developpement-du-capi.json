@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-le-developpement-du-capi",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Le développement du capitalisme et les mutations sociales",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Le développement du capitalisme et les mutations sociales",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine une petite ville au Sénégal il y a cent ans : quelques marchés locaux, des artisans qui travaillent pour leurs voisins, des terres familiales cultivées ensemble. Aujourd'hui, tu vois des boutiques de chaînes commerciales, des usines, des gens qui vendent leur travail pour un salaire, et l'argent qui circule partout. Comment cette transformation s'est-elle produite ? C'est le passage au capitalisme, et il a complètement changé la vie des sociétés."
+  },
+  "concept": {
+    "heading": "Le capitalisme : définition et enjeux sociaux",
+    "explanation": "Le capitalisme est un système économique fondé sur la propriété privée des richesses et des moyens de production (terres, usines, machines, argent). Dans ce système, l'argent investi cherche à se multiplier par le profit, et c'est ce qui pousse les entrepreneurs à créer des entreprises et à employer des travailleurs. Cette logique a transformé les sociétés africaines, particulièrement pendant et après la colonisation. Les mutations sociales qui en décourent sont profondes : apparition d'une classe de travailleurs salariés, concentration des richesses entre les mains de quelques propriétaires, urbanisation croissante, affaiblissement des structures sociales traditionnelles (communauté villageoise, artisanat, solidarité), et création de nouvelles inégalités.",
+    "highlight": "Capitalisme = système où la propriété privée et la quête de profit transforment l'économie et la société"
+  },
+  "example": {
+    "problem": "En Afrique de l'Ouest, l'arrivée des compagnies commerciales coloniales a progressivement remplacé le commerce traditionnel. Analyse comment ce changement a modifié la structure sociale d'une région côtière.",
+    "steps": [
+      "Avant : Les familles et les métiers traditionnel régissaient l'échange. Un forgeron travaillait pour sa communauté en échange de nourriture et de protection. Les terres appartenaient à la communauté, pas à des individus.",
+      "Arrivée du capitalisme colonial : Les Européens établissent des comptoirs commerciaux et proposent de l'argent pour l'achat d'esclaves, d'or ou de ressources. L'argent devient plus attrayant que le troc traditionnel.",
+      "Nouvelle mentalité : Des Africains accumulent de l'argent en vendant des produits aux Européens. Ils veulent posséder des terres individuellement et des esclaves pour produire davantage. Le profit devient l'objectif.",
+      "Désorganisation sociale : Les structures familiales se fragilisent. Les jeunes abandonnent les métiers traditionnels (tissage, forge) pour chercher de l'argent. Les terres communales sont privatisées.",
+      "Création d'une nouvelle hiérarchie : Une classe de marchands riches émerge, tandis que les petits artisans deviennent pauvres. Des travailleurs sans terres louent leur force de travail.",
+      "Conclusion : Le capitalisme a brisé l'équilibre social ancien et créé une société inégalitaire fondée sur l'argent plutôt que sur le statut ou le métier hérité."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces changements sociaux est une conséquence DIRECTE du développement du capitalisme en Afrique ?",
+    "reponse_calculee": "L'apparition d'une classe de travailleurs salariés dépendants d'un emploi rémunéré",
+    "choices": [
+      {
+        "label": "L'apparition d'une classe de travailleurs salariés dépendants d'un emploi rémunéré",
+        "correct": true
+      },
+      {
+        "label": "Le renforcement des structures communautaires et familiales traditionnelles",
+        "correct": false
+      },
+      {
+        "label": "La disparition complète du commerce d'échange traditionnel",
+        "correct": false
+      },
+      {
+        "label": "L'égalité économique entre tous les membres de la société",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le capitalisme introduit le salariat : les gens n'ont plus de terres ni de métier hérité, ils doivent vendre leur travail à un patron pour survivre. C'est une mutation sociale majeure par rapport aux structures communautaires anciennes.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : le capitalisme remplace les liens communautaires par des relations d'argent. Il crée une classe de travailleurs qui vendent leur force de travail pour un salaire, ce qui est l'inverse du renforcement des structures anciennes, et loin d'apporter l'égalité. Réfléchis à ce qui change vraiment dans la vie quotidienne quand l'argent devient central."
+  }
+}

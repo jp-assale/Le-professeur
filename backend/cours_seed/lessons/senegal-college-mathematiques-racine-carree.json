@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-mathematiques-racine-carree",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Racine carrée",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Racine Carrée — Leçon BFEM",
+  "intro": {
+    "heading": "Mise en situation : Un terrain à clôturer",
+    "body": "Imagine qu'on te donne un terrain carré dont la surface est de 100 m². Tu dois installer une clôture autour. Pour savoir combien de mètres de clôture commander, tu dois d'abord trouver la longueur d'un côté. Comment fais-tu sans mesurer ? Tu cherches un nombre qui, multiplié par lui-même, donne 100. C'est exactement ce que tu vas apprendre : la racine carrée."
+  },
+  "concept": {
+    "heading": "Définition : La racine carrée",
+    "explanation": "La racine carrée d'un nombre positif $a$ est le nombre positif qui, multiplié par lui-même, donne $a$. On la note $\\sqrt{a}$. Par exemple, la racine carrée de 9 est 3, parce que $3 \\times 3 = 9$. La racine carrée est l'opération inverse de l'élévation au carré.",
+    "highlight": "Si $b \\times b = a$, alors $\\sqrt{a} = b$. On dit aussi : $b^2 = a$ équivaut à $b = \\sqrt{a}$."
+  },
+  "example": {
+    "problem": "Un carré a une surface de 144 m². Calcule la longueur d'un côté de ce carré.",
+    "steps": [
+      "Étape 1 : On appelle $c$ la longueur d'un côté. Puisque c'est un carré, l'aire est $c^2 = 144$.",
+      "Étape 2 : Pour trouver $c$, on utilise la racine carrée des deux côtés : $c = \\sqrt{144}$.",
+      "Étape 3 : On cherche quel nombre, multiplié par lui-même, donne 144. On teste : $12 \\times 12 = 144$.",
+      "Étape 4 : Donc $\\sqrt{144} = 12$.",
+      "Étape 5 : La longueur d'un côté du carré est 12 m."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant saute sur un terrain rectangulaire. Le terrain a une surface de 64 m². Si on imagine un carré ayant la même surface, quel serait le côté de ce carré ?",
+    "reponse_calculee": "8",
+    "choices": [
+      {
+        "label": "6 m",
+        "correct": false
+      },
+      {
+        "label": "8 m",
+        "correct": true
+      },
+      {
+        "label": "10 m",
+        "correct": false
+      },
+      {
+        "label": "32 m",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as trouvé que $\\sqrt{64} = 8$. En effet, $8 \\times 8 = 64$. C'est la bonne racine carrée.",
+    "feedback_wrong": "Pas tout à fait. Il faut trouver le nombre qui, multiplié par lui-même, donne 64. Teste : $8 \\times 8 = 64$. La racine carrée de 64 est donc 8."
+  }
+}

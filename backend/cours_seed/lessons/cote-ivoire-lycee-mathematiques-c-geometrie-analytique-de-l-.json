@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-geometrie-analytique-de-l-",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie analytique de l'espace",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Géométrie analytique de l'espace",
+  "intro": {
+    "heading": "Mise en situation : construire un entrepôt en 3D",
+    "body": "Imagine qu'une entreprise de logistique à Abidjan veut construire un entrepôt. L'architecte doit placer les piliers, les étages et les zones de stockage dans l'espace en utilisant des coordonnées précises. Sans la géométrie analytique de l'espace, impossible de vérifier que tout s'emboîte correctement ! C'est exactement ce que tu vas apprendre : décrire et calculer dans l'espace à trois dimensions."
+  },
+  "concept": {
+    "heading": "Repérage dans l'espace : les trois coordonnées",
+    "explanation": "En géométrie analytique de l'espace, tu travailles dans un repère orthonormé à trois dimensions : l'origine O et trois axes perpendiculaires entre eux (x, y, z). Chaque point P de l'espace est alors identifié par ses trois coordonnées. La distance entre deux points ou la position d'une droite se calculent exactement comme en 2D, mais avec une dimension supplémentaire. C'est l'outil fondamental pour modéliser des situations réelles en trois dimensions.",
+    "highlight": "Tout point P de l'espace a des coordonnées (x, y, z). Distance entre deux points A(x₁, y₁, z₁) et B(x₂, y₂, z₂) : $d(A,B) = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$"
+  },
+  "example": {
+    "problem": "Un entrepôt a trois points importants : l'entrée principale E(2, 3, 0), la zone de stockage S(8, 7, 4) et le bureau B(5, 2, 3). Calcule la distance entre l'entrée et la zone de stockage.",
+    "steps": [
+      "Étape 1 : Identifie les coordonnées. E(2, 3, 0) et S(8, 7, 4).",
+      "Étape 2 : Applique la formule de distance : $d(E,S) = \\sqrt{(x_S - x_E)^2 + (y_S - y_E)^2 + (z_S - z_E)^2}$",
+      "Étape 3 : Calcule les différences. $x_S - x_E = 8 - 2 = 6$, $y_S - y_E = 7 - 3 = 4$, $z_S - z_E = 4 - 0 = 4$",
+      "Étape 4 : Élève au carré. $6^2 = 36$, $4^2 = 16$, $4^2 = 16$",
+      "Étape 5 : Additionne. $36 + 16 + 16 = 68$",
+      "Étape 6 : Calcule la racine. $d(E,S) = \\sqrt{68} = 2\\sqrt{17} \\approx 8{,}25$ unités de distance."
+    ]
+  },
+  "quiz": {
+    "question": "Deux salles de réunion d'une tour sont situées aux points A(1, 2, 5) et C(4, 6, 9). Quelle est la distance qui les sépare ?",
+    "reponse_calculee": "$\\sqrt{41}$",
+    "choices": [
+      {
+        "label": "$\\sqrt{29}$",
+        "correct": false
+      },
+      {
+        "label": "$\\sqrt{41}$",
+        "correct": true
+      },
+      {
+        "label": "$\\sqrt{50}$",
+        "correct": false
+      },
+      {
+        "label": "$\\sqrt{35}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $(4-1)^2 + (6-2)^2 + (9-5)^2 = 9 + 16 + 16 = 41$, donc $d = \\sqrt{41}$. Tu maîtrises le calcul de distance dans l'espace.",
+    "feedback_wrong": "Pas tout à fait. Vérifie ton calcul des différences : $(4-1) = 3$, $(6-2) = 4$, $(9-5) = 4$. Puis au carré : $9 + 16 + 16 = 41$. La distance est $\\sqrt{41}$. Recommence en étant très attentif à l'ordre des opérations."
+  }
+}

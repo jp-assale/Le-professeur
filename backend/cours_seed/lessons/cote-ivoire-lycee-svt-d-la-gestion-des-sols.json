@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-la-gestion-des-sols",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "La gestion des sols",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La gestion des sols",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, les paysans remarquent que leurs champs perdent chaque année de leur fertilité. Les récoltes diminuent, même sans changement de climat. Un agriculteur local se demande : pourquoi le sol s'appauvrit-il ? Et surtout, comment le préserver pour que ses enfants puissent cultiver la même terre demain ? C'est la question centrale de la gestion des sols."
+  },
+  "concept": {
+    "heading": "Définition et enjeux",
+    "explanation": "La gestion des sols est l'ensemble des pratiques et mesures mises en place pour maintenir ou améliorer la fertilité, la structure et la productivité des sols, tout en les protégeant contre la dégradation. Un sol dégradé perd ses éléments nutritifs, se compacte, s'érode et devient impropre à la culture. La gestion des sols cherche à maintenir l'équilibre entre l'exploitation agricole et la conservation du milieu.",
+    "highlight": "La gestion des sols = préserver la fertilité et prévenir l'érosion pour une production durable"
+  },
+  "example": {
+    "problem": "Un champ dans la région de Yamoussoukro a une superficie de 2 hectares. Initialement, le sol contient 40 tonnes de matière organique. Sans gestion appropriée, ce champ perd 15 % de sa matière organique chaque année par minéralisation et érosion. Avec une gestion adaptée (rotation des cultures et apport de compost), seuls 8 % sont perdus annuellement et 5 tonnes de matière organique sont reconstituées. Calcule la quantité de matière organique restante après 2 ans dans chaque cas.",
+    "steps": [
+      "Étape 1 : Identifie les données. Matière organique initiale = 40 tonnes. Cas 1 (sans gestion) : perte de 15 % par an. Cas 2 (avec gestion) : perte de 8 % par an, ajout de 5 tonnes par an.",
+      "Étape 2 : Calcule Cas 1 (sans gestion) après 1 an. Perte = 40 × 0,15 = 6 tonnes. Reste = 40 - 6 = 34 tonnes.",
+      "Étape 3 : Calcule Cas 1 après 2 ans. Perte = 34 × 0,15 = 5,1 tonnes. Reste = 34 - 5,1 = 28,9 tonnes.",
+      "Étape 4 : Calcule Cas 2 (avec gestion) après 1 an. Perte = 40 × 0,08 = 3,2 tonnes. Apport = 5 tonnes. Bilan = 40 - 3,2 + 5 = 41,8 tonnes.",
+      "Étape 5 : Calcule Cas 2 après 2 ans. Perte = 41,8 × 0,08 = 3,344 tonnes. Apport = 5 tonnes. Reste = 41,8 - 3,344 + 5 = 43,456 tonnes (≈ 43,5 tonnes).",
+      "Étape 6 : Compare. Sans gestion : 28,9 tonnes (perte de 27,75 %). Avec gestion : 43,5 tonnes (gain de 8,75 %). La gestion appropriée stabilise et améliore la fertilité du sol."
+    ]
+  },
+  "quiz": {
+    "question": "Un agriculteur a un sol dégradé avec 20 tonnes de matière organique. Grâce à une gestion durable incluant l'apport régulier de fumier composté, il augmente la matière organique de 12 % la première année et de 10 % la deuxième année. Quelle est la quantité de matière organique après 2 ans ?",
+    "reponse_calculee": "24,64 tonnes",
+    "choices": [
+      {
+        "label": "23,2 tonnes",
+        "correct": false
+      },
+      {
+        "label": "24,64 tonnes",
+        "correct": true
+      },
+      {
+        "label": "25,6 tonnes",
+        "correct": false
+      },
+      {
+        "label": "22,4 tonnes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Après 1 an : 20 × 1,12 = 22,4 tonnes. Après 2 ans : 22,4 × 1,10 = 24,64 tonnes. Tu as bien compris que la gestion durable permet d'augmenter progressivement la matière organique du sol en le reconstituant.",
+    "feedback_wrong": "Pas tout à fait. Il faut appliquer successivement les deux augmentations : d'abord +12 % (20 × 1,12 = 22,4 tonnes), puis +10 % sur ce nouveau total (22,4 × 1,10 = 24,64 tonnes). Les pourcentages s'appliquent au total obtenu l'année précédente, pas seulement aux 20 tonnes initiales."
+  }
+}

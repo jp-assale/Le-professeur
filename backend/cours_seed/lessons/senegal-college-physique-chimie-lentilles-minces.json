@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-physique-chimie-lentilles-minces",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Lentilles minces",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Lentilles minces",
+  "intro": {
+    "heading": "Mise en situation : pourquoi les lunettes te permettent de voir clair",
+    "body": "Ton grand-mère a besoin de lunettes pour lire son journal le matin. Sans elles, le texte est flou. Avec elles, tout devient net. Comment fonctionnent ces verres ? Ils utilisent les propriétés des lentilles minces, des outils optiques qui dévient la lumière pour former des images nettes. C'est ce que nous allons étudier aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une lentille mince ?",
+    "explanation": "Une lentille mince est un milieu transparent (généralement du verre) limité par deux surfaces courbes (ou une courbe et une plane). Elle dévie les rayons lumineux qui la traversent. Il existe deux types principaux : les lentilles convergentes (qui rapprochent les rayons vers un point appelé foyer) et les lentilles divergentes (qui écartent les rayons). La propriété fondamentale d'une lentille est sa distance focale, notée $f$, qui mesure son pouvoir de convergence ou de divergence.",
+    "highlight": "Distance focale $f$ : distance entre le centre optique de la lentille et son foyer. Elle caractérise la lentille."
+  },
+  "example": {
+    "problem": "Une lentille convergente a une distance focale de 20 cm. Un objet de hauteur 4 cm est placé à 60 cm devant la lentille. Calcule la position de l'image et sa hauteur à l'aide de la formule des lentilles minces.",
+    "steps": [
+      "Identifie les données : distance focale $f = 20$ cm, distance objet $p = 60$ cm, hauteur objet $h = 4$ cm.",
+      "Applique la formule des lentilles minces : $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}$, où $q$ est la distance image.",
+      "Remplace : $\\frac{1}{20} = \\frac{1}{60} + \\frac{1}{q}$. Réarrange : $\\frac{1}{q} = \\frac{1}{20} - \\frac{1}{60} = \\frac{3}{60} - \\frac{1}{60} = \\frac{2}{60} = \\frac{1}{30}$.",
+      "Calcule $q$ : $q = 30$ cm. L'image se forme à 30 cm derrière la lentille.",
+      "Calcule le grandissement : $m = -\\frac{q}{p} = -\\frac{30}{60} = -0,5$.",
+      "Calcule la hauteur image : $h' = m \\times h = -0,5 \\times 4 = -2$ cm. L'image est inversée et réduite de moitié (2 cm de haut)."
+    ]
+  },
+  "quiz": {
+    "question": "Une lentille convergente a une distance focale de 15 cm. Un objet est placé à 45 cm de la lentille. À quelle distance de la lentille se forme l'image ?",
+    "reponse_calculee": "22,5 cm",
+    "choices": [
+      {
+        "label": "10 cm",
+        "correct": false
+      },
+      {
+        "label": "22,5 cm",
+        "correct": true
+      },
+      {
+        "label": "30 cm",
+        "correct": false
+      },
+      {
+        "label": "60 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}$. En remplaçant : $\\frac{1}{15} = \\frac{1}{45} + \\frac{1}{q}$, tu obtiens $\\frac{1}{q} = \\frac{1}{15} - \\frac{1}{45} = \\frac{3}{45} - \\frac{1}{45} = \\frac{2}{45}$, donc $q = 22,5$ cm. L'image se forme à 22,5 cm de la lentille.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la formule des lentilles minces : $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}$. Avec $f = 15$ cm et $p = 45$ cm, tu dois trouver $\\frac{1}{q} = \\frac{1}{15} - \\frac{1}{45}$. Mets au même dénominateur et calcule $q$. La réponse correcte est 22,5 cm."
+  }
+}

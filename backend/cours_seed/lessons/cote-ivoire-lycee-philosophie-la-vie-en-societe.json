@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-la-vie-en-societe",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La vie en société",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "La vie en société",
+  "intro": {
+    "heading": "Mise en situation : Un conflit au marché",
+    "body": "Imagine une scène au marché de ton quartier : deux vendeurs occupent le même espace, un client réclame son argent, des badauds se pressent autour. Personne n'a écrit les règles ce matin, et pourtant chacun sait comment se conduire. D'où vient cet ordre ? Pourquoi vivons-nous ensemble plutôt que seuls ? C'est la question que pose la philosophie quand elle pense la vie en société."
+  },
+  "concept": {
+    "heading": "La vie en société : définition et enjeu",
+    "explanation": "La vie en société est le fait que les humains vivent ensemble, dans des groupes organisés, soumis à des règles communes. Ce n'est pas naturel comme respirer : c'est une construction. La philosophie pose la question : pourquoi acceptons-nous de vivre ensemble ? Qu'est-ce qui nous y oblige ou nous y pousse ? Comment cette vie commune est-elle possible ?",
+    "highlight": "La vie en société repose sur un accord implicite ou explicite entre les individus pour vivre selon des règles communes."
+  },
+  "example": {
+    "problem": "En Côte d'Ivoire, il existe une loi qui interdit à un commerçant de vendre un produit dont la date d'expiration est dépassée. Pourquoi un commerçant respecte-t-il cette règle, alors que personne n'est constamment derrière lui pour le contrôler ?",
+    "steps": [
+      "Étape 1 : Observons le comportement. Le commerçant pourrait vendre facilement son produit expiré sans se faire prendre, surtout si le client ne regarde pas la date. Mais il ne le fait pas.",
+      "Étape 2 : La raison n'est pas la peur du contrôle direct. C'est qu'il a intégré une règle sociale : vivre en société signifie accepter qu'on ne peut pas faire n'importe quoi, même si c'est techniquement possible.",
+      "Étape 3 : Cette acceptation vient d'un accord implicite. Le commerçant sait que si lui respecte les règles, les autres aussi. Cela crée une confiance mutuelle : les clients lui feront confiance, d'autres commerçants respecteront ses droits.",
+      "Étape 4 : Si chacun vendait du produit expiré, le marché s'effondrerait. Plus personne ne ferait confiance à personne. La vie en société devient impossible.",
+      "Étape 5 : Donc le commerçant respecte la règle, non par peur, mais parce qu'il comprend que sa liberté et son bien-être dépendent de l'existence de ces règles communes."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le passage analysé, pourquoi le commerçant respecte-t-il la loi sur les produits expirés ?",
+    "reponse_calculee": "Parce qu'il comprend que les règles communes protègent son propre bien-être et celui de tous",
+    "choices": [
+      {
+        "label": "Parce qu'un agent de contrôle le surveille constamment au marché",
+        "correct": false
+      },
+      {
+        "label": "Parce qu'il comprend que les règles communes protègent son propre bien-être et celui de tous",
+        "correct": true
+      },
+      {
+        "label": "Parce qu'il y est obligé par la force et n'a pas le choix",
+        "correct": false
+      },
+      {
+        "label": "Parce qu'il gagne plus d'argent en vendant des produits frais",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien saisi le cœur de la vie en société : ce n'est pas la contrainte externe qui prime, mais la compréhension que l'ordre social me protège moi aussi. Le commerçant accepte la règle parce qu'elle rend sa vie possible et profitable. C'est cela, l'accord implicite.",
+    "feedback_wrong": "Pas tout à fait. Rellis l'exemple : le commerçant ne craint pas un contrôle constant, et la loi n'est pas une pure force brute. Il accepte la règle parce qu'il comprend qu'elle protège sa propre existence dans la société. C'est un accord, pas une menace."
+  }
+}

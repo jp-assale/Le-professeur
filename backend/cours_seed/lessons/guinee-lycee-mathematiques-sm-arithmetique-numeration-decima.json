@@ -1,0 +1,55 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-arithmetique-numeration-decima",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Arithmétique (numération décimale/binaire, anneau ℤ, sous-groupes de ℤ)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Arithmétique : numération décimale/binaire, anneau ℤ, sous-groupes de ℤ",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Guinée, un commerçant au marché de Kindia doit organiser ses stocks : il a 240 sacs de riz et veut les regrouper en piles de même taille. Combien de façons différentes peut-il empiler son riz ? Pour répondre, il faut comprendre comment les nombres se divisent, comment on les écrit (en base 10 ou en base 2 pour les ordinateurs), et quelles structures cachées se trouvent dans l'ensemble des entiers. C'est l'arithmétique."
+  },
+  "concept": {
+    "heading": "Les trois piliers de l'arithmétique",
+    "explanation": "L'arithmétique étudie trois choses : (1) Comment représenter les nombres en différentes bases (décimal base 10, binaire base 2). (2) La structure algébrique de ℤ (ensemble des entiers relatifs), qui forme un anneau : on peut y ajouter, soustraire, multiplier. (3) Les sous-groupes de ℤ, c'est-à-dire les sous-ensembles fermés sous l'addition, de la forme nℤ = {multiples de n}. Ces sous-groupes permettent de classifier les diviseurs et les restes.",
+    "highlight": "Tout sous-groupe de ℤ est de la forme nℤ pour un unique entier n ≥ 0."
+  },
+  "example": {
+    "problem": "Le commerçant a 240 sacs de riz. Il veut former des piles (groupes) de taille identique. Écris 240 en base 2, puis trouve tous les diviseurs de 240 dans l'anneau ℤ, et identifie le sous-groupe 6ℤ en relation avec ce nombre.",
+    "steps": [
+      "Étape 1 : Convertir 240 en base 2. On divise successivement par 2 : 240 ÷ 2 = 120 reste 0; 120 ÷ 2 = 60 reste 0; 60 ÷ 2 = 30 reste 0; 30 ÷ 2 = 15 reste 0; 15 ÷ 2 = 7 reste 1; 7 ÷ 2 = 3 reste 1; 3 ÷ 2 = 1 reste 1; 1 ÷ 2 = 0 reste 1. En lisant de bas en haut : $240_{10} = 11110000_2$.",
+      "Étape 2 : Décomposer 240 en facteurs premiers. $240 = 16 × 15 = 2^4 × 3 × 5$.",
+      "Étape 3 : Lister les diviseurs positifs de 240. Les diviseurs sont les nombres de la forme $2^a × 3^b × 5^c$ avec $0 ≤ a ≤ 4$, $0 ≤ b ≤ 1$, $0 ≤ c ≤ 1$. Les diviseurs sont : 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24, 30, 40, 48, 60, 80, 120, 240. Il y a $(4+1)(1+1)(1+1) = 20$ diviseurs.",
+      "Étape 4 : Reconnaître que 6 divise 240 (car $240 = 6 × 40$). Le sous-groupe $6ℤ$ contient {…, −12, −6, 0, 6, 12, 18, …, 240, …}. C'est l'ensemble des multiples entiers de 6, fermé sous l'addition et la soustraction.",
+      "Étape 5 : Interpréter pour le commerçant. Le nombre 240 admet 20 façons de faire des piles (une pour chaque diviseur). Si on choisit des piles de 6 sacs, on en fait $240 ÷ 6 = 40$ piles. Les sous-groupes générés par les diviseurs de 240 reflètent toutes les organisations possibles."
+    ]
+  },
+  "quiz": {
+    "question": "En base 2, quel est l'écriture binaire du nombre 45 (en base 10) ?",
+    "reponse_calculee": "101101",
+    "choices": [
+      {
+        "label": "$101101_2$",
+        "correct": true
+      },
+      {
+        "label": "$110101_2$",
+        "correct": false
+      },
+      {
+        "label": "$101011_2$",
+        "correct": false
+      },
+      {
+        "label": "$111101_2$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour convertir 45 en base 2, on divise : 45 ÷ 2 = 22 reste 1; 22 ÷ 2 = 11 reste 0; 11 ÷ 2 = 5 reste 1; 5 ÷ 2 = 2 reste 1; 2 ÷ 2 = 1 reste 0; 1 ÷ 2 = 0 reste 1. En lisant de bas en haut : $45_{10} = 101101_2$. Vérification : $32 + 8 + 4 + 1 = 45$. ✓",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour convertir 45 en base 2, divise successivement par 2 et note les restes. 45 ÷ 2 = 22 reste 1; 22 ÷ 2 = 11 reste 0; 11 ÷ 2 = 5 reste 1; 5 ÷ 2 = 2 reste 1; 2 ÷ 2 = 1 reste 0; 1 ÷ 2 = 0 reste 1. En lisant les restes de bas en haut, tu obtiens $101101_2$. Pose la vérification : $1 × 32 + 0 × 16 + 1 × 8 + 1 × 4 + 0 × 2 + 1 × 1 = 45$. ✓"
+  }
+}

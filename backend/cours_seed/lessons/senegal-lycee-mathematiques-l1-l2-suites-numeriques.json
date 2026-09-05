@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-suites-numeriques",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Suites numériques",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Suites numériques",
+  "intro": {
+    "heading": "Mise en situation : Une épargne régulière",
+    "body": "Imagine que tu mets de côté 5 000 francs CFA chaque mois dans une tirelire. Au bout d'un mois tu as 5 000 F, au bout de deux mois tu as 10 000 F, au bout de trois mois tu as 15 000 F... Comment prédire combien tu auras économisé après 12 mois, ou après un an ? C'est exactement ce que permettent les suites numériques : modéliser des phénomènes qui évoluent de manière régulière et prévisible."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une suite numérique ?",
+    "explanation": "Une suite numérique est une succession de nombres ordonnés, indexés selon leur position. On appelle chaque nombre un terme. Le premier terme se note $u_1$ (ou parfois $u_0$), le deuxième se note $u_2$, et ainsi de suite. La clé pour travailler avec les suites, c'est de trouver la relation qui lie un terme au suivant : c'est ce qu'on appelle la raison ou la loi de récurrence.",
+    "highlight": "Une suite est définie par : un premier terme $u_1$ et une relation de récurrence $u_{n+1} = f(u_n)$ ou une formule explicite $u_n = g(n)$."
+  },
+  "example": {
+    "problem": "Une agence de voyage en ligne reçoit chaque semaine 20 nouvelles inscriptions. La première semaine, elle compte 120 inscriptions inscrites au total. Détermine le nombre total d'inscriptions après 8 semaines, puis écris la formule explicite de la suite.",
+    "steps": [
+      "Étape 1 : Identifie le premier terme. On a $u_1 = 120$ inscriptions à la semaine 1.",
+      "Étape 2 : Identifie la raison. Chaque semaine, on ajoute 20 inscriptions, donc la différence entre deux termes consécutifs est constante. C'est une suite arithmétique de raison $r = 20$.",
+      "Étape 3 : Écris la relation de récurrence. $u_{n+1} = u_n + 20$ pour tout entier naturel $n \\geq 1$.",
+      "Étape 4 : Écris la formule explicite. Pour une suite arithmétique : $u_n = u_1 + (n-1) \\times r = 120 + (n-1) \\times 20 = 100 + 20n$.",
+      "Étape 5 : Calcule $u_8$. $u_8 = 100 + 20 \\times 8 = 100 + 160 = 260$ inscriptions après 8 semaines.",
+      "Étape 6 : Vérifie. On peut aussi compter : 120 + (20 × 7) = 120 + 140 = 260. ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Une suite arithmétique a pour premier terme $u_1 = 50$ et pour raison $r = 7$. Quel est le 6ème terme $u_6$ ?",
+    "reponse_calculee": "85",
+    "choices": [
+      {
+        "label": "78",
+        "correct": false
+      },
+      {
+        "label": "85",
+        "correct": true
+      },
+      {
+        "label": "92",
+        "correct": false
+      },
+      {
+        "label": "50",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pour une suite arithmétique, on utilise la formule $u_n = u_1 + (n-1) \\times r$. Ici : $u_6 = 50 + (6-1) \\times 7 = 50 + 35 = 85$. Tu maîtrises bien la formule explicite.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi de la formule pour une suite arithmétique : $u_n = u_1 + (n-1) \\times r$. Avec $u_1 = 50$, $r = 7$ et $n = 6$, on obtient : $u_6 = 50 + 5 \\times 7 = 50 + 35 = 85$. Attention à ne pas confondre $(n-1)$ et $n$ dans le calcul."
+  }
+}

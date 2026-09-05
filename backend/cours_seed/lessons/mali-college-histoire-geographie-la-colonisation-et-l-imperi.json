@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-colonisation-et-l-imperi",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La colonisation et l'impérialisme européen en Afrique (causes, résistances)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La colonisation et l'impérialisme européen en Afrique : causes et résistances",
+  "intro": {
+    "heading": "Mise en situation : pourquoi les Européens ont-ils voulu coloniser l'Afrique ?",
+    "body": "Imagine que tu habites dans un village où il y a de l'or, du coton et d'autres richesses. Un jour, des étrangers puissants arrivent avec des armes et disent : « Nous allons diriger votre territoire, prendre vos ressources, et vous allez travailler pour nous. » C'est exactement ce qui s'est passé en Afrique à partir du 19e siècle. Les puissances européennes (France, Belgique, Allemagne, Royaume-Uni...) ont conquis presque tout le continent africain, non pas par amitié, mais par la force, pour exploiter les richesses et dominer les peuples."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la colonisation et l'impérialisme européen ?",
+    "explanation": "La colonisation, c'est quand une puissance étrangère (ici l'Europe) s'empare d'un territoire, le gouverne directement ou indirectement, exploite ses ressources et impose sa culture et ses lois. L'impérialisme, c'est la politique générale de conquête et d'expansion qui pousse ces puissances à dominer d'autres peuples. Entre le 19e siècle et le début du 20e siècle, l'Afrique a été partagée entre les puissances européennes qui se sont approprié ses terres, ses minerais, ses cultures de rente, et ont asservi ses populations.",
+    "highlight": "La colonisation = domination politique, économique et culturelle d'un territoire par une puissance étrangère"
+  },
+  "example": {
+    "problem": "Analysons pourquoi la France a colonisé l'Afrique de l'Ouest, en particulier le Soudan français (l'actuel Mali).",
+    "steps": [
+      "Étape 1 : Observer les besoins économiques européens. À la fin du 19e siècle, l'Europe industrielle cherchait des matières premières (coton, arachide, or) et de nouveaux marchés pour vendre ses produits manufacturés. Le Mali et l'Afrique de l'Ouest possédaient ces ressources.",
+      "Étape 2 : Identifier le motif politique. Les puissances européennes voulaient aussi agrandir leurs empires pour avoir plus de prestige et de pouvoir mondial. Plus un pays avait de colonies, plus il était considéré comme puissant.",
+      "Étape 3 : Analyser la supériorité militaire. La France avait des armes modernes (canons, fusils) tandis que les royaumes et États africains avaient des armes traditionnelles. Cette différence technologique a permis à la France de conquérir le territoire malgré une population plus nombreuse et résistante.",
+      "Étape 4 : Comprendre la résistance africaine. Les royaumes du Mali ont résisté. Des guerriers comme ceux qui ont suivi les traditions de résistance ont combattu l'invasion française, mais ils ont été vaincus par la supériorité militaire européenne.",
+      "Étape 5 : Reconnaître l'exploitation qui a suivi. Une fois colonisé, le Soudan français a été obligé de produire du coton et de l'arachide pour la France, enrichissant l'Europe tandis que la population locale restait pauvre et sans liberté politique.",
+      "Conclusion : La colonisation du Mali n'était pas accidentelle ; elle répondait aux besoins économiques européens, s'appuyait sur une supériorité militaire, et malgré la résistance africaine, elle a conduit à une exploitation systématique des ressources et des peuples."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les causes suivantes de la colonisation européenne en Afrique, laquelle n'en est PAS une ?",
+    "reponse_calculee": "Le désir des puissances européennes de partager équitablement leurs ressources avec les peuples africains",
+    "choices": [
+      {
+        "label": "Le désir des puissances européennes de partager équitablement leurs ressources avec les peuples africains",
+        "correct": true
+      },
+      {
+        "label": "La recherche de matières premières (or, coton, arachide) pour l'industrie européenne",
+        "correct": false
+      },
+      {
+        "label": "La compétition entre les puissances européennes pour étendre leurs empires et leur prestige",
+        "correct": false
+      },
+      {
+        "label": "La supériorité militaire technologique des Européens permettant la conquête",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La colonisation n'avait rien à voir avec le partage équitable. Les Européens voulaient dominer et exploiter l'Afrique pour leur propre profit, sans intérêt pour le bien-être des Africains. Les trois autres réponses sont les véritables causes : besoin économique de matières premières, rivalité impérialiste entre puissances, et avantage militaire technologique.",
+    "feedback_wrong": "Réfléchis bien : la colonisation, par définition, c'est l'exploitation d'un territoire par une puissance extérieure pour son propre bénéfice. Le partage équitable irait complètement à l'encontre de cette logique. Les vraies causes sont la recherche de ressources, la compétition entre empires, et la supériorité des armes européennes."
+  }
+}

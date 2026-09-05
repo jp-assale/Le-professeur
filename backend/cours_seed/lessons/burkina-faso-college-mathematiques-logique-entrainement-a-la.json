@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-logique-entrainement-a-la",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Logique / entraînement à la démonstration",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Logique et entraînement à la démonstration",
+  "intro": {
+    "heading": "Mise en situation : Le litige au marché",
+    "body": "Un commerçant affirme que tous ses tissus coûtent moins de 5000 F. Un client lui répond : « J'ai acheté un pagne chez toi pour 6500 F ! » Le commerçant est pris en défaut. Comment le client a-t-il su que l'affirmation était fausse ? Il lui a suffi de trouver UN cas qui la contredit. C'est le cœur de la logique : prouver, c'est raisonner pas à pas, avec des règles claires."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une démonstration logique ?",
+    "explanation": "Une démonstration en mathématiques est une suite d'affirmations, chacune justifiée par une règle ou un fait connu, qui mène d'une hypothèse donnée jusqu'à une conclusion. Elle s'appuie sur le raisonnement logique : on ne peut affirmer que ce que l'on peut prouver. On utilise souvent trois types de raisonnement : le raisonnement direct (on part de l'hypothèse et on arrive à la conclusion par étapes), le raisonnement par contraposée (on prouve le contraire pour prouver l'original), et le raisonnement par l'absurde (on suppose le contraire de ce qu'on veut prouver et on arrive à une contradiction).",
+    "highlight": "Une démonstration est une succession d'étapes logiquement enchaînées qui prouve une affirmation à partir de faits établis."
+  },
+  "example": {
+    "problem": "Énoncé : Soit un nombre entier $n$. Prouve que si $n$ est pair, alors $n^2$ est pair.",
+    "steps": [
+      "Étape 1 (Hypothèse) : On suppose que $n$ est pair. Cela signifie qu'on peut écrire $n = 2k$ où $k$ est un entier.",
+      "Étape 2 (Calcul du carré) : On calcule $n^2 = (2k)^2 = 4k^2$.",
+      "Étape 3 (Factorisation) : On réécrit : $n^2 = 4k^2 = 2 \\times (2k^2)$.",
+      "Étape 4 (Nouvelle variable) : Posons $m = 2k^2$. Alors $m$ est un entier (produit d'entiers).",
+      "Étape 5 (Conclusion) : On a montré que $n^2 = 2m$ où $m$ est un entier. Par définition, $n^2$ est donc pair.",
+      "Étape 6 (Fin de la preuve) : La démonstration est complète. Nous avons prouvé que si $n$ est pair, alors $n^2$ est pair. C'est ce qu'on voulait montrer."
+    ]
+  },
+  "quiz": {
+    "question": "Un professeur énonce : « Tous les élèves qui étudient régulièrement réussissent le BEPC. » Fatima a étudié régulièrement mais n'a pas réussi. Quel type de raisonnement logique Fatima utilise-t-elle pour réfuter l'affirmation du professeur ?",
+    "reponse_calculee": "Un contre-exemple",
+    "choices": [
+      {
+        "label": "Un raisonnement par contraposée",
+        "correct": false
+      },
+      {
+        "label": "Un contre-exemple",
+        "correct": true
+      },
+      {
+        "label": "Un raisonnement par l'absurde",
+        "correct": false
+      },
+      {
+        "label": "Un raisonnement direct",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Fatima a trouvé un cas particulier (elle-même) qui contredit l'affirmation générale du professeur. Un seul contre-exemple suffit à réfuter une affirmation universelle. C'est un outil très puissant en logique.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis : l'affirmation du professeur dit que TOUS les élèves qui étudient réussissent. Fatima en est un qui a étudié mais n'a pas réussi. Elle n'utilise pas un raisonnement complexe, mais simplement elle montre un cas où l'affirmation n'est pas vraie. C'est un contre-exemple."
+  }
+}

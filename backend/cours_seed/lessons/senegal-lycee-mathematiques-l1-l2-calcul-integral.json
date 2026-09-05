@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-calcul-integral",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul intégral",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Calcul intégral",
+  "intro": {
+    "heading": "Mise en situation : Mesurer une surface cultivée",
+    "body": "Un paysan au Sénégal possède un champ dont la limite supérieure suit une courbe naturelle (un cours d'eau qui serpente). Pour calculer la superficie exacte afin de connaître sa production, il ne peut pas utiliser un simple rectangle. C'est exactement le problème que l'intégrale résout : mesurer l'aire entre une courbe et l'axe des abscisses. Sans ce calcul, impossible de déterminer précisément ce qu'il peut récolter."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'intégrale ?",
+    "explanation": "L'intégrale est un outil mathématique qui permet de calculer l'aire sous une courbe. Si tu as une fonction $f(x)$ définie sur un intervalle $[a, b]$, l'intégrale te donne la surface totale comprise entre la courbe, l'axe horizontal et les deux droites verticales $x = a$ et $x = b$. C'est l'opération inverse de la dérivation (on appelle cela une primitive).",
+    "highlight": "L'intégrale définie de $f$ sur $[a, b]$ est notée : $\\int_a^b f(x) \\, dx = F(b) - F(a)$ où $F$ est une primitive de $f$"
+  },
+  "example": {
+    "problem": "Un terrain est délimité par la courbe $f(x) = 2x + 1$ entre $x = 0$ et $x = 3$. Calcule l'aire exacte de la surface sous cette courbe.",
+    "steps": [
+      "Étape 1 : Identifie la fonction. Ici $f(x) = 2x + 1$ sur l'intervalle $[0, 3]$.",
+      "Étape 2 : Trouve une primitive $F(x)$ de $f(x)$. Pour $2x$, la primitive est $x^2$ (car $(x^2)' = 2x$). Pour la constante $1$, la primitive est $x$. Donc $F(x) = x^2 + x$.",
+      "Étape 3 : Applique la formule fondamentale. Calcule $F(3) - F(0)$.",
+      "Étape 4 : Calcule $F(3) = 3^2 + 3 = 9 + 3 = 12$.",
+      "Étape 5 : Calcule $F(0) = 0^2 + 0 = 0$.",
+      "Étape 6 : La réponse est $F(3) - F(0) = 12 - 0 = 12$ unités d'aire."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule $\\int_1^2 (3x^2) \\, dx$. Quelle est la valeur exacte ?",
+    "reponse_calculee": "7",
+    "choices": [
+      {
+        "label": "5",
+        "correct": false
+      },
+      {
+        "label": "7",
+        "correct": true
+      },
+      {
+        "label": "9",
+        "correct": false
+      },
+      {
+        "label": "6",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien trouvé la primitive de $3x^2$ qui est $x^3$, puis appliqué la formule : $F(2) - F(1) = 8 - 1 = 7$. Tu maîtrises déjà le calcul intégral.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : la primitive de $3x^2$ est $x^3$. Ensuite, évalue aux bornes : $F(2) = 2^3 = 8$ et $F(1) = 1^3 = 1$. Le résultat est $8 - 1 = 7$. Réessaie !"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-arithmetique-pgcd-ppcm-con",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Arithmétique : PGCD/PPCM, congruences, systèmes de numération",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Arithmétique : PGCD/PPCM, congruences, systèmes de numération",
+  "intro": {
+    "heading": "Mise en situation : organiser un marché",
+    "body": "Imagine que tu organises un événement au marché Sandaga à Dakar. Tu dois distribuer 48 oranges et 36 mangues dans des paniers identiques, sans mélanger les fruits, en utilisant le minimum de paniers. Combien de paniers te faut-il ? Quel sera le contenu de chaque panier ? Pour répondre, tu as besoin de maîtriser le PGCD. C'est aussi utile pour comprendre les cycles (les congruences) et convertir des nombres entre différentes bases (binaire, décimal, hexadécimal)."
+  },
+  "concept": {
+    "heading": "Le PGCD et le PPCM : les diviseurs communs et les multiples communs",
+    "explanation": "Le PGCD (Plus Grand Commun Diviseur) de deux entiers est le plus grand nombre qui divise les deux à la fois. Le PPCM (Plus Petit Commun Multiple) est le plus petit nombre qui est divisible par les deux. Ces deux outils sont liés par une formule fondamentale et permettent de simplifier les problèmes de partage et de synchronisation. La congruence, elle, décrit quand deux nombres ont le même reste dans une division : on dit que $a \\equiv b \\pmod{n}$ si $a$ et $b$ donnent le même reste quand on les divise par $n$. Enfin, les systèmes de numération (binaire, décimal, hexadécimal) sont des façons différentes de représenter les mêmes nombres.",
+    "highlight": "PGCD(a,b) × PPCM(a,b) = a × b"
+  },
+  "example": {
+    "problem": "Un artisan à Saint-Louis reçoit 60 perles bleues et 45 perles rouges. Il veut fabriquer le maximum de bracelets identiques en utilisant toutes les perles, sans mélanger les couleurs dans un même bracelet. Combien de bracelets pourra-t-il faire ? Combien de perles bleues et rouges contiendra chaque bracelet ?",
+    "steps": [
+      "Étape 1 : identifier ce qu'on cherche. On veut le nombre MAXIMUM de bracelets identiques → on cherche le PGCD(60, 45).",
+      "Étape 2 : décomposer en facteurs premiers. 60 = 2² × 3 × 5 et 45 = 3² × 5.",
+      "Étape 3 : le PGCD est le produit des facteurs premiers communs avec leurs plus petits exposants. PGCD(60, 45) = 3¹ × 5¹ = 15.",
+      "Étape 4 : nombre de bracelets = 15.",
+      "Étape 5 : perles bleues par bracelet = 60 ÷ 15 = 4. Perles rouges par bracelet = 45 ÷ 15 = 3.",
+      "Réponse : l'artisan fabrique 15 bracelets, chacun contenant 4 perles bleues et 3 perles rouges."
+    ]
+  },
+  "quiz": {
+    "question": "Deux bus quittent la gare routière de Thiès au même moment. Le bus A revient toutes les 12 heures, le bus B toutes les 18 heures. Dans combien de temps ces deux bus se retrouveront-ils à la gare au même moment pour la première fois ?",
+    "reponse_calculee": "36",
+    "choices": [
+      {
+        "label": "24 heures",
+        "correct": false
+      },
+      {
+        "label": "30 heures",
+        "correct": false
+      },
+      {
+        "label": "36 heures",
+        "correct": true
+      },
+      {
+        "label": "54 heures",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! On cherche le plus petit moment où les deux bus sont présents ensemble : c'est le PPCM(12, 18). En décomposant : 12 = 2² × 3 et 18 = 2 × 3². Le PPCM = 2² × 3² = 4 × 9 = 36 heures. Les deux bus se retrouvent après 36 heures.",
+    "feedback_wrong": "Pas encore. Tu dois chercher le PPCM (plus petit commun multiple), pas le PGCD. Décompose 12 et 18 en facteurs premiers : 12 = 2² × 3 et 18 = 2 × 3². Le PPCM prend tous les facteurs premiers avec leurs plus grands exposants : PPCM = 2² × 3² = 36 heures."
+  }
+}

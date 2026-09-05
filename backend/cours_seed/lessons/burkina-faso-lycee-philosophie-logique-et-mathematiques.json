@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-logique-et-mathematiques",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Logique et mathématiques",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Logique et mathématiques",
+  "intro": {
+    "heading": "Mise en situation : Un marché, une dispute, une question de logique",
+    "body": "Sur le marché de Ouagadougou, deux vendeuses d'arachides se disputent. L'une affirme : « Si tu vends tes arachides à ce prix, alors tu feras faillite. » L'autre répond : « C'est faux ! » Mais que signifie exactement « c'est faux » ? La première affirmation est-elle vraiment contredite ? Pour trancher, tu dois comprendre comment la logique fonctionne et comment elle se relie aux mathématiques."
+  },
+  "concept": {
+    "heading": "Concept : Logique et mathématiques, deux langages du raisonnement",
+    "explanation": "La logique et les mathématiques sont deux disciplines qui marchent ensemble. La logique est la science du raisonnement juste : elle t'apprend à construire des arguments valides, à reconnaître une contradiction, à déduire correctement. Les mathématiques appliquent cette logique à des objets abstraits (nombres, figures, structures). En d'autres termes, la logique fournit les règles du jeu, et les mathématiques jouent avec ces règles pour découvrir des vérités cachées. Sans logique, les mathématiques seraient du calcul aveugle. Sans mathématiques, la logique serait un discours vague. Ensemble, elles forment un système rigoureux où chaque étape est justifiée.",
+    "highlight": "La logique garantit que si les prémisses sont vraies et le raisonnement valide, la conclusion est nécessairement vraie."
+  },
+  "example": {
+    "problem": "Analysons la dispute du marché avec rigueur. La vendeuse A dit : « Si tu vends à ce prix (P), alors tu feras faillite (F). » La vendeuse B répond « c'est faux ». Que peut-on en déduire logiquement ?",
+    "steps": [
+      "Étape 1 : Formalisons. L'affirmation de A est une implication logique : P → F (si P, alors F). Cette implication est soit vraie, soit fausse.",
+      "Étape 2 : Identifions ce que nie B. Quand B dit « c'est faux », elle nie l'implication entière P → F. La négation d'une implication est logiquement équivalente à : P ET (non-F). Autrement dit, le prix P est bien appliqué, mais on ne fait PAS faillite.",
+      "Étape 3 : Reconnaissons l'erreur de A. Si B a raison, alors l'implication de A (P → F) était fausse. Cela signifie qu'on peut vendre au prix P sans tomber en faillite.",
+      "Étape 4 : Appliquons la règle. En logique, une implication « Si P alors F » est fausse si et seulement si P est vrai et F est faux. C'est exactement ce que B affirme : le prix existe (P est vrai), mais pas de faillite (F est faux).",
+      "Étape 5 : Conclusion. Sans logique, la dispute resterait confuse. Avec la logique, on voit clairement : A généralise en affirmant une implication ; B la réfute en montrant un cas où la condition est remplie mais la conséquence ne suit pas. C'est un raisonnement mathématiquement valide."
+    ]
+  },
+  "quiz": {
+    "question": "Considère cette affirmation : « Tous les élèves qui étudient les mathématiques réussissent le baccalauréat. » Laquelle de ces propositions, si elle était vraie, réfuterait logiquement cette affirmation ?",
+    "reponse_calculee": "Il existe un élève qui étudie les mathématiques mais ne réussit pas le baccalauréat",
+    "choices": [
+      {
+        "label": "Il existe un élève qui réussit le baccalauréat sans étudier les mathématiques",
+        "correct": false
+      },
+      {
+        "label": "Il existe un élève qui étudie les mathématiques mais ne réussit pas le baccalauréat",
+        "correct": true
+      },
+      {
+        "label": "Tous les élèves qui ne réussissent pas le baccalauréat n'étudient pas les mathématiques",
+        "correct": false
+      },
+      {
+        "label": "Certains élèves qui réussissent le baccalauréat étudient d'autres matières",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'affirmation originale est une implication universelle : « Pour tous les élèves, si étudier maths, alors réussir. » Pour la réfuter, tu dois trouver un contre-exemple, c'est-à-dire un cas où la condition (étudier les maths) est vraie mais la conséquence (réussir) est fausse. C'est le travail du raisonnement logique : trouver ce qui invalide une généralisation.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi : pour réfuter une affirmation universelle du type « Tous les A sont B », tu dois montrer qu'il existe au moins un A qui n'est pas B. Les autres propositions ne remettent pas en question la structure de l'implication originale. En logique, un seul contre-exemple suffit à détruire une généralisation."
+  }
+}

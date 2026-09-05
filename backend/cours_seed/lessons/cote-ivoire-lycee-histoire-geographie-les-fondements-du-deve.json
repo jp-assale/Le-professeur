@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-fondements-du-deve",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les fondements du développement économique de la Côte d'Ivoire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les fondements du développement économique de la Côte d'Ivoire",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu marches dans un marché d'Abidjan ou de Yamoussoukro. Tu vois des sacs de cacao, des conteneurs de noix de cajou, des camions qui transportent du caoutchouc vers le port. Tous ces produits partent vers l'étranger et rapportent de l'argent au pays. Mais d'où vient cette richesse ? Comment la Côte d'Ivoire s'est-elle construite économiquement depuis son indépendance ? C'est ce que nous allons explorer."
+  },
+  "concept": {
+    "heading": "Définition : Les fondements du développement économique de la Côte d'Ivoire",
+    "explanation": "La Côte d'Ivoire a bâti son économie sur plusieurs piliers : l'agriculture d'exportation (surtout le cacao et le café), les ressources naturelles (minéraux, forêts), et progressivement l'industrie et les services. Après son indépendance en 1960, le pays a choisi de miser sur la production et l'exportation de matières premières pour générer des revenus et financer son développement. Cette stratégie s'appelle le modèle d'exportation, et elle a longtemps reposé sur une ou deux cultures principales.",
+    "highlight": "Le développement économique ivoirien s'est fondé sur l'exportation de produits agricoles et l'exploitation des ressources naturelles."
+  },
+  "example": {
+    "problem": "Analysons comment le cacao a permis à la Côte d'Ivoire de se développer économiquement. Nous allons voir étape par étape comment ce produit a structuré l'économie du pays.",
+    "steps": [
+      "Étape 1 - L'héritage colonial : Pendant la colonisation française, des plantations de cacao ont été mises en place. À l'indépendance (1960), la Côte d'Ivoire hérite d'une économie déjà orientée vers cette culture.",
+      "Étape 2 - L'expansion de la production : Le gouvernement encourage l'extension des plantations cacaoyères. Des paysans deviennent producteurs, des routes et des infrastructures sont construites pour acheminer le cacao vers les ports.",
+      "Étape 3 - Les revenus d'exportation : Le cacao exporté génère des devises (de l'argent étranger). Ces revenus permettent à l'État d'investir dans l'éducation, la santé, les routes, et d'autres secteurs.",
+      "Étape 4 - La diversification progressive : Au-delà du cacao, la Côte d'Ivoire développe aussi l'export du café, du caoutchouc, de la noix de cajou. Ces produits complètent les revenus agricoles.",
+      "Étape 5 - L'industrialisation naissante : Les revenus du secteur agricole permettent d'investir dans des industries légères (transformation du cacao, huileries, etc.), créant ainsi de l'emploi urbain.",
+      "Étape 6 - Le défi de la dépendance : Malgré cette croissance, l'économie reste très dépendante des cours internationaux du cacao. Une baisse des prix mondiaux affecte directement le pays. C'est une limite du modèle d'exportation basé sur peu de produits."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le principal fondement du développement économique de la Côte d'Ivoire depuis son indépendance ?",
+    "reponse_calculee": "L'exportation de produits agricoles, notamment le cacao et le café",
+    "choices": [
+      {
+        "label": "L'exploitation exclusive des ressources minières souterraines",
+        "correct": false
+      },
+      {
+        "label": "L'exportation de produits agricoles, notamment le cacao et le café",
+        "correct": true
+      },
+      {
+        "label": "Le développement rapide d'une industrie manufacturière centralisée",
+        "correct": false
+      },
+      {
+        "label": "L'investissement massif dans le secteur bancaire international",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le cacao et le café ont été les moteurs du développement économique ivoirien. Ces exportations ont généré les devises nécessaires pour financer les infrastructures et les services publics du pays. C'est le cœur du modèle de développement mis en place après 1960.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Bien que la Côte d'Ivoire dispose de ressources minières et ait développé des secteurs industriels, c'est vraiment l'agriculture d'exportation, en particulier le cacao, qui a été le fondement principal du développement économique. Le cacao a longtemps été appelé « l'or brun » de la Côte d'Ivoire, tant il était central à l'économie."
+  }
+}

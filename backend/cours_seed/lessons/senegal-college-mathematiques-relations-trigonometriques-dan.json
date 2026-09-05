@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-relations-trigonometriques-dan",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Relations trigonométriques dans un triangle rectangle",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Relations trigonométriques dans un triangle rectangle",
+  "intro": {
+    "heading": "Mise en situation : mesurer sans se mouiller",
+    "body": "Imaginez que tu es sur une plage au Sénégal et tu veux connaître la hauteur d'un phare au loin, mais tu ne peux pas le grimper. Ou encore, un charpentier doit calculer la longueur d'une poutre pour construire un toit incliné. Dans ces deux cas, tu as un angle et un côté connu, et tu dois trouver un autre côté. C'est exactement ce que les relations trigonométriques te permettent de faire : utiliser les angles et les côtés d'un triangle rectangle pour résoudre des problèmes concrets."
+  },
+  "concept": {
+    "heading": "Relations trigonométriques dans un triangle rectangle",
+    "explanation": "Dans un triangle rectangle, les rapports entre les côtés dépendent de l'angle considéré. On définit trois rapports principaux qui relient un angle aigu aux côtés du triangle : le sinus, le cosinus et la tangente. Ces rapports sont constants pour un angle donné, peu importe la taille du triangle. Ils permettent de trouver les côtés manquants ou les angles inconnus.",
+    "highlight": "sin(angle) = côté opposé / hypoténuse ; cos(angle) = côté adjacent / hypoténuse ; tan(angle) = côté opposé / côté adjacent"
+  },
+  "example": {
+    "problem": "Un échelle est appuyée contre un mur vertical. Elle fait un angle de 60° avec le sol. L'échelle mesure 4 mètres. À quelle hauteur sur le mur se situe le haut de l'échelle ?",
+    "steps": [
+      "Étape 1 : Identifier le triangle rectangle. Le mur est vertical, le sol est horizontal, l'échelle est l'hypoténuse. L'angle au sol est 60°.",
+      "Étape 2 : Nommer les éléments. L'hypoténuse = 4 m. La hauteur sur le mur (ce que tu cherches) est le côté opposé à l'angle de 60°.",
+      "Étape 3 : Choisir la bonne formule. Tu connais l'hypoténuse et tu cherches le côté opposé. Utilise : sin(60°) = côté opposé / hypoténuse.",
+      "Étape 4 : Remplacer les valeurs. sin(60°) = h / 4, où h est la hauteur cherchée.",
+      "Étape 5 : Calculer. On sait que sin(60°) ≈ 0,866. Donc h = 4 × 0,866 = 3,464 m.",
+      "Étape 6 : Conclure. Le haut de l'échelle se trouve à environ 3,46 mètres de hauteur sur le mur."
+    ]
+  },
+  "quiz": {
+    "question": "Un câble relie le toit d'un bâtiment au sol. Le câble mesure 13 mètres et il fait un angle de 30° avec le sol. Quelle est la hauteur verticale du bâtiment ?",
+    "reponse_calculee": "6,5 mètres",
+    "choices": [
+      {
+        "label": "11,26 mètres",
+        "correct": false
+      },
+      {
+        "label": "6,5 mètres",
+        "correct": true
+      },
+      {
+        "label": "7,5 mètres",
+        "correct": false
+      },
+      {
+        "label": "13 mètres",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le câble est l'hypoténuse et la hauteur du bâtiment est le côté opposé à l'angle de 30°. Tu dois utiliser sin(30°) = hauteur / 13. Comme sin(30°) = 0,5, tu obtiens hauteur = 13 × 0,5 = 6,5 mètres. Bien vu !",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : le câble est l'hypoténuse du triangle rectangle. La hauteur du bâtiment est le côté opposé à l'angle de 30°. Utilise la formule sin(30°) = hauteur / hypoténuse, soit sin(30°) = hauteur / 13. Avec sin(30°) = 0,5, tu trouves hauteur = 6,5 mètres."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-les-lentilles",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les lentilles",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les lentilles",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué comment les verres de lunettes de ta grand-mère lui permettent de lire le journal ? Ou comment une loupe peut agrandir les petits caractères ? Tout cela fonctionne grâce aux lentilles. Ce sont des objets optiques en verre ou en plastique qui modifient la trajectoire de la lumière pour nous aider à voir plus clair ou à agrandir les choses. Aujourd'hui, tu vas découvrir comment elles fonctionnent et pourquoi elles sont si utiles au quotidien."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une lentille ?",
+    "explanation": "Une lentille est un milieu transparent (verre ou plastique) limité par deux surfaces courbes (ou une courbe et une plane) qui permet de modifier la direction de la lumière. Il existe deux types principaux : les lentilles convergentes (épaisses au centre, qui concentrent la lumière) et les lentilles divergentes (minces au centre, qui dispersent la lumière). Ces lentilles possèdent des propriétés optiques décrites par une grandeur appelée distance focale.",
+    "highlight": "Distance focale f : distance entre le centre de la lentille et son foyer. Elle caractérise la puissance de la lentille."
+  },
+  "example": {
+    "problem": "Une lentille convergente a une distance focale de 20 cm. Un objet est placé à 60 cm de la lentille. Utilise la formule de conjugaison pour trouver la distance de l'image formée par rapport à la lentille. (Formule : 1/f = 1/d_o + 1/d_i, où d_o est la distance objet et d_i la distance image)",
+    "steps": [
+      "Identifie les données : f = 20 cm, d_o = 60 cm, d_i = ?",
+      "Écris la formule de conjugaison : 1/f = 1/d_o + 1/d_i",
+      "Remplace par les valeurs connues : 1/20 = 1/60 + 1/d_i",
+      "Isole 1/d_i : 1/d_i = 1/20 - 1/60 = 3/60 - 1/60 = 2/60 = 1/30",
+      "Calcule d_i : d_i = 30 cm",
+      "Conclusion : L'image se forme à 30 cm de la lentille, du côté opposé à l'objet. Cette image est réelle, inversée et réduite."
+    ]
+  },
+  "quiz": {
+    "question": "Une lentille divergente a une distance focale de -15 cm. Un objet est placé à 45 cm devant la lentille. À quelle distance se forme l'image ? (Utilise 1/f = 1/d_o + 1/d_i)",
+    "reponse_calculee": "-11,25 cm",
+    "choices": [
+      {
+        "label": "-11,25 cm",
+        "correct": true
+      },
+      {
+        "label": "11,25 cm",
+        "correct": false
+      },
+      {
+        "label": "-22,5 cm",
+        "correct": false
+      },
+      {
+        "label": "60 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement appliqué la formule. Avec 1/(-15) = 1/45 + 1/d_i, tu obtiens 1/d_i = -1/15 - 1/45 = -3/45 - 1/45 = -4/45, donc d_i = -11,25 cm. Le signe négatif indique que l'image est virtuelle, droite et réduite, caractéristique d'une lentille divergente.",
+    "feedback_wrong": "Pas tout à fait. Vérifie bien le calcul de la formule 1/f = 1/d_o + 1/d_i. Attention aux signes : la distance focale d'une lentille divergente est négative (f = -15 cm). Reprends l'isolement de 1/d_i et le calcul final."
+  }
+}

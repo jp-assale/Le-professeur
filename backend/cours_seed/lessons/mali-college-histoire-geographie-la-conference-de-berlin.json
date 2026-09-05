@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-conference-de-berlin",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Conférence de Berlin",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La Conférence de Berlin",
+  "intro": {
+    "heading": "Mise en situation : Un partage sans nous demander",
+    "body": "Imagine que tes parents décident de diviser ton terrain familial entre les voisins, sans te consulter. C'est exactement ce qui s'est passé en Afrique à la fin du 19e siècle : les puissances européennes se sont réunies à Berlin en 1884-1885 pour se partager le continent africain, sans que les Africains ne soient invités à cette négociation. Cette conférence a redessiner la carte de l'Afrique et a marqué le début d'une domination européenne massive."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la Conférence de Berlin ?",
+    "explanation": "La Conférence de Berlin (1884-1885) est une réunion entre les puissances européennes principales (France, Royaume-Uni, Allemagne, Belgique, Portugal et autres) organisée par le chancelier allemand Bismarck. L'objectif était de fixer les règles du partage du continent africain et d'éviter les conflits entre Européens pour la colonisation. Aucun représentant africain n'a participé. Les décisions prises ont fragmenté l'Afrique selon des frontières arbitraires qui ignoraient les cultures, les langues et les peuples existants.",
+    "highlight": "La Conférence de Berlin = le partage colonial de l'Afrique décidé par l'Europe, sans les Africains."
+  },
+  "example": {
+    "problem": "Analysons comment la Conférence de Berlin a transformé l'Afrique, en prenant l'exemple de l'établissement des frontières et de l'impact sur les peuples locaux.",
+    "steps": [
+      "Étape 1 : Avant la conférence. L'Afrique était organisée selon des royaumes, des empires et des groupes ethniques avec leurs propres frontières naturelles (fleuves, montagnes) et leurs propres structures politiques.",
+      "Étape 2 : Le problème en Europe. Les puissances européennes convoitaient les ressources africaines (or, diamants, coton, ivoire) et commençaient à se disputer les territoires. Cela risquait de créer des guerres entre États européens en Afrique.",
+      "Étape 3 : La solution : la conférence. Bismarck réunit les principales puissances pour établir des règles communes : chaque État européen qui coloniserait un territoire devait en informer les autres et devait occuper réellement le territoire (pas seulement le réclamer).",
+      "Étape 4 : Le tracé des frontières. Les Européens ont dessiné des frontières droites sur des cartes, sans tenir compte des réalités sur le terrain. Résultat : une même ethnie s'est retrouvée séparée par une frontière ; des peuples ennemis ont été forcés à vivre ensemble dans la même colonie.",
+      "Étape 5 : L'impact immédiat. Entre 1885 et 1914, presque toute l'Afrique a été colonisée par les Européens. Les structures politiques africaines ont été détruites et remplacées par l'administration coloniale européenne.",
+      "Étape 6 : L'héritage. Les frontières imposées par Berlin sont restées après l'indépendance. Même aujourd'hui, beaucoup de conflits et de difficultés en Afrique ont leurs racines dans ce partage arbitraire de 1884-1885."
+    ]
+  },
+  "quiz": {
+    "question": "Quel était l'objectif principal de la Conférence de Berlin de 1884-1885 ?",
+    "reponse_calculee": "Établir des règles pour le partage de l'Afrique entre les puissances européennes et éviter les conflits entre elles",
+    "choices": [
+      {
+        "label": "Aider les Africains à moderniser leurs structures politiques",
+        "correct": false
+      },
+      {
+        "label": "Établir des règles pour le partage de l'Afrique entre les puissances européennes et éviter les conflits entre elles",
+        "correct": true
+      },
+      {
+        "label": "Créer une union politique entre l'Afrique et l'Europe",
+        "correct": false
+      },
+      {
+        "label": "Permettre aux peuples africains de voter sur leur avenir",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! La Conférence de Berlin avait deux objectifs : d'une part, permettre aux États européens de se partager l'Afrique de manière organisée, et d'autre part, établir des règles communes pour éviter que ce partage ne provoque des guerres entre puissances européennes. Les Africains n'ont pas eu voix au chapitre.",
+    "feedback_wrong": "Non, ce n'est pas correct. La Conférence de Berlin n'a pas été organisée pour aider l'Afrique ou pour consulter les peuples africains. C'était une réunion entre puissances européennes visant à se partager le continent de façon ordonnée et à éviter les conflits entre elles pour la colonisation."
+  }
+}

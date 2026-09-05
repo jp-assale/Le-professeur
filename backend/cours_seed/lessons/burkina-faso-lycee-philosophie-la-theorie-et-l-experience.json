@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-theorie-et-l-experience",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La théorie et l'expérience",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La théorie et l'expérience",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu observes un enfant à Ouagadougou qui tombe malade après avoir mangé des fruits cueillis sur un arbre inconnu. Sa mère dit : « Je savais que ces fruits étaient dangereux, j'en avais entendu parler. » Mais comment savait-elle vraiment ? Avait-elle goûté elle-même, ou s'était-elle fiée à ce qu'on lui avait dit ? Cette question simple ouvre un grand débat : comment connaître la vérité ? Par ce qu'on nous enseigne ou par ce qu'on vérifie soi-même ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la relation entre théorie et expérience ?",
+    "explanation": "La théorie, c'est l'ensemble des principes, des lois et des explications qu'on construit par la raison. L'expérience, c'est ce qu'on vit, ce qu'on observe directement avec nos sens. Le grand problème philosophique est : lequel des deux nous donne la vraie connaissance ? Peut-on faire confiance à une théorie sans l'avoir jamais vérifiée ? Inversement, une expérience isolée suffit-elle à établir une vérité universelle ? C'est la tension fondamentale entre ce qu'on pense (la théorie) et ce qu'on constate (l'expérience).",
+    "highlight": "La connaissance vraie exige la concordance entre ce qu'on affirme théoriquement et ce qu'on peut vérifier par l'expérience."
+  },
+  "example": {
+    "problem": "Un maître coranique affirme à ses élèves : « L'eau bout toujours à la même température, peu importe où tu te trouves. » Un élève en visite à Bandiagara, en montagne, constate que l'eau bout plus rapidement qu'à Bamako, en plaine. Comment analyser ce qui se passe ici ? La théorie est-elle fausse ? L'expérience contredit-elle la théorie ?",
+    "steps": [
+      "D'abord, reconnaître la théorie affirmée : « L'eau bout toujours à la même température partout. » C'est un énoncé général, rationnel, qui a un air de certitude.",
+      "Ensuite, noter l'expérience : à Bandiagara (altitude plus élevée), l'eau bout visuellement plus vite. L'élève l'a observé avec ses yeux.",
+      "Troisièmement, se demander : y a-t-il vraiment contradiction ? L'eau bout plus vite à l'apparence, mais cela signifie-t-il qu'elle atteint la même température ? Non — en altitude, la pression atmosphérique est plus faible, donc l'eau bout à une température plus basse.",
+      "Quatrièmement, comprendre que la théorie initiale était incomplète : elle oubliait un facteur (la pression). La théorie n'était pas fausse, mais elle manquait de précision.",
+      "Enfin, conclure : l'expérience n'a pas anéanti la théorie, elle l'a raffinée. La vraie théorie doit maintenant dire : « L'eau bout à une température qui dépend de la pression atmosphérique. » Théorie et expérience se corrigent mutuellement.",
+      "Leçon : on ne peut pas opposer théorie et expérience ; elles doivent dialoguer pour construire une connaissance solide."
+    ]
+  },
+  "quiz": {
+    "question": "Un savant affirme en théorie : « Tous les métaux se dilatent quand on les chauffe. » Plusieurs forgerons au Burkina l'ont observé sur le fer, l'or et le cuivre. Cependant, un chimiste découvre qu'une certaine alliage métallique se contracte légèrement à basse température avant de se dilater. Quel est le rôle de cette dernière expérience ?",
+    "reponse_calculee": "Montrer que la théorie était trop générale et qu'elle doit être affinée pour tenir compte des exceptions",
+    "choices": [
+      {
+        "label": "Prouver que tous les forgerons se sont trompés dans leurs observations",
+        "correct": false
+      },
+      {
+        "label": "Montrer que la théorie était trop générale et qu'elle doit être affinée pour tenir compte des exceptions",
+        "correct": true
+      },
+      {
+        "label": "Démontrer que l'expérience n'a aucune utilité en philosophie",
+        "correct": false
+      },
+      {
+        "label": "Prouver que seule la théorie a raison et que l'observation des forgerons était illusoire",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. L'expérience de l'alliage ne détruit pas la théorie générale sur la dilatation des métaux, mais elle la complète et l'affine. Elle montre que la théorie était incomplète : elle devait préciser « dans la plupart des cas » ou « à partir de certaines conditions ». C'est ainsi que la théorie et l'expérience travaillent ensemble pour produire une connaissance plus riche et plus précise.",
+    "feedback_wrong": "Non, c'est plus nuancé. L'expérience de l'alliage ne contredit pas les observations des forgerons, ni ne rend la théorie inutile. Au contraire, elle affine la théorie en montrant qu'elle doit intégrer des exceptions et des conditions particulières. La relation entre théorie et expérience est un dialogue, pas un combat où l'un gagne et l'autre perd."
+  }
+}

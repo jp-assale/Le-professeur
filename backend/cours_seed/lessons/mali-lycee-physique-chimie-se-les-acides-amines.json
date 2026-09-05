@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-acides-amines",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les acides α-aminés",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les acides α-aminés",
+  "intro": {
+    "heading": "Mise en situation : pourquoi tu dois manger du riz et du poisson",
+    "body": "Tu as remarqué que ta mère insiste pour que tu manges du riz avec du poisson ou des arachides ? C'est parce que ces aliments contiennent des molécules essentielles appelées protéines, qui sont elles-mêmes construites à partir de briques élémentaires : les acides aminés. Comprendre la structure de ces molécules, c'est comprendre comment ton corps fabrique les muscles, les enzymes et les anticorps qui te permettent de vivre."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce qu'un acide α-aminé ?",
+    "explanation": "Un acide α-aminé est une molécule organique qui possède toujours deux groupes fonctionnels attachés au même atome de carbone (appelé carbone α) : un groupe carboxyle (-COOH) qui lui donne son caractère acide, et un groupe amine (-NH₂) qui lui donne son caractère basique. Cet atome de carbone α porte aussi une chaîne latérale R spécifique à chaque acide aminé, et un atome d'hydrogène. C'est cette structure particulière qui permet aux acides aminés de s'assembler en chaînes pour former les protéines.",
+    "highlight": "Structure générale : H₂N-CH(R)-COOH, où R est la chaîne latérale caractéristique de chaque acide aminé."
+  },
+  "example": {
+    "problem": "L'alanine est l'un des acides aminés les plus simples. Sa chaîne latérale R est simplement un groupe méthyle (-CH₃). Écris la formule brute complète de l'alanine et identifie les trois groupes fonctionnels présents dans sa molécule.",
+    "steps": [
+      "Identifie le carbone α et ses quatre substituants : le carbone α porte obligatoirement un groupe amine (-NH₂), un groupe carboxyle (-COOH), une chaîne latérale R (ici -CH₃), et un atome d'hydrogène (H).",
+      "Compte les atomes de carbone : 1 carbone du groupe carboxyle + 1 carbone α + 1 carbone de la chaîne latérale = 3 carbones au total.",
+      "Compte les atomes d'hydrogène : 2 du groupe amine (-NH₂) + 1 sur le carbone α + 3 du groupe méthyle (-CH₃) + 1 du groupe carboxyle (-COOH) = 7 hydrogènes au total.",
+      "Compte les atomes d'oxygène : 2 du groupe carboxyle (-COOH) = 2 oxygènes au total.",
+      "Formule brute de l'alanine : $C_3H_7NO_2$",
+      "Les trois groupes fonctionnels sont : le groupe amine (-NH₂), le groupe carboxyle (-COOH), et la chaîne latérale méthyle (-CH₃)."
+    ]
+  },
+  "quiz": {
+    "question": "La glycine est l'acide aminé le plus simple : sa chaîne latérale R est simplement un atome d'hydrogène (H). Quelle est la formule brute de la glycine ?",
+    "reponse_calculee": "C₂H₅NO₂",
+    "choices": [
+      {
+        "label": "$C_2H_5NO_2$",
+        "correct": true
+      },
+      {
+        "label": "$C_3H_7NO_2$",
+        "correct": false
+      },
+      {
+        "label": "$CH_5NO_2$",
+        "correct": false
+      },
+      {
+        "label": "$C_2H_7NO_2$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Correct ! La glycine a pour structure H₂N-CH(H)-COOH. En comptant les atomes : 1 carbone du groupe carboxyle + 1 carbone α = 2 carbones ; 2 hydrogènes du groupe amine + 1 hydrogène sur le carbone α + 1 hydrogène de la chaîne latérale (R = H) + 1 hydrogène du groupe carboxyle = 5 hydrogènes ; 1 azote du groupe amine ; 2 oxygènes du groupe carboxyle. D'où la formule $C_2H_5NO_2$.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que la chaîne latérale de la glycine est juste un atome H, pas un groupe méthyle. Compte à nouveau : 2 carbones (1 du carboxyle + 1 α), 5 hydrogènes (2 de l'amine + 1 du carbone α + 1 de la chaîne latérale H + 1 du carboxyle), 1 azote, 2 oxygènes."
+  }
+}

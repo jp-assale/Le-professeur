@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-etude-d-une-uvre-integrale-poetiq",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Étude d'une œuvre intégrale poétique (série A)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Étude d'une œuvre intégrale poétique (série A)",
+  "intro": {
+    "heading": "Mise en situation : La poésie, c'est plus qu'un texte",
+    "body": "Imagine que tu écoutes un griots raconter l'histoire de ton village : il ne récite pas juste des faits, il crée une atmosphère, il joue avec les mots, il te fait ressentir l'émotion. C'est un peu ça, la poésie. Quand tu étudies une œuvre poétique complète au Bac, tu ne lis pas juste des vers isolés : tu dois comprendre comment le poète construit son univers, ses thèmes, ses techniques, tout ce qui fait que ce recueil est UNE vraie œuvre, pas juste un tas de poèmes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'étudier une œuvre intégrale poétique ?",
+    "explanation": "Étudier une œuvre intégrale poétique, c'est analyser un recueil complet de poèmes en tant que projet global cohérent. Tu ne te contentes pas de lire poème par poème isolément. Tu cherches à voir comment le poète organise ses textes, quels thèmes reviennent, comment sa vision du monde se construit, comment les poèmes dialoguent entre eux. C'est comme regarder un tableau où chaque coup de pinceau a sa place et contribue au sens global.",
+    "highlight": "Une œuvre poétique intégrale est un ENSEMBLE ORGANISÉ où chaque poème renforce, complète ou questionne les autres."
+  },
+  "example": {
+    "problem": "Imagine un recueil de poésie sur le thème de l'exil. Le poète ouvre avec des poèmes sur la perte, puis au milieu du recueil il y a des poèmes d'espoir et de reconstruction, et il termine avec des poèmes qui mélangent nostalgie et acceptation. Comment analysons-nous cette œuvre intégrale ?",
+    "steps": [
+      "Étape 1 : Repère la structure globale. Ici, le recueil n'est pas un désordre : il suit une progression émotionnelle claire (douleur → espoir → acceptation). Ce n'est pas du hasard.",
+      "Étape 2 : Identifie les thèmes récurrents. L'exil revient partout, mais sous différents angles : géographique au début, psychologique au milieu, métaphorique à la fin.",
+      "Étape 3 : Analyse comment les poèmes dialoguent. Un poème du début sur 'je suis loin' peut être répondu par un poème du milieu disant 'mais je vais me reconstruire'. Ils parlent ensemble.",
+      "Étape 4 : Remarque les variations de style ou de ton. Si tous les poèmes sont tristes, ils se répètent. Mais ici, les poèmes changent de forme, de rythme : cela renforce l'idée que l'exilé évolue.",
+      "Étape 5 : Synthèse : l'œuvre complète raconte un chemin, pas juste des moments figés. C'est ça qu'on cherche quand on étudie une œuvre intégrale."
+    ]
+  },
+  "quiz": {
+    "question": "Ton prof te dit : 'Étudiez le recueil 'Les Voix de la Terre' dans son intégralité.' Qu'est-ce que cela signifie vraiment ?",
+    "reponse_calculee": "Analyser comment les poèmes du recueil s'organisent ensemble, se répondent, et construisent une vision cohérente du monde.",
+    "choices": [
+      {
+        "label": "Mémoriser tous les poèmes du recueil ligne par ligne.",
+        "correct": false
+      },
+      {
+        "label": "Analyser comment les poèmes du recueil s'organisent ensemble, se répondent, et construisent une vision cohérente du monde.",
+        "correct": true
+      },
+      {
+        "label": "Étudier chaque poème séparément sans chercher de lien entre eux.",
+        "correct": false
+      },
+      {
+        "label": "Comparer le recueil avec d'autres œuvres du même auteur.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Étudier une œuvre intégrale, c'est voir le recueil comme un tout organisé, pas comme une liste de poèmes indépendants. Tu cherches la logique, la progression, les échos entre les textes. C'est ce qui transforme une collection en véritable œuvre.",
+    "feedback_wrong": "Pas tout à fait. Étudier une œuvre intégrale, ce n'est pas mémoriser, isoler chaque texte, ou simplement comparer avec d'autres ouvrages. C'est comprendre comment les poèmes du recueil forment un ensemble cohérent, comment ils dialoguent, comment ils construisent ensemble une vision. C'est voir le projet global du poète."
+  }
+}

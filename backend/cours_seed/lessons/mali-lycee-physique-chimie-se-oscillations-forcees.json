@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-oscillations-forcees",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Oscillations forcées",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Oscillations forcées",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un pont suspendu au Mali que des milliers de piétons traversent chaque jour. Si tous les passants marchent au même rythme, le pont peut se mettre à osciller dangereusement. C'est un exemple d'oscillation forcée : une force extérieure imposée à un système fait augmenter ses vibrations. Comprendre ce phénomène est crucial pour la sécurité des structures et des machines."
+  },
+  "concept": {
+    "heading": "Définition et concept clé",
+    "explanation": "Une oscillation forcée se produit quand un système oscillant (comme un pendule ou une masse-ressort) est soumis à une force extérieure périodique qui varie avec le temps. Contrairement aux oscillations libres où le système oscille à sa propre fréquence naturelle, ici la fréquence imposée par la force externe modifie le comportement du système. Le phénomène le plus important est la résonance : lorsque la fréquence de la force externe égale la fréquence naturelle du système, l'amplitude des oscillations devient très grande, pouvant même causer la rupture du système.",
+    "highlight": "Resonance : amplitude maximale quand frequence forcee = frequence naturelle du systeme"
+  },
+  "example": {
+    "problem": "Un système masse-ressort a une fréquence naturelle de 5 Hz. On lui applique une force sinusoïdale $F(t) = F_0 \\sin(2\\pi f t)$ où $F_0 = 10$ N. L'amortissement est faible. Calcule l'amplitude des oscillations à la résonance sachant que la masse est $m = 2$ kg et que la constante de raideur du ressort est $k = 2000$ N/m. (On prendra l'amplitude à la résonance proportionnelle à $\\frac{F_0}{2m\\gamma\\omega_0}$ où $\\gamma$ est le coefficient d'amortissement. Pour une résonance nette, utilise $\\gamma = 0,5$ s$^{-1}$.)",
+    "steps": [
+      "Étape 1 : Identifie les données. Fréquence naturelle $f_0 = 5$ Hz, donc pulsation naturelle $\\omega_0 = 2\\pi f_0 = 2\\pi \\times 5 ≈ 31,4$ rad/s. Force $F_0 = 10$ N, masse $m = 2$ kg, coefficient d'amortissement $\\gamma = 0,5$ s$^{-1}$.",
+      "Étape 2 : À la résonance, la fréquence forcée égale la fréquence naturelle. L'amplitude est donnée par $A = \\frac{F_0}{2m\\gamma\\omega_0}$.",
+      "Étape 3 : Substitue les valeurs : $A = \\frac{10}{2 \\times 2 \\times 0,5 \\times 31,4}$.",
+      "Étape 4 : Calcule le dénominateur : $2 \\times 2 \\times 0,5 \\times 31,4 = 62,8$.",
+      "Étape 5 : Divise : $A = \\frac{10}{62,8} ≈ 0,159$ m ou environ 16 cm.",
+      "Conclusion : À la résonance, l'amplitude atteint environ 16 cm, bien supérieure aux petites oscillations sans forçage."
+    ]
+  },
+  "quiz": {
+    "question": "Un oscillateur a une fréquence naturelle de 10 Hz. On lui applique une force périodique à 10 Hz. Quelle est l'amplitude relative par rapport à celle obtenue à 5 Hz, sachant que l'amortissement est négligeable et que la force a même amplitude dans les deux cas ?",
+    "reponse_calculee": "L'amplitude à la résonance (10 Hz = fréquence naturelle) est théoriquement infinie (ou très grande avec amortissement faible). À 5 Hz, l'amplitude est finie et beaucoup plus petite. Le rapport tend vers l'infini. Si la question cherche une réponse numérique pratique avec amortissement très faible, la résonance produit une amplitude 4 à 10 fois plus grande que hors résonance. Pour cette question fermée, le concept central est que l'amplitude à résonance >> amplitude hors résonance. Réponse attendue : beaucoup plus grande (ou infinie en cas idéal).",
+    "choices": [
+      {
+        "label": "L'amplitude est la même dans les deux cas",
+        "correct": false
+      },
+      {
+        "label": "L'amplitude à 10 Hz est beaucoup plus grande qu'à 5 Hz (résonance)",
+        "correct": true
+      },
+      {
+        "label": "L'amplitude à 5 Hz est plus grande qu'à 10 Hz",
+        "correct": false
+      },
+      {
+        "label": "L'amplitude dépend uniquement de la masse du système",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! À 10 Hz, la fréquence imposée égale la fréquence naturelle, donc le système est à résonance. L'amplitude devient maximale. À 5 Hz, tu es loin de cette condition, donc l'amplitude reste nettement plus faible. C'est le cœur du phénomène de résonance.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : la résonance se produit précisément quand la fréquence de la force imposée égale la fréquence naturelle du système. À ce moment, l'amplitude atteint son maximum. À 10 Hz tu es en résonance, à 5 Hz tu ne l'es pas. L'amplitude à résonance est donc bien plus grande."
+  }
+}

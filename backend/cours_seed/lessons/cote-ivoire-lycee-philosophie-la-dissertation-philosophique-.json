@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-la-dissertation-philosophique-",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La dissertation philosophique (méthodologie)",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "La dissertation philosophique (méthodologie)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que ton professeur te pose cette question en classe : « La technologie rend-elle l'homme plus libre ou plus dépendant ? » Tu as trois heures pour répondre par écrit, de manière structurée et argumentée. Ce n'est pas juste donner ton avis : tu dois construire un vrai raisonnement, avec des étapes claires et des preuves. C'est exactement ça, une dissertation philosophique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une dissertation philosophique ?",
+    "explanation": "La dissertation philosophique est un exercice d'écriture structuré où tu dois examiner une question ou une affirmation en profondeur, en construisant un raisonnement logique et rigoureux. Tu ne donnes pas simplement ton opinion : tu explores le problème sous différents angles, tu analyses les concepts clés, et tu justifies chaque étape de ta pensée. C'est une démonstration écrite de ta capacité à penser par toi-même et à communiquer tes idées de manière cohérente et convaincante.",
+    "highlight": "Une dissertation = Question + Analyse critique + Raisonnement structuré + Conclusion justifiée"
+  },
+  "example": {
+    "problem": "Sujet : « L'homme est-il responsable de ses actes ? » Montre comment tu structurerais ta dissertation en identifiant les étapes principales.",
+    "steps": [
+      "Étape 1 - Identifier le problème : Le sujet demande si l'homme peut être tenu responsable. Cela suppose qu'il faut d'abord clarifier ce qu'on entend par « responsabilité » et « liberté ».",
+      "Étape 2 - Examiner la première perspective : Oui, l'homme est responsable car il possède la conscience et la liberté de choisir. Exemple : quand tu décides de travailler ou de t'amuser, c'est ton choix conscient.",
+      "Étape 3 - Examiner la perspective opposée : Non, ou partiellement, car nos actes sont influencés par notre éducation, notre environnement social, notre biologie. Exemple : un enfant élevé sans accès à l'école n'a pas la même responsabilité qu'un autre.",
+      "Étape 4 - Approfondir : Reconnaître que la responsabilité n'est peut-être pas absolue. Elle existe sous certaines conditions : avoir la conscience du bien et du mal, avoir eu une vraie possibilité de choisir.",
+      "Étape 5 - Construire une conclusion nuancée : L'homme est responsable, mais cette responsabilité est graduée selon son contexte, ses connaissances et sa liberté réelle d'action.",
+      "Étape 6 - Justifier : Cette conclusion est plus riche que simplement dire « oui » ou « non » parce qu'elle reconnaît la complexité du problème."
+    ]
+  },
+  "quiz": {
+    "question": "En dissertation philosophique, que faut-il faire avant de construire ton plan ?",
+    "reponse_calculee": "Analyser et clarifier les concepts clés du sujet",
+    "choices": [
+      {
+        "label": "Écrire une introduction très longue",
+        "correct": false
+      },
+      {
+        "label": "Analyser et clarifier les concepts clés du sujet",
+        "correct": true
+      },
+      {
+        "label": "Donner immédiatement ta réponse personnelle",
+        "correct": false
+      },
+      {
+        "label": "Chercher la réponse toute faite dans un livre",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Avant de construire ton raisonnement, tu dois d'abord comprendre et définir les mots importants du sujet. C'est la base de toute dissertation solide.",
+    "feedback_wrong": "Non. Le travail préalable essentiel en dissertation est d'analyser les concepts du sujet. Tu dois savoir exactement ce qu'on te demande avant de répondre. Les autres options sont des raccourcis qui affaiblissent ta démarche."
+  }
+}

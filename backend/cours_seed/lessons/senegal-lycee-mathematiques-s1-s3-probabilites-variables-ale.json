@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-probabilites-variables-ale",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilités : variables aléatoires, loi binomiale, Bernoulli",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Probabilités : Variables aléatoires, Loi binomiale, Bernoulli",
+  "intro": {
+    "heading": "Mise en situation : Le jeu du dé à la fête",
+    "body": "Imagine une fête de quartier au Sénégal. Un organisateur propose un jeu : lance un dé, si tu fais 6, tu gagnes un prix. Chaque participant a exactement deux essais. Comment calculer la probabilité de gagner au moins une fois sur ces deux tentatives ? C'est là qu'interviennent les variables aléatoires et la loi binomiale."
+  },
+  "concept": {
+    "heading": "Définition : Variable aléatoire et loi binomiale",
+    "explanation": "Une variable aléatoire est une grandeur numérique dont la valeur dépend du résultat d'une expérience aléatoire. Quand on répète la même expérience plusieurs fois de manière indépendante, et que chaque essai n'a que deux résultats possibles (succès ou échec), on parle de schéma de Bernoulli. Le nombre total de succès suit alors une loi binomiale. Formellement, si on répète $n$ fois une épreuve de Bernoulli de probabilité $p$, et si $X$ est le nombre de succès, alors $X$ suit une loi binomiale de paramètres $n$ et $p$, notée $B(n, p)$.",
+    "highlight": "P(X = k) = C(n, k) × p^k × (1-p)^(n-k), où C(n,k) est le nombre de combinaisons de k parmi n"
+  },
+  "example": {
+    "problem": "Dans une école de Dakar, on teste un nouveau vaccin. Chaque enfant a une probabilité de 0,8 d'être immunisé après une dose. On vaccine 5 enfants. Quelle est la probabilité que exactement 3 enfants soient immunisés ?",
+    "steps": [
+      "Identifie les paramètres : n = 5 (nombre d'enfants), p = 0,8 (probabilité d'immunisation), k = 3 (nombre de succès recherché).",
+      "Reconnais qu'il s'agit d'une loi binomiale $B(5 ; 0,8)$ : chaque enfant a deux résultats possibles (immunisé ou non), les essais sont indépendants.",
+      "Calcule le coefficient binomial $C(5, 3) = \frac{5!}{3! \times 2!} = \frac{5 \times 4}{2 \times 1} = 10$.",
+      "Calcule la probabilité : $P(X = 3) = C(5, 3) \times (0,8)^3 \times (0,2)^2$.",
+      "Remplace : $P(X = 3) = 10 \times 0,512 \times 0,04 = 10 \times 0,02048 = 0,2048$.",
+      "Conclusion : La probabilité que exactement 3 enfants soient immunisés est environ 0,205 ou 20,5 %."
+    ]
+  },
+  "quiz": {
+    "question": "Un commerçant à Saint-Louis vend des téléphones. Chaque téléphone a une probabilité 0,9 de fonctionner correctement à la livraison. Il livre 4 téléphones à un client. Quelle est la probabilité qu'exactement 2 téléphones aient un défaut ?",
+    "reponse_calculee": "0,0486",
+    "choices": [
+      {
+        "label": "0,1536",
+        "correct": false
+      },
+      {
+        "label": "0,0486",
+        "correct": true
+      },
+      {
+        "label": "0,6561",
+        "correct": false
+      },
+      {
+        "label": "0,2916",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Un défaut signifie que le téléphone ne fonctionne pas, donc p = 0,1 (probabilité de défaut). Tu dois trouver P(X = 2) avec n = 4, p = 0,1 et k = 2. C(4,2) = 6, donc P(X = 2) = 6 × (0,1)² × (0,9)² = 6 × 0,01 × 0,81 = 0,0486. Tu as maîtrisé l'identification correcte de la probabilité de succès.",
+    "feedback_wrong": "Pas tout à fait. Attention : un défaut, c'est l'échec, donc p = 0,1 (pas 0,9). Avec n = 4, k = 2 (deux défauts), calcule P(X = 2) = C(4,2) × (0,1)² × (0,9)² = 6 × 0,01 × 0,81 = 0,0486. L'erreur courante est de confondre la probabilité de bon fonctionnement avec celle d'avoir un défaut."
+  }
+}

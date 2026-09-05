@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-vecteurs",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Vecteurs",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Les Vecteurs — Leçon BEPC",
+  "intro": {
+    "heading": "Mise en situation : Un trajet en deux étapes",
+    "body": "Imagine que tu dois aller de ton école à la gare routière. Tu marches d'abord 500 m vers le nord, puis 300 m vers l'est. Le taxi qui t'attend à la gare ne voit que ton point de départ et ton point d'arrivée — il ne connaît pas ton chemin en deux étapes. Pourtant, il sait exactement où tu es. C'est ça, un vecteur : il résume un mouvement, une direction et une distance en une seule flèche qui va droit du départ à l'arrivée."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un vecteur ?",
+    "explanation": "Un vecteur est un objet mathématique qui représente un déplacement ou une translation. Il est caractérisé par trois éléments : une direction (l'inclinaison), un sens (où il va exactement) et une norme (sa longueur, qui mesure l'intensité du déplacement). On le note avec une flèche au-dessus d'une lettre, par exemple $\\overrightarrow{AB}$ pour le vecteur qui va du point A au point B.",
+    "highlight": "Un vecteur = une direction + un sens + une norme (longueur)"
+  },
+  "example": {
+    "problem": "Sur un plan muni d'un repère orthonormé, on place le point A aux coordonnées (1 ; 2) et le point B aux coordonnées (4 ; 6). Détermine les coordonnées du vecteur $\\overrightarrow{AB}$ et calcule sa norme.",
+    "steps": [
+      "Étape 1 : Identifier les coordonnées. Le point A est en (1 ; 2) et le point B est en (4 ; 6).",
+      "Étape 2 : Calculer les coordonnées du vecteur $\\overrightarrow{AB}$. On soustrait les coordonnées du point de départ (A) à celles du point d'arrivée (B) : $\\overrightarrow{AB} = (4 - 1 ; 6 - 2) = (3 ; 4)$.",
+      "Étape 3 : Comprendre ce résultat. Le vecteur se déplace de 3 unités à l'horizontale (vers la droite) et de 4 unités à la verticale (vers le haut).",
+      "Étape 4 : Calculer la norme (la longueur) du vecteur avec la formule $||\\overrightarrow{AB}|| = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}$.",
+      "Étape 5 : Appliquer les chiffres : $||\\overrightarrow{AB}|| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+      "Étape 6 : Conclure. Le vecteur $\\overrightarrow{AB}$ a pour coordonnées (3 ; 4) et pour norme 5 unités."
+    ]
+  },
+  "quiz": {
+    "question": "Deux points C et D sont placés dans un repère. Les coordonnées de C sont (2 ; 3) et celles de D sont (5 ; 7). Quelle est la norme du vecteur $\\overrightarrow{CD}$ ?",
+    "reponse_calculee": "5",
+    "choices": [
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "5",
+        "correct": true
+      },
+      {
+        "label": "7",
+        "correct": false
+      },
+      {
+        "label": "25",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule. Les coordonnées du vecteur $\\overrightarrow{CD}$ sont (5 - 2 ; 7 - 3) = (3 ; 4). La norme est $\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$. C'est un résultat classique : le triangle (3, 4, 5) est très courant en géométrie.",
+    "feedback_wrong": "Pas encore. N'oublie pas l'ordre des étapes : d'abord calcule les coordonnées du vecteur en soustrayant les coordonnées du point de départ à celles du point d'arrivée, puis utilise la formule de la norme $\\sqrt{(\\Delta x)^2 + (\\Delta y)^2}$. Ici, $\\Delta x = 3$ et $\\Delta y = 4$, donc la norme vaut $\\sqrt{9 + 16} = 5$."
+  }
+}

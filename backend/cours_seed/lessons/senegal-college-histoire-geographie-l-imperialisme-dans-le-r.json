@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-l-imperialisme-dans-le-r",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'impérialisme dans le reste du monde (Japon, Asie, États-Unis)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "L'impérialisme dans le reste du monde (Japon, Asie, États-Unis)",
+  "intro": {
+    "heading": "Mise en situation : pourquoi certains pays dominent-ils les autres ?",
+    "body": "Imagine qu'une grande puissance économique décide d'étendre son influence sur tes terres, tes ressources, tes marchés. C'est exactement ce qui s'est passé entre le 19e et le début du 20e siècle : des pays puissants comme le Japon, certains États d'Asie et les États-Unis ont cherché à contrôler d'autres régions du monde. Comprendre ce phénomène t'aide à saisir comment le monde s'est structuré et pourquoi certains pays restent dominants aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'impérialisme ?",
+    "explanation": "L'impérialisme est la politique d'expansion et de domination qu'une puissance exerce sur d'autres territoires et peuples. Entre le 19e et le début du 20e siècle, après l'Europe (Royaume-Uni, France, Allemagne), de nouveaux acteurs ont émergé : le Japon en Asie de l'Est, les États-Unis en Amérique et dans le Pacifique, et certains États asiatiques ont cherché à imposer leur contrôle politique, économique et parfois culturel sur des régions plus faibles. Cette domination prenait plusieurs formes : colonies directes, protectorats, traités inégaux, ou contrôle économique indirect.",
+    "highlight": "L'impérialisme = expansion et domination d'une puissance sur d'autres territoires pour en exploiter les ressources et imposer son influence"
+  },
+  "example": {
+    "problem": "Analyse la stratégie d'expansion du Japon en Asie de l'Est au tournant du 20e siècle. Comment le Japon a-t-il transformé ses ambitions en domination concrète ?",
+    "steps": [
+      "Contexte : À partir des années 1868, le Japon se modernise rapidement (industrialisation, armée forte). Il cherche à devenir une grande puissance asiatique.",
+      "Première étape : Le Japon impose son contrôle sur la Corée (1910) par la force militaire et fait de ce pays une colonie directe. Il contrôle ainsi les ressources et la population coréenne.",
+      "Deuxième étape : Le Japon s'étend en Mandchourie (territoire chinois) pour y installer des colons, des industries et exploiter les minéraux. Il annexe progressivement le territoire.",
+      "Méthode d'exploitation : Le Japon impose sa langue, son administration, ses lois. Il extrait les richesses (charbon, fer, riz) vers le Japon. Les habitants perdent leur liberté politique.",
+      "Résultat : Au début du 20e siècle, le Japon contrôle un empire asiatique, enrichit sa propre économie et devient une puissance mondiale reconnue. C'est l'impérialisme japonais en action.",
+      "Conclusion : Le Japon a suivi le modèle européen : expansion militaire, colonisation, exploitation économique, domination politique et culturelle."
+    ]
+  },
+  "quiz": {
+    "question": "Les États-Unis ont étendu leur influence impérialiste principalement par :",
+    "reponse_calculee": "le contrôle économique et politique de régions d'Amérique centrale, des Caraïbes et du Pacifique, souvent sans annexion directe",
+    "choices": [
+      {
+        "label": "l'annexion directe de tous les territoires conquis et leur intégration comme États américains",
+        "correct": false
+      },
+      {
+        "label": "le contrôle économique et politique de régions d'Amérique centrale, des Caraïbes et du Pacifique, souvent sans annexion directe",
+        "correct": true
+      },
+      {
+        "label": "l'établissement de colonies de peuplement en Afrique et en Asie du Sud",
+        "correct": false
+      },
+      {
+        "label": "la signature de traités commerciaux uniquement, sans aucune forme de contrôle politique",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les États-Unis ont développé un impérialisme particulier : au lieu de coloniser directement comme les Européens, ils ont imposé leur contrôle économique et politique. Ils ont soutenu des gouvernements favorables, investi massivement, et exercé une influence politique forte dans leur zone d'influence. C'est l'impérialisme économique.",
+    "feedback_wrong": "Pas tout à fait. Les États-Unis n'ont pas annexé massivement comme l'Europe l'a fait en Afrique. Ils ont préféré une domination moins visible mais très efficace : contrôle économique, appui à des gouvernements alliés, présence militaire. C'est un impérialisme plus indirect, fondé sur la puissance économique et politique plutôt que sur la colonisation directe."
+  }
+}

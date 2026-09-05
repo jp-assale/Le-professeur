@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-projet-de-moteur-electrique",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Projet de moteur électrique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Projet de moteur électrique",
+  "intro": {
+    "heading": "Mise en situation : un besoin quotidien en Afrique de l'Ouest",
+    "body": "Dans les quartiers de Cotonou, Ouagadougou ou Dakar, les petits ateliers utilisent des perceuses électriques, des ventilateurs ou des pompes pour puiser l'eau. Tous ces appareils fonctionnent grâce à un moteur électrique qui transforme l'électricité en mouvement. Comprendre comment construire et faire fonctionner un moteur électrique simple, c'est saisir la technologie qui anime ton environnement quotidien."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un moteur électrique ?",
+    "explanation": "Un moteur électrique est un dispositif qui transforme l'énergie électrique en énergie mécanique (mouvement). Son fonctionnement repose sur l'interaction entre un champ magnétique et un courant électrique. Quand un courant passe dans une bobine placée dans un champ magnétique, la bobine subit une force qui la fait tourner. C'est le principe fondamental de tous les moteurs électriques, du plus simple au plus complexe.",
+    "highlight": "Principe du moteur : une bobine parcourue par un courant dans un champ magnétique subit une force de rotation."
+  },
+  "example": {
+    "problem": "Tu dois construire un moteur électrique simple. Une bobine rectangulaire de 20 spires (tours de fil) est parcourue par un courant de 2 ampères. Elle est placée entre deux aimants qui créent un champ magnétique de 0,5 tesla. La longueur utile du fil dans le champ magnétique (les deux côtés actifs de la bobine) est de 10 centimètres au total. Calcule la force magnétique totale qui s'exerce sur la bobine.",
+    "steps": [
+      "Étape 1 : Identifie les données. Nombre de spires N = 20 ; courant I = 2 A ; champ magnétique B = 0,5 T ; longueur utile L = 10 cm = 0,1 m.",
+      "Étape 2 : Rappelle-toi la formule de la force magnétique sur un conducteur : $F = N \\times B \\times I \\times L$, où N est le nombre de spires.",
+      "Étape 3 : Remplace chaque variable par sa valeur : $F = 20 \\times 0,5 \\times 2 \\times 0,1$.",
+      "Étape 4 : Calcule étape par étape. D'abord : $20 \\times 0,5 = 10$.",
+      "Étape 5 : Puis : $10 \\times 2 = 20$.",
+      "Étape 6 : Enfin : $20 \\times 0,1 = 2$ newton. La force magnétique totale est de 2 N, ce qui fait tourner la bobine."
+    ]
+  },
+  "quiz": {
+    "question": "Une bobine de 15 spires est parcourue par un courant de 3 ampères dans un champ magnétique de 0,4 tesla. La longueur utile du fil est de 8 centimètres. Quelle est la force magnétique qui s'exerce sur la bobine ?",
+    "reponse_calculee": "1,44 N",
+    "choices": [
+      {
+        "label": "0,96 N",
+        "correct": false
+      },
+      {
+        "label": "1,44 N",
+        "correct": true
+      },
+      {
+        "label": "1,8 N",
+        "correct": false
+      },
+      {
+        "label": "2,16 N",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule $F = N \\times B \\times I \\times L$ : $F = 15 \\times 0,4 \\times 3 \\times 0,08 = 1,44$ N. Plus la bobine a de spires, plus le courant est intense et plus le champ magnétique est fort, plus la force de rotation est grande.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti 8 cm en mètres (0,08 m) et que tu utilises la formule complète $F = N \\times B \\times I \\times L$ avec les quatre facteurs : nombre de spires (15), champ magnétique (0,4 T), courant (3 A) et longueur (0,08 m). Recommence le calcul pas à pas."
+  }
+}

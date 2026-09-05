@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-produit-ionique-de-l-eau-ph-d-",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Produit ionique de l'eau / pH d'une solution aqueuse",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Produit ionique de l'eau / pH d'une solution aqueuse",
+  "intro": {
+    "heading": "Mise en situation : L'eau du puits",
+    "body": "Tu remplis un verre d'eau du puits pour boire. Cette eau n'est jamais pure : elle contient des ions $H^+$ et $OH^-$ provenant de la dissociation de l'eau elle-même. Mais comment mesurer si cette eau est acide, neutre ou basique ? Et comment ces ions sont-ils liés ? C'est là qu'intervient le pH, un concept clé pour comprendre la chimie de l'eau et même la qualité de l'eau potable."
+  },
+  "concept": {
+    "heading": "Le produit ionique de l'eau et le pH",
+    "explanation": "L'eau pure se dissocie légèrement en ions hydrogène $H^+$ et en ions hydroxyde $OH^-$ selon l'équilibre : $H_2O \\rightleftharpoons H^+ + OH^-$. À 25°C, le produit de ces deux concentrations est toujours constant et égal à $10^{-14}$ : c'est le produit ionique de l'eau, noté $K_e$. Le pH mesure la concentration en ions $H^+$ et détermine l'acidité ou la basicité d'une solution. Plus il y a de $H^+$, plus la solution est acide et plus le pH est faible.",
+    "highlight": "$K_e = [H^+] \\times [OH^-] = 10^{-14}$ à 25°C, et $pH = -\\log[H^+]$"
+  },
+  "example": {
+    "problem": "Une solution aqueuse à 25°C contient une concentration en ions $H^+$ de $[H^+] = 10^{-5}$ mol/L. Calcule le pH de cette solution, puis détermine la concentration en ions hydroxyde $[OH^-]$ et indique si la solution est acide, neutre ou basique.",
+    "steps": [
+      "Étape 1 : Calcul du pH. Utilise la définition $pH = -\\log[H^+] = -\\log(10^{-5}) = -(-5) = 5$.",
+      "Étape 2 : Interprétation du pH. Un pH = 5 est inférieur à 7, donc la solution est acide.",
+      "Étape 3 : Calcul de $[OH^-]$ en utilisant le produit ionique de l'eau. On a $K_e = [H^+] \\times [OH^-] = 10^{-14}$.",
+      "Étape 4 : Isolation de $[OH^-]$. On obtient $[OH^-] = \\frac{K_e}{[H^+]} = \\frac{10^{-14}}{10^{-5}} = 10^{-14+5} = 10^{-9}$ mol/L.",
+      "Étape 5 : Vérification. Contrôle : $[H^+] \\times [OH^-] = 10^{-5} \\times 10^{-9} = 10^{-14}$ ✓. La solution est bien acide car $[H^+] > [OH^-]$.",
+      "Résumé : pH = 5, $[OH^-] = 10^{-9}$ mol/L, solution acide."
+    ]
+  },
+  "quiz": {
+    "question": "Une solution aqueuse à 25°C a un pH de 11. Calcule la concentration en ions hydrogène $[H^+]$ de cette solution.",
+    "reponse_calculee": "$[H^+] = 10^{-11}$ mol/L",
+    "choices": [
+      {
+        "label": "$[H^+] = 10^{-3}$ mol/L",
+        "correct": false
+      },
+      {
+        "label": "$[H^+] = 10^{-11}$ mol/L",
+        "correct": true
+      },
+      {
+        "label": "$[H^+] = 10^{11}$ mol/L",
+        "correct": false
+      },
+      {
+        "label": "$[H^+] = 10^{-25}$ mol/L",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour un pH donné, on utilise la définition du pH : $pH = -\\log[H^+]$, donc $[H^+] = 10^{-pH} = 10^{-11}$ mol/L. Un pH de 11 indique une solution basique (pH > 7), avec une concentration très faible en ions hydrogène.",
+    "feedback_wrong": "À revoir. Rappelle-toi que le pH est défini par $pH = -\\log[H^+]$. En inversant cette relation, on obtient $[H^+] = 10^{-pH}$. Avec pH = 11, cela donne $[H^+] = 10^{-11}$ mol/L. Note que cette concentration est très faible, ce qui confirme que la solution est basique (pH > 7)."
+  }
+}

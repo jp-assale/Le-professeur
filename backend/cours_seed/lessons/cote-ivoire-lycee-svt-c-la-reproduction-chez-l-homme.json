@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-la-reproduction-chez-l-homme",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "La reproduction chez l'Homme",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La reproduction chez l'Homme",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, comme partout en Afrique, les familles sont au cœur de la société. Mais comment naissent les enfants ? Quels sont les organes et les processus biologiques qui permettent à un homme et une femme de créer une nouvelle vie ? Comprendre la reproduction humaine, c'est mieux connaître ton propre corps et les transformations que tu traverseras."
+  },
+  "concept": {
+    "heading": "Concept : La reproduction chez l'Homme",
+    "explanation": "La reproduction humaine est un processus biologique complexe qui implique deux individus : un homme et une femme. Chacun possède des organes reproducteurs spécialisés qui produisent des cellules sexuelles (gamètes). La rencontre d'une cellule sexuelle mâle (spermatozoïde) et d'une cellule sexuelle femelle (ovule) crée une nouvelle cellule, l'embryon, qui se développera en un enfant. Ce processus commence par la puberté, période de maturation sexuelle, et se poursuit à travers l'ovulation chez la femme et la production de sperme chez l'homme.",
+    "highlight": "La reproduction humaine = union d'un spermatozoïde et d'un ovule, suivie du développement de l'embryon."
+  },
+  "example": {
+    "problem": "Une femme a un cycle menstruel régulier de 28 jours. L'ovulation se produit généralement 14 jours avant la fin du cycle. Si ses règles commencent le 1er du mois, à quel jour du mois l'ovulation aura-t-elle lieu ? (Considère que le mois a 31 jours.)",
+    "steps": [
+      "Étape 1 : Identifie quand le cycle se termine. Si le cycle dure 28 jours et commence le 1er du mois, il se termine le 28e jour du mois.",
+      "Étape 2 : Localise l'ovulation dans le cycle. L'ovulation se produit 14 jours avant la fin du cycle : 28 - 14 = 14. L'ovulation survient donc au jour 14 du cycle.",
+      "Étape 3 : Convertis en date du calendrier. Le jour 14 du cycle qui commence le 1er correspond au : 1 + 14 - 1 = 14. L'ovulation aura lieu le 14e jour du mois.",
+      "Étape 4 : Vérifie le résultat. Du 1er au 14, il y a bien 13 jours écoulés + le jour 14 lui-même = 14 jours dans le cycle. C'est correct.",
+      "Réponse : L'ovulation aura lieu le 14 du mois, soit exactement au milieu du cycle menstruel de 28 jours."
+    ]
+  },
+  "quiz": {
+    "question": "Chez l'homme, les spermatozoïdes sont produits dans un organe appelé testicule. Si un homme produit environ 300 millions de spermatozoïdes par jour, combien en produira-t-il en 10 jours ?",
+    "reponse_calculee": "3 000 000 000 spermatozoïdes",
+    "choices": [
+      {
+        "label": "300 millions de spermatozoïdes",
+        "correct": false
+      },
+      {
+        "label": "3 000 000 000 spermatozoïdes",
+        "correct": true
+      },
+      {
+        "label": "30 millions de spermatozoïdes",
+        "correct": false
+      },
+      {
+        "label": "150 millions de spermatozoïdes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Si l'homme produit 300 millions de spermatozoïdes chaque jour, en 10 jours il en produira : 300 millions × 10 = 3 000 millions = 3 milliards. Cette production massive explique pourquoi, malgré les millions de spermatozoïdes libérés, un seul parvient généralement à féconder l'ovule.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois multiplier la production quotidienne par le nombre de jours. 300 millions par jour × 10 jours = 3 000 millions, soit 3 milliards de spermatozoïdes. La très grande quantité de spermatozoïdes produits est une caractéristique clé de la reproduction masculine."
+  }
+}

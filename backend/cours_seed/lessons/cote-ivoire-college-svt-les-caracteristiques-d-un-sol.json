@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-les-caracteristiques-d-un-sol",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Les caractéristiques d'un sol",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les caractéristiques d'un sol",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué que dans le jardin de ta famille, certaines zones produisent de belles tomates tandis que d'autres restent stériles ? Ou que l'eau s'infiltre rapidement dans un endroit mais stagne dans un autre ? C'est parce que les sols ne sont pas tous identiques. Chaque sol a des caractéristiques propres qui déterminent sa fertilité, sa capacité à retenir l'eau et sa composition. Comprendre ces caractéristiques, c'est apprendre à cultiver mieux et à protéger cette ressource vitale."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un sol ? Ses caractéristiques principales",
+    "explanation": "Un sol est une couche superficielle de la terre formée par l'altération des roches et l'accumulation de matière organique. Il n'est pas inerte : c'est un milieu vivant qui possède plusieurs caractéristiques mesurables et observables. Ces caractéristiques permettent de classer les sols et de prévoir leur utilisation (agriculture, construction, etc.). Les principales caractéristiques d'un sol sont : sa composition granulométrique (taille des particules), sa couleur, sa texture, sa structure, sa porosité, son pH et sa teneur en matière organique.",
+    "highlight": "Les caractéristiques d'un sol sont l'ensemble des propriétés physiques et chimiques qui le définissent et déterminent son comportement et son aptitude à divers usages."
+  },
+  "example": {
+    "problem": "Un agriculteur prélève un échantillon de sol dans son champ. Après analyse au laboratoire, on obtient : 45 % de sable, 30 % de limon et 25 % d'argile. On mesure aussi que ce sol contient 3,5 % de matière organique et a un pH de 6,8. Identifie la texture de ce sol et explique ce qu'elle signifie pour la culture.",
+    "steps": [
+      "Étape 1 : Identifier les pourcentages des trois éléments granulométriques. Sable = 45 %, limon = 30 %, argile = 25 %.",
+      "Étape 2 : Déterminer l'élément dominant. Le sable représente 45 %, c'est la plus grande fraction.",
+      "Étape 3 : Classer la texture en utilisant le triangle des textures. Avec 45 % sable, 30 % limon et 25 % argile, ce sol appartient à la classe « sol limoneux » ou « limon sableux ».",
+      "Étape 4 : Interpréter ce qu'une texture limon-sable signifie : ce sol offre un bon équilibre entre rétention d'eau (grâce au limon et l'argile) et drainage (grâce au sable). C'est une texture favorable à la culture.",
+      "Étape 5 : Tenir compte des autres caractéristiques. Une matière organique de 3,5 % est correcte, et un pH de 6,8 est légèrement acide mais acceptable pour la plupart des cultures."
+    ]
+  },
+  "quiz": {
+    "question": "Un sol contient 50 % de sable, 35 % de limon et 15 % d'argile. Quelle est sa classe textuale et quel est son principal avantage ?",
+    "reponse_calculee": "Sol sableux ; avantage : bon drainage et aisance de travail du sol",
+    "choices": [
+      {
+        "label": "Sol argileux ; avantage : forte rétention d'eau",
+        "correct": false
+      },
+      {
+        "label": "Sol sableux ; avantage : bon drainage et aisance de travail du sol",
+        "correct": true
+      },
+      {
+        "label": "Sol limoneux ; avantage : texture idéale pour toutes les cultures",
+        "correct": false
+      },
+      {
+        "label": "Sol équilibré ; avantage : absence totale de rétention d'eau",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Avec 50 % de sable (l'élément dominant), ce sol est classé comme sableux. L'avantage principal d'un sol sableux est son excellent drainage (l'eau ne stagne pas) et la facilité de travail du sol. L'inconvénient est qu'il retient peu d'eau et peu de nutriments, donc les cultures peuvent souffrir de sécheresse.",
+    "feedback_wrong": "Pas tout à fait. L'élément granulométrique dominant ici est le sable (50 %), ce qui classe ce sol comme sableux, non argileux ni limoneux. Un sol sableux se caractérise par un bon drainage et une aisance de travail, même s'il ne retient pas l'eau longtemps. Relis bien la composition : c'est le pourcentage le plus élevé qui détermine la classe textuelle."
+  }
+}

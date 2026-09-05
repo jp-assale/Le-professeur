@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-nombres-reels-et-racine-c",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres réels et racine carrée d'un réel positif",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Nombres réels et racine carrée d'un réel positif",
+  "intro": {
+    "heading": "Mise en situation : Un terrain à clôturer",
+    "body": "Tu aides ton oncle à clôturer un terrain carré destiné à un petit commerce. Il te dit : « Le terrain a une surface de 144 mètres carrés. Combien de mètres de grillage dois-je acheter pour en faire le tour ? » Pour répondre, tu dois d'abord trouver la longueur d'un côté. C'est là qu'intervient la racine carrée !"
+  },
+  "concept": {
+    "heading": "Définition : La racine carrée d'un nombre positif",
+    "explanation": "La racine carrée d'un nombre réel positif a est le nombre positif dont le carré égale a. En d'autres termes, si tu cherches un nombre x tel que $x^2 = a$ (avec $x \\geq 0$), alors x est la racine carrée de a. Cette opération est très utile pour résoudre des problèmes de géométrie ou de mesure, comme trouver le côté d'un carré connaissant son aire.",
+    "highlight": "Si $x^2 = a$ et $x \\geq 0$, alors $x = \\sqrt{a}$"
+  },
+  "example": {
+    "problem": "Un carré a une aire de 169 mètres carrés. Calcule la longueur de son côté, puis le périmètre du carré.",
+    "steps": [
+      "Étape 1 : Identifie ce qu'on cherche. On connaît l'aire (169 m²) et on cherche le côté du carré.",
+      "Étape 2 : Rappelle-toi que l'aire d'un carré = (côté)². Donc côté² = 169.",
+      "Étape 3 : Pour trouver le côté, prends la racine carrée : côté = $\\sqrt{169}$.",
+      "Étape 4 : Calcule $\\sqrt{169}$. Tu cherches quel nombre, multiplié par lui-même, donne 169. C'est 13, car $13 \\times 13 = 169$. Donc côté = 13 m.",
+      "Étape 5 : Calcule le périmètre. Périmètre = 4 × côté = 4 × 13 = 52 m.",
+      "Réponse : Le côté mesure 13 m et le périmètre est de 52 m."
+    ]
+  },
+  "quiz": {
+    "question": "Un peintre doit peindre un mur carré. La surface du mur est 225 m². Quelle est la longueur d'un côté du mur ?",
+    "reponse_calculee": "15 m",
+    "choices": [
+      {
+        "label": "11,2 m",
+        "correct": false
+      },
+      {
+        "label": "15 m",
+        "correct": true
+      },
+      {
+        "label": "112,5 m",
+        "correct": false
+      },
+      {
+        "label": "450 m",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la racine carrée. Puisque l'aire est 225 m², le côté du carré est $\\sqrt{225} = 15$ m, car $15 \\times 15 = 225$. Bien maîtrisé !",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que si l'aire d'un carré = (côté)², alors côté = $\\sqrt{\\text{aire}}$. Ici, côté = $\\sqrt{225} = 15$ m. Essaie de vérifier : $15 \\times 15 = 225$ ? Oui ! Continue à pratiquer."
+  }
+}

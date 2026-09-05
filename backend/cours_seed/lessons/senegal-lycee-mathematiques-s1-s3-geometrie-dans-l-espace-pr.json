@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-geometrie-dans-l-espace-pr",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie dans l'espace : produit vectoriel/mixte, transformations",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Géométrie dans l'espace : produit vectoriel et mixte, transformations",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un charpentier qui construit la charpente d'une maison. Il doit s'assurer que deux poutres ne sont pas dans le même plan et calculer le volume de bois qu'il faut pour remplir un espace entre trois directions différentes. Pour cela, il a besoin d'outils mathématiques précis : le produit vectoriel et le produit mixte. C'est exactement ce que tu vas découvrir aujourd'hui."
+  },
+  "concept": {
+    "heading": "Le produit vectoriel et le produit mixte",
+    "explanation": "Dans l'espace, deux vecteurs $\\vec{u}$ et $\\vec{v}$ ne sont pas alignés. Leur produit vectoriel $\\vec{u} \\times \\vec{v}$ est un nouveau vecteur perpendiculaire au plan contenant $\\vec{u}$ et $\\vec{v}$. Sa norme donne l'aire du parallélogramme formé par ces deux vecteurs. Le produit mixte de trois vecteurs $\\vec{u}$, $\\vec{v}$, $\\vec{w}$ (noté $[\\vec{u}, \\vec{v}, \\vec{w}]$ ou $\\vec{u} \\cdot (\\vec{v} \\times \\vec{w})$) donne le volume du parallélépipède qu'ils forment. Ces outils permettent aussi de décrire comment l'espace se transforme (rotations, symétries, homothéties).",
+    "highlight": "Produit vectoriel : $\\vec{u} \\times \\vec{v} = (u_2 v_3 - u_3 v_2, u_3 v_1 - u_1 v_3, u_1 v_2 - u_2 v_1)$ ; Produit mixte : $[\\vec{u}, \\vec{v}, \\vec{w}] = \\vec{u} \\cdot (\\vec{v} \\times \\vec{w})$"
+  },
+  "example": {
+    "problem": "On considère trois vecteurs dans un repère orthonormé : $\\vec{u} = (1, 2, 1)$, $\\vec{v} = (2, 1, 0)$, $\\vec{w} = (0, 1, 2)$. Calcule le produit vectoriel $\\vec{u} \\times \\vec{v}$, puis le produit mixte $[\\vec{u}, \\vec{v}, \\vec{w}]$. Interprète le résultat du produit mixte.",
+    "steps": [
+      "Étape 1 : Calculer $\\vec{u} \\times \\vec{v}$ composante par composante. Première composante : $u_2 v_3 - u_3 v_2 = 2 \\times 0 - 1 \\times 1 = -1$.",
+      "Étape 2 : Deuxième composante : $u_3 v_1 - u_1 v_3 = 1 \\times 2 - 1 \\times 0 = 2$.",
+      "Étape 3 : Troisième composante : $u_1 v_2 - u_2 v_1 = 1 \\times 1 - 2 \\times 2 = -3$. Donc $\\vec{u} \\times \\vec{v} = (-1, 2, -3)$.",
+      "Étape 4 : Calculer le produit mixte $[\\vec{u}, \\vec{v}, \\vec{w}] = \\vec{u} \\cdot (\\vec{v} \\times \\vec{w})$. D'abord $\\vec{v} \\times \\vec{w} = (1 \\times 2 - 0 \\times 1, 0 \\times 0 - 2 \\times 2, 2 \\times 1 - 1 \\times 0) = (2, -4, 2)$.",
+      "Étape 5 : Ensuite $\\vec{u} \\cdot (\\vec{v} \\times \\vec{w}) = (1, 2, 1) \\cdot (2, -4, 2) = 1 \\times 2 + 2 \\times (-4) + 1 \\times 2 = 2 - 8 + 2 = -4$.",
+      "Étape 6 : Le produit mixte vaut $-4$. Sa valeur absolue, $|{-4}| = 4$, représente le volume du parallélépipède formé par $\\vec{u}$, $\\vec{v}$, $\\vec{w}$. Les trois vecteurs ne sont pas coplanaires."
+    ]
+  },
+  "quiz": {
+    "question": "Deux vecteurs $\\vec{a} = (1, 0, 1)$ et $\\vec{b} = (2, 3, 1)$ sont donnés. Quelle est la première composante du produit vectoriel $\\vec{a} \\times \\vec{b}$ ?",
+    "reponse_calculee": "-3",
+    "choices": [
+      {
+        "label": "1",
+        "correct": false
+      },
+      {
+        "label": "-3",
+        "correct": true
+      },
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "5",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La première composante du produit vectoriel $\\vec{a} \\times \\vec{b}$ se calcule avec $a_2 b_3 - a_3 b_2 = 0 \\times 1 - 1 \\times 3 = -3$. C'est la bonne application de la formule.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : la première composante du produit vectoriel $\\vec{a} \\times \\vec{b}$ est $a_2 b_3 - a_3 b_2 = 0 \\times 1 - 1 \\times 3 = -3$. Vérifie bien l'ordre et les signes dans la formule."
+  }
+}

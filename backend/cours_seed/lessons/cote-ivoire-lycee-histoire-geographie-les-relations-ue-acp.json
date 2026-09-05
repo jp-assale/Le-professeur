@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-relations-ue-acp",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les relations UE/ACP",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les relations UE/ACP",
+  "intro": {
+    "heading": "Une relation qui te concerne directement",
+    "body": "Imagine que ta Côte d'Ivoire exporte du cacao vers l'Europe. Cet échange n'est pas simplement du commerce privé : il obéit à des accords négociés entre ton gouvernement et l'Union européenne. Ces accords définissent les tarifs, les conditions, les aides au développement. C'est ça, les relations UE/ACP : des relations politiques et économiques entre deux blocs inégaux."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les relations UE/ACP ?",
+    "explanation": "L'UE (Union européenne) regroupe 27 États développés. Les ACP (Afrique, Caraïbes, Pacifique) sont des États en développement, dont 48 sont africains. Depuis 1975, ces deux groupes ont signé des accords pour structurer leurs échanges commerciaux, leur coopération au développement et leur dialogue politique. La Côte d'Ivoire, membre du groupe ACP, bénéficie de ces cadres mais dépend aussi fortement de l'UE comme partenaire commercial et bailleur de fonds.",
+    "highlight": "Relations UE/ACP = accords commerciaux + aide au développement + dialogue politique entre pays riches (UE) et pays en développement (ACP)."
+  },
+  "example": {
+    "problem": "Un gouvernement ivoirien négocie avec l'UE pour obtenir de meilleures conditions d'accès à ses marchés pour le cacao et le café. Analysons comment fonctionne cette négociation et ce qui la caractérise.",
+    "steps": [
+      "Étape 1 : Identifier les acteurs. D'un côté, l'UE avec son poids économique et politique énorme. De l'autre, la Côte d'Ivoire seule ou avec d'autres pays ACP. La Côte d'Ivoire est clairement en position de faiblesse : elle dépend davantage de ce marché que l'UE ne dépend d'elle.",
+      "Étape 2 : Reconnaître l'asymétrie. L'UE peut imposer ses normes (qualité sanitaire, traçabilité, droits du travail) que la Côte d'Ivoire doit respecter pour vendre. La Côte d'Ivoire ne peut pas imposer ses conditions à l'UE de la même manière.",
+      "Étape 3 : Observer l'aide attachée. En échange des concessions commerciales, l'UE propose une aide au développement : financement d'infrastructures, formation, appui agricole. Cette aide crée une dépendance : elle est essentielle pour le gouvernement ivoirien.",
+      "Étape 4 : Comprendre le dialogue politique. Les accords incluent un volet 'dialogue politique' où l'UE peut exiger le respect des droits humains ou de la démocratie comme condition. C'est un outil d'influence supplémentaire.",
+      "Étape 5 : Conclure sur l'effet global. La Côte d'Ivoire gagne l'accès au marché européen crucial pour son économie, mais elle accepte une forme de dépendance : elle doit se conformer aux règles de l'UE et accepter une certaine ingérence dans ses affaires internes."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments ne fait PAS partie des relations UE/ACP telles qu'elles sont structurées depuis 1975 ?",
+    "reponse_calculee": "L'imposition unilatérale par les ACP de tarifs douaniers sur les produits européens sans négociation préalable.",
+    "choices": [
+      {
+        "label": "Les accords commerciaux préférentiels donnant aux ACP un accès facilité au marché européen",
+        "correct": false
+      },
+      {
+        "label": "L'aide au développement versée par l'UE aux États ACP",
+        "correct": false
+      },
+      {
+        "label": "L'imposition unilatérale par les ACP de tarifs douaniers sur les produits européens sans négociation préalable",
+        "correct": true
+      },
+      {
+        "label": "Le dialogue politique incluant le respect des droits humains et de la démocratie",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Les relations UE/ACP sont fondées sur la négociation et l'asymétrie : l'UE, bloc puissant, propose des conditions (accords commerciaux, aide, dialogue politique) aux pays ACP. Ces derniers ne peuvent pas imposer unilatéralement des tarifs sans discussion. Ce serait contraire à la nature même de ces relations de partenariat inégal.",
+    "feedback_wrong": "Non. Les relations UE/ACP reposent sur trois piliers : les échanges commerciaux préférentiels, l'aide au développement, et le dialogue politique. Aucun de ces trois piliers n'existe. Ce qui n'existe pas, c'est la possibilité pour les ACP d'imposer seuls leurs conditions tarifaires : la relation est asymétrique et négociée, jamais unilatérale de la part des pays en développement."
+  }
+}

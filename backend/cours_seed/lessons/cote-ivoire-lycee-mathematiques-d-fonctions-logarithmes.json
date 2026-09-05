@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-fonctions-logarithmes",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions logarithmes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Fonctions logarithmes",
+  "intro": {
+    "heading": "Mise en situation : Mesurer l'ampleur d'un tremblement de terre",
+    "body": "En Côte d'Ivoire et dans toute l'Afrique de l'Ouest, les sismologues utilisent une échelle pour mesurer la force des tremblements de terre. Cette échelle ne compte pas de 1 à 100 de façon linéaire : elle utilise les logarithmes. Pourquoi ? Parce que l'énergie libérée varie de façon énorme, et le logarithme compresse ces très grandes variations en nombres plus petits et lisibles. C'est l'un des usages concrets des fonctions logarithmes."
+  },
+  "concept": {
+    "heading": "Définition : La fonction logarithme népérien",
+    "explanation": "Le logarithme népérien, noté $\\ln$, est la fonction inverse de la fonction exponentielle. Si tu sais que $e^x = y$, alors tu peux écrire $x = \\ln(y)$. En d'autres termes, le logarithme répond à la question : « À quelle puissance faut-il élever le nombre $e$ (environ 2,718) pour obtenir ce nombre ? » Le logarithme n'existe que pour les nombres strictement positifs.",
+    "highlight": "Pour tout $a > 0$ : $\\ln(e^a) = a$ et $e^{\\ln(a)} = a$"
+  },
+  "example": {
+    "problem": "Un scientifique étudie la croissance d'une population de microbes. Le nombre de microbes suit la formule $N(t) = 5000 \\cdot e^{0,2t}$, où $t$ est le temps en heures. Après combien d'heures la population atteindra-t-elle 20 000 microbes ?",
+    "steps": [
+      "Étape 1 : Pose l'équation. On cherche $t$ tel que $N(t) = 20000$, donc $5000 \\cdot e^{0,2t} = 20000$.",
+      "Étape 2 : Isole l'exponentielle. Divise les deux côtés par 5000 : $e^{0,2t} = \\frac{20000}{5000} = 4$.",
+      "Étape 3 : Applique le logarithme népérien des deux côtés. $\\ln(e^{0,2t}) = \\ln(4)$.",
+      "Étape 4 : Utilise la propriété $\\ln(e^a) = a$. On obtient $0,2t = \\ln(4)$.",
+      "Étape 5 : Calcule $\\ln(4) \\approx 1,386$. Divise par 0,2 : $t = \\frac{1,386}{0,2} \\approx 6,93$ heures.",
+      "Étape 6 : Conclusion. La population atteindra 20 000 microbes après environ 6,93 heures (soit environ 6 h 56 min)."
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation $\\ln(x) = 2$. Quelle est la valeur de $x$ ? (Arrondis à l'unité près.)",
+    "reponse_calculee": "7",
+    "choices": [
+      {
+        "label": "2",
+        "correct": false
+      },
+      {
+        "label": "7",
+        "correct": true
+      },
+      {
+        "label": "0,69",
+        "correct": false
+      },
+      {
+        "label": "5",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Si $\\ln(x) = 2$, alors par définition du logarithme, $x = e^2$. En calculant : $e^2 \\approx 7,39$, qui arrondi à l'unité donne 7. Tu as bien appliqué la propriété inverse du logarithme.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que le logarithme népérien et l'exponentielle sont des fonctions inverses. Si $\\ln(x) = 2$, tu dois écrire $x = e^2$. Calcule $e^2$ (où $e \\approx 2,718$) et arrondis le résultat à l'unité."
+  }
+}

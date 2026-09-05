@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-produire-tout-type-d-argumenta",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Produire tout type d'argumentation",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Produire tout type d'argumentation",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es au conseil de classe. Ton professeur dit que tu dois redoubler. Tes parents demandent : « Pourquoi ? » Le professeur répond en donnant des raisons, des preuves, des exemples. Il n'affirme pas juste comme ça — il *argumente*. C'est exactement ce que tu dois apprendre à faire : construire un raisonnement solide pour convaincre quelqu'un."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'argumenter ?",
+    "explanation": "Argumenter, c'est présenter des idées pour convaincre. Tu ne dis pas juste « c'est comme ça » : tu dis *pourquoi* c'est comme ça. Tu apportes des preuves, des exemples, des raisons logiques. Il existe plusieurs *types* d'arguments : l'argument par l'exemple (tu cites un cas concret), l'argument par l'autorité (tu t'appuies sur un expert), l'argument par la logique (tu montres une relation de cause à effet), l'argument par l'émotion ou les valeurs (tu touches aux sentiments ou aux principes). Chaque situation exige un type d'argumentation différent.",
+    "highlight": "Argumenter = affırmer une idée + la justifier par des raisons, des preuves ou des exemples pertinents"
+  },
+  "example": {
+    "problem": "Situation : Tu veux convaincre tes parents de t'acheter un téléphone. Tu dois utiliser plusieurs types d'arguments pour réussir. Analyse comment tu structurerais ton argumentation.",
+    "steps": [
+      "Étape 1 — Identifie ton objectif : Tu veux qu'ils acceptent. Tu dois donc d'abord formuler clairement ta thèse (ton idée principale) : « Je dois avoir un téléphone. »",
+      "Étape 2 — Utilise l'argument par la logique : Tu dis que le téléphone t'aide à communiquer avec l'école en cas de problème (relation cause-effet claire).",
+      "Étape 3 — Renforce avec l'argument par l'exemple : Tu cites un cas concret : « Hier, Kofi s'est perdu après l'école, il a appelé son père avec son téléphone et ils l'ont retrouvé rapidement. »",
+      "Étape 4 — Ajoute l'argument par l'autorité : Tu mentionnes que le directeur de l'école encourage les élèves à avoir un moyen de communication (une source fiable).",
+      "Étape 5 — Utilise l'argument par les valeurs : Tu dis que tu promets d'être responsable et que tu respecteras les règles de l'école (tu appelles à leur confiance et à la responsabilité).",
+      "Étape 6 — Conclus en résumant : « Donc, un téléphone m'aide à être plus sûr, plus responsable, et c'est ce que tu demandes. » Ton argumentation est complète, variée et convaincante."
+    ]
+  },
+  "quiz": {
+    "question": "Lis ce texte : « L'uniforme à l'école, c'est bon pour la discipline. Regarde : au lycée Yennenga, depuis qu'on a l'uniforme obligatoire, les bagarres entre élèves ont diminué. De plus, tous les pédagogues le disent : l'uniforme crée un sentiment d'égalité. » Quels types d'arguments sont utilisés ici ? (Choisis la réponse la plus complète.)",
+    "reponse_calculee": "Argument par l'exemple et argument par l'autorité",
+    "choices": [
+      {
+        "label": "Seulement un argument par la logique",
+        "correct": false
+      },
+      {
+        "label": "Argument par l'exemple et argument par l'autorité",
+        "correct": true
+      },
+      {
+        "label": "Seulement un argument par l'émotion",
+        "correct": false
+      },
+      {
+        "label": "Argument par la logique et argument par les valeurs",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le texte cite un cas concret (le lycée Yennenga) — c'est un argument par l'exemple. Il s'appuie aussi sur l'avis des pédagogues — c'est un argument par l'autorité. Tu as bien identifié les deux principaux types d'argumentation présents.",
+    "feedback_wrong": "Pas tout à fait. Regarde de près : le texte donne un exemple concret (« au lycée Yennenga... »), c'est un argument par l'exemple. Il cite aussi l'avis des pédagogues, c'est un argument par l'autorité. Relis et identifie ces deux éléments."
+  }
+}

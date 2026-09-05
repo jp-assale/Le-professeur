@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-reactions-nucleaires",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Réactions nucléaires",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Réactions nucléaires",
+  "intro": {
+    "heading": "Mise en situation : L'énergie du soleil et nos centrales",
+    "body": "Imagine que tu visites une centrale électrique en Côte d'Ivoire qui fonctionne au charbon. On te dit qu'elle produit 500 mégawatts. Puis tu apprends qu'une toute petite quantité de matière nucléaire peut produire autant d'énergie. Comment est-ce possible ? La réponse se cache dans le noyau de l'atome et dans les réactions qui s'y produisent."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une réaction nucléaire ?",
+    "explanation": "Une réaction nucléaire est une transformation du noyau d'un atome, au cours de laquelle des protons et des neutrons se réorganisent. À la différence d'une réaction chimique (qui concerne les électrons), une réaction nucléaire libère ou absorbe une énergie considérable et peut transformer un élément en un autre. Il existe deux grands types : la fission (le noyau se casse en deux) et la fusion (deux noyaux légers s'unissent). Dans tous les cas, une petite quantité de matière se convertit en une énorme quantité d'énergie.",
+    "highlight": "Lors d'une réaction nucléaire : nombre de protons + nombre de neutrons = constant (conservation du nombre de masse A) et nombre de protons = constant (conservation du nombre atomique Z)"
+  },
+  "example": {
+    "problem": "Un noyau d'uranium 235 absorbe un neutron lent et se divise en deux fragments : un noyau de baryum 141 et un noyau de krypton 92. Combien de neutrons sont libérés lors de cette fission ? (Données : U-235 a 92 protons, Ba-141 a 56 protons, Kr-92 a 36 protons)",
+    "steps": [
+      "Étape 1 : Identifier les nombres de masse. U-235 a A = 235 ; Ba-141 a A = 141 ; Kr-92 a A = 92 ; le neutron incident a A = 1.",
+      "Étape 2 : Écrire l'équation de la réaction en tenant compte de tous les nucléons avant et après. Avant : 235 + 1 = 236 nucléons. Après : 141 + 92 + n × 1 = 233 + n nucléons (où n est le nombre de neutrons libérés).",
+      "Étape 3 : Appliquer la conservation du nombre de masse A. On doit avoir : 236 = 233 + n, donc n = 3.",
+      "Étape 4 : Vérifier avec la conservation du nombre de protons Z. Avant : 92 + 0 = 92. Après : 56 + 36 + 0 = 92. C'est bon !",
+      "Étape 5 : Conclusion. Trois neutrons sont libérés lors de cette fission. L'équation complète est : $^{235}_{92}U + ^1_0n \to ^{141}_{56}Ba + ^{92}_{36}Kr + 3 ^1_0n$"
+    ]
+  },
+  "quiz": {
+    "question": "Au cours d'une réaction de fusion, deux noyaux de deutérium (hydrogène 2, $^2_1H$) fusionnent pour former de l'hélium 3 et libèrent un neutron libre. Quelle est la masse totale (en unités de masse atomique) du produit formé (hélium 3 + neutron) ? (On considère que la fusion produit exactement un atome d'hélium 3 et un neutron. Données : masse d'un nucléon ≈ 1 u)",
+    "reponse_calculee": "4 u",
+    "choices": [
+      {
+        "label": "3 u",
+        "correct": false
+      },
+      {
+        "label": "4 u",
+        "correct": true
+      },
+      {
+        "label": "5 u",
+        "correct": false
+      },
+      {
+        "label": "2 u",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Avant la fusion : deux deutérium, chacun avec A = 2, donc 2 + 2 = 4 nucléons au total. Après la fusion : l'hélium 3 a A = 3, et le neutron a A = 1. Conservation du nombre de masse : 4 = 3 + 1. Le produit formé représente bien 4 u. La petite différence de masse (moins de 1 %) se convertit en énergie selon la formule E = mc².",
+    "feedback_wrong": "Regarde bien la conservation du nombre de masse A. Avant : deux deutérium de masse 2 chacun, soit 2 + 2 = 4 nucléons. Après : l'hélium 3 (A = 3) plus un neutron (A = 1). La somme des produits doit être 3 + 1 = 4 u. C'est la clé pour équilibrer les réactions nucléaires."
+  }
+}

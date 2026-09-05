@@ -1,0 +1,55 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-geometrie-angles-inscrits-orie",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie (angles inscrits/orientés, barycentres, isométries, similitudes, géométrie de l'espace, coniques)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Géométrie : Angles inscrits et orientés",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es sur une place circulaire en plein cœur de Conakry. Tu regardes un monument au centre du cercle depuis deux points différents sur le pourtour. L'angle que tu mesures change selon ta position, même si tu regardes le même objet. Pourquoi ? Et existe-t-il une relation cachée entre ces angles ? C'est cette question que nous allons résoudre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Angles inscrits et angles au centre",
+    "explanation": "Un angle inscrit est un angle dont le sommet se trouve sur le cercle et dont les deux côtés sont des cordes du cercle. Un angle au centre a son sommet au centre du cercle. Le théorème fondamental nous dit que si ces deux angles interceptent le même arc, alors l'angle inscrit vaut exactement la moitié de l'angle au centre.",
+    "highlight": "Angle inscrit = (1/2) × Angle au centre (pour le même arc)"
+  },
+  "example": {
+    "problem": "On considère un cercle de centre O. Deux points A et B se trouvent sur ce cercle. Un point C se place aussi sur le cercle (mais pas sur l'arc AB que nous considérons). L'angle au centre AOB mesure 80°. Quelle est la mesure de l'angle inscrit ACB ?",
+    "steps": [
+      "Étape 1 : Identifier les éléments. Le sommet de l'angle au centre est O (au centre du cercle), et il mesure 80°. L'angle inscrit ACB a son sommet en C (sur le cercle).",
+      "Étape 2 : Vérifier que les deux angles interceptent le même arc. L'angle AOB et l'angle ACB interceptent tous les deux l'arc AB. Condition remplie.",
+      "Étape 3 : Appliquer le théorème. Puisqu'ils interceptent le même arc, l'angle inscrit est la moitié de l'angle au centre.",
+      "Étape 4 : Calculer. ACB = (1/2) × 80° = 40°.",
+      "Étape 5 : Vérifier la cohérence. 40° est bien la moitié de 80°, et c'est un angle positif et raisonnable pour un angle inscrit."
+    ]
+  },
+  "quiz": {
+    "question": "Un angle au centre mesure 120°. Quel est la mesure de tout angle inscrit qui intercepte le même arc ?",
+    "reponse_calculee": "60°",
+    "choices": [
+      {
+        "label": "30°",
+        "correct": false
+      },
+      {
+        "label": "60°",
+        "correct": true
+      },
+      {
+        "label": "120°",
+        "correct": false
+      },
+      {
+        "label": "240°",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'angle inscrit vaut toujours la moitié de l'angle au centre quand ils interceptent le même arc. Donc 120° ÷ 2 = 60°. Tu as bien compris le théorème fondamental.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : l'angle inscrit est toujours la moitié de l'angle au centre lorsqu'ils interceptent le même arc. Avec 120° au centre, l'angle inscrit doit être 120° ÷ 2 = 60°."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-verite",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La vérité",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La vérité",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu regardes les informations à la télévision locale. Un journaliste rapporte un événement politique. Ton voisin regarde la même émission mais te dit qu'il a entendu une version complètement différente de son ami qui y était. Vous n'êtes pas d'accord sur ce qui s'est réellement passé. Alors, qui dit la vérité ? Et d'ailleurs, comment on reconnaît la vérité quand on la voit ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la vérité ?",
+    "explanation": "La vérité est ce qui correspond à la réalité, ce qui existe vraiment, indépendamment de ce que nous pensons ou souhaitons. Dans le contexte de nos connaissances et de nos discours, c'est l'accord entre ce qu'on affirme et les faits réels. La question philosophique n'est pas seulement de savoir si quelque chose est vrai, mais aussi : comment savons-nous que c'est vrai ? Qu'est-ce qui garantit la vérité ?",
+    "highlight": "La vérité c'est l'accord entre nos affirmations et la réalité elle-même."
+  },
+  "example": {
+    "problem": "Une rumeur circule dans ton quartier : on dit que l'eau du robinet est devenue dangereuse et qu'il faut la faire bouillir pendant une heure avant de la boire. Tu veux vérifier si c'est vrai. Comment procéder ? Et en quoi cela revient-il à chercher la vérité ?",
+    "steps": [
+      "Étape 1 : D'abord, tu dois identifier ce qu'on affirme exactement. L'affirmation est : « L'eau du robinet est dangereuse sans faire bouillir une heure. » C'est une proposition qui prétend décrire une réalité.",
+      "Étape 2 : Ensuite, tu dois confronter cette affirmation à la réalité. Tu peux aller vérifier auprès de sources fiables : le centre d'eau potable, une autorité sanitaire locale, ou un professionnel. Ces sources peuvent t'informer sur la qualité réelle de l'eau.",
+      "Étape 3 : Supposons que tu apprennes auprès de l'autorité sanitaire que l'eau est conforme aux normes et ne nécessite pas une heure de bouillir. Cette information contredit la rumeur.",
+      "Étape 4 : Tu peux alors conclure que la rumeur est fausse : elle ne correspond pas à la réalité de l'eau. La vérité ici, c'est que l'eau est sûre sans ébullition prolongée.",
+      "Étape 5 : Tu as donc distingué le faux (la rumeur) du vrai (les faits vérifiés). C'est cela, chercher la vérité : confronter nos croyances à la réalité pour voir si elles s'accordent avec les faits."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les propositions suivantes, laquelle exprime correctement ce qu'est la vérité selon la définition classique ?",
+    "reponse_calculee": "Une affirmation qui correspond aux faits réels, vérifiable et indépendante de nos désirs personnels.",
+    "choices": [
+      {
+        "label": "Ce qui est vrai pour moi personnellement, selon mon ressenti ou mon opinion.",
+        "correct": false
+      },
+      {
+        "label": "Une affirmation qui correspond aux faits réels, vérifiable et indépendante de nos désirs personnels.",
+        "correct": true
+      },
+      {
+        "label": "Tout ce que la majorité des gens croient au même moment.",
+        "correct": false
+      },
+      {
+        "label": "Simplement ce qu'on peut raconter de manière convaincante.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. La vérité n'est pas une question d'opinion personnelle, de majorité ou de rhétorique. C'est l'accord entre ce qu'on affirme et la réalité objective. Elle existe indépendamment de ce qu'on souhaite croire.",
+    "feedback_wrong": "Non. La vérité n'est pas relative à chacun, ni basée sur la majorité, ni sur le pouvoir de convaincre. Elle dépend de la conformité entre l'affirmation et les faits réels, qu'on y croit ou non."
+  }
+}

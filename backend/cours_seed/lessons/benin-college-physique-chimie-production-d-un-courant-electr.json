@@ -1,0 +1,61 @@
+{
+  "slug": "benin-college-physique-chimie-production-d-un-courant-electr",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Production d'un courant électrique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Production d'un courant électrique",
+  "intro": {
+    "heading": "Mise en situation : pourquoi ton téléphone s'allume ?",
+    "body": "Tu sais que ta lampe torche fonctionne grâce à une pile, et que ta maison reçoit l'électricité d'une centrale lointaine. Mais comment naît vraiment ce courant électrique ? Qu'est-ce qui le produit ? D'où vient cette énergie ? Aujourd'hui, tu vas comprendre les secrets de la production du courant qui alimente ton quotidien."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la production d'un courant électrique ?",
+    "explanation": "Produire un courant électrique, c'est créer un mouvement organisé d'électrons à travers un circuit. Ce mouvement est généré par une source d'énergie (chimique, mécanique, lumineuse...) qui fournit l'énergie nécessaire pour mettre les électrons en mouvement. Les sources principales sont les piles (énergie chimique), les générateurs (énergie mécanique) et les panneaux solaires (énergie lumineuse).",
+    "highlight": "Un courant électrique naît de la transformation d'une forme d'énergie en mouvement d'électrons organisé à travers un conducteur."
+  },
+  "concept_2": {
+    "heading": "Les sources principales de production de courant",
+    "explanation": "Il existe trois grandes façons de produire un courant électrique : 1) Les piles et batteries transforment l'énergie chimique en courant continu. 2) Les générateurs (dynamo, alternateur) transforment l'énergie mécanique (rotation) en courant électrique. 3) Les cellules photovoltaïques transforment l'énergie lumineuse en courant électrique. Dans chaque cas, une force extérieure pousse les électrons à se déplacer dans une direction précise.",
+    "highlight": "Source de production = transformation d'une énergie (chimique, mécanique ou lumineuse) en mouvement d'électrons."
+  },
+  "example": {
+    "problem": "Une petite centrale hydroélectrique utilise la chute d'eau pour entraîner une turbine reliée à un générateur. La turbine tourne à 1 200 tours par minute. Le générateur produit une tension de 230 V. On branche une lampe de résistance 46 Ω sur ce générateur. Calcule l'intensité du courant qui traverse la lampe.",
+    "steps": [
+      "Étape 1 : Identifie les données. Tension U = 230 V, Résistance R = 46 Ω. La vitesse de rotation est donnée pour te montrer que l'énergie mécanique alimente le générateur, mais elle n'intervient pas dans ce calcul de courant.",
+      "Étape 2 : Rappelle la loi d'Ohm. La relation entre tension, intensité et résistance est : $U = R \\times I$, donc $I = \\frac{U}{R}$.",
+      "Étape 3 : Remplace les valeurs dans la formule. $I = \\frac{230}{46}$.",
+      "Étape 4 : Effectue la division. $230 \\div 46 = 5$.",
+      "Étape 5 : Écris la réponse avec l'unité. L'intensité du courant est $I = 5$ A (ampères).",
+      "Conclusion : La chute d'eau produit du courant grâce au générateur, et ce courant de 5 A traverse la lampe, la faisant briller."
+    ]
+  },
+  "quiz": {
+    "question": "Une pile produit une tension de 12 V. On la branche sur un moteur électrique de résistance équivalente 3 Ω. Quelle est l'intensité du courant produit par la pile et qui traverse le moteur ?",
+    "reponse_calculee": "4 A",
+    "choices": [
+      {
+        "label": "0,25 A",
+        "correct": false
+      },
+      {
+        "label": "4 A",
+        "correct": true
+      },
+      {
+        "label": "36 A",
+        "correct": false
+      },
+      {
+        "label": "15 A",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué la loi d'Ohm correctement. $I = \\frac{U}{R} = \\frac{12}{3} = 4$ A. La pile transforme son énergie chimique en courant de 4 A, qui actionne le moteur. Bien compris !",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la loi d'Ohm : $I = \\frac{U}{R}$. La tension est 12 V et la résistance est 3 Ω. Fais la division : $12 \\div 3 = 4$ A. La pile produit un courant de 4 A pour alimenter le moteur."
+  }
+}

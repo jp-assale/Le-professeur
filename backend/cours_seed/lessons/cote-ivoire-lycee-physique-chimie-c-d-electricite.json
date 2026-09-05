@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-electricite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électricité",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Électricité - Leçon animée Baccalauréat C/D",
+  "intro": {
+    "heading": "Mise en situation : L'électricité dans ta vie quotidienne",
+    "body": "En Côte d'Ivoire, comme partout, l'électricité alimente tes appareils du quotidien : ton téléphone, les lampadaires de ton quartier, le réfrigérateur de ta maison. Mais comment circule vraiment le courant ? Quelles règles permettent aux électriciens de dimensionner les câbles ou aux ingénieurs de calculer la puissance consommée ? C'est ce que nous allons découvrir ensemble dans ce chapitre fondamental."
+  },
+  "concept": {
+    "heading": "Concept central : Les lois de l'électricité",
+    "explanation": "L'électricité est le mouvement organisé de charges électriques (électrons) dans un circuit. Pour étudier les circuits électriques, nous utilisons trois concepts clés : la tension (différence de potentiel entre deux points), l'intensité (débit de charge par unité de temps), et la résistance (opposition au passage du courant). La loi d'Ohm relie ces trois grandeurs et est la base de toute analyse de circuit. Elle te permet de calculer l'une si tu connais les deux autres.",
+    "highlight": "U = R × I, où U est la tension en volts (V), I l'intensité en ampères (A), et R la résistance en ohms (Ω)."
+  },
+  "example": {
+    "problem": "Un petit ventilateur électrique branché sur une prise domestique de 220 V consomme une intensité de 0,5 A. Calcule la résistance du ventilateur et la puissance électrique qu'il utilise.",
+    "steps": [
+      "Étape 1 : Identifie les données. Tu as U = 220 V et I = 0,5 A. Tu cherches R et P.",
+      "Étape 2 : Utilise la loi d'Ohm pour trouver la résistance. La formule est U = R × I, donc R = U / I.",
+      "Étape 3 : Calcule R = 220 / 0,5 = 440 Ω. La résistance du ventilateur est 440 ohms.",
+      "Étape 4 : Pour la puissance, utilise la formule P = U × I (puissance en watts).",
+      "Étape 5 : Calcule P = 220 × 0,5 = 110 W. Le ventilateur consomme 110 watts.",
+      "Étape 6 : Vérifie avec P = U² / R = (220)² / 440 = 48400 / 440 = 110 W. Résultats cohérents ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Une résistance de 50 Ω est traversée par un courant de 2 A. Quelle est la tension aux bornes de cette résistance ?",
+    "reponse_calculee": "100 V",
+    "choices": [
+      {
+        "label": "25 V",
+        "correct": false
+      },
+      {
+        "label": "100 V",
+        "correct": true
+      },
+      {
+        "label": "52 V",
+        "correct": false
+      },
+      {
+        "label": "200 V",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la loi d'Ohm : U = R × I = 50 × 2 = 100 V. C'est l'approche directe et efficace.",
+    "feedback_wrong": "Pas encore. Rappelle-toi la loi d'Ohm : U = R × I. Avec R = 50 Ω et I = 2 A, tu obtiens U = 50 × 2 = 100 V. Refais le calcul step by step."
+  }
+}

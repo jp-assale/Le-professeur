@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-suites-numeriques",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Suites numériques",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Suites numériques",
+  "intro": {
+    "heading": "Mise en situation : L'épargne progressive",
+    "body": "Imagine que tu décides d'économiser de l'argent chaque mois pour acheter un téléphone. Le premier mois, tu mets 5 000 F CFA de côté, le deuxième mois 10 000 F CFA, le troisième mois 15 000 F CFA, et ainsi de suite. Comment peut-on décrire et prévoir exactement ce que tu auras économisé après 12 mois ? C'est là qu'interviennent les suites numériques : elles permettent de modéliser des situations où des nombres se succèdent selon une règle précise."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une suite numérique ?",
+    "explanation": "Une suite numérique est une liste ordonnée de nombres réels, où chaque nombre occupe une position précise. On l'utilise pour modéliser des phénomènes qui évoluent étape par étape : croissance d'une population, évolution d'un capital, progression d'un apprentissage, etc. Chaque nombre de la suite s'appelle un terme, et on le désigne par un indice qui indique sa position.",
+    "highlight": "Une suite est notée $(u_n)$ où $n$ est l'indice (la position du terme). Le terme général est $u_n$, et $u_1, u_2, u_3, ...$ sont les termes successifs."
+  },
+  "example": {
+    "problem": "Un jeune entrepreneur commence avec un capital de 50 000 F CFA. Chaque mois, son capital augmente de 8 000 F CFA. Détermine le capital après 1 mois, 2 mois, 3 mois, et exprime le terme général $u_n$ qui donne le capital au mois $n$.",
+    "steps": [
+      "Étape 1 : Identifie le premier terme. Au mois 1, le capital est $u_1 = 50\\,000 + 8\\,000 = 58\\,000$ F CFA.",
+      "Étape 2 : Calcule le deuxième terme. Au mois 2, le capital est $u_2 = 58\\,000 + 8\\,000 = 66\\,000$ F CFA.",
+      "Étape 3 : Calcule le troisième terme. Au mois 3, le capital est $u_3 = 66\\,000 + 8\\,000 = 74\\,000$ F CFA.",
+      "Étape 4 : Observe la régularité. Chaque terme s'obtient en ajoutant 8 000 au terme précédent. C'est une suite arithmétique de raison $r = 8\\,000$.",
+      "Étape 5 : Écris le terme général. Pour une suite arithmétique, $u_n = u_1 + (n-1) \\times r$. Donc $u_n = 58\\,000 + (n-1) \\times 8\\,000 = 50\\,000 + n \\times 8\\,000$.",
+      "Étape 6 : Vérifie. Pour $n = 3$ : $u_3 = 50\\,000 + 3 \\times 8\\,000 = 74\\,000$ F CFA. ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Une suite arithmétique commence par $u_1 = 12$ et a une raison $r = 5$. Quel est le terme $u_5$ ?",
+    "reponse_calculee": "32",
+    "choices": [
+      {
+        "label": "27",
+        "correct": false
+      },
+      {
+        "label": "32",
+        "correct": true
+      },
+      {
+        "label": "37",
+        "correct": false
+      },
+      {
+        "label": "25",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En utilisant la formule $u_n = u_1 + (n-1) \\times r$, on obtient $u_5 = 12 + (5-1) \\times 5 = 12 + 20 = 32$. Tu maîtrises bien le calcul des termes d'une suite arithmétique.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule du terme général : $u_n = u_1 + (n-1) \\times r$. Pour $u_5$ avec $u_1 = 12$ et $r = 5$, tu calcules $u_5 = 12 + (5-1) \\times 5 = 12 + 20 = 32$. Refais le calcul étape par étape."
+  }
+}

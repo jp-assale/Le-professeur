@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-calcul-numerique",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul numérique",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Calcul numérique",
+  "intro": {
+    "heading": "Mise en situation : Au marché d'Abidjan",
+    "body": "Tu es au marché de Treichville. Une vendeuse te propose : achat d'un sac de riz de 50 kg à 18 500 F CFA, plus une recharge téléphone à 5 000 F CFA, moins une réduction de 2 500 F CFA. Pour vérifier que tu ne te fais pas arnaquer, tu dois calculer le coût total exact. Voilà ce que tu vas apprendre aujourd'hui : maîtriser les opérations de calcul numérique pour ne jamais te tromper."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le calcul numérique ?",
+    "explanation": "Le calcul numérique, c'est l'ensemble des opérations arithmétiques (addition, soustraction, multiplication, division) que tu effectues sur des nombres réels, entiers ou décimaux. En BEPC, tu dois savoir respecter l'ordre des opérations pour obtenir le bon résultat à chaque fois. Cet ordre, c'est la clé : sans lui, tu obtiendras des réponses différentes selon comment tu calcules.",
+    "highlight": "Ordre des opérations : parenthèses, puis puissances et racines, puis multiplication et division (de gauche à droite), puis addition et soustraction (de gauche à droite)."
+  },
+  "example": {
+    "problem": "Une maman achète 3 paquets de savon à 2 400 F CFA chacun et 2 bouteilles d'huile à 8 500 F CFA chacune. Elle paie avec un billet de 50 000 F CFA. Combien de monnaie lui reste-t-il ?",
+    "steps": [
+      "Étape 1 : Calcule le coût des savons → 3 × 2 400 = 7 200 F CFA",
+      "Étape 2 : Calcule le coût des huiles → 2 × 8 500 = 17 000 F CFA",
+      "Étape 3 : Additionne les deux coûts → 7 200 + 17 000 = 24 200 F CFA (dépense totale)",
+      "Étape 4 : Soustrait la dépense du montant payé → 50 000 − 24 200 = 25 800 F CFA",
+      "Réponse : La maman reçoit 25 800 F CFA de monnaie."
+    ]
+  },
+  "quiz": {
+    "question": "Un élève achète 4 cahiers à 1 250 F CFA chacun et 2 stylos à 500 F CFA chacun. Quel est le montant total dépensé ?",
+    "reponse_calculee": "6000",
+    "choices": [
+      {
+        "label": "5 000 F CFA",
+        "correct": false
+      },
+      {
+        "label": "6 000 F CFA",
+        "correct": true
+      },
+      {
+        "label": "7 000 F CFA",
+        "correct": false
+      },
+      {
+        "label": "8 000 F CFA",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué l'ordre des opérations : d'abord les multiplications (4 × 1 250 = 5 000 et 2 × 500 = 1 000), puis l'addition (5 000 + 1 000 = 6 000). C'est la bonne méthode.",
+    "feedback_wrong": "Pas tout à fait. Vérifie en respectant l'ordre : commence par les multiplications (4 × 1 250 = 5 000 pour les cahiers, et 2 × 500 = 1 000 pour les stylos), puis additionne les résultats. Essaie à nouveau."
+  }
+}

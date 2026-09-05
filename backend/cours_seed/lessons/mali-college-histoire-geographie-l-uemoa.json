@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-l-uemoa",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'UEMOA",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "L'UEMOA : L'Union Économique et Monétaire Ouest-Africaine",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi tu peux utiliser le même argent au Mali, au Sénégal et en Côte d'Ivoire",
+    "body": "Imagine que tu voyages de Bamako à Dakar, puis à Abidjan. Tu gardes tes billets de franc CFA dans ta poche sans les changer. Pourquoi ? Parce que plusieurs pays d'Afrique de l'Ouest ont décidé de travailler ensemble et de partager la même monnaie. Cette coopération entre États, c'est ce qu'on appelle l'UEMOA. Elle facilite les échanges, les voyages et le commerce entre ces pays voisins."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'UEMOA ?",
+    "explanation": "L'UEMOA est l'Union Économique et Monétaire Ouest-Africaine. C'est une organisation régionale créée par plusieurs États d'Afrique de l'Ouest qui ont décidé de s'unir pour renforcer leur économie et faciliter leurs échanges. Ces pays partagent une monnaie commune (le franc CFA) et travaillent ensemble pour harmoniser leurs politiques économiques, leurs douanes et leurs règles commerciales. L'objectif est simple : en s'unissant, ces petites économies deviennent plus fortes face aux défis économiques mondiaux.",
+    "highlight": "L'UEMOA : une union d'États partageant une monnaie commune et coordonnant leur politique économique pour renforcer leur puissance collective."
+  },
+  "example": {
+    "problem": "Un commerçant malien veut exporter du coton vers la Côte d'Ivoire. Comment l'UEMOA facilite-t-elle cette transaction ?",
+    "steps": [
+      "Étape 1 : Sans l'UEMOA, le commerçant devrait convertir son argent malien en argent ivoirien à chaque frontière, ce qui coûte cher et prend du temps.",
+      "Étape 2 : Grâce à l'UEMOA, les deux pays utilisent la même monnaie (le franc CFA). Le commerçant n'a pas besoin de changer son argent.",
+      "Étape 3 : Les douanes entre les pays membres de l'UEMOA sont harmonisées. Les droits de douane sont réduits ou supprimés sur les produits circulant entre membres.",
+      "Étape 4 : Le coton malien entre plus facilement en Côte d'Ivoire car les règles commerciales sont les mêmes pour tous les membres.",
+      "Étape 5 : Le commerçant gagne du temps et de l'argent. Son produit est moins cher à l'arrivée, ce qui aide l'économie des deux pays."
+    ]
+  },
+  "quiz": {
+    "question": "L'UEMOA permet aux pays membres de partager une monnaie commune. Quel avantage direct cela apporte-t-il au commerce entre ces pays ?",
+    "reponse_calculee": "Aucun besoin de changer de monnaie aux frontières, ce qui réduit les frais et accélère les transactions commerciales.",
+    "choices": [
+      {
+        "label": "Cela oblige les pays à fabriquer la même monnaie dans les mêmes usines.",
+        "correct": false
+      },
+      {
+        "label": "Aucun besoin de changer de monnaie aux frontières, ce qui réduit les frais et accélère les transactions commerciales.",
+        "correct": true
+      },
+      {
+        "label": "Cela permet aux pays de ne plus avoir de gouvernement.",
+        "correct": false
+      },
+      {
+        "label": "Cela supprime tous les droits de douane définitivement et de façon totale.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La monnaie commune élimine les frais de conversion et rend les échanges plus rapides et moins coûteux. C'est un des grands avantages de l'intégration économique régionale.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à ce qui se passe quand tu franchis une frontière avec la même monnaie dans ta poche : tu n'as pas besoin de la changer. Cela réduit les coûts et accélère le commerce. C'est l'avantage principal de partager une monnaie commune."
+  }
+}

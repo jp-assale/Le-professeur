@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s2-s4-nombres-complexes",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres complexes",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Nombres complexes",
+  "intro": {
+    "heading": "Mise en situation : pourquoi les nombres complexes ?",
+    "body": "Imagine que tu dois concevoir un système électrique pour une station de pompage en brousse sénégalaise. Les ingénieurs utilisent des nombres complexes pour modéliser les courants alternatifs et les tensions : sans eux, impossible de calculer précisément comment l'électricité circule. Les nombres complexes ne sont pas une curiosité mathématique, mais un outil indispensable dans l'industrie, la physique et l'ingénierie."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un nombre complexe ?",
+    "explanation": "Un nombre complexe est une extension de l'ensemble des nombres réels. Il combine une partie réelle et une partie imaginaire. L'unité imaginaire, notée $i$, est définie par la propriété fondamentale que $i^2 = -1$. Cela permet de résoudre des équations qui n'ont pas de solution dans les réels, comme $x^2 + 1 = 0$.",
+    "highlight": "Un nombre complexe s'écrit $z = a + bi$ où $a$ et $b$ sont des nombres réels et $i^2 = -1$."
+  },
+  "example": {
+    "problem": "On considère deux nombres complexes $z_1 = 3 + 2i$ et $z_2 = 1 - 4i$. Calcule $z_1 + z_2$, puis $z_1 \\times z_2$.",
+    "steps": [
+      "Étape 1 : Additionner deux nombres complexes. On ajoute les parties réelles entre elles et les parties imaginaires entre elles. $z_1 + z_2 = (3 + 1) + (2i - 4i) = 4 - 2i$.",
+      "Étape 2 : Multiplier deux nombres complexes. On utilise la distributivité : $z_1 \\times z_2 = (3 + 2i)(1 - 4i)$.",
+      "Étape 3 : Développer le produit. $z_1 \\times z_2 = 3 \\times 1 + 3 \\times (-4i) + 2i \\times 1 + 2i \\times (-4i)$.",
+      "Étape 4 : Simplifier. $z_1 \\times z_2 = 3 - 12i + 2i - 8i^2$.",
+      "Étape 5 : Remplacer $i^2$ par $-1$. $z_1 \\times z_2 = 3 - 12i + 2i - 8(-1) = 3 - 12i + 2i + 8$.",
+      "Étape 6 : Regrouper les termes réels et imaginaires. $z_1 \\times z_2 = 11 - 10i$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $z = 2 + 3i$. Calcule $z^2$ (c'est-à-dire $z \\times z$).",
+    "reponse_calculee": "-5 + 12i",
+    "choices": [
+      {
+        "label": "4 + 9i",
+        "correct": false
+      },
+      {
+        "label": "-5 + 12i",
+        "correct": true
+      },
+      {
+        "label": "13 + 12i",
+        "correct": false
+      },
+      {
+        "label": "4 + 12i",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Tu as appliqué correctement la multiplication. $(2 + 3i)^2 = 2^2 + 2 \\times 2 \\times 3i + (3i)^2 = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i$. C'est la formule $(a + b)^2 = a^2 + 2ab + b^2$ appliquée aux nombres complexes.",
+    "feedback_wrong": "Pas encore. Rappelle-toi que $(2 + 3i)^2 = (2 + 3i) \\times (2 + 3i)$. Développe terme à terme : $2 \\times 2$, puis $2 \\times 3i$, puis $3i \\times 2$, puis $3i \\times 3i$ (attention : $3i \\times 3i = 9i^2 = -9$). Regroupe ensuite les parties réelles et imaginaires."
+  }
+}

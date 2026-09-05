@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-statistique",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Statistique",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Statistique - BEPC Mathématiques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es responsable d'une petite école dans ton quartier. Le directeur te demande : « Combien d'élèves en moyenne suivent les cours chaque jour ? » ou « Quel est le nombre le plus fréquent d'absences ? » Pour répondre, tu dois collecter les données, les organiser et les analyser. C'est ça, la statistique ! Elle t'aide à comprendre et à résumer l'information pour prendre de bonnes décisions."
+  },
+  "concept": {
+    "heading": "Définition et concepts clés",
+    "explanation": "La statistique est l'ensemble des méthodes qui permettent de collecter, d'organiser, de présenter et d'analyser des données numériques. En classe, tu vas surtout apprendre à calculer trois mesures qui résument une série de données : la moyenne (la valeur « centrale »), la médiane (la valeur qui partage les données en deux), et le mode ou classe modale (la valeur ou la classe la plus fréquente).\n\nPour une série de données, on appelle :\n• Moyenne : la somme de toutes les valeurs divisée par le nombre de valeurs\n• Médiane : la valeur du milieu quand les données sont rangées en ordre\n• Mode : la valeur (ou classe) qui apparaît le plus souvent",
+    "highlight": "Moyenne = (Somme de toutes les valeurs) ÷ (Nombre de valeurs)"
+  },
+  "example": {
+    "problem": "Dans une classe de 10 élèves, on a relevé les notes (sur 20) au dernier contrôle : 12 ; 15 ; 12 ; 18 ; 12 ; 14 ; 16 ; 12 ; 19 ; 10. Calcule la moyenne, la médiane et le mode de cette série.",
+    "steps": [
+      "Étape 1 : Lister les données en ordre croissant : 10 ; 12 ; 12 ; 12 ; 12 ; 14 ; 15 ; 16 ; 18 ; 19",
+      "Étape 2 : Calculer la moyenne. Somme = 10 + 12 + 12 + 12 + 12 + 14 + 15 + 16 + 18 + 19 = 140. Moyenne = 140 ÷ 10 = 14",
+      "Étape 3 : Trouver la médiane. Il y a 10 valeurs (nombre pair). La médiane est la moyenne des 5e et 6e valeurs : (12 + 14) ÷ 2 = 13",
+      "Étape 4 : Identifier le mode. On compte : 10 apparaît 1 fois, 12 apparaît 4 fois, 14 apparaît 1 fois, 15 apparaît 1 fois, 16 apparaît 1 fois, 18 apparaît 1 fois, 19 apparaît 1 fois. Le mode est 12 (valeur la plus fréquente).",
+      "Résumé des résultats : Moyenne = 14 ; Médiane = 13 ; Mode = 12"
+    ]
+  },
+  "quiz": {
+    "question": "Un petit commerçant relève les ventes quotidiennes d'un produit pendant 7 jours : 8 ; 10 ; 12 ; 10 ; 15 ; 10 ; 9 unités. Quel est le mode de cette série ?",
+    "reponse_calculee": "10",
+    "choices": [
+      {
+        "label": "8",
+        "correct": false
+      },
+      {
+        "label": "10",
+        "correct": true
+      },
+      {
+        "label": "12",
+        "correct": false
+      },
+      {
+        "label": "10,6",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En comptant les fréquences : 8 apparaît 1 fois, 10 apparaît 3 fois, 12 apparaît 1 fois, 15 apparaît 1 fois, 9 apparaît 1 fois. Le mode est la valeur la plus fréquente, donc 10.",
+    "feedback_wrong": "Pas tout à fait. Le mode est la valeur qui apparaît le plus souvent dans la série. Compte combien de fois chaque chiffre revient : tu verras que 10 revient 3 fois, plus que les autres."
+  }
+}

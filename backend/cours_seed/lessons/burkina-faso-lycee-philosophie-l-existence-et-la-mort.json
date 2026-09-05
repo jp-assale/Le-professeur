@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-l-existence-et-la-mort",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "L'existence et la mort",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "L'existence et la mort",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Dans un village du Burkina, un enfant demande à sa grand-mère : « Mamie, pourquoi les gens meurent ? » Elle répond : « C'est la volonté de Dieu, mon enfant. » Mais l'enfant insiste : « Oui, mais qu'est-ce que ça change pour nous, maintenant, de savoir qu'on va mourir ? » Cette question simple cache une profonde énigme : comment vivons-nous sachant que nous allons disparaître ? Comment la mort donne-t-elle sens à notre existence ?"
+  },
+  "concept": {
+    "heading": "Le concept : L'existence et la mort",
+    "explanation": "L'existence, c'est le fait de vivre, d'être là dans le monde. La mort, c'est la fin de cette existence. En philosophie, nous ne posons pas seulement la question médicale « Qu'est-ce que la mort ? » mais plutôt : « Quel sens donner à ma vie puisque je sais que je vais mourir ? » C'est la question existentielle. La mort n'est pas un événement lointain qui ne nous concerne pas ; elle est inscrite dans notre condition d'être vivant. Elle éclaire ou transforme notre manière de comprendre notre existence.",
+    "highlight": "La mort donne du sens à l'existence ; c'est en acceptant notre finitude que nous comprenons ce qu'il faut vraiment vivre."
+  },
+  "example": {
+    "problem": "Un jeune homme de 20 ans, brillant élève, rêve de devenir médecin. Il travaille dur, repousse ses loisirs, sacrifie ses amis pour obtenir les meilleures notes. Un jour, on lui diagnostique une maladie grave qui le rappelle à sa finitude. Analysons comment cette confrontation à la mort modifie sa compréhension de son existence.",
+    "steps": [
+      "Avant le diagnostic : il vivait comme si le temps était infini. Il repoussait chaque jour le vrai plaisir au moment où il aurait 'réussi'. Son existence était hypothéquée au futur.",
+      "Le choc du diagnostic : il réalise soudain que son temps n'est pas illimité. Les années qu'il croyait avoir devant lui deviennent précieuses, comptées, réelles.",
+      "La question devient urgente : « Qu'ai-je vraiment voulu faire de ma vie ? Voulais-je vraiment devenir médecin, ou bien est-ce un rêve que la société attendait de moi ? »",
+      "Il reconsidère ses priorités : peut-être que passer du temps avec ceux qu'il aime, ou explorer une passion qu'il avait oubliée, devient plus important que d'accumuler des diplômes.",
+      "Sens nouveau de l'existence : la conscience de la mort force à clarifier ce qui compte vraiment. Chaque jour n'est plus un jour « de plus » mais une opportunité concrète, fragile, unique.",
+      "Conclusion du cas : la mort ne rend pas la vie absurde, elle la rend significative. C'est précisément parce qu'on ne vit qu'une fois que vivre bien, à titre propre, devient crucial."
+    ]
+  },
+  "quiz": {
+    "question": "Selon la philosophie existentielle, quel est le rôle principal de la conscience de la mort dans notre existence ?",
+    "reponse_calculee": "Elle nous force à donner du sens à notre vie et à clarifier nos véritables priorités",
+    "choices": [
+      {
+        "label": "Elle nous paralyse et nous empêche d'agir",
+        "correct": false
+      },
+      {
+        "label": "Elle nous force à donner du sens à notre vie et à clarifier nos véritables priorités",
+        "correct": true
+      },
+      {
+        "label": "Elle est seulement une crainte irrationnelle sans utilité philosophique",
+        "correct": false
+      },
+      {
+        "label": "Elle prouve que l'existence humaine est complètement absurde et vaine",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Juste ! La conscience de notre finitude n'est pas un obstacle à la vie, c'est son condition même de sens. C'est en reconnaissant que nous allons mourir que nous comprenons l'importance de choisir comment vivre. C'est ce que les existentialistes comme Heidegger appelaient l'authenticité : vivre en pleine conscience de ce que nous sommes vraiment.",
+    "feedback_wrong": "Pas tout à fait. La mort n'est pas une menace qui détruit le sens de la vie : c'est précisément ce qui donne du poids à nos choix. Si nous vivions éternellement, rien n'aurait d'urgence ni d'importance. C'est la finitude qui oblige à choisir et à donner un sens à son existence."
+  }
+}

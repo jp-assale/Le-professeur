@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-les-forces",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les forces",
+  "source": "dpfc-ci.net",
+  "template": "physics_vector",
+  "title": "Les forces",
+  "intro": {
+    "heading": "Mise en situation : équilibrer une charge",
+    "body": "Imagine que tu aides à décharger un camion de marchandises au marché. Deux cordes tirent sur une caisse : l'une avec une force donnée, l'autre que tu dois régler pour que la caisse reste immobile. Comment sais-tu quelle force appliquer pour que tout s'équilibre ? C'est la question que nous allons résoudre dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Définition : l'équilibre de deux forces",
+    "explanation": "Une force est une action capable de modifier l'état de mouvement d'un objet ou sa forme. Quand plusieurs forces agissent sur un solide, celui-ci peut rester immobile ou continuer son mouvement. Un solide est en équilibre quand la somme de toutes les forces qui agissent sur lui est nulle. Pour deux forces exactement, le solide est en équilibre si ces deux forces ont la même intensité, la même droite d'action, et des sens opposés.",
+    "highlight": "Deux forces équilibrent un solide si et seulement si elles ont même intensité, même direction et sens opposés."
+  },
+  "example": {
+    "problem": "Une caisse est tirée par une corde avec une force $F_1 = 50 \\text{ N}$ vers l'est. Pour que la caisse reste immobile, on la tire avec une deuxième corde d'intensité $F_2$. Détermine $F_2$ et son orientation pour équilibrer $F_1$.",
+    "steps": [
+      "Identifie la première force : $F_1 = 50 \\text{ N}$ dirigée vers l'est.",
+      "Pour que le solide soit en équilibre, la deuxième force $F_2$ doit avoir la même intensité que $F_1$ : $F_2 = 50 \\text{ N}$.",
+      "La deuxième force doit être dirigée selon la même droite (horizontale) mais dans le sens opposé : vers l'ouest.",
+      "Vérifie : $F_1$ et $F_2$ ont même intensité (50 N), même direction (horizontale), et sens opposés (est et ouest).",
+      "Conclusion : $F_2 = 50 \\text{ N}$ dirigée vers l'ouest."
+    ]
+  },
+  "quiz": {
+    "question": "Un objet est soumis à deux forces : une force de 80 N vers le nord et une deuxième force vers le sud. Quelle doit être l'intensité de la deuxième force pour que l'objet soit en équilibre ?",
+    "reponse_calculee": "80 N",
+    "choices": [
+      {
+        "label": "40 N",
+        "correct": false
+      },
+      {
+        "label": "80 N",
+        "correct": true
+      },
+      {
+        "label": "160 N",
+        "correct": false
+      },
+      {
+        "label": "0 N",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour que deux forces équilibrent un solide, elles doivent avoir exactement la même intensité. Puisque la première force vaut 80 N, la deuxième doit aussi valoir 80 N, et elle est déjà dirigée dans le sens opposé (vers le sud au lieu du nord). L'équilibre est réalisé.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour que deux forces équilibrent un solide, elles doivent avoir la même intensité. La première force est de 80 N, donc la deuxième doit aussi être de 80 N pour compenser. Les sens opposés (nord et sud) sont déjà respectés dans l'énoncé."
+  }
+}

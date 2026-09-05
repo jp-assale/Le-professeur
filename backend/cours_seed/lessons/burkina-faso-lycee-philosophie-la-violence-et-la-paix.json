@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-violence-et-la-paix",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La violence et la paix",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La violence et la paix",
+  "intro": {
+    "heading": "Mise en situation : Une rue de Ouagadougou après une manifestation",
+    "body": "Tu descends d'un minibus ce matin. La rue est encore marquée par les traces de la manifestation d'hier : des pavés arrachés, des vitrines brisées, des traces de gaz lacrymogène. Des jeunes criaient leur colère face aux injustices. Les forces de l'ordre ont réagi avec fermeté. Où commence la violence ? Où finit-elle ? Et qu'est-ce que la paix, au juste ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la violence et la paix ?",
+    "explanation": "La violence n'est pas seulement les coups ou les armes. C'est toute action qui blesse, opprime ou contraint autrui contre sa volonté. La paix, elle, n'est pas juste l'absence de guerre : c'est un état de justice, d'équilibre et de respect mutuel. La vraie question philosophique est : la violence peut-elle servir la paix ? Et une paix sans justice est-elle réellement une paix ?",
+    "highlight": "La violence est une rupture de l'ordre social par la force ; la paix est un équilibre fondé sur le droit et la reconnaissance mutuelle."
+  },
+  "example": {
+    "problem": "Un régime autoritaire maintient l'ordre public par la peur et la répression systématique. Il n'y a pas de guerres, pas d'affrontements visibles dans les rues. Le citoyen peut circuler librement... sous surveillance constante. Son téléphone est écouté, ses paroles surveillées, ses droits étouffés. Est-ce une paix ?",
+    "steps": [
+      "Étape 1 : Observer la surface. Il n'y a pas d'actes de violence physique visibles. Les rues sont calmes, les écoles fonctionnent. On pourrait croire qu'il y a la paix.",
+      "Étape 2 : Identifier la violence cachée. Mais cette 'tranquillité' repose sur la peur, l'intimidation et l'absence de liberté. C'est une violence structurelle : le système lui-même écrase les droits humains.",
+      "Étape 3 : Comprendre que la violence n'est pas seulement visible. La philosophie nous enseigne que la violence peut être silencieuse : une injustice légalisée, une oppression normalisée, c'est aussi de la violence.",
+      "Étape 4 : Reconnaître que cette 'paix' est fausse. Une véritable paix exige la justice, la dignité, le respect des droits. Sans cela, ce n'est qu'une paix imposée.",
+      "Étape 5 : Poser la question radicale. Est-ce que résister à cette violence structurelle par la protestation est une forme de violence ? Ou est-ce un acte de liberté face à l'injustice ?"
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés correspond à une compréhension philosophique correcte de la violence et de la paix ?",
+    "reponse_calculee": "La violence peut être structurelle et invisible ; la paix véritable exige la justice, pas seulement l'absence de conflit.",
+    "choices": [
+      {
+        "label": "La violence est uniquement physique et manifeste ; la paix est l'absence de guerre.",
+        "correct": false
+      },
+      {
+        "label": "La violence peut être structurelle et invisible ; la paix véritable exige la justice, pas seulement l'absence de conflit.",
+        "correct": true
+      },
+      {
+        "label": "La paix est possible même sous un régime dictatorial qui maintient l'ordre par la peur.",
+        "correct": false
+      },
+      {
+        "label": "La violence ne peut jamais servir à défendre la justice, quelle que soit la situation.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La violence dépasse les actes visibles : une injustice systématique, une oppression légalisée, c'est aussi de la violence. Et la paix n'est pas juste un silence forcé, c'est un état où les droits et la dignité sont respectés. C'est ce qui rend le débat philosophique si riche : quand peut-on considérer qu'une résistance est justifiée ?",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à ceci : une rue calme sous surveillance constante est-elle vraiment en paix ? La philosophie nous invite à voir au-delà des apparences. La violence existe aussi dans les structures injustes et invisibles. La paix véritable ne peut pas reposer sur la peur, mais sur le respect mutuel et la justice."
+  }
+}

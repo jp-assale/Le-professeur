@@ -1,0 +1,55 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-probabilites-denombrement-form",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilités (dénombrement, formule du binôme, loi binomiale)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Probabilités : dénombrement, formule du binôme, loi binomiale",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu organises une tombola au lycée pour financer un voyage scolaire. Il y a 50 billets au total, et 8 billets gagnants. Un ami t'achète 5 billets. Quelle est la probabilité qu'il gagne exactement 2 prix ? Pour répondre, tu dois compter les façons de choisir les billets gagnants parmi ceux qu'il a : c'est le cœur de ce chapitre."
+  },
+  "concept": {
+    "heading": "Dénombrement et formule du binôme",
+    "explanation": "Le dénombrement consiste à compter le nombre de façons de sélectionner ou d'arranger des objets. Dans les situations de probabilité, tu dois souvent compter les cas favorables parmi tous les cas possibles. La formule du binôme de Newton te permet de développer $(a+b)^n$ et compte les combinaisons qui y apparaissent. Une combinaison $C_n^k$ (ou $\\binom{n}{k}$) est le nombre de façons de choisir $k$ objets parmi $n$, sans tenir compte de l'ordre.",
+    "highlight": "$C_n^k = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$"
+  },
+  "example": {
+    "problem": "Une classe de 30 élèves doit former un comité de 4 élèves pour organiser la fête de fin d'année. Combien de comités différents peuvent être formés ? Ensuite, développe $(x+y)^4$ en utilisant la formule du binôme et identifie les coefficients binomiaux.",
+    "steps": [
+      "Étape 1 : On cherche à choisir 4 élèves parmi 30, sans ordre (un comité n'a pas de hiérarchie). C'est une combinaison : $C_{30}^4 = \\binom{30}{4}$.",
+      "Étape 2 : Applique la formule : $C_{30}^4 = \\frac{30!}{4!(30-4)!} = \\frac{30!}{4! \\times 26!}$.",
+      "Étape 3 : Simplifie en calculant : $C_{30}^4 = \\frac{30 \\times 29 \\times 28 \\times 27}{4 \\times 3 \\times 2 \\times 1} = \\frac{657720}{24} = 27405$. Donc 27405 comités différents.",
+      "Étape 4 : Pour $(x+y)^4$, la formule du binôme donne : $(x+y)^4 = \\sum_{k=0}^{4} C_4^k x^{4-k} y^k$.",
+      "Étape 5 : Développement complet : $(x+y)^4 = C_4^0 x^4 + C_4^1 x^3 y + C_4^2 x^2 y^2 + C_4^3 x y^3 + C_4^4 y^4 = x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4$. Les coefficients 1, 4, 6, 4, 1 sont les combinaisons $C_4^k$."
+    ]
+  },
+  "quiz": {
+    "question": "On lance une pièce équilibrée 6 fois. Quelle est la probabilité d'obtenir exactement 3 fois pile ? (Arrondir à 0,001 près)",
+    "reponse_calculee": "0,3125",
+    "choices": [
+      {
+        "label": "0,1667",
+        "correct": false
+      },
+      {
+        "label": "0,3125",
+        "correct": true
+      },
+      {
+        "label": "0,5000",
+        "correct": false
+      },
+      {
+        "label": "0,2109",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C'est une loi binomiale avec $n = 6$ et $p = 0,5$. La probabilité est $P(X = 3) = C_6^3 \\times (0,5)^3 \\times (0,5)^3 = 20 \\times 0,5^6 = 20 \\times \\frac{1}{64} = \\frac{20}{64} = 0,3125$. Tu as bien appliqué la formule !",
+    "feedback_wrong": "Pas tout à fait. Il s'agit d'une loi binomiale : $P(X = k) = C_n^k p^k (1-p)^{n-k}$. Ici, $C_6^3 = 20$, $p = 0,5$, et $(0,5)^6 = \\frac{1}{64}$, donc $P(X = 3) = 20 \\times \\frac{1}{64} = 0,3125$. Revois les étapes du calcul avec la formule binomiale."
+  }
+}

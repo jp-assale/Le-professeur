@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-dysfonctionnement-du-systeme-immunitaire",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Afrique de l'Ouest, le VIH/SIDA reste un enjeu de santé majeur. Imagine un ami qui apprend qu'il est séropositif après un test de dépistage. Son médecin lui explique que son système immunitaire est progressivement attaqué par un virus invisible. Pour comprendre ce qui se passe dans son corps, il faut d'abord savoir comment ce virus détruit les défenses naturelles de l'organisme."
+  },
+  "concept": {
+    "heading": "Définition et mécanisme central",
+    "explanation": "Le VIH (virus de l'immunodéficience humaine) est un virus qui infecte et détruit progressivement les lymphocytes T4, aussi appelés cellules CD4, qui sont les cellules-clés du système immunitaire. Ces cellules coordonnent la réponse immunitaire contre tous les agents pathogènes (bactéries, virus, champignons). Quand leur nombre baisse drastiquement, l'organisme ne peut plus se défendre efficacement, ce qui permet à d'autres infections opportunistes de s'installer. C'est à ce stade qu'on parle de SIDA (syndrome d'immunodéficience acquise). Le dysfonctionnement du système immunitaire se mesure par la baisse du nombre de lymphocytes T4 dans le sang.",
+    "highlight": "Le VIH détruit les lymphocytes T4 ; quand leur nombre tombe en dessous de 200 cellules/mm³ de sang, on parle de SIDA."
+  },
+  "example": {
+    "problem": "Un patient séropositif sous traitement antirétroviral (ARV) a effectué deux dosages de son nombre de lymphocytes T4. Au départ (mois 0), il avait 150 cellules/mm³. Après 6 mois de traitement régulier, son taux s'élève à 350 cellules/mm³. Sachant que le seuil d'immunodéficience critique est fixé à 200 cellules/mm³, calcule l'augmentation du nombre de lymphocytes T4 et détermine si ce patient a dépassé le seuil critique après 6 mois.",
+    "steps": [
+      "Étape 1 : Identifie les valeurs. Taux initial = 150 cellules/mm³ ; Taux après 6 mois = 350 cellules/mm³ ; Seuil critique = 200 cellules/mm³.",
+      "Étape 2 : Calcule l'augmentation = Taux final - Taux initial = 350 - 150 = 200 cellules/mm³.",
+      "Étape 3 : Compare le taux final au seuil critique. 350 cellules/mm³ > 200 cellules/mm³.",
+      "Étape 4 : Interprète le résultat. Le patient a gagné 200 cellules/mm³ en 6 mois grâce au traitement, et son système immunitaire a dépassé le seuil critique (il n'est plus en stade SIDA déclaré).",
+      "Étape 5 : Conclusion. Le traitement ARV fonctionne : la réplication virale est ralentie, les lymphocytes T4 se régénèrent, et le système immunitaire retrouve partiellement sa capacité à combattre les infections."
+    ]
+  },
+  "quiz": {
+    "question": "Une patiente séropositive présente un nombre de lymphocytes T4 de 180 cellules/mm³ lors de sa visite médicale. Après 8 mois de traitement régulier, ce nombre augmente de 240 cellules/mm³. Quel est son nouveau taux de lymphocytes T4 ?",
+    "reponse_calculee": "420",
+    "choices": [
+      {
+        "label": "60 cellules/mm³",
+        "correct": false
+      },
+      {
+        "label": "180 cellules/mm³",
+        "correct": false
+      },
+      {
+        "label": "420 cellules/mm³",
+        "correct": true
+      },
+      {
+        "label": "240 cellules/mm³",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as trouvé la bonne réponse. Le calcul est simple : 180 + 240 = 420 cellules/mm³. Ce nouveau taux est bien supérieur à 200 cellules/mm³, ce qui signifie que la patiente a dépassé le seuil critique du SIDA déclaré grâce au traitement antirétroviral régulier.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Il faut additionner le taux initial et l'augmentation : 180 cellules/mm³ + 240 cellules/mm³ = 420 cellules/mm³. Souviens-toi que l'augmentation s'ajoute au taux de départ, et que le résultat doit être supérieur aux deux valeurs de départ pour être cohérent."
+  }
+}

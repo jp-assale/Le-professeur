@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-geometrie-du-plan-nombres-",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie du plan (nombres complexes et transformations)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Géométrie du plan : nombres complexes et transformations",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois concevoir une route qui tourne de 90° autour d'un carrefour, ou que tu dois agrandir un motif tissé tout en le faisant pivoter. Les nombres complexes et les transformations géométriques sont les outils qui te permettent de décrire précisément ces rotations, agrandissements et déplacements dans le plan. C'est exactement ce que tu vas maîtriser dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Nombres complexes et transformations du plan",
+    "explanation": "Un nombre complexe $z = a + bi$ (avec $a$ et $b$ réels) représente un point du plan aux coordonnées $(a, b)$. Une transformation géométrique (translation, rotation, homothétie, similitude) peut être exprimée comme une opération sur les nombres complexes. Par exemple, multiplier un nombre complexe par un autre effectue à la fois une rotation et une homothétie. Les transformations les plus courantes en géométrie du plan sont décrites par des fonctions complexes simples.",
+    "highlight": "Une transformation $T$ du plan peut s'écrire sous la forme $z' = az + b$, où $a$ et $b$ sont des nombres complexes fixes. Cela unifie translations, rotations et homothéties."
+  },
+  "example": {
+    "problem": "On considère la transformation $T$ définie par $z' = (1 + i)z + 2$. Le point $A$ a pour affixe $z_A = 1 + i$. Détermine l'affixe du point $A'$, image de $A$ par la transformation $T$.",
+    "steps": [
+      "Rappelle-toi que tu dois appliquer la formule $z' = az + b$ avec $a = 1 + i$ et $b = 2$.",
+      "Substitue $z_A = 1 + i$ dans la formule : $z' = (1 + i)(1 + i) + 2$.",
+      "Développe le produit $(1 + i)(1 + i) = 1 + i + i + i^2 = 1 + 2i - 1 = 2i$.",
+      "Ajoute la constante : $z' = 2i + 2 = 2 + 2i$.",
+      "Conclue : l'affixe de $A'$ est $z_{A'} = 2 + 2i$, ce qui correspond au point de coordonnées $(2, 2)$ dans le plan."
+    ]
+  },
+  "quiz": {
+    "question": "On applique la transformation $T : z' = iz + 1$ au point $B$ d'affixe $z_B = 2$. Quelle est l'affixe du point $B'$ image de $B$ ?",
+    "reponse_calculee": "1 + 2i",
+    "choices": [
+      {
+        "label": "$2i + 1$",
+        "correct": true
+      },
+      {
+        "label": "$2 + i$",
+        "correct": false
+      },
+      {
+        "label": "$3i$",
+        "correct": false
+      },
+      {
+        "label": "$1 - 2i$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule $z' = iz + 1$. En substituant $z_B = 2$, tu obtiens $z' = i \\cdot 2 + 1 = 2i + 1 = 1 + 2i$. Cette transformation combine une rotation de 90° (due à la multiplication par $i$) et une translation de 1 vers la droite.",
+    "feedback_wrong": "Pas tout à fait. Réapplique la formule étape par étape : $z' = i \\cdot 2 + 1$. D'abord, $i \\cdot 2 = 2i$. Puis ajoute la constante 1 : $z' = 2i + 1 = 1 + 2i$. Souviens-toi que multiplier par $i$ effectue une rotation de 90° dans le plan complexe."
+  }
+}

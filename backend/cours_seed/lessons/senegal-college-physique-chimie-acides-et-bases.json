@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-physique-chimie-acides-et-bases",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Acides et bases",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Acides et bases",
+  "intro": {
+    "heading": "Mise en situation : pourquoi le jus de citron pique et l'eau savonneuse glisse ?",
+    "body": "Au marché, tu achètes des citrons bien acides. À la maison, tu laves la vaisselle avec du savon qui glisse entre tes doigts. Le jus de citron et le savon ne se comportent pas du tout pareil : l'un attaque tes dents, l'autre nettoie tes mains. Ces deux substances appartiennent à des familles chimiques opposées. Aujourd'hui, tu vas comprendre pourquoi et comment identifier ces deux familles : les acides et les bases."
+  },
+  "concept": {
+    "heading": "Définition : acides et bases",
+    "explanation": "Un acide est une substance qui libère des ions hydrogène $H^+$ dans l'eau et qui a un goût piquant (comme le citron, le vinaigre). Une base (ou alcali) est une substance qui libère des ions hydroxyde $OH^-$ dans l'eau et qui est glissante au toucher (comme le savon, l'ammoniaque). Les acides et les bases sont des substances opposées qui peuvent réagir ensemble. On mesure l'acidité ou la basicité d'une solution avec l'échelle de pH, qui varie de 0 à 14.",
+    "highlight": "pH < 7 : acide | pH = 7 : neutre | pH > 7 : basique"
+  },
+  "example": {
+    "problem": "On verse du vinaigre (acide acétique) dans une solution contenant de l'hydroxyde de sodium (base). Le vinaigre a un pH de 3 et la solution basique a un pH de 11. Après mélange, on mesure un pH de 7. Explique ce qui s'est passé et identifie la nature de la solution finale.",
+    "steps": [
+      "Étape 1 : Identifier les substances initiales. Le vinaigre (pH = 3) est un acide car pH < 7. La solution sodique (pH = 11) est une base car pH > 7.",
+      "Étape 2 : Reconnaître la réaction. Lorsqu'on mélange un acide et une base, ils réagissent ensemble : les ions $H^+$ de l'acide se combinent avec les ions $OH^-$ de la base.",
+      "Étape 3 : Écrire la réaction acido-basique : $H^+ + OH^- \\rightarrow H_2O$ (eau).",
+      "Étape 4 : Observer le pH final. Le pH final est 7, ce qui signifie que la solution est neutre.",
+      "Étape 5 : Conclure. Les quantités d'acide et de base se sont exactement neutralisées. On appelle cela une réaction de neutralisation. Le produit principal est l'eau, qui est neutre."
+    ]
+  },
+  "quiz": {
+    "question": "On teste une solution avec un papier indicateur de pH. Le papier vire au rouge. Que peut-on affirmer sur cette solution ?",
+    "reponse_calculee": "La solution est acide car le papier indicateur vire au rouge, ce qui indique un pH inférieur à 7.",
+    "choices": [
+      {
+        "label": "La solution est basique car le papier est devenu coloré.",
+        "correct": false
+      },
+      {
+        "label": "La solution est acide car le papier indicateur vire au rouge, ce qui indique un pH inférieur à 7.",
+        "correct": true
+      },
+      {
+        "label": "La solution est neutre puisqu'elle a une couleur définie.",
+        "correct": false
+      },
+      {
+        "label": "On ne peut rien affirmer sans connaître le pH exact.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le virage au rouge du papier indicateur est la signature d'une solution acide. Les papiers indicateurs de pH sont calibrés pour changer de couleur selon les domaines : rouge ou rose pour les acides (pH < 7), bleu ou violet pour les bases (pH > 7). Tu as bien mémorisé l'outil de mesure.",
+    "feedback_wrong": "Pas tout à fait. Le papier indicateur ne vire pas au rouge pour une base : il vire au bleu ou au violet. Le rouge indique un pH inférieur à 7, donc une solution acide. C'est l'inverse pour les bases. Relis les codes couleur des indicateurs de pH."
+  }
+}

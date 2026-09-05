@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-decolonisation-et-la-",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La décolonisation et la naissance du Tiers-monde (causes et formes de la décolonisation, le Sénégal de 1944 à 1962, Bandoeng)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La décolonisation et la naissance du Tiers-monde",
+  "intro": {
+    "heading": "Mise en situation : pourquoi l'Afrique s'est levée",
+    "body": "Imagine qu'après la Seconde Guerre mondiale, les Européens reviennent en Afrique en pensant tout contrôler comme avant. Mais les choses ont changé : les Africains ont combattu pour l'Europe, ont découvert d'autres mondes, ont senti leur force. Partout sur le continent, une même question monte : pourquoi obéir encore à des puissances lointaines ? C'est ce mouvement de rupture, massive et rapide, qu'on appelle la décolonisation. Tu vas comprendre comment et pourquoi les colonisés se sont libérés."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la décolonisation ?",
+    "explanation": "La décolonisation est le processus par lequel les peuples colonisés conquièrent leur indépendance politique et se libèrent de la domination des puissances coloniales européennes. Ce mouvement s'accélère après 1945, notamment en Afrique et en Asie. Les causes sont multiples : affaiblissement des métropoles européennes (usées par la guerre), prise de conscience nationaliste des colonisés, soutien des puissances nouvelles comme l'URSS et les États-Unis, et mouvements de résistance organisés. Les formes de décolonisation varient : certaines sont pacifiques (négociations), d'autres violentes (guerres de libération).",
+    "highlight": "La décolonisation = passage du statut de colonie au statut d'État indépendant souverain"
+  },
+  "example": {
+    "problem": "Analysons le parcours du Sénégal de 1944 à 1962 pour comprendre comment fonctionne une décolonisation pacifique.",
+    "steps": [
+      "Étape 1 — Le point de départ (1944) : le Sénégal est une colonie française depuis longtemps. À Dakar siègent des colonisateurs européens qui décident de tout. Mais en 1944, la France reconnaît le droit de vote aux « ressortissants » africains des quatre communes de plein exercice (Saint-Louis, Gorée, Dakar, Rufisque). C'est un premier pas : quelques Africains peuvent enfin participer au vote.",
+      "Étape 2 — L'émergence de leaders (1945-1950) : des intellectuels et politiciens sénégalais comme Léopold Sédar Senghor et Lamine Guèye se font élire aux assemblées françaises. Ils défendent les intérêts africains depuis Paris même. Ils réclament plus de droits, plus de participation.",
+      "Étape 3 — L'accélération (1956) : la France crée les lois-cadres Gaston Defferre qui accordent l'autonomie interne aux colonies d'Afrique française. Le Sénégal obtient un gouvernement local africain, un premier ministre africain. La dépendance diminue concrètement.",
+      "Étape 4 — L'union puis la rupture (1959-1960) : le Sénégal s'unit avec le Soudan français pour former la Fédération du Mali en 1959, cherchant une force commune. Mais cette union se dissout rapidement. Le Sénégal proclame son indépendance le 20 juin 1960 de manière pacifique, par accord avec la France.",
+      "Étape 5 — Le résultat : contrairement à d'autres colonies (l'Algérie, l'Indochine), le Sénégal n'a pas eu besoin de guerre de libération. Les négociations progressives et la mobilisation politique ont suffi. C'est une décolonisation pacifique.",
+      "Étape 6 — Le contexte plus large : ce succès sénégalais fait partie d'une vague africaine plus large. En 1960, 17 États africains accèdent à l'indépendance. Tous partagent une volonté commune : construire des nations modernes et trouver leur place dans un monde désormais bipolaire (URSS vs États-Unis)."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les formes de décolonisation qui se sont produites après 1945, laquelle caractérise le parcours du Sénégal entre 1944 et 1962 ?",
+    "reponse_calculee": "Une décolonisation pacifique par négociations progressives et accords avec la puissance coloniale",
+    "choices": [
+      {
+        "label": "Une décolonisation violente avec une longue guerre de libération",
+        "correct": false
+      },
+      {
+        "label": "Une décolonisation pacifique par négociations progressives et accords avec la puissance coloniale",
+        "correct": true
+      },
+      {
+        "label": "Une décolonisation imposée brutalement par une intervention étrangère",
+        "correct": false
+      },
+      {
+        "label": "Une décolonisation sans jamais obtenir une véritable indépendance politique",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le Sénégal illustre parfaitement la décolonisation pacifique. Par étapes successives (droit de vote en 1944, autonomie interne en 1956, indépendance en 1960), les Sénégalais ont obtenu leur liberté sans affrontement militaire généralisé. Cela contraste avec l'Algérie (8 ans de guerre) ou l'Indochine. La clé : un dialogue politique continu et des leaders forts comme Senghor.",
+    "feedback_wrong": "Pas tout à fait. Regarde bien le parcours : 1944 (droit de vote accordé), 1956 (autonomie interne), 1960 (indépendance proclamée sans rupture violente). Le Sénégal n'a pas connu de guerre de libération majeure. C'est justement ce qui le rend exemplaire dans le paysage africain de l'époque."
+  }
+}

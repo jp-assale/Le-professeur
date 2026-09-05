@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-fonction-logarithme-neperien",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonction logarithme népérien",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Fonction logarithme népérien",
+  "intro": {
+    "heading": "Mise en situation : Mesurer l'invisible",
+    "body": "Imagine que tu travailles dans un laboratoire d'analyse d'eau à Cotonou. Pour évaluer la qualité de l'eau d'un puits, tu dois mesurer la concentration en ions hydrogen (pH). Le pH n'est pas une simple proportion : c'est le logarithme de la concentration. Sans cette fonction, les scientifiques ne pourraient pas transformer des nombres microscopiquement petits en valeurs lisibles. Le logarithme népérien est l'outil mathématique qui rend possible cette transformation."
+  },
+  "concept": {
+    "heading": "Définition : La fonction logarithme népérien",
+    "explanation": "La fonction logarithme népérien, notée $\\ln$, est la fonction réciproque de la fonction exponentielle de base $e$ (où $e \\approx 2,718$). Elle est définie pour tout nombre réel strictement positif. Si tu connais l'exponentielle, le logarithme te permet de répondre à la question inverse : « À quelle puissance dois-je élever $e$ pour obtenir ce nombre ? »",
+    "highlight": "Pour tout $x > 0$ : $e^{\\ln(x)} = x$ et $\\ln(e^x) = x$"
+  },
+  "example": {
+    "problem": "Une population de bactéries croît selon la formule $N(t) = 1000 \\cdot e^{0,3t}$, où $t$ est le temps en heures. Après combien de temps cette population atteindra-t-elle 5000 individus ? (Donne la réponse arrondie à 0,01 heure près.)",
+    "steps": [
+      "Étape 1 : Pose l'équation. Tu cherches $t$ tel que $N(t) = 5000$. Donc : $1000 \\cdot e^{0,3t} = 5000$",
+      "Étape 2 : Divise les deux côtés par 1000 pour isoler l'exponentielle. Tu obtiens : $e^{0,3t} = 5$",
+      "Étape 3 : Applique le logarithme népérien des deux côtés. Rappelle-toi que $\\ln(e^{0,3t}) = 0,3t$. Tu as donc : $\\ln(5) = 0,3t$",
+      "Étape 4 : Calcule $\\ln(5)$. À la calculatrice : $\\ln(5) \\approx 1,609$",
+      "Étape 5 : Divise par 0,3 pour isoler $t$ : $t = \\frac{1,609}{0,3} \\approx 5,36$ heures",
+      "Réponse : La population atteindra 5000 individus après environ 5,36 heures."
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation $\\ln(x) = 2$. Quelle est la valeur de $x$ ? (Arrondis à 0,01 près.)",
+    "reponse_calculee": "7,39",
+    "choices": [
+      {
+        "label": "$x \\approx 2,00$",
+        "correct": false
+      },
+      {
+        "label": "$x \\approx 7,39$",
+        "correct": true
+      },
+      {
+        "label": "$x \\approx 0,69$",
+        "correct": false
+      },
+      {
+        "label": "$x \\approx 54,60$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour résoudre $\\ln(x) = 2$, tu utilises la propriété réciproque : si $\\ln(x) = 2$, alors $x = e^2$. En calculant $e^2 \\approx 7,39$, tu obtiens la bonne réponse. C'est l'application directe de la définition du logarithme comme inverse de l'exponentielle.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi que le logarithme népérien et l'exponentielle de base $e$ sont des fonctions réciproques. Si $\\ln(x) = 2$, alors tu dois appliquer l'exponentielle des deux côtés : $x = e^2 \\approx 7,39$. Vérifie ta calculatrice et réessaye."
+  }
+}

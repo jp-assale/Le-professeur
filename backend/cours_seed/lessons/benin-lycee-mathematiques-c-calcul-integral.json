@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-calcul-integral",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul intégral",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Calcul intégral",
+  "intro": {
+    "heading": "Mise en situation : Mesurer une récolte de cacao",
+    "body": "Un producteur de cacao au Bénin doit estimer la quantité totale de fèves récoltées dans un champ en pente. Il connaît le taux de récolte à chaque position du terrain (en kg par mètre), mais le terrain n'est pas régulier. Comment calculer la récolte totale sans tout peser manuellement ? C'est exactement ce que l'intégrale permet de faire : accumuler des petites quantités pour obtenir un total."
+  },
+  "concept": {
+    "heading": "L'intégrale : définition et sens",
+    "explanation": "L'intégrale est un outil qui permet de calculer une accumulation : l'aire sous une courbe, un volume, une quantité totale. Si tu as une fonction $f(x)$ qui décrit une quantité (masse, vitesse, population...), son intégrale sur un intervalle $[a, b]$ te donne le résultat total de cette accumulation entre les bornes $a$ et $b$. L'intégrale est l'opération inverse de la dérivation.",
+    "highlight": "$\\int_a^b f(x) \\, dx = F(b) - F(a)$ où $F$ est une primitive de $f$"
+  },
+  "example": {
+    "problem": "Un champ rectangulaire a une largeur variable. À chaque position $x$ (en mètres) mesurée depuis le bord, la largeur est donnée par $f(x) = 3x + 2$ (en mètres). Le champ s'étend de $x = 0$ à $x = 4$ mètres. Calcule l'aire totale du champ.",
+    "steps": [
+      "Étape 1 : Identifie la fonction à intégrer. Ici, $f(x) = 3x + 2$ sur l'intervalle $[0, 4].",
+      "Étape 2 : Trouve une primitive $F(x)$ de $f(x)$. La primitive de $3x$ est $\\frac{3x^2}{2}$ et celle de $2$ est $2x$, donc $F(x) = \\frac{3x^2}{2} + 2x$.",
+      "Étape 3 : Applique la formule : $\\int_0^4 (3x + 2) \\, dx = F(4) - F(0)$.",
+      "Étape 4 : Calcule $F(4) = \\frac{3 \\cdot 4^2}{2} + 2 \\cdot 4 = \\frac{3 \\cdot 16}{2} + 8 = \\frac{48}{2} + 8 = 24 + 8 = 32$.",
+      "Étape 5 : Calcule $F(0) = \\frac{3 \\cdot 0^2}{2} + 2 \\cdot 0 = 0$.",
+      "Étape 6 : Conclusion : $\\int_0^4 (3x + 2) \\, dx = 32 - 0 = 32$ mètres carrés."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule $\\int_1^3 (2x + 1) \\, dx$.",
+    "reponse_calculee": "10",
+    "choices": [
+      {
+        "label": "8",
+        "correct": false
+      },
+      {
+        "label": "10",
+        "correct": true
+      },
+      {
+        "label": "12",
+        "correct": false
+      },
+      {
+        "label": "6",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La primitive de $2x + 1$ est $x^2 + x$. En appliquant la formule : $[x^2 + x]_1^3 = (3^2 + 3) - (1^2 + 1) = 12 - 2 = 10$. Tu maîtrises bien le calcul d'une intégrale définie.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : il faut d'abord trouver la primitive de $2x + 1$, c'est $x^2 + x$. Ensuite, tu évalues à la borne supérieure 3 et à la borne inférieure 1, puis tu soustrais : $(3^2 + 3) - (1^2 + 1) = 12 - 2 = 10$."
+  }
+}

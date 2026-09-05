@@ -1,0 +1,55 @@
+{
+  "slug": "benin-lycee-mathematiques-c-nombres-complexes-forme-algebriq",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres complexes (forme algébrique, module/argument, formes trigonométrique/exponentielle, équations)",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Nombres complexes : forme algébrique, module, argument et équations",
+  "intro": {
+    "heading": "Mise en situation : Les signaux électriques en Afrique de l'Ouest",
+    "body": "Dans les réseaux électriques modernes, les ingénieurs doivent analyser des courants et des tensions qui oscillent en déphasage. Un courant peut être représenté non seulement par sa magnitude, mais aussi par son déphasage par rapport à la tension. Les nombres complexes sont l'outil mathématique idéal pour modéliser ces phénomènes simultanément. C'est grâce à eux qu'on peut concevoir des transformateurs et des circuits efficaces dans les centrales hydroélectriques du Bénin et de la région."
+  },
+  "concept": {
+    "heading": "Un nombre complexe : définition et formes",
+    "explanation": "Un nombre complexe est un nombre qui combine une partie réelle et une partie imaginaire. Contrairement aux nombres réels seuls, il permet de représenter et de résoudre des équations qui n'ont pas de solutions réelles, comme $x^2 + 1 = 0$. Un nombre complexe peut être écrit de plusieurs formes : algébrique (combinaison de réel et d'imaginaire), trigonométrique (avec module et argument), ou exponentielle (avec l'exponentielle complexe). Chaque forme révèle des informations différentes : la forme algébrique montre la structure additive, tandis que le module et l'argument donnent la magnitude et l'orientation dans le plan complexe.",
+    "highlight": "Forme algébrique : z = a + ib, où a et b sont réels, et i² = −1. Module : |z| = √(a² + b²). Argument : θ tel que z = |z|(cos θ + i sin θ)."
+  },
+  "example": {
+    "problem": "Soit z = 3 + 4i. Calcule le module de z, son argument (en radians, à 0,01 près), puis écris z sous forme trigonométrique.",
+    "steps": [
+      "Étape 1 : Identifie les parties. Ici a = 3 et b = 4.",
+      "Étape 2 : Calcule le module. |z| = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+      "Étape 3 : Calcule l'argument. tan(θ) = b/a = 4/3. Donc θ = arctan(4/3) ≈ 0,93 rad (puisque z est au premier quadrant).",
+      "Étape 4 : Écris la forme trigonométrique. z = 5(cos 0,93 + i sin 0,93).",
+      "Étape 5 : Tu peux aussi l'écrire en forme exponentielle : z = 5e^(i·0,93)."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le module du nombre complexe w = −3 + 4i ?",
+    "reponse_calculee": "5",
+    "choices": [
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "4",
+        "correct": false
+      },
+      {
+        "label": "5",
+        "correct": true
+      },
+      {
+        "label": "7",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le module de w = −3 + 4i se calcule avec |w| = √((−3)² + 4²) = √(9 + 16) = √25 = 5. Le signe négatif de la partie réelle n'affecte pas le module, puisqu'on élève au carré.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que le module d'un nombre complexe z = a + ib est |z| = √(a² + b²). Ici, a = −3 et b = 4, donc |w| = √(9 + 16) = 5. Le signe de a n'importe pas, c'est son carré qui compte."
+  }
+}

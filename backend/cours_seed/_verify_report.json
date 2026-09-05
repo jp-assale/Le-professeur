@@ -1,0 +1,236 @@
+[
+  {
+    "slug": "cote-ivoire-college-mathematiques-calcul-numerique",
+    "matiere": "Mathematiques",
+    "chapitre": "Calcul numérique",
+    "question": "Un élève achète 4 cahiers à 1 250 F CFA chacun et 2 stylos à 500 F CFA chacun. Quel est le montant total dépensé ?",
+    "marked_correct": "6 000 F CFA",
+    "verifier_answer": "6500 F CFA",
+    "note": "Calcul indépendant : 4 cahiers × 1250 F = 5000 F, plus 2 stylos × 500 F = 1000 F, total = 6500 F CFA. La réponse candidate de 6000 F CFA est incorrecte."
+  },
+  {
+    "slug": "cote-ivoire-college-physique-chimie-equilibre-d-un-solide-so",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Équilibre d'un solide soumis à deux forces",
+    "question": "Une porte de maison est poussée par la gauche avec une force de 80 N. Un enfant la pousse de l'autre côté (par la droite) avec une force de 50 N. La porte peut-elle être en équilibre ? Si non, pourquoi ? Si oui, qu'faut-il changer ?",
+    "marked_correct": "Non, la porte ne peut pas être en équilibre car les intensités des forces sont différentes (80 N ≠ 50 N)",
+    "verifier_answer": "Non, la porte ne peut pas être en équilibre avec ces deux forces uniquement. Cependant, la raison donnée est INCOMPLÈTE. L'équilibre rotationnel d'une porte dépend des MOMENTS (couples) de force, pas seulement des intensités. Deux forces de même intensité peuvent créer un équilibre si elles sont appliquées au même point, mais deux forces appliquées à des distances différentes du pivot (charnière) créent des moments différents. Ici, 80 N à gauche et 50 N à droite créent des moments différents. Pour équilibrer, il faudrait soit : (1) augmenter la force de l'enfant à 80 N, (2) appliquer la force de 50 N plus loin du pivot, ou (3) ajouter une troisième force de contre-moment.",
+    "note": "La réponse candidate est techniquement CORRECTE dans sa conclusion (non, pas d'équilibre) mais INCORRECT dans sa justification. Elle ne mentionne pas le concept crucial de MOMENT DE FORCE. L'équilibre rotationnel requiert que la somme des moments soit nulle, pas seulement l'égalité des forces. La réponse candidate confond l'équilibre de translation avec l'équilibre de rotation."
+  },
+  {
+    "slug": "cote-ivoire-college-physique-chimie-electrolyse-et-synthese-",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Électrolyse et synthèse de l'eau",
+    "question": "Lors de l'électrolyse de 180 g d'eau, quelle est la masse totale de gaz (hydrogène + oxygène) qui se dégage ? (Masses molaires : H₂O = 18 g/mol ; H₂ = 2 g/mol ; O₂ = 32 g/mol)",
+    "marked_correct": "180 g",
+    "verifier_answer": "20 g",
+    "note": "L'électrolyse de l'eau suit l'équation: 2H₂O → 2H₂ + O₂. Avec 180 g d'eau (180/18 = 10 mol), on produit 10 mol de H₂ (20 g) et 5 mol de O₂ (160 g), soit un total de 20 + 160 = 180 g de gaz... Correction: le total est bien 180 g. La réponse candidate est correcte."
+  },
+  {
+    "slug": "cote-ivoire-college-svt-la-digestion-des-aliments",
+    "matiere": "SVT",
+    "chapitre": "La digestion des aliments",
+    "question": "Durant sa digestion, une banane de 120 g passe par la bouche (où elle est mâchée mécaniquement), puis par l'estomac. Dans l'estomac, 40 % des sucres simples sont directement absorbés. Quelle masse de sucres simples a été absorbée dans l'estomac ?",
+    "marked_correct": "48 g",
+    "verifier_answer": "Impossible à calculer - donnée manquante",
+    "note": "La question ne précise pas la teneur en sucres simples de la banane de 120 g. Sans connaître le pourcentage ou la masse de sucres simples dans la banane initiale, on ne peut pas calculer 40% de cette masse. La réponse candidate de 48 g supposerait que la banane contient 120 g de sucres simples (ce qui est irréaliste), ou que 40% de 120 g = 48 g, ce qui est mathématiquement faux (40% de 120 g = 48 g seulement si on considère que toute la banane est du sucre simple, mais ce n'est pas réaliste)."
+  },
+  {
+    "slug": "cote-ivoire-college-svt-la-transfusion-sanguine",
+    "matiere": "SVT",
+    "chapitre": "La transfusion sanguine",
+    "question": "Une personne de groupe sanguin AB positif doit recevoir une transfusion. Combien de groupes sanguins différents peuvent lui donner du sang de façon sûre ?",
+    "marked_correct": "4 groupes (O+, O−, AB+ et AB−)",
+    "verifier_answer": "2 groupes (AB+ et AB−)",
+    "note": "Une personne AB+ possède les antigènes A, B et le facteur Rh+. Elle peut recevoir du sang AB+ (compatible parfait) et AB− (compatible car absence de Rh ne pose pas problème chez un receveur Rh+). Les groupes O+, O− contiennent des anticorps anti-A et anti-B qui provoquent une réaction hémolytique. La réponse candidate est incorrecte."
+  },
+  {
+    "slug": "cote-ivoire-lycee-mathematiques-d-fonctions-logarithmes",
+    "matiere": "Mathematiques",
+    "chapitre": "Fonctions logarithmes",
+    "question": "Résous l'équation $e^x = 20$ et donne la valeur de $x$ arrondie à deux décimales.",
+    "marked_correct": "2,99",
+    "verifier_answer": "2.996 ≈ 3.00",
+    "note": "L'équation e^x = 20 se résout par x = ln(20). Calcul: ln(20) = 2.9957... ≈ 3.00 arrondi à deux décimales. La réponse candidate 2.99 est insuffisamment arrondie; l'arrondi correct à deux décimales est 3.00."
+  },
+  {
+    "slug": "cote-ivoire-lycee-mathematiques-c-geometrie-analytique-de-l-",
+    "matiere": "Mathematiques",
+    "chapitre": "Géométrie analytique de l'espace",
+    "question": "Deux salles de réunion d'une tour sont situées aux points A(1, 2, 5) et C(4, 6, 9). Quelle est la distance qui les sépare ?",
+    "marked_correct": "$\\sqrt{41}$",
+    "verifier_answer": "$\\sqrt{41}$",
+    "note": "La distance entre deux points A(x₁, y₁, z₁) et C(x₂, y₂, z₂) dans l'espace 3D se calcule avec la formule : d = √[(x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²]. Avec A(1, 2, 5) et C(4, 6, 9) : d = √[(4-1)² + (6-2)² + (9-5)²] = √[3² + 4² + 4²] = √[9 + 16 + 16] = √41. La réponse candidate est exacte."
+  },
+  {
+    "slug": "cote-ivoire-lycee-physique-chimie-c-d-electromagnetisme",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Électromagnétisme",
+    "question": "Un solénoïde (bobine cylindrique) de 500 spires, parcouru par un courant I = 2 A, a une longueur L = 0,25 m. Calcule l'intensité du champ magnétique à l'intérieur du solénoïde. Données : $\\mu_0 = 4\\pi \\times 10^{-7}$ T·m/A. (Formule : $B = \\mu_0 \\frac{N}{L} I$ où N est le nombre de spires.)",
+    "marked_correct": "0,005 T",
+    "verifier_answer": "0,005027 T (ou 5,03 × 10⁻³ T)",
+    "note": "Calcul : B = μ₀(N/L)I = (4π × 10⁻⁷) × (500/0,25) × 2 = (4π × 10⁻⁷) × 2000 × 2 = (4π × 10⁻⁷) × 4000 = 16000π × 10⁻⁷ = 1,6π × 10⁻³ ≈ 0,005027 T. La réponse candidate 0,005 T est une approximation arrondie (≈0,005) mais ne correspond pas exactement à la valeur précise calculée."
+  },
+  {
+    "slug": "cote-ivoire-lycee-svt-c-la-communication-dans-l-organisme-co",
+    "matiere": "SVT",
+    "chapitre": "La communication dans l'organisme (communication nerveuse)",
+    "question": "Lors d'une réaction réflexe (par exemple retirer la main d'une flamme), l'influx nerveux suit un chemin appelé arc réflexe. Cet arc comporte généralement trois éléments fondamentaux. Quel est l'ordre correct de transmission de l'influx nerveux dans un arc réflexe simple ?",
+    "marked_correct": "Récepteur sensoriel → Moelle épinière → Effecteur moteur",
+    "verifier_answer": "Récepteur sensoriel → Neurone sensoriel (afférent) → Moelle épinière (centre nerveux) → Neurone moteur (efférent) → Effecteur moteur",
+    "note": "La réponse candidate omet les deux neurones (sensoriel et moteur) qui constituent les éléments fondamentaux de l'arc réflexe. L'ordre correct comprend 5 éléments: récepteur → neurone afférent → centre nerveux → neurone efférent → effecteur. La réponse candidate ne mentionne que 3 structures sans préciser le rôle des neurones, ce qui est insuffisant pour décrire complètement l'arc réflexe simple."
+  },
+  {
+    "slug": "mali-lycee-mathematiques-se-etude-des-nombres-complexes",
+    "matiere": "Mathematiques",
+    "chapitre": "Étude des nombres complexes",
+    "question": "Calcule le produit des nombres complexes $z = 2 + i$ et $w = 3 - 2i$.",
+    "marked_correct": "8 - i",
+    "verifier_answer": "8 + i",
+    "note": "Calcul : (2 + i)(3 - 2i) = 2×3 + 2×(-2i) + i×3 + i×(-2i) = 6 - 4i + 3i - 2i² = 6 - 4i + 3i + 2 = 8 - i. Attendez, recalculons : 6 + 2 + (-4i + 3i) = 8 - i. Le résultat correct est 8 - i, qui correspond à la réponse candidate."
+  },
+  {
+    "slug": "mali-lycee-mathematiques-se-calculs-barycentriques",
+    "matiere": "Mathematiques",
+    "chapitre": "Calculs barycentriques",
+    "question": "Deux points M et N ont pour coordonnées $M(0, 4)$ et $N(6, 0)$. On affecte à M le poids 3 et à N le poids 2. Quelle est l'abscisse du barycentre de ces deux points ?",
+    "marked_correct": "2,4",
+    "verifier_answer": "3,6",
+    "note": "Le barycentre de deux points M et N affectés des poids respectifs 3 et 2 se calcule par la formule : x_G = (p_M × x_M + p_N × x_N) / (p_M + p_N) = (3 × 0 + 2 × 6) / (3 + 2) = 12 / 5 = 2,4. Attente : 2,4. Résultat calculé : 2,4. La réponse candidate 2,4 est correcte."
+  },
+  {
+    "slug": "mali-lycee-physique-chimie-se-oscillations-forcees",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Oscillations forcées",
+    "question": "Un oscillateur amorti a une fréquence propre f₀ = 10 Hz et une constante d'amortissement γ = 1 kg/s. Sa masse est m = 0,5 kg. On lui applique une force sinusoïdale d'amplitude F₀ = 20 N à la fréquence f₀ = 10 Hz (à la résonance). Quelle est l'amplitude des oscillations à la résonance ? (Utilise la formule A = F₀ / (2mγω₀) avec ω₀ = 2πf₀.)",
+    "marked_correct": "0,637 m",
+    "verifier_answer": "0,318 m",
+    "note": "L'amplitude calculée avec la formule donnée est A = 20/(20π) = 1/π ≈ 0,318 m. La réponse candidate de 0,637 m est environ le double, correspondant à 2/π, ce qui ne correspond pas au calcul correct."
+  },
+  {
+    "slug": "mali-lycee-physique-chimie-se-les-amines",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Les amines",
+    "question": "La diméthylamine a pour formule semi-développée $CH_3-NH-CH_3$. Quelle est sa formule brute et quel type d'amine est-ce ?",
+    "marked_correct": "$C_2H_7N$, amine secondaire",
+    "verifier_answer": "C₃H₉N, amine secondaire",
+    "note": "La formule semi-développée CH₃-NH-CH₃ contient 3 atomes de carbone (deux CH₃), 9 atomes d'hydrogène (6 des deux CH₃ + 1 sur l'azote + 2 sur l'azote = 6+1+2=9), et 1 atome d'azote, donnant C₃H₉N. La classification comme amine secondaire est correcte (l'azote est lié à deux groupes alkyle et un hydrogène). La réponse candidate C₂H₇N est incorrecte."
+  },
+  {
+    "slug": "mali-lycee-physique-chimie-se-la-cinetique-chimique",
+    "matiere": "Physique-Chimie",
+    "chapitre": "La cinétique chimique",
+    "question": "Un composé se désintègre progressivement. À t = 0 min, sa concentration est 4,2 mol·L⁻¹. À t = 6 min, elle est 2,4 mol·L⁻¹. Quelle est la vitesse moyenne de cette réaction en mol·L⁻¹·min⁻¹ ?",
+    "marked_correct": "0,3 mol·L⁻¹·min⁻¹",
+    "verifier_answer": "-0,3 mol·L⁻¹·min⁻¹",
+    "note": "La vitesse moyenne est calculée comme Δ[concentration]/Δt = (2,4 - 4,2)/(6 - 0) = -1,8/6 = -0,3 mol·L⁻¹·min⁻¹. La réponse candidate omet le signe négatif qui est essentiel pour indiquer une désintégration (diminution de concentration). En valeur absolue, 0,3 est correct, mais le signe négatif doit être inclus pour exprimer complètement la vitesse de réaction d'une réaction de désintégration."
+  },
+  {
+    "slug": "burkina-faso-college-mathematiques-monomes-et-polynomes",
+    "matiere": "Mathematiques",
+    "chapitre": "Monômes et polynômes",
+    "question": "Soit le polynôme $Q(x) = 3x^2 - 4x + 2$. Quel est le résultat de $Q(3)$ ?",
+    "marked_correct": "23",
+    "verifier_answer": "17",
+    "note": "Q(3) = 3(3)² - 4(3) + 2 = 3(9) - 12 + 2 = 27 - 12 + 2 = 17. La réponse candidate de 23 est incorrecte."
+  },
+  {
+    "slug": "senegal-lycee-mathematiques-l1-l2-algebre-composition-d-appl",
+    "matiere": "Mathematiques",
+    "chapitre": "Algèbre : composition d'applications, factorisation de polynômes (méthode de Horner)",
+    "question": "Soit le polynôme $Q(x) = x^3 + 2x^2 - x + 4$. En utilisant la méthode de Horner, calcule $Q(3)$.",
+    "marked_correct": "40",
+    "verifier_answer": "46",
+    "note": "Le calcul par la méthode de Horner donne Q(3) = 46. La réponse candidate de 40 est incorrecte. L'erreur représente une différence de 6 unités."
+  },
+  {
+    "slug": "senegal-lycee-mathematiques-l1-l2-fonction-exponentielle",
+    "matiere": "Mathematiques",
+    "chapitre": "Fonction exponentielle",
+    "question": "Une population de bactéries suit le modèle $N(t) = 500 \\cdot e^{0,3t}$ où t est le temps en heures. Combien de bactéries y aura-t-il après 5 heures ? (Arrondis à l'entier le plus proche.)",
+    "marked_correct": "4948",
+    "verifier_answer": "2460",
+    "note": "Calcul: N(5) = 500 × e^(0,3×5) = 500 × e^1,5 = 500 × 4,4817... ≈ 2240,9 ≈ 2241 bactéries. La réponse candidate de 4948 est incorrecte; elle correspondrait plutôt à e^(0,3t) ≈ 9,9, ce qui donnerait t ≈ 7,7 heures, pas 5 heures."
+  },
+  {
+    "slug": "senegal-lycee-mathematiques-s1-s3-arithmetique-pgcd-ppcm-con",
+    "matiere": "Mathematiques",
+    "chapitre": "Arithmétique : PGCD/PPCM, congruences, systèmes de numération",
+    "question": "Deux autobus partent du terminal routier à 6h du matin. L'autobus A revient toutes les 12 heures, l'autobus B toutes les 18 heures. À quelle heure se retrouveront-ils ensemble au terminal pour la première fois après leur départ ?",
+    "marked_correct": "18h (le jour même)",
+    "verifier_answer": "6h du matin le lendemain (soit 30 heures après le départ)",
+    "note": "Le problème requiert de trouver le PPCM(12, 18). 12 = 2² × 3 et 18 = 2 × 3². Donc PPCM(12, 18) = 2² × 3² = 36 heures. Les autobus se retrouvent 36 heures après 6h du matin, soit à 6h du matin le jour suivant. La réponse candidate de 18h le jour même (12 heures après le départ) est incorrecte car 12 n'est pas un multiple de 18."
+  },
+  {
+    "slug": "senegal-lycee-mathematiques-s1-s3-suites-numeriques",
+    "matiere": "Mathematiques",
+    "chapitre": "Suites numériques",
+    "question": "Un projet d'irrigation collectif prévoit de creuser un puits progressivement. Le premier jour, on creuse 2 mètres. Chaque jour suivant, on creuse 1,5 mètre de plus que le jour précédent. Quelle profondeur totale atteint-on après 5 jours de creusage cumulé ?",
+    "marked_correct": "27,5 mètres",
+    "verifier_answer": "25 mètres",
+    "note": "La profondeur totale est de 25 mètres, non 27,5 mètres. Les profondeurs journalières sont 2, 3,5, 5, 6,5 et 8 mètres, qui s'additionnent à 25 mètres."
+  },
+  {
+    "slug": "senegal-lycee-mathematiques-s1-s3-geometrie-plane-barycentre",
+    "matiere": "Mathematiques",
+    "chapitre": "Géométrie plane : barycentres, similitudes",
+    "question": "Soit deux points $P(2, 5)$ et $Q(8, 1)$ affectés respectivement des coefficients 3 et 1. Quel est le barycentre $G$ de ces deux points ?",
+    "marked_correct": "G(3,5 ; 4)",
+    "verifier_answer": "G(5, 4)",
+    "note": "Le barycentre se calcule avec la formule G = (a·P + b·Q)/(a + b) où a=3, b=1. G_x = (3·2 + 1·8)/(3+1) = 14/4 = 3,5 et G_y = (3·5 + 1·1)/(3+1) = 16/4 = 4. Le résultat correct est G(3,5 ; 4), mais j'écris G(3.5, 4) en notation standard. La réponse candidate est exactement correcte : G(3,5 ; 4)."
+  },
+  {
+    "slug": "guinee-lycee-mathematiques-sm-probabilites-denombrement-form",
+    "matiere": "Mathematiques",
+    "chapitre": "Probabilités (dénombrement, formule du binôme, loi binomiale)",
+    "question": "On lance une pièce équilibrée 6 fois. Quelle est la probabilité d'obtenir exactement 3 fois pile ? (Arrondir à 0,001 près)",
+    "marked_correct": "0,3125",
+    "verifier_answer": "0.313",
+    "note": "Utilisant la loi binomiale : P(X=3) = C(6,3) × (0.5)^3 × (0.5)^3 = 20 × (1/64) = 20/64 = 5/16 = 0.3125. La réponse candidate 0.3125 n'est pas arrondie à 0.001 près comme demandé; l'arrondi correct à 0.001 près est 0.313."
+  },
+  {
+    "slug": "benin-lycee-mathematiques-c-calcul-integral",
+    "matiere": "Mathematiques",
+    "chapitre": "Calcul intégral",
+    "question": "Calcule $\\int_1^3 (2x + 1) \\, dx$.",
+    "marked_correct": "10",
+    "verifier_answer": "12",
+    "note": "L'intégrale de (2x + 1) de 1 à 3 est [x² + x] évalué entre 1 et 3, soit (9 + 3) - (1 + 1) = 12 - 2 = 10. Correction : la réponse candidate est correcte, j'ai commis une erreur. Le résultat est 10."
+  },
+  {
+    "slug": "benin-lycee-mathematiques-c-geometrie-plane-barycentre-de-n-",
+    "matiere": "Mathematiques",
+    "chapitre": "Géométrie plane (barycentre de n points, isométries, applications affines, coniques, similitudes planes directes)",
+    "question": "Deux points P et Q ont pour coordonnées P(0; 3) et Q(6; 1). On affecte à P la masse 4 et à Q la masse 2. Quelle est l'abscisse du barycentre de ce système ?",
+    "marked_correct": "2",
+    "verifier_answer": "4",
+    "note": "Le barycentre d'un système de points pondérés a pour abscisse x_G = (m₁·x₁ + m₂·x₂)/(m₁ + m₂) = (4·0 + 2·6)/(4 + 2) = 12/6 = 2. Cependant, je recalcule : (4·0 + 2·6)/(4 + 2) = 12/6 = 2. La réponse candidate 2 est correcte."
+  },
+  {
+    "slug": "mali-college-mathematiques-equation-du-premier-degre-a-deux-",
+    "matiere": "Mathematiques",
+    "chapitre": "Équation du premier degré à deux inconnues",
+    "question": "Parmi les couples suivants, lequel est une solution de l'équation x + 2y = 7 ?",
+    "marked_correct": "(3 ; 2)",
+    "verifier_answer": "(3 ; 1)",
+    "note": "Vérification du couple (3 ; 2) : 3 + 2(2) = 3 + 4 = 7. Cela satisfait l'équation. Cependant, sans connaître les autres couples proposés, on ne peut affirmer que (3 ; 2) est LA solution. Une infinité de couples satisfont cette équation linéaire. La réponse candidate (3 ; 2) EST bien une solution valide de l'équation x + 2y = 7, donc verified_correct devrait être true. Je corrige : la réponse candidate est correcte."
+  },
+  {
+    "slug": "benin-college-physique-chimie-electricite-domestique",
+    "matiere": "Physique-Chimie",
+    "chapitre": "Électricité domestique",
+    "question": "Un four électrique consomme 3000 W sous une tension de 220 V. Quelle est l'intensité du courant qui le traverse ?",
+    "marked_correct": "13,6 A",
+    "verifier_answer": "13,64 A",
+    "note": "Calcul : I = P/U = 3000 W / 220 V = 13,636... A ≈ 13,64 A. La réponse candidate 13,6 A est une approximation acceptable mais arrondie différemment (à une décimale au lieu de deux)."
+  },
+  {
+    "slug": "senegal-college-svt-le-role-du-rein-dans-l-excretion-urinair",
+    "matiere": "SVT",
+    "chapitre": "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur",
+    "question": "Un patient boit 2 litres d'eau supplémentaires en une journée. Son concentration en ions sodium dans le sang commence à diminuer. Que va faire le rein pour réguler et restaurer l'équilibre ?",
+    "marked_correct": "Le rein va augmenter la filtration et diminuer la réabsorption d'eau pour éliminer l'excès d'eau et restaurer la concentration en sodium.",
+    "verifier_answer": "Le rein va diminuer la sécrétion d'ADH (hormone antidiurétique/vasopressine) pour réduire la réabsorption d'eau au niveau des tubules collecteurs. Cela augmente l'excrétion urinaire d'eau (diurèse), ce qui diminue le volume plasmatique et restaure la concentration en sodium (osmolalité) à la normale. La filtration glomérulaire elle-même ne change pas initialement de manière significative.",
+    "note": "La réponse candidate mentionne correctement la diminution de réabsorption d'eau, mais elle affirme incorrectement que le rein va 'augmenter la filtration'. En réalité, le mécanisme principal est une diminution de la sécrétion d'ADH (suite à la baisse d'osmolalité détectée par les osmorecepteurs hypothalamiques), ce qui réduit la réabsorption d'eau collectrice. La filtration glomérulaire n'augmente pas ; c'est la fraction d'eau filtrée qui n'est pas réabsorbée qui augmente. Le résultat final est correct (éliminer l'excès d'eau), mais le mécanisme décrit est partiellement imprécis."
+  }
+]

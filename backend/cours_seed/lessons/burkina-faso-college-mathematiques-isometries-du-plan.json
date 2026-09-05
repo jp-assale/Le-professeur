@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-isometries-du-plan",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Isométries du plan",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Isométries du plan",
+  "intro": {
+    "heading": "Mise en situation : Les motifs du tissu traditionnel",
+    "body": "Regarde un pagne ou un bogolan : tu y vois le même motif répété, tourné, retourné, décalé. Ces transformations gardent exactement la même forme et la même taille. C'est ça une isométrie. En mathématiques, une isométrie est une transformation du plan qui préserve les distances entre les points. Comprendre les isométries, c'est comprendre comment on peut bouger une figure sans la déformer."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'une isométrie ?",
+    "explanation": "Une isométrie est une transformation du plan qui conserve les distances. Si deux points A et B sont à une distance d avant la transformation, ils resteront à la distance d après. Les quatre isométries du plan sont : la translation (décalage), la rotation (tour), la réflexion (symétrie axiale) et la symétrie glissée (réflexion + translation). Chacune preserve les longueurs et les angles.",
+    "highlight": "Une isométrie conserve les distances : si d(A,B) = d, alors d(A',B') = d après transformation."
+  },
+  "example": {
+    "problem": "Un triangle ABC a pour sommets A(1, 2), B(4, 2) et C(3, 5). On applique une translation de vecteur $\\vec{u} = (3, -1)$. Calcule les coordonnées des nouveaux sommets A', B' et C' et vérifie que la distance AB est conservée.",
+    "steps": [
+      "Étape 1 : Rappel de la translation. Une translation de vecteur $\\vec{u} = (a, b)$ transforme un point P(x, y) en P'(x+a, y+b).",
+      "Étape 2 : Applique la translation à A(1, 2). A' = (1+3, 2+(-1)) = (4, 1).",
+      "Étape 3 : Applique la translation à B(4, 2). B' = (4+3, 2+(-1)) = (7, 1).",
+      "Étape 4 : Applique la translation à C(3, 5). C' = (3+3, 5+(-1)) = (6, 4).",
+      "Étape 5 : Calcule la distance AB avant transformation. $AB = \\sqrt{(4-1)^2 + (2-2)^2} = \\sqrt{9} = 3$.",
+      "Étape 6 : Calcule la distance A'B' après transformation. $A'B' = \\sqrt{(7-4)^2 + (1-1)^2} = \\sqrt{9} = 3$. La distance est conservée : c'est bien une isométrie."
+    ]
+  },
+  "quiz": {
+    "question": "On applique une symétrie axiale par rapport à l'axe des ordonnées (l'axe y) à un point P(6, -3). Quelles sont les coordonnées de son image P' ?",
+    "reponse_calculee": "(-6, -3)",
+    "choices": [
+      {
+        "label": "(6, 3)",
+        "correct": false
+      },
+      {
+        "label": "(-6, -3)",
+        "correct": true
+      },
+      {
+        "label": "(3, -6)",
+        "correct": false
+      },
+      {
+        "label": "(-6, 3)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Dans une symétrie axiale par rapport à l'axe des ordonnées, l'abscisse change de signe tandis que l'ordonnée reste inchangée. Le point P(6, -3) devient P'(-6, -3). La distance à l'axe est conservée, confirmant que c'est une isométrie.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : dans une symétrie par rapport à l'axe y, seule l'abscisse (coordonnée x) change de signe. L'ordonnée (coordonnée y) reste la même. P(6, -3) se transforme en P'(-6, -3). Essaie de visualiser le point et son reflet sur l'axe vertical."
+  }
+}

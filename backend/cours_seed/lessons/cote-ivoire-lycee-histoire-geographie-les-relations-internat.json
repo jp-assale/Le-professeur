@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-les-relations-internat",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les relations internationales de 1945 à nos jours (ONU, bipolarisation, monde multipolaire)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les relations internationales de 1945 à nos jours (ONU, bipolarisation, monde multipolaire)",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi les grandes puissances s'intéressent à la Côte d'Ivoire",
+    "body": "Tu as peut-être remarqué que la France, la Chine, les États-Unis et d'autres pays maintiennent une présence diplomatique importante en Côte d'Ivoire. Ils ne font pas cela par hasard : ils cherchent à influencer les décisions politiques et économiques du pays. Depuis la fin de la Deuxième Guerre mondiale en 1945, les relations entre les nations obéissent à des règles nouvelles, d'abord dominées par deux superpuissances rivales, puis par un système plus complexe. Comprendre ces règles, c'est comprendre pourquoi ton pays n'est jamais vraiment seul dans ses choix."
+  },
+  "concept": {
+    "heading": "Définition : Les relations internationales après 1945",
+    "explanation": "Après 1945, le monde n'est plus dominé par les anciennes puissances coloniales européennes seules. Deux superpuissances émergent : les États-Unis et l'Union soviétique. L'Organisation des Nations unies (ONU) est créée pour maintenir la paix et réguler les conflits entre États. D'abord, ces relations sont marquées par une bipolarisation : le monde se divise en deux blocs rivaux (bloc occidental capitaliste et bloc soviétique communiste), chacun cherchant à attirer les autres nations dans sa sphère d'influence. Progressivement, surtout après la fin de la Guerre froide (années 1990), le système devient multipolaire : plusieurs puissances émergentes (Chine, Inde, Brésil, Japon, etc.) acquièrent du poids et créent un équilibre moins simple.",
+    "highlight": "Les relations internationales contemporaines oscillent entre bipolarisation initiale et multipolari­sation progressive, avec l'ONU comme cadre de régulation."
+  },
+  "example": {
+    "problem": "Analyse comment la Côte d'Ivoire, devenue indépendante en 1960, s'inscrit dans le système international de 1960 à 1990 (époque bipolaire).",
+    "steps": [
+      "Étape 1 : Contexte. En 1960, la Côte d'Ivoire accède à l'indépendance. Le monde est alors clairement divisé en deux blocs : le bloc occidental (États-Unis et alliés) et le bloc soviétique (URSS et alliés).",
+      "Étape 2 : Le choix ivoirien. La Côte d'Ivoire, sous la direction de Félix Houphouët-Boigny, choisit de s'aligner davantage vers le bloc occidental et la France, son ancienne métropole. C'est un choix politique stratégique, pas accidentel.",
+      "Étape 3 : Les conséquences diplomatiques. Ce choix signifie que la Côte d'Ivoire accueille des influences, des investissements et une aide économique provenant d'abord des pays occidentaux (France, États-Unis) plutôt que de l'URSS.",
+      "Étape 4 : L'adhésion à l'ONU. Dès 1960, la Côte d'Ivoire adhère à l'ONU. Elle peut voter à l'Assemblée générale et participer aux débats, mais ses votes sont souvent alignés avec le bloc occidental, reflétant son positionnement.",
+      "Étape 5 : L'équilibre précaire. La Côte d'Ivoire ne choisit pas l'isolement : elle navigue entre les deux blocs, accepte une présence française militaire et diplomatique forte, mais maintient aussi des relations commerciales avec d'autres partenaires.",
+      "Étape 6 : Conclusion. La Côte d'Ivoire, comme beaucoup de jeunes États africains, n'a pas de réelle indépendance absolue : elle s'inscrit dans un rapport de forces bipolaire où elle dépend largement de choix faits par d'autres (la France, les États-Unis, l'URSS)."
+    ]
+  },
+  "quiz": {
+    "question": "Pendant la Guerre froide (1945-1990), quel était le principal rôle de l'Organisation des Nations unies face aux tensions entre les États-Unis et l'URSS ?",
+    "reponse_calculee": "Servir de cadre de négociation et de maintien de la paix entre les deux superpuissances rivales",
+    "choices": [
+      {
+        "label": "Imposer à tous les États un modèle économique unique approuvé par les cinq puissances permanentes du Conseil de sécurité",
+        "correct": false
+      },
+      {
+        "label": "Servir de cadre de négociation et de maintien de la paix entre les deux superpuissances rivales",
+        "correct": true
+      },
+      {
+        "label": "Donner davantage de pouvoir aux États africains qu'aux États européens dans les décisions internationales",
+        "correct": false
+      },
+      {
+        "label": "Éliminer totalement les conflits armés en interdisant la possession d'armes à tous les États",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. L'ONU, créée en 1945, a pour mission de maintenir la paix internationale. Même si elle n'a pas toujours pu empêcher les conflits (notamment du fait du droit de veto des cinq membres permanents du Conseil de sécurité), elle a fourni un espace de dialogue où les deux blocs pouvaient négocier indirectement et éviter une confrontation directe catastrophique.",
+    "feedback_wrong": "Pas tout à fait. L'ONU n'avait pas le pouvoir d'imposer un modèle économique unique, d'avantager systématiquement les États africains, ou d'interdire les armes à tous. Son véritable rôle était de servir de cadre où les États, notamment les superpuissances rivales, pouvaient débattre, négocier et chercher à maintenir la paix même en temps de tensions extrêmes."
+  }
+}

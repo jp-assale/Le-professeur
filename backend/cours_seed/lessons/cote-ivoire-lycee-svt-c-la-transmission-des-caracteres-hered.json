@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-la-transmission-des-caracteres-hered",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "La transmission des caractères héréditaires",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La transmission des caractères héréditaires",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi tu ressembles à ta mère ou à ton père ?",
+    "body": "Tu as peut-être les yeux de ta mère, la taille de ton père, ou la forme du nez d'un grand-parent. Ces ressemblances ne sont pas du hasard : elles viennent de la transmission de caractères héréditaires à travers les générations. Comprendre comment cela fonctionne, c'est comprendre les lois de la vie elle-même."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la transmission des caractères héréditaires ?",
+    "explanation": "La transmission des caractères héréditaires est le processus par lequel les caractères parentaux se transmettent aux descendants via les gènes, portés par les chromosomes dans les cellules. Chaque parent apporte une contribution génétique : chez l'humain, le père et la mère contribuent chacun à 50 % du patrimoine génétique de l'enfant. Ces caractères peuvent être visibles (couleur des yeux, taille) ou invisibles (groupe sanguin, prédispositions). Les lois de Mendel expliquent comment ces transmissions obéissent à des règles mathématiques précises.",
+    "highlight": "Les caractères héréditaires sont transmis par les gènes ; chaque parent contribue pour moitié au patrimoine génétique de sa descendance."
+  },
+  "example": {
+    "problem": "Chez une plante fictive, le caractère « fleurs rouges » (R) est dominant sur « fleurs blanches » (r). On croise un plant homozygote dominant RR avec un plant homozygote récessif rr. Quel sera le génotype et le phénotype de la génération F₁ ? Ensuite, si on croise deux plants de F₁ entre eux, quel sera le rapport phénotypique en F₂ ?",
+    "steps": [
+      "Étape 1 : Identifie les parents. Parent 1 = RR (fleurs rouges homozygote), Parent 2 = rr (fleurs blanches homozygote).",
+      "Étape 2 : Détermine les gamètes. Parent RR produit des gamètes R ; Parent rr produit des gamètes r.",
+      "Étape 3 : Croise les gamètes pour F₁. Chaque descendant reçoit R de RR et r de rr → tous les F₁ sont Rr. Génotype F₁ = 100 % Rr ; Phénotype F₁ = 100 % fleurs rouges (car R est dominant).",
+      "Étape 4 : Croise F₁ × F₁. Croise Rr × Rr en établissant un damier de Punnett : RR (1/4), Rr (2/4), rr (1/4).",
+      "Étape 5 : Détermine F₂. Génotypes : 1 RR : 2 Rr : 1 rr. Phénotypes : 3 fleurs rouges : 1 fleur blanche, soit un rapport 3:1.",
+      "Étape 6 : Conclusion. La F₁ est uniforme et montre le phénotype dominant ; la F₂ retrouve le caractère récessif à raison de 1/4, ce qui confirme la loi de ségrégation des allèles."
+    ]
+  },
+  "quiz": {
+    "question": "Un homme de groupe sanguin AB (génotype I^A I^B) a un enfant avec une femme de groupe sanguin O (génotype ii). Quel est le pourcentage de probabilité que cet enfant ait le groupe sanguin B ?",
+    "reponse_calculee": "50 %",
+    "choices": [
+      {
+        "label": "25 %",
+        "correct": false
+      },
+      {
+        "label": "50 %",
+        "correct": true
+      },
+      {
+        "label": "75 %",
+        "correct": false
+      },
+      {
+        "label": "100 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'homme AB produit deux types de gamètes : I^A et I^B. La femme O produit uniquement i. Les enfants possibles sont : I^A i (groupe A) et I^B i (groupe B), chacun avec 50 % de probabilité. Le groupe sanguin B correspond au génotype I^B i, d'où 50 %.",
+    "feedback_wrong": "Pas tout à fait. L'homme AB peut transmettre soit I^A soit I^B avec égale probabilité (50/50). La femme O ne transmet que i. Donc l'enfant a 50 % de chances de recevoir I^B de son père et i de sa mère, ce qui donne le groupe B."
+  }
+}

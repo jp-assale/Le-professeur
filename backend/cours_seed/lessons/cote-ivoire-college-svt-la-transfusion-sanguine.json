@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-la-transfusion-sanguine",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La transfusion sanguine",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La transfusion sanguine",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine : un accident de route à Abidjan, une personne perd beaucoup de sang et arrive à l'hôpital en urgence. Les médecins doivent lui transfuser du sang rapidement pour sauver sa vie. Mais quel sang lui donner ? N'importe quel sang ? Comment les médecins choisissent le bon groupe sanguin ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la transfusion sanguine ?",
+    "explanation": "La transfusion sanguine est l'introduction de sang (ou d'un de ses composants) d'une personne donneuse dans le système sanguin d'une personne receveuse. C'est un geste médical vital qui permet de compenser une perte de sang importante ou de remplacer certains éléments du sang défaillants. Mais attention : donner n'importe quel sang à n'importe qui risque de provoquer une réaction grave appelée hémolyse (destruction des globules rouges). Pour que la transfusion soit sûre, le groupe sanguin du donneur et du receveur doivent être compatibles.",
+    "highlight": "Seul le sang du groupe sanguin compatible peut être transfusé sans danger."
+  },
+  "example": {
+    "problem": "À la clinique de Yamoussoukro, on prépare une transfusion. Le receveur est de groupe O négatif. Parmi quatre donneurs disponibles (groupe A positif, groupe B négatif, groupe O négatif, groupe AB positif), combien peuvent donner leur sang de façon sûre à ce receveur ?",
+    "steps": [
+      "Étape 1 : Identifier le groupe sanguin du receveur. → Le receveur est O négatif.",
+      "Étape 2 : Rappeler la règle de compatibilité. → Le groupe O négatif est le donneur universel : il peut donner à TOUS les groupes sanguins (O+, O−, A+, A−, B+, B−, AB+, AB−).",
+      "Étape 3 : Vérifier chaque donneur. → Donneur A+ ? Non (groupe A, et positif). Donneur B− ? Non (groupe B). Donneur O− ? OUI (groupe O négatif = donneur universel). Donneur AB+ ? Non (groupe AB et positif).",
+      "Étape 4 : Compter les donneurs compatibles. → Un seul donneur convient : celui du groupe O négatif.",
+      "Réponse : 1 seul donneur peut transfuser sans risque le receveur O négatif."
+    ]
+  },
+  "quiz": {
+    "question": "Une personne de groupe sanguin AB positif doit recevoir une transfusion. Combien de groupes sanguins différents peuvent lui donner du sang de façon sûre ?",
+    "reponse_calculee": "8 groupes",
+    "choices": [
+      {
+        "label": "1 groupe (O négatif seulement)",
+        "correct": false
+      },
+      {
+        "label": "2 groupes (AB positif et O négatif)",
+        "correct": false
+      },
+      {
+        "label": "4 groupes (O+, O−, AB+ et AB−)",
+        "correct": false
+      },
+      {
+        "label": "8 groupes (tous les groupes sans exception)",
+        "correct": true
+      }
+    ],
+    "feedback_correct": "Exact ! Le groupe AB positif est le receveur universel : comme il possède déjà les antigènes A, B et le facteur Rhésus positif, son organisme ne fabrique aucun anticorps contre ces éléments. Il peut donc recevoir du sang de tous les groupes, positifs comme négatifs : O+, O−, A+, A−, B+, B−, AB+ et AB−, soit 8 groupes au total.",
+    "feedback_wrong": "Pas tout à fait. Le groupe AB positif est le receveur universel : il peut recevoir du sang de TOUS les groupes sanguins (positifs et négatifs), car il ne fabrique aucun anticorps anti-A, anti-B ou anti-Rhésus. Ça fait 8 groupes compatibles au total."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-l-evolution-sociopol",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'évolution sociopolitique de la Côte d'Ivoire et de l'Afrique du XIXe siècle",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'évolution sociopolitique de la Côte d'Ivoire et de l'Afrique du XIXe siècle",
+  "intro": {
+    "heading": "Mise en situation : un continent en transformation",
+    "body": "Imagine que tu vis en Afrique de l'Ouest au XIXe siècle. Autour de toi, les royaumes traditionnels se heurtent à des puissances européennes qui arrivent par la mer. Les routes commerciales changent, les structures politiques se réorganisent, les sociétés se transforment. Comment une région comme la Côte d'Ivoire a-t-elle traversé cette période de bouleversements ?"
+  },
+  "concept": {
+    "heading": "Le concept : l'évolution sociopolitique du XIXe siècle",
+    "explanation": "Au XIXe siècle, la Côte d'Ivoire et l'Afrique de l'Ouest connaissent des changements majeurs dans leur organisation politique et sociale. Les royaumes et empires africains existants se confrontent à la présence croissante des Européens (traite négrière d'abord, puis colonisation). Les structures de pouvoir se transforment, les sociétés s'adaptent, les alliances se nouent ou se rompent. C'est une période où l'Afrique ne subit pas passivement les événements, mais où les chefs, les commerçants et les peuples réagissent et se réorganisent face aux défis.",
+    "highlight": "Les sociétés africaines du XIXe siècle évoluent activement : elles résistent, s'adaptent ou se transforment face aux pressions externes et internes."
+  },
+  "example": {
+    "problem": "Analyse l'évolution du royaume Ashanti (Ghana actuel, voisin de la Côte d'Ivoire) face à la montée de la présence européenne au XIXe siècle. Comment ce royaume s'est-il réorganisé politiquement et socialement ?",
+    "steps": [
+      "Étape 1 : Contexte initial. Le royaume Ashanti était une grande puissance politique et militaire d'Afrique de l'Ouest, fondée sur une forte centralisation du pouvoir autour du roi et un système administratif organisé.",
+      "Étape 2 : Le défi externe. À partir du début du XIXe siècle, les Européens renforcent leur contrôle sur les côtes et réduisent leur traite d'esclaves (qui s'arrête officiellement dans les années 1800). Cela frappe les revenus des royaumes côtiers.",
+      "Étape 3 : Réaction militaire et politique. Le royaume Ashanti, touché par ces changements, cherche à consolider son pouvoir en s'étendant militairement et en contrôlant les routes commerciales vers l'intérieur des terres. Cela crée des conflits avec les puissances européennes présentes.",
+      "Étape 4 : Transformations sociales. Le commerce change de nature : moins d'esclaves, plus de produits agricoles (cacao, or, ivoire). Cela redéfinit les rôles sociaux des marchands, guerriers et administrateurs.",
+      "Étape 5 : Vers la fin du siècle. Le royaume fait face à une pression militaire croissante des puissances européennes (notamment la Grande-Bretagne). Il doit s'adapter à cette réalité inégale : technologies militaires européennes, ambitions coloniales directes.",
+      "Conclusion : Le Ashanti est un exemple d'une société africaine qui évolue activement, se réorganise politiquement et socialement, mais finit confrontée à une domination qui changera radicalement son statut."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le facteur PRINCIPAL qui a transformé les structures sociopolitiques de la Côte d'Ivoire et de l'Afrique de l'Ouest au XIXe siècle ?",
+    "reponse_calculee": "La présence croissante des puissances européennes et l'évolution du commerce (fin de la traite négrière, nouvelles routes commerciales)",
+    "choices": [
+      {
+        "label": "Une grande famine qui a forcé tous les royaumes à se dissoudre",
+        "correct": false
+      },
+      {
+        "label": "La présence croissante des puissances européennes et l'évolution du commerce (fin de la traite négrière, nouvelles routes commerciales)",
+        "correct": true
+      },
+      {
+        "label": "L'invention de la roue qui a transformé tous les transports",
+        "correct": false
+      },
+      {
+        "label": "La décision des royaumes africains d'abandonner la politique pour se consacrer à la religion",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le XIXe siècle marque un tournant décisif en Afrique de l'Ouest. L'arrivée croissante des Européens, la réduction puis l'arrêt de la traite négrière, et la réorientation vers de nouveaux produits commerciaux (or, cacao, ivoire) ont forcé les royaumes et sociétés à se réorganiser politiquement et socialement. C'est ce qui fait du XIXe siècle une période d'évolution majeure.",
+    "feedback_wrong": "Pas tout à fait. La clé du XIXe siècle en Afrique de l'Ouest, c'est le contact croissant avec l'Europe et les changements dans le commerce. Ce ne sont pas des événements ponctuels comme une famine, mais une transformation systématique des structures de pouvoir et des échanges économiques qui est au cœur de cette période."
+  }
+}

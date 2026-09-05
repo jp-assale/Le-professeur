@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-mathematiques-systeme-de-deux-equations-du-prem",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Système de deux équations du premier degré à deux inconnues (résolution graphique)",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Système de deux équations du premier degré à deux inconnues (résolution graphique)",
+  "intro": {
+    "heading": "Mise en situation : Au marché de Bamako",
+    "body": "Imagine que tu es vendeur de fruits au marché. Tu vends des mangues et des oranges. Un client achète 3 mangues et 2 oranges pour 1 900 francs CFA. Un autre achète 1 mangue et 4 oranges pour 1 700 francs CFA. Comment trouves-tu le prix exact de chaque fruit ? Aujourd'hui, tu vas apprendre à résoudre ce genre de problème en utilisant un graphique !"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un système de deux équations du premier degré à deux inconnues ?",
+    "explanation": "Un système de deux équations du premier degré à deux inconnues, c'est l'ensemble de deux équations qui contiennent les mêmes deux inconnues (généralement $x$ et $y$). Pour trouver la solution, tu dois chercher les valeurs de $x$ et $y$ qui satisfont les DEUX équations en même temps. La méthode graphique consiste à tracer les deux droites sur un même repère et à trouver leur point d'intersection.",
+    "highlight": "La solution du système est le couple $(x, y)$ correspondant au point où les deux droites se coupent."
+  },
+  "example": {
+    "problem": "Résous graphiquement le système suivant :\n$2x + y = 5$\n$x - y = 1$",
+    "steps": [
+      "Étape 1 : De la première équation $2x + y = 5$, exprime $y$ en fonction de $x$ : $y = 5 - 2x$. Ceci est l'équation de la première droite.",
+      "Étape 2 : De la deuxième équation $x - y = 1$, exprime $y$ en fonction de $x$ : $y = x - 1$. Ceci est l'équation de la deuxième droite.",
+      "Étape 3 : Trace la première droite $y = 5 - 2x$ en trouvant deux points. Quand $x = 0$, $y = 5$ (point $(0, 5)$). Quand $x = 2$, $y = 1$ (point $(2, 1)$).",
+      "Étape 4 : Trace la deuxième droite $y = x - 1$ en trouvant deux points. Quand $x = 0$, $y = -1$ (point $(0, -1)$). Quand $x = 2$, $y = 1$ (point $(2, 1)$).",
+      "Étape 5 : Sur le même repère, les deux droites se coupent au point $(2, 1)$. La solution est donc : $x = 2$ et $y = 1$.",
+      "Étape 6 : Vérification : $2(2) + 1 = 5$ ✓ et $2 - 1 = 1$ ✓. Les deux équations sont satisfaites."
+    ]
+  },
+  "quiz": {
+    "question": "Observe ce système de deux équations :\n$x + y = 4$\n$2x - y = 2$\n\nAprès avoir tracé les deux droites sur un graphique, au quel point d'intersection correspond la solution ?",
+    "reponse_calculee": "(2, 2)",
+    "choices": [
+      {
+        "label": "(1, 3)",
+        "correct": false
+      },
+      {
+        "label": "(2, 2)",
+        "correct": true
+      },
+      {
+        "label": "(3, 1)",
+        "correct": false
+      },
+      {
+        "label": "(0, 4)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as trouvé le bon point. De la première équation, $y = 4 - x$. De la deuxième, $y = 2x - 2$. Les droites se rencontrent quand $4 - x = 2x - 2$, soit $6 = 3x$, donc $x = 2$. En remplaçant, $y = 4 - 2 = 2$. La solution est bien $(2, 2)$. Tu maîtrises la méthode graphique !",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : tu dois exprimer $y$ en fonction de $x$ dans chaque équation, puis tracer les deux droites. Le point d'intersection des deux droites est la solution du système. Essaie à nouveau en traçant soigneusement les deux droites sur un graphique."
+  }
+}

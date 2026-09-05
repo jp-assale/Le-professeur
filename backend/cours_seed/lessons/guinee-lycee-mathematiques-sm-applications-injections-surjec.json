@@ -1,0 +1,54 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-applications-injections-surjec",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Applications (injections, surjections, bijections)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Applications : Injections, Surjections, Bijections",
+  "intro": {
+    "heading": "Mise en situation : L'attribution des places à un concert",
+    "body": "Imagine un concert à Conakry : 500 places numérotées et 600 spectateurs qui veulent entrer. Comment distribuer les places de manière équitable ? Il faut comprendre qui peut vraiment avoir une place unique, qui peut être assis, et si tout le monde peut être satisfait. C'est exactement le problème que les mathématiciens résolvent avec les applications !"
+  },
+  "concept": {
+    "heading": "Définition : Les trois types d'applications",
+    "explanation": "Une application est une relation entre deux ensembles où chaque élément du premier ensemble est associé à un et un seul élément du second ensemble. Selon comment se fait cette association, on distingue trois types importants.\n\nUne injection garantit que deux éléments différents du départ ne vont jamais vers le même élément d'arrivée.\n\nUne surjection garantit que chaque élément d'arrivée reçoit au moins un élément du départ.\n\nUne bijection combine les deux : c'est une injection et une surjection à la fois. Elle crée un appairage parfait et unique entre les deux ensembles.",
+    "highlight": "Une bijection f : E → F est une application où chaque élément de F reçoit exactement un élément de E, et aucun élément de F ne reste sans partenaire."
+  },
+  "example": {
+    "problem": "Soit E = {1, 2, 3, 4} l'ensemble des 4 chauffeurs de taxi et F = {A, B, C, D} l'ensemble des 4 quartiers de destination. On définit l'application f par : f(1)=A, f(2)=B, f(3)=C, f(4)=D. Détermine si f est une injection, une surjection et/ou une bijection. Justifie chaque réponse.",
+    "steps": [
+      "Étape 1 : Vérifier l'injection. Pour cela, on regarde si deux chauffeurs différents peuvent aller vers le même quartier. Ici : f(1)=A, f(2)=B, f(3)=C, f(4)=D sont tous différents. Donc f est injective.",
+      "Étape 2 : Vérifier la surjection. Pour cela, on regarde si chaque quartier de F reçoit au moins un chauffeur. Tous les quartiers A, B, C, D sont « touchés » par exactement un chauffeur. Donc f est surjective.",
+      "Étape 3 : Vérifier la bijection. Puisque f est à la fois injective ET surjective, alors f est bijective. Chaque chauffeur va à un quartier unique et chaque quartier reçoit exactement un chauffeur : c'est un appairage parfait.",
+      "Conclusion : f est une bijection. Les deux ensembles E et F ont le même cardinal (4 éléments) et sont mis en correspondance biunivoque par f."
+    ]
+  },
+  "quiz": {
+    "question": "Soit g : {1, 2, 3} → {a, b, c, d} définie par g(1)=a, g(2)=b, g(3)=c. Parmi les affirmations suivantes, laquelle est correcte ?",
+    "reponse_calculee": "g est une injection mais pas une surjection",
+    "choices": [
+      {
+        "label": "g est une bijection",
+        "correct": false
+      },
+      {
+        "label": "g est une injection mais pas une surjection",
+        "correct": true
+      },
+      {
+        "label": "g est une surjection mais pas une injection",
+        "correct": false
+      },
+      {
+        "label": "g n'est ni une injection ni une surjection",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! g est injective car les trois images a, b, c sont distinctes (aucun chauffeur ne va vers la même destination). Cependant, g n'est pas surjective car l'élément d de l'ensemble d'arrivée n'a aucun antécédent : le quartier d ne reçoit aucun chauffeur. Pour être bijective, il aurait fallu que chaque élément de {a, b, c, d} soit l'image d'exactement un élément de {1, 2, 3}, ce qui est impossible ici puisqu'on n'a que 3 éléments au départ pour 4 éléments à l'arrivée.",
+    "feedback_wrong": "Attention à bien vérifier les deux conditions. Injection : les images doivent être distinctes (ici oui : a ≠ b ≠ c). Surjection : chaque élément d'arrivée doit être atteint (ici non : l'élément d n'est l'image de personne). g est donc injective mais pas surjective. Une bijection exige les deux à la fois."
+  }
+}

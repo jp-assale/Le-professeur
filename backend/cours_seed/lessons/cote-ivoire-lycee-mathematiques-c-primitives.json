@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-primitives",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Primitives",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Primitives",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois construire une route dans une région rurale. On te donne la vitesse à laquelle les ouvriers avancent chaque jour. Mais ce que tu dois vraiment connaître, c'est la distance totale parcourue. Trouver la distance à partir de la vitesse, c'est exactement ce que les primitives te permettent de faire en mathématiques : retrouver la fonction d'origine quand on connaît sa variation."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce qu'une primitive ?",
+    "explanation": "Une primitive d'une fonction $f$ est une fonction $F$ telle que sa dérivée égale $f$. En d'autres termes, si tu dérives $F$, tu retrouves $f$. C'est l'opération inverse de la dérivation. Quand tu as une fonction $f(x)$, tu cherches la fonction $F(x)$ dont la dérivée est $f(x)$.",
+    "highlight": "Si F'(x) = f(x), alors F est une primitive de f"
+  },
+  "example": {
+    "problem": "Soit $f(x) = 3x^2 + 2x$. Trouve une primitive $F(x)$ de $f$.",
+    "steps": [
+      "Étape 1 : On cherche $F(x)$ telle que $F'(x) = 3x^2 + 2x$.",
+      "Étape 2 : On primitive terme par terme. Pour $3x^2$, on utilise la règle : la primitive de $x^n$ est $\\frac{x^{n+1}}{n+1}$. Donc la primitive de $3x^2$ est $3 \\times \\frac{x^3}{3} = x^3$.",
+      "Étape 3 : La primitive de $2x$ est $2 \\times \\frac{x^2}{2} = x^2$.",
+      "Étape 4 : On ajoute les deux primitives : $F(x) = x^3 + x^2 + C$, où $C$ est une constante (car la dérivée d'une constante est 0).",
+      "Étape 5 : Vérification : en dérivant $F(x) = x^3 + x^2 + C$, on obtient $F'(x) = 3x^2 + 2x$. C'est bien égal à $f(x)$ ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est une primitive de $f(x) = 5x^4$ ?",
+    "reponse_calculee": "x^5 + C",
+    "choices": [
+      {
+        "label": "$20x^3 + C$",
+        "correct": false
+      },
+      {
+        "label": "$x^5 + C$",
+        "correct": true
+      },
+      {
+        "label": "$\\frac{5x^5}{5} + C = x^5$",
+        "correct": false
+      },
+      {
+        "label": "$5x^5 + C$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En appliquant la règle, la primitive de $5x^4$ est $5 \\times \\frac{x^5}{5} = x^5$. On ajoute la constante $C$ car il existe une infinité de primitives (elles diffèrent toutes par une constante).",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que pour primitiver $x^n$, on utilise $\\frac{x^{n+1}}{n+1}$. La primitive de $5x^4$ est $5 \\times \\frac{x^5}{5} = x^5 + C$. Le coefficient 5 se simplifie avec le dénominateur du résultat."
+  }
+}

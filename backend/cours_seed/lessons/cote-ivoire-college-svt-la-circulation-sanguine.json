@@ -1,0 +1,54 @@
+{
+  "slug": "cote-ivoire-college-svt-la-circulation-sanguine",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La circulation sanguine",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La circulation sanguine",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi ton cœur s'accélère ?",
+    "body": "Tu es en train de courir après le bus pour aller à l'école. Ton cœur s'accélère, tu sens tes battements dans ta poitrine, et tu transpires. Ton organisme a besoin d'oxygène et d'énergie rapidement. Comment le sang se déplace-t-il dans ton corps pour apporter ce dont tu as besoin ? C'est le rôle de la circulation sanguine, un système de transport vital qui fonctionne sans arrêt, jour et nuit."
+  },
+  "concept": {
+    "heading": "Définition et organisation de la circulation sanguine",
+    "explanation": "La circulation sanguine est le mouvement du sang dans l'organisme. Elle est assurée par le cœur, qui agit comme une pompe, et par un réseau de vaisseaux sanguins (artères, veines et capillaires). Le sang transporte l'oxygène et les nutriments aux cellules et récupère les déchets. Ce système fonctionne en circuit fermé : le cœur reçoit et envoie du sang en continu. Pour bien comprendre, il faut connaître les deux boucles principales : la petite circulation (vers les poumons) et la grande circulation (vers le reste du corps).",
+    "highlight": "Le sang circule en circuit fermé : cœur → artères → capillaires → veines → cœur"
+  },
+  "example": {
+    "problem": "Un médecin mesure le volume de sang qui sort du cœur d'une personne au repos. Le cœur éjecte 70 mL de sang à chaque battement. Si le cœur bat 72 fois par minute, quel volume de sang le cœur envoie-t-il en 1 minute ? Exprime le résultat en litres.",
+    "steps": [
+      "Identifie les données : volume par battement = 70 mL ; nombre de battements par minute = 72.",
+      "Calcule le volume total en 1 minute : Volume total = 70 mL × 72 = 5 040 mL.",
+      "Convertis en litres : 5 040 mL = 5 040 ÷ 1 000 = 5,04 L.",
+      "Interprète le résultat : en une minute, le cœur envoie environ 5 litres de sang dans la circulation. C'est l'équivalent du volume de sang total dans le corps d'un adulte, ce qui montre l'importance du débit cardiaque."
+    ]
+  },
+  "quiz": {
+    "question": "Pendant l'exercice physique, le cœur d'une athlète bat 120 fois par minute et éjecte 80 mL de sang par battement. Quel est le débit cardiaque en litres par minute ?",
+    "reponse_calculee": "9,6 L/min",
+    "choices": [
+      {
+        "label": "8,4 L/min",
+        "correct": false
+      },
+      {
+        "label": "9,6 L/min",
+        "correct": true
+      },
+      {
+        "label": "10,2 L/min",
+        "correct": false
+      },
+      {
+        "label": "6,8 L/min",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as calculé correctement : 120 battements/min × 80 mL/battement = 9 600 mL/min = 9,6 L/min. Le débit cardiaque augmente pendant l'effort pour apporter plus d'oxygène aux muscles qui en ont besoin.",
+    "feedback_wrong": "Pas encore. Rappelle-toi : débit cardiaque = nombre de battements par minute × volume éjecté par battement. Calcule 120 × 80 = 9 600 mL, puis convertis en litres : 9 600 ÷ 1 000 = 9,6 L/min."
+  }
+}

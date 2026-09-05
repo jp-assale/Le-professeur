@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-phenomenes-energetiques-accompagnant-la-",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Phénomènes énergétiques accompagnant la respiration",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Phénomènes énergétiques accompagnant la respiration",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as couru sous le soleil de Dakar ou tu as grimpé les dunes de Lompoul : tu as senti ton cœur s'accélérer, tu respires plus fort, tu as chaud. Ton corps brûle quelque chose pour te donner de l'énergie. Mais quoi exactement ? Et d'où vient la chaleur que tu ressens ? La respiration n'est pas juste un échange d'air : c'est une réaction chimique intense qui libère de l'énergie."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les phénomènes énergétiques de la respiration ?",
+    "explanation": "Pendant la respiration cellulaire, les cellules de ton corps consomment du glucose (ou d'autres nutriments) en présence d'oxygène. Cette réaction chimique décompose les molécules et libère l'énergie chimique qu'elles contenaient. Cette énergie apparaît sous deux formes : l'énergie utile pour tes mouvements et tes fonctions vitales (forme d'ATP), et la chaleur qui réchauffe ton corps. C'est une transformation d'énergie chimique en énergie mécanique et thermique.",
+    "highlight": "La respiration libère de l'énergie sous forme d'ATP (énergie utilisable) et de chaleur (énergie perdue)"
+  },
+  "example": {
+    "problem": "Au cours d'une séance d'entraînement, un athlète consomme 120 grammes de glucose. Sachant que chaque gramme de glucose oxydé libère 16 kilojoules d'énergie totale, et que seulement 40% de cette énergie est conservée sous forme d'ATP (le reste devient chaleur), calcule : 1) L'énergie totale libérée, 2) L'énergie sous forme d'ATP, 3) L'énergie dissipée en chaleur.",
+    "steps": [
+      "Étape 1 : Identifie les données. Masse de glucose = 120 g ; Énergie par gramme = 16 kJ/g ; Rendement ATP = 40% ; Rendement chaleur = 60%.",
+      "Étape 2 : Calcule l'énergie totale libérée. Énergie totale = 120 g × 16 kJ/g = 1 920 kJ.",
+      "Étape 3 : Calcule l'énergie sous forme d'ATP. Énergie ATP = 1 920 kJ × 40% = 1 920 × 0,40 = 768 kJ.",
+      "Étape 4 : Calcule l'énergie dissipée en chaleur. Énergie chaleur = 1 920 kJ × 60% = 1 920 × 0,60 = 1 152 kJ.",
+      "Étape 5 : Vérifie. 768 kJ + 1 152 kJ = 1 920 kJ. ✓ Le total correspond bien à l'énergie libérée.",
+      "Réponse : L'énergie totale est 1 920 kJ, dont 768 kJ en ATP et 1 152 kJ en chaleur."
+    ]
+  },
+  "quiz": {
+    "question": "Pendant la respiration cellulaire, une cellule musculaire oxyde 5 grammes de glucose. Si chaque gramme libère 18 kilojoules et que 35% est utilisé en ATP, quelle est l'énergie approximativement stockée sous forme d'ATP ?",
+    "reponse_calculee": "31,5 kJ",
+    "choices": [
+      {
+        "label": "90 kJ",
+        "correct": false
+      },
+      {
+        "label": "31,5 kJ",
+        "correct": true
+      },
+      {
+        "label": "58,5 kJ",
+        "correct": false
+      },
+      {
+        "label": "25 kJ",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as appliqué correctement la formule : Énergie totale = 5 g × 18 kJ/g = 90 kJ, puis Énergie ATP = 90 kJ × 35% = 31,5 kJ. C'est exactement comment on calcule la part d'énergie transformée en ATP utilisable par la cellule.",
+    "feedback_wrong": "Regarde bien l'ordre des calculs. D'abord, l'énergie totale libérée : 5 g × 18 kJ/g = 90 kJ. Ensuite, tu appliques le pourcentage : 90 kJ × 35% = 90 × 0,35 = 31,5 kJ. N'oublie pas que seule une partie de l'énergie devient ATP, le reste se transforme en chaleur."
+  }
+}

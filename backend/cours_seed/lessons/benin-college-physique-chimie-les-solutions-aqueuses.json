@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-les-solutions-aqueuses",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les solutions aqueuses",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Les solutions aqueuses",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es au marché à Cotonou par une chaude journée. Le vendeur de jus de gingembre prépare sa boisson : il dilue du sirop concentré dans de l'eau. Tu remarques que plus il ajoute d'eau, moins le jus est sucré. C'est exactement ce que tu vas apprendre aujourd'hui : comment fonctionne une solution aqueuse et comment sa concentration change."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une solution aqueuse ?",
+    "explanation": "Une solution aqueuse est un mélange homogène d'eau (appelée solvant) et d'une ou plusieurs substances dissoutes (appelées solutés). L'eau est le composant principal. Quand tu ajoutes du sucre, du sel ou du sirop à l'eau, tu formes une solution aqueuse : les particules du soluté se dispersent uniformément dans l'eau et ne réapparaissent plus.",
+    "highlight": "Une solution aqueuse = eau (solvant) + substance dissoute (soluté)"
+  },
+  "example": {
+    "problem": "Un élève prépare une solution en dissolvant 20 grammes de sel dans 500 millilitres d'eau. Calcule la concentration en masse de cette solution (exprimée en g/L). Rappel : 1 L = 1000 mL.",
+    "steps": [
+      "Étape 1 : Identifie les données. Masse du soluté (sel) = 20 g. Volume de la solution = 500 mL.",
+      "Étape 2 : Convertis le volume en litres. 500 mL = 500 ÷ 1000 = 0,5 L.",
+      "Étape 3 : Rappelle la formule de la concentration en masse. Concentration (en g/L) = (masse du soluté en g) ÷ (volume de la solution en L).",
+      "Étape 4 : Applique la formule. Concentration = 20 ÷ 0,5 = 40 g/L.",
+      "Étape 5 : Interprète le résultat. La solution contient 40 grammes de sel dissous dans chaque litre de solution."
+    ]
+  },
+  "quiz": {
+    "question": "Une solution aqueuse contient 15 grammes de sucre dissous dans 750 millilitres d'eau. Quelle est la concentration en masse de cette solution ? (Exprime ta réponse en g/L, arrondie à l'unité)",
+    "reponse_calculee": "20 g/L",
+    "choices": [
+      {
+        "label": "0,02 g/L",
+        "correct": false
+      },
+      {
+        "label": "11 g/L",
+        "correct": false
+      },
+      {
+        "label": "20 g/L",
+        "correct": true
+      },
+      {
+        "label": "50 g/L",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement converti 750 mL en 0,75 L, puis appliqué la formule : concentration = 15 ÷ 0,75 = 20 g/L. Tu maîtrises le calcul de concentration en masse.",
+    "feedback_wrong": "Pas tout à fait. Commence par convertir 750 mL en litres : 750 ÷ 1000 = 0,75 L. Puis applique la formule : concentration = (masse du soluté) ÷ (volume en L) = 15 ÷ 0,75 = 20 g/L. Refais le calcul et tu trouveras la bonne réponse."
+  }
+}

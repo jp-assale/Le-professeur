@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-limites-et-continuite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Limites et continuité",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Limites et continuité",
+  "intro": {
+    "heading": "Mise en situation : L'approche progressive",
+    "body": "Imagine que tu observes le niveau d'eau d'une rivière au fil des jours. Certains jours, il monte progressivement vers une valeur stable ; d'autres jours, il y a des sauts brusques. En mathématiques, c'est pareil : certaines fonctions s'approchent doucement d'une valeur (limite), tandis que d'autres « sautent » sans prévenir (discontinuité). Comprendre ces comportements te permettra d'analyser n'importe quel phénomène qui évolue graduellement ou par à-coups."
+  },
+  "concept": {
+    "heading": "Limite d'une fonction et continuité",
+    "explanation": "Une fonction $f$ a pour limite un réel $L$ quand $x$ s'approche d'une valeur $a$, si les valeurs de $f(x)$ se rapprochent aussi près que tu veux de $L$. On note cela $\\lim_{x \\to a} f(x) = L$. La continuité, elle, est un cas particulier : une fonction est continue en un point $a$ si la limite existe à ce point ET si elle vaut exactement $f(a)$. En d'autres termes, la courbe ne « saute » pas.",
+    "highlight": "$\\lim_{x \\to a} f(x) = L$ signifie que $f(x)$ s'approche de $L$ quand $x$ s'approche de $a$. Si de plus $L = f(a)$, alors $f$ est continue en $a$."
+  },
+  "example": {
+    "problem": "Soit la fonction $f(x) = \\frac{x^2 - 4}{x - 2}$ pour $x \\neq 2$. Calcule $\\lim_{x \\to 2} f(x)$ et détermine si on peut prolonger $f$ par continuité en $x = 2$.",
+    "steps": [
+      "Étape 1 : Observons que si tu remplaces directement $x = 2$, tu obtiens $\\frac{0}{0}$, une forme indéterminée. On ne peut pas calculer directement.",
+      "Étape 2 : Factorise le numérateur. $x^2 - 4 = (x - 2)(x + 2)$.",
+      "Étape 3 : Réécris la fraction : $f(x) = \\frac{(x - 2)(x + 2)}{x - 2}$.",
+      "Étape 4 : Pour $x \\neq 2$, simplifie en cancellant $(x - 2)$ : $f(x) = x + 2$.",
+      "Étape 5 : Maintenant, calcule la limite : $\\lim_{x \\to 2} f(x) = \\lim_{x \\to 2} (x + 2) = 2 + 2 = 4$.",
+      "Étape 6 : Conclusion : on peut définir $f(2) = 4$ pour prolonger $f$ par continuité en $x = 2$. La fonction devient alors continue en ce point."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $g(x) = \\frac{3x^2 - 12}{x - 2}$ pour $x \\neq 2$. Quelle est la limite de $g(x)$ quand $x$ tend vers 2 ?",
+    "reponse_calculee": "12",
+    "choices": [
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "12",
+        "correct": true
+      },
+      {
+        "label": "0",
+        "correct": false
+      },
+      {
+        "label": "La limite n'existe pas",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Factorise d'abord le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Alors $g(x) = \\frac{3(x - 2)(x + 2)}{x - 2} = 3(x + 2)$ pour $x \\neq 2$. La limite quand $x \\to 2$ est $3(2 + 2) = 3 \\times 4 = 12$.",
+    "feedback_wrong": "Pas tout à fait. Il faut d'abord factoriser le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Ensuite, simplifie : $g(x) = \\frac{3(x - 2)(x + 2)}{x - 2} = 3(x + 2)$ pour $x \\neq 2$. Enfin, applique la limite : $\\lim_{x \\to 2} 3(x + 2) = 3 \\times 4 = 12$."
+  }
+}

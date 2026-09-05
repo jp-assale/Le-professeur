@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-notion-de-probabilite",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Notion de probabilité",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Notion de probabilité",
+  "intro": {
+    "heading": "Mise en situation : Le tirage au sort du drapeau",
+    "body": "Imagine que ton professeur prépare un tirage au sort pour désigner qui présentera l'exposé demain. Il y a 30 élèves dans la classe, dont toi. Quelle chance as-tu vraiment d'être appelé ? C'est exactement ce que mesure la probabilité : elle te dit, sous forme de chiffre, à quel point un événement a des chances de se produire. Plus ce chiffre est proche de 1, plus l'événement est certain ; plus il est proche de 0, plus il est rare."
+  },
+  "concept": {
+    "heading": "Définition : La probabilité d'un événement",
+    "explanation": "La probabilité mesure la « chance » qu'un événement se réalise. Elle est toujours un nombre entre 0 et 1 (ou entre 0% et 100%). Pour un événement, on compte combien de cas favorables peuvent se produire, puis on divise par le nombre total de cas possibles.",
+    "highlight": "P(A) = (nombre de cas favorables) / (nombre de cas possibles)"
+  },
+  "example": {
+    "problem": "Un sac opaque contient 12 boules de couleur : 5 boules rouges, 4 boules bleues et 3 boules jaunes. On tire une boule au hasard. Calcule la probabilité de tirer une boule rouge, puis la probabilité de tirer une boule qui n'est pas rouge.",
+    "steps": [
+      "Étape 1 : Identifie le nombre total de boules dans le sac. Total = 5 + 4 + 3 = 12 boules.",
+      "Étape 2 : Pour la probabilité de tirer une boule rouge, compte les cas favorables. Nombre de boules rouges = 5.",
+      "Étape 3 : Applique la formule. P(rouge) = 5/12 ≈ 0,417 ou environ 41,7%.",
+      "Étape 4 : Pour la probabilité de ne pas tirer une boule rouge, compte les cas favorables : boules bleues + boules jaunes = 4 + 3 = 7.",
+      "Étape 5 : P(non rouge) = 7/12 ≈ 0,583 ou environ 58,3%.",
+      "Étape 6 : Observe que P(rouge) + P(non rouge) = 5/12 + 7/12 = 12/12 = 1. C'est normal : l'une ou l'autre doit se produire !"
+    ]
+  },
+  "quiz": {
+    "question": "Un dé cubique équilibré a 6 faces numérotées de 1 à 6. On le lance une fois. Quelle est la probabilité d'obtenir un nombre pair ?",
+    "reponse_calculee": "1/2",
+    "choices": [
+      {
+        "label": "1/6",
+        "correct": false
+      },
+      {
+        "label": "1/3",
+        "correct": false
+      },
+      {
+        "label": "1/2",
+        "correct": true
+      },
+      {
+        "label": "2/3",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les nombres pairs sur un dé sont 2, 4 et 6 : c'est 3 cas favorables sur 6 cas possibles. P(pair) = 3/6 = 1/2. Tu as bien appliqué la formule.",
+    "feedback_wrong": "Pas tout à fait. Sur un dé, les nombres pairs sont 2, 4 et 6. C'est donc 3 cas favorables parmi 6 cas possibles au total. P(pair) = 3/6, qui se simplifie en 1/2. Réfléchis aux cas où le dé montre un nombre pair."
+  }
+}

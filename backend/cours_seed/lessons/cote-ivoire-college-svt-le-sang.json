@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-svt-le-sang",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Le sang",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le sang",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué qu'après un effort intense au football ou à l'école, ton cœur s'accélère et tu respires plus vite. Pendant ce temps, quelque chose circule dans ton corps pour apporter l'oxygène à tes muscles et enlever les déchets. Ce liquide rouge qui coule quand tu te blesses, c'est le sang : il est bien vivant et travaille sans arrêt pour que tu te sentes bien."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le sang ?",
+    "explanation": "Le sang est un tissu liquide qui circule dans les artères, les veines et les capillaires. Il remplit trois fonctions essentielles : transporter l'oxygène et les nutriments vers les cellules, enlever les déchets (comme le dioxyde de carbone), et défendre l'organisme contre les infections. Le sang est composé de deux parties : le plasma (liquide clair) et les cellules sanguines (globules rouges, globules blancs, plaquettes).",
+    "highlight": "Le sang = plasma + cellules sanguines (globules rouges + globules blancs + plaquettes)"
+  },
+  "example": {
+    "problem": "Un laboratoire d'analyse fait un prélèvement sanguin chez un patient. Le volume total de sang prélevé est de 5 mL. Après centrifugation, on mesure : plasma = 3 mL, globules rouges = 1,5 mL, globules blancs et plaquettes = 0,5 mL. Calcule le pourcentage de plasma dans ce sang.",
+    "steps": [
+      "Étape 1 : Identifie le volume total de sang = 5 mL.",
+      "Étape 2 : Identifie le volume de plasma = 3 mL.",
+      "Étape 3 : Applique la formule du pourcentage : Pourcentage = (Volume de plasma ÷ Volume total) × 100.",
+      "Étape 4 : Remplace les valeurs : Pourcentage = (3 ÷ 5) × 100 = 0,6 × 100 = 60 %.",
+      "Étape 5 : Conclusion : Le plasma représente 60 % du sang prélevé. Le reste (40 %) est composé des cellules sanguines."
+    ]
+  },
+  "quiz": {
+    "question": "Un adulte a un volume sanguin total d'environ 5 L. Si le plasma représente 55 % du volume sanguin, quel est le volume de plasma chez cet adulte ?",
+    "reponse_calculee": "2,75 L",
+    "choices": [
+      {
+        "label": "2,25 L",
+        "correct": false
+      },
+      {
+        "label": "2,75 L",
+        "correct": true
+      },
+      {
+        "label": "3,5 L",
+        "correct": false
+      },
+      {
+        "label": "1,75 L",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as appliqué correctement le calcul : 55 % de 5 L = (55 ÷ 100) × 5 = 0,55 × 5 = 2,75 L. Le plasma est le composant liquide majeur du sang et représente plus de la moitié du volume sanguin total.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi : pour trouver 55 % de 5 L, tu dois multiplier 5 par 0,55 (ou diviser par 100 et multiplier par 55). Cela donne 2,75 L. Le plasma est la partie liquide du sang, et il en constitue un peu plus de la moitié."
+  }
+}

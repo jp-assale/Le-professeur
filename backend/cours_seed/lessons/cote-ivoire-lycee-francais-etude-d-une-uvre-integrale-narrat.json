@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-etude-d-une-uvre-integrale-narrat",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Étude d'une œuvre intégrale narrative (littérature africaine ou étrangère)",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Étude d'une œuvre intégrale narrative (littérature africaine ou étrangère)",
+  "intro": {
+    "heading": "Mise en situation : Le pouvoir d'une histoire",
+    "body": "Tu es assis sous un grand manguier au village. Un ancien commence à raconter l'histoire de ta famille, comment tes arrière-grands-parents ont survécu à une grande famine, comment ils ont construit cette maison où tu vis. Cette histoire, tu la connais par cœur, mais chaque fois tu découvres un détail nouveau. C'est exactement ce qu'un roman fait : il te raconte une histoire complète, du début à la fin, et tu dois apprendre à la lire, la comprendre, l'analyser."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une œuvre intégrale narrative ?",
+    "explanation": "Au baccalauréat, tu dois étudier un roman complet (ou un recueil de contes, ou un récit) en entier. Ce n'est pas juste quelques pages : c'est tout le livre. Une œuvre narrative, c'est une histoire racontée du début à la fin, avec des personnages, un lieu, des événements qui se succèdent. L'objectif n'est pas seulement de dire ce qui se passe, mais de comprendre comment l'auteur raconte l'histoire, pourquoi il l'a écrite de cette façon, quel message il veut te transmettre. Cette œuvre peut venir d'Afrique (par exemple un roman d'Ahmadou Kourouma ou de Chimamanda Ngozi Adichie) ou d'ailleurs dans le monde.",
+    "highlight": "Étudier une œuvre intégrale narrative, c'est analyser le roman entier : son contexte, ses personnages, son intrigue, son style et le sens qu'il porte."
+  },
+  "example": {
+    "problem": "Prenons un exemple concret : tu dois étudier un roman africain qui raconte l'histoire d'une jeune fille qui quitte son village pour aller à la ville chercher du travail. Comment l'analyser en tant qu'œuvre intégrale narrative ?",
+    "steps": [
+      "Étape 1 : Identifier le contexte de l'auteur. Qui a écrit ce roman ? En quelle époque ? Pourquoi ? Par exemple, l'auteur a-t-il écrit juste après l'indépendance du pays ? Cela influence ce qu'il raconte.",
+      "Étape 2 : Reconnaître l'intrigue complète. L'histoire ne commence pas n'importe où : elle suit le voyage de la jeune fille du village jusqu'à la ville, avec tous les obstacles et les rencontres qu'elle fait. Tu dois voir comment cette intrigue commence, se développe, et comment elle se termine.",
+      "Étape 3 : Analyser les personnages. Qui est cette jeune fille ? Pourquoi quitte-t-elle son village ? Quels autres personnages elle rencontre ? Chaque personnage joue un rôle dans l'histoire et représente souvent quelque chose (la tradition, le changement, l'injustice...).",
+      "Étape 4 : Observer le style de l'auteur. Comment écrit-il ? Il utilise des proverbes africains ? Des descriptions poétiques ? Un langage simple ou complexe ? Ce choix montre son intention.",
+      "Étape 5 : Trouver le message central. À la fin, qu'est-ce que l'auteur essaie de dire ? Que la ville est dangereuse ? Que les femmes sont fortes ? Que l'Afrique change ? Ce message, c'est le sens profond de l'œuvre.",
+      "Étape 6 : Faire le lien entre tous les éléments. Tu ne peux pas analyser les personnages sans penser au contexte, et tu ne peux pas comprendre l'intrigue sans voir comment le style de l'auteur la rend vivante. C'est un tout."
+    ]
+  },
+  "quiz": {
+    "question": "Tu étudies une œuvre narrative africaine complète. Lequel de ces actes est ESSENTIEL pour analyser correctement cette œuvre intégrale ?",
+    "reponse_calculee": "Lire le roman entier et analyser ensemble son contexte, ses personnages, son intrigue, son style et son message",
+    "choices": [
+      {
+        "label": "Lire seulement le résumé du livre sur Internet et mémoriser les noms des personnages",
+        "correct": false
+      },
+      {
+        "label": "Lire le roman entier et analyser ensemble son contexte, ses personnages, son intrigue, son style et son message",
+        "correct": true
+      },
+      {
+        "label": "Regarder une adaptation cinématographique du roman pour connaître l'histoire",
+        "correct": false
+      },
+      {
+        "label": "Étudier seulement les premiers et derniers chapitres pour gagner du temps",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. Une œuvre intégrale narrative doit être lue entièrement, pas résumée. C'est en lisant tout le livre que tu vois comment l'auteur construit son histoire, développe ses personnages et transmet son message. Un résumé ou un film ne te permet jamais de voir les nuances du style, les détails importants, et la profondeur du sens. C'est ce travail complet qui te prépare à bien répondre aux questions d'examen.",
+    "feedback_wrong": "Pas tout à fait. Une œuvre intégrale doit être étudiée en entier, pas partiellement ou en résumé. Lorsque tu étudies seulement des parties, tu manques la progression de l'intrigue, la complexité des personnages et les choix stylistiques de l'auteur. C'est seulement en lisant le livre complet et en analysant ensemble tous ses éléments (contexte, personnages, intrigue, style, message) que tu peux vraiment comprendre ce que l'auteur a voulu dire. Reviens à la définition : étudier une œuvre intégrale narrative, c'est la lire entièrement."
+  }
+}

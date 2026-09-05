@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-oxydation-des-corps-purs",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Oxydation des corps purs simples",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Oxydation des corps purs simples",
+  "intro": {
+    "heading": "Mise en situation : La rouille du fer",
+    "body": "Tu as sûrement observé la rouille sur une vieille bicyclette, un portail en métal ou des tôles abandonnées. Cette transformation rougeâtre du fer n'apparaît pas toute seule : c'est l'oxygène de l'air qui réagit avec le fer. Ce phénomène s'appelle l'oxydation, et c'est ce que nous allons étudier aujourd'hui."
+  },
+  "concept": {
+    "heading": "Définition : L'oxydation des corps purs simples",
+    "explanation": "L'oxydation est une réaction chimique au cours de laquelle un corps pur simple (élément) se combine avec l'oxygène. Lorsqu'un corps simple s'oxyde, il perd des électrons et se transforme en composé contenant de l'oxygène, appelé oxyde. Cette réaction peut être lente (comme la rouille) ou rapide (comme la combustion du charbon).",
+    "highlight": "corps simple + oxygène → oxyde (composé)"
+  },
+  "example": {
+    "problem": "Le charbon de bois (corps pur simple contenant du carbone) brûle complètement dans l'oxygène. On fait brûler 12 g de carbone pur. La masse molaire du carbone est 12 g/mol et celle de l'oxygène est 16 g/mol. Calcule la masse de dioxyde de carbone (CO₂) produite. (Masse molaire CO₂ = 44 g/mol)",
+    "steps": [
+      "Étape 1 : Écris l'équation de la réaction. Le carbone s'oxyde en présence d'oxygène : C + O₂ → CO₂",
+      "Étape 2 : Calcule le nombre de moles de carbone initial. n(C) = 12 g ÷ 12 g/mol = 1 mol",
+      "Étape 3 : D'après l'équation équilibrée, 1 mol de C produit 1 mol de CO₂ (le rapport est 1:1)",
+      "Étape 4 : Donc la quantité de CO₂ produite est aussi 1 mol",
+      "Étape 5 : Calcule la masse de CO₂. m(CO₂) = 1 mol × 44 g/mol = 44 g",
+      "Conclusion : En brûlant, 12 g de carbone pur se transforment en 44 g de dioxyde de carbone par oxydation."
+    ]
+  },
+  "quiz": {
+    "question": "Le magnésium (Mg) est un corps pur simple qui s'oxyde rapidement en présence d'oxygène. On fait réagir 4,8 g de magnésium pur (masse molaire = 24 g/mol). L'équation de la réaction est : 2Mg + O₂ → 2MgO. Sachant que la masse molaire de MgO est 40 g/mol, quelle est la masse d'oxyde de magnésium (MgO) produite ?",
+    "reponse_calculee": "8 g",
+    "choices": [
+      {
+        "label": "4,8 g",
+        "correct": false
+      },
+      {
+        "label": "8 g",
+        "correct": true
+      },
+      {
+        "label": "9,6 g",
+        "correct": false
+      },
+      {
+        "label": "6,4 g",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien appliqué la proportionnalité : 4,8 g de Mg = 0,2 mol. D'après l'équation, 2 mol de Mg produisent 2 mol de MgO (rapport 1:1), donc 0,2 mol de Mg produit 0,2 mol de MgO. Et 0,2 mol × 40 g/mol = 8 g. C'est ça l'oxydation : le magnésium se transforme complètement en un oxyde plus lourd.",
+    "feedback_wrong": "Pas tout à fait. Commence par convertir les grammes en moles : 4,8 g ÷ 24 g/mol = 0,2 mol de Mg. Ensuite, regarde le coefficient de l'équation : 2 mol de Mg produisent 2 mol de MgO, soit un rapport 1:1. Donc 0,2 mol de Mg donne 0,2 mol de MgO. Enfin, convertis en grammes : 0,2 mol × 40 g/mol = 8 g. N'oublie pas que lors de l'oxydation, la masse augmente car on ajoute l'oxygène."
+  }
+}

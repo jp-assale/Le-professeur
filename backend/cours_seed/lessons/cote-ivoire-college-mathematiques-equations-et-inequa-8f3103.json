@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-equations-et-inequa-8f3103",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équations et inéquations dans ℝ×ℝ",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Équations et inéquations dans ℝ×ℝ",
+  "intro": {
+    "heading": "Mise en situation : le marché du village",
+    "body": "Imagine que tu vends des mangues au marché. Tu dois trouver combien de mangues tu dois vendre à un certain prix pour gagner exactement 5 000 francs CFA, ou au minimum 5 000 francs CFA. Tu dois aussi respecter une limite : tu ne peux pas vendre plus de 100 mangues. Comment traduire ces conditions en langage mathématique ? C'est exactement ce que tu vas apprendre avec les équations et inéquations dans ℝ×ℝ."
+  },
+  "concept": {
+    "heading": "Définition : équations et inéquations dans ℝ×ℝ",
+    "explanation": "Une équation dans ℝ×ℝ est une égalité entre deux expressions contenant deux variables (généralement x et y). Une inéquation dans ℝ×ℝ est une inégalité (utilisant les symboles <, >, ≤, ≥) entre deux expressions à deux variables. Résoudre une équation ou une inéquation dans ℝ×ℝ, c'est trouver tous les couples (x ; y) de nombres réels qui la satisfont. Ces solutions forment souvent une droite (pour une équation) ou une région du plan (pour une inéquation).",
+    "highlight": "Une équation dans ℝ×ℝ : ax + by = c. Une inéquation : ax + by < c, ax + by ≤ c, ax + by > c, ou ax + by ≥ c."
+  },
+  "example": {
+    "problem": "Un commerçant vend des cahiers à 500 F CFA l'unité et des stylos à 200 F CFA l'unité. Il veut que la valeur totale de ses ventes soit exactement 4 600 F CFA. Trouve deux couples de solutions (nombre de cahiers ; nombre de stylos).",
+    "steps": [
+      "Étape 1 : Poser les variables. Soit x le nombre de cahiers et y le nombre de stylos.",
+      "Étape 2 : Écrire l'équation. Le total des ventes est : 500x + 200y = 4 600.",
+      "Étape 3 : Simplifier l'équation en divisant tous les termes par 100 : 5x + 2y = 46.",
+      "Étape 4 : Exprimer y en fonction de x. On obtient : 2y = 46 − 5x, donc y = (46 − 5x) / 2 = 23 − 2,5x.",
+      "Étape 5 : Trouver des couples solutions. Si x = 2 : y = 23 − 2,5(2) = 23 − 5 = 18. Premier couple : (2 ; 18). Si x = 6 : y = 23 − 2,5(6) = 23 − 15 = 8. Deuxième couple : (6 ; 8).",
+      "Étape 6 : Vérifier. Pour (2 ; 18) : 500(2) + 200(18) = 1 000 + 3 600 = 4 600 ✓. Pour (6 ; 8) : 500(6) + 200(8) = 3 000 + 1 600 = 4 600 ✓."
+    ]
+  },
+  "quiz": {
+    "question": "Un élève a résolu l'inéquation 3x + 4y ≤ 24 et trouvé que la droite limite est 3x + 4y = 24. Pour tester si le couple (0 ; 0) appartient à la région solution, il calcule : 3(0) + 4(0) = 0. Est-ce que 0 ≤ 24 ? Oui. Donc le couple (0 ; 0) est dans la région solution. Quel est le résultat de ce test ?",
+    "reponse_calculee": "Oui, le couple (0 ; 0) satisfait l'inéquation 3x + 4y ≤ 24",
+    "choices": [
+      {
+        "label": "Non, le couple (0 ; 0) ne satisfait pas l'inéquation.",
+        "correct": false
+      },
+      {
+        "label": "Oui, le couple (0 ; 0) satisfait l'inéquation 3x + 4y ≤ 24",
+        "correct": true
+      },
+      {
+        "label": "On ne peut pas vérifier avec le couple (0 ; 0).",
+        "correct": false
+      },
+      {
+        "label": "Le couple (0 ; 0) satisfait seulement si on utilise 3x + 4y = 24.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Puisque 3(0) + 4(0) = 0 et que 0 ≤ 24 est vrai, le couple (0 ; 0) est bien dans la région solution de l'inéquation 3x + 4y ≤ 24. C'est une méthode utile pour identifier rapidement quelle région du plan contient les solutions.",
+    "feedback_wrong": "Relis bien le calcul : 3(0) + 4(0) = 0, et nous demandons si 0 ≤ 24. Cette inégalité est vraie, donc le couple (0 ; 0) satisfait bien l'inéquation 3x + 4y ≤ 24. Retiens que pour vérifier si un couple appartient à la région solution, il suffit de le substituer dans l'inéquation et vérifier si l'inégalité est satisfaite."
+  }
+}

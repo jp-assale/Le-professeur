@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-mathematiques-ensemble-des-nombres-reels-r",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Ensemble des nombres réels ℝ",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "L'ensemble des nombres réels ℝ",
+  "intro": {
+    "heading": "Mise en situation : Mesurer la terre",
+    "body": "Tu dois clôturer un champ carré avec du fil barbelé. Le champ a une surface de 100 m². Combien mesure chaque côté ? Tu calcules : côté = √100 = 10 m. Facile. Mais que se passe-t-il si le champ fait 50 m² ? Alors côté = √50... et là, tu obtiens un nombre qu'on ne peut pas écrire simplement comme une fraction. C'est ici qu'intervient l'ensemble ℝ, qui contient TOUS les nombres, même ceux-là."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'ensemble des nombres réels ℝ ?",
+    "explanation": "L'ensemble des nombres réels ℝ est l'ensemble qui regroupe tous les nombres que tu peux placer sur une droite numérique : les entiers naturels (0, 1, 2, 3...), les entiers relatifs (..., −2, −1, 0, 1, 2...), les nombres rationnels (fractions comme 3/4 ou −5/2), ET les nombres irrationnels (comme √2, √3, π) qui ne peuvent pas s'écrire sous forme de fraction. En résumé, ℝ contient tous les nombres possibles qui mesurent une grandeur dans la réalité.",
+    "highlight": "ℝ = {nombres entiers} ∪ {fractions} ∪ {nombres irrationnels}"
+  },
+  "example": {
+    "problem": "Un menuisier doit découper une planche rectangulaire dont la longueur est 7 m et la largeur est √3 m. Calcule le périmètre exact de cette planche.",
+    "steps": [
+      "Étape 1 : Rappelle-toi la formule du périmètre d'un rectangle. P = 2 × (longueur + largeur)",
+      "Étape 2 : Identifie les valeurs. Longueur = 7 m (nombre entier, donc dans ℝ). Largeur = √3 m (nombre irrationnel, donc aussi dans ℝ).",
+      "Étape 3 : Additionne la longueur et la largeur. 7 + √3 (on laisse √3 sous cette forme, on ne le convertit pas en décimale)",
+      "Étape 4 : Multiplie par 2 pour obtenir le périmètre. P = 2 × (7 + √3) = 14 + 2√3 m",
+      "Étape 5 : Le résultat 14 + 2√3 m est un nombre réel (somme d'un entier et d'un nombre irrationnel). Si tu veux une valeur approchée : √3 ≈ 1,732, donc P ≈ 14 + 2(1,732) ≈ 17,464 m."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces nombres n'appartient PAS à l'ensemble ℝ ?",
+    "reponse_calculee": "i (unité imaginaire)",
+    "choices": [
+      {
+        "label": "−8",
+        "correct": false
+      },
+      {
+        "label": "5/3",
+        "correct": false
+      },
+      {
+        "label": "i (unité imaginaire)",
+        "correct": true
+      },
+      {
+        "label": "π",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les nombres −8 (entier), 5/3 (fraction), et π (irrationnel) appartiennent tous à ℝ. En revanche, i est l'unité imaginaire : c'est un nombre complexe qui ne se place pas sur la droite numérique réelle. Il appartient à un ensemble plus grand, ℂ (les nombres complexes), mais pas à ℝ.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que ℝ contient tous les entiers (comme −8), toutes les fractions (comme 5/3), et tous les nombres irrationnels (comme π). Le seul nombre parmi les options qui n'est PAS réel est i, l'unité imaginaire, qui appartient aux nombres complexes."
+  }
+}

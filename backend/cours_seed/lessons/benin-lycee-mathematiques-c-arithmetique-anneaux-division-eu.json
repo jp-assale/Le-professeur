@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-arithmetique-anneaux-division-eu",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Arithmétique (anneaux, division euclidienne, systèmes de numération, divisibilité)",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Arithmétique : Anneaux, division euclidienne, systèmes de numération, divisibilité",
+  "intro": {
+    "heading": "Mise en situation : Le marché et les partages équitables",
+    "body": "Au marché de Cotonou, un commerçant reçoit 437 œufs à distribuer équitablement dans des caisses de 12 œufs. Combien de caisses remplira-t-il, et combien d'œufs restera-t-il ? Cette question simple cache un principe fondamental : la division euclidienne, qui te permettra de résoudre des problèmes de partage, de codage numérique, et de comprendre les propriétés profondes des nombres."
+  },
+  "concept": {
+    "heading": "La division euclidienne : le cœur de l'arithmétique",
+    "explanation": "Tout nombre entier peut être écrit de manière unique comme le produit d'un diviseur et d'un quotient, plus un reste. C'est la division euclidienne, qui fonde toute l'arithmétique des entiers. Cette propriété te permet non seulement de partager équitablement, mais aussi de construire les systèmes de numération (base 10, base 2, etc.), de déterminer la divisibilité, et d'explorer la structure des anneaux $\\mathbb{Z}$ et $\\mathbb{Z}/n\\mathbb{Z}$.",
+    "highlight": "Pour tout $a \\in \\mathbb{Z}$ et $b \\in \\mathbb{Z}^*$, il existe un unique couple $(q, r)$ tel que $a = bq + r$ avec $0 \\le r < |b|$. $q$ est le quotient, $r$ est le reste."
+  },
+  "example": {
+    "problem": "Un artisan fabrique 1 247 bracelets. Il veut les emballer dans des boîtes de 15 bracelets chacune. Effectue la division euclidienne de 1 247 par 15, puis vérifie ton résultat.",
+    "steps": [
+      "Étape 1 : On cherche à écrire $1247 = 15 \\times q + r$ avec $0 \\le r < 15$.",
+      "Étape 2 : On divise : $1247 \\div 15 \\approx 83,13$. Le quotient entier est $q = 83$.",
+      "Étape 3 : On calcule le reste : $r = 1247 - 15 \\times 83 = 1247 - 1245 = 2$.",
+      "Étape 4 : On vérifie que le reste satisfait bien $0 \\le 2 < 15$ : vrai ✓",
+      "Étape 5 : Vérification complète : $15 \\times 83 + 2 = 1245 + 2 = 1247$ ✓",
+      "Résultat : L'artisan remplira 83 boîtes complètes et il restera 2 bracelets."
+    ]
+  },
+  "quiz": {
+    "question": "Effectue la division euclidienne de 598 par 17. Quel est le quotient $q$ ?",
+    "reponse_calculee": "35",
+    "choices": [
+      {
+        "label": "32",
+        "correct": false
+      },
+      {
+        "label": "35",
+        "correct": true
+      },
+      {
+        "label": "36",
+        "correct": false
+      },
+      {
+        "label": "33",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! $598 = 17 \\times 35 + 3$. Le quotient est 35 et le reste est 3. Tu maîtrises bien la division euclidienne.",
+    "feedback_wrong": "Ce n'est pas le bon quotient. Divise 598 par 17 pas à pas : $598 \\div 17 \\approx 35,18$. Le quotient entier est 35. Vérifie : $17 \\times 35 = 595$, donc le reste est $598 - 595 = 3$. La relation $a = bq + r$ doit être vérifiée avec $0 \\le r < b$."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-fonction-logarithme-neperi",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonction logarithme népérien",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Fonction logarithme népérien",
+  "intro": {
+    "heading": "Mise en situation : L'argent qui se reproduit",
+    "body": "Imagine que tu places 1 000 000 CFA à la banque avec un taux d'intérêt composé. Chaque année, ton capital augmente et rapporte des intérêts sur le nouveau montant. La question que tu te poses : après combien d'années mon capital aura-t-il doublé ? Pour répondre, tu dois trouver l'exposant d'une équation exponentielle. C'est exactement le rôle du logarithme népérien : retrouver l'exposant quand tu connais le résultat."
+  },
+  "concept": {
+    "heading": "Définition : Le logarithme népérien",
+    "explanation": "Le logarithme népérien, noté ln, est la fonction réciproque (ou inverse) de la fonction exponentielle. Si tu sais que $e^x = y$, alors $x = \\ln(y)$. En d'autres termes, le logarithme t'aide à trouver l'exposant inconnu dans une équation exponentielle. La fonction ln est définie uniquement pour les nombres strictement positifs.",
+    "highlight": "Si $e^x = y$ alors $x = \\ln(y)$ ; domaine de ln : $]0; +\\infty[$"
+  },
+  "example": {
+    "problem": "Un investisseur place 500 000 CFA. Son capital augmente selon la formule $C(t) = 500\\,000 \\times e^{0.05t}$, où $t$ est le temps en années et $e \\approx 2.718$. Après combien d'années son capital aura-t-il atteint 750 000 CFA ?",
+    "steps": [
+      "Étape 1 : Pose l'équation. On cherche $t$ tel que $C(t) = 750\\,000$. Donc : $500\\,000 \\times e^{0.05t} = 750\\,000$",
+      "Étape 2 : Isole l'exponentielle. Divise les deux côtés par 500 000 : $e^{0.05t} = \\frac{750\\,000}{500\\,000} = 1.5$",
+      "Étape 3 : Applique le logarithme népérien des deux côtés pour retrouver l'exposant : $\\ln(e^{0.05t}) = \\ln(1.5)$",
+      "Étape 4 : Utilise la propriété clé : $\\ln(e^x) = x$. Donc : $0.05t = \\ln(1.5)$",
+      "Étape 5 : Calcule $\\ln(1.5) \\approx 0.405$ (à la calculatrice)",
+      "Étape 6 : Résous : $t = \\frac{0.405}{0.05} = 8.1$ années. Le capital atteindra 750 000 CFA après environ 8 ans et 1 mois."
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation $e^{2x} = 7$. Quelle est la valeur de $x$ (arrondis à deux décimales) ?",
+    "reponse_calculee": "0.97",
+    "choices": [
+      {
+        "label": "$x = 1.95$",
+        "correct": false
+      },
+      {
+        "label": "$x = 0.97$",
+        "correct": true
+      },
+      {
+        "label": "$x = 3.5$",
+        "correct": false
+      },
+      {
+        "label": "$x = 7$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as isolé l'exponentielle et appliqué le logarithme : $e^{2x} = 7$ donne $2x = \\ln(7)$, soit $x = \\frac{\\ln(7)}{2} \\approx \\frac{1.946}{2} \\approx 0.97$. Tu maîtrises le lien inverse entre exponentielle et logarithme.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour résoudre $e^{2x} = 7$, applique ln des deux côtés : $\\ln(e^{2x}) = \\ln(7)$. Cela donne $2x = \\ln(7) \\approx 1.946$. Ensuite divise par 2 : $x = \\frac{1.946}{2} \\approx 0.97$. Revérifie tes étapes."
+  }
+}

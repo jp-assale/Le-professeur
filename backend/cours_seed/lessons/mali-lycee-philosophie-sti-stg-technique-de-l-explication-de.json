@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-technique-de-l-explication-de",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Technique de l'explication de texte",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Technique de l'explication de texte",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi expliquer un texte ?",
+    "body": "Imagine que tu lis un discours d'un leader politique, ou un passage d'un roman, et tu dois le comprendre vraiment, au-delà des mots. Tes camarades et toi, vous lisez la même phrase, mais vous ne la comprenez pas tous de la même façon. L'explication de texte, c'est l'art de déplier ce texte, d'en montrer les couches cachées, pour que chacun puisse saisir ce que l'auteur a vraiment voulu dire. Au Baccalauréat, c'est une compétence clé : savoir lire, analyser et justifier ce qu'on lit."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'explication de texte ?",
+    "explanation": "L'explication de texte est une méthode d'analyse qui te permet de comprendre et d'interpréter un passage écrit en le décortiquant phrase par phrase, en identifiant les idées principales, les mots clés, les images, et les intentions de l'auteur. Ce n'est pas simplement résumer ou raconter : c'est montrer COMMENT et POURQUOI le texte fonctionne, et ce qu'il signifie réellement. Elle repose sur une lecture active et méthodique.",
+    "highlight": "Expliquer un texte = identifier le sens profond en analysant la forme, le vocabulaire, la structure et l'intention de l'auteur."
+  },
+  "example": {
+    "problem": "Voici un passage tiré d'une fable philosophique : « L'homme regarde l'horizon lointain et croit que le bonheur y habite. Mais il marche, il avance, et l'horizon s'éloigne toujours. Il ne comprend pas que le bonheur n'est jamais loin : il est ici, à chaque pas. » Explique ce texte en détail.",
+    "steps": [
+      "Étape 1 — Identifier l'idée centrale : Le texte oppose deux visions du bonheur. L'une est fausse (chercher loin), l'autre vraie (trouver près). C'est le cœur du message.",
+      "Étape 2 — Analyser la structure : Le texte utilise un contraste : « regarde l'horizon lointain » face à « ici, à chaque pas ». Cette opposition souligne la contradiction dans la quête humaine.",
+      "Étape 3 — Examiner les mots clés : « horizon s'éloigne toujours » n'est pas un hasard. L'horizon est ce qu'on ne peut jamais atteindre. C'est une image pour montrer l'illusion.",
+      "Étape 4 — Repérer la progression : Le texte montre d'abord l'erreur humaine (chercher loin), puis le mouvement vain (marcher sans résultat), enfin la révélation (« il ne comprend pas »). C'est une escalade vers la vérité.",
+      "Étape 5 — Interpréter l'intention : L'auteur critique une illusion commune : croire que le bonheur est toujours ailleurs. Il invite à une sagesse : accepter le présent.",
+      "Étape 6 — Conclure l'explication : Ce texte nous enseigne que la vraie sagesse consiste à reconnaître que ce qu'on cherche désespérément au loin existe déjà près de nous. L'explication a révélé une leçon philosophique cachée sous des images simples."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle décrit correctement la première étape de l'explication de texte ?",
+    "reponse_calculee": "Identifier le thème ou l'idée centrale que le texte développe.",
+    "choices": [
+      {
+        "label": "Résumer le texte en quelques mots sans l'analyser.",
+        "correct": false
+      },
+      {
+        "label": "Identifier le thème ou l'idée centrale que le texte développe.",
+        "correct": true
+      },
+      {
+        "label": "Remplacer les mots difficiles par des synonymes plus simples.",
+        "correct": false
+      },
+      {
+        "label": "Donner son propre avis personnel sur ce que pense l'auteur.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Commencer par identifier l'idée ou le thème central permet de structurer toute ton analyse. C'est comme trouver le fil rouge qui guide ta lecture. Sans cette première étape, tu risques de te perdre dans les détails et de rater le sens profond du texte.",
+    "feedback_wrong": "Pas tout à fait. L'explication de texte n'est pas un simple résumé, ni une substitution de vocabulaire, ni l'imposition de son avis. La première étape consiste à identifier clairement le thème ou l'idée centrale autour de laquelle le texte s'organise. C'est le point de départ de toute analyse sérieuse."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-langage-et-verite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Langage et vérité",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "Langage et vérité",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu écoutes à la radio une information : « Le gouvernement a annoncé une baisse des prix du carburant. » Le lendemain, tu vas à la station-essence et les prix n'ont pas changé. Tu te demandes : qu'est-ce qui s'est passé ? L'énoncé était-il faux ? Ou simplement imprécis ? Cette question simple te pousse à réfléchir sur le lien entre ce qu'on dit et ce qui est réellement vrai."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le langage et la vérité ?",
+    "explanation": "Le langage est l'outil par lequel nous exprimons nos pensées et nos croyances. Mais tous les énoncés ne sont pas équivalents : certains correspondent à la réalité, d'autres non. La vérité, c'est la conformité entre ce qu'on affirme et la réalité. En philosophie, on pose la question fondamentale : comment savons-nous si ce qu'on dit est vrai ? Et est-ce que le langage peut toujours nous permettre de dire la vérité ?",
+    "highlight": "La vérité d'un énoncé dépend de sa conformité avec la réalité, pas seulement de la façon dont on le formule."
+  },
+  "example": {
+    "problem": "Analyse cette situation : un politicien déclare « J'ai amélioré l'accès à l'eau potable dans ma région ». Or, les chiffres administratifs montrent que seulement quelques localités ont eu accès à des robinets supplémentaires, tandis que le reste de la région n'a rien reçu. Comment évaluer la vérité de cette affirmation ?",
+    "steps": [
+      "Étape 1 : Identifier l'énoncé. Le politicien affirme un fait précis : « J'ai amélioré l'accès à l'eau potable dans ma région ». Cet énoncé prétend correspondre à une réalité objective.",
+      "Étape 2 : Vérifier la réalité des faits. On consulte les rapports administratifs : seules quelques localités ont eu des installations nouvelles, pas l'ensemble de la région. La réalité est donc partielle.",
+      "Étape 3 : Comparer l'énoncé et la réalité. L'affirmation dit « dans ma région » (totalité), mais la réalité montre des améliorations limitées à certains endroits (partiellement).",
+      "Étape 4 : Évaluer la conformité. Il y a une discordance : l'énoncé exagère ou généralise abusivement. Il n'est donc pas entièrement vrai.",
+      "Étape 5 : Conclusion. Le langage utilisé masque la réalité. Pour dire la vérité, il faudrait dire : « J'ai amélioré l'accès à l'eau potable dans certaines localités de ma région. » C'est un exemple de la façon dont le langage peut nous éloigner de la vérité, soit intentionnellement, soit par imprécision."
+    ]
+  },
+  "quiz": {
+    "question": "Si je dis « Tous les élèves de ma classe ont réussi l'examen » mais que trois élèves sur trente ont échoué, quelle est la caractéristique principale de mon énoncé ?",
+    "reponse_calculee": "C'est un énoncé faux, car il ne correspond pas à la réalité des faits.",
+    "choices": [
+      {
+        "label": "C'est un énoncé bien formulé mais peu clair.",
+        "correct": false
+      },
+      {
+        "label": "C'est un énoncé faux, car il ne correspond pas à la réalité des faits.",
+        "correct": true
+      },
+      {
+        "label": "C'est un énoncé vrai mais exagéré.",
+        "correct": false
+      },
+      {
+        "label": "C'est un énoncé qui dépend de l'interprétation de chacun.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. Un énoncé est vrai s'il correspond à la réalité. Dire « Tous » quand trois ont échoué contredit les faits. L'énoncé est faux, point. Le langage doit être conforme à la réalité pour exprimer la vérité.",
+    "feedback_wrong": "Attention : la vérité n'est pas une question d'interprétation ou de formulation. Si tu dis « Tous » et que ce n'est pas le cas, c'est faux. C'est la non-conformité avec les faits qui rend l'énoncé faux. Le langage doit coller à la réalité."
+  }
+}

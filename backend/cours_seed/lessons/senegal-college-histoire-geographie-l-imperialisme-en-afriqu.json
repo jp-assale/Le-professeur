@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-histoire-geographie-l-imperialisme-en-afriqu",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'impérialisme en Afrique (missions et explorations, congrès de Berlin, résistances, systèmes coloniaux)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "L'impérialisme en Afrique : missions, explorations, Berlin et résistances",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu marches dans une rue de Dakar et tu vois des bâtiments anciens, des noms de rues français, des monuments datant du 19e siècle. Ces traces ne sont pas apparues par hasard : elles viennent d'une période où les puissances européennes ont décidé de conquérir et de dominer l'Afrique. Comment cela s'est passé ? Pourquoi ? Et comment les Africains ont-ils réagi ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'impérialisme en Afrique ?",
+    "explanation": "À partir du milieu du 19e siècle, les grandes puissances européennes (France, Royaume-Uni, Allemagne, Belgique, Portugal...) ont lancé une vaste conquête de l'Afrique. Elles justifiaient cette expansion par plusieurs prétextes : répandre le christianisme (missions religieuses), satisfaire la curiosité géographique (explorations), trouver des matières premières et des marchés pour leurs industries. Elles se partageaient les territoires africains comme un butin, en plaçant des colons, des administrateurs et des soldats pour les dominer. Ce phénomène s'appelle l'impérialisme colonial.",
+    "highlight": "L'impérialisme : domination politique, économique et culturelle d'une puissance européenne sur un territoire africain, justifiée par des prétextes de civilisation ou de progrès."
+  },
+  "example": {
+    "problem": "Analyse comment les Européens ont justifié et mis en place leur conquête de l'Afrique en trois étapes : la justification religieuse et scientifique, le partage légal, et l'établissement du contrôle sur le terrain.",
+    "steps": [
+      "Étape 1 — La justification : Au 19e siècle, les missionnaires chrétiens partent en Afrique pour convertir les populations. En parallèle, des explorateurs européens (comme Livingstone) parcourent le continent et envoient des récits enthousiastes en Europe. Ces deux mouvements créent une image : l'Afrique est une terre 'à civiliser', à 'développer'. C'est la première justification de l'impérialisme.",
+      "Étape 2 — Le partage légal (Congrès de Berlin, 1884-1885) : Les puissances européennes se réunissent à Berlin pour décider qui colonise quel territoire. Aucun Africain n'est invité. Elles tracent des lignes sur une carte, souvent sans respecter les frontières naturelles ou ethniques. C'est le partage légal et officiel : chaque puissance coloniale reçoit son 'morceau' d'Afrique.",
+      "Étape 3 — Le contrôle sur le terrain : Une fois le partage décidé, les puissances envoient des troupes, des administrateurs et des colons pour occuper et administrer. Elles construisent des routes, des écoles (souvent religieuses), des postes administratifs. Elles imposent la langue, la loi et la monnaie de la métropole. L'Afrique n'est plus libre de décider d'elle-même : elle obéit au pouvoir européen.",
+      "Étape 4 — Les résistances africaines : Face à cette domination, les Africains ne restent pas passifs. Certains royaumes, comme celui du Kanem-Bornou ou les États Zulu, résistent militairement. D'autres refusent de collaborer ou organisent des révoltes. Même si la technologie militaire européenne (fusils modernes, artillerie) est supérieure, la résistance montre que les Africains n'acceptent pas passivement l'impérialisme.",
+      "Conclusion : L'impérialisme n'est donc pas un simple phénomène d'exploration pacifique, mais un système complet de justification, de partage légal et de domination forcée, auquel les Africains opposent une résistance — parfois victorieuse localement, mais finalement insuffisante face aux armes et à l'organisation des Européens."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle décrit correctement le rôle du Congrès de Berlin (1884-1885) dans l'impérialisme en Afrique ?",
+    "reponse_calculee": "Il a permis aux puissances européennes de se partager légalement le continent africain sans consulter les Africains.",
+    "choices": [
+      {
+        "label": "Il a réuni les leaders africains et européens pour décider ensemble du futur de l'Afrique.",
+        "correct": false
+      },
+      {
+        "label": "Il a permis aux puissances européennes de se partager légalement le continent africain sans consulter les Africains.",
+        "correct": true
+      },
+      {
+        "label": "Il a arrêté l'expansion impérialiste en Afrique et protégé l'indépendance des royaumes africains.",
+        "correct": false
+      },
+      {
+        "label": "Il a établi les premières missions religieuses chrétiennes sur le continent africain.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le Congrès de Berlin est un moment clé : les grandes puissances s'y réunissent seules (sans les Africains) et tracent des lignes sur une carte pour se diviser l'Afrique. C'est le partage officiel et légal (selon la vision européenne) du continent. Cela montre le caractère injuste et unilatéral de l'impérialisme.",
+    "feedback_wrong": "Pas tout à fait. Le Congrès de Berlin n'a pas réuni les Africains (ils n'ont eu aucun mot à dire), n'a pas arrêté l'impérialisme (il l'a au contraire organisé), et n'a pas créé les premières missions (celles-ci existaient déjà). Son vrai rôle était de permettre aux Européens de se partager légalement l'Afrique entre eux. Relis la définition du Congrès de Berlin dans le concept."
+  }
+}

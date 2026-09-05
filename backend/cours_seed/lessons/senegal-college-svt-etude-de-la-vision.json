@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-svt-etude-de-la-vision",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Étude de la vision",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Étude de la vision",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es assis sous un baobab en fin d'après-midi. Le soleil brille fort, et tu plisses les yeux pour mieux voir ton ami qui arrive de loin. Quelques minutes plus tard, vous entrez ensemble dans une case : ta vue s'adapte peu à peu à l'obscurité. Comment ton œil fait-il pour voir dans ces conditions si différentes ? C'est ce que nous allons découvrir."
+  },
+  "concept": {
+    "heading": "L'œil : un système optique qui capte la lumière",
+    "explanation": "La vision est le processus par lequel la lumière pénètre dans l'œil, traverse des milieux transparents, se réfracte et forme une image sur la rétine. Cette image est ensuite transmise au cerveau par le nerf optique, qui l'interprète. L'œil fonctionne comme une caméra : il doit laisser entrer la bonne quantité de lumière, la faire converger au bon endroit et créer une image nette.",
+    "highlight": "L'accommodation : c'est la capacité du cristallin à changer de forme pour adapter la vergence de l'œil et voir net à des distances différentes."
+  },
+  "example": {
+    "problem": "Un élève observe un objet situé à 25 cm de son œil. Son cristallin se bombe pour augmenter sa puissance de réfraction. Si le cristallin au repos a une vergence de 60 dioptries, et qu'il doit atteindre une vergence totale de 64 dioptries pour voir net l'objet à 25 cm, calcule l'augmentation de vergence du cristallin lors de l'accommodation.",
+    "steps": [
+      "Étape 1 : Identifie la vergence initiale du cristallin au repos = 60 dioptries.",
+      "Étape 2 : Identifie la vergence totale requise pour voir net l'objet à 25 cm = 64 dioptries.",
+      "Étape 3 : L'augmentation de vergence est la différence entre la vergence finale et la vergence initiale.",
+      "Étape 4 : Applique la formule : Augmentation = Vergence finale − Vergence initiale.",
+      "Étape 5 : Calcule : Augmentation = 64 − 60 = 4 dioptries.",
+      "Étape 6 : Conclusion : Le cristallin doit augmenter sa puissance de 4 dioptries pour accommoder et voir net l'objet proche."
+    ]
+  },
+  "quiz": {
+    "question": "Un objet est placé à 20 cm de l'œil. Pour que cet objet se forme exactement sur la rétine, la vergence totale de l'œil doit être de 70 dioptries. Si la cornée fournit une vergence de 43 dioptries, quelle vergence le cristallin doit-il fournir pour que la vision soit nette ?",
+    "reponse_calculee": "27 dioptries",
+    "choices": [
+      {
+        "label": "23 dioptries",
+        "correct": false
+      },
+      {
+        "label": "27 dioptries",
+        "correct": true
+      },
+      {
+        "label": "30 dioptries",
+        "correct": false
+      },
+      {
+        "label": "113 dioptries",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris que la vergence totale de l'œil est la somme des vergences de la cornée et du cristallin. Puisque Vergence totale = Vergence de la cornée + Vergence du cristallin, alors Vergence du cristallin = 70 − 43 = 27 dioptries. C'est l'accommodation qui permet au cristallin d'ajuster sa vergence pour voir net à différentes distances.",
+    "feedback_wrong": "Pas encore. Rappelle-toi que la vergence totale de l'œil est la somme de la vergence de la cornée et de celle du cristallin. Il faut donc retrancher la vergence de la cornée (43 dioptries) de la vergence totale requise (70 dioptries) pour trouver ce que le cristallin doit fournir : 70 − 43 = 27 dioptries."
+  }
+}

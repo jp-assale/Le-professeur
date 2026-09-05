@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-fonctions-et-applications",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions et applications (rationnelles, affines)",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "function_affine",
+  "title": "Fonctions et applications (rationnelles, affines)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un artisan local loue une machine à coudre pour fabriquer des tissus. Il paie une somme fixe de 5 000 FCFA au départ, puis 500 FCFA par mètre de tissu produit. Plus il produit, plus le coût total augmente de façon régulière. Comment calculer le coût total pour n'importe quelle quantité de tissu ? C'est exactement ce que tu vas apprendre avec les fonctions affines."
+  },
+  "concept": {
+    "heading": "Définition : fonction affine",
+    "explanation": "Une fonction affine est une relation entre deux variables où chaque valeur d'entrée (appelée variable indépendante, souvent notée $x$) est associée à une seule valeur de sortie (notée $f(x)$ ou $y$) selon une règle de la forme $f(x) = ax + b$. Le coefficient $a$ représente la variation : c'est la pente de la droite. Le terme $b$ est l'ordonnée à l'origine : c'est la valeur de $f$ quand $x = 0$. Dans la vie réelle, $a$ est souvent un tarif ou une vitesse, et $b$ est un coût fixe ou un point de départ.",
+    "highlight": "f(x) = ax + b, où a est la pente et b est l'ordonnée à l'origine"
+  },
+  "example": {
+    "problem": "Un marchand de fruits au marché de Ouagadougou loue son étal pour 2 000 FCFA par jour (coût fixe). Il achète les mangues 400 FCFA l'unité. Écris la fonction affine qui modélise le coût total $C$ en fonction du nombre $x$ de mangues achetées, puis calcule le coût pour 15 mangues.",
+    "steps": [
+      "Identifier les variables : $x$ = nombre de mangues achetées, $C(x)$ = coût total en FCFA.",
+      "Identifier le coût fixe $b$ : c'est la location de l'étal = 2 000 FCFA. Donc $b = 2000$.",
+      "Identifier le coût variable par unité $a$ : chaque mangue coûte 400 FCFA. Donc $a = 400$.",
+      "Écrire la fonction affine : $C(x) = 400x + 2000$.",
+      "Calculer le coût pour 15 mangues : $C(15) = 400 \\times 15 + 2000 = 6000 + 2000 = 8000$ FCFA.",
+      "Réponse : le coût total pour 15 mangues est 8 000 FCFA."
+    ]
+  },
+  "quiz": {
+    "question": "Un taxi fait un trajet avec un tarif d'appel de 500 FCFA, puis 200 FCFA par kilomètre parcouru. Quelle est l'image de 12 km par cette fonction affine ? (C'est-à-dire, quel est le tarif total pour 12 km ?)",
+    "reponse_calculee": "2900 FCFA",
+    "choices": [
+      {
+        "label": "2 400 FCFA",
+        "correct": false
+      },
+      {
+        "label": "2 900 FCFA",
+        "correct": true
+      },
+      {
+        "label": "3 000 FCFA",
+        "correct": false
+      },
+      {
+        "label": "2 700 FCFA",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La fonction est $f(x) = 200x + 500$. Pour $x = 12$, on calcule $f(12) = 200 \\times 12 + 500 = 2400 + 500 = 2900$ FCFA. Tu as bien identifié la pente (200, le tarif au km) et l'ordonnée à l'origine (500, l'appel initial).",
+    "feedback_wrong": "Pas encore. La fonction affine est $f(x) = 200x + 500$, où 200 FCFA est le tarif par km et 500 FCFA est le tarif fixe. Pour 12 km : $f(12) = 200 \\times 12 + 500 = 2400 + 500 = 2900$ FCFA. Pense bien à ajouter le tarif fixe au tarif kilométrique."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-physique-chimie-solutions-aqueuses",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Solutions aqueuses",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Solutions aqueuses",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu prépares un verre de jus de citron frais pour tes amis : tu mélanges du jus concentré avec de l'eau. Le liquide change de couleur et de goût. Tu crées une solution ! Mais qu'est-ce qui se passe réellement quand tu dilues ? Et comment mesurer la force de cette solution ? C'est ce que nous allons explorer."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une solution aqueuse ?",
+    "explanation": "Une solution aqueuse est un mélange homogène formé d'un soluté (substance dissoute) et d'un solvant, généralement l'eau. Contrairement à un mélange hétérogène où tu vois les grains de sucre au fond du verre, dans une solution tout disparaît : le soluté se disperse uniformément à l'échelle moléculaire. La concentration mesure la quantité de soluté dissoute dans une certaine quantité de solution.",
+    "highlight": "Solution aqueuse = soluté dissous uniformément dans l'eau (solvant)"
+  },
+  "example": {
+    "problem": "Tu dois préparer 500 mL d'une solution de sucre. Tu as 25 g de sucre pur. Calcule la concentration massique de cette solution (en g/L).",
+    "steps": [
+      "Étape 1 : Identifie les données. Masse de soluté (sucre) = 25 g. Volume de solution = 500 mL.",
+      "Étape 2 : Convertis le volume en litres pour obtenir l'unité demandée. 500 mL = 500 ÷ 1000 = 0,5 L.",
+      "Étape 3 : Rappelle la formule de concentration massique : $C_m = \\frac{m_{soluté}}{V_{solution}}$ où $C_m$ est en g/L, $m$ en g, et $V$ en L.",
+      "Étape 4 : Remplace par les valeurs. $C_m = \\frac{25}{0,5} = 50$ g/L.",
+      "Étape 5 : Interprète le résultat. La concentration de ta solution est 50 g/L : cela signifie qu'il y a 50 g de sucre dans chaque litre de solution."
+    ]
+  },
+  "quiz": {
+    "question": "Tu dissous 8 g de sel de cuisine dans 200 mL d'eau. Quelle est la concentration massique de la solution (en g/L) ?",
+    "reponse_calculee": "40 g/L",
+    "choices": [
+      {
+        "label": "25 g/L",
+        "correct": false
+      },
+      {
+        "label": "40 g/L",
+        "correct": true
+      },
+      {
+        "label": "80 g/L",
+        "correct": false
+      },
+      {
+        "label": "16 g/L",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : $C_m = \\frac{8 \\text{ g}}{0,2 \\text{ L}} = 40$ g/L. N'oublie pas de toujours convertir le volume en litres avant de calculer.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti 200 mL en litres (0,2 L), puis applique $C_m = \\frac{m_{soluté}}{V_{solution}} = \\frac{8}{0,2} = 40$ g/L. La concentration massique se mesure en grammes par litre."
+  }
+}

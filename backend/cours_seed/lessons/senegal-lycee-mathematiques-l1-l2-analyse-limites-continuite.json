@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-analyse-limites-continuite",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Analyse : limites-continuité, dérivabilité, étude de fonctions",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Analyse : Limites, Continuité, Dérivabilité et Étude de Fonctions",
+  "intro": {
+    "heading": "Mise en situation : Le débit d'une pompe à eau",
+    "body": "Imagine une pompe qui remplit un réservoir à Dakar. Le débit change progressivement avec le temps : d'abord très rapide, puis il ralentit. Comment prévoir si le débit restera régulier ou s'il va s'arrêter brutalement ? Comprendre comment une grandeur varie et se comporte aux limites, c'est exactement ce que ce chapitre t'apprend."
+  },
+  "concept": {
+    "heading": "Trois piliers de l'analyse : limites, continuité et dérivabilité",
+    "explanation": "Étudier une fonction, c'est répondre à trois questions : (1) Vers quoi tend-elle quand x s'approche d'une valeur ou de l'infini ? (C'est la limite.) (2) La fonction change-t-elle brutalement ou progressivement ? (C'est la continuité.) (3) À quelle vitesse varie-t-elle ? (C'est la dérivabilité.) Ces trois concepts permettent de dessiner le portrait complet d'une fonction et de prédire son comportement.",
+    "highlight": "Une fonction est continue en un point si $\\lim_{x \\to a} f(x) = f(a)$ ; elle est dérivable en un point si la limite $\\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}$ existe et est finie."
+  },
+  "example": {
+    "problem": "Soit la fonction $f(x) = \\frac{x^2 - 4}{x - 2}$ pour $x \\neq 2$. (1) Calcule la limite de $f(x)$ quand $x$ tend vers 2. (2) Peut-on prolonger $f$ par continuité en $x = 2$ ? (3) Si oui, quel est le nombre dérivé en $x = 2$ de ce prolongement ?",
+    "steps": [
+      "Étape 1 : Factorise le numérateur. $x^2 - 4 = (x-2)(x+2)$, donc $f(x) = \\frac{(x-2)(x+2)}{x-2}$.",
+      "Étape 2 : Simplifie pour $x \\neq 2$. $f(x) = x + 2$ (on peut annuler le facteur $(x-2)$).",
+      "Étape 3 : Calcule la limite. $\\lim_{x \\to 2} f(x) = \\lim_{x \\to 2} (x+2) = 4$.",
+      "Étape 4 : Conclusion sur la continuité. Puisque la limite existe et vaut 4, on peut prolonger $f$ par continuité en posant $g(2) = 4$. La fonction prolongée $g(x) = x + 2$ pour tout $x$ est continue en $x = 2$.",
+      "Étape 5 : Calcule le nombre dérivé. $g'(x) = 1$ pour tout $x$, donc $g'(2) = 1$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $f(x) = \\frac{3x^2 - 12}{x - 2}$ pour $x \\neq 2$. Quelle est la limite de $f(x)$ quand $x$ tend vers 2 ?",
+    "reponse_calculee": "12",
+    "choices": [
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "12",
+        "correct": true
+      },
+      {
+        "label": "0",
+        "correct": false
+      },
+      {
+        "label": "La limite n'existe pas",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Très bien ! Factorise d'abord le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x-2)(x+2)$. Alors $f(x) = \\frac{3(x-2)(x+2)}{x-2} = 3(x+2)$ pour $x \\neq 2$. La limite est donc $\\lim_{x \\to 2} 3(x+2) = 3 \\times 4 = 12$.",
+    "feedback_wrong": "Attention à la factorisation. Commence par mettre en facteur : $3x^2 - 12 = 3(x^2 - 4) = 3(x-2)(x+2)$. Ensuite simplifie la fraction en annulant $(x-2)$. Tu obtiens $f(x) = 3(x+2)$ pour $x \\neq 2$, et donc $\\lim_{x \\to 2} f(x) = 3 \\times 4 = 12$."
+  }
+}

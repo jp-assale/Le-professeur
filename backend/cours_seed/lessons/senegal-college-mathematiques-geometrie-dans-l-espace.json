@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-geometrie-dans-l-espace",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie dans l'espace",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Géométrie dans l'espace",
+  "intro": {
+    "heading": "Mise en situation : construire un grenier",
+    "body": "Imagine que tu aides ton oncle à construire un petit grenier au-dessus de sa maison à Kaolack. Il doit calculer combien de bois il faut pour les poutres, vérifier que le toit en forme de pyramide tiendra bien, et mesurer l'espace disponible à l'intérieur. Pour tout cela, tu dois comprendre les formes 3D : les solides de l'espace, leurs dimensions et leurs propriétés."
+  },
+  "concept": {
+    "heading": "Les solides de l'espace : définition et propriétés",
+    "explanation": "La géométrie dans l'espace étudie les figures à trois dimensions : les solides. Contrairement à la géométrie plane (qui travaille sur du papier), ici tu manipules des objets qui ont une longueur, une largeur et une hauteur. Les principaux solides sont le cube, le parallélépipède rectangle (aussi appelé prisme droit), le cylindre, la pyramide et le cône. Pour chacun, on peut calculer : le volume (combien d'espace il occupe), la surface latérale (l'aire des faces sur les côtés) et l'aire totale (toutes les faces ensemble).",
+    "highlight": "Volume d'un parallélépipède rectangle = longueur × largeur × hauteur"
+  },
+  "example": {
+    "problem": "Un grenier a la forme d'un parallélépipède rectangle. Sa base mesure 8 m de long et 6 m de large. La hauteur du grenier est 3 m. Calcule le volume d'air disponible à l'intérieur, puis l'aire totale de ses murs (surfaces latérales uniquement, sans le sol ni le plafond).",
+    "steps": [
+      "Étape 1 : Identifie les dimensions. Longueur = 8 m, largeur = 6 m, hauteur = 3 m.",
+      "Étape 2 : Calcule le volume avec la formule V = longueur × largeur × hauteur. V = 8 × 6 × 3 = 144 $m^3$.",
+      "Étape 3 : Pour l'aire latérale, tu dois faire le tour du grenier. Il y a 4 murs : deux de longueur 8 m et deux de longueur 6 m.",
+      "Étape 4 : Aire des deux murs de 8 m : 2 × (8 × 3) = 2 × 24 = 48 $m^2$.",
+      "Étape 5 : Aire des deux murs de 6 m : 2 × (6 × 3) = 2 × 18 = 36 $m^2$.",
+      "Étape 6 : Aire latérale totale = 48 + 36 = 84 $m^2$. Réponse : volume = 144 $m^3$ et aire latérale = 84 $m^2$."
+    ]
+  },
+  "quiz": {
+    "question": "Un réservoir d'eau cylindrique a un rayon de 2 m et une hauteur de 5 m. Quel est son volume ? (Utilise $\\pi \\approx 3,14$)",
+    "reponse_calculee": "62,8 $m^3$",
+    "choices": [
+      {
+        "label": "20 $m^3$",
+        "correct": false
+      },
+      {
+        "label": "62,8 $m^3$",
+        "correct": true
+      },
+      {
+        "label": "31,4 $m^3$",
+        "correct": false
+      },
+      {
+        "label": "125,6 $m^3$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La formule du volume d'un cylindre est V = $\\pi r^2 h$. Ici : V = 3,14 × $2^2$ × 5 = 3,14 × 4 × 5 = 62,8 $m^3$. Tu as bien appliqué la formule.",
+    "feedback_wrong": "Pas tout à fait. Pour un cylindre, utilise la formule V = $\\pi r^2 h$, où r est le rayon (2 m) et h est la hauteur (5 m). Le calcul donne : V = 3,14 × 4 × 5 = 62,8 $m^3$. La surface de la base est $\\pi r^2$, pas le rayon seul."
+  }
+}

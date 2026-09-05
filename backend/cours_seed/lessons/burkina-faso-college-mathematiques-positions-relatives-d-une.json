@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-positions-relatives-d-une",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Positions relatives d'une droite et d'un cercle",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Positions relatives d'une droite et d'un cercle",
+  "intro": {
+    "heading": "Mise en situation : Une route et un carrefour circulaire",
+    "body": "Imagine une petite route rectiligne qui traverse un village au Burkina Faso, et au centre du village se trouve un carrefour circulaire (un rond-point). Cette route peut traverser le rond-point en deux points, ne le toucher qu'une seule fois, ou passer complètement à côté sans le croiser du tout. Comment décrire mathématiquement ces trois situations ? C'est ce que tu vas apprendre dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Les trois positions relatives d'une droite et d'un cercle",
+    "explanation": "Une droite et un cercle peuvent être positionnés l'un par rapport à l'autre de trois façons différentes selon la distance entre le centre du cercle et la droite. Cette distance est toujours mesurée perpendiculairement du centre à la droite. Voici les trois cas possibles :",
+    "highlight": "La droite est sécante (2 points), tangente (1 point) ou extérieure (0 points) selon que la distance du centre à la droite est respectivement inférieure, égale ou supérieure au rayon."
+  },
+  "example": {
+    "problem": "Un cercle de centre O et de rayon 5 cm est dessiné sur une feuille. Une droite (d) passe à une distance perpendiculaire de 3 cm du centre O. Détermine la position relative de la droite (d) et du cercle. Combien de points d'intersection y a-t-il ?",
+    "steps": [
+      "Étape 1 : Identifier les données. Le rayon du cercle est r = 5 cm. La distance perpendiculaire du centre O à la droite (d) est h = 3 cm.",
+      "Étape 2 : Comparer la distance h avec le rayon r. On doit vérifier si h < r, h = r, ou h > r.",
+      "Étape 3 : Effectuer la comparaison. h = 3 cm et r = 5 cm. On voit que 3 < 5, donc h < r.",
+      "Étape 4 : Conclure sur la position. Puisque la distance du centre à la droite est inférieure au rayon, la droite est sécante au cercle.",
+      "Étape 5 : Déterminer le nombre de points d'intersection. Une droite sécante coupe le cercle en exactement 2 points distincts.",
+      "Réponse : La droite (d) et le cercle ont 2 points d'intersection. Ils sont sécants."
+    ]
+  },
+  "quiz": {
+    "question": "Un cercle a pour centre I et pour rayon 7 cm. Une droite (L) se trouve à une distance perpendiculaire de 7 cm du centre I. Quelle est la position relative de la droite (L) et du cercle ?",
+    "reponse_calculee": "La droite est tangente au cercle",
+    "choices": [
+      {
+        "label": "La droite est sécante au cercle (2 points d'intersection)",
+        "correct": false
+      },
+      {
+        "label": "La droite est tangente au cercle (1 point d'intersection)",
+        "correct": true
+      },
+      {
+        "label": "La droite est extérieure au cercle (0 point d'intersection)",
+        "correct": false
+      },
+      {
+        "label": "La droite coupe le cercle en trois points",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La distance perpendiculaire du centre à la droite est de 7 cm, et le rayon est aussi de 7 cm. Quand la distance égale le rayon (h = r), la droite est tangente au cercle : elle le touche en un seul point, sans le traverser.",
+    "feedback_wrong": "Pas tout à fait. Compare bien la distance perpendiculaire (7 cm) avec le rayon (7 cm). Quand ces deux longueurs sont égales, la droite ne traverse pas le cercle, elle le touche en un seul point : c'est la définition d'une droite tangente."
+  }
+}

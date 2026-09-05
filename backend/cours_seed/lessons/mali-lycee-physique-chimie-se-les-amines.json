@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-amines",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les amines",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les amines",
+  "intro": {
+    "heading": "Mise en situation : L'odeur de la chair",
+    "body": "Tu as déjà remarqué cette odeur désagréable qui se dégage lors de la décomposition de la viande ou du poisson laissé au soleil ? Cette puanteur caractéristique est produite par des molécules appelées amines, formées par la dégradation des protéines. Les amines sont aussi présentes dans les produits de fermentation, les teintures naturelles, et même dans certains alcaloïdes de plantes. Comprendre leur structure t'aidera à saisir comment se comportent ces composés dans la nature et l'industrie."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une amine ?",
+    "explanation": "Une amine est un composé organique dérivé de l'ammoniac ($NH_3$) dans lequel un, deux ou trois atomes d'hydrogène sont remplacés par des groupes alkyle ou aryle. C'est donc une molécule qui contient un atome d'azote lié à du carbone. On classe les amines en trois catégories selon le nombre de groupes non-hydrogène attachés à l'azote : les amines primaires ($R-NH_2$), secondaires ($R_2-NH$) et tertiaires ($R_3-N$). Cette classification est fondamentale pour prédire leurs réactions et leurs propriétés physiques.",
+    "highlight": "Amine = dérivé d'ammoniac où H est remplacé par des groupes alkyle ou aryle"
+  },
+  "example": {
+    "problem": "On dispose d'une amine primaire de formule brute $C_3H_9N$. Écris sa formule semi-développée, identifie son nom IUPAC, et classe-la parmi les trois types d'amines.",
+    "steps": [
+      "Étape 1 : Compte le nombre total de liaisons. L'azote doit être tetravalent (4 liaisons au total). Avec la formule $C_3H_9N$, l'azote est lié à 2 hydrogènes (puisque c'est une amine primaire) et à 1 carbone.",
+      "Étape 2 : Détermine la chaîne carbonée. Avec 3 carbones et un azote lié à l'un d'eux par un groupe $NH_2$, tu as une chaîne de 3 carbones avec le groupe aminé en position 1.",
+      "Étape 3 : Écris la formule semi-développée : $CH_3-CH_2-CH_2-NH_2$ (ou $CH_3CH_2CH_2NH_2$).",
+      "Étape 4 : Donne le nom IUPAC. La chaîne principale a 3 carbones (propane), et le groupe $NH_2$ est en position 1, donc le nom est 1-propanamine (ou n-propylamine en nomenclature courante).",
+      "Étape 5 : Classifie l'amine. Puisque l'azote est lié à exactement 1 groupe alkyle ($-CH_2CH_2CH_3$) et à 2 hydrogènes, c'est une amine primaire ($R-NH_2$)."
+    ]
+  },
+  "quiz": {
+    "question": "La diméthylamine a pour formule semi-développée $CH_3-NH-CH_3$. Quelle est sa formule brute et quel type d'amine est-ce ?",
+    "reponse_calculee": "$C_2H_7N$, amine secondaire",
+    "choices": [
+      {
+        "label": "$C_2H_7N$, amine primaire",
+        "correct": false
+      },
+      {
+        "label": "$C_2H_7N$, amine secondaire",
+        "correct": true
+      },
+      {
+        "label": "$C_3H_9N$, amine secondaire",
+        "correct": false
+      },
+      {
+        "label": "$C_2H_5N$, amine tertiaire",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La diméthylamine $CH_3-NH-CH_3$ contient 2 carbons (2 groupes $CH_3$), 1 azote et 7 hydrogènes (3 + 1 + 3), d'où la formule brute $C_2H_7N$. L'azote est lié à 2 groupes alkyle et à 1 hydrogène, ce qui en fait une amine secondaire ($R_2-NH$).",
+    "feedback_wrong": "Regarde bien la structure : l'azote est lié à deux groupes méthyle ($CH_3$) et à un seul hydrogène. Cela correspond à une amine secondaire, pas primaire ou tertiaire. Pour la formule brute, compte : 2 carbons, 7 hydrogènes et 1 azote."
+  }
+}

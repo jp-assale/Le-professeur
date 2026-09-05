@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-proprietes-de-thales-dans-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Propriétés de Thalès dans un triangle",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "geometry_ratio",
+  "title": "Propriétés de Thalès dans un triangle",
+  "intro": {
+    "heading": "Mise en situation : mesurer sans se déplacer",
+    "body": "Imagine que tu dois vérifier si deux routes sont bien parallèles, ou si une poutre de construction est parallèle au sol. Les anciens géomètres utilisaient une propriété simple : si tu traces une ligne qui coupe deux côtés d'un triangle de manière proportionnelle, alors cette ligne est parallèle au troisième côté. C'est le théorème de Thalès, et il te permet de calculer des distances sans avoir besoin de mesurer directement !"
+  },
+  "concept": {
+    "heading": "Le théorème de Thalès dans un triangle",
+    "explanation": "Soit un triangle ABC. Si une droite coupe le côté [AB] en M et le côté [AC] en N, alors : si (MN) est parallèle à (BC), les segments sont proportionnels. Inversement, si les rapports des segments sont égaux, alors (MN) est parallèle à (BC). C'est une propriété réciproque : elle marche dans les deux sens.",
+    "highlight": "Si (MN) // (BC), alors AM/AB = AN/AC = MN/BC"
+  },
+  "example": {
+    "problem": "Dans le triangle ABC, on place un point M sur [AB] tel que AM = 3 cm et AB = 8 cm. On place un point N sur [AC] tel que AN = 4,5 cm. On sait que (MN) est parallèle à (BC). Calcule la longueur AC.",
+    "steps": [
+      "Identifie les données : AM = 3 cm, AB = 8 cm, AN = 4,5 cm, et (MN) // (BC).",
+      "Applique la propriété de Thalès : puisque (MN) // (BC), on a AM/AB = AN/AC.",
+      "Écris l'égalité avec les valeurs : 3/8 = 4,5/AC.",
+      "Utilise le produit en croix : 3 × AC = 8 × 4,5, donc 3 × AC = 36.",
+      "Divise par 3 : AC = 36 ÷ 3 = 12 cm.",
+      "Vérifie : AM/AB = 3/8 = 0,375 et AN/AC = 4,5/12 = 0,375. Les rapports sont égaux, la réponse est correcte."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un triangle DEF, un point P est sur [DE] avec DP = 6 cm et DE = 15 cm. Un point Q est sur [DF] avec DQ = 8 cm. La droite (PQ) est parallèle à (EF). Calcule DF.",
+    "reponse_calculee": "20",
+    "choices": [
+      {
+        "label": "DF = 18 cm",
+        "correct": false
+      },
+      {
+        "label": "DF = 20 cm",
+        "correct": true
+      },
+      {
+        "label": "DF = 22,5 cm",
+        "correct": false
+      },
+      {
+        "label": "DF = 16 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Tu as appliqué correctement la propriété de Thalès. Puisque (PQ) // (EF), on a DP/DE = DQ/DF. En remplaçant : 6/15 = 8/DF. Par le produit en croix : 6 × DF = 15 × 8 = 120, donc DF = 120 ÷ 6 = 20 cm. Tu maîtrises le théorème !",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que lorsque (PQ) est parallèle à (EF), les rapports des segments doivent être égaux : DP/DE = DQ/DF. Ici, 6/15 = 8/DF. Utilise le produit en croix pour trouver DF = 20 cm. Refais le calcul étape par étape."
+  }
+}

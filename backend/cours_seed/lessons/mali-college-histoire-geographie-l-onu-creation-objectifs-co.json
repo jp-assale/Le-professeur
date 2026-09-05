@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-l-onu-creation-objectifs-co",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'ONU (création, objectifs, Conseil de sécurité)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "L'ONU : création, objectifs, Conseil de sécurité",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'un conflit éclate entre deux pays voisins en Afrique de l'Ouest. Des civils souffrent, les réfugiés fuient. Qui peut intervenir ? Qui a le pouvoir d'arrêter la violence ? C'est justement pour répondre à ces questions qu'une organisation mondiale a été créée après la Seconde Guerre mondiale : l'ONU."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'ONU ?",
+    "explanation": "L'Organisation des Nations Unies (ONU) est une organisation internationale fondée en 1945 par les pays vainqueurs de la Seconde Guerre mondiale et d'autres États. Elle réunit aujourd'hui presque tous les États du monde (193 membres environ). Son but principal est de maintenir la paix et la sécurité internationale, de résoudre les conflits par la diplomatie, et d'aider les peuples à progresser économiquement et socialement. Pour prendre les grandes décisions concernant la paix et la sécurité, l'ONU possède un organe spécial : le Conseil de sécurité.",
+    "highlight": "L'ONU : une organisation internationale créée pour maintenir la paix mondiale et résoudre les conflits entre États."
+  },
+  "example": {
+    "problem": "Analysons comment l'ONU et son Conseil de sécurité fonctionnent dans une situation concrète : deux États voisins ont un différend sur une frontière commune et la tension monte. Comment l'ONU intervient-elle ?",
+    "steps": [
+      "Étape 1 - L'alerte : L'un des deux États, ou un membre de l'ONU, signale la crise au Conseil de sécurité. Le Conseil se réunit d'urgence pour examiner la situation.",
+      "Étape 2 - Le débat : Les cinq membres permanents du Conseil (États-Unis, Russie, Chine, France, Royaume-Uni) et les dix membres non permanents discutent. Chacun peut s'exprimer et proposer une solution.",
+      "Étape 3 - L'importance du veto : Pour qu'une décision passe, au moins neuf membres doivent voter pour. MAIS les cinq membres permanents ont un pouvoir spécial : le veto. Si l'un d'eux vote contre, la résolution échoue, même si les autres votent pour.",
+      "Étape 4 - La négociation : Face au risque de veto, les membres cherchent un compromis qui satisfasse tout le monde, surtout les cinq puissances permanentes.",
+      "Étape 5 - La décision : Si un accord se fait, le Conseil vote. Une résolution peut ordonner un cessez-le-feu, envoyer des observateurs, ou demander une médiation.",
+      "Étape 6 - L'application : Les États doivent respecter cette décision du Conseil de sécurité. C'est ce qui donne à l'ONU son autorité."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le nombre minimum de membres du Conseil de sécurité qui doivent voter pour qu'une résolution soit adoptée (en supposant qu'aucun membre permanent n'utilise son veto) ?",
+    "reponse_calculee": "9",
+    "choices": [
+      {
+        "label": "5",
+        "correct": false
+      },
+      {
+        "label": "7",
+        "correct": false
+      },
+      {
+        "label": "9",
+        "correct": true
+      },
+      {
+        "label": "15",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le Conseil de sécurité compte 15 membres au total : 5 permanents et 10 non permanents. Une résolution a besoin de 9 votes favorables pour passer. Les 5 membres permanents peuvent bloquer avec leur veto, mais s'ils ne l'utilisent pas, 9 votes suffisent.",
+    "feedback_wrong": "Pas tout à fait. Le Conseil de sécurité a 15 membres : 5 permanents (États-Unis, Russie, Chine, France, Royaume-Uni) et 10 non permanents. Une résolution a besoin de 9 votes favorables pour être adoptée, à condition qu'aucun membre permanent n'utilise son droit de veto."
+  }
+}

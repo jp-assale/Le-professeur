@@ -1,0 +1,60 @@
+{
+  "slug": "benin-college-physique-chimie-notion-de-reaction-chimique",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Notion de réaction chimique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Notion de réaction chimique",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi la rouille apparaît sur le fer ?",
+    "body": "Tu as remarqué que le portail en fer de ta maison rouille avec le temps, surtout pendant la saison des pluies. Le fer change de couleur, devient marron-rouge, et n'a plus les mêmes propriétés. C'est parce que le fer rencontre l'oxygène de l'air et l'eau, et quelque chose de profond se produit à l'intérieur : les atomes se réarrangent pour former une nouvelle substance. C'est une réaction chimique. Comprendre comment et pourquoi les substances se transforment, c'est le cœur de la chimie."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une réaction chimique ?",
+    "explanation": "Une réaction chimique est une transformation de la matière au cours de laquelle une ou plusieurs substances (appelées réactifs) disparaissent et se transforment en d'autres substances (appelées produits). Cette transformation modifie les liaisons entre les atomes : les atomes ne disparaissent pas, mais ils se réarrangent pour former de nouvelles molécules avec des propriétés différentes. Contrairement à un simple changement physique (comme la fusion du beurre), une réaction chimique crée de la matière réellement nouvelle.",
+    "highlight": "Réactifs → Produits (les atomes se réarrangent, créant des substances nouvelles)"
+  },
+  "concept_2": {
+    "heading": "Comment reconnaître une réaction chimique ?",
+    "explanation": "Plusieurs signes te permettent de déterminer qu'une réaction chimique a eu lieu : un changement de couleur durable, le dégagement ou l'absorption de chaleur, l'apparition ou la disparition d'une odeur, la formation d'un précipité (solide qui se forme dans un liquide), ou la production d'un gaz. Il est important de distinguer ces observations des simples changements d'état physique : par exemple, la fusion du fer (solide qui devient liquide en chauffant) n'est pas une réaction chimique, mais la rouille du fer est une réaction chimique."
+  },
+  "example": {
+    "problem": "Lors d'une expérience au laboratoire, on fait réagir 3,2 g de fer en poudre fine avec 1,6 g de soufre jaune, en chauffant le mélange. Après la réaction, on obtient 4,8 g d'une poudre noire appelée sulfure de fer. Montre que cette transformation respecte la loi de conservation de la masse.",
+    "steps": [
+      "Étape 1 : Identifie les réactifs. Les réactifs sont le fer (3,2 g) et le soufre (1,6 g).",
+      "Étape 2 : Calcule la masse totale de réactifs. Masse des réactifs = 3,2 g + 1,6 g = 4,8 g.",
+      "Étape 3 : Identifie le produit. Le produit formé est le sulfure de fer (poudre noire).",
+      "Étape 4 : Observe la masse du produit. Masse du produit = 4,8 g.",
+      "Étape 5 : Applique la loi de conservation de la masse. Masse totale des réactifs (4,8 g) = Masse totale des produits (4,8 g). La loi est respectée.",
+      "Conclusion : Lors d'une réaction chimique, la masse totale avant la réaction est égale à la masse totale après la réaction. Aucune matière n'a disparu ; les atomes se sont simplement réarrangés."
+    ]
+  },
+  "quiz": {
+    "question": "On mélange 2,4 g de magenta poudre avec 0,8 g d'oxygène gazeux et on chauffe le mélange. Après la réaction chimique, on obtient un composé noir. Quelle est la masse du composé noir formé ?",
+    "reponse_calculee": "3,2 g",
+    "choices": [
+      {
+        "label": "1,6 g",
+        "correct": false
+      },
+      {
+        "label": "3,2 g",
+        "correct": true
+      },
+      {
+        "label": "2,4 g",
+        "correct": false
+      },
+      {
+        "label": "4,0 g",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Selon la loi de conservation de la masse, la masse totale des réactifs avant la réaction égale la masse totale des produits après la réaction. Ici : 2,4 g + 0,8 g = 3,2 g. Le composé noir a donc une masse de 3,2 g. Les atomes du magnésium et de l'oxygène se sont simplement réarrangés, aucune masse n'a disparu.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi : lors d'une réaction chimique, la matière se conserve. Les réactifs disparaissent et forment des produits, mais la masse totale reste la même. Additionne les masses de départ : 2,4 g + 0,8 g = 3,2 g. C'est cette masse que tu retrouves dans le produit final."
+  }
+}

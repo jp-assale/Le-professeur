@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-demographie-natalite-mor",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La démographie (natalité, mortalité, exode rural, migrations)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La Démographie : natalité, mortalité, exode rural, migrations",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as un cousin au village qui vient de trouver du travail en ville. Ses parents sont restés cultiver la terre. En même temps, tu remarques que les familles autour de toi ont beaucoup d'enfants, mais aussi que certains villageois décèdent jeunes faute d'accès aux soins. Ces mouvements de personnes, ces naissances et ces morts façonnent les villages et les villes. C'est cela que nous appelons la démographie."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la démographie ?",
+    "explanation": "La démographie est l'étude de la population : combien de gens naissent, combien meurent, et comment les gens se déplacent d'un endroit à l'autre. En Afrique de l'Ouest, ces phénomènes sont essentiels pour comprendre les défis des villages et des villes. La natalité (naissances) et la mortalité (décès) définissent la croissance naturelle. L'exode rural (départ des campagnes vers les villes) et les migrations (déplacements entre régions ou pays) transforment où et comment vivent les gens.",
+    "highlight": "La démographie = natalité - mortalité + migrations = changement de la population"
+  },
+  "example": {
+    "problem": "Analyse ce cas : Dans le village fictif de Tiémani, beaucoup de jeunes partent travailler à la capitale. En même temps, les familles qui restent ont en moyenne beaucoup d'enfants. Mais l'accès aux médicaments est limité et quelques enfants meurent jeunes. Comment ces trois phénomènes (natalité, mortalité, exode rural) façonnent-ils l'avenir du village ?",
+    "steps": [
+      "Étape 1 : Identifie la natalité. Au village de Tiémani, les familles ont beaucoup d'enfants. C'est une natalité élevée. Cela devrait normalement faire croître la population.",
+      "Étape 2 : Identifie la mortalité. Quelques enfants meurent jeunes faute de soins adéquats. C'est une mortalité non négligeable. Cela réduit la croissance naturelle.",
+      "Étape 3 : Identifie l'exode rural. Les jeunes partent vers la capitale pour chercher du travail. C'est l'exode rural : la population active quitte le village.",
+      "Étape 4 : Analyse l'impact combiné. La natalité est élevée, mais la mortalité infantile et l'exode rural enlèvent des bras au village. Le village se vide de ses jeunes adultes.",
+      "Étape 5 : Conclusion démographique. Le village vieillit : il reste surtout les enfants et les anciens. La main-d'œuvre diminue. C'est un problème courant dans les zones rurales d'Afrique de l'Ouest, où les jeunes migrent vers les villes à la recherche d'emploi et de meilleures conditions.",
+      "Étape 6 : Impact social. Pendant ce temps, la capitale reçoit ces migrants. Elle grandit rapidement, mais doit accueillir plus de gens que de ressources disponibles."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces affirmations décrit correctement l'exode rural ?",
+    "reponse_calculee": "Le déplacement de la population des campagnes vers les villes",
+    "choices": [
+      {
+        "label": "L'augmentation du nombre de naissances dans les villages",
+        "correct": false
+      },
+      {
+        "label": "Le déplacement de la population des campagnes vers les villes",
+        "correct": true
+      },
+      {
+        "label": "La diminution du nombre de décès dans les villes",
+        "correct": false
+      },
+      {
+        "label": "L'immigration de personnes étrangères dans un pays",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'exode rural est le mouvement de population qui quitte les zones rurales (les campagnes) pour se diriger vers les zones urbaines (les villes). C'est un phénomène majeur en Afrique de l'Ouest, où les jeunes cherchent du travail et des opportunités en ville.",
+    "feedback_wrong": "Pas tout à fait. L'exode rural n'est pas une augmentation de naissances, ni une baisse de décès, ni l'immigration internationale. C'est spécifiquement le mouvement de population qui quitte la campagne pour la ville à la recherche de travail et de meilleures conditions de vie."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-terre-une-planete-div",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Terre, une planète divisée (inégalités de développement, systèmes économiques)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La Terre, une planète divisée : inégalités de développement et systèmes économiques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine deux villages voisins en Afrique de l'Ouest. Dans l'un, les enfants vont à l'école avec des ordinateurs et une connexion Internet. Dans l'autre, l'école n'a pas d'électricité et les enfants partagent trois livres pour toute la classe. Pourquoi cette différence existe-t-elle ? Comment se fait-il que certains pays puissent offrir à leurs habitants des services modernes tandis que d'autres ont du mal à couvrir les besoins de base ? C'est la question centrale de ce chapitre : notre planète est divisée par des inégalités massives de développement."
+  },
+  "concept": {
+    "heading": "Concept : La Terre, une planète divisée",
+    "explanation": "Le monde n'est pas organisé de manière uniforme. Il existe des disparités profondes entre les régions : certains pays disposent de ressources abondantes, d'infrastructures modernes, d'éducation de qualité et d'une économie forte, tandis que d'autres manquent de tout cela. Ces inégalités de développement ne sont pas le fruit du hasard, elles résultent de l'histoire, de la géographie, de l'accès aux ressources naturelles, des choix politiques et des systèmes économiques adoptés par chaque nation.",
+    "highlight": "Les inégalités de développement sont les différences de richesse, d'infrastructure, d'éducation et de bien-être entre les pays et régions du monde."
+  },
+  "example": {
+    "problem": "Analyse comment les systèmes économiques et l'accès aux ressources créent une division entre pays développés et pays en développement : prenons l'exemple d'un pays côtier riche en pétrole versus un pays enclavé sans ressources minérales majeures.",
+    "steps": [
+      "Étape 1 : Observe que le pays côtier avec pétrole peut exporter cette ressource vers le marché mondial et générer des revenus importants.",
+      "Étape 2 : Ces revenus permettent au gouvernement d'investir dans les hôpitaux, les routes, les écoles et les universités.",
+      "Étape 3 : À l'inverse, le pays enclavé sans ressources majeures dépend davantage de l'agriculture ou de petits commerces, avec des revenus beaucoup plus limités.",
+      "Étape 4 : Avec moins d'argent, ce deuxième pays ne peut construire que peu d'infrastructures, et doit choisir entre éducation, santé ou transport.",
+      "Étape 5 : Au fil du temps, le premier pays accumule des avantages (population instruite, technologies, industries) tandis que le second reste moins développé.",
+      "Étape 6 : Cette différence initiale se renforce : les enfants du pays riche reçoivent une meilleure éducation, deviennent innovants, créent des entreprises performantes, et le fossé s'élargit."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces affirmations décrit correctement comment un système économique basé sur l'export de ressources naturelles peut créer une inégalité de développement ?",
+    "reponse_calculee": "Les revenus de l'export permettent d'investir massivement dans les infrastructures et l'éducation, ce qui crée un avantage cumulatif au fil des générations.",
+    "choices": [
+      {
+        "label": "Les ressources naturelles disparaissent rapidement et le pays s'appauvrit immédiatement.",
+        "correct": false
+      },
+      {
+        "label": "Les revenus de l'export permettent d'investir massivement dans les infrastructures et l'éducation, ce qui crée un avantage cumulatif au fil des générations.",
+        "correct": true
+      },
+      {
+        "label": "Les ressources naturelles rendent impossible tout développement économique d'autres secteurs.",
+        "correct": false
+      },
+      {
+        "label": "L'exportation de ressources n'a aucun lien avec les inégalités de développement entre pays.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as compris le mécanisme clé : les revenus générés par une ressource abondante financent l'éducation, la santé et les infrastructures. Une population mieux éduquée crée l'innovation et la richesse supplémentaire. C'est un cycle de renforcement qui explique comment certains pays s'enrichissent tandis que d'autres restent moins développés.",
+    "feedback_wrong": "Pas tout à fait. Repense au lien entre ressources économiques et investissement. Quand un pays peut exporter une ressource précieuse, les revenus qu'il en tire lui permettent d'investir dans l'éducation et les infrastructures. À l'inverse, un pays sans ces revenus a beaucoup moins de capacités d'investissement. Cela crée des inégalités qui s'amplifient avec le temps."
+  }
+}

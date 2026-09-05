@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-college-mathematiques-equations-et-inequations-",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équations et inéquations du premier degré, puis systèmes",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Équations et inéquations du premier degré, puis systèmes",
+  "intro": {
+    "heading": "Mise en situation : au marché de Ouagadougou",
+    "body": "Tu es au marché et tu achètes du riz. Le vendeur te dit : « Si tu achètes 5 kg de riz, tu me donnes 12 500 francs CFA de plus que le prix de 3 kg ». Tu veux connaître le prix au kilogramme. Comment poser ce problème en mathématiques pour le résoudre ? C'est exactement ce que nous allons apprendre aujourd'hui avec les équations."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une équation du premier degré ?",
+    "explanation": "Une équation du premier degré est une égalité contenant une inconnue (souvent notée $x$) dont l'exposant est 1. Résoudre l'équation, c'est trouver la valeur de $x$ qui rend l'égalité vraie. Voici la règle fondamentale : tout ce que tu fais d'un côté du signe = (addition, soustraction, multiplication, division), tu dois le faire de l'autre côté pour garder l'équilibre.",
+    "highlight": "Si $ax + b = c$, alors $x = \\frac{c - b}{a}$ (avec $a \\neq 0$)"
+  },
+  "example": {
+    "problem": "Résous l'équation : $3x + 7 = 22$",
+    "steps": [
+      "Étape 1 : Identifie l'équation. Tu as $3x + 7 = 22$. L'inconnue est $x$, multiplié par 3, puis augmenté de 7.",
+      "Étape 2 : Soustrais 7 des deux côtés pour isoler le terme avec $x$. $3x + 7 - 7 = 22 - 7$, donc $3x = 15$.",
+      "Étape 3 : Divise les deux côtés par 3 pour isoler $x$. $\\frac{3x}{3} = \\frac{15}{3}$.",
+      "Étape 4 : Simplifie. $x = 5$.",
+      "Étape 5 : Vérifie ta réponse en remplaçant $x$ par 5 dans l'équation initiale. $3(5) + 7 = 15 + 7 = 22$ ✓. C'est correct !"
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation suivante : $2x - 8 = 10$. Quelle est la valeur de $x$ ?",
+    "reponse_calculee": "9",
+    "choices": [
+      {
+        "label": "$x = 1$",
+        "correct": false
+      },
+      {
+        "label": "$x = 9$",
+        "correct": true
+      },
+      {
+        "label": "$x = 11$",
+        "correct": false
+      },
+      {
+        "label": "$x = -1$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien appliqué la méthode. Ajoute 8 aux deux côtés : $2x = 18$, puis divise par 2 : $x = 9$. Vérifie : $2(9) - 8 = 18 - 8 = 10$ ✓. Tu maîtrises la résolution d'équations du premier degré.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : d'abord, ajoute 8 aux deux côtés pour isoler le terme avec $x$. Tu obtiens $2x = 18$. Ensuite, divise par 2 : $x = 9$. Vérifie toujours en remplaçant $x$ dans l'équation initiale."
+  }
+}

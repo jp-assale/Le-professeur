@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-les-outils-de-l-argumentation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Les outils de l'argumentation",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les outils de l'argumentation",
+  "intro": {
+    "heading": "Mise en situation : Une réunion de famille autour du repas",
+    "body": "Ton oncle affirme que les études à l'université sont une perte de temps et qu'il vaut mieux se lancer dans le commerce. Ta mère le contredit. Comment chacun va-t-il convaincre l'autre ? Quels arguments vont-ils utiliser pour défendre leur position ? C'est exactement cela, argumenter : c'est utiliser des outils précis pour convaincre quelqu'un d'une idée."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les outils de l'argumentation ?",
+    "explanation": "Argumenter, c'est chercher à convaincre ou à persuader quelqu'un en présentant des preuves, des raisons et des stratégies. Pour que ton argument soit solide et efficace, tu dois utiliser des outils bien définis. Ces outils te permettent de soutenir ta thèse (l'idée que tu défends) de façon logique et crédible. Les principaux outils sont : l'exemple concret, le raisonnement logique (déductif ou inductif), l'appel à l'autorité, le témoignage, l'analogie, et la concession.",
+    "highlight": "Les outils de l'argumentation = les moyens concrets (exemples, raisonnements, témoignages, etc.) que tu utilises pour soutenir ta thèse et convaincre ton audience."
+  },
+  "example": {
+    "problem": "Un(e) camarade affirme : « Les réseaux sociaux nuisent à la concentration des élèves en classe. » Tu dois analyser quels outils d'argumentation pourraient soutenir cette thèse.",
+    "steps": [
+      "Étape 1 : Identifie la thèse. C'est l'affirmation centrale : « Les réseaux sociaux nuisent à la concentration des élèves en classe. »",
+      "Étape 2 : Pour soutenir cette thèse, on pourrait utiliser un exemple concret. Par exemple : « J'ai remarqué que lors du dernier cours, trois élèves vérifiaient leur téléphone toutes les deux minutes et n'ont pas suivi le devoir. » Cet exemple rend l'argument tangible et observable.",
+      "Étape 3 : On pourrait ajouter un raisonnement logique (inductif) : « Si plusieurs élèves vérifient constamment les notifications, alors leur attention se fragmente. » Ce raisonnement part de faits particuliers pour aboutir à une conclusion générale.",
+      "Étape 4 : Une analogie renforcerait l'argument : « C'est comme essayer de lire un livre pendant qu'on te tire constamment par la manche ; tu ne peux pas te concentrer. » L'analogie rend l'abstrait plus compréhensible.",
+      "Étape 5 : On pourrait aussi faire appel à l'autorité en mentionnant : « Selon plusieurs neuroscientifiques, le cerveau adolescent met plusieurs minutes à se reconcentrer après une interruption. » Cela crédibilise l'argument.",
+      "Étape 6 : Conclusion : En combinant l'exemple, le raisonnement, l'analogie et l'appel à l'autorité, la thèse devient convaincante et difficile à contredire."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les outils suivants, lequel n'est PAS un outil d'argumentation classique ?",
+    "reponse_calculee": "L'énumération gratuite sans lien logique",
+    "choices": [
+      {
+        "label": "L'analogie et la comparaison",
+        "correct": false
+      },
+      {
+        "label": "Le raisonnement déductif",
+        "correct": false
+      },
+      {
+        "label": "L'énumération gratuite sans lien logique",
+        "correct": true
+      },
+      {
+        "label": "L'appel à l'autorité",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'énumération gratuite (lister des choses sans structure) n'est pas un outil d'argumentation. Les vrais outils doivent établir une connexion logique entre ton idée et ta conclusion. L'analogie, le raisonnement et l'appel à l'autorité, eux, sont des outils reconnus qui renforcent ta thèse.",
+    "feedback_wrong": "Non, ce n'est pas bon. Tu décris là un outil d'argumentation réel et efficace. Reviens à la définition : un outil d'argumentation doit créer un lien logique et convaincant entre un fait et ta thèse. L'énumération sans logique, elle, ne convainc personne."
+  }
+}

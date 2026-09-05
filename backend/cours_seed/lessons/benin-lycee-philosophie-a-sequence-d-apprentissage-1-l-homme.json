@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-philosophie-a-sequence-d-apprentissage-1-l-homme",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "A",
+  "matiere": "Philosophie",
+  "chapitre": "Séquence d'apprentissage 1 : L'homme et le monde",
+  "source": "Résumé « Philosophie Terminale A Bénin Complet »",
+  "template": "text_only",
+  "title": "L'homme et le monde - Séquence 1",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine : tu te réveilles un matin à Cotonou, tu regardes par la fenêtre. Tu vois la ville, les gens qui vont travailler, le ciel qui change. Tu te poses une question simple mais profonde : comment je comprends tout ça ? Le monde existe-t-il indépendamment de moi, ou est-ce que ma conscience le façonne ? Cette question, c'est celle de la philosophie : comment l'homme et le monde se rencontrent."
+  },
+  "concept": {
+    "heading": "La relation entre l'homme et le monde",
+    "explanation": "Le chapitre 'L'homme et le monde' pose une question centrale : comment l'homme prend-il connaissance du monde qui l'entoure, et comment agit-il sur lui ? L'homme n'est pas un spectateur passif assis dans un coin. Il interagit constamment avec son environnement par ses sens, sa conscience, son travail et ses choix. Le monde n'est donc pas simplement une réalité 'là-bas' indépendante ; c'est aussi le monde tel que nous l'expérimentons, le monde de nos actions et de notre sens.",
+    "highlight": "L'homme et le monde forment une relation dynamique : l'homme connaît le monde, le transforme par son action, et est lui-même transformé par lui."
+  },
+  "example": {
+    "problem": "Un paysan du Bénin cultive son champ depuis vingt ans. Il connaît le sol, les saisons, les pluies. Il modifie le terrain en creusant des canaux, en plantant différentes cultures. Son champ n'existe plus comme une simple nature brute ; c'est un monde humanisé par son travail. Mais ce paysan dépend aussi du monde : une sécheresse peut détruire sa récolte. Comment analyser cette relation entre cet homme et son monde ?",
+    "steps": [
+      "1. Observation initiale : le paysan rencontre un monde naturel donné (le climat, le sol, la faune).",
+      "2. Connaissance : par l'expérience et l'observation quotidienne, il en comprend les lois et les rythmes.",
+      "3. Action : il transforme ce monde par son travail, le rend utile, le soumet à ses fins (cultiver pour vivre).",
+      "4. Interdépendance : mais le monde réagit aussi sur lui. Une catastrophe climatique montre que le monde impose ses limites à son action.",
+      "5. Humanisation mutuelle : ni pure nature, ni pure culture. Le champ devient un monde partagé où l'homme et la nature dialoguent.",
+      "6. Conclusion : cette relation révèle que l'homme n'existe que par rapport à un monde, et que ce monde est toujours déjà marqué par l'action humaine."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le chapitre 'L'homme et le monde', quelle est la nature fondamentale de la relation entre l'homme et le monde ?",
+    "reponse_calculee": "Une relation dynamique où l'homme connaît et transforme le monde par son action, tout en étant conditionné par lui",
+    "choices": [
+      {
+        "label": "Le monde est une réalité indépendante que l'homme observe sans pouvoir la modifier",
+        "correct": false
+      },
+      {
+        "label": "Une relation dynamique où l'homme connaît et transforme le monde par son action, tout en étant conditionné par lui",
+        "correct": true
+      },
+      {
+        "label": "L'homme crée entièrement le monde par la force de sa pensée, sans limitation",
+        "correct": false
+      },
+      {
+        "label": "Il n'existe aucune véritable relation ; l'homme et le monde sont deux réalités séparées",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La relation entre l'homme et le monde est bidirectionnelle : l'homme agit, transforme, connaît le monde par son travail et sa conscience, mais il reste aussi limité, dépendant des conditions que le monde lui impose. C'est une interaction constante, pas une domination unilatérale.",
+    "feedback_wrong": "Pas tout à fait. Relisez bien : le chapitre rejette l'idée que le monde soit totalement indépendant (réponse A), ou que l'homme le crée de toutes pièces (réponse C), ou qu'il n'y ait pas de lien (réponse D). La clé est que l'homme et le monde s'influencent mutuellement. L'homme transforme par son action, le monde impose ses lois. C'est une dynamique, un échange constant."
+  }
+}

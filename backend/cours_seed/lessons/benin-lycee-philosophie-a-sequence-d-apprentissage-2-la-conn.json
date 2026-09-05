@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-philosophie-a-sequence-d-apprentissage-2-la-conn",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "A",
+  "matiere": "Philosophie",
+  "chapitre": "Séquence d'apprentissage 2 : La connaissance scientifique",
+  "source": "Résumé « Philosophie Terminale A Bénin Complet »",
+  "template": "text_only",
+  "title": "La connaissance scientifique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'un guérisseur traditionnel affirme qu'une plante soigne la fièvre parce que « c'est comme ça depuis toujours ». Un médecin, lui, teste la plante en laboratoire, mesure ses effets sur plusieurs patients, consigne les résultats et les soumet à d'autres chercheurs pour vérification. Pourquoi l'un parle de « savoir » et l'autre de « connaissance scientifique » ? C'est parce que la science n'accepte pas juste une affirmation : elle exige une méthode, des preuves vérifiables et reproductibles."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la connaissance scientifique ?",
+    "explanation": "La connaissance scientifique est un savoir fondé sur l'observation systématique, l'expérimentation et le raisonnement logique. Elle ne se contente pas de décrire ce qu'on voit : elle cherche à comprendre les causes, à établir des lois, et à prévoir ce qui va se passer. Contrairement à une opinion ou à une croyance, la connaissance scientifique doit être testable, réfutable (on doit pouvoir la mettre en doute et la contredire) et acceptée par la communauté scientifique après vérification.",
+    "highlight": "La connaissance scientifique repose sur la méthode : observation, hypothèse, expérience, analyse des résultats, conclusion vérifiable et reproductible."
+  },
+  "example": {
+    "problem": "Un agriculteur béninois remarque que son champ produit moins depuis trois ans. Il pense que c'est un mauvais sort. Son voisin, qui a suivi une formation agronomique, propose une explication scientifique. Comment passer de la supposition à la connaissance scientifique ?",
+    "steps": [
+      "Étape 1 - Observation systématique : Au lieu de croire à un sort, on examine concrètement le champ. On mesure le pH du sol, on teste sa teneur en matière organique, on note les cultures précédentes, la quantité d'eau reçue.",
+      "Étape 2 - Formulation d'une hypothèse : À partir des données collectées, on propose une explication : « Le rendement baisse parce que le sol s'est appauvri en azote après trois années de monoculture de maïs. »",
+      "Étape 3 - Conception d'une expérience : On divise le champ en deux zones. Dans une zone, on ajoute des engrais azotés et on pratique la rotation des cultures. Dans l'autre, on maintient les mêmes pratiques qu'avant.",
+      "Étape 4 - Collecte des résultats : Après une saison, on mesure les rendements dans les deux zones, on note les différences quantifiables.",
+      "Étape 5 - Analyse logique : Les données montrent que la zone enrichie a produit plus. Cela soutient l'hypothèse initiale.",
+      "Étape 6 - Conclusion et partage : On peut conclure que la baisse était due à l'appauvrissement du sol, et on peut communiquer cette connaissance à d'autres agriculteurs pour qu'ils la testent à leur tour. C'est ça, la science."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle décrit correctement la différence entre une croyance et une connaissance scientifique ?",
+    "reponse_calculee": "Une croyance repose sur la confiance ou la tradition, tandis qu'une connaissance scientifique repose sur l'expérimentation, la preuve vérifiable et la reproductibilité.",
+    "choices": [
+      {
+        "label": "La croyance est plus importante que la science en Afrique.",
+        "correct": false
+      },
+      {
+        "label": "Une croyance repose sur la confiance ou la tradition, tandis qu'une connaissance scientifique repose sur l'expérimentation, la preuve vérifiable et la reproductibilité.",
+        "correct": true
+      },
+      {
+        "label": "La science ne s'intéresse jamais à ce que les gens croient.",
+        "correct": false
+      },
+      {
+        "label": "La connaissance scientifique existe depuis toujours, contrairement à la croyance qui change.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! C'est la clé. La science ne rejette pas les croyances par mépris, mais elle les soumet à une exigence : la preuve. Une connaissance scientifique doit pouvoir être testée, et d'autres doivent pouvoir obtenir les mêmes résultats en refaisant l'expérience. C'est ce qui la rend fiable et universelle.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à ce qui distingue vraiment une croyance d'une connaissance scientifique. La science n'est pas une opinion, c'est une méthode : quelque chose qu'on peut vérifier, tester et reproduire. Une croyance, même si beaucoup de gens la partagent, n'est pas vérifiable de la même façon. La bonne réponse souligne exactement cette différence : expérience, preuve, reproductibilité."
+  }
+}

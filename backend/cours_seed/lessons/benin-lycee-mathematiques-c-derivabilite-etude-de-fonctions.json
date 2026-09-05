@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-derivabilite-etude-de-fonctions",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Dérivabilité — étude de fonctions",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Dérivabilité — étude de fonctions",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un producteur de cacao au Bénin qui remplit des sacs de fèves. Plus le temps passe, plus il en accumule. Mais la vitesse à laquelle il remplit change au cours de la journée : rapide le matin, plus lent l'après-midi. Pour optimiser sa production, il doit connaître exactement cette vitesse instantanée à chaque moment. C'est précisément ce que la dérivée mesure : comment une grandeur change à un instant précis."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la dérivabilité ?",
+    "explanation": "Une fonction est dérivable en un point quand elle admet une dérivée à ce point, c'est-à-dire quand le taux de variation instantané y existe. Géométriquement, cela signifie que la courbe possède une tangente unique en ce point, sans « cassure » ni « pointe ». La dérivée mesure la pente de cette tangente et représente le taux de variation instantané de la fonction.",
+    "highlight": "f'(a) = lim(h→0) [f(a+h) - f(a)] / h"
+  },
+  "example": {
+    "problem": "Soit la fonction $f(x) = 2x^2 - 3x + 1$. Détermine si f est dérivable en $x = 2$ et calcule $f'(2)$ en utilisant la définition.",
+    "steps": [
+      "Étape 1 : Identifie la formule. On utilise la limite : $f'(2) = \\lim_{h \\to 0} \\frac{f(2+h) - f(2)}{h}$.",
+      "Étape 2 : Calcule $f(2) = 2(2)^2 - 3(2) + 1 = 8 - 6 + 1 = 3$.",
+      "Étape 3 : Calcule $f(2+h) = 2(2+h)^2 - 3(2+h) + 1 = 2(4 + 4h + h^2) - 6 - 3h + 1 = 8 + 8h + 2h^2 - 6 - 3h + 1 = 3 + 5h + 2h^2$.",
+      "Étape 4 : Forme la différence : $f(2+h) - f(2) = 3 + 5h + 2h^2 - 3 = 5h + 2h^2$.",
+      "Étape 5 : Divise par h : $\\frac{f(2+h) - f(2)}{h} = \\frac{5h + 2h^2}{h} = 5 + 2h$ (pour $h \\neq 0$).",
+      "Étape 6 : Prends la limite quand $h \\to 0$ : $f'(2) = \\lim_{h \\to 0} (5 + 2h) = 5$. Donc f est dérivable en 2 et $f'(2) = 5$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $g(x) = x^2 + 4x$. Utilise la définition de la dérivée pour calculer $g'(1)$.",
+    "reponse_calculee": "6",
+    "choices": [
+      {
+        "label": "4",
+        "correct": false
+      },
+      {
+        "label": "6",
+        "correct": true
+      },
+      {
+        "label": "5",
+        "correct": false
+      },
+      {
+        "label": "7",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En calculant $g(1) = 1 + 4 = 5$, puis $g(1+h) = (1+h)^2 + 4(1+h) = 1 + 2h + h^2 + 4 + 4h = 5 + 6h + h^2$, on obtient $\\frac{g(1+h) - g(1)}{h} = \\frac{6h + h^2}{h} = 6 + h$. En passant à la limite, $g'(1) = 6$. Tu maîtrises bien la définition !",
+    "feedback_wrong": "Pas tout à fait. Reprends le calcul étape par étape : d'abord $g(1) = 5$, puis $g(1+h) = 5 + 6h + h^2$. La différence divisée par h donne $6 + h$, et la limite quand $h \\to 0$ vaut 6. La réponse est 6."
+  }
+}

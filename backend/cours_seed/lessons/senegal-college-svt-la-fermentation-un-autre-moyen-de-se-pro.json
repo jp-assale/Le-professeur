@@ -1,0 +1,54 @@
+{
+  "slug": "senegal-college-svt-la-fermentation-un-autre-moyen-de-se-pro",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La fermentation, un autre moyen de se procurer de l'énergie",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La fermentation, un autre moyen de se procurer de l'énergie",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué comment ta grand-mère prépare le « bissap » ou le « jus de gingembre » qui fermente quelques jours avant d'être bu ? Ou encore, comment le pain qu'on achète chez le boulanger gonfle et devient moelleux grâce à une transformation invisible ? Ces transformations, c'est la fermentation : un processus naturel où des microorganismes libèrent de l'énergie sans avoir besoin d'oxygène. Aujourd'hui, tu vas comprendre comment ton corps et les aliments que tu manges utilisent ce mécanisme."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la fermentation ?",
+    "explanation": "La fermentation est une voie métabolique qui permet aux cellules vivantes (notamment les microorganismes comme les bactéries et les levures) de produire de l'énergie à partir du glucose sans utiliser l'oxygène. Contrairement à la respiration cellulaire qui consomme l'oxygène, la fermentation fonctionne en milieu anaérobie (sans oxygène). Elle produit moins d'énergie que la respiration, mais elle reste essentielle dans de nombreux processus biologiques et industriels.",
+    "highlight": "La fermentation = libération d'énergie sans oxygène, à partir du glucose"
+  },
+  "example": {
+    "problem": "Une levure utilisée dans une boulangerie traditionnelle consomme 180 grammes de glucose par jour en conditions anaérobies. On sait que chaque gramme de glucose fermenté libère environ 0,05 unité d'énergie (en conditions de fermentation). Calcule l'énergie totale libérée en 3 jours par cette levure.",
+    "steps": [
+      "Identifie les données : masse de glucose par jour = 180 g ; énergie par gramme = 0,05 unité ; durée = 3 jours.",
+      "Calcule la masse totale de glucose fermentée en 3 jours : 180 g/jour × 3 jours = 540 g.",
+      "Calcule l'énergie libérée par cette masse : 540 g × 0,05 unité/g = 27 unités d'énergie.",
+      "Conclusion : En 3 jours, la levure libère 27 unités d'énergie par fermentation du glucose."
+    ]
+  },
+  "quiz": {
+    "question": "Un microorganisme anaérobie fermente 250 grammes de glucose. L'énergie libérée est de 0,04 unité par gramme de glucose fermenté. Quelle est l'énergie totale libérée ?",
+    "reponse_calculee": "10 unités d'énergie",
+    "choices": [
+      {
+        "label": "6,25 unités d'énergie",
+        "correct": false
+      },
+      {
+        "label": "10 unités d'énergie",
+        "correct": true
+      },
+      {
+        "label": "25 unités d'énergie",
+        "correct": false
+      },
+      {
+        "label": "100 unités d'énergie",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : Énergie totale = masse de glucose × énergie par gramme = 250 g × 0,04 unité/g = 10 unités d'énergie. La fermentation transforme le glucose en énergie accessible aux microorganismes.",
+    "feedback_wrong": "Pas tout à fait. Reprends le calcul : tu dois multiplier la masse totale de glucose (250 g) par l'énergie libérée par gramme (0,04 unité/g). Le résultat est 250 × 0,04 = 10 unités d'énergie. C'est le produit des deux grandeurs qui te donne l'énergie totale."
+  }
+}

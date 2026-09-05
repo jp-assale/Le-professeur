@@ -1,0 +1,54 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-reduction-des-oxydes",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Réduction des oxydes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Réduction des oxydes",
+  "intro": {
+    "heading": "Mise en situation : La rouille du fer",
+    "body": "Tu as remarqué que les outils de métal laissés à la pluie se couvrent d'une poudre rougeâtre : c'est la rouille, un oxyde de fer. Les artisans et les industries cherchent à transformer ces oxydes pour récupérer les métaux purs utiles. Comment fait-on pour « enlever l'oxygène » d'un oxyde et retrouver le métal ? C'est exactement ce que tu vas apprendre : la réduction des oxydes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la réduction d'un oxyde ?",
+    "explanation": "Un oxyde est un composé formé d'un élément (généralement un métal) combiné avec l'oxygène. Réduire un oxyde, c'est enlever l'oxygène de cet oxyde pour récupérer l'élément pur ou un composé moins oxydé. Cette transformation se fait par réaction chimique : on utilise un réducteur (souvent le carbone ou le monoxyde de carbone dans l'industrie) qui « prend » l'oxygène à l'oxyde. La substance qui enlève l'oxygène s'appelle l'agent réducteur.",
+    "highlight": "Réduire un oxyde = enlever l'oxygène de cet oxyde par réaction chimique."
+  },
+  "example": {
+    "problem": "On chauffe 80 g d'oxyde de fer $Fe_2O_3$ en présence de carbone. Le carbone réagit avec l'oxygène de l'oxyde selon l'équation : $2Fe_2O_3 + 3C \\to 4Fe + 3CO_2$. Calcule la masse de fer pur obtenue. (Masses molaires : Fe = 56 g/mol, O = 16 g/mol, C = 12 g/mol)",
+    "steps": [
+      "Étape 1 : Calcule la masse molaire de $Fe_2O_3$. $M(Fe_2O_3) = 2 \\times 56 + 3 \\times 16 = 112 + 48 = 160$ g/mol",
+      "Étape 2 : Calcule le nombre de moles de $Fe_2O_3$ présentes dans 80 g. $n = \\frac{80}{160} = 0,5$ mol",
+      "Étape 3 : Utilise le coefficient stœchiométrique de l'équation. Selon l'équation, 2 moles de $Fe_2O_3$ produisent 4 moles de Fe. Donc 0,5 mol de $Fe_2O_3$ produit : $\\frac{0,5 \\times 4}{2} = 1$ mol de Fe",
+      "Étape 4 : Calcule la masse de Fe pur obtenue. $m(Fe) = 1 \\times 56 = 56$ g. Le carbone a réduit l'oxyde : il a enlevé l'oxygène et nous avons récupéré 56 g de fer pur."
+    ]
+  },
+  "quiz": {
+    "question": "On réduit 240 g d'oxyde de cuivre $CuO$ avec du carbone selon : $2CuO + C \\to 2Cu + CO_2$. Calcule la masse de cuivre pur obtenue. (Masses molaires : Cu = 64 g/mol, O = 16 g/mol, C = 12 g/mol)",
+    "reponse_calculee": "192 g",
+    "choices": [
+      {
+        "label": "128 g",
+        "correct": false
+      },
+      {
+        "label": "192 g",
+        "correct": true
+      },
+      {
+        "label": "240 g",
+        "correct": false
+      },
+      {
+        "label": "160 g",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Voici comment tu résous ce problème : La masse molaire de CuO est $64 + 16 = 80$ g/mol. Le nombre de moles de CuO dans 240 g est $\\frac{240}{80} = 3$ mol. Selon l'équation, 2 moles de CuO produisent 2 moles de Cu (rapport 1:1). Donc 3 mol de CuO produit 3 mol de Cu. La masse de Cu est $3 \\times 64 = 192$ g. Le carbone a bien réduit l'oxyde de cuivre en enlevant tout l'oxygène.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : calcule d'abord la masse molaire de CuO ($64 + 16 = 80$ g/mol), puis le nombre de moles dans 240 g ($\\frac{240}{80} = 3$ mol), puis utilise le coefficient stœchiométrique (2 moles de CuO donnent 2 moles de Cu, donc 3 moles de CuO donnent 3 moles de Cu). Enfin, convertis en masse : $3 \\times 64 = 192$ g de Cu pur."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-college-mathematiques-vecteurs-du-plan-et-reper",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Vecteurs du plan et repère cartésien",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Vecteurs du plan et repère cartésien",
+  "intro": {
+    "heading": "Mise en situation : Se repérer sur une carte",
+    "body": "Imagine que tu aides un commerçant à livrer des marchandises dans ton quartier. Pour indiquer où se trouve la maison du client par rapport au magasin, tu dois décrire à la fois la direction et la distance. C'est exactement ce qu'un vecteur fait : il indique comment se déplacer d'un point à un autre. Un repère cartésien te permet de placer ces vecteurs de façon précise sur une carte quadrillée."
+  },
+  "concept": {
+    "heading": "Définition : Vecteur et repère cartésien",
+    "explanation": "Un vecteur du plan est un objet mathématique qui caractérise un déplacement. Il possède trois propriétés : une direction, un sens et une longueur (appelée norme). Pour travailler avec les vecteurs de façon précise, on les place dans un repère cartésien, c'est-à-dire un système d'axes perpendiculaires : l'axe horizontal (x) et l'axe vertical (y), qui se croisent à l'origine O. Chaque vecteur peut alors être décrit par ses coordonnées : combien d'unités il faut se déplacer horizontalement et combien verticalement.",
+    "highlight": "Un vecteur $\\overrightarrow{AB}$ reliant le point A au point B a pour coordonnées $\\begin{pmatrix} x_B - x_A \\ y_B - y_A \\end{pmatrix}$"
+  },
+  "example": {
+    "problem": "Dans un repère cartésien, on place deux points : A(2, 3) et B(5, 7). Calcule les coordonnées du vecteur $\\overrightarrow{AB}$.",
+    "steps": [
+      "Étape 1 : Identifie les coordonnées du point A. On a $x_A = 2$ et $y_A = 3$.",
+      "Étape 2 : Identifie les coordonnées du point B. On a $x_B = 5$ et $y_B = 7$.",
+      "Étape 3 : Applique la formule pour la première coordonnée : $x_B - x_A = 5 - 2 = 3$.",
+      "Étape 4 : Applique la formule pour la deuxième coordonnée : $y_B - y_A = 7 - 3 = 4$.",
+      "Étape 5 : Écris le vecteur sous forme de colonnes : $\\overrightarrow{AB} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$. Cela signifie : déplace-toi de 3 unités vers la droite et de 4 unités vers le haut pour aller de A à B."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un repère cartésien, les points M et N ont respectivement pour coordonnées M(1, 2) et N(4, 6). Quelles sont les coordonnées du vecteur $\\overrightarrow{MN}$ ?",
+    "reponse_calculee": "(3, 4)",
+    "choices": [
+      {
+        "label": "$\\begin{pmatrix} 5 \\\\ 8 \\end{pmatrix}$",
+        "correct": false
+      },
+      {
+        "label": "$\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$",
+        "correct": true
+      },
+      {
+        "label": "$\\begin{pmatrix} -3 \\\\ -4 \\end{pmatrix}$",
+        "correct": false
+      },
+      {
+        "label": "$\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : $x_N - x_M = 4 - 1 = 3$ et $y_N - y_M = 6 - 2 = 4$. Le vecteur $\\overrightarrow{MN} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ indique qu'on se déplace de 3 unités à droite et 4 unités vers le haut.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : pour trouver les coordonnées du vecteur $\\overrightarrow{MN}$, tu dois soustraire les coordonnées du point de départ M des coordonnées du point d'arrivée N. Calcule $x_N - x_M = 4 - 1 = 3$ et $y_N - y_M = 6 - 2 = 4$."
+  }
+}

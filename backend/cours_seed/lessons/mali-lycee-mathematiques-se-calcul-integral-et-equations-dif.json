@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-calcul-integral-et-equations-dif",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul intégral et équations différentielles",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Calcul intégral et équations différentielles",
+  "intro": {
+    "heading": "Mise en situation : L'eau qui s'écoule",
+    "body": "Imagine un grand réservoir d'eau qui se vide par un robinet au Mali. La vitesse à laquelle l'eau s'écoule change à chaque instant : plus le réservoir est plein, plus vite elle coule. Comment peux-tu prédire la quantité d'eau restante après quelques heures ? C'est exactement ce que tu apprendras avec les équations différentielles et le calcul intégral : trouver une fonction inconnue à partir de la connaissance de sa variation."
+  },
+  "concept": {
+    "heading": "Concept central : Équation différentielle et intégrale",
+    "explanation": "Une équation différentielle relie une fonction inconnue $y(t)$ à sa dérivée $\\frac{dy}{dt}$. Résoudre cette équation, c'est trouver la fonction $y(t)$ qui la satisfait. Le calcul intégral est l'outil qui te permet de passer de la dérivée à la fonction elle-même. En d'autres termes, l'intégration est l'opération inverse de la dérivation.",
+    "highlight": "Si $\\frac{dy}{dt} = f(t)$, alors $y(t) = \\int f(t) \\, dt + C$"
+  },
+  "example": {
+    "problem": "Un réservoir se vide à un taux proportionnel à la quantité d'eau présente. On modélise cela par l'équation différentielle : $\\frac{dV}{dt} = -0,1V$, où $V(t)$ est le volume en litres et $t$ le temps en heures. À $t = 0$, le réservoir contient 500 litres. Trouve l'expression de $V(t)$.",
+    "steps": [
+      "Étape 1 : Reconnaître l'équation différentielle. C'est une équation du type $\\frac{dV}{dt} = k \\cdot V$ avec $k = -0,1$.",
+      "Étape 2 : Séparer les variables. Réécris l'équation comme : $\\frac{dV}{V} = -0,1 \\, dt$",
+      "Étape 3 : Intégrer les deux côtés. À gauche : $\\int \\frac{dV}{V} = \\ln|V| + C_1$. À droite : $\\int -0,1 \\, dt = -0,1t + C_2$",
+      "Étape 4 : Combiner les résultats. $\\ln|V| = -0,1t + C$ (où $C = C_2 - C_1$)",
+      "Étape 5 : Exponentier pour isoler $V$. $V(t) = Ae^{-0,1t}$ (où $A = e^C$)",
+      "Étape 6 : Utiliser la condition initiale. À $t = 0$, $V = 500$ : donc $500 = Ae^0 = A$. Réponse finale : $V(t) = 500e^{-0,1t}$ litres"
+    ]
+  },
+  "quiz": {
+    "question": "Soit l'équation différentielle $\\frac{dy}{dx} = 3x^2$. Trouve la fonction $y(x)$ telle que $y(0) = 5$.",
+    "reponse_calculee": "$y(x) = x^3 + 5$",
+    "choices": [
+      {
+        "label": "$y(x) = 3x^3 + 5$",
+        "correct": false
+      },
+      {
+        "label": "$y(x) = x^3 + 5$",
+        "correct": true
+      },
+      {
+        "label": "$y(x) = 6x + 5$",
+        "correct": false
+      },
+      {
+        "label": "$y(x) = x^2 + 5$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as d'abord intégré $\\frac{dy}{dx} = 3x^2$ : $y = \\int 3x^2 \\, dx = x^3 + C$. Ensuite tu as utilisé la condition initiale $y(0) = 5$ pour trouver $C = 5$. D'où $y(x) = x^3 + 5$.",
+    "feedback_wrong": "Attention. Tu dois intégrer $3x^2$ terme à terme. $\\int 3x^2 \\, dx = 3 \\cdot \\frac{x^3}{3} + C = x^3 + C$. Puis avec $y(0) = 5$, tu obtiens $C = 5$. La réponse est donc $y(x) = x^3 + 5$."
+  }
+}

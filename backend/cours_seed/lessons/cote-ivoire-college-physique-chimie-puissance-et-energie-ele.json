@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-puissance-et-energie-ele",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Puissance et énergie électriques",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Puissance et énergie électriques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué que ta facture d'électricité augmente chaque mois ? C'est parce que les appareils électriques de ta maison consomment de l'énergie à différentes vitesses. Le réfrigérateur qui tourne 24h/24, la lampe que tu utilises le soir, ou la cuisinière quand ta mère prépare à manger : chacun « tire » une certaine puissance du réseau. Comprendre comment mesurer cette puissance et cette consommation d'énergie, c'est comprendre ta facture et aussi économiser."
+  },
+  "concept": {
+    "heading": "Puissance et énergie électriques",
+    "explanation": "La puissance électrique mesure la vitesse à laquelle un appareil consomme de l'électricité, tandis que l'énergie électrique mesure la quantité totale consommée sur une durée donnée. Un appareil de forte puissance consomme beaucoup d'électricité rapidement (comme un chauffage), tandis qu'un appareil de faible puissance en consomme peu (comme une LED). Plus tu utilises longtemps un appareil puissant, plus l'énergie consommée est grande, et plus ta facture augmente.",
+    "highlight": "P = U × I    et    E = P × t"
+  },
+  "example": {
+    "problem": "Une lampe halogène est branchée sur une prise domestique de tension U = 220 V. Elle est traversée par un courant d'intensité I = 5 A. On l'utilise pendant t = 3 heures. Calcule la puissance consommée par la lampe, puis l'énergie électrique qu'elle a utilisée.",
+    "steps": [
+      "Identifie les données : U = 220 V (tension), I = 5 A (intensité), t = 3 h (durée d'utilisation).",
+      "Calcule la puissance avec la formule P = U × I. P = 220 × 5 = 1 100 W. La lampe consomme 1 100 watts.",
+      "Convertis le temps en secondes pour utiliser l'énergie en joules : t = 3 h = 3 × 3 600 = 10 800 s.",
+      "Calcule l'énergie avec la formule E = P × t. E = 1 100 × 10 800 = 11 880 000 J = 11,88 MJ.",
+      "Remarque : on peut aussi exprimer l'énergie en kilowattheures (kWh), qui est l'unité sur ta facture. E = 1,1 kW × 3 h = 3,3 kWh."
+    ]
+  },
+  "quiz": {
+    "question": "Un téléviseur a une puissance de 150 W et fonctionne 4 heures par jour. Quelle est l'énergie électrique consommée en une journée, exprimée en kilowattheures (kWh) ?",
+    "reponse_calculee": "0,6 kWh",
+    "choices": [
+      {
+        "label": "150 kWh",
+        "correct": false
+      },
+      {
+        "label": "0,6 kWh",
+        "correct": true
+      },
+      {
+        "label": "600 kWh",
+        "correct": false
+      },
+      {
+        "label": "37,5 kWh",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as bien appliqué la formule E = P × t. En convertissant d'abord la puissance en kilowatts : P = 150 W = 0,15 kW, puis E = 0,15 kW × 4 h = 0,6 kWh. C'est l'énergie que le téléviseur consomme en une journée.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi de la formule E = P × t. Convertis d'abord la puissance en kilowatts : 150 W = 0,15 kW. Ensuite, multiplie par la durée : E = 0,15 kW × 4 h = 0,6 kWh. N'oublie pas les conversions d'unités !"
+  }
+}

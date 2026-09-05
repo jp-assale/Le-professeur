@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-arithmetique",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Arithmétique",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Arithmétique - Baccalauréat SE Mali",
+  "intro": {
+    "heading": "Mise en situation : Le partage équitable au marché",
+    "body": "Imagine que tu aides ton oncle au marché de Bamako à partager équitablement 420 noix de cajou entre 12 clients, ou à trouver le plus grand nombre de sachets identiques qu'on peut remplir avec 180 arachides et 144 amandes sans reste. Ces problèmes quotidiens de partage et de groupement, c'est l'arithmétique en action. Elle te permet de comprendre les relations entre les nombres, les diviseurs, et les restes."
+  },
+  "concept": {
+    "heading": "Concept central : Division euclidienne et divisibilité",
+    "explanation": "L'arithmétique étudie les propriétés des nombres entiers, en particulier comment ils se divisent les uns par les autres. La division euclidienne est l'opération de base : pour deux entiers $a$ (dividende) et $b$ (diviseur, non nul), il existe un unique couple d'entiers $q$ (quotient) et $r$ (reste) tels que $a = b \\times q + r$ avec $0 \\leq r < b$. On dit que $b$ divise $a$ (noté $b | a$) si le reste est zéro. À partir de là, on définit les notions de PGCD (plus grand commun diviseur), PPCM (plus petit commun multiple), et de nombres premiers.",
+    "highlight": "Pour tous entiers $a$ et $b$ (avec $b \\neq 0$) : $a = b \\times q + r$ où $0 \\leq r < b$."
+  },
+  "example": {
+    "problem": "Un commerçant dispose de 156 mètres de tissu rouge et 120 mètres de tissu bleu. Il veut les découper en bandes de même longueur sans reste, et il souhaite avoir le nombre maximum de bandes possibles. Quelle est la longueur d'une bande ? Combien de bandes au total obtiendra-t-il ?",
+    "steps": [
+      "Étape 1 : Le problème demande de trouver la plus grande longueur commune qui divise 156 et 120. C'est le PGCD(156, 120).",
+      "Étape 2 : On applique l'algorithme d'Euclide. Première division : $156 = 120 \\times 1 + 36$.",
+      "Étape 3 : Deuxième division : $120 = 36 \\times 3 + 12$.",
+      "Étape 4 : Troisième division : $36 = 12 \\times 3 + 0$. Le reste est 0, donc PGCD(156, 120) = 12.",
+      "Étape 5 : Chaque bande mesure 12 mètres. Nombre total de bandes = $(156 + 120) \\div 12 = 276 \\div 12 = 23$ bandes.",
+      "Réponse : La longueur d'une bande est 12 mètres et le commerçant obtiendra 23 bandes au total."
+    ]
+  },
+  "quiz": {
+    "question": "Un atelier de couture reçoit un lot de 84 boutons rouges et 60 boutons bleus. Elle veut confectionner le maximum de vêtements identiques en utilisant tous les boutons (chaque vêtement aura le même nombre de boutons rouges et le même nombre de boutons bleus). Combien de vêtements pourra-t-elle confectionner ?",
+    "reponse_calculee": "12",
+    "choices": [
+      {
+        "label": "7 vêtements",
+        "correct": false
+      },
+      {
+        "label": "12 vêtements",
+        "correct": true
+      },
+      {
+        "label": "5 vêtements",
+        "correct": false
+      },
+      {
+        "label": "14 vêtements",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le nombre maximum de vêtements identiques est le PGCD de 84 et 60. En appliquant l'algorithme d'Euclide : $84 = 60 \\times 1 + 24$, puis $60 = 24 \\times 2 + 12$, puis $24 = 12 \\times 2 + 0$. Donc PGCD(84, 60) = 12. L'atelier confectionnera 12 vêtements, chacun avec $84 \\div 12 = 7$ boutons rouges et $60 \\div 12 = 5$ boutons bleus.",
+    "feedback_wrong": "Pas tout à fait. Il faut trouver le plus grand nombre de vêtements identiques, c'est-à-dire le PGCD de 84 et 60. Applique l'algorithme d'Euclide : $84 = 60 \\times 1 + 24$, puis $60 = 24 \\times 2 + 12$, puis $24 = 12 \\times 2 + 0$. Le PGCD est 12, donc 12 vêtements."
+  }
+}

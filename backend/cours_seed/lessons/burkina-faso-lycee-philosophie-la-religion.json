@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-religion",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La religion",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La Religion",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu marches dans une rue de Ouagadougou un vendredi après-midi. D'un côté, tu entends l'appel à la prière depuis une mosquée ; de l'autre, des chants s'élèvent d'une église. Plus loin, quelqu'un porte une amulette protectrice. Tous ces gestes, ces paroles, ces objets répondent à une même question : comment l'être humain se relie-t-il au sacré, à ce qui le dépasse ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la religion ?",
+    "explanation": "La religion est un système de croyances, de pratiques et de valeurs par lequel un individu ou une communauté se relie à ce qu'elle considère comme sacré ou divin. Elle n'est pas seulement une conviction personnelle : elle structure des rites, des règles morales, des communautés. La religion répond à des questions existentielles : d'où venons-nous ? pourquoi souffrons-nous ? comment vivre ensemble ? Elle donne du sens à la vie et crée des liens sociaux.",
+    "highlight": "La religion relie l'humain au sacré par la croyance, le rite et la communauté."
+  },
+  "example": {
+    "problem": "Analysons le cas concret d'un jeune Burkinabè qui pratique l'islam. Comment sa religion structure-t-elle réellement sa vie quotidienne au-delà de la simple croyance ?",
+    "steps": [
+      "Étape 1 – Identifier la croyance personnelle : Il croit en un Dieu unique (Allah) et en l'enseignement du Coran. C'est sa conviction intime, son acte de foi.",
+      "Étape 2 – Reconnaître les rites : Cinq fois par jour, il accomplit la prière (salat). Le vendredi, il se rend à la mosquée. Ces gestes répétés ne sont pas des détails : ils structurent son emploi du temps, ses horaires, son corps même.",
+      "Étape 3 – Observer les règles morales : Il jeûne pendant le Ramadan, il refuse le porc, il limite l'alcool. Ces interdits ne sont pas arbitraires : ils incarnent une vision du monde, du pur et de l'impur, du juste et de l'injuste.",
+      "Étape 4 – Voir la communauté en action : À la mosquée, il prie aux côtés d'autres fidèles. Cette communauté (oumma) le soutient dans les épreuves, partage ses joies, le rappelle à l'ordre s'il dévie. Il n'est pas seul.",
+      "Étape 5 – Reconnaître le sens existentiel : Chaque acte religieux lui répond implicitement : d'où je viens (de Dieu), pourquoi je suis ici (pour m'améliorer moralement), où je vais (vers le jugement divin). Sa vie n'est pas du hasard.",
+      "Conclusion : La religion n'est pas qu'une opinion dans sa tête. C'est un système complet qui modèle son corps, son temps, ses choix, ses relations. C'est ça, la religion réelle."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les éléments suivants, lequel est une caractéristique essentielle de la religion en tant que système ?",
+    "reponse_calculee": "Un ensemble structuré de croyances, de rites et de communauté qui relie l'humain au sacré",
+    "choices": [
+      {
+        "label": "Une simple opinion personnelle qu'on garde pour soi, sans influence sur les actes",
+        "correct": false
+      },
+      {
+        "label": "Un ensemble structuré de croyances, de rites et de communauté qui relie l'humain au sacré",
+        "correct": true
+      },
+      {
+        "label": "Une invention des sociétés modernes pour contrôler les gens par la peur",
+        "correct": false
+      },
+      {
+        "label": "Un ensemble de superstitions sans lien avec la morale ou l'organisation sociale",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Tu as identifié les trois dimensions essentielles de la religion : la croyance (le lien au sacré), la pratique (les rites), et le collectif (la communauté). Ce n'est jamais qu'une seule de ces dimensions isolée.",
+    "feedback_wrong": "Pas tout à fait. La religion n'est ni une simple conviction privée, ni une arnaque, ni une superstition vide de sens. C'est un système qui intègre croyance, pratique rituelle et vie communautaire. Relis la définition : elle unit l'individu au sacré de trois façons à la fois."
+  }
+}

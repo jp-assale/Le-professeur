@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-le-relief-africain-hauts-so",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Le relief africain (hauts sommets)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Le relief africain : les hauts sommets",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu voyages en avion au-dessus de l'Afrique. Tu vois des plaines immenses, puis soudain, des montagnes gigantesques surgissent du sol. Ces pics enneigés dominent le paysage : c'est le Kilimandjaro, le Mont Kenya, l'Atlas... L'Afrique n'est pas qu'une grande savane plate : elle possède des sommets remarquables qui façonnent son relief et la vie de millions de personnes."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le relief africain et ses hauts sommets ?",
+    "explanation": "Le relief africain est l'ensemble des formes du terrain : plaines, plateaux, bassins et montagnes. Parmi ces formes, les hauts sommets (ou pics montagneux) sont les points les plus élevés du continent. Ils sont répartis inégalement : certaines régions en ont peu, d'autres beaucoup. Ces sommets ne sont pas isolés au hasard ; ils appartiennent à des chaînes de montagnes ou à des massifs qui suivent souvent les grandes structures géologiques du continent.",
+    "highlight": "Les hauts sommets africains sont des pics montagneux remarquables qui structurent le relief et influencent le climat et l'habitat."
+  },
+  "example": {
+    "problem": "Tu étudies une carte du relief africain. Tu remarques que le Kilimandjaro (Tanzanie), le Mont Kenya (Kenya) et les Monts du Cameroun (Cameroun) sont tous situés en Afrique de l'Est et centrale. Comment peux-tu expliquer cette concentration de hauts sommets dans cette région plutôt qu'ailleurs ?",
+    "steps": [
+      "Étape 1 : Observe la position géographique. Ces trois sommets se trouvent près de la Vallée du Rift, une grande fracture de l'écorce terrestre qui traverse l'Afrique de l'Est du nord au sud.",
+      "Étape 2 : Comprends l'origine géologique. La Vallée du Rift est le résultat de mouvements tectoniques (mouvement des plaques terrestres) qui soulèvent et écartent la croûte terrestre.",
+      "Étape 3 : Relie cause et effet. Quand la croûte se soulève le long d'une fracture, des montagnes se forment. C'est pourquoi cette région a des sommets hauts et des volcans.",
+      "Étape 4 : Distingue les types de sommets. Le Kilimandjaro et le Mont Kenya sont d'anciens volcans éteints ; les Monts du Cameroun incluent un volcan encore actif. Tous sont nés de cette activité tectonique.",
+      "Étape 5 : Généralise. Les hauts sommets africains ne sont pas dispersés au hasard : ils suivent les grandes structures du relief, en particulier les zones tectoniquement actives.",
+      "Étape 6 : Conclusion. Cette concentration montre que comprendre le relief africain, c'est aussi comprendre la géologie et la structure interne du continent."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les affirmations suivantes, laquelle décrit correctement le rapport entre les hauts sommets africains et la structure du continent ?",
+    "reponse_calculee": "Les hauts sommets africains sont concentrés le long de zones tectoniquement actives comme la Vallée du Rift, ce qui explique leur répartition inégale.",
+    "choices": [
+      {
+        "label": "Les hauts sommets sont répartis de manière égale sur tout le continent africain.",
+        "correct": false
+      },
+      {
+        "label": "Les hauts sommets africains sont concentrés le long de zones tectoniquement actives comme la Vallée du Rift, ce qui explique leur répartition inégale.",
+        "correct": true
+      },
+      {
+        "label": "Les hauts sommets ne jouent aucun rôle dans le climat et l'habitat des régions africaines.",
+        "correct": false
+      },
+      {
+        "label": "Les hauts sommets africains sont tous des volcans actifs qui menacent constamment les habitants.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris l'essentiel : les hauts sommets africains ne sont pas distribués au hasard. Ils suivent les grandes structures géologiques du continent, particulièrement la Vallée du Rift en Afrique de l'Est. Cette zone de fractures tectoniques provoque le soulèvement du relief et la formation de montagnes. C'est pourquoi on y trouve le Kilimandjaro, le Mont Kenya et d'autres sommets majeurs.",
+    "feedback_wrong": "Ce n'est pas tout à fait ça. Réfléchis : si tu observes une carte des hauts sommets africains, remarques-tu qu'ils sont vraiment dispersés partout ? Non : beaucoup se trouvent en Afrique de l'Est, près de la Vallée du Rift. Cette concentration n'est pas due au hasard, mais à la géologie du continent. La Vallée du Rift est une zone où les plaques tectoniques se déplacent, ce qui soulève la croûte terrestre et crée des montagnes. Relis la question et essaie à nouveau."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-science-et-technique",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Science et technique",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Science et technique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine : ton village reçoit enfin l'électricité. C'est une technique nouvelle pour vous. Mais d'où vient cette idée ? Comment passe-t-on de la découverte scientifique (comprendre comment l'électricité fonctionne) à la technique (construire des pylônes et des fils) ? Et surtout : pourquoi cette technique change complètement votre vie quotidienne ? C'est la question du chapitre."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que science et technique ?",
+    "explanation": "La science cherche à connaître et à comprendre le monde : elle pose la question « pourquoi ? » et « comment ça marche ? ». La technique, elle, utilise ce savoir pour créer des outils, des méthodes et des solutions pratiques qui transforment la réalité. La science demande « qu'est-ce qui est vrai ? », la technique demande « qu'est-ce qui marche et comment l'utiliser ? ». Entre les deux existe une relation : la science fournit les connaissances, la technique les applique. Mais attention : la technique ne découle pas mécaniquement de la science. Parfois la technique existe avant la science qui l'explique, parfois la science reste sans application pratique.",
+    "highlight": "La science vise la connaissance vraie du réel ; la technique vise l'efficacité et la transformation du réel."
+  },
+  "example": {
+    "problem": "Analysons le cas du téléphone mobile en Afrique de l'Ouest. Comment passe-t-on de la compréhension scientifique des ondes électromagnétiques à la technique du téléphone qui relie des millions de gens ?",
+    "steps": [
+      "Étape 1 - La science d'abord : Des physiciens comprennent les lois des ondes électromagnétiques, comment elles se propagent, se transmettent. C'est du savoir théorique, des formules, des expériences en laboratoire.",
+      "Étape 2 - L'ingénieur arrive : Un ingénieur dit : « Et si je pouvais utiliser ces ondes pour envoyer une voix à distance sans fil ? » Il ne cherche plus à comprendre pourquoi ça marche, mais comment le faire concrètement.",
+      "Étape 3 - Des choix pratiques : L'ingénieur doit choisir quelle fréquence utiliser, quel matériau pour l'antenne, quel design pour que le téléphone tienne dans la poche. Ce sont des choix techniques, pas scientifiques.",
+      "Étape 4 - L'impact social : Le téléphone arrive au Mali. Les femmes qui vendaient au marché peuvent maintenant commander directement depuis le village. Les migrants envoient de l'argent plus facilement. La technique a transformé la société.",
+      "Étape 5 - La science n'avait pas prévu cela : Les physiciens savaient comment les ondes fonctionnaient, mais ils ne savaient pas que leur science permettrait aux femmes maliennes d'accéder au crédit par téléphone. La technique crée des usages imprévisibles.",
+      "Étape 6 - Conclusion : Entre science (comprendre les ondes) et technique (fabriquer un téléphone utilisable), il existe un écart. La technique n'est pas juste de la science appliquée ; c'est une création autonome qui utilise la science mais invente ses propres solutions."
+    ]
+  },
+  "quiz": {
+    "question": "Un médecin comprend scientifiquement que l'aspirine réduit la douleur en bloquant une certaine réaction chimique dans le corps. Puis les pharmaciens créent un comprimé facile à avaler, avec un dosage précis, emballé hermétiquement pour 10 ans de conservation. Quelle distinction caractérise le mieux ce passage ?",
+    "reponse_calculee": "De la science (comprendre le mécanisme) à la technique (créer un produit utilisable et stable).",
+    "choices": [
+      {
+        "label": "La pharmacologie devient plus importante que la chimie.",
+        "correct": false
+      },
+      {
+        "label": "De la science (comprendre le mécanisme) à la technique (créer un produit utilisable et stable).",
+        "correct": true
+      },
+      {
+        "label": "La technique n'a aucun lien avec la science médicale.",
+        "correct": false
+      },
+      {
+        "label": "Le comprimé prouve que la science était fausse au départ.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as saisi l'essentiel. La science explique le « pourquoi » (pourquoi l'aspirine agit-elle ?). La technique répond au « comment » pratique (comment la rendre disponible, stable, facile d'usage ?). Les pharmaciens ne découvrent rien de nouveau scientifiquement ; ils inventent une solution concrète basée sur ce que la science a établi.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : le médecin comprend le mécanisme scientifique, c'est la science. Les pharmaciens transforment cette connaissance en produit pratique, c'est la technique. Ce n'est pas que la pharmacologie devient plus importante, c'est que science et technique jouent des rôles différents. La technique dépend de la science, mais elle n'est pas qu'une simple application."
+  }
+}

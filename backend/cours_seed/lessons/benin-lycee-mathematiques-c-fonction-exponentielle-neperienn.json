@@ -1,0 +1,55 @@
+{
+  "slug": "benin-lycee-mathematiques-c-fonction-exponentielle-neperienn",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonction exponentielle népérienne et fonctions exponentielles/puissances",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Fonction exponentielle népérienne et fonctions exponentielles/puissances",
+  "intro": {
+    "heading": "Mise en situation : La croissance d'une épidémie",
+    "body": "Imagine qu'un virus se propage dans une région : chaque jour, le nombre de cas est multiplié par un facteur constant. Le premier jour, 2 personnes sont contaminées ; le deuxième jour, 4 ; le troisième jour, 8. Cette croissance rapide et régulière suit une loi exponentielle. Comment prédire le nombre de cas au jour 10 ? Comment modéliser mathématiquement cette multiplication répétée ? C'est le pouvoir de la fonction exponentielle."
+  },
+  "concept": {
+    "heading": "La fonction exponentielle népérienne",
+    "explanation": "La fonction exponentielle népérienne, notée $\\exp(x)$ ou $e^x$, est la fonction qui à tout nombre réel $x$ associe le nombre $e^x$, où $e \\approx 2,718$ est un nombre spécial appelé nombre d'Euler. Cette fonction est définie sur tout $\\mathbb{R}$ et elle est l'inverse naturel de la fonction logarithme népérien. Elle modélise les phénomènes de croissance ou de décroissance continue (populations, radioactivité, refroidissement, etc.). La propriété fondamentale est que la dérivée de $e^x$ est elle-même $e^x$, ce qui en fait une fonction unique en mathématiques.",
+    "highlight": "$e^{x_1 + x_2} = e^{x_1} \\times e^{x_2}$ et $(e^x)' = e^x$"
+  },
+  "example": {
+    "problem": "On considère une population de bactéries qui croît selon le modèle $P(t) = P_0 \\times e^{0,3t}$, où $P_0 = 1000$ est la population initiale, $t$ est le temps en heures, et $P(t)$ est la population au temps $t$. Calcule la population après 5 heures.",
+    "steps": [
+      "Étape 1 : Identifie les valeurs données. On a $P_0 = 1000$, $t = 5$ heures, et le coefficient de croissance est $0,3$.",
+      "Étape 2 : Écris la formule avec les valeurs. $P(5) = 1000 \\times e^{0,3 \\times 5} = 1000 \\times e^{1,5}$",
+      "Étape 3 : Calcule l'exposant $1,5$ et évalue $e^{1,5}$. À l'aide d'une calculatrice ou d'une table, $e^{1,5} \\approx 4,482$",
+      "Étape 4 : Multiplie par la population initiale. $P(5) = 1000 \\times 4,482 = 4482$",
+      "Étape 5 : Conclus. Après 5 heures, la population de bactéries est d'environ 4482 individus."
+    ]
+  },
+  "quiz": {
+    "question": "Utilise la propriété des exponentielles pour simplifier l'expression $e^{2} \\times e^{3}$. Quel est le résultat ?",
+    "reponse_calculee": "$e^5$",
+    "choices": [
+      {
+        "label": "$e^{6}$",
+        "correct": false
+      },
+      {
+        "label": "$e^{5}$",
+        "correct": true
+      },
+      {
+        "label": "$2e^{3}$",
+        "correct": false
+      },
+      {
+        "label": "$e^{2,5}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué la propriété fondamentale : $e^{a} \\times e^{b} = e^{a+b}$. Ici, $e^{2} \\times e^{3} = e^{2+3} = e^{5}$. Cette propriété est au cœur de tous les calculs avec exponentielles.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la propriété clé des exponentielles : quand tu multiplies deux puissances de même base, tu ajoutes les exposants. $e^{2} \\times e^{3} = e^{2+3} = e^{5}$. Cette règle s'applique pour toute base exponentielle, pas seulement $e$."
+  }
+}

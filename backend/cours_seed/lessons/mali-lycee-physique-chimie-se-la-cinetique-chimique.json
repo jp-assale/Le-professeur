@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-la-cinetique-chimique",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "La cinétique chimique",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "La cinétique chimique",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi la rouille se forme-t-elle lentement ?",
+    "body": "Tu as remarqué qu'un clou exposé à l'humidité s'oxyde progressivement. Pourquoi cette réaction prend-elle des jours ou des semaines, alors que d'autres réactions chimiques sont quasi instantanées ? C'est parce que toute réaction chimique a sa propre vitesse. Comprendre et contrôler cette vitesse, c'est le cœur de la cinétique chimique : un savoir-faire essentiel en industrie, en pharmacie et en chimie analytique."
+  },
+  "concept": {
+    "heading": "La cinétique chimique : définition et vitesse de réaction",
+    "explanation": "La cinétique chimique est l'étude de la vitesse à laquelle se déroulent les réactions chimiques et des facteurs qui les influencent. La vitesse de réaction mesure la quantité de réactifs consommés ou de produits formés par unité de temps. Elle dépend de plusieurs facteurs : la température, la concentration des réactifs, la nature des réactifs, et la présence d'un catalyseur. Plus la vitesse est grande, plus la réaction est rapide.",
+    "highlight": "Vitesse de réaction = variation de concentration / variation de temps, soit v = Δc / Δt (en mol·L⁻¹·s⁻¹)"
+  },
+  "example": {
+    "problem": "On étudie la réaction : A + B → C. On mesure la concentration du réactif A à différents instants. À t₁ = 0 s, [A] = 2,5 mol·L⁻¹. À t₂ = 40 s, [A] = 1,3 mol·L⁻¹. Calcule la vitesse moyenne de consommation de A sur cet intervalle de temps.",
+    "steps": [
+      "Étape 1 : Identifie les données. Concentration initiale [A]₁ = 2,5 mol·L⁻¹ ; concentration finale [A]₂ = 1,3 mol·L⁻¹ ; temps initial t₁ = 0 s ; temps final t₂ = 40 s.",
+      "Étape 2 : Calcule la variation de concentration. Δ[A] = [A]₂ - [A]₁ = 1,3 - 2,5 = -1,2 mol·L⁻¹. (Le signe négatif indique que A est consommé.)",
+      "Étape 3 : Calcule la variation de temps. Δt = t₂ - t₁ = 40 - 0 = 40 s.",
+      "Étape 4 : Applique la formule de vitesse moyenne. v = |Δ[A]| / Δt = 1,2 / 40 = 0,03 mol·L⁻¹·s⁻¹.",
+      "Étape 5 : Interprète le résultat. La concentration du réactif A diminue de 0,03 mol par litre à chaque seconde. C'est une vitesse modérée, typique d'une réaction lente à température ambiante."
+    ]
+  },
+  "quiz": {
+    "question": "Un composé se désintègre progressivement. À t = 0 min, sa concentration est 4,2 mol·L⁻¹. À t = 6 min, elle est 2,4 mol·L⁻¹. Quelle est la vitesse moyenne de cette réaction en mol·L⁻¹·min⁻¹ ?",
+    "reponse_calculee": "0,3 mol·L⁻¹·min⁻¹",
+    "choices": [
+      {
+        "label": "0,7 mol·L⁻¹·min⁻¹",
+        "correct": false
+      },
+      {
+        "label": "1,8 mol·L⁻¹·min⁻¹",
+        "correct": false
+      },
+      {
+        "label": "0,3 mol·L⁻¹·min⁻¹",
+        "correct": true
+      },
+      {
+        "label": "0,15 mol·L⁻¹·min⁻¹",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Δ[composé] = 2,4 - 4,2 = -1,8 mol·L⁻¹ ; Δt = 6 - 0 = 6 min. Vitesse = |−1,8| / 6 = 0,3 mol·L⁻¹·min⁻¹. Tu as bien appliqué la formule en prenant la valeur absolue de la variation de concentration.",
+    "feedback_wrong": "Pas tout à fait. Calcule d'abord la variation de concentration en valeur absolue : |2,4 - 4,2| = 1,8 mol·L⁻¹. Puis divise par l'intervalle de temps : 1,8 / 6 = 0,3 mol·L⁻¹·min⁻¹. Relis la formule v = Δc / Δt et réessaie."
+  }
+}

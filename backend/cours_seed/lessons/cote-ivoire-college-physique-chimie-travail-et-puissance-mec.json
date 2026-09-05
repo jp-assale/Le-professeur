@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-travail-et-puissance-mec",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Travail et puissance mécaniques",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Travail et puissance mécaniques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine deux ouvriers qui doivent monter des sacs de ciment au premier étage d'un chantier. Le premier prend son temps, monte lentement mais régulièrement. Le second se dépêche et finit en deux fois moins de temps. Tous les deux ont soulevé la même charge à la même hauteur, mais l'un a fourni plus d'effort... pourquoi ? C'est la différence entre le travail mécanique et la puissance mécanique."
+  },
+  "concept": {
+    "heading": "Le travail et la puissance mécaniques",
+    "explanation": "Le travail mécanique, c'est l'effet utile d'une force qui déplace un objet. Si tu pousses une voiture en panne sur 50 mètres, tu fournis du travail. La puissance, c'est la rapidité avec laquelle tu fournis ce travail. Le même travail fait en moins de temps demande une plus grande puissance.",
+    "highlight": "W = F × d   et   P = W / t"
+  },
+  "example": {
+    "problem": "Un maçon soulève une brouette remplie de sable de 40 kg à une hauteur de 1,5 m. On prend g = 10 N/kg. Calcule le travail fourni par le maçon. Puis, sachant qu'il a mis 3 secondes pour effectuer ce soulèvement, calcule la puissance qu'il a développée.",
+    "steps": [
+      "Étape 1 : Identifie la force à considérer. Le maçon soulève la brouette contre la pesanteur, donc la force utile est le poids : F = m × g = 40 × 10 = 400 N.",
+      "Étape 2 : Calcule le travail mécanique en utilisant W = F × d. Ici, la distance est la hauteur de levage : W = 400 × 1,5 = 600 J (joules).",
+      "Étape 3 : Le travail fourni est de 600 J. C'est l'énergie nécessaire pour soulever la brouette.",
+      "Étape 4 : Calcule la puissance en utilisant P = W / t. On a P = 600 / 3 = 200 W (watts).",
+      "Étape 5 : La puissance développée est 200 W. Cela signifie que le maçon transfère 200 joules d'énergie chaque seconde à la brouette."
+    ]
+  },
+  "quiz": {
+    "question": "Un élève traîne son cartable sur le sol en le tirant horizontalement avec une force de 50 N sur une distance de 20 m. Quel travail a-t-il fourni ?",
+    "reponse_calculee": "1000 J",
+    "choices": [
+      {
+        "label": "500 J",
+        "correct": false
+      },
+      {
+        "label": "1000 J",
+        "correct": true
+      },
+      {
+        "label": "70 J",
+        "correct": false
+      },
+      {
+        "label": "2,5 J",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule W = F × d = 50 × 20 = 1000 J. Le travail mécanique dépend de la force exercée et de la distance parcourue dans la direction de la force.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que le travail mécanique se calcule avec W = F × d, où F est la force en newtons et d est la distance en mètres. Ici, W = 50 × 20 = 1000 J. La puissance n'intervient pas dans ce calcul puisqu'on ne parle pas de temps."
+  }
+}

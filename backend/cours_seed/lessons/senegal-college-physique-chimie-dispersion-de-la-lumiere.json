@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-physique-chimie-dispersion-de-la-lumiere",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Dispersion de la lumière",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Dispersion de la lumière",
+  "intro": {
+    "heading": "Mise en situation : L'arc-en-ciel après la pluie",
+    "body": "Tu as sûrement observé un magnifique arc-en-ciel après une averse en fin d'après-midi au Sénégal. Comment la lumière blanche du Soleil se transforme-t-elle en ces couleurs éclatantes ? C'est parce que la lumière blanche se décompose en traversant les gouttes d'eau. Ce phénomène s'appelle la dispersion de la lumière, et c'est exactement ce que nous allons explorer aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la dispersion de la lumière ?",
+    "explanation": "La dispersion de la lumière est le phénomène par lequel la lumière blanche se sépare en ses différentes couleurs (le spectre visible) lorsqu'elle traverse un milieu transparent comme le verre ou l'eau. Chaque couleur correspond à une longueur d'onde différente, et chacune se propage à une vitesse légèrement différente dans le milieu. C'est cette variation de vitesse qui cause la séparation des couleurs. La couleur rouge a la plus grande longueur d'onde et se dévie le moins, tandis que la couleur violette a la plus petite longueur d'onde et se dévie le plus.",
+    "highlight": "Plus la longueur d'onde est petite, plus la déviation est importante."
+  },
+  "example": {
+    "problem": "Un rayon de lumière blanche frappe la surface d'un prisme en verre sous un angle d'incidence de 45°. À la sortie du prisme, on observe que la lumière rouge émerge selon un angle de 48°, tandis que la lumière violette émerge selon un angle de 52°. Calcule l'angle de déviation pour chacune de ces deux couleurs.",
+    "steps": [
+      "Étape 1 : Rappelle que l'angle de déviation D est la différence entre l'angle d'émergence et l'angle d'incidence : D = angle d'émergence − angle d'incidence.",
+      "Étape 2 : Pour la lumière rouge, calcule D_rouge = 48° − 45° = 3°.",
+      "Étape 3 : Pour la lumière violette, calcule D_violette = 52° − 45° = 7°.",
+      "Étape 4 : Compare les deux résultats. La violette (7°) est déviée davantage que la rouge (3°), ce qui confirme que les courtes longueurs d'onde subissent une plus grande déviation.",
+      "Étape 5 : Conclusion : La déviation totale entre le rouge et le violette est 7° − 3° = 4°. C'est cette différence de déviation qui provoque la séparation des couleurs à la sortie du prisme."
+    ]
+  },
+  "quiz": {
+    "question": "Un rayon de lumière blanche traverse un prisme de verre. La lumière verte (longueur d'onde 550 nm) émerge selon un angle de 50°, tandis que la lumière orange (longueur d'onde 600 nm) émerge selon un angle de 49°. L'angle d'incidence est de 45°. Calcule l'angle de déviation de la lumière verte.",
+    "reponse_calculee": "5°",
+    "choices": [
+      {
+        "label": "4°",
+        "correct": false
+      },
+      {
+        "label": "5°",
+        "correct": true
+      },
+      {
+        "label": "6°",
+        "correct": false
+      },
+      {
+        "label": "50°",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as correctement appliqué la formule de déviation : D = angle d'émergence − angle d'incidence = 50° − 45° = 5°. Remarque aussi que la lumière verte (550 nm) subit une déviation plus importante (5°) que la lumière orange (49° − 45° = 4°), ce qui confirme que les plus courtes longueurs d'onde sont davantage déviées.",
+    "feedback_wrong": "Ce n'est pas correct. Vérifie ta formule : l'angle de déviation D = angle d'émergence − angle d'incidence. Ici, D = 50° − 45° = 5°. Attention à ne pas confondre l'angle d'émergence (50°) avec la déviation elle-même."
+  }
+}

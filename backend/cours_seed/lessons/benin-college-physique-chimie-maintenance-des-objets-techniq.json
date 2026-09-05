@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-maintenance-des-objets-techniq",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Maintenance des objets techniques",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Maintenance des objets techniques",
+  "intro": {
+    "heading": "Mise en situation : pourquoi ta moto ou ton téléphone dure longtemps",
+    "body": "Imagine que tu viens d'acheter une moto neuve. Au début, elle démarre bien, roule vite, tout fonctionne. Mais après quelques mois, tu remarques que le moteur fait du bruit, la chaîne est rouillée, et certaines pièces bougent trop. Si tu ne fais rien, elle va s'arrêter. Heureusement, il existe une solution : la maintenance. C'est l'ensemble des actions qui permettent de garder un objet technique en bon état de fonctionnement le plus longtemps possible."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la maintenance ?",
+    "explanation": "La maintenance est l'ensemble des opérations d'entretien, de contrôle et de réparation d'un objet technique. Elle vise à prévenir les pannes, à garder le bon fonctionnement et à prolonger la durée de vie. Il existe deux types principaux : la maintenance préventive (qu'on fait régulièrement pour éviter les problèmes) et la maintenance corrective (qu'on fait quand quelque chose est cassé). Par exemple, changer l'huile du moteur tous les 5000 km, c'est de la maintenance préventive. Réparer un pneu crevé, c'est de la maintenance corrective.",
+    "highlight": "Maintenance = entretien régulier + contrôle + réparation pour éviter les pannes et prolonger la durée de vie"
+  },
+  "example": {
+    "problem": "Un atelier de réparation doit entretenir les motos d'une flotte de taxis-motos. Chaque moto doit avoir une révision générale tous les 10 000 km. Une moto a actuellement 45 000 km au compteur. Sa dernière révision remonte à 30 000 km. Calcule : (1) le kilométrage à la dernière révision, (2) le kilométrage parcouru depuis, (3) le kilométrage à la prochaine révision obligatoire.",
+    "steps": [
+      "Étape 1 : Identifier les données. Kilométrage actuel = 45 000 km. Intervalle de révision = 10 000 km. Dernière révision = 30 000 km.",
+      "Étape 2 : Kilométrage parcouru depuis la dernière révision = kilométrage actuel - kilométrage de la dernière révision = 45 000 - 30 000 = 15 000 km.",
+      "Étape 3 : Vérifier si la révision est due. Comme 15 000 km > 10 000 km, la révision est déjà en retard.",
+      "Étape 4 : Calculer le kilométrage de la dernière révision censée être faite. Il faut trouver le multiple de 10 000 km le plus proche au-dessus de 30 000 km : c'est 40 000 km.",
+      "Étape 5 : Calculer le kilométrage de la prochaine révision obligatoire après celle qui est due = 40 000 + 10 000 = 50 000 km.",
+      "Étape 6 : Réponses finales : (1) La dernière révision réelle = 30 000 km, (2) Kilométrage parcouru depuis = 15 000 km, (3) Prochaine révision obligatoire = 50 000 km."
+    ]
+  },
+  "quiz": {
+    "question": "Un réfrigérateur domestique doit être entretenu régulièrement pour fonctionner correctement. Le fabricant recommande de nettoyer le condenseur tous les 6 mois. Un client a nettoyé le condenseur il y a 2 mois. Dans combien de mois doit-il le nettoyer à nouveau pour respecter la maintenance préventive ?",
+    "reponse_calculee": "4 mois",
+    "choices": [
+      {
+        "label": "2 mois",
+        "correct": false
+      },
+      {
+        "label": "6 mois",
+        "correct": false
+      },
+      {
+        "label": "4 mois",
+        "correct": true
+      },
+      {
+        "label": "8 mois",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le cycle d'entretien est de 6 mois. Si le nettoyage a été fait il y a 2 mois, le prochain doit avoir lieu dans 6 - 2 = 4 mois. C'est cela, la maintenance préventive : respecter les délais d'entretien régulier pour éviter une panne.",
+    "feedback_wrong": "Pas tout à fait. L'intervalle de maintenance préventive est de 6 mois. Puisque le nettoyage a été fait il y a 2 mois, il reste 6 - 2 = 4 mois avant le prochain entretien obligatoire. La maintenance préventive, c'est agir avant la panne en respectant les délais."
+  }
+}

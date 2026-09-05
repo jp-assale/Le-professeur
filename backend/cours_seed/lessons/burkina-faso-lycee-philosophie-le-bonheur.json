@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-le-bonheur",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Le bonheur",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Le bonheur",
+  "intro": {
+    "heading": "Mise en situation : une quête universelle",
+    "body": "Imagine ton voisin qui vient de recevoir un héritage important. Il se dit : « Maintenant, je vais enfin être heureux ! » Quelques mois plus tard, il te confie qu'il se sent aussi vide qu'avant. Entre-temps, ta grand-mère, avec peu de ressources, te sourit chaque matin en partageant son petit-déjeuner avec toi. Pourquoi l'un n'a pas trouvé le bonheur malgré sa richesse, tandis que l'autre rayonne ? C'est la question fondamentale que pose la philosophie du bonheur."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce que le bonheur ?",
+    "explanation": "Le bonheur est l'état de satisfaction profonde et durable de celui ou celle qui a atteint ce qu'il ou elle considère comme son bien suprême. Ce n'est pas un simple plaisir passager, mais une forme d'accomplissement. La question philosophique centrale est : le bonheur dépend-il de facteurs externes (richesse, santé, circonstances) ou provient-il d'une disposition interne, d'une certaine sagesse ou vertu ? Autrement dit, est-il donné ou construit ?",
+    "highlight": "Le bonheur est l'accomplissement durable de ce qui constitue le bien suprême pour une personne."
+  },
+  "example": {
+    "problem": "Analysons le cas de deux artisans : l'un possède un atelier prospère mais vit dans l'inquiétude constante de perdre sa clientèle et son statut social. L'autre dirige un petit atelier modeste, où il exerce son métier avec passion, apprend chaque jour, aide ses apprentis et cultive des amitiés sincères. Lequel des deux est véritablement heureux, et pourquoi ?",
+    "steps": [
+      "Étape 1 : Observons le premier artisan. Il possède les biens externes valorisés socialement (richesse, reconnaissance). Mais son bonheur dépend entièrement de la conservation de ces biens, ce qui le rend fragile et anxieux.",
+      "Étape 2 : Examinons le second artisan. Il possède peu, mais ce qu'il fait correspond à ce qu'il estime vraiment bon : exercer son art, transmettre, cultiver des relations authentiques.",
+      "Étape 3 : Identifions le facteur clé. Le premier confond bonheur et accumulation de biens ; le second confond bonheur et satisfaction immédiate par le plaisir. Ni l'un ni l'autre n'a trouvé le vrai bonheur.",
+      "Étape 4 : Approfondissons. Un bonheur véritable naît quand on reconnait le bien ultime : pour le second artisan, c'est l'exercice de la vertu (excellence du métier, générosité envers les apprentis, amitié sincère). Ce bien n'est pas menacé par les circonstances extérieures.",
+      "Étape 5 : Conclusion. Le bonheur réside dans l'alignement entre ce qu'on fait et ce qu'on estime profondément bon. C'est une disposition stable, fruit de la sagesse et de la vertu, non une dépendance aux événements externes."
+    ]
+  },
+  "quiz": {
+    "question": "Tu discutes avec un ami qui dit : « Je serai heureux une fois que j'aurai réussi mes examens, trouvé un bon travail et acheté une maison. » D'après la conception philosophique du bonheur que tu viens d'étudier, quel est le problème principal de cette vision ?",
+    "reponse_calculee": "Il place le bonheur dans l'accomplissement futur de conditions externes, ce qui le rend dépendant des circonstances et jamais véritablement satisfait.",
+    "choices": [
+      {
+        "label": "C'est un bon plan ; il suffit de persévérer et le bonheur viendra.",
+        "correct": false
+      },
+      {
+        "label": "Il place le bonheur dans l'accomplissement futur de conditions externes, ce qui le rend dépendant des circonstances et jamais véritablement satisfait.",
+        "correct": true
+      },
+      {
+        "label": "Les examens, le travail et la maison sont les seules sources de bonheur véritable.",
+        "correct": false
+      },
+      {
+        "label": "Le bonheur n'existe que pour ceux qui naissent riches ou privilégiés.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as saisi le cœur de la critique philosophique. Le bonheur conçu comme l'arrivée d'un futur meilleur est une illusion : une fois l'examen réussi, une nouvelle inquiétude surgit ; une fois le travail obtenu, on craint de le perdre. C'est un cycle sans fin. Le vrai bonheur est une disposition intérieure, une sagesse qui reconnaît le bien dans l'ici et maintenant, même imparfait.",
+    "feedback_wrong": "Pas exactement. Réfléchis : si ton bonheur dépend toujours d'une condition future, es-tu jamais véritablement heureux ? Ou repousses-tu sans cesse le moment du bonheur ? La philosophie suggère que le bonheur véritable naît d'une transformation intérieure, d'une compréhension de ce qui est vraiment bon, indépendamment des circonstances externes."
+  }
+}

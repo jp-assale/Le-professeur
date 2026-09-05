@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-induction-electromagnetique-et",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Induction électromagnétique et auto-induction",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Induction électromagnétique et auto-induction",
+  "intro": {
+    "heading": "Mise en situation : le transformateur du village",
+    "body": "Dans ton quartier, le transformateur électrique qui alimente les maisons fonctionne sans aucun contact électrique entre l'énergie qui arrive du réseau et celle qui sort dans tes fils. Pourtant, le courant passe. Comment ? C'est grâce à l'induction électromagnétique : un phénomène où un champ magnétique qui change crée du courant électrique, sans contact physique. C'est la base de presque tous nos appareils modernes."
+  },
+  "concept": {
+    "heading": "L'induction électromagnétique : la loi de Faraday",
+    "explanation": "Lorsqu'un flux magnétique (la quantité de lignes de champ magnétique traversant une surface) varie dans le temps à travers une bobine ou une spire de fil conducteur, une force électromotrice (une tension) apparaît aux bornes du conducteur. Cette tension provoque un courant induit qui s'oppose toujours à la variation qui l'a créé (c'est la loi de Lenz). Ce phénomène s'appelle l'induction électromagnétique, et c'est le cœur du chapitre.",
+    "highlight": "e = -dΦ/dt, où e est la force électromotrice induite et dΦ/dt est la variation du flux magnétique"
+  },
+  "example": {
+    "problem": "Une bobine plate circulaire, d'aire S = 0,05 m², est placée perpendiculairement à un champ magnétique uniforme. Le champ magnétique augmente linéairement de 0 T à 0,4 T en 2 secondes. Calcule la force électromotrice induite dans la bobine (on considère une seule spire, n = 1).",
+    "steps": [
+      "Identifie les données : S = 0,05 m², B initial = 0 T, B final = 0,4 T, Δt = 2 s, n = 1 spire.",
+      "Calcule la variation du flux magnétique : ΔΦ = n × S × ΔB = 1 × 0,05 × (0,4 - 0) = 0,02 Wb.",
+      "Calcule la variation du flux par unité de temps : dΦ/dt = ΔΦ / Δt = 0,02 / 2 = 0,01 Wb/s.",
+      "Applique la formule de Faraday (en valeur absolue) : |e| = |dΦ/dt| = 0,01 V = 10 mV.",
+      "Résultat : une force électromotrice de 10 mV est induite dans la bobine. Plus la variation est rapide, plus la tension est élevée."
+    ]
+  },
+  "quiz": {
+    "question": "Une bobine de 50 spires, d'aire 0,1 m², est placée dans un champ magnétique perpendiculaire qui varie de 0,2 T à 0,6 T en 0,5 secondes. Quelle est la force électromotrice induite ?",
+    "reponse_calculee": "40 V",
+    "choices": [
+      {
+        "label": "10 V",
+        "correct": false
+      },
+      {
+        "label": "40 V",
+        "correct": true
+      },
+      {
+        "label": "20 V",
+        "correct": false
+      },
+      {
+        "label": "80 V",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la loi de Faraday. Le flux varie de ΔΦ = n × S × ΔB = 50 × 0,1 × 0,4 = 2 Wb, donc dΦ/dt = 2 / 0,5 = 4 Wb/s, et e = 4 × 10 = 40 V. N'oublie pas de multiplier par le nombre de spires, qui amplifie l'effet d'induction.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien multiplié par le nombre de spires (n = 50), car chaque spire ajoute sa contribution. La variation du flux magnétique est ΔΦ = n × S × ΔB = 50 × 0,1 × (0,6 - 0,2) = 50 × 0,1 × 0,4 = 2 Wb. Puis dΦ/dt = 2 / 0,5 = 4 Wb/s, et e = 4 × 10 = 40 V. Recommence en veillant à cet ordre de calcul."
+  }
+}

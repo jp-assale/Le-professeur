@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-le-commentaire-compose",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Le commentaire composé",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le commentaire composé",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que ton professeur te donne un extrait d'un roman ou un poème à analyser. Tu ne dois pas juste dire « c'est beau » ou « c'est triste ». Tu dois expliquer *pourquoi* c'est beau ou triste, montrer *comment* l'auteur crée cet effet, identifier les techniques qu'il utilise. C'est exactement ce qu'est un commentaire composé : une analyse structurée et argumentée d'un texte littéraire."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un commentaire composé ?",
+    "explanation": "Au Baccalauréat, le commentaire composé est l'exercice où tu dois analyser un texte littéraire de façon progressive et logique. Tu dois identifier les thèmes, les procédés d'écriture (images, rythme, son, figures de style), et montrer comment ces éléments contribuent au sens et à l'effet du texte. Ce n'est pas une explication mot à mot, c'est une démonstration organisée autour d'axes de lecture cohérents.",
+    "highlight": "Analyser un texte en dégageant ses axes de lecture principaux, en identifiant les procédés littéraires et en montrant leur effet sur le sens."
+  },
+  "example": {
+    "problem": "Analyse cet extrait : « Le soleil se couche derrière les collines. Les oiseaux se taisent. La nuit vient doucement, comme une ombre qui s'étend sur le monde. » Montre comment l'auteur crée une atmosphère de calme et de sérénité.",
+    "steps": [
+      "Étape 1 – Repérage du thème : L'extrait parle du coucher de soleil et de l'arrivée de la nuit. Le thème principal est la transition du jour à la nuit, qui symbolise souvent le repos ou la fin.",
+      "Étape 2 – Identification des procédés : L'auteur utilise une *comparaison* (« comme une ombre qui s'étend ») pour décrire la nuit. Il utilise aussi une *énumération* (soleil, oiseaux, nuit) qui crée un rythme lent et régulier.",
+      "Étape 3 – Analyse du choix des mots : Les verbes « se couche », « se taisent », « vient doucement » sont tous des verbes au présent qui décrivent des actions calmes et naturelles. Aucun verbe violent ou brusque.",
+      "Étape 4 – Étude du rythme : Les phrases sont courtes et simples. Elles ne sont pas complexes. Cette simplicité renforce l'impression de tranquillité.",
+      "Étape 5 – Analyse sonore : L'allitération en « s » (« soleil », « se couche », « se taisent ») produit un son doux qui évoque le chuchotement, l'intimité.",
+      "Étape 6 – Conclusion de l'analyse : Tous ces éléments (rythme, mots doux, comparaison, sons) travaillent ensemble pour créer une atmosphère sereine et apaisante. C'est la force du commentaire composé : montrer cette harmonie entre la forme et le sens."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est l'objectif principal d'un commentaire composé au Baccalauréat ?",
+    "reponse_calculee": "Montrer comment les procédés littéraires d'un texte contribuent à son sens et créent un effet sur le lecteur.",
+    "choices": [
+      {
+        "label": "Résumer le texte en quelques phrases pour montrer qu'on l'a compris.",
+        "correct": false
+      },
+      {
+        "label": "Montrer comment les procédés littéraires d'un texte contribuent à son sens et créent un effet sur le lecteur.",
+        "correct": true
+      },
+      {
+        "label": "Donner son avis personnel sur le texte et dire si on l'aime ou pas.",
+        "correct": false
+      },
+      {
+        "label": "Vérifier l'orthographe et la grammaire du texte proposé.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le commentaire composé n'est pas une simple résumé ni un jugement personnel. C'est une analyse méthodique qui relie les techniques littéraires (images, rythme, vocabulaire, figures de style) au sens global du texte et à l'effet qu'il produit sur le lecteur.",
+    "feedback_wrong": "Pas tout à fait. Le commentaire composé va bien plus loin qu'un résumé ou un avis. C'est un véritable travail d'analyse où tu dois identifier les procédés littéraires (métaphores, allitérations, rythme, etc.) et montrer précisément comment ils contribuent au sens et à l'impact du texte. C'est cette démonstration systématique qui fait la qualité de ton commentaire."
+  }
+}

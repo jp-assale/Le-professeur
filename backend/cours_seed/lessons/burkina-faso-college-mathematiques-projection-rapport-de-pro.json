@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-projection-rapport-de-pro",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Projection (rapport de projection, projection orthogonale)",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Projection (rapport de projection, projection orthogonale)",
+  "intro": {
+    "heading": "Mise en situation : L'ombre du soleil",
+    "body": "Imagine un poteau électrique qui se dresse verticalement sur une route. À midi, le soleil projette l'ombre de ce poteau sur le sol. Cette ombre, c'est ce qu'on appelle une projection : c'est la trace que laisse un objet de l'espace sur une surface plane. En mathématiques, on étudie comment calculer ces projections pour résoudre des problèmes de distances et de proportions."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une projection ?",
+    "explanation": "Une projection est une opération qui transforme un point (ou une figure) de l'espace en un point (ou une figure) sur une droite ou un plan. La projection la plus courante en géométrie est la projection orthogonale : elle se fait perpendiculairement, c'est-à-dire « en angle droit ». Quand tu projettes orthogonalement un point A sur une droite d, tu traces la perpendiculaire à d qui passe par A, et le point où cette perpendiculaire rencontre d s'appelle la projection orthogonale de A sur d.",
+    "highlight": "Projection orthogonale de A sur (d) : le point H où la perpendiculaire à (d) passant par A coupe (d)."
+  },
+  "example": {
+    "problem": "Un segment [AB] de longueur 10 cm est situé sur une droite (d). Un point M n'appartient pas à (d), placé de telle sorte que MA = 6 cm et MB = 8 cm. On projette orthogonalement M sur la droite (d) en un point H. On mesure que MH = 4,8 cm. Calcule la longueur HA (projection orthogonale de A sur (d) restant A puisque A est sur (d)). En réalité, trouve la distance AH où H est le projeté de M, en utilisant le théorème de Pythagore dans le triangle MAH.",
+    "steps": [
+      "Étape 1 : Identifie ce que tu cherches. Tu dois trouver la distance AH, où H est le pied de la perpendiculaire de M à la droite (d).",
+      "Étape 2 : Reconnais que dans le triangle MAH, l'angle MHA est un angle droit (car MH est perpendiculaire à (d), donc à HA).",
+      "Étape 3 : Applique le théorème de Pythagore dans le triangle MAH : $MA^2 = MH^2 + HA^2$.",
+      "Étape 4 : Remplace par les valeurs connues : $6^2 = 4,8^2 + HA^2$, soit $36 = 23,04 + HA^2$.",
+      "Étape 5 : Résous pour HA : $HA^2 = 36 - 23,04 = 12,96$, donc $HA = \\sqrt{12,96} = 3,6$ cm.",
+      "Étape 6 : La projection orthogonale de M sur (d) est le point H, et sa distance à A est 3,6 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Une droite (d) est horizontale. Un point P est situé à 5 cm au-dessus de (d) (perpendiculairement). Un point Q se trouve sur (d) tel que PQ = 13 cm. Quelle est la distance horizontale entre P et Q (c'est-à-dire la longueur du segment reliant Q au projeté orthogonal de P sur (d)) ?",
+    "reponse_calculee": "12 cm",
+    "choices": [
+      {
+        "label": "8 cm",
+        "correct": false
+      },
+      {
+        "label": "12 cm",
+        "correct": true
+      },
+      {
+        "label": "18 cm",
+        "correct": false
+      },
+      {
+        "label": "9 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien appliqué le théorème de Pythagore. Si H est le projeté orthogonal de P sur (d), alors PH = 5 cm (perpendiculaire). Dans le triangle PQH rectangle en H, on a $PQ^2 = PH^2 + HQ^2$, soit $13^2 = 5^2 + HQ^2$, donc $169 = 25 + HQ^2$, d'où $HQ = \\sqrt{144} = 12$ cm. C'est la distance horizontale que tu cherchais.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que si H est le projeté orthogonal de P sur (d), alors PH est perpendiculaire à (d), et HQ est sur (d). Le triangle PHQ est donc rectangle en H. Utilise le théorème de Pythagore : $PQ^2 = PH^2 + HQ^2$. Avec PQ = 13 cm et PH = 5 cm (la distance perpendiculaire), calcule HQ."
+  }
+}

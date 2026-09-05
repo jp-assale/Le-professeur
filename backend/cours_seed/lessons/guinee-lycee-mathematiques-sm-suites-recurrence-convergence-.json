@@ -1,0 +1,56 @@
+{
+  "slug": "guinee-lycee-mathematiques-sm-suites-recurrence-convergence-",
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitre": "Suites (récurrence, convergence, monotonie)",
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée",
+  "template": "text_only",
+  "title": "Suites : récurrence, convergence, monotonie",
+  "intro": {
+    "heading": "Mise en situation : L'épargne progressive",
+    "body": "Imagine que tu mets de l'argent de côté chaque mois : le premier mois 5 000 francs, puis chaque mois tu ajoutes 1 000 francs de plus que le mois précédent. Combien auras-tu après 10 mois ? Et si tu continues indéfiniment, cette somme va-t-elle exploser ou se stabiliser ? C'est exactement ce que les suites nous permettent de comprendre."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une suite ? Définition et propriétés clés",
+    "explanation": "Une suite est une liste ordonnée de nombres, notée $(u_n)$ où $n$ est l'indice (1, 2, 3, ...). Chaque terme dépend du précédent selon une règle précise, appelée relation de récurrence. Pour analyser une suite, tu dois examiner trois propriétés : sa façon d'être définie (récurrence), son comportement quand $n$ devient très grand (convergence), et si ses termes montent ou descendent (monotonie).",
+    "highlight": "Relation de récurrence : $u_n = f(u_{n-1})$ ; Convergence : $\\lim_{n \\to +\\infty} u_n = L$ (ou divergence) ; Monotonie : croissante si $u_{n+1} \\geq u_n$, décroissante si $u_{n+1} \\leq u_n$"
+  },
+  "example": {
+    "problem": "On considère la suite définie par $u_1 = 2$ et $u_n = u_{n-1} + 3$ pour tout $n \\geq 2$. Calcule les quatre premiers termes, détermine si elle est croissante ou décroissante, puis indique si elle converge.",
+    "steps": [
+      "Étape 1 — Calcul du premier terme : On te le donne, $u_1 = 2$.",
+      "Étape 2 — Calcul du deuxième terme : $u_2 = u_1 + 3 = 2 + 3 = 5$.",
+      "Étape 3 — Calcul du troisième terme : $u_3 = u_2 + 3 = 5 + 3 = 8$.",
+      "Étape 4 — Calcul du quatrième terme : $u_4 = u_3 + 3 = 8 + 3 = 11$. Les quatre termes sont : 2, 5, 8, 11.",
+      "Étape 5 — Monotonie : À chaque étape, on ajoute 3 au terme précédent. Donc $u_{n+1} - u_n = 3 > 0$ pour tout $n$. La suite est strictement croissante.",
+      "Étape 6 — Convergence : Puisque la suite augmente de 3 à chaque fois et ne s'arrête jamais, elle croît sans limite. Elle diverge vers $+\\infty$ (elle ne converge pas)."
+    ]
+  },
+  "quiz": {
+    "question": "On considère la suite définie par $v_1 = 100$ et $v_n = 0,5 \\times v_{n-1}$ pour tout $n \\geq 2$. Calcule $v_3$.",
+    "reponse_calculee": "25",
+    "choices": [
+      {
+        "label": "50",
+        "correct": false
+      },
+      {
+        "label": "25",
+        "correct": true
+      },
+      {
+        "label": "12,5",
+        "correct": false
+      },
+      {
+        "label": "100",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la relation de récurrence deux fois : $v_2 = 0,5 \\times 100 = 50$, puis $v_3 = 0,5 \\times 50 = 25$. Cette suite est décroissante et converge vers 0.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois appliquer la relation de récurrence deux fois pour passer de $v_1$ à $v_3$ : d'abord $v_2 = 0,5 \\times v_1$, puis $v_3 = 0,5 \\times v_2$. Recalcule étape par étape."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-svt-l-infection-au-vih",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "L'infection au VIH",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'infection au VIH",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Dans un lycée d'Abidjan, un élève apprend que son cousin a été diagnostiqué séropositif. Sa mère lui pose des questions : comment le VIH se transmet-il ? Peut-on guérir ? Comment se protéger ? Ces questions te concernent aussi : comprendre le VIH, c'est d'abord comprendre comment ton corps se défend et comment le virus l'attaque."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le VIH et comment agit-il ?",
+    "explanation": "Le VIH (Virus de l'Immunodéficience Humaine) est un virus qui détruit progressivement les cellules du système immunitaire, particulièrement les lymphocytes T CD4+. Ces cellules sont essentielles pour combattre les infections. Sans traitement, le VIH évolue vers le SIDA (Syndrome d'Immunodéficience Acquise), stade où l'immunité s'effondre et où d'autres maladies opportunistes apparaissent. L'infection au VIH se transmet par trois voies principales : le contact sanguin (transfusion, partage de seringues), le contact sexuel (rapports non protégés) et la transmission mère-enfant (grossesse, accouchement, allaitement).",
+    "highlight": "Le VIH détruit les lymphocytes T CD4+ du système immunitaire en se reproduisant à l'intérieur de ces cellules."
+  },
+  "example": {
+    "problem": "Un laboratoire de santé publique suivi 100 patients infectés au VIH depuis 5 ans. Au départ, le nombre moyen de lymphocytes T CD4+ était de 600 cellules par mm³ chez chaque patient. Chaque année, sans traitement, ce nombre diminue de 20%. Calculez le nombre moyen de lymphocytes T CD4+ par mm³ chez ces patients après 2 ans, puis indiquez si ce seuil de 200 cellules/mm³ (diagnostic du SIDA) est atteint.",
+    "steps": [
+      "Étape 1 : Identifie la donnée initiale. Nombre initial de CD4+ = 600 cellules/mm³.",
+      "Étape 2 : Comprends la diminution annuelle. La diminution est de 20%, donc chaque année le nombre restant est 100% - 20% = 80% de l'année précédente. Facteur multiplicateur = 0,8.",
+      "Étape 3 : Calcule le nombre après 1 an. Après 1 an : $600 \\times 0,8 = 480$ cellules/mm³.",
+      "Étape 4 : Calcule le nombre après 2 ans. Après 2 ans : $480 \\times 0,8 = 384$ cellules/mm³. Ou directement : $600 \\times 0,8^2 = 600 \\times 0,64 = 384$ cellules/mm³.",
+      "Étape 5 : Compare avec le seuil du SIDA. Après 2 ans, les patients ont 384 cellules/mm³, ce qui est au-dessus de 200 cellules/mm³. Le seuil diagnostique du SIDA n'est pas encore atteint, mais l'immunité s'affaiblit rapidement.",
+      "Réponse : Après 2 ans, le nombre moyen de lymphocytes T CD4+ est de 384 cellules/mm³."
+    ]
+  },
+  "quiz": {
+    "question": "Un patient séropositif a un nombre de lymphocytes T CD4+ de 500 cellules/mm³. Son médecin lui indique que sans traitement antirétroviral, ce nombre diminue en moyenne de 50 cellules/mm³ par an. Après combien d'années ce patient atteindra-t-il le seuil de 200 cellules/mm³ (diagnostic du SIDA) ?",
+    "reponse_calculee": "6 ans",
+    "choices": [
+      {
+        "label": "3 ans",
+        "correct": false
+      },
+      {
+        "label": "6 ans",
+        "correct": true
+      },
+      {
+        "label": "5 ans",
+        "correct": false
+      },
+      {
+        "label": "8 ans",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Il faut calculer la différence entre le nombre initial et le seuil du SIDA : $500 - 200 = 300$ cellules/mm³ à perdre. En divisant par la diminution annuelle : $300 \\div 50 = 6$ ans. C'est pourquoi le traitement antirétroviral doit commencer rapidement pour arrêter cette destruction cellulaire.",
+    "feedback_wrong": "Ce n'est pas correct. Calcule d'abord la différence entre le nombre initial de CD4+ (500) et le seuil du SIDA (200) : $500 - 200 = 300$. Ensuite, divise cette différence par la diminution annuelle : $300 \\div 50 = 6$ ans. Sans traitement, le patient atteindrait le stade SIDA en 6 ans."
+  }
+}

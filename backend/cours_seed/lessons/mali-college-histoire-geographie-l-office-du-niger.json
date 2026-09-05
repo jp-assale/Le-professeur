@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-histoire-geographie-l-office-du-niger",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'Office du Niger",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "L'Office du Niger",
+  "intro": {
+    "heading": "Mise en situation : Une oasis au cœur du Sahel",
+    "body": "Imagine une vaste région désertique où l'eau est rare et précieuse. Au Mali, entre Ségou et Tombouctou, le fleuve Niger offre une chance unique : transformer des terres arides en zones fertiles grâce à l'irrigation. C'est exactement le projet qu'on appelle l'Office du Niger. Un projet ambitieux pour nourrir le pays et créer des emplois."
+  },
+  "concept": {
+    "heading": "Définition : L'Office du Niger",
+    "explanation": "L'Office du Niger est un grand organisme d'État créé au Mali pour aménager et exploiter les terres irriguées dans la vallée du Niger. Son objectif principal est de transformer des terres peu productives en zones agricoles modernes grâce à des systèmes d'irrigation organisés. L'Office gère les canaux, les barrages, l'eau disponible et coordonne les agriculteurs pour produire davantage.",
+    "highlight": "L'Office du Niger = un organisme public qui contrôle l'irrigation et la production agricole dans la vallée du Niger."
+  },
+  "example": {
+    "problem": "Un agriculteur du delta intérieur du Niger veut comprendre comment l'Office du Niger change sa vie quotidienne. Analysons son parcours avant et après ce projet d'aménagement.",
+    "steps": [
+      "Avant l'Office : cet agriculteur cultive sur les berges du Niger. Pendant la saison sèche, il ne peut cultiver que là où l'eau naturelle remonte. Ses récoltes dépendent entièrement des crues du fleuve.",
+      "L'Office construit des canaux : des canaux de distribution capables d'amener l'eau loin des berges, partout où on en a besoin. L'agriculteur n'attend plus les crues naturelles.",
+      "L'Office fournit l'infrastructure : barrages, vannes, systèmes de régulation permettent de contrôler l'eau toute l'année. L'agriculteur peut maintenant irriguer ses champs régulièrement.",
+      "L'agriculteur reçoit une parcelle assignée par l'Office : des terres arables nouvellement aménagées, avec accès garanti à l'eau. Il doit suivre les règles de l'Office et contribuer à l'entretien des canaux.",
+      "Résultat : il peut cultiver même pendant la saison sèche. Il produit plus de riz, de maïs ou de légumes. Son revenu augmente, mais il dépend désormais du fonctionnement de l'Office et du respect de ses réglementations."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le rôle principal de l'Office du Niger dans la vallée du Niger ?",
+    "reponse_calculee": "Aménager et contrôler l'irrigation pour transformer les terres arides en zones agricoles productives",
+    "choices": [
+      {
+        "label": "Extraire l'or et les minéraux du fleuve Niger",
+        "correct": false
+      },
+      {
+        "label": "Aménager et contrôler l'irrigation pour transformer les terres arides en zones agricoles productives",
+        "correct": true
+      },
+      {
+        "label": "Organiser le transport des marchandises sur le fleuve Niger",
+        "correct": false
+      },
+      {
+        "label": "Construire des villes nouvelles dans le désert",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'Office du Niger est une institution publique chargée d'aménager la vallée du Niger pour développer l'agriculture irriguée. C'est un projet de transformation du territoire malien qui permet aux agriculteurs de cultiver régulièrement et d'augmenter leur production.",
+    "feedback_wrong": "Non, ce n'est pas la bonne réponse. L'Office du Niger n'est pas un projet d'extraction minière, de transport ou de construction urbaine. Son rôle central est l'aménagement hydraulique et agricole : il construit des canaux d'irrigation et des barrages pour transformer les terres arides en zones productives où les agriculteurs peuvent cultiver toute l'année."
+  }
+}

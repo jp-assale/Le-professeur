@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-college-francais-produire-un-texte-de-dialogue-",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Produire un texte de dialogue argumenté",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Produire un texte de dialogue argumenté",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine : tu es au marché avec ta mère. Un vendeur de tissus affirme que son tissu est le meilleur et le moins cher de la région. Ta mère n'est pas d'accord. Ils commencent à discuter, chacun défendant son point de vue avec des raisons précises. C'est exactement ce qu'on appelle un dialogue argumenté : deux personnes qui parlent et qui cherchent à convaincre l'autre en expliquant pourquoi elles ont raison."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un texte de dialogue argumenté ?",
+    "explanation": "Un texte de dialogue argumenté est une conversation écrite entre deux ou plusieurs personnes qui échangent des idées, chacune défendant sa position avec des arguments, des preuves ou des explications. Contrairement à un simple dialogue où on se pose juste des questions, ici chaque réplique contient une idée à défendre, un avis qu'on justifie.",
+    "highlight": "Un dialogue argumenté = échange de paroles + arguments (raisons) pour convaincre"
+  },
+  "example": {
+    "problem": "Voici une situation : deux élèves, Awa et Kofi, discutent de l'utilité de lire des livres. Awa pense que c'est essentiel, Kofi pense que c'est une perte de temps. Construis leur dialogue argumenté en 4-5 échanges.",
+    "steps": [
+      "Étape 1 : Identifier les deux positions contraires. Awa défend l'idée 'lire c'est important', Kofi défend 'lire c'est inutile'. Ce sont nos deux thèses en opposition.",
+      "Étape 2 : Trouver un argument pour chaque position. Awa peut dire : 'La lecture développe notre imagination et nos connaissances.' Kofi peut répondre : 'Moi, j'apprends plus en vidéo ou en pratiquant directement.'",
+      "Étape 3 : Ajouter une preuve ou un exemple concret à chaque argument. Awa peut préciser : 'Quand je lis un roman, je comprends comment les personnages réfléchissent.' Kofi peut donner son exemple : 'Avec Internet, je trouve les réponses en 2 minutes.'",
+      "Étape 4 : Structurer les répliques avec des marqueurs de dialogue (tirets, guillemets) et des connecteurs logiques (mais, cependant, d'ailleurs...). Chaque prise de parole commence par le nom du personnage.",
+      "Étape 5 : Relire pour vérifier que chaque réplique contient bien une idée défendue, pas juste une question ou une information neutre. Le dialogue doit montrer un vrai débat."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces extraits est un vrai dialogue argumenté ?",
+    "reponse_calculee": "C",
+    "choices": [
+      {
+        "label": "A) Mère : 'À quelle heure rentres-tu ?' / Enfant : 'À 18 heures.' / Mère : 'D'accord.'",
+        "correct": false
+      },
+      {
+        "label": "B) Ali : 'Tu crois qu'il va pleuvoir ?' / Fatou : 'Je ne sais pas, peut-être.'",
+        "correct": false
+      },
+      {
+        "label": "C) Youssouf : 'On devrait interdire les téléphones au lycée pour mieux étudier.' / Mariam : 'Mais non ! Le téléphone nous permet de chercher des informations importantes pour nos devoirs.' / Youssouf : 'C'est vrai, mais ça distrait aussi. Les élèves regardent les réseaux sociaux au lieu de travailler.'",
+        "correct": true
+      },
+      {
+        "label": "D) Professeur : 'Ouvrez votre livre page 45.' / Élève : 'Voilà, c'est fait.' / Professeur : 'Merci.'",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C est un vrai dialogue argumenté parce que chaque personne défend une position avec une raison : Youssouf explique pourquoi interdire les téléphones (mieux étudier), Mariam donne un contre-argument (utiles pour les devoirs), et Youssouf ajoute une preuve (les réseaux sociaux distraient). C'est un vrai débat.",
+    "feedback_wrong": "Non, regarde bien. A, B et D sont des dialogues simples où les gens posent des questions ou donnent des infos neutres, sans défendre une idée. Seul C montre deux positions opposées défendues chacune par des arguments : c'est ça, un dialogue argumenté."
+  }
+}

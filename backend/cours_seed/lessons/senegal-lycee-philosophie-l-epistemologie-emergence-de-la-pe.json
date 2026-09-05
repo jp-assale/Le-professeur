@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-philosophie-l-epistemologie-emergence-de-la-pe",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L",
+  "matiere": "Philosophie",
+  "chapitre": "Épistémologie (émergence de la pensée scientifique, types de sciences, science et technique)",
+  "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)",
+  "template": "text_only",
+  "title": "Épistémologie : l'émergence de la pensée scientifique, types de sciences, science et technique",
+  "intro": {
+    "heading": "Mise en situation : pourquoi le guérisseur traditionnel et le médecin ne raisonnent pas pareil",
+    "body": "Tu vas chez un guérisseur qui te dit « cette maladie vient des ancêtres, il faut faire un sacrifice ». Tu vas chez un médecin qui te dit « tu as une infection bactérienne, voici des antibiotiques ». Tous les deux affirment guérir, mais ils n'utilisent pas la même méthode pour comprendre le monde. Comment savoir qui a raison ? C'est cette question qui ouvre toute l'épistémologie : comment naît la science véritable, et qu'est-ce qui la distingue d'autres formes de savoir ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'épistémologie ?",
+    "explanation": "L'épistémologie est la branche de la philosophie qui étudie la naissance, la nature et la validité de la connaissance scientifique. Elle se demande : comment la science émerge-t-elle historiquement ? Quels types de sciences existe-t-il ? Quel est le rapport entre la science et la technique ? En d'autres termes, l'épistémologie regarde « par-dessus l'épaule » de la science pour comprendre comment elle fonctionne vraiment et ce qui en fait de la science légitime.",
+    "highlight": "L'épistémologie examine comment la pensée scientifique émerge et ce qui fonde la validité d'une connaissance."
+  },
+  "example": {
+    "problem": "Analyze comment la pensée scientifique moderne a émergé en distinguant la méthode du médecin de celle du guérisseur traditionnel dans notre mise en situation.",
+    "steps": [
+      "Étape 1 : Le guérisseur s'appuie sur la tradition, l'expérience personnelle et l'interprétation religieuse. Il n'expose pas ses idées à la critique ou à la vérification répétable.",
+      "Étape 2 : Le médecin, lui, s'appuie sur l'observation systématique (il a examiné tes symptômes), l'expérimentation (les antibiotiques ont été testés en laboratoire) et la documentation écrite.",
+      "Étape 3 : L'émergence de la pensée scientifique signifie précisément ce passage : on ne croit plus juste parce qu'on l'a toujours fait, mais parce qu'on peut vérifier et reproduire le résultat.",
+      "Étape 4 : La médecine devient une science quand elle exige que chaque traitement soit prouvé par l'expérience et que n'importe quel autre médecin puisse reproduire ce résultat ailleurs.",
+      "Étape 5 : Cela ne signifie pas que le guérisseur a toujours tort, mais qu'il n'utilise pas une méthode scientifique. La science émerge quand on renonce aux explications par l'invisible et qu'on exige des preuves observables et répétables.",
+      "Étape 6 : C'est ainsi que s'installe historiquement la pensée scientifique : elle invente des instruments (microscope, thermomètre), des protocoles (l'essai clinique) et une communauté qui vérifie ensemble."
+    ]
+  },
+  "quiz": {
+    "question": "Selon l'épistémologie, qu'est-ce qui distingue fondamentalement une explication scientifique d'une explication traditionnelle ?",
+    "reponse_calculee": "La capacité à être vérifiée par l'observation et reproduite par d'autres",
+    "choices": [
+      {
+        "label": "Le fait qu'elle utilise des mots compliqués et des instruments",
+        "correct": false
+      },
+      {
+        "label": "La capacité à être vérifiée par l'observation et reproduite par d'autres",
+        "correct": true
+      },
+      {
+        "label": "Le fait qu'elle provient toujours d'une université reconnue",
+        "correct": false
+      },
+      {
+        "label": "L'absence totale d'influence de la culture locale",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C'est précisément ce qui caractérise la pensée scientifique : la possibilité de vérifier et de reproduire. N'importe quel chercheur, peu importe où il est, doit pouvoir refaire l'expérience et arriver au même résultat. C'est cela qui fonde la légitimité de la science.",
+    "feedback_wrong": "Non. La pensée scientifique ne se reconnaît pas à la complexité du langage ou à l'institution qui la produit, mais à sa méthode. Elle repose sur l'observation vérifiable et la reproductibilité : d'autres doivent pouvoir refaire l'expérience et obtenir le même résultat. C'est ce critère qui sépare la science de la simple tradition."
+  }
+}

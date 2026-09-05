@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-circuit-electrique-domestique",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Circuit électrique domestique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Circuit électrique domestique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu rentres chez toi après l'école. Tu allumes la lumière du salon, tu branches ton chargeur de téléphone, ta mère met en marche le réfrigérateur. Chacun de ces appareils reçoit de l'électricité par les mêmes fils qui arrivent à votre maison. Mais comment l'électricité circule-t-elle pour alimenter tous ces appareils ? Et pourquoi n'y a-t-il pas de court-circuit chaque fois qu'on branche quelque chose ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un circuit électrique domestique ?",
+    "explanation": "Un circuit électrique domestique est l'ensemble des installations électriques d'une maison ou d'un bâtiment. Il comprend le compteur, le disjoncteur (ou fusibles), les câbles et les prises de courant. Les appareils électriques sont reliés en parallèle, ce qui signifie que chacun peut fonctionner indépendamment des autres. L'électricité vient d'une source extérieure (la centrale électrique via le réseau) et arrive chez toi à travers le compteur qui mesure ta consommation.",
+    "highlight": "Dans un circuit domestique, les appareils sont branchés en parallèle : chacun reçoit la même tension, et on peut allumer ou éteindre l'un sans affecter les autres."
+  },
+  "example": {
+    "problem": "Une maison reçoit une tension de 220 V. Une ampoule de 60 W et un ventilateur de 120 W sont branchés simultanément en parallèle sur le même circuit. Calcule l'intensité du courant total qui traverse le disjoncteur de la maison.",
+    "steps": [
+      "Étape 1 : Identifie les données. Tension U = 220 V, puissance de l'ampoule P₁ = 60 W, puissance du ventilateur P₂ = 120 W.",
+      "Étape 2 : Calcule la puissance totale consommée. Puisque les appareils sont en parallèle, les puissances s'ajoutent : P_total = P₁ + P₂ = 60 + 120 = 180 W.",
+      "Étape 3 : Rappelle-toi la formule reliant puissance, tension et intensité : P = U × I, donc I = P / U.",
+      "Étape 4 : Applique la formule pour trouver l'intensité totale : I_total = P_total / U = 180 / 220 ≈ 0,82 A.",
+      "Étape 5 : Interprète le résultat. Le disjoncteur doit laisser passer au minimum 0,82 A pour alimenter les deux appareils. Si le disjoncteur est réglé sur 10 A (valeur courante), il ne coupera pas le circuit."
+    ]
+  },
+  "quiz": {
+    "question": "Un four électrique de 2200 W fonctionne sous une tension de 220 V. Quelle est l'intensité du courant qui le traverse ?",
+    "reponse_calculee": "10 A",
+    "choices": [
+      {
+        "label": "5 A",
+        "correct": false
+      },
+      {
+        "label": "10 A",
+        "correct": true
+      },
+      {
+        "label": "15 A",
+        "correct": false
+      },
+      {
+        "label": "20 A",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement utilisé la formule I = P / U. Avec P = 2200 W et U = 220 V, tu obtiens I = 2200 / 220 = 10 A. C'est une intensité typique pour un appareil de forte puissance dans une maison. Le disjoncteur doit pouvoir supporter cette valeur.",
+    "feedback_wrong": "Ce n'est pas correct. Souviens-toi que la puissance, la tension et l'intensité sont liées par la formule P = U × I, qui se réarrange en I = P / U. Applique-la : I = 2200 / 220 = 10 A. Refais le calcul et contrôle tes divisions."
+  }
+}

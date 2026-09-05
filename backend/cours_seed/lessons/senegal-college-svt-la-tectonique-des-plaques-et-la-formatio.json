@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-la-tectonique-des-plaques-et-la-formatio",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La tectonique des plaques et la formation des roches métamorphiques",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La tectonique des plaques et la formation des roches métamorphiques",
+  "intro": {
+    "heading": "Mise en situation : un tremblement de terre au Sénégal",
+    "body": "En 2007, une secousse sismique a été ressentie à Dakar et dans plusieurs régions du Sénégal. Ces tremblements de terre ne sont pas des phénomènes isolés : ils révèlent que notre planète est vivante, que sa croûte se déplace constamment, et que ces mouvements transforment les roches en profondeur. Aujourd'hui, nous allons découvrir comment la tectonique des plaques explique ces phénomènes et comment elle crée de nouvelles roches sous nos pieds."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la tectonique des plaques et le métamorphisme ?",
+    "explanation": "La tectonique des plaques est la théorie qui explique que la croûte terrestre est divisée en plusieurs plaques rigides qui se déplacent lentement les unes par rapport aux autres (de quelques centimètres par an). Ces plaques peuvent converger (se rapprocher), diverger (s'éloigner) ou glisser l'une contre l'autre. Lorsque les plaques se rencontrent ou s'enfoncent dans le manteau, les roches sont soumises à des pressions et des températures extrêmes. Ces conditions créent le métamorphisme : la transformation des roches sans qu'elles ne fondent complètement, donnant naissance à des roches métamorphiques. Les roches métamorphiques sont les témoins solides des mouvements tectoniques passés de notre planète.",
+    "highlight": "Les roches métamorphiques se forment quand des roches existantes sont soumises à de fortes pressions et températures dans la croûte terrestre, dues au déplacement des plaques tectoniques."
+  },
+  "example": {
+    "problem": "Une roche calcaire (roche sédimentaire) se situe à la surface, à une profondeur de 0 m et à une température de 25 °C. Cette roche est entraînée en profondeur lors de la convergence de deux plaques tectoniques. Après 10 millions d'années, elle se trouve à une profondeur de 30 km, où la température atteint 500 °C et la pression est équivalente à celle exercée par 1000 fois le poids de l'atmosphère. La roche calcaire s'est transformée en marbre (roche métamorphique). Calcule l'augmentation de température (en °C) et l'augmentation de profondeur (en km) subies par cette roche.",
+    "steps": [
+      "Étape 1 : Identifie les conditions initiales. La roche part à 25 °C et 0 km de profondeur.",
+      "Étape 2 : Identifie les conditions finales. La roche arrive à 500 °C et 30 km de profondeur.",
+      "Étape 3 : Calcule l'augmentation de température. $\\Delta T = 500 - 25 = 475 °C$",
+      "Étape 4 : Calcule l'augmentation de profondeur. $\\Delta P = 30 - 0 = 30 \\text{ km}$",
+      "Étape 5 : Conclusion. La roche calcaire a subi une augmentation de température de 475 °C et une augmentation de profondeur de 30 km. Ces conditions extrêmes ont transformé le calcaire en marbre sans faire fondre la roche, ce qui est la définition du métamorphisme."
+    ]
+  },
+  "quiz": {
+    "question": "Une roche schiste se forme initialement en surface à partir de la consolidation de sédiments. Elle est ensuite enfouie lors d'une convergence de plaques tectoniques et se transforme en ardoise (roche métamorphique). La profondeur initiale du schiste est de 2 km et sa température initiale est de 100 °C. Après transformation, l'ardoise se trouve à une profondeur de 8 km et à une température de 300 °C. Quelle est l'augmentation totale de profondeur subie par cette roche ?",
+    "reponse_calculee": "6 km",
+    "choices": [
+      {
+        "label": "2 km",
+        "correct": false
+      },
+      {
+        "label": "6 km",
+        "correct": true
+      },
+      {
+        "label": "10 km",
+        "correct": false
+      },
+      {
+        "label": "8 km",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement calculé l'augmentation de profondeur. En soustrayant la profondeur initiale (2 km) de la profondeur finale (8 km), tu obtiens 8 - 2 = 6 km. C'est cette augmentation de profondeur, combinée à l'augmentation de température, qui a transformé le schiste en ardoise. Ces deux roches sont différentes, mais l'ardoise est plus dense et plus dure : elle porte la signature du métamorphisme tectonique.",
+    "feedback_wrong": "Pas tout à fait. Revois le calcul : il faut soustraire la profondeur initiale de la profondeur finale. La roche part de 2 km et arrive à 8 km. Donc l'augmentation est 8 - 2 = 6 km. Cette profondeur supplémentaire, ajoutée à la température élevée, est responsable de la transformation du schiste en ardoise."
+  }
+}

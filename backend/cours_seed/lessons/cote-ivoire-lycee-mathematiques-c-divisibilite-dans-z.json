@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-divisibilite-dans-z",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Divisibilité dans ℤ",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Divisibilité dans ℤ",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois partager équitablement 240 kg de riz entre plusieurs familles d'un village. Tu aimerais que chaque famille reçoive exactement le même poids, sans reste. Combien de familles peux-tu servir ? 4 ? 6 ? 8 ? 10 ? Comment savoir ? C'est précisément la question de la divisibilité : quand un nombre en divise un autre sans laisser de reste."
+  },
+  "concept": {
+    "heading": "Définition : Divisibilité dans ℤ",
+    "explanation": "Soient $a$ et $b$ deux entiers relatifs, avec $b \\neq 0$. On dit que $b$ divise $a$ (noté $b \\mid a$) s'il existe un entier relatif $k$ tel que $a = b \\cdot k$. En d'autres termes, la division de $a$ par $b$ donne un quotient entier et un reste nul.",
+    "highlight": "Si $b \\mid a$, alors il existe $k \\in \\mathbb{Z}$ tel que $a = b \\cdot k$"
+  },
+  "example": {
+    "problem": "On veut vérifier si 8 divise 240. Montre que c'est vrai, puis détermine le quotient exact.",
+    "steps": [
+      "Étape 1 : Selon la définition, 8 divise 240 si on peut écrire $240 = 8 \\cdot k$ pour un entier $k$.",
+      "Étape 2 : On effectue la division : $240 \\div 8 = 30$.",
+      "Étape 3 : Vérification : $8 \\times 30 = 240$. Le reste est 0, la division est exacte.",
+      "Étape 4 : Conclusion : Oui, 8 divise 240 car $240 = 8 \\cdot 30$ où $k = 30 \\in \\mathbb{Z}$.",
+      "Étape 5 : Interprétation concrète : tu peux partager 240 kg de riz exactement entre 8 familles, chacune recevant 30 kg sans reste."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les affirmations suivantes, laquelle est correcte ?",
+    "reponse_calculee": "7 divise 105 car 105 = 7 × 15",
+    "choices": [
+      {
+        "label": "7 divise 105 car 105 = 7 × 15",
+        "correct": true
+      },
+      {
+        "label": "7 divise 105 car 105 = 7 × 14 + 7",
+        "correct": false
+      },
+      {
+        "label": "7 ne divise pas 105 car il y a un reste",
+        "correct": false
+      },
+      {
+        "label": "7 divise 105 car 105 ÷ 7 ≈ 15,2",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien compris la définition. 7 divise 105 exactement car on peut écrire $105 = 7 \\times 15$ avec $k = 15$ un entier. Le reste de la division est zéro.",
+    "feedback_wrong": "Attention à la définition. 7 divise 105 si et seulement si on peut écrire $105 = 7 \\times k$ pour un entier $k$ avec un reste nul. Ici, $105 \\div 7 = 15$ exactement, donc $105 = 7 \\times 15$. Reviens à la formule : $a = b \\cdot k$."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-dieu-et-la-religion",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Dieu et la religion",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "Dieu et la religion",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu passes devant une église, une mosquée et un temple bouddhiste dans ta ville. Chacun affirme détenir la vérité sur Dieu et le sens de la vie. Un ami te dit : « Moi je ne crois en rien, pourquoi aurais-je besoin de religion ? » Tandis qu'un autre répond : « Sans Dieu et sans religion, on n'a pas de morale. » Qui a raison ? La religion est-elle nécessaire à l'homme ? Dieu existe-t-il vraiment, ou est-ce une création de nos esprits ?"
+  },
+  "concept": {
+    "heading": "Concept central : Dieu et la religion",
+    "explanation": "Le chapitre « Dieu et la religion » t'invite à analyser deux réalités liées mais distinctes. La religion est un système de croyances, de pratiques et d'institutions qui relie l'homme à une puissance transcendante (Dieu). Dieu lui-même est compris de manière très diverse selon les traditions : être tout-puissant, créateur, source de morale, ou simple construction de l'imaginaire humain. La philosophie ne demande pas si Dieu existe vraiment (c'est une question de foi), mais plutôt : pourquoi les hommes croient-ils en Dieu ? La religion est-elle utile ou nuisible ? Peut-on être moral sans Dieu ? Peut-on accepter la science et la religion en même temps ? Ces questions t'obligent à réfléchir sur le rôle de la religion dans ta vie et dans la société.",
+    "highlight": "Dieu est une idée que l'homme projette pour donner sens et ordre à l'univers ; la religion est l'institution qui organise cette croyance et la rend collective."
+  },
+  "example": {
+    "problem": "Situation : En Côte d'Ivoire, beaucoup de familles sont partagées. Le grand-mère croit fermement à l'islam et affirme que « sans les cinq piliers de la foi, on ne peut pas être une bonne personne ». Le petit-fils, scientifique en formation, pense que « la morale vient de la raison et de l'empathie, pas de Dieu ». Ils se disputent au repas. Comment analyser philosophiquement ce conflit ?",
+    "steps": [
+      "Étape 1 — Identifier les positions : La grand-mère soutient que Dieu (et son culte religieux) est fondateur de la morale. Le petit-fils soutient que la morale est rationnelle et autonome, indépendante de Dieu.",
+      "Étape 2 — Reconnaître le noyau du désaccord : C'est la question : « D'où vient la morale ? De Dieu et de la révélation religieuse, ou de la raison humaine ? »",
+      "Étape 3 — Examiner l'argument de la grand-mère : Si Dieu a créé l'homme et le bien, alors obéir à Dieu (par la religion) garantit une morale vraie et stable. Dieu est la source absolue de l'ordre moral.",
+      "Étape 4 — Examiner l'argument du petit-fils : L'empathie et la raison existent en tout être humain, croyant ou non. Un athée peut être juste et bon. La science montre que la morale a aussi des racines biologiques (solidarité) et sociales (contrats).",
+      "Étape 5 — Reconnaître la limite de chaque position : La grand-mère oublie que beaucoup de non-croyants sont moraux. Le petit-fils oublie que la religion peut renforcer la morale et offrir à beaucoup le réconfort et le sens dont ils ont besoin.",
+      "Étape 6 — Conclusion philosophique : Le vrai débat n'est pas « Dieu existe-t-il ? » (c'est une question de foi), mais « La religion est-elle nécessaire pour être moral et heureux ? » La réponse : probablement pas nécessaire pour tous, mais utile et significative pour ceux qui y trouvent du sens."
+    ]
+  },
+  "quiz": {
+    "question": "Tu lis un article d'un philosophe qui écrit : « La religion n'est qu'une invention humaine pour se rassurer face à la mort et au chaos de l'univers. » Quelle est la meilleure critique philosophique de cette affirmation ?",
+    "reponse_calculee": "Même si la religion a un rôle psychologique réconfortant, cela n'élimine pas la possibilité que Dieu existe réellement ou que la religion apporte une vérité morale objective.",
+    "choices": [
+      {
+        "label": "C'est faux car la science a prouvé que Dieu existe.",
+        "correct": false
+      },
+      {
+        "label": "Même si la religion a un rôle psychologique réconfortant, cela n'élimine pas la possibilité que Dieu existe réellement ou que la religion apporte une vérité morale objective.",
+        "correct": true
+      },
+      {
+        "label": "La religion n'existe que dans les pays pauvres et disparaîtra avec le progrès économique.",
+        "correct": false
+      },
+      {
+        "label": "C'est une affirmation correcte car tous les neurobiologistes l'ont confirmée.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. L'argument du philosophe commet une erreur logique appelée réductionnisme : expliquer l'origine psychologique d'une croyance ne prouve pas que cette croyance est fausse. Une mère qui aime son enfant par instinct maternel n'aime pas son enfant « moins vraiment » : son amour est réel, même s'il a une cause biologique. De même, même si la religion répond à un besoin humain (la quête de sens, la peur de la mort), cela ne signifie pas que Dieu n'existe pas ou que la morale religieuse n'est pas valide. La vraie question reste philosophiquement ouverte.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis : montrer que la religion satisfait un besoin psychologique (le réconfort face à la mort) ne prouve pas que Dieu n'existe pas ou que la morale religieuse est fausse. Une affirmation peut être vraie et utile en même temps. Le philosophe confond l'explication de pourquoi nous croyons avec la vérité de ce en quoi nous croyons. C'est comme dire : « Tu n'aimes ta mère que parce que tu es bilogiquement programmé pour » — cela n'annule pas la réalité de ton amour."
+  }
+}

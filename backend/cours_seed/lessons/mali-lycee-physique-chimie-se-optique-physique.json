@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-optique-physique",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Optique physique",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Optique physique",
+  "intro": {
+    "heading": "Mise en situation : les arc-en-ciel et les couleurs de l'eau",
+    "body": "Tu as sûrement observé un arc-en-ciel après la pluie en Afrique de l'Ouest, ou remarqué comment l'eau d'une rivière brille différemment selon l'angle du soleil. Ces phénomènes ne sont pas de la magie : ils révèlent la nature véritable de la lumière. Aujourd'hui, tu vas découvrir comment la lumière se comporte comme une onde, créant des effets spectaculaires d'interférence et de diffraction."
+  },
+  "concept": {
+    "heading": "L'optique physique : la lumière comme onde",
+    "explanation": "L'optique physique étudie la lumière en tant qu'onde, à la différence de l'optique géométrique qui la traite comme des rayons droits. Quand la lumière rencontre des obstacles ou des ouvertures très petites (de l'ordre de sa longueur d'onde), elle ne se propage pas simplement en ligne droite : elle se diffracte (elle se courbe autour de l'obstacle), interfère avec elle-même (créant des zones claires et sombres), et peut se polariser (osciller dans une direction privilégiée). Ces phénomènes ondulatoires expliquent les couleurs que tu vois, les motifs de lumière sur un mur, et même comment les CD brillent de toutes les couleurs.",
+    "highlight": "La lumière est une onde électromagnétique : elle se diffracte, interfère et se polarise quand elle rencontre des obstacles ou des fentes de très petite taille."
+  },
+  "example": {
+    "problem": "Une source lumineuse monochromatique (une seule couleur) de longueur d'onde 600 nm éclaire une fente unique étroite de largeur 0,15 mm. L'écran d'observation est placé à une distance D = 2 m de la fente. Calcule la largeur de la tache centrale de diffraction (distance entre les deux premiers minima d'intensité).",
+    "steps": [
+      "Identifie les données : lambda = 600 nm = 600 × 10^-9 m ; largeur de la fente a = 0,15 mm = 0,15 × 10^-3 m ; distance à l'écran D = 2 m.",
+      "Rappelle la formule de diffraction par une fente unique : la position des minima d'intensité est donnée par sin(theta) = m × lambda / a, où m = 1, 2, 3... pour les premiers, deuxième, troisième minima.",
+      "Pour les petits angles (approximation valide ici), tan(theta) ≈ sin(theta) ≈ theta (en radians). La distance du centre à un minimum sur l'écran est y = D × tan(theta) ≈ D × lambda / a.",
+      "Calcule la distance du centre au premier minimum (m = 1) : y1 = 2 × (600 × 10^-9) / (0,15 × 10^-3) = 2 × 4 × 10^-3 = 8 × 10^-3 m = 8 mm.",
+      "La largeur de la tache centrale est mesurée entre les deux premiers minima (l'un à +8 mm, l'autre à −8 mm) : largeur = 2 × y1 = 2 × 8 = 16 mm.",
+      "Conclusion : la tache centrale de diffraction a une largeur de 16 mm sur l'écran. C'est ce motif lumineux avec un centre brillant et des bandes sombres de chaque côté que tu observerais."
+    ]
+  },
+  "quiz": {
+    "question": "Une onde lumineuse de longueur d'onde 500 nm passe par une fente unique de largeur 0,10 mm. À quelle distance du centre de la tache centrale (sur un écran situé à 1,5 m de la fente) se trouve le premier minimum d'intensité ?",
+    "reponse_calculee": "7,5 mm",
+    "choices": [
+      {
+        "label": "5,0 mm",
+        "correct": false
+      },
+      {
+        "label": "7,5 mm",
+        "correct": true
+      },
+      {
+        "label": "10 mm",
+        "correct": false
+      },
+      {
+        "label": "15 mm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule de diffraction par une fente unique. Avec y = D × lambda / a = 1,5 × (500 × 10^-9) / (0,10 × 10^-3) = 1,5 × 5 × 10^-3 = 7,5 × 10^-3 m = 7,5 mm. Ce premier minimum marque la frontière entre la tache centrale brillante et la première zone sombre.",
+    "feedback_wrong": "Pas tout à fait. Vérifie l'application de la formule y = D × lambda / a pour le premier minimum (m = 1). Attention à la conversion des unités : lambda = 500 nm = 500 × 10^-9 m et a = 0,10 mm = 0,10 × 10^-3 m. Refais le calcul : y = 1,5 × (500 × 10^-9) / (0,10 × 10^-3)."
+  }
+}

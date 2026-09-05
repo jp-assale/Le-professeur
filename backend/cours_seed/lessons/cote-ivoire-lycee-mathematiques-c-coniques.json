@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-coniques",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Coniques",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Les Coniques",
+  "intro": {
+    "heading": "Mise en situation : L'arc-en-ciel et la trajectoire du ballon",
+    "body": "Imagine un match de football : le ballon suit une courbe parfaite dans les airs. Ou regarde l'arc d'un puits traditionnel en Afrique de l'Ouest, ou la forme des routes qui contournent une montagne. Ces courbes magnifiques, ce sont les coniques ! Ce chapitre te montre comment les décrire mathématiquement et les reconnaître autour de toi."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une conique ?",
+    "explanation": "Une conique est une courbe obtenue en coupant un cône par un plan. Selon l'angle et la position du plan, on obtient quatre types de courbes différentes. Ces courbes sont très importantes en géométrie, en physique et même en ingénierie. Elles sont définies par une équation du second degré à deux variables.",
+    "highlight": "Equation générale : $ax^2 + bxy + cy^2 + dx + ey + f = 0$ avec $a$, $b$, $c$ non tous nuls."
+  },
+  "example": {
+    "problem": "On considère une parabole modélisant la trajectoire d'un projectile. Son équation est $y = -x^2 + 6x - 5$. Détermine le sommet de cette parabole et explique sa signification physique.",
+    "steps": [
+      "Étape 1 : Reconnaître que l'équation $y = -x^2 + 6x - 5$ est une parabole car le terme dominant est du second degré en $x$ uniquement.",
+      "Étape 2 : Réécrire la parabole sous forme canonique en complétant le carré. On groupe les termes en $x$ : $y = -(x^2 - 6x) - 5$.",
+      "Étape 3 : Compléter le carré : $(x^2 - 6x) = (x - 3)^2 - 9$, donc $y = -[(x - 3)^2 - 9] - 5 = -(x - 3)^2 + 9 - 5$.",
+      "Étape 4 : Simplifier : $y = -(x - 3)^2 + 4$. La forme canonique est obtenue avec le sommet en $(3 ; 4)$.",
+      "Étape 5 : Interpréter : le sommet $(3 ; 4)$ représente le point le plus haut de la trajectoire, atteint à $x = 3$ mètres de distance avec une hauteur de $4$ mètres.",
+      "Étape 6 : Vérifier en substituant : $y = -(3)^2 + 6(3) - 5 = -9 + 18 - 5 = 4$. C'est correct !"
+    ]
+  },
+  "quiz": {
+    "question": "On considère l'équation $x^2 + y^2 - 8x + 6y + 9 = 0$. Identifie le type de conique et trouve son centre.",
+    "reponse_calculee": "Cercle de centre (4 ; -3)",
+    "choices": [
+      {
+        "label": "Parabole de sommet (4 ; -3)",
+        "correct": false
+      },
+      {
+        "label": "Cercle de centre (4 ; -3)",
+        "correct": true
+      },
+      {
+        "label": "Ellipse de centre (-4 ; 3)",
+        "correct": false
+      },
+      {
+        "label": "Hyperbole de centre (4 ; -3)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En regroupant les termes en $x$ et en $y$, puis en complétant le carré, tu obtiens $(x - 4)^2 + (y + 3)^2 = 16$. Cela confirm que c'est un cercle de centre $(4 ; -3)$ et de rayon $4$. Quand les coefficients de $x^2$ et $y^2$ sont égaux et positifs, avec pas de terme en $xy$, c'est toujours un cercle ou une ellipse—ici un cercle parfait.",
+    "feedback_wrong": "Pas tout à fait. Rearrange l'équation en complétant le carré pour les termes en $x$ et pour les termes en $y$ séparément. Tu trouveras $(x - 4)^2 + (y + 3)^2 = 16$. C'est l'équation d'un cercle, pas d'une parabole ou hyperbole. Le centre est toujours $(4 ; -3)$."
+  }
+}

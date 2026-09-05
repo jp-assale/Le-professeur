@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-theoreme-de-thales-et-rec",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Théorème de Thalès et réciproque",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "geometry_ratio",
+  "title": "Théorème de Thalès et réciproque",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois construire une route qui traverse deux champs triangulaires, et que tu veux tracer une ligne parallèle à l'un des côtés. Comment vérifier que ta ligne est vraiment parallèle sans équerre ? Le théorème de Thalès te permet de le découvrir en comparant simplement des longueurs. C'est un outil puissant pour résoudre des problèmes de géométrie et de proportionnalité."
+  },
+  "concept": {
+    "heading": "Théorème de Thalès et sa réciproque",
+    "explanation": "Lorsqu'une droite est parallèle à l'un des côtés d'un triangle et coupe les deux autres côtés, elle crée des segments proportionnels. C'est le théorème de Thalès. Il existe aussi une réciproque : si les rapports des segments sont égaux, alors la droite est parallèle au troisième côté.\n\nSoient un triangle ABC, un point M sur [AB] et un point N sur [AC]. Si (MN) est parallèle à (BC), alors les trois rapports suivants sont égaux :\n\n$\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$\n\nRéciproquement, si $\\frac{AM}{AB} = \\frac{AN}{AC}$, alors (MN) est parallèle à (BC).",
+    "highlight": "Si (MN) // (BC), alors AM/AB = AN/AC = MN/BC"
+  },
+  "example": {
+    "problem": "Un triangle ABC a pour longueurs AB = 10 cm, AC = 8 cm et BC = 6 cm. On place un point M sur [AB] tel que AM = 4 cm. On place un point N sur [AC] tel que (MN) soit parallèle à (BC). Calcule la longueur AN et la longueur MN.",
+    "steps": [
+      "Identifie ce que tu cherches : tu dois trouver AN et MN, sachant que (MN) // (BC).",
+      "Applique le théorème de Thalès : puisque (MN) est parallèle à (BC), les rapports sont égaux : $\\frac{AM}{AB} = \\frac{AN}{AC} = \\frac{MN}{BC}$.",
+      "Calcule le premier rapport : $\\frac{AM}{AB} = \\frac{4}{10} = 0,4$.",
+      "Utilise ce rapport pour trouver AN : $\\frac{AN}{AC} = 0,4$, donc $AN = 0,4 \\times 8 = 3,2$ cm.",
+      "Utilise le même rapport pour trouver MN : $\\frac{MN}{BC} = 0,4$, donc $MN = 0,4 \\times 6 = 2,4$ cm.",
+      "Conclusion : AN = 3,2 cm et MN = 2,4 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un triangle ABC, un point M est placé sur [AB] avec AM = 5 cm et AB = 15 cm. Un point N est placé sur [AC] avec AN = 6 cm et AC = 18 cm. Sans mesurer, peux-tu dire si (MN) est parallèle à (BC) ? Justifie en calculant les rapports.",
+    "reponse_calculee": "Oui, (MN) est parallèle à (BC) car AM/AB = AN/AC = 1/3",
+    "choices": [
+      {
+        "label": "Non, (MN) n'est pas parallèle à (BC) car les rapports ne sont pas égaux",
+        "correct": false
+      },
+      {
+        "label": "Oui, (MN) est parallèle à (BC) car AM/AB = AN/AC = 1/3",
+        "correct": true
+      },
+      {
+        "label": "Oui, (MN) est parallèle à (BC) car AM/AB = AN/AC = 1/2",
+        "correct": false
+      },
+      {
+        "label": "Non, on ne peut pas déterminer le parallélisme sans mesurer MN",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bien sûr ! Tu as appliqué correctement la réciproque du théorème de Thalès. En vérifiant que $\\frac{AM}{AB} = \\frac{5}{15} = \\frac{1}{3}$ et $\\frac{AN}{AC} = \\frac{6}{18} = \\frac{1}{3}$, tu montres que les rapports sont égaux. Par la réciproque, (MN) est donc parallèle à (BC).",
+    "feedback_wrong": "Attention à tes calculs. Vérifie : $\\frac{AM}{AB} = \\frac{5}{15} = \\frac{1}{3}$ et $\\frac{AN}{AC} = \\frac{6}{18} = \\frac{1}{3}$. Les deux rapports sont égaux, donc selon la réciproque du théorème de Thalès, (MN) doit être parallèle à (BC)."
+  }
+}

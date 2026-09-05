@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-l-oua-creation-objectifs-or",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'OUA (création, objectifs, organes)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "L'OUA : création, objectifs, organes",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu habites dans un village au Mali, et que tu as un problème avec ton voisin de la Guinée voisine : vos terres se chevauchent. Aucun de vous deux ne sait comment régler ça justement. Eh bien, après les indépendances africaines, les États africains se sont posé exactement cette question : comment pouvons-nous nous aider les uns les autres, régler nos conflits et construire ensemble ? C'est pour ça qu'ils ont créé l'OUA."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'OUA ?",
+    "explanation": "Après les indépendances (années 1950-1960), les États africains ont réalisé qu'ils devaient s'unir pour être plus forts face aux problèmes communs : les conflits internes, la pauvreté, l'influence des anciennes puissances coloniales. En 1963, à Addis-Abeba (Éthiopie), 32 États africains indépendants se sont réunis et ont fondé l'Organisation de l'Unité Africaine, l'OUA. C'est une organisation continentale qui regroupe les États africains pour qu'ils travaillent ensemble.",
+    "highlight": "L'OUA est une organisation qui unit les États africains autour d'objectifs communs de paix, de stabilité et de développement."
+  },
+  "example": {
+    "problem": "Analysons comment l'OUA répond à un conflit entre deux États africains imaginaires : l'État A et l'État B se disputent une région frontalière. Voyons comment les structures de l'OUA fonctionnent.",
+    "steps": [
+      "Étape 1 - Le problème naît : L'État A et l'État B ont un désaccord sur une région frontalière. Sans organisation commune, ils risquent d'aller vers un conflit armé.",
+      "Étape 2 - L'Assemblée générale se réunit : Les chefs d'État des deux pays, ainsi que les représentants d'autres États africains, se rencontrent à l'Assemblée générale de l'OUA. Tous ont une voix égale, peu importe la taille ou la richesse du pays.",
+      "Étape 3 - Le Conseil des ministres intervient : Cet organe, composé de ministres des Affaires étrangères, examine en détail le conflit et propose des solutions diplomatiques avant que ça ne s'aggrave.",
+      "Étape 4 - Le Secrétariat général facilite : Le Secrétaire général de l'OUA envoie des médiateurs pour écouter les deux parties et chercher un compromis.",
+      "Étape 5 - Une commission ad hoc est créée : L'OUA nomme une commission spéciale formée de représentants neutres qui étudie le litige et propose une solution juste.",
+      "Étape 6 - La résolution : Au lieu de guerre, les deux États acceptent l'arbitrage de l'OUA et le conflit se règle par le dialogue et le droit international africain."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle décrit correctement un objectif principal de l'OUA ?",
+    "reponse_calculee": "Promouvoir l'unité et la solidarité entre les États africains et résoudre les conflits par la diplomatie plutôt que par la guerre",
+    "choices": [
+      {
+        "label": "Dominer les autres continents et imposer la loi africaine au monde entier",
+        "correct": false
+      },
+      {
+        "label": "Promouvoir l'unité et la solidarité entre les États africains et résoudre les conflits par la diplomatie plutôt que par la guerre",
+        "correct": true
+      },
+      {
+        "label": "Obliger tous les pays africains à parler la même langue officielle",
+        "correct": false
+      },
+      {
+        "label": "Permettre aux anciennes puissances coloniales de contrôler les décisions africaines",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'OUA a été créée précisément pour que les États africains se soutiennent mutuellement, règlent leurs différends pacifiquement et gagnent du poids ensemble sur la scène mondiale. C'est l'essence même de son existence.",
+    "feedback_wrong": "Non, ce n'est pas ça. L'OUA est fondée sur des principes de coopération et de diplomatie entre États africains d'égal à égal. Rellis la définition : elle vise l'unité, la solidarité et la résolution pacifique des conflits, pas la domination ou l'uniformité forcée."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-statistique-a-deux-variabl",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Statistique à deux variables",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Statistique à deux variables",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un fermier de la région de Yamoussoukro observe depuis plusieurs années le lien entre la quantité d'engrais qu'il utilise et le rendement de ses récoltes de maïs. Il se demande : y a-t-il vraiment une relation entre ces deux grandeurs ? Comment la mesurer et la prévoir ? C'est exactement ce que tu vas apprendre aujourd'hui : analyser et interpréter les liens entre deux variables statistiques."
+  },
+  "concept": {
+    "heading": "Définition et concepts clés",
+    "explanation": "La statistique à deux variables consiste à étudier simultanément deux caractères sur une même population. On cherche à déterminer s'il existe une relation entre eux, à la quantifier et, si possible, à établir une équation permettant de prévoir l'une à partir de l'autre. Les outils principaux sont le tableau de données brutes, le nuage de points, la droite d'ajustement (ou droite de régression), et le coefficient de corrélation qui mesure la force de la relation.",
+    "highlight": "Si les points du nuage sont proches d'une droite, on peut trouver l'équation y = ax + b qui ajuste au mieux ces points."
+  },
+  "example": {
+    "problem": "Un lycée enregistre pour 5 groupes d'élèves la durée moyenne d'étude quotidienne (en heures) et la note moyenne obtenue au dernier contrôle. Les données sont : (1 ; 8), (1,5 ; 10), (2 ; 12), (2,5 ; 14), (3 ; 16). Trouve l'équation de la droite de régression par la méthode des moindres carrés.",
+    "steps": [
+      "Étape 1 : Organiser les données. Soit x = durée d'étude, y = note. On a 5 points : (1 ; 8), (1,5 ; 10), (2 ; 12), (2,5 ; 14), (3 ; 16).",
+      "Étape 2 : Calculer les moyennes. $\\overline{x} = \\frac{1 + 1,5 + 2 + 2,5 + 3}{5} = \\frac{10}{5} = 2$ et $\\overline{y} = \\frac{8 + 10 + 12 + 14 + 16}{5} = \\frac{60}{5} = 12$.",
+      "Étape 3 : Calculer la covariance (numérateur de la pente). $\\sum (x_i - \\overline{x})(y_i - \\overline{y}) = (1-2)(8-12) + (1,5-2)(10-12) + (2-2)(12-12) + (2,5-2)(14-12) + (3-2)(16-12) = (-1)(-4) + (-0,5)(-2) + 0 + (0,5)(2) + (1)(4) = 4 + 1 + 0 + 1 + 4 = 10$.",
+      "Étape 4 : Calculer la variance de x (dénominateur de la pente). $\\sum (x_i - \\overline{x})^2 = (1-2)^2 + (1,5-2)^2 + (2-2)^2 + (2,5-2)^2 + (3-2)^2 = 1 + 0,25 + 0 + 0,25 + 1 = 2,5$.",
+      "Étape 5 : Calculer la pente. $a = \\frac{10}{2,5} = 4$.",
+      "Étape 6 : Calculer l'ordonnée à l'origine. $b = \\overline{y} - a\\overline{x} = 12 - 4 \\times 2 = 12 - 8 = 4$. L'équation de la droite est $y = 4x + 4$."
+    ]
+  },
+  "quiz": {
+    "question": "Un statisticien étudie la relation entre le nombre d'heures de formation suivi par des vendeurs et leur chiffre d'affaires mensuel (en millions de francs CFA). Il dispose des deux séries : heures de formation : 10, 20, 30, 40 et chiffre d'affaires : 5, 9, 13, 17. Quel est le coefficient directeur (pente) de la droite de régression ?",
+    "reponse_calculee": "0,4",
+    "choices": [
+      {
+        "label": "0,2",
+        "correct": false
+      },
+      {
+        "label": "0,4",
+        "correct": true
+      },
+      {
+        "label": "0,6",
+        "correct": false
+      },
+      {
+        "label": "0,8",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule. Avec les moyennes $\\overline{x} = 25$ et $\\overline{y} = 11$, la covariance vaut 40 et la variance de x vaut 100, donc $a = \\frac{40}{100} = 0,4$. Plus un vendeur est formé, plus son chiffre d'affaires augmente, à raison de 0,4 million de FCFA par heure de formation en moyenne.",
+    "feedback_wrong": "Ce n'est pas exact. Rappelle-toi la formule de la pente : $a = \\frac{\\sum (x_i - \\overline{x})(y_i - \\overline{y})}{\\sum (x_i - \\overline{x})^2}$. Avec $\\overline{x} = 25$ et $\\overline{y} = 11$, calcule d'abord les écarts, puis la covariance (40) et la variance de x (100). Le résultat est $a = 0,4$."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-electricite-domestique",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électricité domestique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Électricité domestique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu rentres chez toi après l'école et tu allumes la lumière, tu branche ta batterie externe, tu entends le ventilateur fonctionner. Toutes ces installations utilisent l'électricité domestique qui arrive dans ta maison par des fils. Mais sais-tu comment cette électricité est distribuée, à quelle tension elle circule, et quels appareils la consomment ? C'est ce que tu vas apprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'électricité domestique ?",
+    "explanation": "L'électricité domestique est l'électricité fournie aux maisons et aux petits bâtiments par le réseau électrique public. En Afrique de l'Ouest (Bénin, Togo, Côte d'Ivoire...), cette électricité arrive en courant alternatif (CA) à une tension standard de 220 V avec une fréquence de 50 Hz. Elle est distribuée par des fils conducteurs (généralement du cuivre) à travers des circuits protégés par des disjoncteurs et des fusibles. Chaque appareil électroménager (ampoule, téléviseur, réfrigérateur) consomme une certaine puissance électrique, mesurée en watts (W) ou kilowatts (kW).",
+    "highlight": "Électricité domestique = courant alternatif 220 V, 50 Hz, distribué par circuits protégés pour alimenter les appareils de la maison"
+  },
+  "example": {
+    "problem": "Une famille utilise un réfrigérateur (puissance 200 W) et une ampoule LED (puissance 10 W) branché au même circuit, sous une tension de 220 V. Calcule l'intensité totale du courant qui traverse ce circuit lorsque les deux appareils fonctionnent ensemble.",
+    "steps": [
+      "Étape 1 : Identifie les données. Puissance du réfrigérateur = 200 W. Puissance de l'ampoule = 10 W. Tension = 220 V.",
+      "Étape 2 : Calcule la puissance totale consommée. $P_{total} = P_{réfrigérateur} + P_{ampoule} = 200 + 10 = 210$ W",
+      "Étape 3 : Utilise la formule reliant puissance, tension et intensité : $P = U \\times I$, donc $I = \\frac{P}{U}$",
+      "Étape 4 : Remplace les valeurs. $I = \\frac{210}{220} = 0,95$ A",
+      "Étape 5 : Conclus. L'intensité du courant dans ce circuit est environ 0,95 ampères. C'est un courant faible et sûr pour un circuit domestique (les fusibles courants font 10 ou 16 A)."
+    ]
+  },
+  "quiz": {
+    "question": "Un four électrique consomme 3000 W sous une tension de 220 V. Quelle est l'intensité du courant qui le traverse ?",
+    "reponse_calculee": "13,6 A",
+    "choices": [
+      {
+        "label": "3,6 A",
+        "correct": false
+      },
+      {
+        "label": "13,6 A",
+        "correct": true
+      },
+      {
+        "label": "660 A",
+        "correct": false
+      },
+      {
+        "label": "0,73 A",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué la formule $I = \\frac{P}{U}$ correctement : $I = \\frac{3000}{220} \\approx 13,6$ A. C'est un courant assez important, ce qui explique pourquoi les fours électriques sont branchés sur des circuits spécialisés avec des fusibles de 20 A ou plus.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que pour trouver l'intensité, tu dois diviser la puissance par la tension : $I = \\frac{P}{U} = \\frac{3000}{220} \\approx 13,6$ A. Vérifie bien que tu divises la puissance (en watts) par la tension (en volts)."
+  }
+}

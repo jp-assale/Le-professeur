@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-autrui",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Autrui",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Autrui",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu croises chaque jour des gens dans la rue, à l'école, au marché. Mais connais-tu vraiment ce qui se passe dans leur tête ? Pourquoi la souffrance d'un ami te touche alors que tu ne peux pas la ressentir directement ? Comment peux-tu être sûr que les autres existent vraiment et ne sont pas juste des illusions ? Cette question simple cache en fait l'un des plus grands défis de la philosophie."
+  },
+  "concept": {
+    "heading": "Qui est Autrui ?",
+    "explanation": "Autrui, c'est l'autre personne — celui ou celle qui n'est pas moi. C'est quelqu'un avec une conscience propre, des pensées, des sentiments et une liberté qui m'échappent. La question philosophique d'Autrui ne demande pas simplement 'qui sont les autres ?', mais plutôt : comment puis-je reconnaître l'existence d'une conscience chez l'autre ? Comment puis-je respecter sa liberté et son humanité alors que je ne peux jamais entrer complètement dans son esprit ?",
+    "highlight": "Autrui est un sujet conscient et libre, pas un simple objet que je peux connaître ou utiliser comme je veux."
+  },
+  "example": {
+    "problem": "Analysons cette situation concrète : tu vois un vendeur ambulant dans la rue qui a l'air fatigué et triste. Tu pourrais le traiter comme une machine à vendre des objets, ou tu pourrais le reconnaître comme une personne avec sa propre vie, ses propres peines. Comment change ta vision selon que tu reconnais ou non Autrui chez lui ?",
+    "steps": [
+      "Étape 1 : D'abord, observe ce que tu vois physiquement — un corps, des gestes, une expression. Si tu t'arrêtes là, le vendeur n'est pour toi qu'une chose utile : il a une marchandise à te vendre.",
+      "Étape 2 : Mais tu remarques ses yeux fatigués, son soupir. Ces signes te suggèrent une réalité cachée : quelque chose se passe en lui que tu ne vois pas directement.",
+      "Étape 3 : À ce moment, tu reconnais implicitement qu'il existe une conscience chez lui, semblable à la tienne. Il a une vie intérieure, des soucis, une dignité.",
+      "Étape 4 : Cette reconnaissance change ton comportement. Tu ne le traites plus comme un simple outil, mais tu lui parles avec respect, tu l'écoutes peut-être.",
+      "Étape 5 : En reconnaissant Autrui chez lui, tu le reconnais comme un sujet libre et digne, pas comme un objet. C'est l'essence du respect d'Autrui : le voir comme un être comparable à moi-même."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le problème central posé par la philosophie d'Autrui ?",
+    "reponse_calculee": "Comment reconnaître et respecter la conscience et la liberté d'une autre personne alors que je ne peux jamais accéder complètement à son expérience intérieure ?",
+    "choices": [
+      {
+        "label": "Comment faire pour que les autres pensent comme moi et partagent mes idées ?",
+        "correct": false
+      },
+      {
+        "label": "Comment reconnaître et respecter la conscience et la liberté d'une autre personne alors que je ne peux jamais accéder complètement à son expérience intérieure ?",
+        "correct": true
+      },
+      {
+        "label": "Comment utiliser les autres pour atteindre mes propres objectifs sans qu'ils s'en rendent compte ?",
+        "correct": false
+      },
+      {
+        "label": "Comment prouver scientifiquement que les autres personnes existent vraiment et ne sont pas des robots ?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le cœur du problème n'est pas de savoir si les autres existent — tu le sais bien — mais comment tu peux vraiment reconnaître leur humanité, leur conscience propre, et les traiter avec respect alors que tu n'accèdes jamais à leur expérience intérieure de la même façon qu'à la tienne.",
+    "feedback_wrong": "Pas tout à fait. Le problème philosophique d'Autrui ne s'agit pas de contrôler les autres, de les utiliser, ou de prouver leur existence de manière scientifique. C'est plutôt de comprendre comment reconnaître et respecter la conscience d'une autre personne — sa liberté et sa dignité — malgré le fait que je ne peux jamais entrer complètement dans son esprit."
+  }
+}

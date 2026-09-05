@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-les-alcanes",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les alcanes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les alcanes",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as sûrement vu des camions-citernes transporter du gaz de pétrole liquéfié (GPL) pour cuisiner ou chauffer les maisons. Ce GPL contient du butane et du propane. Sais-tu que ces gaz sont des alcanes ? Ce sont les composés organiques les plus simples et les plus abondants. Comprendre leur structure te permettra de reconnaître tous les hydrocarbures autour de toi."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un alcane ?",
+    "explanation": "Un alcane est un composé organique formé uniquement de carbone et d'hydrogène, liés par des liaisons simples (covalentes). Les alcanes constituent la base de la chimie organique et se trouvent dans le pétrole brut. Ils obéissent à une formule générale qui te permet de reconnaître n'importe quel alcane et de prévoir sa composition.",
+    "highlight": "Formule générale des alcanes (chaîne linéaire) : $C_nH_{2n+2}$ où n est le nombre d'atomes de carbone"
+  },
+  "example": {
+    "problem": "Un alcane linéaire contient 5 atomes de carbone. Détermine sa formule brute, son nom et représente sa formule semi-développée.",
+    "steps": [
+      "Étape 1 : Identifie n. Le problème dit 5 atomes de carbone, donc n = 5.",
+      "Étape 2 : Applique la formule générale $C_nH_{2n+2}$. Le nombre d'hydrogènes est $2 × 5 + 2 = 12$.",
+      "Étape 3 : La formule brute est donc $C_5H_{12}$.",
+      "Étape 4 : Pour le nom, compte le nombre de carbones : 5 carbones = pentane (préfixe pent- + suffixe -ane).",
+      "Étape 5 : La formule semi-développée linéaire s'écrit : CH₃—CH₂—CH₂—CH₂—CH₃ (le pentane ou n-pentane).",
+      "Réponse : formule brute $C_5H_{12}$, nom : pentane, formule semi-développée : CH₃—CH₂—CH₂—CH₂—CH₃."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le nombre total d'atomes d'hydrogène dans la molécule d'hexane ($C_6H_{?}$) ?",
+    "reponse_calculee": "14",
+    "choices": [
+      {
+        "label": "12",
+        "correct": false
+      },
+      {
+        "label": "14",
+        "correct": true
+      },
+      {
+        "label": "16",
+        "correct": false
+      },
+      {
+        "label": "18",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as appliqué correctement la formule générale. Pour l'hexane avec n = 6 carbones, le nombre d'hydrogènes est $2 × 6 + 2 = 14$. La formule est bien $C_6H_{14}$.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule générale des alcanes : $C_nH_{2n+2}$. Pour l'hexane, n = 6, donc le nombre d'hydrogènes est $2 × 6 + 2 = 14$. Essaie à nouveau avec cette formule."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-conflits-et-revolutions-",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Conflits et révolutions au XXe siècle (révolutions chinoises, Première Guerre mondiale, révolution russe, crise des années 30, Deuxième Guerre mondiale, relations Est-Ouest 1945-90)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Conflits et révolutions au XXe siècle",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que ton pays traverse une crise grave : la faim, le chômage, l'injustice. Des dirigeants te promettent un monde nouveau, radicalement différent. Certains acceptent cette promesse et se rebellent. D'autres refusent. Au XXe siècle, cette histoire s'est répétée partout dans le monde, provoquant des révolutions et des guerres qui ont changé le destin de l'humanité."
+  },
+  "concept": {
+    "heading": "Concept clé : Conflits et révolutions au XXe siècle",
+    "explanation": "Le XXe siècle a été marqué par des transformations politiques violentes (révolutions) et des affrontements massifs entre nations et idéologies (guerres). Ces événements sont liés : la pauvreté, l'injustice et les frustrations créent des révolutions ; les conflits d'intérêts entre puissances créent les guerres. Les révolutions chinoises ont cherché à transformer la société paysanne ; la Première Guerre mondiale a opposé les empires européens ; la révolution russe a imposé un système communiste ; la crise des années 30 a plongé le monde dans le chaos économique ; la Deuxième Guerre mondiale a été le conflit le plus meurtrier ; la Guerre froide a divisé le monde en deux blocs opposés.",
+    "highlight": "Les révolutions et guerres du XXe siècle reflètent la lutte entre ancien régime et nouveau modèle, entre démocratie et totalitarisme, entre capitalisme et communisme."
+  },
+  "example": {
+    "problem": "Analyse comment la révolution russe de 1917 illustre le lien entre crise sociale, révolte populaire et changement radical du système politique.",
+    "steps": [
+      "Contexte : La Russie avant 1917 est un empire autocratique dirigé par le tsar. Les paysans sont pauvres, les ouvriers exploités, la Première Guerre mondiale tue des millions de Russes sans résultat.",
+      "Frustration : Le peuple souffre de faim, de conditions de travail inhumaines et d'un régime sans libertés. Il réclame du changement.",
+      "Révolution : En février 1917, le peuple se révolte, le tsar abdique. Mais le nouveau gouvernement poursuit la guerre et la misère continue.",
+      "Prise de pouvoir : Lénine et les bolchéviques (communistes) promettent la paix, la terre et le pain. En octobre 1917, ils prennent le pouvoir par la force.",
+      "Nouveau système : La Russie devient une dictature communiste. L'État contrôle l'économie, supprime les libertés politiques et impose une idéologie unique.",
+      "Conclusion : La révolution russe montre comment une crise profonde + une promesse radicale + une force organisée = un changement brutal du système entier."
+    ]
+  },
+  "quiz": {
+    "question": "Quel événement a provoqué directement la chute du tsar en Russie en février 1917 ?",
+    "reponse_calculee": "La révolte populaire due à la faim, au chômage et aux pertes massives à la guerre",
+    "choices": [
+      {
+        "label": "Une invasion de l'Allemagne",
+        "correct": false
+      },
+      {
+        "label": "La révolte populaire due à la faim, au chômage et aux pertes massives à la guerre",
+        "correct": true
+      },
+      {
+        "label": "Une décision du pape",
+        "correct": false
+      },
+      {
+        "label": "Un accord avec la Grande-Bretagne",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La révolution russe n'a pas éclaté par accident : elle est née de la souffrance réelle du peuple. La Première Guerre mondiale, la famine et l'absence de libertés ont poussé les Russes à renverser le tsar. C'est l'exemple parfait du lien entre crise sociale et révolution.",
+    "feedback_wrong": "Non, ce n'est pas le bon facteur. La chute du tsar en 1917 vient de la révolte du peuple lui-même : la faim, le chômage, les morts à la guerre. La révolution naît quand les gens ordinaires ne peuvent plus supporter leur situation. Relis bien l'exemple ci-dessus."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-la-connaissance-de-l-homme",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La connaissance de l'homme",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "La connaissance de l'homme",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu observes ton camarade de classe : il parle, il rit, il réfléchit en cours. Mais le connais-tu vraiment ? Sais-tu ce qu'il pense vraiment, ce qu'il ressent au plus profond ? Et toi-même, te connais-tu complètement ? La question « Que puis-je connaître de l'homme ? » est au cœur de la philosophie. Elle demande : peut-on vraiment connaître l'homme — ses pensées, ses motivations, son essence — ou y a-t-il toujours une part de mystère ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la connaissance de l'homme ?",
+    "explanation": "La connaissance de l'homme est l'étude rationnelle de ce qu'est l'homme : sa nature, son essence, sa capacité à penser, à agir, à se transformer. Mais cette connaissance pose un problème fondamental : l'homme peut-il se connaître lui-même de façon objective, comme il connaît un objet extérieur ? L'homme est à la fois sujet qui connaît et objet à connaître. Cette double position crée une tension : comment celui qui pense peut-il avoir du recul sur sa propre pensée ?",
+    "highlight": "L'homme ne peut pas se connaître de manière purement objective ; il est toujours impliqué dans sa propre étude."
+  },
+  "example": {
+    "problem": "Un psychologue observe un patient en colère. Il prend des notes, analyse son comportement, ses paroles. Mais le patient lui-même dit : « Vous ne comprenez pas vraiment ce que je ressens. » Le psychologue peut-il vraiment connaître ce que le patient vit intérieurement ?",
+    "steps": [
+      "Étape 1 : Identifier ce que le psychologue connaît objectivement. Il observe les faits : gestes, ton de voix, paroles. Ces données sont extérieures, mesurables, reproductibles.",
+      "Étape 2 : Reconnaître ce que le patient connaît subjectivement. Seul le patient accède à son expérience intérieure : l'intensité de sa colère, ses pensées cachées, ses regrets. C'est une connaissance vécue, non observable de l'extérieur.",
+      "Étape 3 : Noter le décalage. Le psychologue ne peut jamais vivre exactement ce que vit le patient. Il peut interpréter, analyser, comprendre rationnellement — mais jamais ressentir de l'intérieur.",
+      "Étape 4 : Réfléchir sur la limite. Cela ne signifie pas que la connaissance du psychologue est inutile. Elle est vraie et utile. Mais elle est incomplète : elle laisse toujours une part d'intimité humaine hors de portée.",
+      "Conclusion : Connaître l'homme, c'est accepter qu'il existe deux types de connaissance : la connaissance objective (ce qu'on observe) et la connaissance subjective (ce qu'on vit). Aucune seule ne suffit à connaître l'homme totalement."
+    ]
+  },
+  "quiz": {
+    "question": "Pourquoi est-il difficile de connaître l'homme de manière complète et définitive ?",
+    "reponse_calculee": "Parce que l'homme est à la fois sujet connaissant et objet à connaître, ce qui crée une asymétrie : chacun a accès à son expérience intérieure que personne d'autre ne peut vivre.",
+    "choices": [
+      {
+        "label": "Parce que les instruments scientifiques ne sont pas assez puissants pour observer le cerveau humain.",
+        "correct": false
+      },
+      {
+        "label": "Parce que l'homme est à la fois sujet connaissant et objet à connaître, ce qui crée une asymétrie : chacun a accès à son expérience intérieure que personne d'autre ne peut vivre.",
+        "correct": true
+      },
+      {
+        "label": "Parce que les hommes changent de personnalité tous les jours et il est impossible de les étudier.",
+        "correct": false
+      },
+      {
+        "label": "Parce que la philosophie refuse d'utiliser la science pour étudier l'homme.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris le cœur du problème. L'homme n'est pas un objet passif à observer du dehors. Il est un sujet vivant, pensant, conscient. Il a une intériorité — ses sensations, ses pensées, son expérience vécue — que nul ne peut pénétrer complètement de l'extérieur. C'est ce qui rend la connaissance de l'homme unique et complexe.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à ceci : l'homme, contrairement à une pierre ou une plante, est conscient de lui-même. Il pense, il ressent. Cette conscience interne crée une barrière naturelle à la connaissance objecte. Personne d'autre ne peut vivre tes pensées à ta place. C'est précisément cela qui rend l'homme difficile à connaître totalement."
+  }
+}

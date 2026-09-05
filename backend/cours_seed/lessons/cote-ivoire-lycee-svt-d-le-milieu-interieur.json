@@ -1,0 +1,54 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-le-milieu-interieur",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "Le milieu intérieur",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le milieu intérieur",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as passé la journée sous le soleil à Abidjan, tu as transpiré, bu beaucoup d'eau. Pourtant, ton corps maintient sa température à 37°C, ton sang reste à pH constant, et tes cellules continuent de fonctionner normalement. Comment ton organisme parvient-il à garder cet équilibre malgré les changements extérieurs ? C'est le secret du milieu intérieur."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le milieu intérieur ?",
+    "explanation": "Le milieu intérieur est l'ensemble des liquides qui baignent les cellules de ton corps : le plasma sanguin, la lymphe et le liquide interstitiel. Ces liquides constituent un environnement stable où vivent tes cellules, indépendamment des variations du milieu externe (température, humidité, altitude). Cette stabilité du milieu intérieur s'appelle l'homéostasie et elle est essentielle pour que tes cellules fonctionnent correctement.",
+    "highlight": "Le milieu intérieur = plasma + lymphe + liquide interstitiel. Il maintient l'homéostasie pour assurer la survie cellulaire."
+  },
+  "example": {
+    "problem": "Le plasma sanguin représente environ 55 % du volume sanguin total. Chez un adulte, le volume sanguin total est de 5 litres. Le liquide interstitiel représente environ 15 litres. Calcule le volume total du milieu intérieur (plasma + liquide interstitiel) en litres.",
+    "steps": [
+      "Étape 1 : Calcule le volume du plasma. Volume du plasma = 55 % × 5 litres = 0,55 × 5 = 2,75 litres.",
+      "Étape 2 : Identifie le volume du liquide interstitiel donné dans l'énoncé : 15 litres.",
+      "Étape 3 : Additionne les deux volumes pour obtenir le volume total du milieu intérieur. Volume total = volume du plasma + volume du liquide interstitiel.",
+      "Étape 4 : Effectue le calcul. Volume total = 2,75 + 15 = 17,75 litres."
+    ]
+  },
+  "quiz": {
+    "question": "Chez un enfant, le volume sanguin total est de 4 litres. Le plasma représente 55 % du volume sanguin. Le liquide interstitiel représente 12 litres. Quel est le volume total du milieu intérieur (plasma + liquide interstitiel) chez cet enfant ?",
+    "reponse_calculee": "14,2 litres",
+    "choices": [
+      {
+        "label": "12,55 litres",
+        "correct": false
+      },
+      {
+        "label": "14,2 litres",
+        "correct": true
+      },
+      {
+        "label": "16 litres",
+        "correct": false
+      },
+      {
+        "label": "13,75 litres",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Très juste ! Tu as correctement calculé : volume du plasma = 55 % × 4 = 2,2 litres, puis volume total du milieu intérieur = 2,2 + 12 = 14,2 litres. Le milieu intérieur chez l'enfant est légèrement plus petit que chez l'adulte, mais il joue le même rôle crucial de maintien de l'homéostasie.",
+    "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : le volume du plasma est 55 % de 4 litres, soit 0,55 × 4 = 2,2 litres. Ajoute ensuite le liquide interstitiel : 2,2 + 12 = 14,2 litres. Rappelle-toi que le milieu intérieur inclut le plasma ET le liquide interstitiel."
+  }
+}

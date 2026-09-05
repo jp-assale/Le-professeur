@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-theoreme-de-thales",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Théorème de Thalès",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "geometry_ratio",
+  "title": "Théorème de Thalès",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois mesurer la hauteur d'un grand arbre dans ton quartier, mais tu ne peux pas grimper. Un menuisier te montre une technique : en utilisant des bâtons de longueurs connues et les ombres qu'ils projettent, on peut trouver des rapports qui permettent de calculer des distances inaccessibles. C'est exactement ce que le théorème de Thalès permet de faire : trouver des longueurs cachées en utilisant des rapports entre segments parallèles."
+  },
+  "concept": {
+    "heading": "Le théorème de Thalès",
+    "explanation": "Quand deux droites sont coupées par des droites parallèles, les segments qu'elles créent sont proportionnels. Plus précisément : si une droite (MN) est parallèle à une droite (BC) dans un triangle ABC, avec M sur [AB] et N sur [AC], alors les rapports des segments sont égaux. Ce théorème est fondamental en géométrie pour résoudre des problèmes de proportionnalité et de similitude.",
+    "highlight": "Si MN // BC, alors : AM/AB = AN/AC = MN/BC"
+  },
+  "example": {
+    "problem": "Un triangle ABC a pour dimensions : AB = 8 cm et AC = 6 cm. On place un point M sur [AB] tel que AM = 3 cm. Une droite passant par M et parallèle à (BC) coupe [AC] en N. Calcule la longueur AN.",
+    "steps": [
+      "Identifie les données : AB = 8 cm, AC = 6 cm, AM = 3 cm, et MN // BC.",
+      "Applique le théorème de Thalès : puisque MN est parallèle à BC, on a AM/AB = AN/AC.",
+      "Remplace par les valeurs : 3/8 = AN/6.",
+      "Résous l'équation : AN = (3 × 6) / 8 = 18/8 = 2,25 cm.",
+      "Vérifie : le rapport AM/AB = 3/8 = 0,375 et AN/AC = 2,25/6 = 0,375. Les rapports sont bien égaux. ✓",
+      "Réponse : AN = 2,25 cm."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un triangle PQR, un point S est placé sur [PQ] avec PS = 4 cm et SQ = 6 cm (donc PQ = 10 cm). Une droite passant par S et parallèle à (QR) coupe [PR] en T. On sait que PT = 5 cm. Calcule TR (la longueur du segment entre T et R).",
+    "reponse_calculee": "7,5 cm",
+    "choices": [
+      {
+        "label": "6 cm",
+        "correct": false
+      },
+      {
+        "label": "7,5 cm",
+        "correct": true
+      },
+      {
+        "label": "5 cm",
+        "correct": false
+      },
+      {
+        "label": "10 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Avec ST // QR, on applique Thalès : PS/PQ = PT/PR. Donc 4/10 = 5/PR, ce qui donne PR = 12,5 cm. Puisque PT = 5 cm, on obtient TR = 12,5 − 5 = 7,5 cm. Tu maîtrises bien l'utilisation des rapports.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que si ST // QR, alors PS/PQ = PT/PR. Calcule d'abord PR avec cette égalité : 4/10 = 5/PR donne PR = 12,5 cm. Ensuite, TR = PR − PT = 12,5 − 5 = 7,5 cm. Refais le calcul pas à pas."
+  }
+}

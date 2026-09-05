@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-equations-et-inequations-d",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équations et inéquations dans ℝ",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Équations et inéquations dans ℝ",
+  "intro": {
+    "heading": "Mise en situation : Le marché du village",
+    "body": "Tu vas au marché avec 5 000 francs CFA. Le prix du riz a augmenté : un kilogramme coûte maintenant 800 francs au lieu de 700 francs. Tu veux savoir combien de kilogrammes tu peux acheter sans dépasser ton budget, et si tu auras assez pour en avoir au moins 6 kg. Voilà exactement le genre de problème que les équations et inéquations te permettent de résoudre rapidement et sans tâtonner."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une équation ? Qu'est-ce qu'une inéquation ?",
+    "explanation": "Une équation est une égalité entre deux expressions contenant une ou plusieurs inconnues (généralement notées $x$, $y$, etc.). Résoudre une équation, c'est trouver la valeur (ou les valeurs) de l'inconnue qui rend cette égalité vraie. Une inéquation, elle, est une inégalité : elle utilise les symboles $<$, $>$, $\\leq$ ou $\\geq$ au lieu du signe $=$. Résoudre une inéquation, c'est trouver toutes les valeurs de l'inconnue qui rendent cette inégalité vraie.",
+    "highlight": "Équation : égalité à résoudre (ex. $2x + 3 = 11$). Inéquation : inégalité à résoudre (ex. $2x + 3 < 11$)."
+  },
+  "example": {
+    "problem": "Au marché, un kilogramme de riz coûte 800 francs CFA. Tu as 5 000 francs. Écris et résous l'équation pour trouver exactement combien de kilogrammes tu peux acheter avec tout ton argent. Ensuite, écris et résous l'inéquation pour trouver le nombre maximum de kilogrammes que tu peux acheter sans dépasser 5 000 francs.",
+    "steps": [
+      "Étape 1 : Poser l'équation. Si $x$ représente le nombre de kilogrammes, alors le coût total est $800x$ francs. Pour dépenser exactement 5 000 francs : $800x = 5000$.",
+      "Étape 2 : Résoudre l'équation. On divise les deux côtés par 800 : $x = \\frac{5000}{800} = 6,25$ kg. Donc, avec 5 000 francs exactement, tu achèterais 6,25 kg si c'était possible.",
+      "Étape 3 : Poser l'inéquation. En réalité, tu veux acheter sans dépasser 5 000 francs, donc : $800x \\leq 5000$.",
+      "Étape 4 : Résoudre l'inéquation. On divise les deux côtés par 800 (800 est positif, le sens de l'inégalité ne change pas) : $x \\leq \\frac{5000}{800} = 6,25$.",
+      "Étape 5 : Interpréter. Puisque tu ne peux acheter qu'un nombre entier de kilogrammes, tu peux acheter au maximum 6 kg (qui coûtent $800 \\times 6 = 4800$ francs). Si tu achètes 7 kg, tu paierais $800 \\times 7 = 5600$ francs, ce qui dépasse ton budget."
+    ]
+  },
+  "quiz": {
+    "question": "Un marchand vend des cahiers à 1 200 francs CFA l'unité. Un élève a 8 000 francs et veut acheter le maximum de cahiers possible. Écris et résous l'inéquation pour trouver le nombre maximal de cahiers qu'il peut acheter.",
+    "reponse_calculee": "x ≤ 6,67, donc au maximum 6 cahiers",
+    "choices": [
+      {
+        "label": "x ≥ 6,67, donc au minimum 7 cahiers",
+        "correct": false
+      },
+      {
+        "label": "x ≤ 6,67, donc au maximum 6 cahiers",
+        "correct": true
+      },
+      {
+        "label": "x = 6,67, donc exactement 6,67 cahiers",
+        "correct": false
+      },
+      {
+        "label": "x > 6,67, donc au moins 7 cahiers",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'inéquation est $1200x \\leq 8000$. En divisant par 1200, on obtient $x \\leq 6,67$. Puisque le nombre de cahiers doit être un entier, le maximum est 6 cahiers (qui coûtent $1200 \\times 6 = 7200$ francs, bien en dessous de 8000 francs).",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : on cherche le nombre de cahiers qui ne dépasse pas le budget, donc on utilise l'inéquation $1200x \\leq 8000$. En divisant par 1200 (nombre positif), on obtient $x \\leq 6,67$. Le nombre maximal de cahiers entiers est donc 6, pas 7 ou plus."
+  }
+}

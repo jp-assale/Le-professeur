@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-la-reproduction-chez-les-mammiferes-",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "La reproduction chez les mammifères et chez les spermaphytes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La reproduction chez les mammifères et chez les spermaphytes",
+  "intro": {
+    "heading": "Mise en situation : La vie continue",
+    "body": "En Côte d'Ivoire, tu observes une vache qui met bas en début de saison des pluies, ou une fleur de cacaoyer qui s'ouvre et attire les abeilles. Dans les deux cas, la nature se perpétue. Mais comment ? Comment un mammifère produit-il ses jeunes et comment une plante à fleur fabrique-t-elle ses graines ? C'est la reproduction, et elle fonctionne de manière très différente selon l'espèce."
+  },
+  "concept": {
+    "heading": "Concept : La reproduction chez les mammifères et les spermaphytes",
+    "explanation": "La reproduction est le processus biologique qui permet à un organisme de produire de nouveaux individus de la même espèce. Chez les mammifères (comme l'homme, la vache, le chien), la reproduction est sexuée et interne : deux sexes distincts produisent des gamètes (spermatozoïdes et ovules) qui fusionnent dans le corps de la femelle, et l'embryon se développe à l'intérieur de l'utérus avant la naissance. Chez les spermaphytes ou plantes à fleurs (comme le cacaoyer, le riz, la tomate), la reproduction est aussi sexuée, mais elle s'accompagne d'une phase asexuée (la spore) et s'effectue par la formation de graines contenant un embryon végétal prêt à germer.",
+    "highlight": "Mammifères : reproduction interne avec développement fœtal. Spermaphytes : reproduction par formation de graines après pollinisation et fécondation."
+  },
+  "example": {
+    "problem": "Une femelle mammifère (durée de gestation : 9 mois) met bas en janvier. Son petit pèse 3,5 kg à la naissance. Une plante spermaphyte fleurit en décembre, se fait polliniser, et ses graines arrivent à maturité en avril (4 mois plus tard). Si chaque fleur produit 120 graines et que la plante a 25 fleurs, combien de graines viables au total pourront germer, en supposant que 85 % des graines sont viables ?",
+    "steps": [
+      "Étape 1 : Identifie le processus de reproduction du mammifère. La femelle a une gestation de 9 mois (interne, dans l'utérus) et le petit naît viable d'emblée.",
+      "Étape 2 : Identifie le processus du spermaphyte. Pollinisation en décembre → développement de la graine pendant 4 mois → maturité en avril.",
+      "Étape 3 : Calcule le nombre total de graines produites. Nombre de fleurs × graines par fleur = 25 × 120 = 3 000 graines.",
+      "Étape 4 : Calcule le nombre de graines viables. Nombre total de graines × taux de viabilité = 3 000 × 0,85 = 2 550 graines.",
+      "Étape 5 : Conclusion. Le spermaphyte produit 2 550 graines viables qui pourront germer, tandis que le mammifère ne produit qu'un seul jeune viable. Les stratégies reproductives sont donc radicalement différentes : peu de descendants bien développés chez le mammifère, beaucoup de graines chez le spermaphyte."
+    ]
+  },
+  "quiz": {
+    "question": "Un cacaoyer fleurit et produit 18 fleurs. Après pollinisation et fécondation, chaque fleur donne une gousse contenant 40 graines. Combien de graines ce cacaoyer peut-il produire au total ?",
+    "reponse_calculee": "720",
+    "choices": [
+      {
+        "label": "540 graines",
+        "correct": false
+      },
+      {
+        "label": "720 graines",
+        "correct": true
+      },
+      {
+        "label": "680 graines",
+        "correct": false
+      },
+      {
+        "label": "800 graines",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la relation : nombre total de graines = nombre de fleurs × nombre de graines par fleur = 18 × 40 = 720 graines. Cet exemple montre comment un spermaphyte multiplie ses descendants par la production simultanée de nombreuses graines, contrairement aux mammifères qui en produisent peu.",
+    "feedback_wrong": "Pas tout à fait. Reviens à la formule : le nombre total de graines est égal au nombre de fleurs multiplié par le nombre de graines par fleur. Ici : 18 fleurs × 40 graines par fleur = 720 graines. C'est une différence clé avec les mammifères, qui produisent très peu de jeunes."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-les-tonalites-litteraires",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Les tonalités littéraires",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les tonalités littéraires",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu lis deux récits différents sur le même événement : un accident de voiture. Le premier te décrit la scène avec humour et ironie, le second avec une gravité poignante qui te serre le cœur. Pourquoi le même fait provoque-t-il deux sensations si différentes ? C'est parce que chaque texte adopte une tonalité différente. C'est cette « couleur émotionnelle » du texte que nous allons explorer ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une tonalité littéraire ?",
+    "explanation": "La tonalité littéraire est la manière dont un auteur exprime ses idées et ses sentiments dans un texte. Elle crée une atmosphère, une ambiance particulière qui teinte tout ce qu'il écrit. C'est comme la voix d'un ami : selon qu'il parle avec humour, colère, tendresse ou moquerie, tu reçois son message différemment, même si les mots sont similaires. Les tonalités principales que tu dois connaître sont : la tonalité lyrique (expression des émotions et des sentiments), la tonalité ironique (dire le contraire de ce qu'on pense pour moquer), la tonalité comique (susciter le rire), la tonalité tragique (inspirer la pitié et la terreur devant un destin fatal), la tonalité satirique (critiquer les défauts d'une société par le ridicule), et la tonalité pathétique (émouvoir profondément par la souffrance).",
+    "highlight": "La tonalité est l'atmosphère émotionnelle créée par les choix de l'auteur pour toucher le lecteur."
+  },
+  "example": {
+    "problem": "Analyse la tonalité dans ce passage : Un jeune homme rentre chez lui après avoir échoué son examen. Sa mère le voit et dit : « Ah, mon fils ! Tu as raté ton examen... c'est magnifique ! Avec ce bel échec, tu vas devenir ministre ! » Identifie la tonalité et explique comment elle fonctionne.",
+    "steps": [
+      "Étape 1 : Lis la phrase prononcée par la mère. Elle dit que l'échec est « magnifique » et que cela mènera son fils à devenir ministre.",
+      "Étape 2 : Compare avec la réalité. Dans la réalité, échouer un examen n'est pas magnifique et ne mène généralement pas au rôle de ministre.",
+      "Étape 3 : Reconnaître le décalage. Il y a une contradiction claire entre ce qui est dit (c'est magnifique, c'est une route vers le succès) et ce qu'on sait être vrai (l'échec est difficile).",
+      "Étape 4 : Identifier l'intention cachée. La mère ne dit pas vraiment qu'elle trouve l'échec magnifique. Elle critique gentiment, peut-être pour dédramatiser ou pour montrer son humour face à la situation.",
+      "Étape 5 : Nommer la tonalité. C'est une tonalité ironique : l'auteur (ici la mère) dit le contraire de ce qu'elle pense pour moquer légèrement ou pour faire réfléchir.",
+      "Étape 6 : Conclusion. L'ironie crée une tonalité légère et humoristique qui rend le moment moins dramatique et plus supportable pour le jeune homme."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un roman, un auteur écrit : « Les riches dorment tranquilles sur leurs lits de soie, tandis que les pauvres rêvent de justice sous les étoiles. » Quelle tonalité l'auteur adopte-t-il principalement ?",
+    "reponse_calculee": "Une tonalité satirique qui critique l'injustice sociale",
+    "choices": [
+      {
+        "label": "Une tonalité comique qui fait rire du sort des pauvres",
+        "correct": false
+      },
+      {
+        "label": "Une tonalité satirique qui critique l'injustice sociale",
+        "correct": true
+      },
+      {
+        "label": "Une tonalité lyrique qui célèbre la beauté des étoiles",
+        "correct": false
+      },
+      {
+        "label": "Une tonalité tragique qui décrit un destin inévitable",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'auteur utilise le contraste ironique (riches/pauvres, soie/étoiles) pour ridiculiser et critiquer les inégalités sociales. C'est la définition même de la tonalité satirique : critiquer les défauts d'une société par le ridicule et la moquerie.",
+    "feedback_wrong": "Pas tout à fait. Remarque bien le contraste que l'auteur établit entre les riches et les pauvres. Il ne cherche pas à faire rire pour le rire, ni à célébrer la beauté, ni à décrire un destin fatal. Il critique les injustices sociales en mettant l'inégalité en lumière de manière mordante. C'est la tonalité satirique."
+  }
+}

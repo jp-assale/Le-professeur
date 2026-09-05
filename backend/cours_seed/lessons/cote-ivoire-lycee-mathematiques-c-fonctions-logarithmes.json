@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-fonctions-logarithmes",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions logarithmes",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Fonctions logarithmes",
+  "intro": {
+    "heading": "Mise en situation : L'échelle de Richter en Afrique de l'Ouest",
+    "body": "En 2020, une secousse sismique a été ressentie en Côte d'Ivoire avec une magnitude de 4,5 sur l'échelle de Richter. Pour comprendre pourquoi cette échelle utilise des nombres si petits alors que les dégâts peuvent être énormes, les géologues utilisent une fonction logarithme. Le logarithme transforme les très grandes valeurs d'énergie en nombres plus faciles à manipuler et à comparer."
+  },
+  "concept": {
+    "heading": "Définition : La fonction logarithme décimal",
+    "explanation": "Tu connais la fonction exponentielle : si $10^y = x$, alors on dit que $y$ est le logarithme décimal de $x$, noté $\\log(x)$ ou $\\log_{10}(x)$. La fonction logarithme est l'opération inverse de la puissance de 10. Elle est définie uniquement pour les nombres strictement positifs.",
+    "highlight": "Si $10^y = x$ alors $y = \\log(x)$. Domaine de définition : $\\mathbb{D} = ]0 ; +\\infty[$"
+  },
+  "example": {
+    "problem": "L'énergie libérée par un tremblement de terre est reliée à sa magnitude par la formule $M = \\log(E)$ où $M$ est la magnitude et $E$ l'énergie relative (en unités convenables). Si un séisme a une magnitude de 3, calcule l'énergie relative libérée.",
+    "steps": [
+      "On a la relation $M = \\log(E)$ avec $M = 3$.",
+      "En substituant : $3 = \\log(E)$.",
+      "Par définition du logarithme, si $\\log(E) = 3$, alors $10^3 = E$.",
+      "On calcule : $10^3 = 10 \\times 10 \\times 10 = 1000$.",
+      "Donc l'énergie relative libérée est $E = 1000$ (en unités relative).",
+      "Vérification : $\\log(1000) = \\log(10^3) = 3$ ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation $\\log(x) = 2$. Quelle est la valeur de $x$ ?",
+    "reponse_calculee": "100",
+    "choices": [
+      {
+        "label": "$x = 2$",
+        "correct": false
+      },
+      {
+        "label": "$x = 100$",
+        "correct": true
+      },
+      {
+        "label": "$x = 20$",
+        "correct": false
+      },
+      {
+        "label": "$x = 10^2 = 100$ et $x = 0,01$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Si $\\log(x) = 2$, alors par définition $10^2 = x$, donc $x = 100$. Le logarithme et la puissance de 10 sont des opérations inverses.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi que $\\log(x) = 2$ signifie $10^2 = x$. Calcule $10^2$ pour trouver $x$."
+  }
+}

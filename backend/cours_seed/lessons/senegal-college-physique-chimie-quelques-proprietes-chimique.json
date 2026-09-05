@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-physique-chimie-quelques-proprietes-chimique",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Quelques propriétés chimiques des métaux usuels",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Quelques propriétés chimiques des métaux usuels",
+  "intro": {
+    "heading": "Mise en situation : Les métaux qui nous entourent",
+    "body": "Tu as remarqué qu'une clé en fer rouille avec l'humidité, mais une bague en or ne s'abîme pas ? Un ustensile de cuisine en cuivre noircit au contact de l'air, tandis qu'une canette en aluminium reste brillante ? Ces différences ne sont pas dues au hasard : chaque métal a ses propres propriétés chimiques qui expliquent comment il réagit avec l'oxygène, l'eau et les acides. Comprendre ces réactions te permettra de prédire le comportement des métaux et de savoir lequel choisir pour chaque usage."
+  },
+  "concept": {
+    "heading": "Les propriétés chimiques des métaux usuels",
+    "explanation": "Les propriétés chimiques d'un métal décrivent sa capacité à réagir avec d'autres substances comme l'oxygène, l'eau ou les acides. Les métaux courants (fer, cuivre, aluminium, zinc, magnésium, or, argent) ne réagissent pas tous de la même manière ni à la même vitesse. Certains s'oxydent très vite (comme le magnésium ou le fer), d'autres très lentement (comme l'or). Cette réactivité dépend de la position du métal dans la série de réactivité. Les trois réactions principales à connaître sont : la réaction avec l'oxygène de l'air (oxydation), la réaction avec l'eau, et la réaction avec les acides dilués.",
+    "highlight": "Tous les métaux usuels réagissent avec l'oxygène et les acides, mais à des vitesses très différentes selon leur place dans la série de réactivité."
+  },
+  "example": {
+    "problem": "On place 3 échantillons de 2 grammes chacun dans l'air humide pendant une semaine : du magnésium, du fer et du cuivre. Le magnésium se recouvre entièrement d'une poudre blanche (oxyde de magnésium), le fer rouille partiellement (oxyde de fer), et le cuivre noircit légèrement (oxyde de cuivre). Classe ces trois métaux par ordre décroissant de réactivité avec l'oxygène de l'air.",
+    "steps": [
+      "Étape 1 : Observe le type et l'intensité de la réaction. Le magnésium s'oxyde complètement en une semaine, le fer s'oxyde partiellement, et le cuivre s'oxyde très légèrement.",
+      "Étape 2 : Rappelle-toi que plus la réaction avec l'oxygène est rapide et complète, plus le métal est réactif.",
+      "Étape 3 : Le magnésium réagit le plus vite (oxydation complète) → il est le plus réactif.",
+      "Étape 4 : Le fer réagit moyennement (oxydation partielle) → il est modérément réactif.",
+      "Étape 5 : Le cuivre réagit très lentement (oxydation à peine visible) → il est peu réactif.",
+      "Étape 6 : Conclusion : Mg > Fe > Cu (ordre de réactivité décroissante avec l'oxygène)."
+    ]
+  },
+  "quiz": {
+    "question": "On immerge trois métaux dans de l'acide chlorhydrique dilué : du zinc, du fer et du cuivre. Le zinc réagit vivement avec formation de gaz, le fer réagit modérément, et le cuivre ne réagit pas du tout. Quel est le métal le plus réactif envers les acides dilués ?",
+    "reponse_calculee": "zinc",
+    "choices": [
+      {
+        "label": "Le cuivre",
+        "correct": false
+      },
+      {
+        "label": "Le fer",
+        "correct": false
+      },
+      {
+        "label": "Le zinc",
+        "correct": true
+      },
+      {
+        "label": "Les trois métaux sont également réactifs",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le zinc réagit vivement avec l'acide dilué en produisant un dégagement gazeux important. Cette réaction rapide et vigoureuse montre que le zinc est plus réactif que le fer (réaction modérée) et beaucoup plus que le cuivre (pas de réaction). Le zinc se situe bien avant le fer et le cuivre dans la série de réactivité.",
+    "feedback_wrong": "Pas tout à fait. Regarde bien : le zinc réagit vivement avec formation de gaz, le fer réagit modérément, et le cuivre ne réagit pas. La vitesse et l'intensité de la réaction indiquent le degré de réactivité. Plus la réaction est rapide et forte, plus le métal est réactif envers l'acide. Ici, c'est le zinc qui montre la réaction la plus intense."
+  }
+}

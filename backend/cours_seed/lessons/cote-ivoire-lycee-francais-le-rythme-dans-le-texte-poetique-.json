@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-le-rythme-dans-le-texte-poetique-",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Le rythme dans le texte poétique et la prose",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le rythme dans le texte poétique et la prose",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu écoutes un tam-tam durant une fête au village : le battement régulier crée une cadence, une pulsation qui fait danser. Les mots aussi ont un cœur qui bat. En poésie comme en prose, le rythme est cette musicalité cachée qui donne du souffle au texte, qui le rend vivant ou au contraire le ralentit. C'est ce que tu vas apprendre à reconnaître et à analyser."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le rythme dans un texte ?",
+    "explanation": "Le rythme est l'organisation des sons, des silences et des accents dans un texte. Il crée une cadence, une pulsation qui structure la lecture. En poésie, le rythme vient surtout de la longueur des vers et du retour régulier de sonorités. En prose, il naît de la longueur variable des phrases, de la répétition de constructions syntaxiques et de l'alternance entre des passages lents et rapides. Le rythme ne se calcule pas sur une partition musicale : il se ressent à la lecture à haute voix et façonne l'émotion du lecteur.",
+    "highlight": "Le rythme est la succession organisée de temps forts et de temps faibles qui donnent une musicalité et une tonalité au texte."
+  },
+  "example": {
+    "problem": "Analysons le rythme dans cet extrait poétique : « Demain, dès l'aube, à la tendre lumière, / Je partirai. Vois-tu, je sais que tu m'attends. / Les chemins seront longs sous mes pieds fatigués. / Mais j'avancerai, coeur battant, vers toi. » Comment le rythme crée-t-il une progression émotionnelle ?",
+    "steps": [
+      "Étape 1 – Observe la longueur des vers. Les deux premiers vers sont longs (environ 10-12 syllabes chacun), ils donnent une impression de solennité, de détermination. Le lecteur respire amplement.",
+      "Étape 2 – Remarque la présence de virgules et de points qui créent des pauses internes. « Je partirai. Vois-tu, je sais que tu m'attends. » Les points d'arrêt créent un essoufflement, une urgence émotionnelle.",
+      "Étape 3 – Identifie les répétitions syntaxiques. « Je partirai... j'avancerai » : cette répétition du sujet « je » en début de clause crée un martellement, une insistance. Le rythme s'accélère intérieurement.",
+      "Étape 4 – Analyse les mots-clés toniques. « Demain », « aube », « chemins », « fatigue », « cœur battant » : ces termes portent l'accent émotionnel. Ils scandent le texte comme autant de coups de pulsation.",
+      "Étape 5 – Conclus sur l'effet global. Le rythme commence ample et majestueux, puis se fragmente en phrases courtes, créant une tension croissante qui culmine dans la dernière affirmation « vers toi ». Le rythme imite le voyage émotionnel du personnage."
+    ]
+  },
+  "quiz": {
+    "question": "Lis ce passage en prose : « Elle entra. Elle vit. Elle comprit. Trois mots. Trois secondes. Toute une vie basculait. » Quel est l'effet rhythmique principal créé par cette structure ?",
+    "reponse_calculee": "L'accumulation de phrases courtes et simples crée un rythme saccadé et haletant qui renforce l'intensité dramatique et l'impact émotionnel.",
+    "choices": [
+      {
+        "label": "L'alternance entre des vers longs et des vers courts crée une mélodie musicale classique.",
+        "correct": false
+      },
+      {
+        "label": "L'accumulation de phrases courtes et simples crée un rythme saccadé et haletant qui renforce l'intensité dramatique et l'impact émotionnel.",
+        "correct": true
+      },
+      {
+        "label": "La répétition de verbes d'action rend le texte ennuyeux et monotone.",
+        "correct": false
+      },
+      {
+        "label": "L'utilisation de métaphores complexes crée un rythme poétique inévitable.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as reconnu le procédé clé : les phrases courtes qui se succèdent sans liant créent un effet de coup de fouet. C'est ce qu'on appelle un rythme staccato. Chaque phrase est un impact. L'absence de longueur et de développement amplifie le drame. C'est très différent d'un rythme fluide et continu.",
+    "feedback_wrong": "Pas tout à fait. Regarde bien la structure du passage : il ne s'agit pas de vers (règle 1), ni de métaphores complexes (règle 4). L'accent est sur la brièveté extrême et la répétition de structures très simples. Cette succession de phrases très courtes crée une saccade, un haletement émotionnel. C'est cela, l'effet rhythmique ici."
+  }
+}

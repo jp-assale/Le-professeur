@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-mathematiques-c-d-derivee-de-lnu-et-primi",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Mathematiques",
+  "chapitre": "Dérivée de ln∘u et primitive de u'/u",
+  "source": "fasoeducation.bf (catalogue de cours)",
+  "template": "text_only",
+  "title": "Dérivée de ln∘u et primitive de u'/u",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un agronome du Sahel observe que la population d'une espèce d'insectes nuisibles croît selon une loi logarithmique. Pour prévoir quand intervenir avec un traitement, il doit calculer la vitesse instantanée de croissance. C'est là qu'intervient la dérivée d'une fonction composée avec le logarithme naturel. De plus, en analysant les données anciennes, il remarque que certaines quantités mesurées se ramènent à chercher une fonction dont la dérivée est du type u'/u. Comprendre ces deux outils est essentiel pour maîtriser les phénomènes naturels non linéaires."
+  },
+  "concept": {
+    "heading": "Concept clé : Dérivée de ln(u) et primitive de u'/u",
+    "explanation": "Lorsque tu rencontres une fonction composée de la forme $\\ln(u(x))$ où $u$ est elle-même une fonction dérivable et strictement positive, tu ne peux pas appliquer naïvement la dérivée de $\\ln(x)$. Tu dois utiliser la règle de dérivation en chaîne. De façon remarquable, la dérivée de $\\ln(u)$ s'écrit $\\frac{u'}{u}$, c'est-à-dire le quotient de la dérivée du numérateur par le numérateur lui-même. En sens inverse, cela signifie que toute expression de la forme $\\frac{u'}{u}$ admet une primitive immédiate : $\\ln|u| + C$. Cette relation réciproque entre dérivation et intégration est l'une des plus importantes du calcul intégral.",
+    "highlight": "Si $u(x) > 0$, alors $\\frac{d}{dx}[\\ln(u(x))] = \\frac{u'(x)}{u(x)}$, et inversement : $\\int \\frac{u'(x)}{u(x)} \\, dx = \\ln|u(x)| + C"
+  },
+  "example": {
+    "problem": "Soit $f(x) = \\ln(3x^2 + 5)$ définie sur son ensemble de définition. Calcule la dérivée $f'(x)$.",
+    "steps": [
+      "Étape 1 : Identifie la structure. Tu as une fonction composée : $f(x) = \\ln(u(x))$ où $u(x) = 3x^2 + 5$.",
+      "Étape 2 : Vérifie que $u(x) > 0$ sur le domaine considéré. Comme $3x^2 + 5 \\geq 5 > 0$ pour tout $x \\in \\mathbb{R}$, la fonction $\\ln(u)$ est bien définie.",
+      "Étape 3 : Calcule la dérivée du numérateur $u(x)$. On a $u'(x) = 6x$.",
+      "Étape 4 : Applique la formule $\\frac{d}{dx}[\\ln(u(x))] = \\frac{u'(x)}{u(x)}$. Donc $f'(x) = \\frac{6x}{3x^2 + 5}$.",
+      "Étape 5 : Vérifie que cette expression est bien définie. Le dénominateur $3x^2 + 5$ ne s'annule jamais, donc $f'(x)$ existe pour tout $x \\in \\mathbb{R}$. C'est le résultat final."
+    ]
+  },
+  "quiz": {
+    "question": "Détermine la dérivée de $g(x) = \\ln(x^3 + 2x)$ sur son domaine de définition.",
+    "reponse_calculee": "$\\frac{3x^2 + 2}{x^3 + 2x}$",
+    "choices": [
+      {
+        "label": "$\\frac{1}{x^3 + 2x}$",
+        "correct": false
+      },
+      {
+        "label": "$\\frac{3x^2 + 2}{x^3 + 2x}$",
+        "correct": true
+      },
+      {
+        "label": "$3x^2 + 2$",
+        "correct": false
+      },
+      {
+        "label": "$\\frac{x^3 + 2x}{3x^2 + 2}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as correctement identifié $u(x) = x^3 + 2x$ et calculé $u'(x) = 3x^2 + 2$. En appliquant la formule $\\frac{d}{dx}[\\ln(u)] = \\frac{u'}{u}$, tu obtiens bien $\\frac{3x^2 + 2}{x^3 + 2x}$. Cette expression est valide sur les intervalles où $x^3 + 2x \\neq 0$, c'est-à-dire où $x(x^2 + 2) \\neq 0$, soit pour $x \\neq 0$.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que la dérivée de $\\ln(u(x))$ n'est pas simplement la dérivée de $u(x)$ ; tu dois utiliser la formule $\\frac{d}{dx}[\\ln(u)] = \\frac{u'(x)}{u(x)}$. Ici, $u(x) = x^3 + 2x$, donc $u'(x) = 3x^2 + 2$. Le numérateur doit être la dérivée, et le dénominateur doit être la fonction originale $u(x)$."
+  }
+}

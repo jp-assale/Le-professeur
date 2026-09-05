@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-le-conducteur-ohmique",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Le conducteur ohmique",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le conducteur ohmique",
+  "intro": {
+    "heading": "Mise en situation : pourquoi ta lampe s'éteint quand tu ajoutes une autre ?",
+    "body": "Tu as peut-être remarqué à la maison : quand tu branches une lampe toute seule, elle brille fort. Mais si tu branches une deuxième lampe en même temps sur la même prise, elles brillent toutes les deux moins fort. C'est parce que le courant doit passer à travers du matériau conducteur (les fils, la lampe elle-même), et ce matériau résiste au passage du courant. Aujourd'hui, tu vas comprendre comment cette résistance fonctionne et comment elle est liée à la tension et au courant."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un conducteur ohmique ?",
+    "explanation": "Un conducteur ohmique est un composant (comme une lampe, une résistance, ou un fil) qui suit une règle simple : plus tu augmentes la tension à ses bornes, plus le courant qui le traverse augmente, et cela de manière proportionnelle. Cette relation est appelée la loi d'Ohm. C'est l'outil fondamental pour comprendre les circuits électriques.",
+    "highlight": "U = R × I   ou   I = U / R"
+  },
+  "example": {
+    "problem": "On teste une lampe qui se comporte comme un conducteur ohmique. Quand on applique une tension de 6 V à ses bornes, un courant de 0,5 A la traverse. Quelle est la résistance de cette lampe ?",
+    "steps": [
+      "Étape 1 : Identifie les données. Tu as U = 6 V et I = 0,5 A. On cherche R.",
+      "Étape 2 : Choisis la bonne formule. On utilise R = U / I (rearrangement de U = R × I).",
+      "Étape 3 : Remplace les valeurs. R = 6 / 0,5.",
+      "Étape 4 : Effectue le calcul. 6 ÷ 0,5 = 12.",
+      "Étape 5 : N'oublie pas l'unité. La résistance s'exprime en ohm, noté Ω.",
+      "Réponse : La résistance de la lampe est R = 12 Ω."
+    ]
+  },
+  "quiz": {
+    "question": "Un conducteur ohmique a une résistance de 4 Ω. On applique une tension de 20 V à ses bornes. Quel est le courant qui le traverse ?",
+    "reponse_calculee": "5 A",
+    "choices": [
+      {
+        "label": "0,2 A",
+        "correct": false
+      },
+      {
+        "label": "5 A",
+        "correct": true
+      },
+      {
+        "label": "24 A",
+        "correct": false
+      },
+      {
+        "label": "80 A",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien utilisé la formule I = U / R. Avec U = 20 V et R = 4 Ω, tu obtiens I = 20 / 4 = 5 A. Le courant est proportionnel à la tension : plus la tension augmente, plus le courant augmente (pour une résistance constante).",
+    "feedback_wrong": "Pas tout à fait. Vérifie la formule : pour trouver le courant, tu dois diviser la tension par la résistance, soit I = U / R. Avec U = 20 V et R = 4 Ω, cela donne I = 20 / 4 = 5 A. Rappelle-toi : dans un conducteur ohmique, le courant est proportionnel à la tension appliquée."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-nature-et-la-culture",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La nature et la culture",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La nature et la culture",
+  "intro": {
+    "heading": "Mise en situation : Une question qui traverse ta vie quotidienne",
+    "body": "Tu observes un enfant grandir au village. Il naît capable de pleurer, de respirer, de chercher le lait de sa mère. Mais quelques années plus tard, il parle la langue de son peuple, respecte les rites de sa famille, sait cultiver la terre comme son père, comprend les proverbes de sa grand-mère. Qu'est-ce qui a changé ? Qu'est-ce qui vient de la nature, et qu'est-ce qui vient de ce que les humains ont créé ensemble ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la nature et la culture ?",
+    "explanation": "La nature, c'est ce qui existe indépendamment de l'être humain, ce qu'il reçoit à la naissance : son corps, ses instincts, ses besoins biologiques. La culture, c'est ce que l'homme construit collectivement au fil du temps : les langues, les traditions, les pratiques, les valeurs, les institutions, les techniques. La vraie question philosophique n'est pas simplement de les séparer, mais de comprendre comment l'humain transforme sa nature par la culture, et comment il reste malgré tout un être naturel. En d'autres termes : sommes-nous produits par ce que nous héritons biologiquement, ou par ce que nous apprenons ensemble ?",
+    "highlight": "La nature est ce que nous recevons en naissant ; la culture est ce que nous construisons ensemble et que nous transmettons."
+  },
+  "example": {
+    "problem": "Analysons le cas du langage : pourquoi un enfant né au Burkina Faso parle-t-il le mooré plutôt que l'anglais ou une autre langue ?",
+    "steps": [
+      "1. Reconnaître le fait naturel : L'enfant naît avec une capacité innée à parler. Son cerveau est biologiquement équipé pour acquérir une langue. C'est sa nature humaine.",
+      "2. Observer le fait culturel : Or, il ne parle pas « naturellement » le mooré. Aucun bébé n'invente seul sa langue. Il l'apprend en écoutant sa mère, sa famille, sa communauté.",
+      "3. Identifier la transmission : Le mooré existe depuis des générations. C'est un héritage collectif, une pratique culturelle transmise de parent à enfant, de génération en génération.",
+      "4. Comprendre la distinction : La capacité à parler vient de la nature (biologie). Mais quelle langue, comment, avec quels mots et quelles valeurs — tout cela vient de la culture.",
+      "5. Percevoir l'interdépendance : L'enfant ne devient vraiment humain que lorsque sa capacité naturelle rencontre la culture. Sans culture, il resterait biologiquement humain mais ne pourrait pas vivre en société.",
+      "6. Conclure : La nature fournit le potentiel ; la culture le remplit de sens. Nous ne sommes jamais que nature, ni jamais que culture — nous sommes le lieu où elles se rencontrent."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant naît avec la capacité à pleurer, à avoir faim, à avoir peur. Mais il apprend aussi à dire 'merci', à respecter les aînés, à participer aux cérémonies familiales. Lequel de ces apprentissages relève de la culture et non de la nature ?",
+    "reponse_calculee": "Dire 'merci', respecter les aînés, participer aux cérémonies familiales",
+    "choices": [
+      {
+        "label": "Pleurer et avoir faim",
+        "correct": false
+      },
+      {
+        "label": "Dire 'merci', respecter les aînés, participer aux cérémonies familiales",
+        "correct": true
+      },
+      {
+        "label": "Avoir peur et respirer",
+        "correct": false
+      },
+      {
+        "label": "Tous les comportements humains sont purement naturels",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Pleurer, avoir faim, avoir peur sont des réactions biologiques innées, communes à tous les humains, peu importe leur origine. En revanche, les formules de politesse, le respect de l'ordre familial et les pratiques rituelles sont des créations humaines, des codes sociaux et culturels qui varient d'une communauté à l'autre. C'est par l'apprentissage et l'immersion dans le groupe social que l'enfant les intériorise.",
+    "feedback_wrong": "Regarde bien : la nature, c'est ce que tu as en commun avec tous les êtres humains et même les animaux (pleurer, respirer, avoir faim, avoir peur). La culture, c'est ce qui est propre à ta communauté, ce qu'on t'enseigne — les langues, les coutumes, les valeurs, les cérémonies. Laquelle des réponses décrit vraiment un apprentissage social et non une réaction biologique ?"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-technique",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La technique",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La technique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu vois un artisan qui fabrique des poteries à la main dans ton quartier. Il utilise ses mains, de l'argile, une roue qu'il actionne lui-même. Puis tu vois un ouvrier d'une usine moderne qui supervise des machines qui produisent des centaines de poteries par jour. Deux façons très différentes de faire la même chose. Comment penser cette différence ? Qu'est-ce qui change vraiment quand on passe du savoir-faire traditionnel à la machine ?"
+  },
+  "concept": {
+    "heading": "Définition : La technique",
+    "explanation": "La technique est l'ensemble des moyens, des procédés et des savoir-faire qu'un être humain met en œuvre pour transformer la nature et maîtriser son environnement en vue d'atteindre un but. Elle n'est pas innée : elle s'apprend, s'améliore et se transmet. Quand tu apprends à cultiver, à construire, à fabriquer, tu acquiers une technique. Ce qui compte, c'est la relation entre l'humain, son intention et les outils qu'il se donne. La technique, c'est donc bien plus que l'outil : c'est une démarche rationnelle.",
+    "highlight": "La technique = intention + savoir-faire + transformation de la nature"
+  },
+  "example": {
+    "problem": "Un paysan du Burkina Faso utilise une daba (la pioche locale) pour cultiver ses champs de mil. Il connaît par l'expérience la profondeur exacte à respecter, le timing selon la saison, la façon de tourner la terre. Analyser comment cet acte relève de la technique et qu'est-ce que cela nous dit sur l'humain.",
+    "steps": [
+      "D'abord, l'intention : le paysan veut nourrir sa famille. Ce n'est pas un geste naturel, c'est un objectif conscient.",
+      "Ensuite, le savoir-faire : il ne s'agit pas de frapper au hasard. Le paysan a appris par transmission (de son père, de son grand-père) comment tenir la daba, à quel moment de la saison labourer, comment lire le sol.",
+      "Puis, l'outil : la daba est une technique solidifiée dans un objet. Elle prolonge le bras du paysan et lui donne une puissance qu'il n'aurait pas à main nue.",
+      "Ensuite, la transformation : le sol dur devient fertile et préparé. La nature n'a pas changé seule ; c'est l'action humaine réfléchie qui l'a modifiée.",
+      "Enfin, la répétition et l'amélioration : chaque année, le paysan affine son geste, essaie des variantes, transmet à ses enfants. La technique évolue, se perfectionne.",
+      "Conclusion : le paysan est un être technique parce qu'il pense, invente, maîtrise son action. L'outil seul ne ferait rien ; c'est l'humain qui donne sens et puissance à la technique."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés résume le mieux ce qui distingue un acte technique d'un acte purement naturel ou instinctif ?",
+    "reponse_calculee": "C",
+    "choices": [
+      {
+        "label": "A) Un acte technique utilise toujours une machine électrique ou moderne.",
+        "correct": false
+      },
+      {
+        "label": "B) Un acte technique est un geste que tous les animaux peuvent accomplir.",
+        "correct": false
+      },
+      {
+        "label": "C) Un acte technique combine une intention consciente, un savoir-faire acquis et une transformation volontaire du monde extérieur.",
+        "correct": true
+      },
+      {
+        "label": "D) Un acte technique est celui qui ne demande aucun apprentissage.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as saisi le cœur de la notion. La technique n'est pas définie par la modernité ou par la machine, mais par la façon dont l'humain agit de manière réfléchie et intentionnelle sur le monde. C'est ce qui nous distingue vraiment.",
+    "feedback_wrong": "Pas tout à fait. Relis bien la définition : la technique est avant tout une démarche humaine qui combine intention, savoir-faire et transformation. Les machines n'en sont qu'une forme parmi d'autres. Un paysan avec une daba est tout aussi technique qu'un ingénieur avec une machine."
+  }
+}

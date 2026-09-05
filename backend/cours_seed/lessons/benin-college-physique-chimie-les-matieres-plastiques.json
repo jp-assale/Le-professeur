@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-les-matieres-plastiques",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les matières plastiques",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Les matières plastiques",
+  "intro": {
+    "heading": "Mise en situation : Les plastiques autour de toi",
+    "body": "Regarde autour de toi : ton téléphone, tes stylos, les sachets du marché, les tuyaux d'eau, les chaises en classe... Presque tout contient du plastique. Mais d'où vient cette matière ? Comment est-elle fabriquée ? Et pourquoi les scientifiques parlent de plus en plus du problème des déchets plastiques ? Aujourd'hui, on découvre ensemble ce que sont vraiment les matières plastiques."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une matière plastique ?",
+    "explanation": "Une matière plastique (ou polymère) est une matière synthétique (fabriquée par l'homme) obtenue à partir de molécules simples appelées monomères, qui se lient ensemble pour former de longues chaînes. Ces chaînes confèrent au plastique ses propriétés : flexibilité, légèreté, résistance. Les matières plastiques proviennent principalement du pétrole brut, qui est transformé en différents types de plastiques selon leurs usages (bouteilles, emballages, textiles, etc.). Chaque type de plastique a un code de recyclage numéroté de 1 à 7 pour faciliter le tri.",
+    "highlight": "Monomères liés entre eux = longues chaînes (polymères) = matière plastique"
+  },
+  "example": {
+    "problem": "Un atelier de production de sachets plastiques fabrique des sachets à partir de résine de polyéthylène (PE). Pour chaque sachet, on utilise 8 grammes de PE. L'atelier fonctionne 5 jours par semaine, 8 heures par jour, et produit 120 sachets par heure. Quelle est la masse totale de PE utilisée en une semaine ?",
+    "steps": [
+      "Étape 1 : Calculer le nombre total d'heures de production par semaine. 5 jours × 8 heures/jour = 40 heures par semaine.",
+      "Étape 2 : Calculer le nombre total de sachets produits par semaine. 40 heures × 120 sachets/heure = 4 800 sachets par semaine.",
+      "Étape 3 : Calculer la masse totale de PE utilisée. 4 800 sachets × 8 grammes/sachet = 38 400 grammes.",
+      "Étape 4 : Convertir en kilogrammes pour une meilleure lisibilité. 38 400 grammes = 38,4 kilogrammes.",
+      "Réponse : La masse totale de polyéthylène utilisée en une semaine est de 38,4 kg."
+    ]
+  },
+  "quiz": {
+    "question": "Une usine de recyclage reçoit 250 kg de plastique PET (polyéthylène téréphtalate, code 1). Après tri et nettoyage, 85% de cette masse peut être effectivement recyclée en granulés de plastique réutilisables. Quelle masse de granulés recyclés pourra être produite ?",
+    "reponse_calculee": "212,5 kg",
+    "choices": [
+      {
+        "label": "180 kg",
+        "correct": false
+      },
+      {
+        "label": "212,5 kg",
+        "correct": true
+      },
+      {
+        "label": "235 kg",
+        "correct": false
+      },
+      {
+        "label": "250 kg",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as bien appliqué le calcul de pourcentage : 250 kg × 85 ÷ 100 = 212,5 kg. C'est la masse de PET qui sera transformée en granulés réutilisables. Les 15% restants (37,5 kg) correspondent aux pertes lors du nettoyage et du tri, une réalité importante du recyclage des plastiques.",
+    "feedback_wrong": "Pas tout à fait. Pour trouver la masse recyclable, tu dois calculer 85% de 250 kg : 250 × 0,85 = 212,5 kg. Rappelle-toi : 85% signifie que seuls 85 grammes sur 100 sont récupérables. Les 15% restants sont perdus au nettoyage et au tri. Essaie à nouveau !"
+  }
+}

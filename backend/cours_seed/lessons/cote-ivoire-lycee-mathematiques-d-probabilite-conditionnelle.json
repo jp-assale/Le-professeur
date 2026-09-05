@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-probabilite-conditionnelle",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilité conditionnelle et variable aléatoire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Probabilité conditionnelle et variable aléatoire",
+  "intro": {
+    "heading": "Mise en situation : Le test de dépistage",
+    "body": "Dans une région, on teste les habitants pour une maladie rare. Le test n'est pas parfait : il peut donner un faux positif. Tu viens d'apprendre que ton test est positif. Quelle est vraiment la probabilité que tu sois malade ? La réponse dépend de ce qu'on sait déjà sur la maladie dans la population. C'est là qu'intervient la probabilité conditionnelle : calculer une probabilité en tenant compte d'une information supplémentaire."
+  },
+  "concept": {
+    "heading": "Probabilité conditionnelle : définition",
+    "explanation": "Une probabilité conditionnelle mesure la probabilité qu'un événement se réalise sachant qu'un autre événement s'est déjà produit. Par exemple, sachant que tu as tiré une boule rouge d'une urne, quelle est la probabilité qu'elle soit numérotée 5 ? C'est une probabilité 'sous condition' : on restreint notre univers de possibilités à seulement les cas où la condition est remplie.",
+    "highlight": "P(A|B) = P(A ∩ B) / P(B), si P(B) ≠ 0"
+  },
+  "example": {
+    "problem": "Un lycée compte 600 élèves : 360 filles et 240 garçons. Parmi les filles, 180 pratiquent le sport. Parmi les garçons, 120 pratiquent le sport. On choisit un élève au hasard. (1) Quelle est la probabilité que ce soit une fille qui pratique le sport ? (2) Sachant que l'élève choisi pratique le sport, quelle est la probabilité que ce soit une fille ?",
+    "steps": [
+      "Étape 1 : Identifier les événements. Soit F = 'l'élève est une fille' et S = 'l'élève pratique le sport'.",
+      "Étape 2 : Pour la question (1), calculer P(F ∩ S) = (nombre de filles qui font du sport) / (nombre total d'élèves) = 180 / 600 = 0,3.",
+      "Étape 3 : Dénombrer les élèves qui font du sport. Total = 180 + 120 = 300 élèves pratiquent le sport.",
+      "Étape 4 : Pour la question (2), on cherche P(F|S) = P(F ∩ S) / P(S). On a P(S) = 300 / 600 = 0,5.",
+      "Étape 5 : Appliquer la formule. P(F|S) = (180/600) / (300/600) = (180/600) × (600/300) = 180/300 = 0,6 ou 60%.",
+      "Étape 6 : Interprétation. Sachant que l'élève pratique le sport, il y a 60% de chance que ce soit une fille (car parmi les 300 sportifs, 180 sont des filles)."
+    ]
+  },
+  "quiz": {
+    "question": "Une urne contient 10 boules : 6 rouges et 4 bleues. On tire une première boule sans la remettre, et elle est rouge. Quelle est la probabilité que la deuxième boule tirée soit aussi rouge ?",
+    "reponse_calculee": "5/9",
+    "choices": [
+      {
+        "label": "6/10",
+        "correct": false
+      },
+      {
+        "label": "5/9",
+        "correct": true
+      },
+      {
+        "label": "5/10",
+        "correct": false
+      },
+      {
+        "label": "6/9",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Après avoir tiré une boule rouge sans la remettre, il reste 9 boules dans l'urne dont 5 rouges. La probabilité conditionnelle est donc P(deuxième rouge | première rouge) = 5/9. Tu as bien appliqué le principe : on restreint l'urne à son état après le premier tirage.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi : après le tirage de la première boule rouge, l'urne ne contient plus 10 boules mais 9. Et parmi ces 9, il y a maintenant 5 boules rouges (on en a enlevé une). La probabilité conditionnelle doit tenir compte de ce nouvel état : P(deuxième rouge | première rouge) = 5/9."
+  }
+}

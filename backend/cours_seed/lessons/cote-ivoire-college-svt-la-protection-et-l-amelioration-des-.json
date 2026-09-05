@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-svt-la-protection-et-l-amelioration-des-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "La protection et l'amélioration des sols",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La protection et l'amélioration des sols",
+  "intro": {
+    "heading": "Mise en situation : un problème qui touche nos champs",
+    "body": "En Côte d'Ivoire, beaucoup de paysans remarquent que leurs champs produisent de moins en moins bien, année après année. La terre devient dur, sèche, et les pluies l'emportent facilement. Sans intervention, ces sols perdent leur fertilité et deviennent inutilisables. Comment peut-on arrêter cette dégradation et rendre les sols productifs à nouveau ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la protection et l'amélioration des sols ?",
+    "explanation": "La protection des sols consiste à prévenir leur dégradation (érosion, compaction, perte de fertilité), tandis que l'amélioration vise à restaurer et augmenter leur qualité et leur productivité. Ces deux actions sont inséparables : on ne peut pas améliorer un sol qui continue à se dégrader. Les principales menaces sont l'érosion hydrique (l'eau qui emporte les particules), l'érosion éolienne (le vent), la salinisation, et l'appauvrissement en matière organique.",
+    "highlight": "Protéger = prévenir la dégradation ; Améliorer = augmenter la fertilité et la productivité du sol."
+  },
+  "example": {
+    "problem": "Un agriculteur dispose d'une parcelle de 2 hectares dégradée. Pour l'améliorer, il prévoit d'ajouter du compost. Selon les recommandations, il faut 5 tonnes de compost par hectare pour restaurer la fertilité. Combien de tonnes de compost devra-t-il prévoir au total ? Ensuite, sachant que chaque tonne coûte 8 000 francs CFA, quel sera le coût total ?",
+    "steps": [
+      "Étape 1 : Identifier les données. Surface = 2 hectares ; Compost nécessaire = 5 tonnes/hectare ; Coût unitaire = 8 000 francs CFA/tonne.",
+      "Étape 2 : Calculer la quantité totale de compost. Quantité = 2 hectares × 5 tonnes/hectare = 10 tonnes.",
+      "Étape 3 : Vérifier le calcul. 2 × 5 = 10 ✓",
+      "Étape 4 : Calculer le coût total. Coût = 10 tonnes × 8 000 francs CFA/tonne = 80 000 francs CFA.",
+      "Étape 5 : Vérifier. 10 × 8 000 = 80 000 ✓",
+      "Réponse : L'agriculteur devra prévoir 10 tonnes de compost pour un coût total de 80 000 francs CFA."
+    ]
+  },
+  "quiz": {
+    "question": "Une région sahélienne subit une érosion éolienne importante. On estime qu'elle perd 2,5 tonnes de sol par hectare chaque année. Sur une surface de 40 hectares, quelle est la perte totale de sol en 3 ans ?",
+    "reponse_calculee": "300 tonnes",
+    "choices": [
+      {
+        "label": "100 tonnes",
+        "correct": false
+      },
+      {
+        "label": "150 tonnes",
+        "correct": false
+      },
+      {
+        "label": "300 tonnes",
+        "correct": true
+      },
+      {
+        "label": "450 tonnes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as bien calculé : perte annuelle = 2,5 tonnes/hectare × 40 hectares = 100 tonnes par an. Sur 3 ans : 100 tonnes/an × 3 ans = 300 tonnes. Cette perte massive montre pourquoi la protection des sols contre l'érosion est urgente dans les régions arides.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : il faut d'abord calculer la perte annuelle (2,5 tonnes/ha × 40 ha = 100 tonnes/an), puis multiplier par le nombre d'années (3 ans). 100 × 3 = 300 tonnes au total. C'est une perte considérable qui justifie les mesures de protection !"
+  }
+}

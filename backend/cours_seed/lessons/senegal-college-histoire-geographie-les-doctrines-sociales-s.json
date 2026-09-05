@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-les-doctrines-sociales-s",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les doctrines sociales : syndicalisme et socialisme",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Les doctrines sociales : syndicalisme et socialisme",
+  "intro": {
+    "heading": "Mise en situation : L'usine textile de Dakar",
+    "body": "Imagine une grande fabrique textile à Dakar où travaillent 500 ouvriers. Ils font des journées de 12 heures, gagnent très peu, et n'ont aucune protection si l'usine ferme. Un jour, plusieurs d'entre eux décident de se regrouper pour exiger des conditions meilleures. Mais ils ne veulent pas seulement améliorer leurs salaires : certains rêvent de changer complètement le système économique. Comment vont-ils agir ? Avec quelles idées ?"
+  },
+  "concept": {
+    "heading": "Les doctrines sociales face à l'injustice économique",
+    "explanation": "Au XIXe et XXe siècles, face à la misère des ouvriers pendant la révolution industrielle, deux grands courants de pensée et d'action émergent. Le syndicalisme est un mouvement qui regroupe les travailleurs pour améliorer leurs conditions de travail par la négociation, la grève et l'action collective. Le socialisme est une doctrine qui critique le système capitaliste et propose une réorganisation profonde de la société où les moyens de production (usines, terres, machines) seraient contrôlés collectivement ou par l'État, plutôt que par des propriétaires privés. Les deux partagent une même critique du capitalisme sauvage, mais n'ont pas toujours les mêmes méthodes ni les mêmes objectifs.",
+    "highlight": "Syndicalisme = amélioration des conditions par l'action collective et la négociation. Socialisme = transformation radicale du système économique et de la propriété des moyens de production."
+  },
+  "example": {
+    "problem": "Les ouvriers de notre fabrique textile décident d'agir. Certains forment un syndicat, d'autres adhèrent à des idées socialistes. Analyse comment ces deux doctrines se manifesteraient différemment dans leurs revendications et leurs actions.",
+    "steps": [
+      "Étape 1 : Identifie le problème commun. Les ouvriers souffrent de bas salaires, de longues heures, d'absence de sécurité. C'est ce qui les motive à s'organiser.",
+      "Étape 2 : Vois comment les syndicalistes agissent. Ils créent un syndicat, établissent un dialogue avec le patron, menacent de grève pour obtenir une augmentation de 15 %, une réduction des heures de travail à 10 heures par jour, et une indemnité en cas de licenciement.",
+      "Étape 3 : Vois comment les socialistes réagissent. Eux, ils ne veulent pas simplement négocier avec le patron. Ils disent : 'Pourquoi un patron particulier possède-t-il cette usine ? Pourquoi le profit qu'elle génère va-t-il surtout à lui ? Les ouvriers qui créent la richesse devraient posséder l'usine ensemble.'",
+      "Étape 4 : Compare les méthodes. Le syndicat cherche un accord rapide par la négociation. Les socialistes proposent une révolution ou une réforme profonde de la propriété et de l'économie.",
+      "Étape 5 : Reconnais la nuance. Un ouvrier peut être à la fois syndicaliste (participer au syndicat pour des gains immédiats) et sympathisant socialiste (rêver d'une transformation plus large). Les deux doctrines ne s'excluent pas forcément.",
+      "Étape 6 : Conclus sur l'impact réel. Le syndicalisme obtient souvent des résultats concrets et mesurables. Le socialisme est une vision de long terme qui inspire les politiques et les mouvements sociaux, mais sa mise en pratique dépend des contextes historiques et politiques."
+    ]
+  },
+  "quiz": {
+    "question": "Tu lires un tract de 1946 en Afrique de l'Ouest : 'Les travailleurs des mines doivent s'unir pour exiger 8 heures de travail, un meilleur salaire et des conditions sûres. Nous formons un syndicat pour négocier avec les entreprises.' Quel élément de doctrine reconnaîs-tu principalement dans ce texte ?",
+    "reponse_calculee": "syndicalisme",
+    "choices": [
+      {
+        "label": "Le socialisme, parce que le texte critique le capitalisme",
+        "correct": false
+      },
+      {
+        "label": "Le syndicalisme, parce que le texte insiste sur l'union collective, la négociation et des revendications précises et immédiates",
+        "correct": true
+      },
+      {
+        "label": "Aucune des deux doctrines, car on ne parle pas de révolution",
+        "correct": false
+      },
+      {
+        "label": "Les deux également, car toute action de travailleurs est à la fois syndicaliste et socialiste",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le texte décrit parfaitement le syndicalisme : il y a regroupement (syndicat), demandes concrètes et mesurables (8 heures, meilleur salaire, conditions sûres) et volonté de négocier avec l'employeur. Aucune mention de transformation radicale du système économique ou de propriété collective des moyens de production. C'est du syndicalisme pur.",
+    "feedback_wrong": "Relis bien. Le texte ne parle pas de transformer la propriété des mines ou de révolution. Il demande simplement une amélioration des conditions de travail par une organisation collective des travailleurs (syndicat) et une négociation avec les employeurs. C'est la définition du syndicalisme, pas du socialisme."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-suites-numeriques",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Suites numériques",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Suites numériques",
+  "intro": {
+    "heading": "Mise en situation : Le prix du riz au marché",
+    "body": "Tu vas au marché chaque semaine et tu remarques que le prix du kilogramme de riz augmente régulièrement : 800 F CFA la première semaine, 850 F CFA la deuxième semaine, 900 F CFA la troisième semaine, et ainsi de suite. Comment prévoir le prix dans quelques semaines ? C'est exactement ce que les suites numériques te permettent de faire : décrire et prédire des phénomènes qui se répètent selon une logique précise."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'une suite numérique ?",
+    "explanation": "Une suite numérique est une liste ordonnée de nombres réels, notée souvent $(u_n)$ ou $(u_1, u_2, u_3, ...)$. Chaque nombre occupe une position précise dans la suite, repérée par un indice $n$ (le rang). Le premier terme peut être noté $u_0$ ou $u_1$ selon la convention choisie. Une suite est définie soit par une formule explicite (qui donne directement $u_n$ en fonction de $n$), soit par une relation de récurrence (qui relie chaque terme au précédent).",
+    "highlight": "Une suite $(u_n)$ associe à chaque entier naturel $n$ un nombre réel unique $u_n$."
+  },
+  "example": {
+    "problem": "On considère une suite $(u_n)$ définie pour tout $n \\geq 1$ par la formule $u_n = 2n + 3$. Calcule les quatre premiers termes de la suite et identifie la nature de cette suite.",
+    "steps": [
+      "Étape 1 : Remplace $n$ par 1 dans la formule. $u_1 = 2(1) + 3 = 2 + 3 = 5$.",
+      "Étape 2 : Remplace $n$ par 2. $u_2 = 2(2) + 3 = 4 + 3 = 7$.",
+      "Étape 3 : Remplace $n$ par 3. $u_3 = 2(3) + 3 = 6 + 3 = 9$.",
+      "Étape 4 : Remplace $n$ par 4. $u_4 = 2(4) + 3 = 8 + 3 = 11$.",
+      "Étape 5 : Les quatre premiers termes sont 5, 7, 9, 11. La suite augmente de 2 à chaque fois : c'est une suite arithmétique de raison $r = 2$.",
+      "Étape 6 : Vérifie que $u_{n+1} - u_n = [2(n+1) + 3] - [2n + 3] = 2n + 2 + 3 - 2n - 3 = 2$. Confirmé !"
+    ]
+  },
+  "quiz": {
+    "question": "On considère la suite $(v_n)$ définie par $v_n = n^2 - 1$ pour tout $n \\geq 1$. Quel est le terme $v_5$ ?",
+    "reponse_calculee": "24",
+    "choices": [
+      {
+        "label": "20",
+        "correct": false
+      },
+      {
+        "label": "24",
+        "correct": true
+      },
+      {
+        "label": "25",
+        "correct": false
+      },
+      {
+        "label": "26",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule explicite : $v_5 = 5^2 - 1 = 25 - 1 = 24$. C'est la méthode à utiliser chaque fois que tu as une formule directe en fonction de $n$.",
+    "feedback_wrong": "Pas tout à fait. Reviens à la formule $v_n = n^2 - 1$ et remplace $n$ par 5. Tu dois calculer $5^2$, qui vaut 25, puis soustraire 1. Le bon résultat est 24."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-svt-aide-a-l-immunite",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Aide à l'immunité",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Aide à l'immunité",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu es en classe et un(e) camarade éternue sans se couvrir la bouche. Dans les jours qui suivent, plusieurs élèves tombent malades avec une grippe. Pourtant, toi et deux autres camarades, vous ne l'attrapez pas. Pourquoi certaines personnes résistent-elles à la maladie alors que d'autres la contractent ? Cela dépend de l'aide que notre corps apporte à notre système immunitaire."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'aide à l'immunité ?",
+    "explanation": "L'aide à l'immunité désigne l'ensemble des moyens et des mesures qui renforcent les défenses naturelles de notre corps contre les infections et les maladies. Notre système immunitaire a besoin de soutien pour fonctionner correctement. Cette aide peut être naturelle (alimentation, hygiène, sommeil) ou artificielle (vaccins, sérums). Toutes ces pratiques visent à améliorer notre capacité à combattre les agents pathogènes (virus, bactéries, parasites).",
+    "highlight": "L'aide à l'immunité = renforcement des défenses du corps par des moyens naturels ou artificiels"
+  },
+  "example": {
+    "problem": "Une école organise une campagne de vaccination contre la rougeole. Sur 800 élèves, 560 reçoivent le vaccin. Après 3 mois, une épidémie de rougeole se déclare. Parmi les 560 élèves vaccinés, 8 tombent malades. Parmi les 240 élèves non vaccinés, 72 tombent malades. Calcule le pourcentage d'élèves malades dans chaque groupe et compare l'efficacité de la vaccination.",
+    "steps": [
+      "Étape 1 : Identifie les deux groupes. Groupe 1 (vaccinés) : 560 élèves, dont 8 malades. Groupe 2 (non vaccinés) : 240 élèves, dont 72 malades.",
+      "Étape 2 : Calcule le pourcentage de malades dans le groupe vacciné. Pourcentage = (8 ÷ 560) × 100 = 1,43 %",
+      "Étape 3 : Calcule le pourcentage de malades dans le groupe non vacciné. Pourcentage = (72 ÷ 240) × 100 = 30 %",
+      "Étape 4 : Compare les deux pourcentages. Le groupe vacciné : 1,43 % de malades. Le groupe non vacciné : 30 % de malades.",
+      "Étape 5 : Conclusion. La vaccination aide l'immunité en réduisant le risque de maladie de 28,57 points de pourcentage (30 % - 1,43 % = 28,57 %). Cela montre que le vaccin renforce efficacement les défenses du corps."
+    ]
+  },
+  "quiz": {
+    "question": "Une région décide de sensibiliser la population à l'hygiène pour prévenir les infections intestinales. Avant la campagne, 450 enfants sur 1 500 consultaient pour cette raison chaque mois. Après 6 mois de sensibilisation à l'hygiène (lavage des mains, eau propre), ce nombre passe à 135 enfants sur 1 500. Quel est le pourcentage de réduction du nombre d'enfants atteints ?",
+    "reponse_calculee": "70 %",
+    "choices": [
+      {
+        "label": "30 %",
+        "correct": false
+      },
+      {
+        "label": "50 %",
+        "correct": false
+      },
+      {
+        "label": "70 %",
+        "correct": true
+      },
+      {
+        "label": "90 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Avant la campagne : 450 enfants sur 1 500, soit 30 % étaient atteints. Après : 135 enfants sur 1 500, soit 9 % étaient atteints. La réduction est de 30 % - 9 % = 21 points. En pourcentage relatif : (450 - 135) ÷ 450 × 100 = 70 %. Cet exemple montre comment une aide à l'immunité basée sur l'hygiène (mesure naturelle) réduit les infections de manière très efficace.",
+    "feedback_wrong": "Pas tout à fait. Calcule d'abord le nombre d'enfants qui ne sont plus atteints : 450 - 135 = 315 enfants. Ensuite, exprime cette réduction par rapport au nombre initial d'enfants atteints : (315 ÷ 450) × 100 = 70 %. L'hygiène est une aide naturelle à l'immunité qui a réduit les infections de 70 %."
+  }
+}

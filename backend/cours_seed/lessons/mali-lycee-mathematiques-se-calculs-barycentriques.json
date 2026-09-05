@@ -1,0 +1,54 @@
+{
+  "slug": "mali-lycee-mathematiques-se-calculs-barycentriques",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Calculs barycentriques",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Calculs barycentriques",
+  "intro": {
+    "heading": "Mise en situation : partager équitablement un héritage",
+    "body": "Imagine que trois héritiers doivent se partager un terrain familial. L'un d'eux a contribué davantage aux frais de succession, un autre moins. Comment déterminer le point de partage qui respecte ces contributions différentes ? C'est exactement le problème que les calculs barycentriques permettent de résoudre : trouver le « centre de gravité » d'un système où chaque point a un poids différent."
+  },
+  "concept": {
+    "heading": "Le barycentre : définition et calcul",
+    "explanation": "Le barycentre est le point d'équilibre d'un système de points pondérés. Chaque point reçoit un poids (coefficient), et le barycentre est la position où la somme des moments (position × poids) s'annule. En géométrie, c'est le point qui représente l'équilibre du système.",
+    "highlight": "Si G est le barycentre des points $A_1, A_2, ..., A_n$ affectés des poids $m_1, m_2, ..., m_n$, alors : $\\vec{OG} = \\frac{m_1 \\vec{OA_1} + m_2 \\vec{OA_2} + ... + m_n \\vec{OA_n}}{m_1 + m_2 + ... + m_n}$"
+  },
+  "example": {
+    "problem": "Trois points A, B, C ont respectivement les coordonnées $A(1, 2)$, $B(4, 1)$ et $C(2, 5)$. On leur affecte les poids $m_A = 2$, $m_B = 1$ et $m_C = 3$. Calcule les coordonnées du barycentre G.",
+    "steps": [
+      "Étape 1 : Vérifie que la somme des poids n'est pas nulle. Somme = $2 + 1 + 3 = 6 \\neq 0$. Le barycentre existe.",
+      "Étape 2 : Applique la formule pour la coordonnée x du barycentre : $x_G = \\frac{m_A x_A + m_B x_B + m_C x_C}{m_A + m_B + m_C} = \\frac{2 \\times 1 + 1 \\times 4 + 3 \\times 2}{6} = \\frac{2 + 4 + 6}{6} = \\frac{12}{6} = 2$",
+      "Étape 3 : Applique la formule pour la coordonnée y du barycentre : $y_G = \\frac{m_A y_A + m_B y_B + m_C y_C}{m_A + m_B + m_C} = \\frac{2 \\times 2 + 1 \\times 1 + 3 \\times 5}{6} = \\frac{4 + 1 + 15}{6} = \\frac{20}{6} = \\frac{10}{3}$",
+      "Étape 4 : Conclusion : Le barycentre G a pour coordonnées $G(2, \\frac{10}{3})$ ou $G(2 ; 3,33...)$."
+    ]
+  },
+  "quiz": {
+    "question": "Deux points M et N ont pour coordonnées $M(0, 4)$ et $N(6, 0)$. On affecte à M le poids 3 et à N le poids 2. Quelle est l'abscisse du barycentre de ces deux points ?",
+    "reponse_calculee": "2,4",
+    "choices": [
+      {
+        "label": "1,2",
+        "correct": false
+      },
+      {
+        "label": "2,4",
+        "correct": true
+      },
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "3,6",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule : $x_G = \\frac{3 \\times 0 + 2 \\times 6}{3 + 2} = \\frac{0 + 12}{5} = \\frac{12}{5} = 2,4$. Le poids plus important de M ne modifie pas le résultat car M est sur l'axe des y (x = 0). Seul le poids de N contribue à l'abscisse.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'abscisse du barycentre est la moyenne pondérée des abscisses. Ici, $x_G = \\frac{m_M \\times x_M + m_N \\times x_N}{m_M + m_N} = \\frac{3 \\times 0 + 2 \\times 6}{3 + 2} = \\frac{12}{5} = 2,4$. Prends soin de multiplier chaque coordonnée par son poids correspondant."
+  }
+}

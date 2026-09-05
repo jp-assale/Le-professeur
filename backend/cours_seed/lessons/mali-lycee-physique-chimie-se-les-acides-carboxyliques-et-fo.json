@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-acides-carboxyliques-et-fo",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les acides carboxyliques et fonctions dérivées",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les acides carboxyliques et fonctions dérivées",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Au Mali, les femmes productrices de savon traditionnel utilisent l'huile de noix de coco et la potasse pour fabriquer leurs savons. Ce processus chimique met en jeu des acides carboxyliques présents naturellement dans les huiles. Comprendre leur structure et leurs réactions te permettra de saisir non seulement la chimie du savon, mais aussi celle de nombreux produits du quotidien : le vinaigre, les conserves, les médicaments."
+  },
+  "concept": {
+    "heading": "Définition : les acides carboxyliques et leurs dérivés",
+    "explanation": "Un acide carboxylique est une molécule organique contenant le groupe carboxyle $-COOH$ (carbone lié à un oxygène par une double liaison et à un groupe hydroxyle). Ce groupe est fortement polaire et réactif. Les dérivés des acides carboxyliques sont des composés obtenus par transformation du groupe carboxyle : ce sont les esters, les anhydrides, les amides et les chlorures d'acide. Chaque dérivé possède des propriétés chimiques et des domaines d'application distincts.",
+    "highlight": "Groupe carboxyle : $-COOH$ (acide carboxylique) → fonctions dérivées : esters ($-COOR'$), amides ($-CONH_2$), anhydrides, chlorures d'acide ($-COCl$)"
+  },
+  "example": {
+    "problem": "On dispose d'acide éthanoïque (acide acétique) $CH_3COOH$ de masse molaire $M = 60 \\text{ g/mol}$. On verse 30 mL d'une solution aqueuse à 0,5 mol/L de cet acide dans un bécher. On souhaite préparer l'ester éthanoate d'éthyle en faisant réagir cet acide carboxylique avec l'éthanol $C_2H_5OH$. Calcule la quantité (en moles) d'acide éthanoïque présente dans le bécher.",
+    "steps": [
+      "Étape 1 : Identifier les données. Volume de la solution : $V = 30 \\text{ mL} = 0,030 \\text{ L}$. Concentration molaire : $c = 0,5 \\text{ mol/L}$.",
+      "Étape 2 : Rappeler la formule reliant quantité de matière, concentration et volume : $n = c \\times V$",
+      "Étape 3 : Remplacer par les valeurs numériques : $n = 0,5 \\times 0,030$",
+      "Étape 4 : Effectuer le calcul : $n = 0,015 \\text{ mol}$",
+      "Étape 5 : Conclure. La quantité d'acide éthanoïque présente dans le bécher est 0,015 mol. C'est cette quantité qui pourra réagir avec l'éthanol pour former l'ester."
+    ]
+  },
+  "quiz": {
+    "question": "Un acide carboxylique réagit avec un alcool selon une réaction d'estérification. On fait réagir 0,2 mol d'acide propanoïque $C_2H_5COOH$ avec 0,3 mol d'éthanol $C_2H_5OH$. En supposant un rendement de 100 %, quelle est la quantité (en moles) d'ester formé ?",
+    "reponse_calculee": "0,2 mol",
+    "choices": [
+      {
+        "label": "0,05 mol",
+        "correct": false
+      },
+      {
+        "label": "0,2 mol",
+        "correct": true
+      },
+      {
+        "label": "0,3 mol",
+        "correct": false
+      },
+      {
+        "label": "0,5 mol",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Dans une réaction d'estérification entre un acide carboxylique et un alcool, les deux réactifs réagissent en proportion 1:1. L'acide propanoïque (0,2 mol) est le réactif limitant car tu en as moins que d'éthanol (0,3 mol). Donc la quantité d'ester formée est déterminée par l'acide : 0,2 mol d'ester se forment.",
+    "feedback_wrong": "Attention à l'équilibre stochiométrique. Dans l'estérification, l'acide carboxylique et l'alcool réagissent en proportions égales (1:1). Ici, tu as 0,2 mol d'acide et 0,3 mol d'alcool. L'acide est le réactif limitant, donc c'est sa quantité qui détermine celle de l'ester produit : 0,2 mol."
+  }
+}

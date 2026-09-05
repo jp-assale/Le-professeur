@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-l-accession-de-la-co",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'accession de la Côte d'Ivoire à l'indépendance",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'accession de la Côte d'Ivoire à l'indépendance",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que ta famille vit sous le contrôle d'une autre famille depuis longtemps : elle prend les décisions, elle fixe les règles, elle profite de vos ressources. Un jour, ta famille décide de dire « non, désormais on gère nos affaires nous-mêmes ». C'est exactement ce que la Côte d'Ivoire a fait en 1960 face à la France. Cette leçon te montre comment un peuple colonisé reprend son destin en main."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'indépendance de la Côte d'Ivoire ?",
+    "explanation": "L'indépendance, c'est le moment où la Côte d'Ivoire a cessé d'être une colonie française pour devenir un État libre et souverain, capable de se gouverner lui-même. Avant 1960, la France contrôlait le gouvernement, les ressources, l'économie et les décisions politiques de la Côte d'Ivoire. L'accession à l'indépendance a marqué la fin de cette domination coloniale et le début d'une nouvelle ère où les Ivoiriens devaient construire leur propre nation.",
+    "highlight": "L'indépendance = fin de la domination coloniale et naissance d'un État libre et souverain."
+  },
+  "example": {
+    "problem": "Analysons comment la Côte d'Ivoire a pu accéder à l'indépendance en 1960. Pourquoi la France a-t-elle accepté de laisser partir ses colonies africaines à cette période ?",
+    "steps": [
+      "Étape 1 : Observe le contexte mondial. Après la Seconde Guerre mondiale (1945), le monde change. Les grandes puissances coloniales comme la France sont affaiblies et endettées. Les Nations unies promeuvent l'autodétermination des peuples : chacun doit pouvoir choisir son avenir.",
+      "Étape 2 : Regarde la situation en Afrique. Partout, les peuples colonisés se soulèvent, réclament la liberté et refusent de rester sous domination étrangère. Des mouvements nationalistes gagnent en force et en légitimité.",
+      "Étape 3 : En Côte d'Ivoire, des figures comme Félix Houphouët-Boigny émergent. Elles prennent la tête du mouvement pour l'indépendance et négocient avec la France plutôt que de recourir à la violence armée (contrairement à d'autres colonies).",
+      "Étape 4 : La France, face à la pression internationale, aux coûts de maintien des colonies et aux mouvements d'indépendance croissants, accepte de négocier. Elle reconnaît que garder les colonies par la force devient impossible et trop coûteux.",
+      "Étape 5 : Le 7 août 1960, la Côte d'Ivoire proclame son indépendance. Félix Houphouët-Boigny devient le premier président d'une Côte d'Ivoire libre. C'est un moment décisif : les Ivoiriens reprennent le contrôle de leur destin politique, économique et social.",
+      "Étape 6 : Cette indépendance ne s'est pas faite en un jour. C'était le fruit de décennies de lutte, d'organisation politique et de négociation. Elle illustre aussi comment les mouvements d'indépendance africains ont réussi à libérer le continent du colonialisme."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés décrit correctement l'accession de la Côte d'Ivoire à l'indépendance ?",
+    "reponse_calculee": "La Côte d'Ivoire a cessé d'être une colonie française et est devenue un État libre et souverain le 7 août 1960, grâce à des négociations menées par des figures comme Félix Houphouët-Boigny.",
+    "choices": [
+      {
+        "label": "La Côte d'Ivoire a combattu la France par la guerre armée pendant plusieurs années avant d'obtenir son indépendance.",
+        "correct": false
+      },
+      {
+        "label": "La Côte d'Ivoire a cessé d'être une colonie française et est devenue un État libre et souverain le 7 août 1960, grâce à des négociations menées par des figures comme Félix Houphouët-Boigny.",
+        "correct": true
+      },
+      {
+        "label": "La France a imposé l'indépendance à la Côte d'Ivoire sans que les Ivoiriens ne le demandent, pour des raisons économiques.",
+        "correct": false
+      },
+      {
+        "label": "L'indépendance de la Côte d'Ivoire a eu lieu en 1945, juste après la fin de la Seconde Guerre mondiale.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as bien compris. La Côte d'Ivoire a accédé à l'indépendance le 7 août 1960 de manière négociée, sans recourir à la violence armée massive comme d'autres colonies africaines. Félix Houphouët-Boigny et d'autres leaders ont su convaincre la France et la communauté internationale de reconnaître la souveraineté ivoirienne. C'est un moment clé de l'histoire du pays.",
+    "feedback_wrong": "C'est pas ça. L'indépendance de la Côte d'Ivoire s'est faite différemment. Elle a été obtenue le 7 août 1960 principalement par la négociation, grâce à des figures comme Félix Houphouët-Boigny. La Côte d'Ivoire n'a pas mené une longue guerre d'indépendance comme l'Algérie, par exemple. Relis bien la leçon pour comprendre comment cette indépendance a été acquise."
+  }
+}

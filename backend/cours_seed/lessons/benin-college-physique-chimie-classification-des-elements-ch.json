@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-classification-des-elements-ch",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Classification des éléments chimiques",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Classification des éléments chimiques",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi l'or ne rouille pas, mais le fer oui ?",
+    "body": "Tu as remarqué que les bijoux en or brillent toujours, même après des années, tandis que les outils en fer deviennent rouillés et cassants. Pourquoi certains métaux sont-ils plus « nobles » que d'autres ? Pour répondre à cette question, les chimistes ont dû classer tous les éléments chimiques connus. Cette organisation nous montre les propriétés cachées de chaque atome et explique pourquoi l'or et le fer ne se comportent pas du tout de la même façon."
+  },
+  "concept": {
+    "heading": "Le tableau périodique : organisation des éléments chimiques",
+    "explanation": "Les éléments chimiques sont tous les « briques » qui composent la matière autour de toi — l'oxygène dans l'air, le carbone dans le bois, l'hydrogène dans l'eau. Chaque élément est caractérisé par un nombre de protons dans son noyau, appelé numéro atomique (Z). Les chimistes ont découvert une règle remarquable : si tu ranges les éléments par ordre croissant de numéro atomique et que tu les organises dans un tableau en lignes (périodes) et en colonnes (familles), les propriétés chimiques se répètent périodiquement. Ce tableau s'appelle le tableau périodique ou tableau de Mendeleïev. Il regroupe les éléments en familles : les métaux, les non-métaux, et les gaz nobles. Les éléments d'une même colonne (même famille) ont des propriétés très similaires.",
+    "highlight": "Les éléments sont classés par numéro atomique croissant (nombre de protons). Les éléments d'une même colonne ont des propriétés chimiques semblables."
+  },
+  "example": {
+    "problem": "On te propose d'identifier trois éléments d'une même famille (colonne) du tableau périodique. Le lithium (Li) a un numéro atomique Z = 3. Le sodium (Na) a Z = 11. Le potassium (K) a Z = 19. Ces trois éléments font-ils partie de la même famille ? Justifie en donnant la configuration électronique de chacun (nombre d'électrons sur la couche externe).",
+    "steps": [
+      "Étape 1 : Rappelle-toi que le nombre d'électrons = nombre de protons = numéro atomique Z (pour un atome neutre).",
+      "Étape 2 : Écris la configuration électronique du lithium (Z = 3). Les électrons se placent sur les couches K, L, M… Le lithium a 3 électrons : couche K (2 électrons maximum), couche L (1 électron). Donc : Li = 2, 1. Électron(s) de valence (couche externe) = 1.",
+      "Étape 3 : Écris la configuration du sodium (Z = 11). 11 électrons : couche K (2), couche L (8), couche M (1). Donc : Na = 2, 8, 1. Électron(s) de valence = 1.",
+      "Étape 4 : Écris la configuration du potassium (Z = 19). 19 électrons : couche K (2), couche L (8), couche M (8), couche N (1). Donc : K = 2, 8, 8, 1. Électron(s) de valence = 1.",
+      "Étape 5 : Compare. Les trois éléments ont tous 1 électron de valence (sur la couche la plus externe). Ils appartiennent donc à la même famille : la famille des alcalins (colonne 1 du tableau). Leur propriété chimique commune : ils réagissent facilement avec l'eau et l'oxygène."
+    ]
+  },
+  "quiz": {
+    "question": "Le bore (B) a un numéro atomique Z = 5, l'aluminium (Al) a Z = 13, et le gallium (Ga) a Z = 31. Quel élément appartient à la même famille que le bore ?",
+    "reponse_calculee": "Gallium",
+    "choices": [
+      {
+        "label": "L'aluminium, car son numéro atomique est entre celui du bore et du gallium",
+        "correct": false
+      },
+      {
+        "label": "Le gallium, car il a la même configuration électronique externe (3 électrons de valence) que le bore",
+        "correct": true
+      },
+      {
+        "label": "Aucun des deux, car leurs numéros atomiques ne sont pas consécutifs",
+        "correct": false
+      },
+      {
+        "label": "L'aluminium, car il est aussi un métal comme le bore",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le bore a 3 électrons de valence (configuration 2, 3), l'aluminium en a aussi 3 (configuration 2, 8, 3), et le gallium aussi (configuration 2, 8, 18, 3). Même nombre d'électrons de valence = même famille. Le bore et le gallium sont séparés par plusieurs périodes, mais ils sont dans la même colonne du tableau périodique (famille du bore). C'est pourquoi leurs propriétés chimiques se ressemblent.",
+    "feedback_wrong": "Pas tout à fait. Pour classer deux éléments dans la même famille, il faut regarder le nombre d'électrons sur la couche externe (électrons de valence), pas le numéro atomique global ni la position relative. Le bore (Z = 5) a 3 électrons de valence, l'aluminium (Z = 13) en a aussi 3, et le gallium (Z = 31) en a aussi 3. Donc bore et gallium sont dans la même famille, même s'ils ne sont pas côte à côte dans le tableau périodique. C'est cela que montre le classement périodique : les éléments se répètent en propriétés tous les 8 électrons de valence environ."
+  }
+}

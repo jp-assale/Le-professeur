@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-les-problemes-de-developpem",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Les problèmes de développement de l'Afrique et de la zone soudano-sahélienne",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "Les problèmes de développement de l'Afrique et de la zone soudano-sahélienne",
+  "intro": {
+    "heading": "Mise en situation : pourquoi certains villages peinent à se développer",
+    "body": "Imagine un village au Mali : les enfants parcourent 5 km chaque jour pour trouver de l'eau, il n'y a pas d'école secondaire à proximité, et quand la sécheresse arrive, les récoltes s'effondrent. Pendant ce temps, dans la capitale, les routes se construisent et les services fonctionnent mieux. Pourquoi cette inégalité ? Et pourquoi tout le continent africain fait face à des défis similaires ? C'est à ces questions que ce chapitre répond."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les problèmes de développement de l'Afrique ?",
+    "explanation": "Le développement, c'est l'amélioration de la qualité de vie des populations : accès à l'eau, l'électricité, l'éducation, la santé, les routes, le travail. L'Afrique et surtout la zone soudano-sahélienne (la bande de territoire qui s'étend du Sénégal au Tchad, entre le Sahara et les forêts) font face à des obstacles majeurs qui ralentissent ce développement. Ces obstacles ne sont pas naturels ou insurmontables — ils viennent de l'histoire coloniale, des conditions géographiques difficiles, de la pauvreté, des conflits et du manque d'infrastructures.",
+    "highlight": "Développement = amélioration durable de l'accès aux services essentiels et des conditions de vie pour tous"
+  },
+  "example": {
+    "problem": "Analysons le cas d'une région soudano-sahélienne fictive appelée Région X. Elle souffre de sécheresses régulières, les routes sont peu nombreuses et en mauvais état, les écoles manquent, et les jeunes émigrent vers les villes. Comment ces problèmes sont-ils liés et ralentissent-ils le développement ?",
+    "steps": [
+      "Étape 1 - Identifier le problème climatique : La sécheresse affaiblit l'agriculture, qui est la principale source de revenus. Les paysans produisent moins et gagnent moins.",
+      "Étape 2 - Voir l'impact sur l'éducation : Sans revenus stables, les familles ne peuvent pas payer l'école. Les enfants restent analphabètes et ne peuvent pas accéder à des métiers mieux payés plus tard.",
+      "Étape 3 - Comprendre le rôle des infrastructures : Sans bonnes routes, les produits agricoles ne peuvent pas être transportés vers les marchés des villes. Les paysans vendent à bas prix aux commerçants locaux.",
+      "Étape 4 - Observer la migration : Les jeunes, sans emploi ni éducation, quittent la région. La population active diminue, ce qui affaiblit encore plus l'économie locale.",
+      "Étape 5 - Voir le cercle vicieux : Moins de population, moins de demande locale, moins d'investissements publics (routes, écoles, santé), et donc plus de pauvreté. Le développement stagne.",
+      "Conclusion : Les problèmes de développement en zone soudano-sahélienne ne viennent pas d'une seule cause, mais d'une chaîne où chaque problème aggrave les autres."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les facteurs suivants, lequel est UN obstacle majeur au développement de la zone soudano-sahélienne ?",
+    "reponse_calculee": "Les sécheresses récurrentes et le manque d'infrastructures routières",
+    "choices": [
+      {
+        "label": "L'absence totale de ressources naturelles",
+        "correct": false
+      },
+      {
+        "label": "Les sécheresses récurrentes et le manque d'infrastructures routières",
+        "correct": true
+      },
+      {
+        "label": "Le fait que la zone soit trop peuplée",
+        "correct": false
+      },
+      {
+        "label": "L'interdiction d'accès à l'école pour tous les enfants",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les sécheresses rendent l'agriculture imprévisible et les mauvaises routes isolent les régions. Ces deux facteurs, ensemble, piègent les populations dans la pauvreté. Les autres options sont soit fausses, soit trop extrêmes : la zone a des ressources, elle n'est pas surpeuplée comparée aux standards mondiaux, et l'école n'est pas interdite, elle est simplement inaccessible pour beaucoup.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis : qu'est-ce qui empêche vraiment les paysans de vendre leurs récoltes et les enfants d'aller à l'école ? Les sécheresses et les mauvaises routes sont les vrais obstacles. Les autres réponses sont soit incorrectes, soit exagérées."
+  }
+}

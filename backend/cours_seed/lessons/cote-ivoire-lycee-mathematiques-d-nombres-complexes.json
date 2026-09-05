@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-nombres-complexes",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres complexes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Nombres complexes",
+  "intro": {
+    "heading": "Mise en situation : Les courants alternatifs",
+    "body": "En Afrique de l'Ouest, les ingénieurs électriciens doivent calculer des tensions et des intensités qui varient dans le temps de façon sinusoïdale. Pour simplifier ces calculs, ils utilisent des nombres spéciaux appelés nombres complexes, qui combinent une partie réelle et une partie imaginaire. Ces nombres permettent de résoudre des équations qu'on ne pouvait pas résoudre avant, comme $x^2 = -1$."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'un nombre complexe ?",
+    "explanation": "Un nombre complexe est un nombre de la forme $z = a + bi$, où $a$ et $b$ sont des nombres réels et $i$ est l'unité imaginaire définie par la propriété fondamentale $i^2 = -1$. Le nombre $a$ s'appelle la partie réelle (notée $\\text{Re}(z)$) et $b$ s'appelle la partie imaginaire (notée $\\text{Im}(z)$). Les nombres réels sont un cas particulier des nombres complexes (quand $b = 0$).",
+    "highlight": "$z = a + bi$ où $a, b \\in \\mathbb{R}$ et $i^2 = -1$"
+  },
+  "example": {
+    "problem": "Soit $z_1 = 3 + 2i$ et $z_2 = 1 - 4i$. Calcule $z_1 + z_2$ et $z_1 \\times z_2$.",
+    "steps": [
+      "Étape 1 : Addition. On additionne les parties réelles entre elles et les parties imaginaires entre elles. $z_1 + z_2 = (3 + 1) + (2 - 4)i = 4 - 2i$.",
+      "Étape 2 : Multiplication. On utilise la distributivité comme pour les polynômes, en remplaçant $i^2$ par $-1$. $z_1 \\times z_2 = (3 + 2i)(1 - 4i)$.",
+      "Étape 3 : Développement. $z_1 \\times z_2 = 3 \\times 1 + 3 \\times (-4i) + 2i \\times 1 + 2i \\times (-4i) = 3 - 12i + 2i - 8i^2$.",
+      "Étape 4 : Remplacement. Puisque $i^2 = -1$, on a $-8i^2 = -8 \\times (-1) = 8$.",
+      "Étape 5 : Regroupement. $z_1 \\times z_2 = 3 + 8 + (-12 + 2)i = 11 - 10i$."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule $(2 + 3i)^2$.",
+    "reponse_calculee": "$-5 + 12i$",
+    "choices": [
+      {
+        "label": "$4 + 9i^2$",
+        "correct": false
+      },
+      {
+        "label": "$-5 + 12i$",
+        "correct": true
+      },
+      {
+        "label": "$13 + 12i$",
+        "correct": false
+      },
+      {
+        "label": "$4 + 12i + 9$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! On développe $(2 + 3i)^2 = 4 + 2 \\times 2 \\times 3i + 9i^2 = 4 + 12i + 9(-1) = 4 + 12i - 9 = -5 + 12i$. Tu as bien appliqué la formule du carré et remplacé $i^2$ par $-1$.",
+    "feedback_wrong": "Pas tout à fait. Développe en utilisant $(a + b)^2 = a^2 + 2ab + b^2$ : $(2 + 3i)^2 = 4 + 12i + 9i^2$. N'oublie pas que $i^2 = -1$, donc $9i^2 = -9$. Le résultat final est $4 + 12i - 9 = -5 + 12i$."
+  }
+}

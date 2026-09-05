@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-etude-d-un-groupement-de-textes-t",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Étude d'un groupement de textes théâtraux",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Étude d'un groupement de textes théâtraux",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu assistes à un festival de théâtre à Abidjan. On te propose de voir trois pièces différentes sur le même thème : l'injustice sociale. Chaque pièce l'aborde différemment, avec des personnages, des styles et des messages distincts. Pour bien comprendre ce que chaque auteur veut te dire, tu dois les lire ensemble, les comparer, et dégager ce qui les unit et ce qui les distingue. C'est exactement ce que nous allons apprendre à faire."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un groupement de textes théâtraux ?",
+    "explanation": "Un groupement de textes théâtraux est un ensemble de deux ou plusieurs extraits ou pièces complètes que tu dois étudier ensemble autour d'une thématique, d'une problématique ou d'une période commune. L'objectif n'est pas d'analyser chaque texte isolément, mais de les mettre en dialogue : voir comment ils se répondent, se complètent, ou s'opposent. Cette approche te permet de comprendre non seulement chaque œuvre, mais aussi les grandes questions qu'elle soulève et comment différents auteurs les traitent.",
+    "highlight": "Un groupement de textes théâtraux = plusieurs textes étudiés ensemble pour dégager des points communs, des différences et une compréhension globale du thème."
+  },
+  "example": {
+    "problem": "On te propose d'étudier un groupement de trois extraits théâtraux autour du thème « Le pouvoir et ses abus ». Le premier extrait montre un roi tyrannique qui écrase le peuple. Le deuxième montre un chef de village qui abuse de son autorité pour des intérêts personnels. Le troisième montre une femme qui se révolte contre l'oppression d'un homme puissant. Comment procèdes-tu pour analyser ce groupement de manière cohérente ?",
+    "steps": [
+      "Étape 1 : Identifier la thématique commune. Ici, c'est clairement « le pouvoir et ses abus ». Cette thématique est l'axe qui relie tous les textes.",
+      "Étape 2 : Analyser chaque texte individuellement. Pour chacun, tu repères : qui détient le pouvoir, comment il l'exerce, quelles en sont les conséquences, quel message l'auteur veut transmettre.",
+      "Étape 3 : Comparer les contextes. Le roi agit dans un contexte royal, le chef dans un contexte villageois, la femme dans un contexte d'oppression personnelle. Ces contextes diversifiés enrichissent la réflexion sur le pouvoir.",
+      "Étape 4 : Dégager les similitudes. Tous les trois montrent comment le pouvoir corrompt et comment les faibles subissent. Cela renforce la critique générale de l'abus de pouvoir.",
+      "Étape 5 : Identifier les différences. L'un critique par le registre tragic, l'autre par le registre satirique, le troisième par le registre pathétique. Les styles varient, ce qui montre qu'il existe plusieurs façons d'aborder le même problème.",
+      "Étape 6 : Conclure sur la portée globale. Ce groupement montre que l'abus de pouvoir est un mal universel, présent à tous les niveaux de la société, et que le théâtre en tant qu'art peut le dénoncer de multiples manières."
+    ]
+  },
+  "quiz": {
+    "question": "Tu dois étudier un groupement de deux pièces théâtrales : l'une parle de la condition des femmes dans une société traditionnelle, l'autre parle de la même condition dans une société urbaine moderne. Quel est l'avantage principal d'étudier ces deux textes ensemble plutôt que séparément ?",
+    "reponse_calculee": "Montrer comment une même problématique évolue selon les contextes sociaux et historiques",
+    "choices": [
+      {
+        "label": "Réduire le temps d'étude en lisant moins de pages",
+        "correct": false
+      },
+      {
+        "label": "Montrer comment une même problématique évolue selon les contextes sociaux et historiques",
+        "correct": true
+      },
+      {
+        "label": "Prouver qu'une pièce est meilleure que l'autre",
+        "correct": false
+      },
+      {
+        "label": "Apprendre par cœur tous les dialogues des deux pièces",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! En étudiant ces deux pièces ensemble autour du même thème (la condition des femmes), tu peux observer comment ce thème se manifeste différemment selon les contextes. Cela enrichit ta compréhension : tu vois que c'est un problème persistant, mais aussi que les auteurs l'appréhendent de façons distinctes selon leur époque et leur environnement. C'est la force du groupement de textes.",
+    "feedback_wrong": "Pas tout à fait. L'objectif du groupement de textes n'est pas de juger quelle pièce est meilleure, ni de réduire ton travail, ni de mémoriser mécaniquement. Il s'agit de comprendre comment différents auteurs traitent une même question et ce que cela nous apprend. Relis la question : le véritable intérêt est de voir comment une thématique commune se décline différemment selon les contextes."
+  }
+}

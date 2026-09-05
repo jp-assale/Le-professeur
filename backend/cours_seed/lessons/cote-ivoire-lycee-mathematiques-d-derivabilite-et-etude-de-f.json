@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-derivabilite-et-etude-de-f",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Dérivabilité et étude de fonctions",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Dérivabilité et étude de fonctions",
+  "intro": {
+    "heading": "Mise en situation : La route sinueuse",
+    "body": "Imagine une route de montagne en Côte d'Ivoire qui monte progressivement vers un col. À certains endroits, la pente est douce et régulière ; à d'autres, elle devient raide ou même dangereuse. Pour bien construire cette route et prévoir où les camions auront du mal à monter, les ingénieurs doivent mesurer cette pente à chaque point. C'est exactement ce que fait la dérivabilité : elle mesure comment une fonction change à chaque instant."
+  },
+  "concept": {
+    "heading": "La dérivabilité : mesurer le changement instantané",
+    "explanation": "Une fonction f est dérivable en un point $x_0$ si elle admet une dérivée en ce point, c'est-à-dire si le taux de variation instantané existe. Géométriquement, cela signifie que la courbe possède une tangente bien définie (une seule direction) au point considéré. Pour étudier une fonction, il faut d'abord vérifier où elle est dérivable, puis utiliser sa dérivée pour analyser sa croissance, ses extrema et son allure générale.",
+    "highlight": "f est dérivable en $x_0$ si $\\lim_{h \\to 0} \\frac{f(x_0 + h) - f(x_0)}{h}$ existe et est finie. Cette limite s'appelle $f'(x_0)$."
+  },
+  "example": {
+    "problem": "Soit $f(x) = 2x^2 - 5x + 3$ définie sur $\\mathbb{R}$. Montre que f est dérivable en $x_0 = 2$ et calcule $f'(2)$.",
+    "steps": [
+      "Étape 1 : Calcule $f(x_0) = f(2) = 2(2)^2 - 5(2) + 3 = 8 - 10 + 3 = 1$.",
+      "Étape 2 : Exprime $f(x_0 + h) = f(2 + h) = 2(2 + h)^2 - 5(2 + h) + 3 = 2(4 + 4h + h^2) - 10 - 5h + 3 = 8 + 8h + 2h^2 - 10 - 5h + 3 = 2h^2 + 3h + 1$.",
+      "Étape 3 : Calcule le taux de variation : $\\frac{f(2 + h) - f(2)}{h} = \\frac{2h^2 + 3h + 1 - 1}{h} = \\frac{2h^2 + 3h}{h} = 2h + 3$ (pour $h \\neq 0$).",
+      "Étape 4 : Prends la limite quand $h \\to 0$ : $\\lim_{h \\to 0} (2h + 3) = 3$.",
+      "Étape 5 : Conclusion : f est dérivable en $x_0 = 2$ et $f'(2) = 3$. Cette dérivée représente la pente de la tangente à la courbe au point d'abscisse 2."
+    ]
+  },
+  "quiz": {
+    "question": "Considère la fonction $g(x) = -x^2 + 4x$. Calcule sa dérivée $g'(x)$ en utilisant la formule $g'(x) = \\lim_{h \\to 0} \\frac{g(x + h) - g(x)}{h}$, puis déduis $g'(1)$.",
+    "reponse_calculee": "2",
+    "choices": [
+      {
+        "label": "g'(1) = 4",
+        "correct": false
+      },
+      {
+        "label": "g'(1) = 2",
+        "correct": true
+      },
+      {
+        "label": "g'(1) = -2",
+        "correct": false
+      },
+      {
+        "label": "g'(1) = 0",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! En développant $g(x + h) = -(x + h)^2 + 4(x + h) = -x^2 - 2xh - h^2 + 4x + 4h$, le taux de variation devient $\\frac{-2xh - h^2 + 4h}{h} = -2x - h + 4$. À la limite, $g'(x) = -2x + 4$. Donc $g'(1) = -2(1) + 4 = 2$. La courbe monte avec une pente de 2 au point d'abscisse 1.",
+    "feedback_wrong": "Pas tout à fait. Reprenons : $g(x + h) = -(x + h)^2 + 4(x + h) = -x^2 - 2xh - h^2 + 4x + 4h$. Le taux de variation est $\\frac{g(x + h) - g(x)}{h} = \\frac{-2xh - h^2 + 4h}{h} = -2x - h + 4$. À la limite quand $h \\to 0$, on obtient $g'(x) = -2x + 4$. En particulier, $g'(1) = -2(1) + 4 = 2$."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-equations-differentielles",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Équations différentielles",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Équations différentielles",
+  "intro": {
+    "heading": "Mise en situation : La propagation d'une épidémie",
+    "body": "Dans un village du Sénégal, une épidémie se propage. Le nombre de personnes infectées change chaque jour selon le nombre de malades existants. Les autorités sanitaires ont besoin de prédire comment la maladie va évoluer. Pour cela, elles doivent résoudre une équation qui lie la variation du nombre de malades au nombre de malades présents : c'est une équation différentielle."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une équation différentielle ?",
+    "explanation": "Une équation différentielle est une équation qui relie une fonction inconnue à ses dérivées. Elle exprime comment une grandeur varie en fonction d'une autre (souvent le temps). Résoudre une équation différentielle, c'est trouver la fonction qui satisfait cette relation. Dans ce chapitre, tu étudies les équations différentielles du premier ordre, c'est-à-dire celles où apparaît seulement la dérivée première de la fonction inconnue.",
+    "highlight": "y' = f(x, y) où y' est la dérivée de y par rapport à x"
+  },
+  "example": {
+    "problem": "Un tank d'eau se vide par un trou. La vitesse de vidage est proportionnelle à la quantité d'eau restante. On modélise cela par l'équation différentielle : dy/dt = -0,1 × y, où y(t) est la quantité d'eau (en litres) à l'instant t (en heures) et y(0) = 100 litres. Résous cette équation et trouve y(t).",
+    "steps": [
+      "Étape 1 : Identifier le type d'équation. C'est une équation différentielle du premier ordre de la forme y' = k × y (équation linéaire homogène), où k = -0,1.",
+      "Étape 2 : Séparer les variables. Réécris dy/dt = -0,1 × y sous la forme : dy/y = -0,1 × dt.",
+      "Étape 3 : Intégrer les deux côtés. ∫(dy/y) = ∫(-0,1 × dt), ce qui donne : ln|y| = -0,1 × t + C, où C est une constante.",
+      "Étape 4 : Exprimer y en fonction de t. En prenant l'exponentielle : y(t) = e^(-0,1×t + C) = e^C × e^(-0,1×t) = A × e^(-0,1×t), où A = e^C.",
+      "Étape 5 : Utiliser la condition initiale. Puisque y(0) = 100, on a : 100 = A × e^0 = A, donc A = 100.",
+      "Étape 6 : Écrire la solution finale. y(t) = 100 × e^(-0,1×t). Le tank se vide exponentiellement : après 10 heures, il reste environ 100 × e^(-1) ≈ 36,8 litres."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la solution générale de l'équation différentielle y' = 3y ?",
+    "reponse_calculee": "y(x) = C × e^(3x)",
+    "choices": [
+      {
+        "label": "y(x) = C × e^(-3x)",
+        "correct": false
+      },
+      {
+        "label": "y(x) = C × e^(3x)",
+        "correct": true
+      },
+      {
+        "label": "y(x) = C × 3x",
+        "correct": false
+      },
+      {
+        "label": "y(x) = 3x + C",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pour y' = 3y, tu sépares les variables : dy/y = 3dx. En intégrant, tu obtiens ln|y| = 3x + K, d'où y = e^(3x + K) = e^K × e^(3x) = C × e^(3x), où C est une constante arbitraire.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que pour une équation du type y' = ky, la solution est toujours de la forme y(x) = C × e^(kx). Ici k = 3, donc l'exponentielle doit avoir l'exposant 3x, pas -3x ou 3x linéaire."
+  }
+}

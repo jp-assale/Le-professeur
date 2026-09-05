@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-produire-la-scene-anterieure-d",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Produire la scène antérieure d'un texte (récit)",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Produire la scène antérieure d'un texte (récit)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu lis une histoire : « Moussa arriva à l'école avec deux heures de retard. Il était épuisé et ses vêtements étaient déchirés. » Tu te poses des questions : Pourquoi est-il arrivé si tard ? Qu'est-ce qui s'est passé avant ? Pour répondre, tu dois imaginer et raconter la scène antérieure — tout ce qui a eu lieu avant le moment du récit principal. C'est exactement ce qu'on va apprendre à faire aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une scène antérieure ?",
+    "explanation": "Dans un récit, il existe souvent des événements qui ont lieu avant le moment où débute l'histoire racontée. La scène antérieure est l'ensemble des événements, des actions et des circonstances qui expliquent pourquoi les choses se trouvent dans l'état où le lecteur les découvre. Elle répond aux questions : Qu'est-ce qui s'est passé avant ? Comment les personnages en sont-ils arrivés là ? Produire une scène antérieure, c'est raconter ces événements précédents de manière vivante et cohérente, pour que le lecteur comprenne vraiment d'où vient la situation initiale du récit.",
+    "highlight": "La scène antérieure raconte ce qui a eu lieu avant le début du récit principal, pour expliquer l'état initial des personnages et des faits."
+  },
+  "example": {
+    "problem": "Voici l'ouverture d'un récit : « Awa se précipita vers le marché, le cœur battant. Elle cherchait désespérément de l'argent pour payer l'école. » Produis la scène antérieure qui explique cette situation.",
+    "steps": [
+      "Étape 1 : Repère les indices dans le texte. Awa est pressée, elle a besoin d'argent, c'est pour l'école. Cela suggère une urgence et une difficulté financière.",
+      "Étape 2 : Pose-toi les bonnes questions. Pourquoi a-t-elle attendu jusqu'à maintenant ? Quel événement a créé cette urgence ? D'où venait l'argent habituellement ?",
+      "Étape 3 : Imagine les événements qui auraient pu créer cette situation. Par exemple : le père d'Awa travaillait au marché ; hier, une tempête a endommagé son étal et il a perdu sa marchandise ; ce matin, l'école a envoyé un message : les frais doivent être payés aujourd'hui.",
+      "Étape 4 : Raconte cette scène antérieure de manière vivante. « La nuit précédente, le vent violent avait renversé l'étal de son père au marché. Toutes les toiles étaient déchirées, les fruits éparpillés. Ce matin, la directrice avait dit fermement : 'Les frais scolaires doivent arriver avant midi, ou Awa ne pourra pas entrer en classe.' »",
+      "Étape 5 : Vérifie la cohérence. Cette scène antérieure explique bien pourquoi Awa court vers le marché avec urgence et pourquoi elle cherche de l'argent. Elle crée une chaîne logique : malheur du père → urgence financière → course d'Awa.",
+      "Étape 6 : Relie-la au texte principal. Maintenant, quand le lecteur lit « Awa se précipita vers le marché, le cœur battant », il comprend exactement pourquoi et ce que cela coûte à Awa émotionnellement."
+    ]
+  },
+  "quiz": {
+    "question": "Tu lis : « Kofi entra en classe les yeux rouges et gonflés, tremblant de froid. » Laquelle de ces propositions est une véritable scène antérieure qui explique cette situation ?",
+    "reponse_calculee": "Kofi avait passé la nuit dehors sous la pluie après une dispute avec sa mère, sans abri ni vêtements chauds.",
+    "choices": [
+      {
+        "label": "Kofi entra en classe.",
+        "correct": false
+      },
+      {
+        "label": "Kofi avait passé la nuit dehors sous la pluie après une dispute avec sa mère, sans abri ni vêtements chauds.",
+        "correct": true
+      },
+      {
+        "label": "Kofi avait un problème de vision.",
+        "correct": false
+      },
+      {
+        "label": "Kofi n'aimait pas aller à l'école le matin.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Cette proposition raconte des événements qui ont lieu avant le moment du récit (la nuit précédente, la dispute, la nuit dehors), et elle explique pourquoi Kofi a les yeux rouges et trembles de froid. C'est une vraie scène antérieure.",
+    "feedback_wrong": "Non, ce n'est pas la bonne réponse. Rappelle-toi : la scène antérieure doit raconter ce qui s'est passé AVANT le début du récit, et expliquer l'état dans lequel se trouve le personnage à ce moment-là. Elle doit donner les causes des événements actuels."
+  }
+}

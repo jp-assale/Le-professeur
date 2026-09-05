@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-decolonisation-de-l-afri",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La décolonisation de l'Afrique (formes, facteurs)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La décolonisation de l'Afrique (formes, facteurs)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un pays africain où, il y a cent ans, une puissance étrangère contrôlait tout : les terres, les ressources, les décisions politiques, même l'école et la langue enseignée. Les habitants n'avaient aucun pouvoir. Aujourd'hui, ce pays est indépendant, avec son propre gouvernement et ses propres lois. Comment ce changement s'est-il produit ? C'est l'histoire de la décolonisation."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la décolonisation ?",
+    "explanation": "La décolonisation est le processus par lequel les peuples colonisés d'Afrique ont conquis leur indépendance et se sont libérés du contrôle des puissances coloniales (France, Belgique, Portugal, Royaume-Uni, etc.). Ce processus s'est déroulé surtout entre les années 1950 et 1970. Il n'y a pas eu une seule façon de se libérer : certains pays ont négocié pacifiquement avec la métropole, d'autres ont dû engager des luttes armées longues et difficiles.",
+    "highlight": "La décolonisation = conquête de l'indépendance politique par des peuples africains face aux puissances coloniales."
+  },
+  "example": {
+    "problem": "Observe ces deux chemins vers l'indépendance africaine : le Mali (ancien Soudan français) a obtenu son indépendance en 1960 après des négociations pacifiques avec la France. L'Algérie, colonie française depuis plus longtemps, a dû mener une guerre de huit années (1954-1962) avant d'obtenir son indépendance. Pourquoi deux formes si différentes de décolonisation ?",
+    "steps": [
+      "Étape 1 : Identifie les facteurs internes. En Algérie, la colonisation était plus ancienne et plus profonde (des Européens y vivaient depuis longtemps en tant que colons). Au Mali, la présence française était moins dense. Plus la colonisation était ancrée, plus la résistance a été forte.",
+      "Étape 2 : Repère les facteurs externes. Après la Seconde Guerre mondiale, les grandes puissances coloniales (France, Royaume-Uni) étaient affaiblies militairement et économiquement. Cette faiblesse a ouvert des possibilités.",
+      "Étape 3 : Analyse l'attitude de la métropole. La France a accepté de négocier avec le Mali relativement rapidement, mais a refusé longtemps de céder l'Algérie (vue comme une prolongation de la France). Cette rigidité a forcé la lutte armée.",
+      "Étape 4 : Comprends l'impact de la mobilisation interne. En Algérie, le peuple était organisé et mobilisé autour du FLN (Front de libération nationale). Au Mali, les élites ont aussi organisé le mouvement. L'organisation compte.",
+      "Étape 5 : Conclus sur les formes. La décolonisation peut être pacifique (négociation) ou violente (guerre). Les deux sont des formes légitimes nées de contextes différents. Le résultat final est le même : l'indépendance.",
+      "Étape 6 : Tire la leçon. La décolonisation n'était jamais 'donnée' : elle s'est toujours conquise, soit par la persuasion, soit par la lutte. C'est un acte de volonté des peuples."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les affirmations suivantes, laquelle résume correctement les deux formes principales de décolonisation en Afrique ?",
+    "reponse_calculee": "La décolonisation pacifique par négociation et la décolonisation par lutte armée, toutes deux motivées par le désir d'indépendance et de liberté politique.",
+    "choices": [
+      {
+        "label": "Seule la lutte armée a permis la décolonisation en Afrique ; les négociations n'ont jamais fonctionné.",
+        "correct": false
+      },
+      {
+        "label": "La décolonisation pacifique par négociation et la décolonisation par lutte armée, toutes deux motivées par le désir d'indépendance et de liberté politique.",
+        "correct": true
+      },
+      {
+        "label": "Les puissances coloniales ont volontairement accordé l'indépendance sans aucune pression des peuples africains.",
+        "correct": false
+      },
+      {
+        "label": "La décolonisation s'est faite uniquement par la signature de traités internationaux, sans mobilisation des peuples.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La décolonisation en Afrique a pris deux formes principales : certains pays ont négocié avec la métropole (comme le Mali avec la France), tandis que d'autres ont dû engager des luttes armées longues (comme l'Algérie). Dans les deux cas, c'est la volonté et la mobilisation des peuples africains qui ont forcé le changement. Il n'y a pas eu une seule recette : le contexte historique, la profondeur de la colonisation, et l'attitude de la métropole ont déterminé la forme prise.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que la décolonisation n'a pas eu une seule forme. En Afrique, certains pays ont obtenu l'indépendance par la négociation pacifique avec la métropole (exemple : Mali, Côte d'Ivoire avec la France). D'autres ont dû mener des guerres d'indépendance longues et difficiles (exemple : Algérie, Mozambique, Angola). Les deux formes sont des réalités historiques. La clé à retenir : dans tous les cas, c'est la pression et la mobilisation des peuples africains qui ont forcé les puissances coloniales à lâcher prise."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-2e-revolution-industr",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La 2e révolution industrielle et ses conséquences",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La 2e révolution industrielle et ses conséquences",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine une ville en Afrique de l'Ouest il y a 150 ans : les gens se déplacent à pied ou à cheval, les maisons s'éclairent à la bougie, les usines fonctionnent avec la vapeur. Puis, en quelques décennies, l'électricité arrive, les trains sillonnent les campagnes, les machines deviennent plus précises et plus puissantes. C'est cette transformation radicale que les historiens appellent la 2e révolution industrielle."
+  },
+  "concept": {
+    "heading": "Définition et enjeu central",
+    "explanation": "La 2e révolution industrielle est la période (environ 1870-1914) où l'industrie se transforme profondément : la vapeur cède du terrain à l'électricité et au pétrole, les usines produisent en série et non plus à la main, les transports et les communications changent complètement. Ce n'est plus seulement le textile et l'acier qu'on fabrique : apparaissent l'automobile, l'avion, la radio, le cinéma. Cette révolution modifie aussi la vie quotidienne, le travail, les villes, et les rapports entre pays riches et pays pauvres.",
+    "highlight": "De nouvelles sources d'énergie (électricité, pétrole) + machines plus performantes + production en série = transformation économique, sociale et géopolitique majeure"
+  },
+  "example": {
+    "problem": "Analyse comment la 2e révolution industrielle a transformé le transport et ses effets sur la société coloniale en Afrique de l'Ouest.",
+    "steps": [
+      "Étape 1 : Avant la 2e révolution (avant 1870), les transports terrestres en Afrique de l'Ouest restent limités — pas de routes, pas de rails. Les marchandises circulent à dos d'âne ou par pirogue. Un voyage de 100 km prend plusieurs jours.",
+      "Étape 2 : Grâce à l'acier bon marché et à la vapeur perfectionnée, les puissances coloniales construisent des chemins de fer. Ces rails permettent de transporter rapidement et en grand volume minerai, arachides, coton vers les ports côtiers.",
+      "Étape 3 : L'électricité et le moteur à essence arrivent : les ports se motorisent, les bateaux à vapeur deviennent plus rapides et fiables. Un navire vapeur transporte en 2 semaines ce qui prenait 3 mois avant.",
+      "Étape 4 : Cette accélération des transports renforce la domination coloniale — les colonisateurs peuvent extraire plus de ressources, plus vite, et envoyer des troupes en renfort plus efficacement.",
+      "Étape 5 : Pour les populations locales, le résultat est double : accès à de nouveaux produits importés (tissus, outils), mais aussi exploitation accrue des ressources naturelles et du travail.",
+      "Étape 6 : Conclusion : la 2e révolution industrielle n'a pas seulement changé les machines — elle a renforcé le système colonial en donnant aux puissances européennes les outils pour dominer plus complètement."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les énergies et innovations suivantes, laquelle est CARACTÉRISTIQUE de la 2e révolution industrielle et non de la 1ère ?",
+    "reponse_calculee": "L'électricité et le moteur à explosion",
+    "choices": [
+      {
+        "label": "La machine à vapeur et le charbon",
+        "correct": false
+      },
+      {
+        "label": "L'électricité et le moteur à explosion",
+        "correct": true
+      },
+      {
+        "label": "Le tissage mécanique et la filature",
+        "correct": false
+      },
+      {
+        "label": "L'énergie hydraulique et les moulins",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La 1ère révolution industrielle (fin XVIIIe siècle) s'est construite sur la vapeur et le charbon. La 2e révolution introduit l'électricité (fin XIXe siècle) et le moteur à explosion, qui ouvrent des possibilités nouvelles : éclairage électrique, transports automobiles, production en série plus précise. Ces énergies ont transformé les villes, les usines et la vie quotidienne de manière radicalement différente.",
+    "feedback_wrong": "Pas tout à fait. La machine à vapeur, le tissage mécanique et l'énergie hydraulique sont des caractéristiques de la 1ère révolution industrielle (fin XVIIIe – début XIXe siècle). La 2e révolution industrielle se distingue par l'arrivée de l'électricité et du moteur à explosion, qui permettent une production plus rapide, plus précise, et transforment les transports et la communication."
+  }
+}

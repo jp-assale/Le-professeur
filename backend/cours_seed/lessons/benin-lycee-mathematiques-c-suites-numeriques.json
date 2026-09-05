@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-suites-numeriques",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Suites numériques",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Suites numériques",
+  "intro": {
+    "heading": "Mise en situation : Une épargne qui grandit",
+    "body": "Imagine que tu mets de l'argent de côté chaque mois pour un projet. Le premier mois, tu épargnes 5000 francs CFA, le deuxième mois 6000, le troisième 7000, et ainsi de suite. Tu remarques que ta séquence d'épargnes suit un motif régulier. Les mathématiciens appellent cela une suite : une succession ordonnée de nombres qui évoluent selon une règle précise."
+  },
+  "concept": {
+    "heading": "Définition : Qu'est-ce qu'une suite numérique ?",
+    "explanation": "Une suite numérique est une succession de nombres réels, indexés dans un ordre précis. Chaque nombre occupe une position (appelée rang ou indice), et on peut prédire les suivants en connaissant la règle qui régit leur évolution. Les suites les plus importantes sont les suites arithmétiques (où la différence entre deux termes consécutifs est constante) et les suites géométriques (où le rapport entre deux termes consécutifs est constant).",
+    "highlight": "Une suite est définie par une formule explicite ou une relation de récurrence. Pour une suite arithmétique : $u_n = u_1 + (n-1)r$ où $r$ est la raison. Pour une suite géométrique : $u_n = u_1 \\times q^{n-1}$ où $q$ est la raison."
+  },
+  "example": {
+    "problem": "Un jeune entrepreneur vend des téléphones. Le premier mois, il en vend 12. Chaque mois suivant, il augmente ses ventes de 8 téléphones. Combien de téléphones vendra-t-il le 10e mois ? De plus, calcule le nombre total de téléphones vendus en 10 mois.",
+    "steps": [
+      "Étape 1 : Identifier le type de suite. La différence entre chaque mois est constante (8 téléphones), donc c'est une suite arithmétique avec $u_1 = 12$ et raison $r = 8$.",
+      "Étape 2 : Appliquer la formule du terme général. Pour le 10e mois : $u_{10} = u_1 + (10 - 1) \\times r = 12 + 9 \\times 8 = 12 + 72 = 84$ téléphones.",
+      "Étape 3 : Vérifier avec quelques termes. $u_1 = 12$, $u_2 = 20$, $u_3 = 28$... oui, la différence est bien 8.",
+      "Étape 4 : Calculer la somme totale en 10 mois. La formule est $S_n = \\frac{n(u_1 + u_n)}{2}$.",
+      "Étape 5 : Appliquer : $S_{10} = \\frac{10 \\times (12 + 84)}{2} = \\frac{10 \\times 96}{2} = \\frac{960}{2} = 480$ téléphones en 10 mois.",
+      "Réponse : Le 10e mois, 84 téléphones seront vendus. Au total, 480 téléphones auront été vendus en 10 mois."
+    ]
+  },
+  "quiz": {
+    "question": "Une suite arithmétique commence à $u_1 = 3$ et a pour raison $r = 5$. Quel est le terme $u_6$ ?",
+    "reponse_calculee": "28",
+    "choices": [
+      {
+        "label": "23",
+        "correct": false
+      },
+      {
+        "label": "28",
+        "correct": true
+      },
+      {
+        "label": "33",
+        "correct": false
+      },
+      {
+        "label": "30",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement appliqué la formule $u_n = u_1 + (n-1)r$. Donc $u_6 = 3 + (6-1) \\times 5 = 3 + 25 = 28$. Tu maîtrises le calcul des termes d'une suite arithmétique.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : $u_n = u_1 + (n-1)r$. Ici, $u_6 = 3 + (6-1) \\times 5 = 3 + 5 \\times 5 = 3 + 25 = 28$. Attention : c'est $(n-1)$ multiplié par la raison, pas $n$. Réessaie !"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-le-droit-et-la-justice",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Le droit et la justice",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Le droit et la justice",
+  "intro": {
+    "heading": "Mise en situation : Un conflit de terre au village",
+    "body": "Dans un village du Burkina Faso, deux familles se disputent une parcelle de terre depuis des années. L'une dit qu'elle l'a cultivée pendant dix ans, l'autre prétend l'avoir héritée de ses ancêtres. Qui a raison ? Comment trancher de manière juste ? C'est exactement le rôle du droit et de la justice : établir des règles communes et les appliquer équitablement pour résoudre les conflits et protéger chacun."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le droit et la justice ?",
+    "explanation": "Le droit est l'ensemble des règles obligatoires qui gouvernent la vie en société. La justice, c'est l'application de ces règles de manière équitable et impartiale. Le droit crée un cadre ; la justice le met en œuvre en cherchant à donner à chacun ce qui lui est dû. En Afrique de l'Ouest, comme ailleurs, le droit se fonde sur deux idées : que tous les citoyens sont égaux devant la loi, et que nul ne doit être lésé sans raison valide.",
+    "highlight": "Le droit est l'ensemble des règles obligatoires ; la justice est leur application équitable."
+  },
+  "example": {
+    "problem": "Analyse le cas suivant selon les principes du droit et de la justice : Un jeune homme emprunte 100 000 francs CFA à son voisin sans écrit. Deux ans plus tard, il dit qu'il a remboursé 60 000 francs en espèces au marché. Le voisin affirme n'avoir reçu que 20 000 francs. Comment la justice doit-elle trancher ?",
+    "steps": [
+      "Étape 1 : Identifier la règle de droit applicable. En droit civil, un contrat de prêt crée une obligation légale de remboursement. Même sans écrit, le prêt est valide si les deux parties le reconnaissent.",
+      "Étape 2 : Constater le problème de preuve. Le jeune homme prétend avoir remboursé 60 000 francs, le voisin dit 20 000. Aucun document n'existe. C'est un désaccord sur les faits.",
+      "Étape 3 : Appliquer le principe de justice : chacun doit pouvoir prouver ses affirmations. Celui qui affirme quelque chose en justice doit en apporter la preuve. Le jeune homme doit montrer comment il a versé 60 000 francs.",
+      "Étape 4 : Examiner les éléments de preuve. Sans témoins de confiance ou trace bancaire, la preuve du jeune homme est faible. En revanche, si plusieurs témoins confirment voir des remises d'argent, c'est plus crédible.",
+      "Étape 5 : Décider justement. La justice ne peut pas inventer les faits. Elle doit évaluer la crédibilité des deux versions et appliquer la règle : celui qui ne peut pas prouver son paiement reste débiteur de la différence reconnue.",
+      "Étape 6 : Conclusion. C'est un exemple concret où le droit (obligation de rembourser) rencontre la justice (besoin de preuve équitable) pour atteindre une solution qui protège les deux parties selon des règles transparentes."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la différence essentielle entre le droit et la justice ?",
+    "reponse_calculee": "C",
+    "choices": [
+      {
+        "label": "A) Le droit concerne les riches, la justice concerne les pauvres.",
+        "correct": false
+      },
+      {
+        "label": "B) Le droit n'existe que dans les pays européens, la justice existe partout.",
+        "correct": false
+      },
+      {
+        "label": "C) Le droit est l'ensemble des règles obligatoires ; la justice est leur application équitable.",
+        "correct": true
+      },
+      {
+        "label": "D) La justice est plus importante que le droit et peut le modifier à volonté.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. Le droit crée le cadre (les règles), la justice le concrétise (l'application équitable). Sans l'une, l'autre n'existe pas : sans règles (droit), la justice serait arbitraire ; sans application honnête (justice), le droit ne serait qu'une coquille vide.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : le droit ce n'est pas une question de richesse ou de géographie, et la justice n'a pas le droit de contredire le droit. La bonne réponse est C. Le droit est le cadre des règles obligatoires, la justice en est l'application juste et impartiale. C'est leur complémentarité qui fait fonctionner une société."
+  }
+}

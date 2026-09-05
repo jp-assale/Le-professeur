@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-la-conscience-l-inconscient",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La conscience / l'inconscient",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "La conscience / l'inconscient",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu rentres tard du marché à Ouagadougou. En chemin, tu croises un ami mais tu ne le vois pas vraiment, tu lui dis à peine bonjour. Ce n'est qu'une heure plus tard, en repensant à ta journée, que tu réalises : j'ai vu cet ami, mais je n'en étais pas vraiment conscient sur le moment. Pourquoi certaines choses nous échappent alors qu'elles se passent autour de nous ? Qu'y a-t-il dans notre esprit que nous ne contrôlons pas ?"
+  },
+  "concept": {
+    "heading": "La conscience et l'inconscient : définition",
+    "explanation": "La conscience est la capacité de l'esprit à connaître, à percevoir et à réfléchir sur ce qui existe, y compris sur soi-même. C'est l'ensemble des pensées, des sensations et des intentions dont tu es conscient à un moment donné. L'inconscient, c'est tout ce qui se passe dans ton esprit sans que tu en aies une connaissance immédiate ou volontaire : des désirs refoulés, des souvenirs oubliés, des automatismes. La question philosophique centrale : sommes-nous vraiment maîtres de nous-mêmes, ou une grande partie de nos actes échappe-t-elle à notre conscience ?",
+    "highlight": "La conscience est ce dont nous sommes conscients ; l'inconscient est ce qui agit en nous sans que nous le sachions."
+  },
+  "example": {
+    "problem": "Analyse ce cas : Un élève du bac revient à la maison après un cours difficile sur les probabilités. Il a échoué l'interrogation. Le soir, sans vraiment y penser, il invente une excuse pour ne pas aller aux cours de maths demain. Le lendemain matin, il croit sincèrement être malade. Comment la conscience et l'inconscient travaillent-ils ici ?",
+    "steps": [
+      "Étape 1 - Identifie ce qui est conscient : L'élève SAIT qu'il a échoué. Il est conscient du fait brut.",
+      "Étape 2 - Identifie ce qui s'agite en arrière-plan : L'échec a créé une souffrance émotionnelle. Cette souffrance existe, mais l'élève ne l'admet pas clairement à lui-même.",
+      "Étape 3 - Observe le mécanisme automatique : Sans s'en rendre compte, l'élève invente une excuse. Ce n'est pas un mensonge volontaire et réfléchi ; c'est un acte qui échappe à sa volonté consciente.",
+      "Étape 4 - Comprends le déni : Le matin, l'élève CROIT sincèrement être malade. Son inconscient a construit une réalité alternative pour éviter la douleur de l'échec.",
+      "Étape 5 - Conclus sur le mécanisme : L'inconscient a agi contre le bien-être véritable de l'élève (il manque le cours, s'enfonce davantage), mais en vue d'une protection émotionnelle immédiate. C'est un acte automatique qui n'a pas passé par la conscience réfléchie."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés décrit correctement la différence entre conscience et inconscient ?",
+    "reponse_calculee": "La conscience est ce que je contrôle et dont j'ai connaissance ; l'inconscient regroupe les processus mentaux qui m'échappent et dont je n'ai pas conscience immédiate.",
+    "choices": [
+      {
+        "label": "La conscience est le mal et l'inconscient est le bien.",
+        "correct": false
+      },
+      {
+        "label": "La conscience et l'inconscient sont la même chose, juste des noms différents.",
+        "correct": false
+      },
+      {
+        "label": "La conscience est ce que je contrôle et dont j'ai connaissance ; l'inconscient regroupe les processus mentaux qui m'échappent et dont je n'ai pas conscience immédiate.",
+        "correct": true
+      },
+      {
+        "label": "L'inconscient n'existe pas, seule la conscience existe chez l'être humain.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La conscience, c'est ce dont tu es maître et conscient ; l'inconscient, c'est ce qui agit en toi sans que tu le contrôles ou le saches. C'est précisément cette distinction qui pose la question philosophique : jusqu'où sommes-nous véritablement libres si une grande partie de nous-mêmes nous échappe ?",
+    "feedback_wrong": "Pas tout à fait. Relis bien : la conscience est ce que TU SAIS et ce que TU CONTRÔLES. L'inconscient, c'est justement ce qui t'ÉCHAPPE, ce dont tu n'as PAS conscience immédiate. Ce ne sont pas deux mondes en opposition morale (bien vs mal), ni la même chose avec deux noms. L'inconscient agit réellement en toi, même si tu ne le vois pas."
+  }
+}

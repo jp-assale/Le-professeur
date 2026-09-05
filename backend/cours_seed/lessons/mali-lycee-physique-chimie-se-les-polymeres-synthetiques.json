@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-polymeres-synthetiques",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les polymères synthétiques",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les polymères synthétiques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu regardes autour de toi : ton téléphone, ton sac d'école, les sachets en plastique au marché, les vêtements synthétiques... Tous ces objets sont faits de polymères synthétiques. Mais d'où viennent ces matériaux ? Comment fabrique-t-on le plastique à partir du pétrole brut ? C'est ce que tu vas comprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un polymère synthétique ?",
+    "explanation": "Un polymère synthétique est une très longue molécule créée par l'homme, formée par la répétition d'un motif élémentaire appelé monomère. Ces monomères sont des petites molécules organiques (souvent issues du pétrole) qui s'assemblent les unes aux autres selon deux mécanismes principaux : la polymérisation par addition et la polymérisation par condensation. C'est grâce à cette répétition que naissent des matériaux aux propriétés extraordinaires : flexibilité, résistance, légèreté.",
+    "highlight": "Polymère = répétition covalente de monomères identiques ou variés, formant une chaîne longue et linéaire ou ramifiée."
+  },
+  "example": {
+    "problem": "On prépare un polymère par polymérisation par addition à partir d'éthène (monomère). On dispose de 280 g d'éthène pur. Sachant que la masse molaire de l'éthène est de 28 g/mol et que chaque monomère d'éthène contribue à la chaîne polymère par une unité de masse molaire 28 g/mol, combien d'unités monomériques se retrouvent-elles dans la chaîne polymère formée ? (On supposera que 100 % de l'éthène réagit.)",
+    "steps": [
+      "Étape 1 : Identifier la donnée clé. On a 280 g d'éthène et sa masse molaire est 28 g/mol.",
+      "Étape 2 : Calculer le nombre de moles d'éthène. Nombre de moles = masse / masse molaire = 280 / 28 = 10 mol.",
+      "Étape 3 : Comprendre la polymérisation. Dans la polymérisation par addition, chaque molécule d'éthène devient une unité dans la chaîne polymère.",
+      "Étape 4 : Établir la correspondance. 1 mole d'éthène = 1 mole d'unités monomériques dans le polymère.",
+      "Étape 5 : Convertir en nombre d'unités. 10 mol d'unités monomériques = 10 × $N_A$ = 10 × $6,02 \\times 10^{23}$ = $6,02 \\times 10^{24}$ unités monomériques.",
+      "Étape 6 : Réponse. Le polymère contient $6,02 \\times 10^{24}$ unités monomériques (ou 10 moles d'unités)."
+    ]
+  },
+  "quiz": {
+    "question": "Un monomère de chlorure de vinyle (PVC) a une masse molaire de 62,5 g/mol. On polymérise 625 g de ce monomère avec un rendement de 80 %. Quel est le nombre de moles d'unités monomériques effectivement intégrées dans la chaîne polymère ?",
+    "reponse_calculee": "8 mol",
+    "choices": [
+      {
+        "label": "10 mol",
+        "correct": false
+      },
+      {
+        "label": "8 mol",
+        "correct": true
+      },
+      {
+        "label": "6,25 mol",
+        "correct": false
+      },
+      {
+        "label": "12,5 mol",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la démarche : d'abord calculer les moles de monomère (625 / 62,5 = 10 mol), puis appliquer le rendement (10 × 0,80 = 8 mol). Le rendement réduit la quantité réelle de monomère qui polymérise, ce qui est normal dans une synthèse réelle.",
+    "feedback_wrong": "Pas tout à fait. Vérifie bien ton calcul : le nombre total de moles de monomère de départ est 625 / 62,5 = 10 mol. Ensuite, il faut appliquer le rendement de 80 %, ce qui signifie multiplier par 0,80. Les 8 mol obtenues correspondent aux unités vraiment intégrées dans le polymère."
+  }
+}

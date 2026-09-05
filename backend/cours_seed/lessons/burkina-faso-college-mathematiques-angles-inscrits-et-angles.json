@@ -1,0 +1,55 @@
+{
+  "slug": "burkina-faso-college-mathematiques-angles-inscrits-et-angles",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Angles inscrits et angles au centre",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Angles inscrits et angles au centre",
+  "intro": {
+    "heading": "Mise en situation : le ballon de football",
+    "body": "Imagine un terrain de football. Tu es assis dans les tribunes à un certain endroit et tu regardes un joueur qui tire vers le but. L'angle que tu vois entre les deux poteaux du but dépend de ta position dans le stade. Si tu te rapproches, cet angle augmente ; si tu t'éloignes, il diminue. Mais il existe une relation géométrique précise entre les différentes positions d'où tu peux regarder et l'angle que tu observes. C'est exactement ce que nous allons découvrir avec les angles inscrits et les angles au centre."
+  },
+  "concept": {
+    "heading": "Définition : angle inscrit et angle au centre",
+    "explanation": "Dans un cercle, il existe deux types d'angles particuliers. Un angle au centre est un angle dont le sommet se trouve au centre du cercle, et dont les deux côtés coupent le cercle. Un angle inscrit est un angle dont le sommet se trouve sur le cercle, et dont les deux côtés coupent également le cercle. La relation fondamentale entre ces deux angles est la suivante : si un angle inscrit et un angle au centre interceptent le même arc de cercle, l'angle inscrit vaut exactement la moitié de l'angle au centre.",
+    "highlight": "Angle inscrit = (1/2) × Angle au centre (pour le même arc)"
+  },
+  "example": {
+    "problem": "Un cercle de centre O a un arc AB. L'angle au centre AOB mesure 80°. Trois spectateurs se trouvent à trois positions différentes sur le cercle : le point C, le point D et le point E. Calcule l'angle ACB (angle inscrit) qui intercepte le même arc AB que l'angle au centre AOB.",
+    "steps": [
+      "Étape 1 : Identifier les angles. L'angle au centre AOB = 80° (le sommet est au centre O). L'angle inscrit ACB a son sommet en C sur le cercle.",
+      "Étape 2 : Vérifier que les deux angles interceptent le même arc. Oui, tous les deux interceptent l'arc AB.",
+      "Étape 3 : Appliquer la formule. Angle inscrit = (1/2) × Angle au centre.",
+      "Étape 4 : Calculer. ACB = (1/2) × 80° = 40°.",
+      "Étape 5 : Conclusion. Quel que soit le point sur le cercle où se place le spectateur (C, D ou E), l'angle qu'il observe en regardant l'arc AB restera toujours 40°, car tous les angles inscrits interceptant le même arc sont égaux."
+    ]
+  },
+  "quiz": {
+    "question": "Un angle au centre mesure 120°. Quel est la mesure de l'angle inscrit qui intercepte le même arc ?",
+    "reponse_calculee": "60°",
+    "choices": [
+      {
+        "label": "120°",
+        "correct": false
+      },
+      {
+        "label": "60°",
+        "correct": true
+      },
+      {
+        "label": "240°",
+        "correct": false
+      },
+      {
+        "label": "90°",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : un angle inscrit mesure toujours la moitié de l'angle au centre qui intercepte le même arc. Ici, 120° ÷ 2 = 60°.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'angle inscrit vaut toujours la MOITIÉ de l'angle au centre quand ils interceptent le même arc. L'angle au centre est 120°, donc l'angle inscrit = 120° ÷ 2 = 60°."
+  }
+}

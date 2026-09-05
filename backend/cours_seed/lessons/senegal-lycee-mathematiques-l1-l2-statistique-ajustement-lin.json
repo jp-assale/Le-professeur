@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-l1-l2-statistique-ajustement-lin",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitre": "Statistique : ajustement linéaire, corrélation",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)",
+  "template": "text_only",
+  "title": "Statistique : ajustement linéaire, corrélation",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un commerçant de Dakar remarque que plus il augmente le prix de ses téléphones, moins il en vend. Il se demande : y a-t-il vraiment une relation entre ces deux variables ? Comment la mesurer ? Et peut-il prédire ses ventes futures à partir du prix ? C'est exactement ce que l'ajustement linéaire et la corrélation te permettront de faire."
+  },
+  "concept": {
+    "heading": "Ajustement linéaire et corrélation",
+    "explanation": "Lorsque tu observes deux variables quantitatives (comme le prix et la quantité vendue), tu peux chercher à savoir si elles varient ensemble de façon linéaire. L'ajustement linéaire consiste à trouver la meilleure droite qui représente cette relation. La corrélation mesure la force et le sens de cette relation : elle te dit à quel point les points sont proches d'une droite.\n\nLa corrélation se quantifie par le coefficient de corrélation $r$, qui varie entre $-1$ et $1$. Si $r$ est proche de $1$ ou $-1$, la relation est forte ; si $r$ est proche de $0$, il n'y a pas de relation linéaire.",
+    "highlight": "Droite d'ajustement : $y = ax + b$ où $a$ est la pente et $b$ l'ordonnée à l'origine."
+  },
+  "example": {
+    "problem": "Un lycée a enregistré les absences mensuelles (en nombre de jours) et les notes moyennes (sur 20) de sept élèves. Les données sont : (2 jours, 16), (5 jours, 14), (3 jours, 15), (6 jours, 12), (1 jour, 18), (4 jours, 13), (7 jours, 10). Détermine l'équation de la droite d'ajustement linéaire et explique le lien entre absences et notes.",
+    "steps": [
+      "Étape 1 : Construis le tableau des valeurs. $x$ = nombre de jours d'absences ; $y$ = note moyenne. Tu as 7 couples $(x_i, y_i)$.",
+      "Étape 2 : Calcule les moyennes. $\\bar{x} = \\frac{2+5+3+6+1+4+7}{7} = \\frac{28}{7} = 4$ jours. $\\bar{y} = \\frac{16+14+15+12+18+13+10}{7} = \\frac{98}{7} = 14$.",
+      "Étape 3 : Calcule $\\sum (x_i - \\bar{x})(y_i - \\bar{y})$. Les écarts : $(2-4)(16-14) = (-2)(2) = -4$ ; $(5-4)(14-14) = 0$ ; $(3-4)(15-14) = (-1)(1) = -1$ ; $(6-4)(12-14) = (2)(-2) = -4$ ; $(1-4)(18-14) = (-3)(4) = -12$ ; $(4-4)(13-14) = 0$ ; $(7-4)(10-14) = (3)(-4) = -12$. Somme = $-4 + 0 - 1 - 4 - 12 + 0 - 12 = -33$.",
+      "Étape 4 : Calcule $\\sum (x_i - \\bar{x})^2$. $(2-4)^2 = 4$ ; $(5-4)^2 = 1$ ; $(3-4)^2 = 1$ ; $(6-4)^2 = 4$ ; $(1-4)^2 = 9$ ; $(4-4)^2 = 0$ ; $(7-4)^2 = 9$. Somme = $4 + 1 + 1 + 4 + 9 + 0 + 9 = 28$.",
+      "Étape 5 : Calcule la pente $a = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum (x_i - \\bar{x})^2} = \\frac{-33}{28} \\approx -1,18$. Puis $b = \\bar{y} - a\\bar{x} = 14 - (-1,18)(4) = 14 + 4,72 = 18,72$.",
+      "Étape 6 : La droite d'ajustement est $y = -1,18x + 18,72$. Interprétation : plus l'élève s'absente, plus sa note baisse (relation négative). Chaque jour d'absence supplémentaire fait baisser la note moyenne d'environ 1,18 point."
+    ]
+  },
+  "quiz": {
+    "question": "Trois points ont les coordonnées suivantes : $(1, 3)$, $(2, 5)$, $(3, 7)$. Calcule le coefficient de corrélation $r$ entre $x$ et $y$. (Arrondir à deux décimales.)",
+    "reponse_calculee": "1,00",
+    "choices": [
+      {
+        "label": "0,85",
+        "correct": false
+      },
+      {
+        "label": "1,00",
+        "correct": true
+      },
+      {
+        "label": "0,50",
+        "correct": false
+      },
+      {
+        "label": "-1,00",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Les trois points sont parfaitement alignés sur une droite (la relation est linéaire parfaite et positive), donc $r = 1,00$. Cela signifie une corrélation maximale positive.",
+    "feedback_wrong": "À revoir. Dans cet exercice, les trois points suivent exactement la relation $y = 2x + 1$ : ils sont parfaitement alignés. Une relation linéaire parfaite donne un coefficient de corrélation égal à $1$ ou $-1$ selon le sens. Ici, $x$ et $y$ augmentent ensemble, donc $r = 1,00$."
+  }
+}

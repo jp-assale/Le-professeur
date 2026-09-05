@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-francais-l1-l2-s1-s2-theatre-corneille-hugo-mu",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2/S1/S2",
+  "matiere": "Francais",
+  "chapitre": "Théâtre — Corneille, Hugo, Musset, Anouilh, Sartre, Beckett / Badian, Ndébéka, Dadié, Cheikh Aliou Ndao",
+  "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)",
+  "template": "text_only",
+  "title": "Le Théâtre du XVIIe au XXe siècle : des auteurs européens aux voix africaines",
+  "intro": {
+    "heading": "Mise en situation : Une pièce de théâtre à Dakar",
+    "body": "Imagine que tu assistes à une représentation au Théâtre Daniel Sorano. Sur scène, des acteurs jouent une pièce où un personnage refuse d'obéir à l'autorité, cherche son identité, ou met en scène l'absurdité de la vie. Tu te demandes : pourquoi ces auteurs, du XVIIe siècle à aujourd'hui, reviennent-ils sans cesse aux mêmes questions — l'honneur, la liberté, la condition humaine — mais avec des réponses si différentes ? C'est ce que nous allons explorer."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le théâtre dans ce programme ?",
+    "explanation": "Le théâtre est d'abord un genre littéraire qui met en scène des personnages en conflit ou en quête. Mais au-delà du texte, c'est aussi un acte : des hommes et des femmes parlent, agissent, se confrontent devant un public. Le programme te demande d'étudier comment différents auteurs — Corneille, Hugo, Musset, Anouilh, Sartre, Beckett (Européens) et Badian, Ndébéka, Dadié, Cheikh Aliou Ndao (Africains, notamment sénégalais) — ont utilisé le théâtre pour explorer des enjeux humains, politiques et existentiels à des moments très différents de l'histoire.",
+    "highlight": "Le théâtre est un miroir : il révèle comment les personnages, et par extension la société, se confrontent au choix, à la liberté, à l'identité et au pouvoir."
+  },
+  "example": {
+    "problem": "Compare la vision du héros chez Corneille (XVIIe siècle) et chez Sartre (XXe siècle). Comment le théâtre traduit-il un changement radical dans la conception de la liberté humaine ?",
+    "steps": [
+      "Chez Corneille, le héros (comme dans Le Cid) est confronté à un dilemme : honneur ou amour. Il doit CHOISIR selon des valeurs préétablies — le devoir, la gloire, l'honneur du rang. Le théâtre montre un personnage qui se réalise en ACCEPTANT ces valeurs, même si cela le fait souffrir. La pièce célèbre sa grandeur morale.",
+      "Chez Sartre (notamment Les Mouches), le héros découvre que les valeurs qu'on lui impose (la culpabilité, la soumission aux dieux, l'ordre établi) ne sont que des constructions. Il doit INVENTER sa propre morale par un acte libre et angoissant.",
+      "Le changement clé : Corneille croit à un ordre divin ou social qui préexiste au personnage. Sartre croit que le personnage EST responsable de créer le sens et la morale par son choix libre.",
+      "Sur scène, cela change tout. Chez Corneille, tu vois un héros qui accepte les règles du jeu et en tire sa noblesse. Chez Sartre, tu vois un héros qui doit détruire les fausses idoles pour se libérer.",
+      "Exemple concret : dans Le Cid, Rodrigue ne peut pas « inventer » son propre code — il doit combattre le père de Chimène pour sauver l'honneur. Pour Sartre, ce même Rodrigue devrait d'abord se demander : pourquoi ce code existe-t-il ? Qui me l'impose ? Et puis le rejeter ou l'accepter en toute connaissance de cause.",
+      "Conclusion : le théâtre européen évolue d'une vision du héros qui ACCEPTE son rôle (Corneille) à une vision du héros qui le CRÉE ou le REFUSE (Sartre). C'est un révolution philosophique visible sur scène."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le principal enjeu du théâtre africain dans ce programme (Badian, Ndébéka, Dadié, Cheikh Aliou Ndao) par rapport au théâtre européen classique ?",
+    "reponse_calculee": "L'appropriation du théâtre comme outil pour explorer l'identité africaine, la colonialité, la langue et les traditions face à l'héritage occidental.",
+    "choices": [
+      {
+        "label": "Copier exactement les formes de Corneille et de Molière",
+        "correct": false
+      },
+      {
+        "label": "L'appropriation du théâtre comme outil pour explorer l'identité africaine, la colonialité, la langue et les traditions face à l'héritage occidental.",
+        "correct": true
+      },
+      {
+        "label": "Ignorer complètement le théâtre européen et inventer un style sans lien avec l'Occident",
+        "correct": false
+      },
+      {
+        "label": "Écrire uniquement des comédies sans enjeux politiques",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement. Les auteurs africains du programme (comme Cheikh Aliou Ndao avec son Exil d'Albouri, ou Dadié avec Monsieur Thôgô-gnini) réapproprient le théâtre européen — hérité de la colonisation — pour en faire un espace de parole sur l'identité, les traditions oubliées, la langue nationale et la critique du pouvoir colonial ou post-colonial. C'est une démarche créative de résistance et de reconstruction.",
+    "feedback_wrong": "Pas tout à fait. Les auteurs africains ne rejettent pas le théâtre occidental, ni ne le copient servilement. Ils se l'approprient comme un outil puissant pour explorer leurs propres enjeux : l'identité, la colonialité, la langue, le rapport aux traditions. C'est une dynamique créative, pas une opposition simple."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-etude-des-suites-numeriques",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Étude des suites numériques",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Étude des suites numériques",
+  "intro": {
+    "heading": "Mise en situation : L'argent de poche qui s'accumule",
+    "body": "Imagine que tu reçois 5 000 francs CFA la première semaine, puis 6 000 la deuxième semaine, puis 7 000 la troisième semaine, et ainsi de suite en augmentant de 1 000 francs chaque semaine. Comment prévoir combien tu auras reçu après 10 semaines ? Comment trouver le montant de la 15e semaine sans tout calculer depuis le début ? C'est exactement ce que les suites numériques te permettent de faire : observer, prévoir et calculer rapidement des listes de nombres qui suivent un schéma."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une suite numérique ?",
+    "explanation": "Une suite numérique est une liste ordonnée de nombres, notée $(u_n)$, où chaque terme est identifié par sa position : $u_1$ est le premier terme, $u_2$ le deuxième, et ainsi de suite. Chaque suite suit une règle précise qui permet de passer d'un terme au suivant. Cette règle peut être une formule (formule explicite) ou une relation entre termes consécutifs (formule de récurrence). Les suites te permettent de modéliser des situations où quelque chose change de façon régulière : une population qui croît, un capital qui s'accumule, une distance qui augmente selon un rythme fixe.",
+    "highlight": "Une suite $(u_n)$ est définie soit par une formule explicite $u_n = f(n)$, soit par une formule de récurrence $u_{n+1} = f(u_n)$"
+  },
+  "example": {
+    "problem": "Une suite est définie par : $u_1 = 5000$ et $u_{n+1} = u_n + 1000$ pour tout $n \\geq 1$. Calcule $u_5$ (le montant reçu à la 5e semaine) et déduis-en la formule explicite de cette suite.",
+    "steps": [
+      "Étape 1 : On part de $u_1 = 5000$ (première semaine).",
+      "Étape 2 : En utilisant $u_{n+1} = u_n + 1000$, on calcule $u_2 = u_1 + 1000 = 5000 + 1000 = 6000$.",
+      "Étape 3 : De même, $u_3 = u_2 + 1000 = 6000 + 1000 = 7000$.",
+      "Étape 4 : $u_4 = u_3 + 1000 = 7000 + 1000 = 8000$ et $u_5 = u_4 + 1000 = 8000 + 1000 = 9000$.",
+      "Étape 5 : On observe que chaque terme augmente de 1000 (raison constante $r = 1000$). C'est une suite arithmétique. La formule explicite est $u_n = u_1 + (n-1) \\times r = 5000 + (n-1) \\times 1000 = 4000 + 1000n$.",
+      "Étape 6 : Vérification : $u_5 = 4000 + 1000 \\times 5 = 4000 + 5000 = 9000$. ✓"
+    ]
+  },
+  "quiz": {
+    "question": "Une suite arithmétique a pour premier terme $u_1 = 12$ et pour raison $r = 3$. Quel est le 7e terme $u_7$ ?",
+    "reponse_calculee": "30",
+    "choices": [
+      {
+        "label": "24",
+        "correct": false
+      },
+      {
+        "label": "30",
+        "correct": true
+      },
+      {
+        "label": "33",
+        "correct": false
+      },
+      {
+        "label": "36",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pour une suite arithmétique, la formule explicite est $u_n = u_1 + (n-1) \\times r$. Ici, $u_7 = 12 + (7-1) \\times 3 = 12 + 6 \\times 3 = 12 + 18 = 30$. Tu maîtrises la formule.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que pour une suite arithmétique, $u_n = u_1 + (n-1) \\times r$. Il faut compter le nombre d'étapes à partir du premier terme : de $u_1$ à $u_7$, il y a $7 - 1 = 6$ étapes de raison 3. Donc $u_7 = 12 + 6 \\times 3 = 12 + 18 = 30$."
+  }
+}

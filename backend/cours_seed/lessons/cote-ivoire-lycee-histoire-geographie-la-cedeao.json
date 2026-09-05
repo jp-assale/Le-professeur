@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-la-cedeao",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La CEDEAO",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La CEDEAO",
+  "intro": {
+    "heading": "Mise en situation : Un marché sans frontières en Afrique de l'Ouest",
+    "body": "Imagine que tu voyages de la Côte d'Ivoire au Burkina Faso pour acheter du tissu en gros. Autrefois, tu devais passer des heures à des postes frontières, remplir des papiers, payer des taxes. Depuis la création de la CEDEAO, les choses changent : un Ouest-africain peut circuler plus librement, les marchandises traversent les frontières plus facilement. C'est cette organisation régionale qui transforme lentement la vie économique et politique de 16 pays autour de toi."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la CEDEAO ?",
+    "explanation": "La CEDEAO (Communauté Économique des États de l'Afrique de l'Ouest) est une organisation internationale créée en 1975 par 16 pays d'Afrique de l'Ouest pour favoriser l'intégration économique, politique et sociale de la région. Elle repose sur l'idée que l'union fait la force : en travaillant ensemble, les États ouest-africains peuvent se développer plus vite, réduire les conflits, et peser davantage sur la scène mondiale. La CEDEAO n'est pas juste un club de discussions ; c'est une structure avec des institutions, des règles, des mécanismes de résolution des conflits et des objectifs concrets à atteindre.",
+    "highlight": "La CEDEAO est un bloc régional d'intégration visant à créer un espace unique de libre circulation, d'échanges commerciaux et de stabilité politique en Afrique de l'Ouest."
+  },
+  "example": {
+    "problem": "Analyse le rôle de la CEDEAO dans la résolution d'une crise politique en Afrique de l'Ouest : un coup d'État vient de survenir dans un pays membre et déstabilise la région. Comment la CEDEAO intervient-elle et pourquoi ?",
+    "steps": [
+      "Étape 1 : Identifier le problème. Un coup d'État menace l'ordre démocratique convenu entre tous les membres. Cela crée une instabilité qui peut affecter le commerce, la sécurité et les relations entre pays voisins.",
+      "Étape 2 : Comprendre le mandat de la CEDEAO. Cette organisation a pour mission non seulement de promouvoir l'économie, mais aussi de maintenir la paix et la stabilité régionale. Elle a donc le droit et le devoir d'intervenir.",
+      "Étape 3 : Mobiliser les mécanismes. La CEDEAO convoque sa Conférence des Chefs d'État et de Gouvernement (son organe suprême de décision) et son Conseil des ministres pour discuter de la crise et définir une position commune.",
+      "Étape 4 : Appliquer les sanctions. Selon ses protocoles, la CEDEAO peut prononcer des mesures : suspension du pays auteur du coup d'État de l'organisation, embargo commercial, sanctions diplomatiques. L'objectif est de forcer le retour à l'ordre constitutionnel.",
+      "Étape 5 : Faciliter le dialogue. La CEDEAO dépêche des médiateurs pour négocier entre les acteurs politiques et les militaires auteurs du coup, en vue d'un retour rapide à la démocratie.",
+      "Étape 6 : Évaluer le succès. Si le pays accepte les conditions de la CEDEAO et restaure l'ordre démocratique, les sanctions sont levées et le pays est réintégré. Sinon, l'isolation se prolonge. Cet exemple montre que la CEDEAO dépasse le commerce : c'est aussi un garant de la paix régionale."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces éléments est CENTRAL dans la mission de la CEDEAO ?",
+    "reponse_calculee": "L'intégration économique, politique et sociale des 16 États membres pour favoriser la paix, la stabilité et le développement régional",
+    "choices": [
+      {
+        "label": "Créer une armée africaine unique pour défendre le continent contre les puissances extérieures",
+        "correct": false
+      },
+      {
+        "label": "L'intégration économique, politique et sociale des 16 États membres pour favoriser la paix, la stabilité et le développement régional",
+        "correct": true
+      },
+      {
+        "label": "Imposer une seule monnaie à tous les pays d'Afrique de l'Ouest",
+        "correct": false
+      },
+      {
+        "label": "Remplacer les gouvernements nationaux par une gouvernance entièrement régionale centralisée",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La CEDEAO poursuit trois objectifs liés : libérer les échanges commerciaux (intégration économique), soutenir la démocratie et les droits humains (intégration politique), et renforcer les liens culturels et sociaux entre les peuples (intégration sociale). Tout cela vise à construire une région plus prospère et stable.",
+    "feedback_wrong": "Non. La CEDEAO n'est pas une armée, n'impose pas une monnaie unique à tout le continent, et ne supprime pas les États nationaux. C'est une organisation régionale de coopération qui travaille à l'intégration économique, politique et sociale de ses 16 membres pour favoriser la paix et le développement. Elle renforce l'État, elle ne le remplace pas."
+  }
+}

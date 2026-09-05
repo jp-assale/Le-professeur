@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-pyramides-et-cones",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Pyramides et cônes",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Pyramides et cônes",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu visites un marché en Côte d'Ivoire. Tu achètes des fruits vendus en petits sacs de forme pointue — ou tu observes la structure d'une case traditionnelle avec son toit en pointe. Ces formes que tu vois tous les jours, ce sont des pyramides et des cônes ! Aujourd'hui, tu vas apprendre à calculer leur volume et leur surface."
+  },
+  "concept": {
+    "heading": "Définition : Pyramides et cônes",
+    "explanation": "Une pyramide est un solide géométrique dont la base est un polygone (triangle, carré, rectangle...) et dont toutes les faces latérales sont des triangles qui se rejoignent en un point appelé sommet. Un cône est similaire, mais sa base est un cercle, et sa surface latérale est courbe. Pour calculer le volume d'une pyramide ou d'un cône, on utilise toujours la même logique : on prend l'aire de la base, on la multiplie par la hauteur, puis on divise par 3.",
+    "highlight": "Volume = (Aire de la base × hauteur) / 3"
+  },
+  "example": {
+    "problem": "On construit une pyramide de présentation pour un musée. Sa base est un carré de côté 6 mètres. La hauteur de la pyramide est 9 mètres. Quel est le volume de cette pyramide ?",
+    "steps": [
+      "Étape 1 : Identifie la base. C'est un carré de côté 6 m. Calcule l'aire du carré : Aire = côté × côté = 6 × 6 = 36 m²",
+      "Étape 2 : Identifie la hauteur. La hauteur h = 9 m (distance perpendiculaire du sommet à la base).",
+      "Étape 3 : Applique la formule du volume : V = (Aire de la base × h) / 3",
+      "Étape 4 : Remplace les valeurs : V = (36 × 9) / 3 = 324 / 3 = 108 m³",
+      "Étape 5 : Conclus. Le volume de la pyramide est 108 m³."
+    ]
+  },
+  "quiz": {
+    "question": "Un cône a une base circulaire de rayon 5 cm et une hauteur de 12 cm. Quel est son volume ? (Utilise $\\pi \\approx 3,14$)",
+    "reponse_calculee": "314 cm³",
+    "choices": [
+      {
+        "label": "60 cm³",
+        "correct": false
+      },
+      {
+        "label": "314 cm³",
+        "correct": true
+      },
+      {
+        "label": "942 cm³",
+        "correct": false
+      },
+      {
+        "label": "628 cm³",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien appliqué la formule. L'aire de la base circulaire est $\\pi r^2 = 3,14 × 5^2 = 3,14 × 25 = 78,5$ cm². Ensuite, V = (78,5 × 12) / 3 = 942 / 3 = 314 cm³. C'est la bonne réponse !",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : V = (Aire de la base × hauteur) / 3. Pour un cône, l'aire de la base est $\\pi r^2 = 3,14 × 5^2 = 78,5$ cm². Ensuite, V = (78,5 × 12) / 3 = 314 cm³. Essaie encore !"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-mathematiques-symetrie-orthogonale",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Symétrie orthogonale",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Symétrie orthogonale",
+  "intro": {
+    "heading": "Mise en situation : Le reflet dans le miroir",
+    "body": "Imagine que tu te regardes dans un miroir au matin. Ton reflet te montre exactement à la même distance du miroir que toi, mais de l'autre côté. En mathématiques, on appelle cette transformation une symétrie orthogonale. C'est aussi ce que tu vois quand tu plies une feuille en deux et que tu remarques que les deux moitiés se superposent parfaitement."
+  },
+  "concept": {
+    "heading": "Définition : La symétrie orthogonale",
+    "explanation": "La symétrie orthogonale par rapport à une droite (appelée axe de symétrie) est une transformation géométrique qui associe à chaque point A un point A' tel que la droite soit la perpendiculaire qui passe par le milieu du segment AA'. Autrement dit, si tu plies le plan selon cette droite, le point A se superpose exactement au point A'.",
+    "highlight": "Le point A et son image A' sont à égale distance de l'axe de symétrie, et l'axe coupe le segment AA' perpendiculairement en son milieu."
+  },
+  "example": {
+    "problem": "Soit un point A situé à 5 cm d'une droite d (axe de symétrie). On souhaite trouver la position du point A', image de A par symétrie orthogonale par rapport à d. Détermine la distance entre A et A'.",
+    "steps": [
+      "Étape 1 : Comprendre la configuration. Le point A est à 5 cm de l'axe d, ce qui signifie que la distance perpendiculaire de A à la droite d est 5 cm.",
+      "Étape 2 : Appliquer la propriété de symétrie. Par définition, A' est le symétrique de A, donc A' est aussi à 5 cm de l'axe d, mais de l'autre côté.",
+      "Étape 3 : Visualiser le segment AA'. Ce segment est perpendiculaire à l'axe d et est coupé en son milieu par d.",
+      "Étape 4 : Calculer la distance totale. Puisque A est à 5 cm d'un côté et A' à 5 cm de l'autre côté, la distance AA' = 5 + 5 = 10 cm.",
+      "Conclusion : Le point A' est situé à 10 cm du point A."
+    ]
+  },
+  "quiz": {
+    "question": "Un segment AB mesure 8 cm et est perpendiculaire à un axe de symétrie d. L'axe coupe ce segment en son milieu I. Quelle est la distance du point A à l'axe d ?",
+    "reponse_calculee": "4 cm",
+    "choices": [
+      {
+        "label": "2 cm",
+        "correct": false
+      },
+      {
+        "label": "4 cm",
+        "correct": true
+      },
+      {
+        "label": "8 cm",
+        "correct": false
+      },
+      {
+        "label": "16 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Puisque l'axe coupe le segment AB en son milieu I, et que AB mesure 8 cm, la distance de A à I est la moitié de 8 cm, soit 4 cm. C'est aussi la distance de A à l'axe d.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que l'axe de symétrie coupe le segment en son MILIEU. Si AB = 8 cm et que le milieu I divise ce segment en deux parties égales, alors la distance de A à I (qui est la distance de A à l'axe) est la moitié de 8 cm."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-francais-la-dissertation-litteraire",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "La dissertation littéraire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La dissertation littéraire",
+  "intro": {
+    "heading": "Mise en situation : pourquoi argumenter sur un texte ?",
+    "body": "Imagine que ton professeur te donne à lire un roman et te demande : « Ce personnage est-il vraiment un héros ? » Tu ne peux pas simplement répondre « oui » ou « non ». Tu dois construire une réponse organisée, avec des preuves tirées du texte, des explications claires et une logique qui convainct. C'est exactement ce que fait une dissertation littéraire : elle te permet de discuter, d'analyser et de défendre une position sur une question de littérature."
+  },
+  "concept": {
+    "heading": "Définition et structure de la dissertation littéraire",
+    "explanation": "La dissertation littéraire est un exercice d'écriture où tu dois répondre à une question posée sur un texte ou un thème littéraire en présentant une argumentation organisée et nuancée. Tu dois montrer que tu comprends le texte, que tu peux l'analyser en profondeur, et que tu sais construire un raisonnement logique. C'est un exercice clé du Baccalauréat qui teste ta capacité à penser et à convaincre par l'écrit.",
+    "highlight": "Une dissertation = une question + une thèse claire + des preuves du texte + une organisation en trois parties (introduction, développement, conclusion)"
+  },
+  "example": {
+    "problem": "Tu dois traiter cette question de dissertation : « La description d'un paysage dans un roman peut-elle révéler l'état émotionnel d'un personnage ? » Montre comment tu construirais ton argumentation en parcourant les étapes clés.",
+    "steps": [
+      "Étape 1 : Comprendre la question. On te demande si les paysages ne sont pas juste des décors, mais des miroirs de ce que ressent le personnage. C'est une question qui demande une réponse nuancée (pas juste oui ou non).",
+      "Étape 2 : Formuler ta thèse principale. Tu décides : « Oui, la description d'un paysage révèle l'état émotionnel du personnage, car l'auteur choisit volontairement les détails qui reflètent ses sentiments. » C'est ta réponse centrale.",
+      "Étape 3 : Chercher des exemples dans le texte. Tu te demandes : où dans le texte un paysage est décrit en même temps qu'un personnage vit une émotion ? (Un ciel gris lors d'une scène triste, une forêt luxuriante lors d'une joie, etc.)",
+      "Étape 4 : Construire tes trois parties. Introduction : poser la question et annoncer ta réponse. Développement : présenter 2-3 arguments soutenus par des exemples précis du texte. Conclusion : rappeler ta thèse et élargir le propos.",
+      "Étape 5 : Vérifier la logique. Chaque partie répond-elle à la question ? Les exemples appuient-ils vraiment l'argument ? Les transitions connectent-elles les idées ? Si tu ne peux pas justifier une phrase par le texte, supprime-la.",
+      "Étape 6 : Rédiger avec clarté. Utilise des connecteurs logiques (d'abord, ensuite, par ailleurs, en conclusion) pour que le lecteur suive facilement ton raisonnement du début à la fin."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les propositions suivantes, laquelle décrit correctement la structure d'une dissertation littéraire au Baccalauréat ?",
+    "reponse_calculee": "Une introduction qui pose la question et annonce la thèse, un développement en 2-3 parties avec preuves du texte, une conclusion qui rappelle la thèse et l'élargit",
+    "choices": [
+      {
+        "label": "Un résumé du texte étudié suivi de tes impressions personnelles sans preuve",
+        "correct": false
+      },
+      {
+        "label": "Une introduction qui pose la question et annonce la thèse, un développement en 2-3 parties avec preuves du texte, une conclusion qui rappelle la thèse et l'élargit",
+        "correct": true
+      },
+      {
+        "label": "Une liste de toutes les figures de style présentes dans le texte avec leurs définitions",
+        "correct": false
+      },
+      {
+        "label": "Une question générale suivie de plusieurs réponses possibles sans en choisir une seule",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La dissertation littéraire suit une structure précise : tu poses clairement la question en introduction, tu réponds par une thèse affirmée, puis tu la prouves dans le développement avec des exemples concrets tirés du texte, et tu termines en rappelant ton idée principale. C'est cette organisation qui rend ta réponse convaincante et conforme aux attentes du Baccalauréat.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi qu'une dissertation n'est pas un simple résumé ou une liste d'outils littéraires. Elle doit répondre à une question précise en présentant une thèse (ta position), en la soutenant avec des preuves du texte au développement, et en la rappelant à la conclusion. C'est une argumentation structurée, pas une impression générale."
+  }
+}

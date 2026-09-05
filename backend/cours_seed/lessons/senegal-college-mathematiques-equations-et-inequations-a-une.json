@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-equations-et-inequations-a-une",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Équations et inéquations à une inconnue",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Équations et inéquations à une inconnue",
+  "intro": {
+    "heading": "Mise en situation : une affaire de partage équitable",
+    "body": "Tu aides ta mère à vendre des mangues au marché de Dakar. Elle en a 120 à partager entre ses 3 vendeuses, plus 15 qu'elle garde pour elle. Combien chaque vendeuse reçoit-elle ? Pour répondre, tu dois poser une équation et la résoudre. C'est exactement ce que tu vas apprendre aujourd'hui : transformer un problème concret en équation, puis la résoudre pour trouver l'inconnue."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une équation ? Qu'est-ce qu'une inéquation ?",
+    "explanation": "Une équation est une égalité mathématique contenant une inconnue (souvent notée $x$). Résoudre l'équation, c'est trouver la valeur de $x$ qui rend cette égalité vraie. Une inéquation est une inégalité contenant une inconnue, avec un symbole $<$, $>$, $\\leq$, ou $\\geq$. Résoudre une inéquation, c'est trouver tous les nombres qui satisfont cette inégalité.",
+    "highlight": "Équation : égalité avec inconnue. Inéquation : inégalité avec inconnue."
+  },
+  "example": {
+    "problem": "Un commerçant vend des cahiers. Il en a vendu 45 hier, et aujourd'hui il en a vendu le double de la quantité de demain. S'il doit vendre au total 200 cahiers cette semaine (hier + aujourd'hui + demain), combien doit-il vendre demain ? Pose une équation et résous-la.",
+    "steps": [
+      "Étape 1 : Identifie l'inconnue. Soit $x$ le nombre de cahiers à vendre demain.",
+      "Étape 2 : Traduis le problème en équation. Aujourd'hui il vend $2x$ cahiers. Donc : $45 + 2x + x = 200$.",
+      "Étape 3 : Simplifie l'équation en regroupant les termes en $x$ : $45 + 3x = 200$.",
+      "Étape 4 : Soustrait 45 de chaque côté : $3x = 200 - 45$, soit $3x = 155$.",
+      "Étape 5 : Divise chaque côté par 3 : $x = \\frac{155}{3} \\approx 51,67$.",
+      "Étape 6 : Conclusion. Le commerçant doit vendre environ 51 ou 52 cahiers demain (arrondi selon le contexte)."
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation suivante : $5x - 3 = 22$. Quelle est la valeur de $x$ ?",
+    "reponse_calculee": "5",
+    "choices": [
+      {
+        "label": "$x = 4$",
+        "correct": false
+      },
+      {
+        "label": "$x = 5$",
+        "correct": true
+      },
+      {
+        "label": "$x = 19$",
+        "correct": false
+      },
+      {
+        "label": "$x = 25$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué les étapes : d'abord ajoute 3 des deux côtés pour obtenir $5x = 25$, puis divise par 5 pour trouver $x = 5$. Bravo, tu maîtrises la résolution d'équations du premier degré.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la méthode : ajoute 3 des deux côtés de l'équation ($5x - 3 + 3 = 22 + 3$), ce qui donne $5x = 25$. Puis divise par 5 pour isoler $x$. Tu devrais trouver $x = 5$."
+  }
+}

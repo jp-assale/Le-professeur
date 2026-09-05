@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-francais-l1-l2-s1-s2-le-surrealisme-apollinair",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2/S1/S2",
+  "matiere": "Francais",
+  "chapitre": "Le Surréalisme (Apollinaire, Aragon, Éluard, Soupault, Desnos, Char, Césaire, Senghor, Depestre)",
+  "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)",
+  "template": "text_only",
+  "title": "Le Surréalisme : Libérer l'imaginaire et l'inconscient",
+  "intro": {
+    "heading": "Mise en situation : Un rêve qui devient réalité",
+    "body": "Imagine que tu traverses Dakar la nuit. Soudain, les murs des maisons se mettent à danser, les arbres parlent en couleurs, et tes pieds marchent à l'envers sans que tu le contrôles vraiment. Tu es dans un monde où la logique n'existe plus. C'est exactement ce que les surréalistes voulaient explorer : libérer l'esprit des règles pour accéder à la vérité cachée de l'imagination et de l'inconscient."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le Surréalisme ?",
+    "explanation": "Le Surréalisme est un mouvement littéraire et artistique qui naît après la Première Guerre mondiale. Les surréalistes, dont Apollinaire, Aragon, Éluard et Soupault sont les pionniers, rejettent la raison et la logique pour explorer l'inconscient, les rêves et l'absurde. Ils pensent que la vraie réalité se trouve au-delà de ce que nous voyons : dans les images étranges, les associations bizarres de mots, les jeux du hasard. Plus tard, des poètes comme Char, Desnos, Césaire, Senghor et Depestre enrichissent ce mouvement avec leurs propres visions, notamment en y mêlant des questions d'identité et de liberté politique.",
+    "highlight": "Le Surréalisme : explorer l'inconscient par l'image bizarre, le jeu de mots et le rêve, pour dépasser la logique ordinaire."
+  },
+  "example": {
+    "problem": "Analysons cet extrait surréaliste imaginaire : 'Les chaises hurlent dans le silence bleu, pendant que mes pensées deviennent des oiseaux qui pondent des lettres d'amour.' Comment reconnaître ici les principes du Surréalisme ?",
+    "steps": [
+      "Étape 1 : Identifie l'absence de logique. Les chaises ne peuvent pas hurler, le silence n'a pas de couleur. Le texte viole volontairement les lois de la réalité : c'est la signature du Surréalisme.",
+      "Étape 2 : Repère les associations étranges. 'Pensées deviennent des oiseaux' : on rapproche deux domaines distincts (abstrait + animal). Le Surréalisme aime ces rapprochements inattendus.",
+      "Étape 3 : Vois l'image du rêve. Ces phrases ressemblent à ce qu'on entend pendant un rêve : des images qui se succèdent sans ordre. Les surréalistes veulent capturer cette logique du rêve.",
+      "Étape 4 : Observe le langage comme jeu. 'Pondent des lettres' mêle le concret (pondre des œufs) et l'abstrait (écrire des lettres). C'est du jeu avec les mots, très surréaliste.",
+      "Étape 5 : Comprends l'intention. En écrivant ainsi, l'auteur surréaliste ne veut pas te faire comprendre quelque chose de rationnel, mais te faire sentir l'inconscient, t'ouvrir à une autre façon de penser."
+    ]
+  },
+  "quiz": {
+    "question": "Un poète surréaliste écrit : 'Les nuages mangent les cloches tandis que les routes deviennent des prières silencieuses.' Quel est le mécanisme littéraire principal qui en fait un texte surréaliste ?",
+    "reponse_calculee": "L'association d'éléments incompatibles et l'absence de logique rationnelle pour explorer l'inconscient et le rêve.",
+    "choices": [
+      {
+        "label": "La beauté classique des images et le respect des règles de la grammaire.",
+        "correct": false
+      },
+      {
+        "label": "L'association d'éléments incompatibles et l'absence de logique rationnelle pour explorer l'inconscient et le rêve.",
+        "correct": true
+      },
+      {
+        "label": "La description réaliste et précise de la nature sénégalaise.",
+        "correct": false
+      },
+      {
+        "label": "L'utilisation de rimes régulières et d'un mètre traditionnel.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien identifié le cœur du Surréalisme : l'abandon volontaire de la logique pour créer des images étranges et explorer l'inconscient. Les nuages qui mangent, les routes qui prient : ce sont des associations impossibles dans la réalité, mais possibles dans le rêve et l'imagination surréaliste.",
+    "feedback_wrong": "Pas tout à fait. Regarde : les nuages mangent les cloches, les routes deviennent des prières. Ce ne sont pas des images réalistes ni classiques. Le Surréalisme, c'est justement le rejet de la logique ordinaire pour accéder à l'inconscient par des associations bizarres et des images de rêve. C'est ce qui rend ce texte surréaliste."
+  }
+}

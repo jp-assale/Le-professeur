@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-passions-et-desir",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Passions et désir",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Passions et désir",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un jeune homme à Bamako qui rêve depuis des années de devenir musicien. Il pratique le n'goni chaque jour, refuse des offres d'emploi stable, néglige parfois ses études pour composer. Ses parents le supplient d'être « raisonnable ». Mais lui, il ne peut pas arrêter : cette passion le consume. D'où vient cette force qui le pousse ? Est-ce vraiment un choix libre ou quelque chose qui le dépasse ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la passion et le désir ?",
+    "explanation": "En philosophie, la passion est un état affectif intense qui nous domine, qui nous pousse à agir sans que nous le décidions pleinement. Contrairement à une simple préférence, la passion nous échappe partiellement : elle nous emporte. Le désir, c'est l'aspiration vers quelque chose d'absent, un manque qu'on cherche à combler. Passion et désir sont liés : le désir peut naître d'une passion, et la passion entretient le désir. La question centrale est : sommes-nous libres face à nos passions et nos désirs, ou en sommes-nous les esclaves ?",
+    "highlight": "La passion est ce qui nous meut malgré nous, le désir est ce qui nous manque et nous attire."
+  },
+  "example": {
+    "problem": "Analysons le cas d'une jeune fille à Dakar qui a une passion dévorante pour les études et le désir ardent de devenir médecin. Ses parents, eux, souhaitent qu'elle se marie rapidement pour « assurer son avenir ». Comment distinguer ici passion, désir et liberté ?",
+    "steps": [
+      "Étape 1 : Identifier la passion. Elle dévore ses livres la nuit, elle parle médecine en permanence, elle refuse de rester inactif. C'est une force qui la possède, elle n'a pas choisi de 'commencer' cette passion.",
+      "Étape 2 : Identifier le désir. Son désir est précis : devenir médecin. Ce n'est pas un vague rêve, c'est un manque actuel (elle n'est pas médecin) qu'elle veut absolument combler.",
+      "Étape 3 : Observer la tension. Elle subit une pression familiale contraire. Ses parents désirent autre chose pour elle. Sa passion entre en conflit avec leur volonté.",
+      "Étape 4 : Questionner la liberté. Est-elle libre de suivre sa passion ? Techniquement oui, mais la passion elle-même n'est pas un choix réfléchi. C'est quelque chose qui l'habite.",
+      "Étape 5 : Conclusion de l'analyse. Passion et désir ne sont pas synonymes de liberté. Ils peuvent être des forces qui nous portent, mais aussi qui nous enferment. La vraie liberté serait peut-être de les reconnaître et d'en tenir compte consciemment, plutôt que de les subir passivement."
+    ]
+  },
+  "quiz": {
+    "question": "Selon la distinction philosophique entre passion et désir, laquelle de ces affirmations est correcte ?",
+    "reponse_calculee": "La passion est une force qui nous meut sans notre consentement total, tandis que le désir est l'aspiration consciente vers un objet absent.",
+    "choices": [
+      {
+        "label": "La passion et le désir sont exactement la même chose, juste deux mots pour désigner un même sentiment.",
+        "correct": false
+      },
+      {
+        "label": "La passion est une force qui nous meut sans notre consentement total, tandis que le désir est l'aspiration consciente vers un objet absent.",
+        "correct": true
+      },
+      {
+        "label": "Le désir est une force irrationnelle tandis que la passion est toujours rationnelle et calculée.",
+        "correct": false
+      },
+      {
+        "label": "La passion garantit toujours la liberté, contrairement au désir qui nous asservit.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien saisi la distinction. La passion nous échappe partiellement, elle nous possède, tandis que le désir reste une aspiration plus consciente vers quelque chose d'absent. Comprendre cette différence te permet de mieux analyser les comportements humains.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : la passion n'est pas une simple aspiration consciente. C'est une force qui nous meut, presque malgré nous. Le désir, lui, est plus proche de l'aspiration. Cette distinction est clé pour comprendre pourquoi les gens agissent contre leur propre raison."
+  }
+}

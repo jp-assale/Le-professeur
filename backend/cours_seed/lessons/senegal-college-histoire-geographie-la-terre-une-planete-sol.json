@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-terre-une-planete-sol",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Terre, une planète solidaire (coopération, communication)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La Terre, une planète solidaire (coopération, communication)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine : ta famille au Sénégal reçoit de l'argent d'un cousin parti travailler en France. En même temps, tu regardes un match de foot en direct entre le Sénégal et la Côte d'Ivoire retransmis par internet. Plus tard, tu apprends que le riz que vous mangez vient de Thaïlande, et que le coton de ton école provient du Mali. Comment est-ce possible ? Parce que la Terre n'est plus un ensemble de mondes isolés, mais une planète où tout est connecté."
+  },
+  "concept": {
+    "heading": "La Terre, une planète solidaire : définition",
+    "explanation": "Aujourd'hui, aucune nation, aucune région ne vit en isolation. Les peuples sont liés par des échanges (commerciaux, culturels, migratoires), par des technologies de communication (internet, téléphone, télévision) et par des défis communs (climat, pandémies, pauvreté). Cette interdépendance signifie que les actions d'un pays affectent les autres, et que les problèmes globaux exigent une coopération internationale. C'est cela, la solidarité planétaire.",
+    "highlight": "La solidarité terrestre = interdépendance + communication + coopération pour des enjeux communs"
+  },
+  "example": {
+    "problem": "En 2020, une crise sanitaire mondiale (la pandémie) a montré comment la Terre est solidaire. Analysons comment cette crise a révélé cette interdépendance.",
+    "steps": [
+      "Étape 1 : Une maladie apparaît dans un pays (Chine). Rapidement, elle se propage à tous les continents grâce aux vols internationaux et aux échanges commerciaux. Aucun pays n'a pu rester isolé.",
+      "Étape 2 : Les pays se rendent compte qu'ils dépendent les uns des autres pour les vaccins, les médicaments et les équipements médicaux. Les pays riches et pauvres ont tous eu besoin de coopération.",
+      "Étape 3 : La communication mondiale (médias, réseaux sociaux, internet) a permis à tous de suivre la crise en temps réel, d'échanger des informations et des solutions scientifiques.",
+      "Étape 4 : Des organisations internationales (ONU, OMS) ont coordonné les efforts : partage de données, aide aux pays pauvres, recherche commune pour le vaccin.",
+      "Étape 5 : Cette crise a montré que sur une planète solidaire, la santé de chacun dépend de la santé de tous. Un virus en Asie devient rapidement un problème africain, américain, européen.",
+      "Conclusion : La Terre n'est pas une collection de mondes fermés, mais un système interconnecté où coopération et communication sont vitales pour affronter les défis communs."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les exemples suivants, lequel illustre le MIEUX la coopération et la communication dans une Terre solidaire ?",
+    "reponse_calculee": "Un accord international pour réduire ensemble les émissions de gaz à effet de serre et protéger le climat",
+    "choices": [
+      {
+        "label": "Un pays qui fabrique des téléphones et les vend uniquement à ses citoyens",
+        "correct": false
+      },
+      {
+        "label": "Un accord international pour réduire ensemble les émissions de gaz à effet de serre et protéger le climat",
+        "correct": true
+      },
+      {
+        "label": "Une région qui refuse d'importer des produits en provenance d'autres continents",
+        "correct": false
+      },
+      {
+        "label": "Un État qui interdit à ses habitants d'utiliser internet ou les réseaux sociaux",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Un accord international sur le climat montre que les États reconnaissent leur interdépendance. Le changement climatique affecte tous les pays, donc tous doivent communiquer et coopérer pour trouver des solutions communes. C'est le cœur de la solidarité planétaire.",
+    "feedback_wrong": "Pas tout à fait. Relis bien : la solidarité terrestre repose sur l'interdépendance (on a besoin les uns des autres), la communication (échanges d'informations) et la coopération (travailler ensemble pour des problèmes communs). Les trois autres options montrent au contraire de l'isolement ou du refus d'échange. Cherche l'exemple qui montre des pays travaillant ensemble sur un enjeu qui les concerne tous."
+  }
+}

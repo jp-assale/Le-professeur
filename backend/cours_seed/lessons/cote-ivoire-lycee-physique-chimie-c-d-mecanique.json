@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-mecanique",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Mécanique",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Mécanique : Les Fondamentaux du Mouvement",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as sûrement observé un transporteur qui pousse un lourd bac de cacao sur le marché, ou regardé une voiture freiner brutalement sur une route poussiéreuse. Ces mouvements, ces forces en jeu, c'est la mécanique. Comprendre pourquoi un objet accélère, ralentit ou reste immobile, c'est maîtriser la clé de presque tous les phénomènes physiques autour de toi."
+  },
+  "concept": {
+    "heading": "Concept Central : La Mécanique et la Deuxième Loi de Newton",
+    "explanation": "La mécanique étudie le mouvement des objets et les forces qui les produisent. Au cœur de cette étude se trouve la deuxième loi de Newton, qui lie la force appliquée à un objet, sa masse et l'accélération qu'il subit. C'est le fondement qui explique comment tout bouge autour de nous.",
+    "highlight": "F = m × a  (Force = masse × accélération)"
+  },
+  "example": {
+    "problem": "Un chauffeur de taxi doit transporter des sacs de riz sur une route rectiligne. Sa voiture, chargée, a une masse totale de 1 200 kg. Il accélère progressivement et atteint une accélération de 2 m/s². En supposant que les frottements et la résistance de l'air sont négligeables, calcule la force nette appliquée par le moteur sur la voiture.",
+    "steps": [
+      "Identifie les données : masse m = 1 200 kg, accélération a = 2 m/s².",
+      "Rappelle la formule : F = m × a.",
+      "Remplace les valeurs : F = 1 200 × 2.",
+      "Effectue le calcul : F = 2 400 N.",
+      "Énonce le résultat : Le moteur exerce une force nette de 2 400 newtons sur la voiture pour obtenir cette accélération."
+    ]
+  },
+  "quiz": {
+    "question": "Un enfant pousse un vélo de masse 20 kg avec une force nette de 50 N. Quelle est l'accélération du vélo ?",
+    "reponse_calculee": "2,5 m/s²",
+    "choices": [
+      {
+        "label": "1,0 m/s²",
+        "correct": false
+      },
+      {
+        "label": "2,5 m/s²",
+        "correct": true
+      },
+      {
+        "label": "70 m/s²",
+        "correct": false
+      },
+      {
+        "label": "1 000 m/s²",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement utilisé la formule F = m × a en la réarrangeant pour trouver a = F / m. Avec F = 50 N et m = 20 kg, tu obtiens a = 50 / 20 = 2,5 m/s². C'est cette accélération qui permet au vélo de prendre de la vitesse.",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que la deuxième loi de Newton s'écrit F = m × a. Pour trouver l'accélération, tu dois réarranger la formule : a = F / m. En remplaçant par tes valeurs : a = 50 / 20 = 2,5 m/s². Refais le calcul étape par étape."
+  }
+}

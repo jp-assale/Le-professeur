@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-philosophie-l-la-vie-sociale-nature-et-culture",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L",
+  "matiere": "Philosophie",
+  "chapitre": "La vie sociale (nature et culture, individu et société, conscience et inconscient, la liberté, l'État)",
+  "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)",
+  "template": "text_only",
+  "title": "La vie sociale : nature, culture, individu et société",
+  "intro": {
+    "heading": "Mise en situation : Un débat dans ton quartier",
+    "body": "Imagine que dans ton quartier à Dakar, un groupe de jeunes décide de créer une association pour nettoyer les rues. Certains disent : « C'est naturel, les humains s'entraident toujours ». D'autres répondent : « Non, c'est notre culture sénégalaise qui nous y pousse ». Un troisième groupe affirme : « C'est juste pour se faire remarquer par la mairie ». D'où vient vraiment ce comportement ? Est-ce inné ou acquis ? Pourquoi vivons-nous ensemble ? C'est la question de la vie sociale."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la vie sociale ?",
+    "explanation": "La vie sociale, c'est l'ensemble des relations, des normes et des institutions qui permettent aux humains de vivre ensemble en société. Contrairement aux animaux qui agissent par instinct, l'homme doit apprendre à vivre avec les autres : il reçoit une culture (langue, valeurs, traditions), développe une conscience de lui-même et d'autrui, et doit trouver un équilibre entre sa liberté personnelle et les règles collectives. La vie sociale n'est pas naturelle ; elle est construite, apprise, transmise. Elle repose sur une tension permanente : entre ce que je suis (individu) et ce que la société attend de moi (collectif), entre mes désirs conscients et mes motivations inconscientes, entre ma liberté et l'ordre social.",
+    "highlight": "La vie sociale est culturelle, pas naturelle : elle s'apprend et se transmet."
+  },
+  "example": {
+    "problem": "Analyse cette situation : Tu dois te présenter demain devant le conseil de classe pour expliquer un retard répété aux cours. Tu sais que c'est parce que tu aimes traîner le matin et que tu n'as pas envie d'y aller. Mais tu vas quand même te lever tôt, te présenter correctement habillé, parler poliment au professeur principal et t'excuser. Pourquoi fais-tu cela alors que tu n'en as pas vraiment envie ? D'où vient cette obéissance ?",
+    "steps": [
+      "Étape 1 — Identifier le conflit : Il y a une différence entre ce que tu désires vraiment (rester au lit) et ce que tu vas faire (te présenter). C'est le conflit entre désir individuel et norme sociale.",
+      "Étape 2 — Reconnaître la culture acquise : Tu as appris depuis l'enfance que l'école est obligatoire, que la ponctualité est une vertu, que respecter l'autorité est normal. Cette connaissance, tu ne l'as pas inventée ; on te l'a transmise. C'est cultural, pas naturel.",
+      "Étape 3 — Voir l'inconscient à l'œuvre : Sans le savoir clairement, tu agis aussi par peur (peur de l'exclusion, peur de décevoir tes parents), par habitude, par intériorisation des règles. Ces motivations ne sont pas toutes conscientes.",
+      "Étape 4 — Constater l'effet de l'État et de l'ordre : L'école est une institution de l'État. Elle impose des horaires, des sanctions, des récompenses. Tu obéis non seulement par culture personnelle, mais aussi parce que cette institution a du pouvoir sur toi.",
+      "Étape 5 — Reconnaître ta marge de liberté : Pourtant, tu n'es pas une marionnette. Tu *pourrais* refuser et partir en vacances. Mais tu as choisi de respecter les règles, sachant que c'est nécessaire pour vivre en société. C'est ta liberté consciente.",
+      "Étape 6 — Conclusion : Cette simple action montre comment la vie sociale te constitue (culture, inconscient, institutions) tout en te laissant libre de choisir (responsabilité, conscience). Tu n'es ni entièrement libre ni entièrement déterminé ; tu es un individu social."
+    ]
+  },
+  "quiz": {
+    "question": "Selon la leçon, pourquoi un enfant sénégalais apprend-il à saluer ses aînés avec respect et à partager son repas avec sa famille, alors qu'un enfant d'une autre culture peut avoir d'autres habitudes ?",
+    "reponse_calculee": "C'est parce que ces comportements sont culturels et transmis par l'éducation et l'environnement social, pas parce qu'ils sont naturels ou innés.",
+    "choices": [
+      {
+        "label": "Parce que c'est inscrit dans l'ADN des Sénégalais",
+        "correct": false
+      },
+      {
+        "label": "Parce que ces comportements sont culturels et transmis par l'éducation et l'environnement social, pas parce qu'ils sont naturels ou innés.",
+        "correct": true
+      },
+      {
+        "label": "Parce que tous les enfants du monde ont les mêmes instincts sociaux naturels",
+        "correct": false
+      },
+      {
+        "label": "Parce que le gouvernement l'oblige par une loi écrite",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris que la vie sociale est cultural et non naturelle. Ce que tu apprends de tes parents, de ton école, de ton environnement, c'est la marque de ta culture. Un enfant élevé différemment aurait d'autres réflexes. C'est pour cela qu'on dit que la culture nous 'fabrique' en tant que membres d'une société.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi : la vie sociale n'est pas naturelle, elle est apprise et transmise. Les comportements respectueux envers les aînés ou le partage familial ne viennent pas de l'inné, mais de la culture et de l'éducation que tu reçois. C'est justement parce que ce n'est pas naturel que des enfants d'autres sociétés peuvent avoir d'autres habitudes."
+  }
+}

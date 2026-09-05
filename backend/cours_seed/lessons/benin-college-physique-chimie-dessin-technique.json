@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-dessin-technique",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Dessin technique",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Dessin technique",
+  "intro": {
+    "heading": "Mise en situation : construire un bâtiment sans erreur",
+    "body": "Imagine que tu es assistant d'un maçon à Cotonou. Il doit construire une maison, mais il ne peut pas se tromper sur les dimensions ni sur la position des portes et fenêtres. Comment communiquer exactement ce qu'il faut faire sans être sur place ? C'est là qu'intervient le dessin technique : un langage universel qui parle à tous les ouvriers, partout dans le monde."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le dessin technique ?",
+    "explanation": "Le dessin technique est une représentation précise et normalisée d'un objet ou d'une construction. Il suit des règles strictes de représentation pour que n'importe quel lecteur (ouvrier, ingénieur, architecte) comprenne exactement les dimensions, les formes et les positions. Contrairement à un dessin artistique, chaque trait a un sens et une mesure exacte.",
+    "highlight": "Dessin technique = représentation codifiée avec dimensions, respectant des normes internationales."
+  },
+  "example": {
+    "problem": "Un menuisier doit fabriquer une porte rectangulaire. Le dessin technique indique : largeur 90 cm, hauteur 210 cm, épaisseur du bois 5 cm, et une poignée à 100 cm de hauteur. Trace les grandes étapes de lecture et d'interprétation de ce dessin.",
+    "steps": [
+      "Étape 1 : Identifier les dimensions principales. La porte a une largeur de 90 cm (dimension horizontale) et une hauteur de 210 cm (dimension verticale).",
+      "Étape 2 : Reconnaître la géométrie. C'est un rectangle : 90 cm × 210 cm. Cela te permet de visualiser la forme globale de la porte.",
+      "Étape 3 : Vérifier l'épaisseur. Le bois a une épaisseur de 5 cm. Le dessin technique montre cela en vue de côté ou en coupe.",
+      "Étape 4 : Placer les détails. La poignée se situe à 100 cm du bas (ou 110 cm du haut, puisque 210 - 100 = 110 cm). Le dessin technique indique son emplacement exact.",
+      "Étape 5 : Vérifier la cohérence. Contrôle que 100 cm + 110 cm = 210 cm (hauteur totale). Tout est cohérent, le menuisier peut construire.",
+      "Étape 6 : Passer à la fabrication. Grâce au dessin technique, le menuisier sait exactement quoi faire, sans ambiguïté."
+    ]
+  },
+  "quiz": {
+    "question": "Un architecte dessine le plan technique d'une piscine rectangulaire. Sur le dessin, la longueur est notée 25 m et la largeur 12 m. En réalité, la longueur construite est de 50 m. Quel est l'échelle utilisée sur ce dessin technique ?",
+    "reponse_calculee": "1/2",
+    "choices": [
+      {
+        "label": "1/4",
+        "correct": false
+      },
+      {
+        "label": "1/2",
+        "correct": true
+      },
+      {
+        "label": "2/1",
+        "correct": false
+      },
+      {
+        "label": "1/5",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'échelle est le rapport entre la dimension sur le dessin et la dimension réelle. Ici : 25 m (dessin) / 50 m (réalité) = 1/2. Cela signifie que chaque longueur réelle est divisée par 2 sur le papier. C'est une échelle couramment utilisée dans les dessins techniques pour que les plans tiennent sur une feuille.",
+    "feedback_wrong": "Pas tout à fait. L'échelle se calcule en divisant la dimension du dessin par la dimension réelle : 25 m ÷ 50 m = 0,5 = 1/2. Cela veut dire que sur ce dessin, 1 cm représente 2 cm dans la réalité. Revois le calcul de l'échelle."
+  }
+}

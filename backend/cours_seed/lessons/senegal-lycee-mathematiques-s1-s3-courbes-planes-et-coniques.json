@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-courbes-planes-et-coniques",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Courbes planes et coniques",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Courbes planes et coniques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois concevoir un pont suspendu dans une région du Sénégal. La forme du câble qui soutient le pont suit une courbe particulière. Ou pense à la trajectoire d'une balle de football en vol : elle dessine une parabole dans l'air. Ces formes, ce sont les coniques. Elles sont partout autour de nous, et les mathématiques nous permettent de les décrire précisément avec des équations."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une conique ?",
+    "explanation": "Une conique est une courbe obtenue en coupant un cône par un plan. Selon l'angle et la position du plan par rapport au cône, on obtient différentes courbes : un cercle, une ellipse, une parabole ou une hyperbole. Chacune de ces courbes a une équation caractéristique en coordonnées cartésiennes $(x, y)$. La forme générale d'une équation de conique est une équation du second degré à deux variables.",
+    "highlight": "Équation générale : $Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0$ (avec $A$, $B$, $C$ non tous nuls)"
+  },
+  "example": {
+    "problem": "On considère la parabole d'équation $y = -\\frac{1}{4}x^2 + 2x + 3$. Détermine le sommet de cette parabole et dis si elle s'ouvre vers le haut ou vers le bas.",
+    "steps": [
+      "Étape 1 : Identifie les coefficients. L'équation est sous forme $y = ax^2 + bx + c$ avec $a = -\\frac{1}{4}$, $b = 2$, $c = 3$.",
+      "Étape 2 : Puisque $a = -\\frac{1}{4} < 0$, la parabole s'ouvre vers le bas.",
+      "Étape 3 : La coordonnée $x$ du sommet est donnée par $x_s = -\\frac{b}{2a} = -\\frac{2}{2 \\times (-\\frac{1}{4})} = -\\frac{2}{-\\frac{1}{2}} = 4$.",
+      "Étape 4 : Calcule la coordonnée $y$ du sommet en remplaçant $x = 4$ dans l'équation : $y_s = -\\frac{1}{4}(4)^2 + 2(4) + 3 = -\\frac{1}{4}(16) + 8 + 3 = -4 + 8 + 3 = 7$.",
+      "Étape 5 : Le sommet est au point $(4, 7)$ et la parabole s'ouvre vers le bas."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est l'équation cartésienne du cercle de centre $(2, -1)$ et de rayon $5$ ?",
+    "reponse_calculee": "$(x - 2)^2 + (y + 1)^2 = 25$",
+    "choices": [
+      {
+        "label": "$(x + 2)^2 + (y - 1)^2 = 25$",
+        "correct": false
+      },
+      {
+        "label": "$(x - 2)^2 + (y + 1)^2 = 25$",
+        "correct": true
+      },
+      {
+        "label": "$(x - 2)^2 + (y + 1)^2 = 5$",
+        "correct": false
+      },
+      {
+        "label": "$(x + 2)^2 + (y + 1)^2 = 25$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! L'équation du cercle de centre $(h, k)$ et de rayon $r$ est $(x - h)^2 + (y - k)^2 = r^2$. Ici, le centre est $(2, -1)$, donc $h = 2$ et $k = -1$, ce qui donne $(x - 2)^2 + (y - (-1))^2 = 5^2$, soit $(x - 2)^2 + (y + 1)^2 = 25$.",
+    "feedback_wrong": "Pas tout à fait. N'oublie pas que l'équation du cercle de centre $(h, k)$ et de rayon $r$ s'écrit $(x - h)^2 + (y - k)^2 = r^2$. Attention aux signes : si le centre est $(2, -1)$, tu dois écrire $(x - 2)$ et $(y - (-1)) = (y + 1)$. Le rayon est $5$, donc $r^2 = 25$."
+  }
+}

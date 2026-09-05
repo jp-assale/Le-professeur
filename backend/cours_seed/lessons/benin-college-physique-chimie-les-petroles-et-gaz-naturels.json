@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-les-petroles-et-gaz-naturels",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les pétroles et gaz naturels",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Les pétroles et gaz naturels",
+  "intro": {
+    "heading": "Mise en situation : pourquoi le carburant coûte cher au Bénin ?",
+    "body": "Chaque jour, des milliers de motos et de voitures circulent dans les rues de Cotonou et d'Abomey-Calavi. Elles consomment de l'essence ou du gazole provenant du pétrole. Ce pétrole, extrait du sous-sol à des milliers de kilomètres, arrive par bateau et par pipelines. Comprendre ce qu'est le pétrole, d'où il vient et comment on l'utilise, c'est comprendre une ressource qui façonne notre économie et notre quotidien."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le pétrole et le gaz naturel ?",
+    "explanation": "Le pétrole et le gaz naturel sont des ressources fossiles formées à partir de la décomposition de matière organique (restes de plantes et d'animaux marins) accumulée sous terre pendant des millions d'années. Sous l'effet de la chaleur, de la pression et du temps, cette matière s'est transformée en hydrocarbures (composés faits de carbone et d'hydrogène). Le pétrole brut est un mélange liquide visqueux de ces hydrocarbures. Le gaz naturel est un mélange gazeux composé principalement de méthane ($CH_4$). Ces deux ressources sont non renouvelables : elles prennent des millions d'années à se former, mais nous les consommons en décennies.",
+    "highlight": "Pétrole et gaz naturel = hydrocarbures fossiles formés sous terre, non renouvelables, utilisés comme sources d'énergie et de matières premières."
+  },
+  "example": {
+    "problem": "Un gisement de pétrole contient 8 millions de barils. On extrait chaque année 400 000 barils. Si la consommation mondiale augmente et que l'extraction passe à 500 000 barils par an à partir de la 3e année, en combien d'années ce gisement sera-t-il épuisé ?",
+    "steps": [
+      "Étape 1 : Calculer l'extraction durant les 2 premières années. Quantité = 400 000 × 2 = 800 000 barils. Reste au gisement : 8 000 000 − 800 000 = 7 200 000 barils.",
+      "Étape 2 : À partir de la 3e année, l'extraction devient 500 000 barils/an. Il reste 7 200 000 barils à extraire.",
+      "Étape 3 : Calculer le nombre d'années nécessaires pour extraire les 7 200 000 barils restants. Nombre d'années = 7 200 000 ÷ 500 000 = 14,4 années.",
+      "Étape 4 : Arrondir à la première année complète où le gisement s'épuise. Cela signifie que le gisement s'épuisera durant la 15e année (2 + 14,4 ≈ 16,4, mais plus précisément après 14 années supplémentaires complètes, soit un total de 16 années).",
+      "Étape 5 : Réponse finale : avec une extraction croissante, ce gisement sera épuisé en environ 16 années."
+    ]
+  },
+  "quiz": {
+    "question": "Une raffinerie traite 12 000 barils de pétrole brut par jour. Combien de barils seront traités en 30 jours ?",
+    "reponse_calculee": "360 000 barils",
+    "choices": [
+      {
+        "label": "360 000 barils",
+        "correct": true
+      },
+      {
+        "label": "400 000 barils",
+        "correct": false
+      },
+      {
+        "label": "180 000 barils",
+        "correct": false
+      },
+      {
+        "label": "12 000 barils",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour calculer la quantité totale, tu multiplies le débit quotidien par le nombre de jours : 12 000 barils/jour × 30 jours = 360 000 barils. C'est une application directe du calcul de production sur une période donnée.",
+    "feedback_wrong": "Pas tout à fait. Relis bien l'énoncé : la raffinerie traite 12 000 barils par jour pendant 30 jours. Il faut multiplier ces deux valeurs : 12 000 × 30. Essaie à nouveau !"
+  }
+}

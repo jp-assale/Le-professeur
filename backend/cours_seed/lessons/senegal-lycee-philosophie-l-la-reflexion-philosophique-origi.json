@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-philosophie-l-la-reflexion-philosophique-origi",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L",
+  "matiere": "Philosophie",
+  "chapitre": "La réflexion philosophique (origines, grandes interrogations, enjeux, idée d'une philosophie africaine)",
+  "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)",
+  "template": "text_only",
+  "title": "La réflexion philosophique : origines, grandes interrogations, enjeux, et philosophie africaine",
+  "intro": {
+    "heading": "Mise en situation : une question qui te traverse chaque jour",
+    "body": "Tu es assis sous l'arbre du village. Un ami te demande : « Pourquoi devons-nous respecter nos ancêtres ? » Tu pourrais répondre par tradition, par peur, ou par habitude. Mais tu décides de vraiment y réfléchir. D'où vient cette obligation ? Est-elle universelle ? Qu'est-ce que cela dit de qui nous sommes ? À cet instant, tu fais de la philosophie. Tu poses des questions que chaque personne, chaque culture, se pose depuis l'aube de l'humanité."
+  },
+  "concept": {
+    "heading": "La réflexion philosophique : définition et origines",
+    "explanation": "La réflexion philosophique est l'activité de l'esprit qui pose des questions fondamentales sur l'existence, la connaissance, l'action et les valeurs. Elle naît quand l'humain s'interroge sur le sens de la réalité au-delà du simple observation. Elle a des origines multiples : en Occident, la Grèce antique (Socrate, Platon, Aristote) en est l'un des foyers reconnus, mais la réflexion philosophique existe aussi dans les traditions africaines, asiatiques, arabes bien avant notre époque moderne. Cette réflexion pose trois grandes questions : Que puis-je connaître ? Que dois-je faire ? Que m'est-il permis d'espérer ?",
+    "highlight": "La philosophie commence quand tu oses poser des questions sur ce qui semble évident."
+  },
+  "example": {
+    "problem": "Un jeune Sénégalais écoute son grand-mère raconter l'histoire des génies protecteurs du village. Il ne se demande pas seulement « Cela est-il vrai ? » mais aussi « Pourquoi nos ancêtres ont-ils besoin de ces récits ? Qu'est-ce que cela me dit sur la mort, sur le rapport au monde invisible, sur la solidarité entre vivants et morts ? » Comment ce passage du doute à la question profonde relève-t-il de la réflexion philosophique ?",
+    "steps": [
+      "Étape 1 – Observer l'attitude de doute : Le jeune ne rejette pas la parole de sa grand-mère, mais il suspend son adhésion immédiate. C'est la suspension du jugement, première attitude philosophique.",
+      "Étape 2 – Poser une question qui dépasse le fait brut : Au lieu de demander seulement « Les génies existent-ils ? », il demande « Pourquoi ces croyances existent ? » C'est passer du particulier (ce récit) à l'universel (le besoin humain de donner du sens).",
+      "Étape 3 – Engager une réflexion sur les valeurs : Il interroge ce que le récit révèle sur l'éthique : qu'est-ce que cela dit du respect des morts, de la continuité entre générations ? Il quitte la simple information pour entrer dans l'analyse des enjeux existentiels.",
+      "Étape 4 – Reconnaître une pluralité de perspectives : Le jeune comprend que d'autres cultures ont des réponses différentes, que sa propre tradition n'est pas la seule valide. C'est l'ouverture comparative, caractéristique de la pensée philosophique.",
+      "Étape 5 – Dégager une connaissance sur l'humain : En réfléchissant, il découvre que toute société a besoin de rituels de lien avec le passé. C'est une connaissance philosophique : elle parle de ce qui est universel dans l'humain, même si ses formes sont multiples.",
+      "Étape 6 – Accepter que la réponse n'est jamais définitive : Le jeune sait qu'il pourra continuer à se poser ces questions. C'est l'essence de la philosophie : c'est une démarche permanente, jamais fermée."
+    ]
+  },
+  "quiz": {
+    "question": "Une philosophie africaine est-elle possible et nécessaire ? Laquelle de ces affirmations correspond le mieux aux enjeux de cette notion dans le programme ?",
+    "reponse_calculee": "Une philosophie africaine est nécessaire parce que les peuples africains posent leurs propres questions fondamentales, avec leurs propres concepts et traditions de pensée, et ne peuvent pas être réduits à importer passivement la pensée occidentale.",
+    "choices": [
+      {
+        "label": "Il n'existe pas de philosophie africaine réelle, seulement des traditions orales.",
+        "correct": false
+      },
+      {
+        "label": "Une philosophie africaine est nécessaire parce que les peuples africains posent leurs propres questions fondamentales, avec leurs propres concepts et traditions de pensée, et ne peuvent pas être réduits à importer passivement la pensée occidentale.",
+        "correct": true
+      },
+      {
+        "label": "La philosophie africaine n'est qu'une copie des idées grecques et arabes.",
+        "correct": false
+      },
+      {
+        "label": "La philosophie est universelle et identique partout ; le mot « africaine » n'a aucun sens.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La philosophie africaine n'est pas un luxe ou une minorité. Elle naît de la nécessité pour les sociétés africaines d'interroger leur réalité propre : l'ubuntu (l'humanité par l'autre), la communauté, l'oralité, le rapport à l'ancestralité, la justice restaurative. Ces questions ne sont pas posées d'abord en grec ou en français. Reconnaître une philosophie africaine, c'est reconnaître aux Africains leur statut de penseurs, pas seulement de spectateurs de la pensée mondiale.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : la réflexion philosophique existe partout où des humains se demandent « Pourquoi ? » et « Comment dois-je vivre ? » Les Africains ne sont pas venus à la philosophie tardivement ou par imitation. Ils ont des traditions de pensée anciennes et profondes : le griot sénégalais qui récite l'épopée de Soundjata, le sage mandingue qui juge les conflits, la mère qui transmet les principes de dignité. Voilà aussi de la philosophie. L'enjeu est de la reconnaître comme telle."
+  }
+}

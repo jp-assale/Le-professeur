@@ -1,0 +1,55 @@
+{
+  "slug": "benin-lycee-mathematiques-c-probabilites",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilités",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Probabilités - Terminale C",
+  "intro": {
+    "heading": "Mise en situation : Un jeu au marché",
+    "body": "Tu es au marché de Cotonou. Un commerçant te propose un jeu : tu tires une boule dans un sac contenant 5 boules rouges et 3 boules blanches. Si tu tires une rouge, tu gagnes 500 F CFA, sinon tu perds 200 F CFA. Avant de jouer, tu te demandes : quelles sont mes chances réelles de gagner ? C'est la question que les probabilités vont te permettre de répondre avec certitude."
+  },
+  "concept": {
+    "heading": "Définition : Probabilité d'un événement",
+    "explanation": "La probabilité mesure la chance qu'un événement se produise. Dans une expérience aléatoire (une expérience dont le résultat est imprévisible, comme tirer une boule au hasard), on définit la probabilité d'un événement A comme le rapport entre le nombre de cas favorables et le nombre total de cas possibles, à condition que tous les cas soient équiprobables (avoir la même chance de se produire).",
+    "highlight": "P(A) = (Nombre de cas favorables) / (Nombre total de cas possibles)"
+  },
+  "example": {
+    "problem": "Reprenons le jeu du marché. Un sac contient 5 boules rouges et 3 boules blanches, indiscernables au toucher. On tire une boule au hasard. Calcule la probabilité de tirer une boule rouge.",
+    "steps": [
+      "Étape 1 : Identifie l'événement étudié. Événement A = « tirer une boule rouge ».",
+      "Étape 2 : Compte le nombre de cas favorables. Il y a 5 boules rouges dans le sac, donc 5 cas favorables.",
+      "Étape 3 : Compte le nombre total de cas possibles. Le sac contient 5 + 3 = 8 boules, donc 8 cas possibles.",
+      "Étape 4 : Applique la formule. P(A) = 5 / 8.",
+      "Étape 5 : Interprète le résultat. La probabilité de tirer une boule rouge est 5/8 = 0,625 = 62,5 %. Cela signifie que sur 8 tirages (en théorie), tu devrais tirer une boule rouge environ 5 fois."
+    ]
+  },
+  "quiz": {
+    "question": "Dans le même sac (5 boules rouges, 3 blanches), on tire une boule au hasard. Quelle est la probabilité de tirer une boule blanche ?",
+    "reponse_calculee": "3/8",
+    "choices": [
+      {
+        "label": "2/8",
+        "correct": false
+      },
+      {
+        "label": "3/8",
+        "correct": true
+      },
+      {
+        "label": "5/8",
+        "correct": false
+      },
+      {
+        "label": "8/8",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Il y a 3 boules blanches parmi les 8 boules totales, donc P(blanc) = 3/8. Tu appliques correctement la formule fondamentale des probabilités.",
+    "feedback_wrong": "Pas tout à fait. Compte bien : combien de boules blanches y a-t-il ? Combien de boules au total ? La probabilité est le rapport de ces deux nombres. Réessaie."
+  }
+}

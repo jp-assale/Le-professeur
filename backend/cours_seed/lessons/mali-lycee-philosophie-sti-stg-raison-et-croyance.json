@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-philosophie-sti-stg-raison-et-croyance",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitre": "Raison et croyance",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Raison et croyance",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Ton ami te dit : « Je suis sûr que la pluie arrivera demain, j'ai senti l'humidité dans l'air ce matin. » Un autre t'affirme : « Non, j'ai écouté la météo à la radio, et il y a 80 % de chance qu'il fasse beau. » Qui croire ? L'un s'appuie sur une sensation, l'autre sur des données. Comment distinguer ce qui relève de la raison de ce qui relève de la simple croyance ?"
+  },
+  "concept": {
+    "heading": "Raison et croyance : définition",
+    "explanation": "La raison est la faculté de penser selon des principes logiques, de vérifier et de démontrer. La croyance est l'adhésion à une proposition sans preuve certaine, souvent par habitude, autorité ou sentiment. Le cœur du chapitre : comment distinguer ce que je sais vraiment de ce que je crois simplement ? La raison exige des preuves et un raisonnement rigoureux ; la croyance se contente de l'apparence ou de la confiance.",
+    "highlight": "La raison cherche à prouver ; la croyance accepte sans preuve."
+  },
+  "example": {
+    "problem": "Un élève au Mali entend dire par sa grand-mère : « Les enfants nés sous la pleine lune sont plus vifs d'esprit. » Il le croit pendant longtemps. Puis, en cours de philosophie, son professeur lui demande : sur quoi repose cette affirmation ? Comment analyser cette situation avec la distinction raison/croyance ?",
+    "steps": [
+      "Identifier la croyance : « Les enfants nés sous la pleine lune sont plus vifs. » C'est une affirmation que l'élève accepte parce qu'elle vient d'une personne respectée (sa grand-mère), sans vérification personnelle.",
+      "Chercher la source : cette croyance repose sur la tradition, l'habitude, l'autorité, pas sur une observation systématique ou une démonstration logique.",
+      "Appliquer le doute rationnel : la raison demande des preuves. Y a-t-il un lien établi entre la date de naissance lunaire et l'intelligence ? Peut-on vérifier cela objectivement ?",
+      "Reconnaître l'absence de fondement rationnel : aucune étude scientifique fiable ne prouve cette relation. La croyance persiste par tradition, non par raison.",
+      "Conclure : l'élève peut respecter sa grand-mère (acte de confiance) tout en reconnaissant qu'il croyait sans raison. La raison l'invite à suspendre son jugement ou à demander des preuves.",
+      "Leçon : la croyance n'est pas mauvaise, mais elle ne doit pas se faire passer pour de la connaissance rationnelle. Savoir distinguer les deux protège la pensée."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés illustre une croyance plutôt qu'une connaissance rationnelle ?",
+    "reponse_calculee": "« Mon oncle m'a toujours dit que se baigner après manger était dangereux, donc je le crois. »",
+    "choices": [
+      {
+        "label": "« L'eau bout à 100 degrés Celsius au niveau de la mer, on peut le vérifier avec un thermomètre. »",
+        "correct": false
+      },
+      {
+        "label": "« Mon oncle m'a toujours dit que se baigner après manger était dangereux, donc je le crois. »",
+        "correct": true
+      },
+      {
+        "label": "« Si deux droites sont parallèles, elles ne se croisent jamais, c'est démontré en géométrie. »",
+        "correct": false
+      },
+      {
+        "label": "« Le Mali a accédé à l'indépendance en 1960, c'est un fait historique documenté. »",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Cette affirmation repose sur l'autorité et la tradition (ce que l'oncle a dit) sans preuve objective. C'est une croyance. Les autres énoncés s'appuient sur des faits vérifiables, des démonstrations ou des preuves documentées.",
+    "feedback_wrong": "Pas tout à fait. Observe bien : laquelle de ces affirmations repose uniquement sur ce qu'on t'a dit, sans que tu puisses la vérifier toi-même ? La croyance naît quand on accepte quelque chose par confiance en une personne ou une tradition, sans preuve rationnelle. Les trois autres énoncés s'appuient sur des preuves, des expériences ou des documents vérifiables."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-primitives",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Primitives",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Primitives",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un ingénieur agricole en Côte d'Ivoire doit calculer la quantité totale d'eau infiltrée dans un champ au fil du temps. Il connaît le débit instantané d'infiltration (la vitesse à chaque moment), mais pour connaître le volume total, il faut « remonter » de la vitesse à la quantité cumulée. C'est exactement ce que font les primitives : elles te permettent de retrouver une fonction à partir de sa dérivée."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce qu'une primitive ?",
+    "explanation": "Une primitive d'une fonction $f$ sur un intervalle est une fonction $F$ telle que sa dérivée soit égale à $f$. En d'autres termes, si tu dérives $F$, tu retrouves $f$. C'est l'opération inverse de la dérivation. Quand tu cherches une primitive, tu cherches à « intégrer » la fonction, c'est-à-dire à trouver quelle fonction, une fois dérivée, te donne $f$.",
+    "highlight": "Si $F'(x) = f(x)$, alors $F$ est une primitive de $f$."
+  },
+  "example": {
+    "problem": "Trouve une primitive de la fonction $f(x) = 6x^2 + 4x + 3$.",
+    "steps": [
+      "Étape 1 : Rappelle la règle de primitivation. Pour une puissance $x^n$, la primitive est $\\frac{x^{n+1}}{n+1}$ (plus une constante).",
+      "Étape 2 : Primitivons le premier terme $6x^2$. La primitive de $x^2$ est $\\frac{x^3}{3}$, donc celle de $6x^2$ est $6 \\times \\frac{x^3}{3} = 2x^3$.",
+      "Étape 3 : Primitivons le deuxième terme $4x$. La primitive de $x$ est $\\frac{x^2}{2}$, donc celle de $4x$ est $4 \\times \\frac{x^2}{2} = 2x^2$.",
+      "Étape 4 : Primitivons le troisième terme $3$. La primitive d'une constante $3$ est $3x$.",
+      "Étape 5 : Ajoute une constante d'intégration $C$ (très important !). La primitive est donc $F(x) = 2x^3 + 2x^2 + 3x + C$.",
+      "Étape 6 : Vérifie en dérivant : $F'(x) = 6x^2 + 4x + 3$. C'est correct !"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est une primitive de $f(x) = 8x^3 - 2x + 5$ ?",
+    "reponse_calculee": "$F(x) = 2x^4 - x^2 + 5x + C$",
+    "choices": [
+      {
+        "label": "$F(x) = 24x^2 - 2 + C$",
+        "correct": false
+      },
+      {
+        "label": "$F(x) = 2x^4 - x^2 + 5x + C$",
+        "correct": true
+      },
+      {
+        "label": "$F(x) = 8x^4 - 2x^2 + 5x + C$",
+        "correct": false
+      },
+      {
+        "label": "$F(x) = x^4 - x^2 + 5x + C$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la règle : la primitive de $x^n$ est $\\frac{x^{n+1}}{n+1}$. Pour $8x^3$, tu divises par la nouvelle puissance 4 : $\\frac{8x^4}{4} = 2x^4$. Pour $-2x$, tu obtiens $-x^2$. Et pour la constante $5$, tu obtiens $5x$. N'oublie jamais le $+C$ !",
+    "feedback_wrong": "Pas tout à fait. Vérifie bien ta règle de primitivation : pour $x^n$, la primitive est $\\frac{x^{n+1}}{n+1}$. Applique-la terme par terme. Pour $8x^3$, la nouvelle puissance sera 4, donc tu auras $\\frac{8x^4}{4}$. Essaie encore en dérivant ta réponse pour voir si tu retrouves la fonction initiale."
+  }
+}

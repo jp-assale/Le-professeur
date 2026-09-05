@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-electromagnetisme",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électromagnétisme",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Électromagnétisme",
+  "intro": {
+    "heading": "Mise en situation : Une boussole qui s'affole",
+    "body": "Tu as remarqué que ta boussole ne pointe plus vers le nord quand tu passes près du transformateur électrique du quartier ? Ou que l'écran de ton téléphone scintille bizarrement près d'une ligne haute tension ? C'est l'électromagnétisme en action : l'électricité et le magnétisme ne sont pas deux phénomènes isolés, ils sont intimement liés. Comprendre cette relation, c'est comprendre comment fonctionnent les moteurs, les générateurs, et presque tous les appareils électriques autour de toi."
+  },
+  "concept": {
+    "heading": "Concept central : Le champ électromagnétique",
+    "explanation": "L'électromagnétisme décrit l'interaction entre les champs électriques et les champs magnétiques. Quand une charge électrique se déplace (courant), elle crée un champ magnétique autour d'elle. Inversement, quand un champ magnétique varie, il crée un champ électrique. Ces deux champs sont inséparables et forment le champ électromagnétique. C'est la base de toute l'électrotechnique moderne.",
+    "highlight": "Toute charge en mouvement produit un champ magnétique ; tout champ magnétique variable produit un champ électrique."
+  },
+  "example": {
+    "problem": "Un fil conducteur rectiligne, parcouru par un courant I = 5 A, produit un champ magnétique autour de lui. Calcule l'intensité du champ magnétique B à une distance r = 10 cm du fil. On donne la perméabilité du vide : $\\mu_0 = 4\\pi \\times 10^{-7}$ T·m/A.",
+    "steps": [
+      "Étape 1 : Identifie la formule applicable. Pour un fil infini parcouru par un courant, le champ magnétique à distance r est : $B = \\frac{\\mu_0 I}{2\\pi r}$",
+      "Étape 2 : Convertis la distance en mètres : r = 10 cm = 0,1 m",
+      "Étape 3 : Substitue les valeurs. $B = \\frac{4\\pi \\times 10^{-7} \\times 5}{2\\pi \\times 0,1}$",
+      "Étape 4 : Simplifie en annulant $\\pi$ : $B = \\frac{4 \\times 10^{-7} \\times 5}{2 \\times 0,1}$",
+      "Étape 5 : Calcule le numérateur : $4 \\times 5 = 20$, donc $20 \\times 10^{-7}$",
+      "Étape 6 : Divise par le dénominateur : $\\frac{20 \\times 10^{-7}}{0,2} = 100 \\times 10^{-7} = 10^{-5}$ T ou $1 \\times 10^{-5}$ T."
+    ]
+  },
+  "quiz": {
+    "question": "Un solénoïde (bobine cylindrique) de 500 spires, parcouru par un courant I = 2 A, a une longueur L = 0,25 m. Calcule l'intensité du champ magnétique à l'intérieur du solénoïde. Données : $\\mu_0 = 4\\pi \\times 10^{-7}$ T·m/A. (Formule : $B = \\mu_0 \\frac{N}{L} I$ où N est le nombre de spires.)",
+    "reponse_calculee": "0,005 T",
+    "choices": [
+      {
+        "label": "0,0005 T",
+        "correct": false
+      },
+      {
+        "label": "0,005 T",
+        "correct": true
+      },
+      {
+        "label": "0,05 T",
+        "correct": false
+      },
+      {
+        "label": "0,5 T",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule du champ dans un solénoïde. $B = 4\\pi \\times 10^{-7} \\times \\frac{500}{0,25} \\times 2 = 4\\pi \\times 10^{-7} \\times 2000 \\times 2 = 4\\pi \\times 10^{-7} \\times 4000 = 16000\\pi \\times 10^{-7} \\approx 16000 \\times 3,14 \\times 10^{-7} = 50240 \\times 10^{-7} = 5,024 \\times 10^{-3}$ T, soit 0,005 T environ. Ce champ magnétique intense est ce qui permet aux électroaimants de fonctionner.",
+    "feedback_wrong": "Attention à l'ordre de grandeur. Revérifie le calcul de N/L : 500 spires divisé par 0,25 m donne 2000 tours par mètre, pas 200 ou 20. Ensuite applique la multiplication par $\\mu_0$ et I correctement. Le résultat attendu est 0,005 T."
+  }
+}

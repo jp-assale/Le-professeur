@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-histoire-geographie-la-premiere-guerre-mondiale",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Première Guerre mondiale (contribution africaine)",
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant",
+  "template": "text_only",
+  "title": "La Première Guerre mondiale : contribution africaine",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un jeune homme de ton village qui part soudainement en Europe pour se battre dans une guerre qui ne concerne pas directement son pays. C'est exactement ce qui s'est passé pour des millions d'Africains entre 1914 et 1918. La Première Guerre mondiale n'était pas seulement une affaire européenne : elle a mobilisé des soldats, des ressources et des hommes venus d'Afrique, et cette contribution est souvent oubliée dans les livres d'histoire."
+  },
+  "concept": {
+    "heading": "Concept : La contribution africaine à la Première Guerre mondiale",
+    "explanation": "Pendant la Première Guerre mondiale (1914-1918), les puissances coloniales européennes (la France, la Grande-Bretagne, la Belgique, l'Allemagne) ont mobilisé massivement les territoires et les populations qu'elles contrôlaient en Afrique. Cette contribution africaine a pris plusieurs formes : l'envoi de soldats combattants sur les fronts européens et africains, l'extraction de matières premières (caoutchouc, minerais, vivres) pour l'effort de guerre, et l'engagement forcé ou volontaire de travailleurs. Les Africains ont ainsi participé à une guerre dont les causes et les enjeux leur restaient largement étrangers, tout en subissant des pertes humaines et des destructions économiques considérables.",
+    "highlight": "Les colonies africaines ont fourni soldats, ressources et main-d'œuvre à la Grande Guerre sans avoir leur mot à dire sur ce conflit."
+  },
+  "example": {
+    "problem": "Un jeune homme du Soudan français (actuel Mali) est enrôlé en 1915 par l'administration coloniale française. Analyser comment et pourquoi il a été mobilisé, et quelles ont été les conséquences pour lui et son territoire.",
+    "steps": [
+      "Étape 1 : Pourquoi la France l'a enrôlé ? La France était en guerre contre l'Allemagne en Europe depuis 1914. Elle avait besoin de soldats, et ses colonies africaines représentaient un réservoir de main-d'œuvre. L'administration coloniale avait le pouvoir d'obliger les hommes à s'enrôler.",
+      "Étape 2 : Comment s'est déroulé l'enrôlement ? Des administrateurs coloniaux se rendaient dans les villages et imposaient le recrutement. Parfois, des chefs locaux étaient mis sous pression pour fournir des contingents d'hommes. Le jeune homme n'avait guère le choix : il devait partir.",
+      "Étape 3 : Où a-t-il combattu ? Certains soldats africains ont été envoyés combattre en France même, sur le front de l'Ouest contre les Allemands. D'autres ont combattu en Afrique, par exemple lors des campagnes contre les colonies allemandes (Cameroun, Togo, Afrique-Orientale allemande).",
+      "Étape 4 : Quel était son rôle ? Il a participé aux combats comme soldat ordinaire, mais aussi comme porteur ou travailleur derrière les lignes. Les pertes parmi les soldats africains ont été très élevées, surtout à cause du climat froid d'Europe auquel ils n'étaient pas habitués et des conditions difficiles.",
+      "Étape 5 : Conséquences pour son village ? Le départ massif des hommes a affaibli la capacité de travail du territoire. Les récoltes ont baissé, les femmes et les enfants ont dû travailler plus. Les ressources locales (animaux, nourriture) ont été réquisitionnées pour approvisionner l'armée.",
+      "Étape 6 : Quel héritage ? Après la guerre, peu de ces soldats africains ont reçu une vraie reconnaissance. Beaucoup sont restés pauvres et marginalisés, bien qu'ils aient participé à la victoire de la France. Cette injustice a nourri le mécontentement envers le colonialisme et contribué aux mouvements d'indépendance qui émergeront quelques décennies plus tard."
+    ]
+  },
+  "quiz": {
+    "question": "Quel était le principal objectif de la mobilisation des Africains par les puissances coloniales pendant la Première Guerre mondiale ?",
+    "reponse_calculee": "Fournir des soldats et des ressources pour soutenir l'effort de guerre en Europe",
+    "choices": [
+      {
+        "label": "Permettre aux Africains d'acquérir une formation militaire moderne",
+        "correct": false
+      },
+      {
+        "label": "Fournir des soldats et des ressources pour soutenir l'effort de guerre en Europe",
+        "correct": true
+      },
+      {
+        "label": "Préparer les colonies africaines à l'indépendance",
+        "correct": false
+      },
+      {
+        "label": "Créer une armée africaine autonome pour défendre les territoires coloniaux",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "C'est exact ! Les puissances coloniales, surtout la France et la Grande-Bretagne, avaient besoin de renforcer leurs armées en Europe et d'obtenir des matières premières. Elles ont donc exploité leurs colonies africaines en y prélevant hommes, denrées et ressources. Cela montre comment le colonialisme a lié le sort des Africains à des conflits qui ne les concernaient pas directement.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis au contexte : pendant cette période, les puissances coloniales contrôlaient totalement l'Afrique. Elles avaient besoin de renforcer leurs forces militaires en Europe et d'obtenir des ressources. Comment ont-elles pu se servir de leurs colonies pour atteindre ces objectifs ?"
+  }
+}

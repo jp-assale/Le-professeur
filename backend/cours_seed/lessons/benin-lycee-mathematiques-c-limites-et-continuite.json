@@ -1,0 +1,56 @@
+{
+  "slug": "benin-lycee-mathematiques-c-limites-et-continuite",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Limites et continuité",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Limites et continuité",
+  "intro": {
+    "heading": "Mise en situation : La route et le passage à niveau",
+    "body": "Imagine une route qui se rapproche progressivement d'un passage à niveau. Les automobilistes ralentissent petit à petit en s'en approchant. À un certain moment, ils doivent être à l'arrêt complet. En mathématiques, on appelle ce comportement une « limite » : c'est ce vers quoi une grandeur tend quand on s'en rapproche. La continuité, c'est quand ce passage se fait sans « saut » ni interruption."
+  },
+  "concept": {
+    "heading": "Définition : Limite et continuité",
+    "explanation": "Une fonction f a une limite L quand x s'approche d'une valeur a si les valeurs de f(x) se rapprochent de L à mesure que x se rapproche de a. Formellement, pour tout nombre aussi petit qu'on le veut (appelé epsilon), on peut toujours trouver un intervalle autour de a où tous les f(x) sont à distance inférieure à epsilon de L. Une fonction est continue en un point a si sa limite en a existe et si cette limite égale f(a).",
+    "highlight": "lim(x→a) f(x) = L ⟺ f est continue en a si lim(x→a) f(x) = f(a)"
+  },
+  "example": {
+    "problem": "Soit la fonction f définie par f(x) = 2x + 3. Détermine la limite de f quand x tend vers 4, puis dis si f est continue en 4.",
+    "steps": [
+      "Étape 1 : Identifier la fonction. On a f(x) = 2x + 3, c'est une fonction affine (linéaire plus une constante).",
+      "Étape 2 : Calculer la limite quand x → 4. Pour une fonction affine, la limite quand x s'approche d'un point a est simplement f(a). Donc lim(x→4) f(x) = f(4) = 2(4) + 3 = 8 + 3 = 11.",
+      "Étape 3 : Vérifier que f(4) existe. f(4) = 2(4) + 3 = 11. Oui, f(4) existe et vaut 11.",
+      "Étape 4 : Comparer limite et valeur au point. Nous avons lim(x→4) f(x) = 11 et f(4) = 11.",
+      "Étape 5 : Conclure. Puisque la limite égale la valeur de la fonction au point, f est continue en x = 4.",
+      "Réponse : lim(x→4) f(x) = 11 et f est continue en 4."
+    ]
+  },
+  "quiz": {
+    "question": "Soit f(x) = (x² - 9)/(x - 3) pour x ≠ 3. Quelle est la limite de f(x) quand x tend vers 3 ?",
+    "reponse_calculee": "6",
+    "choices": [
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "6",
+        "correct": true
+      },
+      {
+        "label": "0",
+        "correct": false
+      },
+      {
+        "label": "La limite n'existe pas",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! On ne peut pas remplacer directement x = 3 (on obtiendrait 0/0). Il faut d'abord simplifier : x² - 9 = (x - 3)(x + 3), donc (x² - 9)/(x - 3) = (x - 3)(x + 3)/(x - 3) = x + 3 pour x ≠ 3. Quand x → 3, on obtient 3 + 3 = 6. La limite existe bien, même si la fonction n'est pas définie en x = 3.",
+    "feedback_wrong": "Pas tout à fait. Il faut factoriser le numérateur : x² - 9 = (x - 3)(x + 3). Après simplification de la fraction (x - 3)(x + 3)/(x - 3), on obtient x + 3. En remplaçant x par 3, on trouve 3 + 3 = 6."
+  }
+}

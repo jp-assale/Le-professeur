@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-svt-les-relations-sols-plantes",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "SVT",
+  "chapitre": "Les relations sols-plantes",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Les relations sols-plantes",
+  "intro": {
+    "heading": "Mise en situation : pourquoi ton champ produit mieux à certains endroits ?",
+    "body": "Imagine que tu cultives du maïs ou de l'igname sur un terrain en Côte d'Ivoire. Tu remarques que dans la partie nord de ton champ, les plants sont vigoureux et produisent bien, tandis que dans la partie sud, ils sont chétifs et peu productifs, même si tu arroses partout pareil. La différence vient du sol lui-même : sa composition, sa structure, sa capacité à retenir l'eau et les nutriments. Le sol n'est pas inerte—c'est un partenaire vivant de ta plante."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que les relations sols-plantes ?",
+    "explanation": "Les relations sols-plantes décrivent comment le sol et la plante interagissent pour l'absorber ensemble les éléments nécessaires à la croissance. Le sol fournit l'eau, les minéraux (azote, phosphore, potassium, etc.) et l'oxygène aux racines. En retour, la plante enrichit le sol par la décomposition de ses matières organiques mortes, et stabilise le sol par son système racinaire. C'est une relation d'échange : la plante a besoin du sol pour vivre, le sol a besoin de la plante pour rester fertile et structuré.",
+    "highlight": "Le sol absorbe et restitue l'eau et les minéraux ; la plante les capture par ses racines pour se nourrir et croître."
+  },
+  "example": {
+    "problem": "Une parcelle de sol contient 150 g de matière organique par kilogramme de sol sec. Après 2 ans de culture intensive sans ajout de compost, le sol perd 8 % de sa matière organique par an en raison de la minéralisation (dégradation par les microbes). Calcule la quantité de matière organique restante après 2 ans, puis détermine la perte totale en grammes.",
+    "steps": [
+      "Étape 1 : Identifie les données. Matière organique initiale = 150 g/kg ; perte annuelle = 8 % ; durée = 2 ans.",
+      "Étape 2 : Chaque année, il reste 92 % de la matière organique (100 % − 8 % = 92 %). Convertis en coefficient : 0,92.",
+      "Étape 3 : Après 1 an, matière organique = 150 × 0,92 = 138 g/kg.",
+      "Étape 4 : Après 2 ans, matière organique = 138 × 0,92 = 126,96 g/kg ≈ 127 g/kg.",
+      "Étape 5 : Calcule la perte totale = 150 − 127 = 23 g/kg.",
+      "Conclusion : Après 2 ans, la parcelle perd 23 g de matière organique par kilogramme de sol, ce qui réduit sa fertilité. C'est pourquoi on doit restituer de la matière organique (compost, fumier) pour maintenir la relation sol-plante en équilibre."
+    ]
+  },
+  "quiz": {
+    "question": "Un sol contient initialement 0,8 % de matière organique. Après une saison culturale, 12 % de cette matière organique a été minéralisée (décomposée) par les microbes du sol. Quel pourcentage de matière organique reste-t-il dans le sol ?",
+    "reponse_calculee": "0,704 %",
+    "choices": [
+      {
+        "label": "0,68 %",
+        "correct": false
+      },
+      {
+        "label": "0,704 %",
+        "correct": true
+      },
+      {
+        "label": "0,8 %",
+        "correct": false
+      },
+      {
+        "label": "0,096 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La matière organique restante se calcule en retirant les 12 % minéralisés : 0,8 % × (1 − 0,12) = 0,8 % × 0,88 = 0,704 %. Cette diminution montre que le sol s'appauvrit progressivement—d'où l'importance de restituer de la matière organique pour maintenir la fertilité et la relation équilibrée entre sol et plante.",
+    "feedback_wrong": "Ce n'est pas le bon résultat. Rappelle-toi : si 12 % de la matière organique est minéralisée, il en reste 88 %. Calcule 0,8 % × 0,88 pour trouver la quantité restante. Ce calcul te montre comment le sol perd graduellement sa fertilité si on n'y ajoute pas de matière organique."
+  }
+}

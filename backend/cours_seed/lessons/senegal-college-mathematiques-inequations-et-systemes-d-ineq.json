@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-inequations-et-systemes-d-ineq",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Inéquations et systèmes d'inéquations à deux inconnues",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Inéquations et systèmes d'inéquations à deux inconnues",
+  "intro": {
+    "heading": "Mise en situation : Un problème de budget",
+    "body": "Tu vends des bracelets et des colliers à la foire. Un bracelet coûte 500 F CFA à fabriquer, un collier 800 F CFA. Tu as un budget de 8 000 F CFA. Comment savoir combien de bracelets et de colliers tu peux fabriquer sans dépasser ce budget ? Ce problème se résout avec les inéquations à deux inconnues !"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une inéquation à deux inconnues ?",
+    "explanation": "Une inéquation à deux inconnues est une inégalité mathématique contenant deux variables (souvent $x$ et $y$) et un symbole d'inégalité (<, >, ≤ ou ≥). Contrairement à une équation qui admet un nombre fini de solutions (souvent une seule), une inéquation admet une infinité de couples solutions. Chaque couple $(x, y)$ qui vérifie l'inégalité est une solution.",
+    "highlight": "Une inéquation à deux inconnues : $ax + by \\leq c$ (ou <, >, ≥), où $x$ et $y$ sont les inconnues et $a$, $b$, $c$ sont des nombres."
+  },
+  "example": {
+    "problem": "Résous l'inéquation $2x + 3y \\leq 12$. Propose trois couples $(x, y)$ qui vérifient cette inéquation.",
+    "steps": [
+      "Étape 1 : Comprendre l'inéquation. On cherche tous les couples $(x, y)$ de nombres positifs ou nuls tels que $2x + 3y \\leq 12$.",
+      "Étape 2 : Tester le couple $(0, 0)$. On remplace : $2(0) + 3(0) = 0 \\leq 12$. Vrai ! Donc $(0, 0)$ est une solution.",
+      "Étape 3 : Tester le couple $(3, 2)$. On remplace : $2(3) + 3(2) = 6 + 6 = 12 \\leq 12$. Vrai ! Donc $(3, 2)$ est une solution.",
+      "Étape 4 : Tester le couple $(6, 0)$. On remplace : $2(6) + 3(0) = 12 \\leq 12$. Vrai ! Donc $(6, 0)$ est une solution.",
+      "Étape 5 : Tester un couple qui ne vérifie pas l'inéquation, comme $(5, 3)$. On remplace : $2(5) + 3(3) = 10 + 9 = 19 \\not\\leq 12$. Faux ! Donc $(5, 3)$ n'est pas une solution.",
+      "Conclusion : Les trois couples $(0, 0)$, $(3, 2)$ et $(6, 0)$ vérifient l'inéquation. Il en existe d'autres (une infinité)."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les couples suivants, lequel vérifie l'inéquation $3x + 2y < 10$ ?",
+    "reponse_calculee": "(2, 1)",
+    "choices": [
+      {
+        "label": "(4, 0)",
+        "correct": false
+      },
+      {
+        "label": "(2, 1)",
+        "correct": true
+      },
+      {
+        "label": "(3, 1)",
+        "correct": false
+      },
+      {
+        "label": "(1, 4)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour $(2, 1)$ : $3(2) + 2(1) = 6 + 2 = 8 < 10$. C'est vrai, donc ce couple est solution de l'inéquation.",
+    "feedback_wrong": "Non, ce n'est pas la bonne réponse. Teste chaque couple en remplaçant $x$ et $y$ dans l'inéquation $3x + 2y < 10$. Par exemple, pour $(4, 0)$ : $3(4) + 2(0) = 12$, et $12 \\not< 10$ donc ce couple ne convient pas. Réessaie !"
+  }
+}

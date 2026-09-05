@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-svt-d-la-transmission-des-caracteres-hered",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitre": "La transmission des caractères héréditaires",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La transmission des caractères héréditaires",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "En Côte d'Ivoire, les planteurs de cacao observent depuis des générations que certains cacaoyers produisent des fruits plus résistants à la sécheresse que d'autres. Ils se demandent : comment ces qualités se transmettent-elles d'un parent à sa descendance ? Pourquoi un enfant ressemble-t-il à ses parents ? Comprendre la transmission des caractères héréditaires, c'est expliquer comment la vie se perpétue et se diversifie."
+  },
+  "concept": {
+    "heading": "Définition et principes fondamentaux",
+    "explanation": "La transmission des caractères héréditaires est le processus par lequel les traits biologiques (couleur des yeux, forme des graines, résistance à une maladie) se transmettent des parents à la descendance par le biais de l'hérédité. Ces caractères sont contrôlés par des gènes, portés par les chromosomes. Chaque parent contribue une partie de son patrimoine génétique à sa descendance. Cette transmission suit des lois précises, formulées par Mendel.",
+    "highlight": "Un caractère héréditaire est un trait biologique transmis des parents à la descendance selon des lois de probabilité liées aux gènes."
+  },
+  "example": {
+    "problem": "Chez une plante de haricot, la couleur de la graine est gouvernée par un gène avec deux allèles : l'allèle pour la couleur marron (M) est dominant sur l'allèle pour la couleur blanc (m). Un agriculteur croise une plante homozygote dominante (MM) avec une plante homozygote récessive (mm). Tous les descendants de la génération F1 sont examinés. Quelle est la proportion (en pourcentage) de graines marron attendues dans la F1 ?",
+    "steps": [
+      "Étape 1 : Identifier les génotypes des parents. Parent 1 : MM (homozygote dominant). Parent 2 : mm (homozygote récessif).",
+      "Étape 2 : Dresser l'échiquier de croisement (tableau de Punnett). Parent MM produit des gamètes M. Parent mm produit des gamètes m.",
+      "Étape 3 : Déterminer les génotypes de la F1. Chaque descendant reçoit un allèle M et un allèle m, donc tous les génotypes de F1 sont Mm.",
+      "Étape 4 : Déduire le phénotype de la F1. L'allèle M est dominant. Tous les descendants Mm expriment le phénotype marron.",
+      "Étape 5 : Calculer la proportion. 4 descendants Mm sur 4 total = 4/4 = 1 = 100 %.",
+      "Résultat : 100 % des graines sont marron en F1."
+    ]
+  },
+  "quiz": {
+    "question": "Un couple humain : le père a les yeux marrons (génotype Mm où M = marron dominant) et la mère a les yeux bleus (génotype mm). Quel est le pourcentage d'enfants attendus avec les yeux bleus dans leur descendance ?",
+    "reponse_calculee": "50",
+    "choices": [
+      {
+        "label": "25 %",
+        "correct": false
+      },
+      {
+        "label": "50 %",
+        "correct": true
+      },
+      {
+        "label": "75 %",
+        "correct": false
+      },
+      {
+        "label": "100 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le père Mm peut transmettre soit M soit m (chacun avec 50 % de probabilité). La mère mm ne transmet que m. Les enfants possibles sont : Mm (yeux marrons, 50 %) et mm (yeux bleus, 50 %). La moitié des enfants auront donc les yeux bleus.",
+    "feedback_wrong": "Pas tout à fait. Construis l'échiquier de croisement : le père Mm croisé avec la mère mm produit 50 % Mm (marrons) et 50 % mm (bleus). Il faut appliquer la loi de ségrégation des allèles pour chaque parent séparément."
+  }
+}

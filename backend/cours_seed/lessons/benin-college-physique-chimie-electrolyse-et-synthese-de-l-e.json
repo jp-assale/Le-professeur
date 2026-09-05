@@ -1,0 +1,54 @@
+{
+  "slug": "benin-college-physique-chimie-electrolyse-et-synthese-de-l-e",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électrolyse et synthèse de l'eau",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Électrolyse et synthèse de l'eau",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué qu'à la maison, quand on branche un appareil électrique près de l'eau, les parents disent « attention, c'est dangereux ! » Mais sais-tu que l'électricité peut aussi transformer l'eau elle-même ? En passant un courant électrique dans l'eau pure, on peut la casser en deux gaz différents. C'est exactement ce que tu vas découvrir aujourd'hui : comment l'électricité fabrique ou détruit l'eau."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'électrolyse et la synthèse de l'eau ?",
+    "explanation": "L'eau est composée de deux éléments chimiques : l'hydrogène et l'oxygène. Quand tu fais passer un courant électrique dans l'eau (qu'on appelle électrolyse), les molécules d'eau se cassent et forment deux gaz : l'hydrogène (à la cathode) et l'oxygène (à l'anode). C'est l'inverse qui se passe lors de la synthèse : si tu mélange l'hydrogène et l'oxygène et que tu les enflammes, ils se recombinent pour reformer de l'eau. Ces deux phénomènes sont donc opposés.",
+    "highlight": "Électrolyse : $H_2O$ → $H_2$ + $O_2$ (avec courant électrique). Synthèse : $H_2$ + $O_2$ → $H_2O$ (avec flamme ou étincelle)."
+  },
+  "example": {
+    "problem": "Au cours d'une électrolyse de l'eau en laboratoire, on utilise un générateur électrique qui fournit un courant continu. Après 20 minutes d'électrolyse, on recueille 4 mL de gaz à la cathode (hydrogène). Sachant que le volume d'oxygène produit à l'anode est toujours moitié moins important que celui de l'hydrogène, quel volume total de gaz (en mL) a-t-on obtenu à la fin ?",
+    "steps": [
+      "Étape 1 : Identifie le gaz produit à la cathode. C'est l'hydrogène : $V_{H_2}$ = 4 mL.",
+      "Étape 2 : Calcule le volume d'oxygène produit à l'anode. D'après l'énoncé : $V_{O_2}$ = $V_{H_2}$ / 2 = 4 / 2 = 2 mL.",
+      "Étape 3 : Vérifie avec la formule de l'électrolyse. La réaction montre que le rapport volumétrique est : $V_{H_2}$ : $V_{O_2}$ = 2 : 1, ce qui correspond à nos résultats (4 : 2 = 2 : 1). ✓",
+      "Étape 4 : Calcule le volume total de gaz produit. Volume total = $V_{H_2}$ + $V_{O_2}$ = 4 + 2 = 6 mL."
+    ]
+  },
+  "quiz": {
+    "question": "Au cours de l'électrolyse de l'eau, si on produit 60 mL d'hydrogène à la cathode, quel volume d'oxygène (en mL) se dégage à l'anode ?",
+    "reponse_calculee": "30 mL",
+    "choices": [
+      {
+        "label": "60 mL",
+        "correct": false
+      },
+      {
+        "label": "30 mL",
+        "correct": true
+      },
+      {
+        "label": "90 mL",
+        "correct": false
+      },
+      {
+        "label": "15 mL",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien retenu que lors de l'électrolyse, le rapport des volumes est toujours $V_{H_2}$ : $V_{O_2}$ = 2 : 1. Donc si l'hydrogène est 60 mL, l'oxygène est 60 / 2 = 30 mL. C'est une règle clé à retenir.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : lors de l'électrolyse de l'eau, il se produit toujours deux fois plus de volume d'hydrogène que d'oxygène. Si tu as 60 mL d'hydrogène, tu dois diviser par 2 pour trouver l'oxygène."
+  }
+}

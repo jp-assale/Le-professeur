@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-etude-economique-de-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "Étude économique de la Côte d'Ivoire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Étude économique de la Côte d'Ivoire",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as peut-être remarqué qu'en Côte d'Ivoire, le cacao et le café sont partout : dans les plantations, dans les discussions des familles, dans les revenus des paysans. Mais d'où vient la richesse du pays ? Comment fonctionne son économie ? Et pourquoi certains secteurs sont-ils plus importants que d'autres ? C'est ce que nous allons découvrir ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'économie d'un pays ?",
+    "explanation": "L'économie d'un pays, c'est l'ensemble de ses activités de production, d'échange et de consommation de biens et de services. En Côte d'Ivoire, l'économie repose principalement sur l'agriculture (culture du cacao, du café, de l'igname, du riz...), le commerce, les services, et de façon croissante sur l'industrie et les transports. Étudier l'économie de la Côte d'Ivoire, c'est comprendre comment le pays produit sa richesse, qui en bénéficie, et comment cela crée du travail et du développement.",
+    "highlight": "L'économie d'un pays = ses ressources + ses secteurs d'activité + ses échanges commerciaux"
+  },
+  "example": {
+    "problem": "La Côte d'Ivoire est le premier producteur de cacao au monde. Analysons comment cette activité agricole structure toute l'économie du pays.",
+    "steps": [
+      "Étape 1 - Identifier l'activité principale : Le cacao est cultivé dans les régions forestières du centre et du sud-ouest. Des milliers de paysans vivent de cette culture.",
+      "Étape 2 - Comprendre la chaîne de production : Le cacao ne se vend pas directement aux pays étrangers sous forme de fève brute. Il passe par des commerçants locaux, puis par des usines (secteur secondaire) qui le transforment en poudre, en beurre de cacao ou en chocolat.",
+      "Étape 3 - Reconnaître les acteurs économiques : Les paysans gagnent de l'argent, les transporteurs (secteur tertiaire) acheminent le produit, les usines créent des emplois, l'État collecte des taxes.",
+      "Étape 4 - Voir l'impact sur les revenus : L'argent du cacao permet aux paysans d'envoyer leurs enfants à l'école, d'améliorer leurs maisons, d'acheter d'autres biens. Cet argent circule dans l'économie locale.",
+      "Étape 5 - Identifier les limites : La Côte d'Ivoire dépend beaucoup du cacao. Si le prix mondial du cacao baisse, toute l'économie du pays en souffre. C'est un risque pour la stabilité économique.",
+      "Étape 6 - Conclure sur la structure : L'économie ivoirienne est basée sur l'exportation d'un produit agricole, ce qui la rend vulnérable aux variations du marché mondial, mais aussi très importante pour le commerce international."
+    ]
+  },
+  "quiz": {
+    "question": "Selon les structures économiques en Côte d'Ivoire, quel secteur d'activité génère le plus de revenus pour le pays et crée le plus d'emplois directs et indirects ?",
+    "reponse_calculee": "L'agriculture, notamment la culture et l'exportation du cacao et du café",
+    "choices": [
+      {
+        "label": "L'industrie lourde (métallurgie, chimie)",
+        "correct": false
+      },
+      {
+        "label": "L'agriculture, notamment la culture et l'exportation du cacao et du café",
+        "correct": true
+      },
+      {
+        "label": "Le secteur financier et bancaire",
+        "correct": false
+      },
+      {
+        "label": "L'exploitation minière du diamant",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'agriculture est le pilier de l'économie ivoirienne. Le cacao et le café représentent l'essentiel des exportations, et la majorité de la population rurale en dépend. Ce secteur est aussi à l'origine de nombreux emplois indirects : transport, commerce, transformation, services.",
+    "feedback_wrong": "Pas tout à fait. Bien que la Côte d'Ivoire ait des ressources minières et un secteur de services en développement, ce n'est pas le secteur dominant. L'économie ivoirienne repose avant tout sur l'agriculture, particulièrement la production et l'exportation de cacao et de café. Ces cultures emploient des millions de personnes, directement et indirectement."
+  }
+}

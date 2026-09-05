@@ -1,0 +1,75 @@
+{
+  "slug": "cote-ivoire-lycee-francais-la-focalisation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "La focalisation",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La focalisation",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu assistes à un accident de voiture sur la route. Trois témoins racontent ce qu'ils ont vu : le chauffeur du taxi a remarqué surtout les freins qui ont lâché, la femme enceinte assise à l'arrière a senti la peur et les cris, et le policier a noté les plaques d'immatriculation et les vitesses. Chacun a « vu » le même événement, mais pas de la même façon. En littérature, c'est pareil : c'est ça, la focalisation."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la focalisation ?",
+    "explanation": "La focalisation est le point de vue à partir duquel le narrateur rapporte les événements d'un récit. Elle détermine ce que le lecteur sait, voit et comprend. C'est comme choisir la caméra qui filme l'histoire : elle peut être sur les épaules d'un personnage, au-dessus de tout, ou complètement cachée. Ce choix façonne toute ta compréhension du texte.",
+    "highlight": "La focalisation contrôle l'accès du lecteur à l'information et aux pensées des personnages."
+  },
+  "concept_extension": {
+    "heading": "Les trois types de focalisation",
+    "types": [
+      {
+        "name": "Focalisation zéro (omnisciente)",
+        "description": "Le narrateur sait tout : pensées de tous les personnages, passé, avenir, secrets. Il est comme un dieu qui voit tout. Exemple : 'Ama ne savait pas que son frère était revenu au village. Pendant ce temps, il se cachait chez leur cousin.'",
+        "signal": "Le narrateur connaît plus que n'importe quel personnage"
+      },
+      {
+        "name": "Focalisation interne",
+        "description": "Le lecteur ne voit que ce qu'un personnage (ou quelques personnages) voit et pense. Tu n'accèdes qu'à ses pensées et sentiments. Exemple : 'Kofi regardait la porte. Reviendrait-il ? Il rongea son ongle, angoissé.' On vit par les yeux de Kofi.",
+        "signal": "Tu entres dans la tête d'un seul personnage ou d'un groupe limité"
+      },
+      {
+        "name": "Focalisation externe",
+        "description": "Le narrateur ne voit que ce qu'on voit de l'extérieur. Pas d'accès aux pensées intimes. Exemple : 'L'homme entra dans le bureau, ferma la porte et s'assit. Son visage était inexpressif.' On ignore ce qu'il pense vraiment.",
+        "signal": "On observe les personnages comme on observe des gens dans la rue"
+      }
+    ]
+  },
+  "example": {
+    "problem": "Lis cet extrait : 'Aminata monta l'escalier en tremblant. Son cœur battait vite. Elle pensa à la lettre dans sa poche. Et si sa mère la découvrait ? Elle poussa la porte de sa chambre et s'effondra sur le lit, en larmes.' Identifie le type de focalisation et explique ce qu'il apporte au récit.",
+    "steps": [
+      "Première étape : demande-toi : qui raconte ? Ici, un narrateur à la troisième personne parle d'Aminata, mais il décrit ses sentiments (tremblante, le cœur qui bat).",
+      "Deuxième étape : le narrateur peut-il entrer dans la tête d'Aminata ? Oui, clairement. On lit ses pensées ('Et si sa mère la découvrait ?'), ses émotions, son angoisse.",
+      "Troisième étape : peut-on voir les pensées des autres personnages (la mère, par exemple) ? Non, elle n'apparaît que comme une menace dans l'esprit d'Aminata, on ne sait pas ce qu'elle pense vraiment.",
+      "Quatrième étape : conclusion. C'est une focalisation interne. Le lecteur vit l'action uniquement par les yeux et la conscience d'Aminata.",
+      "Cinquième étape : effet littéraire. Cette focalisation crée de l'empathie : on souffre avec elle, on partage son secret, son doute, sa peur. Le lecteur est prisonnier de son angoisse."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un roman, le narrateur décrit une scène de dispute entre deux amies. On entend seulement ce que dit l'une d'elles, on ignore absolument ce que pense l'autre. Quel type de focalisation le texte utilise-t-il ?",
+    "reponse_calculee": "Focalisation interne",
+    "choices": [
+      {
+        "label": "Focalisation zéro",
+        "correct": false
+      },
+      {
+        "label": "Focalisation interne",
+        "correct": true
+      },
+      {
+        "label": "Focalisation externe",
+        "correct": false
+      },
+      {
+        "label": "Focalisation mixte",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C'est une focalisation interne. Tu n'accèdes à la conscience que d'une seule personnage (celle qui parle ou dont on suit les pensées), pas de l'autre. La focalisation zéro te montrerait les deux perspectives, et la focalisation externe ne t'autoriserait l'accès à aucune pensée intime.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis bien : tu entres dans la tête d'une personnage précise, mais pas dans celle de l'autre. Ce n'est pas la focalisation zéro (qui montrerait toutes les pensées), ni la focalisation externe (qui ne montrerait aucune pensée). C'est la focalisation interne : tu es prisonnier du point de vue d'un seul personnage."
+  }
+}

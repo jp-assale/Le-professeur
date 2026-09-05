@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-etude-de-fonctions-numeriques-d-",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Étude de fonctions numériques d'une variable réelle",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Étude de fonctions numériques d'une variable réelle",
+  "intro": {
+    "heading": "Mise en situation : Le prix du riz au marché",
+    "body": "Au marché de Bamako, le prix du kilogramme de riz varie selon la saison. Un commerçant remarque que plus il en achète en gros, moins le prix au kilo est élevé. Comment peut-il prévoir son coût total en fonction de la quantité achetée ? C'est exactement ce que tu vas apprendre : étudier comment une grandeur (le coût) change quand une autre (la quantité) varie."
+  },
+  "concept": {
+    "heading": "Concept : Qu'est-ce qu'une fonction numérique d'une variable réelle ?",
+    "explanation": "Une fonction numérique d'une variable réelle est une relation qui associe à chaque nombre réel x (appelé variable ou antécédent) un et un seul nombre réel y (appelé image de x). On la note $f(x) = y$. Étudier une fonction, c'est analyser son comportement : où elle augmente, où elle diminue, ses points particuliers, sa forme générale. Cela te permet de comprendre et prévoir l'évolution d'un phénomène réel.",
+    "highlight": "Une fonction $f : \\mathbb{R} \\to \\mathbb{R}$ associe à chaque $x$ un unique $y = f(x)$."
+  },
+  "example": {
+    "problem": "Un transporteur malien facture le transport de marchandises selon la distance. Le coût total (en francs CFA) est donné par $f(x) = 500x + 2000$, où $x$ est la distance en kilomètres. Étudie cette fonction : détermine le coût pour une distance de 10 km, puis analyse si la fonction est croissante et interprète le rôle des nombres 500 et 2000.",
+    "steps": [
+      "Étape 1 : Calcule $f(10)$. Remplace $x$ par 10 dans la formule : $f(10) = 500 \\times 10 + 2000 = 5000 + 2000 = 7000$ francs CFA.",
+      "Étape 2 : Vérifie avec une deuxième distance. Pour $x = 20$ km : $f(20) = 500 \\times 20 + 2000 = 10000 + 2000 = 12000$ francs CFA.",
+      "Étape 3 : Compare les résultats. Comme $20 > 10$ et $f(20) = 12000 > f(10) = 7000$, la fonction augmente quand $x$ augmente : la fonction est croissante.",
+      "Étape 4 : Identifie la structure de la formule. C'est une fonction affine de la forme $f(x) = ax + b$ avec $a = 500$ et $b = 2000$.",
+      "Étape 5 : Interprète les coefficients. Le coefficient 500 (coefficient directeur) représente le coût par kilomètre supplémentaire. Le nombre 2000 (ordonnée à l'origine) est le coût fixe, indépendant de la distance.",
+      "Étape 6 : Conclusion. Pour 10 km, le coût est 7000 FCFA. La fonction est croissante linéairement, ce qui signifie que le coût augmente régulièrement avec la distance."
+    ]
+  },
+  "quiz": {
+    "question": "Un agriculteur cultive des arachides. La quantité (en tonnes) qu'il peut récolter en fonction du temps $t$ (en mois) suit la fonction $g(t) = 0,5t + 1$. Quelle est la quantité récoltée après 8 mois ?",
+    "reponse_calculee": "5 tonnes",
+    "choices": [
+      {
+        "label": "3 tonnes",
+        "correct": false
+      },
+      {
+        "label": "5 tonnes",
+        "correct": true
+      },
+      {
+        "label": "4 tonnes",
+        "correct": false
+      },
+      {
+        "label": "6 tonnes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $g(8) = 0,5 \\times 8 + 1 = 4 + 1 = 5$ tonnes. C'est la bonne méthode : remplacer la variable par sa valeur numérique et calculer l'image.",
+    "feedback_wrong": "Pas tout à fait. Reprends le calcul : remplace $t$ par 8 dans $g(t) = 0,5t + 1$. Tu dois d'abord calculer $0,5 \\times 8$, puis ajouter 1. Essaie à nouveau."
+  }
+}

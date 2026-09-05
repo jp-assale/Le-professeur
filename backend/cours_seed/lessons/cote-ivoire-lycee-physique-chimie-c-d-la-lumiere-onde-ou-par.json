@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-la-lumiere-onde-ou-par",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "La lumière : onde ou particule",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "La lumière : onde ou particule",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué que le soleil chauffe ta peau à distance, sans contact direct. En même temps, tu vois une ombre nette derrière toi, comme si la lumière se propageait en ligne droite. Mais pourquoi la lumière peut-elle aussi contourner un obstacle très fin ? Ces observations cachent une grande question : la lumière se comporte-t-elle comme une onde ou comme des petites particules ?"
+  },
+  "concept": {
+    "heading": "La dualité onde-particule de la lumière",
+    "explanation": "Pendant longtemps, les physiciens se sont disputés : la lumière est-elle une onde (comme le son qui se propage dans l'air) ou une particule (comme une balle de tennis lancée dans l'espace) ? La réponse moderne est : c'est les deux à la fois. La lumière se comporte tantôt comme une onde, tantôt comme une particule, selon l'expérience qu'on réalise. Quand on l'observe en propagation libre, elle agit comme une onde. Quand elle interagit avec la matière (absorption, émission), elle agit comme une particule appelée photon.",
+    "highlight": "La lumière possède une dualité onde-particule : elle se propage comme une onde, mais transporte l'énergie par quanta (photons)."
+  },
+  "example": {
+    "problem": "Un photon de lumière bleue a une fréquence $\\nu = 6,0 \\times 10^{14}$ Hz. Calcule l'énergie de ce photon. On donne la constante de Planck $h = 6,63 \\times 10^{-34}$ J·s.",
+    "steps": [
+      "Identifie les données : $\\nu = 6,0 \\times 10^{14}$ Hz et $h = 6,63 \\times 10^{-34}$ J·s.",
+      "Rappelle la relation entre l'énergie d'un photon et sa fréquence : $E = h \\nu$, où E est en joules.",
+      "Remplace les valeurs : $E = 6,63 \\times 10^{-34} \\times 6,0 \\times 10^{14}$.",
+      "Calcule le produit des nombres : $6,63 \\times 6,0 = 39,78 ≈ 40$.",
+      "Calcule le produit des puissances de 10 : $10^{-34} \\times 10^{14} = 10^{-20}$.",
+      "Résultat final : $E = 40 \\times 10^{-20} = 4,0 \\times 10^{-19}$ J."
+    ]
+  },
+  "quiz": {
+    "question": "Un photon de lumière rouge a une fréquence $\\nu = 4,5 \\times 10^{14}$ Hz. Quelle est son énergie ? (Constante de Planck : $h = 6,63 \\times 10^{-34}$ J·s)",
+    "reponse_calculee": "3,0 × 10⁻¹⁹ J",
+    "choices": [
+      {
+        "label": "$2,5 \\times 10^{-19}$ J",
+        "correct": false
+      },
+      {
+        "label": "$3,0 \\times 10^{-19}$ J",
+        "correct": true
+      },
+      {
+        "label": "$4,5 \\times 10^{-19}$ J",
+        "correct": false
+      },
+      {
+        "label": "$6,6 \\times 10^{-20}$ J",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule $E = h\\nu$. Calcul : $E = 6,63 \\times 10^{-34} \\times 4,5 \\times 10^{14} = 29,835 \\times 10^{-20} ≈ 3,0 \\times 10^{-19}$ J. Ce résultat montre qu'un photon de lumière rouge transporte une énergie bien définie, ce qui illustre son comportement corpusculaire.",
+    "feedback_wrong": "Ce n'est pas bon. Vérifie que tu appliques correctement $E = h\\nu$ : multiplie la constante de Planck par la fréquence. Attention aux puissances de 10 : $10^{-34} \\times 10^{14} = 10^{-20}$, puis convertis en $10^{-19}$. Recalcule et essaie à nouveau."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-histoire-geographie-de-la-seconde-guerre",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "De la Seconde Guerre mondiale aux efforts de construction du monde",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "De la Seconde Guerre mondiale aux efforts de construction du monde",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'après une terrible dispute entre voisins, toute la rue est dévastée. Les maisons sont détruites, les gens ont faim, la confiance est brisée. Pour reconstruire, les voisins doivent non seulement réparer les maisons, mais aussi créer des règles communes pour éviter que ça ne recommence. C'est exactement ce qui s'est passé après la Seconde Guerre mondiale : le monde entier devait se reconstruire et inventer un nouveau système pour maintenir la paix."
+  },
+  "concept": {
+    "heading": "Le concept central",
+    "explanation": "Après la Seconde Guerre mondiale (1945), le monde a connu une période de reconstruction et de réorganisation politique. Les pays dévastés par le conflit ont dû se reconstruire. Parallèlement, les puissances vainqueurs (États-Unis, Union soviétique, Grande-Bretagne) ont cherché à créer un ordre international nouveau pour éviter une nouvelle catastrophe. Cette époque marque le passage d'un monde dominé par les puissances européennes à un monde multipolaire, marqué par la Guerre froide entre les deux superpuissances et par les mouvements de décolonisation en Afrique et en Asie.",
+    "highlight": "La reconstruction du monde après 1945 : reconstruire les ruines ET créer un ordre international nouveau basé sur la coopération et le droit international."
+  },
+  "example": {
+    "problem": "Analysons comment la Conférence de Yalta (février 1945) a influencé la reconstruction du monde après la Seconde Guerre mondiale.",
+    "steps": [
+      "Étape 1 : Contexte - À Yalta, les trois principaux vainqueurs (États-Unis, Union soviétique, Grande-Bretagne) se rencontrent alors que la guerre en Europe n'est pas encore finie. Ils doivent décider comment le monde va fonctionner après la victoire.",
+      "Étape 2 : Les enjeux - Les dirigeants discutent de trois questions essentielles : comment punir l'Allemagne et le Japon ? Comment organiser les relations internationales ? Quelle sera la place de chaque puissance dans le monde nouveau ?",
+      "Étape 3 : Les accords - Ils s'entendent sur la création d'une organisation internationale (l'ONU) pour maintenir la paix, le partage de l'Allemagne en zones d'occupation, et des promesses d'entrée en guerre contre le Japon.",
+      "Étape 4 : Analyse du résultat - Ces décisions montrent que la reconstruction n'est pas seulement matérielle (rebâtir les villes) mais aussi politique : créer des institutions pour éviter les conflits futurs.",
+      "Étape 5 : Conséquence - Cependant, les divergences entre l'URSS et les États-Unis déjà visibles à Yalta vont s'aggraver après la guerre, menant à la Guerre froide et divisantainsi le monde reconstruit en deux blocs antagonistes."
+    ]
+  },
+  "quiz": {
+    "question": "Quel était l'objectif principal des puissances vainqueurs en créant l'ONU après la Seconde Guerre mondiale ?",
+    "reponse_calculee": "Créer une organisation internationale pour maintenir la paix et éviter de nouveaux conflits mondiaux",
+    "choices": [
+      {
+        "label": "Créer une organisation pour punir uniquement l'Allemagne et le Japon",
+        "correct": false
+      },
+      {
+        "label": "Créer une organisation internationale pour maintenir la paix et éviter de nouveaux conflits mondiaux",
+        "correct": true
+      },
+      {
+        "label": "Créer une organisation pour que les États-Unis contrôlent le monde entier",
+        "correct": false
+      },
+      {
+        "label": "Créer une organisation pour diviser l'Europe en deux zones d'influence",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! L'ONU a été créée en 1945 avec pour mission centrale de maintenir la paix internationale et de résoudre les conflits par la négociation, pas par la guerre. C'est une leçon tirée des catastrophes de la Seconde Guerre mondiale.",
+    "feedback_wrong": "Pas tout à fait. L'ONU a bien entendu un rôle de justice (enquêtes sur les crimes de guerre), mais son objectif principal était d'être une organisation pour maintenir la paix mondiale et éviter les futurs conflits. C'est sa raison d'être fondamentale après 1945."
+  }
+}

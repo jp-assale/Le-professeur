@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-lycee-francais-l-enonciation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "L'énonciation",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'énonciation",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu reçois deux messages sur ton téléphone. Le premier : « Je suis malade, je ne viendrai pas en cours demain. » Le deuxième : « Il est malade, il ne viendra pas en cours demain. » Exactement les mêmes faits, mais pas la même voix qui parle, pas le même moment, pas le même regard sur les choses. C'est ça, l'énonciation : chaque fois qu'on parle ou qu'on écrit, on laisse des traces de qui on est, d'où on parle, et comment on voit le monde."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'énonciation ?",
+    "explanation": "L'énonciation, c'est l'acte de parler ou d'écrire. Mais pas juste le contenu des mots : c'est aussi la personne qui parle (l'énonciateur), le moment où elle parle, le destinataire, et la façon dont elle prend position dans ce qu'elle dit. Chaque énonciation est unique, marquée par des choix de langue, de ton, de point de vue. Quand tu analyses l'énonciation d'un texte, tu cherches à voir comment l'auteur s'y manifeste, comment il façonne son message par sa présence même.",
+    "highlight": "L'énonciation = l'acte de parler/écrire marqué par la présence de celui qui parle, le moment, le destinataire et la prise de position."
+  },
+  "example": {
+    "problem": "Analyse l'énonciation dans ce court dialogue : Une mère dit à son enfant : « Pourquoi tu n'as pas rangé ta chambre ? Je te l'ai demandé cent fois ! » Compare avec ce que pourrait dire un professeur à un élève : « L'élève n'a pas rangé son bureau de travail. Le professeur lui en a fait la remarque plusieurs fois. »",
+    "steps": [
+      "Étape 1 : Identifie qui parle. Dans le premier énoncé, c'est la mère qui utilise « je » et « tu » — elle s'adresse directement à son enfant. Dans le second, on a un narrateur invisible qui parle à la troisième personne (« l'élève », « le professeur »).",
+      "Étape 2 : Repère la relation entre qui parle et à qui on parle. La mère est impliquée émotionnellement, elle s'adresse à quelqu'un de proche. Le professeur (ou le narrateur) garde une distance, il rapporte les faits de manière impersonnelle.",
+      "Étape 3 : Analyse le ton et les marques de subjectivité. La mère emploie « cent fois » — c'est une exagération qui montre sa frustration. Le professeur dit « plusieurs fois » — c'est plus neutre, plus objectif.",
+      "Étape 4 : Observe les choix de mots. La mère dit « pourquoi » et pose une question rhétorique (elle n'attend pas vraiment une réponse, elle reproche). Le narrateur utilise des faits bruts sans jugement.",
+      "Étape 5 : Conclus sur la prise de position. La mère révèle son impatience, son affection mêlée d'agacement. Le narrateur-professeur reste neutre et descriptif. Tous deux énoncent la même situation, mais leur énonciation les expose différemment."
+    ]
+  },
+  "quiz": {
+    "question": "Lis ce passage : « Moi, je pense que la corruption est un fléau qui nous paralyse. Nous devons tous agir ensemble pour y mettre fin. » Quel élément montre le plus clairement la présence de l'énonciateur dans ce texte ?",
+    "reponse_calculee": "L'utilisation de « je » et « nous » et l'expression d'un jugement personnel (« je pense que »)",
+    "choices": [
+      {
+        "label": "Le choix du sujet (la corruption)",
+        "correct": false
+      },
+      {
+        "label": "L'utilisation de « je » et « nous » et l'expression d'un jugement personnel (« je pense que »)",
+        "correct": true
+      },
+      {
+        "label": "L'emploi du mot « fléau »",
+        "correct": false
+      },
+      {
+        "label": "La longueur des phrases",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Les pronoms « je » et « nous » montrent que celui qui parle se place dans son propre énoncé, qu'il prend position personnellement. Le groupe verbal « je pense que » rend visible son jugement. C'est la marque claire de l'énonciation subjective.",
+    "feedback_wrong": "Non. Regarde bien : qui parle ici ? L'auteur se désigne directement par « je » et « nous ». Il dit « je pense » — il expose son propre jugement. C'est cela qui montre sa présence comme énonciateur. Le sujet traité ou le choix d'un mot seul ne suffisent pas à révéler cette présence."
+  }
+}

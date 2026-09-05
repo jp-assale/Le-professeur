@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-nombres-complexes-module-a",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Nombres complexes : module, argument, formule de Moivre",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Nombres complexes : module, argument, formule de Moivre",
+  "intro": {
+    "heading": "Mise en situation : L'onde radio au Sénégal",
+    "body": "Imagine qu'une station de radio à Dakar émet un signal qui se propage en onde circulaire. Ce signal peut être décrit par un nombre complexe : sa puissance correspond au module, et sa direction de propagation correspond à l'argument. Pour amplifier ce signal ou le faire tourner, il faut connaître ces propriétés et savoir les manipuler. C'est exactement ce que tu vas apprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Définition : Module, argument et formule de Moivre",
+    "explanation": "Un nombre complexe $z = a + bi$ (où $a$ et $b$ sont réels) peut être représenté géométriquement comme un point du plan. Le module mesure la distance de ce point à l'origine, et l'argument mesure l'angle que le vecteur fait avec l'axe des réels positifs. La formule de Moivre permet de calculer facilement les puissances de nombres complexes écrits sous forme trigonométrique.",
+    "highlight": "Pour $z = a + bi$ : module $|z| = \\sqrt{a^2 + b^2}$, argument $\\arg(z) = \\theta$ où $z = |z|(\\cos\\theta + i\\sin\\theta)$. Formule de Moivre : $z^n = |z|^n(\\cos(n\\theta) + i\\sin(n\\theta))$."
+  },
+  "example": {
+    "problem": "Soit le nombre complexe $z = 1 + i\\sqrt{3}$. Calcule son module et son argument, puis utilise la formule de Moivre pour trouver $z^4$.",
+    "steps": [
+      "Étape 1 : Identifie les parties réelle et imaginaire. Ici $a = 1$ et $b = \\sqrt{3}$.",
+      "Étape 2 : Calcule le module. $|z| = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = \\sqrt{4} = 2$.",
+      "Étape 3 : Trouve l'argument. On a $\\cos\\theta = \\frac{a}{|z|} = \\frac{1}{2}$ et $\\sin\\theta = \\frac{b}{|z|} = \\frac{\\sqrt{3}}{2}$. Donc $\\theta = \\frac{\\pi}{3}$ (60°).",
+      "Étape 4 : Écris $z$ sous forme trigonométrique. $z = 2(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3})$.",
+      "Étape 5 : Applique la formule de Moivre pour $n = 4$. $z^4 = 2^4(\\cos(4 \\cdot \\frac{\\pi}{3}) + i\\sin(4 \\cdot \\frac{\\pi}{3})) = 16(\\cos\\frac{4\\pi}{3} + i\\sin\\frac{4\\pi}{3})$.",
+      "Étape 6 : Calcule les valeurs trigonométriques. $\\cos\\frac{4\\pi}{3} = -\\frac{1}{2}$ et $\\sin\\frac{4\\pi}{3} = -\\frac{\\sqrt{3}}{2}$. Donc $z^4 = 16(-\\frac{1}{2} - i\\frac{\\sqrt{3}}{2}) = -8 - 8i\\sqrt{3}$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $w = 2 + 2i$. Quel est le module de $w$ ?",
+    "reponse_calculee": "2√2",
+    "choices": [
+      {
+        "label": "2",
+        "correct": false
+      },
+      {
+        "label": "2√2",
+        "correct": true
+      },
+      {
+        "label": "4",
+        "correct": false
+      },
+      {
+        "label": "√2",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Le module de $w = 2 + 2i$ est $|w| = \\sqrt{2^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. Tu as bien maîtrisé la formule du module.",
+    "feedback_wrong": "Pas tout à fait. Pour calculer le module de $w = 2 + 2i$, utilise la formule $|w| = \\sqrt{a^2 + b^2}$ où $a = 2$ et $b = 2$. Cela donne $|w| = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$."
+  }
+}

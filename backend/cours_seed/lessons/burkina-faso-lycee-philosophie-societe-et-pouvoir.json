@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-societe-et-pouvoir",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Société et pouvoir",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Société et pouvoir",
+  "intro": {
+    "heading": "Mise en situation : Un village face à une décision",
+    "body": "Imagine ton village au Burkina Faso. Les habitants doivent décider ensemble s'il faut creuser un puits communautaire ou réparer la route d'accès. Qui décide ? Comment ? Pourquoi certaines voix comptent plus que d'autres ? Cette question — comment s'organise le pouvoir dans une société — est au cœur de la philosophie politique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que « Société et pouvoir » ?",
+    "explanation": "La société est un ensemble d'individus vivant ensemble selon des règles communes. Le pouvoir est la capacité à imposer ces règles, à prendre des décisions qui lient tous les membres. La philosophie politique se demande : d'où vient le pouvoir ? Qui a le droit de l'exercer ? Sur quelle base ? Comment les individus acceptent-ils d'obéir à des règles qu'ils n'ont pas tous choisies seuls ? C'est la question du fondement de l'autorité politique.",
+    "highlight": "Le pouvoir politique est une relation : celui qui commande et celui qui obéit acceptent ensemble un ordre social."
+  },
+  "example": {
+    "problem": "Analyse ce cas : Dans un lycée du Burkina, le proviseur décide d'allonger les horaires sans consulter les élèves ni les parents. Des élèves refusent d'obéir. Pourquoi cette décision fait-elle problème ? Qu'est-ce que cela révèle sur le pouvoir ?",
+    "steps": [
+      "Étape 1 : Identifier l'exercice du pouvoir. Le proviseur dispose d'une autorité formelle (inscrite dans la loi, le règlement). Il prend une décision unilatérale qui affecte toute la communauté scolaire.",
+      "Étape 2 : Repérer le conflit. Les élèves et parents ne se sentent pas impliqués. Ils questionnent la légitimité de cette décision : « Pourquoi lui et pas nous ? »",
+      "Étape 3 : Comprendre la différence entre pouvoir et légitimité. Le proviseur a le pouvoir (les moyens de faire obéir), mais la question est : a-t-il la légitimité (le droit reconnu par les autres à exercer ce pouvoir) ?",
+      "Étape 4 : Analyser l'acceptation. Si le pouvoir repose seulement sur la contrainte (peur de sanctions), il est fragile. S'il repose sur l'accord (« je reconnais que tu as le droit de décider »), il tient.",
+      "Étape 5 : Conclure. Ce cas montre que le pouvoir politique n'est solide que s'il est accepté. Cela pose la question : sur quoi doit reposer cette acceptation ? La tradition ? Le droit ? La participation aux décisions ?",
+      "Étape 6 : Philosopher. La société n'existe que si le pouvoir trouve une forme d'assentiment. C'est pourquoi les philosophes se posent la question du contrat social ou de la justification du pouvoir."
+    ]
+  },
+  "quiz": {
+    "question": "Selon ce chapitre, quel est l'élément essentiel qui distingue un pouvoir légitime d'une simple domination ?",
+    "reponse_calculee": "L'acceptation et la reconnaissance du droit à exercer ce pouvoir par ceux qui y sont soumis",
+    "choices": [
+      {
+        "label": "La force militaire et la capacité à punir",
+        "correct": false
+      },
+      {
+        "label": "L'acceptation et la reconnaissance du droit à exercer ce pouvoir par ceux qui y sont soumis",
+        "correct": true
+      },
+      {
+        "label": "L'ancienneté de celui qui exerce le pouvoir",
+        "correct": false
+      },
+      {
+        "label": "Le nombre de lois écrites et publiées",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Tu as compris le point clé : le pouvoir politique se distingue de la simple violence parce qu'il est reconnu comme ayant le droit d'exister. Cette reconnaissance crée la légitimité. Sans elle, on n'a que de la domination, pas de véritable ordre social.",
+    "feedback_wrong": "Pas tout à fait. Le pouvoir peut s'appuyer sur la force, mais cela ne le rend pas légitime. Ce qui crée la légitimité, c'est que les membres de la société acceptent et reconnaissent le droit de celui qui commande à le faire. C'est cette acceptation qui transforme la force brute en autorité politique."
+  }
+}

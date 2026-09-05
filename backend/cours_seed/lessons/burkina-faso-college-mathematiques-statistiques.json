@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-statistiques",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Statistiques",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Statistiques - BEPC Mathématiques",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi les statistiques ?",
+    "body": "Imagine que tu es responsable d'une petite boutique à Ouagadougou. Chaque jour tu vends des articles, et tu aimerais savoir quel est le produit le plus vendu, quel prix moyen tu pratiques, ou comment tes ventes varient. Pour prendre les bonnes décisions, tu dois analyser tes données : c'est exactement ce que font les statistiques. Elles te permettent de comprendre et de résumer l'information cachée dans tes chiffres."
+  },
+  "concept": {
+    "heading": "Les concepts clés des statistiques",
+    "explanation": "Les statistiques consistent à collecter, organiser, analyser et interpréter des données numériques pour en tirer des conclusions. Voici les outils essentiels que tu vas utiliser : la population (l'ensemble complet qu'on étudie), l'effectif (le nombre d'éléments), la fréquence (la proportion d'un élément), et les indicateurs de position comme la moyenne, la médiane et le mode.",
+    "highlight": "Moyenne = (Somme de tous les éléments) / (Nombre d'éléments)"
+  },
+  "example": {
+    "problem": "Une vendeuse de bijoux en ligne a enregistré le nombre de bracelets vendus chaque jour pendant 10 jours : 5, 7, 5, 8, 6, 5, 9, 7, 6, 7. Calcule la moyenne, trouve le mode et identifie la médiane de cette série de données.",
+    "steps": [
+      "Étape 1 : Énumère les données dans l'ordre : 5, 7, 5, 8, 6, 5, 9, 7, 6, 7 (10 valeurs au total).",
+      "Étape 2 : Calcule la moyenne. Somme = 5 + 7 + 5 + 8 + 6 + 5 + 9 + 7 + 6 + 7 = 65. Moyenne = 65 ÷ 10 = 6,5 bracelets par jour.",
+      "Étape 3 : Trouve le mode (la valeur qui apparaît le plus souvent). En comptant : 5 apparaît 3 fois, 6 apparaît 2 fois, 7 apparaît 3 fois, 8 et 9 apparaissent 1 fois chacun. Les valeurs 5 et 7 sont bimodales (apparaissent 3 fois).",
+      "Étape 4 : Ordonne les données pour la médiane : 5, 5, 5, 6, 6, 7, 7, 7, 8, 9 (10 valeurs = nombre pair).",
+      "Étape 5 : La médiane est la moyenne des 5e et 6e éléments : (6 + 7) ÷ 2 = 6,5.",
+      "Résumé : Moyenne = 6,5 ; Mode = 5 et 7 ; Médiane = 6,5."
+    ]
+  },
+  "quiz": {
+    "question": "Un élève a obtenu les notes suivantes sur 20 en 5 devoirs : 14, 16, 14, 18, 12. Quelle est sa moyenne ?",
+    "reponse_calculee": "14,8",
+    "choices": [
+      {
+        "label": "14",
+        "correct": false
+      },
+      {
+        "label": "14,8",
+        "correct": true
+      },
+      {
+        "label": "15",
+        "correct": false
+      },
+      {
+        "label": "16",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien additionné toutes les notes : 14 + 16 + 14 + 18 + 12 = 74, puis tu as divisé par le nombre de devoirs : 74 ÷ 5 = 14,8. C'est la bonne application de la formule de la moyenne.",
+    "feedback_wrong": "Pas encore. Rappelle-toi : pour calculer une moyenne, tu dois additionner toutes les valeurs, puis diviser par le nombre total de valeurs. Ici : (14 + 16 + 14 + 18 + 12) ÷ 5 = 74 ÷ 5 = 14,8."
+  }
+}

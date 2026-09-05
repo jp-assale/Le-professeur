@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-c-derivabilite-et-etude-de-f",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Dérivabilité et étude de fonctions",
+  "source": "dpfc-ci.net — Progressions 2024-2025",
+  "template": "text_only",
+  "title": "Dérivabilité et étude de fonctions",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es ingénieur dans une usine textile à Abidjan. La production journalière dépend du nombre d'heures de fonctionnement des machines. Tu dois savoir à quel rythme la production augmente ou diminue selon les variations d'horaires, et surtout, à quels moments la production devient optimale. C'est exactement ce que tu vas apprendre à calculer grâce à la dérivabilité : mesurer comment une fonction change à chaque instant."
+  },
+  "concept": {
+    "heading": "Définition : Dérivabilité et dérivée",
+    "explanation": "Une fonction $f$ est dérivable en un point $x_0$ si elle admet une limite finie du taux d'accroissement. Cette limite est appelée nombre dérivé ou dérivée de $f$ au point $x_0$. La dérivée mesure la vitesse instantanée de variation d'une fonction : c'est la pente de la tangente à la courbe en ce point. Pour étudier une fonction, on utilise la dérivée pour trouver les extrema (maximums et minimums), déterminer les intervalles de croissance et de décroissance, et tracer le graphique avec précision.",
+    "highlight": "$f'(x_0) = \\lim_{h \\to 0} \\frac{f(x_0 + h) - f(x_0)}{h}$"
+  },
+  "example": {
+    "problem": "Une petite entreprise de transformation de noix de coco produit des boîtes de lait de coco. Son bénéfice journalier (en milliers de francs CFA) est donné par la fonction $f(x) = -x^2 + 10x - 9$, où $x$ est le nombre de boîtes produites (en centaines). Détermine : 1) la dérivée de $f$, 2) le nombre de boîtes à produire pour avoir un bénéfice maximum, 3) la valeur de ce bénéfice maximum.",
+    "steps": [
+      "Étape 1 : Calcule la dérivée de $f(x) = -x^2 + 10x - 9$. En utilisant les règles de dérivation : $f'(x) = -2x + 10$.",
+      "Étape 2 : Trouve les points critiques en résolvant $f'(x) = 0$. Donc $-2x + 10 = 0$, ce qui donne $x = 5$.",
+      "Étape 3 : Vérifie que c'est un maximum en étudiant le signe de $f'(x)$. Pour $x < 5$, $f'(x) > 0$ (fonction croissante). Pour $x > 5$, $f'(x) < 0$ (fonction décroissante). Donc $x = 5$ est bien un maximum.",
+      "Étape 4 : Interprète : le nombre optimal de boîtes est $5 \\times 100 = 500$ boîtes.",
+      "Étape 5 : Calcule le bénéfice maximum en substituant $x = 5$ dans $f(x)$ : $f(5) = -(5)^2 + 10(5) - 9 = -25 + 50 - 9 = 16$ (milliers de francs CFA).",
+      "Conclusion : L'entreprise doit produire 500 boîtes pour un bénéfice maximum de 16 000 francs CFA."
+    ]
+  },
+  "quiz": {
+    "question": "Soit $g(x) = 3x^2 - 6x + 2$. Calcule la dérivée $g'(x)$ et trouve la valeur de $g'(2)$.",
+    "reponse_calculee": "6",
+    "choices": [
+      {
+        "label": "$g'(2) = 2$",
+        "correct": false
+      },
+      {
+        "label": "$g'(2) = 6$",
+        "correct": true
+      },
+      {
+        "label": "$g'(2) = 8$",
+        "correct": false
+      },
+      {
+        "label": "$g'(2) = 12$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! La dérivée de $g(x) = 3x^2 - 6x + 2$ est $g'(x) = 6x - 6$. En remplaçant $x$ par 2, on obtient $g'(2) = 6(2) - 6 = 12 - 6 = 6$. Tu maîtrises bien le calcul de dérivée et son application.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : la dérivée de $3x^2$ est $6x$, celle de $-6x$ est $-6$, et celle de la constante 2 est 0. Donc $g'(x) = 6x - 6$. Maintenant remplace $x$ par 2 : $g'(2) = 6(2) - 6 = 12 - 6 = 6$. Essaie à nouveau."
+  }
+}

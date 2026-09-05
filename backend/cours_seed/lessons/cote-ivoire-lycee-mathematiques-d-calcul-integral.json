@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-calcul-integral",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul intégral",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Calcul intégral",
+  "intro": {
+    "heading": "Mise en situation : Mesurer une récolte",
+    "body": "Imagine que tu dois estimer la quantité de cacao récolté sur un terrain à forme irrégulière en Côte d'Ivoire. Tu ne peux pas utiliser une formule simple de rectangle ou de triangle. L'intégrale est exactement l'outil mathématique qui te permet de calculer l'aire ou le volume de formes courbes et complexes. C'est une opération inverse de la dérivation, et elle s'applique partout : en physique, en économie, en agriculture."
+  },
+  "concept": {
+    "heading": "Définition : l'intégrale et l'aire sous une courbe",
+    "explanation": "L'intégrale d'une fonction $f$ sur un intervalle $[a, b]$ mesure l'aire algébrique comprise entre la courbe représentative de $f$, l'axe des abscisses et les droites d'équation $x = a$ et $x = b$. Cela permet de calculer des aires, des volumes ou d'autres grandeurs accumulées. L'intégrale est l'opération inverse de la dérivation : si $F$ est une primitive de $f$, alors l'intégrale de $f$ sur $[a, b]$ se calcule facilement.",
+    "highlight": "Si $F$ est une primitive de $f$, alors $\\int_a^b f(x)\\,dx = F(b) - F(a)$"
+  },
+  "example": {
+    "problem": "Calcule l'intégrale $\\int_1^3 (2x + 1)\\,dx$.",
+    "steps": [
+      "Étape 1 : Identifie la fonction à intégrer. Ici, $f(x) = 2x + 1$.",
+      "Étape 2 : Trouve une primitive $F(x)$. Intègre chaque terme : la primitive de $2x$ est $x^2$, celle de $1$ est $x$. Donc $F(x) = x^2 + x$.",
+      "Étape 3 : Applique la formule fondamentale du calcul intégral : $\\int_1^3 (2x + 1)\\,dx = F(3) - F(1)$.",
+      "Étape 4 : Calcule $F(3) = 3^2 + 3 = 9 + 3 = 12$.",
+      "Étape 5 : Calcule $F(1) = 1^2 + 1 = 1 + 1 = 2$.",
+      "Étape 6 : Conclus : $\\int_1^3 (2x + 1)\\,dx = 12 - 2 = 10$."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule $\\int_0^2 (3x^2)\\,dx$.",
+    "reponse_calculee": "8",
+    "choices": [
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "8",
+        "correct": true
+      },
+      {
+        "label": "12",
+        "correct": false
+      },
+      {
+        "label": "4",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! La primitive de $3x^2$ est $x^3$. En appliquant la formule : $\\int_0^2 3x^2\\,dx = [x^3]_0^2 = 2^3 - 0^3 = 8 - 0 = 8$. Tu as bien maîtrisé le calcul d'une primitive et son application.",
+    "feedback_wrong": "Ce n'est pas le bon résultat. Vérifie que la primitive de $3x^2$ est bien $x^3$. Ensuite, calcule $F(2) - F(0) = 2^3 - 0^3 = 8 - 0 = 8$. N'oublie pas d'évaluer la primitive aux bornes et de faire la soustraction."
+  }
+}

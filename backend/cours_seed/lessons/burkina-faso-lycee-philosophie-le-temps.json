@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-lycee-philosophie-le-temps",
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Le temps",
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010",
+  "template": "text_only",
+  "title": "Le temps",
+  "intro": {
+    "heading": "Mise en situation : Le marché de Ouagadougou",
+    "body": "Chaque matin, tu te lèves et tu dois décider : partir tôt au marché ou attendre que la chaleur baisse ? En chemin, tu penses au repas d'hier, à celui de ce soir, à ta journée d'école qui s'écoule heure après heure. Le temps s'accélère parfois (durant une fête), ralentit d'autres fois (dans une salle d'attente). Qu'est-ce que ce temps que tu vis constamment, que tu mesures, que tu redoutes de perdre ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le temps ?",
+    "explanation": "Le temps est la dimension de l'expérience humaine dans laquelle les événements s'ordonnent selon une succession : passé, présent, futur. Il n'est pas qu'une mesure objective (horloge, calendrier), c'est aussi une réalité vécue par chacun. Le philosophe se demande : le temps existe-t-il indépendamment de nous, ou est-ce une création de notre esprit ? Est-il linéaire, irréversible, ou peut-on le concevoir autrement ?",
+    "highlight": "Le temps est à la fois une mesure objective et une expérience subjective de succession et d'irréversibilité."
+  },
+  "example": {
+    "problem": "Analyse la situation suivante : Une mère prépare le déjeuner. Son fils attend impatiemment, assis sur le banc. Pour la mère, les deux heures qu'elle passe à cuisiner passent vite ; pour le fils, ces deux heures semblent durer une éternité. Comment expliquer cette différence, en restant fidèle à l'idée que le temps est à la fois objectif et subjectif ?",
+    "steps": [
+      "Étape 1 : Objectivement, le temps mesuré (deux heures) est identique pour les deux. L'horloge, le calendrier montrent la même durée pour chacun.",
+      "Étape 2 : Pourtant, leur vécu diffère radicalement. Pourquoi ? Parce que la conscience que chacun a du temps dépend de son attention, de ses émotions, de son activité.",
+      "Étape 3 : La mère est occupée, concentrée sur sa tâche, elle 'oublie le temps' dans l'action. Son esprit suit le fil de son travail, pas le fil de l'horloge.",
+      "Étape 4 : Le fils, inactif et impatient, observe chaque minute qui passe, chaque grain de sable qui tombe. Son attention se fixe sur le temps lui-même, d'où la sensation d'étirement.",
+      "Étape 5 : Conclusion : le temps 'objectif' (mesurable) et le temps 'vécu' (subjectif) ne sont pas la même chose. L'un est physique, l'autre psychologique, mais tous deux sont réels.",
+      "Étape 6 : Cela montre que le temps n'est pas une simple donnée externe, mais une construction de notre conscience en interaction avec les événements."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces affirmations, laquelle exprime correctement le paradoxe du temps en philosophie ?",
+    "reponse_calculee": "Le temps est une réalité objective (mesurable par l'horloge) mais aussi une expérience subjective (vécue différemment selon chacun).",
+    "choices": [
+      {
+        "label": "Le temps n'existe que dans notre esprit, jamais dans le monde réel.",
+        "correct": false
+      },
+      {
+        "label": "Le temps est une réalité objective (mesurable par l'horloge) mais aussi une expérience subjective (vécue différemment selon chacun).",
+        "correct": true
+      },
+      {
+        "label": "Le temps est uniquement une mesure scientifique et mathématique, sans lien avec nos sensations.",
+        "correct": false
+      },
+      {
+        "label": "Le temps s'écoule à la même vitesse pour tous, peu importe ce que nous ressentons.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Tu as identifié le cœur du débat philosophique sur le temps. D'un côté, nous avons besoin d'une mesure objective (l'horloge), mais de l'autre, chacun vit le temps à sa façon selon son attention, ses émotions et ses actions. C'est ce qui rend le temps si complexe à penser.",
+    "feedback_wrong": "Pas tout à fait. Relis bien les trois autres propositions. Rappelle-toi : l'horloge mesure une durée identique pour tous (objectif), mais ton vécu de cette durée change selon que tu t'ennuies ou que tu es occupé (subjectif). Les deux sont vrais en même temps, et c'est là qu'est le paradoxe."
+  }
+}

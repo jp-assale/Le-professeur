@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-fonctions-exponentielles-e",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions exponentielles et fonctions puissances",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Fonctions exponentielles et fonctions puissances",
+  "intro": {
+    "heading": "Mise en situation : La croissance d'une épidémie",
+    "body": "Imagine qu'une maladie se propage dans une région : le premier jour, 2 personnes sont infectées. Chaque jour, le nombre de cas double. Après 5 jours, combien de personnes sont malades ? Tu verras que ce type de croissance très rapide suit une fonction exponentielle. C'est le même phénomène qu'on observe aussi dans la croissance des populations, la radioactivité, ou même le rendement d'un capital en banque."
+  },
+  "concept": {
+    "heading": "Les fonctions exponentielles et puissances : définitions clés",
+    "explanation": "Une fonction exponentielle est une fonction où la variable apparaît en tant qu'exposant. La fonction puissance, elle, a un exposant fixe et la variable change. Ces deux types de fonctions décrivent des phénomènes très différents dans le monde réel, mais elles partagent des propriétés mathématiques importantes. En Terminale D, tu dois maîtriser leur comportement, leurs dérivées, et savoir les utiliser pour modéliser des situations concrètes.",
+    "highlight": "Fonction exponentielle : $f(x) = a^x$ avec $a > 0, a \\neq 1$ | Fonction puissance : $f(x) = x^n$ avec $n \\in \\mathbb{R}$"
+  },
+  "example": {
+    "problem": "Un capital de 500 000 francs CFA est placé à la banque avec un intérêt annuel de 5%. Après combien d'années le capital aura-t-il doublé ? (Utilise la formule du capital après $n$ années : $C(n) = 500000 \\times (1,05)^n$.)",
+    "steps": [
+      "Étape 1 : On cherche le moment où $C(n) = 1 000 000$ (le double du capital initial). Pose l'équation : $500000 \\times (1,05)^n = 1000000$.",
+      "Étape 2 : Divise les deux côtés par 500 000 : $(1,05)^n = 2$.",
+      "Étape 3 : Pour isoler $n$, prends le logarithme naturel des deux côtés : $n \\times \\ln(1,05) = \\ln(2)$.",
+      "Étape 4 : Divise par $\\ln(1,05)$ : $n = \\frac{\\ln(2)}{\\ln(1,05)}$.",
+      "Étape 5 : Calcule numériquement : $n = \\frac{0,693}{0,049} \\approx 14,2$ années.",
+      "Étape 6 : Conclusion : le capital doublera après environ 14 années et 2 mois et demi."
+    ]
+  },
+  "quiz": {
+    "question": "On considère la fonction $f(x) = 3^x$. Quelle est la valeur de $f(2) + f(1)$ ?",
+    "reponse_calculee": "12",
+    "choices": [
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "12",
+        "correct": true
+      },
+      {
+        "label": "9",
+        "correct": false
+      },
+      {
+        "label": "15",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! $f(2) = 3^2 = 9$ et $f(1) = 3^1 = 3$. Donc $f(2) + f(1) = 9 + 3 = 12$. Tu maîtrises bien le calcul des valeurs des fonctions exponentielles.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que $3^2 = 9$ et $3^1 = 3$. Additionne bien ces deux résultats pour obtenir $f(2) + f(1)$."
+  }
+}

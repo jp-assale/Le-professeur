@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s1-s3-calcul-integral",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul intégral",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Calcul intégral",
+  "intro": {
+    "heading": "Mise en situation : Mesurer une récolte",
+    "body": "Imagine que tu es responsable d'une exploitation agricole et tu dois calculer la surface exacte d'un champ dont les contours ne sont pas réguliers. Ou encore, tu veux connaître la quantité totale d'eau qui s'écoule dans un fleuve en fonction du temps. L'intégrale est l'outil mathématique qui te permet de calculer ces aires et ces quantités cumulées, même quand les formes ou les variations sont complexes."
+  },
+  "concept": {
+    "heading": "L'intégrale : définition et sens",
+    "explanation": "L'intégrale d'une fonction $f$ sur un intervalle $[a, b]$ mesure l'aire algébrique comprise entre la courbe, l'axe des abscisses et les droites verticales $x = a$ et $x = b$. Elle répond à la question : comment additionner une infinité de petites contributions pour obtenir un total ? La primitive d'une fonction $f$ est une fonction $F$ dont la dérivée est $f$. Pour calculer l'intégrale, on utilise le théorème fondamental de l'analyse.",
+    "highlight": "L'intégrale définie de $f$ de $a$ à $b$ est notée $\\int_a^b f(x)\\,dx = F(b) - F(a)$, où $F$ est une primitive de $f$."
+  },
+  "example": {
+    "problem": "Une entreprise de transport étudie la vitesse d'un camion le long d'une route. La vitesse en fonction du temps (en heures) est donnée par $v(t) = 3t^2 + 2t$ km/h. Calcule la distance parcourue entre $t = 1$ h et $t = 3$ h.",
+    "steps": [
+      "Étape 1 : Reconnaître que la distance est l'intégrale de la vitesse. On cherche donc $\\int_1^3 (3t^2 + 2t)\\,dt$.",
+      "Étape 2 : Trouver une primitive $F(t)$ de $v(t) = 3t^2 + 2t$. En intégrant terme à terme : $F(t) = t^3 + t^2 + C$ (où $C$ est une constante).",
+      "Étape 3 : Vérifier la primitive en dérivant : $F'(t) = 3t^2 + 2t$ ✓",
+      "Étape 4 : Appliquer le théorème fondamental : $\\int_1^3 (3t^2 + 2t)\\,dt = F(3) - F(1)$.",
+      "Étape 5 : Calculer $F(3) = 3^3 + 3^2 = 27 + 9 = 36$ et $F(1) = 1^3 + 1^2 = 1 + 1 = 2$.",
+      "Étape 6 : Conclusion : $F(3) - F(1) = 36 - 2 = 34$ km. Le camion a parcouru 34 km entre $t = 1$ h et $t = 3$ h."
+    ]
+  },
+  "quiz": {
+    "question": "Calcule $\\int_0^2 (4x + 1)\\,dx$.",
+    "reponse_calculee": "10",
+    "choices": [
+      {
+        "label": "6",
+        "correct": false
+      },
+      {
+        "label": "10",
+        "correct": true
+      },
+      {
+        "label": "12",
+        "correct": false
+      },
+      {
+        "label": "8",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Tu as correctement appliqué le théorème fondamental. La primitive de $4x + 1$ est $2x^2 + x$. En évaluant entre 0 et 2 : $F(2) - F(0) = (2 \\cdot 2^2 + 2) - (0) = 8 + 2 = 10$.",
+    "feedback_wrong": "Ce n'est pas le bon résultat. Vérifie d'abord que tu as trouvé la bonne primitive : pour $f(x) = 4x + 1$, on obtient $F(x) = 2x^2 + x$. Ensuite, calcule $F(2) = 2 \\cdot 4 + 2 = 10$ et $F(0) = 0$, donc la réponse est 10."
+  }
+}

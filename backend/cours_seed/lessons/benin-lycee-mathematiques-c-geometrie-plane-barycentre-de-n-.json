@@ -1,0 +1,55 @@
+{
+  "slug": "benin-lycee-mathematiques-c-geometrie-plane-barycentre-de-n-",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Géométrie plane (barycentre de n points, isométries, applications affines, coniques, similitudes planes directes)",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Géométrie plane : Barycentre, isométries et coniques",
+  "intro": {
+    "heading": "Mise en situation : L'équilibre d'un marché",
+    "body": "Imagine que tu dois partager équitablement des marchandises entre trois vendeurs situés à différents endroits du marché de Cotonou. Chacun doit recevoir une quantité différente selon sa capacité. Comment trouver le point d'équilibre où poser ta charge pour qu'elle soit stable ? C'est exactement ce que le barycentre te permet de calculer. Ce concept s'étend bien au-delà : il nous aide à comprendre les rotations, les symétries, et même les courbes parfaites comme l'ellipse ou la parabole."
+  },
+  "concept": {
+    "heading": "Le barycentre de n points",
+    "explanation": "Le barycentre est le point d'équilibre d'un système de points pondérés (chaque point a un poids ou une masse). Si tu as n points $A_1, A_2, ..., A_n$ affectés de coefficients $m_1, m_2, ..., m_n$ (les masses), le barycentre G est le point qui « représente » l'équilibre du système. Ce concept est fondamental en géométrie plane car il unifie l'étude des figures : symétries, rotations, et même les coniques sont liées à des propriétés du barycentre. La définition vectorielle du barycentre est :",
+    "highlight": "G = (m_1 * A_1 + m_2 * A_2 + ... + m_n * A_n) / (m_1 + m_2 + ... + m_n)"
+  },
+  "example": {
+    "problem": "Trois points A, B, C ont pour coordonnées respectives A(1; 2), B(4; 1) et C(2; 5). On leur affecte les masses respectives 2, 3 et 1. Calcule les coordonnées du barycentre G de ce système.",
+    "steps": [
+      "Étape 1 : Vérifie que la somme des masses n'est pas nulle. Somme = 2 + 3 + 1 = 6 ≠ 0. C'est bon, le barycentre existe.",
+      "Étape 2 : Applique la formule pour la coordonnée x. $x_G = (2 \\times 1 + 3 \\times 4 + 1 \\times 2) / 6 = (2 + 12 + 2) / 6 = 16 / 6 = 8/3$.",
+      "Étape 3 : Applique la formule pour la coordonnée y. $y_G = (2 \\times 2 + 3 \\times 1 + 1 \\times 5) / 6 = (4 + 3 + 5) / 6 = 12 / 6 = 2$.",
+      "Étape 4 : Écris la réponse. Le barycentre G a pour coordonnées $G(8/3; 2)$ ou en notation décimale $G(2,67; 2)$.",
+      "Étape 5 : Interprétation. Ce point est le centre d'équilibre du système : si tu suspendais les trois masses aux points A, B, C avec les poids 2, 3 et 1, elles s'équilibreraient exactement au point G."
+    ]
+  },
+  "quiz": {
+    "question": "Deux points P et Q ont pour coordonnées P(0; 3) et Q(6; 1). On affecte à P la masse 4 et à Q la masse 2. Quelle est l'abscisse du barycentre de ce système ?",
+    "reponse_calculee": "2",
+    "choices": [
+      {
+        "label": "1",
+        "correct": false
+      },
+      {
+        "label": "2",
+        "correct": true
+      },
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "4",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement appliqué la formule. $x_G = (4 \\times 0 + 2 \\times 6) / (4 + 2) = 12 / 6 = 2$. Le point avec la plus grande masse (P) « attire » le barycentre vers lui, mais Q l'influence aussi. C'est pourquoi le résultat n'est pas au milieu.",
+    "feedback_wrong": "Pas tout à fait. Reprends la formule du barycentre en abscisse : $x_G = (m_1 x_1 + m_2 x_2) / (m_1 + m_2)$. Ici, $x_G = (4 \\times 0 + 2 \\times 6) / (4 + 2) = 12 / 6 = 2$. N'oublie pas que la masse la plus importante influence davantage la position du barycentre."
+  }
+}

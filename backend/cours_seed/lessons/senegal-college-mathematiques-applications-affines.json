@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-applications-affines",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Applications affines",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "function_affine",
+  "title": "Applications affines",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Dans un petit commerce de Dakar, le gérant vend des cahiers à 500 FCFA l'unité. Chaque jour, il ajoute une prime fixe de 2 000 FCFA au total de ses ventes pour couvrir ses frais. Tu remarques que le montant que le gérant gagne dépend du nombre de cahiers vendus, mais il y a toujours cette base de 2 000 FCFA. Comment peux-tu exprimer ce lien mathématiquement ?"
+  },
+  "concept": {
+    "heading": "Définition : Application affine",
+    "explanation": "Une application affine est une fonction qui établit une relation linéaire entre une variable d'entrée et une variable de sortie. Elle combine une partie proportionnelle (qui dépend de l'entrée) et une partie fixe (constante). Si tu appelles x la variable d'entrée et f(x) le résultat, tu peux exprimer n'importe quelle application affine par une formule générale. Le coefficient a détermine la pente (la variation) et le coefficient b représente la valeur initiale quand x = 0.",
+    "highlight": "f(x) = ax + b, où a et b sont des nombres réels constants"
+  },
+  "example": {
+    "problem": "Un artisan fabrique des bracelets. Pour chaque bracelet vendu, il gagne 1 500 FCFA. De plus, il reçoit une allocation mensuelle fixe de 5 000 FCFA pour l'atelier. Exprime son gain total G en fonction du nombre de bracelets vendus x, puis calcule son gain s'il vend 12 bracelets.",
+    "steps": [
+      "Identifie la partie variable : pour chaque bracelet vendu, il gagne 1 500 FCFA. Le coefficient a = 1 500.",
+      "Identifie la partie fixe : l'allocation mensuelle est de 5 000 FCFA. Le coefficient b = 5 000.",
+      "Écris la formule de l'application affine : G(x) = 1 500x + 5 000.",
+      "Remplace x par 12 pour calculer le gain total : G(12) = 1 500 × 12 + 5 000.",
+      "Effectue le calcul : G(12) = 18 000 + 5 000 = 23 000 FCFA.",
+      "Conclusion : si l'artisan vend 12 bracelets, son gain total est de 23 000 FCFA."
+    ]
+  },
+  "quiz": {
+    "question": "Un taxi effectue des trajets en ville. Le tarif de base (prise en charge) est 1 000 FCFA, et chaque kilomètre parcouru coûte 300 FCFA au client. Quel est le prix payé par un client pour un trajet de 15 kilomètres ?",
+    "reponse_calculee": "5500",
+    "choices": [
+      {
+        "label": "4 500 FCFA",
+        "correct": false
+      },
+      {
+        "label": "5 500 FCFA",
+        "correct": true
+      },
+      {
+        "label": "5 000 FCFA",
+        "correct": false
+      },
+      {
+        "label": "6 000 FCFA",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien identifié l'application affine. Le prix P en fonction du nombre de kilomètres x est : P(x) = 300x + 1 000. Pour x = 15, on calcule : P(15) = 300 × 15 + 1 000 = 4 500 + 1 000 = 5 500 FCFA. Tu maîtrises la structure a·x + b.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : P(x) = 300x + 1 000, où 1 000 FCFA est la prise en charge fixe et 300 FCFA est le coût par kilomètre. Pour 15 km : P(15) = 300 × 15 + 1 000 = 4 500 + 1 000 = 5 500 FCFA. Vérifie ton calcul."
+  }
+}

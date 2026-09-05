@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-physique-chimie-electrisation-par-frottement",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Électrisation par frottement, le courant électrique",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Électrisation par frottement, le courant électrique",
+  "intro": {
+    "heading": "Mise en situation : une journée électrisante",
+    "body": "Tu rentres chez toi par une journée très sèche. Tu enlèves ton pull en laine : zzzt ! Une étincelle jaillit entre le tissu et ta peau, tu entends un crépitement. Le lendemain, tu frottes un ballon de baudruche sur tes cheveux secs : le ballon se colle à ton crâne comme par magie. Pourquoi ? Parce que le frottement crée de l'électricité. C'est ce que tu vas apprendre aujourd'hui."
+  },
+  "concept": {
+    "heading": "Électrisation et courant électrique : les deux faces de l'électricité",
+    "explanation": "L'électrisation par frottement est un phénomène où deux corps frottés l'un contre l'autre échangent des charges électriques. Quand tu frottes un objet isolant, tu arraches ou tu ajoutes des électrons à ses atomes. Un corps peut alors devenir chargé positivement (s'il a perdu des électrons) ou négativement (s'il en a gagné). Le courant électrique, lui, est le mouvement ordonné et continu de ces charges (des électrons) à travers un conducteur, comme un fil de cuivre. Alors que l'électrisation par frottement est un phénomène statique (la charge reste au même endroit), le courant électrique est dynamique : les électrons circulent.",
+    "highlight": "Électrisation = accumulation statique de charges. Courant électrique = circulation continue de charges dans un circuit."
+  },
+  "example": {
+    "problem": "Un élève frotte une tige de verre avec un tissu de soie pendant 10 secondes. Pendant ce frottement, environ $2 × 10^{13}$ électrons sont arrachés à la tige et transférés au tissu. On sait qu'un électron porte une charge élémentaire $e = 1,6 × 10^{-19}$ coulomb. Calcule la charge totale acquise par le tissu de soie après ce frottement.",
+    "steps": [
+      "Identifier les données : nombre d'électrons transférés $N = 2 × 10^{13}$, charge d'un électron $e = 1,6 × 10^{-19}$ C.",
+      "Comprendre que chaque électron transféré porte une charge négative au tissu (le tissu gagne des électrons).",
+      "Appliquer la formule : charge totale $Q = N × e$",
+      "Calculer : $Q = 2 × 10^{13} × 1,6 × 10^{-19}$",
+      "Simplifier : $Q = 2 × 1,6 × 10^{13-19} = 3,2 × 10^{-6}$ C",
+      "Conclure : le tissu acquiert une charge de $3,2 × 10^{-6}$ coulomb (ou 3,2 microcoulombs), de signe négatif puisqu'il a reçu des électrons."
+    ]
+  },
+  "quiz": {
+    "question": "Un peigne en plastique est frotté sur des cheveux secs. Pendant le frottement, $5 × 10^{12}$ électrons sont transférés des cheveux au peigne. La charge élémentaire d'un électron est $e = 1,6 × 10^{-19}$ coulomb. Quelle charge électrique (en coulombs) le peigne acquiert-il ?",
+    "reponse_calculee": "8 × 10^{-7}",
+    "choices": [
+      {
+        "label": "$3,1 × 10^{-7}$ C",
+        "correct": false
+      },
+      {
+        "label": "$8 × 10^{-7}$ C",
+        "correct": true
+      },
+      {
+        "label": "$5 × 10^{12}$ C",
+        "correct": false
+      },
+      {
+        "label": "$8 × 10^{-6}$ C",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as correctement multiplié $N × e = 5 × 10^{12} × 1,6 × 10^{-19} = 8 × 10^{-7}$ C. Le peigne accumule une charge négative puisqu'il reçoit des électrons des cheveux. C'est de l'électrisation par frottement : les charges s'accumulent et restent immobiles sur le peigne.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois multiplier le nombre d'électrons par la charge d'un électron : $Q = N × e = 5 × 10^{12} × 1,6 × 10^{-19}$. Calcule les chiffres : $5 × 1,6 = 8$. Puis combine les puissances de 10 : $10^{12} × 10^{-19} = 10^{-7}$. Le résultat est donc $8 × 10^{-7}$ C."
+  }
+}

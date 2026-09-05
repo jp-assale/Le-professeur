@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-physique-chimie-masse-et-poids-d-un-corp",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Masse et poids d'un corps",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Masse et poids d'un corps",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu vas au marché avec ta mère pour acheter du riz. Le vendeur pèse 5 kg de riz sur sa balance. Mais sais-tu que cette balance ne mesure pas vraiment la masse du riz ? Elle mesure en réalité une autre grandeur : son poids. Aujourd'hui, tu vas comprendre la différence entre ces deux concepts que beaucoup confondent."
+  },
+  "concept": {
+    "heading": "Masse et poids : deux grandeurs différentes",
+    "explanation": "La masse d'un corps est la quantité de matière qu'il contient. Elle se mesure en kilogrammes (kg) avec une balance. Le poids d'un corps est la force que la Terre exerce sur lui à cause de la gravité. Il se mesure en newtons (N) avec un dynamomètre. Le poids dépend du lieu où tu te trouves, contrairement à la masse qui est toujours la même partout.",
+    "highlight": "P = m × g, où P est le poids en newtons, m la masse en kilogrammes, et g l'intensité de la pesanteur (environ 10 N/kg sur Terre)"
+  },
+  "example": {
+    "problem": "Un sac de maïs a une masse de 50 kg. Calcule son poids sur Terre (en prenant g = 10 N/kg).",
+    "steps": [
+      "Étape 1 : Identifie les données connues. Masse m = 50 kg ; intensité de la pesanteur g = 10 N/kg.",
+      "Étape 2 : Rappelle la formule du poids. P = m × g",
+      "Étape 3 : Remplace les valeurs dans la formule. P = 50 × 10",
+      "Étape 4 : Effectue le calcul. P = 500 N",
+      "Étape 5 : Énonce la réponse complète. Le poids du sac de maïs est 500 newtons."
+    ]
+  },
+  "quiz": {
+    "question": "Une fille a une masse de 40 kg. Quel est son poids sur Terre ? (g = 10 N/kg)",
+    "reponse_calculee": "400 N",
+    "choices": [
+      {
+        "label": "40 N",
+        "correct": false
+      },
+      {
+        "label": "400 N",
+        "correct": true
+      },
+      {
+        "label": "4 N",
+        "correct": false
+      },
+      {
+        "label": "0,25 N",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule P = m × g. Avec une masse de 40 kg et g = 10 N/kg, tu obtiens P = 40 × 10 = 400 N. Cela montre bien que le poids (en newtons) est différent de la masse (en kilogrammes).",
+    "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule : P = m × g. Tu dois multiplier la masse (40 kg) par l'intensité de la pesanteur (10 N/kg). Cela donne P = 40 × 10 = 400 N. Le poids s'exprime toujours en newtons, pas en kilogrammes."
+  }
+}

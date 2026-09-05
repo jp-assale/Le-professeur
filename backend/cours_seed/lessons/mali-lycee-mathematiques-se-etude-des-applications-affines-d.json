@@ -1,0 +1,56 @@
+{
+  "slug": "mali-lycee-mathematiques-se-etude-des-applications-affines-d",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitre": "Étude des applications affines du plan et de l'espace",
+  "source": "bkalan.ml (API pédagogique)",
+  "template": "text_only",
+  "title": "Étude des applications affines du plan et de l'espace",
+  "intro": {
+    "heading": "Mise en situation : Construire une route dans le désert",
+    "body": "Imagine que tu dois tracer une route entre deux villages du Sahel. Tu pars d'un point A et tu dois atteindre un point B situé 15 km plus loin. Si tu utilises un GPS, tu comprendras que le déplacement suit une direction précise : c'est exactement ce qu'une application affine fait en mathématiques. Elle transforme les points du plan ou de l'espace en respectant les lignes droites et les proportions de distance."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une application affine ?",
+    "explanation": "Une application affine est une transformation du plan ou de l'espace qui conserve l'alignement des points et les rapports de distance. Autrement dit, si trois points sont alignés au départ, ils le restent après la transformation. En mathématiques, une application affine s'écrit sous la forme suivante : elle combine une application linéaire (une transformation basique) et une translation (un déplacement). Dans le plan, si tu as un point M(x ; y), une application affine le transforme en un nouveau point M'(x' ; y') selon une règle précise qui mélange rotation, agrandissement ou rétrécissement, et translation.",
+    "highlight": "f(M) = AM + b, où A est une matrice linéaire et b un vecteur de translation"
+  },
+  "example": {
+    "problem": "Dans le plan muni d'un repère orthonormé, on considère l'application affine f qui transforme tout point M(x ; y) selon la formule : f(M) = (2x + 1 ; -y + 3). Trouve l'image du point P(2 ; 4) et vérifie qu'il s'agit bien d'une application affine.",
+    "steps": [
+      "Identifie la partie linéaire et la partie translation : la formule f(M) = (2x + 1 ; -y + 3) se décompose en f(M) = (2x ; -y) + (1 ; 3).",
+      "La partie (2x ; -y) est l'application linéaire (matrice A avec coefficients 2 et -1), et (1 ; 3) est le vecteur de translation b.",
+      "Applique f au point P(2 ; 4) : remplace x par 2 et y par 4 dans la formule.",
+      "Calcule la première coordonnée : x' = 2 × 2 + 1 = 4 + 1 = 5.",
+      "Calcule la deuxième coordonnée : y' = -4 + 3 = -1.",
+      "L'image est P'(5 ; -1). Comme la formule respecte la forme linéaire + translation, f est bien une application affine."
+    ]
+  },
+  "quiz": {
+    "question": "On considère l'application affine f(x ; y) = (3x - 2 ; 2y + 5). Quelle est l'image du point Q(1 ; 2) ?",
+    "reponse_calculee": "(1 ; 9)",
+    "choices": [
+      {
+        "label": "(1 ; 9)",
+        "correct": true
+      },
+      {
+        "label": "(3 ; 4)",
+        "correct": false
+      },
+      {
+        "label": "(2 ; 7)",
+        "correct": false
+      },
+      {
+        "label": "(5 ; 9)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule : x' = 3 × 1 - 2 = 1 et y' = 2 × 2 + 5 = 9. L'image de Q est bien Q'(1 ; 9).",
+    "feedback_wrong": "Attention. Vérifie tes calculs en remplaçant x = 1 et y = 2 dans la formule f(x ; y) = (3x - 2 ; 2y + 5). Pour la première coordonnée : 3 × 1 - 2 = 1. Pour la deuxième : 2 × 2 + 5 = 9. L'image correcte est (1 ; 9)."
+  }
+}

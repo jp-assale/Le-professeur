@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-terre-une-planete-men",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Terre, une planète menacée (surexploitation des ressources, conséquences climatiques)",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La Terre, une planète menacée : surexploitation des ressources et conséquences climatiques",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine une forêt près de ton village au Sénégal : chaque année, on y coupe plus d'arbres pour le bois de chauffe et l'agriculture. Les pluies deviennent moins régulières, les sols s'assèchent, les animaux disparaissent. Ce que tu vois localement reflète un problème mondial : nous prélevons plus de ressources que la Terre peut en produire, et cela change notre climat. C'est ce que nous allons explorer aujourd'hui."
+  },
+  "concept": {
+    "heading": "Concept clé : La surexploitation des ressources et ses impacts climatiques",
+    "explanation": "La Terre offre des ressources naturelles (forêts, sols, eau, énergie fossile, poissons...) qui se régénèrent lentement ou disparaissent vite si on les utilise trop. Quand la demande mondiale dépasse la capacité de régénération, on parle de surexploitation. Cette surexploitation libère des gaz à effet de serre (notamment le CO₂) qui modifient le climat global : températures plus hautes, pluies irrégulières, tempêtes plus violentes. Ces changements climatiques, à leur tour, dégradent encore plus les ressources restantes. C'est un cercle vicieux.",
+    "highlight": "Surexploitation = utiliser une ressource plus vite qu'elle ne peut se régénérer, ce qui provoque un déséquilibre climatique global."
+  },
+  "example": {
+    "problem": "Analyse le cas de la déforestation en Afrique de l'Ouest et ses conséquences : comment la coupe excessive d'arbres dans les savanes du Sahel crée-t-elle un cycle qui menace à la fois les ressources locales et le climat régional ?",
+    "steps": [
+      "Étape 1 : Identifier la ressource. Les arbres sont une ressource renouvelable, mais leur régénération prend des décennies. Or, chaque année, des milliers d'hectares sont rasés pour le charbon de bois, l'agriculture et l'habitat.",
+      "Étape 2 : Constater la surexploitation. La vitesse de coupe dépasse largement celle de repousse naturelle. Les populations locales et les marchés urbains demandent toujours plus de bois-énergie.",
+      "Étape 3 : Analyser l'impact immédiat sur les ressources. Sans couvert forestier, les sols s'érodent, l'infiltration d'eau diminue, les nappes souterraines se vident. La faune (oiseaux, insectes pollinisateurs) disparaît, réduisant la fertilité des champs.",
+      "Étape 4 : Relier au climat. La déforestation libère le carbone stocké dans les arbres et réduit la capacité de la planète à absorber CO₂. Moins d'arbres = moins d'évapotranspiration = modification des régimes de pluies locales et régionales.",
+      "Étape 5 : Comprendre le cercle vicieux. Les températures augmentent, les sécheresses s'aggravent, les arbres restants meurent plus vite. Les paysans, voyant leurs terres appauvries, défrichent davantage pour survivre, accélérant la dégradation.",
+      "Étape 6 : Conclure. Ce cycle (surexploitation → dégradation → changement climatique → augmentation de la pression sur les ressources) menace à la fois les moyens de subsistance locaux et l'équilibre climatique mondial."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés décrit correctement la relation entre surexploitation des ressources et changement climatique ?",
+    "reponse_calculee": "La surexploitation des ressources naturelles libère des gaz à effet de serre qui modifient le climat, lequel à son tour accélère la dégradation des ressources restantes.",
+    "choices": [
+      {
+        "label": "Le changement climatique est uniquement causé par la pollution urbaine, pas par l'exploitation des ressources naturelles.",
+        "correct": false
+      },
+      {
+        "label": "La surexploitation des ressources naturelles libère des gaz à effet de serre qui modifient le climat, lequel à son tour accélère la dégradation des ressources restantes.",
+        "correct": true
+      },
+      {
+        "label": "Les ressources naturelles sont inépuisables si on utilise la technologie moderne pour les exploiter plus rapidement.",
+        "correct": false
+      },
+      {
+        "label": "Le climat change naturellement sans lien aucun avec la façon dont nous utilisons les ressources de la Terre.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellente réponse ! Tu as bien compris que c'est un cycle : la surexploitation aggrave le climat, qui aggrave à son tour la dégradation des ressources. C'est cela qui rend le problème si urgent à l'échelle planétaire.",
+    "feedback_wrong": "Pas tout à fait. Relisez bien la relation : la surexploitation libère des gaz à effet de serre (comme le CO₂), ce qui modifie le climat global. Et ce climat dégradé rend les ressources restantes plus difficiles à maintenir. C'est un cercle vicieux, pas une suite isolée d'événements."
+  }
+}

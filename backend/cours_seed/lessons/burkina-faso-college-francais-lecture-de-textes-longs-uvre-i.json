@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-lecture-de-textes-longs-uvre-i",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Lecture de textes longs (œuvre intégrale)",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Lecture de textes longs (œuvre intégrale)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois lire un roman entier pour ton cours de français, pas seulement quelques pages. C'est comme suivre une histoire complète du début à la fin : tu découvres les personnages, tu comprends pourquoi ils agissent, tu vois comment l'intrigue se noue et se dénoue. Lire une œuvre intégrale, c'est accepter de te plonger dans un univers pendant plusieurs semaines, pas juste survoler."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que lire une œuvre intégrale ?",
+    "explanation": "La lecture d'une œuvre intégrale est la lecture complète d'un texte long (roman, pièce de théâtre, recueil de contes ou de poèmes) du début à la fin, sans en sauter des passages. Ce type de lecture t'oblige à suivre la progression de l'histoire, à mémoriser les personnages et leurs évolutions, à comprendre les thèmes développés par l'auteur, et à former ton propre jugement sur l'œuvre. C'est une lecture profonde, réfléchie, qui demande de la concentration mais qui enrichit vraiment ta compréhension de la littérature.",
+    "highlight": "Lire intégralement, c'est parcourir le texte entier, comprendre sa structure interne, et en tirer un sens global."
+  },
+  "example": {
+    "problem": "Tu commences la lecture d'un roman de 300 pages. Comment dois-tu t'organiser pour bien lire cette œuvre intégrale et en retirer le maximum ?",
+    "steps": [
+      "Étape 1 : Au début, lis le titre, le nom de l'auteur, et l'époque de publication. Cela te prépare mentalement et te donne des indices sur le contexte de l'œuvre.",
+      "Étape 2 : Lis régulièrement et sans sauter de pages. Chaque passage contribue à ta compréhension globale. Si tu sautes des passages, tu risques de perdre le fil des personnages ou des événements importants.",
+      "Étape 3 : Pendant ta lecture, identifie les personnages principaux, leurs motivations et comment ils changent au fil du temps. Note mentalement ou sur un cahier les scènes clés.",
+      "Étape 4 : Observe comment l'auteur construit son histoire : y a-t-il une introduction, un développement, un dénouement ? Comment les différents éléments s'assemblent-ils ?",
+      "Étape 5 : Une fois la lecture terminée, réfléchis à la portée générale de l'œuvre. Quel message l'auteur a-t-il voulu transmettre ? Qu'as-tu appris sur les personnages, la vie, la société ?",
+      "Étape 6 : Reviens sur les passages importants pour vérifier ta compréhension et consolider ta vision d'ensemble de l'œuvre."
+    ]
+  },
+  "quiz": {
+    "question": "Pourquoi est-il important de lire une œuvre intégrale sans sauter de passages ?",
+    "reponse_calculee": "Parce que chaque passage contribue à la compréhension de la structure, des personnages et du message global de l'œuvre.",
+    "choices": [
+      {
+        "label": "Parce que c'est obligatoire et sans intérêt pédagogique.",
+        "correct": false
+      },
+      {
+        "label": "Parce que chaque passage contribue à la compréhension de la structure, des personnages et du message global de l'œuvre.",
+        "correct": true
+      },
+      {
+        "label": "Parce que cela permet de lire plus vite et de finir rapidement.",
+        "correct": false
+      },
+      {
+        "label": "Parce que seuls les passages numérotés ont de l'importance.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Chaque passage d'une œuvre intégrale a sa raison d'être. Les détails, les dialogues, les descriptions contribuent tous à construire le sens global. C'est ce qui distingue la lecture intégrale d'une simple lecture superficielle.",
+    "feedback_wrong": "Pas tout à fait. La vraie raison de lire intégralement, c'est que chaque partie du texte joue un rôle dans la compréhension globale : elle développe un personnage, elle fait avancer l'histoire, elle renforce un thème. Sans ces passages, tu perdrais des éléments essentiels pour saisir le message de l'auteur."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "benin-college-physique-chimie-transmission-du-mouvement-de-r",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Transmission du mouvement de rotation",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Transmission du mouvement de rotation",
+  "intro": {
+    "heading": "Mise en situation : Le moulin à grain",
+    "body": "Dans un moulin traditionnel du Bénin, une roue hydraulique tourne grâce à l'eau d'une rivière. Cette roue est reliée par des engrenages à une meule qui broie le grain. Sans ces engrenages, la meule ne tournerait pas. Comment le mouvement de rotation de la roue hydraulique se transmet-il à la meule ? C'est ce que tu vas découvrir."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la transmission du mouvement de rotation ?",
+    "explanation": "La transmission du mouvement de rotation est le mécanisme par lequel on transfère une rotation d'un axe à un autre. Cela se fait généralement par contact direct (engrenages, poulies, courroies) ou par un système mécanique spécifique. Le but est de faire tourner un objet (comme une meule, une pompe ou une roue) en utilisant la rotation d'une autre source motrice. Dans tous les cas, deux grandeurs sont essentielles : la vitesse de rotation et le couple (force de torsion). La relation entre la vitesse de rotation de l'entrée et celle de la sortie dépend du rapport entre les rayons ou les nombres de dents des éléments en contact.",
+    "highlight": "Vitesse de sortie = (Rayon ou nombre de dents d'entrée / Rayon ou nombre de dents de sortie) × Vitesse d'entrée"
+  },
+  "example": {
+    "problem": "Un petit engrenage moteur possède 20 dents et tourne à 120 tours par minute. Il entraîne un grand engrenage récepteur qui possède 60 dents. Calcule la vitesse de rotation du grand engrenage en tours par minute.",
+    "steps": [
+      "Identifie les données : engrenage moteur (entrée) : 20 dents, 120 tr/min ; engrenage récepteur (sortie) : 60 dents.",
+      "Applique la formule de transmission : Vitesse de sortie = (Nombre de dents d'entrée / Nombre de dents de sortie) × Vitesse d'entrée.",
+      "Remplace les valeurs : Vitesse de sortie = (20 / 60) × 120.",
+      "Simplifie la fraction : 20/60 = 1/3.",
+      "Calcule : Vitesse de sortie = (1/3) × 120 = 40 tr/min.",
+      "Conclusion : Le grand engrenage tourne à 40 tours par minute. Sa vitesse est plus lente car il a plus de dents."
+    ]
+  },
+  "quiz": {
+    "question": "Une poulie motrice de rayon 8 cm tourne à 300 tr/min et entraîne une poulie réceptrice de rayon 12 cm par une courroie. Quelle est la vitesse de rotation de la poulie réceptrice ?",
+    "reponse_calculee": "200 tr/min",
+    "choices": [
+      {
+        "label": "450 tr/min",
+        "correct": false
+      },
+      {
+        "label": "200 tr/min",
+        "correct": true
+      },
+      {
+        "label": "300 tr/min",
+        "correct": false
+      },
+      {
+        "label": "100 tr/min",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule. La vitesse de sortie = (8 / 12) × 300 = (2/3) × 300 = 200 tr/min. La poulie réceptrice, plus grande, tourne plus lentement. C'est le principe même de la transmission : plus le diamètre augmente, plus la vitesse diminue.",
+    "feedback_wrong": "Ce n'est pas bon. Rappelle-toi que la vitesse de sortie dépend du rapport des rayons : Vitesse de sortie = (Rayon d'entrée / Rayon de sortie) × Vitesse d'entrée. Ici : (8 / 12) × 300 = 200 tr/min. La poulie réceptrice, plus grande, doit tourner plus lentement."
+  }
+}

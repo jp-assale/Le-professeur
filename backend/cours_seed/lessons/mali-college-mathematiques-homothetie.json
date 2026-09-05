@@ -1,0 +1,55 @@
+{
+  "slug": "mali-college-mathematiques-homothetie",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Homothétie",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Homothétie — Leçon animée DEF Mathématiques Mali",
+  "intro": {
+    "heading": "Mise en situation : Agrandissement et réduction",
+    "body": "Imagine que tu dois reproduire le plan d'un village sur une feuille A4. Le vrai village est bien plus grand, mais tu dois en garder exactement la même forme — juste plus petit. Ou l'inverse : un artisan doit créer une grande affiche à partir d'un petit dessin. Comment faire pour que tout reste proportionnel et bien aligné ? C'est à cette question que répond l'homothétie."
+  },
+  "concept": {
+    "heading": "Définition et propriété clé",
+    "explanation": "Une homothétie est une transformation géométrique qui agrandit ou réduit une figure à partir d'un point fixe, appelé centre. Tous les points de la figure se déplacent selon le même rapport, appelé rapport d'homothétie. Cette transformation conserve l'alignement des points, l'angle entre les droites, et la forme globale — seule la taille change.",
+    "highlight": "Si le rapport est k > 1, la figure s'agrandit. Si 0 < k < 1, la figure se réduit. Si k < 0, il y a aussi une rotation de 180°."
+  },
+  "example": {
+    "problem": "Un triangle ABC a pour sommet A(0 ; 0), B(4 ; 0) et C(0 ; 3). On applique une homothétie de centre O(0 ; 0) et de rapport k = 2. Calcule les coordonnées de A', B' et C' (les images des trois sommets après homothétie).",
+    "steps": [
+      "Rappel : si une homothétie a pour centre O et rapport k, et si M est un point, alors son image M' satisfait : $\\overrightarrow{OM'} = k \\cdot \\overrightarrow{OM}$",
+      "Pour le point A(0 ; 0) : $\\overrightarrow{OA'} = 2 \\cdot \\overrightarrow{OA} = 2 \\cdot (0 ; 0) = (0 ; 0)$. Donc A' = (0 ; 0).",
+      "Pour le point B(4 ; 0) : $\\overrightarrow{OB'} = 2 \\cdot \\overrightarrow{OB} = 2 \\cdot (4 ; 0) = (8 ; 0)$. Donc B' = (8 ; 0).",
+      "Pour le point C(0 ; 3) : $\\overrightarrow{OC'} = 2 \\cdot \\overrightarrow{OC} = 2 \\cdot (0 ; 3) = (0 ; 6)$. Donc C' = (0 ; 6).",
+      "Vérification : le triangle A'B'C' a ses côtés deux fois plus longs que le triangle ABC (AB = 4, donc A'B' = 8 ; AC = 3, donc A'C' = 6). La forme est conservée, seule la taille a changé."
+    ]
+  },
+  "quiz": {
+    "question": "Un segment [PQ] mesure 5 cm. On lui applique une homothétie de rapport k = 0,6 (centre quelconque, ne touche pas la longueur). Quelle est la longueur du segment image [P'Q'] ?",
+    "reponse_calculee": "3 cm",
+    "choices": [
+      {
+        "label": "5,6 cm",
+        "correct": false
+      },
+      {
+        "label": "3 cm",
+        "correct": true
+      },
+      {
+        "label": "8 cm",
+        "correct": false
+      },
+      {
+        "label": "5 cm",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Dans une homothétie de rapport k = 0,6, toutes les longueurs sont multipliées par 0,6. Donc 5 × 0,6 = 3 cm. Puisque 0,6 < 1, il s'agit d'une réduction.",
+    "feedback_wrong": "Ce n'est pas correct. Souviens-toi que dans une homothétie de rapport k, les longueurs sont multipliées par la valeur absolue de k. Ici, k = 0,6, donc la nouvelle longueur est 5 × 0,6 = 3 cm."
+  }
+}

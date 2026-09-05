@@ -1,0 +1,56 @@
+{
+  "slug": "mali-college-mathematiques-systeme-d-inequations-du-premier-",
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Système d'inéquations du premier degré à une et deux inconnues (résolution graphique)",
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies",
+  "template": "text_only",
+  "title": "Système d'inéquations du premier degré à une et deux inconnues (résolution graphique)",
+  "intro": {
+    "heading": "Mise en situation : Le petit commerce du quartier",
+    "body": "Un commerçant au marché vend des cahiers et des stylos. Il veut faire un bénéfice en respectant plusieurs contraintes : ne pas dépenser plus que son budget, vendre à des prix raisonnables, et avoir un stock équilibré. Comment savoir quelles quantités de cahiers et stylos il peut acheter ? C'est exactement ce qu'on résout avec les systèmes d'inéquations !"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un système d'inéquations du premier degré ?",
+    "explanation": "Un système d'inéquations est un ensemble de plusieurs inéquations (avec les symboles <, >, ≤, ≥) qu'on doit résoudre simultanément. À une inconnue, on cherche les valeurs d'une variable qui satisfont toutes les inéquations à la fois. À deux inconnues, on cherche les couples (x, y) dont les points graphiques se situent dans la région qui vérifie toutes les conditions.",
+    "highlight": "Un système d'inéquations se résout en trouvant TOUS les couples (x, y) qui satisfont simultanément CHAQUE inéquation du système."
+  },
+  "example": {
+    "problem": "Résous graphiquement le système suivant :\n$\\begin{cases} x + y \\leq 5 \\\\ x \\geq 1 \\\\ y \\geq 0 \\end{cases}$",
+    "steps": [
+      "Étape 1 : Transforme chaque inéquation en équation de droite pour la tracer.\n• $x + y = 5$ (droite 1)\n• $x = 1$ (droite 2 : verticale)\n• $y = 0$ (droite 3 : l'axe des x)",
+      "Étape 2 : Trace ces trois droites sur un repère orthonormé.",
+      "Étape 3 : Pour $x + y \\leq 5$, vérifie le sens : teste le point (0,0) : $0 + 0 = 0 \\leq 5$ ✓. La zone solution est EN DESSOUS de la droite $x + y = 5$ (incluant la droite).",
+      "Étape 4 : Pour $x \\geq 1$, la zone solution est À DROITE de la droite verticale $x = 1$ (incluant la droite).",
+      "Étape 5 : Pour $y \\geq 0$, la zone solution est AU-DESSUS de l'axe des x (incluant l'axe).",
+      "Étape 6 : La solution du système est la région où toutes les trois zones se chevauchent (l'intersection). C'est un triangle de sommets (1, 0), (1, 4) et (5, 0)."
+    ]
+  },
+  "quiz": {
+    "question": "Quel couple (x, y) appartient à la région solution du système $\\begin{cases} x + y \\leq 4 \\\\ x \\geq 0 \\\\ y \\geq 0 \\end{cases}$ ?",
+    "reponse_calculee": "(1, 2)",
+    "choices": [
+      {
+        "label": "(1, 2)",
+        "correct": true
+      },
+      {
+        "label": "(3, 2)",
+        "correct": false
+      },
+      {
+        "label": "(-1, 3)",
+        "correct": false
+      },
+      {
+        "label": "(2, 3)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le point (1, 2) vérifie toutes les conditions : 1 + 2 = 3 ≤ 4 ✓, 1 ≥ 0 ✓, et 2 ≥ 0 ✓. Il se situe dans la zone de chevauchement de toutes les trois régions.",
+    "feedback_wrong": "Pas tout à fait. Vérifie que le couple que tu choisis satisfait CHAQUE inéquation du système. Par exemple, (3, 2) donne 3 + 2 = 5, ce qui ne respecte pas la première inéquation $x + y \\leq 4$. Teste chaque condition une par une."
+  }
+}

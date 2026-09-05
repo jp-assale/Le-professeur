@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-mathematiques-triangle-rectangle-pythag",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Triangle rectangle (Pythagore et réciproque, trigonométrie)",
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018",
+  "template": "text_only",
+  "title": "Triangle rectangle : Pythagore, réciproque et trigonométrie",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Un menuisier à Ouagadougou doit vérifier que le coin d'une armoire qu'il fabrique est bien à angle droit avant de l'assembler. Il mesure les deux côtés adjacents et la diagonale. Comment peut-il être sûr sans équerre que son angle est vraiment droit ? C'est là qu'intervient Pythagore : une règle mathématique qui permet de vérifier et de calculer les distances dans un triangle rectangle."
+  },
+  "concept": {
+    "heading": "Le théorème de Pythagore et sa réciproque",
+    "explanation": "Dans un triangle rectangle, le carré de l'hypoténuse (le plus long côté, face à l'angle droit) est égal à la somme des carrés des deux autres côtés. Réciproquement, si cette relation est vérifiée pour trois côtés d'un triangle, alors ce triangle est rectangle.\n\nLa trigonométrie, elle, te permet de lier les angles et les côtés d'un triangle rectangle grâce à des rapports appelés sinus, cosinus et tangente.",
+    "highlight": "Théorème : Si ABC est rectangle en C, alors $a^2 + b^2 = c^2$ où a et b sont les côtés de l'angle droit et c l'hypoténuse. Réciproque : Si $a^2 + b^2 = c^2$, alors le triangle est rectangle."
+  },
+  "example": {
+    "problem": "Un électricien doit installer un câble du haut d'un poteau de 4 m jusqu'à un point au sol situé à 3 m de la base du poteau. Quelle est la longueur du câble nécessaire ?",
+    "steps": [
+      "Identifie les données : le poteau mesure 4 m (côté vertical), la distance au sol est 3 m (côté horizontal), et le câble est l'hypoténuse.",
+      "Reconnais le triangle rectangle : l'angle droit est formé par le poteau et le sol.",
+      "Applique le théorème de Pythagore : $c^2 = 4^2 + 3^2$",
+      "Calcule : $c^2 = 16 + 9 = 25$",
+      "Extrait la racine carrée : $c = \\sqrt{25} = 5$ m",
+      "Conclusion : le câble doit mesurer 5 m."
+    ]
+  },
+  "quiz": {
+    "question": "Un triangle a des côtés mesurant 5 cm, 12 cm et 13 cm. Vérifie s'il s'agit d'un triangle rectangle en testant la réciproque de Pythagore.",
+    "reponse_calculee": "Oui, car $5^2 + 12^2 = 25 + 144 = 169 = 13^2$",
+    "choices": [
+      {
+        "label": "Non, car $5^2 + 12^2 = 169$ et $13^2 = 169$ ne correspondent pas.",
+        "correct": false
+      },
+      {
+        "label": "Oui, car $5^2 + 12^2 = 25 + 144 = 169 = 13^2$",
+        "correct": true
+      },
+      {
+        "label": "Non, car on ne peut vérifier que avec Pythagore, pas la réciproque.",
+        "correct": false
+      },
+      {
+        "label": "Oui, car 5 + 12 = 17, qui est proche de 13.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la réciproque de Pythagore. Quand le carré du plus grand côté égale la somme des carrés des deux autres, le triangle est rectangle. Ici, $13^2 = 169$ et $5^2 + 12^2 = 169$ : c'est confirmé.",
+    "feedback_wrong": "Relisez attentivement. La réciproque de Pythagore dit que si $a^2 + b^2 = c^2$, alors le triangle est rectangle. Calcule : $5^2 = 25$, $12^2 = 144$, donc $5^2 + 12^2 = 169$. Et $13^2 = 169$. L'égalité est vérifiée, donc c'est oui."
+  }
+}

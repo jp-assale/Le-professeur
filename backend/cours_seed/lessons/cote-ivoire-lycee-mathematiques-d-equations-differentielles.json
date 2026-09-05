@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-mathematiques-d-equations-differentielles",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitre": "Équations différentielles",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Équations différentielles",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine qu'un réservoir d'eau se vide progressivement, ou qu'une population de poissons dans un étang croît chaque année. Dans ces deux cas, la vitesse de changement dépend de l'état actuel du système. Les équations différentielles sont l'outil mathématique qui décrit ces phénomènes où l'inconnue n'est pas un nombre, mais une fonction qui change au fil du temps."
+  },
+  "concept": {
+    "heading": "Définition et concept clé",
+    "explanation": "Une équation différentielle est une équation qui relie une fonction inconnue à ses dérivées. Contrairement aux équations classiques où tu cherches un nombre, ici tu cherches une fonction $y(x)$ ou $y(t)$ qui satisfait la relation. La forme la plus simple est une équation du premier ordre, où apparaît seulement la dérivée première $y'$ (ou $\\frac{dy}{dx}$). Résoudre une équation différentielle signifie trouver toutes les fonctions qui la satisfont.",
+    "highlight": "Une équation différentielle du premier ordre a la forme générale : $\\frac{dy}{dx} = f(x, y)$"
+  },
+  "example": {
+    "problem": "On considère l'équation différentielle : $\\frac{dy}{dx} = 2x$. Trouve la fonction $y(x)$ qui satisfait cette équation et vérifie la condition initiale $y(0) = 3$.",
+    "steps": [
+      "Étape 1 : Reconnais que tu dois chercher une fonction dont la dérivée est $2x$. C'est une équation très simple.",
+      "Étape 2 : Intègre les deux membres par rapport à $x$ : $\\int \\frac{dy}{dx} dx = \\int 2x dx$.",
+      "Étape 3 : Le membre de gauche devient simplement $y$. Le membre de droite : $\\int 2x dx = x^2 + C$ où $C$ est une constante arbitraire.",
+      "Étape 4 : Tu obtiens la solution générale : $y(x) = x^2 + C$.",
+      "Étape 5 : Utilise la condition initiale $y(0) = 3$ pour trouver $C$ : $3 = 0^2 + C$, donc $C = 3$.",
+      "Étape 6 : La solution particulière est $y(x) = x^2 + 3$."
+    ]
+  },
+  "quiz": {
+    "question": "Résous l'équation différentielle $\\frac{dy}{dx} = 3$ avec la condition initiale $y(1) = 5$. Quelle est l'expression de $y(x)$ ?",
+    "reponse_calculee": "y(x) = 3x + 2",
+    "choices": [
+      {
+        "label": "$y(x) = 3x + 5$",
+        "correct": false
+      },
+      {
+        "label": "$y(x) = 3x + 2$",
+        "correct": true
+      },
+      {
+        "label": "$y(x) = 3 + 5$",
+        "correct": false
+      },
+      {
+        "label": "$y(x) = x + 3$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as correctement intégré $\\frac{dy}{dx} = 3$ pour obtenir $y(x) = 3x + C$. Puis tu as appliqué la condition initiale : $y(1) = 5$ donne $3(1) + C = 5$, d'où $C = 2$. La solution est bien $y(x) = 3x + 2$.",
+    "feedback_wrong": "Attention à l'application de la condition initiale. L'intégration de $\\frac{dy}{dx} = 3$ donne $y(x) = 3x + C$. Ensuite, remplace $x$ par 1 et $y$ par 5 dans cette formule : $5 = 3(1) + C$, ce qui te permet de trouver $C$. Recalcule et tu trouveras la bonne réponse."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-progres-et-bonheur",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Progrès et bonheur",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "Progrès et bonheur",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine un jeune homme de Côte d'Ivoire qui termine ses études. Ses parents lui disent : « Si tu travailles dur, si tu réussis tes examens et que tu trouves un bon emploi, tu seras heureux. » Le progrès (étudier, avoir de meilleures conditions) mènera-t-il forcément au bonheur ? Ou y a-t-il un écart entre ce que nous gagnons en avançant et ce que nous ressentons vraiment ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que « Progrès et bonheur » ?",
+    "explanation": "Le progrès est l'amélioration matérielle, technique, sociale ou morale de l'humanité au fil du temps. On pourrait croire que plus nous progressons (meilleure santé, plus de richesse, plus de technologie), plus nous devenons heureux. Or, cette leçon t'invite à examiner si ce lien est automatique. Le bonheur est un état intérieur complexe, souvent indépendant du progrès extérieur.",
+    "highlight": "Le progrès ne garantit pas le bonheur ; il faut interroger le rapport entre avancer matériellement et se sentir bien intérieurement."
+  },
+  "example": {
+    "problem": "Considérons un village de pêcheurs côtiers. Pendant des années, ils vivent selon un rythme traditionnel : lever avec le soleil, pêche artisanale, partage du repas en famille le soir. Le gouvernement décide d'apporter le progrès : électricité, routes goudronnées, accès à internet, industrie de pêche moderne. Objectivement, c'est un progrès. Mais après quelques années, on observe que certains pêcheurs se plaignent de stress, de solitude malgré la connexion, d'une perte de liens communautaires. Comment analyser cette situation ?",
+    "steps": [
+      "1. Identifier le progrès réel : matériellement, les conditions se sont améliorées (électricité, santé meilleure, accès à l'information).",
+      "2. Constater le paradoxe : le progrès attendu ne produit pas le bonheur promis ; certains hommes semblent moins heureux qu'avant.",
+      "3. Analyser les causes cachées : le progrès technique a transformé le mode de vie et détruit des liens sociaux qui créaient du sens et du bonheur.",
+      "4. Reconnaître que le bonheur dépend d'autres facteurs : relations, sens, repos, équilibre — pas seulement de commodités matérielles.",
+      "5. Conclure : le progrès peut être un obstacle au bonheur s'il détruit les conditions (communauté, rythme, sens) qui le fondent vraiment.",
+      "6. Question ouverte pour toi : faut-il refuser le progrès pour être heureux, ou le penser autrement ?"
+    ]
+  },
+  "quiz": {
+    "question": "Selon la réflexion sur « Progrès et bonheur », quelle affirmation est correcte ?",
+    "reponse_calculee": "Le progrès matériel et technique ne suffit pas à assurer le bonheur humain ; celui-ci dépend aussi de facteurs comme les relations sociales et le sens de la vie.",
+    "choices": [
+      {
+        "label": "Le progrès technique rend automatiquement l'humanité plus heureuse.",
+        "correct": false
+      },
+      {
+        "label": "Le progrès matériel et technique ne suffit pas à assurer le bonheur humain ; celui-ci dépend aussi de facteurs comme les relations sociales et le sens de la vie.",
+        "correct": true
+      },
+      {
+        "label": "Le bonheur est impossible dans une société moderne et technologique.",
+        "correct": false
+      },
+      {
+        "label": "Plus un pays s'enrichit, plus ses habitants sont statistiquement heureux.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Cette leçon t'invite à dépasser l'idée naïve que progrès = bonheur. Le progrès est réel et souvent souhaitable, mais le bonheur humain est bien plus complexe : il repose aussi sur l'équilibre, les liens, le sens. C'est ce décalage qu'il faut apprendre à penser.",
+    "feedback_wrong": "Pas tout à fait. L'enjeu n'est pas de nier le progrès ou de le vénérer aveuglément, mais de comprendre qu'il n'assure pas automatiquement le bonheur. Le bonheur est un équilibre entre conditions matérielles et facteurs immatériels (relations, sens, repos). Relis la définition et l'exemple pour mieux saisir ce lien complexe."
+  }
+}

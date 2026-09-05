@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-la-valeur-de-la-philosophie",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La valeur de la philosophie",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "La valeur de la philosophie",
+  "intro": {
+    "heading": "Mise en situation : Pourquoi philosopher ?",
+    "body": "Imagine que tu es en terminale et qu'un ami te demande : « À quoi ça sert d'étudier la philosophie ? Ça ne me donnera pas un emploi, ça ne me rendra pas riche. » Tu te poses la même question. Comment tu pourrais lui répondre ? C'est exactement ce que nous allons explorer ensemble : quelle est la véritable valeur de la philosophie ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la valeur de la philosophie ?",
+    "explanation": "La valeur de la philosophie n'est pas à mesurer en argent ou en utilité immédiate. La philosophie possède une valeur intrinsèque : elle nous permet de comprendre le monde, de nous comprendre nous-mêmes, et de nous libérer des préjugés. Elle nous enseigne à penser par nous-mêmes, à questionner ce que nous tenons pour acquis, et à développer une vision plus large et plus profonde de l'existence. Cette valeur réside dans l'élargissement de notre esprit et dans la quête de la sagesse.",
+    "highlight": "La philosophie a une valeur en elle-même, non pas parce qu'elle est utile, mais parce qu'elle nous rend plus humains et plus libres."
+  },
+  "example": {
+    "problem": "Un lycéen ivoirien, Kofi, accepte sans réfléchir tout ce qu'on lui dit : que certaines personnes sont naturellement supérieures à d'autres, que l'argent est le seul vrai bonheur, que poser des questions c'est être irrespectueux. Montre comment la philosophie peut transformer sa vision du monde.",
+    "steps": [
+      "Étape 1 : Kofi vit d'abord dans l'acceptation passive. Il croit ce qu'il a toujours entendu dire sans l'examiner.",
+      "Étape 2 : Un professeur l'invite à se poser une question philosophique : « Pourquoi crois-tu que l'argent est le seul bonheur ? » Kofi commence à douter de ce qui lui semblait évident.",
+      "Étape 3 : Il réfléchit à sa propre expérience. Il se souvient de moments où il était heureux sans argent : avec sa famille, en aidant un ami, en apprenant quelque chose qui l'intéressait vraiment.",
+      "Étape 4 : Il comprend que le bonheur est plus complexe, que d'autres éléments comptent (l'amitié, la connaissance, le sentiment d'utilité). Il se libère d'une certitude fausse.",
+      "Étape 5 : Kofi commence à questionner d'autres idées reçues. Il apprend que philosopher, c'est se donner le droit de penser par soi-même.",
+      "Étape 6 : La valeur de la philosophie pour Kofi, c'est cette liberté nouvelle : il devient capable de juger par lui-même, de distinguer le vrai du faux, et d'accéder à une compréhension plus riche de lui-même et du monde."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le chapitre sur la valeur de la philosophie, quel est l'apport principal de la philosophie à l'être humain ?",
+    "reponse_calculee": "Elle nous libère des préjugés et nous permet de penser par nous-mêmes",
+    "choices": [
+      {
+        "label": "Elle nous permet de gagner beaucoup d'argent et d'obtenir un bon emploi",
+        "correct": false
+      },
+      {
+        "label": "Elle nous libère des préjugés et nous permet de penser par nous-mêmes",
+        "correct": true
+      },
+      {
+        "label": "Elle nous enseigne uniquement l'histoire des grands penseurs du passé",
+        "correct": false
+      },
+      {
+        "label": "Elle est utile seulement pour ceux qui veulent devenir professeur",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! C'est le cœur même de la valeur de la philosophie. En nous apprenant à questionner, à examiner nos croyances et à penser par nous-mêmes, la philosophie nous libère de l'acceptation passive. Elle développe notre esprit critique et notre autonomie intellectuelle, ce qui constitue sa véritable richesse.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : la valeur de la philosophie n'est pas mesurée en argent ou en statut professionnel. La philosophie a une valeur intrinsèque : elle nous rend libres de penser, elle nous débarrasse des préjugés et nous permet de comprendre le monde et nous-mêmes de manière plus profonde. C'est cette liberté intellectuelle qui en fait sa véritable richesse."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-physique-chimie-les-hydrocarbures",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les hydrocarbures",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Les hydrocarbures",
+  "intro": {
+    "heading": "Mise en situation : l'essence à la pompe",
+    "body": "Tu as sûrement vu ta famille faire le plein d'essence à une station-service, ou observé comment le gaz de cuisson chauffe le repas. Ces produits — l'essence, le gazole, le gaz butane — sont tous des hydrocarbures. Ce sont des composés chimiques formés uniquement de carbone et d'hydrogène, et ils fournissent l'énergie qui fait bouger les voitures et cuire nos aliments. Aujourd'hui, tu vas comprendre leur structure et apprendre à les reconnaître."
+  },
+  "concept": {
+    "heading": "Définition : qu'est-ce qu'un hydrocarbure ?",
+    "explanation": "Un hydrocarbure est une molécule composée uniquement d'atomes de carbone (C) et d'hydrogène (H). Le carbone forme le squelette de la molécule — c'est lui qui s'attache aux autres atomes — et l'hydrogène remplit les liaisons restantes. Les hydrocarbures sont classés en deux grandes familles : les alcanes (saturés) et les alcènes (insaturés). Un alcane contient uniquement des liaisons simples entre les carbones, tandis qu'un alcène contient au moins une liaison double. La formule générale des alcanes est:",
+    "highlight": "$C_nH_{2n+2}$ pour les alcanes (chaîne non cyclique)"
+  },
+  "example": {
+    "problem": "On analyse une molécule d'hydrocarbure contenant 5 atomes de carbone en chaîne linéaire avec des liaisons simples uniquement. Détermine : (1) la formule moléculaire, (2) le nom du composé, (3) le nombre total d'atomes dans la molécule.",
+    "steps": [
+      "Étape 1 : Identifier le type d'hydrocarbure. C'est un alcane (liaisons simples) avec 5 carbones en chaîne linéaire → c'est un alcane régulier.",
+      "Étape 2 : Appliquer la formule générale $C_nH_{2n+2}$ avec $n = 5$. On obtient $C_5H_{2(5)+2} = C_5H_{12}$.",
+      "Étape 3 : Nommer le composé. Pour 5 carbones en chaîne linéaire, on utilise le préfixe 'pent-' et la terminaison '-ane' → pentane.",
+      "Étape 4 : Compter les atomes totaux. La molécule contient 5 carbones + 12 hydrogènes = 17 atomes au total.",
+      "Résultat : Le composé est le pentane ($C_5H_{12}$), formé de 17 atomes."
+    ]
+  },
+  "quiz": {
+    "question": "Un hydrocarbure saturé contient 6 atomes de carbone arrangés en chaîne linéaire. Quel est sa formule moléculaire ?",
+    "reponse_calculee": "$C_6H_{14}$",
+    "choices": [
+      {
+        "label": "$C_6H_{12}$",
+        "correct": false
+      },
+      {
+        "label": "$C_6H_{14}$",
+        "correct": true
+      },
+      {
+        "label": "$C_6H_{16}$",
+        "correct": false
+      },
+      {
+        "label": "$C_6H_{10}$",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour un alcane (saturé) avec 6 carbones, tu utilises la formule $C_nH_{2n+2}$ avec $n = 6$ : $C_6H_{2(6)+2} = C_6H_{14}$. C'est l'hexane, un composant courant de l'essence.",
+    "feedback_wrong": "Pas tout à fait. Tu dois appliquer la formule générale des alcanes saturés : $C_nH_{2n+2}$. Avec 6 carbones, cela donne $C_6H_{2(6)+2} = C_6H_{14}$. Retiens bien cette formule — elle est la clé pour identifier les alcanes !"
+  }
+}

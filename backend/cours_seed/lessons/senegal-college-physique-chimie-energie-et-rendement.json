@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-physique-chimie-energie-et-rendement",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Énergie et rendement",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Énergie et rendement",
+  "intro": {
+    "heading": "Mise en situation : La lampe solaire du village",
+    "body": "Imagine une petite lampe solaire qui charge pendant la journée au soleil et éclaire une case le soir. Le panneau reçoit 100 joules d'énergie du soleil, mais seulement 20 joules sont convertis en lumière. Où est passée le reste ? Pourquoi certains appareils « perdent » de l'énergie ? C'est ce que tu vas comprendre dans ce chapitre."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'énergie et le rendement ?",
+    "explanation": "L'énergie est la capacité d'un système à produire un effet utile (lumière, chaleur, mouvement). Le rendement mesure l'efficacité : c'est la part d'énergie reçue qui est réellement convertie en énergie utile. L'autre part est perdue (souvent en chaleur, en frottement ou en rayonnement inutile). Aucune machine n'a un rendement de 100 % : il y a toujours des pertes.",
+    "highlight": "Rendement (%) = (Énergie utile / Énergie reçue) × 100"
+  },
+  "example": {
+    "problem": "Un moteur électrique reçoit 1 000 joules d'énergie électrique. Il fournit 700 joules d'énergie mécanique (utile pour faire tourner une roue). Les 300 joules restants se transforment en chaleur perdue. Calcule le rendement de ce moteur.",
+    "steps": [
+      "Identifie les données : Énergie reçue = 1 000 J ; Énergie utile = 700 J",
+      "Rappelle-toi la formule : Rendement (%) = (Énergie utile / Énergie reçue) × 100",
+      "Remplace les valeurs : Rendement = (700 / 1 000) × 100",
+      "Calcule la division : 700 / 1 000 = 0,7",
+      "Multiplie par 100 : 0,7 × 100 = 70 %",
+      "Conclusion : Le moteur a un rendement de 70 %. Cela signifie que 70 % de l'énergie électrique reçue est convertie en énergie mécanique utile, et 30 % est perdue en chaleur."
+    ]
+  },
+  "quiz": {
+    "question": "Une ampoule incandescente reçoit 200 joules d'énergie électrique. Elle produit 30 joules de lumière utile et 170 joules de chaleur. Quel est le rendement de cette ampoule ?",
+    "reponse_calculee": "15 %",
+    "choices": [
+      {
+        "label": "85 %",
+        "correct": false
+      },
+      {
+        "label": "15 %",
+        "correct": true
+      },
+      {
+        "label": "170 %",
+        "correct": false
+      },
+      {
+        "label": "200 %",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué la formule : Rendement = (30 / 200) × 100 = 15 %. Cette ampoule convertit seulement 15 % de son énergie en lumière ; le reste devient chaleur. C'est pour cela qu'on dit que les ampoules incandescentes sont peu efficaces.",
+    "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : l'énergie utile est celle qui produit de la lumière (30 J), pas la chaleur perdue. Applique la formule : (Énergie utile / Énergie reçue) × 100 = (30 / 200) × 100 = 15 %."
+  }
+}

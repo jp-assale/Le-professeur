@@ -1,0 +1,56 @@
+{
+  "slug": "burkina-faso-college-francais-ecrire-une-lettre-privee-et-ou",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Écrire une lettre privée et/ou officielle",
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e",
+  "template": "text_only",
+  "title": "Écrire une lettre privée et/ou officielle",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu dois demander une bourse d'études à ta région, ou écrire à ton oncle qui vit en Côte d'Ivoire pour lui donner des nouvelles. Dans les deux cas, tu dois respecter des règles précises : le ton, la présentation, l'ordre des informations. Une lettre mal structurée risque de ne pas être prise au sérieux, voire de rester sans réponse. Comment faire pour que ta lettre soit reçue et comprise comme il faut ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'une lettre privée et/ou officielle ?",
+    "explanation": "Une lettre est un message écrit adressé à une personne ou une institution. Elle obéit à des règles de structure, de ton et de présentation qui varient selon le contexte. Une lettre privée (ou familiale) s'adresse à un proche et peut être plus chaleureuse et libre. Une lettre officielle (ou administrative) s'adresse à une autorité, un service public ou une entreprise et doit être formelle, respectueuse et organisée. Les deux types suivent un plan strict : en-tête, date, destinataire, formule d'appel, corps, formule de fermeture, signature.",
+    "highlight": "Toute lettre comprend obligatoirement : en-tête, date, adresse du destinataire, formule d'appel, corps, formule de fermeture, signature."
+  },
+  "example": {
+    "problem": "Tu dois écrire une lettre officielle au Directeur de l'École Nationale de Formation des Enseignants (ENFE) pour demander ton admission au cycle d'études. Analyse comment tu dois structurer ta lettre.",
+    "steps": [
+      "Étape 1 : Pose ton en-tête en haut à gauche. C'est TON adresse complète : ton nom, ton quartier, ta commune, ton numéro de téléphone si possible. Cela permet au destinataire de te recontacter.",
+      "Étape 2 : Ajoute la date juste en dessous ou à droite. Ne mets jamais simplement 'aujourd'hui' ; écris le jour, le mois et l'année en toutes lettres : '15 janvier 2024'.",
+      "Étape 3 : Écris l'adresse du destinataire à gauche, un peu plus bas : 'Monsieur le Directeur de l'ENFE, Ouagadougou, Burkina Faso'. Tu dois respecter sa fonction et son lieu.",
+      "Étape 4 : Mets une formule d'appel courtoise : 'Monsieur le Directeur,' ou 'Madame, Monsieur,'. Jamais 'Salut' ou 'Coucou' dans une lettre officielle.",
+      "Étape 5 : Rédige le corps en paragraphes clairs. Première phrase : dis pourquoi tu écris ('J'ai l'honneur de demander mon admission...'). Deuxième partie : donne les informations pertinentes (tes qualifications, ta motivation). Troisième partie : énonce ta demande précisément et demande une réponse.",
+      "Étape 6 : Termine par une formule de fermeture formelle : 'Je vous prie d'agréer, Monsieur le Directeur, mes salutations distinguées.' Puis signe de ton nom complet."
+    ]
+  },
+  "quiz": {
+    "question": "Tu écris à ta tante qui vit à Bobo-Dioulasso pour lui raconter ta réussite au BEPC. Quel ton dois-tu adopter et qu'est-ce qui distingue cette lettre d'une lettre de demande de bourse ?",
+    "reponse_calculee": "Lettre privée : ton chaud et affectueux ; lettre officielle : ton formel et neutre.",
+    "choices": [
+      {
+        "label": "Une lettre à la tante doit être aussi formelle qu'une demande administrative, avec les mêmes formules de fermeture.",
+        "correct": false
+      },
+      {
+        "label": "Lettre privée : ton chaud et affectueux ; lettre officielle : ton formel et neutre.",
+        "correct": true
+      },
+      {
+        "label": "Il n'y a aucune différence ; toutes les lettres se ressemblent et utilisent le même ton.",
+        "correct": false
+      },
+      {
+        "label": "Une lettre privée doit absolument commencer par 'Madame' ou 'Monsieur' comme une lettre officielle.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Une lettre privée peut être personnelle, chaleureuse, utiliser des expressions affectueuses. Une lettre officielle reste formelle, structurée, avec des formules de politesse et un ton neutre. La différence de ton et de formules reflète la nature de la relation et du message.",
+    "feedback_wrong": "Non. La nature de la lettre change le ton et les formules utilisées. Une lettre à un proche permet plus de chaleur et de liberté, tandis qu'une lettre administrative exige le respect strict de la formalité. Relis la distinction entre lettre privée et lettre officielle."
+  }
+}

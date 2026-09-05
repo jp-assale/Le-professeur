@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s2-s4-probabilites-loi-binomiale",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitre": "Probabilités, loi binomiale",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Probabilités, loi binomiale",
+  "intro": {
+    "heading": "Mise en situation : Le test de qualité au marché",
+    "body": "Un producteur de tomates au Sénégal fait passer un contrôle de qualité : chaque tomate a 85 % de chances d'être « sans défaut ». Il prélève un lot de 10 tomates. Combien de tomates sans défaut peut-il espérer ? Quelle est la probabilité d'en avoir exactement 8 ? Voilà des questions que la loi binomiale résout en quelques lignes."
+  },
+  "concept": {
+    "heading": "La loi binomiale : définition et formule clé",
+    "explanation": "Tu répètes n fois une expérience aléatoire à deux résultats possibles (succès ou échec), indépendants l'un de l'autre, avec la même probabilité p de succès à chaque essai. La variable aléatoire X qui compte le nombre de succès suit une loi binomiale. Elle permet de calculer la probabilité d'obtenir exactement k succès parmi les n répétitions.",
+    "highlight": "P(X = k) = C(n,k) × p^k × (1-p)^(n-k)"
+  },
+  "example": {
+    "problem": "Un agriculteur teste 15 plants de maïs pour vérifier leur résistance à une certaine maladie. Chaque plant a une probabilité de 0,7 d'être sain. Calcule la probabilité que exactement 12 plants soient sains.",
+    "steps": [
+      "Identifie les paramètres : n = 15 (nombre de plants), k = 12 (plants sains recherchés), p = 0,7 (probabilité qu'un plant soit sain).",
+      "Calcule le coefficient binomial C(15, 12) : C(15, 12) = 15! / (12! × 3!) = (15 × 14 × 13) / (3 × 2 × 1) = 455.",
+      "Calcule p^k : 0,7^12 ≈ 0,0138458988.",
+      "Calcule (1 - p)^(n - k) : (1 - 0,7)^(15 - 12) = 0,3^3 = 0,027.",
+      "Applique la formule : P(X = 12) = 455 × 0,0138458988 × 0,027 ≈ 0,1700.",
+      "Conclusion : la probabilité que exactement 12 plants sur 15 soient sains est environ 0,17 ou 17 %."
+    ]
+  },
+  "quiz": {
+    "question": "Un marchand de poisson en Côte d'Ivoire vérifie la fraîcheur de ses poissons. Chaque poisson a 90 % de chance d'être frais. S'il contrôle 8 poissons, quelle est la probabilité que tous les 8 soient frais ? (Arrondis à 0,0001 près.)",
+    "reponse_calculee": "0,4305",
+    "choices": [
+      {
+        "label": "0,7214",
+        "correct": false
+      },
+      {
+        "label": "0,4305",
+        "correct": true
+      },
+      {
+        "label": "0,9000",
+        "correct": false
+      },
+      {
+        "label": "0,1000",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule avec n = 8, k = 8, p = 0,9. Puisque tous les poissons doivent être frais, P(X = 8) = C(8,8) × 0,9^8 × 0,1^0 = 1 × 0,43046721 × 1 ≈ 0,4305. C'est un cas particulier où tu n'utilises que p^n.",
+    "feedback_wrong": "Pas tout à fait. Revois les paramètres : n = 8 (nombre de poissons), k = 8 (tous frais), p = 0,9 (probabilité qu'un poisson soit frais). Puis applique P(X = k) = C(n,k) × p^k × (1-p)^(n-k). Ici, C(8,8) = 1, donc P(X = 8) = 0,9^8 ≈ 0,4305."
+  }
+}

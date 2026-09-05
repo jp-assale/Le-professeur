@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-physique-chimie-c-d-chimie-generale",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Chimie générale",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Chimie générale – Réactions chimiques et équilibres",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as remarqué qu'une marmite de fer rouille rapidement en saison des pluies, ou que le lait tourne aigre après quelques jours. Ces transformations montrent que la matière ne reste jamais figée : elle se transforme selon des lois précises. C'est le cœur de la chimie générale : comprendre *pourquoi* et *comment* les atomes se réorganisent, et prédire ce qui en résulte."
+  },
+  "concept": {
+    "heading": "Concept central : la réaction chimique équilibrée",
+    "explanation": "Une réaction chimique est une transformation au cours de laquelle les atomes se réorganisent : des liaisons se cassent et de nouvelles se forment. Pour décrire correctement cette transformation, on écrit une *équation chimique équilibrée*, où le nombre d'atomes de chaque élément est identique avant et après la réaction. C'est la loi de conservation de la masse (Lavoisier).",
+    "highlight": "Rien ne se perd, rien ne se crée : le nombre total d'atomes de chaque élément est conservé dans une réaction chimique."
+  },
+  "example": {
+    "problem": "La combustion du méthane (le gaz du briquet) produit du dioxyde de carbone et de l'eau. On donne : CH₄ + O₂ → CO₂ + H₂O. Équilibre cette réaction, puis calcule la masse d'eau produite quand on brûle 16 g de méthane. (Masses molaires : C = 12 g/mol, H = 1 g/mol, O = 16 g/mol)",
+    "steps": [
+      "Étape 1 : Compter les atomes avant et après. À gauche : C = 1, H = 4, O = 2. À droite : C = 1, H = 2, O = 3. H et O ne sont pas équilibrés.",
+      "Étape 2 : Équilibrer H. On met un coefficient 2 devant H₂O : CH₄ + O₂ → CO₂ + 2H₂O. Maintenant : H = 4 de chaque côté ✓",
+      "Étape 3 : Équilibrer O. À droite on a maintenant 2 + 4 = 6 atomes O. On met 2 devant O₂ : CH₄ + 2O₂ → CO₂ + 2H₂O. Vérification : O = 4 de chaque côté ✓",
+      "Étape 4 : Calculer la masse molaire du CH₄. M(CH₄) = 12 + 4 × 1 = 16 g/mol",
+      "Étape 5 : Nombre de moles de CH₄. n = m / M = 16 / 16 = 1 mol",
+      "Étape 6 : D'après l'équation équilibrée, 1 mol de CH₄ produit 2 mol de H₂O. Masse molaire H₂O = 2 + 16 = 18 g/mol. Masse d'eau = 2 × 18 = 36 g"
+    ]
+  },
+  "quiz": {
+    "question": "On considère la réaction : Fe + O₂ → Fe₂O₃. Après équilibrage, combien de molécules de O₂ sont nécessaires pour réagir avec 4 molécules de Fe ?",
+    "reponse_calculee": "3 molécules de O₂",
+    "choices": [
+      {
+        "label": "2 molécules de O₂",
+        "correct": false
+      },
+      {
+        "label": "3 molécules de O₂",
+        "correct": true
+      },
+      {
+        "label": "4 molécules de O₂",
+        "correct": false
+      },
+      {
+        "label": "6 molécules de O₂",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bien ! L'équation équilibrée est 4Fe + 3O₂ → 2Fe₂O₃. Le coefficient devant O₂ est 3. Pour 4 atomes de Fe, il faut exactement 3 molécules de O₂.",
+    "feedback_wrong": "À revoir. Équilibre l'équation Fe + O₂ → Fe₂O₃ en comptant les atomes Fe et O de chaque côté. Tu dois obtenir 4Fe + 3O₂ → 2Fe₂O₃. Le coefficient de O₂ est donc 3."
+  }
+}

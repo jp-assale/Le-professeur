@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-histoire-geographie-l-economie-de-la-franc",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "L'économie de la France",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "L'économie de la France",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois expliquer à un ami pourquoi la France est l'une des plus grandes puissances économiques du monde, alors qu'elle n'a pas autant de pétrole que certains pays africains, ni autant d'habitants que la Chine. Comment une nation peut-elle devenir riche et puissante économiquement ? Quels sont ses vrais atouts ? C'est ce que nous allons explorer ensemble."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que l'économie de la France ?",
+    "explanation": "L'économie de la France repose sur l'organisation et la production de richesses sur son territoire. Elle est construite autour de trois piliers majeurs : l'industrie (manufacture, construction, énergie), l'agriculture (première puissance agricole de l'Union européenne depuis longtemps), et les services (commerce, tourisme, finance, transports). La France tire aussi sa force de son capital humain qualifié, de son infrastructure moderne, et de son intégration dans l'économie européenne et mondiale.",
+    "highlight": "L'économie française = production + échanges commerciaux + services, combinés à une main-d'œuvre formée et une position stratégique en Europe."
+  },
+  "example": {
+    "problem": "Analysons comment la France a construit sa richesse économique en prenant l'exemple du secteur agro-alimentaire français.",
+    "steps": [
+      "Étape 1 : Le point de départ. La France dispose d'un climat tempéré favorable, de terres fertiles (particulièrement en Normandie, Bretagne, Bassin parisien) et d'une longue tradition agricole. Cet atout naturel initial crée une base solide.",
+      "Étape 2 : L'investissement technologique. Au lieu de rester une agriculture de subsistance, la France a modernisé ses fermes avec des machines, des engrais, et des techniques. Les paysans français se sont formés et équipés.",
+      "Étape 3 : La transformation industrielle. Les produits agricoles bruts ne se vendent pas cher. La France a construit des usines de transformation (fromageries, boulangeries industrielles, conserveries) qui ajoutent de la valeur. Un fromage emballé et étiqueté se vend beaucoup plus cher que le lait brut.",
+      "Étape 4 : La marque et l'exportation. La France a créé une image de qualité (« Made in France »). Des produits comme le Bordeaux, le Camembert, ou la Baguette deviennent des symboles reconnus mondialement. Cela permet d'exporter à des prix élevés.",
+      "Étape 5 : L'intégration européenne. Dans l'Union européenne, la France peut vendre ses produits à 27 pays sans barrière douanière. Ses produits agricoles alimentent les marchés allemands, belges, italiens, etc.",
+      "Résultat : De simples terres cultivables se transforment en richesse économique massive grâce à l'innovation, l'organisation, la marque, et l'accès aux marchés. C'est le modèle économique français : partir d'un atout, le transformer, le valoriser, et l'exporter."
+    ]
+  },
+  "quiz": {
+    "question": "Selon le modèle économique français présenté, quel est l'ordre logique des facteurs qui créent la richesse ? (1) Atout naturel ou initial ; (2) Modernisation technologique ; (3) Transformation industrielle pour ajouter de la valeur ; (4) Création d'une image de marque et exportation. Quel ordre est correct ?",
+    "reponse_calculee": "(1) → (2) → (3) → (4)",
+    "choices": [
+      {
+        "label": "(2) → (1) → (4) → (3)",
+        "correct": false
+      },
+      {
+        "label": "(1) → (2) → (3) → (4)",
+        "correct": true
+      },
+      {
+        "label": "(3) → (1) → (2) → (4)",
+        "correct": false
+      },
+      {
+        "label": "(4) → (3) → (2) → (1)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris la logique. Un pays construït sa richesse en partant de ses ressources initiales (atout naturel), puis en les modernisant (technologie), en les transformant pour créer plus de valeur (industrie), et enfin en les commercialisant avec une image forte (marque et exportation). C'est une progression naturelle et stratégique.",
+    "feedback_wrong": "Pas tout à fait. Réfléchis à l'ordre logique : tu dois d'abord avoir quelque chose à transformer (atout naturel), puis le moderniser, puis l'industrialiser, et enfin le vendre avec une marque. Cet ordre reflète comment les économies se construisent vraiment. Relis l'exemple et essaie à nouveau."
+  }
+}

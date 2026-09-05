@@ -1,0 +1,55 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-angles-inscrits",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Angles inscrits",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Angles inscrits",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu es au stade de ta ville et que tu regardes un match de football. Les supporters sont assis tout autour du terrain circulaire. Deux supporters assis à des endroits différents du stade regardent tous les deux le même but. Observent-ils le but sous le même angle ? C'est exactement la question que les angles inscrits vont te permettre de résoudre."
+  },
+  "concept": {
+    "heading": "Définition : Angle inscrit",
+    "explanation": "Un angle inscrit est un angle dont le sommet est situé sur le cercle et dont les deux côtés sont des cordes (ou sécantes) du même cercle. Cet angle « regarde » un arc du cercle, appelé arc intercepté. La propriété fondamentale des angles inscrits est qu'ils sont tous égaux quand ils interceptent le même arc, peu importe où se trouve leur sommet sur le cercle.",
+    "highlight": "Tous les angles inscrits qui interceptent le même arc sont égaux."
+  },
+  "example": {
+    "problem": "Un cercle de centre O a trois points A, B et C situés sur sa circonférence. L'angle inscrit $\\widehat{CAB}$ mesure 35°. Ce même angle intercepte l'arc BC. Calcule la mesure de l'angle inscrit $\\widehat{CDB}$, où D est un autre point du cercle situé du même côté de BC que A.",
+    "steps": [
+      "Étape 1 : Identifie les deux angles inscrits. L'angle $\\widehat{CAB}$ a son sommet en A et intercepte l'arc BC. L'angle $\\widehat{CDB}$ a son sommet en D et intercepte aussi l'arc BC.",
+      "Étape 2 : Vérifie que les deux angles interceptent bien le même arc. Oui, tous les deux « regardent » l'arc BC.",
+      "Étape 3 : Applique la propriété des angles inscrits. Puisque $\\widehat{CAB}$ et $\\widehat{CDB}$ interceptent le même arc BC, ils doivent être égaux.",
+      "Étape 4 : Écris la réponse. $\\widehat{CDB} = \\widehat{CAB} = 35°$.",
+      "Étape 5 : Conclusion. Peu importe où D est positionné sur la même partie du cercle, tant qu'il « regarde » le même arc BC, son angle sera toujours de 35°."
+    ]
+  },
+  "quiz": {
+    "question": "Sur un cercle, deux angles inscrits $\\widehat{EFG}$ et $\\widehat{EHG}$ interceptent tous les deux l'arc EG. L'angle $\\widehat{EFG}$ mesure 48°. Quelle est la mesure de l'angle $\\widehat{EHG}$ ?",
+    "reponse_calculee": "48°",
+    "choices": [
+      {
+        "label": "24°",
+        "correct": false
+      },
+      {
+        "label": "96°",
+        "correct": false
+      },
+      {
+        "label": "48°",
+        "correct": true
+      },
+      {
+        "label": "52°",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Les deux angles inscrits $\\widehat{EFG}$ et $\\widehat{EHG}$ interceptent le même arc EG, donc selon la propriété des angles inscrits, ils sont égaux. $\\widehat{EHG} = 48°$.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que deux angles inscrits qui interceptent le même arc sont égaux. Ici, $\\widehat{EFG}$ et $\\widehat{EHG}$ interceptent tous les deux l'arc EG, donc ils doivent avoir la même mesure. La réponse est 48°."
+  }
+}

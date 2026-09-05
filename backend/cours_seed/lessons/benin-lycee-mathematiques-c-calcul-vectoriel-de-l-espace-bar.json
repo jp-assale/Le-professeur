@@ -1,0 +1,55 @@
+{
+  "slug": "benin-lycee-mathematiques-c-calcul-vectoriel-de-l-espace-bar",
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitre": "Calcul vectoriel de l'espace (barycentre, produit vectoriel), applications affines de l'espace",
+  "source": "Document « Mathématiques Terminale C Bénin »",
+  "template": "text_only",
+  "title": "Calcul vectoriel de l'espace : barycentre, produit vectoriel et applications affines",
+  "intro": {
+    "heading": "Mise en situation : équilibrer une charge sur une poutre",
+    "body": "Imagine que tu dois placer des sacs de riz (de masses différentes) sur une poutre de marché pour que tout reste en équilibre. Comment trouver le point d'équilibre ? C'est exactement ce que le barycentre te permet de calculer. Et si tu dois aussi comprendre comment tourner ou projeter des objets dans l'espace 3D, le produit vectoriel et les applications affines deviennent tes outils indispensables."
+  },
+  "concept": {
+    "heading": "Le barycentre : centre de masse pondéré",
+    "explanation": "Le barycentre est le point d'équilibre d'un système de points pondérés (chacun ayant un 'poids' ou une masse). Si tu as n points $A_1, A_2, \\ldots, A_n$ de l'espace avec des coefficients (masses) $m_1, m_2, \\ldots, m_n$, le barycentre G est le point unique tel que la somme vectorielle des forces s'annule. C'est le point où tout le système 'se concentre' en équilibre. Le barycentre généralise la notion de moyenne pour l'espace : chaque point contribue selon son importance (son coefficient).",
+    "highlight": "$\\vec{OG} = \\frac{m_1 \\vec{OA_1} + m_2 \\vec{OA_2} + \\cdots + m_n \\vec{OA_n}}{m_1 + m_2 + \\cdots + m_n}$"
+  },
+  "example": {
+    "problem": "Trois points dans l'espace : $A(1, 0, 2)$, $B(3, 1, 0)$ et $C(0, 2, 1)$ ont des masses respectives $m_A = 2$ kg, $m_B = 1$ kg et $m_C = 1$ kg. Calcule les coordonnées du barycentre G de ce système.",
+    "steps": [
+      "Étape 1 : Identifie les masses et les coordonnées. On a $m_A = 2$, $m_B = 1$, $m_C = 1$, donc la somme des masses est $2 + 1 + 1 = 4$ kg.",
+      "Étape 2 : Applique la formule pour la coordonnée x du barycentre : $x_G = \\frac{m_A x_A + m_B x_B + m_C x_C}{m_A + m_B + m_C} = \\frac{2 \\times 1 + 1 \\times 3 + 1 \\times 0}{4} = \\frac{2 + 3 + 0}{4} = \\frac{5}{4}$",
+      "Étape 3 : Calcule la coordonnée y : $y_G = \\frac{2 \\times 0 + 1 \\times 1 + 1 \\times 2}{4} = \\frac{0 + 1 + 2}{4} = \\frac{3}{4}$",
+      "Étape 4 : Calcule la coordonnée z : $z_G = \\frac{2 \\times 2 + 1 \\times 0 + 1 \\times 1}{4} = \\frac{4 + 0 + 1}{4} = \\frac{5}{4}$",
+      "Étape 5 : Le barycentre a pour coordonnées $G\\left(\\frac{5}{4}, \\frac{3}{4}, \\frac{5}{4}\\right)$ ou $G(1,25 ; 0,75 ; 1,25)$."
+    ]
+  },
+  "quiz": {
+    "question": "Soit deux points $P(2, 0, 1)$ et $Q(4, 2, 3)$ avec des masses respectives $m_P = 3$ et $m_Q = 1$. Quelle est la coordonnée x du barycentre de ce système ?",
+    "reponse_calculee": "2,5",
+    "choices": [
+      {
+        "label": "2",
+        "correct": false
+      },
+      {
+        "label": "2,5",
+        "correct": true
+      },
+      {
+        "label": "3",
+        "correct": false
+      },
+      {
+        "label": "1,5",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as appliqué correctement la formule du barycentre : $x_G = \\frac{3 \\times 2 + 1 \\times 4}{3 + 1} = \\frac{6 + 4}{4} = \\frac{10}{4} = 2,5$. Les masses donnent plus de 'poids' au point P, mais Q le tire légèrement vers la droite.",
+    "feedback_wrong": "Pas tout à fait. Souviens-toi que chaque coordonnée se calcule en pondérant par la masse correspondante, puis en divisant par la somme totale des masses. Essaie : $x_G = \\frac{m_P x_P + m_Q x_Q}{m_P + m_Q} = \\frac{3 \\times 2 + 1 \\times 4}{4}$."
+  }
+}

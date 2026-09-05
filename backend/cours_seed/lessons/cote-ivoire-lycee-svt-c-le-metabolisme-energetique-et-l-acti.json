@@ -1,0 +1,54 @@
+{
+  "slug": "cote-ivoire-lycee-svt-c-le-metabolisme-energetique-et-l-acti",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitre": "Le métabolisme énergétique et l'activité musculaire",
+  "source": "dpfc-ci.net",
+  "template": "text_only",
+  "title": "Le métabolisme énergétique et l'activité musculaire",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu joues au football avec tes camarades sous le soleil de Yamoussoukro. Après 20 minutes de jeu intensif, tu sens tes jambes brûler, tu transpires, ton cœur s'accélère. D'où vient cette énergie qui te permet de courir et de tirer au but ? Comment ton corps transforme-t-il ce que tu manges en mouvement ?"
+  },
+  "concept": {
+    "heading": "Le métabolisme énergétique : définition et principes",
+    "explanation": "Le métabolisme énergétique est l'ensemble des réactions chimiques qui se déroulent dans ton corps pour libérer l'énergie contenue dans les nutriments (glucides, lipides, protéines) et la rendre disponible pour le travail musculaire. Lors d'un effort, tes muscles consomment de l'énergie sous forme d'une molécule appelée ATP (adénosine triphosphate). Cette énergie provient de la dégradation des nutriments, notamment par la respiration cellulaire. Plus l'activité est intense, plus la consommation d'énergie est élevée et plus l'organisme doit produire d'ATP rapidement.",
+    "highlight": "ATP = molécule énergétique universelle de la cellule ; sa dégradation libère l'énergie nécessaire à la contraction musculaire."
+  },
+  "example": {
+    "problem": "Un athlète court pendant 10 minutes à intensité modérée. Son métabolisme basal (au repos) consomme 1,2 kcal/min. Pendant l'effort, sa consommation énergétique totale est de 8,5 kcal/min. Calcule l'énergie supplémentaire (en kcal) dépensée par le travail musculaire au cours de ces 10 minutes.",
+    "steps": [
+      "Identifie les données : consommation basal = 1,2 kcal/min ; consommation totale pendant l'effort = 8,5 kcal/min ; durée de l'effort = 10 minutes.",
+      "Calcule la consommation supplémentaire par minute due à l'activité musculaire : 8,5 - 1,2 = 7,3 kcal/min.",
+      "Multiplie cette consommation supplémentaire par la durée totale de l'effort : 7,3 kcal/min × 10 min = 73 kcal.",
+      "Conclusion : le travail musculaire a consommé 73 kcal d'énergie supplémentaire au cours de ces 10 minutes d'effort."
+    ]
+  },
+  "quiz": {
+    "question": "Lors d'une séance d'entraînement intense, un muscle consomme 250 mmol d'ATP par minute. En conditions normales, ce même muscle au repos consomme 15 mmol d'ATP par minute. Quelle quantité supplémentaire d'ATP (en mmol) le muscle doit-il produire pendant 8 minutes d'entraînement par rapport à 8 minutes au repos ?",
+    "reponse_calculee": "1880 mmol",
+    "choices": [
+      {
+        "label": "235 mmol",
+        "correct": false
+      },
+      {
+        "label": "1880 mmol",
+        "correct": true
+      },
+      {
+        "label": "2000 mmol",
+        "correct": false
+      },
+      {
+        "label": "120 mmol",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien compris. La consommation supplémentaire par minute est 250 - 15 = 235 mmol/min. Sur 8 minutes, cela fait 235 × 8 = 1880 mmol. C'est cette quantité d'ATP supplémentaire que le métabolisme du muscle doit produire pour soutenir l'effort intensif.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi : il faut d'abord calculer la différence de consommation par minute entre l'effort et le repos (250 - 15 = 235 mmol/min), puis multiplier par la durée (235 × 8 = 1880 mmol). Le muscle ne consomme pas la totalité de ses ATP pendant l'effort, mais une quantité supplémentaire par rapport au repos."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-college-mathematiques-triangle-rectangle",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Triangle rectangle",
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025",
+  "template": "text_only",
+  "title": "Triangle rectangle",
+  "intro": {
+    "heading": "Mise en situation : construire une maison",
+    "body": "Un maçon doit vérifier que le coin d'une maison est bien perpendiculaire avant de poser la dalle de béton. Il mesure 3 mètres le long d'un mur, 4 mètres le long de l'autre mur, puis la diagonale entre les deux points. Comment peut-il être sûr que son angle est droit ? C'est ce que tu vas apprendre avec le triangle rectangle."
+  },
+  "concept": {
+    "heading": "Définition et propriété fondamentale",
+    "explanation": "Un triangle rectangle est un triangle qui possède un angle droit, c'est-à-dire un angle de 90°. Le côté opposé à cet angle droit s'appelle l'hypoténuse. Les deux autres côtés s'appellent les côtés de l'angle droit. La propriété majeure du triangle rectangle est le théorème de Pythagore, qui relie les longueurs de ces trois côtés.",
+    "highlight": "Dans un triangle rectangle, le carré de l'hypoténuse égale la somme des carrés des deux autres côtés : $a^2 + b^2 = c^2$"
+  },
+  "example": {
+    "problem": "Un triangle rectangle a deux côtés de l'angle droit mesurant 6 cm et 8 cm. Calcule la longueur de l'hypoténuse.",
+    "steps": [
+      "Étape 1 : Identifie les côtés. Les deux côtés de l'angle droit sont $a = 6$ cm et $b = 8$ cm. On cherche $c$, l'hypoténuse.",
+      "Étape 2 : Applique le théorème de Pythagore : $a^2 + b^2 = c^2$",
+      "Étape 3 : Calcule $a^2 = 6^2 = 36$",
+      "Étape 4 : Calcule $b^2 = 8^2 = 64$",
+      "Étape 5 : Additionne : $36 + 64 = 100$, donc $c^2 = 100$",
+      "Étape 6 : Extrais la racine carrée : $c = \\sqrt{100} = 10$ cm"
+    ]
+  },
+  "quiz": {
+    "question": "Un triangle rectangle a pour hypoténuse 13 m et l'un de ses côtés de l'angle droit mesure 5 m. Quelle est la longueur de l'autre côté de l'angle droit ?",
+    "reponse_calculee": "12",
+    "choices": [
+      {
+        "label": "8 m",
+        "correct": false
+      },
+      {
+        "label": "12 m",
+        "correct": true
+      },
+      {
+        "label": "9 m",
+        "correct": false
+      },
+      {
+        "label": "10 m",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Tu as bien appliqué le théorème de Pythagore. Si $c = 13$ m est l'hypoténuse et $a = 5$ m est un côté, alors $5^2 + b^2 = 13^2$, ce qui donne $25 + b^2 = 169$, donc $b^2 = 144$ et $b = 12$ m.",
+    "feedback_wrong": "Ce n'est pas correct. Utilise le théorème de Pythagore : $a^2 + b^2 = c^2$. Ici, $5^2 + b^2 = 13^2$, donc $25 + b^2 = 169$. Résous pour trouver $b^2 = 144$, puis $b = 12$ m."
+  }
+}

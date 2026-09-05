@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-lycee-mathematiques-s2-s4-fonctions-numeriques-suite",
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitre": "Fonctions numériques, suites, calcul intégral, équations différentielles",
+  "source": "officedubac.sn — Programme_Maths-LS.pdf",
+  "template": "text_only",
+  "title": "Fonctions numériques, suites, calcul intégral, équations différentielles",
+  "intro": {
+    "heading": "Mise en situation : La croissance d'une culture de poissons",
+    "body": "Un éleveur de tilapia au Sénégal remplit son bassin et observe que le nombre de poissons double chaque mois. Comment prédire combien il en aura dans 6 mois ? Comment calculer la quantité totale de nourriture nécessaire sur cette période ? Et si la croissance ralentit au fil du temps, comment modéliser ce changement ? Ces questions te mènent naturellement aux suites, aux fonctions et au calcul intégral."
+  },
+  "concept": {
+    "heading": "Les quatre piliers du chapitre",
+    "explanation": "Ce chapitre repose sur l'étude du comportement des fonctions numériques, la modélisation de phénomènes évolutifs par les suites, le calcul des aires et volumes par l'intégration, et la résolution d'équations décrivant des changements continus (équations différentielles). Chacun de ces outils répond à une question précise : comment évolue une grandeur ? Quelle est l'accumulation totale ? Comment change-t-elle instantanément ?",
+    "highlight": "Une fonction $f : I \\rightarrow \\mathbb{R}$ associe à chaque $x$ de son domaine une valeur unique $f(x)$. Une suite $(u_n)$ est une fonction de $\\mathbb{N}$ vers $\\mathbb{R}$. L'intégrale $\\int_a^b f(x)\\,dx$ mesure l'aire sous la courbe. Une équation différentielle relie une fonction et ses dérivées."
+  },
+  "example": {
+    "problem": "Un réservoir d'eau se vide lentement. Le débit (quantité d'eau sortant par heure) est donné par $f(t) = 100 - 5t$ litres par heure, où $t$ est le temps en heures. Calcule le volume total d'eau qui s'échappe entre $t = 0$ et $t = 8$ heures.",
+    "steps": [
+      "Étape 1 : Reconnaître que le volume total est l'intégrale du débit. Volume = $\\int_0^8 (100 - 5t)\\,dt$.",
+      "Étape 2 : Trouver une primitive de $f(t) = 100 - 5t$. Primitive : $F(t) = 100t - \\frac{5t^2}{2}$.",
+      "Étape 3 : Appliquer la formule fondamentale : $\\int_0^8 (100 - 5t)\\,dt = F(8) - F(0)$.",
+      "Étape 4 : Calculer $F(8) = 100(8) - \\frac{5(8)^2}{2} = 800 - \\frac{320}{2} = 800 - 160 = 640$.",
+      "Étape 5 : Calculer $F(0) = 100(0) - \\frac{5(0)^2}{2} = 0$.",
+      "Étape 6 : Volume total = $640 - 0 = 640$ litres."
+    ]
+  },
+  "quiz": {
+    "question": "Une suite géométrique a pour premier terme $u_0 = 3$ et pour raison $q = 2$. Quel est le terme $u_5$ ?",
+    "reponse_calculee": "96",
+    "choices": [
+      {
+        "label": "48",
+        "correct": false
+      },
+      {
+        "label": "96",
+        "correct": true
+      },
+      {
+        "label": "32",
+        "correct": false
+      },
+      {
+        "label": "64",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Pour une suite géométrique, $u_n = u_0 \\times q^n$. Donc $u_5 = 3 \\times 2^5 = 3 \\times 32 = 96$. Tu maîtrises la formule du terme général.",
+    "feedback_wrong": "Pas encore. Rappelle-toi : dans une suite géométrique, $u_n = u_0 \\times q^n$. Ici, $u_5 = 3 \\times 2^5 = 3 \\times 32 = 96$. Attention à ne pas confondre avec $u_0 \\times q$ ou d'autres variations."
+  }
+}

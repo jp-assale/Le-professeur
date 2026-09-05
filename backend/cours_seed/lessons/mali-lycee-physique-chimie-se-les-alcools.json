@@ -1,0 +1,55 @@
+{
+  "slug": "mali-lycee-physique-chimie-se-les-alcools",
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitre": "Les alcools",
+  "source": "bkalan.ml",
+  "template": "text_only",
+  "title": "Les alcools",
+  "intro": {
+    "heading": "Mise en situation : pourquoi l'alcool du commerce n'est pas pur",
+    "body": "En Afrique de l'Ouest, tu as sûrement vu des bouteilles d'eau-de-vie ou de rhum vendues au marché, étiquetées avec des pourcentages comme « 40° » ou « 70° ». Ces chiffres indiquent la concentration en alcool éthylique. Mais d'où vient cet alcool ? Comment est-il fabriqué et quel est sa structure chimique ? C'est ce que nous allons explorer en étudiant les alcools, une famille de composés organiques essentiels dans l'industrie alimentaire, pharmaceutique et chimique."
+  },
+  "concept": {
+    "heading": "Qu'est-ce qu'un alcool ?",
+    "explanation": "Un alcool est un composé organique contenant un groupe fonctionnel hydroxyle, noté -OH, attaché à un atome de carbone saturé (lié uniquement par des liaisons simples). Les alcools sont classés en trois catégories selon la position du groupe hydroxyle sur le squelette carboné : primaires (si le carbone porteur de -OH est lié à un seul autre carbone), secondaires (lié à deux autres carbones) ou tertiaires (lié à trois autres carbones). La formule générale des alcools est $R-OH$, où R représente un groupe alkyle.",
+    "highlight": "Un alcool = composé organique avec un groupe fonctionnel -OH lié à un carbone saturé"
+  },
+  "example": {
+    "problem": "On souhaite identifier et classer trois composés selon leur structure. Le propan-1-ol a pour formule $C_3H_7OH$ et la formule semi-développée est $CH_3-CH_2-CH_2-OH$. Détermine si c'est un alcool primaire, secondaire ou tertiaire, puis écris la formule brute.",
+    "steps": [
+      "Étape 1 : Localise le groupe hydroxyle -OH. Ici, il est fixé au carbone terminal (le premier carbone à droite en lecture).",
+      "Étape 2 : Compte combien de carbones sont liés au carbone qui porte le -OH. Le carbone $CH_2-OH$ n'est lié qu'à UN seul autre carbone (celui du $CH_2$ précédent).",
+      "Étape 3 : Applique la règle de classification. Puisque le carbone porteur de -OH est lié à un seul autre carbone, c'est un alcool primaire.",
+      "Étape 4 : Écris la formule brute en comptant les atomes. Tu as 3 carbones, 8 hydrogènes (dont 1 du -OH) et 1 oxygène. Formule brute : $C_3H_8O$.",
+      "Étape 5 : Conclusion. Le propan-1-ol est un alcool primaire de formule brute $C_3H_8O$."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le nombre d'atomes de carbone et d'oxygène dans le pentan-2-ol (alcool secondaire) de formule semi-développée $CH_3-CH(OH)-CH_2-CH_2-CH_3$ ?",
+    "reponse_calculee": "5 carbones et 1 oxygène",
+    "choices": [
+      {
+        "label": "4 carbones et 2 oxygens",
+        "correct": false
+      },
+      {
+        "label": "5 carbones et 1 oxygène",
+        "correct": true
+      },
+      {
+        "label": "5 carbones et 2 oxygens",
+        "correct": false
+      },
+      {
+        "label": "6 carbones et 1 oxygène",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! En comptant les carbones dans la chaîne $CH_3-CH(OH)-CH_2-CH_2-CH_3$, tu en trouves 5. Le groupe fonctionnel -OH ne contient qu'un seul atome d'oxygène. La formule brute du pentan-2-ol est donc $C_5H_{12}O$.",
+    "feedback_wrong": "Pas tout à fait. Repasse par la formule semi-développée en comptant chaque atome de carbone de la chaîne principale : $CH_3$, puis $CH(OH)$, puis $CH_2$, $CH_2$, $CH_3$. Tu dois obtenir 5 carbones. Le groupe -OH ajoute 1 oxygène seulement."
+  }
+}

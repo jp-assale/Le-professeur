@@ -1,0 +1,55 @@
+{
+  "slug": "senegal-college-histoire-geographie-la-terre-une-planete-du-",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Histoire-Geographie",
+  "chapitre": "La Terre, une planète du système solaire",
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "La Terre, une planète du système solaire",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu observes le ciel nocturne depuis Dakar ou Saint-Louis. Tu vois des points lumineux fixes (les étoiles) et d'autres qui se déplacent lentement (les planètes). Pendant longtemps, les hommes ont cru que la Terre était le centre de l'univers. Aujourd'hui, tu sais que c'est faux : la Terre n'est qu'une planète parmi d'autres, qui tourne autour du Soleil. Comprendre la place de la Terre dans le système solaire, c'est comprendre notre véritable position dans l'univers."
+  },
+  "concept": {
+    "heading": "Concept : La Terre dans le système solaire",
+    "explanation": "Le système solaire est composé du Soleil et de tous les astres qui gravitent autour de lui, dont les planètes. La Terre est une planète rocheuse située à une distance moyenne du Soleil qui permet à l'eau d'y exister à l'état liquide et à la vie de s'y développer. Elle n'est pas immobile : elle tourne sur elle-même (rotation) et elle tourne autour du Soleil (révolution). Cette double rotation explique l'alternance des jours et des nuits, ainsi que les saisons.",
+    "highlight": "La Terre est une planète du système solaire qui effectue deux mouvements : elle tourne sur elle-même et elle orbite autour du Soleil."
+  },
+  "example": {
+    "problem": "Tu dois expliquer à un camarade pourquoi nous avons le jour et la nuit, et pourquoi la Terre occupe une place particulière dans le système solaire. Analyse cette situation en reprenant les éléments clés.",
+    "steps": [
+      "Étape 1 : Identifie d'abord le mouvement qui crée l'alternance jour-nuit. C'est la rotation de la Terre sur elle-même autour de son axe. Un point à la surface de la Terre fait face au Soleil (jour) puis s'en éloigne (nuit), en environ 24 heures.",
+      "Étape 2 : Comprends ensuite le deuxième mouvement : la révolution. La Terre orbite autour du Soleil en suivant une trajectoire appelée orbite terrestre. Cette révolution dure environ 365 jours, ce qui définit notre année.",
+      "Étape 3 : Repère pourquoi la Terre est particulière. Elle se situe à une « distance habitable » du Soleil, ni trop proche (sinon l'eau s'évaporerait) ni trop loin (sinon tout serait gelé). Cette zone s'appelle la zone habitable du système solaire.",
+      "Étape 4 : Reconnais que c'est la présence d'eau liquide, d'une atmosphère et de la bonne température qui permettent la vie sur Terre, contrairement aux autres planètes rocheuses.",
+      "Étape 5 : Conclus que la Terre n'est pas le centre de l'univers, mais elle est le seul endroit connu où existent les conditions pour que nous vivions. Le Soleil, bien plus massif, est le centre du système solaire autour duquel tous les astres gravitent."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces énoncés décrit correctement la position et les mouvements de la Terre dans le système solaire ?",
+    "reponse_calculee": "La Terre est une planète rocheuse qui tourne sur elle-même et qui orbite autour du Soleil, situé à une distance permettant l'existence d'eau liquide et de vie.",
+    "choices": [
+      {
+        "label": "La Terre est le centre du système solaire autour duquel le Soleil et les autres planètes tournent.",
+        "correct": false
+      },
+      {
+        "label": "La Terre est une planète rocheuse qui tourne sur elle-même et qui orbite autour du Soleil, situé à une distance permettant l'existence d'eau liquide et de vie.",
+        "correct": true
+      },
+      {
+        "label": "La Terre ne possède qu'un seul mouvement : elle reste fixe dans l'espace et ne tourne que sur elle-même.",
+        "correct": false
+      },
+      {
+        "label": "La Terre est une étoile parmi d'autres qui brillent dans le ciel nocturne du Sénégal.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Excellent ! Tu as bien compris. La Terre n'est qu'une planète du système solaire, elle n'en est pas le centre. Ses deux mouvements (rotation et révolution) expliquent les jours, les nuits et les saisons. Et surtout, c'est sa position particulière par rapport au Soleil qui rend possible la vie telle que nous la connaissons.",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi que c'est le Soleil qui est au centre du système solaire, pas la Terre. La Terre effectue deux mouvements : elle tourne sur elle-même (créant le jour et la nuit) et elle orbite autour du Soleil (créant les saisons). De plus, la Terre est une planète rocheuse, pas une étoile, et elle se trouve à la bonne distance du Soleil pour que l'eau y existe à l'état liquide et que la vie s'y développe."
+  }
+}

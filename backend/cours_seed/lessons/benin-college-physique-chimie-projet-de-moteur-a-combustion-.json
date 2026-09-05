@@ -1,0 +1,55 @@
+{
+  "slug": "benin-college-physique-chimie-projet-de-moteur-a-combustion-",
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Physique-Chimie",
+  "chapitre": "Projet de moteur à combustion interne",
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024",
+  "template": "text_only",
+  "title": "Projet de moteur à combustion interne",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu as sûrement vu des motos-taxis, des camions ou des générateurs électriques fonctionner au Bénin. Tous ces engins utilisent un moteur à combustion interne : c'est une machine qui transforme l'énergie chimique d'un carburant en mouvement mécanique. Comment fonctionne exactement ce mécanisme ? C'est ce que tu vas découvrir en travaillant sur ce projet."
+  },
+  "concept": {
+    "heading": "Le moteur à combustion interne : définition et principe",
+    "explanation": "Un moteur à combustion interne est un système qui produit de l'énergie mécanique par la combustion (brûlure) d'un carburant (essence ou diesel) à l'intérieur d'une chambre fermée appelée cylindre. Cette combustion libère de la chaleur et des gaz qui exercent une pression et font bouger un piston. Le piston transmet ce mouvement à un vilebrequin, qui le transforme en rotation pour faire tourner les roues d'un véhicule.\n\nLe cycle principal du moteur à quatre temps (le plus courant) comprend :\n1. Admission : entrée du mélange air-carburant\n2. Compression : réduction du volume par le piston\n3. Combustion et détente : explosion et poussée du piston\n4. Échappement : évacuation des gaz brûlés",
+    "highlight": "Energie chimique du carburant → Energie thermique (chaleur) → Energie mecanique (mouvement)"
+  },
+  "example": {
+    "problem": "Un moteur à combustion simple a un cylindre avec un piston. Lors de la phase de compression, le volume initial du mélange air-carburant est de 500 cm³. Après compression, ce volume passe à 50 cm³. Calcule le taux de compression du moteur (rapport entre volume initial et volume final).",
+    "steps": [
+      "Identifie les données : Volume initial $V_1 = 500$ cm³ ; Volume final $V_2 = 50$ cm³",
+      "Le taux de compression est le rapport $\\tau = \\frac{V_1}{V_2}$",
+      "Remplace par les valeurs : $\\tau = \\frac{500}{50}$",
+      "Effectue la division : $\\tau = 10$",
+      "Interprétation : le taux de compression est 10 (ou on dit « compression 10:1 »). Cela signifie que le volume du mélange est réduit 10 fois avant la combustion."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un moteur à combustion interne à quatre temps, le piston descend et crée une dépression pour laisser entrer le mélange air-carburant. À quel temps du cycle correspond cette phase ?",
+    "reponse_calculee": "Temps 1 - Admission",
+    "choices": [
+      {
+        "label": "Temps 1 - Admission",
+        "correct": true
+      },
+      {
+        "label": "Temps 2 - Compression",
+        "correct": false
+      },
+      {
+        "label": "Temps 3 - Combustion et détente",
+        "correct": false
+      },
+      {
+        "label": "Temps 4 - Échappement",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Pendant l'admission (temps 1), le piston se déplace vers le bas et crée un vide qui aspire le mélange air-carburant à travers la soupape d'admission. C'est le début du cycle.",
+    "feedback_wrong": "Non, ce n'est pas la bonne réponse. Relis bien les quatre temps : le premier temps du cycle moteur s'appelle l'admission. C'est pendant ce temps que le piston descend et aspire le mélange air-carburant dans le cylindre."
+  }
+}

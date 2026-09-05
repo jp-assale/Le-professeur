@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-la-connaissance-scientifique",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "La connaissance scientifique",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "La connaissance scientifique",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Tu observes un enfant qui tombe malade après avoir bu de l'eau d'une source contaminée. Ses parents disent que c'est la volonté des ancêtres. Un médecin, lui, identifie un microbe responsable et prescrit un traitement. Comment passe-t-on d'une explication mythique à une explication scientifique ? Et qu'est-ce qui rend une connaissance vraiment scientifique ?"
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la connaissance scientifique ?",
+    "explanation": "La connaissance scientifique est un ensemble de savoirs qui se construisent selon une méthode rigoureuse, vérifiable et révisable. Elle repose sur l'observation, l'expérience et le raisonnement logique, plutôt que sur la croyance ou l'opinion. Contrairement à une simple opinion personnelle, une connaissance scientifique doit pouvoir être testée, discutée par d'autres chercheurs, et éventuellement corrigée si de nouvelles preuves l'exigent. C'est cette exigence de preuve et de vérification qui la distingue d'autres formes de savoir.",
+    "highlight": "La connaissance scientifique est un savoir établi par l'observation, l'expérience et la raison, toujours sujet à révision face à des preuves nouvelles."
+  },
+  "example": {
+    "problem": "Un agriculteur ivoirien remarque que ses cacaoyers produisent moins bien certaines années. Il se demande si c'est dû à la sorcellerie des voisins ou à des facteurs objectifs. Comment pourrait-il accéder à une connaissance scientifique du problème ?",
+    "steps": [
+      "Étape 1 – Observer sans préjugé : Au lieu de chercher une cause magique, l'agriculteur observe précisément : Quelles années ? Dans quelles zones du champ ? Quel était l'état du sol, de la pluie, des ravageurs ?",
+      "Étape 2 – Émettre une hypothèse testable : Sur la base de ces observations, il formule une hypothèse vérifiable : 'Si le manque de pluie en saison sèche affecte la production, alors je devrais observer une corrélation entre les années sèches et les faibles rendements.'",
+      "Étape 3 – Concevoir et conduire une expérience : Il teste son hypothèse : il installe un système d'irrigation sur une partie du champ et laisse l'autre sans eau supplémentaire. Il note les résultats sur plusieurs saisons.",
+      "Étape 4 – Analyser les résultats objectivement : Il compare les données : la zone irriguée produit-elle mieux ? Les chiffres parlent, pas les sentiments ou les traditions.",
+      "Étape 5 – Soumettre à la critique : Il montre ses résultats à d'autres agriculteurs, à des agronomes. Peut-on reproduire son expérience ? Y a-t-il d'autres explications ? Cette critique collective renforce la validité.",
+      "Étape 6 – Réviser si nécessaire : Si d'autres découvrent que ce n'est pas seulement l'eau, mais aussi le type de sol ou la saison de plantation, la connaissance s'affine. Elle n'est jamais définitive, elle progresse."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi les affirmations suivantes, laquelle illustre une démarche scientifique et non une simple croyance ?",
+    "reponse_calculee": "Un chercheur observe que certaines plantes resistantes à la sécheresse poussent mieux en sol sableux, formule l'hypothèse que le type de sol influence cette résistance, fait croître ces plantes dans différents types de sols en contrôlant les autres variables, note les résultats et les partage pour vérification.",
+    "choices": [
+      {
+        "label": "Un guérisseur traditionnel affirme que sa potion soigne le paludisme parce qu'il l'a toujours fait et que ses ancêtres lui ont enseigné.",
+        "correct": false
+      },
+      {
+        "label": "Un chercheur observe que certaines plantes résistantes à la sécheresse poussent mieux en sol sableux, formule l'hypothèse que le type de sol influence cette résistance, fait croître ces plantes dans différents types de sols en contrôlant les autres variables, note les résultats et les partage pour vérification.",
+        "correct": true
+      },
+      {
+        "label": "Une personne croit que la malaria est causée par les esprits des morts et refuse tout traitement médical.",
+        "correct": false
+      },
+      {
+        "label": "Un ami te dit que son remède personnel contre la fièvre fonctionne bien parce qu'il en est convaincu.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Cette réponse montre tous les éléments clés de la démarche scientifique : observation précise, hypothèse testable, expérience contrôlée (on varie une seule variable), documentation des résultats, et ouverture à la vérification par d'autres. C'est le processus qui transforme une observation en connaissance scientifique véritable.",
+    "feedback_wrong": "Cette réponse ne montre pas une démarche scientifique. La science ne repose pas sur la conviction personnelle, la tradition seule, ou l'attribution à des causes surnaturelles. Elle exige une hypothèse testable, une expérience reproductible et une documentation qui peut être critiquée et vérifiée par d'autres chercheurs. Relis l'exemple de l'agriculteur pour bien voir comment on passe du doute à la preuve objective."
+  }
+}

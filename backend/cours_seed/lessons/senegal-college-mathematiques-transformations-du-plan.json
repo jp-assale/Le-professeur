@@ -1,0 +1,56 @@
+{
+  "slug": "senegal-college-mathematiques-transformations-du-plan",
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "serie": null,
+  "matiere": "Mathematiques",
+  "chapitre": "Transformations du plan",
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com",
+  "template": "text_only",
+  "title": "Transformations du plan",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que tu dois créer le motif d'un pagne traditionnel ou dessiner un carrelage pour une maison. Tu as une forme de base — un triangle ou un losange — et tu dois la reproduire plusieurs fois en la déplaçant, la tournant ou la retournant pour obtenir un beau motif qui se répète. C'est exactement ce que font les transformations du plan : elles permettent de déplacer, tourner ou refléter des figures géométriques sans en changer la forme ni la taille."
+  },
+  "concept": {
+    "heading": "Les transformations du plan",
+    "explanation": "Une transformation du plan est une opération qui déplace une figure géométrique d'une position à une autre, en gardant intactes ses propriétés (longueurs des côtés, angles). Il existe quatre transformations principales que tu dois connaître : la translation (déplacement en ligne droite), la rotation (tourner autour d'un point), la réflexion ou symétrie (retourner par rapport à une droite), et l'homothétie (agrandir ou réduire).",
+    "highlight": "Une transformation conserve les distances et les angles : la figure transformée est soit identique à l'original (isométrie), soit agrandie ou réduite de façon régulière."
+  },
+  "example": {
+    "problem": "Un triangle ABC a pour sommets A(1 ; 2), B(4 ; 2) et C(3 ; 5). On effectue une translation de vecteur $\\vec{v} = (2 ; 3)$. Trouve les coordonnées des sommets du triangle transformé A'B'C'.",
+    "steps": [
+      "Rappel : dans une translation, on ajoute les composantes du vecteur à chaque coordonnée du point original. Si un point P a pour coordonnées (x ; y) et on translate par le vecteur $\\vec{v} = (a ; b)$, alors P' a pour coordonnées (x + a ; y + b).",
+      "Pour le point A(1 ; 2) : A' = (1 + 2 ; 2 + 3) = (3 ; 5).",
+      "Pour le point B(4 ; 2) : B' = (4 + 2 ; 2 + 3) = (6 ; 5).",
+      "Pour le point C(3 ; 5) : C' = (3 + 2 ; 5 + 3) = (5 ; 8).",
+      "Vérification : le segment AB avait une longueur de $\\sqrt{(4-1)^2 + (2-2)^2} = 3$. Le segment A'B' a une longueur de $\\sqrt{(6-3)^2 + (5-5)^2} = 3$. Les longueurs sont bien conservées, donc la transformation est correcte.",
+      "Réponse : A'(3 ; 5), B'(6 ; 5) et C'(5 ; 8)."
+    ]
+  },
+  "quiz": {
+    "question": "Un point P a pour coordonnées (3 ; 4). On applique une rotation de centre O(0 ; 0) et d'angle 90° dans le sens inverse des aiguilles d'une montre. Quelles sont les coordonnées de P' après cette rotation ?",
+    "reponse_calculee": "(-4 ; 3)",
+    "choices": [
+      {
+        "label": "(4 ; 3)",
+        "correct": false
+      },
+      {
+        "label": "(-4 ; 3)",
+        "correct": true
+      },
+      {
+        "label": "(3 ; -4)",
+        "correct": false
+      },
+      {
+        "label": "(4 ; -3)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exactement ! Lors d'une rotation de 90° autour de l'origine dans le sens inverse des aiguilles d'une montre, un point (x ; y) se transforme en (-y ; x). Donc (3 ; 4) devient (-4 ; 3). La rotation conserve la distance à l'origine : avant, elle était de 5 unités ($\\sqrt{3^2 + 4^2} = 5$), et après aussi ($\\sqrt{(-4)^2 + 3^2} = 5$). Bien maîtrisé !",
+    "feedback_wrong": "Pas tout à fait. Rappelle-toi la règle pour une rotation de 90° autour de l'origine en sens inverse des aiguilles d'une montre : le point (x ; y) devient (-y ; x). Applique cette formule au point (3 ; 4) : x = 3 et y = 4, donc le nouveau point est (-4 ; 3). Vérifie aussi que la distance à l'origine est conservée."
+  }
+}

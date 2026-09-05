@@ -1,0 +1,56 @@
+{
+  "slug": "cote-ivoire-lycee-philosophie-le-commentaire-de-texte-philos",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Philosophie",
+  "chapitre": "Le commentaire de texte philosophique (méthodologie)",
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E",
+  "template": "text_only",
+  "title": "Le commentaire de texte philosophique (méthodologie)",
+  "intro": {
+    "heading": "Mise en situation",
+    "body": "Imagine que ton professeur te propose un extrait d'un penseur africain sur la liberté, et te demande : « Explique-moi ce qu'il dit vraiment, pourquoi il le dit, et ce que cela signifie pour nous. » Tu ne dois pas juste résumer, tu dois montrer comment l'auteur construit son idée, quels mots il choisit, quel problème il résout. C'est exactement ce qu'est le commentaire de texte philosophique : une méthode pour lire, comprendre et expliquer un passage avec rigueur."
+  },
+  "concept": {
+    "heading": "Qu'est-ce que le commentaire de texte philosophique ?",
+    "explanation": "Le commentaire de texte philosophique est une méthode d'analyse structurée qui te permet de décortiquer un passage écrit pour en révéler le sens profond, la logique interne et les implications. Il ne s'agit pas de raconter ce que tu as compris, mais de montrer *comment* le texte fonctionne : quelles questions pose l'auteur, quels arguments il développe, quelles conclusions il en tire. Cette méthode repose sur trois mouvements clés : d'abord, lire attentivement et identifier le problème central ; ensuite, analyser la structure et les étapes du raisonnement ; enfin, évaluer la pertinence et la portée de la pensée.",
+    "highlight": "Lire → Analyser → Évaluer : voilà la structure du commentaire."
+  },
+  "example": {
+    "problem": "Commentons cet extrait fictif d'un penseur : « L'homme ne naît pas libre, il le devient par son engagement dans la communauté. La liberté n'est donc pas une possession innée, mais une responsabilité partagée que chacun acquiert en reconnaissant l'autre. » Montre comment ce texte fonctionne.",
+    "steps": [
+      "Étape 1 : Identifier le problème. L'auteur ne parle pas de la liberté comme une donnée naturelle ou un droit acquis à la naissance. Il pose la question : d'où vient vraiment la liberté ? C'est le cœur du texte.",
+      "Étape 2 : Repérer l'argument principal. La phrase « L'homme ne naît pas libre, il le devient » énonce une thèse claire : la liberté est un *processus*, pas un état initial. Cela s'oppose à une idée reçue (que nous naissons tous libres).",
+      "Étape 3 : Analyser la condition précisée. « Par son engagement dans la communauté » — l'auteur explique *comment* on devient libre : par l'action, par l'implication avec d'autres, pas en isolation.",
+      "Étape 4 : Comprendre le tournant logique. « La liberté n'est donc pas une possession innée, mais une responsabilité partagée » — le mot « donc » montre que l'auteur tire une conclusion : si la liberté se construit par engagement collectif, alors c'est une responsabilité, pas un privilège personnel.",
+      "Étape 5 : Saisir l'enjeu final. « Chacun acquiert en reconnaissant l'autre » — la liberté suppose une relation : je dois reconnaître la liberté d'autrui pour construire la mienne. C'est une interdépendance.",
+      "Étape 6 : Évaluer la portée. Ce texte remet en question l'idée occidentale classique de liberté individuelle et propose une vision communautaire et relationnelle — pertinente notamment en contexte africain où l'interdépendance est centrale."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le premier mouvement méthodologique du commentaire de texte philosophique ?",
+    "reponse_calculee": "Identifier le problème central et la question que pose l'auteur",
+    "choices": [
+      {
+        "label": "Résumer le texte en quelques phrases simples",
+        "correct": false
+      },
+      {
+        "label": "Identifier le problème central et la question que pose l'auteur",
+        "correct": true
+      },
+      {
+        "label": "Chercher tous les mots difficiles et les définir dans un dictionnaire",
+        "correct": false
+      },
+      {
+        "label": "Dire si tu es d'accord ou pas avec ce que dit le texte",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! Le commentaire commence toujours par la lecture attentive : tu dois d'abord comprendre *quel problème* l'auteur affronte et *quelle question* il se pose. C'est le fondement qui guide toute ton analyse ensuite.",
+    "feedback_wrong": "Non. Résumer, chercher des définitions ou donner un avis personnel sont des étapes secondaires, voire extérieures au commentaire. Le point de départ est de saisir le problème que l'auteur soulève et la question philosophique en jeu. C'est ce qui donne du sens à tout ce que tu analyser."
+  }
+}
