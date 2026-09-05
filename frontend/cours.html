@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cours</title>
+<meta name="theme-color" content="#0d7a5f">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/cours.css">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+</head>
+<body>
+<div class="lesson-app">
+
+  <header class="lesson-top">
+    <button class="lesson-back" title="Retour" onclick="history.back()">←</button>
+    <div class="lesson-title">
+      <span class="eyebrow" id="lesson-eyebrow">Chargement…</span>
+      <span class="name" id="lesson-name"></span>
+    </div>
+  </header>
+
+  <div class="lesson-progress" id="progress"></div>
+
+  <main class="lesson-body" id="lesson-body">
+    <section class="slide active" data-slide="0">
+      <p class="muted">Chargement de la leçon…</p>
+    </section>
+  </main>
+
+  <nav class="lesson-nav">
+    <button class="nav-btn prev" id="btn-prev">← Précédent</button>
+    <button class="nav-btn next" id="btn-next">Suivant →</button>
+  </nav>
+
+</div>
+
+<script src="js/config.js"></script>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/katex/auto-render.min.js"></script>
+<script src="js/cours-engine.js"></script>
+<script src="js/cours-render.js"></script>
+<script>
+(function () {
+  const params = new URLSearchParams(location.search);
+  const slug = params.get("slug");
+  const fallbackFor = params.get("fallback_for");
+  const body = document.getElementById("lesson-body");
+
+  if (!slug) {
+    body.innerHTML = '<p class="muted">Aucun cours demandé.</p>';
+    return;
+  }
+
+  const base = window.AIDA_API_BASE_URL || "";
+  fetch(`${base}/api/cours/${encodeURIComponent(slug)}`)
+    .then(r => {
+      if (!r.ok) throw new Error("introuvable");
+      return r.json();
+    })
+    .then(lesson => {
+      if (fallbackFor) lesson.fallback_for = fallbackFor;
+      renderLesson(lesson, { eyebrow: "lesson-eyebrow", name: "lesson-name", body: "lesson-body" });
+      if (window.renderMathInElement) {
+        renderMathInElement(body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "\\[", right: "\\]", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+          ],
+          throwOnError: false,
+        });
+      }
+    })
+    .catch(() => {
+      document.getElementById("lesson-eyebrow").textContent = "Erreur";
+      body.innerHTML = '<p class="muted">Ce cours est introuvable ou pas encore disponible.</p>';
+    });
+})();
+</script>
+</body>
+</html>

@@ -589,6 +589,10 @@ body {
   color: var(--text-muted) !important;
 }
 
+.plot-block {
+  margin: 10px 0;
+}
+
 .mic-listening {
   background: #fdeaea !important;
   border-color: #b3261e !important;

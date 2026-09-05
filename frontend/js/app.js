@@ -140,6 +140,13 @@
 
     container.innerHTML = window.DOMPurify ? DOMPurify.sanitize(html) : html;
 
+    // Les blocs ```plot sont remplaces par un graphique SVG genere par du
+    // code de confiance (pas par le HTML de l'IA), donc apres la
+    // sanitisation ci-dessus - inutile d'elargir l'autorisation DOMPurify.
+    if (window.renderPlotBlocks) {
+      renderPlotBlocks(container);
+    }
+
     if (window.renderMathInElement) {
       renderMathInElement(container, { delimiters: MATH_DELIMITERS, throwOnError: false });
     }
