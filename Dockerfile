@@ -11,4 +11,4 @@ WORKDIR /app/backend
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["sh", "-c", "gunicorn -w 2 --worker-class gthread --threads 4 --timeout 60 -b 0.0.0.0:${PORT} app:app"]
+CMD ["sh", "-c", "gunicorn -w 3 --worker-class gthread --threads 6 --timeout 60 -b 0.0.0.0:${PORT} app:app"]

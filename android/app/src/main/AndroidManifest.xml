@@ -38,4 +38,6 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Micro pour la dictee vocale de la question (reconnaissance vocale du WebView) -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 </manifest>

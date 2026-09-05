@@ -5,7 +5,13 @@ import re
 
 import requests
 import sentry_sdk
-from anthropic import Anthropic
+from anthropic import (
+    Anthropic,
+    APIConnectionError,
+    APIStatusError,
+    APITimeoutError,
+    RateLimitError,
+)
 from dotenv import load_dotenv
 from flask import Flask, jsonify, redirect, request, send_from_directory
 from flask_cors import CORS
@@ -13,6 +19,7 @@ from sentry_sdk.integrations.flask import FlaskIntegration
 
 import cinetpay
 import pdf_library
+import cours_library
 import payments_store
 import progress_store
 import quota_store
@@ -63,6 +70,25 @@ app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
 # /api/* pour que ces appels ne soient pas bloques par le navigateur.
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 client = Anthropic(api_key=ANTHROPIC_API_KEY, timeout=45.0) if ANTHROPIC_API_KEY else None
+
+
+def _friendly_ai_error(exc: Exception) -> tuple[str, int]:
+    """Traduit une exception de l'appel a Claude en message clair pour l'eleve.
+
+    Les erreurs de surcharge/rate-limit sont temporaires et meritent un
+    message qui invite a reessayer, avec un code HTTP que le frontend peut
+    reconnaitre pour re-tenter automatiquement plutot que d'afficher une
+    erreur technique brute (utile en cas de pic de connexions simultanees)."""
+    if isinstance(exc, RateLimitError):
+        return ("Beaucoup d'eleves utilisent Le Prof JPA en ce moment. "
+                "Reessaie dans quelques secondes.", 429)
+    if isinstance(exc, APIStatusError) and exc.status_code in (503, 529):
+        return ("Le service est temporairement surcharge. Reessaie dans "
+                "quelques instants.", 503)
+    if isinstance(exc, (APIConnectionError, APITimeoutError)):
+        return ("Probleme de connexion avec le service IA. Reessaie dans "
+                "quelques instants.", 503)
+    return (f"Erreur IA: {exc}", 502)
 
 
 def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
@@ -132,11 +158,30 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str) -
     )
 
 
-def build_quiz_system_prompt(pays_code: str, niveau_code: str, matiere: str, sujet: str, n_questions: int) -> str:
+def build_quiz_system_prompt(pays_code: str, niveau_code: str, matiere: str, sujet: str,
+                              n_questions: int, diagnostic: bool = False) -> str:
     pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
     niveau = niveau_label(pays_code, niveau_code)
+
+    if diagnostic:
+        # Pas d'echange precedent a suivre ici : le sujet est synthetise a partir
+        # de la matiere choisie par l'eleve, donc on l'affirme telle quelle.
+        intro = f"Tu es un professeur pour un(e) eleve du {niveau} en {matiere}, au {pays_label}.\n\n"
+    else:
+        # Le sujet ci-dessous est le texte reel de la derniere explication recue -
+        # elle peut porter sur une autre matiere que celle choisie dans le menu
+        # (l'eleve a pu poser une question hors matiere). Le quiz doit suivre le
+        # contenu reel de l'echange, pas une matiere supposee a priori.
+        intro = (
+            f"Tu es un professeur pour un(e) eleve du {niveau}, au {pays_label}.\n\n"
+            "Le texte ci-dessous est l'explication exacte que l'eleve vient de recevoir. "
+            "Identifie toi-meme la matiere reellement concernee par ce texte (elle peut "
+            "differer de la matiere habituellement etudiee par l'eleve) et genere le quiz "
+            "en cohérence avec le contenu reel de ce texte.\n\n"
+        )
+
     return (
-        f"Tu es un professeur pour un(e) eleve du {niveau} en {matiere}, au {pays_label}.\n\n"
+        intro +
         f"Genere un quiz de {n_questions} questions a choix multiples (QCM) sur ce sujet :\n"
         f"---\n{sujet}\n---\n\n"
         "Consignes :\n"
@@ -270,7 +315,8 @@ def upload_exercice():
         )
         usage_log.log_call(MODEL, "upload-exercice", response.usage.input_tokens, response.usage.output_tokens)
     except Exception as exc:
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        msg, status = _friendly_ai_error(exc)
+        return jsonify({"error": msg}), status
 
     if premium:
         remaining_after = remaining_before
@@ -325,7 +371,7 @@ def generate_quiz():
         }), 429
 
     n_questions = QUIZ_QUESTION_COUNT_DIAGNOSTIC if diagnostic else QUIZ_QUESTION_COUNT_DEFAULT
-    system_prompt = build_quiz_system_prompt(pays, niveau, matiere, sujet[:4000], n_questions)
+    system_prompt = build_quiz_system_prompt(pays, niveau, matiere, sujet[:4000], n_questions, diagnostic)
 
     try:
         response = client.messages.create(
@@ -340,7 +386,8 @@ def generate_quiz():
     except (json.JSONDecodeError, IndexError):
         return jsonify({"error": "Reponse IA invalide, reessaie."}), 502
     except Exception as exc:
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        msg, status = _friendly_ai_error(exc)
+        return jsonify({"error": msg}), status
 
     if premium:
         remaining_after = remaining_before
@@ -420,7 +467,8 @@ def diagnostic_complete():
         note = "".join(b.text for b in response.content if b.type == "text")
         usage_log.log_call(MODEL, "diagnostic-profile", response.usage.input_tokens, response.usage.output_tokens)
     except Exception as exc:
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        msg, status = _friendly_ai_error(exc)
+        return jsonify({"error": msg}), status
 
     progress_store.set_profile_note(device_id, matiere, note)
     return jsonify({"note": note})
@@ -490,7 +538,8 @@ def correction_copie():
         answer = "".join(b.text for b in response.content if b.type == "text")
         usage_log.log_call(MODEL, "correction-copie", response.usage.input_tokens, response.usage.output_tokens)
     except Exception as exc:
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        msg, status = _friendly_ai_error(exc)
+        return jsonify({"error": msg}), status
 
     match = re.search(r"NOTE:\s*(\d+(?:[.,]\d+)?)\s*/\s*(\d+)", answer)
     if match:
@@ -522,6 +571,22 @@ def get_pdf_sujets():
     niveau = request.args.get("niveau") or None
     matiere = request.args.get("matiere") or None
     return jsonify(pdf_library.list_pdf_sujets(pays, niveau, matiere))
+
+
+@app.route("/api/cours", methods=["GET"])
+def get_cours_list():
+    pays = request.args.get("pays") or ""
+    niveau = request.args.get("niveau") or ""
+    matiere = request.args.get("matiere") or ""
+    return jsonify(cours_library.list_lessons(pays, niveau, matiere))
+
+
+@app.route("/api/cours/<slug>", methods=["GET"])
+def get_cours_lesson(slug):
+    lesson = cours_library.get_lesson(slug)
+    if not lesson:
+        return jsonify({"error": "Cours introuvable"}), 404
+    return jsonify(lesson)
 
 
 @app.route("/api/pdf-sujets/<sujet_id>/fichier", methods=["GET"])
@@ -621,7 +686,8 @@ def pdf_sujet_corriger(sujet_id):
             answer = "".join(b.text for b in response.content if b.type == "text")
             usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens)
         except Exception as exc:
-            return jsonify({"error": f"Erreur IA: {exc}"}), 502
+            msg, status = _friendly_ai_error(exc)
+            return jsonify({"error": msg}), status
 
         if cache_ok:
             pdf_library.set_cached_corriger(sujet_id, answer)
@@ -852,7 +918,8 @@ def ask():
         usage_log.log_call(MODEL, "ask", response.usage.input_tokens, response.usage.output_tokens)
         progress_store.log_event(device_id, "ask", pays, niveau, matiere)
     except Exception as exc:  # surface a readable error to the frontend
-        return jsonify({"error": f"Erreur IA: {exc}"}), 502
+        msg, status = _friendly_ai_error(exc)
+        return jsonify({"error": msg}), status
 
     if premium:
         remaining_after = remaining_before

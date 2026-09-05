@@ -50,6 +50,9 @@
     <button type="button" id="toggle-epreuves-btn" class="epreuves-toggle">
       📄 Sujets d'examen
     </button>
+    <button type="button" id="toggle-cours-btn" class="epreuves-toggle">
+      📚 Cours
+    </button>
     <button type="button" id="quiz-btn" class="epreuves-toggle" title="Quiz sur la dernière explication">
       📝 Quiz
     </button>
@@ -69,6 +72,13 @@
     <ul class="epreuves-list" id="epreuves-list"></ul>
   </div>
 
+  <div class="epreuves-panel" id="cours-panel" hidden>
+    <p class="epreuves-note">
+      Cours animés du programme officiel, classés par pays, niveau et matière.
+    </p>
+    <ul class="epreuves-list" id="cours-list"></ul>
+  </div>
+
 
   <main class="chat" id="chat">
     <div class="msg msg-bot">
@@ -86,6 +96,8 @@
     <button type="button" id="attach-btn" class="attach-btn"
       aria-label="Envoyer une photo ou un PDF de ton sujet" title="Envoyer une photo ou un PDF">📎</button>
     <input type="file" id="attach-input" accept="image/jpeg,image/png,image/webp,image/gif,application/pdf" hidden>
+    <button type="button" id="mic-btn" class="attach-btn" hidden
+      aria-label="Poser ta question à la voix" title="Poser ta question à la voix">🎤</button>
     <textarea id="question-input" rows="1"
       placeholder="Écris ta question ici… (ex: comment résoudre 2x + 5 = 13 ?)"
       maxlength="2000"></textarea>

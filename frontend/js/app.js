@@ -20,6 +20,13 @@
       try {
         const res = await fetch(url, Object.assign({}, options, { signal: controller.signal }));
         clearTimeout(timeoutId);
+        // 429/503 = surcharge temporaire cote serveur (pic de connexions) -
+        // le quota n'est jamais consomme sur un appel IA en echec, donc
+        // reessayer automatiquement ici est sans risque de double-decompte.
+        if ((res.status === 429 || res.status === 503) && attempt < retries) {
+          await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
+          continue;
+        }
         return res;
       } catch (e) {
         clearTimeout(timeoutId);
@@ -44,12 +51,16 @@
   const toggleEpreuvesBtn = document.getElementById("toggle-epreuves-btn");
   const epreuvesPanel = document.getElementById("epreuves-panel");
   const epreuvesList = document.getElementById("epreuves-list");
+  const toggleCoursBtn = document.getElementById("toggle-cours-btn");
+  const coursPanel = document.getElementById("cours-panel");
+  const coursList = document.getElementById("cours-list");
   const epreuveActive = document.getElementById("epreuve-active");
   const quitEpreuveBtn = document.getElementById("quit-epreuve-btn");
   const attachBtn = document.getElementById("attach-btn");
   const attachInput = document.getElementById("attach-input");
   const cameraBtn = document.getElementById("camera-btn");
   const cameraInput = document.getElementById("camera-input");
+  const micBtn = document.getElementById("mic-btn");
   const shareBtn = document.getElementById("share-btn");
   const deviceCodeBtn = document.getElementById("device-code-btn");
   const reportBtn = document.getElementById("report-btn");
@@ -325,6 +336,7 @@
       localStorage.setItem("aida_niveau", selectNiveau.value);
       localStorage.setItem("aida_matiere", selectMatiere.value);
       if (!epreuvesPanel.hidden) loadEpreuvesList();
+      if (!coursPanel.hidden) loadCoursList();
     });
   });
 
@@ -385,8 +397,57 @@
   }
 
   toggleEpreuvesBtn.addEventListener("click", () => {
+    coursPanel.hidden = true;
     epreuvesPanel.hidden = !epreuvesPanel.hidden;
     if (!epreuvesPanel.hidden) loadEpreuvesList();
+  });
+
+  async function loadCoursList() {
+    coursList.innerHTML = '<li class="epreuves-empty">Chargement…</li>';
+    const params = new URLSearchParams({
+      pays: selectPays.value,
+      niveau: selectNiveau.value,
+      matiere: selectMatiere.value,
+    });
+    try {
+      const lecons = await fetchWithRetry(apiUrl("/api/cours?" + params.toString())).then((r) => r.json());
+      coursList.innerHTML = "";
+
+      if (lecons.length) {
+        if (lecons[0].fallback_for) {
+          const note = document.createElement("li");
+          note.className = "epreuves-empty";
+          note.textContent =
+            "Programme pas encore confirmé pour ce pays — voici le programme régional de référence, à titre indicatif.";
+          coursList.appendChild(note);
+        }
+        lecons.forEach((c) => {
+          const li = document.createElement("li");
+          li.className = "pdf-sujet-item";
+
+          const link = document.createElement("a");
+          let href = "cours.html?slug=" + encodeURIComponent(c.slug);
+          if (c.fallback_for) href += "&fallback_for=" + encodeURIComponent(c.fallback_for);
+          link.href = href;
+          link.className = "pdf-sujet-view";
+          link.textContent = (c.fallback_for ? "📚🌍 " : "📚 ") + (c.title || c.chapitre);
+
+          li.appendChild(link);
+          coursList.appendChild(li);
+        });
+      } else {
+        coursList.innerHTML =
+          '<li class="epreuves-empty">Aucun cours pour cette combinaison pays / niveau / matière pour l\'instant.</li>';
+      }
+    } catch (e) {
+      coursList.innerHTML = '<li class="epreuves-empty">Erreur de chargement.</li>';
+    }
+  }
+
+  toggleCoursBtn.addEventListener("click", () => {
+    epreuvesPanel.hidden = true;
+    coursPanel.hidden = !coursPanel.hidden;
+    if (!coursPanel.hidden) loadCoursList();
   });
 
   quitEpreuveBtn.addEventListener("click", quitEpreuve);
@@ -420,7 +481,7 @@
     const loadingEl = addMessage("Le Prof JPA réfléchit…", "msg-loading");
 
     try {
-      const res = await fetch(apiUrl("/api/ask"), {
+      const res = await fetchWithRetry(apiUrl("/api/ask"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -431,7 +492,7 @@
           question: question,
           history: history,
         }),
-      });
+      }, 2, 45000);
       const data = await res.json();
       loadingEl.remove();
 
@@ -547,6 +608,58 @@
     attachInput.value = "";
     if (file) processFileForCorrection(file);
   });
+
+  // Dictee vocale de la question - repose sur la reconnaissance vocale du
+  // navigateur (gratuite, aucun service externe), disponible sur
+  // Chrome/Android WebView mais pas partout (ex: Firefox) - le bouton reste
+  // cache si l'API n'existe pas plutot que d'afficher un controle casse.
+  const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SpeechRecognitionCtor) {
+    micBtn.hidden = false;
+    const recognition = new SpeechRecognitionCtor();
+    recognition.lang = "fr-FR";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    let listening = false;
+
+    recognition.addEventListener("start", () => {
+      listening = true;
+      micBtn.classList.add("mic-listening");
+      micBtn.title = "Enregistrement en cours… parle maintenant";
+    });
+
+    recognition.addEventListener("result", (e) => {
+      const transcript = e.results[0][0].transcript.trim();
+      if (!transcript) return;
+      input.value = input.value ? input.value + " " + transcript : transcript;
+      input.dispatchEvent(new Event("input"));
+      input.focus();
+    });
+
+    recognition.addEventListener("error", (e) => {
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        window.alert("Le micro n'est pas autorisé. Vérifie les permissions de l'application/du navigateur.");
+      }
+    });
+
+    recognition.addEventListener("end", () => {
+      listening = false;
+      micBtn.classList.remove("mic-listening");
+      micBtn.title = "Poser ta question à la voix";
+    });
+
+    micBtn.addEventListener("click", () => {
+      if (listening) {
+        recognition.stop();
+      } else {
+        try {
+          recognition.start();
+        } catch (e) {
+          // start() jette une erreur si deja demarree - sans consequence.
+        }
+      }
+    });
+  }
 
   async function workOnPdfSujet(sujetId, titre) {
     currentEpreuveId = null;

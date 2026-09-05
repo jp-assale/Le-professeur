@@ -589,6 +589,17 @@ body {
   color: var(--text-muted) !important;
 }
 
+.mic-listening {
+  background: #fdeaea !important;
+  border-color: #b3261e !important;
+  animation: mic-pulse 1.1s ease-in-out infinite;
+}
+
+@keyframes mic-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(179, 38, 30, 0.35); }
+  50% { box-shadow: 0 0 0 6px rgba(179, 38, 30, 0); }
+}
+
 @media (max-width: 420px) {
   .setup { grid-template-columns: 1fr 1fr; }
   .setup .field:nth-child(3) { grid-column: span 2; }
