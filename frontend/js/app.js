@@ -216,7 +216,14 @@
     // haut de la zone visible, sauf pour son propre message ou un message
     // court (chargement/erreur) ou defiler jusqu'en bas reste plus naturel.
     if (cls === "msg-bot") {
-      chatEl.scrollTop = div.offsetTop - 8;
+      const scrollToTop = () => { chatEl.scrollTop = div.offsetTop - 8; };
+      scrollToTop();
+      // Sur certains telephones, une police (KaTeX) qui finit de se charger
+      // ou une image dans la reponse peut decaler la mise en page juste
+      // apres ce premier defilement - on reajuste sur deux frames de plus
+      // pour rattraper ce genre de decalage tardif.
+      requestAnimationFrame(() => requestAnimationFrame(scrollToTop));
+      setTimeout(scrollToTop, 300);
     } else {
       chatEl.scrollTop = chatEl.scrollHeight;
     }
