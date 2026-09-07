@@ -61,6 +61,7 @@
   const cameraBtn = document.getElementById("camera-btn");
   const cameraInput = document.getElementById("camera-input");
   const micBtn = document.getElementById("mic-btn");
+  const newSessionBtn = document.getElementById("new-session-btn");
   const shareBtn = document.getElementById("share-btn");
   const deviceCodeBtn = document.getElementById("device-code-btn");
   const reportBtn = document.getElementById("report-btn");
@@ -493,6 +494,13 @@
   });
 
   quitEpreuveBtn.addEventListener("click", quitEpreuve);
+
+  newSessionBtn.addEventListener("click", () => {
+    if (!chatLog.length) return; // rien a effacer, evite une confirmation inutile
+    if (window.confirm("Effacer la discussion en cours et repartir à zéro ?")) {
+      quitEpreuve();
+    }
+  });
 
   async function loadQuota() {
     try {
