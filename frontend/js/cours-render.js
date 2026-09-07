@@ -38,6 +38,21 @@ function cleanCoursTextForSpeech(text) {
     .trim();
 }
 
+let coursCachedFrenchVoice = null;
+function getCoursFrenchMaleVoice() {
+  if (!window.speechSynthesis) return null;
+  if (coursCachedFrenchVoice) return coursCachedFrenchVoice;
+  const voices = speechSynthesis.getVoices();
+  if (!voices.length) return null;
+  const french = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
+  const male = french.find((v) => /male|homme|thomas|paul|nicolas|guillaume|daniel|henri|louis/i.test(v.name) && !/female|femme/i.test(v.name));
+  coursCachedFrenchVoice = male || french[0] || voices[0] || null;
+  return coursCachedFrenchVoice;
+}
+if (window.speechSynthesis) {
+  speechSynthesis.addEventListener("voiceschanged", () => { coursCachedFrenchVoice = null; });
+}
+
 let coursCurrentSpeakBtn = null;
 
 function stopCoursSpeaking() {
@@ -58,6 +73,8 @@ function addCoursSpeakButton(section, text) {
     if (wasSpeaking) return;
     const utterance = new SpeechSynthesisUtterance(cleanCoursTextForSpeech(text));
     utterance.lang = "fr-FR";
+    const voice = getCoursFrenchMaleVoice();
+    if (voice) utterance.voice = voice;
     utterance.rate = 0.95;
     utterance.onend = () => stopCoursSpeaking();
     utterance.onerror = () => stopCoursSpeaking();

@@ -176,6 +176,26 @@
       .trim();
   }
 
+  // Le Prof JPA est un personnage masculin - on cherche une voix francaise
+  // masculine parmi celles installees sur l'appareil. L'API Web Speech ne
+  // donne pas le genre explicitement, donc on devine via le nom (ca depend
+  // des voix presentes sur le telephone - a defaut, la premiere voix
+  // francaise disponible est utilisee).
+  let cachedFrenchVoice = null;
+  function getFrenchMaleVoice() {
+    if (!window.speechSynthesis) return null;
+    if (cachedFrenchVoice) return cachedFrenchVoice;
+    const voices = speechSynthesis.getVoices();
+    if (!voices.length) return null;
+    const french = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
+    const male = french.find((v) => /male|homme|thomas|paul|nicolas|guillaume|daniel|henri|louis/i.test(v.name) && !/female|femme/i.test(v.name));
+    cachedFrenchVoice = male || french[0] || voices[0] || null;
+    return cachedFrenchVoice;
+  }
+  if (window.speechSynthesis) {
+    speechSynthesis.addEventListener("voiceschanged", () => { cachedFrenchVoice = null; });
+  }
+
   let currentUtteranceBtn = null;
 
   function stopSpeaking() {
@@ -199,6 +219,8 @@
       if (wasSpeaking) return; // un second clic sur le meme bouton = juste arreter
       const utterance = new SpeechSynthesisUtterance(cleanTextForSpeech(rawText));
       utterance.lang = "fr-FR";
+      const voice = getFrenchMaleVoice();
+      if (voice) utterance.voice = voice;
       utterance.rate = 0.95;
       utterance.onend = () => stopSpeaking();
       utterance.onerror = () => stopSpeaking();
