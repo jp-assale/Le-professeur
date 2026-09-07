@@ -85,6 +85,32 @@
     "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
     "type examen dans « 📄 Sujets d'examen ».";
 
+  // Salutation personnalisee par prenom (retour testeur) - demandee une
+  // seule fois, jamais envoyee au serveur, juste stockee sur l'appareil.
+  const PRENOM_KEY = "aida_prenom";
+
+  function getStoredPrenom() {
+    try { return (localStorage.getItem(PRENOM_KEY) || "").trim(); } catch (e) { return ""; }
+  }
+
+  function getWelcomeText() {
+    const prenom = getStoredPrenom();
+    return prenom ? WELCOME_TEXT.replace("Salut !", "Salut " + prenom + " !") : WELCOME_TEXT;
+  }
+
+  function askPrenomIfNeeded() {
+    if (getStoredPrenom()) return;
+    let name;
+    try {
+      name = window.prompt(
+        "Comment tu t'appelles ? (pour que Le Prof JPA te salue par ton prénom — laisse vide si tu préfères ne pas le dire)"
+      );
+    } catch (e) { return; }
+    if (name && name.trim()) {
+      try { localStorage.setItem(PRENOM_KEY, name.trim().slice(0, 30)); } catch (e) {}
+    }
+  }
+
   let currentEpreuveId = null;
   let history = [];
 
@@ -183,7 +209,16 @@
     }
     chatEl.appendChild(div);
     if (content) shrinkOverflowingMath(content);
-    chatEl.scrollTop = chatEl.scrollHeight;
+    // Une explication longue commence en haut : si on defile jusqu'en bas,
+    // l'eleve voit la fin en premier et doit remonter pour lire le debut
+    // (retour testeur). On aligne plutot le HAUT du nouveau message avec le
+    // haut de la zone visible, sauf pour son propre message ou un message
+    // court (chargement/erreur) ou defiler jusqu'en bas reste plus naturel.
+    if (cls === "msg-bot") {
+      chatEl.scrollTop = div.offsetTop - 8;
+    } else {
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
     if (cls === "msg-bot") lastBotMessage = text;
     if (!restoringChat && (cls === "msg-user" || cls === "msg-bot")) {
       chatLog.push({ text, cls });
@@ -398,7 +433,7 @@
     chatLog = [];
     clearPersistedChatState();
     clearChat();
-    addMessage(WELCOME_TEXT, "msg-bot");
+    addMessage(getWelcomeText(), "msg-bot");
     epreuveActive.hidden = true;
     quitEpreuveBtn.hidden = true;
   }
@@ -996,7 +1031,14 @@
   loadCurriculum();
   loadQuota();
   showStoredStreak();
-  restoreChatState();
+  if (!restoreChatState()) {
+    askPrenomIfNeeded();
+    const prenom = getStoredPrenom();
+    if (prenom) {
+      const welcomePrenomEl = document.getElementById("welcome-prenom");
+      if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + prenom + " !";
+    }
+  }
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {

@@ -309,6 +309,94 @@ function renderFunctionAffineSim() {
   return section;
 }
 
+function getCoursDeviceId() {
+  const KEY = "aida_device_id";
+  try {
+    let id = localStorage.getItem(KEY);
+    if (!id) {
+      id = "dev-" + Math.random().toString(36).slice(2) + Date.now().toString(36);
+      localStorage.setItem(KEY, id);
+    }
+    return id;
+  } catch (e) {
+    return "dev-" + Math.random().toString(36).slice(2);
+  }
+}
+
+const QUIZ_MATH_DELIMITERS = [
+  { left: "$$", right: "$$", display: true },
+  { left: "\\[", right: "\\]", display: true },
+  { left: "$", right: "$", display: false },
+  { left: "\\(", right: "\\)", display: false },
+];
+
+function renderFullQuizQuestions(container, questions) {
+  questions.forEach((q, qi) => {
+    const qCard = el("div", { className: "card" });
+    qCard.appendChild(el("p", { text: (qi + 1) + ". " + q.question }));
+    let answered = false;
+    (q.options || []).forEach((opt, oi) => {
+      const optBtn = el("button", { className: "quiz-choice", text: opt });
+      optBtn.addEventListener("click", () => {
+        if (answered) return;
+        answered = true;
+        const correct = oi === q.correct_index;
+        optBtn.classList.add(correct ? "correct" : "wrong");
+        const fb = el("div", { className: "quiz-feedback", text: q.explication || "" });
+        fb.style.color = correct ? "#1a7a3a" : "#b3261e";
+        qCard.appendChild(fb);
+        if (window.renderMathInElement) renderMathInElement(fb, { delimiters: QUIZ_MATH_DELIMITERS, throwOnError: false });
+      });
+      qCard.appendChild(optBtn);
+    });
+    container.appendChild(qCard);
+  });
+  if (window.renderMathInElement) renderMathInElement(container, { delimiters: QUIZ_MATH_DELIMITERS, throwOnError: false });
+}
+
+function renderFullQuizSlide(lesson) {
+  const section = buildSlideShell("Quiz complet", "Vérifie à fond ta compréhension");
+  section.appendChild(el("p", {
+    className: "muted",
+    text: "10 questions pour vérifier que tu maîtrises bien ce chapitre.",
+  }));
+  const container = el("div");
+  const btn = el("button", { className: "nav-btn next", text: "Générer le quiz (10 questions)" });
+  btn.style.width = "100%";
+  container.appendChild(btn);
+  section.appendChild(container);
+
+  btn.addEventListener("click", async () => {
+    btn.disabled = true;
+    btn.textContent = "Génération en cours…";
+    try {
+      const base = window.AIDA_API_BASE_URL || "";
+      const sujet = [lesson.concept.explanation, lesson.example.problem].filter(Boolean).join("\n\n");
+      const res = await fetch(`${base}/api/quiz`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          device_id: getCoursDeviceId(),
+          pays: lesson.pays,
+          niveau: lesson.niveau,
+          matiere: lesson.matiere,
+          sujet: sujet.slice(0, 4000),
+          n_questions: 10,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.message || data.error || "Erreur de génération");
+      container.innerHTML = "";
+      renderFullQuizQuestions(container, data.questions || []);
+    } catch (e) {
+      container.innerHTML = "";
+      container.appendChild(el("p", { className: "muted", text: "Erreur : " + e.message + " Réessaie dans quelques instants." }));
+    }
+  });
+
+  return section;
+}
+
 const SIM_RENDERERS = {
   geometry_ratio: renderGeometryRatioSim,
   physics_vector: renderPhysicsVectorSim,
@@ -327,7 +415,7 @@ function renderLesson(lesson, rootIds) {
   const slides = [renderIntroSlide(lesson), renderConceptSlide(lesson)];
   const simRenderer = SIM_RENDERERS[lesson.template];
   if (simRenderer) slides.push(simRenderer());
-  slides.push(renderExampleSlide(lesson), renderQuizSlide(lesson));
+  slides.push(renderExampleSlide(lesson), renderQuizSlide(lesson), renderFullQuizSlide(lesson));
 
   slides.forEach((s, i) => {
     s.setAttribute("data-slide", i);

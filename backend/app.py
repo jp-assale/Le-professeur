@@ -388,12 +388,17 @@ def generate_quiz():
         }), 429
 
     n_questions = QUIZ_QUESTION_COUNT_DIAGNOSTIC if diagnostic else QUIZ_QUESTION_COUNT_DEFAULT
+    requested_n = payload.get("n_questions")
+    if isinstance(requested_n, int):
+        # Utilise par le quiz complet de fin de cours (Cours) - borne pour
+        # eviter un abus de la taille de reponse demandee.
+        n_questions = max(1, min(requested_n, 10))
     system_prompt = build_quiz_system_prompt(pays, niveau, matiere, sujet[:4000], n_questions, diagnostic)
 
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=1500,
+            max_tokens=max(1500, 220 * n_questions),
             system=system_prompt,
             messages=[{"role": "user", "content": "Genere le quiz au format demande."}],
         )

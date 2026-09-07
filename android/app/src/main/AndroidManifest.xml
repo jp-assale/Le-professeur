@@ -38,6 +38,11 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- Micro pour la dictee vocale de la question (reconnaissance vocale du WebView) -->
+    <!-- Micro pour la dictee vocale de la question (reconnaissance vocale du WebView).
+         Capacitor demande les deux permissions ensemble pour AUDIO_CAPTURE
+         (voir BridgeWebChromeClient.onPermissionRequest) - sans la deuxieme,
+         la demande de permission echoue silencieusement meme si l'utilisateur
+         a active le micro dans les parametres du telephone. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 </manifest>
