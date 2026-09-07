@@ -24,8 +24,13 @@ function initCoursEngine(totalSlides) {
     document.querySelector(".lesson-body").scrollTop = 0;
   }
 
-  btnPrev.addEventListener("click", () => { if (current > 0) { current--; render(); } });
+  function stopSpeakingIfAny() {
+    if (window.stopCoursSpeaking) stopCoursSpeaking();
+  }
+
+  btnPrev.addEventListener("click", () => { stopSpeakingIfAny(); if (current > 0) { current--; render(); } });
   btnNext.addEventListener("click", () => {
+    stopSpeakingIfAny();
     if (current < totalSlides - 1) { current++; render(); }
     else { history.back(); }
   });

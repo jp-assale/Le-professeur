@@ -138,6 +138,78 @@
     { left: "\\(", right: "\\)", display: false },
   ];
 
+  // Lecture a voix haute des reponses (retour testeur) - repose sur la
+  // synthese vocale du navigateur (gratuite, aucun service externe),
+  // disponible sur Chrome/Android WebView. Le texte brut (markdown + LaTeX)
+  // est nettoye pour etre comprehensible a l'oral plutot que lu tel quel
+  // ("dollar x chapeau 2 dollar").
+  function spokenMath(expr) {
+    return expr
+      .replace(/\\times/g, " fois ")
+      .replace(/\\div/g, " divisé par ")
+      .replace(/\\pm/g, " plus ou moins ")
+      .replace(/\\sqrt\{([^}]+)\}/g, " racine carrée de $1 ")
+      .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, " $1 sur $2 ")
+      .replace(/\^\{([^}]+)\}/g, " puissance $1 ")
+      .replace(/\^(\w)/g, " puissance $1 ")
+      .replace(/_\{([^}]+)\}/g, " indice $1 ")
+      .replace(/_(\w)/g, " indice $1 ")
+      .replace(/[\\{}]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function cleanTextForSpeech(text) {
+    return text
+      .replace(/\$\$([\s\S]+?)\$\$/g, (_, inner) => " " + spokenMath(inner) + " ")
+      .replace(/\\\[([\s\S]+?)\\\]/g, (_, inner) => " " + spokenMath(inner) + " ")
+      .replace(/\$([^\n$]+?)\$/g, (_, inner) => " " + spokenMath(inner) + " ")
+      .replace(/\\\(([^\n]+?)\\\)/g, (_, inner) => " " + spokenMath(inner) + " ")
+      .replace(/^#{1,6}\s+/gm, "")
+      .replace(/\*\*(.+?)\*\*/g, "$1")
+      .replace(/\*(.+?)\*/g, "$1")
+      .replace(/`([^`]+)`/g, "$1")
+      .replace(/^[-*]\s+/gm, "")
+      .replace(/\n{2,}/g, ". ")
+      .replace(/\n/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  let currentUtteranceBtn = null;
+
+  function stopSpeaking() {
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    if (currentUtteranceBtn) {
+      currentUtteranceBtn.classList.remove("speaking");
+      currentUtteranceBtn.textContent = "🔊 Écouter";
+    }
+    currentUtteranceBtn = null;
+  }
+
+  function addSpeakButton(container, rawText) {
+    if (!window.speechSynthesis) return;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "msg-speak-btn";
+    btn.textContent = "🔊 Écouter";
+    btn.addEventListener("click", () => {
+      const wasSpeaking = currentUtteranceBtn === btn;
+      stopSpeaking();
+      if (wasSpeaking) return; // un second clic sur le meme bouton = juste arreter
+      const utterance = new SpeechSynthesisUtterance(cleanTextForSpeech(rawText));
+      utterance.lang = "fr-FR";
+      utterance.rate = 0.95;
+      utterance.onend = () => stopSpeaking();
+      utterance.onerror = () => stopSpeaking();
+      currentUtteranceBtn = btn;
+      btn.classList.add("speaking");
+      btn.textContent = "⏸ Arrêter";
+      speechSynthesis.speak(utterance);
+    });
+    container.appendChild(btn);
+  }
+
   function escapeHtml(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
@@ -203,6 +275,7 @@
       content.className = "msg-content";
       renderBotContent(content, text);
       div.appendChild(content);
+      addSpeakButton(div, text);
     } else {
       const p = document.createElement("p");
       p.textContent = text;
@@ -436,6 +509,7 @@
   }
 
   function quitEpreuve() {
+    stopSpeaking();
     currentEpreuveId = null;
     history = [];
     chatLog = [];
@@ -530,6 +604,7 @@
     const question = input.value.trim();
     if (!question) return;
 
+    stopSpeaking();
     addMessage(question, "msg-user");
     input.value = "";
     input.style.height = "auto";

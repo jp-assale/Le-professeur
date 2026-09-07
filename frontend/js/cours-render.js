@@ -20,11 +20,61 @@ function buildSlideShell(kicker, heading) {
   return section;
 }
 
+/* Lecture a voix haute (meme principe que dans le chat principal, voir
+   app.js) - reimplemente ici car cours.html est un contexte JS separe. */
+function cleanCoursTextForSpeech(text) {
+  return text
+    .replace(/\$\$([\s\S]+?)\$\$|\$([^\n$]+?)\$/g, (_, a, b) => {
+      const inner = (a || b || "")
+        .replace(/\\times/g, " fois ")
+        .replace(/\\sqrt\{([^}]+)\}/g, " racine carrée de $1 ")
+        .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, " $1 sur $2 ")
+        .replace(/\^\{([^}]+)\}/g, " puissance $1 ")
+        .replace(/\^(\w)/g, " puissance $1 ")
+        .replace(/[\\{}]/g, " ");
+      return " " + inner + " ";
+    })
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+let coursCurrentSpeakBtn = null;
+
+function stopCoursSpeaking() {
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  if (coursCurrentSpeakBtn) {
+    coursCurrentSpeakBtn.classList.remove("speaking");
+    coursCurrentSpeakBtn.textContent = "🔊 Écouter";
+  }
+  coursCurrentSpeakBtn = null;
+}
+
+function addCoursSpeakButton(section, text) {
+  if (!window.speechSynthesis) return;
+  const btn = el("button", { className: "msg-speak-btn", text: "🔊 Écouter" });
+  btn.addEventListener("click", () => {
+    const wasSpeaking = coursCurrentSpeakBtn === btn;
+    stopCoursSpeaking();
+    if (wasSpeaking) return;
+    const utterance = new SpeechSynthesisUtterance(cleanCoursTextForSpeech(text));
+    utterance.lang = "fr-FR";
+    utterance.rate = 0.95;
+    utterance.onend = () => stopCoursSpeaking();
+    utterance.onerror = () => stopCoursSpeaking();
+    coursCurrentSpeakBtn = btn;
+    btn.classList.add("speaking");
+    btn.textContent = "⏸ Arrêter";
+    speechSynthesis.speak(utterance);
+  });
+  section.appendChild(btn);
+}
+
 function renderIntroSlide(data) {
   const section = buildSlideShell("Mise en situation", data.intro.heading);
   const card = el("div", { className: "card" });
   card.appendChild(el("p", { text: data.intro.body }));
   section.appendChild(card);
+  addCoursSpeakButton(section, data.intro.heading + ". " + data.intro.body);
   return section;
 }
 
@@ -53,6 +103,7 @@ function renderConceptSlide(data) {
   }
   const src = el("span", { className: "badge-source", text: "Source du programme : " + data.source });
   section.appendChild(src);
+  addCoursSpeakButton(section, data.concept.heading + ". " + data.concept.explanation + (data.concept.highlight ? ". " + data.concept.highlight : ""));
   return section;
 }
 
@@ -68,6 +119,7 @@ function renderExampleSlide(data) {
     card.appendChild(row);
   });
   section.appendChild(card);
+  addCoursSpeakButton(section, data.example.problem + ". " + data.example.steps.join(". "));
   return section;
 }
 
