@@ -34,6 +34,7 @@ function cleanCoursTextForSpeech(text) {
         .replace(/[\\{}]/g, " ");
       return " " + inner + " ";
     })
+    .replace(/[\p{Extended_Pictographic}‍️]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
 }

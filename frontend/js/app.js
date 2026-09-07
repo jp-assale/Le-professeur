@@ -170,6 +170,11 @@
       .replace(/\*(.+?)\*/g, "$1")
       .replace(/`([^`]+)`/g, "$1")
       .replace(/^[-*]\s+/gm, "")
+      // Emojis/pictogrammes - certains moteurs de synthese vocale les
+      // decrivent a voix haute ("signe de pouce vers le haut"), ce qui n'a
+      // rien de naturel a l'oral (retour testeur). ‍ et ️ sont les
+      // caracteres d'assemblage invisibles laisses par certains emojis.
+      .replace(/[\p{Extended_Pictographic}‍️]/gu, "")
       .replace(/\n{2,}/g, ". ")
       .replace(/\n/g, " ")
       .replace(/\s+/g, " ")
