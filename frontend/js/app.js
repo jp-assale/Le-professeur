@@ -272,6 +272,9 @@
     if (window.renderPlotBlocks) {
       renderPlotBlocks(container);
     }
+    if (window.renderDiagramBlocks) {
+      renderDiagramBlocks(container);
+    }
 
     if (window.renderMathInElement) {
       renderMathInElement(container, { delimiters: MATH_DELIMITERS, throwOnError: false });
