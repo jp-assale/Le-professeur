@@ -2,6 +2,7 @@ import base64
 import json
 import os
 import re
+from datetime import date
 
 import requests
 import sentry_sdk
@@ -18,6 +19,7 @@ from flask_cors import CORS
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 import cinetpay
+import db
 import pdf_library
 import cours_library
 import payments_store
@@ -801,6 +803,42 @@ def admin_delete_pdf_sujet(sujet_id):
     if not ok:
         return jsonify({"error": "PDF introuvable"}), 404
     return jsonify({"ok": True})
+
+
+@app.route("/api/admin/stats")
+def admin_stats():
+    denied = _require_admin()
+    if denied:
+        return denied
+
+    today = date.today().isoformat()
+    conn = db.get_connection()
+    try:
+        eleves_actifs_aujourdhui = conn.execute(
+            "SELECT COUNT(*) FROM quota WHERE date = ?", (today,)
+        ).fetchone()[0]
+        appareils_connus_total = conn.execute("SELECT COUNT(*) FROM quota").fetchone()[0]
+        abonnes_premium = conn.execute(
+            "SELECT COUNT(*) FROM subscriptions WHERE premium = 1"
+        ).fetchone()[0]
+        appels_aujourdhui, cout_aujourdhui = conn.execute(
+            "SELECT COUNT(*), COALESCE(SUM(cost_usd_est), 0) FROM usage_log WHERE ts >= ?",
+            (today,),
+        ).fetchone()
+    finally:
+        conn.close()
+
+    usage_total = usage_log.summary()
+    return jsonify({
+        "date": today,
+        "eleves_actifs_aujourdhui": eleves_actifs_aujourdhui,
+        "appareils_connus_total": appareils_connus_total,
+        "abonnes_premium": abonnes_premium,
+        "appels_ia_aujourdhui": appels_aujourdhui,
+        "cout_estime_aujourdhui_usd": round(cout_aujourdhui, 4),
+        "appels_ia_total": usage_total["calls"],
+        "cout_estime_total_usd": usage_total["total_cost_usd_est"],
+    })
 
 
 @app.route("/api/quota", methods=["GET"])
