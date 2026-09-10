@@ -452,7 +452,11 @@
   }
 
   async function loadCurriculum() {
-    const res = await fetchWithRetry(apiUrl("/api/curriculum"));
+    // Un seul essai rapide (pas les 2 tentatives + attente en cas de 429/503
+    // par defaut) : ces donnees ne sont pas critiques a la seconde pres, on
+    // ne veut pas bloquer l'affichage au demarrage si le serveur se reveille
+    // (retour testeur : demarrage devenu lent).
+    const res = await fetchWithRetry(apiUrl("/api/curriculum"), undefined, 1, 6000);
     const data = await res.json();
 
     data.pays.forEach((p) => {
@@ -615,7 +619,7 @@
 
   async function loadQuota() {
     try {
-      const res = await fetchWithRetry(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)));
+      const res = await fetchWithRetry(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)), undefined, 1, 6000);
       const data = await res.json();
       isPremium = !!data.premium;
       setQuota(data.remaining, data.limit);
