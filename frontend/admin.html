@@ -40,6 +40,14 @@
   }
   .stats-card .stats-value { font-size: 1.3rem; font-weight: 600; }
   .stats-card .stats-label { font-size: 0.75rem; color: var(--text-muted); }
+  .stats-card.warn-ok .stats-value { color: var(--green-dark, #1a7a4c); }
+  .stats-card.warn-mid .stats-value { color: #b8860b; }
+  .stats-card.warn-high .stats-value { color: #9b2c2c; }
+  .stats-bar { height: 6px; border-radius: 4px; background: var(--border); margin-top: 6px; overflow: hidden; }
+  .stats-bar-fill { height: 100%; border-radius: 4px; }
+  .warn-ok .stats-bar-fill { background: var(--green-dark, #1a7a4c); }
+  .warn-mid .stats-bar-fill { background: #b8860b; }
+  .warn-high .stats-bar-fill { background: #9b2c2c; }
   .stats-refresh {
     background: var(--surface); color: var(--text); border: 1px solid var(--border);
     padding: 6px 12px; font-size: 0.8rem; margin-bottom: 4px;
@@ -220,6 +228,19 @@
     return div;
   }
 
+  function gaugeCard(pct, label, sublabel) {
+    const level = pct >= 90 ? "warn-high" : pct >= 70 ? "warn-mid" : "warn-ok";
+    const div = document.createElement("div");
+    div.className = "stats-card " + level;
+    div.innerHTML = `
+      <div class="stats-value">${pct}%</div>
+      <div class="stats-label">${label}</div>
+      <div class="stats-bar"><div class="stats-bar-fill" style="width:${Math.min(pct, 100)}%"></div></div>
+      <div class="stats-label">${sublabel}</div>
+    `;
+    return div;
+  }
+
   async function loadStats() {
     statsMsg.textContent = "Chargement…";
     statsMsg.className = "admin-msg";
@@ -241,6 +262,16 @@
       statsGrid.appendChild(statCard(data.appels_ia_aujourdhui, "Appels IA aujourd'hui"));
       statsGrid.appendChild(statCard("$" + data.cout_estime_aujourdhui_usd, "Coût estimé aujourd'hui"));
       statsGrid.appendChild(statCard("$" + data.cout_estime_total_usd, "Coût estimé total"));
+      statsGrid.appendChild(gaugeCard(
+        data.budget_ia_pct_utilise,
+        "Budget IA du mois utilisé",
+        "$" + data.cout_ce_mois_usd + " / $" + data.budget_mensuel_usd
+      ));
+      statsGrid.appendChild(gaugeCard(
+        data.disque_pct_utilise,
+        "Disque Render utilisé",
+        data.disque_utilise_mo + " Mo / " + data.disque_total_mo + " Mo"
+      ));
     } catch (err) {
       statsMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
       statsMsg.className = "admin-msg err";

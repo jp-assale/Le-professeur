@@ -2,6 +2,7 @@ import base64
 import json
 import os
 import re
+import shutil
 from datetime import date
 
 import requests
@@ -29,6 +30,7 @@ import reports
 import subscription
 import usage_log
 from curriculum import MATIERES, NIVEAUX, PAYS, niveau_label
+from paths import DATA_DIR
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -829,6 +831,14 @@ def admin_stats():
         conn.close()
 
     usage_total = usage_log.summary()
+    cout_ce_mois = usage_log.month_cost_usd()
+    budget_mensuel = usage_log.MONTHLY_BUDGET_USD
+    budget_pct = round(100 * cout_ce_mois / budget_mensuel, 1) if budget_mensuel else 0
+
+    disque_total, _, disque_libre = shutil.disk_usage(DATA_DIR)
+    disque_utilise = disque_total - disque_libre
+    disque_pct = round(100 * disque_utilise / disque_total, 1) if disque_total else 0
+
     return jsonify({
         "date": today,
         "eleves_actifs_aujourdhui": eleves_actifs_aujourdhui,
@@ -838,6 +848,12 @@ def admin_stats():
         "cout_estime_aujourdhui_usd": round(cout_aujourdhui, 4),
         "appels_ia_total": usage_total["calls"],
         "cout_estime_total_usd": usage_total["total_cost_usd_est"],
+        "cout_ce_mois_usd": cout_ce_mois,
+        "budget_mensuel_usd": budget_mensuel,
+        "budget_ia_pct_utilise": budget_pct,
+        "disque_utilise_mo": round(disque_utilise / (1024 * 1024), 1),
+        "disque_total_mo": round(disque_total / (1024 * 1024), 1),
+        "disque_pct_utilise": disque_pct,
     })
 
 
