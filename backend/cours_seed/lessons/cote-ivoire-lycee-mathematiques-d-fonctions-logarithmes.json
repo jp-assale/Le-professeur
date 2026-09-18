@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bravo ! Si $\\ln(x) = 2$, alors par définition du logarithme, $x = e^2$. En calculant : $e^2 \\approx 7,39$, qui arrondi à l'unité donne 7. Tu as bien appliqué la propriété inverse du logarithme.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que le logarithme népérien et l'exponentielle sont des fonctions inverses. Si $\\ln(x) = 2$, tu dois écrire $x = e^2$. Calcule $e^2$ (où $e \\approx 2,718$) et arrondis le résultat à l'unité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Le logarithme compresse les très grandes variations en nombres lisibles."
+      },
+      {
+        "icon": "🔄",
+        "text": "Le logarithme népérien est la fonction inverse de l'exponentielle."
+      },
+      {
+        "icon": "✅",
+        "text": "Le logarithme n'existe que pour les nombres strictement positifs."
+      }
+    ]
   }
 }

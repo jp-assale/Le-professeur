@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la translation. Quand on translate D(2, 3) par le vecteur $\\vec{u} = (-2, 4)$, on ajoute les composantes du vecteur aux coordonnées du point : x' = 2 + (-2) = 0 et y' = 3 + 4 = 7. D' a bien pour coordonnées (0, 7).",
     "feedback_wrong": "Pas encore juste. Rappelle-toi : pour trouver l'image d'un point par une translation, tu ajoutes les composantes du vecteur aux coordonnées du point. Ici, x' = 2 + (-2) = 0 et y' = 3 + 4 = 7. L'image de D est donc D'(0, 7)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "➡️",
+        "text": "Une translation déplace une figure selon une direction et distance précises."
+      },
+      {
+        "icon": "📦",
+        "text": "La forme et la taille de la figure restent exactement identiques après translation."
+      },
+      {
+        "icon": "🧭",
+        "text": "Un vecteur caractérise complètement le déplacement d'une translation."
+      }
+    ]
   }
 }

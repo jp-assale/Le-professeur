@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Lors d'une rotation de 90° autour de l'origine dans le sens inverse des aiguilles d'une montre, un point (x ; y) se transforme en (-y ; x). Donc (3 ; 4) devient (-4 ; 3). La rotation conserve la distance à l'origine : avant, elle était de 5 unités ($\\sqrt{3^2 + 4^2} = 5$), et après aussi ($\\sqrt{(-4)^2 + 3^2} = 5$). Bien maîtrisé !",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la règle pour une rotation de 90° autour de l'origine en sens inverse des aiguilles d'une montre : le point (x ; y) devient (-y ; x). Applique cette formule au point (3 ; 4) : x = 3 et y = 4, donc le nouveau point est (-4 ; 3). Vérifie aussi que la distance à l'origine est conservée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Les transformations déplacent les figures sans changer forme ni taille."
+      },
+      {
+        "icon": "📐",
+        "text": "Translation, rotation, réflexion, homothétie : quatre transformations principales."
+      },
+      {
+        "icon": "🎨",
+        "text": "Créer des motifs répétés en déplaçant, tournant ou retournant des formes."
+      }
+    ]
   }
 }

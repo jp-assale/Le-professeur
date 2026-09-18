@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'angle inscrit vaut toujours la moitié de l'angle au centre quand ils interceptent le même arc. Donc 120° ÷ 2 = 60°. Tu as bien compris le théorème fondamental.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : l'angle inscrit est toujours la moitié de l'angle au centre lorsqu'ils interceptent le même arc. Avec 120° au centre, l'angle inscrit doit être 120° ÷ 2 = 60°."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⭕",
+        "text": "L'angle inscrit a son sommet sur le cercle."
+      },
+      {
+        "icon": "📍",
+        "text": "L'angle au centre a son sommet au centre du cercle."
+      },
+      {
+        "icon": "⚖️",
+        "text": "L'angle inscrit vaut la moitié de l'angle au centre."
+      }
+    ]
   }
 }

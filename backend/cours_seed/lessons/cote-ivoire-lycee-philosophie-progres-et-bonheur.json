@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Cette leçon t'invite à dépasser l'idée naïve que progrès = bonheur. Le progrès est réel et souvent souhaitable, mais le bonheur humain est bien plus complexe : il repose aussi sur l'équilibre, les liens, le sens. C'est ce décalage qu'il faut apprendre à penser.",
     "feedback_wrong": "Pas tout à fait. L'enjeu n'est pas de nier le progrès ou de le vénérer aveuglément, mais de comprendre qu'il n'assure pas automatiquement le bonheur. Le bonheur est un équilibre entre conditions matérielles et facteurs immatériels (relations, sens, repos). Relis la définition et l'exemple pour mieux saisir ce lien complexe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Le progrès matériel n'assure pas automatiquement le bonheur."
+      },
+      {
+        "icon": "🧠",
+        "text": "Le bonheur est un état intérieur indépendant des conditions extérieures."
+      },
+      {
+        "icon": "❓",
+        "text": "Un écart existe entre nos gains objectifs et nos sentiments réels."
+      }
+    ]
   }
 }

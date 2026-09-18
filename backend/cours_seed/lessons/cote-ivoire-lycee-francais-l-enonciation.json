@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Les pronoms « je » et « nous » montrent que celui qui parle se place dans son propre énoncé, qu'il prend position personnellement. Le groupe verbal « je pense que » rend visible son jugement. C'est la marque claire de l'énonciation subjective.",
     "feedback_wrong": "Non. Regarde bien : qui parle ici ? L'auteur se désigne directement par « je » et « nous ». Il dit « je pense » — il expose son propre jugement. C'est cela qui montre sa présence comme énonciateur. Le sujet traité ou le choix d'un mot seul ne suffisent pas à révéler cette présence."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "L'énonciation, c'est l'acte de parler ou écrire avec sa présence."
+      },
+      {
+        "icon": "👤",
+        "text": "Chaque énonciation révèle qui parle, quand et son point de vue."
+      },
+      {
+        "icon": "✍️",
+        "text": "Les choix de langue et ton marquent l'unicité de chaque énonciation."
+      }
+    ]
   }
 }

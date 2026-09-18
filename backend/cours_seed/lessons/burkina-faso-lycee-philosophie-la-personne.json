@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. Traiter quelqu'un comme un objet—un instrument au service d'autres fins—c'est nier sa qualité de personne. Une personne possède une fin en elle-même (sa propre vie, ses choix), elle n'est jamais un simple moyen. Les autres exemples (dialogue, évaluation, partage de valeurs) respectent la capacité de conscience et de liberté de la personne.",
     "feedback_wrong": "Réfléchis davantage. La question demande ce qui VIOLE le respect de la personne. Une personne, c'est avant tout quelqu'un capable de penser, de décider et d'avoir de la valeur en soi. Si on la traite comme un outil ou une chose inerte, on nie précisément cela. Relis la définition du concept et teste chaque option : laquelle nie la conscience et la liberté ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "Une personne possède conscience, réflexion et liberté de choix."
+      },
+      {
+        "icon": "✨",
+        "text": "La personne a une dignité morale, jamais un simple objet."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'identité change avec le temps, elle n'est pas figée."
+      }
+    ]
   }
 }

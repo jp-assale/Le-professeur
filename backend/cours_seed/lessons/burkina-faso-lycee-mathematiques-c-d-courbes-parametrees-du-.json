@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Quand $t = \\frac{\\pi}{2}$, on a $\\cos\\left(\\frac{\\pi}{2}\\right) = 0$ et $\\sin\\left(\\frac{\\pi}{2}\\right) = 1$. Donc $x = 4 \\times 0 = 0$ et $y = 3 \\times 1 = 3$. Le point est $(0 ; 3)$. Cette courbe est d'ailleurs une ellipse.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que $\\cos\\left(\\frac{\\pi}{2}\\right) = 0$ et $\\sin\\left(\\frac{\\pi}{2}\\right) = 1$. En remplaçant dans les équations paramétrées : $x\\left(\\frac{\\pi}{2}\\right) = 4 \\times 0 = 0$ et $y\\left(\\frac{\\pi}{2}\\right) = 3 \\times 1 = 3$. Le point cherché est $(0 ; 3)$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "Un point se déplace dans le plan selon le temps."
+      },
+      {
+        "icon": "📊",
+        "text": "Deux équations expriment x et y en fonction du paramètre t."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le paramètre enregistre la position à chaque instant."
+      }
+    ]
   }
 }

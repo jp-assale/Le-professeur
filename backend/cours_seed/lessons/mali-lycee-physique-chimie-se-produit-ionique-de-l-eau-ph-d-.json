@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Pour un pH donné, on utilise la définition du pH : $pH = -\\log[H^+]$, donc $[H^+] = 10^{-pH} = 10^{-11}$ mol/L. Un pH de 11 indique une solution basique (pH > 7), avec une concentration très faible en ions hydrogène.",
     "feedback_wrong": "À revoir. Rappelle-toi que le pH est défini par $pH = -\\log[H^+]$. En inversant cette relation, on obtient $[H^+] = 10^{-pH}$. Avec pH = 11, cela donne $[H^+] = 10^{-11}$ mol/L. Note que cette concentration est très faible, ce qui confirme que la solution est basique (pH > 7)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "L'eau pure se dissocie en ions H⁺ et OH⁻ en équilibre constant."
+      },
+      {
+        "icon": "🔢",
+        "text": "Le produit ionique Ke = 10⁻¹⁴ à 25°C, toujours constant."
+      },
+      {
+        "icon": "📊",
+        "text": "Le pH mesure la concentration H⁺ : plus bas = plus acide."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as reconnu le procédé clé : les phrases courtes qui se succèdent sans liant créent un effet de coup de fouet. C'est ce qu'on appelle un rythme staccato. Chaque phrase est un impact. L'absence de longueur et de développement amplifie le drame. C'est très différent d'un rythme fluide et continu.",
     "feedback_wrong": "Pas tout à fait. Regarde bien la structure du passage : il ne s'agit pas de vers (règle 1), ni de métaphores complexes (règle 4). L'accent est sur la brièveté extrême et la répétition de structures très simples. Cette succession de phrases très courtes crée une saccade, un haletement émotionnel. C'est cela, l'effet rhythmique ici."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎵",
+        "text": "Le rythme organise sons, silences et accents dans un texte."
+      },
+      {
+        "icon": "❤️",
+        "text": "Il crée une pulsation qui donne du souffle et de la vie."
+      },
+      {
+        "icon": "👂",
+        "text": "Le rythme se ressent à la lecture à haute voix."
+      }
+    ]
   }
 }

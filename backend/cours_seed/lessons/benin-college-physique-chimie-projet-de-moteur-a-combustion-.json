@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Pendant l'admission (temps 1), le piston se déplace vers le bas et crée un vide qui aspire le mélange air-carburant à travers la soupape d'admission. C'est le début du cycle.",
     "feedback_wrong": "Non, ce n'est pas la bonne réponse. Relis bien les quatre temps : le premier temps du cycle moteur s'appelle l'admission. C'est pendant ce temps que le piston descend et aspire le mélange air-carburant dans le cylindre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔥",
+        "text": "La combustion d'un carburant libère l'énergie qui fait bouger le piston."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Le piston transforme l'énergie en mouvement grâce au vilebrequin."
+      },
+      {
+        "icon": "🔄",
+        "text": "Le cycle à quatre temps : admission, compression, combustion, échappement."
+      }
+    ]
   }
 }

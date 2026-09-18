@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la démarche : d'abord calculer les moles de monomère (625 / 62,5 = 10 mol), puis appliquer le rendement (10 × 0,80 = 8 mol). Le rendement réduit la quantité réelle de monomère qui polymérise, ce qui est normal dans une synthèse réelle.",
     "feedback_wrong": "Pas tout à fait. Vérifie bien ton calcul : le nombre total de moles de monomère de départ est 625 / 62,5 = 10 mol. Ensuite, il faut appliquer le rendement de 80 %, ce qui signifie multiplier par 0,80. Les 8 mol obtenues correspondent aux unités vraiment intégrées dans le polymère."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Les polymères sont des molécules géantes formées par répétition de monomères."
+      },
+      {
+        "icon": "🛢️",
+        "text": "Les monomères proviennent du pétrole brut et s'assemblent par addition ou condensation."
+      },
+      {
+        "icon": "✨",
+        "text": "Cette répétition crée des matériaux flexibles, résistants et légers."
+      }
+    ]
   }
 }

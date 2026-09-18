@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! C'est précisément ce qui caractérise la pensée scientifique : la possibilité de vérifier et de reproduire. N'importe quel chercheur, peu importe où il est, doit pouvoir refaire l'expérience et arriver au même résultat. C'est cela qui fonde la légitimité de la science.",
     "feedback_wrong": "Non. La pensée scientifique ne se reconnaît pas à la complexité du langage ou à l'institution qui la produit, mais à sa méthode. Elle repose sur l'observation vérifiable et la reproductibilité : d'autres doivent pouvoir refaire l'expérience et obtenir le même résultat. C'est ce critère qui sépare la science de la simple tradition."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤔",
+        "text": "Différentes méthodes expliquent le monde : laquelle est fiable ?"
+      },
+      {
+        "icon": "🔬",
+        "text": "L'épistémologie étudie comment la science naît et fonctionne."
+      },
+      {
+        "icon": "✅",
+        "text": "Elle distingue la connaissance scientifique véritable des autres savoirs."
+      }
+    ]
   }
 }

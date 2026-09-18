@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Si $\\log(x) = 2$, alors par définition $10^2 = x$, donc $x = 100$. Le logarithme et la puissance de 10 sont des opérations inverses.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi que $\\log(x) = 2$ signifie $10^2 = x$. Calcule $10^2$ pour trouver $x$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Le logarithme transforme les très grandes valeurs en nombres petits."
+      },
+      {
+        "icon": "🔄",
+        "text": "Log est l'opération inverse de la puissance de dix."
+      },
+      {
+        "icon": "✅",
+        "text": "Le logarithme n'existe que pour les nombres strictement positifs."
+      }
+    ]
   }
 }

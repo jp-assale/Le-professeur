@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'équation du cercle de centre $(h, k)$ et de rayon $r$ est $(x - h)^2 + (y - k)^2 = r^2$. Ici, le centre est $(2, -1)$, donc $h = 2$ et $k = -1$, ce qui donne $(x - 2)^2 + (y - (-1))^2 = 5^2$, soit $(x - 2)^2 + (y + 1)^2 = 25$.",
     "feedback_wrong": "Pas tout à fait. N'oublie pas que l'équation du cercle de centre $(h, k)$ et de rayon $r$ s'écrit $(x - h)^2 + (y - k)^2 = r^2$. Attention aux signes : si le centre est $(2, -1)$, tu dois écrire $(x - 2)$ et $(y - (-1)) = (y + 1)$. Le rayon est $5$, donc $r^2 = 25$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Les coniques décrivent des formes réelles : ponts, trajectoires, phénomènes naturels."
+      },
+      {
+        "icon": "📐",
+        "text": "Une conique résulte de la section d'un cône par un plan selon différents angles."
+      },
+      {
+        "icon": "📊",
+        "text": "Chaque conique possède une équation du second degré caractéristique unique."
+      }
+    ]
   }
 }

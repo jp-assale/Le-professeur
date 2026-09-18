@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les trois points sont parfaitement alignés sur une droite (la relation est linéaire parfaite et positive), donc $r = 1,00$. Cela signifie une corrélation maximale positive.",
     "feedback_wrong": "À revoir. Dans cet exercice, les trois points suivent exactement la relation $y = 2x + 1$ : ils sont parfaitement alignés. Une relation linéaire parfaite donne un coefficient de corrélation égal à $1$ ou $-1$ selon le sens. Ici, $x$ et $y$ augmentent ensemble, donc $r = 1,00$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "L'ajustement linéaire trouve la meilleure droite entre deux variables."
+      },
+      {
+        "icon": "🔗",
+        "text": "La corrélation mesure la force et le sens de la relation."
+      },
+      {
+        "icon": "📊",
+        "text": "Le coefficient r entre -1 et 1 quantifie cette corrélation."
+      }
+    ]
   }
 }

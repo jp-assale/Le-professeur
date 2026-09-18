@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le père Mm peut transmettre soit M soit m (chacun avec 50 % de probabilité). La mère mm ne transmet que m. Les enfants possibles sont : Mm (yeux marrons, 50 %) et mm (yeux bleus, 50 %). La moitié des enfants auront donc les yeux bleus.",
     "feedback_wrong": "Pas tout à fait. Construis l'échiquier de croisement : le père Mm croisé avec la mère mm produit 50 % Mm (marrons) et 50 % mm (bleus). Il faut appliquer la loi de ségrégation des allèles pour chaque parent séparément."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧬",
+        "text": "Les gènes sur les chromosomes transmettent les caractères des parents."
+      },
+      {
+        "icon": "🌱",
+        "text": "Certains cacaoyers héritent une meilleure résistance à la sécheresse."
+      },
+      {
+        "icon": "📋",
+        "text": "Les lois de Mendel expliquent précisément cette transmission héréditaire."
+      }
+    ]
   }
 }

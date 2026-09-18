@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la proportionnalité : 4,8 g de Mg = 0,2 mol. D'après l'équation, 2 mol de Mg produisent 2 mol de MgO (rapport 1:1), donc 0,2 mol de Mg produit 0,2 mol de MgO. Et 0,2 mol × 40 g/mol = 8 g. C'est ça l'oxydation : le magnésium se transforme complètement en un oxyde plus lourd.",
     "feedback_wrong": "Pas tout à fait. Commence par convertir les grammes en moles : 4,8 g ÷ 24 g/mol = 0,2 mol de Mg. Ensuite, regarde le coefficient de l'équation : 2 mol de Mg produisent 2 mol de MgO, soit un rapport 1:1. Donc 0,2 mol de Mg donne 0,2 mol de MgO. Enfin, convertis en grammes : 0,2 mol × 40 g/mol = 8 g. N'oublie pas que lors de l'oxydation, la masse augmente car on ajoute l'oxygène."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "L'oxydation combine un élément avec l'oxygène de l'air."
+      },
+      {
+        "icon": "⚡",
+        "text": "L'élément perd des électrons et se transforme en oxyde."
+      },
+      {
+        "icon": "🔥",
+        "text": "Cette réaction peut être lente comme la rouille ou rapide."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Si l'homme produit 300 millions de spermatozoïdes chaque jour, en 10 jours il en produira : 300 millions × 10 = 3 000 millions = 3 milliards. Cette production massive explique pourquoi, malgré les millions de spermatozoïdes libérés, un seul parvient généralement à féconder l'ovule.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois multiplier la production quotidienne par le nombre de jours. 300 millions par jour × 10 jours = 3 000 millions, soit 3 milliards de spermatozoïdes. La très grande quantité de spermatozoïdes produits est une caractéristique clé de la reproduction masculine."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧‍👦",
+        "text": "La reproduction humaine nécessite un homme et une femme."
+      },
+      {
+        "icon": "🧬",
+        "text": "Le spermatozoïde et l'ovule créent un nouvel embryon ensemble."
+      },
+      {
+        "icon": "🌱",
+        "text": "La puberté marque le début de la maturation sexuelle."
+      }
+    ]
   }
 }

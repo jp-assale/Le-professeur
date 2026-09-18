@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Fatima a trouvé un cas particulier (elle-même) qui contredit l'affirmation générale du professeur. Un seul contre-exemple suffit à réfuter une affirmation universelle. C'est un outil très puissant en logique.",
     "feedback_wrong": "Pas tout à fait. Réfléchis : l'affirmation du professeur dit que TOUS les élèves qui étudient réussissent. Fatima en est un qui a étudié mais n'a pas réussi. Elle n'utilise pas un raisonnement complexe, mais simplement elle montre un cas où l'affirmation n'est pas vraie. C'est un contre-exemple."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Un seul contre-exemple suffit à réfuter une affirmation générale."
+      },
+      {
+        "icon": "🧩",
+        "text": "Démontrer, c'est justifier chaque étape par des règles claires."
+      },
+      {
+        "icon": "🎯",
+        "text": "Trois méthodes : directe, contraposée, ou par l'absurde."
+      }
+    ]
   }
 }

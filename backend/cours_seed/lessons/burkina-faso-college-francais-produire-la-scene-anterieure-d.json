@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Cette proposition raconte des événements qui ont lieu avant le moment du récit (la nuit précédente, la dispute, la nuit dehors), et elle explique pourquoi Kofi a les yeux rouges et trembles de froid. C'est une vraie scène antérieure.",
     "feedback_wrong": "Non, ce n'est pas la bonne réponse. Rappelle-toi : la scène antérieure doit raconter ce qui s'est passé AVANT le début du récit, et expliquer l'état dans lequel se trouve le personnage à ce moment-là. Elle doit donner les causes des événements actuels."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏮️",
+        "text": "La scène antérieure raconte les événements qui précèdent le début du récit."
+      },
+      {
+        "icon": "🤔",
+        "text": "Elle répond aux questions : pourquoi ? comment ? qu'est-ce qui s'est passé ?"
+      },
+      {
+        "icon": "✍️",
+        "text": "Produire une scène antérieure, c'est raconter vivamment les faits précédents."
+      }
+    ]
   }
 }

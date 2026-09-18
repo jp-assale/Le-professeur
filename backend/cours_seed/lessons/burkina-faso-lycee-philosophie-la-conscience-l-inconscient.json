@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La conscience, c'est ce dont tu es maître et conscient ; l'inconscient, c'est ce qui agit en toi sans que tu le contrôles ou le saches. C'est précisément cette distinction qui pose la question philosophique : jusqu'où sommes-nous véritablement libres si une grande partie de nous-mêmes nous échappe ?",
     "feedback_wrong": "Pas tout à fait. Relis bien : la conscience est ce que TU SAIS et ce que TU CONTRÔLES. L'inconscient, c'est justement ce qui t'ÉCHAPPE, ce dont tu n'as PAS conscience immédiate. Ce ne sont pas deux mondes en opposition morale (bien vs mal), ni la même chose avec deux noms. L'inconscient agit réellement en toi, même si tu ne le vois pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "La conscience est ta capacité à percevoir et réfléchir sur le monde."
+      },
+      {
+        "icon": "🌀",
+        "text": "L'inconscient contient désirs, souvenirs et automatismes non contrôlés."
+      },
+      {
+        "icon": "❓",
+        "text": "Sommes-nous vraiment maîtres de nos actes et pensées?"
+      }
+    ]
   }
 }

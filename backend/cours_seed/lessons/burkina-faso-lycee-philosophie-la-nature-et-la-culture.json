@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Pleurer, avoir faim, avoir peur sont des réactions biologiques innées, communes à tous les humains, peu importe leur origine. En revanche, les formules de politesse, le respect de l'ordre familial et les pratiques rituelles sont des créations humaines, des codes sociaux et culturels qui varient d'une communauté à l'autre. C'est par l'apprentissage et l'immersion dans le groupe social que l'enfant les intériorise.",
     "feedback_wrong": "Regarde bien : la nature, c'est ce que tu as en commun avec tous les êtres humains et même les animaux (pleurer, respirer, avoir faim, avoir peur). La culture, c'est ce qui est propre à ta communauté, ce qu'on t'enseigne — les langues, les coutumes, les valeurs, les cérémonies. Laquelle des réponses décrit vraiment un apprentissage social et non une réaction biologique ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧬",
+        "text": "La nature : ce que nous recevons à la naissance, notre biologie."
+      },
+      {
+        "icon": "🏘️",
+        "text": "La culture : ce que les humains créent ensemble au fil du temps."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'humain transforme sa nature par la culture qu'il apprend."
+      }
+    ]
   }
 }

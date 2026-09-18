@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'océan est une source d'humidité. L'eau s'évapore de sa surface et crée les conditions pour que les pluies se forment. Les régions côtières en bénéficient directement, tandis que le Sahara, loin de toute grande masse d'eau, reste aride. La proximité de la mer est un facteur fondamental du climat.",
     "feedback_wrong": "Pas tout à fait. L'altitude et la latitude jouent un rôle, mais le facteur décisif ici est l'eau. L'océan fournit l'humidité nécessaire aux pluies. Regarde la carte : toutes les côtes africaines reçoivent plus de précipitations que les déserts intérieurs. C'est parce que l'océan apporte cette humidité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "L'Afrique a des climats très différents selon les régions."
+      },
+      {
+        "icon": "☔",
+        "text": "Le climat dépend de plusieurs facteurs naturels qui agissent ensemble."
+      },
+      {
+        "icon": "🔍",
+        "text": "Comprendre ces facteurs explique la diversité des paysages africains."
+      }
+    ]
   }
 }

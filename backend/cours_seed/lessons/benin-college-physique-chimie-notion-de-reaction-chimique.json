@@ -56,5 +56,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Selon la loi de conservation de la masse, la masse totale des réactifs avant la réaction égale la masse totale des produits après la réaction. Ici : 2,4 g + 0,8 g = 3,2 g. Le composé noir a donc une masse de 3,2 g. Les atomes du magnésium et de l'oxygène se sont simplement réarrangés, aucune masse n'a disparu.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi : lors d'une réaction chimique, la matière se conserve. Les réactifs disparaissent et forment des produits, mais la masse totale reste la même. Additionne les masses de départ : 2,4 g + 0,8 g = 3,2 g. C'est cette masse que tu retrouves dans le produit final."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Les réactifs se transforment en produits par réarrangement atomique."
+      },
+      {
+        "icon": "⚛️",
+        "text": "Les atomes ne disparaissent pas, ils forment juste nouvelles molécules."
+      },
+      {
+        "icon": "🆕",
+        "text": "Une réaction crée de la matière nouvelle, contrairement aux changements physiques."
+      }
+    ]
   }
 }

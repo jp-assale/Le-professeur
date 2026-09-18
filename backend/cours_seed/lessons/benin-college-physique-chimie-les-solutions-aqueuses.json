@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement converti 750 mL en 0,75 L, puis appliqué la formule : concentration = 15 ÷ 0,75 = 20 g/L. Tu maîtrises le calcul de concentration en masse.",
     "feedback_wrong": "Pas tout à fait. Commence par convertir 750 mL en litres : 750 ÷ 1000 = 0,75 L. Puis applique la formule : concentration = (masse du soluté) ÷ (volume en L) = 15 ÷ 0,75 = 20 g/L. Refais le calcul et tu trouveras la bonne réponse."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "Une solution aqueuse mélange l'eau et des substances dissoutes."
+      },
+      {
+        "icon": "🔀",
+        "text": "Les particules du soluté se dispersent uniformément dans l'eau."
+      },
+      {
+        "icon": "📉",
+        "text": "Plus d'eau ajoutée signifie une concentration moins élevée."
+      }
+    ]
   }
 }

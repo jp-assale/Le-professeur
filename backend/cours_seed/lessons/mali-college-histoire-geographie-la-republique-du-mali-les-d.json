@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le 26 mars 1991 marque la fin de la Deuxième République autoritaire. Un soulèvement populaire, appuyé par des militaires dissidents, force le régime à céder le pouvoir. C'est le moment fondateur de la Troisième République, basée sur la démocratie et le respect des libertés. Cet événement montre comment un peuple peut exiger le changement face à l'oppression.",
     "feedback_wrong": "Pas tout à fait. Le 26 mars 1991 n'est pas l'indépendance (qui date de 1960), ni le premier coup d'État (qui date de 1968). C'est le moment où un mouvement populaire et des mutins militaires ont forcé la chute du régime autoritaire de la Deuxième République, permettant la naissance de la Troisième République démocratique. C'est un événement récent et fondamental dans l'histoire politique du Mali."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🇲🇱",
+        "text": "Le Mali devient indépendant de la France le 22 septembre 1960."
+      },
+      {
+        "icon": "🏛️",
+        "text": "Une République signifie un pouvoir sans monarque héréditaire."
+      },
+      {
+        "icon": "📅",
+        "text": "Le Mali a connu plusieurs Républiques avec changements majeurs depuis 1960."
+      }
+    ]
   }
 }

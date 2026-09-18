@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Juste ! La conscience de notre finitude n'est pas un obstacle à la vie, c'est son condition même de sens. C'est en reconnaissant que nous allons mourir que nous comprenons l'importance de choisir comment vivre. C'est ce que les existentialistes comme Heidegger appelaient l'authenticité : vivre en pleine conscience de ce que nous sommes vraiment.",
     "feedback_wrong": "Pas tout à fait. La mort n'est pas une menace qui détruit le sens de la vie : c'est précisément ce qui donne du poids à nos choix. Si nous vivions éternellement, rien n'aurait d'urgence ni d'importance. C'est la finitude qui oblige à choisir et à donner un sens à son existence."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La mort est inscrite dans notre condition d'être vivant."
+      },
+      {
+        "icon": "❓",
+        "text": "Comment donner sens à ma vie sachant que je vais mourir?"
+      },
+      {
+        "icon": "💡",
+        "text": "La mort transforme notre manière de comprendre notre existence."
+      }
+    ]
   }
 }

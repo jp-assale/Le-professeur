@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien compris. La liberté n'est ni le chaos total (faire tout ce qu'on veut) ni l'obéissance aveugle. C'est l'équilibre : pouvoir choisir EN SACHANT ce qu'on choisit et pourquoi.",
     "feedback_wrong": "Pas tout à fait. Relis bien : la liberté n'est pas l'absence totale de limites (réponse A est trop extrême), ni l'obéissance complète (réponse B), ni l'impossibilité (réponse D). La vraie liberté, c'est choisir ses actes de façon réfléchie dans un cadre social."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Liberté n'égale pas absence de contrainte."
+      },
+      {
+        "icon": "🧠",
+        "text": "Choisir conscient de ses actes et conséquences."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Liberté existe dans un contexte social et responsable."
+      }
+    ]
   }
 }

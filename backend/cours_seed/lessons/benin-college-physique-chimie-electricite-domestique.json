@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué la formule $I = \\frac{P}{U}$ correctement : $I = \\frac{3000}{220} \\approx 13,6$ A. C'est un courant assez important, ce qui explique pourquoi les fours électriques sont branchés sur des circuits spécialisés avec des fusibles de 20 A ou plus.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que pour trouver l'intensité, tu dois diviser la puissance par la tension : $I = \\frac{P}{U} = \\frac{3000}{220} \\approx 13,6$ A. Vérifie bien que tu divises la puissance (en watts) par la tension (en volts)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'électricité domestique arrive en courant alternatif à 220 V."
+      },
+      {
+        "icon": "🔌",
+        "text": "Des fils conducteurs distribuent l'électricité protégée par disjoncteurs."
+      },
+      {
+        "icon": "💡",
+        "text": "Chaque appareil consomme une puissance mesurée en watts."
+      }
+    ]
   }
 }

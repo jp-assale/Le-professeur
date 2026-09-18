@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule $F = N \\times B \\times I \\times L$ : $F = 15 \\times 0,4 \\times 3 \\times 0,08 = 1,44$ N. Plus la bobine a de spires, plus le courant est intense et plus le champ magnétique est fort, plus la force de rotation est grande.",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti 8 cm en mètres (0,08 m) et que tu utilises la formule complète $F = N \\times B \\times I \\times L$ avec les quatre facteurs : nombre de spires (15), champ magnétique (0,4 T), courant (3 A) et longueur (0,08 m). Recommence le calcul pas à pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Un moteur électrique transforme l'énergie électrique en mouvement."
+      },
+      {
+        "icon": "🧲",
+        "text": "La bobine tourne grâce au champ magnétique et courant."
+      },
+      {
+        "icon": "🔧",
+        "text": "Les moteurs actionnent les outils du quotidien en Afrique."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as bien compris. La Côte d'Ivoire a accédé à l'indépendance le 7 août 1960 de manière négociée, sans recourir à la violence armée massive comme d'autres colonies africaines. Félix Houphouët-Boigny et d'autres leaders ont su convaincre la France et la communauté internationale de reconnaître la souveraineté ivoirienne. C'est un moment clé de l'histoire du pays.",
     "feedback_wrong": "C'est pas ça. L'indépendance de la Côte d'Ivoire s'est faite différemment. Elle a été obtenue le 7 août 1960 principalement par la négociation, grâce à des figures comme Félix Houphouët-Boigny. La Côte d'Ivoire n'a pas mené une longue guerre d'indépendance comme l'Algérie, par exemple. Relis bien la leçon pour comprendre comment cette indépendance a été acquise."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🇨🇮",
+        "text": "La Côte d'Ivoire devient indépendante en 1960 face à la France."
+      },
+      {
+        "icon": "🔗",
+        "text": "Fin de la domination coloniale et du contrôle français sur le pays."
+      },
+      {
+        "icon": "🛡️",
+        "text": "Les Ivoiriens gèrent désormais leurs affaires et leur destin eux-mêmes."
+      }
+    ]
   }
 }

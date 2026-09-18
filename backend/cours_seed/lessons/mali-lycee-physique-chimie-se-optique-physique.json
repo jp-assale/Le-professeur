@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule de diffraction par une fente unique. Avec y = D × lambda / a = 1,5 × (500 × 10^-9) / (0,10 × 10^-3) = 1,5 × 5 × 10^-3 = 7,5 × 10^-3 m = 7,5 mm. Ce premier minimum marque la frontière entre la tache centrale brillante et la première zone sombre.",
     "feedback_wrong": "Pas tout à fait. Vérifie l'application de la formule y = D × lambda / a pour le premier minimum (m = 1). Attention à la conversion des unités : lambda = 500 nm = 500 × 10^-9 m et a = 0,10 mm = 0,10 × 10^-3 m. Refais le calcul : y = 1,5 × (500 × 10^-9) / (0,10 × 10^-3)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌊",
+        "text": "La lumière est une onde, pas juste un rayon droit."
+      },
+      {
+        "icon": "🔀",
+        "text": "Elle se diffracte, interfère et crée des motifs colorés visibles."
+      },
+      {
+        "icon": "✨",
+        "text": "Ces phénomènes expliquent les arcs-en-ciel et l'éclat des surfaces."
+      }
+    ]
   }
 }

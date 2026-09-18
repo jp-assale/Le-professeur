@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. L'argument du philosophe commet une erreur logique appelée réductionnisme : expliquer l'origine psychologique d'une croyance ne prouve pas que cette croyance est fausse. Une mère qui aime son enfant par instinct maternel n'aime pas son enfant « moins vraiment » : son amour est réel, même s'il a une cause biologique. De même, même si la religion répond à un besoin humain (la quête de sens, la peur de la mort), cela ne signifie pas que Dieu n'existe pas ou que la morale religieuse n'est pas valide. La vraie question reste philosophiquement ouverte.",
     "feedback_wrong": "Pas tout à fait. Réfléchis : montrer que la religion satisfait un besoin psychologique (le réconfort face à la mort) ne prouve pas que Dieu n'existe pas ou que la morale religieuse est fausse. Une affirmation peut être vraie et utile en même temps. Le philosophe confond l'explication de pourquoi nous croyons avec la vérité de ce en quoi nous croyons. C'est comme dire : « Tu n'aimes ta mère que parce que tu es bilogiquement programmé pour » — cela n'annule pas la réalité de ton amour."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🙏",
+        "text": "La religion relie l'homme à une puissance transcendante et au sens de la vie."
+      },
+      {
+        "icon": "🤔",
+        "text": "La philosophie questionne pourquoi croire en Dieu, pas si Dieu existe vraiment."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Peut-on être moral sans Dieu ? La religion est-elle utile ou nuisible à la société ?"
+      }
+    ]
   }
 }

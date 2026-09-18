@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le capitalisme introduit le salariat : les gens n'ont plus de terres ni de métier hérité, ils doivent vendre leur travail à un patron pour survivre. C'est une mutation sociale majeure par rapport aux structures communautaires anciennes.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : le capitalisme remplace les liens communautaires par des relations d'argent. Il crée une classe de travailleurs qui vendent leur force de travail pour un salaire, ce qui est l'inverse du renforcement des structures anciennes, et loin d'apporter l'égalité. Réfléchis à ce qui change vraiment dans la vie quotidienne quand l'argent devient central."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏭",
+        "text": "Le capitalisme repose sur la propriété privée des moyens de production."
+      },
+      {
+        "icon": "💰",
+        "text": "L'argent investi cherche à se multiplier par le profit systématiquement."
+      },
+      {
+        "icon": "📊",
+        "text": "Cette transformation crée inégalités et affaiblit les structures sociales traditionnelles."
+      }
+    ]
   }
 }

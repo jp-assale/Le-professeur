@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Une représentation artistique est toujours un acte d'interprétation. L'artiste choisit quoi montrer, comment le montrer, quelles couleurs, quelles formes, quels détails garder ou oublier. C'est cette transformation volontaire qui crée du sens et qui fait que l'art n'est jamais une simple copie de la réalité, mais toujours une vision, un point de vue, un message.",
     "feedback_wrong": "Pas tout à fait. Le coût, la durabilité ou les matériaux ne définissent pas une représentation artistique. Un art peut être éphémère, fait de matériaux simples, et rester une véritable création. Ce qui compte, c'est que l'artiste transforme la réalité pour créer du sens. C'est cet acte d'interprétation consciente qui distingue l'art de la simple reproduction."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎨",
+        "text": "L'art provoque des réactions différentes selon nos perspectives."
+      },
+      {
+        "icon": "🤔",
+        "text": "L'esthétique comprend comment l'art crée du sens et nous touche."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'art reflète, critique la réalité et transforme notre vision du monde."
+      }
+    ]
   }
 }

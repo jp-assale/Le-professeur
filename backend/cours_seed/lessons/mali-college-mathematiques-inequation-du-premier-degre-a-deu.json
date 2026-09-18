@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Puisque le menuisier NE DOIT PAS dépasser 48 heures, on utilise le symbole $\\leq$. Une chaise prend 4 heures (coefficient de $x$) et une table prend 6 heures (coefficient de $y$). L'inéquation est bien $4x + 6y \\leq 48$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : le menuisier dispose de 48 heures, il ne peut pas les dépasser. Donc le temps total utilisé ($4x + 6y$) doit être inférieur ou égal à 48. Le symbole correct est $\\leq$, et les coefficients doivent correspondre aux heures de chaque objet : 4 pour une chaise, 6 pour une table."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une inéquation à deux inconnues décrit une infinité de solutions possibles."
+      },
+      {
+        "icon": "🛒",
+        "text": "Elle permet de trouver toutes les combinaisons respectant une limite ou condition."
+      },
+      {
+        "icon": "📈",
+        "text": "Ces solutions forment une région visible sur un plan cartésien."
+      }
+    ]
   }
 }

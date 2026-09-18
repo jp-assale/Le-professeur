@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Le Congrès de Berlin est un moment clé : les grandes puissances s'y réunissent seules (sans les Africains) et tracent des lignes sur une carte pour se diviser l'Afrique. C'est le partage officiel et légal (selon la vision européenne) du continent. Cela montre le caractère injuste et unilatéral de l'impérialisme.",
     "feedback_wrong": "Pas tout à fait. Le Congrès de Berlin n'a pas réuni les Africains (ils n'ont eu aucun mot à dire), n'a pas arrêté l'impérialisme (il l'a au contraire organisé), et n'a pas créé les premières missions (celles-ci existaient déjà). Son vrai rôle était de permettre aux Européens de se partager légalement l'Afrique entre eux. Relis la définition du Congrès de Berlin dans le concept."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Puissances européennes conquièrent l'Afrique à partir du 19e siècle."
+      },
+      {
+        "icon": "💰",
+        "text": "Prétextes : religion, curiosité géographique, matières premières et marchés."
+      },
+      {
+        "icon": "⚔️",
+        "text": "Domination coloniale : colons, administrateurs et soldats imposent leur contrôle."
+      }
+    ]
   }
 }

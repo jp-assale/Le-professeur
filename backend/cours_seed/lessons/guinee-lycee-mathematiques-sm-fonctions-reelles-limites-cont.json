@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Parfait ! Tu as bien appliqué les règles de dérivation. La dérivée de $3x^2$ est $6x$, celle de $-5x$ est $-5$, et celle de $2$ est $0$. Donc $g'(x) = 6x - 5$. En substituant $x = 1$, tu obtiens $g'(1) = 6(1) - 5 = 1$. Tu maîtrises le calcul de dérivée.",
     "feedback_wrong": "Pas tout à fait. N'oublie pas de substituer $x = 1$ après avoir trouvé la dérivée générale $g'(x)$. La dérivée de $3x^2 - 5x + 2$ est $g'(x) = 6x - 5$. Ensuite, remplace $x$ par $1$ : $g'(1) = 6(1) - 5 = 1$. Essaie à nouveau avec ce processus en deux étapes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Une fonction associe à chaque nombre réel x un autre nombre réel."
+      },
+      {
+        "icon": "🎯",
+        "text": "La limite, continuité et dérivée analysent le comportement de la fonction."
+      },
+      {
+        "icon": "∫",
+        "text": "L'intégration calcule des aires et les équations différentielles modélisent les phénomènes."
+      }
+    ]
   }
 }

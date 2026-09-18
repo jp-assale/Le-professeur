@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La CEDEAO poursuit trois objectifs liés : libérer les échanges commerciaux (intégration économique), soutenir la démocratie et les droits humains (intégration politique), et renforcer les liens culturels et sociaux entre les peuples (intégration sociale). Tout cela vise à construire une région plus prospère et stable.",
     "feedback_wrong": "Non. La CEDEAO n'est pas une armée, n'impose pas une monnaie unique à tout le continent, et ne supprime pas les États nationaux. C'est une organisation régionale de coopération qui travaille à l'intégration économique, politique et sociale de ses 16 membres pour favoriser la paix et le développement. Elle renforce l'État, elle ne le remplace pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚗",
+        "text": "Circulation libre des personnes et marchandises entre pays."
+      },
+      {
+        "icon": "🤝",
+        "text": "Seize pays d'Afrique de l'Ouest unissent leurs forces ensemble."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Institutions et règles communes pour développement économique régional."
+      }
+    ]
   }
 }

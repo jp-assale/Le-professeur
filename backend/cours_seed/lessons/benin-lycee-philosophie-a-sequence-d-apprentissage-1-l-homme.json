@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La relation entre l'homme et le monde est bidirectionnelle : l'homme agit, transforme, connaît le monde par son travail et sa conscience, mais il reste aussi limité, dépendant des conditions que le monde lui impose. C'est une interaction constante, pas une domination unilatérale.",
     "feedback_wrong": "Pas tout à fait. Relisez bien : le chapitre rejette l'idée que le monde soit totalement indépendant (réponse A), ou que l'homme le crée de toutes pièces (réponse C), ou qu'il n'y ait pas de lien (réponse D). La clé est que l'homme et le monde s'influencent mutuellement. L'homme transforme par son action, le monde impose ses lois. C'est une dynamique, un échange constant."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "L'homme se pose des questions fondamentales sur le monde et lui."
+      },
+      {
+        "icon": "👁️",
+        "text": "La conscience et les sens façonnent notre expérience du monde."
+      },
+      {
+        "icon": "✋",
+        "text": "L'homme agit sur le monde par le travail et ses choix."
+      }
+    ]
   }
 }

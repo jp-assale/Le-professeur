@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! La dérivée de $g(x) = 3x^2 - 6x + 2$ est $g'(x) = 6x - 6$. En remplaçant $x$ par 2, on obtient $g'(2) = 6(2) - 6 = 12 - 6 = 6$. Tu maîtrises bien le calcul de dérivée et son application.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : la dérivée de $3x^2$ est $6x$, celle de $-6x$ est $-6$, et celle de la constante 2 est 0. Donc $g'(x) = 6x - 6$. Maintenant remplace $x$ par 2 : $g'(2) = 6(2) - 6 = 12 - 6 = 6$. Essaie à nouveau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La dérivée mesure la vitesse instantanée de variation d'une fonction."
+      },
+      {
+        "icon": "📍",
+        "text": "Elle représente la pente de la tangente à la courbe en un point."
+      },
+      {
+        "icon": "🎯",
+        "text": "On l'utilise pour trouver les extrema et étudier la croissance."
+      }
+    ]
   }
 }

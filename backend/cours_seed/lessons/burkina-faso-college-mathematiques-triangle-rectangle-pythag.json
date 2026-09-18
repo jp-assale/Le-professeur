@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la réciproque de Pythagore. Quand le carré du plus grand côté égale la somme des carrés des deux autres, le triangle est rectangle. Ici, $13^2 = 169$ et $5^2 + 12^2 = 169$ : c'est confirmé.",
     "feedback_wrong": "Relisez attentivement. La réciproque de Pythagore dit que si $a^2 + b^2 = c^2$, alors le triangle est rectangle. Calcule : $5^2 = 25$, $12^2 = 144$, donc $5^2 + 12^2 = 169$. Et $13^2 = 169$. L'égalité est vérifiée, donc c'est oui."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Pythagore vérifie si un angle est droit via ses côtés."
+      },
+      {
+        "icon": "⚡",
+        "text": "Hypoténuse au carré égale somme des deux autres côtés."
+      },
+      {
+        "icon": "📊",
+        "text": "Trigonométrie relie angles et côtés par sinus, cosinus, tangente."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La décolonisation en Afrique a pris deux formes principales : certains pays ont négocié avec la métropole (comme le Mali avec la France), tandis que d'autres ont dû engager des luttes armées longues (comme l'Algérie). Dans les deux cas, c'est la volonté et la mobilisation des peuples africains qui ont forcé le changement. Il n'y a pas eu une seule recette : le contexte historique, la profondeur de la colonisation, et l'attitude de la métropole ont déterminé la forme prise.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que la décolonisation n'a pas eu une seule forme. En Afrique, certains pays ont obtenu l'indépendance par la négociation pacifique avec la métropole (exemple : Mali, Côte d'Ivoire avec la France). D'autres ont dû mener des guerres d'indépendance longues et difficiles (exemple : Algérie, Mozambique, Angola). Les deux formes sont des réalités historiques. La clé à retenir : dans tous les cas, c'est la pression et la mobilisation des peuples africains qui ont forcé les puissances coloniales à lâcher prise."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗺️",
+        "text": "Puissances étrangères contrôlaient les terres et ressources africaines."
+      },
+      {
+        "icon": "🕊️",
+        "text": "Indépendance acquise par négociation pacifique ou luttes armées."
+      },
+      {
+        "icon": "📅",
+        "text": "Décolonisation s'est déroulée principalement entre 1950 et 1970."
+      }
+    ]
   }
 }

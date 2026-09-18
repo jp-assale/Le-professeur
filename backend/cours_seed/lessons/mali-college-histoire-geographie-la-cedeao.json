@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! La CEDEAO vise avant tout à rapprocher les pays d'Afrique de l'Ouest économiquement et politiquement, en supprimant les barrières commerciales et en permettant aux personnes de circuler librement. C'est son fondement depuis 1975.",
     "feedback_wrong": "Pas tout à fait. La CEDEAO ne crée pas une monnaie unique, ne restreint pas la libre circulation, et ne force pas une langue unique. Son vrai objectif est de promouvoir l'intégration économique et la libre circulation des personnes et des biens entre les pays membres, pour renforcer la région."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚶",
+        "text": "Libre circulation des personnes entre pays d'Afrique de l'Ouest"
+      },
+      {
+        "icon": "🤝",
+        "text": "Organisation régionale fondée en 1975 pour l'intégration économique"
+      },
+      {
+        "icon": "✈️",
+        "text": "Facilite les échanges et réduit les formalités aux frontières"
+      }
+    ]
   }
 }

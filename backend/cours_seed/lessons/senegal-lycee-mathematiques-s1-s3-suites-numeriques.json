@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! En utilisant la formule $u_n = u_1 + (n-1) \\times r$, on obtient $u_5 = 12 + (5-1) \\times 5 = 12 + 20 = 32$. Tu maîtrises bien le calcul des termes d'une suite arithmétique.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule du terme général : $u_n = u_1 + (n-1) \\times r$. Pour $u_5$ avec $u_1 = 12$ et $r = 5$, tu calcules $u_5 = 12 + (5-1) \\times 5 = 12 + 20 = 32$. Refais le calcul étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une suite numérique est une liste ordonnée de nombres selon une règle précise."
+      },
+      {
+        "icon": "📍",
+        "text": "Chaque nombre a une position désignée par un indice dans la suite."
+      },
+      {
+        "icon": "🔮",
+        "text": "Les suites permettent de prévoir l'évolution d'une situation étape par étape."
+      }
+    ]
   }
 }

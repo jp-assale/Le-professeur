@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La dissertation littéraire suit une structure précise : tu poses clairement la question en introduction, tu réponds par une thèse affirmée, puis tu la prouves dans le développement avec des exemples concrets tirés du texte, et tu termines en rappelant ton idée principale. C'est cette organisation qui rend ta réponse convaincante et conforme aux attentes du Baccalauréat.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi qu'une dissertation n'est pas un simple résumé ou une liste d'outils littéraires. Elle doit répondre à une question précise en présentant une thèse (ta position), en la soutenant avec des preuves du texte au développement, et en la rappelant à la conclusion. C'est une argumentation structurée, pas une impression générale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❓",
+        "text": "Répondre à une question sur un texte avec des preuves."
+      },
+      {
+        "icon": "🧩",
+        "text": "Construire une argumentation organisée et logique."
+      },
+      {
+        "icon": "💡",
+        "text": "Analyser en profondeur pour convaincre par l'écrit."
+      }
+    ]
   }
 }

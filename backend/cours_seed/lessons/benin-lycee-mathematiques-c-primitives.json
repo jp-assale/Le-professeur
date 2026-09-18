@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la règle : pour $6x$, augmente l'exposant de 1 et divise par 2, ce qui donne $3x^2$. Pour $-4$, multiplie par $x$, ce qui donne $-4x$. N'oublie jamais la constante $C$.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi la méthode : pour chaque terme $ax^n$, la primitive est $\frac{a}{n+1}x^{n+1}$. Pour $6x$ (où l'exposant est 1), tu dois obtenir $\frac{6}{2}x^2 = 3x^2$. Pour une constante comme $-4$, la primitive est $-4x$. Réessaie avec cette méthode."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Une primitive est l'opération inverse de la dérivation."
+      },
+      {
+        "icon": "📍",
+        "text": "Connaître la vitesse permet de retrouver la distance parcourue."
+      },
+      {
+        "icon": "∞",
+        "text": "Infinité de primitives différant d'une constante arbitraire."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Après avoir tiré une boule rouge sans la remettre, il reste 9 boules dans l'urne dont 5 rouges. La probabilité conditionnelle est donc P(deuxième rouge | première rouge) = 5/9. Tu as bien appliqué le principe : on restreint l'urne à son état après le premier tirage.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi : après le tirage de la première boule rouge, l'urne ne contient plus 10 boules mais 9. Et parmi ces 9, il y a maintenant 5 boules rouges (on en a enlevé une). La probabilité conditionnelle doit tenir compte de ce nouvel état : P(deuxième rouge | première rouge) = 5/9."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧬",
+        "text": "Une information supplémentaire change la probabilité d'un événement."
+      },
+      {
+        "icon": "📊",
+        "text": "La probabilité conditionnelle restreint l'univers aux cas satisfaisant la condition."
+      },
+      {
+        "icon": "🎯",
+        "text": "Elle répond : quelle probabilité sachant qu'un événement s'est produit."
+      }
+    ]
   }
 }

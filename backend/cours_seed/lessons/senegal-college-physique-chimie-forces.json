@@ -53,5 +53,21 @@
     ],
     "feedback_correct": "Exactement ! Lorsque deux forces colinéaires équilibrent un objet, elles doivent avoir la même intensité. Ici, F2 = F1 = 25 N. La seule différence est leur direction opposée : si F1 pointe vers le bas, F2 pointe vers le haut.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'équilibre de deux forces colinéaires exige que leurs intensités soient égales. Puisque F1 = 25 N, alors F2 doit aussi valoir 25 N, mais en sens opposé. Relire la condition d'équilibre t'aidera."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Une force a une intensité, direction et sens mesurables."
+      },
+      {
+        "icon": "⚖️",
+        "text": "L'équilibre nécessite deux forces égales et opposées."
+      },
+      {
+        "icon": "🧍",
+        "text": "Objet immobile quand les forces se compensent parfaitement."
+      }
+    ]
   }
 }

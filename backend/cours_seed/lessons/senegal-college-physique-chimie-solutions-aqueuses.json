@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : $C_m = \\frac{8 \\text{ g}}{0,2 \\text{ L}} = 40$ g/L. N'oublie pas de toujours convertir le volume en litres avant de calculer.",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti 200 mL en litres (0,2 L), puis applique $C_m = \\frac{m_{soluté}}{V_{solution}} = \\frac{8}{0,2} = 40$ g/L. La concentration massique se mesure en grammes par litre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🥤",
+        "text": "Une solution mélange un soluté et un solvant de façon homogène."
+      },
+      {
+        "icon": "👀",
+        "text": "Le soluté disparaît complètement à l'échelle moléculaire dans la solution."
+      },
+      {
+        "icon": "📏",
+        "text": "La concentration mesure la quantité de soluté dissoute dans la solution."
+      }
+    ]
   }
 }

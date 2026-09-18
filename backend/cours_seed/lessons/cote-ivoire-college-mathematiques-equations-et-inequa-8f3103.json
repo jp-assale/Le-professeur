@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Puisque 3(0) + 4(0) = 0 et que 0 ≤ 24 est vrai, le couple (0 ; 0) est bien dans la région solution de l'inéquation 3x + 4y ≤ 24. C'est une méthode utile pour identifier rapidement quelle région du plan contient les solutions.",
     "feedback_wrong": "Relis bien le calcul : 3(0) + 4(0) = 0, et nous demandons si 0 ≤ 24. Cette inégalité est vraie, donc le couple (0 ; 0) satisfait bien l'inéquation 3x + 4y ≤ 24. Retiens que pour vérifier si un couple appartient à la région solution, il suffit de le substituer dans l'inéquation et vérifier si l'inégalité est satisfaite."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une équation ou inéquation à deux variables lie x et y."
+      },
+      {
+        "icon": "✅",
+        "text": "Résoudre, c'est trouver tous les couples (x ; y) solutions."
+      },
+      {
+        "icon": "📈",
+        "text": "Les solutions forment une droite ou une région du plan."
+      }
+    ]
   }
 }

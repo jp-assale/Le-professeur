@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour trouver le pourcentage, tu divises la valeur du patient par le minimum normal : (150 / 800) × 100 = 18,75 %. Ce résultat montre que la défense immunitaire est gravement compromise, ce qui caractérise une immunodéficience.",
     "feedback_wrong": "Pas tout à fait. Le calcul est : (150 / 800) × 100. Le minimum normal pour un patient sain est 800 cellules/mm³. Divise le nombre du patient par ce minimum, puis multiplie par 100 pour obtenir le pourcentage. Tu devrais trouver 18,75 %."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛡️",
+        "text": "Ton corps a des barrières naturelles et un système immunitaire sophistiqué."
+      },
+      {
+        "icon": "🔍",
+        "text": "Des cellules spécialisées reconnaissent et éliminent les pathogènes intrus."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Le dysfonctionnement immunitaire provoque défaillance, allergie ou absence de réponse."
+      }
+    ]
   }
 }

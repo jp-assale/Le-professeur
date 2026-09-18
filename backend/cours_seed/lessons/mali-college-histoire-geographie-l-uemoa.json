@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! La monnaie commune élimine les frais de conversion et rend les échanges plus rapides et moins coûteux. C'est un des grands avantages de l'intégration économique régionale.",
     "feedback_wrong": "Pas tout à fait. Réfléchis à ce qui se passe quand tu franchis une frontière avec la même monnaie dans ta poche : tu n'as pas besoin de la changer. Cela réduit les coûts et accélère le commerce. C'est l'avantage principal de partager une monnaie commune."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💱",
+        "text": "Plusieurs pays d'Afrique de l'Ouest partagent le franc CFA."
+      },
+      {
+        "icon": "🤝",
+        "text": "L'UEMOA unit les économies pour renforcer leur puissance collective."
+      },
+      {
+        "icon": "🛫",
+        "text": "Cette coopération facilite les voyages et échanges commerciaux régionaux."
+      }
+    ]
   }
 }

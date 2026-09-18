@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la relation de récurrence deux fois : $v_2 = 0,5 \\times 100 = 50$, puis $v_3 = 0,5 \\times 50 = 25$. Cette suite est décroissante et converge vers 0.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois appliquer la relation de récurrence deux fois pour passer de $v_1$ à $v_3$ : d'abord $v_2 = 0,5 \\times v_1$, puis $v_3 = 0,5 \\times v_2$. Recalcule étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une suite est une liste ordonnée de nombres avec une règle précise."
+      },
+      {
+        "icon": "🔄",
+        "text": "Chaque terme dépend du précédent selon une relation de récurrence."
+      },
+      {
+        "icon": "📈",
+        "text": "Analyser monotonie, convergence et définition pour comprendre son comportement."
+      }
+    ]
   }
 }

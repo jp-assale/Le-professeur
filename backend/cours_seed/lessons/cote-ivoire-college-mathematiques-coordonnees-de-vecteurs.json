@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule : DC = C - D = (4 - 1 ; 6 - 2) = (3 ; 4). La coordonnée x change de 3 unités vers l'est et la coordonnée y change de 4 unités vers le nord. Tu maîtrises bien le calcul des coordonnées d'un vecteur.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que pour trouver les coordonnées de DC, tu dois soustraire les coordonnées du point de départ D aux coordonnées du point d'arrivée C : DC = C - D. Cela donne (4 - 1 ; 6 - 2) = (3 ; 4). Fais attention à l'ordre : toujours arrivée moins départ."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Un vecteur se décrit par deux nombres : déplacement horizontal et vertical."
+      },
+      {
+        "icon": "🔢",
+        "text": "Les coordonnées permettent de donner des instructions précises sans dessiner."
+      },
+      {
+        "icon": "📐",
+        "text": "Dans un repère (O ; i, j), chaque vecteur a des coordonnées uniques."
+      }
+    ]
   }
 }

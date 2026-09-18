@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la formule du module. Avec $a = -2$ et $b = 2$, le module est $|z| = \\sqrt{(-2)^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. Le module est toujours positif, même si la partie réelle est négative.",
     "feedback_wrong": "Pas tout à fait. Utilise la formule $|z| = \\sqrt{a^2 + b^2}$. Ici, $a = -2$ et $b = 2$, donc $|z| = \\sqrt{(-2)^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. N'oublie pas que le carré d'un nombre négatif est positif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Un nombre complexe combine une partie réelle et une partie imaginaire."
+      },
+      {
+        "icon": "📊",
+        "text": "Le plan complexe représente géométriquement chaque nombre comme un point."
+      },
+      {
+        "icon": "📐",
+        "text": "Le module et l'argument décrivent la distance et l'orientation du vecteur."
+      }
+    ]
   }
 }

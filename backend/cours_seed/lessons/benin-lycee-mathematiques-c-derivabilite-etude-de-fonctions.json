@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! En calculant $g(1) = 1 + 4 = 5$, puis $g(1+h) = (1+h)^2 + 4(1+h) = 1 + 2h + h^2 + 4 + 4h = 5 + 6h + h^2$, on obtient $\\frac{g(1+h) - g(1)}{h} = \\frac{6h + h^2}{h} = 6 + h$. En passant à la limite, $g'(1) = 6$. Tu maîtrises bien la définition !",
     "feedback_wrong": "Pas tout à fait. Reprends le calcul étape par étape : d'abord $g(1) = 5$, puis $g(1+h) = 5 + 6h + h^2$. La différence divisée par h donne $6 + h$, et la limite quand $h \\to 0$ vaut 6. La réponse est 6."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "La dérivée mesure la vitesse instantanée de variation d'une grandeur."
+      },
+      {
+        "icon": "📈",
+        "text": "Géométriquement, elle représente la pente de la tangente à la courbe."
+      },
+      {
+        "icon": "✓",
+        "text": "Une fonction est dérivable si sa courbe n'a pas de cassures."
+      }
+    ]
   }
 }

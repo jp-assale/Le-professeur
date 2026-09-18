@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Selon l'équation bilan, 1 mol de A produit 1 mol de C. Si 0,2 mol/L de A a réagi, alors 0,2 mol/L de C s'est formée. Tu maîtrises la stœchiométrie des équilibres chimiques.",
     "feedback_wrong": "Pas tout à fait. Regarde la stœchiométrie de la réaction : $A + B \\rightleftharpoons C + D$. Si 0,2 mol/L de A réagit, combien de moles de C se forment ? Rappelle-toi que les coefficients stœchiométriques sont 1 pour chaque espèce."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Les réactifs et produits s'équilibrent quand les vitesses deviennent égales."
+      },
+      {
+        "icon": "🔄",
+        "text": "À l'échelle moléculaire, la réaction continue toujours dans les deux sens."
+      },
+      {
+        "icon": "🌡️",
+        "text": "La constante d'équilibre K dépend uniquement de la température du système."
+      }
+    ]
   }
 }

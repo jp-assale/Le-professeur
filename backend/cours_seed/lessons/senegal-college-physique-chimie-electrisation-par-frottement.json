@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement multiplié $N × e = 5 × 10^{12} × 1,6 × 10^{-19} = 8 × 10^{-7}$ C. Le peigne accumule une charge négative puisqu'il reçoit des électrons des cheveux. C'est de l'électrisation par frottement : les charges s'accumulent et restent immobiles sur le peigne.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que tu dois multiplier le nombre d'électrons par la charge d'un électron : $Q = N × e = 5 × 10^{12} × 1,6 × 10^{-19}$. Calcule les chiffres : $5 × 1,6 = 8$. Puis combine les puissances de 10 : $10^{12} × 10^{-19} = 10^{-7}$. Le résultat est donc $8 × 10^{-7}$ C."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Le frottement arrache ou ajoute des électrons aux atomes."
+      },
+      {
+        "icon": "➕➖",
+        "text": "Les corps deviennent chargés positivement ou négativement."
+      },
+      {
+        "icon": "🔌",
+        "text": "Le courant électrique fait circuler les charges dans un conducteur."
+      }
+    ]
   }
 }

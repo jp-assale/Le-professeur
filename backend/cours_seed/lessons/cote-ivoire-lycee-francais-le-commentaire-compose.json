@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le commentaire composé n'est pas une simple résumé ni un jugement personnel. C'est une analyse méthodique qui relie les techniques littéraires (images, rythme, vocabulaire, figures de style) au sens global du texte et à l'effet qu'il produit sur le lecteur.",
     "feedback_wrong": "Pas tout à fait. Le commentaire composé va bien plus loin qu'un résumé ou un avis. C'est un véritable travail d'analyse où tu dois identifier les procédés littéraires (métaphores, allitérations, rythme, etc.) et montrer précisément comment ils contribuent au sens et à l'impact du texte. C'est cette démonstration systématique qui fait la qualité de ton commentaire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Analyser le texte en expliquant les raisons de ses effets."
+      },
+      {
+        "icon": "🎨",
+        "text": "Identifier les procédés d'écriture et figures de style utilisés."
+      },
+      {
+        "icon": "📊",
+        "text": "Organiser l'analyse autour d'axes de lecture cohérents et progressifs."
+      }
+    ]
   }
 }

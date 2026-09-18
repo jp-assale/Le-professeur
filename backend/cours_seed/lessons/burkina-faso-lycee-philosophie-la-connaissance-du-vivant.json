@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. C'est la tension centrale du chapitre : le vivant n'est pas réductible à un simple mécanisme. Il organise lui-même ses éléments vers une fin (se nourrir, se reproduire, s'adapter). Connaître le vivant exige donc de dépasser une approche purement analytique et mécaniste, tout en gardant la rigueur rationnelle. C'est ce qui fait la richesse et la difficulté de cette connaissance.",
     "feedback_wrong": "Pas tout à fait. La question philosophique centrale n'est pas l'instrument de connaissance, ni la rivalité entre savoirs. C'est la nature même du vivant : il possède une organisation interne et une orientation vers des fins (sa propre survie, sa reproduction) que les objets inertes n'ont pas. Cela signifie que le décrire comme une pure mécanique, c'est risquer de passer à côté de ce qui le définit vraiment."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌱",
+        "text": "Le vivant change, se reproduit, s'adapte et meurt constamment."
+      },
+      {
+        "icon": "🔍",
+        "text": "Connaître le vivant nécessite de trouver les bonnes méthodes d'étude."
+      },
+      {
+        "icon": "❓",
+        "text": "Qu'est-ce qui caractérise vraiment un être vivant ? Mystère."
+      }
+    ]
   }
 }

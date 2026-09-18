@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien compris. Puisque côté² = 225, il faut calculer $\\sqrt{225}$. Or 15 × 15 = 225, donc $\\sqrt{225} = 15$ m. Le côté du champ mesure 15 m.",
     "feedback_wrong": "Ce n'est pas bon. Rappelle-toi : l'aire d'un carré = côté². Ici, côté² = 225. Tu dois trouver le nombre qui, multiplié par lui-même, donne 225. Essaie : 15 × 15 = 225, donc $\\sqrt{225} = 15$ m."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "La racine carrée trouve le côté d'un carré connaissant son aire."
+      },
+      {
+        "icon": "✖️",
+        "text": "Un nombre multiplié par lui-même donne la racine carrée inversée."
+      },
+      {
+        "icon": "🔧",
+        "text": "Les racines carrées résolvent des problèmes pratiques de construction quotidienne."
+      }
+    ]
   }
 }

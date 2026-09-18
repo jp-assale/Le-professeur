@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : $M(5) = 500 \\times e^{-0,2 \\times 5} = 500 \\times e^{-1}$. Or $e^{-1} = \\frac{1}{e} \\approx \\frac{1}{2,718} \\approx 0,368$. Donc $M(5) \\approx 500 \\times 0,368 = 184$ grammes. L'exposant négatif ralentit la décroissance, c'est typique des phénomènes de radioactivité.",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu substitues correctement $t = 5$ : l'exposant devient $-0,2 \\times 5 = -1$. Puis calcule $e^{-1} = \\frac{1}{e} \\approx 0,368$ (attention au signe négatif !). Enfin, multiplie : $500 \\times 0,368 \\approx 184$ grammes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La croissance exponentielle double régulièrement, comme l'épidémie."
+      },
+      {
+        "icon": "🔢",
+        "text": "La fonction e^x croît proportionnellement à sa valeur actuelle."
+      },
+      {
+        "icon": "🌍",
+        "text": "Les exponentielles modélisent épidémies, intérêts et populations."
+      }
+    ]
   }
 }

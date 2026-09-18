@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les nombres pairs sur un dé sont 2, 4 et 6 : c'est 3 cas favorables sur 6 cas possibles. P(pair) = 3/6 = 1/2. Tu as bien appliqué la formule.",
     "feedback_wrong": "Pas tout à fait. Sur un dé, les nombres pairs sont 2, 4 et 6. C'est donc 3 cas favorables parmi 6 cas possibles au total. P(pair) = 3/6, qui se simplifie en 1/2. Réfléchis aux cas où le dé montre un nombre pair."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎲",
+        "text": "La probabilité mesure la chance qu'un événement se produise."
+      },
+      {
+        "icon": "📊",
+        "text": "Elle est un nombre entre 0 et 1 ou 0% et 100%."
+      },
+      {
+        "icon": "🧮",
+        "text": "Cas favorables divisés par cas possibles égale probabilité."
+      }
+    ]
   }
 }

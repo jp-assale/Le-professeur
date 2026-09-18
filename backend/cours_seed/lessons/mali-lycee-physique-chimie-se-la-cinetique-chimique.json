@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Δ[composé] = 2,4 - 4,2 = -1,8 mol·L⁻¹ ; Δt = 6 - 0 = 6 min. Vitesse = |−1,8| / 6 = 0,3 mol·L⁻¹·min⁻¹. Tu as bien appliqué la formule en prenant la valeur absolue de la variation de concentration.",
     "feedback_wrong": "Pas tout à fait. Calcule d'abord la variation de concentration en valeur absolue : |2,4 - 4,2| = 1,8 mol·L⁻¹. Puis divise par l'intervalle de temps : 1,8 / 6 = 0,3 mol·L⁻¹·min⁻¹. Relis la formule v = Δc / Δt et réessaie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏱️",
+        "text": "Chaque réaction chimique a sa propre vitesse de déroulement."
+      },
+      {
+        "icon": "🧪",
+        "text": "La vitesse dépend de la température, concentration et catalyseurs."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Contrôler la vitesse est essentiel en industrie et pharmacie."
+      }
+    ]
   }
 }

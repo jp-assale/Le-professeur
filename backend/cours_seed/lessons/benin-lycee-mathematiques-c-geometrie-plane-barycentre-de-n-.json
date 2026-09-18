@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule. $x_G = (4 \\times 0 + 2 \\times 6) / (4 + 2) = 12 / 6 = 2$. Le point avec la plus grande masse (P) « attire » le barycentre vers lui, mais Q l'influence aussi. C'est pourquoi le résultat n'est pas au milieu.",
     "feedback_wrong": "Pas tout à fait. Reprends la formule du barycentre en abscisse : $x_G = (m_1 x_1 + m_2 x_2) / (m_1 + m_2)$. Ici, $x_G = (4 \\times 0 + 2 \\times 6) / (4 + 2) = 12 / 6 = 2$. N'oublie pas que la masse la plus importante influence davantage la position du barycentre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le barycentre est le point d'équilibre d'un système de points pondérés."
+      },
+      {
+        "icon": "📍",
+        "text": "Il représente le centre de gravité où les masses s'équilibrent parfaitement."
+      },
+      {
+        "icon": "🔄",
+        "text": "Le barycentre unifie l'étude des symétries, rotations et coniques."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Les nombres −8 (entier), 5/3 (fraction), et π (irrationnel) appartiennent tous à ℝ. En revanche, i est l'unité imaginaire : c'est un nombre complexe qui ne se place pas sur la droite numérique réelle. Il appartient à un ensemble plus grand, ℂ (les nombres complexes), mais pas à ℝ.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que ℝ contient tous les entiers (comme −8), toutes les fractions (comme 5/3), et tous les nombres irrationnels (comme π). Le seul nombre parmi les options qui n'est PAS réel est i, l'unité imaginaire, qui appartient aux nombres complexes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Les nombres réels mesurent toutes les grandeurs réelles, même irrationnelles."
+      },
+      {
+        "icon": "📊",
+        "text": "ℝ contient entiers, fractions et nombres irrationnels comme √2 ou π."
+      },
+      {
+        "icon": "📈",
+        "text": "Chaque nombre réel correspond à un point unique sur la droite numérique."
+      }
+    ]
   }
 }

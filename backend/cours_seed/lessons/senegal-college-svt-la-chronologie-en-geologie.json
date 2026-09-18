@@ -66,5 +66,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué le principe fondamental de la stratigraphie : dans une série de couches non perturbées, la plus basse est toujours la plus ancienne. La couche 1 au bas s'est formée en premier, puis la couche 2 (180 millions d'années), puis la couche 3 (100 millions d'années), et enfin la couche 4 au sommet. Les fossiles confirment cet ordre puisque 180 millions > 100 millions.",
     "feedback_wrong": "Réfléchis bien. La règle est simple : dans une pile de couches non perturbées, celle qui est tout en bas s'est toujours déposée en premier, et celle au sommet est la plus récente. Ici, la couche 1 est au bas, donc elle est la plus ancienne. La couche 4 est au haut, donc elle est la plus récente. Les fossiles (180 millions pour la couche 2, 100 millions pour la couche 3) respectent aussi cet ordre : les plus anciens fossiles sont dans les couches plus basses."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "La chronologie en géologie détermine l'âge des roches et fossiles."
+      },
+      {
+        "icon": "🔄",
+        "text": "La chronologie relative établit l'ordre sans donner l'âge exact."
+      },
+      {
+        "icon": "📏",
+        "text": "La chronologie absolue donne un âge précis en années."
+      }
+    ]
   }
 }

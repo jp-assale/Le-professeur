@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Une lettre privée peut être personnelle, chaleureuse, utiliser des expressions affectueuses. Une lettre officielle reste formelle, structurée, avec des formules de politesse et un ton neutre. La différence de ton et de formules reflète la nature de la relation et du message.",
     "feedback_wrong": "Non. La nature de la lettre change le ton et les formules utilisées. Une lettre à un proche permet plus de chaleur et de liberté, tandis qu'une lettre administrative exige le respect strict de la formalité. Relis la distinction entre lettre privée et lettre officielle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📋",
+        "text": "Une lettre respecte une structure fixe : en-tête, date, destinataire, signature."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le ton varie selon le contexte : chaleureux pour famille, formel pour administration."
+      },
+      {
+        "icon": "✉️",
+        "text": "Une lettre bien structurée se fait prendre au sérieux et obtient réponse."
+      }
+    ]
   }
 }

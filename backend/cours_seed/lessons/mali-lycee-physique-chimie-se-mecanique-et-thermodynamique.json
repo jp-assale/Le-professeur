@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'énergie cinétique se calcule avec $E_c = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 500 \\times 6^2 = 250 \\times 36 = 9000 \\, \\text{J}$. C'est l'énergie que le moteur du bajaj doit fournir pour accélérer la charge.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que l'énergie cinétique dépend de la masse et du carré de la vitesse : $E_c = \\frac{1}{2}mv^2$. Ici, $E_c = \\frac{1}{2} \\times 500 \\times 6^2 = \\frac{1}{2} \\times 500 \\times 36 = 9000 \\, \\text{J}$. Le carré de la vitesse est crucial : c'est pourquoi doubler la vitesse quadruple l'énergie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚙️",
+        "text": "La mécanique étudie le mouvement des objets sous l'action des forces."
+      },
+      {
+        "icon": "🔥",
+        "text": "La thermodynamique transforme la chaleur en travail mécanique utile."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'énergie chimique du carburant devient mouvement via ces deux disciplines."
+      }
+    ]
   }
 }

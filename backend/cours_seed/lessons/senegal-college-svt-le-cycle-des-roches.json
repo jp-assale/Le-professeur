@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Quand des grains de sable s'accumulent et sont compactés par le poids des couches au-dessus pendant longtemps, ils se cimentent ensemble pour former le grès, une roche sédimentaire typique. C'est un exemple parfait d'une roche qui naît par l'érosion et la sédimentation.",
     "feedback_wrong": "Pas tout à fait. Le granite se forme par refroidissement du magma (roche magmatique), le calcaire par cristallisation ou accumulation de coquilles (roche sédimentaire), et le marbre par transformation sous chaleur (roche métamorphique). Dans ce cas, le sable compacté devient du grès, une roche sédimentaire. Relis la définition du cycle : l'accumulation et la compaction de débris = sédimentaire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Les roches se transforment continuellement les unes en les autres."
+      },
+      {
+        "icon": "🪨",
+        "text": "Trois types de roches : magmatiques, sédimentaires, métamorphiques."
+      },
+      {
+        "icon": "⏱️",
+        "text": "Ce cycle dure depuis des millions d'années sans arrêt."
+      }
+    ]
   }
 }

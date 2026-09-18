@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les quatre caractéristiques sont : la source, le régime, l'embouchure et le delta. La longueur n'est pas une caractéristique définissante — deux fleuves différents peuvent avoir des longueurs très différentes. Ce qui compte, c'est comment et où l'eau s'y coule.",
     "feedback_wrong": "Pas tout à fait. Vérifie : source, régime, embouchure et delta — ce sont les quatre piliers. La longueur n'en fait pas partie. Relis le concept pour être sûr."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌊",
+        "text": "Le Niger façonne la vie des villages avec ses crues annuelles."
+      },
+      {
+        "icon": "🗺️",
+        "text": "Un fleuve a une source, un régime, une embouchure et un delta."
+      },
+      {
+        "icon": "🌍",
+        "text": "Comprendre les fleuves, c'est comprendre l'Afrique et ses défis."
+      }
+    ]
   }
 }

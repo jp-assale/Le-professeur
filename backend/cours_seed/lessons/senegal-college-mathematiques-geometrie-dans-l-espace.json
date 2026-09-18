@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La formule du volume d'un cylindre est V = $\\pi r^2 h$. Ici : V = 3,14 × $2^2$ × 5 = 3,14 × 4 × 5 = 62,8 $m^3$. Tu as bien appliqué la formule.",
     "feedback_wrong": "Pas tout à fait. Pour un cylindre, utilise la formule V = $\\pi r^2 h$, où r est le rayon (2 m) et h est la hauteur (5 m). Le calcul donne : V = 3,14 × 4 × 5 = 62,8 $m^3$. La surface de la base est $\\pi r^2$, pas le rayon seul."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📦",
+        "text": "Les solides ont trois dimensions : longueur, largeur et hauteur."
+      },
+      {
+        "icon": "🏠",
+        "text": "Cube, pyramide, cylindre sont les principaux solides de l'espace."
+      },
+      {
+        "icon": "📐",
+        "text": "On calcule le volume, la surface latérale et l'aire totale."
+      }
+    ]
   }
 }

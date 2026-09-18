@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Le cœur du problème n'est pas de savoir si les autres existent — tu le sais bien — mais comment tu peux vraiment reconnaître leur humanité, leur conscience propre, et les traiter avec respect alors que tu n'accèdes jamais à leur expérience intérieure de la même façon qu'à la tienne.",
     "feedback_wrong": "Pas tout à fait. Le problème philosophique d'Autrui ne s'agit pas de contrôler les autres, de les utiliser, ou de prouver leur existence de manière scientifique. C'est plutôt de comprendre comment reconnaître et respecter la conscience d'une autre personne — sa liberté et sa dignité — malgré le fait que je ne peux jamais entrer complètement dans son esprit."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "Autrui possède une conscience et des pensées qui m'échappent."
+      },
+      {
+        "icon": "❓",
+        "text": "Comment reconnaître l'existence réelle de la conscience d'autrui ?"
+      },
+      {
+        "icon": "🤝",
+        "text": "Respecter la liberté et l'humanité de l'autre malgré l'incompréhension totale."
+      }
+    ]
   }
 }

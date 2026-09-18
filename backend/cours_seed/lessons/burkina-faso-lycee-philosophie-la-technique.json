@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as saisi le cœur de la notion. La technique n'est pas définie par la modernité ou par la machine, mais par la façon dont l'humain agit de manière réfléchie et intentionnelle sur le monde. C'est ce qui nous distingue vraiment.",
     "feedback_wrong": "Pas tout à fait. Relis bien la définition : la technique est avant tout une démarche humaine qui combine intention, savoir-faire et transformation. Les machines n'en sont qu'une forme parmi d'autres. Un paysan avec une daba est tout aussi technique qu'un ingénieur avec une machine."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "La technique est un savoir-faire humain qui s'apprend et se transmet."
+      },
+      {
+        "icon": "🔧",
+        "text": "C'est bien plus que l'outil : c'est une démarche rationnelle intentionnelle."
+      },
+      {
+        "icon": "🎯",
+        "text": "Elle transforme la nature pour atteindre un but précis."
+      }
+    ]
   }
 }

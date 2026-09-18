@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement utilisé la formule F = m × a en la réarrangeant pour trouver a = F / m. Avec F = 50 N et m = 20 kg, tu obtiens a = 50 / 20 = 2,5 m/s². C'est cette accélération qui permet au vélo de prendre de la vitesse.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que la deuxième loi de Newton s'écrit F = m × a. Pour trouver l'accélération, tu dois réarranger la formule : a = F / m. En remplaçant par tes valeurs : a = 50 / 20 = 2,5 m/s². Refais le calcul étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚗",
+        "text": "La mécanique explique pourquoi les objets bougent autour de nous."
+      },
+      {
+        "icon": "⚖️",
+        "text": "La deuxième loi de Newton lie force, masse et accélération."
+      },
+      {
+        "icon": "💡",
+        "text": "Comprendre les forces, c'est comprendre tous les mouvements."
+      }
+    ]
   }
 }

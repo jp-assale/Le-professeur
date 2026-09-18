@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. Les auteurs africains du programme (comme Cheikh Aliou Ndao avec son Exil d'Albouri, ou Dadié avec Monsieur Thôgô-gnini) réapproprient le théâtre européen — hérité de la colonisation — pour en faire un espace de parole sur l'identité, les traditions oubliées, la langue nationale et la critique du pouvoir colonial ou post-colonial. C'est une démarche créative de résistance et de reconstruction.",
     "feedback_wrong": "Pas tout à fait. Les auteurs africains ne rejettent pas le théâtre occidental, ni ne le copient servilement. Ils se l'approprient comme un outil puissant pour explorer leurs propres enjeux : l'identité, la colonialité, la langue, le rapport aux traditions. C'est une dynamique créative, pas une opposition simple."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎭",
+        "text": "Le théâtre explore les mêmes questions humaines à travers les siècles."
+      },
+      {
+        "icon": "⚡",
+        "text": "Des auteurs européens et africains donnent des réponses différentes aux mêmes enjeux."
+      },
+      {
+        "icon": "🎬",
+        "text": "Le théâtre est action vivante devant un public, pas seulement texte écrit."
+      }
+    ]
   }
 }

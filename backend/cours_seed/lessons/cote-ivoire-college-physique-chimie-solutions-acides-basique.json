@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Une solution avec pH = 13 est basique puisque 13 est supérieur à 7. Les solutions basiques (comme l'eau de Javel) sont causticuses et peuvent brûler la peau ; c'est pourquoi il faut les manipuler avec des gants de protection.",
     "feedback_wrong": "Attention : une solution est basique si son pH est supérieur à 7. Ici, pH = 13 > 7, donc l'eau de Javel est basique, non acide ni neutre. Les solutions basiques sont dangereuses car elles contiennent une forte concentration en ions OH-, ce qui les rend corrosives."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧪",
+        "text": "Une solution est un mélange homogène d'une substance dissoute dans l'eau."
+      },
+      {
+        "icon": "⚗️",
+        "text": "Le caractère acide ou basique dépend des ions H+ et OH- présents."
+      },
+      {
+        "icon": "📏",
+        "text": "L'échelle de pH de 0 à 14 classe les solutions selon leur caractère."
+      }
+    ]
   }
 }

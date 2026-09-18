@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le Sénégal illustre parfaitement la décolonisation pacifique. Par étapes successives (droit de vote en 1944, autonomie interne en 1956, indépendance en 1960), les Sénégalais ont obtenu leur liberté sans affrontement militaire généralisé. Cela contraste avec l'Algérie (8 ans de guerre) ou l'Indochine. La clé : un dialogue politique continu et des leaders forts comme Senghor.",
     "feedback_wrong": "Pas tout à fait. Regarde bien le parcours : 1944 (droit de vote accordé), 1956 (autonomie interne), 1960 (indépendance proclamée sans rupture violente). Le Sénégal n'a pas connu de guerre de libération majeure. C'est justement ce qui le rend exemplaire dans le paysage africain de l'époque."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Après 1945, les peuples colonisés d'Afrique et d'Asie réclament l'indépendance."
+      },
+      {
+        "icon": "💪",
+        "text": "Les colonisés ont pris conscience de leur force et refusent la domination européenne."
+      },
+      {
+        "icon": "⚔️",
+        "text": "La décolonisation se fait par négociations pacifiques ou par guerres de libération."
+      }
+    ]
   }
 }

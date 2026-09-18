@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! On ne peut pas remplacer directement x = 3 (on obtiendrait 0/0). Il faut d'abord simplifier : x² - 9 = (x - 3)(x + 3), donc (x² - 9)/(x - 3) = (x - 3)(x + 3)/(x - 3) = x + 3 pour x ≠ 3. Quand x → 3, on obtient 3 + 3 = 6. La limite existe bien, même si la fonction n'est pas définie en x = 3.",
     "feedback_wrong": "Pas tout à fait. Il faut factoriser le numérateur : x² - 9 = (x - 3)(x + 3). Après simplification de la fraction (x - 3)(x + 3)/(x - 3), on obtient x + 3. En remplaçant x par 3, on trouve 3 + 3 = 6."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Une limite est la valeur vers laquelle une fonction tend progressivement."
+      },
+      {
+        "icon": "📏",
+        "text": "On peut rendre l'écart aussi petit qu'on le souhaite près du point."
+      },
+      {
+        "icon": "🔗",
+        "text": "La continuité existe quand limite et valeur de la fonction coïncident."
+      }
+    ]
   }
 }

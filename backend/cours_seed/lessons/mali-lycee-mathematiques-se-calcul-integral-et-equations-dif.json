@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as d'abord intégré $\\frac{dy}{dx} = 3x^2$ : $y = \\int 3x^2 \\, dx = x^3 + C$. Ensuite tu as utilisé la condition initiale $y(0) = 5$ pour trouver $C = 5$. D'où $y(x) = x^3 + 5$.",
     "feedback_wrong": "Attention. Tu dois intégrer $3x^2$ terme à terme. $\\int 3x^2 \\, dx = 3 \\cdot \\frac{x^3}{3} + C = x^3 + C$. Puis avec $y(0) = 5$, tu obtiens $C = 5$. La réponse est donc $y(x) = x^3 + 5$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "Une équation différentielle relie une fonction à sa variation instantanée."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'intégration est l'opération inverse de la dérivation."
+      },
+      {
+        "icon": "🎯",
+        "text": "Résoudre une équation différentielle, c'est trouver la fonction inconnue."
+      }
+    ]
   }
 }

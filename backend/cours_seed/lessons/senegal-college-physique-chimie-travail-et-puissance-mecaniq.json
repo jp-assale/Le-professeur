@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as d'abord calculé le travail : $W = F \\times d = 200 \\times 2 = 400$ J. Puis tu as trouvé la puissance : $P = \\frac{W}{t} = \\frac{400}{5} = 80$ W. C'est le bon raisonnement : d'abord le travail, ensuite la puissance en le divisant par le temps.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : commence par calculer le travail avec $W = F \\times d = 200 \\times 2 = 400$ J. Ensuite, divise ce travail par le temps : $P = \\frac{400}{5} = 80$ W. La puissance, c'est toujours le travail divisé par le temps."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚙️",
+        "text": "Le travail mesure l'énergie fournie pour déplacer un objet."
+      },
+      {
+        "icon": "⚡",
+        "text": "La puissance mesure la rapidité d'exécution du travail effectué."
+      },
+      {
+        "icon": "⏱️",
+        "text": "Même travail, moins de temps égale plus de puissance."
+      }
+    ]
   }
 }

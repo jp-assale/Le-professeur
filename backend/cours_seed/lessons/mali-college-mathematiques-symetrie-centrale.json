@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! La symétrie centrale conserve les distances. Un segment et son symétrique ont exactement la même longueur. Donc si AB = 8 cm, alors A'B' = 8 cm aussi.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi que la symétrie centrale est une transformation qui préserve les longueurs. Un segment et son image par symétrie centrale gardent la même mesure. Réfléchis : quelle doit être la longueur de A'B' ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Rotation de 180° autour d'un point central fixe."
+      },
+      {
+        "icon": "🪞",
+        "text": "La figure obtenue est identique mais en position inversée."
+      },
+      {
+        "icon": "🎨",
+        "text": "Symétrie centrale partout : architecture, ornements, nature."
+      }
+    ]
   }
 }

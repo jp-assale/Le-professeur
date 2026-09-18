@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule $f = \\frac{1}{C}$. Avec $C = +3$ dioptries, tu obtiens $f = \\frac{1}{3} \\approx 0,33$ m. Le signe positif indique des verres convergents (convexes), appropriés pour corriger l'hypermétropie en aidant l'œil à converger les rayons plus fortement.",
     "feedback_wrong": "Pas tout à fait. Utilise la formule $f = \\frac{1}{C}$ où $C = +3$ dioptries. Cela donne $f = \\frac{1}{3} \\approx 0,33$ m (et non -0,33 m). Le signe positif est crucial : il indique que ce sont des verres convergents (convexes), adaptés à l'hypermétropie. Attention à ne pas confondre le type de verres avec le signe de la vergence !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👁️",
+        "text": "L'œil normal forme l'image exactement sur la rétine."
+      },
+      {
+        "icon": "🔍",
+        "text": "Myopie et hypermétropie déplacent l'image avant ou après."
+      },
+      {
+        "icon": "👓",
+        "text": "Les verres corrigent les défauts en déviant les rayons."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La distance perpendiculaire du centre à la droite est de 7 cm, et le rayon est aussi de 7 cm. Quand la distance égale le rayon (h = r), la droite est tangente au cercle : elle le touche en un seul point, sans le traverser.",
     "feedback_wrong": "Pas tout à fait. Compare bien la distance perpendiculaire (7 cm) avec le rayon (7 cm). Quand ces deux longueurs sont égales, la droite ne traverse pas le cercle, elle le touche en un seul point : c'est la définition d'une droite tangente."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛣️",
+        "text": "Une droite et un cercle ont trois positions relatives possibles."
+      },
+      {
+        "icon": "📏",
+        "text": "La distance perpendiculaire du centre à la droite détermine tout."
+      },
+      {
+        "icon": "🔄",
+        "text": "Deux intersections, tangence ou pas de contact : trois situations."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tes reins ont augmenté la production d'urine pour éliminer l'excès d'eau et maintenir la concentration normale du sang. C'est la régulation du milieu intérieur en action : en modifiant le volume d'urine, tes reins gardent l'équilibre hydrique stable malgré les apports supplémentaires.",
     "feedback_wrong": "Pas tout à fait. Observe bien : quand tu bois beaucoup, tes reins produisent plus d'urine pour éliminer l'eau en excès. Leur rôle n'est pas de stocker l'eau ou de concentrer le sang davantage, mais de maintenir un équilibre constant du milieu intérieur en ajustant la quantité d'eau éliminée. C'est la régulation dont parle le chapitre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "♻️",
+        "text": "Le rein élimine les déchets du métabolisme sous forme d'urine."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Le rein régule l'eau, les sels minéraux et autres substances."
+      },
+      {
+        "icon": "❤️",
+        "text": "Cette régulation constante maintient ton corps en bonne santé."
+      }
+    ]
   }
 }

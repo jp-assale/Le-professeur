@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Excellent ! Voici comment tu résous ce problème : La masse molaire de CuO est $64 + 16 = 80$ g/mol. Le nombre de moles de CuO dans 240 g est $\\frac{240}{80} = 3$ mol. Selon l'équation, 2 moles de CuO produisent 2 moles de Cu (rapport 1:1). Donc 3 mol de CuO produit 3 mol de Cu. La masse de Cu est $3 \\times 64 = 192$ g. Le carbone a bien réduit l'oxyde de cuivre en enlevant tout l'oxygène.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : calcule d'abord la masse molaire de CuO ($64 + 16 = 80$ g/mol), puis le nombre de moles dans 240 g ($\\frac{240}{80} = 3$ mol), puis utilise le coefficient stœchiométrique (2 moles de CuO donnent 2 moles de Cu, donc 3 moles de CuO donnent 3 moles de Cu). Enfin, convertis en masse : $3 \\times 64 = 192$ g de Cu pur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧪",
+        "text": "Un oxyde combine un métal avec l'oxygène."
+      },
+      {
+        "icon": "⚡",
+        "text": "Réduire enlève l'oxygène pour récupérer le métal pur."
+      },
+      {
+        "icon": "🔄",
+        "text": "Un agent réducteur « prend » l'oxygène de l'oxyde."
+      }
+    ]
   }
 }

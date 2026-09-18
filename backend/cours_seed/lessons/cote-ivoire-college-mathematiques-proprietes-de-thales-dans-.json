@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bravo ! Tu as appliqué correctement la propriété de Thalès. Puisque (PQ) // (EF), on a DP/DE = DQ/DF. En remplaçant : 6/15 = 8/DF. Par le produit en croix : 6 × DF = 15 × 8 = 120, donc DF = 120 ÷ 6 = 20 cm. Tu maîtrises le théorème !",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que lorsque (PQ) est parallèle à (EF), les rapports des segments doivent être égaux : DP/DE = DQ/DF. Ici, 6/15 = 8/DF. Utilise le produit en croix pour trouver DF = 20 cm. Refais le calcul étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Une droite parallèle au troisième côté crée des segments proportionnels."
+      },
+      {
+        "icon": "🔄",
+        "text": "La réciproque fonctionne : rapports égaux signifient droites parallèles."
+      },
+      {
+        "icon": "📏",
+        "text": "Calculer des distances sans mesurer directement grâce à la proportionnalité."
+      }
+    ]
   }
 }

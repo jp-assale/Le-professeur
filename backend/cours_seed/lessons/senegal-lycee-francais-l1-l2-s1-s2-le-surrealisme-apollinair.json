@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien identifié le cœur du Surréalisme : l'abandon volontaire de la logique pour créer des images étranges et explorer l'inconscient. Les nuages qui mangent, les routes qui prient : ce sont des associations impossibles dans la réalité, mais possibles dans le rêve et l'imagination surréaliste.",
     "feedback_wrong": "Pas tout à fait. Regarde : les nuages mangent les cloches, les routes deviennent des prières. Ce ne sont pas des images réalistes ni classiques. Le Surréalisme, c'est justement le rejet de la logique ordinaire pour accéder à l'inconscient par des associations bizarres et des images de rêve. C'est ce qui rend ce texte surréaliste."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "Explorer l'inconscient et les rêves au-delà de la logique rationnelle."
+      },
+      {
+        "icon": "🎨",
+        "text": "Associations bizarres de mots et images étranges révèlent une vérité cachée."
+      },
+      {
+        "icon": "✊",
+        "text": "Poètes mondiaux enrichissent le mouvement avec identité et liberté politique."
+      }
+    ]
   }
 }

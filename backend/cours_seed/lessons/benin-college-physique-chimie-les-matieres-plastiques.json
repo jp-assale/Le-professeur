@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as bien appliqué le calcul de pourcentage : 250 kg × 85 ÷ 100 = 212,5 kg. C'est la masse de PET qui sera transformée en granulés réutilisables. Les 15% restants (37,5 kg) correspondent aux pertes lors du nettoyage et du tri, une réalité importante du recyclage des plastiques.",
     "feedback_wrong": "Pas tout à fait. Pour trouver la masse recyclable, tu dois calculer 85% de 250 kg : 250 × 0,85 = 212,5 kg. Rappelle-toi : 85% signifie que seuls 85 grammes sur 100 sont récupérables. Les 15% restants sont perdus au nettoyage et au tri. Essaie à nouveau !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Le plastique est fait de longues chaînes de molécules appelées monomères."
+      },
+      {
+        "icon": "🛢️",
+        "text": "Les matières plastiques proviennent principalement du pétrole brut transformé."
+      },
+      {
+        "icon": "♻️",
+        "text": "Chaque plastique a un code de recyclage numéroté de 1 à 7."
+      }
+    ]
   }
 }

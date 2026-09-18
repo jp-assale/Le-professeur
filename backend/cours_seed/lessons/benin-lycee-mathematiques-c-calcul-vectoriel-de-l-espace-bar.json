@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule du barycentre : $x_G = \\frac{3 \\times 2 + 1 \\times 4}{3 + 1} = \\frac{6 + 4}{4} = \\frac{10}{4} = 2,5$. Les masses donnent plus de 'poids' au point P, mais Q le tire légèrement vers la droite.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi que chaque coordonnée se calcule en pondérant par la masse correspondante, puis en divisant par la somme totale des masses. Essaie : $x_G = \\frac{m_P x_P + m_Q x_Q}{m_P + m_Q} = \\frac{3 \\times 2 + 1 \\times 4}{4}$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le barycentre est le point d'équilibre d'un système de masses."
+      },
+      {
+        "icon": "📍",
+        "text": "Chaque point contribue selon son poids ou coefficient d'importance."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le barycentre généralise la moyenne pour l'espace géométrique."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! La Conférence de Berlin avait deux objectifs : d'une part, permettre aux États européens de se partager l'Afrique de manière organisée, et d'autre part, établir des règles communes pour éviter que ce partage ne provoque des guerres entre puissances européennes. Les Africains n'ont pas eu voix au chapitre.",
     "feedback_wrong": "Non, ce n'est pas correct. La Conférence de Berlin n'a pas été organisée pour aider l'Afrique ou pour consulter les peuples africains. C'était une réunion entre puissances européennes visant à se partager le continent de façon ordonnée et à éviter les conflits entre elles pour la colonisation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗺️",
+        "text": "Les puissances européennes ont redécoupé l'Afrique sans consultation africaine."
+      },
+      {
+        "icon": "🇩🇪",
+        "text": "La Conférence de Berlin en 1884-1885 a fixé les règles du partage."
+      },
+      {
+        "icon": "⚔️",
+        "text": "Les frontières arbitraires ont ignoré cultures, langues et peuples africains."
+      }
+    ]
   }
 }

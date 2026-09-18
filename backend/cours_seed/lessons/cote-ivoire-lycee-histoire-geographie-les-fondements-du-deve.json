@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le cacao et le café ont été les moteurs du développement économique ivoirien. Ces exportations ont généré les devises nécessaires pour financer les infrastructures et les services publics du pays. C'est le cœur du modèle de développement mis en place après 1960.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Bien que la Côte d'Ivoire dispose de ressources minières et ait développé des secteurs industriels, c'est vraiment l'agriculture d'exportation, en particulier le cacao, qui a été le fondement principal du développement économique. Le cacao a longtemps été appelé « l'or brun » de la Côte d'Ivoire, tant il était central à l'économie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌾",
+        "text": "La Côte d'Ivoire exporte cacao, café et caoutchouc pour ses revenus."
+      },
+      {
+        "icon": "🏭",
+        "text": "Le modèle d'exportation de matières premières finance le développement économique."
+      },
+      {
+        "icon": "📈",
+        "text": "L'agriculture reste le pilier principal depuis l'indépendance en 1960."
+      }
+    ]
   }
 }

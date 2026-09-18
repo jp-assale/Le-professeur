@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Chaque passage d'une œuvre intégrale a sa raison d'être. Les détails, les dialogues, les descriptions contribuent tous à construire le sens global. C'est ce qui distingue la lecture intégrale d'une simple lecture superficielle.",
     "feedback_wrong": "Pas tout à fait. La vraie raison de lire intégralement, c'est que chaque partie du texte joue un rôle dans la compréhension globale : elle développe un personnage, elle fait avancer l'histoire, elle renforce un thème. Sans ces passages, tu perdrais des éléments essentiels pour saisir le message de l'auteur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Lire une œuvre complète du début à la fin sans sauter."
+      },
+      {
+        "icon": "🧠",
+        "text": "Comprendre les personnages, l'intrigue et les thèmes profonds."
+      },
+      {
+        "icon": "⏱️",
+        "text": "Une lecture réfléchie qui demande concentration et temps."
+      }
+    ]
   }
 }

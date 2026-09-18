@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les États-Unis ont développé un impérialisme particulier : au lieu de coloniser directement comme les Européens, ils ont imposé leur contrôle économique et politique. Ils ont soutenu des gouvernements favorables, investi massivement, et exercé une influence politique forte dans leur zone d'influence. C'est l'impérialisme économique.",
     "feedback_wrong": "Pas tout à fait. Les États-Unis n'ont pas annexé massivement comme l'Europe l'a fait en Afrique. Ils ont préféré une domination moins visible mais très efficace : contrôle économique, appui à des gouvernements alliés, présence militaire. C'est un impérialisme plus indirect, fondé sur la puissance économique et politique plutôt que sur la colonisation directe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "L'impérialisme : expansion et domination d'une puissance sur d'autres territoires."
+      },
+      {
+        "icon": "📈",
+        "text": "Japon, États-Unis et puissances européennes contrôlent régions et ressources au 19e siècle."
+      },
+      {
+        "icon": "⛓️",
+        "text": "Domination par colonies, protectorats, traités inégaux et contrôle économique indirect."
+      }
+    ]
   }
 }

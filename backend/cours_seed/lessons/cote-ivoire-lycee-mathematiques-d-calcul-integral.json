@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La primitive de $3x^2$ est $x^3$. En appliquant la formule : $\\int_0^2 3x^2\\,dx = [x^3]_0^2 = 2^3 - 0^3 = 8 - 0 = 8$. Tu as bien maîtrisé le calcul d'une primitive et son application.",
     "feedback_wrong": "Ce n'est pas le bon résultat. Vérifie que la primitive de $3x^2$ est bien $x^3$. Ensuite, calcule $F(2) - F(0) = 2^3 - 0^3 = 8 - 0 = 8$. N'oublie pas d'évaluer la primitive aux bornes et de faire la soustraction."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "L'intégrale calcule l'aire sous une courbe complexe."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'intégrale est l'opération inverse de la dérivation."
+      },
+      {
+        "icon": "🌾",
+        "text": "Elle mesure des grandeurs accumulées en situations réelles."
+      }
+    ]
   }
 }

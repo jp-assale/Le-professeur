@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Tu as compris le point clé : le pouvoir politique se distingue de la simple violence parce qu'il est reconnu comme ayant le droit d'exister. Cette reconnaissance crée la légitimité. Sans elle, on n'a que de la domination, pas de véritable ordre social.",
     "feedback_wrong": "Pas tout à fait. Le pouvoir peut s'appuyer sur la force, mais cela ne le rend pas légitime. Ce qui crée la légitimité, c'est que les membres de la société acceptent et reconnaissent le droit de celui qui commande à le faire. C'est cette acceptation qui transforme la force brute en autorité politique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👥",
+        "text": "La société repose sur des règles communes acceptées par tous."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Le pouvoir décide qui obéit et comment s'organise la communauté."
+      },
+      {
+        "icon": "❓",
+        "text": "D'où vient l'autorité politique et pourquoi l'acceptons-nous ?"
+      }
+    ]
   }
 }

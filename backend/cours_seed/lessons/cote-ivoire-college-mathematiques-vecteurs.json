@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule. Les coordonnées du vecteur $\\overrightarrow{CD}$ sont (5 - 2 ; 7 - 3) = (3 ; 4). La norme est $\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$. C'est un résultat classique : le triangle (3, 4, 5) est très courant en géométrie.",
     "feedback_wrong": "Pas encore. N'oublie pas l'ordre des étapes : d'abord calcule les coordonnées du vecteur en soustrayant les coordonnées du point de départ à celles du point d'arrivée, puis utilise la formule de la norme $\\sqrt{(\\Delta x)^2 + (\\Delta y)^2}$. Ici, $\\Delta x = 3$ et $\\Delta y = 4$, donc la norme vaut $\\sqrt{9 + 16} = 5$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "➡️",
+        "text": "Un vecteur résume un déplacement en une seule flèche directe."
+      },
+      {
+        "icon": "📍",
+        "text": "Il possède trois caractéristiques : direction, sens et norme."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le vecteur ignore le chemin réel, seuls comptent départ et arrivée."
+      }
+    ]
   }
 }

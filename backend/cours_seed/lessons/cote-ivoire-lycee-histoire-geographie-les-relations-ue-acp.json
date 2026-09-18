@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact. Les relations UE/ACP sont fondées sur la négociation et l'asymétrie : l'UE, bloc puissant, propose des conditions (accords commerciaux, aide, dialogue politique) aux pays ACP. Ces derniers ne peuvent pas imposer unilatéralement des tarifs sans discussion. Ce serait contraire à la nature même de ces relations de partenariat inégal.",
     "feedback_wrong": "Non. Les relations UE/ACP reposent sur trois piliers : les échanges commerciaux préférentiels, l'aide au développement, et le dialogue politique. Aucun de ces trois piliers n'existe. Ce qui n'existe pas, c'est la possibilité pour les ACP d'imposer seuls leurs conditions tarifaires : la relation est asymétrique et négociée, jamais unilatérale de la part des pays en développement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "L'UE et les ACP négocient des accords commerciaux et politiques structurés."
+      },
+      {
+        "icon": "🌍",
+        "text": "48 États africains font partie du groupe ACP aux côtés de l'UE."
+      },
+      {
+        "icon": "📦",
+        "text": "La Côte d'Ivoire dépend de l'UE pour le commerce et le financement."
+      }
+    ]
   }
 }

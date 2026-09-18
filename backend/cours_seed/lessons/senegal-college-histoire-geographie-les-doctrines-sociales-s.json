@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le texte décrit parfaitement le syndicalisme : il y a regroupement (syndicat), demandes concrètes et mesurables (8 heures, meilleur salaire, conditions sûres) et volonté de négocier avec l'employeur. Aucune mention de transformation radicale du système économique ou de propriété collective des moyens de production. C'est du syndicalisme pur.",
     "feedback_wrong": "Relis bien. Le texte ne parle pas de transformer la propriété des mines ou de révolution. Il demande simplement une amélioration des conditions de travail par une organisation collective des travailleurs (syndicat) et une négociation avec les employeurs. C'est la définition du syndicalisme, pas du socialisme."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Le syndicalisme regroupe les travailleurs pour améliorer leurs conditions."
+      },
+      {
+        "icon": "🏭",
+        "text": "Le socialisme veut changer le système économique et la propriété."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Tous deux critiquent le capitalisme mais avec des méthodes différentes."
+      }
+    ]
   }
 }

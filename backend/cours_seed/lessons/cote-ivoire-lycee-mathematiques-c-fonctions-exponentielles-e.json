@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien remplacé $t$ par 3 : $N(3) = 1000 \\times 0{,}5^3 = 1000 \\times 0{,}125 = 125$ grammes. La base 0,5 (inférieure à 1) signifie que la substance décroît exponentiellement : elle est divisée par 2 chaque jour.",
     "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : $0{,}5^3 = 0{,}5 \\times 0{,}5 \\times 0{,}5 = 0{,}125$. Puis $1000 \\times 0{,}125 = 125$ grammes. Rappelle-toi que dans une fonction exponentielle $f(x) = a^x$, quand la base $a$ est entre 0 et 1, la fonction décroît rapidement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La fonction exponentielle modélise une croissance très rapide et non-linéaire."
+      },
+      {
+        "icon": "⚡",
+        "text": "Exponentielle : variable à l'exposant. Puissance : exposant fixe, base variable."
+      },
+      {
+        "icon": "🦠",
+        "text": "Les épidémies doublant chaque semaine suivent un modèle exponentiel."
+      }
+    ]
   }
 }

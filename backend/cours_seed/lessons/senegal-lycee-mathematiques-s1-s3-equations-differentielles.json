@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Pour y' = 3y, tu sépares les variables : dy/y = 3dx. En intégrant, tu obtiens ln|y| = 3x + K, d'où y = e^(3x + K) = e^K × e^(3x) = C × e^(3x), où C est une constante arbitraire.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que pour une équation du type y' = ky, la solution est toujours de la forme y(x) = C × e^(kx). Ici k = 3, donc l'exponentielle doit avoir l'exposant 3x, pas -3x ou 3x linéaire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Une équation différentielle relie une fonction à ses dérivées."
+      },
+      {
+        "icon": "⏰",
+        "text": "Elle exprime comment une grandeur varie dans le temps."
+      },
+      {
+        "icon": "🔍",
+        "text": "Résoudre signifie trouver la fonction qui satisfait l'équation."
+      }
+    ]
   }
 }

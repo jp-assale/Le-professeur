@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! En observant les données, pour chaque augmentation de 10 clients, le chiffre d'affaires augmente de 2 mille FCFA. Donc la pente est $\\frac{\\Delta y}{\\Delta x} = \\frac{2}{10} = 0,2$. C'est une corrélation positive et linéaire : plus il y a de clients, plus la boulangerie gagne, proportionnellement.",
     "feedback_wrong": "Pas tout à fait. Regarde la variation entre deux points consécutifs : par exemple du jour 1 au jour 2, $x$ passe de 20 à 30 (augmentation de 10) et $y$ passe de 5 à 7 (augmentation de 2). La pente est donc $\\frac{2}{10} = 0,2$. Vérifie que cette pente fonctionne pour tous les autres intervalles aussi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Deux variables mesurables varient ensemble dans une même observation."
+      },
+      {
+        "icon": "🔗",
+        "text": "Découvrir la corrélation entre les variables pour comprendre leur relation."
+      },
+      {
+        "icon": "📈",
+        "text": "Utiliser le nuage de points et la droite pour faire des prédictions."
+      }
+    ]
   }
 }

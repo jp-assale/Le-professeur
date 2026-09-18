@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement calculé l'augmentation de profondeur. En soustrayant la profondeur initiale (2 km) de la profondeur finale (8 km), tu obtiens 8 - 2 = 6 km. C'est cette augmentation de profondeur, combinée à l'augmentation de température, qui a transformé le schiste en ardoise. Ces deux roches sont différentes, mais l'ardoise est plus dense et plus dure : elle porte la signature du métamorphisme tectonique.",
     "feedback_wrong": "Pas tout à fait. Revois le calcul : il faut soustraire la profondeur initiale de la profondeur finale. La roche part de 2 km et arrive à 8 km. Donc l'augmentation est 8 - 2 = 6 km. Cette profondeur supplémentaire, ajoutée à la température élevée, est responsable de la transformation du schiste en ardoise."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La croûte terrestre se divise en plaques qui se déplacent lentement."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les plaques convergent, divergent ou glissent les unes contre les autres."
+      },
+      {
+        "icon": "🪨",
+        "text": "Pressions et températures créent des roches métamorphiques témoins tectoniques."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien compris. Sur 200 enfants, 30 % ont l'immunité innée (60 enfants). Les 140 restants tombent malades. Parmi eux, 80 % développent une immunité acquise durable : 0,80 × 140 = 112 enfants. C'est le résultat de la réponse immunitaire adaptée de leur organisme face à l'antigène.",
     "feedback_wrong": "Pas encore juste. Relis bien : 30 % des 200 enfants ont l'immunité innée, donc 70 % tombent malades (140 enfants). Parmi ces 140, c'est 80 % qui développent l'immunité acquise. Calcule : 0,80 × 140 pour trouver le nombre exact d'enfants ayant l'immunité acquise."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛡️",
+        "text": "L'immunité est la défense naturelle de ton corps contre les microbes."
+      },
+      {
+        "icon": "⚪",
+        "text": "Les globules blancs reconnaissent et attaquent les agents pathogènes envahisseurs."
+      },
+      {
+        "icon": "🧠",
+        "text": "Ton corps mémorise les microbes pour mieux les combattre ensuite."
+      }
+    ]
   }
 }

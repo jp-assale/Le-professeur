@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien identifié que dans ce triangle rectangle, la corde (5 m) est l'hypoténuse et le côté opposé à l'angle au sol est la hauteur du mur. Pour trouver cette hauteur, tu utilises Pythagore : $h^2 + 3^2 = 5^2$, donc $h^2 = 25 - 9 = 16$, d'où $h = 4$ m. Alors sin(angle) = 4 / 5 = 0,8. C'est correct !",
     "feedback_wrong": "Pas encore. Rappelle-toi : dans ce triangle rectangle, l'échelle est l'hypoténuse (5 m). Le côté opposé à l'angle au sol est la hauteur du mur. Tu dois d'abord trouver cette hauteur avec Pythagore : $h^2 + 3^2 = 5^2$, donc $h = 4$ m. Ensuite, sin(angle) = côté opposé / hypoténuse = 4 / 5 = 0,8. Essaie à nouveau !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Un triangle rectangle relie hauteur, distance et angle de toiture."
+      },
+      {
+        "icon": "📏",
+        "text": "Sinus, cosinus, tangente calculent angles avec deux côtés connus."
+      },
+      {
+        "icon": "🏗️",
+        "text": "Le charpentier trouve l'inclinaison sans mesure directe via trigonométrie."
+      }
+    ]
   }
 }

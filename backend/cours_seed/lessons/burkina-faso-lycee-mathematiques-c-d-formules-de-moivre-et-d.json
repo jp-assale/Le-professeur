@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule d'Euler : $e^{i\\pi/3} = \\cos(\\pi/3) + i\\sin(\\pi/3) = \\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$. C'est bien parce que $\\cos(\\pi/3) = 1/2$ et $\\sin(\\pi/3) = \\sqrt{3}/2$.",
     "feedback_wrong": "Pas tout à fait. Relis bien la formule d'Euler : $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$. Ici $\\theta = \\pi/3$, donc tu dois calculer $\\cos(\\pi/3) = 1/2$ et $\\sin(\\pi/3) = \\sqrt{3}/2$. Le résultat est donc $\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Euler relie exponentielles complexes aux fonctions trigonométriques."
+      },
+      {
+        "icon": "🔄",
+        "text": "Moivre simplifie les puissances et racines de nombres complexes."
+      },
+      {
+        "icon": "📊",
+        "text": "Ces formules transforment calculs compliqués en opérations simples."
+      }
+    ]
   }
 }

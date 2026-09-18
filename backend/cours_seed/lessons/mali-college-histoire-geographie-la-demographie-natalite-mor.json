@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'exode rural est le mouvement de population qui quitte les zones rurales (les campagnes) pour se diriger vers les zones urbaines (les villes). C'est un phénomène majeur en Afrique de l'Ouest, où les jeunes cherchent du travail et des opportunités en ville.",
     "feedback_wrong": "Pas tout à fait. L'exode rural n'est pas une augmentation de naissances, ni une baisse de décès, ni l'immigration internationale. C'est spécifiquement le mouvement de population qui quitte la campagne pour la ville à la recherche de travail et de meilleures conditions de vie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧‍👦",
+        "text": "La démographie étudie les naissances, décès et déplacements de population."
+      },
+      {
+        "icon": "🏘️",
+        "text": "L'exode rural transforme les villages en vidant vers les villes."
+      },
+      {
+        "icon": "📈",
+        "text": "Natalité et mortalité définissent la croissance naturelle des populations."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as saisi le cœur du paradoxe. La démocratie doit pouvoir se défendre (donc user de force), mais sans violer ses propres principes. Le vrai enjeu n'est pas d'empêcher toute manifestation, ni de juger les revendications, ni d'abandonner la démocratie : c'est de trouver comment encadrer la force de l'État pour qu'elle reste au service de la loi, pas du pouvoir arbitraire.",
     "feedback_wrong": "Pas tout à fait. Réfléchis : la question n'est pas simplement d'arrêter les émeutiers (la police le fait déjà), ni de juger si les manifestants avaient raison. Le vrai problème philosophique est plus profond : comment peut-on autoriser l'État à utiliser la force sans que cette force devienne elle-même une menace pour la démocratie ? C'est le paradoxe central du chapitre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕊️",
+        "text": "La démocratie privilégie l'expression pacifique et légale de la volonté populaire."
+      },
+      {
+        "icon": "⚖️",
+        "text": "L'État doit équilibrer interdiction de violence privée et légitime défense démocratique."
+      },
+      {
+        "icon": "🤔",
+        "text": "Comment préserver les principes pacifiques face à ceux qui menacent la démocratie?"
+      }
+    ]
   }
 }

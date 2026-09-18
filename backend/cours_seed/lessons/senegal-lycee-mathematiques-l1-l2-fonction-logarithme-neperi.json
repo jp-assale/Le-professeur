@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as isolé l'exponentielle et appliqué le logarithme : $e^{2x} = 7$ donne $2x = \\ln(7)$, soit $x = \\frac{\\ln(7)}{2} \\approx \\frac{1.946}{2} \\approx 0.97$. Tu maîtrises le lien inverse entre exponentielle et logarithme.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour résoudre $e^{2x} = 7$, applique ln des deux côtés : $\\ln(e^{2x}) = \\ln(7)$. Cela donne $2x = \\ln(7) \\approx 1.946$. Ensuite divise par 2 : $x = \\frac{1.946}{2} \\approx 0.97$. Revérifie tes étapes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Le logarithme népérien trouve l'exposant caché dans une équation exponentielle."
+      },
+      {
+        "icon": "🔄",
+        "text": "ln est la fonction inverse de l'exponentielle : si e^x = y alors x = ln(y)."
+      },
+      {
+        "icon": "✅",
+        "text": "Le logarithme népérien n'existe que pour les nombres strictement positifs."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Le rapport de similitude est le module du coefficient $a = 2i$. On a $|2i| = 2 \\times |i| = 2 \\times 1 = 2$. C'est ce facteur qui agrandit ou réduit les distances dans le plan.",
     "feedback_wrong": "Attention, tu confonds peut-être avec d'autres éléments de la similitude. Le rapport de similitude est toujours le module du coefficient complexe $a$. Ici, $a = 2i$, donc le rapport est $|2i| = 2$. Le terme constant $b = 1$ ne joue aucun rôle dans le rapport."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Une similitude combine rotation, agrandissement et translation du plan."
+      },
+      {
+        "icon": "📐",
+        "text": "Les angles et proportions sont conservés lors de la transformation."
+      },
+      {
+        "icon": "🔢",
+        "text": "Mathématiquement : f(z) = az + b avec a et b complexes."
+      }
+    ]
   }
 }

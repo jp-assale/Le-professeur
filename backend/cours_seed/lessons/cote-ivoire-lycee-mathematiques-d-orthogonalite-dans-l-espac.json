@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour que deux vecteurs soient orthogonaux, leur produit scalaire doit être nul. On calcule : $\\vec{u} \\cdot \\vec{v} = (1)(2) + (-2)(1) + (3)(k) = 2 - 2 + 3k = 3k$. Pour l'orthogonalité, il faut $3k = 0$, donc $k = 0$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que deux vecteurs sont orthogonaux si leur produit scalaire vaut 0. Calcule $\\vec{u} \\cdot \\vec{v} = (1)(2) + (-2)(1) + (3)(k) = 2 - 2 + 3k = 3k$. Ensuite, pose l'équation $3k = 0$ pour trouver $k$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Deux droites sont orthogonales si leurs vecteurs directeurs ont produit scalaire nul."
+      },
+      {
+        "icon": "📏",
+        "text": "Une droite est orthogonale à un plan si perpendiculaire à deux droites sécantes."
+      },
+      {
+        "icon": "🏗️",
+        "text": "Deux plans sont orthogonaux si l'un contient une droite orthogonale à l'autre."
+      }
+    ]
   }
 }

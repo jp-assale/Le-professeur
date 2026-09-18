@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien compris que la vie sociale est cultural et non naturelle. Ce que tu apprends de tes parents, de ton école, de ton environnement, c'est la marque de ta culture. Un enfant élevé différemment aurait d'autres réflexes. C'est pour cela qu'on dit que la culture nous 'fabrique' en tant que membres d'une société.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi : la vie sociale n'est pas naturelle, elle est apprise et transmise. Les comportements respectueux envers les aînés ou le partage familial ne viennent pas de l'inné, mais de la culture et de l'éducation que tu reçois. C'est justement parce que ce n'est pas naturel que des enfants d'autres sociétés peuvent avoir d'autres habitudes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "La vie sociale s'apprend, elle n'est pas innée chez l'humain."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Tension permanente entre liberté individuelle et règles collectives."
+      },
+      {
+        "icon": "🤝",
+        "text": "Normes et institutions permettent aux humains de vivre ensemble."
+      }
+    ]
   }
 }

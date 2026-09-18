@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule : n = m / M = 11 / 44 = 0,25 mole. Cela signifie que ces 11 grammes de CO₂ contiennent 0,25 × 6,02 × 10²³ ≈ 1,5 × 10²³ molécules de CO₂. Bravo !",
     "feedback_wrong": "Pas tout à fait. Reviens à la formule n = m / M. Tu dois diviser la masse (11 g) par la masse molaire (44 g/mol). Le calcul donne : 11 ÷ 44 = 0,25 mole. Assure-toi de bien distinguer « diviser » de « multiplier »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📦",
+        "text": "La mole groupe les particules comme une douzaine groupe les objets."
+      },
+      {
+        "icon": "🔢",
+        "text": "Une mole contient exactement 6,02 × 10²³ particules : le nombre d'Avogadro."
+      },
+      {
+        "icon": "⚖️",
+        "text": "La mole transforme des milliards de particules invisibles en quantités mesurables."
+      }
+    ]
   }
 }

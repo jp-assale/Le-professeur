@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as saisi l'essentiel. La science explique le « pourquoi » (pourquoi l'aspirine agit-elle ?). La technique répond au « comment » pratique (comment la rendre disponible, stable, facile d'usage ?). Les pharmaciens ne découvrent rien de nouveau scientifiquement ; ils inventent une solution concrète basée sur ce que la science a établi.",
     "feedback_wrong": "Pas tout à fait. Relis bien : le médecin comprend le mécanisme scientifique, c'est la science. Les pharmaciens transforment cette connaissance en produit pratique, c'est la technique. Ce n'est pas que la pharmacologie devient plus importante, c'est que science et technique jouent des rôles différents. La technique dépend de la science, mais elle n'est pas qu'une simple application."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔬",
+        "text": "La science cherche à comprendre comment le monde fonctionne."
+      },
+      {
+        "icon": "⚙️",
+        "text": "La technique utilise ce savoir pour créer des outils pratiques."
+      },
+      {
+        "icon": "🔗",
+        "text": "Science et technique sont liées mais ne se déduisent pas mécaniquement."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Vérifions : 3 + 2(2) = 3 + 4 = 7. Le couple (3 ; 2) satisfait bien l'équation x + 2y = 7. Tu as compris comment vérifier qu'un couple est solution.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Pour vérifier si un couple (x ; y) est solution, remplace x et y par leurs valeurs dans l'équation et vérife que l'égalité est vraie. Par exemple, pour (3 ; 2) : 3 + 2(2) = 3 + 4 = 7. C'est juste ! Essaie à nouveau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛒",
+        "text": "Une équation à deux inconnues décrit une relation entre deux grandeurs."
+      },
+      {
+        "icon": "📝",
+        "text": "Elle contient deux variables avec chacune au maximum la puissance 1."
+      },
+      {
+        "icon": "🥭",
+        "text": "Elle permet de trouver tous les couples de quantités possibles."
+      }
+    ]
   }
 }

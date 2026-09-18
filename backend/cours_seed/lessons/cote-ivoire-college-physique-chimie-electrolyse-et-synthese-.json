@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Voici pourquoi : 180 g d'eau représentent 180 ÷ 18 = 10 mol d'eau. D'après l'équation $2H_2O \\longrightarrow 2H_2 + O_2$, les 10 mol d'eau produisent 10 mol de H₂ et 5 mol d'O₂. Masse de H₂ : 10 × 2 = 20 g. Masse d'O₂ : 5 × 32 = 160 g. Total : 20 + 160 = 180 g. La masse se conserve !",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que dans l'électrolyse $2H_2O \\longrightarrow 2H_2 + O_2$, la masse totale des produits égale la masse des réactifs (conservation de la masse). Calcule d'abord le nombre de moles d'eau (180 ÷ 18 = 10 mol), puis applique la stœchiométrie pour trouver les moles de H₂ et O₂, enfin leur masse. Tu trouveras que la masse totale des gaz est égale à la masse d'eau initiale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'électricité décompose l'eau en hydrogène et oxygène."
+      },
+      {
+        "icon": "💧",
+        "text": "L'hydrogène et l'oxygène recombinés forment de l'eau."
+      },
+      {
+        "icon": "🔄",
+        "text": "Ces deux réactions sont inverses et complémentaires."
+      }
+    ]
   }
 }

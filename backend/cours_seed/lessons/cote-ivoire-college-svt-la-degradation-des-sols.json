@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! L'application modérée de fumier animal enrichit le sol en matière organique et améliore sa fertilité. C'est une pratique qui COMBAT la dégradation, au contraire. Les trois autres options (surpâturage, déforestation, cultures continues) sont toutes des causes majeures de dégradation des sols.",
     "feedback_wrong": "Non, réfléchis bien. Trois de ces réponses sont clairement des causes de dégradation : le surpâturage compacte le sol, la déforestation l'expose à l'érosion, et cultiver sans pause épuise ses éléments nutritifs. L'une d'elles améliore au contraire le sol. Laquelle aide à restaurer la fertilité ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La dégradation des sols réduit la fertilité et la capacité de production agricole."
+      },
+      {
+        "icon": "🌧️",
+        "text": "L'érosion naturelle par pluies et vent lessivage les nutriments du sol."
+      },
+      {
+        "icon": "🚜",
+        "text": "Les pratiques humaines surpâturage, déforestation aggravent la dégradation des sols."
+      }
+    ]
   }
 }

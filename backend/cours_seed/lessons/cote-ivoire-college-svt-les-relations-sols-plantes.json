@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La matière organique restante se calcule en retirant les 12 % minéralisés : 0,8 % × (1 − 0,12) = 0,8 % × 0,88 = 0,704 %. Cette diminution montre que le sol s'appauvrit progressivement—d'où l'importance de restituer de la matière organique pour maintenir la fertilité et la relation équilibrée entre sol et plante.",
     "feedback_wrong": "Ce n'est pas le bon résultat. Rappelle-toi : si 12 % de la matière organique est minéralisée, il en reste 88 %. Calcule 0,8 % × 0,88 pour trouver la quantité restante. Ce calcul te montre comment le sol perd graduellement sa fertilité si on n'y ajoute pas de matière organique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌱",
+        "text": "Le sol fournit eau, minéraux et oxygène aux racines des plantes."
+      },
+      {
+        "icon": "🔄",
+        "text": "La plante enrichit le sol par ses matières organiques décomposées."
+      },
+      {
+        "icon": "🤝",
+        "text": "Plante et sol échangent : relation vitale pour la fertilité."
+      }
+    ]
   }
 }

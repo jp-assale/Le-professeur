@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! La formule $C_{2}H_{6}O$ contient du carbone lié à d'autres atomes (hydrogène et oxygène). C'est donc une molécule organique. C'est d'ailleurs l'éthanol, l'alcool présent dans les boissons fermentées. Les trois autres formules (NaCl, CaCO₃, KOH) sont des composés minéraux : elles ne contiennent pas de carbone lié, ou ne contiennent pas du tout de carbone pour NaCl et KOH.",
     "feedback_wrong": "Non, réfléchis bien. Une molécule organique DOIT contenir du carbone lié à d'autres atomes. NaCl est du sel (minéral), CaCO₃ est du calcaire (minéral), et KOH est de la potasse (minéral). Seule $C_{2}H_{6}O$ contient du carbone lié à l'hydrogène et à l'oxygène : c'est une molécule organique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Le carbone lie d'autres atomes pour former les molecules organiques."
+      },
+      {
+        "icon": "🔥",
+        "text": "Les molecules organiques se decomposent et noircissent en chauffant."
+      },
+      {
+        "icon": "🧬",
+        "text": "Les molecules organiques sont la base de toute vie terrestre."
+      }
+    ]
   }
 }

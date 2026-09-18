@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Pour trouver le pourcentage : (200 ÷ 250) × 100 = 0,8 × 100 = 80%. Cela signifie que 4 personnes sur 5 dans cette région ont développé une protection immunitaire (grâce à des anticorps). C'est une bonne couverture immunitaire pour la communauté.",
     "feedback_wrong": "Pas tout à fait. Pour calculer un pourcentage, tu dois diviser le nombre de personnes protégées par le nombre total testé, puis multiplier par 100. Ici : (200 ÷ 250) × 100 = 80%. C'est le pourcentage de la population qui possède des anticorps protecteurs."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛡️",
+        "text": "Ton corps possède une armée invisible qui te protège chaque jour."
+      },
+      {
+        "icon": "🧬",
+        "text": "Deux niveaux de défense : barrières et cellules immunitaires spécialisées."
+      },
+      {
+        "icon": "🦠",
+        "text": "Sans ce système, les microbes t'envahiraient et te rendraient malade."
+      }
+    ]
   }
 }

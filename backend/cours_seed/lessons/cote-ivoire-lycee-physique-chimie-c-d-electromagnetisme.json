@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule du champ dans un solénoïde. $B = 4\\pi \\times 10^{-7} \\times \\frac{500}{0,25} \\times 2 = 4\\pi \\times 10^{-7} \\times 2000 \\times 2 = 4\\pi \\times 10^{-7} \\times 4000 = 16000\\pi \\times 10^{-7} \\approx 16000 \\times 3,14 \\times 10^{-7} = 50240 \\times 10^{-7} = 5,024 \\times 10^{-3}$ T, soit 0,005 T environ. Ce champ magnétique intense est ce qui permet aux électroaimants de fonctionner.",
     "feedback_wrong": "Attention à l'ordre de grandeur. Revérifie le calcul de N/L : 500 spires divisé par 0,25 m donne 2000 tours par mètre, pas 200 ou 20. Ensuite applique la multiplication par $\\mu_0$ et I correctement. Le résultat attendu est 0,005 T."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Le courant électrique crée un champ magnétique autour de lui."
+      },
+      {
+        "icon": "🧲",
+        "text": "Un champ magnétique variable génère un champ électrique."
+      },
+      {
+        "icon": "🔄",
+        "text": "Électricité et magnétisme sont inséparables et interdépendants."
+      }
+    ]
   }
 }

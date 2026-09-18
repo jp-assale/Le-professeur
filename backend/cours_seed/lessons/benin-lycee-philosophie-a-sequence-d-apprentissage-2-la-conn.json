@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! C'est la clé. La science ne rejette pas les croyances par mépris, mais elle les soumet à une exigence : la preuve. Une connaissance scientifique doit pouvoir être testée, et d'autres doivent pouvoir obtenir les mêmes résultats en refaisant l'expérience. C'est ce qui la rend fiable et universelle.",
     "feedback_wrong": "Pas tout à fait. Réfléchis à ce qui distingue vraiment une croyance d'une connaissance scientifique. La science n'est pas une opinion, c'est une méthode : quelque chose qu'on peut vérifier, tester et reproduire. Une croyance, même si beaucoup de gens la partagent, n'est pas vérifiable de la même façon. La bonne réponse souligne exactement cette différence : expérience, preuve, reproductibilité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔬",
+        "text": "La science exige des preuves mesurables et vérifiables, pas juste des affirmations."
+      },
+      {
+        "icon": "🔄",
+        "text": "Les résultats scientifiques doivent être reproductibles et acceptés par la communauté."
+      },
+      {
+        "icon": "❓",
+        "text": "Une connaissance scientifique peut être testée, réfutée et améliorée constamment."
+      }
+    ]
   }
 }

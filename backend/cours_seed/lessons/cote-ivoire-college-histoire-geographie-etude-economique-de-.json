@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'agriculture est le pilier de l'économie ivoirienne. Le cacao et le café représentent l'essentiel des exportations, et la majorité de la population rurale en dépend. Ce secteur est aussi à l'origine de nombreux emplois indirects : transport, commerce, transformation, services.",
     "feedback_wrong": "Pas tout à fait. Bien que la Côte d'Ivoire ait des ressources minières et un secteur de services en développement, ce n'est pas le secteur dominant. L'économie ivoirienne repose avant tout sur l'agriculture, particulièrement la production et l'exportation de cacao et de café. Ces cultures emploient des millions de personnes, directement et indirectement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌾",
+        "text": "L'économie ivoirienne repose sur l'agriculture, notamment le cacao et le café."
+      },
+      {
+        "icon": "💼",
+        "text": "Elle inclut aussi le commerce, les services, l'industrie et les transports."
+      },
+      {
+        "icon": "💰",
+        "text": "Étudier l'économie, c'est comprendre comment se crée la richesse du pays."
+      }
+    ]
   }
 }

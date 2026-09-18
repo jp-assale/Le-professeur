@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule $z' = iz + 1$. En substituant $z_B = 2$, tu obtiens $z' = i \\cdot 2 + 1 = 2i + 1 = 1 + 2i$. Cette transformation combine une rotation de 90° (due à la multiplication par $i$) et une translation de 1 vers la droite.",
     "feedback_wrong": "Pas tout à fait. Réapplique la formule étape par étape : $z' = i \\cdot 2 + 1$. D'abord, $i \\cdot 2 = 2i$. Puis ajoute la constante 1 : $z' = 2i + 1 = 1 + 2i$. Souviens-toi que multiplier par $i$ effectue une rotation de 90° dans le plan complexe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Un nombre complexe z = a + bi représente un point du plan (a, b)."
+      },
+      {
+        "icon": "🔄",
+        "text": "Multiplier des complexes effectue rotation et agrandissement simultanément."
+      },
+      {
+        "icon": "🗺️",
+        "text": "Les transformations géométriques s'expriment simplement avec les nombres complexes."
+      }
+    ]
   }
 }

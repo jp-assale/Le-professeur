@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as saisi le cœur de la critique philosophique. Le bonheur conçu comme l'arrivée d'un futur meilleur est une illusion : une fois l'examen réussi, une nouvelle inquiétude surgit ; une fois le travail obtenu, on craint de le perdre. C'est un cycle sans fin. Le vrai bonheur est une disposition intérieure, une sagesse qui reconnaît le bien dans l'ici et maintenant, même imparfait.",
     "feedback_wrong": "Pas exactement. Réfléchis : si ton bonheur dépend toujours d'une condition future, es-tu jamais véritablement heureux ? Ou repousses-tu sans cesse le moment du bonheur ? La philosophie suggère que le bonheur véritable naît d'une transformation intérieure, d'une compréhension de ce qui est vraiment bon, indépendamment des circonstances externes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💰",
+        "text": "La richesse seule ne garantit pas le bonheur durable."
+      },
+      {
+        "icon": "😊",
+        "text": "Le bonheur vient de la satisfaction profonde et de l'accomplissement."
+      },
+      {
+        "icon": "🧠",
+        "text": "Le bonheur dépend de nos dispositions internes, pas juste circonstances."
+      }
+    ]
   }
 }

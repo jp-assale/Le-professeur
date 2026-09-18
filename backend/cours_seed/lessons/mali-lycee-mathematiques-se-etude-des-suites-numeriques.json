@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Pour une suite arithmétique, la formule explicite est $u_n = u_1 + (n-1) \\times r$. Ici, $u_7 = 12 + (7-1) \\times 3 = 12 + 6 \\times 3 = 12 + 18 = 30$. Tu maîtrises la formule.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que pour une suite arithmétique, $u_n = u_1 + (n-1) \\times r$. Il faut compter le nombre d'étapes à partir du premier terme : de $u_1$ à $u_7$, il y a $7 - 1 = 6$ étapes de raison 3. Donc $u_7 = 12 + 6 \\times 3 = 12 + 18 = 30$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📋",
+        "text": "Une suite est une liste ordonnée de nombres suivant une règle précise."
+      },
+      {
+        "icon": "🔢",
+        "text": "Chaque terme est identifié par sa position : u₁, u₂, u₃, etc."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les suites modélisent des situations qui changent de façon régulière."
+      }
+    ]
   }
 }

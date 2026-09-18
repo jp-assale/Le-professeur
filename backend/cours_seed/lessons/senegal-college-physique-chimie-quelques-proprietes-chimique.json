@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le zinc réagit vivement avec l'acide dilué en produisant un dégagement gazeux important. Cette réaction rapide et vigoureuse montre que le zinc est plus réactif que le fer (réaction modérée) et beaucoup plus que le cuivre (pas de réaction). Le zinc se situe bien avant le fer et le cuivre dans la série de réactivité.",
     "feedback_wrong": "Pas tout à fait. Regarde bien : le zinc réagit vivement avec formation de gaz, le fer réagit modérément, et le cuivre ne réagit pas. La vitesse et l'intensité de la réaction indiquent le degré de réactivité. Plus la réaction est rapide et forte, plus le métal est réactif envers l'acide. Ici, c'est le zinc qui montre la réaction la plus intense."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚗️",
+        "text": "Chaque métal réagit différemment avec l'oxygène, l'eau et les acides."
+      },
+      {
+        "icon": "📊",
+        "text": "La réactivité des métaux dépend de leur position dans la série de réactivité."
+      },
+      {
+        "icon": "🔍",
+        "text": "Comprendre ces réactions permet de prédire et choisir le bon métal."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'énumération gratuite (lister des choses sans structure) n'est pas un outil d'argumentation. Les vrais outils doivent établir une connexion logique entre ton idée et ta conclusion. L'analogie, le raisonnement et l'appel à l'autorité, eux, sont des outils reconnus qui renforcent ta thèse.",
     "feedback_wrong": "Non, ce n'est pas bon. Tu décris là un outil d'argumentation réel et efficace. Reviens à la définition : un outil d'argumentation doit créer un lien logique et convaincant entre un fait et ta thèse. L'énumération sans logique, elle, ne convainc personne."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Argumenter, c'est convaincre quelqu'un avec des preuves et raisons."
+      },
+      {
+        "icon": "🛠️",
+        "text": "Utilise des outils : exemples, logique, autorité, témoignage, analogie."
+      },
+      {
+        "icon": "💪",
+        "text": "Des arguments solides rendent ta thèse logique et crédible."
+      }
+    ]
   }
 }

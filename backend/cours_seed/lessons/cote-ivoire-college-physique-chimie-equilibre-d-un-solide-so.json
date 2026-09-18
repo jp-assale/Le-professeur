@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour que la porte soit en équilibre, l'enfant doit pousser avec une force de 80 N exactement, dans la direction opposée à celle de 80 N. Les deux forces doivent avoir la même intensité pour que leurs effets s'annulent.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour qu'un solide soit en équilibre sous deux forces, il faut que ces deux forces aient exactement la même intensité. Ici, 80 N et 50 N ne sont pas égales, donc l'équilibre est impossible avec ces valeurs. Il faudrait que l'enfant pousse avec 80 N."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Deux forces s'annulent mutuellement pour équilibrer un objet."
+      },
+      {
+        "icon": "🪢",
+        "text": "Le filet reste immobile quand les forces sont bien ajustées."
+      },
+      {
+        "icon": "📍",
+        "text": "L'équilibre nécessite une intensité et direction précises des forces."
+      }
+    ]
   }
 }

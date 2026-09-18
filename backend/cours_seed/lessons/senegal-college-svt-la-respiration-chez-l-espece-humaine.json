@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Bravo ! Tu as appliqué la formule correctement : volume total = nombre de respirations × volume par respiration × durée = 12 × 600 × 5 = 36 000 mL. C'est la clé : multiplier la fréquence respiratoire par le volume de chaque respiration, puis par le temps.",
     "feedback_wrong": "Ce n'est pas exact. Revois le calcul : tu dois multiplier la fréquence respiratoire (12 fois/minute) par le volume par respiration (600 mL) par le nombre de minutes (5). Cela donne 12 × 600 × 5 = 36 000 mL. La réponse correcte est 36 000 mL."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💨",
+        "text": "La respiration capture l'oxygène de l'air pour les cellules."
+      },
+      {
+        "icon": "⚡",
+        "text": "L'oxygène produit l'énergie nécessaire aux muscles et au corps."
+      },
+      {
+        "icon": "🫁",
+        "text": "Les poumons évacuent le dioxyde de carbone produit par les cellules."
+      }
+    ]
   }
 }

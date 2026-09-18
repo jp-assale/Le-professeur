@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris l'essentiel : les hauts sommets africains ne sont pas distribués au hasard. Ils suivent les grandes structures géologiques du continent, particulièrement la Vallée du Rift en Afrique de l'Est. Cette zone de fractures tectoniques provoque le soulèvement du relief et la formation de montagnes. C'est pourquoi on y trouve le Kilimandjaro, le Mont Kenya et d'autres sommets majeurs.",
     "feedback_wrong": "Ce n'est pas tout à fait ça. Réfléchis : si tu observes une carte des hauts sommets africains, remarques-tu qu'ils sont vraiment dispersés partout ? Non : beaucoup se trouvent en Afrique de l'Est, près de la Vallée du Rift. Cette concentration n'est pas due au hasard, mais à la géologie du continent. La Vallée du Rift est une zone où les plaques tectoniques se déplacent, ce qui soulève la croûte terrestre et crée des montagnes. Relis la question et essaie à nouveau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⛰️",
+        "text": "L'Afrique possède des montagnes majestueuses et des sommets enneigés remarquables."
+      },
+      {
+        "icon": "🗺️",
+        "text": "Le relief africain comprend plaines, plateaux, bassins et chaînes de montagnes."
+      },
+      {
+        "icon": "📍",
+        "text": "Les hauts sommets sont répartis inégalement selon les structures géologiques du continent."
+      }
+    ]
   }
 }

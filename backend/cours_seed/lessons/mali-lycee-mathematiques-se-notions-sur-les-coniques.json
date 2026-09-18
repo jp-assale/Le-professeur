@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'équation $y^2 = 8x$ est de la forme $y^2 = 4px$, ce qui est l'équation canonique d'une parabole d'axe horizontal. En comparant, $4p = 8$, donc $p = 2$. Le foyer se trouve à $(2, 0)$ et la directrice est la droite $x = -2$.",
     "feedback_wrong": "Pas tout à fait. L'équation $y^2 = 8x$ est de la forme $y^2 = 4px$ (équation d'une parabole). En comparant les deux, tu obtiens $4p = 8$, d'où $p = 2$. Souviens-toi que les paraboles ont une équation du second degré en une seule variable (ici $y^2$) et une équation du premier degré dans l'autre ($x$)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛰️",
+        "text": "Les coniques décrivent les trajectoires des objets en orbite dans l'espace."
+      },
+      {
+        "icon": "📐",
+        "text": "Une conique est une courbe formée en coupant un cône avec un plan."
+      },
+      {
+        "icon": "⭕",
+        "text": "Cercle, ellipse, parabole et hyperbole sont les quatre types de coniques."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien compris. L'Afrique est prise dans la mondialisation, mais de manière asymétrique : elle fournit des matières premières brutes (cacao, café, pétrole, minerais) et achète des biens transformés plus chers. Elle subit les prix fixés ailleurs et les chocs économiques des pays riches. C'est ce déséquilibre qui pose problème.",
     "feedback_wrong": "Pas tout à fait. Relis bien la définition : l'Afrique exporte surtout des matières premières (cacao, café, pétrole, minerais) vers les pays riches, et importe des produits finis (machines, électronique, vêtements). Elle ne contrôle pas les prix mondiaux et reste vulnérable aux crises des économies riches. C'est justement ce déséquilibre qui caractérise sa mondialisation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La mondialisation connecte tous les pays par le commerce et les échanges."
+      },
+      {
+        "icon": "📦",
+        "text": "L'Afrique exporte des matières premières et importe des produits finis."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Cette position rend l'Afrique dépendante et vulnérable aux crises mondiales."
+      }
+    ]
   }
 }

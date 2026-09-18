@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour que deux forces équilibrent un solide, elles doivent avoir exactement la même intensité. Puisque la première force vaut 80 N, la deuxième doit aussi valoir 80 N, et elle est déjà dirigée dans le sens opposé (vers le sud au lieu du nord). L'équilibre est réalisé.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour que deux forces équilibrent un solide, elles doivent avoir la même intensité. La première force est de 80 N, donc la deuxième doit aussi être de 80 N pour compenser. Les sens opposés (nord et sud) sont déjà respectés dans l'énoncé."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Un solide est en équilibre quand la somme des forces est nulle."
+      },
+      {
+        "icon": "➡️",
+        "text": "Deux forces s'équilibrent avec même intensité et sens opposés."
+      },
+      {
+        "icon": "📦",
+        "text": "Une force modifie le mouvement ou la forme d'un objet."
+      }
+    ]
   }
 }

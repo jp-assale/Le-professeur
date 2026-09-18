@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! En comptant les carbones dans la chaîne $CH_3-CH(OH)-CH_2-CH_2-CH_3$, tu en trouves 5. Le groupe fonctionnel -OH ne contient qu'un seul atome d'oxygène. La formule brute du pentan-2-ol est donc $C_5H_{12}O$.",
     "feedback_wrong": "Pas tout à fait. Repasse par la formule semi-développée en comptant chaque atome de carbone de la chaîne principale : $CH_3$, puis $CH(OH)$, puis $CH_2$, $CH_2$, $CH_3$. Tu dois obtenir 5 carbones. Le groupe -OH ajoute 1 oxygène seulement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍶",
+        "text": "Les alcools contiennent un groupe hydroxyle -OH attaché à un carbone saturé."
+      },
+      {
+        "icon": "🔗",
+        "text": "Trois catégories : primaires, secondaires, tertiaires selon les liaisons carbonées."
+      },
+      {
+        "icon": "⚗️",
+        "text": "Formule générale R-OH utilisée en alimentation, pharmaceutique et chimie."
+      }
+    ]
   }
 }

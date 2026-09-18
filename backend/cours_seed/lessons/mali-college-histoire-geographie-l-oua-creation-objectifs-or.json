@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! L'OUA a été créée précisément pour que les États africains se soutiennent mutuellement, règlent leurs différends pacifiquement et gagnent du poids ensemble sur la scène mondiale. C'est l'essence même de son existence.",
     "feedback_wrong": "Non, ce n'est pas ça. L'OUA est fondée sur des principes de coopération et de diplomatie entre États africains d'égal à égal. Rellis la définition : elle vise l'unité, la solidarité et la résolution pacifique des conflits, pas la domination ou l'uniformité forcée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Les États africains se sont unis pour résoudre leurs conflits communs."
+      },
+      {
+        "icon": "💪",
+        "text": "L'union rend l'Afrique plus forte face aux problèmes continentaux."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'OUA fondée en 1963 à Addis-Abeba regroupe les États africains."
+      }
+    ]
   }
 }

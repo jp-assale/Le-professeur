@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Pour la diagonale d'un carré de côté 4 cm, tu appliques Pythagore : $d^2 = 4^2 + 4^2 = 16 + 16 = 32$, donc $d = \\sqrt{32} = 4\\sqrt{2}$ cm. Tu as bien reconnu que cette diagonale fait partie de la section plane.",
     "feedback_wrong": "Pas tout à fait. La base est un carré de 4 cm de côté. Quand deux sommets opposés du carré sont reliés, ils forment une diagonale. Utilise Pythagore : $d^2 = 4^2 + 4^2 = 32$, d'où $d = 4\\sqrt{2}$ cm ≈ 5,66 cm. Ce n'est pas simplement 4 cm (c'est un côté, pas une diagonale)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✂️",
+        "text": "Une section est la figure plane obtenue en coupant un solide."
+      },
+      {
+        "icon": "📐",
+        "text": "Pythagore et Thalès s'appliquent aussi aux sections 3D."
+      },
+      {
+        "icon": "📦",
+        "text": "Calcule les longueurs et aires de la section du bloc."
+      }
+    ]
   }
 }

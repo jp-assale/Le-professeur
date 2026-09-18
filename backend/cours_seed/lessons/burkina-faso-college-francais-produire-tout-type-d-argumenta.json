@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le texte cite un cas concret (le lycée Yennenga) — c'est un argument par l'exemple. Il s'appuie aussi sur l'avis des pédagogues — c'est un argument par l'autorité. Tu as bien identifié les deux principaux types d'argumentation présents.",
     "feedback_wrong": "Pas tout à fait. Regarde de près : le texte donne un exemple concret (« au lycée Yennenga... »), c'est un argument par l'exemple. Il cite aussi l'avis des pédagogues, c'est un argument par l'autorité. Relis et identifie ces deux éléments."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Argumenter c'est convaincre avec des raisons, pas juste affirmer."
+      },
+      {
+        "icon": "📚",
+        "text": "Quatre types d'arguments : exemple, autorité, logique, émotion."
+      },
+      {
+        "icon": "🔍",
+        "text": "Chaque situation demande un type d'argumentation différent."
+      }
+    ]
   }
 }

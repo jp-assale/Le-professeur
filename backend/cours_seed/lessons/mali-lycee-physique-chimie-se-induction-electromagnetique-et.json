@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la loi de Faraday. Le flux varie de ΔΦ = n × S × ΔB = 50 × 0,1 × 0,4 = 2 Wb, donc dΦ/dt = 2 / 0,5 = 4 Wb/s, et e = 4 × 10 = 40 V. N'oublie pas de multiplier par le nombre de spires, qui amplifie l'effet d'induction.",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien multiplié par le nombre de spires (n = 50), car chaque spire ajoute sa contribution. La variation du flux magnétique est ΔΦ = n × S × ΔB = 50 × 0,1 × (0,6 - 0,2) = 50 × 0,1 × 0,4 = 2 Wb. Puis dΦ/dt = 2 / 0,5 = 4 Wb/s, et e = 4 × 10 = 40 V. Recommence en veillant à cet ordre de calcul."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧲",
+        "text": "Un champ magnétique qui change crée du courant électrique sans contact."
+      },
+      {
+        "icon": "⚡",
+        "text": "La variation du flux magnétique génère une tension aux bornes du conducteur."
+      },
+      {
+        "icon": "🔄",
+        "text": "Le courant induit s'oppose toujours à la variation qui l'a produit."
+      }
+    ]
   }
 }

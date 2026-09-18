@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Dans une réaction d'estérification entre un acide carboxylique et un alcool, les deux réactifs réagissent en proportion 1:1. L'acide propanoïque (0,2 mol) est le réactif limitant car tu en as moins que d'éthanol (0,3 mol). Donc la quantité d'ester formée est déterminée par l'acide : 0,2 mol d'ester se forment.",
     "feedback_wrong": "Attention à l'équilibre stochiométrique. Dans l'estérification, l'acide carboxylique et l'alcool réagissent en proportions égales (1:1). Ici, tu as 0,2 mol d'acide et 0,3 mol d'alcool. L'acide est le réactif limitant, donc c'est sa quantité qui détermine celle de l'ester produit : 0,2 mol."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧴",
+        "text": "Les acides carboxyliques contiennent le groupe carboxyle -COOH très réactif."
+      },
+      {
+        "icon": "🔄",
+        "text": "Les dérivés transforment le groupe carboxyle en esters, amides, anhydrides."
+      },
+      {
+        "icon": "🌍",
+        "text": "Ces molécules se trouvent partout : savons, vinaigre, médicaments, conserves."
+      }
+    ]
   }
 }

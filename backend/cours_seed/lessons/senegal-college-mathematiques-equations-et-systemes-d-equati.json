@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! En ajoutant les deux équations : (x + y) + (2x − y) = 10 + 8, on obtient 3x = 18, donc x = 6. On peut vérifier : si x = 6, alors y = 4 (de la première équation). La deuxième équation donne bien 2(6) − 4 = 8. ✓",
     "feedback_wrong": "Pas tout à fait. Essaie la méthode de l'addition : ajoute les deux équations pour éliminer y. (x + y) + (2x − y) = 10 + 8 te donne 3x = 18. Que vaut alors x ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Deux équations avec deux inconnues à résoudre simultanément."
+      },
+      {
+        "icon": "📊",
+        "text": "Trouver les valeurs de x et y satisfaisant les deux équations."
+      },
+      {
+        "icon": "🛠️",
+        "text": "Utiliser substitution ou addition pour résoudre le système."
+      }
+    ]
   }
 }

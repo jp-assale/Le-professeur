@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le câble est l'hypoténuse et la hauteur du bâtiment est le côté opposé à l'angle de 30°. Tu dois utiliser sin(30°) = hauteur / 13. Comme sin(30°) = 0,5, tu obtiens hauteur = 13 × 0,5 = 6,5 mètres. Bien vu !",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : le câble est l'hypoténuse du triangle rectangle. La hauteur du bâtiment est le côté opposé à l'angle de 30°. Utilise la formule sin(30°) = hauteur / hypoténuse, soit sin(30°) = hauteur / 13. Avec sin(30°) = 0,5, tu trouves hauteur = 6,5 mètres."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Les rapports trigonométriques relient les angles aux côtés du triangle."
+      },
+      {
+        "icon": "🔍",
+        "text": "Sinus, cosinus et tangente sont des outils pour résoudre des problèmes."
+      },
+      {
+        "icon": "✓",
+        "text": "Ces rapports restent constants pour un angle donné quelconque."
+      }
+    ]
   }
 }

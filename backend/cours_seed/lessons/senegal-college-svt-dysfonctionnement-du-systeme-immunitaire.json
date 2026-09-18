@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as trouvé la bonne réponse. Le calcul est simple : 180 + 240 = 420 cellules/mm³. Ce nouveau taux est bien supérieur à 200 cellules/mm³, ce qui signifie que la patiente a dépassé le seuil critique du SIDA déclaré grâce au traitement antirétroviral régulier.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Il faut additionner le taux initial et l'augmentation : 180 cellules/mm³ + 240 cellules/mm³ = 420 cellules/mm³. Souviens-toi que l'augmentation s'ajoute au taux de départ, et que le résultat doit être supérieur aux deux valeurs de départ pour être cohérent."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🦠",
+        "text": "Le VIH détruit progressivement les lymphocytes T4 du système immunitaire."
+      },
+      {
+        "icon": "🛡️",
+        "text": "Sans ces cellules, l'organisme ne peut plus se défendre efficacement."
+      },
+      {
+        "icon": "📊",
+        "text": "La baisse des lymphocytes T4 mesure l'évolution vers le SIDA."
+      }
+    ]
   }
 }

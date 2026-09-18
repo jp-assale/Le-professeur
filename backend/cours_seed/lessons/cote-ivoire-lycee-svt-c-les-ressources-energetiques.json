@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les ressources renouvelables sont l'hydroélectricité (200 MW) et l'éolien (100 MW). En les additionnant : 200 + 100 = 300 MW. Le charbon est une ressource non renouvelable, donc il ne compte pas. Tu as bien compris la distinction entre les deux catégories de ressources énergétiques.",
     "feedback_wrong": "À retenir : seules les sources qui se régénèrent naturellement ou inépuisables à l'échelle humaine sont renouvelables. Ici, ce sont l'hydroélectricité (200 MW) et l'éolien (100 MW). Le charbon s'épuise, donc ce n'est pas renouvelable. Additionne uniquement 200 + 100 = 300 MW pour obtenir la réponse correcte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Les ressources énergétiques satisfont nos besoins quotidiens en électricité et transport."
+      },
+      {
+        "icon": "♻️",
+        "text": "Les énergies renouvelables se régénèrent naturellement et sont inépuisables."
+      },
+      {
+        "icon": "⛽",
+        "text": "Les énergies non renouvelables s'épuisent progressivement avec leur exploitation."
+      }
+    ]
   }
 }

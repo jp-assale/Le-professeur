@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Cette réponse montre tous les éléments clés de la démarche scientifique : observation précise, hypothèse testable, expérience contrôlée (on varie une seule variable), documentation des résultats, et ouverture à la vérification par d'autres. C'est le processus qui transforme une observation en connaissance scientifique véritable.",
     "feedback_wrong": "Cette réponse ne montre pas une démarche scientifique. La science ne repose pas sur la conviction personnelle, la tradition seule, ou l'attribution à des causes surnaturelles. Elle exige une hypothèse testable, une expérience reproductible et une documentation qui peut être critiquée et vérifiée par d'autres chercheurs. Relis l'exemple de l'agriculteur pour bien voir comment on passe du doute à la preuve objective."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔬",
+        "text": "La science repose sur l'observation, l'expérience et le raisonnement logique."
+      },
+      {
+        "icon": "✓",
+        "text": "Une connaissance scientifique doit être testable, vérifiable et révisable."
+      },
+      {
+        "icon": "🧠",
+        "text": "La preuve distingue le savoir scientifique de la croyance personnelle."
+      }
+    ]
   }
 }

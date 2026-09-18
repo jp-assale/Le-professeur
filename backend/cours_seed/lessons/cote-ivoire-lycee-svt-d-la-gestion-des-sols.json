@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Après 1 an : 20 × 1,12 = 22,4 tonnes. Après 2 ans : 22,4 × 1,10 = 24,64 tonnes. Tu as bien compris que la gestion durable permet d'augmenter progressivement la matière organique du sol en le reconstituant.",
     "feedback_wrong": "Pas tout à fait. Il faut appliquer successivement les deux augmentations : d'abord +12 % (20 × 1,12 = 22,4 tonnes), puis +10 % sur ce nouveau total (22,4 × 1,10 = 24,64 tonnes). Les pourcentages s'appliquent au total obtenu l'année précédente, pas seulement aux 20 tonnes initiales."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌾",
+        "text": "Les sols perdent leur fertilité sans changement climatique apparent."
+      },
+      {
+        "icon": "⚖️",
+        "text": "La gestion équilibre l'exploitation agricole et la conservation environnementale."
+      },
+      {
+        "icon": "🛡️",
+        "text": "Protéger les sols aujourd'hui assure les récoltes futures des générations."
+      }
+    ]
   }
 }

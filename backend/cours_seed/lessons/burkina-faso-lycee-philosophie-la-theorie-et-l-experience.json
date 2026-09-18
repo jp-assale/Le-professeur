@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. L'expérience de l'alliage ne détruit pas la théorie générale sur la dilatation des métaux, mais elle la complète et l'affine. Elle montre que la théorie était incomplète : elle devait préciser « dans la plupart des cas » ou « à partir de certaines conditions ». C'est ainsi que la théorie et l'expérience travaillent ensemble pour produire une connaissance plus riche et plus précise.",
     "feedback_wrong": "Non, c'est plus nuancé. L'expérience de l'alliage ne contredit pas les observations des forgerons, ni ne rend la théorie inutile. Au contraire, elle affine la théorie en montrant qu'elle doit intégrer des exceptions et des conditions particulières. La relation entre théorie et expérience est un dialogue, pas un combat où l'un gagne et l'autre perd."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "La théorie explique par la raison, l'expérience par les sens."
+      },
+      {
+        "icon": "❓",
+        "text": "Peut-on croire une théorie sans l'avoir jamais vérifiée soi-même?"
+      },
+      {
+        "icon": "⚖️",
+        "text": "Une expérience isolée suffit-elle à établir une vérité universelle?"
+      }
+    ]
   }
 }

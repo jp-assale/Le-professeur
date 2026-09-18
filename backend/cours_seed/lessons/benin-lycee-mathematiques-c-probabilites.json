@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Il y a 3 boules blanches parmi les 8 boules totales, donc P(blanc) = 3/8. Tu appliques correctement la formule fondamentale des probabilités.",
     "feedback_wrong": "Pas tout à fait. Compte bien : combien de boules blanches y a-t-il ? Combien de boules au total ? La probabilité est le rapport de ces deux nombres. Réessaie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎲",
+        "text": "La probabilité mesure la chance qu'un événement se produise."
+      },
+      {
+        "icon": "📊",
+        "text": "Elle est le rapport entre cas favorables et cas possibles."
+      },
+      {
+        "icon": "🎯",
+        "text": "Elle répond aux questions sur les résultats imprévisibles d'une expérience."
+      }
+    ]
   }
 }

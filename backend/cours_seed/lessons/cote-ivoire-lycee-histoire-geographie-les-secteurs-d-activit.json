@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le pêcheur représente le secteur primaire (extraction de ressource naturelle), l'usine représente le secteur secondaire (transformation industrielle), et le commerçant représente le secteur tertiaire (commerce et services). C'est un très bon exemple de la façon dont les trois secteurs s'articulent en Côte d'Ivoire.",
     "feedback_wrong": "Pas tout à fait. Compte bien : 1) le pêcheur (primaire), 2) l'usine qui transforme (secondaire), 3) le commerçant qui vend (tertiaire). Ce sont trois secteurs différents. Relis l'exemple du cacao pour mieux comprendre comment ils s'enchaînent."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏭",
+        "text": "La Côte d'Ivoire a plusieurs secteurs économiques qui produisent différentes choses."
+      },
+      {
+        "icon": "🌾",
+        "text": "Le secteur primaire regroupe agriculture, mines et pêche pour la production."
+      },
+      {
+        "icon": "🏪",
+        "text": "Les secteurs secondaire et tertiaire transforment et distribuent les biens produits."
+      }
+    ]
   }
 }

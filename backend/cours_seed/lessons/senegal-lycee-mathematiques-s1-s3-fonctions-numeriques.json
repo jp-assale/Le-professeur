@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $g(4) = 3 \\times 4^2 - 5 = 3 \\times 16 - 5 = 48 - 5 = 43$. Cela montre que tu sais remplacer la variable $x$ par la valeur donnée et respecter l'ordre des opérations.",
     "feedback_wrong": "Ce n'est pas le bon résultat. Reprends le calcul pas à pas : d'abord $4^2 = 16$, puis $3 \\times 16 = 48$, enfin $48 - 5 = 43$. Vérifie que tu as appliqué la multiplication avant la soustraction."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Une fonction associe à chaque nombre d'entrée un seul nombre de sortie."
+      },
+      {
+        "icon": "📍",
+        "text": "Le nombre d'entrée s'appelle x, sa sortie s'appelle f(x) ou image."
+      },
+      {
+        "icon": "🚕",
+        "text": "Exemple taxi : f(x) = 250 + 150x pour calculer le prix total."
+      }
+    ]
   }
 }

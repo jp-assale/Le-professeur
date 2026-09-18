@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement appliqué E = m·c². Avec Δm = 2 × 10⁻²⁸ kg et c² = 9 × 10¹⁶ m²/s², on obtient E = 2 × 10⁻²⁸ × 9 × 10¹⁶ = 1,8 × 10⁻¹¹ J. Cette quantité d'énergie, bien que petite à l'échelle humaine, est colossale à l'échelle d'un noyau atomique : c'est ce qui rend la réaction nucléaire si puissante.",
     "feedback_wrong": "Regarde bien le calcul. Il faut appliquer strictement E = m·c². La masse perdue est 2 × 10⁻²⁸ kg, et tu dois la multiplier par c² = (3 × 10⁸)² = 9 × 10¹⁶ m²/s². Le résultat numérique doit être E = 2 × 10⁻²⁸ × 9 × 10¹⁶. Fais attention à l'ordre de grandeur final en utilisant correctement les puissances de dix : 10⁻²⁸ × 10¹⁶ = 10⁻¹². Recalcule patiemment en séparant les chiffres des puissances."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚛️",
+        "text": "Le noyau contient des protons et des neutrons liés ensemble."
+      },
+      {
+        "icon": "☢️",
+        "text": "La radioactivité est la désintégration spontanée de noyaux instables."
+      },
+      {
+        "icon": "⚡",
+        "text": "La masse perdue se transforme en énergie massive selon Einstein."
+      }
+    ]
   }
 }

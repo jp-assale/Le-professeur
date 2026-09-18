@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Une poulie fixe ne réduit pas la force à exercer (elle reste égale au poids : 200 N). Elle change seulement la direction de la force : tu peux tirer vers le bas au lieu de soulever vers le haut, ce qui est plus pratique et plus sûr. L'avantage mécanique d'une poulie fixe est donc 1.",
     "feedback_wrong": "Pas tout à fait. Une poulie fixe ne réduit pas la force à exercer. Elle change uniquement la direction de la force, ce qui est pratique (tu peux tirer vers le bas), mais l'intensité reste la même : tu dois toujours exercer 200 N, égale au poids du sac. Pour réduire la force, il faut utiliser une poulie mobile, pas une poulie fixe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔧",
+        "text": "Les machines simples transforment les forces pour faciliter le travail."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Levier, poulie, plan incliné : des outils présents partout autour de toi."
+      },
+      {
+        "icon": "💪",
+        "text": "L'avantage mécanique permet soulever lourd avec moins de force."
+      }
+    ]
   }
 }

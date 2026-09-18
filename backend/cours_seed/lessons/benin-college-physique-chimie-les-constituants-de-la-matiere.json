@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Correct ! Chaque molécule de NaCl est formée de 2 atomes (1 sodium + 1 chlore). Donc pour avoir 6 atomes au total, tu dois diviser 6 par 2, ce qui donne 3 molécules de NaCl.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que chaque molécule de NaCl est composée de 2 atomes (1 Na + 1 Cl). Si tu as 6 atomes en total, tu dois calculer combien de molécules cela représente. Divise 6 par 2 pour trouver la réponse."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "L'eau trouble devient claire quand les particules se déposent."
+      },
+      {
+        "icon": "⚛️",
+        "text": "Toute matière est constituée de très petites particules appelées atomes."
+      },
+      {
+        "icon": "🔗",
+        "text": "Les atomes se combinent pour former des molécules et objets visibles."
+      }
+    ]
   }
 }

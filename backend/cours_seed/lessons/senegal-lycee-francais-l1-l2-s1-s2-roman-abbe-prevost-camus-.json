@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement. Le point commun n'est pas une époque ou un style, mais une vision : chaque roman montre un personnage humain en crise face à quelque chose qui le dépasse. Prévost peint la passion impossible, Camus l'absurde, Kourouma la violence de l'histoire, Hampâté Bâ la perte de la mémoire. C'est cela le roman au Bac.",
     "feedback_wrong": "Non. Attention : le roman ne décrit pas juste des paysages, n'évite pas le conflit, et ne réduit pas les enjeux à une seule critique. Les quatre œuvres au programme partagent un enjeu plus profond : la représentation des passions et des crises humaines. Relis la définition du concept."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💔",
+        "text": "Le roman peint les passions humaines face à la réalité du monde."
+      },
+      {
+        "icon": "⚡",
+        "text": "Quatre auteurs, quatre crises : amour, absurde, guerre, mémoire."
+      },
+      {
+        "icon": "🔍",
+        "text": "Chaque roman questionne comment on vit, meurt et se souvient."
+      }
+    ]
   }
 }

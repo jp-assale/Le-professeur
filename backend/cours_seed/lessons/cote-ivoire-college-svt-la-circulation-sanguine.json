@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Exact ! Tu as calculé correctement : 120 battements/min × 80 mL/battement = 9 600 mL/min = 9,6 L/min. Le débit cardiaque augmente pendant l'effort pour apporter plus d'oxygène aux muscles qui en ont besoin.",
     "feedback_wrong": "Pas encore. Rappelle-toi : débit cardiaque = nombre de battements par minute × volume éjecté par battement. Calcule 120 × 80 = 9 600 mL, puis convertis en litres : 9 600 ÷ 1 000 = 9,6 L/min."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❤️",
+        "text": "Le cœur pompe le sang en continu dans tout le corps."
+      },
+      {
+        "icon": "🫀",
+        "text": "Le sang transporte l'oxygène et les nutriments aux cellules."
+      },
+      {
+        "icon": "🔄",
+        "text": "Deux boucles principales : petite et grande circulation sanguine."
+      }
+    ]
   }
 }

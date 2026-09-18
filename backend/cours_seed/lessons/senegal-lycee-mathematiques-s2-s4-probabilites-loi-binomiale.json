@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule avec n = 8, k = 8, p = 0,9. Puisque tous les poissons doivent être frais, P(X = 8) = C(8,8) × 0,9^8 × 0,1^0 = 1 × 0,43046721 × 1 ≈ 0,4305. C'est un cas particulier où tu n'utilises que p^n.",
     "feedback_wrong": "Pas tout à fait. Revois les paramètres : n = 8 (nombre de poissons), k = 8 (tous frais), p = 0,9 (probabilité qu'un poisson soit frais). Puis applique P(X = k) = C(n,k) × p^k × (1-p)^(n-k). Ici, C(8,8) = 1, donc P(X = 8) = 0,9^8 ≈ 0,4305."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Répéter n fois une expérience aléatoire à deux résultats possibles."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chaque essai a la même probabilité p de succès, indépendants entre eux."
+      },
+      {
+        "icon": "📊",
+        "text": "La loi binomiale calcule la probabilité d'exactement k succès."
+      }
+    ]
   }
 }

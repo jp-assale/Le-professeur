@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! C'est le cœur même de la valeur de la philosophie. En nous apprenant à questionner, à examiner nos croyances et à penser par nous-mêmes, la philosophie nous libère de l'acceptation passive. Elle développe notre esprit critique et notre autonomie intellectuelle, ce qui constitue sa véritable richesse.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : la valeur de la philosophie n'est pas mesurée en argent ou en statut professionnel. La philosophie a une valeur intrinsèque : elle nous rend libres de penser, elle nous débarrasse des préjugés et nous permet de comprendre le monde et nous-mêmes de manière plus profonde. C'est cette liberté intellectuelle qui en fait sa véritable richesse."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "La philosophie développe notre capacité à penser par nous-mêmes."
+      },
+      {
+        "icon": "🔍",
+        "text": "Elle nous libère des préjugés en questionnant nos certitudes."
+      },
+      {
+        "icon": "✨",
+        "text": "Sa valeur réside dans la sagesse, non dans le profit."
+      }
+    ]
   }
 }

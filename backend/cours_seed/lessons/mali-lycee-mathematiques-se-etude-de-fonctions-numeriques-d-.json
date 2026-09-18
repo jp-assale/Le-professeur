@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $g(8) = 0,5 \\times 8 + 1 = 4 + 1 = 5$ tonnes. C'est la bonne méthode : remplacer la variable par sa valeur numérique et calculer l'image.",
     "feedback_wrong": "Pas tout à fait. Reprends le calcul : remplace $t$ par 8 dans $g(t) = 0,5t + 1$. Tu dois d'abord calculer $0,5 \\times 8$, puis ajouter 1. Essaie à nouveau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une fonction associe à chaque nombre x un seul nombre y."
+      },
+      {
+        "icon": "📈",
+        "text": "Étudier une fonction révèle comment elle augmente ou diminue."
+      },
+      {
+        "icon": "🎯",
+        "text": "Les fonctions permettent de prévoir l'évolution de phénomènes réels."
+      }
+    ]
   }
 }

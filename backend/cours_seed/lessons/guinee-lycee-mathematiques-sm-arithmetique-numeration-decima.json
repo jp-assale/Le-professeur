@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour convertir 45 en base 2, on divise : 45 ÷ 2 = 22 reste 1; 22 ÷ 2 = 11 reste 0; 11 ÷ 2 = 5 reste 1; 5 ÷ 2 = 2 reste 1; 2 ÷ 2 = 1 reste 0; 1 ÷ 2 = 0 reste 1. En lisant de bas en haut : $45_{10} = 101101_2$. Vérification : $32 + 8 + 4 + 1 = 45$. ✓",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : pour convertir 45 en base 2, divise successivement par 2 et note les restes. 45 ÷ 2 = 22 reste 1; 22 ÷ 2 = 11 reste 0; 11 ÷ 2 = 5 reste 1; 5 ÷ 2 = 2 reste 1; 2 ÷ 2 = 1 reste 0; 1 ÷ 2 = 0 reste 1. En lisant les restes de bas en haut, tu obtiens $101101_2$. Pose la vérification : $1 × 32 + 0 × 16 + 1 × 8 + 1 × 4 + 0 × 2 + 1 × 1 = 45$. ✓"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔢",
+        "text": "Les nombres se représentent en différentes bases: décimal, binaire."
+      },
+      {
+        "icon": "➕",
+        "text": "L'ensemble ℤ forme un anneau avec addition, soustraction, multiplication."
+      },
+      {
+        "icon": "📦",
+        "text": "Les diviseurs d'un nombre révèlent ses structures cachées et ses facteurs."
+      }
+    ]
   }
 }

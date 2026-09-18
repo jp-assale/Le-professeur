@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! L'ONU a été créée en 1945 avec pour mission centrale de maintenir la paix internationale et de résoudre les conflits par la négociation, pas par la guerre. C'est une leçon tirée des catastrophes de la Seconde Guerre mondiale.",
     "feedback_wrong": "Pas tout à fait. L'ONU a bien entendu un rôle de justice (enquêtes sur les crimes de guerre), mais son objectif principal était d'être une organisation pour maintenir la paix mondiale et éviter les futurs conflits. C'est sa raison d'être fondamentale après 1945."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏚️",
+        "text": "Après 1945, le monde dévasté doit se reconstruire entièrement."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Les vainqueurs créent un nouvel ordre international pour la paix."
+      },
+      {
+        "icon": "🌍",
+        "text": "Émergence de deux superpuissances et décolonisation des continents."
+      }
+    ]
   }
 }

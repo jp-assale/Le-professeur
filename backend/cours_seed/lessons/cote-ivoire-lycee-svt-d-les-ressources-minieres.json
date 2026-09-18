@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour trouver la durée d'exploitation, on divise la réserve totale par la quantité extraite chaque année : 8 000 000 ÷ 400 000 = 20 ans. Ce calcul te montre l'importance de connaître les réserves estimées pour planifier l'extraction durable d'une ressource minière.",
     "feedback_wrong": "Pas tout à fait. Il faut diviser la réserve totale (8 000 000 tonnes) par l'exploitation annuelle (400 000 tonnes) pour obtenir le nombre d'années : 8 000 000 ÷ 400 000 = 20 ans. Ce type de calcul est essentiel pour évaluer la viabilité économique et environnementale d'une exploitation minière."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⛏️",
+        "text": "Les ressources minières sont des substances naturelles extraites du sous-sol terrestre."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'or, le nickel et autres minéraux enrichissent économiquement la Côte d'Ivoire."
+      },
+      {
+        "icon": "♻️",
+        "text": "L'extraction durable des ressources minières protège les réserves terrestres futures."
+      }
+    ]
   }
 }

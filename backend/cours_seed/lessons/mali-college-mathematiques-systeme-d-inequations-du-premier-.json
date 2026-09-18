@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le point (1, 2) vérifie toutes les conditions : 1 + 2 = 3 ≤ 4 ✓, 1 ≥ 0 ✓, et 2 ≥ 0 ✓. Il se situe dans la zone de chevauchement de toutes les trois régions.",
     "feedback_wrong": "Pas tout à fait. Vérifie que le couple que tu choisis satisfait CHAQUE inéquation du système. Par exemple, (3, 2) donne 3 + 2 = 5, ce qui ne respecte pas la première inéquation $x + y \\leq 4$. Teste chaque condition une par une."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📋",
+        "text": "Un système d'inéquations regroupe plusieurs inéquations à résoudre simultanément."
+      },
+      {
+        "icon": "🎯",
+        "text": "On cherche les valeurs qui satisfont toutes les conditions à la fois."
+      },
+      {
+        "icon": "📊",
+        "text": "Graphiquement, c'est la région où tous les critères se croisent."
+      }
+    ]
   }
 }

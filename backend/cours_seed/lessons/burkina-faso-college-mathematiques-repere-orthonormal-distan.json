@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! CD = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5. Tu as bien appliqué la formule de distance entre deux points.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : CD = √[(4-1)² + (6-2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5. Vérifie que tu as bien soustrait les coordonnées dans le bon ordre et que tu as élevé au carré avant de tout additionner."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Un repère orthonormal utilise deux axes perpendiculaires gradués de façon égale."
+      },
+      {
+        "icon": "📐",
+        "text": "Chaque point est identifié par ses coordonnées (x ; y) sur le plan."
+      },
+      {
+        "icon": "📏",
+        "text": "Le repère permet de calculer distances et vérifier le parallélisme des droites."
+      }
+    ]
   }
 }

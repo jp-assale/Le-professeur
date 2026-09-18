@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'inéquation est $1200x \\leq 8000$. En divisant par 1200, on obtient $x \\leq 6,67$. Puisque le nombre de cahiers doit être un entier, le maximum est 6 cahiers (qui coûtent $1200 \\times 6 = 7200$ francs, bien en dessous de 8000 francs).",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : on cherche le nombre de cahiers qui ne dépasse pas le budget, donc on utilise l'inéquation $1200x \\leq 8000$. En divisant par 1200 (nombre positif), on obtient $x \\leq 6,67$. Le nombre maximal de cahiers entiers est donc 6, pas 7 ou plus."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Une équation est une égalité avec une ou plusieurs inconnues."
+      },
+      {
+        "icon": "🔍",
+        "text": "Résoudre signifie trouver la valeur qui rend vraie l'égalité."
+      },
+      {
+        "icon": "📊",
+        "text": "Une inéquation utilise <, >, ≤ ou ≥ au lieu de =."
+      }
+    ]
   }
 }

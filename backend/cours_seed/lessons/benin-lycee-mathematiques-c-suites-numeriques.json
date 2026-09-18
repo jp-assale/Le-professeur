@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement appliqué la formule $u_n = u_1 + (n-1)r$. Donc $u_6 = 3 + (6-1) \\times 5 = 3 + 25 = 28$. Tu maîtrises le calcul des termes d'une suite arithmétique.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : $u_n = u_1 + (n-1)r$. Ici, $u_6 = 3 + (6-1) \\times 5 = 3 + 5 \\times 5 = 3 + 25 = 28$. Attention : c'est $(n-1)$ multiplié par la raison, pas $n$. Réessaie !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une suite est une succession de nombres ordonnés suivant une règle précise."
+      },
+      {
+        "icon": "🔢",
+        "text": "Chaque nombre a une position appelée rang ou indice dans la suite."
+      },
+      {
+        "icon": "📈",
+        "text": "Suites arithmétiques et géométriques sont les plus importantes à connaître."
+      }
+    ]
   }
 }

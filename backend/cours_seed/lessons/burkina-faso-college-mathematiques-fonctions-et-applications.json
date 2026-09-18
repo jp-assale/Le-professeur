@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La fonction est $f(x) = 200x + 500$. Pour $x = 12$, on calcule $f(12) = 200 \\times 12 + 500 = 2400 + 500 = 2900$ FCFA. Tu as bien identifié la pente (200, le tarif au km) et l'ordonnée à l'origine (500, l'appel initial).",
     "feedback_wrong": "Pas encore. La fonction affine est $f(x) = 200x + 500$, où 200 FCFA est le tarif par km et 500 FCFA est le tarif fixe. Pour 12 km : $f(12) = 200 \\times 12 + 500 = 2400 + 500 = 2900$ FCFA. Pense bien à ajouter le tarif fixe au tarif kilométrique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Une fonction affine relie deux variables selon la formule f(x) = ax + b."
+      },
+      {
+        "icon": "📊",
+        "text": "Le coefficient a représente la pente, la variation régulière entre les variables."
+      },
+      {
+        "icon": "💰",
+        "text": "Le terme b est le coût fixe ou la valeur initiale quand x égale zéro."
+      }
+    ]
   }
 }

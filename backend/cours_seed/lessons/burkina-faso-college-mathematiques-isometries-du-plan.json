@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Dans une symétrie axiale par rapport à l'axe des ordonnées, l'abscisse change de signe tandis que l'ordonnée reste inchangée. Le point P(6, -3) devient P'(-6, -3). La distance à l'axe est conservée, confirmant que c'est une isométrie.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : dans une symétrie par rapport à l'axe y, seule l'abscisse (coordonnée x) change de signe. L'ordonnée (coordonnée y) reste la même. P(6, -3) se transforme en P'(-6, -3). Essaie de visualiser le point et son reflet sur l'axe vertical."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Une isométrie conserve les distances entre tous les points."
+      },
+      {
+        "icon": "🔄",
+        "text": "Translation, rotation, réflexion et symétrie glissée sont les quatre isométries."
+      },
+      {
+        "icon": "✨",
+        "text": "Les isométries bougent les figures sans les déformer jamais."
+      }
+    ]
   }
 }

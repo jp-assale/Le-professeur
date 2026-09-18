@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bravo ! Tu as correctement appliqué le théorème fondamental. La primitive de $4x + 1$ est $2x^2 + x$. En évaluant entre 0 et 2 : $F(2) - F(0) = (2 \\cdot 2^2 + 2) - (0) = 8 + 2 = 10$.",
     "feedback_wrong": "Ce n'est pas le bon résultat. Vérifie d'abord que tu as trouvé la bonne primitive : pour $f(x) = 4x + 1$, on obtient $F(x) = 2x^2 + x$. Ensuite, calcule $F(2) = 2 \\cdot 4 + 2 = 10$ et $F(0) = 0$, donc la réponse est 10."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "L'intégrale calcule l'aire sous une courbe entre deux points."
+      },
+      {
+        "icon": "∑",
+        "text": "Elle additionne une infinité de petites contributions pour un total."
+      },
+      {
+        "icon": "🔄",
+        "text": "La primitive permet de calculer l'intégrale via le théorème fondamental."
+      }
+    ]
   }
 }

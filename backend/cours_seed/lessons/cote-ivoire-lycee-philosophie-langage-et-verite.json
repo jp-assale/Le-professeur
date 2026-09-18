@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement. Un énoncé est vrai s'il correspond à la réalité. Dire « Tous » quand trois ont échoué contredit les faits. L'énoncé est faux, point. Le langage doit être conforme à la réalité pour exprimer la vérité.",
     "feedback_wrong": "Attention : la vérité n'est pas une question d'interprétation ou de formulation. Si tu dis « Tous » et que ce n'est pas le cas, c'est faux. C'est la non-conformité avec les faits qui rend l'énoncé faux. Le langage doit coller à la réalité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📢",
+        "text": "Le langage exprime nos pensées et croyances sur le monde."
+      },
+      {
+        "icon": "✔️",
+        "text": "La vérité est la conformité entre l'énoncé et la réalité."
+      },
+      {
+        "icon": "❓",
+        "text": "Comment savons-nous si ce qu'on dit est vraiment vrai?"
+      }
+    ]
   }
 }

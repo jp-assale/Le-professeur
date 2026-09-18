@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Ici, le contexte « pour la journée » montre que « fermé » ne signifie pas fermer une porte avec une clé, mais plutôt prendre une décision administrative. C'est un sens figuré du verbe « fermer ». La sémantique te permet de saisir le bon sens selon le contexte.",
     "feedback_wrong": "Pas tout à fait. Regarde le contexte : « pour la journée » est une indication importante. Le directeur ne ferme pas physiquement une porte, mais il prend une décision : il décide que l'école n'accueillera pas d'élèves ce jour-là. C'est le sens figuré et administratif du mot « fermé » que tu dois reconnaître grâce à la sémantique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "La sémantique étudie le sens des mots et des phrases."
+      },
+      {
+        "icon": "🔄",
+        "text": "Un même mot peut avoir plusieurs sens différents."
+      },
+      {
+        "icon": "🎯",
+        "text": "Comprendre le sens crée une meilleure communication."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La colonisation n'avait rien à voir avec le partage équitable. Les Européens voulaient dominer et exploiter l'Afrique pour leur propre profit, sans intérêt pour le bien-être des Africains. Les trois autres réponses sont les véritables causes : besoin économique de matières premières, rivalité impérialiste entre puissances, et avantage militaire technologique.",
     "feedback_wrong": "Réfléchis bien : la colonisation, par définition, c'est l'exploitation d'un territoire par une puissance extérieure pour son propre bénéfice. Le partage équitable irait complètement à l'encontre de cette logique. Les vraies causes sont la recherche de ressources, la compétition entre empires, et la supériorité des armes européennes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚔️",
+        "text": "Les Européens ont conquis l'Afrique par la force et les armes."
+      },
+      {
+        "icon": "💰",
+        "text": "Ils ont exploité les ressources et richesses du continent africain."
+      },
+      {
+        "icon": "👑",
+        "text": "L'impérialisme a imposé la domination européenne sur les peuples africains."
+      }
+    ]
   }
 }

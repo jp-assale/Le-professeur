@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. Une œuvre intégrale narrative doit être lue entièrement, pas résumée. C'est en lisant tout le livre que tu vois comment l'auteur construit son histoire, développe ses personnages et transmet son message. Un résumé ou un film ne te permet jamais de voir les nuances du style, les détails importants, et la profondeur du sens. C'est ce travail complet qui te prépare à bien répondre aux questions d'examen.",
     "feedback_wrong": "Pas tout à fait. Une œuvre intégrale doit être étudiée en entier, pas partiellement ou en résumé. Lorsque tu étudies seulement des parties, tu manques la progression de l'intrigue, la complexité des personnages et les choix stylistiques de l'auteur. C'est seulement en lisant le livre complet et en analysant ensemble tous ses éléments (contexte, personnages, intrigue, style, message) que tu peux vraiment comprendre ce que l'auteur a voulu dire. Reviens à la définition : étudier une œuvre intégrale narrative, c'est la lire entièrement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Un roman raconte une histoire complète du début à la fin."
+      },
+      {
+        "icon": "🔍",
+        "text": "Il faut comprendre comment l'auteur raconte et pourquoi il l'écrit."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'œuvre peut venir d'Afrique ou d'ailleurs dans le monde."
+      }
+    ]
   }
 }

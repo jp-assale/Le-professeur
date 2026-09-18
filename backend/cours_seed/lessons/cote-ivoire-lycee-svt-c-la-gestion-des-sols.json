@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Perte initiale = 4 tonnes/ha × 3 ha = 12 tonnes. Réduction = 12 tonnes × 75 % = 9 tonnes conservées. Les pratiques comme le compostage et la rotation permettent donc de garder 9 tonnes de matière organique précieuse chaque année.",
     "feedback_wrong": "Pas tout à fait. Réfléchis étape par étape : quelle est la perte totale sur 3 hectares ? Puis, combien représente 75 % de cette perte ? C'est la quantité conservée. Recalcule."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📉",
+        "text": "Les rendements baissent quand le sol s'appauvrit et s'érode."
+      },
+      {
+        "icon": "🌱",
+        "text": "La gestion des sols maintient la fertilité et la productivité agricole."
+      },
+      {
+        "icon": "🌍",
+        "text": "En Afrique de l'Ouest, un bon sol est essentiel pour vivre."
+      }
+    ]
   }
 }

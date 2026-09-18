@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! C est un vrai dialogue argumenté parce que chaque personne défend une position avec une raison : Youssouf explique pourquoi interdire les téléphones (mieux étudier), Mariam donne un contre-argument (utiles pour les devoirs), et Youssouf ajoute une preuve (les réseaux sociaux distraient). C'est un vrai débat.",
     "feedback_wrong": "Non, regarde bien. A, B et D sont des dialogues simples où les gens posent des questions ou donnent des infos neutres, sans défendre une idée. Seul C montre deux positions opposées défendues chacune par des arguments : c'est ça, un dialogue argumenté."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Un dialogue argumenté est une conversation entre deux personnes."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chacun défend sa position avec des arguments et des preuves."
+      },
+      {
+        "icon": "✅",
+        "text": "Chaque réplique contient une idée à justifier, pas juste des questions."
+      }
+    ]
   }
 }

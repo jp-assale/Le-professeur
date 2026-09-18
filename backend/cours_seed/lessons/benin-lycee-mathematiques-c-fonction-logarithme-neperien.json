@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Pour résoudre $\\ln(x) = 2$, tu utilises la propriété réciproque : si $\\ln(x) = 2$, alors $x = e^2$. En calculant $e^2 \\approx 7,39$, tu obtiens la bonne réponse. C'est l'application directe de la définition du logarithme comme inverse de l'exponentielle.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi que le logarithme népérien et l'exponentielle de base $e$ sont des fonctions réciproques. Si $\\ln(x) = 2$, alors tu dois appliquer l'exponentielle des deux côtés : $x = e^2 \\approx 7,39$. Vérifie ta calculatrice et réessaye."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "Le pH mesure la concentration en ions hydrogène grâce au logarithme."
+      },
+      {
+        "icon": "🔄",
+        "text": "Le logarithme népérien est la fonction réciproque de l'exponentielle."
+      },
+      {
+        "icon": "🔢",
+        "text": "ln transforme des nombres microscopiquement petits en valeurs lisibles."
+      }
+    ]
   }
 }

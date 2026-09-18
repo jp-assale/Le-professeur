@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. Le droit crée le cadre (les règles), la justice le concrétise (l'application équitable). Sans l'une, l'autre n'existe pas : sans règles (droit), la justice serait arbitraire ; sans application honnête (justice), le droit ne serait qu'une coquille vide.",
     "feedback_wrong": "Pas tout à fait. Relis bien : le droit ce n'est pas une question de richesse ou de géographie, et la justice n'a pas le droit de contredire le droit. La bonne réponse est C. Le droit est le cadre des règles obligatoires, la justice en est l'application juste et impartiale. C'est leur complémentarité qui fait fonctionner une société."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le droit établit des règles obligatoires pour gouverner la vie en société."
+      },
+      {
+        "icon": "👥",
+        "text": "La justice applique ces règles équitablement et donne à chacun ce qui lui est dû."
+      },
+      {
+        "icon": "✊",
+        "text": "Tous les citoyens sont égaux devant la loi, sans exception ni discrimination."
+      }
+    ]
   }
 }

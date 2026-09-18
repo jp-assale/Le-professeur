@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien trouvé la primitive de $3x^2$ qui est $x^3$, puis appliqué la formule : $F(2) - F(1) = 8 - 1 = 7$. Tu maîtrises déjà le calcul intégral.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : la primitive de $3x^2$ est $x^3$. Ensuite, évalue aux bornes : $F(2) = 2^3 = 8$ et $F(1) = 1^3 = 1$. Le résultat est $8 - 1 = 7$. Réessaie !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "L'intégrale mesure l'aire sous une courbe entre deux points."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'intégrale est l'opération inverse de la dérivation."
+      },
+      {
+        "icon": "🌾",
+        "text": "Calcul précis des surfaces réelles : champs, terrains, productions."
+      }
+    ]
   }
 }

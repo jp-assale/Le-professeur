@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le XIXe siècle marque un tournant décisif en Afrique de l'Ouest. L'arrivée croissante des Européens, la réduction puis l'arrêt de la traite négrière, et la réorientation vers de nouveaux produits commerciaux (or, cacao, ivoire) ont forcé les royaumes et sociétés à se réorganiser politiquement et socialement. C'est ce qui fait du XIXe siècle une période d'évolution majeure.",
     "feedback_wrong": "Pas tout à fait. La clé du XIXe siècle en Afrique de l'Ouest, c'est le contact croissant avec l'Europe et les changements dans le commerce. Ce ne sont pas des événements ponctuels comme une famine, mais une transformation systématique des structures de pouvoir et des échanges économiques qui est au cœur de cette période."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Royaumes africains face à la présence européenne croissante au XIXe siècle."
+      },
+      {
+        "icon": "⚔️",
+        "text": "Structures politiques et sociales se transforment sous les défis commerciaux."
+      },
+      {
+        "icon": "🤝",
+        "text": "Africains réagissent activement, nouent alliances et se réorganisent stratégiquement."
+      }
+    ]
   }
 }

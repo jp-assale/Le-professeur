@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien utilisé la formule I = U / R. Avec U = 20 V et R = 4 Ω, tu obtiens I = 20 / 4 = 5 A. Le courant est proportionnel à la tension : plus la tension augmente, plus le courant augmente (pour une résistance constante).",
     "feedback_wrong": "Pas tout à fait. Vérifie la formule : pour trouver le courant, tu dois diviser la tension par la résistance, soit I = U / R. Avec U = 20 V et R = 4 Ω, cela donne I = 20 / 4 = 5 A. Rappelle-toi : dans un conducteur ohmique, le courant est proportionnel à la tension appliquée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "La résistance ralentit le passage du courant électrique."
+      },
+      {
+        "icon": "💡",
+        "text": "Plus de tension augmente proportionnellement le courant."
+      },
+      {
+        "icon": "📐",
+        "text": "La loi d'Ohm relie tension, courant et résistance."
+      }
+    ]
   }
 }

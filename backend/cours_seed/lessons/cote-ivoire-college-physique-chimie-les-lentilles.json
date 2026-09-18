@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement appliqué la formule. Avec 1/(-15) = 1/45 + 1/d_i, tu obtiens 1/d_i = -1/15 - 1/45 = -3/45 - 1/45 = -4/45, donc d_i = -11,25 cm. Le signe négatif indique que l'image est virtuelle, droite et réduite, caractéristique d'une lentille divergente.",
     "feedback_wrong": "Pas tout à fait. Vérifie bien le calcul de la formule 1/f = 1/d_o + 1/d_i. Attention aux signes : la distance focale d'une lentille divergente est négative (f = -15 cm). Reprends l'isolement de 1/d_i et le calcul final."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Une lentille modifie la direction de la lumière pour nous aider à voir."
+      },
+      {
+        "icon": "🔸",
+        "text": "Les lentilles convergentes concentrent la lumière au centre."
+      },
+      {
+        "icon": "🔹",
+        "text": "Les lentilles divergentes dispersent la lumière vers les côtés."
+      }
+    ]
   }
 }

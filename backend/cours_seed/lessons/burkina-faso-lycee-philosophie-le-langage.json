@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Seul l'homme peut raconter quelque chose qui s'est passé dans le passé, absent du moment présent. Le langage a la capacité de transcender le ici-maintenant. Les autres situations sont des signaux instinctifs qui ne mobilisent pas cette richesse de structure et de sens.",
     "feedback_wrong": "Pas tout à fait. Le langage n'est pas un simple signal d'alarme ou d'expression immédiate. C'est ce qui nous permet de parler d'absence, de passé, d'imaginaire. Seule la situation où quelqu'un raconte son passé utilise cette puissance du langage."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Le langage est un système de signes qui exprime nos pensées."
+      },
+      {
+        "icon": "🧠",
+        "text": "Il permet de communiquer sur le passé, futur et l'imaginaire."
+      },
+      {
+        "icon": "🤝",
+        "text": "Le langage construit notre compréhension commune de la réalité."
+      }
+    ]
   }
 }

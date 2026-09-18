@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'histoire de l'humanité, c'est d'abord reconnaître que les sociétés changent, qu'elles se transforment. Ce n'est pas une simple description du passé, mais l'étude de ces mouvements, de ces ruptures et de ces continuités. Tu as bien compris le cœur du chapitre.",
     "feedback_wrong": "Pas tout à fait. Relis la définition : l'histoire de l'humanité n'est pas la répétition du même, ni l'étude exclusive des grands hommes, ni une photo figée du passé. C'est l'étude du CHANGEMENT, de la façon dont les sociétés et les modes de vie se transforment au fil du temps. C'est une dynamique, un mouvement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔨",
+        "text": "L'humanité a développé des outils et maîtrisé progressivement la nature."
+      },
+      {
+        "icon": "📚",
+        "text": "Les sociétés se sont transformées avec institutions, langages et pensées."
+      },
+      {
+        "icon": "⏳",
+        "text": "L'histoire montre une trajectoire avec des ruptures et des progrès."
+      }
+    ]
   }
 }

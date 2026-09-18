@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la formule du barycentre. On calcule $x_G = \\frac{4 \\cdot 1 + 2 \\cdot 5}{4 + 2} = \\frac{4 + 10}{6} = \\frac{14}{6} = \\frac{7}{3}$ et $y_G = \\frac{4 \\cdot 2 + 2 \\cdot 6}{6} = \\frac{8 + 12}{6} = \\frac{20}{6} = \\frac{10}{3}$. Le point d'équilibre est bien $G(\\frac{7}{3}, \\frac{10}{3})$.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule du barycentre : $G = \\frac{\\alpha_1 P + \\alpha_2 Q}{\\alpha_1 + \\alpha_2}$. Ici, $\\alpha_1 = 4$, $\\alpha_2 = 2$, donc $x_G = \\frac{4 \\cdot 1 + 2 \\cdot 5}{6} = \\frac{14}{6} = \\frac{7}{3}$ et $y_G = \\frac{4 \\cdot 2 + 2 \\cdot 6}{6} = \\frac{20}{6} = \\frac{10}{3}$. Reprends le calcul pas à pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le barycentre équilibre des points pondérés comme un centre de masse."
+      },
+      {
+        "icon": "📍",
+        "text": "Chaque point a un poids qui mesure son importance relative."
+      },
+      {
+        "icon": "🗺️",
+        "text": "Les lignes de niveau montrent où une grandeur conserve la même valeur."
+      }
+    ]
   }
 }

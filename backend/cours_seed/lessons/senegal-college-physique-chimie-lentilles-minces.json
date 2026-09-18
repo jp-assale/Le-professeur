@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}$. En remplaçant : $\\frac{1}{15} = \\frac{1}{45} + \\frac{1}{q}$, tu obtiens $\\frac{1}{q} = \\frac{1}{15} - \\frac{1}{45} = \\frac{3}{45} - \\frac{1}{45} = \\frac{2}{45}$, donc $q = 22,5$ cm. L'image se forme à 22,5 cm de la lentille.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la formule des lentilles minces : $\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}$. Avec $f = 15$ cm et $p = 45$ cm, tu dois trouver $\\frac{1}{q} = \\frac{1}{15} - \\frac{1}{45}$. Mets au même dénominateur et calcule $q$. La réponse correcte est 22,5 cm."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👓",
+        "text": "Les lentilles minces dévient la lumière pour former des images nettes."
+      },
+      {
+        "icon": "🔄",
+        "text": "Les lentilles convergentes rapprochent les rayons vers un point focal."
+      },
+      {
+        "icon": "📏",
+        "text": "La distance focale mesure le pouvoir de la lentille."
+      }
+    ]
   }
 }

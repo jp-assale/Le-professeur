@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La révolution russe n'a pas éclaté par accident : elle est née de la souffrance réelle du peuple. La Première Guerre mondiale, la famine et l'absence de libertés ont poussé les Russes à renverser le tsar. C'est l'exemple parfait du lien entre crise sociale et révolution.",
     "feedback_wrong": "Non, ce n'est pas le bon facteur. La chute du tsar en 1917 vient de la révolte du peuple lui-même : la faim, le chômage, les morts à la guerre. La révolution naît quand les gens ordinaires ne peuvent plus supporter leur situation. Relis bien l'exemple ci-dessus."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔥",
+        "text": "Les crises économiques et sociales provoquent des révolutions politiques violentes."
+      },
+      {
+        "icon": "⚔️",
+        "text": "Les conflits d'intérêts entre puissances créent des guerres mondiales destructrices."
+      },
+      {
+        "icon": "🌍",
+        "text": "Le XXe siècle a transformé le monde par révolutions et affrontements idéologiques."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Tu as identifié les trois dimensions essentielles de la religion : la croyance (le lien au sacré), la pratique (les rites), et le collectif (la communauté). Ce n'est jamais qu'une seule de ces dimensions isolée.",
     "feedback_wrong": "Pas tout à fait. La religion n'est ni une simple conviction privée, ni une arnaque, ni une superstition vide de sens. C'est un système qui intègre croyance, pratique rituelle et vie communautaire. Relis la définition : elle unit l'individu au sacré de trois façons à la fois."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🙏",
+        "text": "La religion relie l'humain au sacré et au divin."
+      },
+      {
+        "icon": "📿",
+        "text": "Elle structure des rites, des valeurs et des communautés."
+      },
+      {
+        "icon": "✨",
+        "text": "Elle donne du sens à la vie et aux questions existentielles."
+      }
+    ]
   }
 }

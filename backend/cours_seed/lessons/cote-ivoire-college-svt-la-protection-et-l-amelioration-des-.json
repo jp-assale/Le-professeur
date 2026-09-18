@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as bien calculé : perte annuelle = 2,5 tonnes/hectare × 40 hectares = 100 tonnes par an. Sur 3 ans : 100 tonnes/an × 3 ans = 300 tonnes. Cette perte massive montre pourquoi la protection des sols contre l'érosion est urgente dans les régions arides.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : il faut d'abord calculer la perte annuelle (2,5 tonnes/ha × 40 ha = 100 tonnes/an), puis multiplier par le nombre d'années (3 ans). 100 × 3 = 300 tonnes au total. C'est une perte considérable qui justifie les mesures de protection !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Protéger et améliorer les sols sont deux actions indissociables et essentielles."
+      },
+      {
+        "icon": "💧",
+        "text": "L'érosion hydrique, éolienne et la perte organique dégradent les terres."
+      },
+      {
+        "icon": "🌾",
+        "text": "Restaurer la qualité du sol retrouve productivité et fertilité perdues."
+      }
+    ]
   }
 }

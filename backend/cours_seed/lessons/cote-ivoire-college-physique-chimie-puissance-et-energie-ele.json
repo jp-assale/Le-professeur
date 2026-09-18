@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as bien appliqué la formule E = P × t. En convertissant d'abord la puissance en kilowatts : P = 150 W = 0,15 kW, puis E = 0,15 kW × 4 h = 0,6 kWh. C'est l'énergie que le téléviseur consomme en une journée.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi de la formule E = P × t. Convertis d'abord la puissance en kilowatts : 150 W = 0,15 kW. Ensuite, multiplie par la durée : E = 0,15 kW × 4 h = 0,6 kWh. N'oublie pas les conversions d'unités !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "La puissance mesure la vitesse de consommation électrique d'un appareil."
+      },
+      {
+        "icon": "⏱️",
+        "text": "L'énergie est la quantité totale consommée pendant une durée donnée."
+      },
+      {
+        "icon": "💰",
+        "text": "Plus long et puissant, plus ta facture d'électricité augmente."
+      }
+    ]
   }
 }

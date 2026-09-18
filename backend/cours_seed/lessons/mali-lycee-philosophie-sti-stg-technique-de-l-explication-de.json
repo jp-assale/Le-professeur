@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Commencer par identifier l'idée ou le thème central permet de structurer toute ton analyse. C'est comme trouver le fil rouge qui guide ta lecture. Sans cette première étape, tu risques de te perdre dans les détails et de rater le sens profond du texte.",
     "feedback_wrong": "Pas tout à fait. L'explication de texte n'est pas un simple résumé, ni une substitution de vocabulaire, ni l'imposition de son avis. La première étape consiste à identifier clairement le thème ou l'idée centrale autour de laquelle le texte s'organise. C'est le point de départ de toute analyse sérieuse."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Décortiquer le texte phrase par phrase pour révéler ses couches cachées."
+      },
+      {
+        "icon": "💭",
+        "text": "Identifier les intentions de l'auteur au-delà du sens littéral des mots."
+      },
+      {
+        "icon": "🎯",
+        "text": "Justifier son analyse en montrant comment et pourquoi le texte fonctionne."
+      }
+    ]
   }
 }

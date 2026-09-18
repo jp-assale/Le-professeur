@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! L'échelle est le rapport entre la dimension sur le dessin et la dimension réelle. Ici : 25 m (dessin) / 50 m (réalité) = 1/2. Cela signifie que chaque longueur réelle est divisée par 2 sur le papier. C'est une échelle couramment utilisée dans les dessins techniques pour que les plans tiennent sur une feuille.",
     "feedback_wrong": "Pas tout à fait. L'échelle se calcule en divisant la dimension du dessin par la dimension réelle : 25 m ÷ 50 m = 0,5 = 1/2. Cela veut dire que sur ce dessin, 1 cm représente 2 cm dans la réalité. Revois le calcul de l'échelle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Le dessin technique est un langage universel précis et normalisé."
+      },
+      {
+        "icon": "🏗️",
+        "text": "Chaque trait représente une dimension exacte sans ambiguïté possible."
+      },
+      {
+        "icon": "👷",
+        "text": "Il permet une communication claire entre tous les professionnels du bâtiment."
+      }
+    ]
   }
 }

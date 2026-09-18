@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! En utilisant $[α] = \\frac{α}{l × c} = \\frac{-25°}{1 × 0,05} = -500°$, tu obtiens bien -500°. Le signe négatif indique que cet isomère est lévogyre (dévie vers la gauche). Cette différence de signe entre les deux isomères stéréoisomères montre qu'ils ne sont pas superposables : ce sont des énantiomères.",
     "feedback_wrong": "Revois ton calcul. La formule est $[α] = \\frac{α}{l × c}$. Ici, α = -25° (négatif car lévogyre), l = 1 dm, c = 0,05 g/mL. Calcule : $\\frac{-25°}{1 × 0,05} = \\frac{-25°}{0,05} = -500°$. Le pouvoir rotatoire spécifique dépend à la fois de la rotation observée ET des conditions de mesure (longueur et concentration)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Même formule chimique, arrangement spatial différent crée molécules distinctes."
+      },
+      {
+        "icon": "💡",
+        "text": "La stéréochimie étudie la position des atomes dans l'espace."
+      },
+      {
+        "icon": "🧬",
+        "text": "Isomères stéréoisomères ont des propriétés biologiques et optiques différentes."
+      }
+    ]
   }
 }

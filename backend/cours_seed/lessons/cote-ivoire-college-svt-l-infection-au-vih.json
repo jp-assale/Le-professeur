@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Il faut calculer la différence entre le nombre initial et le seuil du SIDA : $500 - 200 = 300$ cellules/mm³ à perdre. En divisant par la diminution annuelle : $300 \\div 50 = 6$ ans. C'est pourquoi le traitement antirétroviral doit commencer rapidement pour arrêter cette destruction cellulaire.",
     "feedback_wrong": "Ce n'est pas correct. Calcule d'abord la différence entre le nombre initial de CD4+ (500) et le seuil du SIDA (200) : $500 - 200 = 300$. Ensuite, divise cette différence par la diminution annuelle : $300 \\div 50 = 6$ ans. Sans traitement, le patient atteindrait le stade SIDA en 6 ans."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🦠",
+        "text": "Le VIH détruit progressivement les cellules du système immunitaire."
+      },
+      {
+        "icon": "🚫",
+        "text": "Le VIH se transmet par le sang, rapports sexuels et mère-enfant."
+      },
+      {
+        "icon": "💊",
+        "text": "Sans traitement, le VIH évolue vers le SIDA et maladies opportunistes."
+      }
+    ]
   }
 }

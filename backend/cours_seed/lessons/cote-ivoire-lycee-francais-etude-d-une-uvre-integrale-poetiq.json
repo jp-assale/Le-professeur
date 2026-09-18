@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Étudier une œuvre intégrale, c'est voir le recueil comme un tout organisé, pas comme une liste de poèmes indépendants. Tu cherches la logique, la progression, les échos entre les textes. C'est ce qui transforme une collection en véritable œuvre.",
     "feedback_wrong": "Pas tout à fait. Étudier une œuvre intégrale, ce n'est pas mémoriser, isoler chaque texte, ou simplement comparer avec d'autres ouvrages. C'est comprendre comment les poèmes du recueil forment un ensemble cohérent, comment ils dialoguent, comment ils construisent ensemble une vision. C'est voir le projet global du poète."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎭",
+        "text": "La poésie crée une atmosphère émotionnelle, pas juste des faits."
+      },
+      {
+        "icon": "🧩",
+        "text": "Un recueil est une œuvre cohérente où les poèmes dialoguent."
+      },
+      {
+        "icon": "🎨",
+        "text": "Chaque élément contribue au projet global et au sens complet."
+      }
+    ]
   }
 }

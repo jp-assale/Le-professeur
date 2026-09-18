@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! $(f \\circ g)(4)$ signifie d'abord appliquer $g$, puis $f$ au résultat. $g(4) = 4 + 3 = 7$, puis $f(7) = 2 \\times 7 - 1 = 13$.",
     "feedback_wrong": "Pas tout à fait. Calcule d'abord $g(4) = 4 + 3 = 7$, puis applique $f$ à ce résultat : $f(7) = 2 \\times 7 - 1 = 13$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Composition : appliquer une fonction après une autre successivement."
+      },
+      {
+        "icon": "📊",
+        "text": "Horner : méthode rapide pour factoriser polynômes et trouver racines."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Une formule unique remplace plusieurs calculs transformés en séquence."
+      }
+    ]
   }
 }

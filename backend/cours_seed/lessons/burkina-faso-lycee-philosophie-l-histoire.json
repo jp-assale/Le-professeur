@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as compris le cœur de la leçon. L'histoire n'est ni une photographie neutre du passé, ni une pure fiction. C'est un travail vivant d'interprétation où le présent interroge le passé. Cela explique pourquoi des historiens peuvent proposer des visions différentes sans que l'une soit simplement « vraie » ou « fausse ».",
     "feedback_wrong": "Pas tout à fait. Réfléchis bien : l'histoire peut-elle être une simple liste objective de tous les faits ? Non, car aucun récit ne peut tout raconter. Peut-elle être une pure invention ? Non, elle est ancrée dans le réel. L'histoire est une tension entre les faits réels et l'interprétation humaine."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "L'histoire est une interprétation, pas une simple découverte du passé."
+      },
+      {
+        "icon": "🧠",
+        "text": "Les historiens construisent du sens en sélectionnant et questionnant les événements."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Plusieurs versions peuvent coexister : il n'y a pas une seule vérité absolue."
+      }
+    ]
   }
 }

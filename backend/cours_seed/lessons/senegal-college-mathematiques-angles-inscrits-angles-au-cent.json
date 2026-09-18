@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien inversé la relation. Si l'angle inscrit vaut la moitié de l'angle au centre, alors l'angle au centre = 2 × angle inscrit = 2 × 35° = 70°. C'est l'inverse du exemple résolu.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi : l'angle inscrit = (angle au centre) ÷ 2. Donc si tu connais l'angle inscrit, il faut multiplier par 2 pour trouver l'angle au centre. L'angle au centre = 2 × 35° = 70°."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "L'angle au centre a son sommet au centre du cercle."
+      },
+      {
+        "icon": "📍",
+        "text": "L'angle inscrit a son sommet sur le cercle lui-même."
+      },
+      {
+        "icon": "🔗",
+        "text": "Les deux angles regardent le même arc du cercle."
+      }
+    ]
   }
 }

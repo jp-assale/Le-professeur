@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'imparfait exprime ici une action qui avait déjà commencé et qui était encore en cours quand tu es arrivé. C'est sa valeur d'action inachevée, de décor ou d'arrière-plan. L'ajout « depuis une heure » renforce cette duée.",
     "feedback_wrong": "Attention. L'imparfait ici ne marque pas une simple habitude, ni une action terminée, ni du futur. Il décrit une action qui était en train de se faire au moment où tu es arrivé, une action non terminée qui servait de contexte à ton arrivée. C'est cela, sa valeur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏰",
+        "text": "Chaque temps verbal situe l'action dans le passé, présent ou futur."
+      },
+      {
+        "icon": "🎨",
+        "text": "La valeur d'un temps ajoute une nuance particulière au sens de l'action."
+      },
+      {
+        "icon": "🔍",
+        "text": "Plusieurs temps peuvent exprimer le même moment avec des différences subtiles."
+      }
+    ]
   }
 }

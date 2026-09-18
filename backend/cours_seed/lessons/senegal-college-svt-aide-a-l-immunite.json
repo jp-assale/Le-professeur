@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Avant la campagne : 450 enfants sur 1 500, soit 30 % étaient atteints. Après : 135 enfants sur 1 500, soit 9 % étaient atteints. La réduction est de 30 % - 9 % = 21 points. En pourcentage relatif : (450 - 135) ÷ 450 × 100 = 70 %. Cet exemple montre comment une aide à l'immunité basée sur l'hygiène (mesure naturelle) réduit les infections de manière très efficace.",
     "feedback_wrong": "Pas tout à fait. Calcule d'abord le nombre d'enfants qui ne sont plus atteints : 450 - 135 = 315 enfants. Ensuite, exprime cette réduction par rapport au nombre initial d'enfants atteints : (315 ÷ 450) × 100 = 70 %. L'hygiène est une aide naturelle à l'immunité qui a réduit les infections de 70 %."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛡️",
+        "text": "Notre système immunitaire nous défend contre les virus et bactéries."
+      },
+      {
+        "icon": "🥗",
+        "text": "L'alimentation, le sommeil et l'hygiène renforcent nos défenses naturelles."
+      },
+      {
+        "icon": "💉",
+        "text": "Les vaccins aident notre corps à combattre les maladies infectieuses."
+      }
+    ]
   }
 }

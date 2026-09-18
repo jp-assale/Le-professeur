@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule $E = h\\nu$. Calcul : $E = 6,63 \\times 10^{-34} \\times 4,5 \\times 10^{14} = 29,835 \\times 10^{-20} ≈ 3,0 \\times 10^{-19}$ J. Ce résultat montre qu'un photon de lumière rouge transporte une énergie bien définie, ce qui illustre son comportement corpusculaire.",
     "feedback_wrong": "Ce n'est pas bon. Vérifie que tu appliques correctement $E = h\\nu$ : multiplie la constante de Planck par la fréquence. Attention aux puissances de 10 : $10^{-34} \\times 10^{14} = 10^{-20}$, puis convertis en $10^{-19}$. Recalcule et essaie à nouveau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌊",
+        "text": "La lumière se propage en ligne droite comme une onde."
+      },
+      {
+        "icon": "💡",
+        "text": "Elle agit aussi comme des particules appelées photons."
+      },
+      {
+        "icon": "🔄",
+        "text": "La lumière est à la fois onde et particule selon le contexte."
+      }
+    ]
   }
 }

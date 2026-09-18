@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "C'est exact ! Les puissances coloniales, surtout la France et la Grande-Bretagne, avaient besoin de renforcer leurs armées en Europe et d'obtenir des matières premières. Elles ont donc exploité leurs colonies africaines en y prélevant hommes, denrées et ressources. Cela montre comment le colonialisme a lié le sort des Africains à des conflits qui ne les concernaient pas directement.",
     "feedback_wrong": "Pas tout à fait. Réfléchis au contexte : pendant cette période, les puissances coloniales contrôlaient totalement l'Afrique. Elles avaient besoin de renforcer leurs forces militaires en Europe et d'obtenir des ressources. Comment ont-elles pu se servir de leurs colonies pour atteindre ces objectifs ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🪖",
+        "text": "Millions d'Africains mobilisés comme soldats dans la guerre européenne."
+      },
+      {
+        "icon": "⛏️",
+        "text": "Extraction forcée de ressources africaines pour l'effort de guerre colonial."
+      },
+      {
+        "icon": "💔",
+        "text": "Pertes humaines et destruction économique massive en Afrique oubliées."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bravo ! Tu as appliqué correctement la multiplication. $(2 + 3i)^2 = 2^2 + 2 \\times 2 \\times 3i + (3i)^2 = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i$. C'est la formule $(a + b)^2 = a^2 + 2ab + b^2$ appliquée aux nombres complexes.",
     "feedback_wrong": "Pas encore. Rappelle-toi que $(2 + 3i)^2 = (2 + 3i) \\times (2 + 3i)$. Développe terme à terme : $2 \\times 2$, puis $2 \\times 3i$, puis $3i \\times 2$, puis $3i \\times 3i$ (attention : $3i \\times 3i = 9i^2 = -9$). Regroupe ensuite les parties réelles et imaginaires."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Les nombres complexes modélisent les courants alternatifs en électricité industrielle."
+      },
+      {
+        "icon": "🔢",
+        "text": "Un nombre complexe combine une partie réelle et une partie imaginaire."
+      },
+      {
+        "icon": "📐",
+        "text": "L'unité imaginaire i vérifie i² = -1, résolvant équations sans solution réelle."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Très bien ! La phrase B mélange vraiment l'action (s'approcher), le portrait (les yeux brillants, le large sourire) et le dialogue (« J'ai une nouvelle ! »). On voit, on entend et on comprend l'émotion du personnage. C'est ça, intégrer.",
     "feedback_wrong": "Pas tout à fait. Les autres phrases séparent le portrait de la description, ou le dialogue est trop faible. Pour intégrer, il faut que le portrait et le dialogue se mélangent dans la même scène, au même moment. Relis la phrase B : elle montre comment Aïssatou se comporte, ce qu'elle dit, et pourquoi elle agit ainsi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Le dialogue rapporte les paroles des personnages pour les faire vivre."
+      },
+      {
+        "icon": "🎨",
+        "text": "Le portrait décrit l'apparence ou le caractère du personnage."
+      },
+      {
+        "icon": "✨",
+        "text": "Ces techniques rendent le récit vivant, réaliste et captivant."
+      }
+    ]
   }
 }

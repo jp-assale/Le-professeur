@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! En regroupant les termes en $x$ et en $y$, puis en complétant le carré, tu obtiens $(x - 4)^2 + (y + 3)^2 = 16$. Cela confirm que c'est un cercle de centre $(4 ; -3)$ et de rayon $4$. Quand les coefficients de $x^2$ et $y^2$ sont égaux et positifs, avec pas de terme en $xy$, c'est toujours un cercle ou une ellipse—ici un cercle parfait.",
     "feedback_wrong": "Pas tout à fait. Rearrange l'équation en complétant le carré pour les termes en $x$ et pour les termes en $y$ séparément. Tu trouveras $(x - 4)^2 + (y + 3)^2 = 16$. C'est l'équation d'un cercle, pas d'une parabole ou hyperbole. Le centre est toujours $(4 ; -3)$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔺",
+        "text": "Une conique résulte de la coupe d'un cône par un plan."
+      },
+      {
+        "icon": "📐",
+        "text": "Quatre types de courbes différentes selon l'angle du plan."
+      },
+      {
+        "icon": "⚽",
+        "text": "Les coniques décrivent des trajectoires et formes du monde réel."
+      }
+    ]
   }
 }

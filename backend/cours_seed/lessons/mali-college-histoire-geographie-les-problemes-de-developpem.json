@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Les sécheresses rendent l'agriculture imprévisible et les mauvaises routes isolent les régions. Ces deux facteurs, ensemble, piègent les populations dans la pauvreté. Les autres options sont soit fausses, soit trop extrêmes : la zone a des ressources, elle n'est pas surpeuplée comparée aux standards mondiaux, et l'école n'est pas interdite, elle est simplement inaccessible pour beaucoup.",
     "feedback_wrong": "Pas tout à fait. Réfléchis : qu'est-ce qui empêche vraiment les paysans de vendre leurs récoltes et les enfants d'aller à l'école ? Les sécheresses et les mauvaises routes sont les vrais obstacles. Les autres réponses sont soit incorrectes, soit exagérées."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏘️",
+        "text": "Le développement améliore l'accès à l'eau, l'éducation, la santé et l'emploi."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'Afrique soudano-sahélienne fait face à des obstacles majeurs au développement."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Ces défis viennent de l'histoire, la géographie, la pauvreté et les conflits."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as identifié la cause centrale : l'inégalité sociale extrême. Le peuple était écrasé par les impôts et la faim tandis que les privilégiés vivaient dans le luxe sans rien faire. Cette injustice insoutenable a provoqué la révolte massive de 1789.",
     "feedback_wrong": "Pas tout à fait. Relis bien la question. La vraie cause de la Révolution, c'est l'inégalité sociale extrême : le peuple payait des impôts énormes, mourait de faim, tandis que le roi et les nobles jouissaient d'un luxe absolument injustifié. Cette rage face à cette injustice a déclenché la révolution."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "😤",
+        "text": "Le peuple révolté contre l'injustice et les impôts trop lourds."
+      },
+      {
+        "icon": "👑",
+        "text": "Le roi et les nobles vivaient dans le luxe sans travailler."
+      },
+      {
+        "icon": "🔄",
+        "text": "La révolution a transformé complètement la structure de la France."
+      }
+    ]
   }
 }

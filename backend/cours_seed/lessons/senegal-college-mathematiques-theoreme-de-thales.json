@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Avec ST // QR, on applique Thalès : PS/PQ = PT/PR. Donc 4/10 = 5/PR, ce qui donne PR = 12,5 cm. Puisque PT = 5 cm, on obtient TR = 12,5 − 5 = 7,5 cm. Tu maîtrises bien l'utilisation des rapports.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que si ST // QR, alors PS/PQ = PT/PR. Calcule d'abord PR avec cette égalité : 4/10 = 5/PR donne PR = 12,5 cm. Ensuite, TR = PR − PT = 12,5 − 5 = 7,5 cm. Refais le calcul pas à pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Des droites parallèles créent des segments proportionnels."
+      },
+      {
+        "icon": "∥",
+        "text": "Les rapports entre segments restent toujours égaux."
+      },
+      {
+        "icon": "🌳",
+        "text": "Mesurer l'inaccessible en utilisant les proportions."
+      }
+    ]
   }
 }

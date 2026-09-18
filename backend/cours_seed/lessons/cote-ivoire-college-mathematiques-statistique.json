@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! En comptant les fréquences : 8 apparaît 1 fois, 10 apparaît 3 fois, 12 apparaît 1 fois, 15 apparaît 1 fois, 9 apparaît 1 fois. Le mode est la valeur la plus fréquente, donc 10.",
     "feedback_wrong": "Pas tout à fait. Le mode est la valeur qui apparaît le plus souvent dans la série. Compte combien de fois chaque chiffre revient : tu verras que 10 revient 3 fois, plus que les autres."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "La statistique collecte, organise et analyse les données numériques."
+      },
+      {
+        "icon": "🎯",
+        "text": "La moyenne, médiane et mode résument une série de données."
+      },
+      {
+        "icon": "💡",
+        "text": "Ces mesures aident à prendre de bonnes décisions rapidement."
+      }
+    ]
   }
 }

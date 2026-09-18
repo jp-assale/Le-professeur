@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule. $T = 2\\pi\\sqrt{\\frac{m}{k}} = 2\\pi\\sqrt{\\frac{0,5}{20}} = 2\\pi\\sqrt{0,025} = 2\\pi \\times 0,158 \\approx 2 \\times 3,14 \\times 0,158 = 3,14$ s. Bien joué !",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien converti les grammes en kilogrammes (500 g = 0,5 kg), et que tu appliques la formule complète : $T = 2\\pi\\sqrt{\\frac{m}{k}}$. N'oublie pas le facteur $2\\pi$ !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Un oscillateur revient à l'équilibre en oscillant librement sans force externe."
+      },
+      {
+        "icon": "⏱️",
+        "text": "La période T et fréquence f caractérisent le mouvement périodique du système."
+      },
+      {
+        "icon": "🌊",
+        "text": "Les frottements ralentissent progressivement les oscillations jusqu'à l'arrêt complet."
+      }
+    ]
   }
 }

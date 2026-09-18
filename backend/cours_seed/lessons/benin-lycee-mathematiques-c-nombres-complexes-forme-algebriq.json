@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Le module de w = −3 + 4i se calcule avec |w| = √((−3)² + 4²) = √(9 + 16) = √25 = 5. Le signe négatif de la partie réelle n'affecte pas le module, puisqu'on élève au carré.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que le module d'un nombre complexe z = a + ib est |z| = √(a² + b²). Ici, a = −3 et b = 4, donc |w| = √(9 + 16) = 5. Le signe de a n'importe pas, c'est son carré qui compte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Les nombres complexes modélisent courants et tensions déphasés en électricité."
+      },
+      {
+        "icon": "📐",
+        "text": "Un nombre complexe combine partie réelle et partie imaginaire."
+      },
+      {
+        "icon": "🔄",
+        "text": "Trois formes révèlent des informations différentes du nombre complexe."
+      }
+    ]
   }
 }

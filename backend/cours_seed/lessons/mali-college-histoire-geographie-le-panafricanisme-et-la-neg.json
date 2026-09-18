@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact! Tu as compris le cœur du chapitre. Le panafricanisme et la négritude sont deux facettes d'un même mouvement de conscience et de libération : l'un agit sur le plan politique et géopolitique (l'unité), l'autre sur le plan culturel et identitaire (la fierté). Ensemble, ils permettent aux Africains et aux peuples noirs de se redécouvrir, de s'unir et de résister au colonialisme.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : le panafricanisme est le mouvement qui vise l'unité politique et la solidarité entre tous les peuples africains et les descendants d'Africains. La négritude, elle, affirme les valeurs culturelles et la dignité de l'identité noire. Ces deux mouvements ne s'opposent pas — au contraire, ils se renforcent mutuellement dans la lutte contre le colonialisme et le racisme. Relis le concept et l'exemple pour mieux voir comment ils travaillent ensemble."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Panafricanisme : unir les peuples africains contre le colonialisme."
+      },
+      {
+        "icon": "✊",
+        "text": "Négritude : célébrer la dignité et culture des peuples noirs."
+      },
+      {
+        "icon": "🌍",
+        "text": "Mouvements nés au 20e siècle pour retrouver fierté collective."
+      }
+    ]
   }
 }

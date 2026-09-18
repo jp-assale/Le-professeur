@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le lymphocyte T CD4, aussi appelé cellule T auxiliaire ou T helper, est le chef d'orchestre de l'immunité adaptative. Il coordonne l'activation des lymphocytes B et des lymphocytes T cytotoxiques. C'est précisément ce lymphocyte que le VIH détruit progressivement, ce qui explique pourquoi les patients atteints du SIDA deviennent vulnérables à des infections opportunistes.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Le VIH cible spécifiquement le lymphocyte T CD4 (cellule T helper), qui est responsable de la coordination globale de la réponse immunitaire. Les autres cellules que tu as mentionnées jouent aussi un rôle dans l'immunité, mais le VIH affaiblit principalement la réponse immunitaire en détruisant les T CD4, ce qui explique l'apparition du SIDA quand leur nombre devient très faible (moins de 200 cellules/mm³)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛡️",
+        "text": "Le système immunitaire défend le corps contre les microbes et corps étrangers."
+      },
+      {
+        "icon": "⚡",
+        "text": "La défense rapide crée l'inflammation; la défense précise produit les anticorps."
+      },
+      {
+        "icon": "🦠",
+        "text": "Un système immunitaire affaibli rend l'organisme vulnérable aux maladies graves."
+      }
+    ]
   }
 }

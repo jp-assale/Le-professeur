@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Bien que le tourisme soit un secteur potentiel, l'absence de plages côtières n'est pas un problème structurel du développement ivoirien abordé dans ce chapitre. Les vrais blocages sont la mono-dépendance économique, les infrastructures insuffisantes et le manque de transformation industrielle locale.",
     "feedback_wrong": "Pas tout à fait. Relis bien : quels sont les véritables obstacles structurels mentionnés ? La dépendance aux matières premières, l'insuffisance des infrastructures, et le manque de diversification économique sont les problèmes clés du chapitre. L'absence de tourisme côtier n'en fait pas partie."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍫",
+        "text": "Économie dépendante d'une seule matière première : le cacao"
+      },
+      {
+        "icon": "🔄",
+        "text": "Cercle vicieux : manque d'industrie et d'infrastructures freine diversification"
+      },
+      {
+        "icon": "📉",
+        "text": "Obstacles structurels empêchent émergence d'économie moderne équilibrée"
+      }
+    ]
   }
 }

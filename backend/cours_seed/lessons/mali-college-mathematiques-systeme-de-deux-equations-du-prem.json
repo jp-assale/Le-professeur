@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as trouvé le bon point. De la première équation, $y = 4 - x$. De la deuxième, $y = 2x - 2$. Les droites se rencontrent quand $4 - x = 2x - 2$, soit $6 = 3x$, donc $x = 2$. En remplaçant, $y = 4 - 2 = 2$. La solution est bien $(2, 2)$. Tu maîtrises la méthode graphique !",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : tu dois exprimer $y$ en fonction de $x$ dans chaque équation, puis tracer les deux droites. Le point d'intersection des deux droites est la solution du système. Essaie à nouveau en traçant soigneusement les deux droites sur un graphique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "Deux équations avec les mêmes deux inconnues à résoudre simultanément."
+      },
+      {
+        "icon": "📊",
+        "text": "La méthode graphique trace deux droites sur un repère."
+      },
+      {
+        "icon": "✂️",
+        "text": "Le point d'intersection des droites donne la solution du système."
+      }
+    ]
   }
 }

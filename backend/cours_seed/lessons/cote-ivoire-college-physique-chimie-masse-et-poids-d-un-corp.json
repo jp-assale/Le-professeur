@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule P = m × g. Avec une masse de 40 kg et g = 10 N/kg, tu obtiens P = 40 × 10 = 400 N. Cela montre bien que le poids (en newtons) est différent de la masse (en kilogrammes).",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule : P = m × g. Tu dois multiplier la masse (40 kg) par l'intensité de la pesanteur (10 N/kg). Cela donne P = 40 × 10 = 400 N. Le poids s'exprime toujours en newtons, pas en kilogrammes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "La masse mesure la quantité de matière en kilogrammes."
+      },
+      {
+        "icon": "⬇️",
+        "text": "Le poids est la force gravitationnelle en newtons."
+      },
+      {
+        "icon": "🌍",
+        "text": "La masse ne change pas, le poids varie selon le lieu."
+      }
+    ]
   }
 }

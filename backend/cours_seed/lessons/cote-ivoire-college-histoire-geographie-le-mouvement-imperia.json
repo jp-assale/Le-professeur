@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien compris. L'impérialisme, c'est la domination à plusieurs niveaux (économique, politique, culturelle) des grandes puissances sur des territoires qu'elles cherchent à contrôler pour leurs propres intérêts. Ce n'est ni un échange égal, ni de l'aide désintéressée : c'est une exploitation systématique justifiée par une fausse idée de supériorité civilisatrice.",
     "feedback_wrong": "Pas tout à fait. L'impérialisme n'est pas un simple échange commercial, ni de l'aide humanitaire, ni un partenariat égal. C'est une domination unilatérale : les puissances fortes prennent le contrôle économique, politique et culturel de territoires faibles pour les exploiter. Relis la définition et l'exemple de la Côte d'Ivoire pour bien saisir le mécanisme."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Les puissances européennes dominent économiquement les territoires africains et asiatiques."
+      },
+      {
+        "icon": "💰",
+        "text": "L'impérialisme exploite les ressources naturelles pour enrichir les pays colonisateurs."
+      },
+      {
+        "icon": "🎯",
+        "text": "Les décisions politiques sont contrôlées par des étrangers, pas par les peuples locaux."
+      }
+    ]
   }
 }

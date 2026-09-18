@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule : 20 g × 0,40 = 8 g. Attention à bien appliquer le pourcentage à la masse de sucres simples (20 g), pas à la masse totale de la banane (120 g) — sinon on obtiendrait 48 g, ce qui serait faux puisque la banane n'est pas composée à 100 % de sucres simples.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que 40 % signifie 40/100 = 0,40, et qu'il faut l'appliquer à la masse de sucres simples (20 g), pas à la masse totale de la banane (120 g). Calcule : 20 g × 0,40 = ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍞",
+        "text": "Les aliments disparaissent car ton corps les transforme."
+      },
+      {
+        "icon": "🔄",
+        "text": "La digestion est un processus physique et chimique."
+      },
+      {
+        "icon": "⚡",
+        "text": "Ce processus convertit les aliments en énergie utilisable."
+      }
+    ]
   }
 }

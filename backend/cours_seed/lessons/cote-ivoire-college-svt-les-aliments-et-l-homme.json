@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la proportionnalité : 250 g × (120 kcal / 100 g) = 300 kcal. Cela montre que tu maîtrises le calcul de l'énergie apportée par un aliment.",
     "feedback_wrong": "Ce n'est pas correct. La bonne méthode est de faire une proportionnalité : si 100 g fournissent 120 kcal, alors 250 g fournissent (250 × 120) / 100 = 300 kcal. Relis bien les données et refais le calcul étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍽️",
+        "text": "Un aliment apporte à ton corps les nutriments nécessaires."
+      },
+      {
+        "icon": "💪",
+        "text": "Six types de nutriments assurent ton fonctionnement et ta croissance."
+      },
+      {
+        "icon": "🌱",
+        "text": "Les aliments viennent d'origine animale ou végétale."
+      }
+    ]
   }
 }

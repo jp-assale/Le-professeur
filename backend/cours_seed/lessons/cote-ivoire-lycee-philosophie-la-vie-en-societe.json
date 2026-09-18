@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien saisi le cœur de la vie en société : ce n'est pas la contrainte externe qui prime, mais la compréhension que l'ordre social me protège moi aussi. Le commerçant accepte la règle parce qu'elle rend sa vie possible et profitable. C'est cela, l'accord implicite.",
     "feedback_wrong": "Pas tout à fait. Rellis l'exemple : le commerçant ne craint pas un contrôle constant, et la loi n'est pas une pure force brute. Il accepte la règle parce qu'il comprend qu'elle protège sa propre existence dans la société. C'est un accord, pas une menace."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Les humains vivent ensemble selon des règles communes."
+      },
+      {
+        "icon": "🏗️",
+        "text": "La vie en société est une construction, pas naturelle."
+      },
+      {
+        "icon": "❓",
+        "text": "Pourquoi acceptons-nous de vivre ensemble plutôt seuls?"
+      }
+    ]
   }
 }

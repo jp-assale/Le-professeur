@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Hugo et Senghor, bien qu'éloignés dans le temps et l'espace, partagent une conviction profonde : la poésie est une force pour transformer la réalité et humaniser ceux que la société oublie. Ils ne peuvent pas ignorer les souffrances de leur époque, et la poésie devient leur moyen d'agir.",
     "feedback_wrong": "Pas tout à fait. Ce n'est pas la technique versifiée qui rapproche ces deux poètes, ni le rejet de la tradition. C'est leur engagement : ils croient que la poésie peut et doit parler pour les marginalisés, donner une dignité aux voix étouffées. Relis la question en pensant à l'intention politique derrière chaque vers."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La poésie transcende les frontières entre Europe et Afrique."
+      },
+      {
+        "icon": "💭",
+        "text": "Les poètes expriment révolte, beauté et identité par les mots."
+      },
+      {
+        "icon": "🎵",
+        "text": "Deux traditions dialoguent : française classique et Négritude africaine."
+      }
+    ]
   }
 }

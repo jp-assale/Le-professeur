@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! C'est une loi binomiale avec $n = 6$ et $p = 0,5$. La probabilité est $P(X = 3) = C_6^3 \\times (0,5)^3 \\times (0,5)^3 = 20 \\times 0,5^6 = 20 \\times \\frac{1}{64} = \\frac{20}{64} = 0,3125$. Tu as bien appliqué la formule !",
     "feedback_wrong": "Pas tout à fait. Il s'agit d'une loi binomiale : $P(X = k) = C_n^k p^k (1-p)^{n-k}$. Ici, $C_6^3 = 20$, $p = 0,5$, et $(0,5)^6 = \\frac{1}{64}$, donc $P(X = 3) = 20 \\times \\frac{1}{64} = 0,3125$. Revois les étapes du calcul avec la formule binomiale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Dénombrer : compter les façons de sélectionner ou arranger des objets."
+      },
+      {
+        "icon": "🔢",
+        "text": "Combinaison C_n^k : nombre de choix de k objets parmi n sans ordre."
+      },
+      {
+        "icon": "📊",
+        "text": "Probabilité = cas favorables dénombrés divisés par cas possibles totaux."
+      }
+    ]
   }
 }

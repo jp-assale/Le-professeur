@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Avant de construire ton raisonnement, tu dois d'abord comprendre et définir les mots importants du sujet. C'est la base de toute dissertation solide.",
     "feedback_wrong": "Non. Le travail préalable essentiel en dissertation est d'analyser les concepts du sujet. Tu dois savoir exactement ce qu'on te demande avant de répondre. Les autres options sont des raccourcis qui affaiblissent ta démarche."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤔",
+        "text": "Explorer une question en profondeur sous différents angles"
+      },
+      {
+        "icon": "📋",
+        "text": "Construire un raisonnement logique structuré et argumenté"
+      },
+      {
+        "icon": "✍️",
+        "text": "Démontrer sa capacité à penser par soi-même"
+      }
+    ]
   }
 }

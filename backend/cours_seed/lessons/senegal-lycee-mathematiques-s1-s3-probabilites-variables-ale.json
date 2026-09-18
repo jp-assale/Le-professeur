@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Un défaut signifie que le téléphone ne fonctionne pas, donc p = 0,1 (probabilité de défaut). Tu dois trouver P(X = 2) avec n = 4, p = 0,1 et k = 2. C(4,2) = 6, donc P(X = 2) = 6 × (0,1)² × (0,9)² = 6 × 0,01 × 0,81 = 0,0486. Tu as maîtrisé l'identification correcte de la probabilité de succès.",
     "feedback_wrong": "Pas tout à fait. Attention : un défaut, c'est l'échec, donc p = 0,1 (pas 0,9). Avec n = 4, k = 2 (deux défauts), calcule P(X = 2) = C(4,2) × (0,1)² × (0,9)² = 6 × 0,01 × 0,81 = 0,0486. L'erreur courante est de confondre la probabilité de bon fonctionnement avec celle d'avoir un défaut."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎲",
+        "text": "Variable aléatoire : grandeur numérique dépendant d'une expérience aléatoire."
+      },
+      {
+        "icon": "✅",
+        "text": "Schéma de Bernoulli : répétition d'épreuves avec succès ou échec uniquement."
+      },
+      {
+        "icon": "📊",
+        "text": "Loi binomiale B(n,p) : distribution du nombre total de succès."
+      }
+    ]
   }
 }

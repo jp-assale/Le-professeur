@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : $x_N - x_M = 4 - 1 = 3$ et $y_N - y_M = 6 - 2 = 4$. Le vecteur $\\overrightarrow{MN} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ indique qu'on se déplace de 3 unités à droite et 4 unités vers le haut.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : pour trouver les coordonnées du vecteur $\\overrightarrow{MN}$, tu dois soustraire les coordonnées du point de départ M des coordonnées du point d'arrivée N. Calcule $x_N - x_M = 4 - 1 = 3$ et $y_N - y_M = 6 - 2 = 4$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧭",
+        "text": "Un vecteur caractérise un déplacement avec direction, sens et longueur."
+      },
+      {
+        "icon": "📍",
+        "text": "Le repère cartésien place les vecteurs précisément avec axes x et y."
+      },
+      {
+        "icon": "📊",
+        "text": "Les coordonnées indiquent les déplacements horizontaux et verticaux du vecteur."
+      }
+    ]
   }
 }

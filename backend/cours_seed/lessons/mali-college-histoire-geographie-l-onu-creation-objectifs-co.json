@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le Conseil de sécurité compte 15 membres au total : 5 permanents et 10 non permanents. Une résolution a besoin de 9 votes favorables pour passer. Les 5 membres permanents peuvent bloquer avec leur veto, mais s'ils ne l'utilisent pas, 9 votes suffisent.",
     "feedback_wrong": "Pas tout à fait. Le Conseil de sécurité a 15 membres : 5 permanents (États-Unis, Russie, Chine, France, Royaume-Uni) et 10 non permanents. Une résolution a besoin de 9 votes favorables pour être adoptée, à condition qu'aucun membre permanent n'utilise son droit de veto."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "L'ONU réunit presque tous les États du monde depuis 1945."
+      },
+      {
+        "icon": "☮️",
+        "text": "Son objectif principal est maintenir la paix et sécurité internationale."
+      },
+      {
+        "icon": "🤝",
+        "text": "Le Conseil de sécurité prend les grandes décisions pour la paix."
+      }
+    ]
   }
 }

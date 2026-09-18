@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien saisi la distinction. La passion nous échappe partiellement, elle nous possède, tandis que le désir reste une aspiration plus consciente vers quelque chose d'absent. Comprendre cette différence te permet de mieux analyser les comportements humains.",
     "feedback_wrong": "Pas tout à fait. Relis bien : la passion n'est pas une simple aspiration consciente. C'est une force qui nous meut, presque malgré nous. Le désir, lui, est plus proche de l'aspiration. Cette distinction est clé pour comprendre pourquoi les gens agissent contre leur propre raison."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔥",
+        "text": "La passion nous domine et nous échappe partiellement."
+      },
+      {
+        "icon": "❤️",
+        "text": "Le désir aspire vers ce qui nous manque."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Sommes-nous libres ou esclaves de nos passions?"
+      }
+    ]
   }
 }

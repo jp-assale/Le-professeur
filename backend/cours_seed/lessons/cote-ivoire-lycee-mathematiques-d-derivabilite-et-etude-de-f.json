@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! En développant $g(x + h) = -(x + h)^2 + 4(x + h) = -x^2 - 2xh - h^2 + 4x + 4h$, le taux de variation devient $\\frac{-2xh - h^2 + 4h}{h} = -2x - h + 4$. À la limite, $g'(x) = -2x + 4$. Donc $g'(1) = -2(1) + 4 = 2$. La courbe monte avec une pente de 2 au point d'abscisse 1.",
     "feedback_wrong": "Pas tout à fait. Reprenons : $g(x + h) = -(x + h)^2 + 4(x + h) = -x^2 - 2xh - h^2 + 4x + 4h$. Le taux de variation est $\\frac{g(x + h) - g(x)}{h} = \\frac{-2xh - h^2 + 4h}{h} = -2x - h + 4$. À la limite quand $h \\to 0$, on obtient $g'(x) = -2x + 4$. En particulier, $g'(1) = -2(1) + 4 = 2$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La dérivée mesure comment une fonction change à chaque point."
+      },
+      {
+        "icon": "📍",
+        "text": "Une fonction est dérivable si elle possède une tangente unique."
+      },
+      {
+        "icon": "🔍",
+        "text": "La dérivabilité permet d'étudier la croissance et les extrema."
+      }
+    ]
   }
 }

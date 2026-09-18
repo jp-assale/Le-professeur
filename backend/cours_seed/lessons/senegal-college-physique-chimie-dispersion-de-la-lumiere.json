@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as correctement appliqué la formule de déviation : D = angle d'émergence − angle d'incidence = 50° − 45° = 5°. Remarque aussi que la lumière verte (550 nm) subit une déviation plus importante (5°) que la lumière orange (49° − 45° = 4°), ce qui confirme que les plus courtes longueurs d'onde sont davantage déviées.",
     "feedback_wrong": "Ce n'est pas correct. Vérifie ta formule : l'angle de déviation D = angle d'émergence − angle d'incidence. Ici, D = 50° − 45° = 5°. Attention à ne pas confondre l'angle d'émergence (50°) avec la déviation elle-même."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌈",
+        "text": "La lumière blanche se sépare en plusieurs couleurs différentes."
+      },
+      {
+        "icon": "🌊",
+        "text": "Chaque couleur a une longueur d'onde et vitesse différente."
+      },
+      {
+        "icon": "🔴",
+        "text": "Le rouge dévie moins, le violet dévie davantage."
+      }
+    ]
   }
 }

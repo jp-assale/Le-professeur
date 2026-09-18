@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Un accord international sur le climat montre que les États reconnaissent leur interdépendance. Le changement climatique affecte tous les pays, donc tous doivent communiquer et coopérer pour trouver des solutions communes. C'est le cœur de la solidarité planétaire.",
     "feedback_wrong": "Pas tout à fait. Relis bien : la solidarité terrestre repose sur l'interdépendance (on a besoin les uns des autres), la communication (échanges d'informations) et la coopération (travailler ensemble pour des problèmes communs). Les trois autres options montrent au contraire de l'isolement ou du refus d'échange. Cherche l'exemple qui montre des pays travaillant ensemble sur un enjeu qui les concerne tous."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La Terre est un monde connecté où tout s'échange et s'influence."
+      },
+      {
+        "icon": "🤝",
+        "text": "Les peuples dépendent les uns des autres par commerce, culture et technologie."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les problèmes globaux nécessitent une coopération internationale solidaire."
+      }
+    ]
   }
 }

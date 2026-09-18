@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule : $(4-1)^2 + (6-2)^2 + (9-5)^2 = 9 + 16 + 16 = 41$, donc $d = \\sqrt{41}$. Tu maîtrises le calcul de distance dans l'espace.",
     "feedback_wrong": "Pas tout à fait. Vérifie ton calcul des différences : $(4-1) = 3$, $(6-2) = 4$, $(9-5) = 4$. Puis au carré : $9 + 16 + 16 = 41$. La distance est $\\sqrt{41}$. Recommence en étant très attentif à l'ordre des opérations."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Trois axes perpendiculaires (x, y, z) définissent tout point de l'espace."
+      },
+      {
+        "icon": "📐",
+        "text": "Les calculs de distance et position fonctionnent comme en 2D mais tridimensionnels."
+      },
+      {
+        "icon": "🏗️",
+        "text": "La géométrie analytique modélise précisément des situations réelles en trois dimensions."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Avec 50 % de sable (l'élément dominant), ce sol est classé comme sableux. L'avantage principal d'un sol sableux est son excellent drainage (l'eau ne stagne pas) et la facilité de travail du sol. L'inconvénient est qu'il retient peu d'eau et peu de nutriments, donc les cultures peuvent souffrir de sécheresse.",
     "feedback_wrong": "Pas tout à fait. L'élément granulométrique dominant ici est le sable (50 %), ce qui classe ce sol comme sableux, non argileux ni limoneux. Un sol sableux se caractérise par un bon drainage et une aisance de travail, même s'il ne retient pas l'eau longtemps. Relis bien la composition : c'est le pourcentage le plus élevé qui détermine la classe textuelle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌱",
+        "text": "Les sols varient en composition et déterminent la fertilité des plantes."
+      },
+      {
+        "icon": "💧",
+        "text": "Chaque sol a des caractéristiques mesurables : texture, porosité, pH, matière organique."
+      },
+      {
+        "icon": "🔍",
+        "text": "Comprendre le sol permet de mieux cultiver et protéger cette ressource."
+      }
+    ]
   }
 }

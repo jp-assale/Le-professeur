@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : un angle inscrit mesure toujours la moitié de l'angle au centre qui intercepte le même arc. Ici, 120° ÷ 2 = 60°.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'angle inscrit vaut toujours la MOITIÉ de l'angle au centre quand ils interceptent le même arc. L'angle au centre est 120°, donc l'angle inscrit = 120° ÷ 2 = 60°."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "La position change l'angle observé entre deux points fixes."
+      },
+      {
+        "icon": "⭕",
+        "text": "Angle au centre : sommet au centre, côtés coupent le cercle."
+      },
+      {
+        "icon": "📐",
+        "text": "Angle inscrit = moitié de l'angle au centre même arc."
+      }
+    ]
   }
 }

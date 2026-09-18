@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Le module de $w = 2 + 2i$ est $|w| = \\sqrt{2^2 + 2^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$. Tu as bien maîtrisé la formule du module.",
     "feedback_wrong": "Pas tout à fait. Pour calculer le module de $w = 2 + 2i$, utilise la formule $|w| = \\sqrt{a^2 + b^2}$ où $a = 2$ et $b = 2$. Cela donne $|w| = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📡",
+        "text": "Le module mesure la puissance du signal radio en onde circulaire."
+      },
+      {
+        "icon": "📐",
+        "text": "L'argument représente l'angle de direction de propagation du signal."
+      },
+      {
+        "icon": "⚡",
+        "text": "La formule de Moivre calcule facilement les puissances complexes."
+      }
+    ]
   }
 }

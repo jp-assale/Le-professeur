@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué le théorème de Pythagore. Si $c = 13$ m est l'hypoténuse et $a = 5$ m est un côté, alors $5^2 + b^2 = 13^2$, ce qui donne $25 + b^2 = 169$, donc $b^2 = 144$ et $b = 12$ m.",
     "feedback_wrong": "Ce n'est pas correct. Utilise le théorème de Pythagore : $a^2 + b^2 = c^2$. Ici, $5^2 + b^2 = 13^2$, donc $25 + b^2 = 169$. Résous pour trouver $b^2 = 144$, puis $b = 12$ m."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Un triangle rectangle possède un angle droit de 90°."
+      },
+      {
+        "icon": "📏",
+        "text": "L'hypoténuse est le côté opposé à l'angle droit."
+      },
+      {
+        "icon": "✓",
+        "text": "Le théorème de Pythagore relie les trois côtés."
+      }
+    ]
   }
 }

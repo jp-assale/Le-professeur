@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris le cœur du chapitre. La violence dépasse les actes visibles : une injustice systématique, une oppression légalisée, c'est aussi de la violence. Et la paix n'est pas juste un silence forcé, c'est un état où les droits et la dignité sont respectés. C'est ce qui rend le débat philosophique si riche : quand peut-on considérer qu'une résistance est justifiée ?",
     "feedback_wrong": "Pas tout à fait. Réfléchis à ceci : une rue calme sous surveillance constante est-elle vraiment en paix ? La philosophie nous invite à voir au-delà des apparences. La violence existe aussi dans les structures injustes et invisibles. La paix véritable ne peut pas reposer sur la peur, mais sur le respect mutuel et la justice."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✊",
+        "text": "La violence inclut l'oppression et la contrainte, pas seulement les coups."
+      },
+      {
+        "icon": "☮️",
+        "text": "La paix requiert la justice et le respect mutuel, pas juste l'absence de guerre."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Question clé : la violence peut-elle servir une paix juste et équilibrée?"
+      }
+    ]
   }
 }

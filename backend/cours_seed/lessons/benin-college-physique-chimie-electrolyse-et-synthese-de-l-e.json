@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien retenu que lors de l'électrolyse, le rapport des volumes est toujours $V_{H_2}$ : $V_{O_2}$ = 2 : 1. Donc si l'hydrogène est 60 mL, l'oxygène est 60 / 2 = 30 mL. C'est une règle clé à retenir.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : lors de l'électrolyse de l'eau, il se produit toujours deux fois plus de volume d'hydrogène que d'oxygène. Si tu as 60 mL d'hydrogène, tu dois diviser par 2 pour trouver l'oxygène."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'électricité peut casser l'eau en hydrogène et oxygène."
+      },
+      {
+        "icon": "💧",
+        "text": "L'eau est composée d'hydrogène et d'oxygène combinés ensemble."
+      },
+      {
+        "icon": "🔄",
+        "text": "Électrolyse et combustion sont deux processus chimiques opposés."
+      }
+    ]
   }
 }

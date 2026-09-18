@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Le virage au rouge du papier indicateur est la signature d'une solution acide. Les papiers indicateurs de pH sont calibrés pour changer de couleur selon les domaines : rouge ou rose pour les acides (pH < 7), bleu ou violet pour les bases (pH > 7). Tu as bien mémorisé l'outil de mesure.",
     "feedback_wrong": "Pas tout à fait. Le papier indicateur ne vire pas au rouge pour une base : il vire au bleu ou au violet. Le rouge indique un pH inférieur à 7, donc une solution acide. C'est l'inverse pour les bases. Relis les codes couleur des indicateurs de pH."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍋",
+        "text": "Les acides libèrent des ions H+ et ont un goût piquant."
+      },
+      {
+        "icon": "🧼",
+        "text": "Les bases libèrent des ions OH- et sont glissantes au toucher."
+      },
+      {
+        "icon": "📊",
+        "text": "L'échelle de pH mesure l'acidité ou la basicité de 0 à 14."
+      }
+    ]
   }
 }

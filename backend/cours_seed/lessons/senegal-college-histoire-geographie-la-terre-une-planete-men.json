@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as bien compris que c'est un cycle : la surexploitation aggrave le climat, qui aggrave à son tour la dégradation des ressources. C'est cela qui rend le problème si urgent à l'échelle planétaire.",
     "feedback_wrong": "Pas tout à fait. Relisez bien la relation : la surexploitation libère des gaz à effet de serre (comme le CO₂), ce qui modifie le climat global. Et ce climat dégradé rend les ressources restantes plus difficiles à maintenir. C'est un cercle vicieux, pas une suite isolée d'événements."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La surexploitation des ressources naturelles dépasse la capacité de régénération terrestre."
+      },
+      {
+        "icon": "💨",
+        "text": "Les gaz à effet de serre modifient le climat : températures, pluies, tempêtes."
+      },
+      {
+        "icon": "🔄",
+        "text": "Un cercle vicieux : changement climatique dégrade encore plus les ressources restantes."
+      }
+    ]
   }
 }

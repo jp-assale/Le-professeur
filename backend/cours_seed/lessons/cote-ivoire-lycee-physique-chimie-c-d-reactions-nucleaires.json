@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Avant la fusion : deux deutérium, chacun avec A = 2, donc 2 + 2 = 4 nucléons au total. Après la fusion : l'hélium 3 a A = 3, et le neutron a A = 1. Conservation du nombre de masse : 4 = 3 + 1. Le produit formé représente bien 4 u. La petite différence de masse (moins de 1 %) se convertit en énergie selon la formule E = mc².",
     "feedback_wrong": "Regarde bien la conservation du nombre de masse A. Avant : deux deutérium de masse 2 chacun, soit 2 + 2 = 4 nucléons. Après : l'hélium 3 (A = 3) plus un neutron (A = 1). La somme des produits doit être 3 + 1 = 4 u. C'est la clé pour équilibrer les réactions nucléaires."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚛️",
+        "text": "Les réactions nucléaires transforment le noyau atomique et libèrent énorme énergie."
+      },
+      {
+        "icon": "💥",
+        "text": "Fission : noyau se casse. Fusion : deux noyaux s'unissent."
+      },
+      {
+        "icon": "⚡",
+        "text": "Petite matière convertie en énorme quantité d'énergie."
+      }
+    ]
   }
 }

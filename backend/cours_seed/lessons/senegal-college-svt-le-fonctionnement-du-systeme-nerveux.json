@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Très juste ! Tu as correctement appliqué la formule temps = distance ÷ vitesse, soit 2,4 ÷ 80 = 0,03 secondes. C'est cette rapidité de transmission qui permet à ton système nerveux de réagir instantanément face aux stimuli de l'environnement.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la formule : temps = distance ÷ vitesse. Ici, distance = 2,4 m et vitesse = 80 m/s. En effectuant le calcul 2,4 ÷ 80, tu obtiens 0,03 secondes. L'influx nerveux est remarquablement rapide, mais c'est cette vitesse que tu dois utiliser dans ta formule."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "Le système nerveux détecte, traite et commande les réactions du corps."
+      },
+      {
+        "icon": "🔗",
+        "text": "Il comprend le système central et le système nerveux périphérique."
+      },
+      {
+        "icon": "⚡",
+        "text": "L'influx nerveux transmet les messages très rapidement entre les cellules."
+      }
+    ]
   }
 }

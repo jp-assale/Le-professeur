@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : Énergie totale = masse de glucose × énergie par gramme = 250 g × 0,04 unité/g = 10 unités d'énergie. La fermentation transforme le glucose en énergie accessible aux microorganismes.",
     "feedback_wrong": "Pas tout à fait. Reprends le calcul : tu dois multiplier la masse totale de glucose (250 g) par l'énergie libérée par gramme (0,04 unité/g). Le résultat est 250 × 0,04 = 10 unités d'énergie. C'est le produit des deux grandeurs qui te donne l'énergie totale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔬",
+        "text": "La fermentation produit de l'énergie sans oxygène dans les cellules."
+      },
+      {
+        "icon": "🍞",
+        "text": "Elle transforme les aliments comme le pain et les boissons traditionnelles."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les microorganismes utilisent ce processus pour survivre et se reproduire."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement. La vérité n'est pas une question d'opinion personnelle, de majorité ou de rhétorique. C'est l'accord entre ce qu'on affirme et la réalité objective. Elle existe indépendamment de ce qu'on souhaite croire.",
     "feedback_wrong": "Non. La vérité n'est pas relative à chacun, ni basée sur la majorité, ni sur le pouvoir de convaincre. Elle dépend de la conformité entre l'affirmation et les faits réels, qu'on y croit ou non."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "La vérité correspond à la réalité, indépendamment de nos opinions."
+      },
+      {
+        "icon": "🤔",
+        "text": "Comment savons-nous qu'une affirmation est vraie ou fausse?"
+      },
+      {
+        "icon": "🔍",
+        "text": "La vérité exige accord entre les faits affirmés et la réalité."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la formule. L'aire de la base circulaire est $\\pi r^2 = 3,14 × 5^2 = 3,14 × 25 = 78,5$ cm². Ensuite, V = (78,5 × 12) / 3 = 942 / 3 = 314 cm³. C'est la bonne réponse !",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : V = (Aire de la base × hauteur) / 3. Pour un cône, l'aire de la base est $\\pi r^2 = 3,14 × 5^2 = 78,5$ cm². Ensuite, V = (78,5 × 12) / 3 = 314 cm³. Essaie encore !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📦",
+        "text": "Pyramide et cône sont des solides pointus avec une base et un sommet."
+      },
+      {
+        "icon": "📐",
+        "text": "La base peut être un polygone pour la pyramide ou un cercle pour le cône."
+      },
+      {
+        "icon": "🧮",
+        "text": "Volume égale aire de base multipliée par hauteur, divisée par trois."
+      }
+    ]
   }
 }

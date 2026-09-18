@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Pour une suite géométrique, $u_n = u_0 \\times q^n$. Donc $u_5 = 3 \\times 2^5 = 3 \\times 32 = 96$. Tu maîtrises la formule du terme général.",
     "feedback_wrong": "Pas encore. Rappelle-toi : dans une suite géométrique, $u_n = u_0 \\times q^n$. Ici, $u_5 = 3 \\times 2^5 = 3 \\times 32 = 96$. Attention à ne pas confondre avec $u_0 \\times q$ ou d'autres variations."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Les suites modélisent l'évolution du nombre de poissons mois après mois."
+      },
+      {
+        "icon": "📊",
+        "text": "L'intégration calcule l'accumulation totale : nourriture consommée sur la période."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les équations différentielles décrivent les changements continus et ralentissements."
+      }
+    ]
   }
 }

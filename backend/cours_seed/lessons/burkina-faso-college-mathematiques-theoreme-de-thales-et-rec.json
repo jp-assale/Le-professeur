@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bien sûr ! Tu as appliqué correctement la réciproque du théorème de Thalès. En vérifiant que $\\frac{AM}{AB} = \\frac{5}{15} = \\frac{1}{3}$ et $\\frac{AN}{AC} = \\frac{6}{18} = \\frac{1}{3}$, tu montres que les rapports sont égaux. Par la réciproque, (MN) est donc parallèle à (BC).",
     "feedback_wrong": "Attention à tes calculs. Vérifie : $\\frac{AM}{AB} = \\frac{5}{15} = \\frac{1}{3}$ et $\\frac{AN}{AC} = \\frac{6}{18} = \\frac{1}{3}$. Les deux rapports sont égaux, donc selon la réciproque du théorème de Thalès, (MN) doit être parallèle à (BC)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Une droite parallèle à un côté crée des segments proportionnels."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Les trois rapports de segments sont égaux avec le théorème."
+      },
+      {
+        "icon": "✓",
+        "text": "Si les rapports sont égaux, alors la droite est parallèle."
+      }
+    ]
   }
 }

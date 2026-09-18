@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Dans une homothétie de rapport k = 0,6, toutes les longueurs sont multipliées par 0,6. Donc 5 × 0,6 = 3 cm. Puisque 0,6 < 1, il s'agit d'une réduction.",
     "feedback_wrong": "Ce n'est pas correct. Souviens-toi que dans une homothétie de rapport k, les longueurs sont multipliées par la valeur absolue de k. Ici, k = 0,6, donc la nouvelle longueur est 5 × 0,6 = 3 cm."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Agrandir ou réduire une figure en gardant sa forme exacte."
+      },
+      {
+        "icon": "🎯",
+        "text": "Tous les points se déplacent selon le même rapport de proportionnalité."
+      },
+      {
+        "icon": "✨",
+        "text": "Les angles et l'alignement restent identiques, seule la taille change."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Correct ! En utilisant la formule du milieu, tu obtiens : $x_N = \\frac{4 + (-2)}{2} = \\frac{2}{2} = 1$ et $y_N = \\frac{-1 + 5}{2} = \\frac{4}{2} = 2$. Donc N(1; 2). Tu maîtrises bien le repérage dans le plan.",
     "feedback_wrong": "Ce n'est pas correct. Utilise la formule du milieu : $N\\left(\\frac{x_P + x_Q}{2}; \\frac{y_P + y_Q}{2}\\right)$. Avec P(4; -1) et Q(-2; 5), tu dois calculer : abscisse = $\\frac{4 + (-2)}{2} = 1$ et ordonnée = $\\frac{-1 + 5}{2} = 2$. Le milieu est N(1; 2)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Localiser un point nécessite deux nombres appelés coordonnées."
+      },
+      {
+        "icon": "📐",
+        "text": "Deux droites perpendiculaires : axe horizontal x et vertical y."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chaque point a une position exacte et unique dans le plan."
+      }
+    ]
   }
 }

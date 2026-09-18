@@ -71,5 +71,21 @@
     ],
     "feedback_correct": "Exact ! C'est une focalisation interne. Tu n'accèdes à la conscience que d'une seule personnage (celle qui parle ou dont on suit les pensées), pas de l'autre. La focalisation zéro te montrerait les deux perspectives, et la focalisation externe ne t'autoriserait l'accès à aucune pensée intime.",
     "feedback_wrong": "Pas tout à fait. Réfléchis bien : tu entres dans la tête d'une personnage précise, mais pas dans celle de l'autre. Ce n'est pas la focalisation zéro (qui montrerait toutes les pensées), ni la focalisation externe (qui ne montrerait aucune pensée). C'est la focalisation interne : tu es prisonnier du point de vue d'un seul personnage."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👁️",
+        "text": "La focalisation est le point de vue narratif qui façonne la compréhension."
+      },
+      {
+        "icon": "🎥",
+        "text": "Chaque témoin voit le même événement différemment selon sa perspective."
+      },
+      {
+        "icon": "📖",
+        "text": "Le choix de la caméra narrative détermine ce que le lecteur comprend."
+      }
+    ]
   }
 }

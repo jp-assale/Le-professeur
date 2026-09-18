@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule : x' = 3 × 1 - 2 = 1 et y' = 2 × 2 + 5 = 9. L'image de Q est bien Q'(1 ; 9).",
     "feedback_wrong": "Attention. Vérifie tes calculs en remplaçant x = 1 et y = 2 dans la formule f(x ; y) = (3x - 2 ; 2y + 5). Pour la première coordonnée : 3 × 1 - 2 = 1. Pour la deuxième : 2 × 2 + 5 = 9. L'image correcte est (1 ; 9)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗺️",
+        "text": "Une application affine transforme les points avec une direction précise."
+      },
+      {
+        "icon": "📍",
+        "text": "L'alignement des points et les distances sont conservés après transformation."
+      },
+      {
+        "icon": "🔄",
+        "text": "Elle combine une transformation linéaire et un déplacement (translation)."
+      }
+    ]
   }
 }

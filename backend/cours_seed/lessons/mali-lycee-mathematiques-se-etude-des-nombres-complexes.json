@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la distributivité : $(2 + i)(3 - 2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = 8 - i$. N'oublie pas que $i^2 = -1$.",
     "feedback_wrong": "Pas tout à fait. Vérifie que tu as bien multiplié chaque terme du premier nombre par chaque terme du second, et surtout, remplace $i^2$ par $-1$. Recommence : $(2 + i)(3 - 2i) = 2 \\times 3 + 2 \\times (-2i) + i \\times 3 + i \\times (-2i) = 6 - 4i + 3i - 2i^2 = 6 - i + 2 = 8 - i$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Les nombres complexes aident les ingénieurs à analyser les courants alternatifs."
+      },
+      {
+        "icon": "🔢",
+        "text": "Un nombre complexe combine une partie réelle et une partie imaginaire."
+      },
+      {
+        "icon": "✖️",
+        "text": "L'unité imaginaire i satisfait la propriété fondamentale i² = -1."
+      }
+    ]
   }
 }

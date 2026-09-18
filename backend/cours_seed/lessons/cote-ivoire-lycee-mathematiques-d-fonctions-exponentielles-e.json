@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! $f(2) = 3^2 = 9$ et $f(1) = 3^1 = 3$. Donc $f(2) + f(1) = 9 + 3 = 12$. Tu maîtrises bien le calcul des valeurs des fonctions exponentielles.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que $3^2 = 9$ et $3^1 = 3$. Additionne bien ces deux résultats pour obtenir $f(2) + f(1)$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La variable en exposant crée une croissance exponentielle très rapide."
+      },
+      {
+        "icon": "🔬",
+        "text": "Modélise des phénomènes réels : épidémies, populations, radioactivité, intérêts."
+      },
+      {
+        "icon": "⚡",
+        "text": "Maîtriser dérivées et comportement : essentiel pour Terminale D."
+      }
+    ]
   }
 }

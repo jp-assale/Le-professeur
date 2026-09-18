@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Avant de te lancer dans l'argumentation, tu dois d'abord comprendre ce que le sujet te demande. Cela passe par l'identification des notions centrales et la reformulation de la question en tes propres termes. C'est ce qui fait la différence entre une dissertation structurée et un texte confus.",
     "feedback_wrong": "Non, ce n'est pas correct. La dissertation n'est pas un exercice où tu donnes ton avis d'emblée, ni où tu accumules des citations pour impressionner. La première étape est toujours de bien comprendre le problème : quelles sont les notions en jeu ? Quelle est la véritable question ? Cette compréhension préalable garantit que le reste de ta dissertation répond vraiment au sujet posé."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "La dissertation philosophique est une démonstration logique structurée."
+      },
+      {
+        "icon": "🧠",
+        "text": "Elle exige d'analyser le problème en explorant différentes perspectives."
+      },
+      {
+        "icon": "⚖️",
+        "text": "C'est l'exercice clé pour montrer une pensée philosophique rigoureuse."
+      }
+    ]
   }
 }

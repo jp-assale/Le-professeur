@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as correctement identifié $u(x) = x^3 + 2x$ et calculé $u'(x) = 3x^2 + 2$. En appliquant la formule $\\frac{d}{dx}[\\ln(u)] = \\frac{u'}{u}$, tu obtiens bien $\\frac{3x^2 + 2}{x^3 + 2x}$. Cette expression est valide sur les intervalles où $x^3 + 2x \\neq 0$, c'est-à-dire où $x(x^2 + 2) \\neq 0$, soit pour $x \\neq 0$.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que la dérivée de $\\ln(u(x))$ n'est pas simplement la dérivée de $u(x)$ ; tu dois utiliser la formule $\\frac{d}{dx}[\\ln(u)] = \\frac{u'(x)}{u(x)}$. Ici, $u(x) = x^3 + 2x$, donc $u'(x) = 3x^2 + 2$. Le numérateur doit être la dérivée, et le dénominateur doit être la fonction originale $u(x)$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "La dérivée de ln(u) s'obtient par la règle de chaîne : u'/u."
+      },
+      {
+        "icon": "📊",
+        "text": "Cette formule permet de prévoir la croissance non linéaire des populations."
+      },
+      {
+        "icon": "↔️",
+        "text": "L'intégrale de u'/u est ln|u|, liant dérivation et intégration."
+      }
+    ]
   }
 }

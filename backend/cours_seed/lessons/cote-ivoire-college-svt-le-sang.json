@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as appliqué correctement le calcul : 55 % de 5 L = (55 ÷ 100) × 5 = 0,55 × 5 = 2,75 L. Le plasma est le composant liquide majeur du sang et représente plus de la moitié du volume sanguin total.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi : pour trouver 55 % de 5 L, tu dois multiplier 5 par 0,55 (ou diviser par 100 et multiplier par 55). Cela donne 2,75 L. Le plasma est la partie liquide du sang, et il en constitue un peu plus de la moitié."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❤️",
+        "text": "Le sang circule dans les artères, veines et capillaires du corps."
+      },
+      {
+        "icon": "🫁",
+        "text": "Le sang transporte l'oxygène et enlève le dioxyde de carbone."
+      },
+      {
+        "icon": "🛡️",
+        "text": "Le sang défend l'organisme contre les infections et les maladies."
+      }
+    ]
   }
 }

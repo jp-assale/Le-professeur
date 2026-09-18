@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : (156 ÷ 1 300) × 100 = 0,12 × 100 = 12 %. Ce taux montre que près d'une jeune fille sur huit dans ce quartier est concernée par une grossesse précoce. C'est pourquoi les moyens de prévention (éducation sexuelle, accès à la contraception, scolarisation) sont essentiels.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi la formule : Pourcentage = (Nombre de cas ÷ Total) × 100. Ici : (156 ÷ 1 300) × 100 = 12 %. Revérifie ton calcul étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👶",
+        "text": "Une grossesse précoce survient avant 18 ans, avant la maturité physique et mentale."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Elle expose la jeune mère et l'enfant à des risques médicaux, sociaux et psychologiques graves."
+      },
+      {
+        "icon": "🎓",
+        "text": "L'éducation sexuelle et la prévention sont essentielles pour éviter ces grossesses."
+      }
+    ]
   }
 }

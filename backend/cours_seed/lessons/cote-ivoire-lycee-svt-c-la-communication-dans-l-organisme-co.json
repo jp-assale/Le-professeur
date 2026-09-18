@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'arc réflexe commence au récepteur sensoriel (qui détecte le stimulus, comme la chaleur), passe par la moelle épinière (qui traite l'information rapidement sans attendre le cerveau), puis se termine à l'effecteur moteur (le muscle qui agit). C'est cette voie courte qui explique pourquoi tu retires ta main avant même d'avoir conscience de la douleur.",
     "feedback_wrong": "Pas tout à fait. Réfléchis à l'ordre logique : d'abord, le corps doit détecter le danger (récepteur), ensuite le centre nerveux doit analyser et commander une action (moelle épinière), enfin le muscle doit exécuter le mouvement (effecteur). C'est la séquence de l'arc réflexe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👂",
+        "text": "Le système nerveux reçoit et traite les signaux de l'environnement très rapidement."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les neurones transmettent des influx nerveux pour coordonner les réactions du corps."
+      },
+      {
+        "icon": "🧠",
+        "text": "Le cerveau et la moelle épinière commandent les actions face aux stimulus."
+      }
+    ]
   }
 }

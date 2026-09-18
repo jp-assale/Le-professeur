@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué le théorème de Pythagore. Si H est le projeté orthogonal de P sur (d), alors PH = 5 cm (perpendiculaire). Dans le triangle PQH rectangle en H, on a $PQ^2 = PH^2 + HQ^2$, soit $13^2 = 5^2 + HQ^2$, donc $169 = 25 + HQ^2$, d'où $HQ = \\sqrt{144} = 12$ cm. C'est la distance horizontale que tu cherchais.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que si H est le projeté orthogonal de P sur (d), alors PH est perpendiculaire à (d), et HQ est sur (d). Le triangle PHQ est donc rectangle en H. Utilise le théorème de Pythagore : $PQ^2 = PH^2 + HQ^2$. Avec PQ = 13 cm et PH = 5 cm (la distance perpendiculaire), calcule HQ."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "☀️",
+        "text": "Une projection est la trace d'un objet sur une surface plane."
+      },
+      {
+        "icon": "📐",
+        "text": "La projection orthogonale se fait perpendiculairement, en angle droit."
+      },
+      {
+        "icon": "📍",
+        "text": "On projette un point sur une droite ou un plan donné."
+      }
+    ]
   }
 }

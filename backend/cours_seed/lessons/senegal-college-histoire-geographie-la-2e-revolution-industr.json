@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La 1ère révolution industrielle (fin XVIIIe siècle) s'est construite sur la vapeur et le charbon. La 2e révolution introduit l'électricité (fin XIXe siècle) et le moteur à explosion, qui ouvrent des possibilités nouvelles : éclairage électrique, transports automobiles, production en série plus précise. Ces énergies ont transformé les villes, les usines et la vie quotidienne de manière radicalement différente.",
     "feedback_wrong": "Pas tout à fait. La machine à vapeur, le tissage mécanique et l'énergie hydraulique sont des caractéristiques de la 1ère révolution industrielle (fin XVIIIe – début XIXe siècle). La 2e révolution industrielle se distingue par l'arrivée de l'électricité et du moteur à explosion, qui permettent une production plus rapide, plus précise, et transforment les transports et la communication."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'électricité et le pétrole remplacent progressivement la vapeur."
+      },
+      {
+        "icon": "🏭",
+        "text": "Production en série industrielle : fabrication massive et mécanisée."
+      },
+      {
+        "icon": "🚗",
+        "text": "Nouvelles inventions : automobile, avion, radio, cinéma transforment tout."
+      }
+    ]
   }
 }

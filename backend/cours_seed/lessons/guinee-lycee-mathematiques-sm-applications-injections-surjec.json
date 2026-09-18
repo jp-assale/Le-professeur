@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Excellent ! g est injective car les trois images a, b, c sont distinctes (aucun chauffeur ne va vers la même destination). Cependant, g n'est pas surjective car l'élément d de l'ensemble d'arrivée n'a aucun antécédent : le quartier d ne reçoit aucun chauffeur. Pour être bijective, il aurait fallu que chaque élément de {a, b, c, d} soit l'image d'exactement un élément de {1, 2, 3}, ce qui est impossible ici puisqu'on n'a que 3 éléments au départ pour 4 éléments à l'arrivée.",
     "feedback_wrong": "Attention à bien vérifier les deux conditions. Injection : les images doivent être distinctes (ici oui : a ≠ b ≠ c). Surjection : chaque élément d'arrivée doit être atteint (ici non : l'élément d n'est l'image de personne). g est donc injective mais pas surjective. Une bijection exige les deux à la fois."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎫",
+        "text": "Chaque spectateur reçoit exactement une place numérotée unique."
+      },
+      {
+        "icon": "🔗",
+        "text": "Une injection : deux spectateurs différents n'ont jamais la même place."
+      },
+      {
+        "icon": "✅",
+        "text": "Une bijection apparie parfaitement spectateurs et places disponibles."
+      }
+    ]
   }
 }

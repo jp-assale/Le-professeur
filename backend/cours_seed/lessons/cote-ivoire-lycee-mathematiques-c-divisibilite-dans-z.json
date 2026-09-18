@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien compris la définition. 7 divise 105 exactement car on peut écrire $105 = 7 \\times 15$ avec $k = 15$ un entier. Le reste de la division est zéro.",
     "feedback_wrong": "Attention à la définition. 7 divise 105 si et seulement si on peut écrire $105 = 7 \\times k$ pour un entier $k$ avec un reste nul. Ici, $105 \\div 7 = 15$ exactement, donc $105 = 7 \\times 15$. Reviens à la formule : $a = b \\cdot k$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔢",
+        "text": "La divisibilité vérifie si un nombre divise un autre sans reste."
+      },
+      {
+        "icon": "➗",
+        "text": "b divise a quand a = b × k pour un entier k."
+      },
+      {
+        "icon": "✅",
+        "text": "Un partage équitable existe si la division n'a pas de reste."
+      }
+    ]
   }
 }

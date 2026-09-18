@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! La maison n'est pas littéralement un château fort. On établit une identification directe (sans « comme ») entre la maison et un château pour exprimer son caractère inébranlable et protégé. C'est une métaphore.",
     "feedback_wrong": "Pas tout à fait. Il n'y a pas de comparaison marquée par « comme », et on ne donne pas de qualités humaines à un objet inanimé. Ici, on affirme que la maison EST un château fort. C'est une identification directe, c'est-à-dire une métaphore."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✨",
+        "text": "Les figures de style transforment les phrases ordinaires en images poétiques frappantes."
+      },
+      {
+        "icon": "🎯",
+        "text": "Elles créent des effets : émouvoir, surprendre, clarifier ou rendre mémorable."
+      },
+      {
+        "icon": "📢",
+        "text": "Omniprésentes en littérature, publicité, chanson et discours publics quotidiennement."
+      }
+    ]
   }
 }

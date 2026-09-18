@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. L'irrationnel n'est pas compréhensible par la raison seule, mais c'est précisément parce qu'il échappe à la logique que l'être humain ressent le besoin d'y attribuer un sens. C'est cette tension entre absence de raison et recherche de signification qui constitue le cœur du chapitre.",
     "feedback_wrong": "Pas tout à fait. Reviens à la définition : l'irrationnel, c'est ce qui échappe à la raison et à la science. Mais ce n'est pas pour autant dépourvu de sens. Au contraire, l'être humain s'efforce constamment d'en faire quelque chose de signifiant, même s'il n'y a pas d'explication logique. C'est là que réside la vraie question philosophique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "😴",
+        "text": "L'irrationnel échappe à la logique : rêves, intuitions, mystères inexpliqués."
+      },
+      {
+        "icon": "🔍",
+        "text": "L'humain cherche constamment du sens dans l'irrationnel et l'inexplicable."
+      },
+      {
+        "icon": "❓",
+        "text": "Le sens attribué à l'irrationnel est-il réel ou projection mentale?"
+      }
+    ]
   }
 }

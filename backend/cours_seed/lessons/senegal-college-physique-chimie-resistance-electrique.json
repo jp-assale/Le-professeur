@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! R = (4,4 × 10⁻⁷ × 20) / (1,1 × 10⁻⁶) = (8,8 × 10⁻⁶) / (1,1 × 10⁻⁶) = 8 Ω. Plus le fil est long, plus sa résistance augmente ; plus sa section est grande, plus elle diminue.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : R = ρ × L / A. Calcule d'abord ρ × L = 4,4 × 10⁻⁷ × 20 = 8,8 × 10⁻⁶, puis divise par A = 1,1 × 10⁻⁶ pour obtenir 8 Ω. Attention aux puissances de 10 !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "La résistance mesure l'opposition du matériau au courant électrique."
+      },
+      {
+        "icon": "🔥",
+        "text": "Elle convertit l'énergie électrique en chaleur par effet Joule."
+      },
+      {
+        "icon": "📏",
+        "text": "Elle dépend du matériau, de la longueur et de la section."
+      }
+    ]
   }
 }

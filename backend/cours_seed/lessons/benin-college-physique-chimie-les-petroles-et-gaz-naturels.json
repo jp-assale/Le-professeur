@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour calculer la quantité totale, tu multiplies le débit quotidien par le nombre de jours : 12 000 barils/jour × 30 jours = 360 000 barils. C'est une application directe du calcul de production sur une période donnée.",
     "feedback_wrong": "Pas tout à fait. Relis bien l'énoncé : la raffinerie traite 12 000 barils par jour pendant 30 jours. Il faut multiplier ces deux valeurs : 12 000 × 30. Essaie à nouveau !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛢️",
+        "text": "Le pétrole vient de la décomposition de matière organique ancienne."
+      },
+      {
+        "icon": "⏱️",
+        "text": "Formation en millions d'années, consommation en quelques décennies."
+      },
+      {
+        "icon": "🚗",
+        "text": "Ressource non renouvelable qui alimente notre économie quotidienne."
+      }
+    ]
   }
 }

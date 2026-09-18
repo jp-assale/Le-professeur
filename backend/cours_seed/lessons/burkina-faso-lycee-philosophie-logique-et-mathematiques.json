@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! L'affirmation originale est une implication universelle : « Pour tous les élèves, si étudier maths, alors réussir. » Pour la réfuter, tu dois trouver un contre-exemple, c'est-à-dire un cas où la condition (étudier les maths) est vraie mais la conséquence (réussir) est fausse. C'est le travail du raisonnement logique : trouver ce qui invalide une généralisation.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi : pour réfuter une affirmation universelle du type « Tous les A sont B », tu dois montrer qu'il existe au moins un A qui n'est pas B. Les autres propositions ne remettent pas en question la structure de l'implication originale. En logique, un seul contre-exemple suffit à détruire une généralisation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤔",
+        "text": "La logique enseigne à raisonner juste et reconnaître les contradictions."
+      },
+      {
+        "icon": "🔢",
+        "text": "Les mathématiques appliquent les règles logiques aux nombres et structures."
+      },
+      {
+        "icon": "⛓️",
+        "text": "Logique et mathématiques ensemble créent un système rigoureux et justifié."
+      }
+    ]
   }
 }

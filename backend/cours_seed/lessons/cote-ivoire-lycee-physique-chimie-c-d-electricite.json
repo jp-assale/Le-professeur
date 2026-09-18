@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la loi d'Ohm : U = R × I = 50 × 2 = 100 V. C'est l'approche directe et efficace.",
     "feedback_wrong": "Pas encore. Rappelle-toi la loi d'Ohm : U = R × I. Avec R = 50 Ω et I = 2 A, tu obtiens U = 50 × 2 = 100 V. Refais le calcul step by step."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'électricité est le mouvement organisé des électrons dans un circuit."
+      },
+      {
+        "icon": "📊",
+        "text": "Tension, intensité et résistance sont les trois grandeurs fondamentales."
+      },
+      {
+        "icon": "🔗",
+        "text": "La loi d'Ohm relie ces trois grandeurs pour analyser les circuits."
+      }
+    ]
   }
 }

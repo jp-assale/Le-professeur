@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien additionné toutes les notes : 14 + 16 + 14 + 18 + 12 = 74, puis tu as divisé par le nombre de devoirs : 74 ÷ 5 = 14,8. C'est la bonne application de la formule de la moyenne.",
     "feedback_wrong": "Pas encore. Rappelle-toi : pour calculer une moyenne, tu dois additionner toutes les valeurs, puis diviser par le nombre total de valeurs. Ici : (14 + 16 + 14 + 18 + 12) ÷ 5 = 74 ÷ 5 = 14,8."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Les statistiques collectent et analysent des données numériques pour comprendre."
+      },
+      {
+        "icon": "🎯",
+        "text": "Population, effectif et fréquence sont les concepts fondamentaux à maîtriser."
+      },
+      {
+        "icon": "📈",
+        "text": "Moyenne, médiane et mode aident à résumer et interpréter les données."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué la formule $E_p = mgh = 30 \\times 10 \\times 8 = 2400$ J. L'enfant immobile en haut de l'arbre possède une grande énergie potentielle du fait de sa position élevée.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la formule $E_p = mgh$ avec m = 30 kg, g = 10 N/kg et h = 8 m. Recalcule le produit 30 × 10 × 8."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⬇️",
+        "text": "L'énergie potentielle se transforme en énergie cinétique lors de la chute."
+      },
+      {
+        "icon": "⚡",
+        "text": "L'énergie mécanique est la somme de l'énergie potentielle et cinétique."
+      },
+      {
+        "icon": "♻️",
+        "text": "Sans frottement, l'énergie mécanique totale reste constante et se transforme."
+      }
+    ]
   }
 }

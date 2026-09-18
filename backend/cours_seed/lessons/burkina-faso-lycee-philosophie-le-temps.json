@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as identifié le cœur du débat philosophique sur le temps. D'un côté, nous avons besoin d'une mesure objective (l'horloge), mais de l'autre, chacun vit le temps à sa façon selon son attention, ses émotions et ses actions. C'est ce qui rend le temps si complexe à penser.",
     "feedback_wrong": "Pas tout à fait. Relis bien les trois autres propositions. Rappelle-toi : l'horloge mesure une durée identique pour tous (objectif), mais ton vécu de cette durée change selon que tu t'ennuies ou que tu es occupé (subjectif). Les deux sont vrais en même temps, et c'est là qu'est le paradoxe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏰",
+        "text": "Le temps mesure les événements : passé, présent et futur."
+      },
+      {
+        "icon": "🧠",
+        "text": "Chacun vit le temps différemment selon son expérience personnelle."
+      },
+      {
+        "icon": "❓",
+        "text": "Le temps existe-t-il objectivement ou dans notre esprit seulement?"
+      }
+    ]
   }
 }

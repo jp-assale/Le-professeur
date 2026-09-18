@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! En appliquant la règle, la primitive de $5x^4$ est $5 \\times \\frac{x^5}{5} = x^5$. On ajoute la constante $C$ car il existe une infinité de primitives (elles diffèrent toutes par une constante).",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que pour primitiver $x^n$, on utilise $\\frac{x^{n+1}}{n+1}$. La primitive de $5x^4$ est $5 \\times \\frac{x^5}{5} = x^5 + C$. Le coefficient 5 se simplifie avec le dénominateur du résultat."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛣️",
+        "text": "Une primitive retrouve la distance totale à partir de la vitesse."
+      },
+      {
+        "icon": "🔄",
+        "text": "La primitive est l'opération inverse exacte de la dérivation."
+      },
+      {
+        "icon": "📊",
+        "text": "Dériver F donne f; trouver F à partir de f c'est intégrer."
+      }
+    ]
   }
 }

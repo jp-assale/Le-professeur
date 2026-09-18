@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Pour x ≠ 0, on peut simplifier : g(x) = (3x² + 2x)/x = x(3x + 2)/x = 3x + 2. Quand x tend vers 0, la limite est 3(0) + 2 = 2. Tu as bien maîtrisé la factorisation et la simplification avant de calculer la limite.",
     "feedback_wrong": "Pas tout à fait. Il faut d'abord simplifier la fraction : factorise le numérateur par x pour obtenir g(x) = (x(3x + 2))/x = 3x + 2 (quand x ≠ 0). Ensuite, calcule la limite de 3x + 2 quand x tend vers 0 : tu obtiens 2. Révise l'étape de factorisation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Une fonction se rapproche d'une valeur centrale appelée limite."
+      },
+      {
+        "icon": "🎯",
+        "text": "La limite est la valeur vers laquelle f(x) tend quand x approche a."
+      },
+      {
+        "icon": "🔄",
+        "text": "Plus x s'approche de a, plus f(x) se rapproche de la limite L."
+      }
+    ]
   }
 }

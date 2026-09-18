@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule explicite : $v_5 = 5^2 - 1 = 25 - 1 = 24$. C'est la méthode à utiliser chaque fois que tu as une formule directe en fonction de $n$.",
     "feedback_wrong": "Pas tout à fait. Reviens à la formule $v_n = n^2 - 1$ et remplace $n$ par 5. Tu dois calculer $5^2$, qui vaut 25, puis soustraire 1. Le bon résultat est 24."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une suite numérique est une liste ordonnée de nombres avec des indices."
+      },
+      {
+        "icon": "🔢",
+        "text": "Chaque terme est repéré par un rang n dans la séquence."
+      },
+      {
+        "icon": "🎯",
+        "text": "Les suites permettent de prédire des phénomènes qui se répètent régulièrement."
+      }
+    ]
   }
 }

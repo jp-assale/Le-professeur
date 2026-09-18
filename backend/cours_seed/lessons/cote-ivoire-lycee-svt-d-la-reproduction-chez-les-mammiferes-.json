@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la relation : nombre total de graines = nombre de fleurs × nombre de graines par fleur = 18 × 40 = 720 graines. Cet exemple montre comment un spermaphyte multiplie ses descendants par la production simultanée de nombreuses graines, contrairement aux mammifères qui en produisent peu.",
     "feedback_wrong": "Pas tout à fait. Reviens à la formule : le nombre total de graines est égal au nombre de fleurs multiplié par le nombre de graines par fleur. Ici : 18 fleurs × 40 graines par fleur = 720 graines. C'est une différence clé avec les mammifères, qui produisent très peu de jeunes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "La reproduction permet aux organismes de produire de nouveaux individus identiques."
+      },
+      {
+        "icon": "🐄",
+        "text": "Les mammifères se reproduisent sexuellement avec développement interne de l'embryon."
+      },
+      {
+        "icon": "🌸",
+        "text": "Les plantes à fleurs se reproduisent sexuellement et produisent des graines."
+      }
+    ]
   }
 }

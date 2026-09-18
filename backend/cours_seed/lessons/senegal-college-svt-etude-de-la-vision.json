@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris que la vergence totale de l'œil est la somme des vergences de la cornée et du cristallin. Puisque Vergence totale = Vergence de la cornée + Vergence du cristallin, alors Vergence du cristallin = 70 − 43 = 27 dioptries. C'est l'accommodation qui permet au cristallin d'ajuster sa vergence pour voir net à différentes distances.",
     "feedback_wrong": "Pas encore. Rappelle-toi que la vergence totale de l'œil est la somme de la vergence de la cornée et de celle du cristallin. Il faut donc retrancher la vergence de la cornée (43 dioptries) de la vergence totale requise (70 dioptries) pour trouver ce que le cristallin doit fournir : 70 − 43 = 27 dioptries."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👁️",
+        "text": "L'œil fonctionne comme une caméra qui capture la lumière."
+      },
+      {
+        "icon": "💡",
+        "text": "La pupille contrôle la quantité de lumière qui entre dans l'œil."
+      },
+      {
+        "icon": "🧠",
+        "text": "Le cerveau interprète l'image formée sur la rétine."
+      }
+    ]
   }
 }

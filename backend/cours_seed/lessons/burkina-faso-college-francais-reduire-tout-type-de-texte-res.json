@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as gardé l'idée principale (Marie a étudié) sans les détails spécifiques comme les durées exactes, le verre d'eau ou la fatigue. C'est ça, bien résumer.",
     "feedback_wrong": "Pas tout à fait. Regarde bien : tu as peut-être gardé trop de détails (comme les chiffres de minutes) ou tu as mis des informations qui ne sont pas vraiment essentielles (comme le verre d'eau). Le meilleur résumé dit seulement le cœur du texte : pourquoi parle-t-on de Marie ? Pour dire qu'elle a étudié. Tout le reste sont des détails."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✂️",
+        "text": "Garder seulement les informations essentielles du texte."
+      },
+      {
+        "icon": "🧠",
+        "text": "Comprendre et identifier ce qui est vraiment important."
+      },
+      {
+        "icon": "⚡",
+        "text": "Réécrire plus court dans ses propres mots."
+      }
+    ]
   }
 }

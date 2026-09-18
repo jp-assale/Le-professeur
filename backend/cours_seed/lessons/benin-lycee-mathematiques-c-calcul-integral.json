@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La primitive de $2x + 1$ est $x^2 + x$. En appliquant la formule : $[x^2 + x]_1^3 = (3^2 + 3) - (1^2 + 1) = 12 - 2 = 10$. Tu maîtrises bien le calcul d'une intégrale définie.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : il faut d'abord trouver la primitive de $2x + 1$, c'est $x^2 + x$. Ensuite, tu évalues à la borne supérieure 3 et à la borne inférieure 1, puis tu soustrais : $(3^2 + 3) - (1^2 + 1) = 12 - 2 = 10$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "L'intégrale accumule des petites quantités pour obtenir un total."
+      },
+      {
+        "icon": "📈",
+        "text": "Elle calcule l'aire sous une courbe entre deux bornes."
+      },
+      {
+        "icon": "🔄",
+        "text": "L'intégrale est l'opération inverse de la dérivation."
+      }
+    ]
   }
 }

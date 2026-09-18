@@ -57,5 +57,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué la loi d'Ohm correctement. $I = \\frac{U}{R} = \\frac{12}{3} = 4$ A. La pile transforme son énergie chimique en courant de 4 A, qui actionne le moteur. Bien compris !",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Utilise la loi d'Ohm : $I = \\frac{U}{R}$. La tension est 12 V et la résistance est 3 Ω. Fais la division : $12 \\div 3 = 4$ A. La pile produit un courant de 4 A pour alimenter le moteur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Le courant électrique est un mouvement organisé d'électrons."
+      },
+      {
+        "icon": "🔋",
+        "text": "Une source d'énergie met les électrons en mouvement."
+      },
+      {
+        "icon": "🌍",
+        "text": "Trois sources principales : chimique, mécanique et lumineuse."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule W = F × d = 50 × 20 = 1000 J. Le travail mécanique dépend de la force exercée et de la distance parcourue dans la direction de la force.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi que le travail mécanique se calcule avec W = F × d, où F est la force en newtons et d est la distance en mètres. Ici, W = 50 × 20 = 1000 J. La puissance n'intervient pas dans ce calcul puisqu'on ne parle pas de temps."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💪",
+        "text": "Le travail mécanique : une force déplace un objet utile"
+      },
+      {
+        "icon": "⚡",
+        "text": "La puissance : la rapidité à fournir ce travail mécanique"
+      },
+      {
+        "icon": "🏃",
+        "text": "Même travail, moins temps, plus puissance nécessaire toujours"
+      }
+    ]
   }
 }

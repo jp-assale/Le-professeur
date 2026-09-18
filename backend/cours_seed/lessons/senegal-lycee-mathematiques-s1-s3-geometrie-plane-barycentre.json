@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule du barycentre de deux points. Avec $m_P = 3$ et $m_Q = 1$, la masse totale est 4. L'abscisse est $x_G = \\frac{3 \\cdot 2 + 1 \\cdot 8}{4} = \\frac{14}{4} = 3,5$ et l'ordonnée est $y_G = \\frac{3 \\cdot 5 + 1 \\cdot 1}{4} = \\frac{16}{4} = 4$. Le barycentre est bien $G(3,5 ; 4)$.",
     "feedback_wrong": "Attention ! Tu ne dois pas confondre avec une moyenne simple. Rappelle-toi que chaque coefficient pondère le point correspondant. Applique la formule : $x_G = \\frac{m_P \\cdot x_P + m_Q \\cdot x_Q}{m_P + m_Q} = \\frac{3 \\cdot 2 + 1 \\cdot 8}{4} = \\frac{14}{4} = 3,5$ et $y_G = \\frac{3 \\cdot 5 + 1 \\cdot 1}{4} = \\frac{16}{4} = 4$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le barycentre est le point d'équilibre unique de plusieurs points pondérés."
+      },
+      {
+        "icon": "📍",
+        "text": "Il représente le centre de masse pour optimiser la distribution des ressources."
+      },
+      {
+        "icon": "🔄",
+        "text": "La similitude agrandit ou réduit une figure en conservant sa forme exacte."
+      }
+    ]
   }
 }

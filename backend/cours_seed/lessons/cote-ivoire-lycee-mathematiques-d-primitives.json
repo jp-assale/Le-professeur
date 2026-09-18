@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la règle : la primitive de $x^n$ est $\\frac{x^{n+1}}{n+1}$. Pour $8x^3$, tu divises par la nouvelle puissance 4 : $\\frac{8x^4}{4} = 2x^4$. Pour $-2x$, tu obtiens $-x^2$. Et pour la constante $5$, tu obtiens $5x$. N'oublie jamais le $+C$ !",
     "feedback_wrong": "Pas tout à fait. Vérifie bien ta règle de primitivation : pour $x^n$, la primitive est $\\frac{x^{n+1}}{n+1}$. Applique-la terme par terme. Pour $8x^3$, la nouvelle puissance sera 4, donc tu auras $\\frac{8x^4}{4}$. Essaie encore en dérivant ta réponse pour voir si tu retrouves la fonction initiale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "La primitive retrouve la quantité totale à partir du débit instantané."
+      },
+      {
+        "icon": "🔄",
+        "text": "La primitive est l'opération inverse exacte de la dérivation."
+      },
+      {
+        "icon": "∫",
+        "text": "Intégrer signifie trouver quelle fonction, dérivée, donne f."
+      }
+    ]
   }
 }

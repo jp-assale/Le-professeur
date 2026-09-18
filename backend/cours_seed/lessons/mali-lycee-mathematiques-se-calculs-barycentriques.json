@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule : $x_G = \\frac{3 \\times 0 + 2 \\times 6}{3 + 2} = \\frac{0 + 12}{5} = \\frac{12}{5} = 2,4$. Le poids plus important de M ne modifie pas le résultat car M est sur l'axe des y (x = 0). Seul le poids de N contribue à l'abscisse.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : l'abscisse du barycentre est la moyenne pondérée des abscisses. Ici, $x_G = \\frac{m_M \\times x_M + m_N \\times x_N}{m_M + m_N} = \\frac{3 \\times 0 + 2 \\times 6}{3 + 2} = \\frac{12}{5} = 2,4$. Prends soin de multiplier chaque coordonnée par son poids correspondant."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Le barycentre est le point d'équilibre d'un système pondéré."
+      },
+      {
+        "icon": "📍",
+        "text": "Chaque point reçoit un poids selon sa contribution relative."
+      },
+      {
+        "icon": "🎯",
+        "text": "Il représente où la somme des moments s'annule parfaitement."
+      }
+    ]
   }
 }

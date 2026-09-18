@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Cette affirmation repose sur l'autorité et la tradition (ce que l'oncle a dit) sans preuve objective. C'est une croyance. Les autres énoncés s'appuient sur des faits vérifiables, des démonstrations ou des preuves documentées.",
     "feedback_wrong": "Pas tout à fait. Observe bien : laquelle de ces affirmations repose uniquement sur ce qu'on t'a dit, sans que tu puisses la vérifier toi-même ? La croyance naît quand on accepte quelque chose par confiance en une personne ou une tradition, sans preuve rationnelle. Les trois autres énoncés s'appuient sur des preuves, des expériences ou des documents vérifiables."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧠",
+        "text": "La raison demande des preuves et un raisonnement logique rigoureux."
+      },
+      {
+        "icon": "💭",
+        "text": "La croyance adhère sans preuve certaine, par habitude ou sentiment."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Distinguer ce que je sais vraiment de ce que je crois simplement."
+      }
+    ]
   }
 }

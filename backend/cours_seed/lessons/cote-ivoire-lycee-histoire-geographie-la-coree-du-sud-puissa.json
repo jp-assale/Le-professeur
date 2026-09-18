@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. La Corée du Sud n'a pas de grandes ressources naturelles (pas de pétrole, peu de minerais importants). Ce qui l'a sauvée, c'est précisément qu'elle a dû compter sur l'intelligence, la technologie et le travail humain organisé. Elle a transformé son handicap en force.",
     "feedback_wrong": "Pas tout à fait. Pense au contraire : la Corée du Sud n'a JAMAIS eu d'abondantes ressources naturelles. Ce manque l'a forcée à miser sur l'éducation, la technologie et l'innovation. C'est cette absence de ressources qui explique son modèle unique de développement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚀",
+        "text": "La Corée du Sud est passée de nation pauvre à puissance mondiale."
+      },
+      {
+        "icon": "🏭",
+        "text": "L'industrialisation volontaire et l'investissement en technologie ont transformé le pays."
+      },
+      {
+        "icon": "🌍",
+        "text": "L'intégration aux échanges mondiaux a accéléré cette émergence économique rapide."
+      }
+    ]
   }
 }

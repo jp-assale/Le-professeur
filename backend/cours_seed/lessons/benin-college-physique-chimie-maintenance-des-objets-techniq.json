@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le cycle d'entretien est de 6 mois. Si le nettoyage a été fait il y a 2 mois, le prochain doit avoir lieu dans 6 - 2 = 4 mois. C'est cela, la maintenance préventive : respecter les délais d'entretien régulier pour éviter une panne.",
     "feedback_wrong": "Pas tout à fait. L'intervalle de maintenance préventive est de 6 mois. Puisque le nettoyage a été fait il y a 2 mois, il reste 6 - 2 = 4 mois avant le prochain entretien obligatoire. La maintenance préventive, c'est agir avant la panne en respectant les délais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔧",
+        "text": "La maintenance entretient et répare les objets techniques régulièrement."
+      },
+      {
+        "icon": "✋",
+        "text": "La maintenance préventive évite les pannes avant qu'elles arrivent."
+      },
+      {
+        "icon": "🚨",
+        "text": "La maintenance corrective répare les problèmes déjà survenus."
+      }
+    ]
   }
 }

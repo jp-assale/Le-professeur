@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le nationalisme africain est à la fois une prise de conscience et une revendication : les peuples africains décident qu'ils ne veulent plus être gouvernés par des étrangers, qu'ils ont une identité propre et des droits. C'est ce mouvement qui donne la légitimité et la force à la décolonisation. Sans cette conscience nationaliste, les indépendances n'auraient pas eu lieu.",
     "feedback_wrong": "Pas tout à fait. Le nationalisme africain n'est pas une importation européenne ; c'est un mouvement né en Afrique elle-même, porté par des Africains qui refusent la domination étrangère et affirment leur droit à l'autodétermination. C'est cette force qui a rendu possible la décolonisation. Relis la définition : nationalisme = affirmation de l'identité et de l'autonomie d'un peuple."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔓",
+        "text": "Les peuples africains se sont libérés de la domination européenne."
+      },
+      {
+        "icon": "🇨🇮",
+        "text": "Le nationalisme africain a porté la lutte pour l'indépendance politique."
+      },
+      {
+        "icon": "🤝",
+        "text": "Les nouveaux États africains se sont unis pour plus de pouvoir."
+      }
+    ]
   }
 }

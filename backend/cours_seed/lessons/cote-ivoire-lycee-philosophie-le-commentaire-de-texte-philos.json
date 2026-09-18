@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le commentaire commence toujours par la lecture attentive : tu dois d'abord comprendre *quel problème* l'auteur affronte et *quelle question* il se pose. C'est le fondement qui guide toute ton analyse ensuite.",
     "feedback_wrong": "Non. Résumer, chercher des définitions ou donner un avis personnel sont des étapes secondaires, voire extérieures au commentaire. Le point de départ est de saisir le problème que l'auteur soulève et la question philosophique en jeu. C'est ce qui donne du sens à tout ce que tu analyser."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Décortiquer le texte pour révéler son sens profond et logique interne."
+      },
+      {
+        "icon": "❓",
+        "text": "Identifier les questions, arguments et conclusions que l'auteur développe."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Comprendre comment le texte fonctionne, pas seulement ce qu'il dit."
+      }
+    ]
   }
 }

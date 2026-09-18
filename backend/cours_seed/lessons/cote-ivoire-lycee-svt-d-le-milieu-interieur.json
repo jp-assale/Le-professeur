@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Très juste ! Tu as correctement calculé : volume du plasma = 55 % × 4 = 2,2 litres, puis volume total du milieu intérieur = 2,2 + 12 = 14,2 litres. Le milieu intérieur chez l'enfant est légèrement plus petit que chez l'adulte, mais il joue le même rôle crucial de maintien de l'homéostasie.",
     "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : le volume du plasma est 55 % de 4 litres, soit 0,55 × 4 = 2,2 litres. Ajoute ensuite le liquide interstitiel : 2,2 + 12 = 14,2 litres. Rappelle-toi que le milieu intérieur inclut le plasma ET le liquide interstitiel."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "Le milieu intérieur est l'ensemble des liquides baignant les cellules."
+      },
+      {
+        "icon": "🌡️",
+        "text": "L'homéostasie maintient stable la température, pH et conditions cellulaires."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Cet équilibre persiste malgré les variations du milieu externe."
+      }
+    ]
   }
 }

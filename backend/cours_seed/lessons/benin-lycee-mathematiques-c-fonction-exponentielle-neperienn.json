@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué la propriété fondamentale : $e^{a} \\times e^{b} = e^{a+b}$. Ici, $e^{2} \\times e^{3} = e^{2+3} = e^{5}$. Cette propriété est au cœur de tous les calculs avec exponentielles.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la propriété clé des exponentielles : quand tu multiplies deux puissances de même base, tu ajoutes les exposants. $e^{2} \\times e^{3} = e^{2+3} = e^{5}$. Cette règle s'applique pour toute base exponentielle, pas seulement $e$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La fonction exponentielle modélise une croissance régulière et rapide."
+      },
+      {
+        "icon": "🔢",
+        "text": "e^x est sa propre dérivée, propriété unique en mathématiques."
+      },
+      {
+        "icon": "🧬",
+        "text": "Elle décrit populations, radioactivité et phénomènes continus naturels."
+      }
+    ]
   }
 }

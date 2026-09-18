@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Juste! L'art se définit par sa visée esthétique et contemplative, non par son prix, la célébrité de l'auteur ou la durée de sa fabrication. Un enfant peut créer une œuvre d'art authentique, tout comme un artiste célèbre peut produire un objet sans intention esthétique.",
     "feedback_wrong": "Pas exactement. Le prix, la célébrité et le temps ne définissent pas l'art. Ce qui en fait une œuvre d'art, c'est qu'elle soit créée pour être contemplée et produire une expérience esthétique, indépendamment de ces autres facteurs. Une sculpture simple dans un village peut être une vraie œuvre d'art."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎨",
+        "text": "L'art crée du sens et de la beauté, pas simplement une reproduction."
+      },
+      {
+        "icon": "❤️",
+        "text": "L'art exprime émotions, visions et idées à travers des formes sensibles."
+      },
+      {
+        "icon": "✨",
+        "text": "Chaque forme d'art transforme la réalité en création unique et contemplative."
+      }
+    ]
   }
 }

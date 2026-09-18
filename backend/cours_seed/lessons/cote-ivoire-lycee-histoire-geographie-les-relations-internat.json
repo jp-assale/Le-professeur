@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. L'ONU, créée en 1945, a pour mission de maintenir la paix internationale. Même si elle n'a pas toujours pu empêcher les conflits (notamment du fait du droit de veto des cinq membres permanents du Conseil de sécurité), elle a fourni un espace de dialogue où les deux blocs pouvaient négocier indirectement et éviter une confrontation directe catastrophique.",
     "feedback_wrong": "Pas tout à fait. L'ONU n'avait pas le pouvoir d'imposer un modèle économique unique, d'avantager systématiquement les États africains, ou d'interdire les armes à tous. Son véritable rôle était de servir de cadre où les États, notamment les superpuissances rivales, pouvaient débattre, négocier et chercher à maintenir la paix même en temps de tensions extrêmes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Après 1945, deux superpuissances dominent les relations mondiales."
+      },
+      {
+        "icon": "⚔️",
+        "text": "La Guerre froide divise le monde en deux blocs rivaux."
+      },
+      {
+        "icon": "🤝",
+        "text": "Depuis les années 1990, le système devient multipolaire et complexe."
+      }
+    ]
   }
 }

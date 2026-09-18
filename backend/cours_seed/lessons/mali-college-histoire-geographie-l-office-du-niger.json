@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! L'Office du Niger est une institution publique chargée d'aménager la vallée du Niger pour développer l'agriculture irriguée. C'est un projet de transformation du territoire malien qui permet aux agriculteurs de cultiver régulièrement et d'augmenter leur production.",
     "feedback_wrong": "Non, ce n'est pas la bonne réponse. L'Office du Niger n'est pas un projet d'extraction minière, de transport ou de construction urbaine. Son rôle central est l'aménagement hydraulique et agricole : il construit des canaux d'irrigation et des barrages pour transformer les terres arides en zones productives où les agriculteurs peuvent cultiver toute l'année."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌊",
+        "text": "Le Niger irrigue les terres désertiques du Mali pour augmenter la production agricole."
+      },
+      {
+        "icon": "🏗️",
+        "text": "L'Office du Niger gère les barrages, canaux et l'eau pour les agriculteurs."
+      },
+      {
+        "icon": "🌾",
+        "text": "Ce projet transforme des zones arides en terres fertiles et crée des emplois."
+      }
+    ]
   }
 }

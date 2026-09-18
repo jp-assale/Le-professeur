@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! L'homme AB produit deux types de gamètes : I^A et I^B. La femme O produit uniquement i. Les enfants possibles sont : I^A i (groupe A) et I^B i (groupe B), chacun avec 50 % de probabilité. Le groupe sanguin B correspond au génotype I^B i, d'où 50 %.",
     "feedback_wrong": "Pas tout à fait. L'homme AB peut transmettre soit I^A soit I^B avec égale probabilité (50/50). La femme O ne transmet que i. Donc l'enfant a 50 % de chances de recevoir I^B de son père et i de sa mère, ce qui donne le groupe B."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧",
+        "text": "Les caractères des parents se transmettent aux enfants via les gènes."
+      },
+      {
+        "icon": "🧬",
+        "text": "Chaque parent apporte 50 % du patrimoine génétique de l'enfant."
+      },
+      {
+        "icon": "📊",
+        "text": "Les lois de Mendel expliquent les règles mathématiques de l'hérédité."
+      }
+    ]
   }
 }

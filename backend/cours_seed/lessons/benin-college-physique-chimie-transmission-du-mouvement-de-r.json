@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule. La vitesse de sortie = (8 / 12) × 300 = (2/3) × 300 = 200 tr/min. La poulie réceptrice, plus grande, tourne plus lentement. C'est le principe même de la transmission : plus le diamètre augmente, plus la vitesse diminue.",
     "feedback_wrong": "Ce n'est pas bon. Rappelle-toi que la vitesse de sortie dépend du rapport des rayons : Vitesse de sortie = (Rayon d'entrée / Rayon de sortie) × Vitesse d'entrée. Ici : (8 / 12) × 300 = 200 tr/min. La poulie réceptrice, plus grande, doit tourner plus lentement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚙️",
+        "text": "Les engrenages transmettent la rotation d'un axe à un autre."
+      },
+      {
+        "icon": "🔄",
+        "text": "La vitesse de rotation change selon le rapport des rayons."
+      },
+      {
+        "icon": "💪",
+        "text": "Le couple transfère la force de torsion entre les éléments."
+      }
+    ]
   }
 }

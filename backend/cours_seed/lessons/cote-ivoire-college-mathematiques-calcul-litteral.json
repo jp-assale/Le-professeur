@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as regroupé les termes en $x$ : $3x + 5x - 2x = 6x$. Le $+4$ reste inchangé car ce n'est pas un terme en $x$. La réponse simplifiée est $6x + 4$. Bien compris le principe de réduire les termes semblables !",
     "feedback_wrong": "Pas tout à fait. Pour simplifier, tu dois regrouper les termes qui contiennent $x$ entre eux, et les nombres seuls entre eux. Calcule : $3x + 5x - 2x = (3 + 5 - 2)x = 6x$. Le $4$ n'a pas de $x$ donc il reste $+4$. La réponse est $6x + 4$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📝",
+        "text": "Les lettres remplacent des nombres inconnus ou variables."
+      },
+      {
+        "icon": "🔄",
+        "text": "Une formule s'applique à des situations très différentes."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le calcul littéral généralise les problèmes numériques."
+      }
+    ]
   }
 }

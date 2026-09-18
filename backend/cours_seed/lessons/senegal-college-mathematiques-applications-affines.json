@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien identifié l'application affine. Le prix P en fonction du nombre de kilomètres x est : P(x) = 300x + 1 000. Pour x = 15, on calcule : P(15) = 300 × 15 + 1 000 = 4 500 + 1 000 = 5 500 FCFA. Tu maîtrises la structure a·x + b.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule : P(x) = 300x + 1 000, où 1 000 FCFA est la prise en charge fixe et 300 FCFA est le coût par kilomètre. Pour 15 km : P(15) = 300 × 15 + 1 000 = 4 500 + 1 000 = 5 500 FCFA. Vérifie ton calcul."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une application affine lie une entrée x à une sortie f(x)."
+      },
+      {
+        "icon": "💰",
+        "text": "Le coefficient a représente la variation proportionnelle de la fonction."
+      },
+      {
+        "icon": "🔢",
+        "text": "Le coefficient b est la constante fixe indépendante de x."
+      }
+    ]
   }
 }

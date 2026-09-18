@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien compris. La Terre n'est qu'une planète du système solaire, elle n'en est pas le centre. Ses deux mouvements (rotation et révolution) expliquent les jours, les nuits et les saisons. Et surtout, c'est sa position particulière par rapport au Soleil qui rend possible la vie telle que nous la connaissons.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que c'est le Soleil qui est au centre du système solaire, pas la Terre. La Terre effectue deux mouvements : elle tourne sur elle-même (créant le jour et la nuit) et elle orbite autour du Soleil (créant les saisons). De plus, la Terre est une planète rocheuse, pas une étoile, et elle se trouve à la bonne distance du Soleil pour que l'eau y existe à l'état liquide et que la vie s'y développe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "La Terre est une planète qui tourne autour du Soleil."
+      },
+      {
+        "icon": "🔄",
+        "text": "Rotation et révolution créent les jours, nuits et saisons."
+      },
+      {
+        "icon": "☀️",
+        "text": "Notre planète occupe une position unique favorable à la vie."
+      }
+    ]
   }
 }

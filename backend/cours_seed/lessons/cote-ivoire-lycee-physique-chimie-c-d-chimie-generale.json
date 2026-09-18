@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Bien ! L'équation équilibrée est 4Fe + 3O₂ → 2Fe₂O₃. Le coefficient devant O₂ est 3. Pour 4 atomes de Fe, il faut exactement 3 molécules de O₂.",
     "feedback_wrong": "À revoir. Équilibre l'équation Fe + O₂ → Fe₂O₃ en comptant les atomes Fe et O de chaque côté. Tu dois obtenir 4Fe + 3O₂ → 2Fe₂O₃. Le coefficient de O₂ est donc 3."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔄",
+        "text": "Les atomes se réorganisent : liaisons cassées, nouvelles liaisons formées."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Nombre d'atomes identique avant et après : loi de conservation."
+      },
+      {
+        "icon": "📝",
+        "text": "L'équation chimique équilibrée décrit précisément la transformation."
+      }
+    ]
   }
 }

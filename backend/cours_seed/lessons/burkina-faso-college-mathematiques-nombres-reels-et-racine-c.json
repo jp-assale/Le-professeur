@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la racine carrée. Puisque l'aire est 225 m², le côté du carré est $\\sqrt{225} = 15$ m, car $15 \\times 15 = 225$. Bien maîtrisé !",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que si l'aire d'un carré = (côté)², alors côté = $\\sqrt{\\text{aire}}$. Ici, côté = $\\sqrt{225} = 15$ m. Essaie de vérifier : $15 \\times 15 = 225$ ? Oui ! Continue à pratiquer."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "La racine carrée trouve le côté d'un carré connaissant son aire."
+      },
+      {
+        "icon": "✓",
+        "text": "La racine carrée d'un nombre a est le nombre positif x où x² = a."
+      },
+      {
+        "icon": "🔧",
+        "text": "Cet outil résout les problèmes pratiques de géométrie et mesure."
+      }
+    ]
   }
 }

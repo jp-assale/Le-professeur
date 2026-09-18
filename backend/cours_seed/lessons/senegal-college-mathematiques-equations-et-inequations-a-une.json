@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué les étapes : d'abord ajoute 3 des deux côtés pour obtenir $5x = 25$, puis divise par 5 pour trouver $x = 5$. Bravo, tu maîtrises la résolution d'équations du premier degré.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi la méthode : ajoute 3 des deux côtés de l'équation ($5x - 3 + 3 = 22 + 3$), ce qui donne $5x = 25$. Puis divise par 5 pour isoler $x$. Tu devrais trouver $x = 5$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "Une équation est une égalité avec une inconnue à trouver."
+      },
+      {
+        "icon": "✓",
+        "text": "Résoudre une équation, c'est trouver la valeur de l'inconnue."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Une inéquation utilise les symboles <, >, ≤, ≥ pour comparer."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement. L'État exerce légalement son monopole de la contrainte quand il applique la loi de manière régulière et reconnue : arrêter quelqu'un qui a commis un crime, le juger, et le punir selon le code pénal. C'est une contrainte légitime parce qu'elle respecte des procédures établies et s'applique également à tous.",
     "feedback_wrong": "Non. Regarde chaque option : un voisin qui menace n'a pas le droit de contraindre (c'est de la violence privée), un policier qui demande un pot-de-vin abuse de son pouvoir (ce n'est pas légitime), et un employeur qui réduit le salaire sans raison viole les droits du travailleur. Seule l'arrestation légale d'un criminel est un exercice légitime du monopole de l'État sur la contrainte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗺️",
+        "text": "L'État contrôle un territoire, une population et une autorité souveraine."
+      },
+      {
+        "icon": "⚖️",
+        "text": "L'État est la seule institution légitime pour forcer l'obéissance aux lois."
+      },
+      {
+        "icon": "🏛️",
+        "text": "L'État organise la vie commune : école, routes, police, justice."
+      }
+    ]
   }
 }

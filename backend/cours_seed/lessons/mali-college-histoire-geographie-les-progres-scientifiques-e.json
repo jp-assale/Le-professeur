@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as bien compris : d'abord les savants découvrent comment fonctionne la nature (exemple : l'électricité), puis les ingénieurs utilisent cette connaissance pour créer des machines (exemple : l'ampoule). L'un nourrit l'autre.",
     "feedback_wrong": "Pas tout à fait. Réfléchis : sans comprendre comment fonctionne l'électricité (découverte scientifique), comment les ingénieurs auraient-ils pu inventer l'ampoule électrique (progrès technique) ? La science vient souvent en premier."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💡",
+        "text": "Découvertes scientifiques transforment la compréhension de la nature au XIXe siècle."
+      },
+      {
+        "icon": "🚂",
+        "text": "Les inventions révolutionnaires changent l'industrie, le transport et la communication."
+      },
+      {
+        "icon": "🏘️",
+        "text": "La vie quotidienne se transforme progressivement pour millions de personnes partout."
+      }
+    ]
   }
 }

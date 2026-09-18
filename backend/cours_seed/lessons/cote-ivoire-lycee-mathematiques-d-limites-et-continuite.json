@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Factorise d'abord le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Alors $g(x) = \\frac{3(x - 2)(x + 2)}{x - 2} = 3(x + 2)$ pour $x \\neq 2$. La limite quand $x \\to 2$ est $3(2 + 2) = 3 \\times 4 = 12$.",
     "feedback_wrong": "Pas tout à fait. Il faut d'abord factoriser le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Ensuite, simplifie : $g(x) = \\frac{3(x - 2)(x + 2)}{x - 2} = 3(x + 2)$ pour $x \\neq 2$. Enfin, applique la limite : $\\lim_{x \\to 2} 3(x + 2) = 3 \\times 4 = 12$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "La limite mesure vers quelle valeur une fonction s'approche progressivement."
+      },
+      {
+        "icon": "🔗",
+        "text": "La continuité existe quand la limite égale exactement la valeur de la fonction."
+      },
+      {
+        "icon": "⚡",
+        "text": "Une discontinuité crée un saut brusque dans la courbe sans avertissement."
+      }
+    ]
   }
 }

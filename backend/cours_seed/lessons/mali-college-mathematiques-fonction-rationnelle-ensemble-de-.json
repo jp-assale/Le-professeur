@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Pour trouver l'ensemble de définition, tu cherches quand le dénominateur s'annule. Ici, le dénominateur est $x + 2$. On résout $x + 2 = 0$, ce qui donne $x = -2$. Donc la fonction existe partout sauf en $x = -2$.",
     "feedback_wrong": "Pas tout à fait. Regarde le dénominateur de la fraction : c'est $x + 2$, pas $x - 2$ et pas $x^2 - 4$. Pour trouver les valeurs interdites, résous $x + 2 = 0$. Que trouves-tu ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "➗",
+        "text": "Une fonction rationnelle est une fraction de deux polynômes."
+      },
+      {
+        "icon": "⛔",
+        "text": "Le dénominateur ne peut jamais être égal à zéro."
+      },
+      {
+        "icon": "📋",
+        "text": "L'ensemble de définition liste toutes les valeurs possibles."
+      }
+    ]
   }
 }

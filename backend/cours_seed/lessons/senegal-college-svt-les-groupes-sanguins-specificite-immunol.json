@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! C'est la spécificité immunologique. Les antigènes A du donneur sont reconnus comme « non-soi » par le système immunitaire de l'enfant de groupe B. Les anticorps naturels de l'enfant attaquent et détruisent les globules rouges transfusés : c'est la réaction hémolytique, qui peut être très grave. C'est pourquoi la compatibilité des groupes sanguins est cruciale.",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi que chaque groupe sanguin porte des antigènes spécifiques. Quand un antigène du donneur ne correspond pas à celui du receveur, le système immunitaire du receveur le reconnaît comme étranger et l'attaque. Ici, le groupe B perçoit l'antigène A comme une menace et le détruit."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🩸",
+        "text": "Les groupes sanguins sont des badges d'identité sur les globules rouges."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Mauvais sang reçu = système immunitaire attaque et c'est mortel."
+      },
+      {
+        "icon": "🔬",
+        "text": "Quatre groupes existent : A, B, AB et O selon les antigènes."
+      }
+    ]
   }
 }

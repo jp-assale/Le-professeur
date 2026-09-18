@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Très bien ! Factorise d'abord le numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x-2)(x+2)$. Alors $f(x) = \\frac{3(x-2)(x+2)}{x-2} = 3(x+2)$ pour $x \\neq 2$. La limite est donc $\\lim_{x \\to 2} 3(x+2) = 3 \\times 4 = 12$.",
     "feedback_wrong": "Attention à la factorisation. Commence par mettre en facteur : $3x^2 - 12 = 3(x^2 - 4) = 3(x-2)(x+2)$. Ensuite simplifie la fraction en annulant $(x-2)$. Tu obtiens $f(x) = 3(x+2)$ pour $x \\neq 2$, et donc $\\lim_{x \\to 2} f(x) = 3 \\times 4 = 12$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Une limite prédit vers quoi tend une fonction."
+      },
+      {
+        "icon": "📈",
+        "text": "La continuité montre si la variation est progressive ou brutale."
+      },
+      {
+        "icon": "⚡",
+        "text": "La dérivée mesure la vitesse de variation d'une fonction."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Bien joué ! Tu as factoriser correctement. Le numérateur $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Après simplification par $(x - 2)$, il reste $3(x + 2)$. Quand x tend vers 2, cela donne $3(2 + 2) = 3 \\times 4 = 12$.",
     "feedback_wrong": "Pas tout à fait. Vérifie la factorisation du numérateur : $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$. Simplifie par $(x - 2)$, puis remplace x par 2 dans l'expression simplifiée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Une limite est la valeur vers laquelle une fonction se rapproche progressivement."
+      },
+      {
+        "icon": "📈",
+        "text": "La continuité signifie l'absence de saut ou de rupture dans la courbe."
+      },
+      {
+        "icon": "✓",
+        "text": "Une fonction est continue si limite, définition et valeur sont égales."
+      }
+    ]
   }
 }

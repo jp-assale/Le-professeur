@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Puisque l'axe coupe le segment AB en son milieu I, et que AB mesure 8 cm, la distance de A à I est la moitié de 8 cm, soit 4 cm. C'est aussi la distance de A à l'axe d.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que l'axe de symétrie coupe le segment en son MILIEU. Si AB = 8 cm et que le milieu I divise ce segment en deux parties égales, alors la distance de A à I (qui est la distance de A à l'axe) est la moitié de 8 cm."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🪞",
+        "text": "Un point et son reflet sont équidistants de l'axe."
+      },
+      {
+        "icon": "📏",
+        "text": "L'axe est perpendiculaire au segment joignant deux points symétriques."
+      },
+      {
+        "icon": "📄",
+        "text": "Plier le plan selon l'axe superpose parfaitement les deux moitiés."
+      }
+    ]
   }
 }

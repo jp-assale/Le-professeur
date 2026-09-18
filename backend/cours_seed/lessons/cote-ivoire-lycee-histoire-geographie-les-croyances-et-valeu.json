@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact. Cette position illustre parfaitement le monde d'aujourd'hui : certains pays, organisations ou groupes défendent des valeurs d'égalité et d'inclusion universelles, tandis que d'autres fondent leurs positions sur des convictions religieuses ou culturelles différentes. Ce n'est ni un conflit simple ni une harmonie totale—c'est une coexistence complexe de systèmes de croyances pluriels qui dialoguent, se confrontent et parfois se transforment mutuellement.",
     "feedback_wrong": "Pas tout à fait. Relisons la question : elle parle de la tension entre une norme promue globalement et les réalités locales de croyances et traditions. Le monde d'aujourd'hui n'est pas un espace homogène de croyances unifiées. C'est justement ce pluralisme—cette coexistence de valeurs différentes et souvent en tension—qui définit notre époque. L'option correcte reconnaît cette complexité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🙏",
+        "text": "Croyances et valeurs structurent identités, comportements et rapports sociaux."
+      },
+      {
+        "icon": "🌍",
+        "text": "Pluralité religieuse et culturelle coexiste, dialogue ou entre en conflit."
+      },
+      {
+        "icon": "🔍",
+        "text": "Comprendre le monde contemporain nécessite analyser interactions entre ces mondes."
+      }
+    ]
   }
 }

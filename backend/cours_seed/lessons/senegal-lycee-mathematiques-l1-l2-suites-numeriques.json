@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Pour une suite arithmétique, on utilise la formule $u_n = u_1 + (n-1) \\times r$. Ici : $u_6 = 50 + (6-1) \\times 7 = 50 + 35 = 85$. Tu maîtrises bien la formule explicite.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi de la formule pour une suite arithmétique : $u_n = u_1 + (n-1) \\times r$. Avec $u_1 = 50$, $r = 7$ et $n = 6$, on obtient : $u_6 = 50 + 5 \\times 7 = 50 + 35 = 85$. Attention à ne pas confondre $(n-1)$ et $n$ dans le calcul."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Une suite modélise des phénomènes qui évoluent régulièrement et prévisiblement."
+      },
+      {
+        "icon": "🔢",
+        "text": "Chaque nombre s'appelle un terme, indexé selon sa position."
+      },
+      {
+        "icon": "🔗",
+        "text": "La raison lie chaque terme au suivant de manière régulière."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exactement ! Les deux angles inscrits $\\widehat{EFG}$ et $\\widehat{EHG}$ interceptent le même arc EG, donc selon la propriété des angles inscrits, ils sont égaux. $\\widehat{EHG} = 48°$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que deux angles inscrits qui interceptent le même arc sont égaux. Ici, $\\widehat{EFG}$ et $\\widehat{EHG}$ interceptent tous les deux l'arc EG, donc ils doivent avoir la même mesure. La réponse est 48°."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👁️",
+        "text": "Un angle inscrit a son sommet sur le cercle."
+      },
+      {
+        "icon": "⌛",
+        "text": "L'angle regarde un arc du cercle appelé arc intercepté."
+      },
+      {
+        "icon": "🎯",
+        "text": "Tous les angles interceptant le même arc sont égaux."
+      }
+    ]
   }
 }

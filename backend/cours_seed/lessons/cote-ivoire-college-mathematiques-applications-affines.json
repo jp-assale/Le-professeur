@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! L'expression est $f(x) = 50x + 2000$. Pour $x = 60$ : $f(60) = 50 \times 60 + 2000 = 3000 + 2000 = 5000$ FCFA. Tu as bien identifié le coefficient (50) et la constante (2000), puis tu as substitué correctement.",
     "feedback_wrong": "Ce n'est pas exact. Rappelle-toi que l'application affine est $f(x) = a \times x + b$. Ici, $a = 50$ FCFA par article et $b = 2000$ FCFA (le coût fixe). Calcule $f(60) = 50 \times 60 + 2000 = 3000 + 2000 = 5000$ FCFA."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Une application affine combine un coût fixe et un coût variable."
+      },
+      {
+        "icon": "📐",
+        "text": "La formule f(x) = ax + b transforme un nombre par multiplication et addition."
+      },
+      {
+        "icon": "💡",
+        "text": "Le paramètre a multiplie la variable, b ajoute une constante fixe."
+      }
+    ]
   }
 }

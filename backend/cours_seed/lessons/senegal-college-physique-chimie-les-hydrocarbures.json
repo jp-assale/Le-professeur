@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Pour un alcane (saturé) avec 6 carbones, tu utilises la formule $C_nH_{2n+2}$ avec $n = 6$ : $C_6H_{2(6)+2} = C_6H_{14}$. C'est l'hexane, un composant courant de l'essence.",
     "feedback_wrong": "Pas tout à fait. Tu dois appliquer la formule générale des alcanes saturés : $C_nH_{2n+2}$. Avec 6 carbones, cela donne $C_6H_{2(6)+2} = C_6H_{14}$. Retiens bien cette formule — elle est la clé pour identifier les alcanes !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚛️",
+        "text": "Un hydrocarbure est composé uniquement de carbone et d'hydrogène."
+      },
+      {
+        "icon": "🔗",
+        "text": "Les alcanes ont des liaisons simples, les alcènes des liaisons doubles."
+      },
+      {
+        "icon": "⛽",
+        "text": "Les hydrocarbures fournissent l'énergie pour nos voitures et cuisines."
+      }
+    ]
   }
 }

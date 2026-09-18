@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! $598 = 17 \\times 35 + 3$. Le quotient est 35 et le reste est 3. Tu maîtrises bien la division euclidienne.",
     "feedback_wrong": "Ce n'est pas le bon quotient. Divise 598 par 17 pas à pas : $598 \\div 17 \\approx 35,18$. Le quotient entier est 35. Vérifie : $17 \\times 35 = 595$, donc le reste est $598 - 595 = 3$. La relation $a = bq + r$ doit être vérifiée avec $0 \\le r < b$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📦",
+        "text": "Diviser 437 œufs en caisses de 12 : quotient et reste."
+      },
+      {
+        "icon": "🔢",
+        "text": "Tout nombre entier se décompose uniquement en quotient plus reste."
+      },
+      {
+        "icon": "🏗️",
+        "text": "Division euclidienne fonde numérations, divisibilité et structure des nombres."
+      }
+    ]
   }
 }

@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as bien appliqué la méthode. Ajoute 8 aux deux côtés : $2x = 18$, puis divise par 2 : $x = 9$. Vérifie : $2(9) - 8 = 18 - 8 = 10$ ✓. Tu maîtrises la résolution d'équations du premier degré.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la méthode : d'abord, ajoute 8 aux deux côtés pour isoler le terme avec $x$. Tu obtiens $2x = 18$. Ensuite, divise par 2 : $x = 9$. Vérifie toujours en remplaçant $x$ dans l'équation initiale."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❓",
+        "text": "Une équation du premier degré contient une inconnue x d'exposant 1."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Résoudre l'équation signifie trouver la valeur de x qui égalise."
+      },
+      {
+        "icon": "🔄",
+        "text": "Appliquer la même opération des deux côtés du signe égal."
+      }
+    ]
   }
 }

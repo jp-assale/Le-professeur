@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! La première composante du produit vectoriel $\\vec{a} \\times \\vec{b}$ se calcule avec $a_2 b_3 - a_3 b_2 = 0 \\times 1 - 1 \\times 3 = -3$. C'est la bonne application de la formule.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi : la première composante du produit vectoriel $\\vec{a} \\times \\vec{b}$ est $a_2 b_3 - a_3 b_2 = 0 \\times 1 - 1 \\times 3 = -3$. Vérifie bien l'ordre et les signes dans la formule."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📐",
+        "text": "Le produit vectoriel crée un vecteur perpendiculaire au plan initial."
+      },
+      {
+        "icon": "📦",
+        "text": "Le produit mixte calcule le volume du parallélépipède formé."
+      },
+      {
+        "icon": "🔄",
+        "text": "Ces outils décrivent les transformations spatiales : rotations et symétries."
+      }
+    ]
   }
 }

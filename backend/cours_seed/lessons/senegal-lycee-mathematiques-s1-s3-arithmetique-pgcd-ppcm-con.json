@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! On cherche le plus petit moment où les deux bus sont présents ensemble : c'est le PPCM(12, 18). En décomposant : 12 = 2² × 3 et 18 = 2 × 3². Le PPCM = 2² × 3² = 4 × 9 = 36 heures. Les deux bus se retrouvent après 36 heures.",
     "feedback_wrong": "Pas encore. Tu dois chercher le PPCM (plus petit commun multiple), pas le PGCD. Décompose 12 et 18 en facteurs premiers : 12 = 2² × 3 et 18 = 2 × 3². Le PPCM prend tous les facteurs premiers avec leurs plus grands exposants : PPCM = 2² × 3² = 36 heures."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Le PGCD trouve le plus grand diviseur commun de deux nombres."
+      },
+      {
+        "icon": "🔄",
+        "text": "La congruence compare les restes de divisions entre deux nombres."
+      },
+      {
+        "icon": "🔢",
+        "text": "Les bases numériques représentent identiquement les nombres différemment."
+      }
+    ]
   }
 }

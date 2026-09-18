@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellente réponse ! Tu as appliqué correctement la formule générale. Pour l'hexane avec n = 6 carbones, le nombre d'hydrogènes est $2 × 6 + 2 = 14$. La formule est bien $C_6H_{14}$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi la formule générale des alcanes : $C_nH_{2n+2}$. Pour l'hexane, n = 6, donc le nombre d'hydrogènes est $2 × 6 + 2 = 14$. Essaie à nouveau avec cette formule."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧪",
+        "text": "Les alcanes sont des composés organiques formés de carbone et hydrogène."
+      },
+      {
+        "icon": "⛽",
+        "text": "Le GPL contient du butane et du propane, des alcanes courants."
+      },
+      {
+        "icon": "🔗",
+        "text": "Les alcanes obéissent à une formule générale reconnaissable et prévisible."
+      }
+    ]
   }
 }

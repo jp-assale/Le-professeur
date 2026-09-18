@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as appliqué correctement la formule : Énergie totale = 5 g × 18 kJ/g = 90 kJ, puis Énergie ATP = 90 kJ × 35% = 31,5 kJ. C'est exactement comment on calcule la part d'énergie transformée en ATP utilisable par la cellule.",
     "feedback_wrong": "Regarde bien l'ordre des calculs. D'abord, l'énergie totale libérée : 5 g × 18 kJ/g = 90 kJ. Ensuite, tu appliques le pourcentage : 90 kJ × 35% = 90 × 0,35 = 31,5 kJ. N'oublie pas que seule une partie de l'énergie devient ATP, le reste se transforme en chaleur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "La respiration cellulaire transforme le glucose en énergie utile."
+      },
+      {
+        "icon": "🔥",
+        "text": "Cette réaction libère de la chaleur qui réchauffe le corps."
+      },
+      {
+        "icon": "🫁",
+        "text": "L'oxygène est essentiel pour cette transformation chimique intense."
+      }
+    ]
   }
 }

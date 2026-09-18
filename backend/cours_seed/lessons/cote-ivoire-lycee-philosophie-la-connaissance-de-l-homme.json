@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as compris le cœur du problème. L'homme n'est pas un objet passif à observer du dehors. Il est un sujet vivant, pensant, conscient. Il a une intériorité — ses sensations, ses pensées, son expérience vécue — que nul ne peut pénétrer complètement de l'extérieur. C'est ce qui rend la connaissance de l'homme unique et complexe.",
     "feedback_wrong": "Pas tout à fait. Réfléchis à ceci : l'homme, contrairement à une pierre ou une plante, est conscient de lui-même. Il pense, il ressent. Cette conscience interne crée une barrière naturelle à la connaissance objecte. Personne d'autre ne peut vivre tes pensées à ta place. C'est précisément cela qui rend l'homme difficile à connaître totalement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤔",
+        "text": "L'homme reste partiellement mystérieux, même pour lui-même."
+      },
+      {
+        "icon": "🔍",
+        "text": "Connaître l'homme signifie étudier sa nature et son essence."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Le penseur ne peut pas avoir recul objectif sur sa pensée."
+      }
+    ]
   }
 }

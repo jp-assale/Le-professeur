@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! Tu as compris le mécanisme clé : les revenus générés par une ressource abondante financent l'éducation, la santé et les infrastructures. Une population mieux éduquée crée l'innovation et la richesse supplémentaire. C'est un cycle de renforcement qui explique comment certains pays s'enrichissent tandis que d'autres restent moins développés.",
     "feedback_wrong": "Pas tout à fait. Repense au lien entre ressources économiques et investissement. Quand un pays peut exporter une ressource précieuse, les revenus qu'il en tire lui permettent d'investir dans l'éducation et les infrastructures. À l'inverse, un pays sans ces revenus a beaucoup moins de capacités d'investissement. Cela crée des inégalités qui s'amplifient avec le temps."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Le monde présente des inégalités massives de développement entre régions."
+      },
+      {
+        "icon": "📚",
+        "text": "Certains pays ont infrastructures modernes, d'autres manquent de ressources basiques."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Ces disparités résultent de l'histoire, géographie et choix politiques."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! À 10 Hz, la fréquence imposée égale la fréquence naturelle, donc le système est à résonance. L'amplitude devient maximale. À 5 Hz, tu es loin de cette condition, donc l'amplitude reste nettement plus faible. C'est le cœur du phénomène de résonance.",
     "feedback_wrong": "Ce n'est pas correct. Rappelle-toi : la résonance se produit précisément quand la fréquence de la force imposée égale la fréquence naturelle du système. À ce moment, l'amplitude atteint son maximum. À 10 Hz tu es en résonance, à 5 Hz tu ne l'es pas. L'amplitude à résonance est donc bien plus grande."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌊",
+        "text": "Une force externe périodique impose sa fréquence au système oscillant."
+      },
+      {
+        "icon": "⚡",
+        "text": "La résonance survient quand fréquence externe égale fréquence naturelle."
+      },
+      {
+        "icon": "⚠️",
+        "text": "L'amplitude devient très grande et peut causer la rupture."
+      }
+    ]
   }
 }

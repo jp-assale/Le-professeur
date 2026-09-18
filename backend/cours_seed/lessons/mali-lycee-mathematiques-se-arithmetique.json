@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Le nombre maximum de vêtements identiques est le PGCD de 84 et 60. En appliquant l'algorithme d'Euclide : $84 = 60 \\times 1 + 24$, puis $60 = 24 \\times 2 + 12$, puis $24 = 12 \\times 2 + 0$. Donc PGCD(84, 60) = 12. L'atelier confectionnera 12 vêtements, chacun avec $84 \\div 12 = 7$ boutons rouges et $60 \\div 12 = 5$ boutons bleus.",
     "feedback_wrong": "Pas tout à fait. Il faut trouver le plus grand nombre de vêtements identiques, c'est-à-dire le PGCD de 84 et 60. Applique l'algorithme d'Euclide : $84 = 60 \\times 1 + 24$, puis $60 = 24 \\times 2 + 12$, puis $24 = 12 \\times 2 + 0$. Le PGCD est 12, donc 12 vêtements."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔢",
+        "text": "La division euclidienne partage tout nombre en quotient et reste."
+      },
+      {
+        "icon": "📦",
+        "text": "Les diviseurs résolvent les problèmes pratiques de partage équitable."
+      },
+      {
+        "icon": "🎯",
+        "text": "PGCD et PPCM organisent les nombres selon leurs relations communes."
+      }
+    ]
   }
 }

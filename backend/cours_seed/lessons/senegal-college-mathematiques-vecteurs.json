@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as appliqué correctement la formule des coordonnées d'un vecteur : $\\overrightarrow{PQ} = (x_Q - x_P ; y_Q - y_P) = (4 - 1 ; 7 - 3) = (3 ; 4)$. Bien compris !",
     "feedback_wrong": "Ce n'est pas la bonne réponse. Rappelle-toi : pour trouver les coordonnées de $\\overrightarrow{PQ}$, on soustrait les coordonnées du point de départ (P) de celles du point d'arrivée (Q). Calcule $(x_Q - x_P ; y_Q - y_P) = (4 - 1 ; 7 - 3)$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧭",
+        "text": "Un vecteur décrit un déplacement avec direction, sens et distance."
+      },
+      {
+        "icon": "➡️",
+        "text": "On note un vecteur par une flèche entre deux points: AB."
+      },
+      {
+        "icon": "📍",
+        "text": "Deux vecteurs égaux ont même direction, sens et longueur."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! On développe : $(2 + 3i)^2 = 2^2 + 2 \\times 2 \\times 3i + (3i)^2 = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i$. Tu as bien utilisé la propriété $i^2 = -1$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que $(2 + 3i)^2 \\neq 2^2 + (3i)^2$ : il faut appliquer la formule $(a + b)^2 = a^2 + 2ab + b^2$. Ici : $(2 + 3i)^2 = 4 + 2(2)(3i) + 9i^2 = 4 + 12i + 9(-1) = -5 + 12i$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "Les nombres complexes représentent amplitude et déphasage simultanément."
+      },
+      {
+        "icon": "📐",
+        "text": "Un nombre complexe s'écrit z = a + bi avec i² = -1."
+      },
+      {
+        "icon": "📊",
+        "text": "Le plan complexe visualise chaque nombre comme un point unique."
+      }
+    ]
   }
 }

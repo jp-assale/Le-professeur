@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Pour l'équation homogène $\\frac{dy}{dt} - 4y = 0$, tu dois trouver une fonction dont la dérivée égale 4 fois la fonction elle-même. L'exponentielle $e^{4t}$ a exactement cette propriété : sa dérivée est $4e^{4t}$. Donc $y(t) = Ce^{4t}$ est la solution générale.",
     "feedback_wrong": "Pas tout à fait. Pour résoudre $\\frac{dy}{dt} - 4y = 0$, tu cherches une fonction où la dérivée est égale à 4 fois la fonction. Rappelle-toi que la dérivée de $e^{4t}$ est $4e^{4t}$. La solution générale doit donc contenir $e^{4t}$ avec un exposant positif, pas négatif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔋",
+        "text": "La charge évolue progressivement selon sa valeur actuelle."
+      },
+      {
+        "icon": "📈",
+        "text": "Les dérivées relient une fonction à ses taux de changement."
+      },
+      {
+        "icon": "🔢",
+        "text": "Les coefficients constants simplifient la résolution des équations."
+      }
+    ]
   }
 }

@@ -50,5 +50,21 @@
     ],
     "feedback_correct": "Exact ! Puisque les trois lots sont différents, l'ordre compte. Pour le premier lot, tu as 12 choix. Pour le deuxième lot, 11 choix restants. Pour le troisième lot, 10 choix restants. Le total est 12 × 11 × 10 = 1320 façons. C'est un arrangement de 3 éléments parmi 12, noté $A_{12}^{3}$ ou $A_3^{12}$.",
     "feedback_wrong": "Pas tout à fait. Souviens-toi que les trois lots sont différents, donc l'ordre de distribution compte. Il ne faut pas diviser par le nombre de permutations. Tu dois calculer : 12 × 11 × 10 (le premier lot peut aller à l'un des 12 membres, le deuxième à l'un des 11 restants, le troisième à l'un des 10 restants). Cela te donne 1320 façons."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔢",
+        "text": "Le dénombrement compte toutes les façons de choisir ou organiser des éléments."
+      },
+      {
+        "icon": "⚖️",
+        "text": "L'équiprobabilité garantit que chaque résultat a exactement la même chance."
+      },
+      {
+        "icon": "📊",
+        "text": "Probabilité égale cas favorables divisés par cas possibles totaux."
+      }
+    ]
   }
 }

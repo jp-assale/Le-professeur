@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Correct ! La glycine a pour structure H₂N-CH(H)-COOH. En comptant les atomes : 1 carbone du groupe carboxyle + 1 carbone α = 2 carbones ; 2 hydrogènes du groupe amine + 1 hydrogène sur le carbone α + 1 hydrogène de la chaîne latérale (R = H) + 1 hydrogène du groupe carboxyle = 5 hydrogènes ; 1 azote du groupe amine ; 2 oxygènes du groupe carboxyle. D'où la formule $C_2H_5NO_2$.",
     "feedback_wrong": "Pas tout à fait. Rappelle-toi que la chaîne latérale de la glycine est juste un atome H, pas un groupe méthyle. Compte à nouveau : 2 carbones (1 du carboxyle + 1 α), 5 hydrogènes (2 de l'amine + 1 du carbone α + 1 de la chaîne latérale H + 1 du carboxyle), 1 azote, 2 oxygènes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧬",
+        "text": "Les protéines sont construites à partir d'acides aminés comme briques élémentaires."
+      },
+      {
+        "icon": "⚛️",
+        "text": "Un acide aminé possède un groupe carboxyle acide et amine basique."
+      },
+      {
+        "icon": "💪",
+        "text": "Les acides aminés s'assemblent pour former muscles, enzymes et anticorps."
+      }
+    ]
   }
 }

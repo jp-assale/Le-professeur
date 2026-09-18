@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Le groupe AB positif est le receveur universel : comme il possède déjà les antigènes A, B et le facteur Rhésus positif, son organisme ne fabrique aucun anticorps contre ces éléments. Il peut donc recevoir du sang de tous les groupes, positifs comme négatifs : O+, O−, A+, A−, B+, B−, AB+ et AB−, soit 8 groupes au total.",
     "feedback_wrong": "Pas tout à fait. Le groupe AB positif est le receveur universel : il peut recevoir du sang de TOUS les groupes sanguins (positifs et négatifs), car il ne fabrique aucun anticorps anti-A, anti-B ou anti-Rhésus. Ça fait 8 groupes compatibles au total."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🩸",
+        "text": "La transfusion sanguine sauve des vies en cas de perte importante de sang."
+      },
+      {
+        "icon": "⚠️",
+        "text": "Donner un sang incompatible détruit les globules rouges et provoque une hémolyse."
+      },
+      {
+        "icon": "✅",
+        "text": "Les groupes sanguins du donneur et receveur doivent être compatibles absolument."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as bien appliqué la formule : Rendement = (30 / 200) × 100 = 15 %. Cette ampoule convertit seulement 15 % de son énergie en lumière ; le reste devient chaleur. C'est pour cela qu'on dit que les ampoules incandescentes sont peu efficaces.",
     "feedback_wrong": "Pas tout à fait. Vérifie ton calcul : l'énergie utile est celle qui produit de la lumière (30 J), pas la chaleur perdue. Applique la formule : (Énergie utile / Énergie reçue) × 100 = (30 / 200) × 100 = 15 %."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚡",
+        "text": "L'énergie est la capacité à produire un effet utile."
+      },
+      {
+        "icon": "📊",
+        "text": "Le rendement mesure quelle part d'énergie devient utile."
+      },
+      {
+        "icon": "🔥",
+        "text": "Aucune machine n'atteint 100 % : il y a toujours des pertes."
+      }
+    ]
   }
 }

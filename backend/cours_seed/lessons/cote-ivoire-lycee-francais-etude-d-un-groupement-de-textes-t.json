@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exactement ! En étudiant ces deux pièces ensemble autour du même thème (la condition des femmes), tu peux observer comment ce thème se manifeste différemment selon les contextes. Cela enrichit ta compréhension : tu vois que c'est un problème persistant, mais aussi que les auteurs l'appréhendent de façons distinctes selon leur époque et leur environnement. C'est la force du groupement de textes.",
     "feedback_wrong": "Pas tout à fait. L'objectif du groupement de textes n'est pas de juger quelle pièce est meilleure, ni de réduire ton travail, ni de mémoriser mécaniquement. Il s'agit de comprendre comment différents auteurs traitent une même question et ce que cela nous apprend. Relis la question : le véritable intérêt est de voir comment une thématique commune se décline différemment selon les contextes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎭",
+        "text": "Étudier ensemble plusieurs textes théâtraux autour d'une même thématique."
+      },
+      {
+        "icon": "🔄",
+        "text": "Mettre en dialogue les œuvres pour voir leurs similitudes et différences."
+      },
+      {
+        "icon": "💡",
+        "text": "Comprendre comment différents auteurs traitent les mêmes grandes questions."
+      }
+    ]
   }
 }

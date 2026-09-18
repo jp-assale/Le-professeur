@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Excellent ! Tu as correctement intégré $\\frac{dy}{dx} = 3$ pour obtenir $y(x) = 3x + C$. Puis tu as appliqué la condition initiale : $y(1) = 5$ donne $3(1) + C = 5$, d'où $C = 2$. La solution est bien $y(x) = 3x + 2$.",
     "feedback_wrong": "Attention à l'application de la condition initiale. L'intégration de $\\frac{dy}{dx} = 3$ donne $y(x) = 3x + C$. Ensuite, remplace $x$ par 1 et $y$ par 5 dans cette formule : $5 = 3(1) + C$, ce qui te permet de trouver $C$. Recalcule et tu trouveras la bonne réponse."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏱️",
+        "text": "Les équations différentielles décrivent comment les systèmes changent avec le temps."
+      },
+      {
+        "icon": "📈",
+        "text": "Une équation différentielle relie une fonction inconnue à ses dérivées."
+      },
+      {
+        "icon": "🎯",
+        "text": "Résoudre signifie trouver la fonction qui satisfait l'équation donnée."
+      }
+    ]
   }
 }

@@ -52,5 +52,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement appliqué la formule. Avec les moyennes $\\overline{x} = 25$ et $\\overline{y} = 11$, la covariance vaut 40 et la variance de x vaut 100, donc $a = \\frac{40}{100} = 0,4$. Plus un vendeur est formé, plus son chiffre d'affaires augmente, à raison de 0,4 million de FCFA par heure de formation en moyenne.",
     "feedback_wrong": "Ce n'est pas exact. Rappelle-toi la formule de la pente : $a = \\frac{\\sum (x_i - \\overline{x})(y_i - \\overline{y})}{\\sum (x_i - \\overline{x})^2}$. Avec $\\overline{x} = 25$ et $\\overline{y} = 11$, calcule d'abord les écarts, puis la covariance (40) et la variance de x (100). Le résultat est $a = 0,4$."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📊",
+        "text": "Étudier deux caractères simultanément sur une même population."
+      },
+      {
+        "icon": "📈",
+        "text": "Mesurer la relation entre deux variables avec le coefficient de corrélation."
+      },
+      {
+        "icon": "🔮",
+        "text": "Établir une équation pour prévoir une variable à partir de l'autre."
+      }
+    ]
   }
 }
