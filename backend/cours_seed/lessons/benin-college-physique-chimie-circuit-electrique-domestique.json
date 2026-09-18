@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Tu as correctement utilisé la formule I = P / U. Avec P = 2200 W et U = 220 V, tu obtiens I = 2200 / 220 = 10 A. C'est une intensité typique pour un appareil de forte puissance dans une maison. Le disjoncteur doit pouvoir supporter cette valeur.",
     "feedback_wrong": "Ce n'est pas correct. Souviens-toi que la puissance, la tension et l'intensité sont liées par la formule P = U × I, qui se réarrange en I = P / U. Applique-la : I = 2200 / 220 = 10 A. Refais le calcul et contrôle tes divisions."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏠",
+        "text": "L'électricité arrive chez toi par les fils du réseau extérieur."
+      },
+      {
+        "icon": "⚡",
+        "text": "Les appareils sont reliés en parallèle pour fonctionner indépendamment."
+      },
+      {
+        "icon": "📊",
+        "text": "Le compteur mesure ta consommation d'électricité domestique."
+      }
+    ]
   }
 }

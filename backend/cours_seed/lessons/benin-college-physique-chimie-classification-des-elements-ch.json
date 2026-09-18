@@ -51,5 +51,21 @@
     ],
     "feedback_correct": "Exact ! Le bore a 3 électrons de valence (configuration 2, 3), l'aluminium en a aussi 3 (configuration 2, 8, 3), et le gallium aussi (configuration 2, 8, 18, 3). Même nombre d'électrons de valence = même famille. Le bore et le gallium sont séparés par plusieurs périodes, mais ils sont dans la même colonne du tableau périodique (famille du bore). C'est pourquoi leurs propriétés chimiques se ressemblent.",
     "feedback_wrong": "Pas tout à fait. Pour classer deux éléments dans la même famille, il faut regarder le nombre d'électrons sur la couche externe (électrons de valence), pas le numéro atomique global ni la position relative. Le bore (Z = 5) a 3 électrons de valence, l'aluminium (Z = 13) en a aussi 3, et le gallium (Z = 31) en a aussi 3. Donc bore et gallium sont dans la même famille, même s'ils ne sont pas côte à côte dans le tableau périodique. C'est cela que montre le classement périodique : les éléments se répètent en propriétés tous les 8 électrons de valence environ."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚛️",
+        "text": "Chaque élément chimique possède un nombre unique de protons."
+      },
+      {
+        "icon": "📊",
+        "text": "Le tableau périodique classe les éléments par numéro atomique croissant."
+      },
+      {
+        "icon": "🔄",
+        "text": "Les éléments d'une même colonne partagent les mêmes propriétés."
+      }
+    ]
   }
 }

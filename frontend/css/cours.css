@@ -46,6 +46,27 @@
 
 .scene { width: 100%; height: auto; display: block; }
 
+.resume-section { margin-top: 4px; }
+.resume-title {
+  font-size: 0.8rem; font-weight: 600; color: var(--green-dark);
+  margin-bottom: 8px;
+}
+.resume-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; margin-bottom: 14px;
+}
+.resume-points { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.resume-points li {
+  display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; color: var(--text);
+  opacity: 0; transform: translateY(8px);
+  animation: resumeFadeUp 0.45s ease forwards;
+}
+.resume-points .icon {
+  flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--green-light);
+  display: flex; align-items: center; justify-content: center; font-size: 0.95rem;
+}
+@keyframes resumeFadeUp { to { opacity: 1; transform: translateY(0); } }
+
 .theorem-box {
   background: var(--green-light); border-left: 4px solid var(--green);
   border-radius: 8px; padding: 12px 14px; margin: 12px 0; font-size: 0.95rem;

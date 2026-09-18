@@ -87,12 +87,38 @@ function addCoursSpeakButton(section, text) {
   section.appendChild(btn);
 }
 
+/* Court rappel visuel (3 points + icone) affiche sous la mise en situation,
+   qui apparait progressivement (comme un "build" PowerPoint) - genere par
+   l'IA en meme temps que le reste de la lecon (champ "resume" optionnel,
+   absent sur les lecons plus anciennes pas encore mises a jour). */
+function renderResumeSection(data) {
+  const points = data.resume && data.resume.points;
+  if (!Array.isArray(points) || !points.length) return null;
+
+  const wrap = el("div", { className: "resume-section" });
+  wrap.appendChild(el("div", { className: "resume-title", text: "✨ Résumé en un coup d'œil" }));
+  const card = el("div", { className: "resume-card" });
+  const list = el("ul", { className: "resume-points" });
+  points.forEach((pt, i) => {
+    const li = el("li", {});
+    li.style.animationDelay = (0.3 + i * 0.45) + "s";
+    li.appendChild(el("span", { className: "icon", text: pt.icon || "" }));
+    li.appendChild(el("span", { text: pt.text || "" }));
+    list.appendChild(li);
+  });
+  card.appendChild(list);
+  wrap.appendChild(card);
+  return wrap;
+}
+
 function renderIntroSlide(data) {
   const section = buildSlideShell("Mise en situation", data.intro.heading);
   const card = el("div", { className: "card" });
   card.appendChild(el("p", { text: data.intro.body }));
   section.appendChild(card);
   addCoursSpeakButton(section, data.intro.heading + ". " + data.intro.body);
+  const resume = renderResumeSection(data);
+  if (resume) section.appendChild(resume);
   return section;
 }
 
