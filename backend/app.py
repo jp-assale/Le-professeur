@@ -105,13 +105,17 @@ DIAGRAM_IDS = {
     "appareil_reproducteur_masculin": "Appareil reproducteur masculin (testicules, épididyme, canal déférent, prostate, pénis)",
     "appareil_digestif": "Appareil digestif (bouche, œsophage, estomac, foie, pancréas, intestins)",
     "systeme_circulatoire_coeur": "Le cœur et la circulation sanguine (oreillettes, ventricules, aorte, veine cave)",
+    "courbe_chauffage_eau": "Courbe de chauffage/changement d'état de l'eau (température en fonction de l'énergie apportée, de -20°C à +140°C, paliers de fusion à 0°C et de vaporisation à 100°C)",
 }
 
 DIAGRAM_PROMPT_NOTE = (
-    "- Pour un schéma annoté en SVT/sciences, si (et SEULEMENT si) le sujet "
-    "correspond exactement à l'un de ces schémas déjà disponibles dans "
-    "l'application, inclus ce bloc (sur ses propres lignes, avec les "
-    "balises ``` ) au lieu de dire que tu ne peux pas dessiner :\n"
+    "- Pour un schéma annoté ou une courbe caractéristique en SVT, "
+    "physique-chimie ou toute autre matière scientifique (un vrai tracé "
+    "physique, pas une fonction mathematique - voir la regle sur le bloc "
+    "```plot pour ca), si (et SEULEMENT si) le sujet correspond exactement "
+    "à l'un de ces schémas déjà disponibles dans l'application, inclus ce "
+    "bloc (sur ses propres lignes, avec les balises ``` ) au lieu de dire "
+    "que tu ne peux pas dessiner :\n"
     "```diagram\n"
     "id: <identifiant exact>\n"
     "```\n"

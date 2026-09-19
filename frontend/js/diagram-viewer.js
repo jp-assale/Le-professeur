@@ -90,6 +90,40 @@ const DIAGRAM_LIBRARY = {
         ${labelLine(200, 165, 260, 190)}${labelText(263, 193, "Ventricule gauche", "start")}
       </svg>`,
   },
+  courbe_chauffage_eau: {
+    title: "Courbe de chauffage et changement d'état de l'eau (température en fonction de l'énergie apportée)",
+    svg: `
+      <svg viewBox="0 0 380 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#fff;border:1px solid #e1e6e3;border-radius:10px;">
+        <line x1="45" y1="231" x2="355" y2="231" stroke="#c7d0cb" stroke-width="1" stroke-dasharray="4,3"/>
+        <line x1="45" y1="88" x2="355" y2="88" stroke="#c7d0cb" stroke-width="1" stroke-dasharray="4,3"/>
+        <line x1="45" y1="260" x2="365" y2="260" stroke="#1c2321" stroke-width="1.5"/>
+        <polygon points="365,260 357,256 357,264" fill="#1c2321"/>
+        <line x1="45" y1="260" x2="45" y2="20" stroke="#1c2321" stroke-width="1.5"/>
+        <polygon points="45,20 41,28 49,28" fill="#1c2321"/>
+        <line x1="110" y1="257" x2="110" y2="263" stroke="#1c2321" stroke-width="1"/>
+        <line x1="170" y1="257" x2="170" y2="263" stroke="#1c2321" stroke-width="1"/>
+        <line x1="230" y1="257" x2="230" y2="263" stroke="#1c2321" stroke-width="1"/>
+        <line x1="290" y1="257" x2="290" y2="263" stroke="#1c2321" stroke-width="1"/>
+        <path d="M 50 260 L 110 231 L 170 231 L 230 88 L 290 88 L 350 30" fill="none" stroke="#c9612f" stroke-width="2.5"/>
+        <circle cx="50" cy="260" r="3" fill="#c9612f"/>
+        <circle cx="110" cy="231" r="3" fill="#c9612f"/>
+        <circle cx="170" cy="231" r="3" fill="#c9612f"/>
+        <circle cx="230" cy="88" r="3" fill="#c9612f"/>
+        <circle cx="290" cy="88" r="3" fill="#c9612f"/>
+        <circle cx="350" cy="30" r="3" fill="#c9612f"/>
+        ${labelText(10, 15, "T (°C)", "start")}
+        ${labelText(40, 264, "-20", "end")}
+        ${labelText(40, 235, "0", "end")}
+        ${labelText(40, 92, "100", "end")}
+        ${labelText(40, 26, "140", "end")}
+        ${labelText(80, 275, "Glace", "middle")}
+        ${labelText(140, 275, "Fusion", "middle")}
+        ${labelText(200, 275, "Eau liquide", "middle")}
+        ${labelText(260, 275, "Vaporisation", "middle")}
+        ${labelText(320, 275, "Vapeur", "middle")}
+        ${labelText(200, 300, "Énergie apportée (chauffage) →", "middle")}
+      </svg>`,
+  },
 };
 
 function parseDiagramSpec(text) {
