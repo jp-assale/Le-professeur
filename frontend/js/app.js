@@ -887,18 +887,82 @@
     );
   });
 
+  let deviceCodeModal = null;
+
+  function buildDeviceCodeModal() {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <div class="modal-box">
+        <div class="modal-header">
+          <span>🔑 Ton code appareil</span>
+          <button type="button" id="device-modal-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 10px;">
+          Note-le pour retrouver tes questions restantes sur un autre téléphone.
+        </p>
+        <div style="display:flex;gap:8px;">
+          <input type="text" id="device-code-display" readonly
+            style="flex:1;min-width:0;padding:8px 10px;border-radius:8px;border:1px solid var(--border);font-family:monospace;font-size:0.8rem;background:var(--bg);">
+          <button type="button" id="device-copy-btn"
+            style="flex-shrink:0;padding:8px 14px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.85rem;cursor:pointer;">📋 Copier</button>
+        </div>
+        <p id="device-copy-msg" style="font-size:0.8rem;color:var(--green-dark);min-height:1.2em;margin:6px 0 0;"></p>
+        <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
+          Tu as déjà un code (utilisé sur un autre téléphone) ? Colle-le ici :
+        </p>
+        <div style="display:flex;gap:8px;">
+          <input type="text" id="device-code-input" placeholder="dev-..."
+            style="flex:1;min-width:0;padding:8px 10px;border-radius:8px;border:1px solid var(--border);font-size:0.82rem;">
+          <button type="button" id="device-restore-btn"
+            style="flex-shrink:0;padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.85rem;cursor:pointer;">Utiliser</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) overlay.remove();
+    });
+    overlay.querySelector("#device-modal-close").addEventListener("click", () => overlay.remove());
+
+    const copyBtn = overlay.querySelector("#device-copy-btn");
+    const copyMsg = overlay.querySelector("#device-copy-msg");
+    const displayInput = overlay.querySelector("#device-code-display");
+    copyBtn.addEventListener("click", async () => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(DEVICE_ID);
+        } else {
+          displayInput.select();
+          document.execCommand("copy");
+        }
+        copyMsg.textContent = "✅ Copié !";
+      } catch (e) {
+        displayInput.select();
+        copyMsg.textContent = "Sélectionne le texte ci-dessus et copie-le manuellement.";
+      }
+      setTimeout(() => { copyMsg.textContent = ""; }, 2500);
+    });
+
+    overlay.querySelector("#device-restore-btn").addEventListener("click", () => {
+      const val = overlay.querySelector("#device-code-input").value.trim();
+      if (val && val !== DEVICE_ID) {
+        localStorage.setItem("aida_device_id", val);
+        window.location.reload();
+      }
+    });
+
+    return overlay;
+  }
+
   deviceCodeBtn.addEventListener("click", () => {
-    const input = window.prompt(
-      "Ton code appareil (note-le pour retrouver tes questions restantes sur un " +
-      "autre téléphone) :\n\n" + DEVICE_ID +
-      "\n\nPour utiliser un code que tu as déjà, colle-le ci-dessous puis valide. " +
-      "Sinon laisse tel quel et annule.",
-      DEVICE_ID
-    );
-    if (input && input.trim() && input.trim() !== DEVICE_ID) {
-      localStorage.setItem("aida_device_id", input.trim());
-      window.location.reload();
+    if (!deviceCodeModal || !document.body.contains(deviceCodeModal)) {
+      deviceCodeModal = buildDeviceCodeModal();
     }
+    deviceCodeModal.querySelector("#device-code-display").value = DEVICE_ID;
+    deviceCodeModal.querySelector("#device-code-input").value = "";
+    deviceCodeModal.querySelector("#device-copy-msg").textContent = "";
   });
 
   reportBtn.addEventListener("click", async () => {
