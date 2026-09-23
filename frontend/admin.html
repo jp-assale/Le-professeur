@@ -326,7 +326,7 @@
         return;
       }
       premiumMsg.textContent = activate
-        ? "✅ Illimité activé pour cet appareil."
+        ? "✅ Illimité activé jusqu'au " + data.premium_until + "."
         : "Illimité désactivé pour cet appareil.";
       premiumMsg.className = "admin-msg ok";
     } catch (err) {
@@ -356,7 +356,9 @@
         premiumMsg.className = "admin-msg err";
         return;
       }
-      premiumMsg.textContent = data.premium ? "✨ Déjà en illimité." : "Pas encore en illimité.";
+      premiumMsg.textContent = data.premium
+        ? "✨ Déjà en illimité, jusqu'au " + data.premium_until + "."
+        : "Pas encore en illimité.";
       premiumMsg.className = "admin-msg ok";
     } catch (err) {
       premiumMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);

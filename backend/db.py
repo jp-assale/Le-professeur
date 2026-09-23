@@ -176,6 +176,16 @@ def _migrate_legacy_json(conn: sqlite3.Connection) -> None:
     conn.commit()
 
 
+def _migrate_premium_until(conn: sqlite3.Connection) -> None:
+    """Ajoute la colonne premium_until (date d'expiration de l'abonnement) si
+    elle n'existe pas encore - permet de faire expirer automatiquement les
+    activations manuelles apres 30 jours plutot que de rester premium a vie."""
+    cols = [row[1] for row in conn.execute("PRAGMA table_info(subscriptions)").fetchall()]
+    if "premium_until" not in cols:
+        conn.execute("ALTER TABLE subscriptions ADD COLUMN premium_until TEXT")
+        conn.commit()
+
+
 def get_connection() -> sqlite3.Connection:
     global _initialized
     conn = sqlite3.connect(_DB_PATH, timeout=10)
@@ -187,5 +197,6 @@ def get_connection() -> sqlite3.Connection:
                 conn.executescript(SCHEMA)
                 conn.commit()
                 _migrate_legacy_json(conn)
+                _migrate_premium_until(conn)
                 _initialized = True
     return conn

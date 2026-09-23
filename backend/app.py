@@ -901,7 +901,11 @@ def admin_get_premium():
     device_id = (request.args.get("device_id") or "").strip()
     if not device_id:
         return jsonify({"error": "code appareil manquant"}), 400
-    return jsonify({"device_id": device_id, "premium": subscription.is_premium(device_id)})
+    return jsonify({
+        "device_id": device_id,
+        "premium": subscription.is_premium(device_id),
+        "premium_until": subscription.get_premium_until(device_id),
+    })
 
 
 @app.route("/api/admin/premium", methods=["POST"])
@@ -920,8 +924,8 @@ def admin_set_premium():
         return jsonify({"error": "code appareil manquant"}), 400
 
     premium = bool(data.get("premium", True))
-    subscription.set_premium(device_id, premium)
-    return jsonify({"ok": True, "device_id": device_id, "premium": premium})
+    premium_until = subscription.set_premium(device_id, premium)
+    return jsonify({"ok": True, "device_id": device_id, "premium": premium, "premium_until": premium_until})
 
 
 @app.route("/api/quota", methods=["GET"])
