@@ -924,8 +924,17 @@ def admin_set_premium():
         return jsonify({"error": "code appareil manquant"}), 400
 
     premium = bool(data.get("premium", True))
-    premium_until = subscription.set_premium(device_id, premium)
+    contact = (data.get("contact") or "").strip() or None
+    premium_until = subscription.set_premium(device_id, premium, contact=contact)
     return jsonify({"ok": True, "device_id": device_id, "premium": premium, "premium_until": premium_until})
+
+
+@app.route("/api/admin/premium/list", methods=["GET"])
+def admin_list_premium():
+    denied = _require_admin()
+    if denied:
+        return denied
+    return jsonify(subscription.list_subscriptions())
 
 
 @app.route("/api/quota", methods=["GET"])

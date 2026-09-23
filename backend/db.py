@@ -177,12 +177,16 @@ def _migrate_legacy_json(conn: sqlite3.Connection) -> None:
 
 
 def _migrate_premium_until(conn: sqlite3.Connection) -> None:
-    """Ajoute la colonne premium_until (date d'expiration de l'abonnement) si
-    elle n'existe pas encore - permet de faire expirer automatiquement les
-    activations manuelles apres 30 jours plutot que de rester premium a vie."""
+    """Ajoute les colonnes premium_until (date d'expiration) et contact
+    (numero WhatsApp de l'eleve, connu de l'admin puisqu'il recoit la preuve
+    de paiement par ce canal - sert aux rappels avant expiration) si elles
+    n'existent pas encore."""
     cols = [row[1] for row in conn.execute("PRAGMA table_info(subscriptions)").fetchall()]
     if "premium_until" not in cols:
         conn.execute("ALTER TABLE subscriptions ADD COLUMN premium_until TEXT")
+        conn.commit()
+    if "contact" not in cols:
+        conn.execute("ALTER TABLE subscriptions ADD COLUMN contact TEXT")
         conn.commit()
 
 

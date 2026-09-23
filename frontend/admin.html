@@ -56,6 +56,26 @@
     background: var(--surface); color: var(--text); border: 1px solid var(--border);
     padding: 6px 12px; font-size: 0.8rem; margin-bottom: 4px;
   }
+  .sub-list { list-style: none; padding: 0; margin: 0; }
+  .sub-row {
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+    padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+    margin-bottom: 6px; font-size: 0.82rem;
+  }
+  .sub-row.soon { border-color: #e8c468; background: #fffaf0; }
+  .sub-info { min-width: 0; }
+  .sub-device { font-family: monospace; font-size: 0.75rem; color: var(--text-muted); word-break: break-all; }
+  .sub-badge {
+    display: inline-block; font-size: 0.72rem; padding: 2px 8px; border-radius: 10px;
+    margin-right: 6px;
+  }
+  .sub-badge.active { background: var(--green-light); color: var(--green-dark); }
+  .sub-badge.expired { background: #f0f0f0; color: var(--text-muted); }
+  .sub-badge.soon { background: #fdf0c4; color: #8a6d1a; }
+  .sub-wa-btn {
+    background: #25d366; color: #fff; border: none; border-radius: 6px;
+    padding: 5px 10px; font-size: 0.75rem; text-decoration: none; white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -88,12 +108,20 @@
     <label for="premium-device-id">Code appareil de l'élève</label>
     <input type="text" id="premium-device-id" placeholder="ex: dev-abc123-1234567890">
   </div>
+  <div class="admin-field">
+    <label for="premium-contact">Numéro WhatsApp de l'élève (optionnel, pour les rappels)</label>
+    <input type="text" id="premium-contact" placeholder="ex: +223 70 44 75 82">
+  </div>
   <div class="admin-row">
     <button type="button" id="premium-check-btn" style="background:var(--surface);color:var(--text);border:1px solid var(--border);">Vérifier le statut</button>
     <button type="button" id="premium-activate-btn">Activer l'illimité</button>
   </div>
   <button type="button" id="premium-deactivate-btn" style="background:#fdeceb;color:#9b2c2c;border:1px solid #f3c6c2;margin-top:8px;">Désactiver (correction d'erreur)</button>
   <div class="admin-msg" id="premium-msg"></div>
+
+  <h3 style="font-size:0.9rem;margin-top:22px;">Suivi des abonnements</h3>
+  <button type="button" class="stats-refresh" id="premium-list-refresh">Actualiser la liste</button>
+  <div id="premium-list-wrap" style="margin-top:10px;"></div>
 
   <form id="pdf-form">
     <div class="admin-row">
@@ -302,6 +330,7 @@
   document.getElementById("stats-refresh").addEventListener("click", loadStats);
 
   const premiumDeviceInput = document.getElementById("premium-device-id");
+  const premiumContactInput = document.getElementById("premium-contact");
   const premiumMsg = document.getElementById("premium-msg");
 
   async function setPremium(activate) {
@@ -317,7 +346,10 @@
       const res = await fetch("/api/admin/premium", {
         method: "POST",
         headers: { "Content-Type": "application/json", "X-Admin-Token": tokenInput.value },
-        body: JSON.stringify({ device_id: deviceId, premium: activate }),
+        body: JSON.stringify({
+          device_id: deviceId, premium: activate,
+          contact: premiumContactInput.value.trim(),
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -329,6 +361,7 @@
         ? "✅ Illimité activé jusqu'au " + data.premium_until + "."
         : "Illimité désactivé pour cet appareil.";
       premiumMsg.className = "admin-msg ok";
+      loadPremiumList();
     } catch (err) {
       premiumMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
       premiumMsg.className = "admin-msg err";
@@ -366,9 +399,75 @@
     }
   });
 
+  const premiumListWrap = document.getElementById("premium-list-wrap");
+
+  function waLink(contact, deviceId, daysLeft, premiumUntil) {
+    const digits = contact.replace(/[^\d]/g, "");
+    const msg = daysLeft !== null && daysLeft <= 5
+      ? `Bonjour ! Ton abonnement illimité JPA Assistant Scolaire expire le ${premiumUntil} (dans ${daysLeft} jour${daysLeft === 1 ? "" : "s"}). Pense à renouveler pour continuer à profiter des questions illimitées 🎓`
+      : `Bonjour ! Petit rappel : ton abonnement illimité JPA Assistant Scolaire est actif jusqu'au ${premiumUntil}.`;
+    return `https://wa.me/${digits}?text=${encodeURIComponent(msg)}`;
+  }
+
+  async function loadPremiumList() {
+    premiumListWrap.innerHTML = "Chargement…";
+    try {
+      const res = await fetch("/api/admin/premium/list", {
+        headers: { "X-Admin-Token": tokenInput.value },
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        premiumListWrap.textContent = data.error || ("Erreur (statut " + res.status + ").");
+        return;
+      }
+      if (!data.length) {
+        premiumListWrap.textContent = "Aucun abonnement activé pour l'instant.";
+        return;
+      }
+      const ul = document.createElement("ul");
+      ul.className = "sub-list";
+      data.forEach((sub) => {
+        const soon = sub.active && sub.days_left !== null && sub.days_left <= 5;
+        const li = document.createElement("li");
+        li.className = "sub-row" + (soon ? " soon" : "");
+
+        const badge = sub.active
+          ? (soon ? `<span class="sub-badge soon">Expire bientôt</span>` : `<span class="sub-badge active">Actif</span>`)
+          : `<span class="sub-badge expired">${sub.premium_until ? "Expiré" : "Désactivé"}</span>`;
+        const daysTxt = sub.active && sub.days_left !== null
+          ? ` · ${sub.days_left} jour${sub.days_left === 1 ? "" : "s"} restant${sub.days_left === 1 ? "" : "s"}`
+          : "";
+
+        const info = document.createElement("div");
+        info.className = "sub-info";
+        info.innerHTML = `${badge}${sub.premium_until ? "Jusqu'au " + sub.premium_until : ""}${daysTxt}<br>` +
+          `<span class="sub-device">${sub.device_id}</span>` +
+          (sub.contact ? ` · ${sub.contact}` : "");
+        li.appendChild(info);
+
+        if (sub.contact) {
+          const a = document.createElement("a");
+          a.className = "sub-wa-btn";
+          a.href = waLink(sub.contact, sub.device_id, sub.days_left, sub.premium_until);
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = "💬 Rappel";
+          li.appendChild(a);
+        }
+        ul.appendChild(li);
+      });
+      premiumListWrap.innerHTML = "";
+      premiumListWrap.appendChild(ul);
+    } catch (err) {
+      premiumListWrap.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
+    }
+  }
+
+  document.getElementById("premium-list-refresh").addEventListener("click", loadPremiumList);
+
   loadCurriculum();
   loadList();
-  if (tokenInput.value) loadStats();
+  if (tokenInput.value) { loadStats(); loadPremiumList(); }
 })();
 </script>
 </body>
