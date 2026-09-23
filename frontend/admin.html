@@ -78,6 +78,23 @@
   <div class="stats-grid" id="stats-grid"></div>
   <div class="admin-msg" id="stats-msg"></div>
 
+  <h2 style="font-size:1rem;margin-top:24px;">Activer un abonnement illimité (paiement manuel)</h2>
+  <p style="font-size:0.82rem;color:var(--text-muted)">
+    En attendant CinetPay/PayDunya : l'élève paie par Mobile Money vers ton
+    numéro, t'envoie une preuve + son "code appareil" (bouton 🔑 dans l'appli),
+    tu vérifies le paiement puis tu actives ici.
+  </p>
+  <div class="admin-field">
+    <label for="premium-device-id">Code appareil de l'élève</label>
+    <input type="text" id="premium-device-id" placeholder="ex: dev-abc123-1234567890">
+  </div>
+  <div class="admin-row">
+    <button type="button" id="premium-check-btn" style="background:var(--surface);color:var(--text);border:1px solid var(--border);">Vérifier le statut</button>
+    <button type="button" id="premium-activate-btn">Activer l'illimité</button>
+  </div>
+  <button type="button" id="premium-deactivate-btn" style="background:#fdeceb;color:#9b2c2c;border:1px solid #f3c6c2;margin-top:8px;">Désactiver (correction d'erreur)</button>
+  <div class="admin-msg" id="premium-msg"></div>
+
   <form id="pdf-form">
     <div class="admin-row">
       <div class="admin-field">
@@ -283,6 +300,69 @@
   }
 
   document.getElementById("stats-refresh").addEventListener("click", loadStats);
+
+  const premiumDeviceInput = document.getElementById("premium-device-id");
+  const premiumMsg = document.getElementById("premium-msg");
+
+  async function setPremium(activate) {
+    const deviceId = premiumDeviceInput.value.trim();
+    if (!deviceId) {
+      premiumMsg.textContent = "Colle d'abord le code appareil de l'élève.";
+      premiumMsg.className = "admin-msg err";
+      return;
+    }
+    premiumMsg.textContent = "Envoi en cours…";
+    premiumMsg.className = "admin-msg";
+    try {
+      const res = await fetch("/api/admin/premium", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Admin-Token": tokenInput.value },
+        body: JSON.stringify({ device_id: deviceId, premium: activate }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        premiumMsg.textContent = data.error || ("Erreur (statut " + res.status + ").");
+        premiumMsg.className = "admin-msg err";
+        return;
+      }
+      premiumMsg.textContent = activate
+        ? "✅ Illimité activé pour cet appareil."
+        : "Illimité désactivé pour cet appareil.";
+      premiumMsg.className = "admin-msg ok";
+    } catch (err) {
+      premiumMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
+      premiumMsg.className = "admin-msg err";
+    }
+  }
+
+  document.getElementById("premium-activate-btn").addEventListener("click", () => setPremium(true));
+  document.getElementById("premium-deactivate-btn").addEventListener("click", () => setPremium(false));
+  document.getElementById("premium-check-btn").addEventListener("click", async () => {
+    const deviceId = premiumDeviceInput.value.trim();
+    if (!deviceId) {
+      premiumMsg.textContent = "Colle d'abord le code appareil de l'élève.";
+      premiumMsg.className = "admin-msg err";
+      return;
+    }
+    premiumMsg.textContent = "Vérification…";
+    premiumMsg.className = "admin-msg";
+    try {
+      const res = await fetch("/api/admin/premium?device_id=" + encodeURIComponent(deviceId), {
+        headers: { "X-Admin-Token": tokenInput.value },
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        premiumMsg.textContent = data.error || ("Erreur (statut " + res.status + ").");
+        premiumMsg.className = "admin-msg err";
+        return;
+      }
+      premiumMsg.textContent = data.premium ? "✨ Déjà en illimité." : "Pas encore en illimité.";
+      premiumMsg.className = "admin-msg ok";
+    } catch (err) {
+      premiumMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
+      premiumMsg.className = "admin-msg err";
+    }
+  });
 
   loadCurriculum();
   loadList();

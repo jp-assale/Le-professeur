@@ -893,6 +893,37 @@ def admin_stats():
     })
 
 
+@app.route("/api/admin/premium", methods=["GET"])
+def admin_get_premium():
+    denied = _require_admin()
+    if denied:
+        return denied
+    device_id = (request.args.get("device_id") or "").strip()
+    if not device_id:
+        return jsonify({"error": "code appareil manquant"}), 400
+    return jsonify({"device_id": device_id, "premium": subscription.is_premium(device_id)})
+
+
+@app.route("/api/admin/premium", methods=["POST"])
+def admin_set_premium():
+    """Active/desactive manuellement l'abonnement illimite d'un appareil -
+    utilise en attendant l'activation de CinetPay/PayDunya : l'eleve paie par
+    Mobile Money directement, envoie une preuve, et l'admin bascule son statut
+    ici a partir de son "code appareil" (bouton 🔑 dans l'appli)."""
+    denied = _require_admin()
+    if denied:
+        return denied
+
+    data = request.get_json(silent=True) or {}
+    device_id = (data.get("device_id") or "").strip()
+    if not device_id:
+        return jsonify({"error": "code appareil manquant"}), 400
+
+    premium = bool(data.get("premium", True))
+    subscription.set_premium(device_id, premium)
+    return jsonify({"ok": True, "device_id": device_id, "premium": premium})
+
+
 @app.route("/api/quota", methods=["GET"])
 def get_quota():
     device_id = request.args.get("device_id", "")
