@@ -185,7 +185,9 @@
   // masculine parmi celles installees sur l'appareil. L'API Web Speech ne
   // donne pas le genre explicitement, donc on devine via le nom (ca depend
   // des voix presentes sur le telephone - a defaut, la premiere voix
-  // francaise disponible est utilisee).
+  // francaise disponible est utilisee). Ne s'applique qu'au web : dans l'app
+  // Android, c'est le plugin natif (voir isNativeApp) qui parle, sans
+  // controle fin sur la voix.
   let cachedFrenchVoice = null;
   function getFrenchMaleVoice() {
     if (!window.speechSynthesis) return null;
@@ -201,10 +203,32 @@
     speechSynthesis.addEventListener("voiceschanged", () => { cachedFrenchVoice = null; });
   }
 
+  // La WebView Android n'implemente PAS window.speechSynthesis (contrairement
+  // a Chrome desktop/mobile) - sans ce plugin natif, le bouton "Ecouter"
+  // resterait invisible dans l'appli installee alors qu'il fonctionne sur le
+  // web (retour testeur). Le plugin est expose automatiquement sur
+  // Capacitor.Plugins une fois synchronise, pas besoin d'import ES ici.
+  function isNativeApp() {
+    return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+  }
+  function getNativeTTS() {
+    return (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.TextToSpeech) || null;
+  }
+  function speechAvailable() {
+    return isNativeApp() ? !!getNativeTTS() : !!window.speechSynthesis;
+  }
+
   let currentUtteranceBtn = null;
+  let speechToken = 0;
 
   function stopSpeaking() {
-    if (window.speechSynthesis) speechSynthesis.cancel();
+    speechToken++; // invalide tout callback de fin en attente pour l'ancienne lecture
+    if (isNativeApp()) {
+      const tts = getNativeTTS();
+      if (tts) tts.stop();
+    } else if (window.speechSynthesis) {
+      speechSynthesis.cancel();
+    }
     if (currentUtteranceBtn) {
       currentUtteranceBtn.classList.remove("speaking");
       currentUtteranceBtn.textContent = "🔊 Écouter";
@@ -213,7 +237,7 @@
   }
 
   function addSpeakButton(container, rawText) {
-    if (!window.speechSynthesis) return;
+    if (!speechAvailable()) return;
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "msg-speak-btn";
@@ -222,17 +246,26 @@
       const wasSpeaking = currentUtteranceBtn === btn;
       stopSpeaking();
       if (wasSpeaking) return; // un second clic sur le meme bouton = juste arreter
-      const utterance = new SpeechSynthesisUtterance(cleanTextForSpeech(rawText));
-      utterance.lang = "fr-FR";
-      const voice = getFrenchMaleVoice();
-      if (voice) utterance.voice = voice;
-      utterance.rate = 0.95;
-      utterance.onend = () => stopSpeaking();
-      utterance.onerror = () => stopSpeaking();
+      const text = cleanTextForSpeech(rawText);
+      const myToken = speechToken;
       currentUtteranceBtn = btn;
       btn.classList.add("speaking");
       btn.textContent = "⏸ Arrêter";
-      speechSynthesis.speak(utterance);
+
+      if (isNativeApp()) {
+        getNativeTTS().speak({ text, lang: "fr-FR", rate: 0.95 }).catch(() => {}).then(() => {
+          if (speechToken === myToken) stopSpeaking();
+        });
+      } else {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = "fr-FR";
+        const voice = getFrenchMaleVoice();
+        if (voice) utterance.voice = voice;
+        utterance.rate = 0.95;
+        utterance.onend = () => { if (speechToken === myToken) stopSpeaking(); };
+        utterance.onerror = () => { if (speechToken === myToken) stopSpeaking(); };
+        speechSynthesis.speak(utterance);
+      }
     });
     container.appendChild(btn);
   }

@@ -54,10 +54,31 @@ if (window.speechSynthesis) {
   speechSynthesis.addEventListener("voiceschanged", () => { coursCachedFrenchVoice = null; });
 }
 
+// La WebView Android n'implemente pas window.speechSynthesis - sans ce
+// plugin natif, le bouton "Ecouter" resterait invisible dans l'appli
+// installee alors qu'il fonctionne sur le web (voir app.js pour le meme
+// correctif, duplique ici car cours.html est un contexte JS separe).
+function coursIsNativeApp() {
+  return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+}
+function coursGetNativeTTS() {
+  return (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.TextToSpeech) || null;
+}
+function coursSpeechAvailable() {
+  return coursIsNativeApp() ? !!coursGetNativeTTS() : !!window.speechSynthesis;
+}
+
 let coursCurrentSpeakBtn = null;
+let coursSpeechToken = 0;
 
 function stopCoursSpeaking() {
-  if (window.speechSynthesis) speechSynthesis.cancel();
+  coursSpeechToken++;
+  if (coursIsNativeApp()) {
+    const tts = coursGetNativeTTS();
+    if (tts) tts.stop();
+  } else if (window.speechSynthesis) {
+    speechSynthesis.cancel();
+  }
   if (coursCurrentSpeakBtn) {
     coursCurrentSpeakBtn.classList.remove("speaking");
     coursCurrentSpeakBtn.textContent = "🔊 Écouter";
@@ -66,23 +87,32 @@ function stopCoursSpeaking() {
 }
 
 function addCoursSpeakButton(section, text) {
-  if (!window.speechSynthesis) return;
+  if (!coursSpeechAvailable()) return;
   const btn = el("button", { className: "msg-speak-btn", text: "🔊 Écouter" });
   btn.addEventListener("click", () => {
     const wasSpeaking = coursCurrentSpeakBtn === btn;
     stopCoursSpeaking();
     if (wasSpeaking) return;
-    const utterance = new SpeechSynthesisUtterance(cleanCoursTextForSpeech(text));
-    utterance.lang = "fr-FR";
-    const voice = getCoursFrenchMaleVoice();
-    if (voice) utterance.voice = voice;
-    utterance.rate = 0.95;
-    utterance.onend = () => stopCoursSpeaking();
-    utterance.onerror = () => stopCoursSpeaking();
+    const cleanText = cleanCoursTextForSpeech(text);
+    const myToken = coursSpeechToken;
     coursCurrentSpeakBtn = btn;
     btn.classList.add("speaking");
     btn.textContent = "⏸ Arrêter";
-    speechSynthesis.speak(utterance);
+
+    if (coursIsNativeApp()) {
+      coursGetNativeTTS().speak({ text: cleanText, lang: "fr-FR", rate: 0.95 }).catch(() => {}).then(() => {
+        if (coursSpeechToken === myToken) stopCoursSpeaking();
+      });
+    } else {
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = "fr-FR";
+      const voice = getCoursFrenchMaleVoice();
+      if (voice) utterance.voice = voice;
+      utterance.rate = 0.95;
+      utterance.onend = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
+      utterance.onerror = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
+      speechSynthesis.speak(utterance);
+    }
   });
   section.appendChild(btn);
 }
