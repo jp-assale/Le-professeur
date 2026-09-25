@@ -60,6 +60,9 @@
     <button type="button" id="diagnostic-btn" class="epreuves-toggle" title="Diagnostic de niveau">
       🎯 Diagnostic
     </button>
+    <button type="button" id="toggle-devoirs-btn" class="epreuves-toggle" title="Retrouver un devoir sauvegardé">
+      📌 Mes devoirs
+    </button>
     <span class="epreuve-active" id="epreuve-active" hidden></span>
     <button type="button" id="quit-epreuve-btn" class="epreuve-quit" hidden>
       ✕ Question libre
@@ -78,6 +81,17 @@
       Cours animés du programme officiel, classés par pays, niveau et matière.
     </p>
     <ul class="epreuves-list" id="cours-list"></ul>
+  </div>
+
+  <div class="epreuves-panel" id="devoirs-panel" hidden>
+    <p class="epreuves-note">
+      Sauvegarde la conversation en cours pour la retrouver plus tard, même
+      après avoir traité d'autres sujets entre-temps.
+    </p>
+    <button type="button" id="save-devoir-btn" class="epreuves-toggle">
+      💾 Sauvegarder la conversation actuelle
+    </button>
+    <ul class="epreuves-list" id="devoirs-list"></ul>
   </div>
 
 

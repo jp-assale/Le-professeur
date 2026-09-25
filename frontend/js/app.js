@@ -54,6 +54,10 @@
   const toggleCoursBtn = document.getElementById("toggle-cours-btn");
   const coursPanel = document.getElementById("cours-panel");
   const coursList = document.getElementById("cours-list");
+  const toggleDevoirsBtn = document.getElementById("toggle-devoirs-btn");
+  const devoirsPanel = document.getElementById("devoirs-panel");
+  const devoirsList = document.getElementById("devoirs-list");
+  const saveDevoirBtn = document.getElementById("save-devoir-btn");
   const epreuveActive = document.getElementById("epreuve-active");
   const quitEpreuveBtn = document.getElementById("quit-epreuve-btn");
   const attachBtn = document.getElementById("attach-btn");
@@ -589,6 +593,7 @@
 
   toggleEpreuvesBtn.addEventListener("click", () => {
     coursPanel.hidden = true;
+    devoirsPanel.hidden = true;
     epreuvesPanel.hidden = !epreuvesPanel.hidden;
     if (!epreuvesPanel.hidden) loadEpreuvesList();
   });
@@ -635,8 +640,149 @@
     }
   }
 
+  // Sauvegarde locale de devoirs precis (retour eleve : retrouver un devoir
+  // traite plusieurs jours plus tot, apres avoir enchaine d'autres sujets
+  // entre-temps - la conversation continue existe deja, mais sans repere
+  // pour y revenir precisement, et la memoire active du Prof JPA ne garde de
+  // toute facon que les 12 derniers echanges). Stockage 100% local
+  // (localStorage), comme le reste de l'etat de la conversation.
+  const SAVED_DEVOIRS_KEY = "aida_saved_devoirs";
+
+  function getSavedDevoirs() {
+    try {
+      return JSON.parse(localStorage.getItem(SAVED_DEVOIRS_KEY) || "[]");
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function setSavedDevoirs(list) {
+    try {
+      localStorage.setItem(SAVED_DEVOIRS_KEY, JSON.stringify(list));
+    } catch (e) {
+      // stockage plein ou indisponible - tant pis, pas bloquant
+    }
+  }
+
+  function renderDevoirsList() {
+    const devoirs = getSavedDevoirs();
+    devoirsList.innerHTML = "";
+    if (!devoirs.length) {
+      devoirsList.innerHTML =
+        '<li class="epreuves-empty">Aucun devoir sauvegardé pour l\'instant.</li>';
+      return;
+    }
+    devoirs.forEach((d) => {
+      const li = document.createElement("li");
+      li.className = "pdf-sujet-item";
+
+      const info = document.createElement("span");
+      info.className = "pdf-sujet-view";
+      const dateTxt = new Date(d.savedAt).toLocaleDateString("fr-FR");
+      info.textContent = "📌 " + d.title + " · " + d.matiere + " · " + dateTxt;
+
+      const openBtn = document.createElement("button");
+      openBtn.type = "button";
+      openBtn.textContent = "📂 Ouvrir";
+      openBtn.addEventListener("click", () => openSavedDevoir(d.id));
+
+      const delBtn = document.createElement("button");
+      delBtn.type = "button";
+      delBtn.textContent = "🗑️";
+      delBtn.style.background = "#fdeceb";
+      delBtn.style.color = "#9b2c2c";
+      delBtn.addEventListener("click", () => deleteSavedDevoir(d.id));
+
+      li.appendChild(info);
+      li.appendChild(openBtn);
+      li.appendChild(delBtn);
+      devoirsList.appendChild(li);
+    });
+  }
+
+  function saveCurrentDevoir() {
+    if (!chatLog.length) {
+      window.alert("Rien à sauvegarder pour l'instant - pose d'abord une question.");
+      return;
+    }
+    const defaultTitle = selectMatiere.value + " – " + new Date().toLocaleDateString("fr-FR");
+    const title = window.prompt("Nom de ce devoir (pour le retrouver plus tard) :", defaultTitle);
+    if (!title || !title.trim()) return;
+
+    const devoirs = getSavedDevoirs();
+    devoirs.unshift({
+      id: "sd-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2),
+      title: title.trim().slice(0, 80),
+      pays: selectPays.value,
+      niveau: selectNiveau.value,
+      matiere: selectMatiere.value,
+      savedAt: new Date().toISOString(),
+      chatLog: chatLog.slice(),
+      history: history.slice(),
+      lastBotMessage: lastBotMessage,
+      epreuveActiveText: epreuveActive.hidden ? null : epreuveActive.textContent,
+    });
+    setSavedDevoirs(devoirs);
+    renderDevoirsList();
+    window.alert("✅ Devoir sauvegardé ! Retrouve-le dans « 📌 Mes devoirs ».");
+  }
+
+  function openSavedDevoir(id) {
+    const d = getSavedDevoirs().find((x) => x.id === id);
+    if (!d) return;
+    if (chatLog.length && !window.confirm(
+      "Charger ce devoir va remplacer la conversation actuelle à l'écran " +
+      "(pense à la sauvegarder avant si besoin). Continuer ?"
+    )) return;
+
+    stopSpeaking();
+    selectPays.value = d.pays;
+    selectNiveau.value = d.niveau;
+    selectMatiere.value = d.matiere;
+    localStorage.setItem("aida_pays", selectPays.value);
+    localStorage.setItem("aida_niveau", selectNiveau.value);
+    localStorage.setItem("aida_matiere", selectMatiere.value);
+
+    currentEpreuveId = null;
+    history = Array.isArray(d.history) ? d.history.slice() : [];
+    clearPersistedChatState();
+    clearChat();
+    restoringChat = true;
+    d.chatLog.forEach((m) => addMessage(m.text, m.cls));
+    restoringChat = false;
+    chatLog = d.chatLog.slice();
+    lastBotMessage = d.lastBotMessage || "";
+
+    if (d.epreuveActiveText) {
+      epreuveActive.hidden = false;
+      epreuveActive.textContent = d.epreuveActiveText;
+      quitEpreuveBtn.hidden = false;
+    } else {
+      epreuveActive.hidden = true;
+      quitEpreuveBtn.hidden = true;
+    }
+    persistChatState();
+    devoirsPanel.hidden = true;
+  }
+
+  function deleteSavedDevoir(id) {
+    if (!window.confirm("Supprimer ce devoir sauvegardé ? Cette action est irréversible.")) return;
+    setSavedDevoirs(getSavedDevoirs().filter((d) => d.id !== id));
+    renderDevoirsList();
+  }
+
+  saveDevoirBtn.addEventListener("click", saveCurrentDevoir);
+
+  toggleDevoirsBtn.addEventListener("click", () => {
+    epreuvesPanel.hidden = true;
+    coursPanel.hidden = true;
+    devoirsPanel.hidden = !devoirsPanel.hidden;
+    if (!devoirsPanel.hidden) renderDevoirsList();
+  });
+
   toggleCoursBtn.addEventListener("click", () => {
     epreuvesPanel.hidden = true;
+    devoirsPanel.hidden = true;
     coursPanel.hidden = !coursPanel.hidden;
     if (!coursPanel.hidden) loadCoursList();
   });
