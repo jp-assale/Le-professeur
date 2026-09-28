@@ -34,8 +34,9 @@ function cleanCoursTextForSpeech(text) {
         .replace(/[\\{}]/g, " ");
       return " " + inner + " ";
     })
-    // Un emoji marque une pause (comme un point) plutot qu'une suppression
-    // silencieuse - voir app.js pour le meme correctif et son retour testeur.
+    // Tiret moyen/cadratin en milieu de phrase = pause a l'oral, comme un
+    // emoji juste apres = pause aussi - voir app.js pour le meme correctif.
+    .replace(/\s+[-—–]\s+/g, ". ")
     .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
     .replace(/\.(\s*\.)+/g, ".")
     .replace(/\s+/g, " ")

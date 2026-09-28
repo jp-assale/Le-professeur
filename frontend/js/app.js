@@ -86,7 +86,7 @@
 
   const WELCOME_TEXT = "Salut ! Je suis Le Prof JPA, ton assistant pour les devoirs. " +
     "Choisis ton pays, ton niveau et ta matière ci-dessus, puis pose-moi ta " +
-    "question de cours ou d'exercice — je t'explique étape par étape, je ne " +
+    "question de cours ou d'exercice. Je t'explique étape par étape, je ne " +
     "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
     "type examen dans « 📄 Sujets d'examen ».";
 
@@ -178,6 +178,11 @@
       // elements d'une liste s'enchainent a l'oral sans aucune coupure
       // (retour testeur).
       .replace(/^[-*]\s+/gm, ". ")
+      // Tiret moyen/cadratin utilise en milieu de phrase comme une pause a
+      // l'ecrit ("... d'exercice — je t'explique ...") : marque la meme
+      // pause a l'oral plutot que de laisser les deux bouts de phrase se
+      // recoller sans coupure (retour testeur).
+      .replace(/\s+[-—–]\s+/g, ". ")
       // Emojis/pictogrammes - certains moteurs de synthese vocale les
       // decrivent a voix haute ("signe de pouce vers le haut"), ce qui n'a
       // rien de naturel a l'oral (retour testeur). ‍ et ️ sont les
