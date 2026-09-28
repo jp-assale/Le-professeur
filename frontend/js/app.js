@@ -257,7 +257,14 @@
       btn.textContent = "⏸ Arrêter";
 
       if (isNativeApp()) {
-        getNativeTTS().speak({ text, lang: "fr-FR", rate: 0.95 }).catch(() => {}).then(() => {
+        // Contrairement au navigateur, le moteur TTS systeme d'Android
+        // n'expose aucune information de genre exploitable pour ses voix
+        // (getSupportedVoices() ne donne qu'un nom generique par langue,
+        // pas de nom de voix comme "Thomas"/"Paul" cote web) - impossible de
+        // choisir fiablement une voix masculine ici. On baisse le pitch pour
+        // obtenir un rendu plus grave/masculin quelle que soit la voix
+        // choisie par le systeme.
+        getNativeTTS().speak({ text, lang: "fr-FR", rate: 0.95, pitch: 0.8 }).catch(() => {}).then(() => {
           if (speechToken === myToken) stopSpeaking();
         });
       } else {

@@ -100,7 +100,9 @@ function addCoursSpeakButton(section, text) {
     btn.textContent = "⏸ Arrêter";
 
     if (coursIsNativeApp()) {
-      coursGetNativeTTS().speak({ text: cleanText, lang: "fr-FR", rate: 0.95 }).catch(() => {}).then(() => {
+      // Voir app.js pour le detail : pas de selection fiable de voix
+      // masculine possible cote Android natif, pitch abaisse a la place.
+      coursGetNativeTTS().speak({ text: cleanText, lang: "fr-FR", rate: 0.95, pitch: 0.8 }).catch(() => {}).then(() => {
         if (coursSpeechToken === myToken) stopCoursSpeaking();
       });
     } else {
