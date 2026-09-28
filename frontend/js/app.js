@@ -173,14 +173,23 @@
       .replace(/\*\*(.+?)\*\*/g, "$1")
       .replace(/\*(.+?)\*/g, "$1")
       .replace(/`([^`]+)`/g, "$1")
-      .replace(/^[-*]\s+/gm, "")
+      // Puce de liste ("- " ou "* " en debut de ligne) : marque une pause
+      // (comme un point) plutot que de l'effacer silencieusement, sinon les
+      // elements d'une liste s'enchainent a l'oral sans aucune coupure
+      // (retour testeur).
+      .replace(/^[-*]\s+/gm, ". ")
       // Emojis/pictogrammes - certains moteurs de synthese vocale les
       // decrivent a voix haute ("signe de pouce vers le haut"), ce qui n'a
       // rien de naturel a l'oral (retour testeur). ‍ et ️ sont les
-      // caracteres d'assemblage invisibles laisses par certains emojis.
-      .replace(/[\p{Extended_Pictographic}‍️]/gu, "")
+      // caracteres d'assemblage invisibles laisses par certains emojis. Ici
+      // aussi, une pause (comme un point) plutot qu'une simple suppression -
+      // un emoji marque souvent la fin d'une idee dans le texte de l'IA.
+      .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
       .replace(/\n{2,}/g, ". ")
       .replace(/\n/g, " ")
+      // Plusieurs points d'affilee (ex: deux emojis cote a cote, ou un point
+      // de phrase juste avant une puce) se recollent en un seul.
+      .replace(/\.(\s*\.)+/g, ".")
       .replace(/\s+/g, " ")
       .trim();
   }
@@ -363,7 +372,18 @@
     // haut de la zone visible, sauf pour son propre message ou un message
     // court (chargement/erreur) ou defiler jusqu'en bas reste plus naturel.
     if (cls === "msg-bot") {
-      const scrollToTop = () => { chatEl.scrollTop = div.offsetTop - 8; };
+      // div.offsetTop se calcule par rapport a offsetParent (ici <body>,
+      // car .chat n'est pas "position" en CSS) et PAS par rapport a .chat -
+      // l'ancien calcul (offsetTop - 8) etait donc structurellement faux,
+      // pas juste une question de timing (bug trouve en comparant offsetTop
+      // aux positions ecran reelles via getBoundingClientRect). On calcule
+      // plutot l'ecart visuel actuel entre le haut du message et le haut de
+      // la zone de chat, et on ajuste scrollTop de cet ecart exact.
+      const scrollToTop = () => {
+        const chatRect = chatEl.getBoundingClientRect();
+        const divRect = div.getBoundingClientRect();
+        chatEl.scrollTop += (divRect.top - chatRect.top) - 8;
+      };
       scrollToTop();
       // Sur certains telephones, une police (KaTeX) qui finit de se charger
       // ou une image dans la reponse peut decaler la mise en page juste

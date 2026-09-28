@@ -34,7 +34,10 @@ function cleanCoursTextForSpeech(text) {
         .replace(/[\\{}]/g, " ");
       return " " + inner + " ";
     })
-    .replace(/[\p{Extended_Pictographic}‍️]/gu, "")
+    // Un emoji marque une pause (comme un point) plutot qu'une suppression
+    // silencieuse - voir app.js pour le meme correctif et son retour testeur.
+    .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
+    .replace(/\.(\s*\.)+/g, ".")
     .replace(/\s+/g, " ")
     .trim();
 }
