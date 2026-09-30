@@ -1204,6 +1204,43 @@
     }
   });
 
+  // Numero WhatsApp Business pour l'abonnement manuel (en attendant que
+  // CinetPay/PayDunya/FedaPay active un compte marchand - tous bloques sur
+  // leur verification a ce jour). Format wa.me : chiffres uniquement, sans
+  // le "00" ni le "+".
+  const SUBSCRIBE_WHATSAPP_NUMBER = "22371698694";
+
+  function openSubscribeWhatsAppModal() {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <div class="modal-box">
+        <div class="modal-header">
+          <span>✨ Passer en illimité</span>
+          <button type="button" id="subscribe-modal-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
+        </div>
+        <p style="font-size:0.9rem;color:var(--text);margin:0 0 14px;line-height:1.5;">
+          Le paiement en ligne automatique arrive bientôt ! En attendant, tu
+          peux t'abonner directement par WhatsApp : dis-nous que tu veux
+          passer en illimité, on t'indique comment payer (Mobile Money) et on
+          active ton compte en quelques minutes.
+        </p>
+        <a id="subscribe-whatsapp-link" href="#" target="_blank" rel="noopener"
+          style="display:block;text-align:center;padding:12px;border-radius:10px;background:#25d366;color:#fff;font-weight:600;text-decoration:none;font-size:0.95rem;">
+          💬 Contacter sur WhatsApp
+        </a>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
+    overlay.querySelector("#subscribe-modal-close").addEventListener("click", () => overlay.remove());
+
+    const message =
+      "Bonjour ! Je voudrais m'abonner à l'illimité sur JPA Assistant Scolaire.\n" +
+      "Mon code appareil : " + DEVICE_ID;
+    overlay.querySelector("#subscribe-whatsapp-link").href =
+      "https://wa.me/" + SUBSCRIBE_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+  }
+
   upgradeLink.addEventListener("click", async () => {
     if (isPremium) {
       window.alert("Tu es déjà en illimité ✨");
@@ -1218,15 +1255,12 @@
       });
       const data = await res.json();
       if (!res.ok || !data.payment_url) {
-        window.alert(
-          data.message || data.error ||
-          "Abonnement pas encore disponible, réessaie plus tard."
-        );
+        openSubscribeWhatsAppModal();
         return;
       }
       window.location.href = data.payment_url;
     } catch (e) {
-      window.alert("Connexion impossible. Réessaie plus tard.");
+      openSubscribeWhatsAppModal();
     } finally {
       upgradeLink.disabled = false;
     }
