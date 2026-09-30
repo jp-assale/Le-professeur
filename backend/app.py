@@ -925,7 +925,15 @@ def admin_set_premium():
 
     premium = bool(data.get("premium", True))
     contact = (data.get("contact") or "").strip() or None
-    premium_until = subscription.set_premium(device_id, premium, contact=contact)
+
+    try:
+        days = int(data.get("days", subscription.DEFAULT_DURATION_DAYS))
+    except (TypeError, ValueError):
+        return jsonify({"error": "duree invalide"}), 400
+    if not 1 <= days <= 366:
+        return jsonify({"error": "duree hors limites (1 a 366 jours)"}), 400
+
+    premium_until = subscription.set_premium(device_id, premium, days=days, contact=contact)
     return jsonify({"ok": True, "device_id": device_id, "premium": premium, "premium_until": premium_until})
 
 

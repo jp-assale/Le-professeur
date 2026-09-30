@@ -112,6 +112,14 @@
     <label for="premium-contact">Numéro WhatsApp de l'élève (optionnel, pour les rappels)</label>
     <input type="text" id="premium-contact" placeholder="ex: +223 70 44 75 82">
   </div>
+  <div class="admin-field">
+    <label for="premium-duration">Formule payée</label>
+    <select id="premium-duration">
+      <option value="30">Mensuelle — 2 500 FCFA (30 jours)</option>
+      <option value="90">Trimestrielle — 7 000 FCFA (90 jours)</option>
+      <option value="366">Annuelle — 25 000 FCFA (366 jours)</option>
+    </select>
+  </div>
   <div class="admin-row">
     <button type="button" id="premium-check-btn" style="background:var(--surface);color:var(--text);border:1px solid var(--border);">Vérifier le statut</button>
     <button type="button" id="premium-activate-btn">Activer l'illimité</button>
@@ -331,6 +339,7 @@
 
   const premiumDeviceInput = document.getElementById("premium-device-id");
   const premiumContactInput = document.getElementById("premium-contact");
+  const premiumDurationInput = document.getElementById("premium-duration");
   const premiumMsg = document.getElementById("premium-msg");
 
   async function setPremium(activate) {
@@ -349,6 +358,7 @@
         body: JSON.stringify({
           device_id: deviceId, premium: activate,
           contact: premiumContactInput.value.trim(),
+          days: Number(premiumDurationInput.value),
         }),
       });
       const data = await res.json();

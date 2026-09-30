@@ -1210,9 +1210,22 @@
   // le "00" ni le "+".
   const SUBSCRIBE_WHATSAPP_NUMBER = "22371698694";
 
+  // Un seul forfait a la fois a du sens (pas un choix multiple) - boutons
+  // radio plutot que des cases a cocher independantes, meme principe visuel.
+  const SUBSCRIBE_PLANS = [
+    { id: "mensuelle", label: "Mensuelle", price: 2500 },
+    { id: "trimestrielle", label: "Trimestrielle", price: 7000 },
+    { id: "annuelle", label: "Annuelle", price: 25000 },
+  ];
+
   function openSubscribeWhatsAppModal() {
     const overlay = document.createElement("div");
     overlay.className = "modal-overlay";
+    const plansHtml = SUBSCRIBE_PLANS.map((p, i) => `
+      <label style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;${i < SUBSCRIBE_PLANS.length - 1 ? "border-bottom:1px solid var(--border);" : ""}cursor:pointer;font-size:0.9rem;">
+        <span><input type="radio" name="sub-plan" value="${p.id}" data-price="${p.price}" data-label="${p.label}"${i === 0 ? " checked" : ""}> ${p.label}</span>
+        <span style="font-weight:600;">${p.price.toLocaleString("fr-FR")} FCFA</span>
+      </label>`).join("");
     overlay.innerHTML = `
       <div class="modal-box">
         <div class="modal-header">
@@ -1221,10 +1234,14 @@
         </div>
         <p style="font-size:0.9rem;color:var(--text);margin:0 0 14px;line-height:1.5;">
           Le paiement en ligne automatique arrive bientôt ! En attendant, tu
-          peux t'abonner directement par WhatsApp : dis-nous que tu veux
-          passer en illimité, on t'indique comment payer (Mobile Money) et on
-          active ton compte en quelques minutes.
+          peux t'abonner directement par WhatsApp : choisis ta formule
+          ci-dessous, dis-nous que tu veux passer en illimité, on t'indique
+          comment payer (Mobile Money) et on active ton compte en quelques
+          minutes.
         </p>
+        <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:14px;">
+          ${plansHtml}
+        </div>
         <a id="subscribe-whatsapp-link" href="#" target="_blank" rel="noopener"
           style="display:block;text-align:center;padding:12px;border-radius:10px;background:#25d366;color:#fff;font-weight:600;text-decoration:none;font-size:0.95rem;">
           💬 Contacter sur WhatsApp
@@ -1234,11 +1251,21 @@
     overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
     overlay.querySelector("#subscribe-modal-close").addEventListener("click", () => overlay.remove());
 
-    const message =
-      "Bonjour ! Je voudrais m'abonner à l'illimité sur JPA Assistant Scolaire.\n" +
-      "Mon code appareil : " + DEVICE_ID;
-    overlay.querySelector("#subscribe-whatsapp-link").href =
-      "https://wa.me/" + SUBSCRIBE_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+    const waLink = overlay.querySelector("#subscribe-whatsapp-link");
+    function updateWaLink() {
+      const checked = overlay.querySelector('input[name="sub-plan"]:checked');
+      const label = checked ? checked.dataset.label : SUBSCRIBE_PLANS[0].label;
+      const price = checked ? checked.dataset.price : SUBSCRIBE_PLANS[0].price;
+      const message =
+        "Bonjour ! Je voudrais m'abonner à l'illimité sur JPA Assistant Scolaire.\n" +
+        "Formule choisie : " + label + " (" + Number(price).toLocaleString("fr-FR") + " FCFA)\n" +
+        "Mon code appareil : " + DEVICE_ID;
+      waLink.href = "https://wa.me/" + SUBSCRIBE_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+    }
+    overlay.querySelectorAll('input[name="sub-plan"]').forEach((input) => {
+      input.addEventListener("change", updateWaLink);
+    });
+    updateWaLink();
   }
 
   upgradeLink.addEventListener("click", async () => {
