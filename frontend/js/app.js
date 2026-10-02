@@ -1213,9 +1213,8 @@
   // Un seul forfait a la fois a du sens (pas un choix multiple) - boutons
   // radio plutot que des cases a cocher independantes, meme principe visuel.
   const SUBSCRIBE_PLANS = [
-    { id: "mensuelle", label: "Mensuelle", price: 2500 },
-    { id: "trimestrielle", label: "Trimestrielle", price: 7000 },
-    { id: "annuelle", label: "Annuelle", price: 25000 },
+    { id: "1-mois", label: "1 mois", price: 2500 },
+    { id: "2-mois", label: "2 mois", price: 4500 },
   ];
 
   function openSubscribeWhatsAppModal() {
