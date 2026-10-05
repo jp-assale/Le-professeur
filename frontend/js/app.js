@@ -258,10 +258,11 @@
     const voices = speechSynthesis.getVoices();
     if (!voices.length) return null;
     const french = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
-    let savedName = "";
-    try { savedName = localStorage.getItem("aida_tts_voice") || ""; } catch (e) {}
-    const saved = savedName && french.find((v) => v.name === savedName);
-    if (saved) { cachedFrenchVoice = saved; return saved; }
+    // Voix imposee par le proprietaire : « Microsoft Paul - French » (voix
+    // masculine disponible sur Windows/Edge/Chrome PC). A defaut, repli sur
+    // une autre voix francaise masculine probable.
+    const paul = french.find((v) => /microsoft paul/i.test(v.name)) || french.find((v) => /paul/i.test(v.name));
+    if (paul) { cachedFrenchVoice = paul; return paul; }
     const male = french.find((v) => /male|homme|thomas|paul|nicolas|guillaume|daniel|henri|louis/i.test(v.name) && !/female|femme/i.test(v.name));
     cachedFrenchVoice = male || french[0] || voices[0] || null;
     return cachedFrenchVoice;
@@ -285,17 +286,10 @@
     return isNativeApp() ? !!getNativeTTS() : !!window.speechSynthesis;
   }
 
-  // Voix choisie par l'eleve (menu « Choisir la voix ») - partagee avec la
-  // page des cours via localStorage. Sur Android, le moteur systeme
-  // n'indique pas le genre des voix : on privilegie par defaut les variantes
-  // « frb »/« frd » du moteur Google (generalement masculines, non garanti),
-  // et l'eleve peut choisir lui-meme en ecoutant chaque voix.
-  const TTS_VOICE_KEY = "aida_tts_voice";
-
-  function getSavedVoice() {
-    try { return localStorage.getItem(TTS_VOICE_KEY) || ""; } catch (e) { return ""; }
-  }
-
+  // Sur Android, le moteur systeme n'indique pas le genre des voix et la
+  // voix "Microsoft Paul" n'existe pas (elle est propre a Windows/Edge/
+  // Chrome sur PC) : on privilegie les variantes « frb »/« frd » du moteur
+  // Google (generalement masculines, non garanti) et on baisse le pitch.
   async function getNativeFrenchVoices() {
     const tts = getNativeTTS();
     if (!tts || !tts.getSupportedVoices) return [];
@@ -311,97 +305,15 @@
 
   async function pickNativeVoiceIndex() {
     const voices = await getNativeFrenchVoices();
-    if (!voices.length) return undefined;
-    const saved = getSavedVoice();
-    const chosen = voices.find((v) => v.uri === saved) ||
-      voices.find((v) => /fr-fr-x-(frb|frd)/i.test(v.uri));
+    const chosen = voices.find((v) => /fr-fr-x-(frb|frd)/i.test(v.uri));
     return chosen ? chosen.index : undefined;
   }
 
-  async function speakNative(text, voiceIndexOverride) {
-    let voice = voiceIndexOverride;
-    if (voice === undefined) voice = await pickNativeVoiceIndex();
-    // Pitch plus grave tant que l'eleve n'a pas choisi lui-meme une voix.
-    const opts = { text, lang: "fr-FR", rate: 0.95, pitch: getSavedVoice() ? 1.0 : 0.8 };
+  async function speakNative(text) {
+    const voice = await pickNativeVoiceIndex();
+    const opts = { text, lang: "fr-FR", rate: 0.95, pitch: 0.8 };
     if (voice !== undefined) opts.voice = voice;
     return getNativeTTS().speak(opts);
-  }
-
-  function openVoicePicker() {
-    const overlay = document.createElement("div");
-    overlay.className = "modal-overlay";
-    overlay.innerHTML = `
-      <div class="modal-box">
-        <div class="modal-header">
-          <span>🎙️ Choisir la voix</span>
-          <button type="button" id="voice-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
-        </div>
-        <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 10px;">
-          Écoute chaque voix, puis choisis celle d'un homme. Ton choix est gardé.
-        </p>
-        <div id="voice-list" style="display:flex;flex-direction:column;gap:8px;">Chargement…</div>
-      </div>`;
-    document.body.appendChild(overlay);
-    overlay.querySelector("#voice-close").addEventListener("click", () => { stopSpeaking(); overlay.remove(); });
-    overlay.addEventListener("click", (e) => { if (e.target === overlay) { stopSpeaking(); overlay.remove(); } });
-
-    const listEl = overlay.querySelector("#voice-list");
-    const SAMPLE = "Bonjour, je suis Le Prof JPA. Je vais t'expliquer ta leçon étape par étape.";
-
-    function row(label, selected, onTry, onChoose) {
-      const div = document.createElement("div");
-      div.style.cssText = "display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--border);border-radius:8px;" +
-        (selected ? "background:var(--green-light);border-color:var(--green);" : "");
-      const span = document.createElement("span");
-      span.style.cssText = "flex:1;font-size:0.85rem;";
-      span.textContent = (selected ? "✅ " : "") + label;
-      const tryBtn = document.createElement("button");
-      tryBtn.type = "button";
-      tryBtn.textContent = "▶ Écouter";
-      tryBtn.style.cssText = "padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface);font-size:0.78rem;cursor:pointer;";
-      tryBtn.addEventListener("click", onTry);
-      const chooseBtn = document.createElement("button");
-      chooseBtn.type = "button";
-      chooseBtn.textContent = "Choisir";
-      chooseBtn.style.cssText = "padding:6px 10px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.78rem;cursor:pointer;";
-      chooseBtn.addEventListener("click", onChoose);
-      div.appendChild(span); div.appendChild(tryBtn); div.appendChild(chooseBtn);
-      return div;
-    }
-
-    async function render() {
-      listEl.innerHTML = "";
-      const saved = getSavedVoice();
-      if (isNativeApp()) {
-        const voices = await getNativeFrenchVoices();
-        if (!voices.length) { listEl.textContent = "Aucune voix française trouvée sur ce téléphone."; return; }
-        voices.forEach((v, n) => {
-          listEl.appendChild(row(
-            "Voix " + (n + 1) + " (" + v.uri + ")", v.uri === saved,
-            () => { stopSpeaking(); getNativeTTS().speak({ text: SAMPLE, lang: "fr-FR", rate: 0.95, pitch: 1.0, voice: v.index }).catch(() => {}); },
-            () => { try { localStorage.setItem(TTS_VOICE_KEY, v.uri); } catch (e) {} render(); }
-          ));
-        });
-      } else if (window.speechSynthesis) {
-        const voices = speechSynthesis.getVoices().filter((v) => /^fr/i.test(v.lang));
-        if (!voices.length) { listEl.textContent = "Aucune voix française trouvée sur cet appareil."; return; }
-        voices.forEach((v) => {
-          listEl.appendChild(row(
-            v.name, v.name === saved,
-            () => {
-              speechSynthesis.cancel();
-              const u = new SpeechSynthesisUtterance(SAMPLE);
-              u.lang = "fr-FR"; u.voice = v; u.rate = 0.95;
-              speechSynthesis.speak(u);
-            },
-            () => { try { localStorage.setItem(TTS_VOICE_KEY, v.name); } catch (e) {} cachedFrenchVoice = null; render(); }
-          ));
-        });
-      } else {
-        listEl.textContent = "La lecture vocale n'est pas disponible ici.";
-      }
-    }
-    render();
   }
 
   let currentUtteranceBtn = null;
@@ -454,13 +366,6 @@
       }
     });
     container.appendChild(btn);
-
-    const voiceBtn = document.createElement("button");
-    voiceBtn.type = "button";
-    voiceBtn.className = "msg-speak-btn";
-    voiceBtn.textContent = "🎙️ Voix";
-    voiceBtn.addEventListener("click", () => { stopSpeaking(); openVoicePicker(); });
-    container.appendChild(voiceBtn);
   }
 
   function escapeHtml(s) {
@@ -1353,8 +1258,6 @@
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;">
           <button type="button" id="device-prenom-btn"
             style="padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.82rem;cursor:pointer;">✏️ Changer mon prénom</button>
-          <button type="button" id="device-voice-btn"
-            style="padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.82rem;cursor:pointer;">🎙️ Choisir la voix</button>
         </div>
         <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
         <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
@@ -1397,11 +1300,6 @@
       overlay.remove();
       openPrenomModal();
     });
-    overlay.querySelector("#device-voice-btn").addEventListener("click", () => {
-      overlay.remove();
-      openVoicePicker();
-    });
-
     overlay.querySelector("#device-restore-btn").addEventListener("click", () => {
       const val = overlay.querySelector("#device-code-input").value.trim();
       if (val && val !== DEVICE_ID) {
