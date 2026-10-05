@@ -90,9 +90,12 @@
     "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
     "type examen dans « 📄 Sujets d'examen ».";
 
-  // Salutation personnalisee par prenom (retour testeur) - demandee une
-  // seule fois, jamais envoyee au serveur, juste stockee sur l'appareil.
+  // Prenom de l'eleve (retour testeur : "le prof doit m'appeler par mon
+  // nom") - demande une fois via une fenetre, stocke sur l'appareil, et
+  // envoye avec chaque question pour que le Prof JPA l'utilise dans ses
+  // reponses (pas stocke cote serveur).
   const PRENOM_KEY = "aida_prenom";
+  const PRENOM_ASKED_KEY = "aida_prenom_asked";
 
   function getStoredPrenom() {
     try { return (localStorage.getItem(PRENOM_KEY) || "").trim(); } catch (e) { return ""; }
@@ -103,17 +106,55 @@
     return prenom ? WELCOME_TEXT.replace("Salut !", "Salut " + prenom + " !") : WELCOME_TEXT;
   }
 
-  function askPrenomIfNeeded() {
-    if (getStoredPrenom()) return;
-    let name;
-    try {
-      name = window.prompt(
-        "Comment tu t'appelles ? (pour que Le Prof JPA te salue par ton prénom — laisse vide si tu préfères ne pas le dire)"
-      );
-    } catch (e) { return; }
-    if (name && name.trim()) {
-      try { localStorage.setItem(PRENOM_KEY, name.trim().slice(0, 30)); } catch (e) {}
+  function openPrenomModal() {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <div class="modal-box">
+        <div class="modal-header">
+          <span>👋 Comment t'appelles-tu ?</span>
+          <button type="button" id="prenom-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
+        </div>
+        <p style="font-size:0.88rem;color:var(--text-muted);margin:0 0 10px;">
+          Le Prof JPA t'appellera par ton prénom dans ses explications.
+          Il reste sur ton téléphone, jamais publié.
+        </p>
+        <div style="display:flex;gap:8px;">
+          <input type="text" id="prenom-input" maxlength="30" placeholder="Ton prénom"
+            style="flex:1;min-width:0;padding:10px 12px;border-radius:8px;border:1px solid var(--border);font-size:0.95rem;">
+          <button type="button" id="prenom-save"
+            style="flex-shrink:0;padding:10px 16px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.9rem;cursor:pointer;">Valider</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    const field = overlay.querySelector("#prenom-input");
+    field.value = getStoredPrenom();
+    setTimeout(() => field.focus(), 50);
+
+    function close() {
+      try { localStorage.setItem(PRENOM_ASKED_KEY, "1"); } catch (e) {}
+      overlay.remove();
     }
+    function save() {
+      const name = field.value.trim().slice(0, 30);
+      if (name) {
+        try { localStorage.setItem(PRENOM_KEY, name); } catch (e) {}
+        const welcomePrenomEl = document.getElementById("welcome-prenom");
+        if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + name + " !";
+      }
+      close();
+    }
+    overlay.querySelector("#prenom-save").addEventListener("click", save);
+    field.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); save(); } });
+    overlay.querySelector("#prenom-close").addEventListener("click", close);
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
+  }
+
+  function askPrenomIfNeeded() {
+    let asked = false;
+    try { asked = !!localStorage.getItem(PRENOM_ASKED_KEY); } catch (e) {}
+    if (getStoredPrenom() || asked) return;
+    openPrenomModal();
   }
 
   let currentEpreuveId = null;
@@ -213,6 +254,10 @@
     const voices = speechSynthesis.getVoices();
     if (!voices.length) return null;
     const french = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
+    let savedName = "";
+    try { savedName = localStorage.getItem("aida_tts_voice") || ""; } catch (e) {}
+    const saved = savedName && french.find((v) => v.name === savedName);
+    if (saved) { cachedFrenchVoice = saved; return saved; }
     const male = french.find((v) => /male|homme|thomas|paul|nicolas|guillaume|daniel|henri|louis/i.test(v.name) && !/female|femme/i.test(v.name));
     cachedFrenchVoice = male || french[0] || voices[0] || null;
     return cachedFrenchVoice;
@@ -234,6 +279,125 @@
   }
   function speechAvailable() {
     return isNativeApp() ? !!getNativeTTS() : !!window.speechSynthesis;
+  }
+
+  // Voix choisie par l'eleve (menu « Choisir la voix ») - partagee avec la
+  // page des cours via localStorage. Sur Android, le moteur systeme
+  // n'indique pas le genre des voix : on privilegie par defaut les variantes
+  // « frb »/« frd » du moteur Google (generalement masculines, non garanti),
+  // et l'eleve peut choisir lui-meme en ecoutant chaque voix.
+  const TTS_VOICE_KEY = "aida_tts_voice";
+
+  function getSavedVoice() {
+    try { return localStorage.getItem(TTS_VOICE_KEY) || ""; } catch (e) { return ""; }
+  }
+
+  async function getNativeFrenchVoices() {
+    const tts = getNativeTTS();
+    if (!tts || !tts.getSupportedVoices) return [];
+    try {
+      const res = await tts.getSupportedVoices();
+      return (res.voices || [])
+        .map((v, index) => ({ index, uri: v.voiceURI || "", lang: v.lang || "" }))
+        .filter((v) => /^fr/i.test(v.lang));
+    } catch (e) {
+      return [];
+    }
+  }
+
+  async function pickNativeVoiceIndex() {
+    const voices = await getNativeFrenchVoices();
+    if (!voices.length) return undefined;
+    const saved = getSavedVoice();
+    const chosen = voices.find((v) => v.uri === saved) ||
+      voices.find((v) => /fr-fr-x-(frb|frd)/i.test(v.uri));
+    return chosen ? chosen.index : undefined;
+  }
+
+  async function speakNative(text, voiceIndexOverride) {
+    let voice = voiceIndexOverride;
+    if (voice === undefined) voice = await pickNativeVoiceIndex();
+    // Pitch plus grave tant que l'eleve n'a pas choisi lui-meme une voix.
+    const opts = { text, lang: "fr-FR", rate: 0.95, pitch: getSavedVoice() ? 1.0 : 0.8 };
+    if (voice !== undefined) opts.voice = voice;
+    return getNativeTTS().speak(opts);
+  }
+
+  function openVoicePicker() {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <div class="modal-box">
+        <div class="modal-header">
+          <span>🎙️ Choisir la voix</span>
+          <button type="button" id="voice-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 10px;">
+          Écoute chaque voix, puis choisis celle d'un homme. Ton choix est gardé.
+        </p>
+        <div id="voice-list" style="display:flex;flex-direction:column;gap:8px;">Chargement…</div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.querySelector("#voice-close").addEventListener("click", () => { stopSpeaking(); overlay.remove(); });
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) { stopSpeaking(); overlay.remove(); } });
+
+    const listEl = overlay.querySelector("#voice-list");
+    const SAMPLE = "Bonjour, je suis Le Prof JPA. Je vais t'expliquer ta leçon étape par étape.";
+
+    function row(label, selected, onTry, onChoose) {
+      const div = document.createElement("div");
+      div.style.cssText = "display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--border);border-radius:8px;" +
+        (selected ? "background:var(--green-light);border-color:var(--green);" : "");
+      const span = document.createElement("span");
+      span.style.cssText = "flex:1;font-size:0.85rem;";
+      span.textContent = (selected ? "✅ " : "") + label;
+      const tryBtn = document.createElement("button");
+      tryBtn.type = "button";
+      tryBtn.textContent = "▶ Écouter";
+      tryBtn.style.cssText = "padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface);font-size:0.78rem;cursor:pointer;";
+      tryBtn.addEventListener("click", onTry);
+      const chooseBtn = document.createElement("button");
+      chooseBtn.type = "button";
+      chooseBtn.textContent = "Choisir";
+      chooseBtn.style.cssText = "padding:6px 10px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.78rem;cursor:pointer;";
+      chooseBtn.addEventListener("click", onChoose);
+      div.appendChild(span); div.appendChild(tryBtn); div.appendChild(chooseBtn);
+      return div;
+    }
+
+    async function render() {
+      listEl.innerHTML = "";
+      const saved = getSavedVoice();
+      if (isNativeApp()) {
+        const voices = await getNativeFrenchVoices();
+        if (!voices.length) { listEl.textContent = "Aucune voix française trouvée sur ce téléphone."; return; }
+        voices.forEach((v, n) => {
+          listEl.appendChild(row(
+            "Voix " + (n + 1) + " (" + v.uri + ")", v.uri === saved,
+            () => { stopSpeaking(); getNativeTTS().speak({ text: SAMPLE, lang: "fr-FR", rate: 0.95, pitch: 1.0, voice: v.index }).catch(() => {}); },
+            () => { try { localStorage.setItem(TTS_VOICE_KEY, v.uri); } catch (e) {} render(); }
+          ));
+        });
+      } else if (window.speechSynthesis) {
+        const voices = speechSynthesis.getVoices().filter((v) => /^fr/i.test(v.lang));
+        if (!voices.length) { listEl.textContent = "Aucune voix française trouvée sur cet appareil."; return; }
+        voices.forEach((v) => {
+          listEl.appendChild(row(
+            v.name, v.name === saved,
+            () => {
+              speechSynthesis.cancel();
+              const u = new SpeechSynthesisUtterance(SAMPLE);
+              u.lang = "fr-FR"; u.voice = v; u.rate = 0.95;
+              speechSynthesis.speak(u);
+            },
+            () => { try { localStorage.setItem(TTS_VOICE_KEY, v.name); } catch (e) {} cachedFrenchVoice = null; render(); }
+          ));
+        });
+      } else {
+        listEl.textContent = "La lecture vocale n'est pas disponible ici.";
+      }
+    }
+    render();
   }
 
   let currentUtteranceBtn = null;
@@ -271,14 +435,7 @@
       btn.textContent = "⏸ Arrêter";
 
       if (isNativeApp()) {
-        // Contrairement au navigateur, le moteur TTS systeme d'Android
-        // n'expose aucune information de genre exploitable pour ses voix
-        // (getSupportedVoices() ne donne qu'un nom generique par langue,
-        // pas de nom de voix comme "Thomas"/"Paul" cote web) - impossible de
-        // choisir fiablement une voix masculine ici. On baisse le pitch pour
-        // obtenir un rendu plus grave/masculin quelle que soit la voix
-        // choisie par le systeme.
-        getNativeTTS().speak({ text, lang: "fr-FR", rate: 0.95, pitch: 0.8 }).catch(() => {}).then(() => {
+        speakNative(text).catch(() => {}).then(() => {
           if (speechToken === myToken) stopSpeaking();
         });
       } else {
@@ -293,6 +450,13 @@
       }
     });
     container.appendChild(btn);
+
+    const voiceBtn = document.createElement("button");
+    voiceBtn.type = "button";
+    voiceBtn.className = "msg-speak-btn";
+    voiceBtn.textContent = "🎙️ Voix";
+    voiceBtn.addEventListener("click", () => { stopSpeaking(); openVoicePicker(); });
+    container.appendChild(voiceBtn);
   }
 
   function escapeHtml(s) {
@@ -868,6 +1032,7 @@
           matiere: selectMatiere.value,
           question: question,
           history: history,
+          prenom: getStoredPrenom(),
         }),
       }, 2, 45000);
       const data = await res.json();
@@ -939,6 +1104,7 @@
           matiere: selectMatiere.value,
           mime_type: file.type,
           data: base64,
+          prenom: getStoredPrenom(),
         }),
       });
       const data = await res.json();
@@ -1119,6 +1285,12 @@
             style="flex-shrink:0;padding:8px 14px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.85rem;cursor:pointer;">📋 Copier</button>
         </div>
         <p id="device-copy-msg" style="font-size:0.8rem;color:var(--green-dark);min-height:1.2em;margin:6px 0 0;"></p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;">
+          <button type="button" id="device-prenom-btn"
+            style="padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.82rem;cursor:pointer;">✏️ Changer mon prénom</button>
+          <button type="button" id="device-voice-btn"
+            style="padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.82rem;cursor:pointer;">🎙️ Choisir la voix</button>
+        </div>
         <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
         <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
           Tu as déjà un code (utilisé sur un autre téléphone) ? Colle-le ici :
@@ -1154,6 +1326,15 @@
         copyMsg.textContent = "Sélectionne le texte ci-dessus et copie-le manuellement.";
       }
       setTimeout(() => { copyMsg.textContent = ""; }, 2500);
+    });
+
+    overlay.querySelector("#device-prenom-btn").addEventListener("click", () => {
+      overlay.remove();
+      openPrenomModal();
+    });
+    overlay.querySelector("#device-voice-btn").addEventListener("click", () => {
+      overlay.remove();
+      openVoicePicker();
     });
 
     overlay.querySelector("#device-restore-btn").addEventListener("click", () => {
@@ -1213,8 +1394,8 @@
   // Un seul forfait a la fois a du sens (pas un choix multiple) - boutons
   // radio plutot que des cases a cocher independantes, meme principe visuel.
   const SUBSCRIBE_PLANS = [
-    { id: "1-mois", label: "1 mois", price: 2500 },
-    { id: "2-mois", label: "2 mois", price: 4500 },
+    { id: "1-mois", label: "1 mois", price: 2500, days: 30 },
+    { id: "2-mois", label: "2 mois", price: 4500, days: 60 },
   ];
 
   function openSubscribeWhatsAppModal() {
@@ -1222,7 +1403,7 @@
     overlay.className = "modal-overlay";
     const plansHtml = SUBSCRIBE_PLANS.map((p, i) => `
       <label style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;${i < SUBSCRIBE_PLANS.length - 1 ? "border-bottom:1px solid var(--border);" : ""}cursor:pointer;font-size:0.9rem;">
-        <span><input type="radio" name="sub-plan" value="${p.id}" data-price="${p.price}" data-label="${p.label}"${i === 0 ? " checked" : ""}> ${p.label}</span>
+        <span><input type="radio" name="sub-plan" value="${p.id}" data-price="${p.price}" data-days="${p.days}" data-label="${p.label}"${i === 0 ? " checked" : ""}> ${p.label}</span>
         <span style="font-weight:600;">${p.price.toLocaleString("fr-FR")} FCFA</span>
       </label>`).join("");
     overlay.innerHTML = `
@@ -1255,10 +1436,19 @@
       const checked = overlay.querySelector('input[name="sub-plan"]:checked');
       const label = checked ? checked.dataset.label : SUBSCRIBE_PLANS[0].label;
       const price = checked ? checked.dataset.price : SUBSCRIBE_PLANS[0].price;
+      const days = checked ? checked.dataset.days : SUBSCRIBE_PLANS[0].days;
+      const prenom = getStoredPrenom();
+      // Lien qui ouvre la page admin avec le code et la duree deja remplis
+      // (l'admin n'a plus qu'a verifier le paiement et cliquer Activer).
+      const adminUrl = SHARE_URL + "/admin.html?device=" + encodeURIComponent(DEVICE_ID) +
+        "&days=" + days + (prenom ? "&nom=" + encodeURIComponent(prenom) : "");
       const message =
         "Bonjour ! Je voudrais m'abonner à l'illimité sur JPA Assistant Scolaire.\n" +
+        (prenom ? "Je m'appelle " + prenom + ".\n" : "") +
         "Formule choisie : " + label + " (" + Number(price).toLocaleString("fr-FR") + " FCFA)\n" +
-        "Mon code appareil : " + DEVICE_ID;
+        "Mon code appareil : " + DEVICE_ID + "\n" +
+        "(Je t'envoie la capture de mon paiement juste après.)\n\n" +
+        "Lien d'activation (réservé à l'admin) : " + adminUrl;
       waLink.href = "https://wa.me/" + SUBSCRIBE_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
     }
     overlay.querySelectorAll('input[name="sub-plan"]').forEach((input) => {
@@ -1491,13 +1681,13 @@
   loadQuota();
   showStoredStreak();
   if (!restoreChatState()) {
-    askPrenomIfNeeded();
     const prenom = getStoredPrenom();
     if (prenom) {
       const welcomePrenomEl = document.getElementById("welcome-prenom");
       if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + prenom + " !";
     }
   }
+  askPrenomIfNeeded();
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {

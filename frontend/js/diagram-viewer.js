@@ -124,6 +124,46 @@ const DIAGRAM_LIBRARY = {
         ${labelText(200, 300, "Énergie apportée (chauffage) →", "middle")}
       </svg>`,
   },
+  appareil_urinaire_masculin: {
+    title: "Appareil urinaire masculin (schéma simplifié, vue de face)",
+    svg: `
+      <svg viewBox="0 0 320 350" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#fff;border:1px solid #e1e6e3;border-radius:10px;">
+        <ellipse cx="105" cy="80" rx="18" ry="30" transform="rotate(-10 105 80)" fill="#e3b0a0" stroke="#b9776a" stroke-width="1.5"/>
+        <ellipse cx="215" cy="80" rx="18" ry="30" transform="rotate(10 215 80)" fill="#e3b0a0" stroke="#b9776a" stroke-width="1.5"/>
+        <path d="M 118 90 Q 135 145 152 205" fill="none" stroke="#d9a479" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 202 90 Q 185 145 168 205" fill="none" stroke="#d9a479" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 130 205 Q 160 188 190 205 Q 196 242 160 246 Q 124 242 130 205 Z" fill="#f3d9a8" stroke="#d9a479" stroke-width="1.5"/>
+        <ellipse cx="160" cy="260" rx="17" ry="12" fill="#e8b98f" stroke="#d9a479" stroke-width="1.5"/>
+        <rect x="148" y="270" width="24" height="62" rx="12" fill="#f7d7c4" stroke="#d9a479" stroke-width="1.5"/>
+        <line x1="160" y1="246" x2="160" y2="326" stroke="#c98a5a" stroke-width="3" stroke-linecap="round"/>
+        ${labelLine(95, 60, 55, 40)}${labelText(53, 36, "Rein", "end")}
+        ${labelLine(139, 150, 95, 150)}${labelText(93, 153, "Uretère", "end")}
+        ${labelLine(190, 222, 245, 222)}${labelText(248, 225, "Vessie", "start")}
+        ${labelLine(177, 260, 245, 260)}${labelText(248, 263, "Prostate", "start")}
+        ${labelLine(148, 300, 95, 300)}${labelText(93, 303, "Urètre", "end")}
+        ${labelLine(222, 60, 262, 40)}${labelText(265, 36, "Rein", "start")}
+      </svg>`,
+  },
+
+  appareil_urinaire_feminin: {
+    title: "Appareil urinaire féminin (schéma simplifié, vue de face)",
+    svg: `
+      <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#fff;border:1px solid #e1e6e3;border-radius:10px;">
+        <ellipse cx="105" cy="80" rx="18" ry="30" transform="rotate(-10 105 80)" fill="#e3b0a0" stroke="#b9776a" stroke-width="1.5"/>
+        <ellipse cx="215" cy="80" rx="18" ry="30" transform="rotate(10 215 80)" fill="#e3b0a0" stroke="#b9776a" stroke-width="1.5"/>
+        <path d="M 118 90 Q 135 145 152 205" fill="none" stroke="#d9a479" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 202 90 Q 185 145 168 205" fill="none" stroke="#d9a479" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 130 205 Q 160 188 190 205 Q 196 242 160 246 Q 124 242 130 205 Z" fill="#f3d9a8" stroke="#d9a479" stroke-width="1.5"/>
+        <path d="M 160 246 L 160 282" fill="none" stroke="#c98a5a" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="160" cy="286" r="5" fill="#f3c9d6" stroke="#c98aa3" stroke-width="1.5"/>
+        ${labelLine(95, 60, 55, 40)}${labelText(53, 36, "Rein", "end")}
+        ${labelLine(139, 150, 95, 150)}${labelText(93, 153, "Uretère", "end")}
+        ${labelLine(190, 222, 245, 222)}${labelText(248, 225, "Vessie", "start")}
+        ${labelLine(162, 264, 245, 264)}${labelText(248, 267, "Urètre", "start")}
+        ${labelLine(166, 288, 245, 292)}${labelText(248, 295, "Méat urinaire", "start")}
+        ${labelLine(222, 60, 262, 40)}${labelText(265, 36, "Rein", "start")}
+      </svg>`,
+  },
 };
 
 function parseDiagramSpec(text) {

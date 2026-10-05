@@ -474,6 +474,26 @@
 
   document.getElementById("premium-list-refresh").addEventListener("click", loadPremiumList);
 
+  // Lien envoye par l'eleve dans son message WhatsApp : ?device=...&days=...&nom=...
+  // -> pre-remplit le formulaire d'activation, l'admin n'a plus qu'a verifier
+  // la capture de paiement puis cliquer "Activer" (jamais d'activation
+  // automatique : le paiement doit etre verifie par un humain).
+  (function prefillFromLink() {
+    const params = new URLSearchParams(location.search);
+    const device = params.get("device");
+    if (!device) return;
+    premiumDeviceInput.value = device;
+    const days = params.get("days");
+    if (days && [...premiumDurationInput.options].some((o) => o.value === days)) {
+      premiumDurationInput.value = days;
+    }
+    const nom = params.get("nom");
+    premiumMsg.textContent = "Demande d'abonnement reçue" + (nom ? " de " + nom : "") +
+      " : vérifie la capture de paiement, puis clique « Activer l'illimité ».";
+    premiumMsg.className = "admin-msg ok";
+    document.getElementById("premium-activate-btn").scrollIntoView({ block: "center" });
+  })();
+
   loadCurriculum();
   loadList();
   if (tokenInput.value) { loadStats(); loadPremiumList(); }

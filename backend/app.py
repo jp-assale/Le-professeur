@@ -105,7 +105,9 @@ DIAGRAM_IDS = {
     "appareil_reproducteur_masculin": "Appareil reproducteur masculin (testicules, épididyme, canal déférent, prostate, pénis)",
     "appareil_digestif": "Appareil digestif (bouche, œsophage, estomac, foie, pancréas, intestins)",
     "systeme_circulatoire_coeur": "Le cœur et la circulation sanguine (oreillettes, ventricules, aorte, veine cave)",
-    "courbe_chauffage_eau": "Courbe de chauffage/changement d'état de l'eau (température en fonction de l'énergie apportée, de -20°C à +140°C, paliers de fusion à 0°C et de vaporisation à 100°C)",
+    "appareil_urinaire_masculin": "Appareil urinaire masculin (reins, uretères, vessie, prostate, urètre)",
+    "appareil_urinaire_feminin": "Appareil urinaire féminin (reins, uretères, vessie, urètre, méat urinaire)",
+    "courbe_chauffage_eau":"Courbe de chauffage/changement d'état de l'eau (température en fonction de l'énergie apportée, de -20°C à +140°C, paliers de fusion à 0°C et de vaporisation à 100°C)",
 }
 
 DIAGRAM_PROMPT_NOTE = (
@@ -128,8 +130,19 @@ DIAGRAM_PROMPT_NOTE = (
 )
 
 
+def _clean_prenom(raw) -> str | None:
+    """Prenom saisi par l'eleve, nettoye avant d'etre injecte dans le prompt
+    (lettres, espaces, tirets, apostrophes uniquement - jamais d'instructions
+    deguisees en prenom)."""
+    if not isinstance(raw, str):
+        return None
+    cleaned = re.sub(r"[^A-Za-zÀ-ÿ' \-]", "", raw).strip()[:30]
+    return cleaned or None
+
+
 def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
-                         profile_note: str | None = None) -> str:
+                         profile_note: str | None = None,
+                         prenom: str | None = None) -> str:
     pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
     niveau = niveau_label(pays_code, niveau_code)
 
@@ -138,6 +151,13 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
         f"en {matiere}, au {pays_label}, dans le systeme scolaire francophone d'Afrique "
         "de l'Ouest. Reponds toujours en francais simple et clair."
     )
+    if prenom:
+        base += (
+            f"\n\nL'eleve s'appelle {prenom}. Appelle-le par son prenom : au debut de "
+            "ta reponse (ex: « Bonne question, " + prenom + " ! ») et de temps en "
+            "temps pour l'encourager ou verifier qu'il comprend - sans en abuser "
+            "(pas dans chaque phrase)."
+        )
     if profile_note:
         base += (
             "\n\nCe que tu sais deja de cet eleve suite a un diagnostic precedent "
@@ -217,13 +237,19 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
     )
 
 
-def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str) -> str:
+def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str,
+                                prenom: str | None = None) -> str:
     pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
     niveau = niveau_label(pays_code, niveau_code)
+    prenom_note = (
+        f"L'eleve s'appelle {prenom} : appelle-le par son prenom dans ta reponse.\n\n"
+        if prenom else ""
+    )
     return (
         f"Tu es un professeur particulier bienveillant pour un(e) eleve du {niveau} "
         f"en {matiere}, au {pays_label}, dans le systeme scolaire francophone d'Afrique "
         "de l'Ouest. Reponds toujours en francais simple et clair.\n\n"
+        f"{prenom_note}"
         "L'eleve vient d'envoyer une photo ou un PDF d'un sujet d'exercice. Fais ceci, "
         "dans l'ordre, dans ta reponse:\n"
         "1) Retranscris fidelement l'enonce de l'exercice en texte clair (recopie les "
@@ -377,7 +403,9 @@ def upload_exercice():
             "remaining": min(remaining_before, ip_remaining),
         }), 429
 
-    system_prompt = build_upload_system_prompt(pays, niveau, matiere)
+    system_prompt = build_upload_system_prompt(
+        pays, niveau, matiere, prenom=_clean_prenom(payload.get("prenom"))
+    )
     block_type = "document" if mime_type == "application/pdf" else "image"
     content = [
         {
@@ -1089,7 +1117,9 @@ def ask():
         }), 429
 
     profile_note = progress_store.get_profile_note(device_id, matiere)
-    system_prompt = build_system_prompt(pays, niveau, matiere, profile_note)
+    system_prompt = build_system_prompt(
+        pays, niveau, matiere, profile_note, prenom=_clean_prenom(payload.get("prenom"))
+    )
 
     # Historique fourni par le frontend, limite pour controler le cout des appels API.
     safe_history = [

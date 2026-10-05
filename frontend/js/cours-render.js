@@ -50,6 +50,10 @@ function getCoursFrenchMaleVoice() {
   const voices = speechSynthesis.getVoices();
   if (!voices.length) return null;
   const french = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
+  let savedName = "";
+  try { savedName = localStorage.getItem("aida_tts_voice") || ""; } catch (e) {}
+  const savedVoice = savedName && french.find((v) => v.name === savedName);
+  if (savedVoice) { coursCachedFrenchVoice = savedVoice; return savedVoice; }
   const male = french.find((v) => /male|homme|thomas|paul|nicolas|guillaume|daniel|henri|louis/i.test(v.name) && !/female|femme/i.test(v.name));
   coursCachedFrenchVoice = male || french[0] || voices[0] || null;
   return coursCachedFrenchVoice;
@@ -70,6 +74,24 @@ function coursGetNativeTTS() {
 }
 function coursSpeechAvailable() {
   return coursIsNativeApp() ? !!coursGetNativeTTS() : !!window.speechSynthesis;
+}
+
+async function coursSpeakNative(text) {
+  const tts = coursGetNativeTTS();
+  let saved = "";
+  try { saved = localStorage.getItem("aida_tts_voice") || ""; } catch (e) {}
+  let voiceIndex;
+  try {
+    const res = await tts.getSupportedVoices();
+    const fr = (res.voices || [])
+      .map((v, index) => ({ index, uri: v.voiceURI || "", lang: v.lang || "" }))
+      .filter((v) => /^fr/i.test(v.lang));
+    const chosen = fr.find((v) => v.uri === saved) || fr.find((v) => /fr-fr-x-(frb|frd)/i.test(v.uri));
+    if (chosen) voiceIndex = chosen.index;
+  } catch (e) {}
+  const opts = { text, lang: "fr-FR", rate: 0.95, pitch: saved ? 1.0 : 0.8 };
+  if (voiceIndex !== undefined) opts.voice = voiceIndex;
+  return tts.speak(opts);
 }
 
 let coursCurrentSpeakBtn = null;
@@ -104,9 +126,10 @@ function addCoursSpeakButton(section, text) {
     btn.textContent = "⏸ Arrêter";
 
     if (coursIsNativeApp()) {
-      // Voir app.js pour le detail : pas de selection fiable de voix
-      // masculine possible cote Android natif, pitch abaisse a la place.
-      coursGetNativeTTS().speak({ text: cleanText, lang: "fr-FR", rate: 0.95, pitch: 0.8 }).catch(() => {}).then(() => {
+      // Voir app.js pour le detail : voix choisie par l'eleve (menu
+      // « Choisir la voix », partagee via localStorage), a defaut variantes
+      // « frb »/« frd » du moteur Google + pitch abaisse.
+      coursSpeakNative(cleanText).catch(() => {}).then(() => {
         if (coursSpeechToken === myToken) stopCoursSpeaking();
       });
     } else {
