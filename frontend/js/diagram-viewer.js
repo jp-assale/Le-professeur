@@ -1,4 +1,4 @@
-/* Bibliotheque de schemas annotes (SVT/sciences) - detecte les blocs
+﻿/* Bibliotheque de schemas annotes (SVT/sciences) - detecte les blocs
    ```diagram dans les reponses de Le Prof JPA et les remplace par un schema
    dessine a l'avance (pas de generation d'image a la volee : un schema
    anatomique ne se "calcule" pas comme une courbe, et sa justesse compte
@@ -165,6 +165,255 @@ const DIAGRAM_LIBRARY = {
       </svg>`,
   },
 };
+
+/* ---------------------------------------------------------------------
+   Schemas generes a la demande (bloc ```schema) - l'IA decrit seulement la
+   STRUCTURE en texte (type, titre, elements) ; c'est ce code, fiable, qui
+   dessine. Jamais de SVG ecrit par l'IA (pas de risque d'injection, rendu
+   toujours propre). Quatre mises en page :
+     flux       : etapes enchainees (processus, reactions, digestion...)
+     cycle      : etapes en boucle (cycle de l'eau, du carbone, cardiaque...)
+     hierarchie : une racine et ses branches (classification, organisation)
+     parties    : un element central et ses parties legendees (schema de
+                  principe d'un organe, d'une cellule, d'un appareil...)
+   Ce sont des schemas SIMPLIFIES de principe, pas des dessins anatomiques
+   exacts : la mention est affichee sous chaque schema.
+   --------------------------------------------------------------------- */
+
+const SCHEMA_NS = "http://www.w3.org/2000/svg";
+const SCHEMA_MAX_ITEMS = 8;
+
+function schemaEl(tag, attrs, text) {
+  const e = document.createElementNS(SCHEMA_NS, tag);
+  Object.keys(attrs || {}).forEach((k) => e.setAttribute(k, attrs[k]));
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function schemaNormKey(s) {
+  return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z]/g, "");
+}
+
+function parseSchemaSpec(text) {
+  const spec = { type: "", titre: "", racine: "", centre: "", items: [] };
+  let inList = false;
+  text.split(/\r?\n/).forEach((raw) => {
+    const line = raw.trim();
+    if (!line) return;
+    const bullet = line.match(/^[-*•]\s+(.*)$/);
+    if (bullet && inList) {
+      spec.items.push(bullet[1].trim());
+      return;
+    }
+    const kv = line.match(/^([A-Za-zÀ-ÿ_]+)\s*:\s*(.*)$/);
+    if (!kv) return;
+    const key = schemaNormKey(kv[1]);
+    const val = kv[2].trim();
+    if (key === "type") spec.type = schemaNormKey(val);
+    else if (key === "titre" || key === "title") spec.titre = val;
+    else if (key === "racine") spec.racine = val;
+    else if (key === "centre") spec.centre = val;
+    else if (key === "etapes" || key === "branches" || key === "parties" || key === "elements") {
+      inList = true;
+      if (val) spec.items.push(val);
+    }
+  });
+  spec.items = spec.items.slice(0, SCHEMA_MAX_ITEMS).map((it) => {
+    const i = it.indexOf(":");
+    const label = (i > 0 ? it.slice(0, i) : it).trim().slice(0, 40);
+    const detail = i > 0 ? it.slice(i + 1).trim().slice(0, 90) : "";
+    return { label, detail };
+  }).filter((it) => it.label);
+  if (!spec.type) spec.type = spec.racine ? "hierarchie" : spec.centre ? "parties" : "flux";
+  return spec;
+}
+
+function schemaWrap(str, maxChars) {
+  const words = str.split(/\s+/);
+  const lines = [];
+  let cur = "";
+  words.forEach((w) => {
+    if ((cur + " " + w).trim().length > maxChars && cur) {
+      lines.push(cur);
+      cur = w;
+    } else {
+      cur = (cur + " " + w).trim();
+    }
+  });
+  if (cur) lines.push(cur);
+  return lines;
+}
+
+function schemaMeasure(w, label, detail) {
+  const labelLines = schemaWrap(label, Math.max(8, Math.floor(w / 7.4))).slice(0, 3);
+  const detailLines = detail ? schemaWrap(detail, Math.max(10, Math.floor(w / 5.6))).slice(0, 3) : [];
+  const h = 16 + labelLines.length * 16 + (detailLines.length ? 4 + detailLines.length * 13 : 0);
+  return { h, labelLines, detailLines };
+}
+
+function schemaDrawBox(svg, x, y, w, m, fill, stroke) {
+  svg.appendChild(schemaEl("rect", { x, y, width: w, height: m.h, rx: 12, fill, stroke, "stroke-width": 1.6 }));
+  let ty = y + 12 + 8;
+  m.labelLines.forEach((l) => {
+    svg.appendChild(schemaEl("text", { x: x + w / 2, y: ty, "text-anchor": "middle", "font-size": 13, "font-weight": 700, fill: "#1c2321" }, l));
+    ty += 16;
+  });
+  if (m.detailLines.length) {
+    ty -= 2;
+    m.detailLines.forEach((l) => {
+      svg.appendChild(schemaEl("text", { x: x + w / 2, y: ty, "text-anchor": "middle", "font-size": 10.5, fill: "#4a5550" }, l));
+      ty += 13;
+    });
+  }
+}
+
+// Fleche entre deux boites (rectangles centres), raccourcie a leurs bords.
+function schemaArrow(svg, c1, s1, c2, s2, withHead) {
+  const dx = c2.x - c1.x;
+  const dy = c2.y - c1.y;
+  const len = Math.hypot(dx, dy) || 1;
+  const clip = (s) => Math.min(
+    dx === 0 ? Infinity : (s.w / 2 + 3) / Math.abs(dx),
+    dy === 0 ? Infinity : (s.h / 2 + 3) / Math.abs(dy)
+  );
+  const t1 = clip(s1);
+  const t2 = clip(s2);
+  if (t1 + t2 >= 0.98) return;
+  const x1 = c1.x + dx * t1, y1 = c1.y + dy * t1;
+  const x2 = c2.x - dx * t2, y2 = c2.y - dy * t2;
+  svg.appendChild(schemaEl("line", { x1, y1, x2, y2, stroke: "#0d7a5f", "stroke-width": 2 }));
+  if (withHead) {
+    const ux = dx / len, uy = dy / len;
+    const p = (a, b) => (x2 - ux * a - uy * b) + "," + (y2 - uy * a + ux * b);
+    svg.appendChild(schemaEl("polygon", { points: [x2 + "," + y2, p(9, 5), p(9, -5)].join(" "), fill: "#0d7a5f" }));
+  }
+}
+
+function buildSchemaSvg(spec) {
+  const W = 340;
+  const items = spec.items;
+  const svg = schemaEl("svg", { viewBox: "0 0 " + W + " 100", xmlns: SCHEMA_NS });
+  svg.style.cssText = "width:100%;height:auto;background:#fff;border:1px solid #e1e6e3;border-radius:10px;";
+  const FILL = "#e6f4ef", STROKE = "#0d7a5f";
+  let H = 100;
+
+  if (spec.type === "cycle" && items.length >= 3 && items.length <= 6) {
+    const n = items.length;
+    const R = n <= 5 ? 108 : 118;
+    const bw = 96;
+    const cx = W / 2;
+    const metrics = items.map((it) => schemaMeasure(bw, it.label, ""));
+    const maxH = Math.max(...metrics.map((m) => m.h));
+    const cy = R + maxH / 2 + 12;
+    H = cy + R + maxH / 2 + 12;
+    const centers = items.map((_, i) => {
+      const a = -Math.PI / 2 + (i * 2 * Math.PI) / n;
+      return { x: cx + R * Math.cos(a), y: cy + R * Math.sin(a) };
+    });
+    items.forEach((_, i) => {
+      const j = (i + 1) % n;
+      schemaArrow(svg, centers[i], { w: bw, h: metrics[i].h }, centers[j], { w: bw, h: metrics[j].h }, true);
+    });
+    items.forEach((it, i) => {
+      schemaDrawBox(svg, centers[i].x - bw / 2, centers[i].y - metrics[i].h / 2, bw, metrics[i], FILL, STROKE);
+    });
+  } else if (spec.type === "hierarchie" && spec.racine) {
+    const rootW = 240;
+    const rootM = schemaMeasure(rootW, spec.racine, "");
+    let y = 10;
+    schemaDrawBox(svg, (W - rootW) / 2, y, rootW, rootM, "#fff1de", "#d98f2b");
+    const trunkX = 52;
+    const bx = 70, bw = W - bx - 10;
+    let cy = y + rootM.h + 14;
+    const rootBottom = y + rootM.h;
+    let lastCenter = rootBottom;
+    items.forEach((it) => {
+      const m = schemaMeasure(bw, it.label, it.detail);
+      schemaDrawBox(svg, bx, cy, bw, m, FILL, STROKE);
+      const mid = cy + m.h / 2;
+      svg.appendChild(schemaEl("line", { x1: trunkX, y1: mid, x2: bx, y2: mid, stroke: STROKE, "stroke-width": 2 }));
+      lastCenter = mid;
+      cy += m.h + 12;
+    });
+    svg.appendChild(schemaEl("line", { x1: trunkX, y1: rootBottom, x2: trunkX, y2: lastCenter, stroke: STROKE, "stroke-width": 2 }));
+    H = cy + 4;
+  } else if (spec.type === "parties" && spec.centre) {
+    const bw = 124;
+    const left = [], right = [];
+    items.forEach((it, i) => (i % 2 === 0 ? left : right).push(it));
+    const measure = (col) => col.map((it) => schemaMeasure(bw, it.label, it.detail));
+    const lm = measure(left), rm = measure(right);
+    const colH = (ms) => ms.reduce((s, m) => s + m.h, 0) + Math.max(0, ms.length - 1) * 12;
+    H = Math.max(colH(lm), colH(rm), 90) + 20;
+    const cx = W / 2, cy = H / 2, rx = 46, ry = 32;
+    const place = (col, ms, x, isLeft) => {
+      const total = colH(ms);
+      let y = (H - total) / 2;
+      col.forEach((it, i) => {
+        schemaDrawBox(svg, x, y, bw, ms[i], FILL, STROKE);
+        const px = isLeft ? x + bw : x;
+        const py = y + ms[i].h / 2;
+        const dx = px - cx, dy = py - cy;
+        const k = 1 / Math.sqrt((dx / rx) ** 2 + (dy / ry) ** 2);
+        svg.appendChild(schemaEl("line", { x1: px, y1: py, x2: cx + dx * k, y2: cy + dy * k, stroke: STROKE, "stroke-width": 1.6 }));
+        y += ms[i].h + 12;
+      });
+    };
+    place(left, lm, 6, true);
+    place(right, rm, W - bw - 6, false);
+    svg.appendChild(schemaEl("ellipse", { cx, cy, rx, ry, fill: "#fff1de", stroke: "#d98f2b", "stroke-width": 2 }));
+    const cl = schemaWrap(spec.centre, 11).slice(0, 3);
+    let ty = cy - ((cl.length - 1) * 14) / 2 + 4;
+    cl.forEach((l) => {
+      svg.appendChild(schemaEl("text", { x: cx, y: ty, "text-anchor": "middle", "font-size": 12, "font-weight": 700, fill: "#1c2321" }, l));
+      ty += 14;
+    });
+  } else {
+    // flux (par defaut, et repli si un autre type est mal renseigne)
+    const bw = 260;
+    let y = 10;
+    items.forEach((it, i) => {
+      const m = schemaMeasure(bw, it.label, it.detail);
+      schemaDrawBox(svg, (W - bw) / 2, y, bw, m, FILL, STROKE);
+      y += m.h;
+      if (i < items.length - 1) {
+        svg.appendChild(schemaEl("line", { x1: W / 2, y1: y + 2, x2: W / 2, y2: y + 22, stroke: STROKE, "stroke-width": 2 }));
+        svg.appendChild(schemaEl("polygon", { points: (W / 2) + "," + (y + 26) + " " + (W / 2 - 6) + "," + (y + 17) + " " + (W / 2 + 6) + "," + (y + 17), fill: STROKE }));
+        y += 28;
+      }
+    });
+    H = y + 12;
+  }
+  svg.setAttribute("viewBox", "0 0 " + W + " " + Math.ceil(H));
+  return svg;
+}
+
+function renderSchemaBlocks(container) {
+  container.querySelectorAll("code.language-schema").forEach((codeEl) => {
+    const pre = codeEl.closest("pre") || codeEl;
+    const spec = parseSchemaSpec(codeEl.textContent || "");
+    const needsRoot = spec.type === "hierarchie" && !spec.racine;
+    const needsCenter = spec.type === "parties" && !spec.centre;
+    if (!spec.items.length || needsRoot || needsCenter) {
+      pre.remove();
+      return;
+    }
+    const wrapper = document.createElement("div");
+    wrapper.className = "plot-block schema-block";
+    if (spec.titre) {
+      const title = document.createElement("p");
+      title.style.cssText = "margin:0 0 6px;font-weight:700;";
+      title.textContent = spec.titre;
+      wrapper.appendChild(title);
+    }
+    wrapper.appendChild(buildSchemaSvg(spec));
+    const note = document.createElement("p");
+    note.className = "schema-note";
+    note.textContent = "Schéma simplifié généré par l'IA : compare-le toujours avec ton cours.";
+    wrapper.appendChild(note);
+    pre.replaceWith(wrapper);
+  });
+}
 
 function parseDiagramSpec(text) {
   const match = text.match(/id\s*:\s*([a-z_]+)/i);

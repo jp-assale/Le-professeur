@@ -85,10 +85,11 @@
   }
 
   const WELCOME_TEXT = "Salut ! Je suis Le Prof JPA, ton assistant pour les devoirs. " +
-    "Choisis ton pays, ton niveau et ta matière ci-dessus, puis pose-moi ta " +
-    "question de cours ou d'exercice. Je t'explique étape par étape, je ne " +
-    "donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet " +
-    "type examen dans « 📄 Sujets d'examen ».";
+    "Touche la puce « Pays · Niveau · Matière » en haut pour choisir ton " +
+    "programme, puis pose-moi ta question de cours ou d'exercice. Je " +
+    "t'explique étape par étape, je ne donne pas juste la réponse toute " +
+    "cuite 😉 Tu peux aussi piocher un sujet type examen dans « 📄 Sujets » " +
+    "en bas.";
 
   // Prenom de l'eleve (retour testeur : "le prof doit m'appeler par mon
   // nom") - demande une fois via une fenetre, stocke sur l'appareil, et
@@ -206,6 +207,9 @@
 
   function cleanTextForSpeech(text) {
     return text
+      // Blocs de code (graphique ```plot, schema ```diagram / ```schema) : ce
+      // sont des instructions pour l'appli, pas du texte a lire a voix haute.
+      .replace(/```[\s\S]*?```/g, " ")
       .replace(/\$\$([\s\S]+?)\$\$/g, (_, inner) => " " + spokenMath(inner) + " ")
       .replace(/\\\[([\s\S]+?)\\\]/g, (_, inner) => " " + spokenMath(inner) + " ")
       .replace(/\$([^\n$]+?)\$/g, (_, inner) => " " + spokenMath(inner) + " ")
@@ -497,6 +501,9 @@
     if (window.renderDiagramBlocks) {
       renderDiagramBlocks(container);
     }
+    if (window.renderSchemaBlocks) {
+      renderSchemaBlocks(container);
+    }
 
     if (window.renderMathInElement) {
       renderMathInElement(container, { delimiters: MATH_DELIMITERS, throwOnError: false });
@@ -569,6 +576,43 @@
       persistChatState();
     }
     return div;
+  }
+
+  // Fin des questions gratuites du jour : message clair avec le bouton pour
+  // passer en illimite ou la possibilite d'attendre demain (au lieu d'un
+  // simple message d'erreur). Non conserve dans l'historique de conversation.
+  function showQuotaExhausted(scrollToIt) {
+    const existing = chatEl.querySelector(".msg-quota");
+    if (existing) {
+      if (scrollToIt) chatEl.scrollTop = chatEl.scrollHeight;
+      return;
+    }
+    const div = document.createElement("div");
+    div.className = "msg msg-quota";
+    div.innerHTML =
+      "<p><b>Tu as utilisé tes questions gratuites du jour 🎓</b></p>" +
+      "<p>Pour continuer à poser des questions sans limite, passe en illimité. " +
+      "Sinon, reviens demain : tu retrouveras de nouvelles questions gratuites.</p>" +
+      '<div class="quota-actions">' +
+      '<button type="button" class="quota-upgrade">✨ Passer en illimité</button>' +
+      '<button type="button" class="quota-wait">⏰ Revenir demain</button>' +
+      "</div>";
+    div.querySelector(".quota-upgrade").addEventListener("click", openSubscribeWhatsAppModal);
+    div.querySelector(".quota-wait").addEventListener("click", () => {
+      div.querySelector(".quota-actions").outerHTML = "<p>À demain ! 👋 Tes questions gratuites reviennent chaque jour.</p>";
+    });
+    chatEl.appendChild(div);
+    if (scrollToIt) chatEl.scrollTop = chatEl.scrollHeight;
+  }
+
+  // Affiche une erreur renvoyee par le serveur - ou, si c'est la fin des
+  // questions gratuites, le message dedie avec le bouton d'abonnement.
+  function addErrorMessage(data, fallback) {
+    if (data && data.error === "quota_depasse") {
+      showQuotaExhausted(true);
+      return;
+    }
+    addMessage((data && (data.message || data.error)) || fallback, "msg-error");
   }
 
   // Conserve la conversation en cours (localStorage) pour que revenir dans
@@ -672,7 +716,13 @@
     renderStreak(count);
   }
 
+  let lastQuotaLimit = null;
+
   function setQuota(remaining, limit) {
+    // Le bouton "Passer en illimite" (sous le compteur, en haut a droite)
+    // disparait pour un abonne - voir .app.is-premium dans styles.css.
+    const appEl = document.querySelector(".app");
+    if (appEl) appEl.classList.toggle("is-premium", !!isPremium);
     if (isPremium) {
       quotaBadge.textContent = "✨ Illimité";
       return;
@@ -681,7 +731,8 @@
       quotaBadge.textContent = "…";
       return;
     }
-    quotaBadge.textContent = remaining + "/" + (limit ?? "?") + " questions";
+    if (limit !== null && limit !== undefined) lastQuotaLimit = limit;
+    quotaBadge.textContent = remaining + "/" + (lastQuotaLimit ?? "?") + " questions";
   }
 
   async function loadCurriculum() {
@@ -718,10 +769,22 @@
     });
     const savedMatiere = localStorage.getItem("aida_matiere");
     if (savedMatiere) selectMatiere.value = savedMatiere;
+    updateContextLabel();
+  }
+
+  // Puce "Pays · Niveau · Matiere" de l'en-tete (ouvre la feuille de choix).
+  function updateContextLabel() {
+    const txt = (sel) => {
+      const opt = sel.selectedOptions && sel.selectedOptions[0];
+      return opt ? opt.textContent.replace(/\s*\(.*\)\s*$/, "").trim() : "";
+    };
+    const parts = [txt(selectPays), txt(selectNiveau), txt(selectMatiere)].filter(Boolean);
+    document.getElementById("context-label").textContent = parts.length ? parts.join(" · ") : "Pays · Niveau · Matière";
   }
 
   [selectPays, selectNiveau, selectMatiere].forEach((sel) => {
     sel.addEventListener("change", () => {
+      updateContextLabel();
       localStorage.setItem("aida_pays", selectPays.value);
       localStorage.setItem("aida_niveau", selectNiveau.value);
       localStorage.setItem("aida_matiere", selectMatiere.value);
@@ -938,6 +1001,7 @@
     localStorage.setItem("aida_pays", selectPays.value);
     localStorage.setItem("aida_niveau", selectNiveau.value);
     localStorage.setItem("aida_matiere", selectMatiere.value);
+    updateContextLabel();
 
     currentEpreuveId = null;
     history = Array.isArray(d.history) ? d.history.slice() : [];
@@ -1039,7 +1103,7 @@
       loadingEl.remove();
 
       if (!res.ok) {
-        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        addErrorMessage(data, "Une erreur est survenue.");
         if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
         return;
       }
@@ -1051,6 +1115,7 @@
       persistChatState();
       isPremium = !!data.premium;
       setQuota(data.remaining, undefined);
+      if (!isPremium && data.remaining === 0) showQuotaExhausted();
     } catch (err) {
       loadingEl.remove();
       addMessage("Connexion impossible. Vérifie ta connexion et réessaie.", "msg-error");
@@ -1111,7 +1176,7 @@
       loadingEl.remove();
 
       if (!res.ok) {
-        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        addErrorMessage(data, "Une erreur est survenue.");
         if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
         return;
       }
@@ -1229,7 +1294,7 @@
       loadingEl.remove();
 
       if (!res.ok) {
-        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        addErrorMessage(data, "Une erreur est survenue.");
         if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
         return;
       }
@@ -1597,7 +1662,7 @@
             const data = await res.json();
             noteBtn.remove();
             if (!res.ok) {
-              addMessage(data.message || data.error || "Erreur lors de l'analyse.", "msg-error");
+              addErrorMessage(data, "Erreur lors de l'analyse.");
               return;
             }
             addMessage("🎯 " + data.note, "msg-bot");
@@ -1653,7 +1718,7 @@
       loadingEl.remove();
 
       if (!res.ok) {
-        addMessage(data.message || data.error || "Une erreur est survenue.", "msg-error");
+        addErrorMessage(data, "Une erreur est survenue.");
         if (typeof data.remaining === "number") setQuota(data.remaining, undefined);
         return;
       }
@@ -1688,6 +1753,61 @@
     }
   }
   askPrenomIfNeeded();
+
+  // --- Navigation V2 : feuilles coulissantes, onglets du bas, mode sombre ---
+  const scrimEl = document.getElementById("scrim");
+
+  function closeSheets() {
+    scrimEl.classList.remove("show");
+    document.querySelectorAll(".sheet").forEach((s) => s.classList.remove("show"));
+  }
+  function openSheet(id) {
+    closeSheets();
+    scrimEl.classList.add("show");
+    document.getElementById(id).classList.add("show");
+  }
+  document.getElementById("context-chip").addEventListener("click", () => openSheet("sheet-context"));
+  document.getElementById("open-more-btn").addEventListener("click", () => openSheet("sheet-more"));
+  scrimEl.addEventListener("click", closeSheets);
+  document.querySelectorAll("[data-close-sheet]").forEach((b) => b.addEventListener("click", closeSheets));
+  document.querySelectorAll("#sheet-more .menu-item").forEach((b) => b.addEventListener("click", closeSheets));
+
+  // Onglet actif = panneau ouvert (Sujets / Cours / Devoirs), sinon "Prof".
+  const panelTabs = [
+    ["toggle-epreuves-btn", epreuvesPanel],
+    ["toggle-cours-btn", coursPanel],
+    ["toggle-devoirs-btn", devoirsPanel],
+  ];
+  const profTab = document.getElementById("tab-prof");
+  function refreshTabs() {
+    let anyOpen = false;
+    panelTabs.forEach(([id, panel]) => {
+      const open = !panel.hidden;
+      if (open) anyOpen = true;
+      document.getElementById(id).classList.toggle("active", open);
+    });
+    profTab.classList.toggle("active", !anyOpen);
+  }
+  const tabsObserver = new MutationObserver(refreshTabs);
+  panelTabs.forEach(([, panel]) => tabsObserver.observe(panel, { attributes: true, attributeFilter: ["hidden"] }));
+  profTab.addEventListener("click", () => {
+    panelTabs.forEach(([, panel]) => { panel.hidden = true; });
+    refreshTabs();
+  });
+
+  const themeToggleBtn = document.getElementById("theme-toggle-btn");
+  const themeToggleLabel = document.getElementById("theme-toggle-label");
+  function applyTheme(dark) {
+    if (dark) document.documentElement.setAttribute("data-theme", "dark");
+    else document.documentElement.removeAttribute("data-theme");
+    themeToggleLabel.textContent = dark ? "Mode clair" : "Mode sombre";
+  }
+  applyTheme(document.documentElement.getAttribute("data-theme") === "dark");
+  themeToggleBtn.addEventListener("click", () => {
+    const dark = document.documentElement.getAttribute("data-theme") !== "dark";
+    applyTheme(dark);
+    try { localStorage.setItem("aida_theme", dark ? "dark" : "light"); } catch (e) {}
+  });
 
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
