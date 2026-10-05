@@ -76,6 +76,9 @@ function coursSpeechAvailable() {
 }
 
 async function coursSpeakNative(text) {
+  if (window.speakServer) {
+    try { return await window.speakServer(text); } catch (e) {}
+  }
   const tts = coursGetNativeTTS();
   let voiceIndex;
   try {
@@ -97,6 +100,7 @@ let coursSpeechToken = 0;
 function stopCoursSpeaking() {
   coursSpeechToken++;
   if (coursIsNativeApp()) {
+    if (window.stopServerSpeech) window.stopServerSpeech();
     const tts = coursGetNativeTTS();
     if (tts) tts.stop();
   } else if (window.speechSynthesis) {

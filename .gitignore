@@ -35,3 +35,4 @@ android/app/src/main/assets/capacitor.config.json
 .DS_Store
 Thumbs.db
 email-cinetpay.txt
+backend/tts_cache/

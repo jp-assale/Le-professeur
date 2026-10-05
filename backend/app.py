@@ -15,7 +15,7 @@ from anthropic import (
     RateLimitError,
 )
 from dotenv import load_dotenv
-from flask import Flask, jsonify, redirect, request, send_from_directory
+from flask import Flask, Response, jsonify, redirect, request, send_from_directory
 from flask_cors import CORS
 from sentry_sdk.integrations.flask import FlaskIntegration
 
@@ -28,6 +28,7 @@ import progress_store
 import quota_store
 import reports
 import subscription
+import tts_server
 import usage_log
 from curriculum import MATIERES, NIVEAUX, PAYS, niveau_label
 from paths import DATA_DIR
@@ -1175,6 +1176,24 @@ def ask():
         remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
+
+
+@app.route("/api/tts", methods=["POST"])
+def tts():
+    """Voix masculine identique sur tous les telephones (voir tts_server.py)."""
+    payload = request.get_json(silent=True) or {}
+    text = (payload.get("text") or "").strip()
+    if not text:
+        return jsonify({"error": "texte vide"}), 400
+    if len(text) > tts_server.MAX_CHARS:
+        return jsonify({"error": "texte trop long"}), 400
+    if not tts_server.allow(_client_ip()):
+        return jsonify({"error": "trop de demandes"}), 429
+    try:
+        audio = tts_server.synthesize(text)
+    except Exception:
+        return jsonify({"error": "synthese indisponible"}), 503
+    return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "no-store"})
 
 
 @app.route("/")

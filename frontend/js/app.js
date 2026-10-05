@@ -309,7 +309,12 @@
     return chosen ? chosen.index : undefined;
   }
 
+  // Voix serveur (masculine, identique partout) d'abord ; voix du telephone
+  // seulement si le serveur est injoignable (hors ligne).
   async function speakNative(text) {
+    if (window.speakServer) {
+      try { return await window.speakServer(text); } catch (e) {}
+    }
     const voice = await pickNativeVoiceIndex();
     const opts = { text, lang: "fr-FR", rate: 0.95, pitch: 0.8 };
     if (voice !== undefined) opts.voice = voice;
@@ -322,6 +327,7 @@
   function stopSpeaking() {
     speechToken++; // invalide tout callback de fin en attente pour l'ancienne lecture
     if (isNativeApp()) {
+      if (window.stopServerSpeech) window.stopServerSpeech();
       const tts = getNativeTTS();
       if (tts) tts.stop();
     } else if (window.speechSynthesis) {

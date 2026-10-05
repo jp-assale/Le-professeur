@@ -1,4 +1,4 @@
-const CACHE_NAME = "aida-shell-v4";
+const CACHE_NAME = "aida-shell-v5";
 const SHELL_FILES = [
   "/",
   "/css/styles.css",
@@ -6,6 +6,7 @@ const SHELL_FILES = [
   "/js/config.js",
   "/js/function-plot.js",
   "/js/diagram-viewer.js",
+  "/js/voice-server.js",
   "/manifest.json",
   "/vendor/katex/katex.min.css",
   "/vendor/katex/katex.min.js",
