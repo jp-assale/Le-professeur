@@ -89,7 +89,7 @@
     "programme, puis pose-moi ta question de cours ou d'exercice. Je " +
     "t'explique étape par étape, je ne donne pas juste la réponse toute " +
     "cuite 😉 Tu peux aussi piocher un sujet type examen dans « 📄 Sujets » " +
-    "en bas.";
+    "juste au-dessus.";
 
   // Prenom de l'eleve (retour testeur : "le prof doit m'appeler par mon
   // nom") - demande une fois via une fenetre, stocke sur l'appareil, et
@@ -430,6 +430,36 @@
     });
   }
 
+  // Petite animation (en boucle) qui montre comment choisir son programme :
+  // toucher la puce, remplir pays / niveau / matiere, valider. Affichee sous
+  // le message d'accueil du Prof (voir addMessage et l'initialisation).
+  function buildProgrammeDemo() {
+    const d = document.createElement("div");
+    d.className = "prog-demo";
+    d.setAttribute("aria-hidden", "true");
+    d.innerHTML =
+      '<div class="pd-title">🎬 Comment choisir ton programme</div>' +
+      '<div class="pd-stage">' +
+        '<div class="pd-head"></div>' +
+        '<div class="pd-chip"><span>📍</span><span class="pd-chip-text">' +
+          '<span class="pd-t1">Pays · Niveau · Matière</span><span class="pd-t2">Mali · Lycée · Maths</span>' +
+        '</span><span>▾</span></div>' +
+        '<div class="pd-sheet">' +
+          '<div class="pd-row pd-r1"><span>Pays</span><span class="pd-cell"><span class="pd-ph">Choisir ▾</span><span class="pd-val">Mali</span></span></div>' +
+          '<div class="pd-row pd-r2"><span>Niveau</span><span class="pd-cell"><span class="pd-ph">Choisir ▾</span><span class="pd-val">Lycée</span></span></div>' +
+          '<div class="pd-row pd-r3"><span>Matière</span><span class="pd-cell"><span class="pd-ph">Choisir ▾</span><span class="pd-val">Mathématiques</span></span></div>' +
+          '<div class="pd-btn">Valider</div>' +
+        '</div>' +
+        '<div class="pd-finger">👆</div>' +
+      '</div>' +
+      '<div class="pd-caption">① Touche la puce verte en haut · ② Choisis pays, niveau, matière · ③ Valide</div>';
+    return d;
+  }
+
+  function isWelcomeMessage(text) {
+    return typeof text === "string" && text.indexOf("Je suis Le Prof JPA, ton assistant pour les devoirs") !== -1;
+  }
+
   function addMessage(text, cls) {
     const div = document.createElement("div");
     div.className = "msg " + cls;
@@ -438,6 +468,7 @@
       content = document.createElement("div");
       content.className = "msg-content";
       renderBotContent(content, text);
+      if (isWelcomeMessage(text)) content.appendChild(buildProgrammeDemo());
       div.appendChild(content);
       addSpeakButton(div, text);
     } else {
@@ -1644,6 +1675,10 @@
   loadQuota();
   showStoredStreak();
   if (!restoreChatState()) {
+    const staticWelcome = document.getElementById("welcome-msg");
+    if (staticWelcome && staticWelcome.parentElement && !staticWelcome.parentElement.querySelector(".prog-demo")) {
+      staticWelcome.parentElement.appendChild(buildProgrammeDemo());
+    }
     const prenom = getStoredPrenom();
     if (prenom) {
       const welcomePrenomEl = document.getElementById("welcome-prenom");

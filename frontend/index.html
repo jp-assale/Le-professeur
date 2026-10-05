@@ -29,13 +29,21 @@
           <div class="streak" id="streak-badge" title="Jours consecutifs d'utilisation" hidden></div>
           <div class="quota" id="quota-badge">…</div>
         </div>
-        <button type="button" id="upgrade-link" class="upgrade-pill">✨ Passer en illimité</button>
       </div>
     </div>
     <button type="button" id="context-chip" class="context-chip" title="Changer pays, niveau ou matière">
       <span>📍</span><span id="context-label">Pays · Niveau · Matière</span><span class="chip-caret">▾</span>
     </button>
   </header>
+
+  <nav class="tabbar" id="tabbar">
+    <button type="button" id="tab-prof" class="tab active"><span class="t-ico">💬</span>Prof</button>
+    <button type="button" id="toggle-epreuves-btn" class="tab"><span class="t-ico">📄</span>Sujets</button>
+    <button type="button" id="toggle-cours-btn" class="tab"><span class="t-ico">📚</span>Cours</button>
+    <button type="button" id="quiz-btn" class="tab" title="Quiz sur la dernière explication"><span class="t-ico">📝</span>Quiz</button>
+    <button type="button" id="toggle-devoirs-btn" class="tab" title="Retrouver un devoir sauvegardé"><span class="t-ico">📌</span>Devoirs</button>
+    <button type="button" id="open-more-btn" class="tab"><span class="t-ico">⋯</span>Plus</button>
+  </nav>
 
   <section class="epreuves-bar">
     <span class="epreuve-active" id="epreuve-active" hidden></span>
@@ -71,7 +79,7 @@
 
 
   <main class="chat" id="chat">
-    <div class="msg msg-bot"><p id="welcome-msg"><span id="welcome-prenom">Salut !</span> Je suis Le Prof JPA, ton assistant pour les devoirs. Touche la puce « Pays · Niveau · Matière » en haut pour choisir ton programme, puis pose-moi ta question de cours ou d'exercice. Je t'explique étape par étape, je ne donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet type examen dans « 📄 Sujets » en bas.</p></div>
+    <div class="msg msg-bot"><p id="welcome-msg"><span id="welcome-prenom">Salut !</span> Je suis Le Prof JPA, ton assistant pour les devoirs. Touche la puce « Pays · Niveau · Matière » en haut pour choisir ton programme, puis pose-moi ta question de cours ou d'exercice. Je t'explique étape par étape, je ne donne pas juste la réponse toute cuite 😉 Tu peux aussi piocher un sujet type examen dans « 📄 Sujets » juste au-dessus.</p></div>
   </main>
 
   <form class="composer" id="composer">
@@ -89,14 +97,10 @@
     <button type="submit" id="send-btn" aria-label="Envoyer">➤</button>
   </form>
 
-  <nav class="tabbar" id="tabbar">
-    <button type="button" id="tab-prof" class="tab active"><span class="t-ico">💬</span>Prof</button>
-    <button type="button" id="toggle-epreuves-btn" class="tab"><span class="t-ico">📄</span>Sujets</button>
-    <button type="button" id="toggle-cours-btn" class="tab"><span class="t-ico">📚</span>Cours</button>
-    <button type="button" id="quiz-btn" class="tab" title="Quiz sur la dernière explication"><span class="t-ico">📝</span>Quiz</button>
-    <button type="button" id="toggle-devoirs-btn" class="tab" title="Retrouver un devoir sauvegardé"><span class="t-ico">📌</span>Devoirs</button>
-    <button type="button" id="open-more-btn" class="tab"><span class="t-ico">⋯</span>Plus</button>
-  </nav>
+  <footer class="app-footer">
+    <a href="privacy.html">🔒 Confidentialité</a>
+    <button type="button" id="upgrade-link" class="upgrade-pill">✨ Passer en illimité</button>
+  </footer>
 
   <div class="scrim" id="scrim"></div>
 
@@ -129,7 +133,6 @@
     <button type="button" id="share-btn" class="menu-item"><span class="m-ico">📤</span>Partager l'appli sur WhatsApp</button>
     <button type="button" id="report-btn" class="menu-item"><span class="m-ico">⚠️</span>Signaler une erreur</button>
     <button type="button" id="theme-toggle-btn" class="menu-item"><span class="m-ico">🌙</span><span id="theme-toggle-label">Mode sombre</span></button>
-    <a href="privacy.html" class="menu-item"><span class="m-ico">🔒</span>Confidentialité</a>
   </div>
 
 </div>
