@@ -3,6 +3,7 @@ import json
 import os
 import re
 import shutil
+import time
 from datetime import date
 
 import requests
@@ -1176,6 +1177,20 @@ def ask():
         remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
+
+
+@app.route("/api/tts/health", methods=["GET"])
+def tts_health():
+    """Verifie que le repli Piper fonctionne sur ce serveur (charge le modele,
+    synthetise « Bonjour. »). Aucun texte fourni par l'appelant."""
+    if not tts_server.allow(_client_ip()):
+        return jsonify({"error": "trop de demandes"}), 429
+    started = time.time()
+    try:
+        audio, _ = tts_server.synthesize("Bonjour.", "piper")
+        return jsonify({"piper": "ok", "bytes": len(audio), "seconds": round(time.time() - started, 1)})
+    except Exception as exc:
+        return jsonify({"piper": "erreur", "detail": f"{type(exc).__name__}: {str(exc)[:200]}"}), 503
 
 
 @app.route("/api/tts", methods=["POST"])
