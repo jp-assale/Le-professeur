@@ -1189,11 +1189,15 @@ def tts():
         return jsonify({"error": "texte trop long"}), 400
     if not tts_server.allow(_client_ip()):
         return jsonify({"error": "trop de demandes"}), 429
+    engine = ""
+    if ADMIN_TOKEN and payload.get("engine") == "piper" and request.headers.get("X-Admin-Token") == ADMIN_TOKEN:
+        engine = "piper"  # test admin du repli Piper
     try:
-        audio = tts_server.synthesize(text)
+        audio, ext = tts_server.synthesize(text, engine)
     except Exception:
         return jsonify({"error": "synthese indisponible"}), 503
-    return Response(audio, mimetype="audio/mpeg", headers={"Cache-Control": "no-store"})
+    mimetype = "audio/wav" if ext == "wav" else "audio/mpeg"
+    return Response(audio, mimetype=mimetype, headers={"Cache-Control": "no-store"})
 
 
 @app.route("/")
