@@ -1693,6 +1693,71 @@
   }
   askPrenomIfNeeded();
 
+  // --- Salutation vocale automatique du Prof a l'ouverture ---
+  // Appli Android : demarre seule (la WebView autorise la lecture sans geste).
+  // Navigateur : Chrome interdit le son avant un premier toucher, donc la
+  // salutation part au premier toucher/clic. Desactivable dans le menu « Plus ».
+  const GREET_KEY = "aida_greet";
+  function greetEnabled() {
+    try { return localStorage.getItem(GREET_KEY) !== "off"; } catch (e) { return true; }
+  }
+  function updateGreetLabel() {
+    const label = document.getElementById("greet-toggle-label");
+    if (label) label.textContent = "Voix d'accueil : " + (greetEnabled() ? "activée" : "désactivée");
+  }
+  function greetingText(freshChat) {
+    if (freshChat) return cleanTextForSpeech(getWelcomeText());
+    const prenom = getStoredPrenom();
+    return "Salut " + (prenom ? prenom + " " : "") + "! Content de te revoir. " +
+      "Choisis ton programme, puis pose-moi ta question.";
+  }
+  function playGreeting(text) {
+    if (!greetEnabled() || !speechAvailable()) return;
+    const myToken = ++speechToken;
+    if (isNativeApp()) {
+      speakNative(text).catch(() => {});
+    } else {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "fr-FR";
+      const voice = getFrenchMaleVoice();
+      if (voice) utterance.voice = voice;
+      utterance.rate = 0.95;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+    }
+    return myToken;
+  }
+  function scheduleGreeting(freshChat) {
+    // Attend la fermeture de la fenetre « Comment t'appelles-tu ? » pour
+    // que la salutation contienne le prenom.
+    const start = () => {
+      if (document.querySelector(".modal-overlay")) { setTimeout(start, 500); return; }
+      playGreeting(greetingText(freshChat));
+    };
+    if (isNativeApp()) {
+      setTimeout(start, 800);
+    } else {
+      const once = () => {
+        document.removeEventListener("pointerdown", once, true);
+        document.removeEventListener("keydown", once, true);
+        setTimeout(start, 300);
+      };
+      document.addEventListener("pointerdown", once, true);
+      document.addEventListener("keydown", once, true);
+    }
+  }
+  scheduleGreeting(!document.querySelector(".chat .msg-user"));
+  updateGreetLabel();
+  const greetBtn = document.getElementById("greet-toggle-btn");
+  if (greetBtn) {
+    greetBtn.addEventListener("click", () => {
+      try { localStorage.setItem(GREET_KEY, greetEnabled() ? "off" : "on"); } catch (e) {}
+      if (!greetEnabled()) stopSpeaking();
+      updateGreetLabel();
+    });
+  }
+  document.getElementById("composer").addEventListener("submit", () => stopSpeaking(), true);
+
   // --- Navigation V2 : feuilles coulissantes, onglets du bas, mode sombre ---
   const scrimEl = document.getElementById("scrim");
 
