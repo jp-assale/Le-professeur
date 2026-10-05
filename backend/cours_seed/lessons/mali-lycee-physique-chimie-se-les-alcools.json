@@ -67,5 +67,25 @@
         "text": "Formule générale R-OH utilisée en alimentation, pharmaceutique et chimie."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Classification des alcools",
+    "items": [
+      {
+        "label": "Alcool primaire",
+        "detail": "Carbone du -OH lié à un seul autre carbone"
+      },
+      {
+        "label": "Alcool secondaire",
+        "detail": "Carbone du -OH lié à deux autres carbones"
+      },
+      {
+        "label": "Alcool tertiaire",
+        "detail": "Carbone du -OH lié à trois autres carbones"
+      }
+    ],
+    "racine": "Alcool R-OH"
+  },
+  "schema_status": "ok"
 }

@@ -73,5 +73,25 @@
         "text": "Trois sources principales : chimique, mécanique et lumineuse."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Sources de production du courant électrique",
+    "items": [
+      {
+        "label": "Pile",
+        "detail": "Énergie chimique transformée en courant"
+      },
+      {
+        "label": "Générateur",
+        "detail": "Énergie mécanique transformée en courant"
+      },
+      {
+        "label": "Panneau solaire",
+        "detail": "Énergie lumineuse transformée en courant"
+      }
+    ],
+    "racine": "Sources de courant électrique"
+  },
+  "schema_status": "ok"
 }

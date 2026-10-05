@@ -68,5 +68,33 @@
         "text": "Le couple transfère la force de torsion entre les éléments."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Système de transmission par engrenages",
+    "items": [
+      {
+        "label": "Engrenage moteur",
+        "detail": "Reçoit le mouvement de la source motrice (entrée)"
+      },
+      {
+        "label": "Engrenage récepteur",
+        "detail": "Reçoit le mouvement transmis (sortie)"
+      },
+      {
+        "label": "Dents",
+        "detail": "Leur nombre détermine le rapport de vitesse"
+      },
+      {
+        "label": "Vitesse de rotation",
+        "detail": "Tours par minute, varie selon le rapport des dents"
+      },
+      {
+        "label": "Couple",
+        "detail": "Force de torsion transmise entre les axes"
+      }
+    ],
+    "centre": "Transmission du mouvement de rotation"
+  },
+  "schema_status": "ok"
 }

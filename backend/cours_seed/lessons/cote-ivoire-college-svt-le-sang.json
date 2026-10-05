@@ -67,5 +67,29 @@
         "text": "Le sang défend l'organisme contre les infections et les maladies."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Les composants du sang",
+    "items": [
+      {
+        "label": "Plasma",
+        "detail": "Liquide clair, transporte nutriments et déchets"
+      },
+      {
+        "label": "Globules rouges",
+        "detail": "Transportent l'oxygène vers les cellules"
+      },
+      {
+        "label": "Globules blancs",
+        "detail": "Défendent l'organisme contre les infections"
+      },
+      {
+        "label": "Plaquettes",
+        "detail": "Participent à la coagulation du sang"
+      }
+    ],
+    "centre": "Le sang"
+  },
+  "schema_status": "ok"
 }

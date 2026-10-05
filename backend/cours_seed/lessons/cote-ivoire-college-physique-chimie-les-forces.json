@@ -67,5 +67,33 @@
         "text": "Une force modifie le mouvement ou la forme d'un objet."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Équilibre de deux forces sur un solide",
+    "items": [
+      {
+        "label": "Force F1",
+        "detail": "Tire vers l'est, intensité 50 N"
+      },
+      {
+        "label": "Force F2",
+        "detail": "Tire vers l'ouest, intensité 50 N"
+      },
+      {
+        "label": "Même intensité",
+        "detail": "F1 et F2 ont la même valeur"
+      },
+      {
+        "label": "Même direction",
+        "detail": "Les deux forces sont horizontales"
+      },
+      {
+        "label": "Sens opposés",
+        "detail": "Orientées est et ouest"
+      }
+    ],
+    "centre": "Caisse en équilibre"
+  },
+  "schema_status": "ok"
 }

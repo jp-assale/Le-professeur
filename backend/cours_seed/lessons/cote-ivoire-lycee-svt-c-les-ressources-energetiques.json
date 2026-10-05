@@ -68,5 +68,45 @@
         "text": "Les énergies non renouvelables s'épuisent progressivement avec leur exploitation."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Classification des ressources énergétiques",
+    "items": [
+      {
+        "label": "Renouvelables",
+        "detail": "Se régénèrent naturellement, inépuisables à l'échelle humaine"
+      },
+      {
+        "label": "Hydroélectricité",
+        "detail": "Exemple de ressource renouvelable"
+      },
+      {
+        "label": "Solaire",
+        "detail": "Exemple de ressource renouvelable"
+      },
+      {
+        "label": "Éolien",
+        "detail": "Exemple de ressource renouvelable"
+      },
+      {
+        "label": "Biomasse (bois)",
+        "detail": "Exemple de ressource renouvelable"
+      },
+      {
+        "label": "Non renouvelables",
+        "detail": "S'épuisent avec l'exploitation, quantité limitée"
+      },
+      {
+        "label": "Pétrole",
+        "detail": "Exemple de ressource non renouvelable"
+      },
+      {
+        "label": "Gaz naturel",
+        "detail": "Exemple de ressource non renouvelable"
+      }
+    ],
+    "racine": "Ressources énergétiques"
+  },
+  "schema_status": "corrige"
 }

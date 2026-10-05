@@ -68,5 +68,33 @@
         "text": "La maintenance corrective répare les problèmes déjà survenus."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les types de maintenance",
+    "items": [
+      {
+        "label": "Maintenance préventive",
+        "detail": "Entretien et contrôle réguliers pour éviter les pannes"
+      },
+      {
+        "label": "Entretien",
+        "detail": "Composante de la maintenance préventive"
+      },
+      {
+        "label": "Contrôle",
+        "detail": "Composante de la maintenance préventive"
+      },
+      {
+        "label": "Maintenance corrective",
+        "detail": "Réparation effectuée après une panne"
+      },
+      {
+        "label": "Réparation",
+        "detail": "Composante de la maintenance corrective"
+      }
+    ],
+    "racine": "Maintenance"
+  },
+  "schema_status": "ok"
 }

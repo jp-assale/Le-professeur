@@ -68,5 +68,29 @@
         "text": "Les acides aminés s'assemblent pour former muscles, enzymes et anticorps."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "",
+    "items": [
+      {
+        "label": "Groupe amine -NH2",
+        "detail": "Donne le caractère basique à la molécule"
+      },
+      {
+        "label": "Groupe carboxyle -COOH",
+        "detail": "Donne le caractère acide à la molécule"
+      },
+      {
+        "label": "Chaîne latérale R",
+        "detail": "Spécifique à chaque acide aminé, ex: -CH3"
+      },
+      {
+        "label": "Atome d'hydrogène H",
+        "detail": "Quatrième substituant du carbone alpha"
+      }
+    ],
+    "centre": "Carbone alpha"
+  },
+  "schema_status": "ok"
 }

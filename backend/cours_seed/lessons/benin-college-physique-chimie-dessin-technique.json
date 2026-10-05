@@ -68,5 +68,36 @@
         "text": "Il permet une communication claire entre tous les professionnels du bâtiment."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Lecture d’un dessin technique",
+    "items": [
+      {
+        "label": "Dimensions principales",
+        "detail": "Largeur 90 cm, hauteur 210 cm"
+      },
+      {
+        "label": "Géométrie",
+        "detail": "Reconnaître la forme rectangulaire"
+      },
+      {
+        "label": "Épaisseur",
+        "detail": "Vérifier l’épaisseur du bois, 5 cm"
+      },
+      {
+        "label": "Détails placés",
+        "detail": "Poignée à 100 cm du bas"
+      },
+      {
+        "label": "Cohérence",
+        "detail": "Vérifier que les mesures s’additionnent bien"
+      },
+      {
+        "label": "Fabrication",
+        "detail": "Réaliser l’objet sans ambiguïté"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

@@ -66,5 +66,32 @@
         "text": "Plus l'effort est intense, plus tu consommes d'énergie."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Du nutriment au mouvement musculaire",
+    "items": [
+      {
+        "label": "Nutriments",
+        "detail": "Glucides, lipides, protéines apportés par l'alimentation"
+      },
+      {
+        "label": "Respiration cellulaire",
+        "detail": "Dégradation des nutriments dans les cellules musculaires"
+      },
+      {
+        "label": "Production d'ATP",
+        "detail": "Molécule énergétique universelle de la cellule"
+      },
+      {
+        "label": "Dégradation de l'ATP",
+        "detail": "Libère l'énergie disponible pour le muscle"
+      },
+      {
+        "label": "Contraction musculaire",
+        "detail": "Énergie utilisée pour courir et tirer au but"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

@@ -67,5 +67,28 @@
         "text": "Le cycle à quatre temps : admission, compression, combustion, échappement."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "cycle",
+    "titre": "Cycle du moteur à quatre temps",
+    "items": [
+      {
+        "label": "Admission",
+        "detail": "Entrée du mélange air-carburant"
+      },
+      {
+        "label": "Compression",
+        "detail": "Réduction du volume par le piston"
+      },
+      {
+        "label": "Combustion et détente",
+        "detail": "Explosion et poussée du piston"
+      },
+      {
+        "label": "Échappement",
+        "detail": "Évacuation des gaz brûlés"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

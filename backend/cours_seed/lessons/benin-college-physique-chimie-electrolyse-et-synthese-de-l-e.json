@@ -66,5 +66,32 @@
         "text": "Électrolyse et combustion sont deux processus chimiques opposés."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Électrolyse et synthèse de l'eau",
+    "items": [
+      {
+        "label": "Eau (H2O)",
+        "detail": "Molécule de départ avant électrolyse"
+      },
+      {
+        "label": "Électrolyse",
+        "detail": "Courant électrique casse les molécules d'eau"
+      },
+      {
+        "label": "Hydrogène et oxygène",
+        "detail": "Gaz formés à la cathode et à l'anode"
+      },
+      {
+        "label": "Synthèse",
+        "detail": "Flamme ou étincelle recombine les gaz"
+      },
+      {
+        "label": "Eau reformée",
+        "detail": "L'hydrogène et l'oxygène redonnent de l'eau"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

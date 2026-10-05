@@ -68,5 +68,36 @@
         "text": "Les alcanes obéissent à une formule générale reconnaissable et prévisible."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Déterminer la formule d'un alcane",
+    "items": [
+      {
+        "label": "Identifier n",
+        "detail": "Compter le nombre d'atomes de carbone"
+      },
+      {
+        "label": "Appliquer la formule",
+        "detail": "Utiliser CnH2n+2"
+      },
+      {
+        "label": "Calculer les hydrogènes",
+        "detail": "2 fois n plus 2"
+      },
+      {
+        "label": "Formule brute",
+        "detail": "Exemple C5H12"
+      },
+      {
+        "label": "Nommer l'alcane",
+        "detail": "Préfixe selon n, suffixe -ane"
+      },
+      {
+        "label": "Formule semi-développée",
+        "detail": "Représenter la chaîne linéaire"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

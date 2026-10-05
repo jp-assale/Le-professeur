@@ -67,5 +67,25 @@
         "text": "L'échelle de pH de 0 à 14 classe les solutions selon leur caractère."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Classification des solutions selon le pH",
+    "items": [
+      {
+        "label": "Acide",
+        "detail": "pH inférieur à 7, ex: vinaigre pH 2"
+      },
+      {
+        "label": "Neutre",
+        "detail": "pH égal à 7, ex: eau pure"
+      },
+      {
+        "label": "Basique",
+        "detail": "pH supérieur à 7, ex: eau de Javel"
+      }
+    ],
+    "racine": "Échelle de pH (0 à 14)"
+  },
+  "schema_status": "ok"
 }

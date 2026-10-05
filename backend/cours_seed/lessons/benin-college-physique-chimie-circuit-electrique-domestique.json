@@ -67,5 +67,33 @@
         "text": "Le compteur mesure ta consommation d'électricité domestique."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Le circuit électrique domestique",
+    "items": [
+      {
+        "label": "Compteur",
+        "detail": "Mesure la consommation électrique de la maison"
+      },
+      {
+        "label": "Disjoncteur",
+        "detail": "Coupe le circuit en cas de surintensité"
+      },
+      {
+        "label": "Câbles",
+        "detail": "Transportent le courant jusqu'aux appareils"
+      },
+      {
+        "label": "Prises de courant",
+        "detail": "Relient les appareils au circuit"
+      },
+      {
+        "label": "Appareils en parallèle",
+        "detail": "Fonctionnent indépendamment les uns des autres"
+      }
+    ],
+    "centre": "Circuit électrique domestique"
+  },
+  "schema_status": "ok"
 }

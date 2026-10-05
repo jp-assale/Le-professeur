@@ -68,5 +68,32 @@
         "text": "Ce cycle dure depuis des millions d'années sans arrêt."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "cycle",
+    "titre": "Le cycle des roches",
+    "items": [
+      {
+        "label": "Magma",
+        "detail": "Roche fondue en profondeur, très chaude"
+      },
+      {
+        "label": "Roche magmatique",
+        "detail": "Refroidissement du magma, ex: granite"
+      },
+      {
+        "label": "Roche sédimentaire",
+        "detail": "Érosion, transport, compaction des débris"
+      },
+      {
+        "label": "Roche métamorphique",
+        "detail": "Chaleur et pression en profondeur"
+      },
+      {
+        "label": "Fusion",
+        "detail": "La roche fond et redevient du magma"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

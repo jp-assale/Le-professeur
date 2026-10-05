@@ -66,5 +66,28 @@
         "text": "Les microorganismes utilisent ce processus pour survivre et se reproduire."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Le processus de fermentation",
+    "items": [
+      {
+        "label": "Glucose",
+        "detail": "Substrat de départ utilisé par les microorganismes"
+      },
+      {
+        "label": "Milieu anaérobie",
+        "detail": "Absence d'oxygène nécessaire à la fermentation"
+      },
+      {
+        "label": "Action des microorganismes",
+        "detail": "Bactéries ou levures transforment le glucose"
+      },
+      {
+        "label": "Libération d'énergie",
+        "detail": "Énergie produite, moins importante qu'en respiration"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

@@ -68,5 +68,29 @@
         "text": "Les moteurs actionnent les outils du quotidien en Afrique."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Moteur électrique simple",
+    "items": [
+      {
+        "label": "Bobine",
+        "detail": "20 spires de fil parcourues par le courant"
+      },
+      {
+        "label": "Aimants",
+        "detail": "Créent le champ magnétique de 0,5 tesla"
+      },
+      {
+        "label": "Courant électrique",
+        "detail": "Circule dans la bobine, intensité 2 A"
+      },
+      {
+        "label": "Force magnétique",
+        "detail": "Fait tourner la bobine, résultat 2 N"
+      }
+    ],
+    "centre": "Moteur électrique"
+  },
+  "schema_status": "ok"
 }

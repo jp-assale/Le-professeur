@@ -67,5 +67,29 @@
         "text": "En Afrique de l'Ouest, un bon sol est essentiel pour vivre."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "La gestion des sols",
+    "items": [
+      {
+        "label": "Fertilité",
+        "detail": "Maintenir les éléments nutritifs du sol"
+      },
+      {
+        "label": "Structure",
+        "detail": "Préserver l'organisation et la stabilité du sol"
+      },
+      {
+        "label": "Productivité",
+        "detail": "Assurer de bons rendements agricoles"
+      },
+      {
+        "label": "Prévention de la dégradation",
+        "detail": "Ex. lutte contre l'érosion : courbes de niveau et haies vives"
+      }
+    ],
+    "racine": "Gestion des sols"
+  },
+  "schema_status": "corrige"
 }

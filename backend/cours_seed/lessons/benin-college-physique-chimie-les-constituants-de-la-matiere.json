@@ -68,5 +68,25 @@
         "text": "Les atomes se combinent pour former des molécules et objets visibles."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Organisation de la matière",
+    "items": [
+      {
+        "label": "Atome",
+        "detail": "Plus petite unité de la matière"
+      },
+      {
+        "label": "Molécule",
+        "detail": "Groupement de plusieurs atomes"
+      },
+      {
+        "label": "Objet visible",
+        "detail": "Ensemble de molécules, ex: eau, téléphone"
+      }
+    ],
+    "racine": "Matière"
+  },
+  "schema_status": "ok"
 }

@@ -67,5 +67,37 @@
         "text": "Cette régulation constante maintient ton corps en bonne santé."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Le rôle du rein dans l'excrétion urinaire",
+    "items": [
+      {
+        "label": "Filtration du sang",
+        "detail": "Le rein filtre en permanence le sang"
+      },
+      {
+        "label": "Élimination des déchets",
+        "detail": "Rejette l'urée et autres déchets du métabolisme"
+      },
+      {
+        "label": "Régulation de l'eau",
+        "detail": "Contrôle la quantité d'eau du corps"
+      },
+      {
+        "label": "Régulation des sels minéraux",
+        "detail": "Maintient l'équilibre des sels minéraux"
+      },
+      {
+        "label": "Production d'urine",
+        "detail": "Forme l'urine à évacuer du corps"
+      },
+      {
+        "label": "Équilibre du milieu intérieur",
+        "detail": "Maintient constante la composition du sang"
+      }
+    ],
+    "centre": "Le rein"
+  },
+  "schema_status": "ok"
 }

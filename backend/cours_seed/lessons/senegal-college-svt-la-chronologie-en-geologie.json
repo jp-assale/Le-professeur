@@ -82,5 +82,29 @@
         "text": "La chronologie absolue donne un âge précis en années."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Coupe stratigraphique et principe de superposition",
+    "items": [
+      {
+        "label": "Couche C (haut)",
+        "detail": "La plus récente, fossiles de dinosaures (100 Ma)"
+      },
+      {
+        "label": "Couche B (milieu)",
+        "detail": "Couche intermédiaire en âge"
+      },
+      {
+        "label": "Couche A (bas)",
+        "detail": "La plus ancienne, fossiles de trilobites (500 Ma)"
+      },
+      {
+        "label": "Principe fondamental",
+        "detail": "Couche du bas formée en premier"
+      }
+    ],
+    "centre": "Falaise (couches empilées)"
+  },
+  "schema_status": "ok"
 }

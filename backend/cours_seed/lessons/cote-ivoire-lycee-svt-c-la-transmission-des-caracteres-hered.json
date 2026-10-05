@@ -68,5 +68,36 @@
         "text": "Les lois de Mendel expliquent les règles mathématiques de l'hérédité."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Transmission des caractères : croisement RR x rr",
+    "items": [
+      {
+        "label": "Parents",
+        "detail": "RR (rouge) croisé avec rr (blanc)"
+      },
+      {
+        "label": "Gamètes",
+        "detail": "Parent RR donne R, parent rr donne r"
+      },
+      {
+        "label": "Génération F1",
+        "detail": "Tous Rr, phénotype fleurs rouges"
+      },
+      {
+        "label": "Croisement F1 x F1",
+        "detail": "Rr croisé avec Rr"
+      },
+      {
+        "label": "Génération F2",
+        "detail": "1 RR : 2 Rr : 1 rr"
+      },
+      {
+        "label": "Résultat phénotypique",
+        "detail": "3 fleurs rouges pour 1 fleur blanche"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

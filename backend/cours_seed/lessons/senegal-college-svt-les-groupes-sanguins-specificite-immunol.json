@@ -68,5 +68,7 @@
         "text": "Quatre groupes existent : A, B, AB et O selon les antigènes."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

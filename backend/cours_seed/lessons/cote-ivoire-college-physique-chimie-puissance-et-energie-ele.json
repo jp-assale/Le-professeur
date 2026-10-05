@@ -67,5 +67,7 @@
         "text": "Plus long et puissant, plus ta facture d'électricité augmente."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

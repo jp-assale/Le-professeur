@@ -67,5 +67,33 @@
         "text": "Chaque appareil consomme une puissance mesurée en watts."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Installation électrique domestique",
+    "items": [
+      {
+        "label": "Réseau électrique",
+        "detail": "Fournit le courant alternatif 220 V, 50 Hz"
+      },
+      {
+        "label": "Fils conducteurs",
+        "detail": "En cuivre, transportent le courant dans la maison"
+      },
+      {
+        "label": "Disjoncteurs",
+        "detail": "Protègent le circuit contre les surintensités"
+      },
+      {
+        "label": "Fusibles",
+        "detail": "Coupent le courant en cas de surcharge"
+      },
+      {
+        "label": "Appareils électroménagers",
+        "detail": "Consomment la puissance électrique en watts"
+      }
+    ],
+    "centre": "Installation électrique domestique"
+  },
+  "schema_status": "ok"
 }

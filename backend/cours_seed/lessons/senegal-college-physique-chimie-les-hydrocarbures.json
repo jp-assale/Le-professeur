@@ -67,5 +67,32 @@
         "text": "Les hydrocarbures fournissent l'énergie pour nos voitures et cuisines."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Analyser un hydrocarbure (exemple du pentane)",
+    "items": [
+      {
+        "label": "Identifier le type",
+        "detail": "Chaîne linéaire, liaisons simples : alcane"
+      },
+      {
+        "label": "Appliquer la formule",
+        "detail": "CnH2n+2 avec n=5 donne C5H12"
+      },
+      {
+        "label": "Nommer le composé",
+        "detail": "5 carbones : préfixe pent- + -ane"
+      },
+      {
+        "label": "Compter les atomes",
+        "detail": "5 carbones + 12 hydrogènes = 17 atomes"
+      },
+      {
+        "label": "Résultat",
+        "detail": "Pentane (C5H12), 17 atomes au total"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

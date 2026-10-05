@@ -67,5 +67,40 @@
         "text": "La baisse des lymphocytes T4 mesure l'évolution vers le SIDA."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Dysfonctionnement du système immunitaire par le VIH",
+    "items": [
+      {
+        "label": "Infection par le VIH",
+        "detail": "Le virus pénètre dans l'organisme"
+      },
+      {
+        "label": "Attaque des lymphocytes T4",
+        "detail": "Le VIH infecte les cellules CD4"
+      },
+      {
+        "label": "Destruction progressive des T4",
+        "detail": "Le nombre de lymphocytes T4 diminue"
+      },
+      {
+        "label": "Baisse sous 200 cellules/mm3",
+        "detail": "Seuil critique d'immunodéficience atteint"
+      },
+      {
+        "label": "Défenses affaiblies",
+        "detail": "L'organisme ne combat plus les agents pathogènes"
+      },
+      {
+        "label": "Infections opportunistes",
+        "detail": "D'autres maladies s'installent facilement"
+      },
+      {
+        "label": "Stade SIDA",
+        "detail": "Syndrome d'immunodéficience acquise déclaré"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

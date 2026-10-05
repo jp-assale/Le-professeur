@@ -68,5 +68,28 @@
         "text": "Cette réaction peut être lente comme la rouille ou rapide."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Processus d'oxydation du carbone",
+    "items": [
+      {
+        "label": "Corps simple",
+        "detail": "Carbone pur, 12 g, soit 1 mole"
+      },
+      {
+        "label": "Réaction avec l'oxygène",
+        "detail": "C + O2 → CO2 ; le carbone se combine à l'oxygène et perd des électrons"
+      },
+      {
+        "label": "Formation de l'oxyde",
+        "detail": "Il se forme du dioxyde de carbone CO2, dans un rapport 1 mol de C pour 1 mol de CO2"
+      },
+      {
+        "label": "Produit final CO2",
+        "detail": "44 g de dioxyde de carbone obtenus (1 mol × 44 g/mol)"
+      }
+    ]
+  },
+  "schema_status": "corrige"
 }

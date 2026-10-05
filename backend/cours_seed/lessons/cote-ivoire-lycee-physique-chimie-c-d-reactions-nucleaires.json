@@ -67,5 +67,32 @@
         "text": "Petite matière convertie en énorme quantité d'énergie."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "La fission du noyau d'uranium 235",
+    "items": [
+      {
+        "label": "Uranium 235 + neutron",
+        "detail": "Le noyau absorbe un neutron lent incident"
+      },
+      {
+        "label": "Noyau instable",
+        "detail": "Le noyau se déforme puis se casse"
+      },
+      {
+        "label": "Baryum 141",
+        "detail": "Premier fragment formé, 56 protons"
+      },
+      {
+        "label": "Krypton 92",
+        "detail": "Second fragment formé, 36 protons"
+      },
+      {
+        "label": "3 neutrons libérés",
+        "detail": "Avec une énorme quantité d'énergie dégagée"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

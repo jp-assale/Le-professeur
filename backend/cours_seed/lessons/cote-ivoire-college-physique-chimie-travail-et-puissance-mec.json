@@ -67,5 +67,32 @@
         "text": "Même travail, moins temps, plus puissance nécessaire toujours"
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Du travail à la puissance mécanique",
+    "items": [
+      {
+        "label": "Force",
+        "detail": "Poids de l'objet, F = m x g"
+      },
+      {
+        "label": "Distance parcourue",
+        "detail": "Hauteur ou déplacement d"
+      },
+      {
+        "label": "Travail mécanique",
+        "detail": "W = F x d, exprimé en joules"
+      },
+      {
+        "label": "Temps mis",
+        "detail": "Durée t de l'action en secondes"
+      },
+      {
+        "label": "Puissance mécanique",
+        "detail": "P = W / t, exprimée en watts"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

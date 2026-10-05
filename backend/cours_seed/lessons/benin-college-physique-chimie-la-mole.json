@@ -68,5 +68,36 @@
         "text": "La mole transforme des milliards de particules invisibles en quantités mesurables."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Calculer une quantité de matière (mole)",
+    "items": [
+      {
+        "label": "Identifier l’inconnue",
+        "detail": "On cherche le nombre de moles n"
+      },
+      {
+        "label": "Rassembler les données",
+        "detail": "Masse m en grammes et masse molaire M en g/mol"
+      },
+      {
+        "label": "Écrire la formule",
+        "detail": "n = m / M"
+      },
+      {
+        "label": "Remplacer les valeurs",
+        "detail": "Exemple : n = 48 / 12"
+      },
+      {
+        "label": "Calculer",
+        "detail": "n = 4 moles"
+      },
+      {
+        "label": "Interpréter",
+        "detail": "4 moles = 4 x 6,02x10^23 atomes"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

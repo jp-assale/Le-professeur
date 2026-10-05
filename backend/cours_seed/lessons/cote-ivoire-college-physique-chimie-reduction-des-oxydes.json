@@ -66,5 +66,7 @@
         "text": "Un agent réducteur « prend » l'oxygène de l'oxyde."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

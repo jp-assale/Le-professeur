@@ -68,5 +68,32 @@
         "text": "L'influx nerveux transmet les messages très rapidement entre les cellules."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Trajet du message nerveux (réflexe)",
+    "items": [
+      {
+        "label": "Récepteurs sensoriels",
+        "detail": "Détectent le stimulus, ici la chaleur sur la peau"
+      },
+      {
+        "label": "Nerf sensitif",
+        "detail": "Transmet l'influx nerveux vers la moelle épinière"
+      },
+      {
+        "label": "Moelle épinière",
+        "detail": "Intègre l'information et déclenche la réponse"
+      },
+      {
+        "label": "Nerf moteur",
+        "detail": "Transmet l'ordre moteur vers le muscle"
+      },
+      {
+        "label": "Muscle du bras",
+        "detail": "Se contracte et retire le bras"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

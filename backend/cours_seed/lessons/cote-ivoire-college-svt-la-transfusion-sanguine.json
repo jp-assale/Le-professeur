@@ -67,5 +67,32 @@
         "text": "Les groupes sanguins du donneur et receveur doivent être compatibles absolument."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Vérifier la compatibilité avant une transfusion",
+    "items": [
+      {
+        "label": "Identifier le receveur",
+        "detail": "Déterminer le groupe sanguin du receveur"
+      },
+      {
+        "label": "Rappeler la règle",
+        "detail": "Seul un sang compatible peut être transfusé"
+      },
+      {
+        "label": "Vérifier chaque donneur",
+        "detail": "Comparer le groupe de chaque donneur au receveur"
+      },
+      {
+        "label": "Compter les compatibles",
+        "detail": "Retenir uniquement les donneurs compatibles"
+      },
+      {
+        "label": "Réaliser la transfusion",
+        "detail": "Transfuser le sang compatible en sécurité"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

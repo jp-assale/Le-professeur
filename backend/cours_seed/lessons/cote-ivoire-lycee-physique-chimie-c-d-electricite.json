@@ -68,5 +68,7 @@
         "text": "La loi d'Ohm relie ces trois grandeurs pour analyser les circuits."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

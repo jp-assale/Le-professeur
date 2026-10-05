@@ -67,5 +67,32 @@
         "text": "Comprendre les forces, c'est comprendre tous les mouvements."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Calcul de la force avec F = m × a",
+    "items": [
+      {
+        "label": "Identifier les données",
+        "detail": "masse m = 1200 kg, accélération a = 2 m/s²"
+      },
+      {
+        "label": "Rappeler la formule",
+        "detail": "F = m × a"
+      },
+      {
+        "label": "Remplacer les valeurs",
+        "detail": "F = 1200 × 2"
+      },
+      {
+        "label": "Effectuer le calcul",
+        "detail": "F = 2400 N"
+      },
+      {
+        "label": "Énoncer le résultat",
+        "detail": "Force nette de 2400 newtons"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

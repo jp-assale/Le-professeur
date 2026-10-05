@@ -68,5 +68,32 @@
         "text": "La loi d'Ohm relie tension, courant et résistance."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Méthode : calculer la résistance d'un conducteur ohmique",
+    "items": [
+      {
+        "label": "Identifier les données",
+        "detail": "Relever U et I connus dans l'énoncé"
+      },
+      {
+        "label": "Choisir la formule",
+        "detail": "R = U / I, déduit de U = R x I"
+      },
+      {
+        "label": "Remplacer les valeurs",
+        "detail": "Insérer les nombres dans la formule"
+      },
+      {
+        "label": "Effectuer le calcul",
+        "detail": "Diviser U par I"
+      },
+      {
+        "label": "Exprimer avec l'unité",
+        "detail": "Résultat en ohm, noté Ω"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

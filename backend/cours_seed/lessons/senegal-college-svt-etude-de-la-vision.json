@@ -68,5 +68,7 @@
         "text": "Le cerveau interprète l'image formée sur la rétine."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

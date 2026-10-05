@@ -67,5 +67,29 @@
         "text": "La concentration mesure la quantité de soluté dissoute dans la solution."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "La solution aqueuse",
+    "items": [
+      {
+        "label": "Soluté",
+        "detail": "Substance dissoute, par exemple le sucre"
+      },
+      {
+        "label": "Solvant",
+        "detail": "Liquide qui dissout, généralement l'eau"
+      },
+      {
+        "label": "Mélange homogène",
+        "detail": "Soluté dispersé uniformément, invisible à l'œil"
+      },
+      {
+        "label": "Concentration massique",
+        "detail": "Masse de soluté par litre de solution"
+      }
+    ],
+    "centre": "Solution aqueuse"
+  },
+  "schema_status": "ok"
 }

@@ -183,9 +183,39 @@ const PAYS_LABELS = {
   burkina_faso: "Burkina Faso", benin: "Bénin", guinee: "Guinée",
 };
 
+/* Schema simplifie de la lecon (SVT / physique-chimie) : structure generee
+   puis VERIFIEE par un second modele (voir backend/generate_cours_schemas.py),
+   dessinee ici par du code fixe - jamais de SVG ecrit par l'IA. Absent pour
+   les lecons sans schema valide. */
+function renderLessonSchema(data) {
+  const schema = data.schema;
+  if (!schema || !window.buildSchemaSvg) return null;
+  if (data.schema_status !== "ok" && data.schema_status !== "corrige") return null;
+  let svg;
+  try {
+    svg = buildSchemaSvg(schema);
+  } catch (e) {
+    return null;
+  }
+  const wrap = el("div", { className: "schema-block" });
+  if (schema.titre) {
+    const title = el("p", { text: "🔬 " + schema.titre });
+    title.style.cssText = "margin:0 0 6px;font-weight:700;";
+    wrap.appendChild(title);
+  }
+  wrap.appendChild(svg);
+  wrap.appendChild(el("p", {
+    className: "schema-note",
+    text: "Schéma simplifié généré par l'IA et vérifié. Compare-le avec ton cours.",
+  }));
+  return wrap;
+}
+
 function renderConceptSlide(data) {
   const section = buildSlideShell("Le concept", data.concept.heading);
   section.appendChild(el("p", { text: data.concept.explanation }));
+  const schemaBlock = renderLessonSchema(data);
+  if (schemaBlock) section.appendChild(schemaBlock);
   if (data.concept.highlight) {
     const box = el("div", { className: "theorem-box" });
     box.appendChild(el("b", { text: data.concept.highlight }));

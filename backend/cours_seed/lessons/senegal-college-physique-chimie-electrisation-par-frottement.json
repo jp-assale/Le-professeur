@@ -68,5 +68,33 @@
         "text": "Le courant électrique fait circuler les charges dans un conducteur."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Électrisation et courant électrique",
+    "items": [
+      {
+        "label": "Électrisation par frottement",
+        "detail": "Accumulation statique de charges par frottement"
+      },
+      {
+        "label": "Charge positive",
+        "detail": "Le corps a perdu des électrons"
+      },
+      {
+        "label": "Charge négative",
+        "detail": "Le corps a gagné des électrons"
+      },
+      {
+        "label": "Courant électrique",
+        "detail": "Mouvement ordonné et continu d’électrons"
+      },
+      {
+        "label": "Conducteur",
+        "detail": "Support de la circulation des charges, ex: cuivre"
+      }
+    ],
+    "racine": "Phénomènes électriques"
+  },
+  "schema_status": "ok"
 }

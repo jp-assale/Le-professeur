@@ -67,5 +67,29 @@
         "text": "Les verres corrigent les défauts en déviant les rayons."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "États de l'œil : normal et défauts",
+    "items": [
+      {
+        "label": "Œil emmétrope",
+        "detail": "Image formée exactement sur la rétine (vision normale, sans défaut)"
+      },
+      {
+        "label": "Myopie",
+        "detail": "Image formée avant la rétine, vision floue de loin"
+      },
+      {
+        "label": "Hypermétropie",
+        "detail": "Image formée après la rétine, vision floue de près"
+      },
+      {
+        "label": "Presbytie",
+        "detail": "Perte progressive de l'accommodation liée à l'âge"
+      }
+    ],
+    "racine": "État de l'œil"
+  },
+  "schema_status": "corrige"
 }

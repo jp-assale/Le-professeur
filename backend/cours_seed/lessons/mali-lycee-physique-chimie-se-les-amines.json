@@ -67,5 +67,25 @@
         "text": "Trois catégories : primaires, secondaires, tertiaires selon substitution azote."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Classification des amines",
+    "items": [
+      {
+        "label": "Amine primaire",
+        "detail": "R-NH2, un groupe alkyle, exemple CH3CH2CH2NH2"
+      },
+      {
+        "label": "Amine secondaire",
+        "detail": "R2-NH, deux groupes alkyle sur l’azote"
+      },
+      {
+        "label": "Amine tertiaire",
+        "detail": "R3-N, trois groupes alkyle sur l’azote"
+      }
+    ],
+    "racine": "Amines (dérivées de NH3)"
+  },
+  "schema_status": "ok"
 }

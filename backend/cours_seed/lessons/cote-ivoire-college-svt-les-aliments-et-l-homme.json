@@ -67,5 +67,37 @@
         "text": "Les aliments viennent d'origine animale ou végétale."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les nutriments de l'aliment",
+    "items": [
+      {
+        "label": "Protéines",
+        "detail": "Construction et croissance du corps"
+      },
+      {
+        "label": "Lipides",
+        "detail": "Graisses, réserve d'énergie"
+      },
+      {
+        "label": "Glucides",
+        "detail": "Sucres, énergie rapide"
+      },
+      {
+        "label": "Sels minéraux",
+        "detail": "Fonctionnement de l'organisme"
+      },
+      {
+        "label": "Vitamines",
+        "detail": "Protection et bon fonctionnement du corps"
+      },
+      {
+        "label": "Eau",
+        "detail": "Indispensable au fonctionnement du corps"
+      }
+    ],
+    "racine": "Aliment"
+  },
+  "schema_status": "ok"
 }

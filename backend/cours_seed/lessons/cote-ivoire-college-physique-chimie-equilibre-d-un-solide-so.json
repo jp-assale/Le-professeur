@@ -67,5 +67,25 @@
         "text": "L'équilibre nécessite une intensité et direction précises des forces."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Conditions d'équilibre sous deux forces",
+    "items": [
+      {
+        "label": "Même intensité",
+        "detail": "Les deux forces ont la même norme (valeur)"
+      },
+      {
+        "label": "Même ligne d'action",
+        "detail": "Les forces agissent sur la même droite (même direction)"
+      },
+      {
+        "label": "Sens opposés",
+        "detail": "Les forces sont dirigées en sens contraire"
+      }
+    ],
+    "centre": "Solide en équilibre"
+  },
+  "schema_status": "corrige"
 }

@@ -68,5 +68,41 @@
         "text": "Les frottements ralentissent progressivement les oscillations jusqu'à l'arrêt complet."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Oscillateur libre masse-ressort",
+    "items": [
+      {
+        "label": "Masse m",
+        "detail": "Objet accroché qui oscille autour de l’équilibre"
+      },
+      {
+        "label": "Ressort (raideur k)",
+        "detail": "Exerce la force de rappel sur la masse"
+      },
+      {
+        "label": "Position d’équilibre",
+        "detail": "Point vers lequel le système revient toujours"
+      },
+      {
+        "label": "Force de rappel",
+        "detail": "Force interne qui ramène la masse"
+      },
+      {
+        "label": "Résistance de l’air",
+        "detail": "Frottement qui atténue l’oscillation"
+      },
+      {
+        "label": "Période T",
+        "detail": "Durée d’une oscillation complète"
+      },
+      {
+        "label": "Fréquence f",
+        "detail": "Nombre d’oscillations par seconde"
+      }
+    ],
+    "centre": "Système masse-ressort"
+  },
+  "schema_status": "ok"
 }

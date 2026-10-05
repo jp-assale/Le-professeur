@@ -67,5 +67,29 @@
         "text": "Contrôler la vitesse est essentiel en industrie et pharmacie."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Facteurs influençant la vitesse de réaction",
+    "items": [
+      {
+        "label": "Température",
+        "detail": "Une température plus élevée augmente la vitesse"
+      },
+      {
+        "label": "Concentration des réactifs",
+        "detail": "Plus de réactifs accélère la réaction"
+      },
+      {
+        "label": "Nature des réactifs",
+        "detail": "Certains réactifs réagissent plus vite que d'autres"
+      },
+      {
+        "label": "Catalyseur",
+        "detail": "Accélère la réaction sans être consommé"
+      }
+    ],
+    "racine": "Vitesse de réaction"
+  },
+  "schema_status": "ok"
 }

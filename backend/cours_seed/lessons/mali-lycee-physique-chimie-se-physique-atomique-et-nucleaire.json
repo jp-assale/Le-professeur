@@ -67,5 +67,32 @@
         "text": "La masse perdue se transforme en énergie massive selon Einstein."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Calcul de l'énergie libérée par désintégration",
+    "items": [
+      {
+        "label": "Défaut de masse",
+        "detail": "Masse initiale moins masse finale du noyau"
+      },
+      {
+        "label": "Conversion en kg",
+        "detail": "Multiplier par 1,66 x 10⁻²⁷ kg"
+      },
+      {
+        "label": "Formule E=mc²",
+        "detail": "Appliquer la relation d'Einstein"
+      },
+      {
+        "label": "Carré de c",
+        "detail": "(3 x 10⁸)² = 9 x 10¹⁶ m²/s²"
+      },
+      {
+        "label": "Énergie libérée",
+        "detail": "Résultat final en joules"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

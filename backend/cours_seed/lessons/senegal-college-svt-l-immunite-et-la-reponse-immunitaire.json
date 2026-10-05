@@ -67,5 +67,24 @@
         "text": "Ton corps mémorise les microbes pour mieux les combattre ensuite."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Les trois temps de la réponse immunitaire",
+    "items": [
+      {
+        "label": "Reconnaissance",
+        "detail": "Les globules blancs détectent l'agent pathogène étranger"
+      },
+      {
+        "label": "Réaction",
+        "detail": "Les globules blancs attaquent et combattent l'envahisseur"
+      },
+      {
+        "label": "Mémorisation",
+        "detail": "Le corps garde en mémoire le pathogène pour l'avenir"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

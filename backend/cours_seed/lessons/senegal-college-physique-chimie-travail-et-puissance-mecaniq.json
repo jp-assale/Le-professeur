@@ -67,5 +67,33 @@
         "text": "Même travail, moins de temps égale plus de puissance."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Travail et puissance mécanique",
+    "items": [
+      {
+        "label": "Travail (W)",
+        "detail": "W = F x d, exprimé en joules"
+      },
+      {
+        "label": "Force (F)",
+        "detail": "Force exercée sur l'objet, en newtons"
+      },
+      {
+        "label": "Distance (d)",
+        "detail": "Distance parcourue dans la direction de la force"
+      },
+      {
+        "label": "Puissance (P)",
+        "detail": "P = W / t, exprimée en watts"
+      },
+      {
+        "label": "Temps (t)",
+        "detail": "Durée pour réaliser le travail, en secondes"
+      }
+    ],
+    "racine": "Travail et puissance mécanique"
+  },
+  "schema_status": "ok"
 }

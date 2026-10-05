@@ -67,5 +67,41 @@
         "text": "Les vaccins aident notre corps à combattre les maladies infectieuses."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "L'aide à l'immunité",
+    "items": [
+      {
+        "label": "Naturelle",
+        "detail": "Moyens du quotidien qui soutiennent le corps"
+      },
+      {
+        "label": "Alimentation équilibrée",
+        "detail": "Apporte les nutriments utiles aux défenses"
+      },
+      {
+        "label": "Bonne hygiène",
+        "detail": "Limite l'entrée des agents pathogènes"
+      },
+      {
+        "label": "Sommeil suffisant",
+        "detail": "Renforce les défenses naturelles du corps"
+      },
+      {
+        "label": "Artificielle",
+        "detail": "Moyens médicaux qui stimulent les défenses"
+      },
+      {
+        "label": "Vaccins",
+        "detail": "Stimulent le corps à produire ses défenses"
+      },
+      {
+        "label": "Sérums",
+        "detail": "Apportent des anticorps déjà prêts à agir"
+      }
+    ],
+    "racine": "Aide à l'immunité"
+  },
+  "schema_status": "ok"
 }

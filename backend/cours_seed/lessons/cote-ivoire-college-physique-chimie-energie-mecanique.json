@@ -67,5 +67,24 @@
         "text": "Sans frottement, l'énergie mécanique totale reste constante et se transforme."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Conservation de l’énergie mécanique pendant la chute",
+    "items": [
+      {
+        "label": "Au sommet",
+        "detail": "Vitesse nulle : Ep maximale, Ec nulle"
+      },
+      {
+        "label": "Pendant la chute",
+        "detail": "Ep diminue, Ec augmente, somme constante"
+      },
+      {
+        "label": "Juste avant le sol",
+        "detail": "Hauteur nulle : Ep nulle, Ec maximale"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

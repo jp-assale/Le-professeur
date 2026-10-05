@@ -68,5 +68,7 @@
         "text": "La distance focale mesure le pouvoir de la lentille."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

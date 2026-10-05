@@ -68,5 +68,36 @@
         "text": "Les lois de Mendel expliquent précisément cette transmission héréditaire."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Transmission d'un caractère héréditaire (croisement MM x mm)",
+    "items": [
+      {
+        "label": "Génotypes parentaux",
+        "detail": "Parent MM homozygote dominant, parent mm homozygote récessif"
+      },
+      {
+        "label": "Formation des gamètes",
+        "detail": "Parent MM donne M, parent mm donne m"
+      },
+      {
+        "label": "Fécondation",
+        "detail": "Union des gamètes selon l'échiquier de Punnett"
+      },
+      {
+        "label": "Génotype F1",
+        "detail": "Tous les descendants sont hétérozygotes Mm"
+      },
+      {
+        "label": "Expression du phénotype",
+        "detail": "Allèle M dominant s'exprime chez tous les Mm"
+      },
+      {
+        "label": "Résultat observé",
+        "detail": "100% des graines F1 sont marron"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

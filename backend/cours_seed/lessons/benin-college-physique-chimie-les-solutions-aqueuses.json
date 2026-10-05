@@ -67,5 +67,7 @@
         "text": "Plus d'eau ajoutée signifie une concentration moins élevée."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

@@ -68,5 +68,41 @@
         "text": "Un système immunitaire affaibli rend l'organisme vulnérable aux maladies graves."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Le système immunitaire",
+    "items": [
+      {
+        "label": "Défense non spécifique",
+        "detail": "Rapide, barrières naturelles et inflammation"
+      },
+      {
+        "label": "Barrières naturelles",
+        "detail": "Peau et muqueuses empêchent l'entrée des microbes"
+      },
+      {
+        "label": "Inflammation",
+        "detail": "Rougeur et gonflement pour combattre l'infection"
+      },
+      {
+        "label": "Défense spécifique",
+        "detail": "Lente mais précise, anticorps et lymphocytes"
+      },
+      {
+        "label": "Anticorps",
+        "detail": "Molécules ciblant un pathogène précis"
+      },
+      {
+        "label": "Lymphocytes",
+        "detail": "Cellules reconnaissant et détruisant les intrus"
+      },
+      {
+        "label": "Dysfonctionnement (VIH)",
+        "detail": "Destruction des lymphocytes T CD4, immunodéficience"
+      }
+    ],
+    "racine": "Système immunitaire"
+  },
+  "schema_status": "ok"
 }

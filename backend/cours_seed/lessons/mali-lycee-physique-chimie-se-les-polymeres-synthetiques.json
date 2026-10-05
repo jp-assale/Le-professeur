@@ -68,5 +68,36 @@
         "text": "Cette répétition crée des matériaux flexibles, résistants et légers."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "De la molécule au polymère",
+    "items": [
+      {
+        "label": "Pétrole brut",
+        "detail": "Source des petites molécules organiques"
+      },
+      {
+        "label": "Monomère",
+        "detail": "Petite molécule, ex: éthène"
+      },
+      {
+        "label": "Polymérisation",
+        "detail": "Par addition ou par condensation"
+      },
+      {
+        "label": "Liaison covalente répétée",
+        "detail": "Les monomères s'assemblent en chaîne"
+      },
+      {
+        "label": "Polymère",
+        "detail": "Chaîne longue, linéaire ou ramifiée"
+      },
+      {
+        "label": "Matériau plastique",
+        "detail": "Flexible, résistant, léger"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

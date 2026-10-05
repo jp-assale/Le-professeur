@@ -67,5 +67,25 @@
         "text": "L'échelle de pH mesure l'acidité ou la basicité de 0 à 14."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Échelle de pH",
+    "items": [
+      {
+        "label": "Acide",
+        "detail": "pH < 7, libère H+, goût piquant (citron, vinaigre)"
+      },
+      {
+        "label": "Neutre",
+        "detail": "pH = 7, exemple : eau pure"
+      },
+      {
+        "label": "Basique",
+        "detail": "pH > 7, libère OH-, glissant (savon, ammoniaque)"
+      }
+    ],
+    "racine": "Échelle de pH (0 à 14)"
+  },
+  "schema_status": "ok"
 }

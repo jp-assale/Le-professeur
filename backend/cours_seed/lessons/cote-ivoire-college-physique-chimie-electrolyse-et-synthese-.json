@@ -68,5 +68,44 @@
         "text": "Ces deux réactions sont inverses et complémentaires."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Électrolyse et synthèse de l'eau",
+    "items": [
+      {
+        "label": "Eau (H2O)",
+        "detail": "Molécule de départ (électrolyse) ou produit final (synthèse)"
+      },
+      {
+        "label": "Courant électrique",
+        "detail": "Apporte l'énergie nécessaire à l'électrolyse"
+      },
+      {
+        "label": "Décomposition (électrolyse)",
+        "detail": "Sous l'effet du courant, l'eau se sépare en hydrogène et oxygène : 2H2O -> 2H2 + O2"
+      },
+      {
+        "label": "Hydrogène (H2)",
+        "detail": "Gaz dégagé à la cathode"
+      },
+      {
+        "label": "Oxygène (O2)",
+        "detail": "Gaz dégagé à l'anode"
+      },
+      {
+        "label": "Synthèse",
+        "detail": "L'hydrogène et l'oxygène se combinent pour reformer l'eau : 2H2 + O2 -> 2H2O"
+      },
+      {
+        "label": "Énergie dégagée",
+        "detail": "Libérée lors de la synthèse de l'eau"
+      },
+      {
+        "label": "Eau (H2O) reformée",
+        "detail": "Produit final de la synthèse, refermant le cycle électrolyse/synthèse"
+      }
+    ]
+  },
+  "schema_status": "corrige"
 }

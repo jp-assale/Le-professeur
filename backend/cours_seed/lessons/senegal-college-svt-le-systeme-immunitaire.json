@@ -68,5 +68,29 @@
         "text": "Sans ce système, les microbes t'envahiraient et te rendraient malade."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Le système immunitaire",
+    "items": [
+      {
+        "label": "Peau",
+        "detail": "Barrière physique qui bloque les agents pathogènes"
+      },
+      {
+        "label": "Muqueuses",
+        "detail": "Protègent les voies d'entrée comme le nez et la bouche"
+      },
+      {
+        "label": "Globules blancs",
+        "detail": "Détectent et détruisent les agents pathogènes"
+      },
+      {
+        "label": "Anticorps",
+        "detail": "Molécules spécifiques qui neutralisent les microbes"
+      }
+    ],
+    "centre": "Système immunitaire"
+  },
+  "schema_status": "ok"
 }

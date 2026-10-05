@@ -68,5 +68,33 @@
         "text": "L'avantage mécanique permet soulever lourd avec moins de force."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Le levier, une machine simple",
+    "items": [
+      {
+        "label": "Pivot (fulcrum)",
+        "detail": "Point d'appui fixe du levier"
+      },
+      {
+        "label": "Bras moteur",
+        "detail": "Distance entre pivot et force appliquée"
+      },
+      {
+        "label": "Bras résistant",
+        "detail": "Distance entre pivot et charge"
+      },
+      {
+        "label": "Force motrice",
+        "detail": "Force exercée par l'utilisateur"
+      },
+      {
+        "label": "Force résistante",
+        "detail": "Poids de la charge à soulever"
+      }
+    ],
+    "centre": "Levier"
+  },
+  "schema_status": "ok"
 }

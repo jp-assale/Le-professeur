@@ -66,5 +66,7 @@
         "text": "Cet équilibre persiste malgré les variations du milieu externe."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

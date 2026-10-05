@@ -68,5 +68,33 @@
         "text": "Protéger les sols aujourd'hui assure les récoltes futures des générations."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "La gestion des sols",
+    "items": [
+      {
+        "label": "Rotation des cultures",
+        "detail": "Limite l'épuisement des éléments nutritifs du sol"
+      },
+      {
+        "label": "Apport de compost",
+        "detail": "Reconstitue la matière organique perdue"
+      },
+      {
+        "label": "Lutte contre l'érosion",
+        "detail": "Protège la structure du sol"
+      },
+      {
+        "label": "Prévention de la dégradation",
+        "detail": "Maintient la fertilité et la productivité"
+      },
+      {
+        "label": "Production durable",
+        "detail": "Objectif final de la gestion des sols"
+      }
+    ],
+    "centre": "Gestion des sols"
+  },
+  "schema_status": "ok"
 }

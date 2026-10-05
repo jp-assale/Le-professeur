@@ -67,5 +67,25 @@
         "text": "L'extraction durable des ressources minières protège les réserves terrestres futures."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les ressources minières",
+    "items": [
+      {
+        "label": "Minéraux",
+        "detail": "Or, cuivre, fer extraits du sous-sol"
+      },
+      {
+        "label": "Roches utiles",
+        "detail": "Roches exploitées comme ressources économiques (construction, industrie, etc.)"
+      },
+      {
+        "label": "Hydrocarbures",
+        "detail": "Pétrole et gaz naturel"
+      }
+    ],
+    "racine": "Ressources minières"
+  },
+  "schema_status": "corrige"
 }

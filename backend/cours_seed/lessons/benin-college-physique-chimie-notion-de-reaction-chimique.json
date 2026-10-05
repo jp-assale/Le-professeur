@@ -72,5 +72,32 @@
         "text": "Une réaction crée de la matière nouvelle, contrairement aux changements physiques."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Réaction chimique : des réactifs aux produits",
+    "items": [
+      {
+        "label": "Réactifs",
+        "detail": "Fer (3,2 g) et soufre (1,6 g) avant réaction"
+      },
+      {
+        "label": "Transformation",
+        "detail": "Chauffage, les atomes se réarrangent"
+      },
+      {
+        "label": "Nouvelles liaisons",
+        "detail": "Formation de nouvelles molécules"
+      },
+      {
+        "label": "Produit",
+        "detail": "Sulfure de fer, poudre noire, 4,8 g"
+      },
+      {
+        "label": "Conservation de la masse",
+        "detail": "Masse réactifs égale masse produits"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

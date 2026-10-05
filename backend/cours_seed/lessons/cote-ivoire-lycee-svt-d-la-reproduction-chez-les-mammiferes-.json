@@ -67,5 +67,45 @@
         "text": "Les plantes à fleurs se reproduisent sexuellement et produisent des graines."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "La reproduction chez les mammifères et les spermaphytes",
+    "items": [
+      {
+        "label": "Mammifères",
+        "detail": "Reproduction sexuée et interne"
+      },
+      {
+        "label": "Gamètes mammifères",
+        "detail": "Spermatozoïdes et ovules fusionnent dans le corps de la femelle"
+      },
+      {
+        "label": "Développement fœtal",
+        "detail": "Embryon se développe dans l’utérus"
+      },
+      {
+        "label": "Mise bas",
+        "detail": "Naissance du jeune après gestation"
+      },
+      {
+        "label": "Spermaphytes",
+        "detail": "Reproduction sexuée par formation de graines, nécessitant pollinisation puis fécondation"
+      },
+      {
+        "label": "Pollinisation",
+        "detail": "Transfert du pollen des étamines vers le pistil (stigmate) de la fleur"
+      },
+      {
+        "label": "Fécondation végétale",
+        "detail": "Fusion du gamète mâle et de l’oosphère, aboutissant à la formation de l’embryon"
+      },
+      {
+        "label": "Graine",
+        "detail": "Contient l’embryon prêt à germer, issu de la fécondation"
+      }
+    ],
+    "racine": "Reproduction"
+  },
+  "schema_status": "corrige"
 }

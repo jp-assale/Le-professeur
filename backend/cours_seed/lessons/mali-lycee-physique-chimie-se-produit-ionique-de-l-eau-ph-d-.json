@@ -68,5 +68,32 @@
         "text": "Le pH mesure la concentration H⁺ : plus bas = plus acide."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Déterminer le pH d’une solution",
+    "items": [
+      {
+        "label": "Mesurer [H+]",
+        "detail": "Concentration en ions hydrogène de la solution"
+      },
+      {
+        "label": "Calculer le pH",
+        "detail": "pH = -log[H+]"
+      },
+      {
+        "label": "Interpréter le pH",
+        "detail": "Acide si pH < 7, neutre si pH = 7, basique si pH > 7"
+      },
+      {
+        "label": "Calculer [OH-]",
+        "detail": "[OH-] = Ke / [H+] avec Ke = 10^-14 à 25°C"
+      },
+      {
+        "label": "Vérifier Ke",
+        "detail": "À 25°C, [H+] x [OH-] doit valoir 10^-14"
+      }
+    ]
+  },
+  "schema_status": "corrige"
 }

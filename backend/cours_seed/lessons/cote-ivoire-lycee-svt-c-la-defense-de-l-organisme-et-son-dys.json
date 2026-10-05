@@ -67,5 +67,7 @@
         "text": "Le dysfonctionnement immunitaire provoque défaillance, allergie ou absence de réponse."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

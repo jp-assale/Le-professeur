@@ -68,5 +68,25 @@
         "text": "Elle dépend du matériau, de la longueur et de la section."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Facteurs de la résistance électrique (R = ρ × L / A)",
+    "items": [
+      {
+        "label": "Résistivité (ρ)",
+        "detail": "Dépend du matériau (ex : cuivre), exprimée en Ω·m"
+      },
+      {
+        "label": "Longueur (L)",
+        "detail": "Plus le fil est long, plus R augmente"
+      },
+      {
+        "label": "Section (A)",
+        "detail": "Plus la section est grande, plus R diminue"
+      }
+    ],
+    "centre": "Résistance électrique (R)"
+  },
+  "schema_status": "corrige"
 }

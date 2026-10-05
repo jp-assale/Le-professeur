@@ -67,5 +67,36 @@
         "text": "Le cerveau et la moelle épinière commandent les actions face aux stimulus."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "La communication nerveuse",
+    "items": [
+      {
+        "label": "Stimulus",
+        "detail": "Signal de l'environnement, ex: bruit, chaleur"
+      },
+      {
+        "label": "Récepteur sensoriel",
+        "detail": "Détecte le signal, ex: peau, oreille"
+      },
+      {
+        "label": "Nerf sensitif",
+        "detail": "Transmet l'influx nerveux vers le centre nerveux"
+      },
+      {
+        "label": "Centre nerveux",
+        "detail": "Cerveau ou moelle épinière, traite l'information"
+      },
+      {
+        "label": "Nerf moteur",
+        "detail": "Transmet la commande vers les muscles"
+      },
+      {
+        "label": "Muscle",
+        "detail": "Exécute la réponse, ex: sursaut, retrait"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

@@ -67,5 +67,7 @@
         "text": "La masse ne change pas, le poids varie selon le lieu."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

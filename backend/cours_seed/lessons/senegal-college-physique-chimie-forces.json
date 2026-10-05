@@ -69,5 +69,40 @@
         "text": "Objet immobile quand les forces se compensent parfaitement."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Déterminer la force d'équilibre",
+    "items": [
+      {
+        "label": "Identifier F1",
+        "detail": "Intensité, direction et sens de la force connue"
+      },
+      {
+        "label": "Condition d'équilibre",
+        "detail": "La somme vectorielle des forces doit être nulle"
+      },
+      {
+        "label": "Même intensité",
+        "detail": "F2 doit avoir la même intensité que F1"
+      },
+      {
+        "label": "Calculer l'intensité",
+        "detail": "Intensité de F2 égale à celle de F1"
+      },
+      {
+        "label": "Même direction",
+        "detail": "F2 colinéaire à F1, même ligne d'action"
+      },
+      {
+        "label": "Sens opposé",
+        "detail": "F2 orienté à l'opposé de F1"
+      },
+      {
+        "label": "Objet en équilibre",
+        "detail": "Immobile ou mouvement rectiligne uniforme"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

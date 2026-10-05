@@ -67,5 +67,7 @@
         "text": "La constante d'équilibre K dépend uniquement de la température du système."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

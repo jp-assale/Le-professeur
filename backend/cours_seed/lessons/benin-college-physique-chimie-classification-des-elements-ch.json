@@ -67,5 +67,7 @@
         "text": "Les éléments d'une même colonne partagent les mêmes propriétés."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

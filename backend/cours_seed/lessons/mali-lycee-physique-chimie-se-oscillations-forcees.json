@@ -68,5 +68,36 @@
         "text": "L'amplitude devient très grande et peut causer la rupture."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Oscillations forcées et résonance",
+    "items": [
+      {
+        "label": "Force extérieure périodique",
+        "detail": "Une force sinusoïdale est appliquée au système"
+      },
+      {
+        "label": "Système oscille",
+        "detail": "Le système vibre à la fréquence imposée"
+      },
+      {
+        "label": "Comparaison des fréquences",
+        "detail": "Fréquence forcée comparée à la fréquence naturelle"
+      },
+      {
+        "label": "Fréquences égales",
+        "detail": "Fréquence forcée = fréquence naturelle du système"
+      },
+      {
+        "label": "Résonance",
+        "detail": "Amplitude des oscillations devient très grande"
+      },
+      {
+        "label": "Risque de rupture",
+        "detail": "Le système peut se briser sous l’amplitude excessive"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

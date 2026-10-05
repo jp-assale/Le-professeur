@@ -67,5 +67,36 @@
         "text": "Ressource non renouvelable qui alimente notre économie quotidienne."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Formation du pétrole et du gaz naturel",
+    "items": [
+      {
+        "label": "Matière organique",
+        "detail": "Restes de plantes et d'animaux marins"
+      },
+      {
+        "label": "Accumulation sous terre",
+        "detail": "Dépôt progressif sous les sédiments"
+      },
+      {
+        "label": "Chaleur et pression",
+        "detail": "Action pendant des millions d'années"
+      },
+      {
+        "label": "Transformation en hydrocarbures",
+        "detail": "Composés de carbone et d'hydrogène"
+      },
+      {
+        "label": "Pétrole brut",
+        "detail": "Mélange liquide visqueux d'hydrocarbures"
+      },
+      {
+        "label": "Gaz naturel",
+        "detail": "Mélange gazeux, surtout du méthane"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

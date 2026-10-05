@@ -1,0 +1,714 @@
+{
+  "benin-college-physique-chimie-dessin-technique": {
+    "statut": "ok",
+    "chapitre": "Dessin technique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-circuit-electrique-domestique": {
+    "statut": "ok",
+    "chapitre": "Circuit électrique domestique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-la-mole": {
+    "statut": "ok",
+    "chapitre": "La mole",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-electricite-domestique": {
+    "statut": "ok",
+    "chapitre": "Électricité domestique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-electrolyse-et-synthese-de-l-e": {
+    "statut": "ok",
+    "chapitre": "Électrolyse et synthèse de l'eau",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-les-constituants-de-la-matiere": {
+    "statut": "ok",
+    "chapitre": "Les constituants de la matière",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-les-petroles-et-gaz-naturels": {
+    "statut": "ok",
+    "chapitre": "Les pétroles et gaz naturels",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-les-matieres-plastiques": {
+    "statut": "corrige",
+    "chapitre": "Les matières plastiques",
+    "problemes": [
+      "Le détail de l'étape 'Monomères' dit 'Molécules simples extraites', ce qui laisse croire à une simple extraction physique du pétrole, alors qu'il s'agit d'une transformation chimique (raffinage/craquage) du pétrole brut pour obtenir les monomères. Ce terme est scientifiquement imprécis et peut induire en erreur les élèves."
+    ]
+  },
+  "benin-college-physique-chimie-notion-de-reaction-chimique": {
+    "statut": "ok",
+    "chapitre": "Notion de réaction chimique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-production-d-un-courant-electr": {
+    "statut": "ok",
+    "chapitre": "Production d'un courant électrique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-projet-de-moteur-a-combustion-": {
+    "statut": "ok",
+    "chapitre": "Projet de moteur à combustion interne",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-quelques-machines-simples": {
+    "statut": "ok",
+    "chapitre": "Quelques machines simples",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-projet-de-moteur-electrique": {
+    "statut": "ok",
+    "chapitre": "Projet de moteur électrique",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-classification-des-elements-ch": {
+    "statut": "rejete",
+    "chapitre": "Classification des éléments chimiques",
+    "problemes": [
+      "Le schéma place « Alcalins » au même niveau hiérarchique que « Métaux », « Non-métaux » et « Gaz nobles », alors que les alcalins (Li, Na, K) sont en réalité une sous-famille des métaux (métaux alcalins, colonne 1), pas une catégorie indépendante et parallèle aux trois grandes familles. Cela crée une confusion : on pourrait croire que les alcalins ne sont pas des métaux.",
+      "Le détail des alcalins devrait préciser qu'il s'agit d'une colonne (famille) à l'intérieur des métaux, pour rester cohérent avec la leçon qui les présente comme exemple d'une famille identifiée par le nombre d'électrons de valence.",
+      "Le détail des Alcalins est tronqué : \"réagissent facilement avec l'e\" au lieu de \"avec l'eau et l'oxygène\" comme indiqué dans la leçon, ce qui est incomplet et trompeur.",
+      "La structure JSON place 'Alcalins' au même niveau que 'Métaux', 'Non-métaux' et 'Gaz nobles' dans la liste d'items, sans lien hiérarchique explicite, alors que le label indique que c'est une sous-famille des métaux : cela peut créer une confusion visuelle même si le texte du label le précise.",
+      "Le détail de l'item 'Alcalins' est tronqué : 'réagissent facilement avec l'e' au lieu de 'réagissent facilement avec l'eau et l'oxygène' comme indiqué dans la leçon.",
+      "La structure place 'Alcalins (sous-famille des métaux)' au même niveau hiérarchique que 'Métaux', 'Non-métaux' et 'Gaz nobles' sous la racine, ce qui est incohérent avec le fait qu'il s'agit d'une sous-catégorie des métaux ; le label le précise mais la hiérarchie plate reste trompeuse sur le niveau de classification."
+    ]
+  },
+  "benin-college-physique-chimie-les-solutions-aqueuses": {
+    "statut": "rejete",
+    "chapitre": "Les solutions aqueuses",
+    "problemes": [
+      "Le schéma présente 4 éléments au même niveau sous le type 'parties', mais seuls 'Solvant' et 'Soluté' sont réellement des parties constitutives physiques de la solution aqueuse. 'Mélange homogène' et 'Concentration' ne sont pas des composants de la solution mais une propriété du mélange et une grandeur calculée : les présenter comme des 'parties' au même titre que solvant/soluté peut induire en erreur sur la composition réelle d'une solution (qui ne comporte que 2 parties : solvant + soluté).",
+      "Le détail de l'item 'Propriété : mélange homogène' est tronqué : \"ne réapparaissent p\" au lieu de \"ne réapparaissent plus\" (texte coupé, incomplet et peu clair).",
+      "Le détail de l'item 'Propriété : mélange homogène' est tronqué : 'ne réapparaissent p' au lieu de 'ne réapparaissent pas'."
+    ]
+  },
+  "benin-college-physique-chimie-transmission-du-mouvement-de-r": {
+    "statut": "ok",
+    "chapitre": "Transmission du mouvement de rotation",
+    "problemes": []
+  },
+  "benin-college-physique-chimie-maintenance-des-objets-techniq": {
+    "statut": "ok",
+    "chapitre": "Maintenance des objets techniques",
+    "problemes": [
+      "La leçon présente la maintenance comme ayant DEUX types principaux (préventive et corrective), avec l'entretien et le contrôle comme composantes de la maintenance préventive. Le schéma place 'Entretien', 'Contrôle', 'Maintenance préventive' et 'Maintenance corrective' au même niveau hiérarchique, ce qui casse la logique de classification de la leçon.",
+      "La règle clé dit explicitement 'Maintenance = entretien régulier + contrôle + réparation', ce qui montre que entretien et contrôle relèvent du préventif, et la réparation du correctif — cette structure n'apparaît pas dans le schéma.",
+      "Le détail de 'Maintenance corrective' ne mentionne pas la notion de réparation en général (seulement l'exemple du pneu), alors que la leçon insère la réparation comme élément clé de ce type de maintenance."
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-energie-mecanique": {
+    "statut": "ok",
+    "chapitre": "Énergie mécanique",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-le-conducteur-ohmique": {
+    "statut": "ok",
+    "chapitre": "Le conducteur ohmique",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-les-alcanes": {
+    "statut": "ok",
+    "chapitre": "Les alcanes",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-equilibre-d-un-solide-so": {
+    "statut": "corrige",
+    "chapitre": "Équilibre d'un solide soumis à deux forces",
+    "problemes": [
+      "Le schéma mélange deux niveaux différents : les 3 conditions générales d'équilibre (règle clé) et les éléments F1/F2 qui proviennent de l'exemple particulier (la boîte suspendue), ce qui est incohérent dans une liste de 'parties' présentées au même niveau",
+      "F1 et F2 ne sont pas des 'conditions d'équilibre' mais des forces d'un exemple précis : les inclure sous le titre 'Conditions d'équilibre sous deux forces' est trompeur",
+      "Le détail de F2 ('opposée à F1') induit une confusion : dans la leçon, F1 et F2 désignent les deux forces génériques du solide, pas spécifiquement celles de l'exemple de la boîte, donc leur présence ici brouille la distinction entre règle générale et exemple d'application"
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-les-forces": {
+    "statut": "ok",
+    "chapitre": "Les forces",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-les-defauts-de-l-il-et-l": {
+    "statut": "corrige",
+    "chapitre": "Les défauts de l'œil et leurs corrections",
+    "problemes": [
+      "Incoherence entre le titre du schema (\"Les defauts de l'oeil\") et son contenu : l'item 'Oeil emmetrope' n'est pas un defaut, c'est la vision normale. Le titre induit en erreur en laissant penser que les 4 items sont tous des defauts, alors que la lecon distingue bien l'oeil normal (emmetrope) des defauts (myopie, hypermetropie, presbytie)."
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-les-lentilles": {
+    "statut": "rejete",
+    "chapitre": "Les lentilles",
+    "problemes": [
+      "La hiérarchie mélange deux catégories différentes au même niveau : les types de lentilles (convergente, divergente) et des propriétés optiques (distance focale, puissance optique). Cela peut laisser croire à l'élève que 'Distance focale' et 'Puissance optique' sont des types de lentilles au même titre que 'convergente' et 'divergente', ce qui est un contresens structurel.",
+      "Les items 'Distance focale' et 'Puissance optique' sont redondants : la leçon précise que la distance focale caractérise la puissance, ce sont donc deux aspects d'une même notion, pas deux branches distinctes et indépendantes.",
+      "Le schéma gagnerait à distinguer clairement une branche 'Types de lentilles' (convergente/divergente) et une branche 'Propriété commune' (distance focale, qui caractérise la puissance), afin de respecter la logique de la leçon.",
+      "Le detail de 'Distance focale (f)' est tronque : 'caracterise la puissance de la lent' au lieu de 'lentille'",
+      "La racine 'Lentille (milieu transparent limite par ' est tronquee et incomplete, ne respecte pas la definition complete donnee dans la lecon (deux surfaces courbes, ou une courbe et une plane)",
+      "Le detail de 'Distance focale (f)' est tronque : 'caracterise la puissance de la lent' au lieu de 'lentille'",
+      "La racine est tronquee : 'Lentille (milieu transparent limite par ' ne se termine pas, incomplete par rapport a la definition de la lecon (il manque 'deux surfaces courbes, ou une courbe et une plane)')"
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-masse-et-poids-d-un-corp": {
+    "statut": "rejete",
+    "chapitre": "Masse et poids d'un corps",
+    "problemes": [
+      "Le schéma ne mentionne pas un point clé de la leçon : la masse reste constante partout alors que le poids varie selon le lieu (gravité différente) — information centrale pour éviter la confusion signalée dans la mise en situation.",
+      "Le détail de 'Relation' n'indique pas la valeur de g sur Terre (10 N/kg), pourtant donnée dans la règle clé et utilisée dans l'exemple.",
+      "La notation 'P = m x g' utilise 'x' au lieu du symbole multiplicatif '×', ce qui est mineur mais peut être uniformisé.",
+      "Le détail de « Masse » est tronqué (se termine par « ell ») et ne précise pas que la masse est constante quel que soit le lieu, information pourtant donnée dans le concept.",
+      "Le détail de « Poids » est tronqué (se termine par « mesurée avec ») et omet l'outil de mesure (dynamomètre) ainsi que le fait que le poids varie selon le lieu.",
+      "Le detail de 'Masse' est tronqué (se termine par 'ell') et ne précise pas que la masse est constante quel que soit le lieu",
+      "Le detail de 'Poids' est tronqué (se termine par 'mesurée avec') et ne précise pas que le poids varie selon le lieu",
+      "Ces troncatures rendent les informations incomplètes et peu claires, contrairement à la leçon qui insiste sur l'invariance de la masse et la variabilité du poids"
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-oxydation-des-corps-purs": {
+    "statut": "corrige",
+    "chapitre": "Oxydation des corps purs simples",
+    "problemes": [
+      "Les étapes 'Combinaison avec oxygène' et 'Formation d'oxyde' sont présentées comme deux étapes séquentielles distinctes, alors qu'il s'agit du même phénomène : la combinaison du carbone avec l'oxygène EST la formation de l'oxyde (CO2). Cela peut laisser croire à tort qu'il y a un intermédiaire entre la réaction et l'oxyde.",
+      "Le détail 'Le carbone perd des électrons' est isolé dans l'étape 'Formation d'oxyde' sans lien explicite avec la réaction chimique elle-même, ce qui est flou : selon la leçon, c'est en se combinant à l'oxygène que le carbone perd des électrons.",
+      "Le détail de l'étape 'Formation d'oxyde' ne précise pas quel oxyde est formé (CO2), ce qui rend cette étape redondante avec la suivante sans information nouvelle claire."
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-solutions-acides-basique": {
+    "statut": "ok",
+    "chapitre": "Solutions acides, basiques et neutres",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-electrolyse-et-synthese-": {
+    "statut": "corrige",
+    "chapitre": "Électrolyse et synthèse de l'eau",
+    "problemes": [
+      "Les labels \"Eau (2H2O)\" et \"Hydrogene (2H2)\" confondent la formule chimique de l'espece (H2O, H2) avec les coefficients stoechiometriques de l'equation bilan (qui ne s'appliquent qu'a l'equation globale, pas au nom de la molecule) : un eleve de college risque de croire que \"2H2O\" est le nom de la molecule d'eau.",
+      "Le flux se termine sur \"Energie degagee\" sans rebouclage explicite vers l'eau formee : or le produit principal de la synthese est l'eau (l'energie n'est qu'un phenomene associe), ce qui peut laisser croire que la synthese produit seulement de l'energie et non de l'eau.",
+      "Le schema presente une sequence lineaire unique (Eau -> Decomposition -> H2/O2 -> Synthese -> Energie) qui suggere une chronologie automatique electrolyse puis synthese, alors que ce sont deux reactions independantes et opposees (reversibles), comme l'indique la double fleche de la regle cle ; cela merite d'etre clarifie pour eviter un contresens sur la reversibilite."
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-travail-et-puissance-mec": {
+    "statut": "ok",
+    "chapitre": "Travail et puissance mécaniques",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-l-infection-au-vih": {
+    "statut": "ok",
+    "chapitre": "L'infection au VIH",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-la-circulation-sanguine": {
+    "statut": "ok",
+    "chapitre": "La circulation sanguine",
+    "problemes": []
+  },
+  "cote-ivoire-college-physique-chimie-reduction-des-oxydes": {
+    "statut": "rejete",
+    "chapitre": "Réduction des oxydes",
+    "problemes": [
+      "Le schéma présente 'Fer pur obtenu' avant 'Dioxyde de carbone CO2' comme s'il s'agissait de deux étapes successives dans le temps, alors que ces deux substances sont produites simultanément par la même réaction chimique (2Fe2O3 + 3C -> 4Fe + 3CO2). Cette présentation en flux linéaire suggère à tort une chronologie où le fer apparaîtrait avant le CO2, ce qui est trompeur pour l'élève.",
+      "Le dernier détail est une phrase tronquée et grammaticalement incomplète : « ... sont obtenus en même temps par cet » ne se termine pas (il manque un mot après « cet », par exemple « cette réaction »), ce qui rend la phrase incompréhensible.",
+      "Le dernier détail est une phrase incomplète/coupée : « ... sont obtenus en même temps par cet » ne se termine pas, ce qui rend l'information incompréhensible et trompeuse pour un élève.",
+      "La mention « réaction unique » dans l'étape 3 est une précision inutile et un peu floue qui n'apporte rien par rapport à la leçon ; elle peut être simplifiée pour plus de clarté."
+    ]
+  },
+  "cote-ivoire-college-physique-chimie-puissance-et-energie-ele": {
+    "statut": "rejete",
+    "chapitre": "Puissance et énergie électriques",
+    "problemes": [
+      "L'étape finale « Conversion en kWh » ne précise pas la méthode de conversion (ni le facteur 1 kWh = 3 600 000 J, ni le fait qu'on peut recalculer directement avec P en kW et t en heures comme le fait l'exemple de la leçon). Cette omission est un vague trompeur pour un niveau collège.",
+      "Le détail de l'étape 'Conversion en kWh' est trop imprécis : il faudrait indiquer explicitement comment on obtient la valeur en kWh (soit en divisant les joules par 3 600 000, soit en reprenant P en kW et t en heures), afin de rester cohérent avec l'exemple chiffré de la leçon (1,1 kW x 3 h = 3,3 kWh).",
+      "Le detail du dernier item 'Conversion en kWh' est tronque : '(E =' ne se termine pas, la formule est incomplete et incomprehensible pour un eleve.",
+      "Le detail de 'Conversion du temps' melange deux idees (convertir le temps ET obtenir l'energie en joules) ce qui peut preter a confusion : la conversion ne donne pas directement l'energie, elle prepare seulement le calcul E = P x t.",
+      "Le detail de l'etape 'Conversion du temps' est tronque : la phrase 'pour que le calcul de l'energie donne un resul' s'arrete en plein mot, ce qui est incomprehensible pour un eleve.",
+      "Le detail de l'etape 'Conversion en kWh' est tronque : la phrase se termine par 'E ' sans donner la formule complete, ce qui est incomprehensible.",
+      "Il serait plus clair de preciser que la conversion en kWh est une alternative independante (comme dans l'exemple de la lecon : E = P(kW) x t(h)) plutot que de laisser entendre qu'elle depend obligatoirement du resultat en joules."
+    ]
+  },
+  "cote-ivoire-college-svt-la-transfusion-sanguine": {
+    "statut": "ok",
+    "chapitre": "La transfusion sanguine",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-les-aliments-et-l-homme": {
+    "statut": "ok",
+    "chapitre": "Les aliments et l'Homme",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-la-digestion-des-aliments": {
+    "statut": "rejete",
+    "chapitre": "La digestion des aliments",
+    "problemes": [
+      "La lecon precise explicitement que la digestion se termine dans l'intestin grele, mais le schema ajoute une etape 'Absorption' presentee comme une etape separee APRES l'intestin grele, ce qui laisse croire a tort que l'absorption est une etape distincte et posterieure au processus digestif, alors qu'elle se deroule au niveau de la paroi de l'intestin grele, simultanement a la fin de la digestion.",
+      "Le flux en 5 etapes sequentielles suggere un ordre lineaire separe (digestion puis absorption) alors que l'absorption n'est pas une transformation des aliments mais un passage des nutriments deja formes ; cela cree une confusion avec la definition donnee dans la lecon.",
+      "Le detail de l'etape 'Intestin grele' est une phrase inachevee : 'qui sont ensuite absorbes par la' ne se termine pas, ce qui est incomprehensible et scientifiquement incomplet (il faut preciser par quoi/ou se fait l'absorption, ex: la paroi intestinale).",
+      "Le detail de l'item 'Intestin grele' est une phrase inachevee : '...qui sont ensuite absorbes par la' n'a pas de complement (il manque par exemple 'paroi intestinale' ou 'paroi de l'intestin vers le sang'), ce qui est une erreur de redaction rendant l'information incomplete et confuse."
+    ]
+  },
+  "cote-ivoire-college-svt-le-sang": {
+    "statut": "ok",
+    "chapitre": "Le sang",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-les-grossesses-precoces-et-les-moyen": {
+    "statut": "corrige",
+    "chapitre": "Les grossesses précoces et les moyens de prévention",
+    "problemes": [
+      "La leçon précise explicitement que les risques concernent 'la jeune mère ET l'enfant', mais le détail de 'Complications médicales' ne mentionne que 'la santé de la mère', omettant les risques pour le bébé (prématurité, faible poids, mortalité infantile plus élevée, etc.) qui sont pourtant un aspect central du concept dans la leçon."
+    ]
+  },
+  "cote-ivoire-college-svt-les-relations-sols-plantes": {
+    "statut": "ok",
+    "chapitre": "Les relations sols-plantes",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-chimie-generale": {
+    "statut": "ok",
+    "chapitre": "Chimie générale",
+    "problemes": []
+  },
+  "cote-ivoire-college-svt-la-degradation-des-sols": {
+    "statut": "corrige",
+    "chapitre": "La dégradation des sols",
+    "problemes": [
+      "Le schéma présente les 6 causes à plat, sans distinguer les deux origines principales mentionnées explicitement dans la leçon (naturelle : érosion, lessivage / humaine : surpâturage, déforestation, cultures répétées, produits chimiques). Cette omission nuit à la cohérence pédagogique avec le concept enseigné.",
+      "Aucune erreur factuelle dans les labels et détails pris individuellement, mais la hiérarchie ne reflète pas la structure conceptuelle de la leçon.",
+      "Le schéma présente les 6 causes à plat, toutes au même niveau sous la racine, alors que la leçon insiste explicitement sur une distinction en DEUX origines principales : naturelle (érosion, lessivage) et humaine (surpâturage, déforestation, cultures répétées, produits chimiques). Cette structure intermédiaire manquante nuit à la cohérence pédagogique avec la leçon.",
+      "Le contenu scientifique de chaque label/detail est correct en soi, mais l'absence de regroupement par origine (naturelle/humaine) peut laisser croire que toutes les causes sont de même nature, ce qui est un contresens par omission par rapport au texte de la leçon."
+    ]
+  },
+  "cote-ivoire-college-svt-les-caracteristiques-d-un-sol": {
+    "statut": "corrige",
+    "chapitre": "Les caractéristiques d'un sol",
+    "problemes": [
+      "Le détail de « Matière organique » (« Taux de matière vivante décomposée ») est un contresens : une fois décomposée, la matière n'est plus vivante. Il s'agit de résidus d'origine végétale et animale (morts) en décomposition, pas de matière vivante.",
+      "Le détail de « Porosité » (« Capacité à retenir l'air et l'eau ») est imprécis : la porosité désigne surtout les espaces vides (pores) entre les particules du sol, qui permettent la circulation et le stockage de l'air et de l'eau, pas uniquement leur rétention."
+    ]
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-mecanique": {
+    "statut": "ok",
+    "chapitre": "Mécanique",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-reactions-nucleaires": {
+    "statut": "ok",
+    "chapitre": "Réactions nucléaires",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-chimie-organique": {
+    "statut": "ok",
+    "chapitre": "Chimie organique",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-electricite": {
+    "statut": "rejete",
+    "chapitre": "Électricité",
+    "problemes": [
+      "Le titre du schéma est 'Les grandeurs de la loi d'Ohm', mais la loi d'Ohm (U = R x I) ne relie que trois grandeurs : U, I et R. La puissance P n'est pas une grandeur de la loi d'Ohm, c'est une grandeur dérivée (calculée via P = U x I), ce qui crée une incohérence entre le titre et le contenu.",
+      "Inclure P au même niveau que U, I, R dans un schéma intitulé 'grandeurs de la loi d'Ohm' est trompeur pour un élève qui pourrait croire que P fait partie de la formule U = R x I.",
+      "Le detail de l'item 'Puissance (P)' est tronque et incomplet : la phrase '(ne fait pas partie de la loi d' s'arrete brutalement sans fin, ce qui est confus et incorrect du point de vue redactionnel.",
+      "Le detail de 'Puissance (P)' est tronque : « ne fait pas partie de la loi d » - la phrase est incomplete, il manque 'Ohm' ce qui rend le schema incomprehensible et introduit une erreur de redaction."
+    ]
+  },
+  "cote-ivoire-college-svt-la-protection-et-l-amelioration-des-": {
+    "statut": "rejete",
+    "chapitre": "La protection et l'amélioration des sols",
+    "problemes": [
+      "La racine du schéma est \"Sols dégradés\", ce qui ne correspond pas au titre \"Protection et amélioration des sols\" ni au concept central de la leçon : incohérence entre titre et racine.",
+      "La structure mélange au même niveau hiérarchique des concepts d'action (Protection, Amélioration) et des causes de dégradation (érosion hydrique, érosion éolienne, salinisation, appauvrissement organique), sans lien explicite montrant que ces menaces sont justement ce que la Protection vise à prévenir, ce qui peut créer une confusion pour un élève de collège.",
+      "Le schéma est censé être une 'hierarchie' mais tous les éléments (Protection, Amélioration, Érosion hydrique, Érosion éolienne, Salinisation, Appauvrissement organique) sont placés au même niveau, sans lien hiérarchique explicite.",
+      "Selon la leçon, les 4 menaces (érosion hydrique, érosion éolienne, salinisation, appauvrissement organique) sont spécifiquement liées à la notion de 'Protection' (prévenir la dégradation), pas à 'Amélioration'. Le schéma plat ne montre pas cette relation, ce qui peut créer une confusion : on pourrait croire que ces menaces sont aussi liées à l'amélioration ou sont indépendantes des deux notions.",
+      "Il manque un niveau intermédiaire montrant que les menaces sont des sous-catégories de 'Protection', conformément à la logique de la leçon.",
+      "Le schéma place les 4 menaces (érosion hydrique, érosion éolienne, salinisation, appauvrissement organique) au même niveau hiérarchique que 'Protection' et 'Amélioration', alors que la leçon indique clairement que ces menaces sont ce que la Protection vise à prévenir : elles devraient être rattachées comme sous-éléments de 'Protection', pas comme éléments indépendants au même niveau.",
+      "La formulation du détail 'Menace de la protection' est ambiguë et peut laisser croire que c'est la protection elle-même qui constitue une menace, alors qu'il s'agit de menaces contre lesquelles la protection agit.",
+      "Le schéma ne reflète pas de lien parent-enfant explicite malgré le type 'hierarchie', ce qui rend la structure trompeuse (6 items à plat sous la racine 'Sols' au lieu d'une arborescence Protection/Amélioration avec sous-items)."
+    ]
+  },
+  "cote-ivoire-lycee-svt-c-la-communication-dans-l-organisme-co": {
+    "statut": "ok",
+    "chapitre": "La communication dans l'organisme (communication nerveuse)",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-c-la-transmission-des-caracteres-hered": {
+    "statut": "ok",
+    "chapitre": "La transmission des caractères héréditaires",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-la-lumiere-onde-ou-par": {
+    "statut": "corrige",
+    "chapitre": "La lumière : onde ou particule",
+    "problemes": [
+      "L'item 'Comportement onde' associe la propagation en ligne droite au caractère ondulatoire, ce qui est un contresens : la propagation rectiligne (ombre nette) n'est pas une preuve du comportement ondulatoire, c'est au contraire la diffraction (contournement d'un obstacle fin, évoquée dans la mise en situation) qui caractérise l'onde. Associer 'ligne droite' à l'onde contredit la leçon et induit en erreur.",
+      "Le detail du comportement onde devrait plutot evoquer la propagation libre avec diffraction/interferences, conformement a la mise en situation et au concept de la lecon ('Quand on l'observe en propagation libre, elle agit comme une onde')."
+    ]
+  },
+  "cote-ivoire-lycee-svt-c-le-metabolisme-energetique-et-l-acti": {
+    "statut": "ok",
+    "chapitre": "Le métabolisme énergétique et l'activité musculaire",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-physique-chimie-c-d-electromagnetisme": {
+    "statut": "rejete",
+    "chapitre": "Électromagnétisme",
+    "problemes": [
+      "Le schéma présente une chaîne causale linéaire unique, mais la leçon décrit DEUX phénomènes distincts et réciproques (introduits par 'Inversement' dans le texte) : (1) charge en mouvement → champ magnétique, et (2) champ magnétique variable → champ électrique. Le schéma donne l'impression trompeuse qu'un champ magnétique créé par une charge en mouvement devient automatiquement 'variable', ce qui est faux en général : l'exemple du cours utilise justement un courant constant I=5A qui crée un champ magnétique STATIQUE (non variable). Il n'y a pas de lien de cause à effet direct entre 'champ magnétique créé' et 'champ magnétique variable'.",
+      "Il manque une précision essentielle : le champ magnétique ne devient 'variable' que si le courant lui-même varie dans le temps (courant alternatif, variation d'intensité, etc.), ce qui n'est pas mentionné et induit en erreur sur le cas de l'exemple traité (courant continu constant).",
+      "Tous les champs 'detail' et certains 'label' sont tronqués en plein mot (ex: 'champ magnétique es', 'varia', 'd'indu', 'magnét'), ce qui rend le schéma incompréhensible pour un élève.",
+      "Le label de l'item 3 'Cas particulier : champ magnétique varia' est coupé et peu clair même complété ; il faudrait préciser qu'il s'agit du cas où le courant varie dans le temps.",
+      "Le detail de l'item 5 est coupé avant la conclusion (il manque la notion d'interdépendance/inséparabilité des deux champs, pourtant présente dans le concept de la leçon).",
+      "Le détail de l'item 'Champ magnétique créé' est tronqué : 'ce champ est constant si' sans fin de phrase.",
+      "Le détail de l'item 'Cas particulier : courant variable' est tronqué : 'le champ magnétique cré' sans fin de phrase.",
+      "Le détail de l'item 'Champ électrique induit' est tronqué : 'produit un champ électriq' sans fin de phrase.",
+      "Le détail de l'item 'Champ électromagnétique' est tronqué : '...montrent' sans fin de phrase, conclusion manquante.",
+      "Ces troncatures rendent les phrases incomplètes et potentiellement trompeuses pour un élève, même si le contenu scientifique sous-jacent est correct et cohérent avec la leçon."
+    ]
+  },
+  "cote-ivoire-lycee-svt-c-la-gestion-des-sols": {
+    "statut": "corrige",
+    "chapitre": "La gestion des sols",
+    "problemes": [
+      "Les trois premiers items (Fertilité, Structure, Productivité) sont des objectifs/composantes de la gestion des sols, tandis que le 4e item (Lutte contre l'érosion) est une pratique concrète : ce mélange de niveaux dans une même hiérarchie plate est incohérent et peut induire une confusion chez l'élève sur ce que représente chaque branche.",
+      "La définition du concept parle de 'prévenir la dégradation' de façon générale (érosion, appauvrissement en nutriments), alors que le schéma ne mentionne que l'érosion comme unique exemple de pratique, ce qui est réducteur par rapport à la leçon."
+    ]
+  },
+  "cote-ivoire-lycee-svt-d-la-defense-de-l-organisme-et-son-dys": {
+    "statut": "ok",
+    "chapitre": "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-c-la-reproduction-chez-l-homme": {
+    "statut": "rejete",
+    "chapitre": "La reproduction chez l'Homme",
+    "problemes": [
+      "Les etapes 'Rencontre des gametes' et 'Fecondation' designent en realite le meme phenomene biologique : la fecondation EST l'union (fusion) du spermatozoide et de l'ovule. Les presenter comme deux etapes successives distinctes laisse croire a tort qu'il s'agit de deux evenements separes dans le temps, ce qui est trompeur.",
+      "Le detail de 'Developpement' ('L'embryon se developpe en enfant') saute les etapes intermediaires (foetus, naissance) ; au niveau lycee il serait plus rigoureux de preciser 'embryon puis foetus, jusqu'a la naissance', meme simplifie.",
+      "L'étape 'Fécondation' dit que l'union du spermatozoïde et de l'ovule forme directement 'l'embryon' : scientifiquement, cette fusion forme d'abord une cellule-œuf (zygote), qui se divise ensuite par mitoses successives pour donner l'embryon. Cette précision manque et peut induire une confusion sur le déroulement réel du développement.",
+      "Le détail de 'Développement' passe directement de 'embryon' à 'fœtus puis enfant' sans mentionner l'étape intermédiaire de la cellule-œuf, ce qui est cohérent avec l'erreur précédente mais mériterait d'être clarifié pour la continuité logique du schéma.",
+      "Le detail de l'etape 'Developpement' est tronque : 'se developpe en foetus puis en enfant ju' - texte incomplet/coupe, a corriger en 'enfant'."
+    ]
+  },
+  "cote-ivoire-lycee-svt-d-la-gestion-des-sols": {
+    "statut": "ok",
+    "chapitre": "La gestion des sols",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-d-la-transmission-des-caracteres-hered": {
+    "statut": "ok",
+    "chapitre": "La transmission des caractères héréditaires",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-c-les-ressources-energetiques": {
+    "statut": "corrige",
+    "chapitre": "Les ressources énergétiques",
+    "problemes": [
+      "La structure proposée est une liste plate d'items sans relation parent-enfant explicite, alors qu'un schéma de type 'hiérarchie' doit montrer clairement que Hydroélectricité et Solaire sont des sous-catégories de Renouvelables, et que Pétrole est une sous-catégorie de Non renouvelables.",
+      "Le schéma ne reflète pas visuellement les trois niveaux (racine > catégories > exemples) décrits dans la leçon, ce qui peut créer une confusion sur le niveau hiérarchique de chaque élément.",
+      "Le schéma ne cite que 3 exemples de ressources (Hydroélectricité, Solaire, Pétrole), repris uniquement de l'exercice chiffré, ce qui est trompeur par omission : un élève pourrait croire que ce sont les seules ressources renouvelables et non renouvelables existantes, alors que le programme SVT lycée Côte d'Ivoire attend aussi la mention d'autres sources courantes (éolien, biomasse, géothermie pour les renouvelables ; charbon, gaz naturel, uranium pour les non renouvelables).",
+      "La leçon elle-même cite le gaz et le bois comme exemples d'énergies consommées au quotidien, qui ne sont pas repris dans le schéma alors qu'ils auraient pu illustrer la classification (bois = renouvelable sous conditions, gaz naturel = non renouvelable)."
+    ]
+  },
+  "cote-ivoire-lycee-svt-d-les-ressources-minieres": {
+    "statut": "corrige",
+    "chapitre": "Les ressources minières",
+    "problemes": [
+      "Le détail de 'Roches utiles' ('Roches exploitées pour la construction') est trop restrictif et non conforme à la leçon : le texte parle de 'roches utiles' en général (matériaux de construction, mais aussi industrie, chimie, etc.), sans limiter leur usage à la seule construction. Cela introduit une précision non justifiée par la leçon, potentiellement trompeuse."
+    ]
+  },
+  "cote-ivoire-lycee-svt-d-le-milieu-interieur": {
+    "statut": "rejete",
+    "chapitre": "Le milieu intérieur",
+    "problemes": [
+      "L'élément 'Homéostasie' est intégré comme une partie constitutive du milieu intérieur au même titre que plasma/lymphe/liquide interstitiel, alors que la leçon la définit comme une propriété (la stabilité) du milieu intérieur, pas comme un composant. Cela crée une confusion entre composition et fonction.",
+      "Le détail du plasma sanguin indique 'baigne les cellules', ce qui est scientifiquement incorrect : c'est le liquide interstitiel qui baigne directement les cellules (comme précisé dans son propre détail et dans la leçon). Le plasma circule dans les vaisseaux sanguins et n'est pas en contact direct avec les cellules.",
+      "La règle clé de la leçon précise explicitement que le milieu intérieur = plasma + lymphe + liquide interstitiel (3 éléments), donc un schéma de type 'parties' avec 4 items dont l'homéostasie est incohérent avec la structure annoncée.",
+      "Le texte du centre est tronqué et mal orthographié : \"Milieu interieur (maintient l'homeostasi\" - il manque la fin du mot 'homeostasie' et la parenthèse fermante, ce qui rend l'affirmation incomplète et incorrecte formellement.",
+      "Le texte du centre est tronqué : 'Milieu interieur (maintient l'homeostasi' au lieu de 'Milieu interieur (maintient l'homeostasie)' - mot coupé et parenthèse non fermée."
+    ]
+  },
+  "mali-lycee-physique-chimie-se-la-cinetique-chimique": {
+    "statut": "ok",
+    "chapitre": "La cinétique chimique",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-induction-electromagnetique-et": {
+    "statut": "ok",
+    "chapitre": "Induction électromagnétique et auto-induction",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-les-acides-amines": {
+    "statut": "ok",
+    "chapitre": "Les acides α-aminés",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-les-alcools": {
+    "statut": "ok",
+    "chapitre": "Les alcools",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-c-la-defense-de-l-organisme-et-son-dys": {
+    "statut": "rejete",
+    "chapitre": "La défense de l'organisme et son dysfonctionnement",
+    "problemes": [
+      "Le titre/racine 'La defense de l'organisme' ne couvre pas tout le contenu du schema : les items 'Defaillance', 'Surreaction' et 'Absence de reponse' relevent du DYSFONCTIONNEMENT, qui est un concept distinct selon la lecon (titre du chapitre : 'La defense de l'organisme ET son dysfonctionnement'). La racine actuelle est donc trompeuse.",
+      "Le schema presente 6 items au meme niveau hierarchique sans distinguer les 3 elements constitutifs du systeme immunitaire (qui repondent a la question 'comment le corps se defend') des 3 types de dysfonctionnement (qui repondent a 'que se passe-t-il quand ca ne marche pas'). Cette absence de regroupement cree une confusion de niveau logique.",
+      "Detail 'Organes lymphoides ... produisent et stockent les cellules' est imprecis : le thymus sert surtout a la maturation des lymphocytes T, pas a leur 'production' au sens strict ; formulation a nuancer pour eviter un leger contresens.",
+      "Le détail des organes lymphoïdes indique que les ganglions et la rate « stockent », ce qui est trompeur : ce sont surtout des sites de filtration et de rencontre entre antigènes et lymphocytes, où ces derniers prolifèrent (c'est justement pourquoi les ganglions gonflent lors d'une infection, comme mentionné dans la mise en situation) — réduire leur rôle à un simple « stockage » est scientifiquement imprécis.",
+      "La racine du schéma est tronquée (« La défense de l'organisme et son dysfonc »), ce qui nuit à la clarté du titre.",
+      "La racine est tronquée : 'La défense de l'organisme et son dysfonc' au lieu du titre complet du chapitre",
+      "Le detail de 'Organes lymphoïdes' est tronqué et incomplet : '...prolifèrent (d'' se termine abruptement sans sens",
+      "Le titre du schéma est vide alors qu'il pourrait résumer le sujet",
+      "Le thymus est cité dans la leçon comme organe lymphoïde mais absent du schéma, créant une incohérence avec le concept énoncé",
+      "Les suffixes '(défense)' et '(dysfonction)' répétés dans chaque label rendent la hiérarchie confuse ; mieux vaut structurer explicitement en deux branches distinctes"
+    ]
+  },
+  "mali-lycee-physique-chimie-se-les-acides-carboxyliques-et-fo": {
+    "statut": "ok",
+    "chapitre": "Les acides carboxyliques et fonctions dérivées",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-les-amines": {
+    "statut": "ok",
+    "chapitre": "Les amines",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-les-polymeres-synthetiques": {
+    "statut": "ok",
+    "chapitre": "Les polymères synthétiques",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-notion-de-stereochimie": {
+    "statut": "ok",
+    "chapitre": "Notion de stéréochimie",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-optique-physique": {
+    "statut": "ok",
+    "chapitre": "Optique physique",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-physique-atomique-et-nucleaire": {
+    "statut": "ok",
+    "chapitre": "Physique atomique et nucléaire",
+    "problemes": []
+  },
+  "cote-ivoire-lycee-svt-d-la-reproduction-chez-les-mammiferes-": {
+    "statut": "corrige",
+    "chapitre": "La reproduction chez les mammifères et chez les spermaphytes",
+    "problemes": [
+      "Le détail de « Pollinisation » (« Transfert du pollen vers la fleur ») est vague et scientifiquement imprécis : la pollinisation est le transfert du pollen des étamines vers le pistil (stigmate) d'une fleur, pas un transfert générique « vers la fleur ».",
+      "Le détail de « Fécondation végétale » (« Formation de l'embryon dans la graine ») confond la fécondation avec sa conséquence : la fécondation est la fusion du gamète mâle (noyau spermatique du tube pollinique) avec l'oosphère (gamète femelle) ; la formation de l'embryon et de la graine est le résultat de cette fécondation, pas la fécondation elle-même.",
+      "La phase asexuée (la spore) mentionnée explicitement dans le concept de la leçon n'apparaît dans aucun item ni détail du schéma, ce qui laisse un aspect du concept non illustré.",
+      "Le détail de l'item 'Spermaphytes' reprend tel quel l'affirmation de la leçon selon laquelle la reproduction s'accompagnerait 'd'une phase asexuée (la spore)'. C'est scientifiquement trompeur au niveau lycée : la formation de spores (micro/mégaspores) chez les spermaphytes fait partie intégrante du cycle de reproduction SEXUÉE (méiose puis alternance de générations gamétophyte/sporophyte), ce n'est pas une reproduction asexuée indépendante. Présenter cela comme une 'phase asexuée' crée un contresens pour l'élève.",
+      "Le reste du schéma (mammifères : gamètes, développement fœtal, mise bas ; spermaphytes : pollinisation, fécondation, graine) est exact et dans un ordre logique cohérent avec la leçon."
+    ]
+  },
+  "mali-lycee-physique-chimie-se-oscillations-forcees": {
+    "statut": "ok",
+    "chapitre": "Oscillations forcées",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-les-equilibres-chimiques": {
+    "statut": "rejete",
+    "chapitre": "Les équilibres chimiques",
+    "problemes": [
+      "Les détails des réactions directe et inverse ne mentionnent pas l'élément clé de la leçon : à l'équilibre, les deux vitesses sont égales (vitesse réaction directe = vitesse réaction inverse), ce qui est la règle centrale du cours et devrait apparaître explicitement dans le schéma.",
+      "Le mot 'cycle' peut suggérer à tort une succession temporelle d'étapes (d'abord la directe, puis l'inverse, puis retour), alors qu'en réalité les deux réactions se produisent simultanément et en continu ; il serait préférable de préciser que les deux flèches coexistent en permanence (équilibre dynamique) plutôt qu'une boucle séquentielle.",
+      "Dans le detail de 'Réaction directe', le mot 'invers' est tronqué, il manque le 'e' final de 'inverse'.",
+      "Dans le detail de 'Réaction inverse', la phrase se termine par un fragment incomplet et trompeur '(les ' qui ne correspond à rien et doit être supprimé ou complété.",
+      "Le schéma gagnerait en clarté en précisant explicitement que c'est un équilibre dynamique (le terme 'statique apparent' de la leçon n'apparaît pas), mais ce n'est pas une erreur scientifique en soi.",
+      "Le détail de 'Réaction directe' est tronqué : 'à une vitesse égale à celle de la réaction invers' (mot 'inverse' coupé), ce qui rend la phrase incomplète et peu claire.",
+      "Le détail de 'Réaction inverse' est tronqué : 'à la même vitesse que la réaction directe (les ' se termine abruptement sans compléter l'idée (probablement 'les concentrations restent constantes').",
+      "Ces troncatures ne sont pas de simples détails cosmétiques : elles rendent le schéma incompréhensible sur un point clé de la leçon (égalité des vitesses), ce qui est trompeur pour un élève."
+    ]
+  },
+  "mali-lycee-physique-chimie-se-mecanique-et-thermodynamique": {
+    "statut": "rejete",
+    "chapitre": "Mécanique et thermodynamique",
+    "problemes": [
+      "Le détail de l'étape 'Travail mécanique' ('Force de traction produite par le moteur') confond force et travail : le travail mécanique est le produit d'une force par un déplacement, pas la force elle-même. Il faut reformuler pour éviter ce contresens physique.",
+      "Le schéma gagnerait à mentionner explicitement que c'est la chaleur de combustion qui est partiellement convertie en travail (lien direct avec la thermodynamique évoquée dans le concept), afin de renforcer la cohérence avec la leçon.",
+      "Le détail 'Énergie cinétique' pourrait préciser qu'elle résulte du travail de la force de traction (lien de cause à effet avec l'étape précédente), pour mieux illustrer le théorème de l'énergie cinétique implicite dans l'exemple.",
+      "Le dernier détail est tronqué : « mouvement et vitesse du » se termine sans complément (devrait être « du bajaj »).",
+      "Il manque une étape intermédiaire essentielle rappelée dans le concept de la leçon : le moteur thermique convertit la chaleur (issue de la combustion) en travail mécanique ; le schéma passe directement de « Combustion » (qui produit de la chaleur) à « Travail mécanique » sans expliciter cette conversion thermodynamique, ce qui est le point central annoncé dans le cours.",
+      "Le détail de « Travail mécanique » ne mentionne pas que ce travail provient de la chaleur produite par la combustion, ce qui affaiblit le lien thermodynamique/mécanique voulu par la leçon.",
+      "Le détail de l'item 'Conversion chaleur → travail' est tronqué : la phrase se termine par 'c'est le ' sans complément, ce qui est incompréhensible.",
+      "Le détail de l'item 'Énergie cinétique' est tronqué : la phrase se termine par 'mouvement et vitesse du ' sans complément (probablement 'véhicule' ou 'bajaj').",
+      "Il manque une précision essentielle en thermodynamique : toute la chaleur produite n'est pas convertie en travail (un moteur thermique a un rendement limité, une partie de la chaleur est perdue), ce qui mérite d'être explicité pour éviter un contresens implicite de conversion totale."
+    ]
+  },
+  "senegal-college-physique-chimie-acides-et-bases": {
+    "statut": "ok",
+    "chapitre": "Acides et bases",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-oscillateurs-libres": {
+    "statut": "ok",
+    "chapitre": "Oscillateurs libres",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-dispersion-de-la-lumiere": {
+    "statut": "ok",
+    "chapitre": "Dispersion de la lumière",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-forces": {
+    "statut": "ok",
+    "chapitre": "Forces",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-energie-et-rendement": {
+    "statut": "ok",
+    "chapitre": "Énergie et rendement",
+    "problemes": []
+  },
+  "mali-lycee-physique-chimie-se-produit-ionique-de-l-eau-ph-d-": {
+    "statut": "corrige",
+    "chapitre": "Produit ionique de l'eau / pH d'une solution aqueuse",
+    "problemes": [
+      "L'étape 'Interpréter le pH' ne mentionne pas le cas neutre (pH = 7), alors que la leçon insiste explicitement sur le fait qu'une solution peut être acide, neutre ou basique. Le détail devrait être complété pour inclure les trois cas.",
+      "Le detail de 'Calculer [OH-]' utilise Ke = 10^-14 sans preciser que cette valeur n'est valable qu'a 25°C, ce qui pourrait laisser croire que Ke est une constante universelle independante de la temperature",
+      "Le detail de 'Verifier Ke' indique que le produit doit valoir 10^-14 sans rappeler la condition de temperature (25°C), alors que la lecon precise explicitement cette condition"
+    ]
+  },
+  "senegal-college-physique-chimie-electrisation-par-frottement": {
+    "statut": "ok",
+    "chapitre": "Électrisation par frottement, le courant électrique",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-solutions-aqueuses": {
+    "statut": "ok",
+    "chapitre": "Solutions aqueuses",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-quelques-proprietes-chimique": {
+    "statut": "ok",
+    "chapitre": "Quelques propriétés chimiques des métaux usuels",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-resistance-electrique": {
+    "statut": "corrige",
+    "chapitre": "Résistance électrique",
+    "problemes": [
+      "L'élément 'Effet Joule' est classé comme un 'facteur' de la résistance électrique, ce qui est un contresens : l'effet Joule est une CONSÉQUENCE de la résistance (la chaleur produite quand le courant passe), pas un facteur qui détermine la valeur de R. Selon la leçon, R dépend uniquement de ρ, L et A (formule R = ρ×L/A). Mélanger cause et effet dans une liste de 'facteurs' est trompeur pour des élèves de collège.",
+      "Le titre 'Facteurs de la résistance électrique' n'est donc pas cohérent avec la présence de l'effet Joule dans la liste."
+    ]
+  },
+  "senegal-college-physique-chimie-travail-et-puissance-mecaniq": {
+    "statut": "ok",
+    "chapitre": "Travail et puissance mécanique",
+    "problemes": []
+  },
+  "senegal-college-physique-chimie-lentilles-minces": {
+    "statut": "rejete",
+    "chapitre": "Lentilles minces",
+    "problemes": [
+      "Faute de frappe dans le detail de 'Surfaces courbes' : 'devient les rayons' doit etre 'devient' corrige en 'devie'/'devient' -> en fait il faut ecrire 'devient' est une erreur, le mot correct est 'devient' non, c'est 'dévient' (verbe devier) et non 'devient' (verbe devenir), faute a corriger.",
+      "Le detail du 'Foyer' ('Point ou convergent les rayons devies') est incorrect pour une lentille divergente : dans ce cas les rayons ne convergent pas reellement vers le foyer, ils semblent diverger a partir d'un foyer virtuel. La formulation generalise a tort le comportement de la lentille convergente a toutes les lentilles, ce qui est un contresens scientifique.",
+      "Faute de frappe dans le detail de 'Surfaces courbes' : 'devient' doit etre 'devient' -> 'devient' est incorrect, il faut 'devient' en realite le mot correct est 'devient' (verbe dévier) donc corriger en 'dévient les rayons lumineux'",
+      "Le detail de 'Foyer' est tronque et incomplet : 'd'ou semblent pro' n'est pas une phrase complete, cela devrait etre 'd'ou semblent provenir les rayons devies (lentille divergente)' pour etre coherent et complet",
+      "Faute de frappe dans le detail de 'Surfaces courbes': 'devient' doit etre 'devient -> dévient' (deviennent les rayons lumineux n'a pas de sens, il faut 'devient' corrige en 'dévient')",
+      "Le detail de 'Foyer' est tronque et incomplet ('... ou d'ou semblent pro'), ce qui rend la phrase incomprehensible et scientifiquement incomplete pour le cas de la lentille divergente"
+    ]
+  },
+  "senegal-college-svt-l-immunite-et-la-reponse-immunitaire": {
+    "statut": "ok",
+    "chapitre": "L'immunité et la réponse immunitaire",
+    "problemes": []
+  },
+  "senegal-college-svt-la-chronologie-en-geologie": {
+    "statut": "ok",
+    "chapitre": "La chronologie en géologie",
+    "problemes": []
+  },
+  "senegal-college-svt-dysfonctionnement-du-systeme-immunitaire": {
+    "statut": "ok",
+    "chapitre": "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)",
+    "problemes": []
+  },
+  "senegal-college-svt-la-fermentation-un-autre-moyen-de-se-pro": {
+    "statut": "ok",
+    "chapitre": "La fermentation, un autre moyen de se procurer de l'énergie",
+    "problemes": []
+  },
+  "senegal-college-svt-aide-a-l-immunite": {
+    "statut": "ok",
+    "chapitre": "Aide à l'immunité",
+    "problemes": [
+      "La hiérarchie met les 5 items au même niveau sans distinguer les deux catégories (naturelle / artificielle) pourtant clairement énoncées dans la leçon, ce qui nuit à la clarté de la classification.",
+      "Le détail des vaccins/sérums ('Moyen artificiel contre les agents pathogènes') est imprécis : le vaccin n'agit pas directement 'contre' l'agent pathogène, il stimule/renforce les défenses de l'organisme pour mieux le combattre, comme le dit la leçon."
+    ]
+  },
+  "senegal-college-svt-la-tectonique-des-plaques-et-la-formatio": {
+    "statut": "ok",
+    "chapitre": "La tectonique des plaques et la formation des roches métamorphiques",
+    "problemes": []
+  },
+  "senegal-college-svt-etude-de-la-vision": {
+    "statut": "rejete",
+    "chapitre": "Étude de la vision",
+    "problemes": [
+      "L'élément essentiel manquant est l'iris/pupille, qui règle la quantité de lumière entrant dans l'œil : c'est pourtant ce qui est illustré dans la mise en situation (plisser les yeux au soleil, adaptation à l'obscurité) et explicitement mentionné dans le concept ('il doit laisser entrer la bonne quantité de lumière'). Son absence rend le schéma incomplet par rapport à la leçon.",
+      "Le cristallin est présenté comme un élément séparé des 'milieux transparents' alors qu'il est lui-même un des milieux transparents de l'œil (avec la cornée, l'humeur aqueuse et l'humeur vitrée) ; cela peut créer une confusion sur sa nature.",
+      "Le détail du nerf optique ('Transmet l'image au cerveau') est scientifiquement imprécis : le nerf optique transmet un message nerveux (influx nerveux/signal électrique) résultant de la stimulation de la rétine par la lumière, pas directement 'l'image'.",
+      "Le détail de 'Milieux transparents' est trop vague : il faudrait préciser qu'ils laissent entrer la lumière ET la font déjà converger partiellement (réfraction), pour être cohérent avec le concept qui parle de réfraction dans ces milieux.",
+      "Le détail de l'item 'Cristallin' est une phrase tronquée et incomplète : 'pour faire converger précisément la' ne se termine pas, ce qui rend l'information incompréhensible et scientifiquement inutilisable. Il faut préciser que le cristallin fait converger la lumière sur la rétine pour former une image nette.",
+      "Le détail du 'Cristallin' est une phrase tronquée et incomplète : 'pour faire converger précisément la' ne se termine pas, ce qui est incompréhensible et scientifiquement incomplet (il manque la mention de la lumière sur la rétine)."
+    ]
+  },
+  "senegal-college-svt-le-fonctionnement-du-systeme-nerveux": {
+    "statut": "ok",
+    "chapitre": "Le fonctionnement du système nerveux",
+    "problemes": []
+  },
+  "senegal-college-svt-la-respiration-chez-l-espece-humaine": {
+    "statut": "corrige",
+    "chapitre": "La respiration chez l'espèce humaine",
+    "problemes": [
+      "Le schéma décrit le transport sanguin de l'O2 des poumons vers les cellules, mais omet l'étape symétrique du transport sanguin du CO2 des cellules vers les poumons : on passe directement de 'Production de CO2' (dans les cellules) à 'Rejet du CO2' (par les poumons), ce qui laisse croire à tort que le CO2 va directement des cellules aux poumons sans passer par le sang. Cela contredit le concept de la leçon qui précise que l'échange est permanent et implique le sang dans les deux sens."
+    ]
+  },
+  "senegal-college-physique-chimie-les-hydrocarbures": {
+    "statut": "ok",
+    "chapitre": "Les hydrocarbures",
+    "problemes": [
+      "Le schéma place au même niveau hiérarchique deux catégories de nature différente : les éléments constitutifs (Carbone, Hydrogène) et les familles de classification (Alcanes, Alcènes), sans distinction de niveau, ce qui brouille la logique de la leçon qui distingue clairement 'composition' (C et H) et 'classification' (alcanes vs alcènes).",
+      "Le contenu de chaque détail est scientifiquement correct et conforme à la leçon, mais l'absence de sous-groupes intermédiaires rend la hiérarchie trompeuse (on pourrait croire que Carbone/Hydrogène sont des 'types' d'hydrocarbures au même titre que Alcanes/Alcènes)."
+    ]
+  },
+  "senegal-college-svt-le-systeme-immunitaire": {
+    "statut": "ok",
+    "chapitre": "Le système immunitaire",
+    "problemes": []
+  },
+  "senegal-college-svt-le-cycle-des-roches": {
+    "statut": "ok",
+    "chapitre": "Le cycle des roches",
+    "problemes": []
+  },
+  "senegal-college-svt-le-role-du-rein-dans-l-excretion-urinair": {
+    "statut": "ok",
+    "chapitre": "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur",
+    "problemes": []
+  },
+  "senegal-college-svt-les-groupes-sanguins-specificite-immunol": {
+    "statut": "rejete",
+    "chapitre": "Les groupes sanguins (spécificité immunologique)",
+    "problemes": [
+      "Le champ 'racine' est tronqué : 'Groupe sanguin (antigènes des globules r' au lieu de 'globules rouges'. Ceci est une erreur de texte incomplet qui nuit à la clarté du schéma.",
+      "Le champ 'racine' est tronqué : \"Groupe sanguin (antigènes des globules r\" se termine en plein mot, il manque 'rouges)'. Cela rend le schéma incomplet et peu clair pour un usage scolaire.",
+      "Le champ 'racine' est tronqué : 'Groupe sanguin (antigènes des globules r' au lieu d'une formulation complète comme 'Groupe sanguin (antigènes des globules rouges)'."
+    ]
+  },
+  "senegal-college-svt-phenomenes-energetiques-accompagnant-la-": {
+    "statut": "rejete",
+    "chapitre": "Phénomènes énergétiques accompagnant la respiration",
+    "problemes": [
+      "Le schéma de type 'flux' présente 'Énergie ATP' (étape 4) et 'Chaleur' (étape 5) comme deux étapes séquentielles l'une après l'autre, alors que la leçon précise que l'énergie 'apparaît sous deux formes' simultanément : l'ATP et la chaleur sont produites EN MÊME TEMPS à partir de la même libération d'énergie, pas l'une après l'autre. Cet ordre linéaire peut faire croire à tort qu'il faut d'abord produire l'ATP puis ensuite la chaleur (ou l'inverse), ce qui est un contresens sur le mécanisme.",
+      "Les détails des items 4 et 5 ne précisent pas explicitement cette simultanéité/bifurcation, ce qui renforce l'ambiguïté du schéma en flux linéaire.",
+      "Le detail du dernier item est tronque : 'qui rechauffe le co' doit etre complete en 'qui rechauffe le corps'.",
+      "Le schema utilise un format 'flux' (sequentiel) alors que les deux dernieres etapes (ATP et chaleur) sont presentees comme simultanees : il faudrait un format qui montre clairement la bifurcation/simultaneite plutot qu'une simple suite lineaire, pour eviter de laisser croire que la chaleur vient apres l'ATP ou inversement.",
+      "Le détail du premier item affirme que l'oxygène est un « nutriment consommé par les cellules » : c'est un contresens, l'oxygène est un gaz comburant nécessaire à la réaction, pas un nutriment (le nutriment est le glucose).",
+      "Le dernier détail est tronqué : « réchauffe le co » au lieu de « réchauffe le corps »."
+    ]
+  }
+}

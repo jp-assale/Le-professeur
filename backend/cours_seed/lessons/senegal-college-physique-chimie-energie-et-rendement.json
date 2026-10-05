@@ -68,5 +68,32 @@
         "text": "Aucune machine n'atteint 100 % : il y a toujours des pertes."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Répartition de l'énergie dans un appareil",
+    "items": [
+      {
+        "label": "Énergie reçue",
+        "detail": "Énergie totale fournie à l'appareil, ex : 1000 J"
+      },
+      {
+        "label": "Transformation",
+        "detail": "L'appareil convertit l'énergie reçue"
+      },
+      {
+        "label": "Énergie utile",
+        "detail": "Part convertie en effet voulu, ex : 700 J"
+      },
+      {
+        "label": "Énergie perdue",
+        "detail": "Part perdue en chaleur ou frottement, ex : 300 J"
+      },
+      {
+        "label": "Calcul du rendement",
+        "detail": "Rendement = (utile / reçue) x 100"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

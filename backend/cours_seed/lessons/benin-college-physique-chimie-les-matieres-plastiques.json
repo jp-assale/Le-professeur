@@ -67,5 +67,32 @@
         "text": "Chaque plastique a un code de recyclage numéroté de 1 à 7."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "De la matière première au plastique",
+    "items": [
+      {
+        "label": "Pétrole brut",
+        "detail": "Matière première principale"
+      },
+      {
+        "label": "Monomères",
+        "detail": "Molécules simples obtenues par transformation chimique du pétrole"
+      },
+      {
+        "label": "Liaison des monomères",
+        "detail": "Les monomères se lient entre eux"
+      },
+      {
+        "label": "Longues chaînes",
+        "detail": "Formation des polymères"
+      },
+      {
+        "label": "Matière plastique",
+        "detail": "Flexible, légère, résistante"
+      }
+    ]
+  },
+  "schema_status": "corrige"
 }

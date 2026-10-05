@@ -67,5 +67,33 @@
         "text": "Isomères stéréoisomères ont des propriétés biologiques et optiques différentes."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Stéréoisomérie du 2-butanol",
+    "items": [
+      {
+        "label": "Formule moléculaire",
+        "detail": "identique pour les deux isomères"
+      },
+      {
+        "label": "Structure de liaison",
+        "detail": "même connectivité des atomes"
+      },
+      {
+        "label": "Arrangement spatial",
+        "detail": "disposition différente dans l'espace"
+      },
+      {
+        "label": "Isomère dextrogyre",
+        "detail": "pouvoir rotatoire +135°, vers la droite"
+      },
+      {
+        "label": "Isomère lévogyre",
+        "detail": "pouvoir rotatoire -135°, vers la gauche"
+      }
+    ],
+    "racine": "2-butanol (isomères stéréoisomères)"
+  },
+  "schema_status": "ok"
 }

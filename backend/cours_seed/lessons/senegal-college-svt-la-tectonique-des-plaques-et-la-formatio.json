@@ -67,5 +67,32 @@
         "text": "Pressions et températures créent des roches métamorphiques témoins tectoniques."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Formation d'une roche métamorphique",
+    "items": [
+      {
+        "label": "Convergence des plaques",
+        "detail": "Deux plaques tectoniques se rapprochent"
+      },
+      {
+        "label": "Enfouissement de la roche",
+        "detail": "La roche est entraînée en profondeur"
+      },
+      {
+        "label": "Augmentation pression et température",
+        "detail": "Jusqu'à 500°C et 1000 fois la pression atmosphérique"
+      },
+      {
+        "label": "Métamorphisme",
+        "detail": "Transformation sans fusion complète de la roche"
+      },
+      {
+        "label": "Roche métamorphique",
+        "detail": "Exemple : le calcaire devient marbre"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

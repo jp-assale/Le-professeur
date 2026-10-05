@@ -68,5 +68,32 @@
         "text": "Plante et sol échangent : relation vitale pour la fertilité."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "cycle",
+    "titre": "Le cycle des échanges sol-plante",
+    "items": [
+      {
+        "label": "Sol riche en nutriments",
+        "detail": "Contient eau, minéraux et oxygène disponibles"
+      },
+      {
+        "label": "Absorption racinaire",
+        "detail": "Les racines captent l’eau et les minéraux"
+      },
+      {
+        "label": "Croissance de la plante",
+        "detail": "La plante utilise les ressources pour se développer"
+      },
+      {
+        "label": "Matière organique morte",
+        "detail": "Feuilles et racines mortes tombent au sol"
+      },
+      {
+        "label": "Décomposition et enrichissement",
+        "detail": "Les microbes transforment la matière organique en nutriments"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

@@ -67,5 +67,41 @@
         "text": "Comprendre le sol permet de mieux cultiver et protéger cette ressource."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les caractéristiques d'un sol",
+    "items": [
+      {
+        "label": "Granulométrie",
+        "detail": "Taille des particules : sable, limon, argile"
+      },
+      {
+        "label": "Couleur",
+        "detail": "Indique composition et matière organique"
+      },
+      {
+        "label": "Texture",
+        "detail": "Proportion des éléments granulométriques"
+      },
+      {
+        "label": "Structure",
+        "detail": "Arrangement des particules entre elles"
+      },
+      {
+        "label": "Porosité",
+        "detail": "Espace entre les particules permettant la circulation et le stockage de l'air et de l'eau"
+      },
+      {
+        "label": "pH",
+        "detail": "Mesure de l'acidité ou basicité du sol"
+      },
+      {
+        "label": "Matière organique",
+        "detail": "Taux de résidus végétaux et animaux décomposés"
+      }
+    ],
+    "racine": "Caractéristiques d'un sol"
+  },
+  "schema_status": "corrige"
 }

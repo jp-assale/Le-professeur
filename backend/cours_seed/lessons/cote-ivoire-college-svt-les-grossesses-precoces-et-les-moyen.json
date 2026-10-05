@@ -68,5 +68,29 @@
         "text": "L'éducation sexuelle et la prévention sont essentielles pour éviter ces grossesses."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les risques de la grossesse précoce",
+    "items": [
+      {
+        "label": "Complications médicales",
+        "detail": "Risques graves pour la santé de la mère et de l'enfant"
+      },
+      {
+        "label": "Abandon scolaire",
+        "detail": "Interruption des études"
+      },
+      {
+        "label": "Marginalisation sociale",
+        "detail": "Rejet par l'entourage ou la communauté"
+      },
+      {
+        "label": "Problèmes psychologiques",
+        "detail": "Souffrance mentale et émotionnelle"
+      }
+    ],
+    "racine": "Grossesse précoce (avant 18 ans)"
+  },
+  "schema_status": "corrige"
 }

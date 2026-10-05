@@ -67,5 +67,29 @@
         "text": "Ces molécules se trouvent partout : savons, vinaigre, médicaments, conserves."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Acide carboxylique et fonctions dérivées",
+    "items": [
+      {
+        "label": "Ester",
+        "detail": "Groupe -COOR', formation avec un alcool"
+      },
+      {
+        "label": "Amide",
+        "detail": "Groupe -CONH2"
+      },
+      {
+        "label": "Anhydride d'acide",
+        "detail": "Dérivé issu de deux acides carboxyliques"
+      },
+      {
+        "label": "Chlorure d'acide",
+        "detail": "Groupe -COCl, très réactif"
+      }
+    ],
+    "racine": "Groupe carboxyle -COOH"
+  },
+  "schema_status": "ok"
 }

@@ -66,5 +66,28 @@
         "text": "Deux boucles principales : petite et grande circulation sanguine."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "cycle",
+    "titre": "La circulation sanguine en circuit fermé",
+    "items": [
+      {
+        "label": "Cœur",
+        "detail": "Pompe le sang vers les artères"
+      },
+      {
+        "label": "Artères",
+        "detail": "Transportent le sang du cœur vers les organes"
+      },
+      {
+        "label": "Capillaires",
+        "detail": "Échangent oxygène, nutriments et déchets"
+      },
+      {
+        "label": "Veines",
+        "detail": "Ramènent le sang vers le cœur"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

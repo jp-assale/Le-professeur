@@ -67,5 +67,32 @@
         "text": "Les molecules organiques sont la base de toute vie terrestre."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Vérifier qu'une molécule est organique",
+    "items": [
+      {
+        "label": "Lister les atomes",
+        "detail": "Identifier C, H, O, N présents dans la formule"
+      },
+      {
+        "label": "Vérifier le carbone",
+        "detail": "La molécule contient-elle du carbone"
+      },
+      {
+        "label": "Vérifier les liaisons",
+        "detail": "Le carbone est lié à d'autres atomes"
+      },
+      {
+        "label": "Conclure",
+        "detail": "Carbone lié à d'autres atomes = organique"
+      },
+      {
+        "label": "Identifier la fonction",
+        "detail": "Repérer le groupe caractéristique, ex -OH"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

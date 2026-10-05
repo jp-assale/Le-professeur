@@ -67,5 +67,29 @@
         "text": "Le rouge dévie moins, le violet dévie davantage."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "parties",
+    "titre": "Dispersion de la lumière par un prisme",
+    "items": [
+      {
+        "label": "Rayon incident",
+        "detail": "Lumière blanche, angle d’incidence 45°"
+      },
+      {
+        "label": "Rayon rouge",
+        "detail": "Émergence 48°, déviation 3°, faible déviation"
+      },
+      {
+        "label": "Rayon violet",
+        "detail": "Émergence 52°, déviation 7°, forte déviation"
+      },
+      {
+        "label": "Spectre visible",
+        "detail": "Séparation des couleurs à la sortie"
+      }
+    ],
+    "centre": "Prisme en verre"
+  },
+  "schema_status": "ok"
 }

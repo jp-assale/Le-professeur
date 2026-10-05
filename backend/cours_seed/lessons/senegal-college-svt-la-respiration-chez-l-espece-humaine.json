@@ -67,5 +67,36 @@
         "text": "Les poumons évacuent le dioxyde de carbone produit par les cellules."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "La respiration chez l'être humain",
+    "items": [
+      {
+        "label": "Capture de l'O2",
+        "detail": "Les poumons captent l'oxygène de l'air inspiré"
+      },
+      {
+        "label": "Transport sanguin de l'O2",
+        "detail": "Le sang transporte l'O2 des poumons vers les cellules"
+      },
+      {
+        "label": "Utilisation cellulaire",
+        "detail": "Les cellules utilisent l'O2 pour produire l'énergie"
+      },
+      {
+        "label": "Production de CO2",
+        "detail": "Les cellules produisent du dioxyde de carbone comme déchet"
+      },
+      {
+        "label": "Transport sanguin du CO2",
+        "detail": "Le sang transporte le CO2 des cellules vers les poumons"
+      },
+      {
+        "label": "Rejet du CO2",
+        "detail": "Les poumons évacuent le CO2 vers l'extérieur lors de l'expiration"
+      }
+    ]
+  },
+  "schema_status": "corrige"
 }

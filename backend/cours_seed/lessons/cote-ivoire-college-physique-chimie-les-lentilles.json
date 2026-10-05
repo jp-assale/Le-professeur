@@ -68,5 +68,7 @@
         "text": "Les lentilles divergentes dispersent la lumière vers les côtés."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

@@ -67,5 +67,7 @@
         "text": "Ce processus convertit les aliments en énergie utilisable."
       }
     ]
-  }
+  },
+  "schema": null,
+  "schema_status": "rejete"
 }

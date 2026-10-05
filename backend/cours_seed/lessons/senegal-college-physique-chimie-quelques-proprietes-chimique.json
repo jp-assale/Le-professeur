@@ -68,5 +68,29 @@
         "text": "Comprendre ces réactions permet de prédire et choisir le bon métal."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Réactivité des métaux face à l'oxygène",
+    "items": [
+      {
+        "label": "Magnésium",
+        "detail": "S'oxyde vite et complètement, très réactif"
+      },
+      {
+        "label": "Fer",
+        "detail": "Rouille partiellement, réactivité modérée"
+      },
+      {
+        "label": "Cuivre",
+        "detail": "Noircit légèrement, peu réactif"
+      },
+      {
+        "label": "Or",
+        "detail": "Ne s'oxyde presque pas, très peu réactif"
+      }
+    ],
+    "racine": "Réactivité des métaux"
+  },
+  "schema_status": "ok"
 }

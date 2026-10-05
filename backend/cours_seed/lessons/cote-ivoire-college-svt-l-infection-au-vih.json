@@ -68,5 +68,36 @@
         "text": "Sans traitement, le VIH évolue vers le SIDA et maladies opportunistes."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Évolution de l’infection au VIH",
+    "items": [
+      {
+        "label": "Entrée du VIH",
+        "detail": "Transmission sanguine, sexuelle ou mère-enfant"
+      },
+      {
+        "label": "Infection des CD4+",
+        "detail": "Le virus pénètre dans les lymphocytes T CD4+"
+      },
+      {
+        "label": "Reproduction du virus",
+        "detail": "Le VIH se multiplie à l’intérieur des cellules"
+      },
+      {
+        "label": "Destruction des CD4+",
+        "detail": "Les lymphocytes infectés sont détruits"
+      },
+      {
+        "label": "Affaiblissement immunitaire",
+        "detail": "Le nombre de CD4+ diminue progressivement"
+      },
+      {
+        "label": "Apparition du SIDA",
+        "detail": "Immunité effondrée, maladies opportunistes"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

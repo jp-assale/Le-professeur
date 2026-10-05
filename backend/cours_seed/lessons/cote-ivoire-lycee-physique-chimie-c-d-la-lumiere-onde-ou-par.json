@@ -68,5 +68,29 @@
         "text": "La lumière est à la fois onde et particule selon le contexte."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "La dualité onde-particule de la lumière",
+    "items": [
+      {
+        "label": "Comportement onde",
+        "detail": "Propagation libre : diffraction, contournement d'obstacles fins"
+      },
+      {
+        "label": "Comportement particule",
+        "detail": "Interaction avec la matière (absorption, émission)"
+      },
+      {
+        "label": "Photon",
+        "detail": "Particule porteuse d'énergie lumineuse"
+      },
+      {
+        "label": "Énergie du photon",
+        "detail": "E = h x nu, en joules"
+      }
+    ],
+    "racine": "Lumière"
+  },
+  "schema_status": "corrige"
 }

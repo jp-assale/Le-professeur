@@ -68,5 +68,36 @@
         "text": "L'équation chimique équilibrée décrit précisément la transformation."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Équilibrer une équation chimique",
+    "items": [
+      {
+        "label": "Compter les atomes",
+        "detail": "Comparer le nombre d’atomes de chaque élément avant et après"
+      },
+      {
+        "label": "Équilibrer H",
+        "detail": "Ajouter un coefficient devant H2O pour égaliser H"
+      },
+      {
+        "label": "Équilibrer O",
+        "detail": "Ajouter un coefficient devant O2 pour égaliser O"
+      },
+      {
+        "label": "Vérifier l’équilibre",
+        "detail": "Même nombre d’atomes de chaque élément des deux côtés"
+      },
+      {
+        "label": "Calculer les moles",
+        "detail": "Utiliser n = m / M avec la masse molaire"
+      },
+      {
+        "label": "Déduire la masse produite",
+        "detail": "Utiliser les coefficients de l’équation équilibrée"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }

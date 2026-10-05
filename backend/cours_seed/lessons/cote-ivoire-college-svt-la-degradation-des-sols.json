@@ -67,5 +67,25 @@
         "text": "Les pratiques humaines surpâturage, déforestation aggravent la dégradation des sols."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "La dégradation des sols",
+    "items": [
+      {
+        "label": "Origine naturelle",
+        "detail": "Érosion par pluie et vent, lessivage des éléments nutritifs"
+      },
+      {
+        "label": "Origine humaine",
+        "detail": "Surpâturage, déforestation, cultures répétées, excès de produits chimiques"
+      },
+      {
+        "label": "Conséquence",
+        "detail": "Perte de fertilité et de structure du sol"
+      }
+    ],
+    "racine": "Dégradation des sols"
+  },
+  "schema_status": "corrige"
 }

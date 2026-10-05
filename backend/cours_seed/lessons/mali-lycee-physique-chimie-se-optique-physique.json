@@ -68,5 +68,25 @@
         "text": "Ces phénomènes expliquent les arcs-en-ciel et l'éclat des surfaces."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "hierarchie",
+    "titre": "Les phénomènes ondulatoires de la lumière",
+    "items": [
+      {
+        "label": "Diffraction",
+        "detail": "La lumière se courbe autour d'un obstacle ou d'une fente"
+      },
+      {
+        "label": "Interférence",
+        "detail": "La lumière crée des zones claires et sombres"
+      },
+      {
+        "label": "Polarisation",
+        "detail": "La lumière oscille dans une direction privilégiée"
+      }
+    ],
+    "racine": "Lumière (onde électromagnétique)"
+  },
+  "schema_status": "ok"
 }

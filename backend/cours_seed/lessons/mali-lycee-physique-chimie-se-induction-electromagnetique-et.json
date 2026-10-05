@@ -67,5 +67,32 @@
         "text": "Le courant induit s'oppose toujours à la variation qui l'a produit."
       }
     ]
-  }
+  },
+  "schema": {
+    "type": "flux",
+    "titre": "Induction électromagnétique",
+    "items": [
+      {
+        "label": "Variation du flux magnétique",
+        "detail": "Le champ magnétique à travers la bobine change dans le temps"
+      },
+      {
+        "label": "Calcul de dPhi/dt",
+        "detail": "Variation du flux divisée par la durée"
+      },
+      {
+        "label": "Force électromotrice induite",
+        "detail": "e = -dPhi/dt apparaît aux bornes de la bobine"
+      },
+      {
+        "label": "Courant induit",
+        "detail": "La fem fait circuler un courant dans le conducteur"
+      },
+      {
+        "label": "Opposition à la variation",
+        "detail": "Loi de Lenz : le courant s'oppose à sa cause"
+      }
+    ]
+  },
+  "schema_status": "ok"
 }
