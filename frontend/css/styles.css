@@ -828,18 +828,18 @@ body {
   width: fit-content; max-width: 100%;
   border: 1px solid var(--border); border-radius: 12px; background: var(--bg);
 }
-.pd-title { font-size: 0.66rem; font-weight: 700; color: var(--green-dark); margin-bottom: 4px; }
+.pd-title { font-size: 0.74rem; font-weight: 700; color: var(--green-dark); margin-bottom: 4px; }
 /* Scene dessinee a 270 px de large puis reduite (zoom) : l'animation garde ses
    proportions, l'ensemble prend ~40 % de place en moins. */
 .pd-stage {
   position: relative; width: 270px; height: 176px; overflow: hidden; border-radius: 10px;
   border: 1px solid var(--border); background: var(--surface);
-  zoom: 0.62;
+  zoom: 0.85;
 }
 .pd-head { position: absolute; left: 0; right: 0; top: 0; height: 46px; background: linear-gradient(135deg, #0d7a5f, #14a37f); }
 .pd-chip {
   position: absolute; left: 10px; top: 9px; background: #fff; color: #08543f;
-  border-radius: 16px; padding: 5px 11px; font-size: 0.74rem; font-weight: 700;
+  border-radius: 16px; padding: 5px 11px; font-size: 0.84rem; font-weight: 700;
   box-shadow: 0 3px 8px rgba(0,0,0,0.18); display: flex; gap: 5px; align-items: center;
   animation: pdChipPress 12s infinite;
 }
@@ -855,7 +855,7 @@ body {
 }
 .pd-row {
   display: flex; justify-content: space-between; align-items: center; gap: 8px;
-  font-size: 0.72rem; padding: 4px 8px; border: 1px solid var(--border); border-radius: 8px;
+  font-size: 0.82rem; padding: 4px 8px; border: 1px solid var(--border); border-radius: 8px;
   margin-bottom: 4px; background: var(--bg); height: 24px;
 }
 .pd-row > span:first-child { color: var(--text-muted); }
@@ -866,14 +866,14 @@ body {
 .pd-r2 .pd-val { animation: pdVal2 12s infinite; } .pd-r2 .pd-ph { animation-name: pdPh2; }
 .pd-r3 .pd-val { animation: pdVal3 12s infinite; } .pd-r3 .pd-ph { animation-name: pdPh3; }
 .pd-btn {
-  text-align: center; background: var(--green); color: #fff; font-size: 0.72rem; font-weight: 700;
+  text-align: center; background: var(--green); color: #fff; font-size: 0.82rem; font-weight: 700;
   border-radius: 8px; padding: 5px; animation: pdBtnPress 12s infinite;
 }
 .pd-finger {
   position: absolute; left: 70%; top: 150px; font-size: 1.35rem; line-height: 1; opacity: 0;
   pointer-events: none; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.3)); animation: pdFinger 12s infinite;
 }
-.pd-caption { font-size: 0.62rem; line-height: 1.3; color: var(--text-muted); margin-top: 4px; text-align: center; max-width: 168px; margin-left: auto; margin-right: auto; }
+.pd-caption { font-size: 0.7rem; line-height: 1.35; color: var(--text-muted); margin-top: 5px; text-align: center; max-width: 230px; margin-left: auto; margin-right: auto; }
 
 @keyframes pdFinger {
   0%   { left: 72%; top: 150px; opacity: 0; transform: scale(1); }
