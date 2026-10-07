@@ -22,6 +22,7 @@ from flask_cors import CORS
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 import cinetpay
+import data_deletion
 import db
 import pdf_library
 import cours_library
@@ -1023,6 +1024,21 @@ def admin_list_premium():
     if denied:
         return denied
     return jsonify(subscription.list_subscriptions())
+
+
+@app.route("/api/admin/delete-device", methods=["POST"])
+def admin_delete_device():
+    """Droit a l'effacement : supprime les donnees d'un code appareil
+    (voir data_deletion.py et la page publique suppression-donnees.html)."""
+    denied = _require_admin()
+    if denied:
+        return denied
+    data = request.get_json(silent=True) or {}
+    device_id = (data.get("device_id") or "").strip()
+    if not device_id:
+        return jsonify({"error": "device_id manquant"}), 400
+    counts = data_deletion.delete_device_data(device_id, bool(data.get("include_subscription")))
+    return jsonify({"ok": True, "device_id": device_id, "supprime": counts})
 
 
 @app.route("/api/quota", methods=["GET"])

@@ -126,6 +126,18 @@
   <button type="button" id="premium-deactivate-btn" style="background:#fdeceb;color:#9b2c2c;border:1px solid #f3c6c2;margin-top:8px;">Désactiver (correction d'erreur)</button>
   <div class="admin-msg" id="premium-msg"></div>
 
+  <h3 style="font-size:0.9rem;margin-top:22px;">Supprimer les données d'un appareil (demande d'effacement)</h3>
+  <p style="font-size:0.82rem;color:var(--text-muted);margin:4px 0 8px;">Efface progression, profils, signalements, transactions et compteur du code appareil. L'abonnement n'est supprimé que s'il est expiré, ou si tu coches la case.</p>
+  <div class="admin-field">
+    <label for="delete-device-id">Code appareil de la personne</label>
+    <input type="text" id="delete-device-id" placeholder="ex: dev-abc123-1234567890">
+  </div>
+  <label style="display:flex;gap:8px;align-items:center;font-size:0.85rem;margin:8px 0;">
+    <input type="checkbox" id="delete-include-sub"> Supprimer aussi l'abonnement (même s'il est encore actif)
+  </label>
+  <button type="button" id="delete-device-btn" style="background:#fdeceb;color:#9b2c2c;border:1px solid #f3c6c2;">Supprimer ses données</button>
+  <div class="admin-msg" id="delete-device-msg"></div>
+
   <h3 style="font-size:0.9rem;margin-top:22px;">Suivi des abonnements</h3>
   <button type="button" class="stats-refresh" id="premium-list-refresh">Actualiser la liste</button>
   <div id="premium-list-wrap" style="margin-top:10px;"></div>
@@ -376,6 +388,40 @@
       premiumMsg.className = "admin-msg err";
     }
   }
+
+  document.getElementById("delete-device-btn").addEventListener("click", async () => {
+    const msg = document.getElementById("delete-device-msg");
+    const deviceId = document.getElementById("delete-device-id").value.trim();
+    if (!deviceId) {
+      msg.textContent = "Colle d'abord le code appareil.";
+      msg.className = "admin-msg err";
+      return;
+    }
+    const withSub = document.getElementById("delete-include-sub").checked;
+    if (!confirm("Supprimer définitivement les données de " + deviceId + (withSub ? " (abonnement compris)" : "") + " ?")) return;
+    try {
+      const res = await fetch("/api/admin/delete-device", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "X-Admin-Token": tokenInput.value },
+        body: JSON.stringify({ device_id: deviceId, include_subscription: withSub }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        msg.textContent = data.error || ("Erreur (statut " + res.status + ").");
+        msg.className = "admin-msg err";
+        return;
+      }
+      const s = data.supprime;
+      msg.textContent = "✅ Supprimé : " + s.progress_events + " événement(s) de progression, " + s.profiles +
+        " profil(s), " + s.reports + " signalement(s), " + s.payments + " transaction(s)" +
+        (s.subscriptions ? ", abonnement supprimé" : (s.abonnement_actif_conserve ? " — abonnement actif conservé (case non cochée)" : "")) + ".";
+      msg.className = "admin-msg ok";
+      loadPremiumList();
+    } catch (err) {
+      msg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
+      msg.className = "admin-msg err";
+    }
+  });
 
   document.getElementById("premium-activate-btn").addEventListener("click", () => setPremium(true));
   document.getElementById("premium-deactivate-btn").addEventListener("click", () => setPremium(false));
