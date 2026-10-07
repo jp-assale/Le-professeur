@@ -25,6 +25,7 @@
     <li>Le texte de tes questions, et si tu en envoies, la photo ou le PDF de ton sujet.</li>
     <li>Ton prénom, si tu le donnes : il est gardé sur ton téléphone. Il est envoyé avec tes questions et lu dans la salutation vocale, uniquement pour que Le Prof JPA t'appelle par ton nom. Il n'est pas enregistré dans notre base de données.</li>
     <li>Ta progression, liée à l'identifiant technique de l'appareil : matière, nombre de questions, résultats des quiz et dates. Elle sert à adapter les explications à ton niveau. Le texte de tes questions n'y figure pas.</li>
+    <li>Ton adresse IP, uniquement pour limiter les abus : elle sert à tenir un compteur de questions par jour, sans lien avec ton nom.</li>
     <li>Si tu t'abonnes : ton identifiant d'appareil et le nom ou numéro donné au moment du paiement, pour activer ton accès illimité.</li>
   </ul>
 
@@ -33,6 +34,9 @@
   <strong>Anthropic</strong> (l'entreprise derrière le modèle d'IA Claude) pour générer la
   réponse pédagogique. Elles ne sont <strong>pas stockées dans notre base de données</strong> après
   la réponse — pas de copie de tes photos gardée chez nous.</p>
+  <p><strong>Dictée vocale :</strong> si tu poses ta question avec le micro, la reconnaissance
+  vocale est assurée par le service de ton téléphone (par exemple celui de Google). Nous ne
+  recevons jamais l'enregistrement, seulement le texte obtenu, comme une question écrite.</p>
   <p><strong>Voix du Prof :</strong> quand tu écoutes une réponse ou une leçon (ou à la
   salutation d'ouverture), le texte à lire est envoyé à notre serveur, qui le transmet à un
   service de synthèse vocale de <strong>Microsoft</strong> pour produire l'audio. L'audio est
