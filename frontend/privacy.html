@@ -24,14 +24,21 @@
   <ul>
     <li>Un identifiant technique aléatoire par appareil (pas ton nom, pas ton numéro), pour compter les questions gratuites du jour.</li>
     <li>Le texte de tes questions, et si tu en envoies, la photo ou le PDF de ton sujet.</li>
-    <li>Ton prénom, si tu le donnes : il est gardé sur ton téléphone et envoyé avec tes questions uniquement pour que Le Prof JPA t'appelle par ton nom. Il n'est pas enregistré sur nos serveurs.</li>
+    <li>Ton prénom, si tu le donnes : il est gardé sur ton téléphone. Il est envoyé avec tes questions et lu dans la salutation vocale, uniquement pour que Le Prof JPA t'appelle par ton nom. Il n'est pas enregistré dans notre base de données.</li>
+    <li>Ta progression, liée à l'identifiant technique de l'appareil : matière, nombre de questions, résultats des quiz et dates. Elle sert à adapter les explications à ton niveau. Le texte de tes questions n'y figure pas.</li>
+    <li>Si tu t'abonnes : ton identifiant d'appareil et le nom ou numéro donné au moment du paiement, pour activer ton accès illimité.</li>
   </ul>
 
   <h2>Ce qu'on en fait</h2>
   <p>Tes questions (et photos/PDF si tu en envoies) sont transmises à l'API de
   <strong>Anthropic</strong> (l'entreprise derrière le modèle d'IA Claude) pour générer la
-  réponse pédagogique. Elles ne sont <strong>pas stockées sur nos serveurs</strong> après
+  réponse pédagogique. Elles ne sont <strong>pas stockées dans notre base de données</strong> après
   la réponse — pas de copie de tes photos gardée chez nous.</p>
+  <p><strong>Voix du Prof :</strong> quand tu écoutes une réponse ou une leçon (ou à la
+  salutation d'ouverture), le texte à lire est envoyé à notre serveur, qui le transmet à un
+  service de synthèse vocale de <strong>Microsoft</strong> pour produire l'audio. L'audio est
+  gardé au plus 14 jours sur notre serveur, sans ton identifiant d'appareil, pour ne pas
+  refaire la même voix. Tu peux désactiver la salutation vocale dans le menu « Plus ».</p>
 
   <h2>Conseil pratique</h2>
   <p>Avant d'envoyer une photo de ton sujet, évite si possible qu'elle montre ton

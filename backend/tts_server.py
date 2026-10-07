@@ -29,6 +29,7 @@ AZURE_KEY = os.environ.get("AZURE_SPEECH_KEY", "")
 AZURE_REGION = os.environ.get("AZURE_SPEECH_REGION", "")
 CACHE_DIR = os.path.join(DATA_DIR, "tts_cache")
 CACHE_MAX_BYTES = 300 * 1024 * 1024
+CACHE_MAX_AGE_DAYS = 14
 MAX_CHARS = 2500
 EDGE_TIMEOUT = 20  # secondes avant de basculer sur Piper
 
@@ -67,6 +68,16 @@ def _prune_cache():
             files.append((st.st_mtime, st.st_size, p))
         except OSError:
             continue
+    # Conservation limitee : un audio de plus de CACHE_MAX_AGE_DAYS jours est supprime
+    # (annonce dans privacy.html), meme si la taille maximale n'est pas atteinte.
+    expired = time.time() - CACHE_MAX_AGE_DAYS * 86400
+    for mtime, size, p in files:
+        if mtime < expired:
+            try:
+                os.remove(p)
+            except OSError:
+                pass
+    files = [f for f in files if f[0] >= expired]
     total = sum(f[1] for f in files)
     for _, size, p in sorted(files):
         if total <= CACHE_MAX_BYTES:
