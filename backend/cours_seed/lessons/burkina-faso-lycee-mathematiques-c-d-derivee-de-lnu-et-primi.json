@@ -16,7 +16,7 @@
   "concept": {
     "heading": "Concept clé : Dérivée de ln(u) et primitive de u'/u",
     "explanation": "Lorsque tu rencontres une fonction composée de la forme $\\ln(u(x))$ où $u$ est elle-même une fonction dérivable et strictement positive, tu ne peux pas appliquer naïvement la dérivée de $\\ln(x)$. Tu dois utiliser la règle de dérivation en chaîne. De façon remarquable, la dérivée de $\\ln(u)$ s'écrit $\\frac{u'}{u}$, c'est-à-dire le quotient de la dérivée du numérateur par le numérateur lui-même. En sens inverse, cela signifie que toute expression de la forme $\\frac{u'}{u}$ admet une primitive immédiate : $\\ln|u| + C$. Cette relation réciproque entre dérivation et intégration est l'une des plus importantes du calcul intégral.",
-    "highlight": "Si $u(x) > 0$, alors $\\frac{d}{dx}[\\ln(u(x))] = \\frac{u'(x)}{u(x)}$, et inversement : $\\int \\frac{u'(x)}{u(x)} \\, dx = \\ln|u(x)| + C"
+    "highlight": "Si $u(x) > 0$, alors $\\frac{d}{dx}[\\ln(u(x))] = \\frac{u'(x)}{u(x)}$, et inversement : $\\int \\frac{u'(x)}{u(x)} \\, dx = \\ln|u(x)| + C$"
   },
   "example": {
     "problem": "Soit $f(x) = \\ln(3x^2 + 5)$ définie sur son ensemble de définition. Calcule la dérivée $f'(x)$.",

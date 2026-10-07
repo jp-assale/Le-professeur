@@ -21,7 +21,7 @@
   "example": {
     "problem": "Un champ rectangulaire a une largeur variable. À chaque position $x$ (en mètres) mesurée depuis le bord, la largeur est donnée par $f(x) = 3x + 2$ (en mètres). Le champ s'étend de $x = 0$ à $x = 4$ mètres. Calcule l'aire totale du champ.",
     "steps": [
-      "Étape 1 : Identifie la fonction à intégrer. Ici, $f(x) = 3x + 2$ sur l'intervalle $[0, 4].",
+      "Étape 1 : Identifie la fonction à intégrer. Ici, $f(x) = 3x + 2$ sur l'intervalle $[0, 4]$.",
       "Étape 2 : Trouve une primitive $F(x)$ de $f(x)$. La primitive de $3x$ est $\\frac{3x^2}{2}$ et celle de $2$ est $2x$, donc $F(x) = \\frac{3x^2}{2} + 2x$.",
       "Étape 3 : Applique la formule : $\\int_0^4 (3x + 2) \\, dx = F(4) - F(0)$.",
       "Étape 4 : Calcule $F(4) = \\frac{3 \\cdot 4^2}{2} + 2 \\cdot 4 = \\frac{3 \\cdot 16}{2} + 8 = \\frac{48}{2} + 8 = 24 + 8 = 32$.",

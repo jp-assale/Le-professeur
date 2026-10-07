@@ -16,7 +16,7 @@
   "concept": {
     "heading": "Le moteur à combustion interne : définition et principe",
     "explanation": "Un moteur à combustion interne est un système qui produit de l'énergie mécanique par la combustion (brûlure) d'un carburant (essence ou diesel) à l'intérieur d'une chambre fermée appelée cylindre. Cette combustion libère de la chaleur et des gaz qui exercent une pression et font bouger un piston. Le piston transmet ce mouvement à un vilebrequin, qui le transforme en rotation pour faire tourner les roues d'un véhicule.\n\nLe cycle principal du moteur à quatre temps (le plus courant) comprend :\n1. Admission : entrée du mélange air-carburant\n2. Compression : réduction du volume par le piston\n3. Combustion et détente : explosion et poussée du piston\n4. Échappement : évacuation des gaz brûlés",
-    "highlight": "Energie chimique du carburant → Energie thermique (chaleur) → Energie mecanique (mouvement)"
+    "highlight": "Énergie chimique du carburant → Énergie thermique (chaleur) → Énergie mécanique (mouvement)"
   },
   "example": {
     "problem": "Un moteur à combustion simple a un cylindre avec un piston. Lors de la phase de compression, le volume initial du mélange air-carburant est de 500 cm³. Après compression, ce volume passe à 50 cm³. Calcule le taux de compression du moteur (rapport entre volume initial et volume final).",

@@ -16,7 +16,7 @@
   "concept": {
     "heading": "Définition et concept clé",
     "explanation": "Une oscillation forcée se produit quand un système oscillant (comme un pendule ou une masse-ressort) est soumis à une force extérieure périodique qui varie avec le temps. Contrairement aux oscillations libres où le système oscille à sa propre fréquence naturelle, ici la fréquence imposée par la force externe modifie le comportement du système. Le phénomène le plus important est la résonance : lorsque la fréquence de la force externe égale la fréquence naturelle du système, l'amplitude des oscillations devient très grande, pouvant même causer la rupture du système.",
-    "highlight": "Resonance : amplitude maximale quand frequence forcee = frequence naturelle du systeme"
+    "highlight": "Resonance : amplitude maximale quand fréquence forcée = fréquence naturelle du système"
   },
   "example": {
     "problem": "Un système masse-ressort a une fréquence naturelle de 5 Hz. On lui applique une force sinusoïdale $F(t) = F_0 \\sin(2\\pi f t)$ où $F_0 = 10$ N. L'amortissement est faible. Calcule l'amplitude des oscillations à la résonance sachant que la masse est $m = 2$ kg et que la constante de raideur du ressort est $k = 2000$ N/m. (On prendra l'amplitude à la résonance proportionnelle à $\\frac{F_0}{2m\\gamma\\omega_0}$ où $\\gamma$ est le coefficient d'amortissement. Pour une résonance nette, utilise $\\gamma = 0,5$ s$^{-1}$.)",

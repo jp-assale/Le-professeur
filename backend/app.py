@@ -1,4 +1,5 @@
 import base64
+import ipaddress
 import json
 import os
 import re
@@ -161,7 +162,10 @@ def _clean_prenom(raw) -> str | None:
     deguisees en prenom)."""
     if not isinstance(raw, str):
         return None
-    cleaned = re.sub(r"[^A-Za-zÀ-ÿ' \-]", "", raw).strip()[:30]
+    cleaned = re.sub(r"[^A-Za-zÀ-ÿ' \-]", "", raw)
+    # Un prenom : 2 mots au plus, 20 caracteres - trop court pour y glisser
+    # une phrase d'instruction.
+    cleaned = " ".join(cleaned.split()[:2]).strip()[:20].strip()
     return cleaned or None
 
 
@@ -385,10 +389,33 @@ MAX_UPLOAD_B64_LEN = 12_000_000  # ~9 Mo de fichier brut une fois decode
 UPLOAD_QUESTION_WEIGHT = int(os.environ.get("UPLOAD_QUESTION_WEIGHT", "2"))
 
 
+def _is_private_ip(ip: str) -> bool:
+    try:
+        return ipaddress.ip_address(ip).is_private
+    except ValueError:
+        return False
+
+
 def _client_ip() -> str:
-    # Derriere un proxy/load balancer en prod, verifier X-Forwarded-For selon
-    # la config d'hebergement plutot que de faire confiance a cet en-tete brut.
-    return request.remote_addr or "unknown"
+    """Adresse reelle du client.
+
+    Sur Render, l'appli est derriere des proxys : request.remote_addr est
+    l'adresse interne du proxy, identique pour TOUS les utilisateurs - les
+    limites par IP seraient alors partagees par toute la base d'utilisateurs.
+    CF-Connecting-IP est ecrit par Cloudflare (le client ne peut pas le
+    forger) ; a defaut, derriere un seul proxy de confiance on prend la
+    DERNIERE entree de X-Forwarded-For (celle ajoutee par ce proxy, pas la
+    premiere que le client peut inventer)."""
+    for header in ("CF-Connecting-IP", "True-Client-IP"):
+        value = request.headers.get(header, "").strip()
+        if value:
+            return value
+    remote = request.remote_addr or "unknown"
+    if _is_private_ip(remote):
+        forwarded = request.headers.get("X-Forwarded-For", "")
+        if forwarded:
+            return forwarded.split(",")[-1].strip() or remote
+    return remote
 
 
 @app.route("/api/upload-exercice", methods=["POST"])
@@ -1188,7 +1215,14 @@ def tts_health():
     started = time.time()
     try:
         audio, _ = tts_server.synthesize("Bonjour.", "piper")
-        return jsonify({"piper": "ok", "bytes": len(audio), "seconds": round(time.time() - started, 1)})
+        return jsonify({
+            "piper": "ok", "bytes": len(audio), "seconds": round(time.time() - started, 1),
+            # Diagnostic : l'IP vue par le serveur est-elle bien celle du client
+            # (et non celle du proxy) ? Ne revele que l'information du appelant.
+            "ip_via_cloudflare": bool(request.headers.get("CF-Connecting-IP")),
+            "remote_addr_private": _is_private_ip(request.remote_addr or ""),
+            "ip_is_private": _is_private_ip(_client_ip()),
+        })
     except Exception as exc:
         return jsonify({"piper": "erreur", "detail": f"{type(exc).__name__}: {str(exc)[:200]}"}), 503
 

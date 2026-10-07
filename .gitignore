@@ -36,3 +36,5 @@ android/app/src/main/assets/capacitor.config.json
 Thumbs.db
 email-cinetpay.txt
 backend/tts_cache/
+backend/piper/
+backend/audit_answers.json

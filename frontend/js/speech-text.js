@@ -109,10 +109,13 @@
       const e2 = expOf(e2a, e2b);
       const plain = !e1 && !u2;
       if (AMBIGUOUS.has(u1) && plain) {
-        const next = whole.slice(offset + m.length).match(/^\s*(.)?/)[1] || "";
-        // « 2 m v² », « 3m(x) » : une variable suit, ce n'est pas une unite.
-        if (/[A-Za-z0-9(]/.test(next)) return m;
+        const after = whole.slice(offset + m.length);
+        const word = after.match(/^\s*([A-Za-zÀ-ÿ]+)/);
+        // « 2 m v² », « 3m(x) », « 2 A 3 » : une variable ou un nombre suit, ce
+        // n'est pas une unite. Un vrai mot (« 19 J et… ») ne change rien.
+        if (/^\s*[0-9(]/.test(after) || (word && word[1].length === 1)) return m;
         // "2A", "3m + 2" : variable probable. "5m" seul reste une longueur.
+        const next = (after.match(/^\s*(.)?/)[1]) || "";
         if (space === "" && (inMath || !GLUED_OK.has(u1) || /[+\-−=*\/×÷^<>]/.test(next))) return m;
       }
       const value = parseFloat(num.replace(",", "."));
@@ -136,6 +139,92 @@
     return s;
   }
 
+  const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-", "⁺": "+" };
+  const SUBS = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9", "₊": "+", "₋": "-" };
+  const SYM_WORDS = {
+    "ℝ": " les réels ", "ℤ": " les entiers relatifs ", "ℕ": " les entiers naturels ", "ℚ": " les rationnels ",
+    "ℂ": " les complexes ", "∈": " appartient à ", "∉": " n'appartient pas à ", "⊂": " inclus dans ",
+    "∪": " union ", "∩": " inter ", "∅": " ensemble vide ", "∀": " pour tout ", "∃": " il existe ",
+    "∫": " intégrale ", "∑": " somme ", "∏": " produit ", "∘": " rond ", "⟺": " équivaut à ", "⇔": " équivaut à ",
+    "⟹": " donc ", "⟶": " donne ", "⟼": " associe ", "⇌": " équilibre avec ", "↔": " équivaut à ", "∝": " proportionnel à ",
+    "∼": " environ ", "√": " racine carrée de ", "·": " fois ", "⋅": " fois ", "∙": " fois ", "∆": " delta ",
+    "‰": " pour mille ", "∥": " parallèle à ", "⊥": " perpendiculaire à ", "∠": " angle ", "≡": " équivaut à ",
+    "∞": " l'infini ", "≠": " différent de ", "≤": " inférieur ou égal à ", "≥": " supérieur ou égal à ",
+    "≈": " environ égal à ", "×": " fois ", "÷": " divisé par ", "±": " plus ou moins ", "→": " donne ", "⇒": " donc ",
+    "−": " moins ",
+  };
+  const GREEK_CHARS = {
+    α: "alpha", β: "bêta", γ: "gamma", Γ: "gamma", δ: "delta", Δ: "delta", ε: "epsilon", ζ: "dzêta", η: "êta",
+    θ: "thêta", Θ: "thêta", λ: "lambda", Λ: "lambda", μ: "mu", ν: "nu", ξ: "ksi", π: "pi", Π: "pi", ρ: "rhô",
+    σ: "sigma", Σ: "sigma", τ: "tau", φ: "phi", Φ: "phi", χ: "khi", ψ: "psi", Ψ: "psi", ω: "oméga", Ω: "oméga",
+  };
+  const SYM_RE = new RegExp("[" + Object.keys(SYM_WORDS).join("") + "]", "g");
+
+  // Symboles Unicode et notations « texte brut » (exposants, indices, ensembles,
+  // lettres grecques, valeur absolue, intervalles, /, ^, _, tirets, puces...)
+  // convertis en mots ou en pauses : le moteur vocal ne doit rien epeler.
+  function normalizeSymbols(s) {
+    // Exposants Unicode : H⁺ / Fe³⁺ (ions), 10⁻¹⁹ et x² (puissances).
+    s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+/g, (run) => {
+      const a = [...run].map((c) => SUP[c]).join("");
+      if (a === "+") return " plus ";
+      if (a === "-") return " moins ";
+      if (/^\d+[+-]$/.test(a)) return " " + a.slice(0, -1) + (a.endsWith("+") ? " plus " : " moins ");
+      if (a === "2") return " au carré ";
+      if (a === "3") return " au cube ";
+      return " puissance " + a.replace("-", "moins ").replace("+", "") + " ";
+    });
+    // Indices Unicode : chimie (H₂O) = chiffres seuls ; maths (x₀, P₁) = « indice ».
+    s = s.replace(/(?<=[A-Z)\]])[₀₁₂₃₄₅₆₇₈₉]+/g, (run) => " " + [...run].map((c) => SUBS[c]).join("") + " ")
+      .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, (run) => " indice " + [...run].map((c) => SUBS[c]).join("").replace("-", "moins ") + " ");
+
+    // Puissances et indices ecrits en texte brut (a^n, e^(i·x), m_1, P_total).
+    s = s.replace(/\^\s*\{\s*2\s*\}|\^\s*2(?![0-9])/g, " au carré ")
+      .replace(/\^\s*\{\s*3\s*\}|\^\s*3(?![0-9])/g, " au cube ")
+      .replace(/\^\s*\*/g, " étoile ")
+      .replace(/\^\s*\(([^()]+)\)/g, " puissance , $1 , ")
+      .replace(/\^\s*\{([^{}]+)\}/g, " puissance , $1 , ")
+      .replace(/\^\s*(-?[A-Za-z0-9]+)/g, " puissance $1 ");
+    s = s.replace(/(?<=[A-Z)])_\s*\{?(\d+)\}?/g, " $1 ")
+      .replace(/_\s*\{([^{}]+)\}/g, " indice $1 , ")
+      .replace(/_\s*([A-Za-z0-9]+)/g, " indice $1 ");
+
+    // Symboles mathematiques -> mots ; lettres grecques -> noms.
+    s = s.replace(SYM_RE, (c) => SYM_WORDS[c]);
+    s = s.replace(/[Ͱ-Ͽ]/g, (c) => (GREEK_CHARS[c] ? " " + GREEK_CHARS[c] + " " : " "));
+
+    // Valeur absolue / module, probabilite conditionnelle, intervalles.
+    s = s.replace(/P\(([^()|]+)\|([^()|]+)\)/g, "P de $1 sachant $2")
+      .replace(/\|\s*([^|\n]{1,24}?)\s*\|/g, (m, x) => (/^[zwZW]$/.test(x.trim()) ? " module de " : " valeur absolue de ") + x + " , ")
+      .replace(/\|/g, " , ");
+    s = s.replace(/\[\s*(-?\d+(?:[.,]\d+)?|[a-z])\s*[,;]\s*(-?\d+(?:[.,]\d+)?|[a-z])\s*\]/g, " de $1 à $2 ");
+
+    // Derivees : u' -> « u prime », f'' -> « f seconde » (pas les citations 'since').
+    s = s.replace(/((?<![A-Za-zÀ-ÿ'’"«])[A-Za-z]|\))(?:''|’’)(?![A-Za-zÀ-ÿ])/g, "$1 seconde ")
+      .replace(/((?<![A-Za-zÀ-ÿ'’"«])[A-Za-z]|\))['’](?![A-Za-zÀ-ÿ'’])/g, "$1 prime ");
+
+    // Numero, dates, tirets, points de suspension, esperluette.
+    s = s.replace(/\b[nN]°\s*(?=\d)/g, "numéro ")
+      .replace(/\b(\d{1,2})\/(\d{1,2})\/(\d{2,4})\b/g, "$1, $2, $3")
+      .replace(/(\d)\s*[–—]\s*(\d)/g, "$1 à $2")
+      .replace(/[—–]/g, " , ")
+      .replace(/…|\.{3,}/g, " , ")
+      .replace(/&/g, " et ");
+
+    // Barre oblique : « P / U » = fraction ; « et/ou » = ou.
+    s = s.replace(/\bet\/ou\b/gi, "et ou");
+    s = s.replace(/([\p{L}\p{N}]+|\))\s*\/\s*([\p{L}\p{N}]+|\()/gu, (m, a, b) =>
+      (/^\p{L}{2,}$/u.test(a) && /^\p{L}{2,}$/u.test(b) ? a + " ou " + b : a + " sur " + b));
+
+    // Operateurs restants, ecrits sans espaces.
+    s = s.replace(/(\d|\)|[A-Za-z])\s*\*\s*(?=[\dA-Za-z(])/g, "$1 fois ")
+      .replace(/\+/g, " plus ").replace(/=/g, " égale ").replace(/</g, " inférieur à ").replace(/>/g, " supérieur à ");
+
+    // Reste de LaTeX brut (matrices) et dollars isoles.
+    s = s.replace(/\\(?:begin|end)\s*\{[^}]*\}/g, " , ").replace(/\\\\/g, " , ").replace(/\$/g, " ");
+    return s;
+  }
+
   function spokenMath(expr, opts) {
     const inMath = !(opts && opts.prose);
     let s = " " + expr + " ";
@@ -144,6 +233,9 @@
     s = s.replace(/\\(?:left|right|displaystyle|textstyle|big|Big|bigg|Bigg|limits|nolimits)(?![A-Za-z])/g, " ")
       .replace(/\\[,;:! ]/g, " ").replace(/~/g, " ").replace(/\\(?:quad|qquad)(?![A-Za-z])/g, " ")
       .replace(/−/g, "-");
+
+    // Matrices : « 3 \\ 4 » = les coordonnees, separees par des pauses.
+    s = s.replace(/\\(?:begin|end)\s*\{[^}]*\}/g, " , ");
 
     // Texte dans la formule (unites ecrites \text{m}, \mathrm{kg}).
     s = dropBraces(s, /\\(?:text|mathrm|textbf|mathbf|mbox|operatorname|textit)\s*\{([^{}]*)\}/g, " $1 ");
@@ -174,6 +266,7 @@
       return " ";
     });
     s = s.replace(/\\\\/g, " , ").replace(/&/g, " ");
+    s = normalizeSymbols(s);
 
     // Puissances.
     s = s.replace(/\^\s*\{\s*2\s*\}|\^\s*2(?![0-9])|²/g, " au carré ")
@@ -214,9 +307,12 @@
     const L = "(?<![A-Za-zÀ-ÿ])[a-z](?![A-Za-zÀ-ÿ])";
     // Unites d'abord : « m/s² » ne doit pas devenir « m/s au carré ».
     text = convertUnits(text, false);
+    text = normalizeSymbols(text);
+    text = convertUnits(text, false); // « 10⁻¹⁹ J » : l'unite suit maintenant un nombre
     text = text
       .replace(new RegExp("(\\d|\\)|" + L + ")\\s[-−]\\s(?=\\d|\\(|" + L + ")", "g"), "$1 moins ")
       .replace(/(^|[\s(=+×,])−(?=\d)/g, "$1moins ")
+      .replace(/(^|[\s(=])-(?=[A-Za-z]\b)/g, "$1moins ")
       .replace(/(^|[\s(=+×,])-(?=\d)(?<=\s-|^-|\(-|=-|\+-)/g, "$1moins ")
       .replace(/(\d|\)|[A-Za-z])\s*=\s*(?=[\dA-Za-z(-−])/g, "$1 égale ")
       .replace(/(\d|\)|[A-Za-z])\s+\+\s+(?=[\dA-Za-z(])/g, "$1 plus ")
@@ -240,6 +336,10 @@
       .replace(/\\\[([\s\S]+?)\\\]/g, (_, e) => ". " + spokenMath(e) + ". ")
       .replace(/\$([^\n$]+?)\$/g, (_, e) => " " + spokenMath(e) + " ")
       .replace(/\\\(([^\n]+?)\\\)/g, (_, e) => " " + spokenMath(e) + " ")
+      // Tableaux Markdown : lignes de separation supprimees, cellules = pauses.
+      .replace(/^\s*\|?[\s:|-]*-[\s:|-]*\|?\s*$/gm, "")
+      .replace(/^\s*\|(.*)\|\s*$/gm, (m, row) => row.replace(/\|/g, " , ") + ".")
+      .replace(/^>\s?/gm, "")
       .replace(/^#{1,6}\s+/gm, "")
       .replace(/\*\*(.+?)\*\*/g, "$1")
       .replace(/\*(.+?)\*/g, "$1")
@@ -249,15 +349,25 @@
     t = t
       // Tiret moyen/cadratin en milieu de phrase = pause.
       .replace(/\s+[-—–]\s+/g, ". ")
-      // Emojis : une pause plutot qu'une description a voix haute.
-      .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
+      // Emojis, coches, puces, drapeaux : une pause plutot qu'une description.
+      .replace(/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}⃣‍️]/gu, ". ")
       .replace(/\n{2,}/g, ". ")
       // Retour a la ligne simple = pause (une etape de calcul par ligne).
       .replace(/([^.!?:;,\n])\n/g, "$1. ")
       .replace(/\n/g, " ")
+      // Tout symbole restant (✓ • ▶ ★ ← # @ ~ ...) devient une simple pause :
+      // on ne doit jamais entendre « coche », « puce », « dièse »...
+      .replace(/[^\p{L}\p{N}\s.,;:!?'’"()«»%-]/gu, " , ")
+      .replace(/(^|\s)à\s+les(?=\s)/g, "$1aux")
+      .replace(/\s*,(\s*,)+/g, ",")
+      .replace(/([:;])\s*[,.]/g, "$1")
+      .replace(/([!?])\s*\./g, "$1")
+      .replace(/([.!?])\s*,/g, "$1")
+      .replace(/,\s*([.!?])/g, "$1")
       .replace(/\.(\s*\.)+/g, ".")
-      .replace(/\s+([.,])/g, "$1")
+      .replace(/\s+([.,;:!?])/g, "$1")
       .replace(/\s+/g, " ")
+      .replace(/^[\s.,;:]+/, "")
       .trim();
     return t;
   }
