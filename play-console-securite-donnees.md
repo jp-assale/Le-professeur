@@ -9,7 +9,7 @@ permissions Android = Internet + micro (dictée). Suivi d'erreurs (Sentry) côt�
 |---|---|
 | Votre appli collecte-t-elle ou partage-t-elle des types de données utilisateur requis ? | **Oui** |
 | Toutes les données collectées sont-elles chiffrées en transit ? | **Oui** (HTTPS partout) |
-| Proposez-vous un moyen de demander la suppression des données ? | **Oui** — par e-mail à assale_assale@yahoo.fr (indiqué dans la politique de confidentialité) |
+| Proposez-vous un moyen de demander la suppression des données ? | **Oui** — par e-mail à maintlog.sarl@gmail.com (indiqué dans la politique de confidentialité) |
 | URL de la politique de confidentialité | https://le-professeur.onrender.com/privacy.html |
 | Création de compte | Aucune (pas de connexion) |
 
