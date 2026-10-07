@@ -613,8 +613,13 @@
       opt.textContent = p.label;
       selectPays.appendChild(opt);
     });
-    const savedPays = localStorage.getItem("aida_pays");
-    if (savedPays) selectPays.value = savedPays;
+    // Une valeur memorisee n'est reappliquee que si l'option existe encore
+    // (ex: le niveau « primaire » retire) - sinon la liste resterait vide.
+    const restore = (sel, key) => {
+      const saved = localStorage.getItem(key);
+      if (saved && [...sel.options].some((o) => o.value === saved)) sel.value = saved;
+    };
+    restore(selectPays, "aida_pays");
 
     data.niveaux.forEach((n) => {
       const opt = document.createElement("option");
@@ -622,8 +627,7 @@
       opt.textContent = n.label;
       selectNiveau.appendChild(opt);
     });
-    const savedNiveau = localStorage.getItem("aida_niveau");
-    if (savedNiveau) selectNiveau.value = savedNiveau;
+    restore(selectNiveau, "aida_niveau");
 
     data.matieres.forEach((m) => {
       const opt = document.createElement("option");
@@ -631,8 +635,8 @@
       opt.textContent = m;
       selectMatiere.appendChild(opt);
     });
-    const savedMatiere = localStorage.getItem("aida_matiere");
-    if (savedMatiere) selectMatiere.value = savedMatiere;
+    restore(selectMatiere, "aida_matiere");
+    localStorage.setItem("aida_niveau", selectNiveau.value);
     updateContextLabel();
   }
 

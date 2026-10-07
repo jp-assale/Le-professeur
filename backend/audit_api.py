@@ -36,7 +36,7 @@ CASES = [
     ("senegal", "lycee", "Economie", "Qu'est-ce que l'inflation et quelles sont ses conséquences ?"),
     ("cote_ivoire", "lycee", "Allemand", "Comment conjuguer le verbe 'haben' au présent ?"),
     ("benin", "lycee", "Espagnol", "Explique la différence entre 'ser' et 'estar'."),
-    ("senegal", "primaire", "Mathematiques", "Comment faire 345 + 278 ? J'ai du mal avec la retenue."),
+    ("senegal", "college", "Mathematiques", "Comment calculer 345 + 278 sans me tromper avec la retenue ?"),
 ]
 
 print("=== Questions IA par matiere ===")

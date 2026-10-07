@@ -49,7 +49,12 @@ que le texte (c'est écrit dans la politique de confidentialité).
 - **Permission RECORD_AUDIO** (si Google demande une justification) : « dictée vocale de la question de l'élève,
   uniquement quand il appuie sur le bouton micro ».
 
-## 4. Public cible — DÉCISION À PRENDRE
+## 4. Public cible — DÉCISION PRISE LE 07/10/2026 : option A (niveau Primaire retiré, build 2.12 et suivants)
+
+Dans « Cible et contenu » : cocher uniquement **13-15, 16-17, 18+** (surtout pas « 9-12 »).
+Réintroduire un niveau CM2/CEP plus tard = déclarer aussi 9-12 ans (politique Familles) + vrai contenu CM2.
+
+(Rappel de l'analyse initiale ci-dessous.)
 
 La fiche actuelle dit « 13 ans et plus », mais l'appli propose aussi le niveau **Primaire (CEP)** (enfants d'environ 8-12 ans).
 - **Option A (recommandée pour publier vite)** : déclarer « 13-15, 16-17, 18+ » (pas « moins de 13 ans ») ET retirer le niveau

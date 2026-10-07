@@ -23,8 +23,11 @@ PAYS = [
     {"code": "guinee", "label": "Guinee"},
 ]
 
+# Le niveau « primaire » (CEP) est retire de l'appli (2026-10-07) : l'appli est
+# declaree « 13 ans et plus » sur Google Play. Le reintroduire suppose de
+# declarer aussi la tranche 9-12 ans (politique « Familles ») et d'ajouter du
+# vrai contenu CM2 - voir play-console-securite-donnees.md, section 4.
 NIVEAUX = [
-    {"code": "primaire", "label": "Primaire (CEP)"},
     {"code": "college", "label": "College"},
     {"code": "lycee", "label": "Lycee (Baccalaureat)"},
 ]
