@@ -39,8 +39,21 @@ PIPER_URL = "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/t
 _lock = threading.Lock()
 
 
-def _cache_path(text: str, ext: str) -> str:
-    key = hashlib.sha256((VOICE + "|" + text).encode("utf-8")).hexdigest()
+def clamp_rate(value) -> float:
+    """Vitesse demandee par l'appli, bornee (1 = normale)."""
+    try:
+        return round(min(1.1, max(0.6, float(value))), 2)
+    except (TypeError, ValueError):
+        return 0.9
+
+
+def _pct(rate: float) -> str:
+    """Vitesse -> pourcentage relatif accepte par Azure / edge-tts (« -28% »)."""
+    return f"{round((rate - 1) * 100):+d}%"
+
+
+def _cache_path(text: str, ext: str, rate: float) -> str:
+    key = hashlib.sha256((VOICE + "|" + str(rate) + "|" + text).encode("utf-8")).hexdigest()
     return os.path.join(CACHE_DIR, key + "." + ext)
 
 
@@ -65,10 +78,10 @@ def _prune_cache():
             pass
 
 
-def _azure(text: str) -> bytes:
+def _azure(text: str, rate: float) -> bytes:
     ssml = (
         "<speak version='1.0' xml:lang='fr-FR'>"
-        f"<voice name='{VOICE}'><prosody rate='-5%'>"
+        f"<voice name='{VOICE}'><prosody rate='{_pct(rate)}'>"
         + text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         + "</prosody></voice></speak>"
     )
@@ -87,12 +100,12 @@ def _azure(text: str) -> bytes:
     return r.content
 
 
-def _edge(text: str) -> bytes:
+def _edge(text: str, rate: float) -> bytes:
     import edge_tts
 
     async def run() -> bytes:
         out = bytearray()
-        async for chunk in edge_tts.Communicate(text, VOICE, rate="-5%").stream():
+        async for chunk in edge_tts.Communicate(text, VOICE, rate=_pct(rate)).stream():
             if chunk["type"] == "audio":
                 out.extend(chunk["data"])
         return bytes(out)
@@ -123,15 +136,18 @@ def _piper_load():
     return _piper_voice
 
 
-def _piper(text: str) -> bytes:
+def _piper(text: str, rate: float) -> bytes:
+    from piper import SynthesisConfig
+
     voice = _piper_load()
     buf = io.BytesIO()
     with wave.open(buf, "wb") as wav:
-        voice.synthesize_wav(text, wav)
+        # length_scale > 1 = parole plus lente (1 / vitesse).
+        voice.synthesize_wav(text, wav, syn_config=SynthesisConfig(length_scale=1.0 / rate))
     return buf.getvalue()
 
 
-def synthesize(text: str, engine: str = "") -> tuple:
+def synthesize(text: str, engine: str = "", rate: float = 0.9) -> tuple:
     """Retourne (audio, extension) : mp3 (Azure/edge) ou wav (Piper).
     `engine` ("piper") force un fournisseur, pour les tests admin."""
     text = text.strip()[:MAX_CHARS]
@@ -139,7 +155,7 @@ def synthesize(text: str, engine: str = "") -> tuple:
         raise ValueError("texte vide")
     if not engine:
         for ext in ("mp3", "wav"):
-            path = _cache_path(text, ext)
+            path = _cache_path(text, ext, rate)
             if os.path.exists(path):
                 os.utime(path, None)
                 with open(path, "rb") as f:
@@ -155,7 +171,7 @@ def synthesize(text: str, engine: str = "") -> tuple:
     audio, ext = b"", ""
     for fn, e in providers:
         try:
-            audio = fn(text)
+            audio = fn(text, rate)
         except Exception:
             audio = b""
         if audio:
@@ -167,7 +183,7 @@ def synthesize(text: str, engine: str = "") -> tuple:
     if not engine:
         with _lock:
             os.makedirs(CACHE_DIR, exist_ok=True)
-            path = _cache_path(text, ext)
+            path = _cache_path(text, ext, rate)
             tmp = path + ".tmp"
             with open(tmp, "wb") as f:
                 f.write(audio)

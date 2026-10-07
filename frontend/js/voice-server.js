@@ -28,12 +28,12 @@
     return parts;
   }
 
-  async function fetchChunk(text) {
+  async function fetchChunk(text, rate) {
     const base = window.AIDA_API_BASE_URL || "";
     const res = await fetch(base + "/api/tts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({ text, rate }),
     });
     if (!res.ok) throw new Error("tts " + res.status);
     return URL.createObjectURL(await res.blob());
@@ -58,12 +58,12 @@
     }
   };
 
-  window.speakServer = async function (text) {
+  window.speakServer = async function (text, rate) {
     window.stopServerSpeech();
     const mySession = session;
     const parts = splitText(text);
     if (!parts.length) return;
-    let next = fetchChunk(parts[0]);
+    let next = fetchChunk(parts[0], rate);
     for (let i = 0; i < parts.length; i++) {
       let url;
       try {
@@ -73,7 +73,7 @@
         return;
       }
       if (mySession !== session) { URL.revokeObjectURL(url); return; }
-      next = i + 1 < parts.length ? fetchChunk(parts[i + 1]) : null;
+      next = i + 1 < parts.length ? fetchChunk(parts[i + 1], rate) : null;
       if (next) next.catch(() => {});
       await playUrl(url, mySession);
       if (mySession !== session) return;

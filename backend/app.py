@@ -1208,7 +1208,7 @@ def tts():
     if ADMIN_TOKEN and payload.get("engine") == "piper" and request.headers.get("X-Admin-Token") == ADMIN_TOKEN:
         engine = "piper"  # test admin du repli Piper
     try:
-        audio, ext = tts_server.synthesize(text, engine)
+        audio, ext = tts_server.synthesize(text, engine, tts_server.clamp_rate(payload.get("rate")))
     except Exception:
         return jsonify({"error": "synthese indisponible"}), 503
     mimetype = "audio/wav" if ext == "wav" else "audio/mpeg"

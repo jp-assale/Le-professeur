@@ -20,27 +20,13 @@ function buildSlideShell(kicker, heading) {
   return section;
 }
 
-/* Lecture a voix haute (meme principe que dans le chat principal, voir
-   app.js) - reimplemente ici car cours.html est un contexte JS separe. */
+/* Lecture a voix haute : texte converti en francais parle par speech-text.js
+   (formules, unites, pauses), vitesse reduite s'il y a des calculs. */
 function cleanCoursTextForSpeech(text) {
-  return text
-    .replace(/\$\$([\s\S]+?)\$\$|\$([^\n$]+?)\$/g, (_, a, b) => {
-      const inner = (a || b || "")
-        .replace(/\\times/g, " fois ")
-        .replace(/\\sqrt\{([^}]+)\}/g, " racine carrée de $1 ")
-        .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, " $1 sur $2 ")
-        .replace(/\^\{([^}]+)\}/g, " puissance $1 ")
-        .replace(/\^(\w)/g, " puissance $1 ")
-        .replace(/[\\{}]/g, " ");
-      return " " + inner + " ";
-    })
-    // Tiret moyen/cadratin en milieu de phrase = pause a l'oral, comme un
-    // emoji juste apres = pause aussi - voir app.js pour le meme correctif.
-    .replace(/\s+[-—–]\s+/g, ". ")
-    .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
-    .replace(/\.(\s*\.)+/g, ".")
-    .replace(/\s+/g, " ")
-    .trim();
+  return window.speakableFrench ? window.speakableFrench(text) : String(text || "").replace(/[$\{}]/g, " ");
+}
+function coursSpeechRate(rawText) {
+  return window.speechRateFor ? window.speechRateFor(rawText) : 0.9;
 }
 
 let coursCachedFrenchVoice = null;
@@ -75,9 +61,10 @@ function coursSpeechAvailable() {
   return coursIsNativeApp() ? !!coursGetNativeTTS() : !!window.speechSynthesis;
 }
 
-async function coursSpeakNative(text) {
+async function coursSpeakNative(text, rate) {
+  rate = rate || 0.9;
   if (window.speakServer) {
-    try { return await window.speakServer(text); } catch (e) {}
+    try { return await window.speakServer(text, rate); } catch (e) {}
   }
   const tts = coursGetNativeTTS();
   let voiceIndex;
@@ -89,7 +76,7 @@ async function coursSpeakNative(text) {
     const chosen = fr.find((v) => /fr-fr-x-(frb|frd)/i.test(v.uri));
     if (chosen) voiceIndex = chosen.index;
   } catch (e) {}
-  const opts = { text, lang: "fr-FR", rate: 0.95, pitch: 0.8 };
+  const opts = { text, lang: "fr-FR", rate, pitch: 0.8 };
   if (voiceIndex !== undefined) opts.voice = voiceIndex;
   return tts.speak(opts);
 }
@@ -121,6 +108,7 @@ function addCoursSpeakButton(section, text) {
     stopCoursSpeaking();
     if (wasSpeaking) return;
     const cleanText = cleanCoursTextForSpeech(text);
+    const rate = coursSpeechRate(text);
     const myToken = coursSpeechToken;
     coursCurrentSpeakBtn = btn;
     btn.classList.add("speaking");
@@ -130,7 +118,7 @@ function addCoursSpeakButton(section, text) {
       // Voir app.js pour le detail : voix choisie par l'eleve (menu
       // « Choisir la voix », partagee via localStorage), a defaut variantes
       // « frb »/« frd » du moteur Google + pitch abaisse.
-      coursSpeakNative(cleanText).catch(() => {}).then(() => {
+      coursSpeakNative(cleanText, rate).catch(() => {}).then(() => {
         if (coursSpeechToken === myToken) stopCoursSpeaking();
       });
     } else {
@@ -138,7 +126,7 @@ function addCoursSpeakButton(section, text) {
       utterance.lang = "fr-FR";
       const voice = getCoursFrenchMaleVoice();
       if (voice) utterance.voice = voice;
-      utterance.rate = 0.95;
+      utterance.rate = rate;
       utterance.onend = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
       utterance.onerror = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
       speechSynthesis.speak(utterance);

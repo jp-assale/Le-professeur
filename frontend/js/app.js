@@ -184,64 +184,15 @@
     { left: "\\(", right: "\\)", display: false },
   ];
 
-  // Lecture a voix haute des reponses (retour testeur) - repose sur la
-  // synthese vocale du navigateur (gratuite, aucun service externe),
-  // disponible sur Chrome/Android WebView. Le texte brut (markdown + LaTeX)
-  // est nettoye pour etre comprehensible a l'oral plutot que lu tel quel
-  // ("dollar x chapeau 2 dollar").
-  function spokenMath(expr) {
-    return expr
-      .replace(/\\times/g, " fois ")
-      .replace(/\\div/g, " divisé par ")
-      .replace(/\\pm/g, " plus ou moins ")
-      .replace(/\\sqrt\{([^}]+)\}/g, " racine carrée de $1 ")
-      .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, " $1 sur $2 ")
-      .replace(/\^\{([^}]+)\}/g, " puissance $1 ")
-      .replace(/\^(\w)/g, " puissance $1 ")
-      .replace(/_\{([^}]+)\}/g, " indice $1 ")
-      .replace(/_(\w)/g, " indice $1 ")
-      .replace(/[\\{}]/g, " ")
-      .replace(/\s+/g, " ")
-      .trim();
-  }
-
+  // Lecture a voix haute des reponses (retour testeur). Le texte brut
+  // (Markdown + LaTeX) est converti en francais parle par speech-text.js :
+  // formules, unites (km/h -> « kilometres par heure »), puissances, fractions,
+  // pauses entre les etapes de calcul. Vitesse reduite quand il y a des calculs.
   function cleanTextForSpeech(text) {
-    return text
-      // Blocs de code (graphique ```plot, schema ```diagram / ```schema) : ce
-      // sont des instructions pour l'appli, pas du texte a lire a voix haute.
-      .replace(/```[\s\S]*?```/g, " ")
-      .replace(/\$\$([\s\S]+?)\$\$/g, (_, inner) => " " + spokenMath(inner) + " ")
-      .replace(/\\\[([\s\S]+?)\\\]/g, (_, inner) => " " + spokenMath(inner) + " ")
-      .replace(/\$([^\n$]+?)\$/g, (_, inner) => " " + spokenMath(inner) + " ")
-      .replace(/\\\(([^\n]+?)\\\)/g, (_, inner) => " " + spokenMath(inner) + " ")
-      .replace(/^#{1,6}\s+/gm, "")
-      .replace(/\*\*(.+?)\*\*/g, "$1")
-      .replace(/\*(.+?)\*/g, "$1")
-      .replace(/`([^`]+)`/g, "$1")
-      // Puce de liste ("- " ou "* " en debut de ligne) : marque une pause
-      // (comme un point) plutot que de l'effacer silencieusement, sinon les
-      // elements d'une liste s'enchainent a l'oral sans aucune coupure
-      // (retour testeur).
-      .replace(/^[-*]\s+/gm, ". ")
-      // Tiret moyen/cadratin utilise en milieu de phrase comme une pause a
-      // l'ecrit ("... d'exercice — je t'explique ...") : marque la meme
-      // pause a l'oral plutot que de laisser les deux bouts de phrase se
-      // recoller sans coupure (retour testeur).
-      .replace(/\s+[-—–]\s+/g, ". ")
-      // Emojis/pictogrammes - certains moteurs de synthese vocale les
-      // decrivent a voix haute ("signe de pouce vers le haut"), ce qui n'a
-      // rien de naturel a l'oral (retour testeur). ‍ et ️ sont les
-      // caracteres d'assemblage invisibles laisses par certains emojis. Ici
-      // aussi, une pause (comme un point) plutot qu'une simple suppression -
-      // un emoji marque souvent la fin d'une idee dans le texte de l'IA.
-      .replace(/[\p{Extended_Pictographic}‍️]/gu, ". ")
-      .replace(/\n{2,}/g, ". ")
-      .replace(/\n/g, " ")
-      // Plusieurs points d'affilee (ex: deux emojis cote a cote, ou un point
-      // de phrase juste avant une puce) se recollent en un seul.
-      .replace(/\.(\s*\.)+/g, ".")
-      .replace(/\s+/g, " ")
-      .trim();
+    return window.speakableFrench ? window.speakableFrench(text) : String(text || "").replace(/[$\{}]/g, " ");
+  }
+  function speechRate(rawText) {
+    return window.speechRateFor ? window.speechRateFor(rawText) : 0.9;
   }
 
   // Le Prof JPA est un personnage masculin - on cherche une voix francaise
@@ -311,12 +262,13 @@
 
   // Voix serveur (masculine, identique partout) d'abord ; voix du telephone
   // seulement si le serveur est injoignable (hors ligne).
-  async function speakNative(text) {
+  async function speakNative(text, rate) {
+    rate = rate || 0.9;
     if (window.speakServer) {
-      try { return await window.speakServer(text); } catch (e) {}
+      try { return await window.speakServer(text, rate); } catch (e) {}
     }
     const voice = await pickNativeVoiceIndex();
-    const opts = { text, lang: "fr-FR", rate: 0.95, pitch: 0.8 };
+    const opts = { text, lang: "fr-FR", rate, pitch: 0.8 };
     if (voice !== undefined) opts.voice = voice;
     return getNativeTTS().speak(opts);
   }
@@ -351,13 +303,14 @@
       stopSpeaking();
       if (wasSpeaking) return; // un second clic sur le meme bouton = juste arreter
       const text = cleanTextForSpeech(rawText);
+      const rate = speechRate(rawText);
       const myToken = speechToken;
       currentUtteranceBtn = btn;
       btn.classList.add("speaking");
       btn.textContent = "⏸ Arrêter";
 
       if (isNativeApp()) {
-        speakNative(text).catch(() => {}).then(() => {
+        speakNative(text, rate).catch(() => {}).then(() => {
           if (speechToken === myToken) stopSpeaking();
         });
       } else {
@@ -365,7 +318,7 @@
         utterance.lang = "fr-FR";
         const voice = getFrenchMaleVoice();
         if (voice) utterance.voice = voice;
-        utterance.rate = 0.95;
+        utterance.rate = rate;
         utterance.onend = () => { if (speechToken === myToken) stopSpeaking(); };
         utterance.onerror = () => { if (speechToken === myToken) stopSpeaking(); };
         speechSynthesis.speak(utterance);
@@ -1686,7 +1639,7 @@
       utterance.lang = "fr-FR";
       const voice = getFrenchMaleVoice();
       if (voice) utterance.voice = voice;
-      utterance.rate = 0.95;
+      utterance.rate = 0.9;
       speechSynthesis.cancel();
       speechSynthesis.speak(utterance);
     }

@@ -7,6 +7,7 @@ const SHELL_FILES = [
   "/js/function-plot.js",
   "/js/diagram-viewer.js",
   "/js/voice-server.js",
+  "/js/speech-text.js",
   "/manifest.json",
   "/vendor/katex/katex.min.css",
   "/vendor/katex/katex.min.js",
