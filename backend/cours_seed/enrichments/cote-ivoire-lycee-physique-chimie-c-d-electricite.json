@@ -1,0 +1,79 @@
+{
+  "_topic": "dipoles-rc-rl",
+  "objectifs": [
+    "Étudier la charge et la décharge d'un condensateur (dipôle RC).",
+    "Étudier l'établissement du courant dans une bobine (dipôle RL).",
+    "Utiliser la constante de temps et les énergies stockées."
+  ],
+  "prerequis": [
+    "Loi d'Ohm, loi des tensions.",
+    "Équations différentielles du premier ordre."
+  ],
+  "a_retenir": {
+    "points": [
+      "Condensateur : q = C·u ; i = dq/dt = C·du/dt.",
+      "Charge sous une tension E : u_C(t) = E(1 − e^(−t/τ)) avec τ = RC ; à t = τ, u_C ≈ 0,63E ; charge pratiquement complète après 5τ.",
+      "Bobine : u_L = L·di/dt + r·i ; elle s'oppose aux variations du courant.",
+      "Dipôle RL : i(t) = I(1 − e^(−t/τ)) avec τ = L/R et I = E/R.",
+      "Énergies : condensateur ½Cu², bobine ½Li²."
+    ],
+    "formules": [
+      "τ = RC   ;   τ = L/R",
+      "u_C = E(1 − e^(−t/τ))",
+      "E_C = ½·C·u²   ;   E_L = ½·L·i²"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier de convertir les kΩ et µF.",
+      "correction": "10 kΩ × 100 µF = 10⁴ × 10⁻⁴ = 1 s."
+    },
+    {
+      "erreur": "Penser que le courant dans une bobine peut changer brusquement.",
+      "correction": "L'intensité dans une bobine est continue ; c'est la tension aux bornes du condensateur qui ne peut pas sauter."
+    },
+    {
+      "erreur": "Lire τ à 50 % de la valeur finale.",
+      "correction": "À t = τ, on atteint 63 % de la valeur finale (charge)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un condensateur de 100 µF est chargé sous 12 V. Calcule sa charge et l'énergie stockée.",
+      "indice": "q = Cu ; E = ½Cu².",
+      "corrige": [
+        "q = 100 × 10⁻⁶ × 12 = 1,2 × 10⁻³ C.",
+        "E = ½ × 10⁻⁴ × 12² = 7,2 × 10⁻³ J."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On charge ce condensateur (100 µF) à travers une résistance de 10 kΩ sous E = 12 V. Calcule τ, la tension à t = τ, et la durée pratique de la charge.",
+      "indice": "u_C(τ) = E(1 − e⁻¹).",
+      "corrige": [
+        "τ = RC = 10⁴ × 10⁻⁴ = 1 s.",
+        "u_C(τ) = 12(1 − e⁻¹) ≈ 0,63 × 12 ≈ 7,6 V.",
+        "Charge pratiquement complète après 5τ = 5 s."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un circuit RL série (L = 0,5 H, résistance totale R = 100 Ω) est alimenté sous E = 10 V. 1) Écris l'équation différentielle vérifiée par i. 2) Donne l'intensité en régime permanent et la constante de temps. 3) Calcule l'énergie stockée dans la bobine en régime permanent.",
+      "indice": "Loi des tensions : E = L di/dt + R i.",
+      "corrige": [
+        "1) E = L·di/dt + R·i, soit di/dt + (R/L)·i = E/L.",
+        "2) Régime permanent : di/dt = 0, donc I = E/R = 0,1 A ; τ = L/R = 0,5/100 = 5 × 10⁻³ s = 5 ms.",
+        "3) E_L = ½ × 0,5 × 0,1² = 2,5 × 10⁻³ J."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : dipôles RC et RL",
+    "etapes": [
+      "Oriente le circuit et écris la loi des tensions.",
+      "Établis l'équation différentielle et vérifie la solution proposée.",
+      "Détermine τ par le calcul et sur la courbe (tangente à l'origine ou 63 %)."
+    ]
+  }
+}

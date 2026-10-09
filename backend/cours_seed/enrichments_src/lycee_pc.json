@@ -1,0 +1,803 @@
+{
+  "_doc": "Complements pedagogiques - Physique-Chimie lycee (Terminale C/D/SE). Constantes rappelees dans chaque enonce. Calculs verifies a la main.",
+  "topics": {
+    "mecanique": {
+      "objectifs": [
+        "Appliquer la deuxième loi de Newton (théorème du centre d'inertie).",
+        "Établir les équations horaires d'un mouvement rectiligne et de la chute libre.",
+        "Étudier le mouvement d'un projectile dans le champ de pesanteur.",
+        "Exploiter les équations pour calculer durée, portée et vitesse."
+      ],
+      "prerequis": ["Vecteurs vitesse et accélération.", "Dérivées et primitives."],
+      "a_retenir": {
+        "points": [
+          "Dans un référentiel galiléen : ΣF→ = m·a→ (deuxième loi de Newton).",
+          "Méthode : système, référentiel, bilan des forces, loi de Newton, projection sur les axes, intégration avec les conditions initiales.",
+          "Chute libre : le solide n'est soumis qu'à son poids, a→ = g→ quelle que soit sa masse.",
+          "Projectile lancé avec v₀ : mouvement uniforme à l'horizontale, uniformément accéléré à la verticale ; la trajectoire est une parabole.",
+          "Mouvement circulaire uniforme : accélération centripète a = v²/R."
+        ],
+        "formules": [
+          "ΣF→ = m·a→",
+          "v = a·t + v₀   ;   x = ½·a·t² + v₀·t + x₀",
+          "Lancer horizontal : x = v₀t ; y = h − ½gt² ; trajectoire y = h − g·x²/(2v₀²)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier une force dans le bilan (réaction, frottements).", "correction": "Fais un schéma du solide isolé et liste toutes les actions extérieures." },
+        { "erreur": "Mauvais signe en projetant sur un axe orienté vers le haut.", "correction": "Le poids donne −mg sur un axe vertical orienté vers le haut." },
+        { "erreur": "Utiliser les formules du mouvement uniformément varié avec une accélération non constante.", "correction": "Vérifie d'abord que a est constante." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "On lâche une bille sans vitesse initiale d'une hauteur de 20 m. On néglige l'air et on prend g = 10 m/s². Calcule la durée de chute et la vitesse à l'arrivée au sol.",
+          "indice": "h = ½gt² et v = gt.",
+          "corrige": [
+            "h = ½gt² donc t = √(2h/g) = √(40/10) = 2 s.",
+            "v = g·t = 10 × 2 = 20 m/s."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un solide de 2 kg, initialement au repos sur un plan horizontal, est tiré par une force horizontale de 10 N. Les frottements équivalent à une force constante de 2 N. Calcule l'accélération, puis la vitesse et la distance parcourue au bout de 3 s.",
+          "indice": "Le poids et la réaction se compensent sur la verticale.",
+          "corrige": [
+            "Projection sur l'axe du mouvement : F − f = m·a, donc a = (10 − 2)/2 = 4 m/s².",
+            "v = a·t = 4 × 3 = 12 m/s.",
+            "x = ½·a·t² = ½ × 4 × 9 = 18 m."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une balle est lancée horizontalement avec v₀ = 10 m/s depuis une hauteur h = 5 m. On néglige l'air, g = 10 m/s². 1) Établis les équations horaires x(t) et y(t) (origine au sol, à la verticale du point de lancement). 2) Déduis-en l'équation de la trajectoire. 3) Calcule la durée du vol, la portée et la vitesse à l'impact.",
+          "indice": "a→ = g→ : aₓ = 0 et a_y = −g.",
+          "corrige": [
+            "1) x(t) = v₀t = 10t ; y(t) = h − ½gt² = 5 − 5t².",
+            "2) t = x/10, donc y = 5 − x²/20 : parabole.",
+            "3) y = 0 ⟺ t² = 1, durée t = 1 s ; portée x = 10 × 1 = 10 m.",
+            "À l'impact : vₓ = 10 m/s et v_y = −g·t = −10 m/s, donc v = √(100 + 100) = 10√2 ≈ 14,1 m/s."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de mécanique",
+        "etapes": [
+          "Système, référentiel galiléen, schéma avec les forces.",
+          "Loi de Newton, projection sur des axes choisis et orientés.",
+          "Intègre en utilisant les conditions initiales, puis réponds aux questions numériques avec unités."
+        ]
+      }
+    },
+    "oscillateurs": {
+      "objectifs": [
+        "Établir l'équation différentielle d'un oscillateur libre (pendule élastique, circuit LC).",
+        "Calculer la période propre.",
+        "Décrire l'amortissement et les oscillations forcées (résonance)."
+      ],
+      "prerequis": ["Deuxième loi de Newton.", "Condensateur et bobine.", "Équation y'' + ω²y = 0."],
+      "a_retenir": {
+        "points": [
+          "Pendule élastique horizontal sans frottement : m·x'' + k·x = 0, oscillations sinusoïdales.",
+          "Circuit LC : q'' + q/(LC) = 0 ; l'énergie s'échange entre condensateur et bobine.",
+          "Avec frottements (ou une résistance), les oscillations s'amortissent : régime pseudo-périodique ou apériodique.",
+          "Oscillations forcées : l'excitateur impose sa fréquence ; il y a résonance quand elle est proche de la fréquence propre.",
+          "Résonance d'intensité d'un circuit RLC série : f = f₀, l'impédance est minimale (Z = R)."
+        ],
+        "formules": ["T₀ = 2π√(m/k)", "T₀ = 2π√(LC)", "f₀ = 1/T₀", "x(t) = Xₘ cos(ω₀t + φ) avec ω₀ = 2π/T₀"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier de convertir µF en F ou g en kg.", "correction": "10 µF = 10 × 10⁻⁶ F ; 200 g = 0,2 kg." },
+        { "erreur": "Confondre période et pulsation.", "correction": "ω₀ = 2π/T₀ (rad/s) ; T₀ en secondes." },
+        { "erreur": "Penser que la période dépend de l'amplitude.", "correction": "Pour ces oscillateurs (sans amortissement), la période propre ne dépend pas de l'amplitude." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un pendule élastique est formé d'un solide de 200 g et d'un ressort de raideur 20 N/m. Calcule sa période propre.",
+          "indice": "Convertis la masse en kg.",
+          "corrige": ["T₀ = 2π√(0,2/20) = 2π√0,01 = 2π × 0,1 ≈ 0,63 s."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un circuit LC comprend une bobine de 0,1 H et un condensateur de 10 µF. Calcule la période et la fréquence propres.",
+          "indice": "LC = 0,1 × 10⁻⁵ = 10⁻⁶.",
+          "corrige": [
+            "T₀ = 2π√(10⁻⁶) = 2π × 10⁻³ ≈ 6,28 × 10⁻³ s = 6,28 ms.",
+            "f₀ = 1/T₀ ≈ 159 Hz."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Le circuit précédent (L = 0,1 H, C = 10 µF) est placé en série avec une résistance R = 50 Ω et un générateur de tension sinusoïdale de valeur efficace 5 V dont on fait varier la fréquence. 1) Pour quelle fréquence l'intensité est-elle maximale ? Comment s'appelle ce phénomène ? 2) Calcule l'intensité efficace maximale.",
+          "indice": "À la résonance, l'impédance du circuit vaut R.",
+          "corrige": [
+            "1) L'intensité est maximale pour f = f₀ = 1/(2π√(LC)) ≈ 159 Hz : c'est la résonance d'intensité.",
+            "2) À la résonance, Z = R, donc I = U/R = 5/50 = 0,1 A."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les oscillateurs",
+        "etapes": [
+          "Établis l'équation différentielle (loi de Newton ou loi des tensions).",
+          "Identifie ω₀ par comparaison avec x'' + ω₀²x = 0.",
+          "Calcule T₀ et f₀ en unités SI, puis exploite les conditions initiales."
+        ]
+      }
+    },
+    "dipoles-rc-rl": {
+      "objectifs": [
+        "Étudier la charge et la décharge d'un condensateur (dipôle RC).",
+        "Étudier l'établissement du courant dans une bobine (dipôle RL).",
+        "Utiliser la constante de temps et les énergies stockées."
+      ],
+      "prerequis": ["Loi d'Ohm, loi des tensions.", "Équations différentielles du premier ordre."],
+      "a_retenir": {
+        "points": [
+          "Condensateur : q = C·u ; i = dq/dt = C·du/dt.",
+          "Charge sous une tension E : u_C(t) = E(1 − e^(−t/τ)) avec τ = RC ; à t = τ, u_C ≈ 0,63E ; charge pratiquement complète après 5τ.",
+          "Bobine : u_L = L·di/dt + r·i ; elle s'oppose aux variations du courant.",
+          "Dipôle RL : i(t) = I(1 − e^(−t/τ)) avec τ = L/R et I = E/R.",
+          "Énergies : condensateur ½Cu², bobine ½Li²."
+        ],
+        "formules": ["τ = RC   ;   τ = L/R", "u_C = E(1 − e^(−t/τ))", "E_C = ½·C·u²   ;   E_L = ½·L·i²"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier de convertir les kΩ et µF.", "correction": "10 kΩ × 100 µF = 10⁴ × 10⁻⁴ = 1 s." },
+        { "erreur": "Penser que le courant dans une bobine peut changer brusquement.", "correction": "L'intensité dans une bobine est continue ; c'est la tension aux bornes du condensateur qui ne peut pas sauter." },
+        { "erreur": "Lire τ à 50 % de la valeur finale.", "correction": "À t = τ, on atteint 63 % de la valeur finale (charge)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un condensateur de 100 µF est chargé sous 12 V. Calcule sa charge et l'énergie stockée.",
+          "indice": "q = Cu ; E = ½Cu².",
+          "corrige": [
+            "q = 100 × 10⁻⁶ × 12 = 1,2 × 10⁻³ C.",
+            "E = ½ × 10⁻⁴ × 12² = 7,2 × 10⁻³ J."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On charge ce condensateur (100 µF) à travers une résistance de 10 kΩ sous E = 12 V. Calcule τ, la tension à t = τ, et la durée pratique de la charge.",
+          "indice": "u_C(τ) = E(1 − e⁻¹).",
+          "corrige": [
+            "τ = RC = 10⁴ × 10⁻⁴ = 1 s.",
+            "u_C(τ) = 12(1 − e⁻¹) ≈ 0,63 × 12 ≈ 7,6 V.",
+            "Charge pratiquement complète après 5τ = 5 s."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un circuit RL série (L = 0,5 H, résistance totale R = 100 Ω) est alimenté sous E = 10 V. 1) Écris l'équation différentielle vérifiée par i. 2) Donne l'intensité en régime permanent et la constante de temps. 3) Calcule l'énergie stockée dans la bobine en régime permanent.",
+          "indice": "Loi des tensions : E = L di/dt + R i.",
+          "corrige": [
+            "1) E = L·di/dt + R·i, soit di/dt + (R/L)·i = E/L.",
+            "2) Régime permanent : di/dt = 0, donc I = E/R = 0,1 A ; τ = L/R = 0,5/100 = 5 × 10⁻³ s = 5 ms.",
+            "3) E_L = ½ × 0,5 × 0,1² = 2,5 × 10⁻³ J."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : dipôles RC et RL",
+        "etapes": [
+          "Oriente le circuit et écris la loi des tensions.",
+          "Établis l'équation différentielle et vérifie la solution proposée.",
+          "Détermine τ par le calcul et sur la courbe (tangente à l'origine ou 63 %)."
+        ]
+      }
+    },
+    "electromagnetisme": {
+      "objectifs": [
+        "Calculer la force de Laplace et la force de Lorentz.",
+        "Étudier le mouvement d'une particule chargée dans un champ magnétique uniforme.",
+        "Expliquer l'induction électromagnétique (loi de Faraday, loi de Lenz) et l'auto-induction."
+      ],
+      "prerequis": ["Champ magnétique, vecteurs, produit vectoriel.", "Mouvement circulaire uniforme."],
+      "a_retenir": {
+        "points": [
+          "Force de Laplace sur un conducteur de longueur ℓ parcouru par I dans B : F = I·ℓ·B·sin α.",
+          "Force de Lorentz sur une charge q de vitesse v : F→ = q·v→ ∧ B→ ; elle est perpendiculaire à la vitesse et ne travaille pas.",
+          "Dans un champ uniforme, avec v→ ⊥ B→, la particule décrit un cercle de rayon R = m·v/(|q|·B) à vitesse constante.",
+          "Toute variation de flux magnétique à travers un circuit crée une f.é.m. induite e = −dΦ/dt.",
+          "Loi de Lenz : le courant induit s'oppose, par ses effets, à la cause qui lui donne naissance."
+        ],
+        "formules": ["F = I·ℓ·B·sin α", "R = m·v/(|q|·B)", "Φ = N·B·S·cos θ", "e = −dΦ/dt   ;   auto-induction : e = −L·di/dt"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier le nombre de spires N dans le flux.", "correction": "Pour une bobine, Φ = N·B·S·cos θ." },
+        { "erreur": "Penser que la force de Lorentz change la vitesse (valeur).", "correction": "Elle est perpendiculaire à la vitesse : seule la direction change." },
+        { "erreur": "Garder S en cm².", "correction": "20 cm² = 20 × 10⁻⁴ m² = 2 × 10⁻³ m²." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Une tige de 10 cm parcourue par un courant de 5 A est placée perpendiculairement à un champ magnétique de 0,2 T. Calcule la force de Laplace.",
+          "indice": "sin 90° = 1.",
+          "corrige": ["F = I·ℓ·B = 5 × 0,1 × 0,2 = 0,1 N."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une bobine de 100 spires de section 20 cm² est placée dans un champ de 0,5 T parallèle à son axe. Le champ s'annule en 0,1 s. Calcule la variation de flux et la valeur moyenne de la f.é.m. induite.",
+          "indice": "Φ = N·B·S.",
+          "corrige": [
+            "Φ initial = 100 × 0,5 × 2 × 10⁻³ = 0,1 Wb ; Φ final = 0.",
+            "|e| = |ΔΦ|/Δt = 0,1/0,1 = 1 V."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un électron (m = 9,1 × 10⁻³¹ kg, |q| = 1,6 × 10⁻¹⁹ C) pénètre avec une vitesse v = 10⁷ m/s perpendiculairement à un champ magnétique uniforme B = 10⁻³ T. 1) Montre que le mouvement est circulaire uniforme. 2) Calcule le rayon de la trajectoire.",
+          "indice": "Applique la loi de Newton avec la seule force de Lorentz (poids négligeable).",
+          "corrige": [
+            "1) La force de Lorentz est perpendiculaire à la vitesse : elle ne travaille pas, la vitesse garde sa valeur ; l'accélération est centripète et constante en valeur : mouvement circulaire uniforme.",
+            "2) |q|·v·B = m·v²/R, donc R = m·v/(|q|·B) = (9,1 × 10⁻³¹ × 10⁷)/(1,6 × 10⁻¹⁹ × 10⁻³) ≈ 5,7 × 10⁻² m, soit environ 5,7 cm."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'électromagnétisme",
+        "etapes": [
+          "Représente B→, v→ (ou I) et la force sur un schéma ; utilise la règle de la main droite.",
+          "Écris la formule littérale avant l'application numérique.",
+          "Pour l'induction : calcule le flux, sa variation, puis la f.é.m. ; applique Lenz pour le sens."
+        ]
+      }
+    },
+    "optique-lumiere": {
+      "objectifs": [
+        "Décrire la diffraction et les interférences lumineuses (aspect ondulatoire).",
+        "Calculer un interfrange.",
+        "Décrire l'effet photoélectrique et le photon (aspect corpusculaire).",
+        "Calculer l'énergie d'un photon et l'énergie cinétique des électrons émis."
+      ],
+      "prerequis": ["Ondes : longueur d'onde, fréquence, célérité.", "Conversions nm → m, eV → J."],
+      "a_retenir": {
+        "points": [
+          "Diffraction : une fente de largeur a étale la lumière ; demi-angle θ ≈ λ/a.",
+          "Fentes de Young : franges brillantes et sombres régulièrement espacées de l'interfrange i = λD/a.",
+          "Effet photoélectrique : un métal éclairé émet des électrons seulement si la fréquence dépasse un seuil ν₀, quelle que soit l'intensité.",
+          "La lumière est formée de photons d'énergie E = hν : c'est l'aspect corpusculaire.",
+          "La lumière présente donc une dualité onde-corpuscule."
+        ],
+        "formules": [
+          "λ = c/ν   (c = 3 × 10⁸ m/s)",
+          "i = λ·D/a",
+          "E = h·ν = h·c/λ   (h = 6,63 × 10⁻³⁴ J·s ; 1 eV = 1,6 × 10⁻¹⁹ J)",
+          "E = W₀ + E_c,max   (Einstein)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'une lumière très intense provoque toujours l'effet photoélectrique.", "correction": "C'est la fréquence (l'énergie de chaque photon) qui compte, pas l'intensité." },
+        { "erreur": "Oublier de convertir les nm et les mm.", "correction": "600 nm = 6 × 10⁻⁷ m ; 0,5 mm = 5 × 10⁻⁴ m." },
+        { "erreur": "Mélanger joules et électronvolts.", "correction": "Convertis tout dans la même unité avant de soustraire." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule la fréquence et l'énergie (en J et en eV) d'un photon de longueur d'onde 600 nm.",
+          "indice": "ν = c/λ puis E = hν.",
+          "corrige": [
+            "ν = 3 × 10⁸ / 6 × 10⁻⁷ = 5 × 10¹⁴ Hz.",
+            "E = 6,63 × 10⁻³⁴ × 5 × 10¹⁴ ≈ 3,3 × 10⁻¹⁹ J ≈ 2,07 eV."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Dans une expérience de Young, λ = 600 nm, la distance entre les fentes est a = 0,5 mm et l'écran est à D = 2 m. Calcule l'interfrange.",
+          "indice": "i = λD/a en unités SI.",
+          "corrige": ["i = (6 × 10⁻⁷ × 2)/(5 × 10⁻⁴) = 2,4 × 10⁻³ m = 2,4 mm."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une cellule photoélectrique au césium a un travail d'extraction W₀ = 1,9 eV. 1) Calcule la longueur d'onde seuil λ₀. 2) On l'éclaire avec une lumière de 400 nm : y a-t-il émission ? Calcule l'énergie cinétique maximale des électrons (en eV). 3) Et avec une lumière rouge de 700 nm ?",
+          "indice": "λ₀ = hc/W₀ avec W₀ en joules.",
+          "corrige": [
+            "1) W₀ = 1,9 × 1,6 × 10⁻¹⁹ = 3,04 × 10⁻¹⁹ J ; λ₀ = (6,63 × 10⁻³⁴ × 3 × 10⁸)/(3,04 × 10⁻¹⁹) ≈ 6,5 × 10⁻⁷ m ≈ 654 nm.",
+            "2) 400 nm < λ₀ : il y a émission. E = hc/λ ≈ 4,97 × 10⁻¹⁹ J ≈ 3,1 eV ; E_c,max = 3,1 − 1,9 = 1,2 eV.",
+            "3) 700 nm > λ₀ : l'énergie des photons est insuffisante, pas d'émission, même avec une lumière intense."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la lumière, onde et particule",
+        "etapes": [
+          "Identifie l'aspect en jeu : ondulatoire (diffraction, interférences) ou corpusculaire (photons).",
+          "Convertis toutes les longueurs en mètres et les énergies dans une même unité.",
+          "Conclus par une phrase physique (émission ou non, aspect de la lumière mis en évidence)."
+        ]
+      }
+    },
+    "nucleaire": {
+      "objectifs": [
+        "Écrire les équations des réactions nucléaires (lois de conservation).",
+        "Utiliser la loi de décroissance radioactive et la demi-vie.",
+        "Calculer une énergie libérée (E = Δm·c²) ; distinguer fission et fusion.",
+        "Utiliser les niveaux d'énergie de l'atome d'hydrogène."
+      ],
+      "prerequis": ["Structure du noyau ᴬ_Z X.", "Fonction exponentielle."],
+      "a_retenir": {
+        "points": [
+          "Lois de Soddy : conservation du nombre de masse A et du nombre de charge Z.",
+          "Radioactivité α (émission ⁴₂He), β⁻ (émission ⁰₋₁e), β⁺ (émission ⁰₁e), souvent accompagnées de γ.",
+          "Décroissance : N(t) = N₀·e^(−λt) ; la demi-vie t½ est la durée au bout de laquelle la moitié des noyaux s'est désintégrée.",
+          "Fission (noyau lourd cassé) et fusion (noyaux légers unis) libèrent de l'énergie : la masse des produits est inférieure à celle des réactifs.",
+          "Atome d'hydrogène : Eₙ = −13,6/n² (eV) ; une transition émet un photon d'énergie égale à la différence des niveaux."
+        ],
+        "formules": ["N(t) = N₀·e^(−λt)   ;   t½ = ln 2 / λ", "A(t) = λ·N(t)  (activité en Bq)", "E = |Δm|·c²", "Eₙ = −13,6/n² eV"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Ne pas équilibrer les nombres A et Z.", "correction": "Vérifie la somme des A en haut et des Z en bas de chaque côté." },
+        { "erreur": "Croire qu'après deux demi-vies il ne reste rien.", "correction": "Il reste N₀/4 (la moitié de la moitié)." },
+        { "erreur": "Utiliser Δm en unités de masse atomique avec c en m/s.", "correction": "Convertis Δm en kg ou utilise 1 u ≈ 931,5 MeV/c²." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Complète : ²³⁸₉₂U → ²³⁴₉₀Th + ? et ¹⁴₆C → ¹⁴₇N + ?. Nomme chaque type de radioactivité.",
+          "indice": "Conservation de A et Z.",
+          "corrige": [
+            "²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He : radioactivité α.",
+            "¹⁴₆C → ¹⁴₇N + ⁰₋₁e : radioactivité β⁻."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Le carbone 14 a une demi-vie de 5 730 ans. Un échantillon a une activité de 1 000 Bq. Quelle sera son activité dans 11 460 ans ?",
+          "indice": "11 460 = 2 × 5 730.",
+          "corrige": ["11 460 ans = 2 demi-vies : l'activité est divisée par 2² = 4.", "A = 1 000/4 = 250 Bq."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pour l'atome d'hydrogène, Eₙ = −13,6/n² eV. 1) Calcule l'énergie du photon émis lors de la transition du niveau n = 3 au niveau n = 2. 2) Calcule sa longueur d'onde (h = 6,63 × 10⁻³⁴ J·s ; c = 3 × 10⁸ m/s ; 1 eV = 1,6 × 10⁻¹⁹ J). Dans quel domaine se situe-t-elle ?",
+          "indice": "E = E₃ − E₂.",
+          "corrige": [
+            "1) E = 13,6(1/4 − 1/9) = 13,6 × 5/36 ≈ 1,89 eV ≈ 3,02 × 10⁻¹⁹ J.",
+            "2) λ = hc/E = (6,63 × 10⁻³⁴ × 3 × 10⁸)/(3,02 × 10⁻¹⁹) ≈ 6,6 × 10⁻⁷ m ≈ 658 nm.",
+            "C'est une radiation visible, rouge (raie Hα de l'hydrogène)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la physique nucléaire",
+        "etapes": [
+          "Équilibre chaque équation avec A et Z ; nomme la particule émise.",
+          "Pour la décroissance, pense en nombre de demi-vies ou utilise N₀e^(−λt).",
+          "Pour les énergies, garde une unité cohérente (J ou MeV)."
+        ]
+      }
+    },
+    "alcools": {
+      "objectifs": [
+        "Reconnaître et nommer un alcool ; déterminer sa classe.",
+        "Écrire les produits de l'oxydation ménagée selon la classe.",
+        "Utiliser les tests caractéristiques (DNPH, liqueur de Fehling, réactif de Schiff)."
+      ],
+      "prerequis": ["Nomenclature des alcanes.", "Équations d'oxydoréduction."],
+      "a_retenir": {
+        "points": [
+          "Un alcool possède un groupe hydroxyle –OH sur un carbone tétragonal.",
+          "Classe : primaire (carbone fonctionnel lié à 1 carbone au plus), secondaire (2), tertiaire (3).",
+          "Oxydation ménagée : alcool primaire → aldéhyde → acide carboxylique ; secondaire → cétone ; tertiaire : pas d'oxydation ménagée.",
+          "La DNPH donne un précipité jaune avec aldéhydes ET cétones ; la liqueur de Fehling (précipité rouge brique) et le réactif de Schiff (rose) ne réagissent qu'avec les aldéhydes.",
+          "Déshydratation d'un alcool → alcène ; l'éthanol est produit par fermentation des sucres."
+        ],
+        "formules": ["R–CH₂OH → R–CHO → R–COOH", "R–CHOH–R' → R–CO–R'", "C₂H₅OH : éthanol"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire qu'un test DNPH positif prouve la présence d'un aldéhyde.", "correction": "Il prouve un composé carbonylé (aldéhyde OU cétone) ; Fehling ou Schiff permettent de trancher." },
+        { "erreur": "Mal compter les carbones voisins pour la classe.", "correction": "Regarde le carbone qui porte –OH et compte les carbones qui lui sont liés." },
+        { "erreur": "Oxyder un alcool tertiaire.", "correction": "Il ne subit pas d'oxydation ménagée." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la classe de : butan-1-ol, butan-2-ol, 2-méthylpropan-2-ol.",
+          "indice": "Compte les carbones liés au carbone fonctionnel.",
+          "corrige": ["Butan-1-ol : primaire.", "Butan-2-ol : secondaire.", "2-méthylpropan-2-ol : tertiaire."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On oxyde le propan-1-ol par une quantité limitée de dichromate de potassium acidifié, puis par un excès. Nomme les produits obtenus et indique leurs réactions aux tests DNPH et Fehling.",
+          "indice": "Alcool primaire.",
+          "corrige": [
+            "Défaut d'oxydant : propanal (aldéhyde) : DNPH positif, Fehling positif.",
+            "Excès d'oxydant : acide propanoïque : DNPH et Fehling négatifs."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un alcool A de formule C₄H₁₀O donne par oxydation ménagée un produit B qui réagit avec la DNPH mais pas avec la liqueur de Fehling. 1) Quelle est la fonction de B ? 2) Déduis-en la classe de A, puis son nom. 3) Nomme B.",
+          "indice": "Parmi les alcools en C₄, un seul est secondaire.",
+          "corrige": [
+            "1) DNPH positive et Fehling négative : B est une cétone.",
+            "2) Une cétone provient d'un alcool secondaire : A est le butan-2-ol (seul alcool secondaire en C₄).",
+            "3) B est la butanone."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : identifier un composé organique",
+        "etapes": [
+          "Écris toutes les formules semi-développées possibles (isomères).",
+          "Exploite chaque test pour éliminer des isomères.",
+          "Conclus par le nom et la formule du composé."
+        ]
+      }
+    },
+    "acides-carboxyliques": {
+      "objectifs": [
+        "Reconnaître et nommer acides carboxyliques et dérivés (esters, anhydrides, chlorures d'acyle, amides).",
+        "Écrire l'équation d'estérification et d'hydrolyse ; calculer un rendement.",
+        "Décrire la saponification et la fabrication du savon."
+      ],
+      "prerequis": ["Alcools.", "Notion d'équilibre chimique."],
+      "a_retenir": {
+        "points": [
+          "Groupe carboxyle –COOH ; les acides carboxyliques sont des acides faibles.",
+          "Estérification : acide + alcool ⇌ ester + eau : réaction lente, limitée et athermique.",
+          "Avec des quantités équimolaires d'acide et d'alcool primaire, le rendement est d'environ 67 %.",
+          "On améliore le rendement en mettant un réactif en excès, en éliminant l'eau ou en remplaçant l'acide par un anhydride ou un chlorure d'acyle (réaction totale).",
+          "Saponification : ester + hydroxyde de sodium → ion carboxylate + alcool : réaction totale ; avec les corps gras, elle donne du savon."
+        ],
+        "formules": [
+          "R–COOH + R'–OH ⇌ R–COO–R' + H₂O",
+          "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+          "Rendement = n(ester obtenu) / n(ester attendu si réaction totale)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Nommer l'ester CH₃COOC₂H₅ « éthanoate de méthyle ».", "correction": "La partie venant de l'acide donne le nom en -oate (éthanoate), celle de l'alcool le groupe (éthyle) : éthanoate d'éthyle." },
+        { "erreur": "Écrire une flèche simple pour l'estérification.", "correction": "C'est un équilibre : ⇌." },
+        { "erreur": "Confondre hydrolyse et saponification.", "correction": "Hydrolyse : avec l'eau, limitée ; saponification : avec une base forte, totale." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Nomme : HCOOH ; CH₃COOH ; CH₃COOCH₂CH₃.",
+          "indice": "Le troisième est un ester.",
+          "corrige": ["Acide méthanoïque ; acide éthanoïque ; éthanoate d'éthyle."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Écris l'équation de la réaction entre l'acide éthanoïque et l'éthanol. Donne ses caractéristiques.",
+          "indice": "Estérification.",
+          "corrige": [
+            "CH₃COOH + CH₃CH₂OH ⇌ CH₃COOCH₂CH₃ + H₂O.",
+            "Réaction lente, limitée (équilibre) et athermique."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On mélange 1 mol d'acide éthanoïque et 1 mol d'éthanol. À l'équilibre, on obtient 0,67 mol d'ester. 1) Calcule le rendement. 2) Calcule la constante d'équilibre K. 3) Propose deux moyens d'améliorer le rendement.",
+          "indice": "À l'équilibre : 0,67 mol d'ester et d'eau, 0,33 mol d'acide et d'alcool.",
+          "corrige": [
+            "1) Rendement = 0,67/1 = 67 %.",
+            "2) K = (0,67 × 0,67)/(0,33 × 0,33) ≈ 4,1 (soit environ 4).",
+            "3) Mettre l'un des réactifs en excès, éliminer l'eau (ou l'ester) au fur et à mesure, ou utiliser l'anhydride éthanoïque à la place de l'acide."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : estérification et rendement",
+        "etapes": [
+          "Écris l'équation avec les formules semi-développées.",
+          "Fais un tableau d'avancement (état initial, équilibre).",
+          "Calcule le rendement et K, puis justifie les moyens d'amélioration."
+        ]
+      }
+    },
+    "amines-acides-amines": {
+      "objectifs": [
+        "Reconnaître et classer les amines ; expliquer leur caractère basique.",
+        "Reconnaître un acide α-aminé et son carbone asymétrique.",
+        "Écrire la formation d'un dipeptide (liaison peptidique)."
+      ],
+      "prerequis": ["Acides et bases.", "Notion de chiralité."],
+      "a_retenir": {
+        "points": [
+          "Amine primaire R–NH₂, secondaire R–NH–R', tertiaire R–N(R')–R''.",
+          "Le doublet non liant de l'azote rend les amines basiques et nucléophiles.",
+          "Un acide α-aminé a la formule H₂N–CHR–COOH ; sauf la glycine (R = H), son carbone α est asymétrique.",
+          "En solution, il existe surtout sous forme d'amphion (zwitterion) H₃N⁺–CHR–COO⁻.",
+          "Deux acides α-aminés s'unissent par une liaison peptidique –CO–NH– en éliminant une molécule d'eau."
+        ],
+        "formules": ["Glycine : H₂N–CH₂–COOH", "Alanine : H₂N–CH(CH₃)–COOH", "Liaison peptidique : –CO–NH–"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Classer une amine d'après le carbone (comme un alcool).", "correction": "La classe d'une amine dépend du nombre de groupes carbonés liés à l'AZOTE." },
+        { "erreur": "Penser que la glycine est chirale.", "correction": "Son carbone α porte deux atomes d'hydrogène : il n'est pas asymétrique." },
+        { "erreur": "Croire qu'un mélange de deux acides aminés donne un seul dipeptide.", "correction": "Sans protection, on obtient 4 dipeptides." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la classe de : CH₃–NH₂ ; (CH₃)₂NH ; (CH₃)₃N.",
+          "indice": "Compte les groupes méthyle liés à l'azote.",
+          "corrige": ["Primaire ; secondaire ; tertiaire."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "La glycine et l'alanine sont-elles chirales ? Écris l'amphion de l'alanine.",
+          "indice": "Un carbone asymétrique porte quatre groupes différents.",
+          "corrige": [
+            "Glycine : non (le carbone α porte deux H). Alanine : oui (H, CH₃, NH₂, COOH).",
+            "Amphion de l'alanine : H₃N⁺–CH(CH₃)–COO⁻."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Combien de dipeptides peut-on obtenir à partir d'un mélange de glycine (Gly) et d'alanine (Ala) ? Nomme-les. 2) Écris la formule du dipeptide Gly-Ala. 3) Comment obtenir uniquement Gly-Ala ?",
+          "indice": "Dans Gly-Ala, la glycine garde son groupe NH₂ libre.",
+          "corrige": [
+            "1) Quatre : Gly-Gly, Ala-Ala, Gly-Ala, Ala-Gly.",
+            "2) Gly-Ala : H₂N–CH₂–CO–NH–CH(CH₃)–COOH.",
+            "3) On bloque (protège) le groupe –NH₂ de la glycine et le groupe –COOH de l'alanine, on active le –COOH de la glycine, puis on fait réagir et on déprotège."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : amines et acides α-aminés",
+        "etapes": [
+          "Repère les groupes fonctionnels (–NH₂, –COOH) et le carbone asymétrique.",
+          "Pour un peptide, écris la liaison –CO–NH– et l'eau éliminée.",
+          "Pense à la protection/activation pour une synthèse sélective."
+        ]
+      }
+    },
+    "polymeres": {
+      "objectifs": [
+        "Écrire l'équation d'une polymérisation par addition.",
+        "Identifier le monomère et le motif d'un polymère.",
+        "Calculer le degré de polymérisation.",
+        "Discuter les enjeux environnementaux des matières plastiques."
+      ],
+      "prerequis": ["Alcènes et double liaison C=C.", "Masse molaire."],
+      "a_retenir": {
+        "points": [
+          "Un polymère est une macromolécule formée par la répétition d'un motif issu d'un monomère.",
+          "Polyaddition : les doubles liaisons s'ouvrent et les monomères s'enchaînent (polyéthylène, PVC, polystyrène).",
+          "Polycondensation : les monomères s'unissent en éliminant de petites molécules (nylon, polyesters).",
+          "Degré de polymérisation n = M(polymère) / M(motif).",
+          "Beaucoup de plastiques ne sont pas biodégradables ; la combustion du PVC libère du chlorure d'hydrogène toxique : il faut trier et recycler."
+        ],
+        "formules": ["n CH₂=CH₂ → –(CH₂–CH₂)ₙ–", "n CH₂=CHCl → –(CH₂–CHCl)ₙ– (PVC)", "n = M(polymère)/M(motif)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre monomère et motif.", "correction": "Le monomère a une double liaison ; dans le motif, elle est ouverte." },
+        { "erreur": "Calculer n avec la masse d'un atome.", "correction": "Divise par la masse molaire du MOTIF entier." },
+        { "erreur": "Brûler les sachets plastiques pour s'en débarrasser.", "correction": "Les fumées sont toxiques (HCl pour le PVC, suies) : collecte et recyclage." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Écris le monomère et le motif du PVC (polychlorure de vinyle).",
+          "indice": "Le monomère est le chlorure de vinyle.",
+          "corrige": ["Monomère : CH₂=CHCl. Motif : –CH₂–CHCl–."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un polyéthylène a une masse molaire moyenne de 28 000 g/mol. Calcule son degré de polymérisation (C = 12 ; H = 1 g/mol).",
+          "indice": "Motif –CH₂–CH₂– : M = 28 g/mol.",
+          "corrige": ["M(motif) = 2 × 12 + 4 × 1 = 28 g/mol ; n = 28 000/28 = 1 000."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Le polystyrène est obtenu par polyaddition du styrène C₆H₅–CH=CH₂. 1) Écris l'équation de polymérisation. 2) Un échantillon a une masse molaire moyenne de 52 000 g/mol : calcule n. 3) Pourquoi ne faut-il pas brûler les déchets plastiques à l'air libre ?",
+          "indice": "M(C₈H₈) = 104 g/mol.",
+          "corrige": [
+            "1) n C₆H₅–CH=CH₂ → –(CH₂–CH(C₆H₅))ₙ–.",
+            "2) n = 52 000/104 = 500.",
+            "3) La combustion incomplète produit des fumées toxiques (monoxyde de carbone, suies, et pour certains plastiques comme le PVC du chlorure d'hydrogène) ; il faut trier et recycler."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les polymères",
+        "etapes": [
+          "Repère la double liaison du monomère et ouvre-la pour écrire le motif.",
+          "Calcule la masse molaire du motif avec soin.",
+          "Relie la chimie aux enjeux de santé et d'environnement."
+        ]
+      }
+    },
+    "stereochimie": {
+      "objectifs": [
+        "Distinguer isomérie de constitution et stéréoisomérie.",
+        "Reconnaître l'isomérie Z/E des alcènes.",
+        "Identifier un carbone asymétrique et des énantiomères ; utiliser la représentation de Cram."
+      ],
+      "prerequis": ["Formules semi-développées.", "Géométrie des molécules."],
+      "a_retenir": {
+        "points": [
+          "Isomères de constitution : même formule brute, enchaînements d'atomes différents.",
+          "Stéréoisomères : même enchaînement, disposition différente des atomes dans l'espace.",
+          "Isomérie Z/E : chaque carbone de la double liaison doit porter deux groupes différents ; Z : groupes prioritaires du même côté.",
+          "Un carbone asymétrique (C*) est lié à quatre groupes différents ; il donne deux énantiomères, images l'un de l'autre dans un miroir, non superposables.",
+          "Deux énantiomères ont les mêmes propriétés physiques usuelles mais peuvent avoir des effets biologiques différents."
+        ],
+        "formules": ["C* : 4 substituants différents", "Z (zusammen = ensemble) / E (entgegen = opposé)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Chercher une isomérie Z/E pour le but-1-ène.", "correction": "Son carbone terminal porte deux H : pas d'isomérie Z/E." },
+        { "erreur": "Considérer un carbone portant deux groupes identiques comme asymétrique.", "correction": "Les quatre groupes doivent tous être différents." },
+        { "erreur": "Mal dessiner la représentation de Cram.", "correction": "Deux liaisons dans le plan, une en avant (triangle plein), une en arrière (hachures)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Le but-1-ène et le but-2-ène présentent-ils une isomérie Z/E ?",
+          "indice": "Regarde les groupes portés par chaque carbone de la double liaison.",
+          "corrige": ["But-1-ène (CH₂=CH–CH₂–CH₃) : non.", "But-2-ène (CH₃–CH=CH–CH₃) : oui, (Z)-but-2-ène et (E)-but-2-ène."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Le butan-2-ol et le propan-2-ol possèdent-ils un carbone asymétrique ?",
+          "indice": "Liste les quatre groupes du carbone portant –OH.",
+          "corrige": [
+            "Butan-2-ol : le C2 porte H, OH, CH₃ et C₂H₅ : il est asymétrique.",
+            "Propan-2-ol : le C2 porte deux CH₃ : il n'est pas asymétrique."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "L'alanine H₂N–CH(CH₃)–COOH est chirale. 1) Repère le carbone asymétrique. 2) Représente ses deux énantiomères en représentation de Cram. 3) Ces deux molécules ont-elles les mêmes propriétés ?",
+          "indice": "Les deux représentations sont images l'une de l'autre dans un miroir.",
+          "corrige": [
+            "1) Le carbone central (lié à H, CH₃, NH₂ et COOH) est asymétrique.",
+            "2) On dessine le carbone avec deux liaisons dans le plan, une en avant et une en arrière, puis son image dans un miroir (deux groupes échangés).",
+            "3) Mêmes propriétés physiques et chimiques usuelles, mais action différente sur la lumière polarisée et souvent sur les êtres vivants."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la stéréochimie",
+        "etapes": [
+          "Repère d'abord les doubles liaisons C=C et les carbones à quatre groupes différents.",
+          "Dessine proprement (Cram, Z/E) avec les bons symboles.",
+          "Nomme le type d'isomérie et justifie."
+        ]
+      }
+    },
+    "cinetique": {
+      "objectifs": [
+        "Définir la vitesse volumique de réaction.",
+        "Connaître les facteurs cinétiques (concentration, température, catalyseur).",
+        "Déterminer graphiquement un temps de demi-réaction."
+      ],
+      "prerequis": ["Tableau d'avancement.", "Lecture de graphiques, tangente."],
+      "a_retenir": {
+        "points": [
+          "La vitesse volumique de réaction est v = (1/V)·dx/dt ; graphiquement, c'est la pente de la tangente à la courbe x(t), divisée par V.",
+          "La vitesse diminue au cours du temps car les réactifs s'épuisent.",
+          "Facteurs cinétiques : la vitesse augmente avec la concentration des réactifs et la température.",
+          "Un catalyseur accélère la réaction sans être consommé et sans changer l'état final.",
+          "Le temps de demi-réaction t½ est la durée au bout de laquelle l'avancement vaut la moitié de l'avancement final."
+        ],
+        "formules": ["v = (1/V)·dx/dt", "x(t½) = x_f/2"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'un catalyseur augmente la quantité de produit.", "correction": "Il ne change que la vitesse, pas l'état final." },
+        { "erreur": "Prendre t½ comme la moitié de la durée totale.", "correction": "C'est le temps pour atteindre la moitié de l'avancement final." },
+        { "erreur": "Oublier de diviser par le volume.", "correction": "La vitesse volumique tient compte du volume V de la solution." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Cite trois moyens d'accélérer une réaction chimique et un exemple de la vie courante pour l'un d'eux.",
+          "indice": "Pense à la cuisine et au réfrigérateur.",
+          "corrige": [
+            "Augmenter la température, augmenter la concentration des réactifs, utiliser un catalyseur.",
+            "Exemple : le réfrigérateur ralentit la décomposition des aliments (température basse) ; la cuisson l'accélère."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On suit l'avancement x d'une réaction : t (min) = 0 ; 4 ; 8 ; 12 ; 30 ; 60 et x (mmol) = 0 ; 6 ; 10 ; 13 ; 18 ; 20 (valeur finale). Détermine le temps de demi-réaction.",
+          "indice": "Cherche l'instant où x = x_f/2.",
+          "corrige": ["x_f = 20 mmol, donc x(t½) = 10 mmol.", "D'après le tableau, x = 10 mmol à t = 8 min : t½ = 8 min."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Avec les données précédentes (volume V = 0,1 L) : 1) Calcule la vitesse volumique moyenne entre 0 et 4 min, puis entre 30 et 60 min. 2) Explique l'évolution. 3) Que deviendrait t½ si on travaillait à une température plus élevée ?",
+          "indice": "v_moy = (1/V)·Δx/Δt.",
+          "corrige": [
+            "1) Entre 0 et 4 min : Δx/Δt = 6/4 = 1,5 mmol/min, soit v = 15 mmol·L⁻¹·min⁻¹. Entre 30 et 60 min : 2/30 ≈ 0,067 mmol/min, soit v ≈ 0,67 mmol·L⁻¹·min⁻¹.",
+            "2) La vitesse diminue car la concentration des réactifs diminue au cours de la réaction.",
+            "3) La réaction serait plus rapide : t½ serait plus petit (l'avancement final ne change pas)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la cinétique chimique",
+        "etapes": [
+          "Trace ou lis soigneusement la courbe x(t) (ou concentration en fonction du temps).",
+          "Pour la vitesse, trace la tangente et calcule sa pente, puis divise par V.",
+          "Interprète toujours avec les facteurs cinétiques."
+        ]
+      }
+    },
+    "acides-bases-ph": {
+      "objectifs": [
+        "Utiliser le produit ionique de l'eau et la définition du pH.",
+        "Calculer le pH de solutions d'acide fort et de base forte.",
+        "Utiliser Ka, pKa et le diagramme de prédominance d'un couple acide faible / base faible.",
+        "Exploiter un dosage acido-basique (équivalence, solution tampon)."
+      ],
+      "prerequis": ["Concentration molaire.", "Logarithme décimal."],
+      "a_retenir": {
+        "points": [
+          "pH = −log[H₃O⁺] ; à 25 °C, Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴.",
+          "Acide fort de concentration C : pH = −log C ; base forte : pH = 14 + log C.",
+          "Couple acide faible / base faible AH/A⁻ : Ka = [A⁻][H₃O⁺]/[AH] ; pH = pKa + log([A⁻]/[AH]).",
+          "Si pH < pKa, la forme acide prédomine ; si pH > pKa, la forme basique prédomine.",
+          "À l'équivalence d'un dosage : Cₐ·Vₐ = C_b·V_b ; une solution tampon (pH ≈ pKa) varie peu par ajout modéré d'acide, de base ou par dilution."
+        ],
+        "formules": ["pH = −log[H₃O⁺]", "Ke = [H₃O⁺][OH⁻] = 10⁻¹⁴ (25 °C)", "pH = pKa + log([A⁻]/[AH])", "Cₐ·Vₐ = C_b·V_b"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Appliquer pH = −log C à un acide faible.", "correction": "Cette formule ne vaut que pour un acide fort (totalement dissocié)." },
+        { "erreur": "Dire que le pH à l'équivalence est toujours 7.", "correction": "Acide faible dosé par une base forte : pH à l'équivalence > 7." },
+        { "erreur": "Inverser le rapport dans pH = pKa + log(...).", "correction": "C'est log([base]/[acide])." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Une solution a [H₃O⁺] = 10⁻³ mol/L à 25 °C. Calcule son pH et [OH⁻]. Est-elle acide ou basique ?",
+          "indice": "Ke = 10⁻¹⁴.",
+          "corrige": ["pH = 3 ; [OH⁻] = 10⁻¹⁴/10⁻³ = 10⁻¹¹ mol/L ; la solution est acide."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Calcule le pH d'une solution d'hydroxyde de sodium (base forte) de concentration 0,01 mol/L à 25 °C.",
+          "indice": "[OH⁻] = C.",
+          "corrige": ["[OH⁻] = 10⁻² mol/L ; [H₃O⁺] = 10⁻¹⁴/10⁻² = 10⁻¹² mol/L ; pH = 12."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pour le couple CH₃COOH/CH₃COO⁻, pKa = 4,8. 1) Quel est le pH d'une solution contenant autant d'acide que de base conjuguée ? Comment s'appelle-t-elle ? 2) Quel est le pH si [CH₃COO⁻] = 10 × [CH₃COOH] ? 3) Quelle espèce prédomine à pH 7 ? 4) On dose 20 mL d'acide éthanoïque par de la soude à 0,1 mol/L ; l'équivalence est obtenue pour 15 mL. Calcule la concentration de l'acide. Le pH à l'équivalence est-il inférieur, égal ou supérieur à 7 ?",
+          "indice": "pH = pKa + log([A⁻]/[AH]).",
+          "corrige": [
+            "1) pH = pKa = 4,8 : c'est une solution tampon.",
+            "2) pH = 4,8 + log 10 = 5,8.",
+            "3) 7 > 4,8 : l'ion éthanoate CH₃COO⁻ prédomine.",
+            "4) Cₐ = C_b·V_b/Vₐ = 0,1 × 15/20 = 0,075 mol/L. Le pH à l'équivalence est supérieur à 7 (il reste la base faible CH₃COO⁻)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : acides, bases et pH",
+        "etapes": [
+          "Identifie si l'acide (ou la base) est fort ou faible avant de choisir la formule.",
+          "Place les espèces sur un diagramme de prédominance autour du pKa.",
+          "Pour un dosage, écris l'équation, la relation d'équivalence et exploite la courbe pH = f(V)."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-lycee-physique-chimie-c-d-mecanique": "mecanique",
+    "mali-lycee-physique-chimie-se-mecanique-et-thermodynamique": "mecanique",
+    "mali-lycee-physique-chimie-se-oscillateurs-libres": "oscillateurs",
+    "mali-lycee-physique-chimie-se-oscillations-forcees": "oscillateurs",
+    "cote-ivoire-lycee-physique-chimie-c-d-electricite": "dipoles-rc-rl",
+    "cote-ivoire-lycee-physique-chimie-c-d-electromagnetisme": "electromagnetisme",
+    "mali-lycee-physique-chimie-se-induction-electromagnetique-et": "electromagnetisme",
+    "cote-ivoire-lycee-physique-chimie-c-d-la-lumiere-onde-ou-par": "optique-lumiere",
+    "mali-lycee-physique-chimie-se-optique-physique": "optique-lumiere",
+    "cote-ivoire-lycee-physique-chimie-c-d-reactions-nucleaires": "nucleaire",
+    "mali-lycee-physique-chimie-se-physique-atomique-et-nucleaire": "nucleaire",
+    "mali-lycee-physique-chimie-se-les-alcools": "alcools",
+    "cote-ivoire-lycee-physique-chimie-c-d-chimie-organique": "acides-carboxyliques",
+    "mali-lycee-physique-chimie-se-les-acides-carboxyliques-et-fo": "acides-carboxyliques",
+    "mali-lycee-physique-chimie-se-les-amines": "amines-acides-amines",
+    "mali-lycee-physique-chimie-se-les-acides-amines": "amines-acides-amines",
+    "mali-lycee-physique-chimie-se-les-polymeres-synthetiques": "polymeres",
+    "mali-lycee-physique-chimie-se-notion-de-stereochimie": "stereochimie",
+    "mali-lycee-physique-chimie-se-la-cinetique-chimique": "cinetique",
+    "cote-ivoire-lycee-physique-chimie-c-d-chimie-generale": "acides-bases-ph",
+    "mali-lycee-physique-chimie-se-produit-ionique-de-l-eau-ph-d-": "acides-bases-ph",
+    "mali-lycee-physique-chimie-se-les-equilibres-chimiques": "acides-bases-ph"
+  }
+}

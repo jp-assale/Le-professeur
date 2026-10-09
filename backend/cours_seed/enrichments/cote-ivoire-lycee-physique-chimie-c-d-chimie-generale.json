@@ -1,0 +1,79 @@
+{
+  "_topic": "acides-bases-ph",
+  "objectifs": [
+    "Utiliser le produit ionique de l'eau et la définition du pH.",
+    "Calculer le pH de solutions d'acide fort et de base forte.",
+    "Utiliser Ka, pKa et le diagramme de prédominance d'un couple acide faible / base faible.",
+    "Exploiter un dosage acido-basique (équivalence, solution tampon)."
+  ],
+  "prerequis": [
+    "Concentration molaire.",
+    "Logarithme décimal."
+  ],
+  "a_retenir": {
+    "points": [
+      "pH = −log[H₃O⁺] ; à 25 °C, Ke = [H₃O⁺]·[OH⁻] = 10⁻¹⁴.",
+      "Acide fort de concentration C : pH = −log C ; base forte : pH = 14 + log C.",
+      "Couple acide faible / base faible AH/A⁻ : Ka = [A⁻][H₃O⁺]/[AH] ; pH = pKa + log([A⁻]/[AH]).",
+      "Si pH < pKa, la forme acide prédomine ; si pH > pKa, la forme basique prédomine.",
+      "À l'équivalence d'un dosage : Cₐ·Vₐ = C_b·V_b ; une solution tampon (pH ≈ pKa) varie peu par ajout modéré d'acide, de base ou par dilution."
+    ],
+    "formules": [
+      "pH = −log[H₃O⁺]",
+      "Ke = [H₃O⁺][OH⁻] = 10⁻¹⁴ (25 °C)",
+      "pH = pKa + log([A⁻]/[AH])",
+      "Cₐ·Vₐ = C_b·V_b"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Appliquer pH = −log C à un acide faible.",
+      "correction": "Cette formule ne vaut que pour un acide fort (totalement dissocié)."
+    },
+    {
+      "erreur": "Dire que le pH à l'équivalence est toujours 7.",
+      "correction": "Acide faible dosé par une base forte : pH à l'équivalence > 7."
+    },
+    {
+      "erreur": "Inverser le rapport dans pH = pKa + log(...).",
+      "correction": "C'est log([base]/[acide])."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une solution a [H₃O⁺] = 10⁻³ mol/L à 25 °C. Calcule son pH et [OH⁻]. Est-elle acide ou basique ?",
+      "indice": "Ke = 10⁻¹⁴.",
+      "corrige": [
+        "pH = 3 ; [OH⁻] = 10⁻¹⁴/10⁻³ = 10⁻¹¹ mol/L ; la solution est acide."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Calcule le pH d'une solution d'hydroxyde de sodium (base forte) de concentration 0,01 mol/L à 25 °C.",
+      "indice": "[OH⁻] = C.",
+      "corrige": [
+        "[OH⁻] = 10⁻² mol/L ; [H₃O⁺] = 10⁻¹⁴/10⁻² = 10⁻¹² mol/L ; pH = 12."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pour le couple CH₃COOH/CH₃COO⁻, pKa = 4,8. 1) Quel est le pH d'une solution contenant autant d'acide que de base conjuguée ? Comment s'appelle-t-elle ? 2) Quel est le pH si [CH₃COO⁻] = 10 × [CH₃COOH] ? 3) Quelle espèce prédomine à pH 7 ? 4) On dose 20 mL d'acide éthanoïque par de la soude à 0,1 mol/L ; l'équivalence est obtenue pour 15 mL. Calcule la concentration de l'acide. Le pH à l'équivalence est-il inférieur, égal ou supérieur à 7 ?",
+      "indice": "pH = pKa + log([A⁻]/[AH]).",
+      "corrige": [
+        "1) pH = pKa = 4,8 : c'est une solution tampon.",
+        "2) pH = 4,8 + log 10 = 5,8.",
+        "3) 7 > 4,8 : l'ion éthanoate CH₃COO⁻ prédomine.",
+        "4) Cₐ = C_b·V_b/Vₐ = 0,1 × 15/20 = 0,075 mol/L. Le pH à l'équivalence est supérieur à 7 (il reste la base faible CH₃COO⁻)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : acides, bases et pH",
+    "etapes": [
+      "Identifie si l'acide (ou la base) est fort ou faible avant de choisir la formule.",
+      "Place les espèces sur un diagramme de prédominance autour du pKa.",
+      "Pour un dosage, écris l'équation, la relation d'équivalence et exploite la courbe pH = f(V)."
+    ]
+  }
+}

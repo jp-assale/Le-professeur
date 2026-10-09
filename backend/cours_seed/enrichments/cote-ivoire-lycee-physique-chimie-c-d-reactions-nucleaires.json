@@ -1,0 +1,80 @@
+{
+  "_topic": "nucleaire",
+  "objectifs": [
+    "Écrire les équations des réactions nucléaires (lois de conservation).",
+    "Utiliser la loi de décroissance radioactive et la demi-vie.",
+    "Calculer une énergie libérée (E = Δm·c²) ; distinguer fission et fusion.",
+    "Utiliser les niveaux d'énergie de l'atome d'hydrogène."
+  ],
+  "prerequis": [
+    "Structure du noyau ᴬ_Z X.",
+    "Fonction exponentielle."
+  ],
+  "a_retenir": {
+    "points": [
+      "Lois de Soddy : conservation du nombre de masse A et du nombre de charge Z.",
+      "Radioactivité α (émission ⁴₂He), β⁻ (émission ⁰₋₁e), β⁺ (émission ⁰₁e), souvent accompagnées de γ.",
+      "Décroissance : N(t) = N₀·e^(−λt) ; la demi-vie t½ est la durée au bout de laquelle la moitié des noyaux s'est désintégrée.",
+      "Fission (noyau lourd cassé) et fusion (noyaux légers unis) libèrent de l'énergie : la masse des produits est inférieure à celle des réactifs.",
+      "Atome d'hydrogène : Eₙ = −13,6/n² (eV) ; une transition émet un photon d'énergie égale à la différence des niveaux."
+    ],
+    "formules": [
+      "N(t) = N₀·e^(−λt)   ;   t½ = ln 2 / λ",
+      "A(t) = λ·N(t)  (activité en Bq)",
+      "E = |Δm|·c²",
+      "Eₙ = −13,6/n² eV"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Ne pas équilibrer les nombres A et Z.",
+      "correction": "Vérifie la somme des A en haut et des Z en bas de chaque côté."
+    },
+    {
+      "erreur": "Croire qu'après deux demi-vies il ne reste rien.",
+      "correction": "Il reste N₀/4 (la moitié de la moitié)."
+    },
+    {
+      "erreur": "Utiliser Δm en unités de masse atomique avec c en m/s.",
+      "correction": "Convertis Δm en kg ou utilise 1 u ≈ 931,5 MeV/c²."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Complète : ²³⁸₉₂U → ²³⁴₉₀Th + ? et ¹⁴₆C → ¹⁴₇N + ?. Nomme chaque type de radioactivité.",
+      "indice": "Conservation de A et Z.",
+      "corrige": [
+        "²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He : radioactivité α.",
+        "¹⁴₆C → ¹⁴₇N + ⁰₋₁e : radioactivité β⁻."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Le carbone 14 a une demi-vie de 5 730 ans. Un échantillon a une activité de 1 000 Bq. Quelle sera son activité dans 11 460 ans ?",
+      "indice": "11 460 = 2 × 5 730.",
+      "corrige": [
+        "11 460 ans = 2 demi-vies : l'activité est divisée par 2² = 4.",
+        "A = 1 000/4 = 250 Bq."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pour l'atome d'hydrogène, Eₙ = −13,6/n² eV. 1) Calcule l'énergie du photon émis lors de la transition du niveau n = 3 au niveau n = 2. 2) Calcule sa longueur d'onde (h = 6,63 × 10⁻³⁴ J·s ; c = 3 × 10⁸ m/s ; 1 eV = 1,6 × 10⁻¹⁹ J). Dans quel domaine se situe-t-elle ?",
+      "indice": "E = E₃ − E₂.",
+      "corrige": [
+        "1) E = 13,6(1/4 − 1/9) = 13,6 × 5/36 ≈ 1,89 eV ≈ 3,02 × 10⁻¹⁹ J.",
+        "2) λ = hc/E = (6,63 × 10⁻³⁴ × 3 × 10⁸)/(3,02 × 10⁻¹⁹) ≈ 6,6 × 10⁻⁷ m ≈ 658 nm.",
+        "C'est une radiation visible, rouge (raie Hα de l'hydrogène)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la physique nucléaire",
+    "etapes": [
+      "Équilibre chaque équation avec A et Z ; nomme la particule émise.",
+      "Pour la décroissance, pense en nombre de demi-vies ou utilise N₀e^(−λt).",
+      "Pour les énergies, garde une unité cohérente (J ou MeV)."
+    ]
+  }
+}

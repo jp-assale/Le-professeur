@@ -1,0 +1,79 @@
+{
+  "_topic": "alcools",
+  "objectifs": [
+    "Reconnaître et nommer un alcool ; déterminer sa classe.",
+    "Écrire les produits de l'oxydation ménagée selon la classe.",
+    "Utiliser les tests caractéristiques (DNPH, liqueur de Fehling, réactif de Schiff)."
+  ],
+  "prerequis": [
+    "Nomenclature des alcanes.",
+    "Équations d'oxydoréduction."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un alcool possède un groupe hydroxyle –OH sur un carbone tétragonal.",
+      "Classe : primaire (carbone fonctionnel lié à 1 carbone au plus), secondaire (2), tertiaire (3).",
+      "Oxydation ménagée : alcool primaire → aldéhyde → acide carboxylique ; secondaire → cétone ; tertiaire : pas d'oxydation ménagée.",
+      "La DNPH donne un précipité jaune avec aldéhydes ET cétones ; la liqueur de Fehling (précipité rouge brique) et le réactif de Schiff (rose) ne réagissent qu'avec les aldéhydes.",
+      "Déshydratation d'un alcool → alcène ; l'éthanol est produit par fermentation des sucres."
+    ],
+    "formules": [
+      "R–CH₂OH → R–CHO → R–COOH",
+      "R–CHOH–R' → R–CO–R'",
+      "C₂H₅OH : éthanol"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire qu'un test DNPH positif prouve la présence d'un aldéhyde.",
+      "correction": "Il prouve un composé carbonylé (aldéhyde OU cétone) ; Fehling ou Schiff permettent de trancher."
+    },
+    {
+      "erreur": "Mal compter les carbones voisins pour la classe.",
+      "correction": "Regarde le carbone qui porte –OH et compte les carbones qui lui sont liés."
+    },
+    {
+      "erreur": "Oxyder un alcool tertiaire.",
+      "correction": "Il ne subit pas d'oxydation ménagée."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la classe de : butan-1-ol, butan-2-ol, 2-méthylpropan-2-ol.",
+      "indice": "Compte les carbones liés au carbone fonctionnel.",
+      "corrige": [
+        "Butan-1-ol : primaire.",
+        "Butan-2-ol : secondaire.",
+        "2-méthylpropan-2-ol : tertiaire."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On oxyde le propan-1-ol par une quantité limitée de dichromate de potassium acidifié, puis par un excès. Nomme les produits obtenus et indique leurs réactions aux tests DNPH et Fehling.",
+      "indice": "Alcool primaire.",
+      "corrige": [
+        "Défaut d'oxydant : propanal (aldéhyde) : DNPH positif, Fehling positif.",
+        "Excès d'oxydant : acide propanoïque : DNPH et Fehling négatifs."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un alcool A de formule C₄H₁₀O donne par oxydation ménagée un produit B qui réagit avec la DNPH mais pas avec la liqueur de Fehling. 1) Quelle est la fonction de B ? 2) Déduis-en la classe de A, puis son nom. 3) Nomme B.",
+      "indice": "Parmi les alcools en C₄, un seul est secondaire.",
+      "corrige": [
+        "1) DNPH positive et Fehling négative : B est une cétone.",
+        "2) Une cétone provient d'un alcool secondaire : A est le butan-2-ol (seul alcool secondaire en C₄).",
+        "3) B est la butanone."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : identifier un composé organique",
+    "etapes": [
+      "Écris toutes les formules semi-développées possibles (isomères).",
+      "Exploite chaque test pour éliminer des isomères.",
+      "Conclus par le nom et la formule du composé."
+    ]
+  }
+}

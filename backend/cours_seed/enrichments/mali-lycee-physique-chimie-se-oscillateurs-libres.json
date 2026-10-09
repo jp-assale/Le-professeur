@@ -1,0 +1,78 @@
+{
+  "_topic": "oscillateurs",
+  "objectifs": [
+    "Établir l'équation différentielle d'un oscillateur libre (pendule élastique, circuit LC).",
+    "Calculer la période propre.",
+    "Décrire l'amortissement et les oscillations forcées (résonance)."
+  ],
+  "prerequis": [
+    "Deuxième loi de Newton.",
+    "Condensateur et bobine.",
+    "Équation y'' + ω²y = 0."
+  ],
+  "a_retenir": {
+    "points": [
+      "Pendule élastique horizontal sans frottement : m·x'' + k·x = 0, oscillations sinusoïdales.",
+      "Circuit LC : q'' + q/(LC) = 0 ; l'énergie s'échange entre condensateur et bobine.",
+      "Avec frottements (ou une résistance), les oscillations s'amortissent : régime pseudo-périodique ou apériodique.",
+      "Oscillations forcées : l'excitateur impose sa fréquence ; il y a résonance quand elle est proche de la fréquence propre.",
+      "Résonance d'intensité d'un circuit RLC série : f = f₀, l'impédance est minimale (Z = R)."
+    ],
+    "formules": [
+      "T₀ = 2π√(m/k)",
+      "T₀ = 2π√(LC)",
+      "f₀ = 1/T₀",
+      "x(t) = Xₘ cos(ω₀t + φ) avec ω₀ = 2π/T₀"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier de convertir µF en F ou g en kg.",
+      "correction": "10 µF = 10 × 10⁻⁶ F ; 200 g = 0,2 kg."
+    },
+    {
+      "erreur": "Confondre période et pulsation.",
+      "correction": "ω₀ = 2π/T₀ (rad/s) ; T₀ en secondes."
+    },
+    {
+      "erreur": "Penser que la période dépend de l'amplitude.",
+      "correction": "Pour ces oscillateurs (sans amortissement), la période propre ne dépend pas de l'amplitude."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un pendule élastique est formé d'un solide de 200 g et d'un ressort de raideur 20 N/m. Calcule sa période propre.",
+      "indice": "Convertis la masse en kg.",
+      "corrige": [
+        "T₀ = 2π√(0,2/20) = 2π√0,01 = 2π × 0,1 ≈ 0,63 s."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un circuit LC comprend une bobine de 0,1 H et un condensateur de 10 µF. Calcule la période et la fréquence propres.",
+      "indice": "LC = 0,1 × 10⁻⁵ = 10⁻⁶.",
+      "corrige": [
+        "T₀ = 2π√(10⁻⁶) = 2π × 10⁻³ ≈ 6,28 × 10⁻³ s = 6,28 ms.",
+        "f₀ = 1/T₀ ≈ 159 Hz."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Le circuit précédent (L = 0,1 H, C = 10 µF) est placé en série avec une résistance R = 50 Ω et un générateur de tension sinusoïdale de valeur efficace 5 V dont on fait varier la fréquence. 1) Pour quelle fréquence l'intensité est-elle maximale ? Comment s'appelle ce phénomène ? 2) Calcule l'intensité efficace maximale.",
+      "indice": "À la résonance, l'impédance du circuit vaut R.",
+      "corrige": [
+        "1) L'intensité est maximale pour f = f₀ = 1/(2π√(LC)) ≈ 159 Hz : c'est la résonance d'intensité.",
+        "2) À la résonance, Z = R, donc I = U/R = 5/50 = 0,1 A."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les oscillateurs",
+    "etapes": [
+      "Établis l'équation différentielle (loi de Newton ou loi des tensions).",
+      "Identifie ω₀ par comparaison avec x'' + ω₀²x = 0.",
+      "Calcule T₀ et f₀ en unités SI, puis exploite les conditions initiales."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_topic": "cinetique",
+  "objectifs": [
+    "Définir la vitesse volumique de réaction.",
+    "Connaître les facteurs cinétiques (concentration, température, catalyseur).",
+    "Déterminer graphiquement un temps de demi-réaction."
+  ],
+  "prerequis": [
+    "Tableau d'avancement.",
+    "Lecture de graphiques, tangente."
+  ],
+  "a_retenir": {
+    "points": [
+      "La vitesse volumique de réaction est v = (1/V)·dx/dt ; graphiquement, c'est la pente de la tangente à la courbe x(t), divisée par V.",
+      "La vitesse diminue au cours du temps car les réactifs s'épuisent.",
+      "Facteurs cinétiques : la vitesse augmente avec la concentration des réactifs et la température.",
+      "Un catalyseur accélère la réaction sans être consommé et sans changer l'état final.",
+      "Le temps de demi-réaction t½ est la durée au bout de laquelle l'avancement vaut la moitié de l'avancement final."
+    ],
+    "formules": [
+      "v = (1/V)·dx/dt",
+      "x(t½) = x_f/2"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'un catalyseur augmente la quantité de produit.",
+      "correction": "Il ne change que la vitesse, pas l'état final."
+    },
+    {
+      "erreur": "Prendre t½ comme la moitié de la durée totale.",
+      "correction": "C'est le temps pour atteindre la moitié de l'avancement final."
+    },
+    {
+      "erreur": "Oublier de diviser par le volume.",
+      "correction": "La vitesse volumique tient compte du volume V de la solution."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite trois moyens d'accélérer une réaction chimique et un exemple de la vie courante pour l'un d'eux.",
+      "indice": "Pense à la cuisine et au réfrigérateur.",
+      "corrige": [
+        "Augmenter la température, augmenter la concentration des réactifs, utiliser un catalyseur.",
+        "Exemple : le réfrigérateur ralentit la décomposition des aliments (température basse) ; la cuisson l'accélère."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On suit l'avancement x d'une réaction : t (min) = 0 ; 4 ; 8 ; 12 ; 30 ; 60 et x (mmol) = 0 ; 6 ; 10 ; 13 ; 18 ; 20 (valeur finale). Détermine le temps de demi-réaction.",
+      "indice": "Cherche l'instant où x = x_f/2.",
+      "corrige": [
+        "x_f = 20 mmol, donc x(t½) = 10 mmol.",
+        "D'après le tableau, x = 10 mmol à t = 8 min : t½ = 8 min."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Avec les données précédentes (volume V = 0,1 L) : 1) Calcule la vitesse volumique moyenne entre 0 et 4 min, puis entre 30 et 60 min. 2) Explique l'évolution. 3) Que deviendrait t½ si on travaillait à une température plus élevée ?",
+      "indice": "v_moy = (1/V)·Δx/Δt.",
+      "corrige": [
+        "1) Entre 0 et 4 min : Δx/Δt = 6/4 = 1,5 mmol/min, soit v = 15 mmol·L⁻¹·min⁻¹. Entre 30 et 60 min : 2/30 ≈ 0,067 mmol/min, soit v ≈ 0,67 mmol·L⁻¹·min⁻¹.",
+        "2) La vitesse diminue car la concentration des réactifs diminue au cours de la réaction.",
+        "3) La réaction serait plus rapide : t½ serait plus petit (l'avancement final ne change pas)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la cinétique chimique",
+    "etapes": [
+      "Trace ou lis soigneusement la courbe x(t) (ou concentration en fonction du temps).",
+      "Pour la vitesse, trace la tangente et calcule sa pente, puis divise par V.",
+      "Interprète toujours avec les facteurs cinétiques."
+    ]
+  }
+}

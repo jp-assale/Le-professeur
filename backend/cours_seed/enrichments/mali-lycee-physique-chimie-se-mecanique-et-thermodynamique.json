@@ -1,0 +1,81 @@
+{
+  "_topic": "mecanique",
+  "objectifs": [
+    "Appliquer la deuxième loi de Newton (théorème du centre d'inertie).",
+    "Établir les équations horaires d'un mouvement rectiligne et de la chute libre.",
+    "Étudier le mouvement d'un projectile dans le champ de pesanteur.",
+    "Exploiter les équations pour calculer durée, portée et vitesse."
+  ],
+  "prerequis": [
+    "Vecteurs vitesse et accélération.",
+    "Dérivées et primitives."
+  ],
+  "a_retenir": {
+    "points": [
+      "Dans un référentiel galiléen : ΣF→ = m·a→ (deuxième loi de Newton).",
+      "Méthode : système, référentiel, bilan des forces, loi de Newton, projection sur les axes, intégration avec les conditions initiales.",
+      "Chute libre : le solide n'est soumis qu'à son poids, a→ = g→ quelle que soit sa masse.",
+      "Projectile lancé avec v₀ : mouvement uniforme à l'horizontale, uniformément accéléré à la verticale ; la trajectoire est une parabole.",
+      "Mouvement circulaire uniforme : accélération centripète a = v²/R."
+    ],
+    "formules": [
+      "ΣF→ = m·a→",
+      "v = a·t + v₀   ;   x = ½·a·t² + v₀·t + x₀",
+      "Lancer horizontal : x = v₀t ; y = h − ½gt² ; trajectoire y = h − g·x²/(2v₀²)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier une force dans le bilan (réaction, frottements).",
+      "correction": "Fais un schéma du solide isolé et liste toutes les actions extérieures."
+    },
+    {
+      "erreur": "Mauvais signe en projetant sur un axe orienté vers le haut.",
+      "correction": "Le poids donne −mg sur un axe vertical orienté vers le haut."
+    },
+    {
+      "erreur": "Utiliser les formules du mouvement uniformément varié avec une accélération non constante.",
+      "correction": "Vérifie d'abord que a est constante."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "On lâche une bille sans vitesse initiale d'une hauteur de 20 m. On néglige l'air et on prend g = 10 m/s². Calcule la durée de chute et la vitesse à l'arrivée au sol.",
+      "indice": "h = ½gt² et v = gt.",
+      "corrige": [
+        "h = ½gt² donc t = √(2h/g) = √(40/10) = 2 s.",
+        "v = g·t = 10 × 2 = 20 m/s."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un solide de 2 kg, initialement au repos sur un plan horizontal, est tiré par une force horizontale de 10 N. Les frottements équivalent à une force constante de 2 N. Calcule l'accélération, puis la vitesse et la distance parcourue au bout de 3 s.",
+      "indice": "Le poids et la réaction se compensent sur la verticale.",
+      "corrige": [
+        "Projection sur l'axe du mouvement : F − f = m·a, donc a = (10 − 2)/2 = 4 m/s².",
+        "v = a·t = 4 × 3 = 12 m/s.",
+        "x = ½·a·t² = ½ × 4 × 9 = 18 m."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une balle est lancée horizontalement avec v₀ = 10 m/s depuis une hauteur h = 5 m. On néglige l'air, g = 10 m/s². 1) Établis les équations horaires x(t) et y(t) (origine au sol, à la verticale du point de lancement). 2) Déduis-en l'équation de la trajectoire. 3) Calcule la durée du vol, la portée et la vitesse à l'impact.",
+      "indice": "a→ = g→ : aₓ = 0 et a_y = −g.",
+      "corrige": [
+        "1) x(t) = v₀t = 10t ; y(t) = h − ½gt² = 5 − 5t².",
+        "2) t = x/10, donc y = 5 − x²/20 : parabole.",
+        "3) y = 0 ⟺ t² = 1, durée t = 1 s ; portée x = 10 × 1 = 10 m.",
+        "À l'impact : vₓ = 10 m/s et v_y = −g·t = −10 m/s, donc v = √(100 + 100) = 10√2 ≈ 14,1 m/s."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'exercice de mécanique",
+    "etapes": [
+      "Système, référentiel galiléen, schéma avec les forces.",
+      "Loi de Newton, projection sur des axes choisis et orientés.",
+      "Intègre en utilisant les conditions initiales, puis réponds aux questions numériques avec unités."
+    ]
+  }
+}

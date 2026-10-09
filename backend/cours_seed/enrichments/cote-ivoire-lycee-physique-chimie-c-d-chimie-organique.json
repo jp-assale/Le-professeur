@@ -1,0 +1,77 @@
+{
+  "_topic": "acides-carboxyliques",
+  "objectifs": [
+    "Reconnaître et nommer acides carboxyliques et dérivés (esters, anhydrides, chlorures d'acyle, amides).",
+    "Écrire l'équation d'estérification et d'hydrolyse ; calculer un rendement.",
+    "Décrire la saponification et la fabrication du savon."
+  ],
+  "prerequis": [
+    "Alcools.",
+    "Notion d'équilibre chimique."
+  ],
+  "a_retenir": {
+    "points": [
+      "Groupe carboxyle –COOH ; les acides carboxyliques sont des acides faibles.",
+      "Estérification : acide + alcool ⇌ ester + eau : réaction lente, limitée et athermique.",
+      "Avec des quantités équimolaires d'acide et d'alcool primaire, le rendement est d'environ 67 %.",
+      "On améliore le rendement en mettant un réactif en excès, en éliminant l'eau ou en remplaçant l'acide par un anhydride ou un chlorure d'acyle (réaction totale).",
+      "Saponification : ester + hydroxyde de sodium → ion carboxylate + alcool : réaction totale ; avec les corps gras, elle donne du savon."
+    ],
+    "formules": [
+      "R–COOH + R'–OH ⇌ R–COO–R' + H₂O",
+      "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+      "Rendement = n(ester obtenu) / n(ester attendu si réaction totale)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Nommer l'ester CH₃COOC₂H₅ « éthanoate de méthyle ».",
+      "correction": "La partie venant de l'acide donne le nom en -oate (éthanoate), celle de l'alcool le groupe (éthyle) : éthanoate d'éthyle."
+    },
+    {
+      "erreur": "Écrire une flèche simple pour l'estérification.",
+      "correction": "C'est un équilibre : ⇌."
+    },
+    {
+      "erreur": "Confondre hydrolyse et saponification.",
+      "correction": "Hydrolyse : avec l'eau, limitée ; saponification : avec une base forte, totale."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Nomme : HCOOH ; CH₃COOH ; CH₃COOCH₂CH₃.",
+      "indice": "Le troisième est un ester.",
+      "corrige": [
+        "Acide méthanoïque ; acide éthanoïque ; éthanoate d'éthyle."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Écris l'équation de la réaction entre l'acide éthanoïque et l'éthanol. Donne ses caractéristiques.",
+      "indice": "Estérification.",
+      "corrige": [
+        "CH₃COOH + CH₃CH₂OH ⇌ CH₃COOCH₂CH₃ + H₂O.",
+        "Réaction lente, limitée (équilibre) et athermique."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On mélange 1 mol d'acide éthanoïque et 1 mol d'éthanol. À l'équilibre, on obtient 0,67 mol d'ester. 1) Calcule le rendement. 2) Calcule la constante d'équilibre K. 3) Propose deux moyens d'améliorer le rendement.",
+      "indice": "À l'équilibre : 0,67 mol d'ester et d'eau, 0,33 mol d'acide et d'alcool.",
+      "corrige": [
+        "1) Rendement = 0,67/1 = 67 %.",
+        "2) K = (0,67 × 0,67)/(0,33 × 0,33) ≈ 4,1 (soit environ 4).",
+        "3) Mettre l'un des réactifs en excès, éliminer l'eau (ou l'ester) au fur et à mesure, ou utiliser l'anhydride éthanoïque à la place de l'acide."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : estérification et rendement",
+    "etapes": [
+      "Écris l'équation avec les formules semi-développées.",
+      "Fais un tableau d'avancement (état initial, équilibre).",
+      "Calcule le rendement et K, puis justifie les moyens d'amélioration."
+    ]
+  }
+}

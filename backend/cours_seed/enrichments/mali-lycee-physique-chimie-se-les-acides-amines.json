@@ -1,0 +1,77 @@
+{
+  "_topic": "amines-acides-amines",
+  "objectifs": [
+    "Reconnaître et classer les amines ; expliquer leur caractère basique.",
+    "Reconnaître un acide α-aminé et son carbone asymétrique.",
+    "Écrire la formation d'un dipeptide (liaison peptidique)."
+  ],
+  "prerequis": [
+    "Acides et bases.",
+    "Notion de chiralité."
+  ],
+  "a_retenir": {
+    "points": [
+      "Amine primaire R–NH₂, secondaire R–NH–R', tertiaire R–N(R')–R''.",
+      "Le doublet non liant de l'azote rend les amines basiques et nucléophiles.",
+      "Un acide α-aminé a la formule H₂N–CHR–COOH ; sauf la glycine (R = H), son carbone α est asymétrique.",
+      "En solution, il existe surtout sous forme d'amphion (zwitterion) H₃N⁺–CHR–COO⁻.",
+      "Deux acides α-aminés s'unissent par une liaison peptidique –CO–NH– en éliminant une molécule d'eau."
+    ],
+    "formules": [
+      "Glycine : H₂N–CH₂–COOH",
+      "Alanine : H₂N–CH(CH₃)–COOH",
+      "Liaison peptidique : –CO–NH–"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Classer une amine d'après le carbone (comme un alcool).",
+      "correction": "La classe d'une amine dépend du nombre de groupes carbonés liés à l'AZOTE."
+    },
+    {
+      "erreur": "Penser que la glycine est chirale.",
+      "correction": "Son carbone α porte deux atomes d'hydrogène : il n'est pas asymétrique."
+    },
+    {
+      "erreur": "Croire qu'un mélange de deux acides aminés donne un seul dipeptide.",
+      "correction": "Sans protection, on obtient 4 dipeptides."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la classe de : CH₃–NH₂ ; (CH₃)₂NH ; (CH₃)₃N.",
+      "indice": "Compte les groupes méthyle liés à l'azote.",
+      "corrige": [
+        "Primaire ; secondaire ; tertiaire."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "La glycine et l'alanine sont-elles chirales ? Écris l'amphion de l'alanine.",
+      "indice": "Un carbone asymétrique porte quatre groupes différents.",
+      "corrige": [
+        "Glycine : non (le carbone α porte deux H). Alanine : oui (H, CH₃, NH₂, COOH).",
+        "Amphion de l'alanine : H₃N⁺–CH(CH₃)–COO⁻."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Combien de dipeptides peut-on obtenir à partir d'un mélange de glycine (Gly) et d'alanine (Ala) ? Nomme-les. 2) Écris la formule du dipeptide Gly-Ala. 3) Comment obtenir uniquement Gly-Ala ?",
+      "indice": "Dans Gly-Ala, la glycine garde son groupe NH₂ libre.",
+      "corrige": [
+        "1) Quatre : Gly-Gly, Ala-Ala, Gly-Ala, Ala-Gly.",
+        "2) Gly-Ala : H₂N–CH₂–CO–NH–CH(CH₃)–COOH.",
+        "3) On bloque (protège) le groupe –NH₂ de la glycine et le groupe –COOH de l'alanine, on active le –COOH de la glycine, puis on fait réagir et on déprotège."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : amines et acides α-aminés",
+    "etapes": [
+      "Repère les groupes fonctionnels (–NH₂, –COOH) et le carbone asymétrique.",
+      "Pour un peptide, écris la liaison –CO–NH– et l'eau éliminée.",
+      "Pense à la protection/activation pour une synthèse sélective."
+    ]
+  }
+}

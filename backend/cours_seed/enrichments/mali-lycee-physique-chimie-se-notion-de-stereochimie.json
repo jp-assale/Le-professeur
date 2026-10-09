@@ -1,0 +1,77 @@
+{
+  "_topic": "stereochimie",
+  "objectifs": [
+    "Distinguer isomérie de constitution et stéréoisomérie.",
+    "Reconnaître l'isomérie Z/E des alcènes.",
+    "Identifier un carbone asymétrique et des énantiomères ; utiliser la représentation de Cram."
+  ],
+  "prerequis": [
+    "Formules semi-développées.",
+    "Géométrie des molécules."
+  ],
+  "a_retenir": {
+    "points": [
+      "Isomères de constitution : même formule brute, enchaînements d'atomes différents.",
+      "Stéréoisomères : même enchaînement, disposition différente des atomes dans l'espace.",
+      "Isomérie Z/E : chaque carbone de la double liaison doit porter deux groupes différents ; Z : groupes prioritaires du même côté.",
+      "Un carbone asymétrique (C*) est lié à quatre groupes différents ; il donne deux énantiomères, images l'un de l'autre dans un miroir, non superposables.",
+      "Deux énantiomères ont les mêmes propriétés physiques usuelles mais peuvent avoir des effets biologiques différents."
+    ],
+    "formules": [
+      "C* : 4 substituants différents",
+      "Z (zusammen = ensemble) / E (entgegen = opposé)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Chercher une isomérie Z/E pour le but-1-ène.",
+      "correction": "Son carbone terminal porte deux H : pas d'isomérie Z/E."
+    },
+    {
+      "erreur": "Considérer un carbone portant deux groupes identiques comme asymétrique.",
+      "correction": "Les quatre groupes doivent tous être différents."
+    },
+    {
+      "erreur": "Mal dessiner la représentation de Cram.",
+      "correction": "Deux liaisons dans le plan, une en avant (triangle plein), une en arrière (hachures)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Le but-1-ène et le but-2-ène présentent-ils une isomérie Z/E ?",
+      "indice": "Regarde les groupes portés par chaque carbone de la double liaison.",
+      "corrige": [
+        "But-1-ène (CH₂=CH–CH₂–CH₃) : non.",
+        "But-2-ène (CH₃–CH=CH–CH₃) : oui, (Z)-but-2-ène et (E)-but-2-ène."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Le butan-2-ol et le propan-2-ol possèdent-ils un carbone asymétrique ?",
+      "indice": "Liste les quatre groupes du carbone portant –OH.",
+      "corrige": [
+        "Butan-2-ol : le C2 porte H, OH, CH₃ et C₂H₅ : il est asymétrique.",
+        "Propan-2-ol : le C2 porte deux CH₃ : il n'est pas asymétrique."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "L'alanine H₂N–CH(CH₃)–COOH est chirale. 1) Repère le carbone asymétrique. 2) Représente ses deux énantiomères en représentation de Cram. 3) Ces deux molécules ont-elles les mêmes propriétés ?",
+      "indice": "Les deux représentations sont images l'une de l'autre dans un miroir.",
+      "corrige": [
+        "1) Le carbone central (lié à H, CH₃, NH₂ et COOH) est asymétrique.",
+        "2) On dessine le carbone avec deux liaisons dans le plan, une en avant et une en arrière, puis son image dans un miroir (deux groupes échangés).",
+        "3) Mêmes propriétés physiques et chimiques usuelles, mais action différente sur la lumière polarisée et souvent sur les êtres vivants."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la stéréochimie",
+    "etapes": [
+      "Repère d'abord les doubles liaisons C=C et les carbones à quatre groupes différents.",
+      "Dessine proprement (Cram, Z/E) avec les bons symboles.",
+      "Nomme le type d'isomérie et justifie."
+    ]
+  }
+}

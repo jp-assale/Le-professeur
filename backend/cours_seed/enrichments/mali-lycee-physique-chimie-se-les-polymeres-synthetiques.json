@@ -1,0 +1,77 @@
+{
+  "_topic": "polymeres",
+  "objectifs": [
+    "Écrire l'équation d'une polymérisation par addition.",
+    "Identifier le monomère et le motif d'un polymère.",
+    "Calculer le degré de polymérisation.",
+    "Discuter les enjeux environnementaux des matières plastiques."
+  ],
+  "prerequis": [
+    "Alcènes et double liaison C=C.",
+    "Masse molaire."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un polymère est une macromolécule formée par la répétition d'un motif issu d'un monomère.",
+      "Polyaddition : les doubles liaisons s'ouvrent et les monomères s'enchaînent (polyéthylène, PVC, polystyrène).",
+      "Polycondensation : les monomères s'unissent en éliminant de petites molécules (nylon, polyesters).",
+      "Degré de polymérisation n = M(polymère) / M(motif).",
+      "Beaucoup de plastiques ne sont pas biodégradables ; la combustion du PVC libère du chlorure d'hydrogène toxique : il faut trier et recycler."
+    ],
+    "formules": [
+      "n CH₂=CH₂ → –(CH₂–CH₂)ₙ–",
+      "n CH₂=CHCl → –(CH₂–CHCl)ₙ– (PVC)",
+      "n = M(polymère)/M(motif)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre monomère et motif.",
+      "correction": "Le monomère a une double liaison ; dans le motif, elle est ouverte."
+    },
+    {
+      "erreur": "Calculer n avec la masse d'un atome.",
+      "correction": "Divise par la masse molaire du MOTIF entier."
+    },
+    {
+      "erreur": "Brûler les sachets plastiques pour s'en débarrasser.",
+      "correction": "Les fumées sont toxiques (HCl pour le PVC, suies) : collecte et recyclage."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Écris le monomère et le motif du PVC (polychlorure de vinyle).",
+      "indice": "Le monomère est le chlorure de vinyle.",
+      "corrige": [
+        "Monomère : CH₂=CHCl. Motif : –CH₂–CHCl–."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un polyéthylène a une masse molaire moyenne de 28 000 g/mol. Calcule son degré de polymérisation (C = 12 ; H = 1 g/mol).",
+      "indice": "Motif –CH₂–CH₂– : M = 28 g/mol.",
+      "corrige": [
+        "M(motif) = 2 × 12 + 4 × 1 = 28 g/mol ; n = 28 000/28 = 1 000."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Le polystyrène est obtenu par polyaddition du styrène C₆H₅–CH=CH₂. 1) Écris l'équation de polymérisation. 2) Un échantillon a une masse molaire moyenne de 52 000 g/mol : calcule n. 3) Pourquoi ne faut-il pas brûler les déchets plastiques à l'air libre ?",
+      "indice": "M(C₈H₈) = 104 g/mol.",
+      "corrige": [
+        "1) n C₆H₅–CH=CH₂ → –(CH₂–CH(C₆H₅))ₙ–.",
+        "2) n = 52 000/104 = 500.",
+        "3) La combustion incomplète produit des fumées toxiques (monoxyde de carbone, suies, et pour certains plastiques comme le PVC du chlorure d'hydrogène) ; il faut trier et recycler."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les polymères",
+    "etapes": [
+      "Repère la double liaison du monomère et ouvre-la pour écrire le motif.",
+      "Calcule la masse molaire du motif avec soin.",
+      "Relie la chimie aux enjeux de santé et d'environnement."
+    ]
+  }
+}

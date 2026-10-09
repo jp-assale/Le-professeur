@@ -1,0 +1,79 @@
+{
+  "_topic": "optique-lumiere",
+  "objectifs": [
+    "Décrire la diffraction et les interférences lumineuses (aspect ondulatoire).",
+    "Calculer un interfrange.",
+    "Décrire l'effet photoélectrique et le photon (aspect corpusculaire).",
+    "Calculer l'énergie d'un photon et l'énergie cinétique des électrons émis."
+  ],
+  "prerequis": [
+    "Ondes : longueur d'onde, fréquence, célérité.",
+    "Conversions nm → m, eV → J."
+  ],
+  "a_retenir": {
+    "points": [
+      "Diffraction : une fente de largeur a étale la lumière ; demi-angle θ ≈ λ/a.",
+      "Fentes de Young : franges brillantes et sombres régulièrement espacées de l'interfrange i = λD/a.",
+      "Effet photoélectrique : un métal éclairé émet des électrons seulement si la fréquence dépasse un seuil ν₀, quelle que soit l'intensité.",
+      "La lumière est formée de photons d'énergie E = hν : c'est l'aspect corpusculaire.",
+      "La lumière présente donc une dualité onde-corpuscule."
+    ],
+    "formules": [
+      "λ = c/ν   (c = 3 × 10⁸ m/s)",
+      "i = λ·D/a",
+      "E = h·ν = h·c/λ   (h = 6,63 × 10⁻³⁴ J·s ; 1 eV = 1,6 × 10⁻¹⁹ J)",
+      "E = W₀ + E_c,max   (Einstein)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'une lumière très intense provoque toujours l'effet photoélectrique.",
+      "correction": "C'est la fréquence (l'énergie de chaque photon) qui compte, pas l'intensité."
+    },
+    {
+      "erreur": "Oublier de convertir les nm et les mm.",
+      "correction": "600 nm = 6 × 10⁻⁷ m ; 0,5 mm = 5 × 10⁻⁴ m."
+    },
+    {
+      "erreur": "Mélanger joules et électronvolts.",
+      "correction": "Convertis tout dans la même unité avant de soustraire."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule la fréquence et l'énergie (en J et en eV) d'un photon de longueur d'onde 600 nm.",
+      "indice": "ν = c/λ puis E = hν.",
+      "corrige": [
+        "ν = 3 × 10⁸ / 6 × 10⁻⁷ = 5 × 10¹⁴ Hz.",
+        "E = 6,63 × 10⁻³⁴ × 5 × 10¹⁴ ≈ 3,3 × 10⁻¹⁹ J ≈ 2,07 eV."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dans une expérience de Young, λ = 600 nm, la distance entre les fentes est a = 0,5 mm et l'écran est à D = 2 m. Calcule l'interfrange.",
+      "indice": "i = λD/a en unités SI.",
+      "corrige": [
+        "i = (6 × 10⁻⁷ × 2)/(5 × 10⁻⁴) = 2,4 × 10⁻³ m = 2,4 mm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une cellule photoélectrique au césium a un travail d'extraction W₀ = 1,9 eV. 1) Calcule la longueur d'onde seuil λ₀. 2) On l'éclaire avec une lumière de 400 nm : y a-t-il émission ? Calcule l'énergie cinétique maximale des électrons (en eV). 3) Et avec une lumière rouge de 700 nm ?",
+      "indice": "λ₀ = hc/W₀ avec W₀ en joules.",
+      "corrige": [
+        "1) W₀ = 1,9 × 1,6 × 10⁻¹⁹ = 3,04 × 10⁻¹⁹ J ; λ₀ = (6,63 × 10⁻³⁴ × 3 × 10⁸)/(3,04 × 10⁻¹⁹) ≈ 6,5 × 10⁻⁷ m ≈ 654 nm.",
+        "2) 400 nm < λ₀ : il y a émission. E = hc/λ ≈ 4,97 × 10⁻¹⁹ J ≈ 3,1 eV ; E_c,max = 3,1 − 1,9 = 1,2 eV.",
+        "3) 700 nm > λ₀ : l'énergie des photons est insuffisante, pas d'émission, même avec une lumière intense."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la lumière, onde et particule",
+    "etapes": [
+      "Identifie l'aspect en jeu : ondulatoire (diffraction, interférences) ou corpusculaire (photons).",
+      "Convertis toutes les longueurs en mètres et les énergies dans une même unité.",
+      "Conclus par une phrase physique (émission ou non, aspect de la lumière mis en évidence)."
+    ]
+  }
+}

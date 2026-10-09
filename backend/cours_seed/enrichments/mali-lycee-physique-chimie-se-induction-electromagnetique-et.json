@@ -1,0 +1,77 @@
+{
+  "_topic": "electromagnetisme",
+  "objectifs": [
+    "Calculer la force de Laplace et la force de Lorentz.",
+    "Étudier le mouvement d'une particule chargée dans un champ magnétique uniforme.",
+    "Expliquer l'induction électromagnétique (loi de Faraday, loi de Lenz) et l'auto-induction."
+  ],
+  "prerequis": [
+    "Champ magnétique, vecteurs, produit vectoriel.",
+    "Mouvement circulaire uniforme."
+  ],
+  "a_retenir": {
+    "points": [
+      "Force de Laplace sur un conducteur de longueur ℓ parcouru par I dans B : F = I·ℓ·B·sin α.",
+      "Force de Lorentz sur une charge q de vitesse v : F→ = q·v→ ∧ B→ ; elle est perpendiculaire à la vitesse et ne travaille pas.",
+      "Dans un champ uniforme, avec v→ ⊥ B→, la particule décrit un cercle de rayon R = m·v/(|q|·B) à vitesse constante.",
+      "Toute variation de flux magnétique à travers un circuit crée une f.é.m. induite e = −dΦ/dt.",
+      "Loi de Lenz : le courant induit s'oppose, par ses effets, à la cause qui lui donne naissance."
+    ],
+    "formules": [
+      "F = I·ℓ·B·sin α",
+      "R = m·v/(|q|·B)",
+      "Φ = N·B·S·cos θ",
+      "e = −dΦ/dt   ;   auto-induction : e = −L·di/dt"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier le nombre de spires N dans le flux.",
+      "correction": "Pour une bobine, Φ = N·B·S·cos θ."
+    },
+    {
+      "erreur": "Penser que la force de Lorentz change la vitesse (valeur).",
+      "correction": "Elle est perpendiculaire à la vitesse : seule la direction change."
+    },
+    {
+      "erreur": "Garder S en cm².",
+      "correction": "20 cm² = 20 × 10⁻⁴ m² = 2 × 10⁻³ m²."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une tige de 10 cm parcourue par un courant de 5 A est placée perpendiculairement à un champ magnétique de 0,2 T. Calcule la force de Laplace.",
+      "indice": "sin 90° = 1.",
+      "corrige": [
+        "F = I·ℓ·B = 5 × 0,1 × 0,2 = 0,1 N."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une bobine de 100 spires de section 20 cm² est placée dans un champ de 0,5 T parallèle à son axe. Le champ s'annule en 0,1 s. Calcule la variation de flux et la valeur moyenne de la f.é.m. induite.",
+      "indice": "Φ = N·B·S.",
+      "corrige": [
+        "Φ initial = 100 × 0,5 × 2 × 10⁻³ = 0,1 Wb ; Φ final = 0.",
+        "|e| = |ΔΦ|/Δt = 0,1/0,1 = 1 V."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un électron (m = 9,1 × 10⁻³¹ kg, |q| = 1,6 × 10⁻¹⁹ C) pénètre avec une vitesse v = 10⁷ m/s perpendiculairement à un champ magnétique uniforme B = 10⁻³ T. 1) Montre que le mouvement est circulaire uniforme. 2) Calcule le rayon de la trajectoire.",
+      "indice": "Applique la loi de Newton avec la seule force de Lorentz (poids négligeable).",
+      "corrige": [
+        "1) La force de Lorentz est perpendiculaire à la vitesse : elle ne travaille pas, la vitesse garde sa valeur ; l'accélération est centripète et constante en valeur : mouvement circulaire uniforme.",
+        "2) |q|·v·B = m·v²/R, donc R = m·v/(|q|·B) = (9,1 × 10⁻³¹ × 10⁷)/(1,6 × 10⁻¹⁹ × 10⁻³) ≈ 5,7 × 10⁻² m, soit environ 5,7 cm."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'électromagnétisme",
+    "etapes": [
+      "Représente B→, v→ (ou I) et la force sur un schéma ; utilise la règle de la main droite.",
+      "Écris la formule littérale avant l'application numérique.",
+      "Pour l'induction : calcule le flux, sa variation, puis la f.é.m. ; applique Lenz pour le sens."
+    ]
+  }
+}
