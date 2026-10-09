@@ -1,0 +1,80 @@
+{
+  "_topic": "vecteurs",
+  "objectifs": [
+    "Reconnaître deux vecteurs égaux et le lien avec le parallélogramme.",
+    "Additionner des vecteurs (relation de Chasles, règle du parallélogramme).",
+    "Multiplier un vecteur par un réel.",
+    "Caractériser le milieu d'un segment avec des vecteurs."
+  ],
+  "prerequis": [
+    "Propriétés du parallélogramme (diagonales de même milieu).",
+    "Tracer des parallèles à la règle et à l'équerre."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un vecteur est défini par une direction, un sens et une longueur.",
+      "AB→ = DC→ ⟺ ABCD est un parallélogramme (éventuellement aplati).",
+      "Relation de Chasles : on « enchaîne » les vecteurs dont l'extrémité de l'un est l'origine du suivant.",
+      "Règle du parallélogramme : AB→ + AC→ = AD→ où ABDC est un parallélogramme.",
+      "I est le milieu de [AB] ⟺ AI→ = IB→ ⟺ IA→ + IB→ = 0→."
+    ],
+    "formules": [
+      "AB→ + BC→ = AC→   (Chasles)",
+      "BA→ = −AB→   ;   AA→ = 0→",
+      "AI→ = ½ AB→ si I est le milieu de [AB]"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire AB→ + CD→ = AD→.",
+      "correction": "Chasles ne s'applique que si l'extrémité du premier vecteur est l'origine du second : AB→ + BD→ = AD→."
+    },
+    {
+      "erreur": "Confondre ABCD parallélogramme avec AB→ = CD→.",
+      "correction": "Pour ABCD parallélogramme, c'est AB→ = DC→ (attention à l'ordre des lettres)."
+    },
+    {
+      "erreur": "Oublier la flèche : écrire AB = CD au lieu de AB→ = CD→.",
+      "correction": "Sans flèche, on parle de longueurs ; l'égalité des longueurs ne suffit pas pour l'égalité des vecteurs."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "ABCD est un parallélogramme. 1) Cite un vecteur égal à AB→. 2) Simplifie AB→ + AD→.",
+      "indice": "Dans un parallélogramme ABCD, les côtés [AB] et [DC] sont parallèles et de même longueur.",
+      "corrige": [
+        "1) ABCD est un parallélogramme donc AB→ = DC→.",
+        "2) Règle du parallélogramme : AB→ + AD→ = AC→ (la diagonale issue de A)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Simplifie : u→ = AB→ + BC→ + CA→ et v→ = MA→ − MB→.",
+      "indice": "Soustraire un vecteur, c'est ajouter son opposé : −MB→ = BM→.",
+      "corrige": [
+        "u→ = AC→ + CA→ = AA→ = 0→.",
+        "v→ = MA→ + BM→ = BM→ + MA→ = BA→."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "ABC est un triangle. 1) Construis le point D tel que AD→ = AB→ + AC→. 2) Quelle est la nature du quadrilatère ABDC ? 3) I est le milieu de [BC]. Démontre que AI→ = ½ AD→.",
+      "indice": "Les diagonales d'un parallélogramme se coupent en leur milieu.",
+      "corrige": [
+        "1) On trace le parallélogramme construit sur [AB] et [AC] : D est le quatrième sommet.",
+        "2) AD→ = AB→ + AC→ signifie que ABDC est un parallélogramme (règle du parallélogramme).",
+        "3) Les diagonales [AD] et [BC] du parallélogramme ABDC ont le même milieu. Or I est le milieu de [BC], donc I est aussi le milieu de [AD].",
+        "Donc AI→ = ½ AD→."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : rédiger avec des vecteurs",
+    "etapes": [
+      "Fais une figure soignée et place les points au crayon.",
+      "Écris toujours les flèches sur les vecteurs.",
+      "Pour démontrer un parallélogramme, montre une égalité de vecteurs (AB→ = DC→) et cite la propriété."
+    ]
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "_doc": "Complements pedagogiques - Mathematiques college (lot 2 : vecteurs, reperage, droites, statistique, equations, systemes, fonctions affines). Calculs verifies a la main.",
+  "topics": {
+    "vecteurs": {
+      "objectifs": [
+        "Reconnaître deux vecteurs égaux et le lien avec le parallélogramme.",
+        "Additionner des vecteurs (relation de Chasles, règle du parallélogramme).",
+        "Multiplier un vecteur par un réel.",
+        "Caractériser le milieu d'un segment avec des vecteurs."
+      ],
+      "prerequis": [
+        "Propriétés du parallélogramme (diagonales de même milieu).",
+        "Tracer des parallèles à la règle et à l'équerre."
+      ],
+      "a_retenir": {
+        "points": [
+          "Un vecteur est défini par une direction, un sens et une longueur.",
+          "AB→ = DC→ ⟺ ABCD est un parallélogramme (éventuellement aplati).",
+          "Relation de Chasles : on « enchaîne » les vecteurs dont l'extrémité de l'un est l'origine du suivant.",
+          "Règle du parallélogramme : AB→ + AC→ = AD→ où ABDC est un parallélogramme.",
+          "I est le milieu de [AB] ⟺ AI→ = IB→ ⟺ IA→ + IB→ = 0→."
+        ],
+        "formules": [
+          "AB→ + BC→ = AC→   (Chasles)",
+          "BA→ = −AB→   ;   AA→ = 0→",
+          "AI→ = ½ AB→ si I est le milieu de [AB]"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire AB→ + CD→ = AD→.", "correction": "Chasles ne s'applique que si l'extrémité du premier vecteur est l'origine du second : AB→ + BD→ = AD→." },
+        { "erreur": "Confondre ABCD parallélogramme avec AB→ = CD→.", "correction": "Pour ABCD parallélogramme, c'est AB→ = DC→ (attention à l'ordre des lettres)." },
+        { "erreur": "Oublier la flèche : écrire AB = CD au lieu de AB→ = CD→.", "correction": "Sans flèche, on parle de longueurs ; l'égalité des longueurs ne suffit pas pour l'égalité des vecteurs." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "ABCD est un parallélogramme. 1) Cite un vecteur égal à AB→. 2) Simplifie AB→ + AD→.",
+          "indice": "Dans un parallélogramme ABCD, les côtés [AB] et [DC] sont parallèles et de même longueur.",
+          "corrige": [
+            "1) ABCD est un parallélogramme donc AB→ = DC→.",
+            "2) Règle du parallélogramme : AB→ + AD→ = AC→ (la diagonale issue de A)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Simplifie : u→ = AB→ + BC→ + CA→ et v→ = MA→ − MB→.",
+          "indice": "Soustraire un vecteur, c'est ajouter son opposé : −MB→ = BM→.",
+          "corrige": [
+            "u→ = AC→ + CA→ = AA→ = 0→.",
+            "v→ = MA→ + BM→ = BM→ + MA→ = BA→."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "ABC est un triangle. 1) Construis le point D tel que AD→ = AB→ + AC→. 2) Quelle est la nature du quadrilatère ABDC ? 3) I est le milieu de [BC]. Démontre que AI→ = ½ AD→.",
+          "indice": "Les diagonales d'un parallélogramme se coupent en leur milieu.",
+          "corrige": [
+            "1) On trace le parallélogramme construit sur [AB] et [AC] : D est le quatrième sommet.",
+            "2) AD→ = AB→ + AC→ signifie que ABDC est un parallélogramme (règle du parallélogramme).",
+            "3) Les diagonales [AD] et [BC] du parallélogramme ABDC ont le même milieu. Or I est le milieu de [BC], donc I est aussi le milieu de [AD].",
+            "Donc AI→ = ½ AD→."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger avec des vecteurs",
+        "etapes": [
+          "Fais une figure soignée et place les points au crayon.",
+          "Écris toujours les flèches sur les vecteurs.",
+          "Pour démontrer un parallélogramme, montre une égalité de vecteurs (AB→ = DC→) et cite la propriété."
+        ]
+      }
+    },
+    "coordonnees-repere": {
+      "objectifs": [
+        "Calculer les coordonnées d'un vecteur et du milieu d'un segment.",
+        "Calculer une distance dans un repère orthonormé.",
+        "Démontrer que deux vecteurs sont colinéaires ou orthogonaux.",
+        "Démontrer la nature d'un triangle ou d'un quadrilatère avec des coordonnées."
+      ],
+      "prerequis": [
+        "Placer un point dans un repère.",
+        "Calculer avec des racines carrées et le théorème de Pythagore."
+      ],
+      "a_retenir": {
+        "points": [
+          "Les coordonnées de AB→ s'obtiennent par « arrivée moins départ ».",
+          "Deux vecteurs sont égaux s'ils ont les mêmes coordonnées.",
+          "Les formules de distance et d'orthogonalité ne sont valables que dans un repère ORTHONORMÉ.",
+          "Pour prouver un triangle rectangle, on peut utiliser la réciproque de Pythagore ou l'orthogonalité de deux vecteurs."
+        ],
+        "formules": [
+          "AB→ (x_B − x_A ; y_B − y_A)",
+          "Milieu I de [AB] : I((x_A + x_B)/2 ; (y_A + y_B)/2)",
+          "AB = √((x_B − x_A)² + (y_B − y_A)²)",
+          "u→(x ; y) et v→(x' ; y') colinéaires ⟺ xy' − x'y = 0",
+          "u→ ⊥ v→ ⟺ xx' + yy' = 0 (repère orthonormé)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer AB→ avec « départ moins arrivée » : (x_A − x_B ; y_A − y_B).", "correction": "C'est l'inverse : x_B − x_A et y_B − y_A (arrivée moins départ)." },
+        { "erreur": "Oublier les parenthèses avec les nombres négatifs : 3 − −1.", "correction": "Écris 3 − (−1) = 4." },
+        { "erreur": "Utiliser la formule de distance dans un repère non orthonormé.", "correction": "Vérifie d'abord que l'énoncé précise « repère orthonormé »." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans un repère orthonormé, A(1 ; 2) et B(5 ; −1). Calcule les coordonnées de AB→, la distance AB et les coordonnées du milieu I de [AB].",
+          "indice": "Arrivée moins départ pour le vecteur ; moyenne des coordonnées pour le milieu.",
+          "corrige": [
+            "AB→(5 − 1 ; −1 − 2) = (4 ; −3).",
+            "AB = √(4² + (−3)²) = √(16 + 9) = √25 = 5.",
+            "I((1 + 5)/2 ; (2 + (−1))/2) = (3 ; 0,5)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On donne u→(2 ; −3), v→(−4 ; 6) et w→(3 ; 2). 1) u→ et v→ sont-ils colinéaires ? 2) u→ et w→ sont-ils orthogonaux ?",
+          "indice": "Utilise xy' − x'y pour la colinéarité et xx' + yy' pour l'orthogonalité.",
+          "corrige": [
+            "1) 2 × 6 − (−4) × (−3) = 12 − 12 = 0 : u→ et v→ sont colinéaires (en effet v→ = −2u→).",
+            "2) 2 × 3 + (−3) × 2 = 6 − 6 = 0 : u→ et w→ sont orthogonaux."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans un repère orthonormé, A(−1 ; 1), B(3 ; 3) et C(5 ; −1). 1) Calcule AB, BC et AC. 2) Démontre que ABC est un triangle rectangle isocèle. 3) Détermine les coordonnées de D pour que ABCD soit un carré.",
+          "indice": "Pour la question 3, ABCD est un carré si en plus AD→ = BC→.",
+          "corrige": [
+            "1) AB→(4 ; 2) donc AB = √20 ; BC→(2 ; −4) donc BC = √20 ; AC→(6 ; −2) donc AC = √40.",
+            "2) AB = BC donc ABC est isocèle en B. AB² + BC² = 20 + 20 = 40 = AC², donc d'après la réciproque de Pythagore, ABC est rectangle en B.",
+            "3) Un triangle rectangle isocèle en B se complète en carré ABCD avec AD→ = BC→ = (2 ; −4).",
+            "x_D = −1 + 2 = 1 et y_D = 1 − 4 = −3, donc D(1 ; −3)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la géométrie analytique",
+        "etapes": [
+          "Place les points dans un repère au brouillon pour deviner la réponse (rectangle ? isocèle ?).",
+          "Calcule d'abord toutes les coordonnées de vecteurs utiles, proprement en tableau.",
+          "Conclus avec la propriété : « AB = BC donc… », « AB² + BC² = AC² donc… »."
+        ]
+      }
+    },
+    "equations-droites": {
+      "objectifs": [
+        "Déterminer l'équation y = ax + b d'une droite passant par deux points.",
+        "Vérifier si un point appartient à une droite.",
+        "Utiliser le coefficient directeur pour des droites parallèles ou perpendiculaires.",
+        "Calculer les coordonnées du point d'intersection de deux droites."
+      ],
+      "prerequis": [
+        "Résoudre une équation du premier degré.",
+        "Lire les coordonnées d'un point."
+      ],
+      "a_retenir": {
+        "points": [
+          "Une droite non parallèle à l'axe des ordonnées a une équation de la forme y = ax + b.",
+          "a est le coefficient directeur, b l'ordonnée à l'origine (la droite coupe l'axe (Oy) au point (0 ; b)).",
+          "Un point appartient à une droite si ses coordonnées vérifient l'équation.",
+          "Deux droites sont parallèles si elles ont le même coefficient directeur.",
+          "Dans un repère orthonormé, deux droites sont perpendiculaires si le produit de leurs coefficients directeurs vaut −1."
+        ],
+        "formules": [
+          "a = (y_B − y_A) / (x_B − x_A)",
+          "(D) // (D') ⟺ a = a'",
+          "(D) ⊥ (D') ⟺ a × a' = −1"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Inverser le calcul de a : (x_B − x_A) / (y_B − y_A).", "correction": "a = variation des y divisée par variation des x." },
+        { "erreur": "Trouver a mais oublier de calculer b.", "correction": "Remplace les coordonnées d'un point dans y = ax + b pour trouver b." },
+        { "erreur": "Conclure qu'un point est sur la droite sans calcul, d'après le dessin.", "correction": "Calcule a·x + b et compare avec y." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Détermine l'équation de la droite (AB) avec A(1 ; 3) et B(3 ; 7).",
+          "indice": "Calcule a, puis remplace les coordonnées de A pour trouver b.",
+          "corrige": [
+            "a = (7 − 3) / (3 − 1) = 4 / 2 = 2.",
+            "A ∈ (AB) : 3 = 2 × 1 + b, donc b = 1.",
+            "(AB) : y = 2x + 1."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "(AB) a pour équation y = 2x + 1. Les points C(−2 ; −3) et D(4 ; 8) appartiennent-ils à (AB) ?",
+          "indice": "Remplace x par l'abscisse du point et compare avec son ordonnée.",
+          "corrige": [
+            "Pour C : 2 × (−2) + 1 = −3 = y_C, donc C ∈ (AB).",
+            "Pour D : 2 × 4 + 1 = 9 ≠ 8, donc D ∉ (AB)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Repère orthonormé. (AB) : y = 2x + 1 et E(2 ; 1). 1) Détermine l'équation de la droite (D) passant par E et parallèle à (AB). 2) Détermine l'équation de la droite (Δ) passant par E et perpendiculaire à (AB). 3) Calcule les coordonnées du point H, intersection de (AB) et (Δ).",
+          "indice": "Pour (Δ), le coefficient directeur a' vérifie 2 × a' = −1.",
+          "corrige": [
+            "1) (D) // (AB) donc (D) : y = 2x + b. E ∈ (D) : 1 = 4 + b, b = −3. (D) : y = 2x − 3.",
+            "2) 2 × a' = −1 donc a' = −1/2. (Δ) : y = −x/2 + b ; E ∈ (Δ) : 1 = −1 + b, b = 2. (Δ) : y = −x/2 + 2.",
+            "3) On résout 2x + 1 = −x/2 + 2, soit 2,5x = 1, donc x = 0,4 ; y = 2 × 0,4 + 1 = 1,8.",
+            "H(0,4 ; 1,8). (Vérification : −0,4/2 + 2 = 1,8.)"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : trouver l'équation d'une droite",
+        "etapes": [
+          "Calcule le coefficient directeur a (ou utilise celui d'une droite parallèle / perpendiculaire).",
+          "Remplace les coordonnées d'un point connu pour trouver b.",
+          "Vérifie avec un second point avant de conclure."
+        ]
+      }
+    },
+    "statistique": {
+      "objectifs": [
+        "Organiser une série statistique (tableau des effectifs, fréquences, effectifs cumulés).",
+        "Calculer une moyenne, y compris pour des données regroupées en classes.",
+        "Déterminer le mode, la médiane et l'étendue.",
+        "Interpréter les résultats dans une situation concrète."
+      ],
+      "prerequis": [
+        "Calculer un pourcentage.",
+        "Ranger des nombres dans l'ordre croissant."
+      ],
+      "a_retenir": {
+        "points": [
+          "Effectif total N = somme des effectifs. Fréquence = effectif ÷ N (souvent en %).",
+          "Le mode est la valeur (ou la classe) qui a le plus grand effectif.",
+          "La médiane partage la série ORDONNÉE en deux groupes de même effectif.",
+          "Si N est impair, la médiane est la valeur de rang (N + 1)/2 ; si N est pair, c'est la moyenne des valeurs de rangs N/2 et N/2 + 1.",
+          "Pour des classes, on calcule la moyenne avec le centre de chaque classe."
+        ],
+        "formules": [
+          "Moyenne = (n₁x₁ + n₂x₂ + … + nₚxₚ) / N",
+          "Centre de la classe [a ; b[ = (a + b)/2",
+          "Étendue = plus grande valeur − plus petite valeur"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Chercher la médiane sans ranger les valeurs.", "correction": "Range d'abord la série dans l'ordre croissant." },
+        { "erreur": "Faire la moyenne des valeurs sans tenir compte des effectifs.", "correction": "Chaque valeur est multipliée par son effectif." },
+        { "erreur": "Donner comme mode le plus grand effectif (8) au lieu de la valeur correspondante.", "correction": "Le mode est la VALEUR la plus fréquente, pas son effectif." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Voici les notes d'Aïcha : 8 ; 12 ; 15 ; 10 ; 12 ; 9 ; 14. Calcule la moyenne (arrondie au centième), la médiane, le mode et l'étendue.",
+          "indice": "Range les 7 notes ; la médiane est la 4e.",
+          "corrige": [
+            "Somme = 80, moyenne = 80 ÷ 7 ≈ 11,43.",
+            "Série ordonnée : 8 ; 9 ; 10 ; 12 ; 12 ; 14 ; 15. N = 7, la médiane est la 4e valeur : 12.",
+            "Mode : 12 (apparaît deux fois). Étendue : 15 − 8 = 7."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Nombre d'enfants dans 20 familles : 0 enfant : 3 familles ; 1 : 5 ; 2 : 8 ; 3 : 4. Calcule la moyenne, la fréquence (en %) des familles de 2 enfants et la médiane.",
+          "indice": "Pour la médiane, N = 20 est pair : regarde les 10e et 11e valeurs grâce aux effectifs cumulés.",
+          "corrige": [
+            "Moyenne = (0 × 3 + 1 × 5 + 2 × 8 + 3 × 4) / 20 = 33 / 20 = 1,65 enfant.",
+            "Fréquence de « 2 enfants » : 8 / 20 = 0,4 = 40 %.",
+            "Effectifs cumulés : 3 ; 8 ; 16 ; 20. Les 10e et 11e valeurs valent 2, donc la médiane est 2."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Masses (en kg) de 40 élèves : [40 ; 50[ : 6 ; [50 ; 60[ : 14 ; [60 ; 70[ : 12 ; [70 ; 80[ : 8. 1) Quelle est la classe modale ? 2) Calcule la masse moyenne. 3) Quel pourcentage d'élèves pèse moins de 60 kg ?",
+          "indice": "Les centres des classes sont 45, 55, 65 et 75.",
+          "corrige": [
+            "1) La classe modale est [50 ; 60[ (effectif 14).",
+            "2) Moyenne = (45 × 6 + 55 × 14 + 65 × 12 + 75 × 8) / 40 = (270 + 770 + 780 + 600) / 40 = 2 420 / 40 = 60,5 kg.",
+            "3) Moins de 60 kg : 6 + 14 = 20 élèves, soit 20 / 40 = 50 %."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de statistique",
+        "etapes": [
+          "Commence par un tableau complet : valeurs (ou centres), effectifs, effectifs cumulés, produits n × x.",
+          "Vérifie que la somme des effectifs est bien N.",
+          "Donne chaque résultat avec son unité et une phrase d'interprétation."
+        ]
+      }
+    },
+    "equations-une-inconnue": {
+      "objectifs": [
+        "Résoudre une équation du premier degré à une inconnue.",
+        "Résoudre une équation produit nul.",
+        "Résoudre une inéquation et représenter ses solutions.",
+        "Mettre un problème concret en équation ou en inéquation."
+      ],
+      "prerequis": [
+        "Le calcul littéral (développer, réduire).",
+        "Les intervalles et la droite graduée."
+      ],
+      "a_retenir": {
+        "points": [
+          "On peut ajouter ou soustraire un même nombre aux deux membres d'une équation ou d'une inéquation.",
+          "On peut multiplier ou diviser les deux membres par un même nombre non nul.",
+          "Dans une inéquation, multiplier ou diviser par un nombre NÉGATIF change le sens de l'inégalité.",
+          "A × B = 0 ⟺ A = 0 ou B = 0.",
+          "La solution d'une inéquation est en général un intervalle : on la représente sur une droite graduée."
+        ],
+        "formules": [
+          "ax + b = 0 (a ≠ 0) ⟺ x = −b/a",
+          "Si −2x ≥ 6 alors x ≤ −3 (on divise par −2 : le sens change)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Diviser par un nombre négatif sans changer le sens de l'inégalité.", "correction": "−2x ≥ 6 donne x ≤ −3 et non x ≥ −3." },
+        { "erreur": "Passer un terme de l'autre côté sans changer son signe.", "correction": "3x − 7 = 2x + 5 donne 3x − 2x = 5 + 7." },
+        { "erreur": "Oublier de vérifier la solution.", "correction": "Remplace x par ta solution dans l'équation de départ : les deux membres doivent être égaux." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Résous : 1) 3x − 7 = 2x + 5. 2) 5(x − 2) = 3x + 4.",
+          "indice": "Regroupe les x d'un côté et les nombres de l'autre.",
+          "corrige": [
+            "1) 3x − 2x = 5 + 7, donc x = 12. Vérification : 36 − 7 = 29 et 24 + 5 = 29.",
+            "2) 5x − 10 = 3x + 4, donc 2x = 14 et x = 7. Vérification : 5 × 5 = 25 et 21 + 4 = 25."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Résous l'inéquation −2x + 5 ≥ 11 et donne l'ensemble des solutions sous forme d'intervalle.",
+          "indice": "Attention au moment où tu divises par −2.",
+          "corrige": [
+            "−2x ≥ 11 − 5, soit −2x ≥ 6.",
+            "On divise par −2 (négatif) : le sens change, x ≤ −3.",
+            "S = ]−∞ ; −3]."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Forfait A : 2 000 FCFA par mois plus 50 FCFA par minute d'appel. Forfait B : 100 FCFA par minute, sans abonnement. On note x le nombre de minutes par mois. 1) Exprime le prix de chaque forfait en fonction de x. 2) Pour quelle durée les deux forfaits coûtent-ils le même prix ? 3) À partir de combien de minutes le forfait A est-il plus avantageux ?",
+          "indice": "Le forfait A est plus avantageux quand son prix est strictement inférieur à celui du forfait B.",
+          "corrige": [
+            "1) Prix A = 2 000 + 50x ; prix B = 100x.",
+            "2) 2 000 + 50x = 100x ⟺ 2 000 = 50x ⟺ x = 40 minutes (les deux coûtent 4 000 FCFA).",
+            "3) 2 000 + 50x < 100x ⟺ 2 000 < 50x ⟺ x > 40.",
+            "Le forfait A est plus avantageux au-delà de 40 minutes d'appel par mois."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : mettre un problème en équation",
+        "etapes": [
+          "Choisis l'inconnue et écris-la clairement : « Soit x le nombre de … ».",
+          "Traduis chaque phrase de l'énoncé en expression avec x.",
+          "Résous, vérifie, puis réponds par une phrase avec l'unité."
+        ]
+      }
+    },
+    "systemes-deux-inconnues": {
+      "objectifs": [
+        "Vérifier si un couple est solution d'une équation à deux inconnues.",
+        "Résoudre un système de deux équations par substitution ou par combinaison.",
+        "Interpréter graphiquement la solution (intersection de deux droites).",
+        "Résoudre un problème concret à l'aide d'un système."
+      ],
+      "prerequis": [
+        "Résoudre une équation du premier degré.",
+        "Tracer une droite d'équation y = ax + b."
+      ],
+      "a_retenir": {
+        "points": [
+          "Une équation ax + by = c a une infinité de couples solutions : ce sont les coordonnées des points d'une droite.",
+          "Résoudre un système, c'est trouver le couple (x ; y) qui vérifie les DEUX équations à la fois.",
+          "Substitution : on exprime une inconnue en fonction de l'autre dans une équation, puis on remplace dans l'autre.",
+          "Combinaison : on multiplie les équations pour que les coefficients d'une inconnue soient opposés, puis on additionne.",
+          "Graphiquement, la solution est le point d'intersection des deux droites."
+        ],
+        "formules": [
+          "Système : { ax + by = c ; a'x + b'y = c' }",
+          "Solution = coordonnées du point d'intersection des deux droites"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Trouver x et oublier de calculer y.", "correction": "Remplace x dans une des équations pour trouver y : la solution est un COUPLE." },
+        { "erreur": "Multiplier un seul membre d'une équation.", "correction": "On multiplie les deux membres (tous les termes) par le même nombre." },
+        { "erreur": "Ne pas vérifier dans les deux équations.", "correction": "Le couple doit vérifier la 1re ET la 2e équation." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "1) Le couple (2 ; 1) est-il solution de l'équation 3x − 2y = 4 ? 2) Résous par substitution le système : x + y = 10 et x − y = 4.",
+          "indice": "Pour le système, la première équation donne y = 10 − x.",
+          "corrige": [
+            "1) 3 × 2 − 2 × 1 = 6 − 2 = 4 : oui, (2 ; 1) est solution.",
+            "2) y = 10 − x ; on remplace : x − (10 − x) = 4, donc 2x = 14 et x = 7 ; y = 10 − 7 = 3.",
+            "S = {(7 ; 3)}. Vérification : 7 + 3 = 10 et 7 − 3 = 4."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Résous par combinaison le système : 2x + 3y = 13 et 5x − 2y = 4.",
+          "indice": "Multiplie la 1re équation par 2 et la 2e par 3 pour éliminer y.",
+          "corrige": [
+            "4x + 6y = 26 et 15x − 6y = 12.",
+            "On additionne : 19x = 38, donc x = 2.",
+            "2 × 2 + 3y = 13, donc 3y = 9 et y = 3.",
+            "S = {(2 ; 3)}. Vérification : 5 × 2 − 2 × 3 = 4."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Au marché, 3 kg de riz et 2 L d'huile coûtent 2 900 FCFA ; 2 kg de riz et 3 L d'huile coûtent 3 100 FCFA. Calcule le prix d'un kilogramme de riz et d'un litre d'huile.",
+          "indice": "Soit r le prix d'un kg de riz et h celui d'un litre d'huile.",
+          "corrige": [
+            "On pose le système : 3r + 2h = 2 900 et 2r + 3h = 3 100.",
+            "On multiplie la 1re par 3 et la 2e par 2 : 9r + 6h = 8 700 et 4r + 6h = 6 200.",
+            "On soustrait : 5r = 2 500, donc r = 500. Puis 2h = 2 900 − 1 500 = 1 400, donc h = 700.",
+            "Le riz coûte 500 FCFA le kg et l'huile 700 FCFA le litre (vérification : 1 000 + 2 100 = 3 100)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : résoudre un système",
+        "etapes": [
+          "Nomme les inconnues et écris le système proprement, les x alignés sous les x.",
+          "Choisis la substitution si une inconnue a pour coefficient 1, sinon la combinaison.",
+          "Vérifie le couple dans les deux équations et réponds par une phrase."
+        ]
+      }
+    },
+    "inequations-deux-inconnues": {
+      "objectifs": [
+        "Représenter graphiquement les solutions d'une inéquation ax + by + c ≤ 0.",
+        "Résoudre graphiquement un système d'inéquations.",
+        "Vérifier si un point appartient à la région solution.",
+        "Modéliser des contraintes concrètes (production, budget)."
+      ],
+      "prerequis": [
+        "Tracer une droite à partir de deux points.",
+        "Résoudre un système de deux équations."
+      ],
+      "a_retenir": {
+        "points": [
+          "La droite d'équation ax + by + c = 0 partage le plan en deux demi-plans.",
+          "Pour savoir quel demi-plan est solution, on teste un point qui n'est pas sur la droite (souvent l'origine O(0 ; 0)).",
+          "Inégalité stricte (< ou >) : la droite est tracée en pointillés (ses points ne sont pas solutions).",
+          "Pour un système, la solution est la région commune à tous les demi-plans solutions.",
+          "Indique ta convention par une phrase : en général, on hachure la partie qui NE convient PAS et la région solution reste blanche."
+        ],
+        "formules": [
+          "Test d'un point M(x₀ ; y₀) : on calcule ax₀ + by₀ + c et on regarde son signe"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Tester le point O alors qu'il est sur la droite.", "correction": "Si c = 0, la droite passe par O : teste un autre point, par exemple (1 ; 0)." },
+        { "erreur": "Hachurer sans dire quelle partie est solution.", "correction": "Écris une légende : « la partie non hachurée est l'ensemble des solutions »." },
+        { "erreur": "Tracer en trait plein une droite d'inégalité stricte.", "correction": "Pour < ou >, la frontière est en pointillés." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Représente l'ensemble des points M(x ; y) tels que x + y − 4 < 0.",
+          "indice": "Trace la droite x + y = 4 (elle passe par (4 ; 0) et (0 ; 4)), puis teste l'origine.",
+          "corrige": [
+            "On trace la droite (D) : x + y − 4 = 0 en pointillés (inégalité stricte), passant par (4 ; 0) et (0 ; 4).",
+            "Test de O(0 ; 0) : 0 + 0 − 4 = −4 < 0, vrai.",
+            "Le demi-plan solution est celui qui contient O (on hachure l'autre)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Résous graphiquement le système : x ≥ 0 ; y ≥ 0 ; x + 2y ≤ 8. Quelle est la forme de la région solution ?",
+          "indice": "La droite x + 2y = 8 passe par (8 ; 0) et (0 ; 4).",
+          "corrige": [
+            "x ≥ 0 : à droite de l'axe des ordonnées ; y ≥ 0 : au-dessus de l'axe des abscisses.",
+            "x + 2y ≤ 8 : test de O : 0 ≤ 8 vrai, donc le côté de O.",
+            "La région solution est le triangle de sommets (0 ; 0), (8 ; 0) et (0 ; 4), bords compris."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un menuisier fabrique x tables et y chaises par semaine. Contraintes : x + y ≤ 10 (place à l'atelier) et 2x + y ≤ 14 (heures de travail), avec x ≥ 0 et y ≥ 0. 1) Peut-il fabriquer 3 tables et 6 chaises ? 5 tables et 5 chaises ? 2) Calcule les coordonnées du point d'intersection des droites x + y = 10 et 2x + y = 14.",
+          "indice": "Remplace x et y dans CHAQUE contrainte.",
+          "corrige": [
+            "1) (3 ; 6) : 3 + 6 = 9 ≤ 10 et 6 + 6 = 12 ≤ 14 : oui, c'est possible.",
+            "(5 ; 5) : 5 + 5 = 10 ≤ 10 mais 10 + 5 = 15 > 14 : non, il manque d'heures de travail.",
+            "2) On soustrait : (2x + y) − (x + y) = 14 − 10, donc x = 4 ; puis y = 10 − 4 = 6.",
+            "Le point d'intersection est (4 ; 6) : 4 tables et 6 chaises utilisent toute la place et toutes les heures."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : résolution graphique",
+        "etapes": [
+          "Trace chaque droite frontière avec deux points calculés (tableau de valeurs).",
+          "Teste un point pour chaque inéquation et hachure la partie qui ne convient pas.",
+          "Écris une phrase de conclusion indiquant clairement la région solution."
+        ]
+      }
+    },
+    "applications-affines": {
+      "objectifs": [
+        "Reconnaître une application (fonction) affine ou linéaire.",
+        "Calculer une image et un antécédent.",
+        "Déterminer une application affine à partir de deux images.",
+        "Représenter graphiquement et comparer deux situations (tarifs)."
+      ],
+      "prerequis": [
+        "Résoudre une équation du premier degré.",
+        "Placer des points dans un repère."
+      ],
+      "a_retenir": {
+        "points": [
+          "Une application affine s'écrit f(x) = ax + b ; si b = 0, elle est linéaire (proportionnalité).",
+          "Sa représentation graphique est une droite ; b est l'ordonnée à l'origine, a le coefficient directeur.",
+          "Si a > 0, f est croissante ; si a < 0, f est décroissante ; si a = 0, f est constante.",
+          "Les accroissements de f sont proportionnels aux accroissements de x.",
+          "Image : on calcule f(x). Antécédent : on résout f(x) = valeur donnée."
+        ],
+        "formules": [
+          "f(x) = ax + b",
+          "a = (f(x₂) − f(x₁)) / (x₂ − x₁)",
+          "b = f(0)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre image et antécédent.", "correction": "L'image de 2 est f(2) ; un antécédent de 7 est un x tel que f(x) = 7." },
+        { "erreur": "Tracer la droite avec un seul point.", "correction": "Il faut au moins deux points (trois pour vérifier)." },
+        { "erreur": "Dire que f(x) = 3x + 2 est linéaire.", "correction": "Elle est affine ; elle serait linéaire seulement si b = 0." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "f(x) = −2x + 3. Calcule f(0) et f(2), puis l'antécédent de 7 par f. f est-elle croissante ou décroissante ?",
+          "indice": "Pour l'antécédent, résous −2x + 3 = 7.",
+          "corrige": [
+            "f(0) = 3 ; f(2) = −4 + 3 = −1.",
+            "−2x + 3 = 7 ⟺ −2x = 4 ⟺ x = −2 : l'antécédent de 7 est −2.",
+            "a = −2 < 0 : f est décroissante."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "f est une application affine telle que f(1) = 5 et f(3) = 9. Détermine f(x).",
+          "indice": "Calcule a avec les accroissements, puis b avec f(1) = 5.",
+          "corrige": [
+            "a = (9 − 5) / (3 − 1) = 4 / 2 = 2.",
+            "f(1) = 2 × 1 + b = 5, donc b = 3.",
+            "f(x) = 2x + 3 (vérification : f(3) = 6 + 3 = 9)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Deux tarifs de taxi-moto : tarif A : 300 FCFA par km ; tarif B : 500 FCFA de prise en charge plus 200 FCFA par km. On note x la distance en km. 1) Écris f(x) pour le tarif A et g(x) pour le tarif B. 2) Pour quelle distance les deux tarifs sont-ils égaux ? 3) Quel tarif choisir pour un trajet de 8 km ?",
+          "indice": "Le tarif A est linéaire, le tarif B est affine.",
+          "corrige": [
+            "1) f(x) = 300x (linéaire) ; g(x) = 200x + 500 (affine).",
+            "2) 300x = 200x + 500 ⟺ 100x = 500 ⟺ x = 5 km (prix : 1 500 FCFA). Graphiquement, c'est le point d'intersection (5 ; 1 500).",
+            "3) f(8) = 2 400 FCFA et g(8) = 2 100 FCFA : pour 8 km, le tarif B est le moins cher."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice sur les fonctions affines",
+        "etapes": [
+          "Fais un tableau de valeurs (au moins 3 points) avant de tracer.",
+          "Choisis une échelle adaptée et indique-la sur les axes.",
+          "Pour comparer deux tarifs, résous l'équation f(x) = g(x) puis conclus par une phrase."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-college-mathematiques-vecteurs": "vecteurs",
+    "senegal-college-mathematiques-vecteurs": "vecteurs",
+    "burkina-faso-college-mathematiques-vecteurs-du-plan-et-reper": "vecteurs",
+    "cote-ivoire-college-mathematiques-coordonnees-de-vecteurs": "coordonnees-repere",
+    "senegal-college-mathematiques-reperage-dans-le-plan": "coordonnees-repere",
+    "burkina-faso-college-mathematiques-repere-orthonormal-distan": "coordonnees-repere",
+    "cote-ivoire-college-mathematiques-equations-de-droites": "equations-droites",
+    "cote-ivoire-college-mathematiques-statistique": "statistique",
+    "burkina-faso-college-mathematiques-statistiques": "statistique",
+    "senegal-college-mathematiques-statistique": "statistique",
+    "cote-ivoire-college-mathematiques-equations-et-inequations-d": "equations-une-inconnue",
+    "senegal-college-mathematiques-equations-et-inequations-a-une": "equations-une-inconnue",
+    "burkina-faso-college-mathematiques-equations-et-inequations-": "equations-une-inconnue",
+    "cote-ivoire-college-mathematiques-equations-et-inequa-8f3103": "systemes-deux-inconnues",
+    "senegal-college-mathematiques-equations-et-systemes-d-equati": "systemes-deux-inconnues",
+    "mali-college-mathematiques-equation-du-premier-degre-a-deux-": "systemes-deux-inconnues",
+    "mali-college-mathematiques-systeme-de-deux-equations-du-prem": "systemes-deux-inconnues",
+    "senegal-college-mathematiques-inequations-et-systemes-d-ineq": "inequations-deux-inconnues",
+    "mali-college-mathematiques-inequation-du-premier-degre-a-deu": "inequations-deux-inconnues",
+    "mali-college-mathematiques-systeme-d-inequations-du-premier-": "inequations-deux-inconnues",
+    "cote-ivoire-college-mathematiques-applications-affines": "applications-affines",
+    "senegal-college-mathematiques-applications-affines": "applications-affines",
+    "burkina-faso-college-mathematiques-fonctions-et-applications": "applications-affines"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_topic": "pyramides-cones",
+  "objectifs": [
+    "Calculer le volume d'une pyramide et d'un cône de révolution.",
+    "Calculer une hauteur ou une génératrice avec Pythagore.",
+    "Connaître la nature d'une section parallèle à la base.",
+    "Utiliser le coefficient de réduction pour les longueurs, aires et volumes."
+  ],
+  "prerequis": [
+    "Aires des figures planes (carré, rectangle, triangle, disque).",
+    "Théorème de Pythagore et de Thalès."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le volume d'une pyramide ou d'un cône est le tiers du produit de l'aire de la base par la hauteur.",
+      "Dans un cône de révolution, la hauteur, le rayon de la base et la génératrice forment un triangle rectangle.",
+      "La section d'une pyramide (ou d'un cône) par un plan parallèle à la base est une réduction de la base.",
+      "Si k est le coefficient de réduction (0 < k < 1) : longueurs × k, aires × k², volumes × k³.",
+      "Unités : 1 dm³ = 1 L = 1 000 cm³."
+    ],
+    "formules": [
+      "V pyramide = (1/3) × aire de la base × h",
+      "V cône = (1/3) × π × r² × h",
+      "génératrice a = √(r² + h²)",
+      "k = petite hauteur / grande hauteur ; V' = k³ × V"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier le facteur 1/3 dans le volume.",
+      "correction": "V = (1/3) × B × h pour la pyramide et le cône (sinon c'est le volume du prisme ou du cylindre)."
+    },
+    {
+      "erreur": "Multiplier le volume par k au lieu de k³.",
+      "correction": "Les volumes sont multipliés par k³ (et les aires par k²)."
+    },
+    {
+      "erreur": "Confondre la hauteur et la génératrice du cône.",
+      "correction": "La hauteur est verticale (du sommet au centre de la base) ; la génératrice va du sommet au bord de la base."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une pyramide a pour base un carré de 6 cm de côté et pour hauteur 10 cm. Calcule son volume.",
+      "indice": "Aire de la base = côté × côté.",
+      "corrige": [
+        "Aire de la base : 6 × 6 = 36 cm².",
+        "V = (1/3) × 36 × 10 = 120 cm³."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un cône de révolution a un rayon de base de 3 cm et une hauteur de 4 cm. Calcule sa génératrice et son volume (valeur exacte puis arrondie au dixième).",
+      "indice": "Pythagore dans le triangle rectangle hauteur-rayon-génératrice.",
+      "corrige": [
+        "a = √(3² + 4²) = √25 = 5 cm.",
+        "V = (1/3) × π × 3² × 4 = 12π cm³ ≈ 37,7 cm³."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un cône de révolution a une hauteur de 12 cm et un rayon de base de 5 cm. 1) Calcule sa génératrice. 2) Calcule son volume V en fonction de π. 3) On le coupe par un plan parallèle à la base, à 4 cm du sommet. Calcule le coefficient de réduction k, le rayon du petit cône et son volume (arrondi au dixième).",
+      "indice": "k = 4 / 12. Le volume du petit cône est k³ × V.",
+      "corrige": [
+        "1) a = √(12² + 5²) = √169 = 13 cm.",
+        "2) V = (1/3) × π × 25 × 12 = 100π cm³.",
+        "3) k = 4 / 12 = 1/3. Rayon du petit cône : 5 × 1/3 = 5/3 cm ≈ 1,7 cm.",
+        "Volume du petit cône : (1/3)³ × 100π = 100π / 27 ≈ 11,6 cm³."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'exercice de géométrie dans l'espace",
+    "etapes": [
+      "Dessine en perspective et repère le triangle rectangle utile (hauteur, rayon, génératrice).",
+      "Écris la formule du volume avant de remplacer.",
+      "Garde la valeur exacte (avec π) le plus longtemps possible, arrondis à la fin."
+    ]
+  }
+}

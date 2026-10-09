@@ -1,0 +1,81 @@
+{
+  "_topic": "equations-droites",
+  "objectifs": [
+    "Déterminer l'équation y = ax + b d'une droite passant par deux points.",
+    "Vérifier si un point appartient à une droite.",
+    "Utiliser le coefficient directeur pour des droites parallèles ou perpendiculaires.",
+    "Calculer les coordonnées du point d'intersection de deux droites."
+  ],
+  "prerequis": [
+    "Résoudre une équation du premier degré.",
+    "Lire les coordonnées d'un point."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une droite non parallèle à l'axe des ordonnées a une équation de la forme y = ax + b.",
+      "a est le coefficient directeur, b l'ordonnée à l'origine (la droite coupe l'axe (Oy) au point (0 ; b)).",
+      "Un point appartient à une droite si ses coordonnées vérifient l'équation.",
+      "Deux droites sont parallèles si elles ont le même coefficient directeur.",
+      "Dans un repère orthonormé, deux droites sont perpendiculaires si le produit de leurs coefficients directeurs vaut −1."
+    ],
+    "formules": [
+      "a = (y_B − y_A) / (x_B − x_A)",
+      "(D) // (D') ⟺ a = a'",
+      "(D) ⊥ (D') ⟺ a × a' = −1"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Inverser le calcul de a : (x_B − x_A) / (y_B − y_A).",
+      "correction": "a = variation des y divisée par variation des x."
+    },
+    {
+      "erreur": "Trouver a mais oublier de calculer b.",
+      "correction": "Remplace les coordonnées d'un point dans y = ax + b pour trouver b."
+    },
+    {
+      "erreur": "Conclure qu'un point est sur la droite sans calcul, d'après le dessin.",
+      "correction": "Calcule a·x + b et compare avec y."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Détermine l'équation de la droite (AB) avec A(1 ; 3) et B(3 ; 7).",
+      "indice": "Calcule a, puis remplace les coordonnées de A pour trouver b.",
+      "corrige": [
+        "a = (7 − 3) / (3 − 1) = 4 / 2 = 2.",
+        "A ∈ (AB) : 3 = 2 × 1 + b, donc b = 1.",
+        "(AB) : y = 2x + 1."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "(AB) a pour équation y = 2x + 1. Les points C(−2 ; −3) et D(4 ; 8) appartiennent-ils à (AB) ?",
+      "indice": "Remplace x par l'abscisse du point et compare avec son ordonnée.",
+      "corrige": [
+        "Pour C : 2 × (−2) + 1 = −3 = y_C, donc C ∈ (AB).",
+        "Pour D : 2 × 4 + 1 = 9 ≠ 8, donc D ∉ (AB)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Repère orthonormé. (AB) : y = 2x + 1 et E(2 ; 1). 1) Détermine l'équation de la droite (D) passant par E et parallèle à (AB). 2) Détermine l'équation de la droite (Δ) passant par E et perpendiculaire à (AB). 3) Calcule les coordonnées du point H, intersection de (AB) et (Δ).",
+      "indice": "Pour (Δ), le coefficient directeur a' vérifie 2 × a' = −1.",
+      "corrige": [
+        "1) (D) // (AB) donc (D) : y = 2x + b. E ∈ (D) : 1 = 4 + b, b = −3. (D) : y = 2x − 3.",
+        "2) 2 × a' = −1 donc a' = −1/2. (Δ) : y = −x/2 + b ; E ∈ (Δ) : 1 = −1 + b, b = 2. (Δ) : y = −x/2 + 2.",
+        "3) On résout 2x + 1 = −x/2 + 2, soit 2,5x = 1, donc x = 0,4 ; y = 2 × 0,4 + 1 = 1,8.",
+        "H(0,4 ; 1,8). (Vérification : −0,4/2 + 2 = 1,8.)"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : trouver l'équation d'une droite",
+    "etapes": [
+      "Calcule le coefficient directeur a (ou utilise celui d'une droite parallèle / perpendiculaire).",
+      "Remplace les coordonnées d'un point connu pour trouver b.",
+      "Vérifie avec un second point avant de conclure."
+    ]
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "_doc": "Complements pedagogiques - Mathematiques college (lot 3 : trigonometrie, espace, projection, cercle, transformations, logique, fonctions rationnelles). Calculs verifies a la main.",
+  "topics": {
+    "triangle-rectangle-trigo": {
+      "objectifs": [
+        "Calculer une longueur avec le théorème de Pythagore.",
+        "Démontrer qu'un triangle est (ou n'est pas) rectangle avec la réciproque.",
+        "Utiliser cosinus, sinus et tangente d'un angle aigu.",
+        "Résoudre un problème concret (échelle, pente, hauteur)."
+      ],
+      "prerequis": [
+        "Les carrés et les racines carrées.",
+        "Utiliser la calculatrice en mode degrés (touches cos, sin, tan et leurs inverses)."
+      ],
+      "a_retenir": {
+        "points": [
+          "L'hypoténuse est le côté opposé à l'angle droit : c'est le plus long côté.",
+          "Pythagore : si ABC est rectangle en A, alors BC² = AB² + AC².",
+          "Réciproque : si BC² = AB² + AC², alors ABC est rectangle en A ; sinon, il ne l'est pas.",
+          "Pour un angle aigu : cos = adjacent / hypoténuse ; sin = opposé / hypoténuse ; tan = opposé / adjacent.",
+          "Le cosinus et le sinus d'un angle aigu sont toujours compris entre 0 et 1."
+        ],
+        "formules": [
+          "BC² = AB² + AC²",
+          "cos B = AB / BC   ;   sin B = AC / BC   ;   tan B = AC / AB",
+          "cos² x + sin² x = 1   ;   tan x = sin x / cos x"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Appliquer Pythagore avec le mauvais côté comme hypoténuse.", "correction": "Repère d'abord l'angle droit : l'hypoténuse est en face." },
+        { "erreur": "Calculatrice en mode radians ou grades.", "correction": "Vérifie que l'écran affiche « D » ou « DEG » avant de calculer cos 35°." },
+        { "erreur": "Écrire « AB² + AC² = BC² donc rectangle » sans calcul séparé.", "correction": "Calcule séparément BC² puis AB² + AC², et compare." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "1) ABC est rectangle en A avec AB = 6 cm et AC = 8 cm. Calcule BC. 2) Un triangle a des côtés de 5 cm, 12 cm et 13 cm. Est-il rectangle ?",
+          "indice": "Pour la question 2, le plus grand côté est le candidat hypoténuse.",
+          "corrige": [
+            "1) D'après le théorème de Pythagore : BC² = 6² + 8² = 36 + 64 = 100, donc BC = 10 cm.",
+            "2) 13² = 169 et 5² + 12² = 25 + 144 = 169.",
+            "Les deux résultats sont égaux : d'après la réciproque de Pythagore, le triangle est rectangle (l'angle droit est en face du côté de 13 cm)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "ABC est rectangle en A, l'angle ABC mesure 35° et BC = 10 cm. Calcule AC et AB (arrondis au centième).",
+          "indice": "AC est opposé à l'angle B, AB lui est adjacent, BC est l'hypoténuse.",
+          "corrige": [
+            "sin B = AC / BC donc AC = BC × sin 35° = 10 × sin 35° ≈ 5,74 cm.",
+            "cos B = AB / BC donc AB = BC × cos 35° = 10 × cos 35° ≈ 8,19 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une échelle de 5 m est appuyée contre un mur vertical. Son pied est posé sur le sol horizontal à 1,4 m du mur. 1) À quelle hauteur l'échelle touche-t-elle le mur ? 2) Calcule l'angle formé par l'échelle et le sol (arrondi au degré).",
+          "indice": "Le mur, le sol et l'échelle forment un triangle rectangle ; l'échelle est l'hypoténuse.",
+          "corrige": [
+            "1) Pythagore : h² + 1,4² = 5², donc h² = 25 − 1,96 = 23,04 et h = √23,04 = 4,8 m.",
+            "2) cos α = côté adjacent / hypoténuse = 1,4 / 5 = 0,28.",
+            "α ≈ 74° (avec la touche cos⁻¹ de la calculatrice)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : choisir le bon outil",
+        "etapes": [
+          "Deux côtés connus, on cherche le troisième → Pythagore.",
+          "On veut prouver qu'un triangle est rectangle → réciproque de Pythagore.",
+          "Un angle et un côté connus, ou on cherche un angle → cos, sin ou tan (écris d'abord la formule).",
+          "Précise l'arrondi demandé et l'unité (cm, m, degrés)."
+        ]
+      }
+    },
+    "pyramides-cones": {
+      "objectifs": [
+        "Calculer le volume d'une pyramide et d'un cône de révolution.",
+        "Calculer une hauteur ou une génératrice avec Pythagore.",
+        "Connaître la nature d'une section parallèle à la base.",
+        "Utiliser le coefficient de réduction pour les longueurs, aires et volumes."
+      ],
+      "prerequis": [
+        "Aires des figures planes (carré, rectangle, triangle, disque).",
+        "Théorème de Pythagore et de Thalès."
+      ],
+      "a_retenir": {
+        "points": [
+          "Le volume d'une pyramide ou d'un cône est le tiers du produit de l'aire de la base par la hauteur.",
+          "Dans un cône de révolution, la hauteur, le rayon de la base et la génératrice forment un triangle rectangle.",
+          "La section d'une pyramide (ou d'un cône) par un plan parallèle à la base est une réduction de la base.",
+          "Si k est le coefficient de réduction (0 < k < 1) : longueurs × k, aires × k², volumes × k³.",
+          "Unités : 1 dm³ = 1 L = 1 000 cm³."
+        ],
+        "formules": [
+          "V pyramide = (1/3) × aire de la base × h",
+          "V cône = (1/3) × π × r² × h",
+          "génératrice a = √(r² + h²)",
+          "k = petite hauteur / grande hauteur ; V' = k³ × V"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier le facteur 1/3 dans le volume.", "correction": "V = (1/3) × B × h pour la pyramide et le cône (sinon c'est le volume du prisme ou du cylindre)." },
+        { "erreur": "Multiplier le volume par k au lieu de k³.", "correction": "Les volumes sont multipliés par k³ (et les aires par k²)." },
+        { "erreur": "Confondre la hauteur et la génératrice du cône.", "correction": "La hauteur est verticale (du sommet au centre de la base) ; la génératrice va du sommet au bord de la base." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Une pyramide a pour base un carré de 6 cm de côté et pour hauteur 10 cm. Calcule son volume.",
+          "indice": "Aire de la base = côté × côté.",
+          "corrige": [
+            "Aire de la base : 6 × 6 = 36 cm².",
+            "V = (1/3) × 36 × 10 = 120 cm³."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un cône de révolution a un rayon de base de 3 cm et une hauteur de 4 cm. Calcule sa génératrice et son volume (valeur exacte puis arrondie au dixième).",
+          "indice": "Pythagore dans le triangle rectangle hauteur-rayon-génératrice.",
+          "corrige": [
+            "a = √(3² + 4²) = √25 = 5 cm.",
+            "V = (1/3) × π × 3² × 4 = 12π cm³ ≈ 37,7 cm³."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un cône de révolution a une hauteur de 12 cm et un rayon de base de 5 cm. 1) Calcule sa génératrice. 2) Calcule son volume V en fonction de π. 3) On le coupe par un plan parallèle à la base, à 4 cm du sommet. Calcule le coefficient de réduction k, le rayon du petit cône et son volume (arrondi au dixième).",
+          "indice": "k = 4 / 12. Le volume du petit cône est k³ × V.",
+          "corrige": [
+            "1) a = √(12² + 5²) = √169 = 13 cm.",
+            "2) V = (1/3) × π × 25 × 12 = 100π cm³.",
+            "3) k = 4 / 12 = 1/3. Rayon du petit cône : 5 × 1/3 = 5/3 cm ≈ 1,7 cm.",
+            "Volume du petit cône : (1/3)³ × 100π = 100π / 27 ≈ 11,6 cm³."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de géométrie dans l'espace",
+        "etapes": [
+          "Dessine en perspective et repère le triangle rectangle utile (hauteur, rayon, génératrice).",
+          "Écris la formule du volume avant de remplacer.",
+          "Garde la valeur exacte (avec π) le plus longtemps possible, arrondis à la fin."
+        ]
+      }
+    },
+    "sections-solides": {
+      "objectifs": [
+        "Connaître la nature des sections planes du pavé, du cylindre, de la pyramide, du cône et de la sphère.",
+        "Calculer les dimensions d'une section avec Pythagore ou Thalès.",
+        "Utiliser le coefficient de réduction pour les aires et les volumes."
+      ],
+      "prerequis": [
+        "Théorèmes de Pythagore et de Thalès.",
+        "Volumes des solides usuels."
+      ],
+      "a_retenir": {
+        "points": [
+          "Pavé droit : une section parallèle à une face est un rectangle de mêmes dimensions que cette face.",
+          "Cylindre : section parallèle à la base → disque de même rayon ; section parallèle à l'axe → rectangle.",
+          "Pyramide et cône : section parallèle à la base → réduction de la base (coefficient k).",
+          "Sphère de rayon R : la section par un plan situé à la distance d du centre (d < R) est un cercle de rayon r = √(R² − d²)."
+        ],
+        "formules": [
+          "r = √(R² − d²)   (section d'une sphère)",
+          "aire de la section = k² × aire de la base ; V' = k³ × V"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'une section de pyramide parallèle à la base a la même taille que la base.", "correction": "C'est une réduction : ses dimensions sont multipliées par k < 1." },
+        { "erreur": "Prendre d (distance au centre) pour le rayon de la section d'une sphère.", "correction": "Utilise Pythagore : r² + d² = R²." },
+        { "erreur": "Calculer k avec les distances depuis la base au lieu du sommet.", "correction": "k = distance du sommet à la section / hauteur totale." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un pavé droit mesure 6 cm × 4 cm × 3 cm. On le coupe par un plan parallèle à la face de dimensions 6 cm × 4 cm. Quelle est la nature et l'aire de la section ?",
+          "indice": "La section est identique à la face à laquelle elle est parallèle.",
+          "corrige": [
+            "La section est un rectangle de 6 cm sur 4 cm.",
+            "Son aire est 6 × 4 = 24 cm²."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une sphère a un rayon de 5 cm. On la coupe par un plan situé à 3 cm de son centre. Calcule le rayon et l'aire de la section.",
+          "indice": "Rayon de la sphère, distance au centre et rayon de la section forment un triangle rectangle.",
+          "corrige": [
+            "r = √(5² − 3²) = √(25 − 9) = √16 = 4 cm.",
+            "Aire = π × 4² = 16π cm² ≈ 50,3 cm²."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "SABCD est une pyramide de hauteur SO = 12 cm dont la base est un carré de 9 cm de côté. On la coupe par un plan parallèle à la base à 4 cm du sommet S. 1) Calcule le coefficient de réduction. 2) Quelle est la nature de la section ? Calcule son côté et son aire. 3) Calcule le volume de la grande pyramide puis celui de la petite.",
+          "indice": "k = 4 / 12. Vérifie que le petit volume vaut k³ fois le grand.",
+          "corrige": [
+            "1) k = 4 / 12 = 1/3.",
+            "2) La section est un carré (réduction de la base) de côté 9 × 1/3 = 3 cm ; aire 9 cm² (= 81 × k²).",
+            "3) Grande pyramide : V = (1/3) × 81 × 12 = 324 cm³.",
+            "Petite pyramide : V' = (1/3) × 9 × 4 = 12 cm³ ; on retrouve V' = 324 × (1/3)³ = 324 / 27 = 12 cm³."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sections de solides",
+        "etapes": [
+          "Nomme la nature de la section en citant la propriété.",
+          "Isole dans la figure un triangle rectangle (Pythagore) ou une configuration de Thalès.",
+          "Utilise k, k² et k³ pour vérifier tes résultats."
+        ]
+      }
+    },
+    "projection": {
+      "objectifs": [
+        "Construire le projeté d'un point sur une droite parallèlement à une direction.",
+        "Utiliser la conservation du milieu et des rapports de longueurs.",
+        "Calculer avec le rapport de projection.",
+        "Calculer la longueur d'un projeté orthogonal avec le cosinus."
+      ],
+      "prerequis": [
+        "Tracer des parallèles et des perpendiculaires.",
+        "Propriété de Thalès."
+      ],
+      "a_retenir": {
+        "points": [
+          "Le projeté M' de M sur (Δ) parallèlement à (d) est l'intersection de (Δ) et de la parallèle à (d) passant par M.",
+          "Projection orthogonale : la direction de projection est perpendiculaire à (Δ).",
+          "La projection conserve le milieu : le projeté du milieu de [AB] est le milieu de [A'B'].",
+          "Pour des points d'une même droite (D), la projection multiplie toutes les longueurs par un même nombre k : le rapport de projection.",
+          "En projection orthogonale, si [AB] fait un angle α avec (Δ), alors A'B' = AB × cos α."
+        ],
+        "formules": [
+          "A'B' / AB = C'D' / CD = k (points A, B, C, D de la même droite)",
+          "A'B' = AB × cos α (projection orthogonale)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Tracer la perpendiculaire à (Δ) alors que la projection se fait parallèlement à (d).", "correction": "Trace la parallèle à (d) passant par le point." },
+        { "erreur": "Penser que la projection conserve les longueurs.", "correction": "Elle les multiplie par k ; seuls le milieu et les rapports sont conservés." },
+        { "erreur": "Utiliser le rapport de projection pour des segments de droites différentes.", "correction": "Le même k vaut seulement pour les segments portés par une même droite (ou des droites parallèles)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "I est le milieu de [AB]. A', B' et I' sont les projetés de A, B et I sur (Δ) parallèlement à (d). Que peux-tu dire de I' ?",
+          "indice": "Pense à la propriété de conservation.",
+          "corrige": [
+            "La projection conserve le milieu.",
+            "Donc I' est le milieu de [A'B']."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "A, B, C et D sont des points d'une droite (D). Leurs projetés sur (Δ) sont A', B', C', D'. On donne AB = 8 cm, A'B' = 6 cm et CD = 4 cm. Calcule le rapport de projection, puis C'D'.",
+          "indice": "Le rapport est le même pour tous les segments de (D).",
+          "corrige": [
+            "k = A'B' / AB = 6 / 8 = 0,75.",
+            "C'D' = k × CD = 0,75 × 4 = 3 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un segment [AB] de 10 cm fait un angle de 60° avec une droite (Δ). Calcule la longueur de son projeté orthogonal [A'B'] sur (Δ). Même question si l'angle est de 90°.",
+          "indice": "A'B' = AB × cos α.",
+          "corrige": [
+            "Pour α = 60° : A'B' = 10 × cos 60° = 10 × 0,5 = 5 cm.",
+            "Pour α = 90° : cos 90° = 0, donc A'B' = 0 : [AB] est perpendiculaire à (Δ) et se projette en un seul point."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger une projection",
+        "etapes": [
+          "Précise toujours sur quelle droite et parallèlement à quelle direction on projette.",
+          "Construis les projetés au crayon avec des parallèles soignées.",
+          "Cite la propriété (conservation du milieu, rapport de projection) avant de calculer."
+        ]
+      }
+    },
+    "droite-cercle": {
+      "objectifs": [
+        "Déterminer la position relative d'une droite et d'un cercle.",
+        "Construire et utiliser la tangente à un cercle en un point.",
+        "Calculer une longueur de tangente ou de corde avec Pythagore."
+      ],
+      "prerequis": [
+        "Distance d'un point à une droite (longueur de la perpendiculaire).",
+        "Théorème de Pythagore."
+      ],
+      "a_retenir": {
+        "points": [
+          "On compare la distance d du centre O à la droite avec le rayon r.",
+          "d > r : la droite est extérieure au cercle (aucun point commun).",
+          "d = r : la droite est tangente au cercle (un seul point commun).",
+          "d < r : la droite est sécante (deux points communs).",
+          "La tangente en un point T du cercle est perpendiculaire au rayon [OT]."
+        ],
+        "formules": [
+          "Tangente issue d'un point A : AT² = OA² − r²",
+          "Demi-corde : √(r² − d²)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Comparer la distance d avec le diamètre.", "correction": "On compare d avec le RAYON r." },
+        { "erreur": "Tracer une tangente « à l'œil ».", "correction": "Trace le rayon [OT] puis la perpendiculaire à [OT] en T, à l'équerre." },
+        { "erreur": "Oublier l'angle droit en T pour appliquer Pythagore.", "correction": "OTA est rectangle en T car la tangente est perpendiculaire au rayon." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un cercle a pour rayon 5 cm. Donne la position d'une droite située à 3 cm, à 5 cm puis à 7 cm du centre.",
+          "indice": "Compare chaque distance à 5.",
+          "corrige": [
+            "d = 3 < 5 : droite sécante (2 points communs).",
+            "d = 5 : droite tangente (1 point commun).",
+            "d = 7 > 5 : droite extérieure (aucun point commun)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un cercle de centre O a pour rayon 6 cm. A est un point tel que OA = 10 cm. Une tangente issue de A touche le cercle en T. Calcule AT.",
+          "indice": "Le triangle OTA est rectangle en T.",
+          "corrige": [
+            "(AT) est tangente en T, donc (AT) ⊥ (OT) : OTA est rectangle en T.",
+            "AT² = OA² − OT² = 100 − 36 = 64, donc AT = 8 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un cercle de centre O a pour rayon 5 cm. Une droite (D) est à 3 cm de O. 1) Quelle est la position de (D) par rapport au cercle ? 2) (D) coupe le cercle en E et F ; H est le pied de la perpendiculaire à (D) passant par O. Calcule HE puis la longueur de la corde [EF].",
+          "indice": "OHE est rectangle en H et H est le milieu de [EF].",
+          "corrige": [
+            "1) d = 3 < 5 = r : (D) est sécante au cercle.",
+            "2) OHE est rectangle en H : HE² = OE² − OH² = 25 − 9 = 16, donc HE = 4 cm.",
+            "Le triangle OEF est isocèle en O (OE = OF), donc la hauteur [OH] est aussi médiane : H est le milieu de [EF].",
+            "EF = 2 × 4 = 8 cm."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : droite et cercle",
+        "etapes": [
+          "Trace la perpendiculaire du centre à la droite pour faire apparaître d.",
+          "Compare d et r et conclus avec le bon vocabulaire (extérieure, tangente, sécante).",
+          "Cherche le triangle rectangle (rayon ⊥ tangente) pour calculer."
+        ]
+      }
+    },
+    "isometries": {
+      "objectifs": [
+        "Connaître les isométries du plan : symétries, translations, rotations.",
+        "Utiliser leurs propriétés de conservation.",
+        "Identifier la composée de deux symétries."
+      ],
+      "prerequis": [
+        "Construire l'image d'une figure par une symétrie centrale ou axiale.",
+        "Les vecteurs et la relation de Chasles."
+      ],
+      "a_retenir": {
+        "points": [
+          "Une isométrie conserve les distances ; elle conserve donc aussi les angles, l'alignement, le parallélisme, les milieux et les aires.",
+          "L'image d'une droite est une droite, l'image d'un cercle est un cercle de même rayon.",
+          "Symétrie centrale de centre O puis de centre O' : c'est la translation de vecteur 2OO'→.",
+          "Symétries axiales d'axes parallèles (D) puis (D') : translation de vecteur perpendiculaire aux axes, de longueur le double de la distance entre les axes.",
+          "Symétries axiales d'axes perpendiculaires en O : c'est la symétrie centrale de centre O."
+        ],
+        "formules": [
+          "S_O' ∘ S_O = translation de vecteur 2OO'→",
+          "Isométrie : A'B' = AB pour tous points A et B"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'une isométrie conserve l'orientation des figures.", "correction": "Une symétrie axiale « retourne » la figure ; les longueurs et les angles restent pourtant les mêmes." },
+        { "erreur": "Donner OO'→ comme vecteur de la composée de deux symétries centrales.", "correction": "C'est 2OO'→ (le double)." },
+        { "erreur": "Construire une image point par point sans vérifier les longueurs.", "correction": "Contrôle au compas que A'B' = AB." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Le triangle A'B'C' est l'image du triangle ABC par une symétrie centrale. On sait que AB = 5 cm et que l'angle BAC mesure 40°. Que valent A'B' et l'angle B'A'C' ?",
+          "indice": "Une symétrie centrale est une isométrie.",
+          "corrige": [
+            "Une isométrie conserve les longueurs : A'B' = AB = 5 cm.",
+            "Elle conserve les angles : B'A'C' = BAC = 40°."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "O et O' sont deux points distincts. M₁ est le symétrique de M par rapport à O, puis M' le symétrique de M₁ par rapport à O'. Démontre que MM'→ = 2OO'→.",
+          "indice": "O est le milieu de [MM₁] et O' celui de [M₁M'] : utilise la droite des milieux dans le triangle MM₁M'.",
+          "corrige": [
+            "O est le milieu de [MM₁] et O' est le milieu de [M₁M'].",
+            "Dans le triangle MM₁M', la droite des milieux donne : OO'→ = ½ MM'→.",
+            "Donc MM'→ = 2OO'→ : la composée est la translation de vecteur 2OO'→."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "(D) et (D') sont deux droites parallèles distantes de 3 cm. On applique la symétrie d'axe (D), puis celle d'axe (D'). 1) Quelle transformation obtient-on ? Précise son vecteur. 2) Même question si (D) et (D') sont perpendiculaires en O.",
+          "indice": "Construis l'image d'un point M pour voir le déplacement obtenu.",
+          "corrige": [
+            "1) On obtient une translation. Son vecteur est perpendiculaire aux deux axes, dirigé de (D) vers (D'), et sa longueur vaut 2 × 3 = 6 cm.",
+            "2) Si les axes sont perpendiculaires en O, on obtient la symétrie centrale de centre O (demi-tour autour de O)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les transformations",
+        "etapes": [
+          "Construis toujours l'image d'au moins deux points pour deviner la transformation.",
+          "Cite la propriété de conservation utilisée (distance, angle, parallélisme).",
+          "Précise tous les éléments : centre, axe, vecteur, angle."
+        ]
+      }
+    },
+    "translation": {
+      "objectifs": [
+        "Construire l'image d'un point et d'une figure par une translation.",
+        "Relier translation, vecteur et parallélogramme.",
+        "Calculer les coordonnées de l'image d'un point.",
+        "Utiliser les propriétés de conservation de la translation."
+      ],
+      "prerequis": [
+        "Notion de vecteur.",
+        "Coordonnées d'un point dans un repère."
+      ],
+      "a_retenir": {
+        "points": [
+          "M' est l'image de M par la translation de vecteur u→ si MM'→ = u→.",
+          "Si M' et N' sont les images de M et N, alors MM'N'N est un parallélogramme (MN→ = M'N'→).",
+          "Une translation conserve les longueurs, les angles, l'alignement et le parallélisme.",
+          "L'image d'une droite est une droite qui lui est parallèle.",
+          "Avec u→(a ; b), l'image de M(x ; y) est M'(x + a ; y + b)."
+        ],
+        "formules": [
+          "MM'→ = u→",
+          "M'(x + a ; y + b) si u→(a ; b)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Soustraire les coordonnées du vecteur : M'(x − a ; y − b).", "correction": "On AJOUTE les coordonnées du vecteur : M'(x + a ; y + b)." },
+        { "erreur": "Déplacer le point dans le mauvais sens.", "correction": "Le sens du vecteur compte : AB→ va de A vers B." },
+        { "erreur": "Dire que l'image d'une droite est la même droite.", "correction": "C'est une droite parallèle (la même seulement si le vecteur est dirigé selon la droite)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans un repère, u→(3 ; −2) et A(1 ; 4). Calcule les coordonnées de A', image de A par la translation de vecteur u→.",
+          "indice": "Ajoute les coordonnées de u→ à celles de A.",
+          "corrige": [
+            "x_A' = 1 + 3 = 4 et y_A' = 4 + (−2) = 2.",
+            "A'(4 ; 2)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "ABC est un triangle. D est l'image de C par la translation de vecteur AB→. Quelle est la nature du quadrilatère ABDC ? Justifie.",
+          "indice": "Traduis la définition : CD→ = AB→.",
+          "corrige": [
+            "D est l'image de C par la translation de vecteur AB→, donc CD→ = AB→.",
+            "AB→ = CD→ signifie que ABDC est un parallélogramme."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans un repère orthonormé, A(0 ; 0), B(4 ; 0), C(1 ; 3) et u→(2 ; 1). 1) Calcule les coordonnées de A', B', C', images de A, B, C par la translation de vecteur u→. 2) Vérifie que A'B' = AB. 3) Que peut-on dire des droites (BC) et (B'C') ?",
+          "indice": "Une translation transforme une droite en une droite parallèle.",
+          "corrige": [
+            "1) A'(2 ; 1), B'(6 ; 1), C'(3 ; 4).",
+            "2) AB = 4 (points sur l'axe des abscisses) ; A'B' = √((6 − 2)² + (1 − 1)²) = 4 : la longueur est conservée.",
+            "3) (B'C') est l'image de (BC) par une translation, donc (B'C') // (BC) (vérification : BC→(−3 ; 3) = B'C'→(−3 ; 3))."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la translation",
+        "etapes": [
+          "Écris la définition : « M' est l'image de M donc MM'→ = u→ ».",
+          "En repère, ajoute les coordonnées du vecteur.",
+          "Utilise le parallélogramme pour construire ou démontrer."
+        ]
+      }
+    },
+    "symetrie-centrale": {
+      "objectifs": [
+        "Construire le symétrique d'un point et d'une figure par rapport à un point.",
+        "Calculer les coordonnées du symétrique d'un point.",
+        "Utiliser les propriétés de conservation de la symétrie centrale.",
+        "Reconnaître le centre de symétrie d'une figure (parallélogramme)."
+      ],
+      "prerequis": [
+        "Le milieu d'un segment et ses coordonnées.",
+        "Propriétés du parallélogramme."
+      ],
+      "a_retenir": {
+        "points": [
+          "M' est le symétrique de M par rapport à O si O est le milieu de [MM'].",
+          "Le centre O est le seul point invariant (son propre symétrique).",
+          "La symétrie centrale conserve les longueurs, les angles, l'alignement et les aires.",
+          "L'image d'une droite est une droite parallèle.",
+          "Le point d'intersection des diagonales d'un parallélogramme est son centre de symétrie."
+        ],
+        "formules": [
+          "Si O(a ; b) et M(x ; y), alors M'(2a − x ; 2b − y)",
+          "Centre O(0 ; 0) : M'(−x ; −y)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre symétrie centrale et symétrie axiale.", "correction": "Symétrie centrale : par rapport à un POINT (demi-tour). Symétrie axiale : par rapport à une DROITE (pliage)." },
+        { "erreur": "Placer M' à la même distance de O mais pas sur la droite (MO).", "correction": "M, O et M' sont alignés, O au milieu." },
+        { "erreur": "Écrire M'(a − x ; b − y).", "correction": "La bonne formule est M'(2a − x ; 2b − y)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans un repère d'origine O, A(3 ; −2). Donne les coordonnées de A', symétrique de A par rapport à O.",
+          "indice": "Par rapport à l'origine, on change les signes des deux coordonnées.",
+          "corrige": [
+            "A'(−3 ; 2).",
+            "Vérification : le milieu de [AA'] est ((3 − 3)/2 ; (−2 + 2)/2) = (0 ; 0) = O."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "I(1 ; 2) et M(4 ; 5). Calcule les coordonnées de M', symétrique de M par rapport à I.",
+          "indice": "M'(2a − x ; 2b − y).",
+          "corrige": [
+            "x_M' = 2 × 1 − 4 = −2 et y_M' = 2 × 2 − 5 = −1.",
+            "M'(−2 ; −1). Vérification : milieu de [MM'] = ((4 − 2)/2 ; (5 − 1)/2) = (1 ; 2) = I."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "ABCD est un parallélogramme de centre O. 1) Quels sont les symétriques de A et de B par rapport à O ? 2) Déduis-en l'image de la droite (AB) et démontre que (AB) // (CD). 3) Démontre que AB = CD.",
+          "indice": "Les diagonales d'un parallélogramme se coupent en leur milieu O.",
+          "corrige": [
+            "1) O est le milieu de [AC] et de [BD] : le symétrique de A est C, celui de B est D.",
+            "2) L'image de (AB) est donc (CD). Or la symétrie centrale transforme une droite en une droite parallèle : (AB) // (CD).",
+            "3) La symétrie centrale conserve les longueurs : CD = AB."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la symétrie centrale",
+        "etapes": [
+          "Traduis toujours par « O est le milieu de [MM'] ».",
+          "En repère, utilise M'(2a − x ; 2b − y) puis vérifie avec le milieu.",
+          "Cite la propriété de conservation pour justifier égalités de longueurs et parallélisme."
+        ]
+      }
+    },
+    "symetrie-orthogonale": {
+      "objectifs": [
+        "Construire le symétrique d'un point par rapport à une droite.",
+        "Utiliser la médiatrice et les propriétés de conservation.",
+        "Calculer des coordonnées de symétriques par rapport aux axes.",
+        "Résoudre un problème de plus court chemin."
+      ],
+      "prerequis": [
+        "La médiatrice d'un segment.",
+        "Placer des points dans un repère."
+      ],
+      "a_retenir": {
+        "points": [
+          "M' est le symétrique de M par rapport à (D) si (D) est la médiatrice de [MM'].",
+          "Les points de l'axe (D) sont invariants.",
+          "La symétrie orthogonale conserve les longueurs, les angles, l'alignement et les aires.",
+          "Tout point de l'axe est à égale distance de M et de M'.",
+          "Plus court chemin de A à B en passant par (D) (A et B du même côté) : on remplace B par son symétrique B' ; le chemin le plus court est la ligne droite [AB']."
+        ],
+        "formules": [
+          "Par rapport à (Ox) : M(x ; y) → M'(x ; −y)",
+          "Par rapport à (Oy) : M(x ; y) → M'(−x ; y)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Construire le symétrique sans tracer la perpendiculaire à l'axe.", "correction": "M' est sur la perpendiculaire à (D) passant par M, de l'autre côté, à la même distance." },
+        { "erreur": "Inverser les formules pour (Ox) et (Oy).", "correction": "Symétrie par rapport à (Ox) : c'est l'ordonnée y qui change de signe." },
+        { "erreur": "Penser que l'image d'une droite lui est toujours parallèle.", "correction": "C'est vrai pour la symétrie centrale et la translation, pas en général pour la symétrie orthogonale." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "A(2 ; 5). Donne les coordonnées de son symétrique par rapport à l'axe (Ox), puis par rapport à l'axe (Oy).",
+          "indice": "(Ox) : on change le signe de y ; (Oy) : celui de x.",
+          "corrige": [
+            "Par rapport à (Ox) : (2 ; −5).",
+            "Par rapport à (Oy) : (−2 ; 5)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "A' est le symétrique de A par rapport à une droite (D) et M est un point de (D). Démontre que MA = MA'.",
+          "indice": "Quelle est la droite (D) pour le segment [AA'] ?",
+          "corrige": [
+            "Par définition, (D) est la médiatrice de [AA'].",
+            "Tout point de la médiatrice est à égale distance des extrémités du segment.",
+            "M ∈ (D), donc MA = MA'."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un berger est en A et doit faire boire ses moutons à la rivière avant d'aller au point B, A et B étant du même côté de la rivière. Dans un repère orthonormé (unité : 1 km), la rivière est l'axe (Ox), A(0 ; 3) et B(6 ; 1). 1) Donne les coordonnées de B', symétrique de B par rapport à (Ox). 2) Le meilleur point M de la rivière est l'intersection de [AB'] avec (Ox). Explique pourquoi. 3) Calcule la longueur du trajet le plus court AM + MB.",
+          "indice": "MB = MB' car M est sur l'axe de symétrie.",
+          "corrige": [
+            "1) B'(6 ; −1).",
+            "2) Pour tout point M de la rivière, MB = MB', donc AM + MB = AM + MB'. Cette somme est la plus petite quand A, M et B' sont alignés (la ligne droite est le plus court chemin).",
+            "3) Le trajet minimal vaut AB' = √((6 − 0)² + (−1 − 3)²) = √(36 + 16) = √52 = 2√13 ≈ 7,2 km."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la symétrie orthogonale",
+        "etapes": [
+          "Construis à l'équerre (perpendiculaire) et au compas (même distance).",
+          "Traduis par « (D) est la médiatrice de [MM'] ».",
+          "Pense à la symétrie pour les problèmes de plus court chemin."
+        ]
+      }
+    },
+    "homothetie": {
+      "objectifs": [
+        "Construire l'image d'un point par une homothétie de centre O et de rapport k.",
+        "Calculer les longueurs et aires des figures images.",
+        "Relier homothétie et propriété de Thalès.",
+        "Calculer les coordonnées de l'image d'un point (centre à l'origine)."
+      ],
+      "prerequis": [
+        "Les vecteurs et leur multiplication par un réel.",
+        "La propriété de Thalès."
+      ],
+      "a_retenir": {
+        "points": [
+          "M' est l'image de M par l'homothétie de centre O et de rapport k (k ≠ 0) si OM'→ = k·OM→.",
+          "Si k > 0, M' est sur la demi-droite [OM) ; si k < 0, M' est de l'autre côté de O.",
+          "Les longueurs sont multipliées par |k|, les aires par k².",
+          "L'image d'une droite est une droite parallèle ; les angles sont conservés.",
+          "k = −1 : c'est la symétrie centrale de centre O ; |k| > 1 : agrandissement ; |k| < 1 : réduction."
+        ],
+        "formules": [
+          "OM'→ = k·OM→",
+          "A'B' = |k| × AB   ;   aire' = k² × aire",
+          "Centre O(0 ; 0) : M(x ; y) → M'(kx ; ky)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Multiplier les aires par k.", "correction": "Les aires sont multipliées par k² (par 9 si k = 3)." },
+        { "erreur": "Placer M' du même côté que M quand k est négatif.", "correction": "Si k < 0, M' est de l'autre côté de O." },
+        { "erreur": "Donner une longueur négative quand k < 0.", "correction": "Les longueurs sont multipliées par |k|, toujours positif." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "h est l'homothétie de centre O et de rapport 2. OA = 3 cm. Où se trouve A' = h(A) et combien vaut OA' ? Que devient h si le rapport vaut −1 ?",
+          "indice": "OA'→ = 2·OA→.",
+          "corrige": [
+            "A' est sur la demi-droite [OA) et OA' = 2 × 3 = 6 cm.",
+            "Une homothétie de rapport −1 est la symétrie centrale de centre O."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un triangle a une aire de 5 cm² et un périmètre de 12 cm. Calcule l'aire et le périmètre de son image par une homothétie de rapport 3.",
+          "indice": "Périmètre : longueur → × 3 ; aire → × 3².",
+          "corrige": [
+            "Périmètre : 12 × 3 = 36 cm.",
+            "Aire : 5 × 3² = 5 × 9 = 45 cm²."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans un repère orthonormé d'origine O, h est l'homothétie de centre O et de rapport −2. A(1 ; 2) et B(3 ; 0). 1) Calcule les coordonnées de A' = h(A) et B' = h(B). 2) Calcule AB et A'B' et vérifie que A'B' = 2AB. 3) Que peut-on dire des droites (AB) et (A'B') ?",
+          "indice": "Avec le centre en O, M'(kx ; ky).",
+          "corrige": [
+            "1) A'(−2 ; −4) et B'(−6 ; 0).",
+            "2) AB = √((3 − 1)² + (0 − 2)²) = √8 = 2√2 ; A'B' = √((−6 + 2)² + (0 + 4)²) = √32 = 4√2 = 2 × AB.",
+            "3) Une homothétie transforme une droite en une droite parallèle : (A'B') // (AB)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'homothétie",
+        "etapes": [
+          "Écris la relation vectorielle OM'→ = k·OM→.",
+          "Regarde le signe de k pour placer le point du bon côté.",
+          "Longueurs × |k|, aires × k² : vérifie tes résultats avec ces règles."
+        ]
+      }
+    },
+    "logique": {
+      "objectifs": [
+        "Distinguer une implication et sa réciproque.",
+        "Prouver qu'une affirmation est fausse avec un contre-exemple.",
+        "Utiliser la contraposée.",
+        "Rédiger une démonstration simple (« on sait que… or… donc… »)."
+      ],
+      "prerequis": [
+        "Les propriétés de géométrie de base (Pythagore, Thalès, parallélogramme).",
+        "Nombres pairs et impairs."
+      ],
+      "a_retenir": {
+        "points": [
+          "Implication « Si P alors Q » : chaque fois que P est vraie, Q est vraie.",
+          "Réciproque : « Si Q alors P ». Elle peut être vraie ou fausse : il faut la démontrer à part.",
+          "Un seul contre-exemple suffit pour prouver qu'une affirmation générale est fausse.",
+          "Contraposée : « Si non Q alors non P ». Elle est vraie exactement quand l'implication est vraie.",
+          "Des exemples, même nombreux, ne prouvent jamais une affirmation générale."
+        ],
+        "formules": [
+          "(P ⟹ Q) a la même valeur de vérité que (non Q ⟹ non P)",
+          "Nombre pair : 2n ; nombre impair : 2n + 1 (n entier)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser la réciproque d'une propriété comme si c'était la propriété elle-même.", "correction": "Vérifie le sens : quelles sont les données (P) et quelle est la conclusion (Q) ?" },
+        { "erreur": "Croire qu'un exemple qui marche prouve une règle.", "correction": "Il faut une démonstration valable pour tous les cas (calcul littéral)." },
+        { "erreur": "Confondre contraposée et réciproque.", "correction": "Contraposée : on inverse ET on nie (non Q ⟹ non P)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "« Si un nombre entier est multiple de 4, alors il est pair. » Cette implication est-elle vraie ? Énonce sa réciproque : est-elle vraie ?",
+          "indice": "Pour la réciproque, cherche un nombre pair qui n'est pas multiple de 4.",
+          "corrige": [
+            "Vraie : un multiple de 4 s'écrit 4k = 2 × (2k), il est donc pair.",
+            "Réciproque : « Si un nombre est pair, alors il est multiple de 4. »",
+            "Fausse : contre-exemple 6, qui est pair mais n'est pas multiple de 4."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Énonce la contraposée du théorème de Pythagore, puis utilise-la : un triangle ABC a pour côtés AB = 4 cm, AC = 5 cm et BC = 7 cm. Est-il rectangle en A ?",
+          "indice": "Théorème : si ABC est rectangle en A, alors BC² = AB² + AC².",
+          "corrige": [
+            "Contraposée : si BC² ≠ AB² + AC², alors ABC n'est pas rectangle en A.",
+            "BC² = 49 et AB² + AC² = 16 + 25 = 41.",
+            "49 ≠ 41, donc ABC n'est pas rectangle en A."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Démontre que la somme de deux nombres impairs est toujours un nombre pair.",
+          "indice": "Écris les deux nombres impairs 2n + 1 et 2p + 1 avec n et p entiers.",
+          "corrige": [
+            "Soient a = 2n + 1 et b = 2p + 1 deux nombres impairs (n et p entiers).",
+            "a + b = 2n + 2p + 2 = 2(n + p + 1).",
+            "n + p + 1 est un entier, donc a + b est un multiple de 2 : la somme est paire."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger une démonstration",
+        "etapes": [
+          "Écris ce que tu sais (données), puis la propriété utilisée, puis la conclusion.",
+          "Pour prouver que c'est faux : un contre-exemple précis et chiffré.",
+          "Pour prouver que c'est toujours vrai : un calcul avec des lettres."
+        ]
+      }
+    },
+    "fonction-rationnelle": {
+      "objectifs": [
+        "Déterminer l'ensemble de définition d'une fonction rationnelle.",
+        "Calculer des valeurs numériques (images).",
+        "Simplifier une fonction rationnelle en respectant son ensemble de définition.",
+        "Résoudre f(x) = 0 sans oublier les valeurs interdites."
+      ],
+      "prerequis": [
+        "Factoriser une expression (facteur commun, identités remarquables).",
+        "Résoudre une équation produit nul."
+      ],
+      "a_retenir": {
+        "points": [
+          "Une fonction rationnelle s'écrit f(x) = P(x) / Q(x), où P et Q sont des polynômes.",
+          "f(x) existe seulement si Q(x) ≠ 0 : les valeurs qui annulent le dénominateur sont interdites.",
+          "Ensemble de définition : ℝ privé des valeurs interdites, par exemple ℝ \\ {3}.",
+          "On ne simplifie une fraction que par un FACTEUR commun (jamais par un terme d'une somme).",
+          "Une fraction est nulle si son numérateur est nul ET son dénominateur non nul."
+        ],
+        "formules": [
+          "D_f = { x ∈ ℝ / Q(x) ≠ 0 }",
+          "P(x)/Q(x) = 0 ⟺ P(x) = 0 et Q(x) ≠ 0"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Simplifier (x + 3)/x en 3 (« on barre les x »).", "correction": "x n'est pas un facteur du numérateur : (x + 3)/x ne se simplifie pas." },
+        { "erreur": "Garder une solution qui est une valeur interdite.", "correction": "Vérifie toujours que la solution appartient à l'ensemble de définition." },
+        { "erreur": "Chercher les valeurs interdites dans le numérateur.", "correction": "Seul le DÉNOMINATEUR donne les valeurs interdites." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "f(x) = (2x + 1)/(x − 3). Donne l'ensemble de définition de f, puis calcule f(0) et f(4).",
+          "indice": "Le dénominateur s'annule pour x = 3.",
+          "corrige": [
+            "x − 3 = 0 ⟺ x = 3 : D_f = ℝ \\ {3}.",
+            "f(0) = (0 + 1)/(0 − 3) = −1/3.",
+            "f(4) = (8 + 1)/(4 − 3) = 9."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "g(x) = (x + 2)/((x − 1)(x + 5)). Donne l'ensemble de définition de g et calcule g(−2).",
+          "indice": "Le dénominateur est un produit : il s'annule si l'un des facteurs est nul.",
+          "corrige": [
+            "(x − 1)(x + 5) = 0 ⟺ x = 1 ou x = −5 : D_g = ℝ \\ {−5 ; 1}.",
+            "g(−2) = 0 / ((−3)(3)) = 0."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "h(x) = (x² − 9)/(x² − 3x). 1) Factorise le numérateur et le dénominateur. 2) Détermine l'ensemble de définition de h. 3) Simplifie h(x) sur cet ensemble. 4) Calcule h(1). 5) Résous h(x) = 0.",
+          "indice": "x² − 9 = (x − 3)(x + 3) et x² − 3x = x(x − 3).",
+          "corrige": [
+            "1) x² − 9 = (x − 3)(x + 3) ; x² − 3x = x(x − 3).",
+            "2) x(x − 3) = 0 ⟺ x = 0 ou x = 3 : D_h = ℝ \\ {0 ; 3}.",
+            "3) Pour x ∈ D_h, on simplifie par le facteur (x − 3) : h(x) = (x + 3)/x.",
+            "4) h(1) = (1 + 3)/1 = 4 (vérification avec la forme de départ : (1 − 9)/(1 − 3) = −8/−2 = 4).",
+            "5) h(x) = 0 ⟺ x + 3 = 0 ⟺ x = −3, qui appartient bien à D_h. S = {−3}. (x = 3 annule le numérateur de départ mais c'est une valeur interdite.)"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la fonction rationnelle",
+        "etapes": [
+          "Commence TOUJOURS par chercher les valeurs interdites (dénominateur = 0).",
+          "Factorise avant de simplifier, et rappelle « pour x ≠ … ».",
+          "Contrôle chaque solution : elle ne doit pas être une valeur interdite."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-college-mathematiques-triangle-rectangle": "triangle-rectangle-trigo",
+    "burkina-faso-college-mathematiques-triangle-rectangle-pythag": "triangle-rectangle-trigo",
+    "senegal-college-mathematiques-relations-trigonometriques-dan": "triangle-rectangle-trigo",
+    "mali-college-mathematiques-trigonometrie-pratique": "triangle-rectangle-trigo",
+    "cote-ivoire-college-mathematiques-pyramides-et-cones": "pyramides-cones",
+    "senegal-college-mathematiques-geometrie-dans-l-espace": "pyramides-cones",
+    "burkina-faso-college-mathematiques-sections-de-solides-pytha": "sections-solides",
+    "burkina-faso-college-mathematiques-projection-rapport-de-pro": "projection",
+    "burkina-faso-college-mathematiques-positions-relatives-d-une": "droite-cercle",
+    "burkina-faso-college-mathematiques-isometries-du-plan": "isometries",
+    "senegal-college-mathematiques-transformations-du-plan": "isometries",
+    "mali-college-mathematiques-translation": "translation",
+    "mali-college-mathematiques-symetrie-centrale": "symetrie-centrale",
+    "mali-college-mathematiques-symetrie-orthogonale": "symetrie-orthogonale",
+    "mali-college-mathematiques-homothetie": "homothetie",
+    "burkina-faso-college-mathematiques-logique-entrainement-a-la": "logique",
+    "mali-college-mathematiques-fonction-rationnelle-ensemble-de-": "fonction-rationnelle"
+  }
+}

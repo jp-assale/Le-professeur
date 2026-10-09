@@ -1,0 +1,79 @@
+{
+  "_topic": "homothetie",
+  "objectifs": [
+    "Construire l'image d'un point par une homothétie de centre O et de rapport k.",
+    "Calculer les longueurs et aires des figures images.",
+    "Relier homothétie et propriété de Thalès.",
+    "Calculer les coordonnées de l'image d'un point (centre à l'origine)."
+  ],
+  "prerequis": [
+    "Les vecteurs et leur multiplication par un réel.",
+    "La propriété de Thalès."
+  ],
+  "a_retenir": {
+    "points": [
+      "M' est l'image de M par l'homothétie de centre O et de rapport k (k ≠ 0) si OM'→ = k·OM→.",
+      "Si k > 0, M' est sur la demi-droite [OM) ; si k < 0, M' est de l'autre côté de O.",
+      "Les longueurs sont multipliées par |k|, les aires par k².",
+      "L'image d'une droite est une droite parallèle ; les angles sont conservés.",
+      "k = −1 : c'est la symétrie centrale de centre O ; |k| > 1 : agrandissement ; |k| < 1 : réduction."
+    ],
+    "formules": [
+      "OM'→ = k·OM→",
+      "A'B' = |k| × AB   ;   aire' = k² × aire",
+      "Centre O(0 ; 0) : M(x ; y) → M'(kx ; ky)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Multiplier les aires par k.",
+      "correction": "Les aires sont multipliées par k² (par 9 si k = 3)."
+    },
+    {
+      "erreur": "Placer M' du même côté que M quand k est négatif.",
+      "correction": "Si k < 0, M' est de l'autre côté de O."
+    },
+    {
+      "erreur": "Donner une longueur négative quand k < 0.",
+      "correction": "Les longueurs sont multipliées par |k|, toujours positif."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "h est l'homothétie de centre O et de rapport 2. OA = 3 cm. Où se trouve A' = h(A) et combien vaut OA' ? Que devient h si le rapport vaut −1 ?",
+      "indice": "OA'→ = 2·OA→.",
+      "corrige": [
+        "A' est sur la demi-droite [OA) et OA' = 2 × 3 = 6 cm.",
+        "Une homothétie de rapport −1 est la symétrie centrale de centre O."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un triangle a une aire de 5 cm² et un périmètre de 12 cm. Calcule l'aire et le périmètre de son image par une homothétie de rapport 3.",
+      "indice": "Périmètre : longueur → × 3 ; aire → × 3².",
+      "corrige": [
+        "Périmètre : 12 × 3 = 36 cm.",
+        "Aire : 5 × 3² = 5 × 9 = 45 cm²."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans un repère orthonormé d'origine O, h est l'homothétie de centre O et de rapport −2. A(1 ; 2) et B(3 ; 0). 1) Calcule les coordonnées de A' = h(A) et B' = h(B). 2) Calcule AB et A'B' et vérifie que A'B' = 2AB. 3) Que peut-on dire des droites (AB) et (A'B') ?",
+      "indice": "Avec le centre en O, M'(kx ; ky).",
+      "corrige": [
+        "1) A'(−2 ; −4) et B'(−6 ; 0).",
+        "2) AB = √((3 − 1)² + (0 − 2)²) = √8 = 2√2 ; A'B' = √((−6 + 2)² + (0 + 4)²) = √32 = 4√2 = 2 × AB.",
+        "3) Une homothétie transforme une droite en une droite parallèle : (A'B') // (AB)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : l'homothétie",
+    "etapes": [
+      "Écris la relation vectorielle OM'→ = k·OM→.",
+      "Regarde le signe de k pour placer le point du bon côté.",
+      "Longueurs × |k|, aires × k² : vérifie tes résultats avec ces règles."
+    ]
+  }
+}

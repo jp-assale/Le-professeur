@@ -1,0 +1,81 @@
+{
+  "_topic": "applications-affines",
+  "objectifs": [
+    "Reconnaître une application (fonction) affine ou linéaire.",
+    "Calculer une image et un antécédent.",
+    "Déterminer une application affine à partir de deux images.",
+    "Représenter graphiquement et comparer deux situations (tarifs)."
+  ],
+  "prerequis": [
+    "Résoudre une équation du premier degré.",
+    "Placer des points dans un repère."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une application affine s'écrit f(x) = ax + b ; si b = 0, elle est linéaire (proportionnalité).",
+      "Sa représentation graphique est une droite ; b est l'ordonnée à l'origine, a le coefficient directeur.",
+      "Si a > 0, f est croissante ; si a < 0, f est décroissante ; si a = 0, f est constante.",
+      "Les accroissements de f sont proportionnels aux accroissements de x.",
+      "Image : on calcule f(x). Antécédent : on résout f(x) = valeur donnée."
+    ],
+    "formules": [
+      "f(x) = ax + b",
+      "a = (f(x₂) − f(x₁)) / (x₂ − x₁)",
+      "b = f(0)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre image et antécédent.",
+      "correction": "L'image de 2 est f(2) ; un antécédent de 7 est un x tel que f(x) = 7."
+    },
+    {
+      "erreur": "Tracer la droite avec un seul point.",
+      "correction": "Il faut au moins deux points (trois pour vérifier)."
+    },
+    {
+      "erreur": "Dire que f(x) = 3x + 2 est linéaire.",
+      "correction": "Elle est affine ; elle serait linéaire seulement si b = 0."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "f(x) = −2x + 3. Calcule f(0) et f(2), puis l'antécédent de 7 par f. f est-elle croissante ou décroissante ?",
+      "indice": "Pour l'antécédent, résous −2x + 3 = 7.",
+      "corrige": [
+        "f(0) = 3 ; f(2) = −4 + 3 = −1.",
+        "−2x + 3 = 7 ⟺ −2x = 4 ⟺ x = −2 : l'antécédent de 7 est −2.",
+        "a = −2 < 0 : f est décroissante."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "f est une application affine telle que f(1) = 5 et f(3) = 9. Détermine f(x).",
+      "indice": "Calcule a avec les accroissements, puis b avec f(1) = 5.",
+      "corrige": [
+        "a = (9 − 5) / (3 − 1) = 4 / 2 = 2.",
+        "f(1) = 2 × 1 + b = 5, donc b = 3.",
+        "f(x) = 2x + 3 (vérification : f(3) = 6 + 3 = 9)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Deux tarifs de taxi-moto : tarif A : 300 FCFA par km ; tarif B : 500 FCFA de prise en charge plus 200 FCFA par km. On note x la distance en km. 1) Écris f(x) pour le tarif A et g(x) pour le tarif B. 2) Pour quelle distance les deux tarifs sont-ils égaux ? 3) Quel tarif choisir pour un trajet de 8 km ?",
+      "indice": "Le tarif A est linéaire, le tarif B est affine.",
+      "corrige": [
+        "1) f(x) = 300x (linéaire) ; g(x) = 200x + 500 (affine).",
+        "2) 300x = 200x + 500 ⟺ 100x = 500 ⟺ x = 5 km (prix : 1 500 FCFA). Graphiquement, c'est le point d'intersection (5 ; 1 500).",
+        "3) f(8) = 2 400 FCFA et g(8) = 2 100 FCFA : pour 8 km, le tarif B est le moins cher."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'exercice sur les fonctions affines",
+    "etapes": [
+      "Fais un tableau de valeurs (au moins 3 points) avant de tracer.",
+      "Choisis une échelle adaptée et indique-la sur les axes.",
+      "Pour comparer deux tarifs, résous l'équation f(x) = g(x) puis conclus par une phrase."
+    ]
+  }
+}

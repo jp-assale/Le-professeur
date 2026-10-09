@@ -1,0 +1,81 @@
+{
+  "_topic": "statistique",
+  "objectifs": [
+    "Organiser une série statistique (tableau des effectifs, fréquences, effectifs cumulés).",
+    "Calculer une moyenne, y compris pour des données regroupées en classes.",
+    "Déterminer le mode, la médiane et l'étendue.",
+    "Interpréter les résultats dans une situation concrète."
+  ],
+  "prerequis": [
+    "Calculer un pourcentage.",
+    "Ranger des nombres dans l'ordre croissant."
+  ],
+  "a_retenir": {
+    "points": [
+      "Effectif total N = somme des effectifs. Fréquence = effectif ÷ N (souvent en %).",
+      "Le mode est la valeur (ou la classe) qui a le plus grand effectif.",
+      "La médiane partage la série ORDONNÉE en deux groupes de même effectif.",
+      "Si N est impair, la médiane est la valeur de rang (N + 1)/2 ; si N est pair, c'est la moyenne des valeurs de rangs N/2 et N/2 + 1.",
+      "Pour des classes, on calcule la moyenne avec le centre de chaque classe."
+    ],
+    "formules": [
+      "Moyenne = (n₁x₁ + n₂x₂ + … + nₚxₚ) / N",
+      "Centre de la classe [a ; b[ = (a + b)/2",
+      "Étendue = plus grande valeur − plus petite valeur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Chercher la médiane sans ranger les valeurs.",
+      "correction": "Range d'abord la série dans l'ordre croissant."
+    },
+    {
+      "erreur": "Faire la moyenne des valeurs sans tenir compte des effectifs.",
+      "correction": "Chaque valeur est multipliée par son effectif."
+    },
+    {
+      "erreur": "Donner comme mode le plus grand effectif (8) au lieu de la valeur correspondante.",
+      "correction": "Le mode est la VALEUR la plus fréquente, pas son effectif."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Voici les notes d'Aïcha : 8 ; 12 ; 15 ; 10 ; 12 ; 9 ; 14. Calcule la moyenne (arrondie au centième), la médiane, le mode et l'étendue.",
+      "indice": "Range les 7 notes ; la médiane est la 4e.",
+      "corrige": [
+        "Somme = 80, moyenne = 80 ÷ 7 ≈ 11,43.",
+        "Série ordonnée : 8 ; 9 ; 10 ; 12 ; 12 ; 14 ; 15. N = 7, la médiane est la 4e valeur : 12.",
+        "Mode : 12 (apparaît deux fois). Étendue : 15 − 8 = 7."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Nombre d'enfants dans 20 familles : 0 enfant : 3 familles ; 1 : 5 ; 2 : 8 ; 3 : 4. Calcule la moyenne, la fréquence (en %) des familles de 2 enfants et la médiane.",
+      "indice": "Pour la médiane, N = 20 est pair : regarde les 10e et 11e valeurs grâce aux effectifs cumulés.",
+      "corrige": [
+        "Moyenne = (0 × 3 + 1 × 5 + 2 × 8 + 3 × 4) / 20 = 33 / 20 = 1,65 enfant.",
+        "Fréquence de « 2 enfants » : 8 / 20 = 0,4 = 40 %.",
+        "Effectifs cumulés : 3 ; 8 ; 16 ; 20. Les 10e et 11e valeurs valent 2, donc la médiane est 2."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Masses (en kg) de 40 élèves : [40 ; 50[ : 6 ; [50 ; 60[ : 14 ; [60 ; 70[ : 12 ; [70 ; 80[ : 8. 1) Quelle est la classe modale ? 2) Calcule la masse moyenne. 3) Quel pourcentage d'élèves pèse moins de 60 kg ?",
+      "indice": "Les centres des classes sont 45, 55, 65 et 75.",
+      "corrige": [
+        "1) La classe modale est [50 ; 60[ (effectif 14).",
+        "2) Moyenne = (45 × 6 + 55 × 14 + 65 × 12 + 75 × 8) / 40 = (270 + 770 + 780 + 600) / 40 = 2 420 / 40 = 60,5 kg.",
+        "3) Moins de 60 kg : 6 + 14 = 20 élèves, soit 20 / 40 = 50 %."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : l'exercice de statistique",
+    "etapes": [
+      "Commence par un tableau complet : valeurs (ou centres), effectifs, effectifs cumulés, produits n × x.",
+      "Vérifie que la somme des effectifs est bien N.",
+      "Donne chaque résultat avec son unité et une phrase d'interprétation."
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_topic": "fonction-rationnelle",
+  "objectifs": [
+    "Déterminer l'ensemble de définition d'une fonction rationnelle.",
+    "Calculer des valeurs numériques (images).",
+    "Simplifier une fonction rationnelle en respectant son ensemble de définition.",
+    "Résoudre f(x) = 0 sans oublier les valeurs interdites."
+  ],
+  "prerequis": [
+    "Factoriser une expression (facteur commun, identités remarquables).",
+    "Résoudre une équation produit nul."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une fonction rationnelle s'écrit f(x) = P(x) / Q(x), où P et Q sont des polynômes.",
+      "f(x) existe seulement si Q(x) ≠ 0 : les valeurs qui annulent le dénominateur sont interdites.",
+      "Ensemble de définition : ℝ privé des valeurs interdites, par exemple ℝ \\ {3}.",
+      "On ne simplifie une fraction que par un FACTEUR commun (jamais par un terme d'une somme).",
+      "Une fraction est nulle si son numérateur est nul ET son dénominateur non nul."
+    ],
+    "formules": [
+      "D_f = { x ∈ ℝ / Q(x) ≠ 0 }",
+      "P(x)/Q(x) = 0 ⟺ P(x) = 0 et Q(x) ≠ 0"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Simplifier (x + 3)/x en 3 (« on barre les x »).",
+      "correction": "x n'est pas un facteur du numérateur : (x + 3)/x ne se simplifie pas."
+    },
+    {
+      "erreur": "Garder une solution qui est une valeur interdite.",
+      "correction": "Vérifie toujours que la solution appartient à l'ensemble de définition."
+    },
+    {
+      "erreur": "Chercher les valeurs interdites dans le numérateur.",
+      "correction": "Seul le DÉNOMINATEUR donne les valeurs interdites."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "f(x) = (2x + 1)/(x − 3). Donne l'ensemble de définition de f, puis calcule f(0) et f(4).",
+      "indice": "Le dénominateur s'annule pour x = 3.",
+      "corrige": [
+        "x − 3 = 0 ⟺ x = 3 : D_f = ℝ \\ {3}.",
+        "f(0) = (0 + 1)/(0 − 3) = −1/3.",
+        "f(4) = (8 + 1)/(4 − 3) = 9."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "g(x) = (x + 2)/((x − 1)(x + 5)). Donne l'ensemble de définition de g et calcule g(−2).",
+      "indice": "Le dénominateur est un produit : il s'annule si l'un des facteurs est nul.",
+      "corrige": [
+        "(x − 1)(x + 5) = 0 ⟺ x = 1 ou x = −5 : D_g = ℝ \\ {−5 ; 1}.",
+        "g(−2) = 0 / ((−3)(3)) = 0."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "h(x) = (x² − 9)/(x² − 3x). 1) Factorise le numérateur et le dénominateur. 2) Détermine l'ensemble de définition de h. 3) Simplifie h(x) sur cet ensemble. 4) Calcule h(1). 5) Résous h(x) = 0.",
+      "indice": "x² − 9 = (x − 3)(x + 3) et x² − 3x = x(x − 3).",
+      "corrige": [
+        "1) x² − 9 = (x − 3)(x + 3) ; x² − 3x = x(x − 3).",
+        "2) x(x − 3) = 0 ⟺ x = 0 ou x = 3 : D_h = ℝ \\ {0 ; 3}.",
+        "3) Pour x ∈ D_h, on simplifie par le facteur (x − 3) : h(x) = (x + 3)/x.",
+        "4) h(1) = (1 + 3)/1 = 4 (vérification avec la forme de départ : (1 − 9)/(1 − 3) = −8/−2 = 4).",
+        "5) h(x) = 0 ⟺ x + 3 = 0 ⟺ x = −3, qui appartient bien à D_h. S = {−3}. (x = 3 annule le numérateur de départ mais c'est une valeur interdite.)"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la fonction rationnelle",
+    "etapes": [
+      "Commence TOUJOURS par chercher les valeurs interdites (dénominateur = 0).",
+      "Factorise avant de simplifier, et rappelle « pour x ≠ … ».",
+      "Contrôle chaque solution : elle ne doit pas être une valeur interdite."
+    ]
+  }
+}

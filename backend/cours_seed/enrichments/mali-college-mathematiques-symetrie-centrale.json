@@ -1,0 +1,78 @@
+{
+  "_topic": "symetrie-centrale",
+  "objectifs": [
+    "Construire le symétrique d'un point et d'une figure par rapport à un point.",
+    "Calculer les coordonnées du symétrique d'un point.",
+    "Utiliser les propriétés de conservation de la symétrie centrale.",
+    "Reconnaître le centre de symétrie d'une figure (parallélogramme)."
+  ],
+  "prerequis": [
+    "Le milieu d'un segment et ses coordonnées.",
+    "Propriétés du parallélogramme."
+  ],
+  "a_retenir": {
+    "points": [
+      "M' est le symétrique de M par rapport à O si O est le milieu de [MM'].",
+      "Le centre O est le seul point invariant (son propre symétrique).",
+      "La symétrie centrale conserve les longueurs, les angles, l'alignement et les aires.",
+      "L'image d'une droite est une droite parallèle.",
+      "Le point d'intersection des diagonales d'un parallélogramme est son centre de symétrie."
+    ],
+    "formules": [
+      "Si O(a ; b) et M(x ; y), alors M'(2a − x ; 2b − y)",
+      "Centre O(0 ; 0) : M'(−x ; −y)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre symétrie centrale et symétrie axiale.",
+      "correction": "Symétrie centrale : par rapport à un POINT (demi-tour). Symétrie axiale : par rapport à une DROITE (pliage)."
+    },
+    {
+      "erreur": "Placer M' à la même distance de O mais pas sur la droite (MO).",
+      "correction": "M, O et M' sont alignés, O au milieu."
+    },
+    {
+      "erreur": "Écrire M'(a − x ; b − y).",
+      "correction": "La bonne formule est M'(2a − x ; 2b − y)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Dans un repère d'origine O, A(3 ; −2). Donne les coordonnées de A', symétrique de A par rapport à O.",
+      "indice": "Par rapport à l'origine, on change les signes des deux coordonnées.",
+      "corrige": [
+        "A'(−3 ; 2).",
+        "Vérification : le milieu de [AA'] est ((3 − 3)/2 ; (−2 + 2)/2) = (0 ; 0) = O."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "I(1 ; 2) et M(4 ; 5). Calcule les coordonnées de M', symétrique de M par rapport à I.",
+      "indice": "M'(2a − x ; 2b − y).",
+      "corrige": [
+        "x_M' = 2 × 1 − 4 = −2 et y_M' = 2 × 2 − 5 = −1.",
+        "M'(−2 ; −1). Vérification : milieu de [MM'] = ((4 − 2)/2 ; (5 − 1)/2) = (1 ; 2) = I."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "ABCD est un parallélogramme de centre O. 1) Quels sont les symétriques de A et de B par rapport à O ? 2) Déduis-en l'image de la droite (AB) et démontre que (AB) // (CD). 3) Démontre que AB = CD.",
+      "indice": "Les diagonales d'un parallélogramme se coupent en leur milieu O.",
+      "corrige": [
+        "1) O est le milieu de [AC] et de [BD] : le symétrique de A est C, celui de B est D.",
+        "2) L'image de (AB) est donc (CD). Or la symétrie centrale transforme une droite en une droite parallèle : (AB) // (CD).",
+        "3) La symétrie centrale conserve les longueurs : CD = AB."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la symétrie centrale",
+    "etapes": [
+      "Traduis toujours par « O est le milieu de [MM'] ».",
+      "En repère, utilise M'(2a − x ; 2b − y) puis vérifie avec le milieu.",
+      "Cite la propriété de conservation pour justifier égalités de longueurs et parallélisme."
+    ]
+  }
+}

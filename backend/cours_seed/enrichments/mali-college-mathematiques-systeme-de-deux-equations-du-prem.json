@@ -1,0 +1,82 @@
+{
+  "_topic": "systemes-deux-inconnues",
+  "objectifs": [
+    "Vérifier si un couple est solution d'une équation à deux inconnues.",
+    "Résoudre un système de deux équations par substitution ou par combinaison.",
+    "Interpréter graphiquement la solution (intersection de deux droites).",
+    "Résoudre un problème concret à l'aide d'un système."
+  ],
+  "prerequis": [
+    "Résoudre une équation du premier degré.",
+    "Tracer une droite d'équation y = ax + b."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une équation ax + by = c a une infinité de couples solutions : ce sont les coordonnées des points d'une droite.",
+      "Résoudre un système, c'est trouver le couple (x ; y) qui vérifie les DEUX équations à la fois.",
+      "Substitution : on exprime une inconnue en fonction de l'autre dans une équation, puis on remplace dans l'autre.",
+      "Combinaison : on multiplie les équations pour que les coefficients d'une inconnue soient opposés, puis on additionne.",
+      "Graphiquement, la solution est le point d'intersection des deux droites."
+    ],
+    "formules": [
+      "Système : { ax + by = c ; a'x + b'y = c' }",
+      "Solution = coordonnées du point d'intersection des deux droites"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Trouver x et oublier de calculer y.",
+      "correction": "Remplace x dans une des équations pour trouver y : la solution est un COUPLE."
+    },
+    {
+      "erreur": "Multiplier un seul membre d'une équation.",
+      "correction": "On multiplie les deux membres (tous les termes) par le même nombre."
+    },
+    {
+      "erreur": "Ne pas vérifier dans les deux équations.",
+      "correction": "Le couple doit vérifier la 1re ET la 2e équation."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "1) Le couple (2 ; 1) est-il solution de l'équation 3x − 2y = 4 ? 2) Résous par substitution le système : x + y = 10 et x − y = 4.",
+      "indice": "Pour le système, la première équation donne y = 10 − x.",
+      "corrige": [
+        "1) 3 × 2 − 2 × 1 = 6 − 2 = 4 : oui, (2 ; 1) est solution.",
+        "2) y = 10 − x ; on remplace : x − (10 − x) = 4, donc 2x = 14 et x = 7 ; y = 10 − 7 = 3.",
+        "S = {(7 ; 3)}. Vérification : 7 + 3 = 10 et 7 − 3 = 4."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Résous par combinaison le système : 2x + 3y = 13 et 5x − 2y = 4.",
+      "indice": "Multiplie la 1re équation par 2 et la 2e par 3 pour éliminer y.",
+      "corrige": [
+        "4x + 6y = 26 et 15x − 6y = 12.",
+        "On additionne : 19x = 38, donc x = 2.",
+        "2 × 2 + 3y = 13, donc 3y = 9 et y = 3.",
+        "S = {(2 ; 3)}. Vérification : 5 × 2 − 2 × 3 = 4."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Au marché, 3 kg de riz et 2 L d'huile coûtent 2 900 FCFA ; 2 kg de riz et 3 L d'huile coûtent 3 100 FCFA. Calcule le prix d'un kilogramme de riz et d'un litre d'huile.",
+      "indice": "Soit r le prix d'un kg de riz et h celui d'un litre d'huile.",
+      "corrige": [
+        "On pose le système : 3r + 2h = 2 900 et 2r + 3h = 3 100.",
+        "On multiplie la 1re par 3 et la 2e par 2 : 9r + 6h = 8 700 et 4r + 6h = 6 200.",
+        "On soustrait : 5r = 2 500, donc r = 500. Puis 2h = 2 900 − 1 500 = 1 400, donc h = 700.",
+        "Le riz coûte 500 FCFA le kg et l'huile 700 FCFA le litre (vérification : 1 000 + 2 100 = 3 100)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : résoudre un système",
+    "etapes": [
+      "Nomme les inconnues et écris le système proprement, les x alignés sous les x.",
+      "Choisis la substitution si une inconnue a pour coefficient 1, sinon la combinaison.",
+      "Vérifie le couple dans les deux équations et réponds par une phrase."
+    ]
+  }
+}

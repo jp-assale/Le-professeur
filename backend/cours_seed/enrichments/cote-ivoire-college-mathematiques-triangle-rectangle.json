@@ -1,0 +1,81 @@
+{
+  "_topic": "triangle-rectangle-trigo",
+  "objectifs": [
+    "Calculer une longueur avec le théorème de Pythagore.",
+    "Démontrer qu'un triangle est (ou n'est pas) rectangle avec la réciproque.",
+    "Utiliser cosinus, sinus et tangente d'un angle aigu.",
+    "Résoudre un problème concret (échelle, pente, hauteur)."
+  ],
+  "prerequis": [
+    "Les carrés et les racines carrées.",
+    "Utiliser la calculatrice en mode degrés (touches cos, sin, tan et leurs inverses)."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'hypoténuse est le côté opposé à l'angle droit : c'est le plus long côté.",
+      "Pythagore : si ABC est rectangle en A, alors BC² = AB² + AC².",
+      "Réciproque : si BC² = AB² + AC², alors ABC est rectangle en A ; sinon, il ne l'est pas.",
+      "Pour un angle aigu : cos = adjacent / hypoténuse ; sin = opposé / hypoténuse ; tan = opposé / adjacent.",
+      "Le cosinus et le sinus d'un angle aigu sont toujours compris entre 0 et 1."
+    ],
+    "formules": [
+      "BC² = AB² + AC²",
+      "cos B = AB / BC   ;   sin B = AC / BC   ;   tan B = AC / AB",
+      "cos² x + sin² x = 1   ;   tan x = sin x / cos x"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Appliquer Pythagore avec le mauvais côté comme hypoténuse.",
+      "correction": "Repère d'abord l'angle droit : l'hypoténuse est en face."
+    },
+    {
+      "erreur": "Calculatrice en mode radians ou grades.",
+      "correction": "Vérifie que l'écran affiche « D » ou « DEG » avant de calculer cos 35°."
+    },
+    {
+      "erreur": "Écrire « AB² + AC² = BC² donc rectangle » sans calcul séparé.",
+      "correction": "Calcule séparément BC² puis AB² + AC², et compare."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "1) ABC est rectangle en A avec AB = 6 cm et AC = 8 cm. Calcule BC. 2) Un triangle a des côtés de 5 cm, 12 cm et 13 cm. Est-il rectangle ?",
+      "indice": "Pour la question 2, le plus grand côté est le candidat hypoténuse.",
+      "corrige": [
+        "1) D'après le théorème de Pythagore : BC² = 6² + 8² = 36 + 64 = 100, donc BC = 10 cm.",
+        "2) 13² = 169 et 5² + 12² = 25 + 144 = 169.",
+        "Les deux résultats sont égaux : d'après la réciproque de Pythagore, le triangle est rectangle (l'angle droit est en face du côté de 13 cm)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "ABC est rectangle en A, l'angle ABC mesure 35° et BC = 10 cm. Calcule AC et AB (arrondis au centième).",
+      "indice": "AC est opposé à l'angle B, AB lui est adjacent, BC est l'hypoténuse.",
+      "corrige": [
+        "sin B = AC / BC donc AC = BC × sin 35° = 10 × sin 35° ≈ 5,74 cm.",
+        "cos B = AB / BC donc AB = BC × cos 35° = 10 × cos 35° ≈ 8,19 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une échelle de 5 m est appuyée contre un mur vertical. Son pied est posé sur le sol horizontal à 1,4 m du mur. 1) À quelle hauteur l'échelle touche-t-elle le mur ? 2) Calcule l'angle formé par l'échelle et le sol (arrondi au degré).",
+      "indice": "Le mur, le sol et l'échelle forment un triangle rectangle ; l'échelle est l'hypoténuse.",
+      "corrige": [
+        "1) Pythagore : h² + 1,4² = 5², donc h² = 25 − 1,96 = 23,04 et h = √23,04 = 4,8 m.",
+        "2) cos α = côté adjacent / hypoténuse = 1,4 / 5 = 0,28.",
+        "α ≈ 74° (avec la touche cos⁻¹ de la calculatrice)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : choisir le bon outil",
+    "etapes": [
+      "Deux côtés connus, on cherche le troisième → Pythagore.",
+      "On veut prouver qu'un triangle est rectangle → réciproque de Pythagore.",
+      "Un angle et un côté connus, ou on cherche un angle → cos, sin ou tan (écris d'abord la formule).",
+      "Précise l'arrondi demandé et l'unité (cm, m, degrés)."
+    ]
+  }
+}

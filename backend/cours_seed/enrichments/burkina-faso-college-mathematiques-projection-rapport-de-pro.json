@@ -1,0 +1,77 @@
+{
+  "_topic": "projection",
+  "objectifs": [
+    "Construire le projeté d'un point sur une droite parallèlement à une direction.",
+    "Utiliser la conservation du milieu et des rapports de longueurs.",
+    "Calculer avec le rapport de projection.",
+    "Calculer la longueur d'un projeté orthogonal avec le cosinus."
+  ],
+  "prerequis": [
+    "Tracer des parallèles et des perpendiculaires.",
+    "Propriété de Thalès."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le projeté M' de M sur (Δ) parallèlement à (d) est l'intersection de (Δ) et de la parallèle à (d) passant par M.",
+      "Projection orthogonale : la direction de projection est perpendiculaire à (Δ).",
+      "La projection conserve le milieu : le projeté du milieu de [AB] est le milieu de [A'B'].",
+      "Pour des points d'une même droite (D), la projection multiplie toutes les longueurs par un même nombre k : le rapport de projection.",
+      "En projection orthogonale, si [AB] fait un angle α avec (Δ), alors A'B' = AB × cos α."
+    ],
+    "formules": [
+      "A'B' / AB = C'D' / CD = k (points A, B, C, D de la même droite)",
+      "A'B' = AB × cos α (projection orthogonale)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Tracer la perpendiculaire à (Δ) alors que la projection se fait parallèlement à (d).",
+      "correction": "Trace la parallèle à (d) passant par le point."
+    },
+    {
+      "erreur": "Penser que la projection conserve les longueurs.",
+      "correction": "Elle les multiplie par k ; seuls le milieu et les rapports sont conservés."
+    },
+    {
+      "erreur": "Utiliser le rapport de projection pour des segments de droites différentes.",
+      "correction": "Le même k vaut seulement pour les segments portés par une même droite (ou des droites parallèles)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "I est le milieu de [AB]. A', B' et I' sont les projetés de A, B et I sur (Δ) parallèlement à (d). Que peux-tu dire de I' ?",
+      "indice": "Pense à la propriété de conservation.",
+      "corrige": [
+        "La projection conserve le milieu.",
+        "Donc I' est le milieu de [A'B']."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "A, B, C et D sont des points d'une droite (D). Leurs projetés sur (Δ) sont A', B', C', D'. On donne AB = 8 cm, A'B' = 6 cm et CD = 4 cm. Calcule le rapport de projection, puis C'D'.",
+      "indice": "Le rapport est le même pour tous les segments de (D).",
+      "corrige": [
+        "k = A'B' / AB = 6 / 8 = 0,75.",
+        "C'D' = k × CD = 0,75 × 4 = 3 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un segment [AB] de 10 cm fait un angle de 60° avec une droite (Δ). Calcule la longueur de son projeté orthogonal [A'B'] sur (Δ). Même question si l'angle est de 90°.",
+      "indice": "A'B' = AB × cos α.",
+      "corrige": [
+        "Pour α = 60° : A'B' = 10 × cos 60° = 10 × 0,5 = 5 cm.",
+        "Pour α = 90° : cos 90° = 0, donc A'B' = 0 : [AB] est perpendiculaire à (Δ) et se projette en un seul point."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : rédiger une projection",
+    "etapes": [
+      "Précise toujours sur quelle droite et parallèlement à quelle direction on projette.",
+      "Construis les projetés au crayon avec des parallèles soignées.",
+      "Cite la propriété (conservation du milieu, rapport de projection) avant de calculer."
+    ]
+  }
+}

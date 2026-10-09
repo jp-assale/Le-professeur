@@ -1,0 +1,80 @@
+{
+  "_topic": "logique",
+  "objectifs": [
+    "Distinguer une implication et sa réciproque.",
+    "Prouver qu'une affirmation est fausse avec un contre-exemple.",
+    "Utiliser la contraposée.",
+    "Rédiger une démonstration simple (« on sait que… or… donc… »)."
+  ],
+  "prerequis": [
+    "Les propriétés de géométrie de base (Pythagore, Thalès, parallélogramme).",
+    "Nombres pairs et impairs."
+  ],
+  "a_retenir": {
+    "points": [
+      "Implication « Si P alors Q » : chaque fois que P est vraie, Q est vraie.",
+      "Réciproque : « Si Q alors P ». Elle peut être vraie ou fausse : il faut la démontrer à part.",
+      "Un seul contre-exemple suffit pour prouver qu'une affirmation générale est fausse.",
+      "Contraposée : « Si non Q alors non P ». Elle est vraie exactement quand l'implication est vraie.",
+      "Des exemples, même nombreux, ne prouvent jamais une affirmation générale."
+    ],
+    "formules": [
+      "(P ⟹ Q) a la même valeur de vérité que (non Q ⟹ non P)",
+      "Nombre pair : 2n ; nombre impair : 2n + 1 (n entier)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser la réciproque d'une propriété comme si c'était la propriété elle-même.",
+      "correction": "Vérifie le sens : quelles sont les données (P) et quelle est la conclusion (Q) ?"
+    },
+    {
+      "erreur": "Croire qu'un exemple qui marche prouve une règle.",
+      "correction": "Il faut une démonstration valable pour tous les cas (calcul littéral)."
+    },
+    {
+      "erreur": "Confondre contraposée et réciproque.",
+      "correction": "Contraposée : on inverse ET on nie (non Q ⟹ non P)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "« Si un nombre entier est multiple de 4, alors il est pair. » Cette implication est-elle vraie ? Énonce sa réciproque : est-elle vraie ?",
+      "indice": "Pour la réciproque, cherche un nombre pair qui n'est pas multiple de 4.",
+      "corrige": [
+        "Vraie : un multiple de 4 s'écrit 4k = 2 × (2k), il est donc pair.",
+        "Réciproque : « Si un nombre est pair, alors il est multiple de 4. »",
+        "Fausse : contre-exemple 6, qui est pair mais n'est pas multiple de 4."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Énonce la contraposée du théorème de Pythagore, puis utilise-la : un triangle ABC a pour côtés AB = 4 cm, AC = 5 cm et BC = 7 cm. Est-il rectangle en A ?",
+      "indice": "Théorème : si ABC est rectangle en A, alors BC² = AB² + AC².",
+      "corrige": [
+        "Contraposée : si BC² ≠ AB² + AC², alors ABC n'est pas rectangle en A.",
+        "BC² = 49 et AB² + AC² = 16 + 25 = 41.",
+        "49 ≠ 41, donc ABC n'est pas rectangle en A."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Démontre que la somme de deux nombres impairs est toujours un nombre pair.",
+      "indice": "Écris les deux nombres impairs 2n + 1 et 2p + 1 avec n et p entiers.",
+      "corrige": [
+        "Soient a = 2n + 1 et b = 2p + 1 deux nombres impairs (n et p entiers).",
+        "a + b = 2n + 2p + 2 = 2(n + p + 1).",
+        "n + p + 1 est un entier, donc a + b est un multiple de 2 : la somme est paire."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : rédiger une démonstration",
+    "etapes": [
+      "Écris ce que tu sais (données), puis la propriété utilisée, puis la conclusion.",
+      "Pour prouver que c'est faux : un contre-exemple précis et chiffré.",
+      "Pour prouver que c'est toujours vrai : un calcul avec des lettres."
+    ]
+  }
+}

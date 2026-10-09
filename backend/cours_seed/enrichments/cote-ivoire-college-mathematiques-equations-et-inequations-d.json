@@ -1,0 +1,80 @@
+{
+  "_topic": "equations-une-inconnue",
+  "objectifs": [
+    "Résoudre une équation du premier degré à une inconnue.",
+    "Résoudre une équation produit nul.",
+    "Résoudre une inéquation et représenter ses solutions.",
+    "Mettre un problème concret en équation ou en inéquation."
+  ],
+  "prerequis": [
+    "Le calcul littéral (développer, réduire).",
+    "Les intervalles et la droite graduée."
+  ],
+  "a_retenir": {
+    "points": [
+      "On peut ajouter ou soustraire un même nombre aux deux membres d'une équation ou d'une inéquation.",
+      "On peut multiplier ou diviser les deux membres par un même nombre non nul.",
+      "Dans une inéquation, multiplier ou diviser par un nombre NÉGATIF change le sens de l'inégalité.",
+      "A × B = 0 ⟺ A = 0 ou B = 0.",
+      "La solution d'une inéquation est en général un intervalle : on la représente sur une droite graduée."
+    ],
+    "formules": [
+      "ax + b = 0 (a ≠ 0) ⟺ x = −b/a",
+      "Si −2x ≥ 6 alors x ≤ −3 (on divise par −2 : le sens change)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Diviser par un nombre négatif sans changer le sens de l'inégalité.",
+      "correction": "−2x ≥ 6 donne x ≤ −3 et non x ≥ −3."
+    },
+    {
+      "erreur": "Passer un terme de l'autre côté sans changer son signe.",
+      "correction": "3x − 7 = 2x + 5 donne 3x − 2x = 5 + 7."
+    },
+    {
+      "erreur": "Oublier de vérifier la solution.",
+      "correction": "Remplace x par ta solution dans l'équation de départ : les deux membres doivent être égaux."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Résous : 1) 3x − 7 = 2x + 5. 2) 5(x − 2) = 3x + 4.",
+      "indice": "Regroupe les x d'un côté et les nombres de l'autre.",
+      "corrige": [
+        "1) 3x − 2x = 5 + 7, donc x = 12. Vérification : 36 − 7 = 29 et 24 + 5 = 29.",
+        "2) 5x − 10 = 3x + 4, donc 2x = 14 et x = 7. Vérification : 5 × 5 = 25 et 21 + 4 = 25."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Résous l'inéquation −2x + 5 ≥ 11 et donne l'ensemble des solutions sous forme d'intervalle.",
+      "indice": "Attention au moment où tu divises par −2.",
+      "corrige": [
+        "−2x ≥ 11 − 5, soit −2x ≥ 6.",
+        "On divise par −2 (négatif) : le sens change, x ≤ −3.",
+        "S = ]−∞ ; −3]."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Forfait A : 2 000 FCFA par mois plus 50 FCFA par minute d'appel. Forfait B : 100 FCFA par minute, sans abonnement. On note x le nombre de minutes par mois. 1) Exprime le prix de chaque forfait en fonction de x. 2) Pour quelle durée les deux forfaits coûtent-ils le même prix ? 3) À partir de combien de minutes le forfait A est-il plus avantageux ?",
+      "indice": "Le forfait A est plus avantageux quand son prix est strictement inférieur à celui du forfait B.",
+      "corrige": [
+        "1) Prix A = 2 000 + 50x ; prix B = 100x.",
+        "2) 2 000 + 50x = 100x ⟺ 2 000 = 50x ⟺ x = 40 minutes (les deux coûtent 4 000 FCFA).",
+        "3) 2 000 + 50x < 100x ⟺ 2 000 < 50x ⟺ x > 40.",
+        "Le forfait A est plus avantageux au-delà de 40 minutes d'appel par mois."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : mettre un problème en équation",
+    "etapes": [
+      "Choisis l'inconnue et écris-la clairement : « Soit x le nombre de … ».",
+      "Traduis chaque phrase de l'énoncé en expression avec x.",
+      "Résous, vérifie, puis réponds par une phrase avec l'unité."
+    ]
+  }
+}

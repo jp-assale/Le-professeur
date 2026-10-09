@@ -1,0 +1,77 @@
+{
+  "_topic": "isometries",
+  "objectifs": [
+    "Connaître les isométries du plan : symétries, translations, rotations.",
+    "Utiliser leurs propriétés de conservation.",
+    "Identifier la composée de deux symétries."
+  ],
+  "prerequis": [
+    "Construire l'image d'une figure par une symétrie centrale ou axiale.",
+    "Les vecteurs et la relation de Chasles."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une isométrie conserve les distances ; elle conserve donc aussi les angles, l'alignement, le parallélisme, les milieux et les aires.",
+      "L'image d'une droite est une droite, l'image d'un cercle est un cercle de même rayon.",
+      "Symétrie centrale de centre O puis de centre O' : c'est la translation de vecteur 2OO'→.",
+      "Symétries axiales d'axes parallèles (D) puis (D') : translation de vecteur perpendiculaire aux axes, de longueur le double de la distance entre les axes.",
+      "Symétries axiales d'axes perpendiculaires en O : c'est la symétrie centrale de centre O."
+    ],
+    "formules": [
+      "S_O' ∘ S_O = translation de vecteur 2OO'→",
+      "Isométrie : A'B' = AB pour tous points A et B"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'une isométrie conserve l'orientation des figures.",
+      "correction": "Une symétrie axiale « retourne » la figure ; les longueurs et les angles restent pourtant les mêmes."
+    },
+    {
+      "erreur": "Donner OO'→ comme vecteur de la composée de deux symétries centrales.",
+      "correction": "C'est 2OO'→ (le double)."
+    },
+    {
+      "erreur": "Construire une image point par point sans vérifier les longueurs.",
+      "correction": "Contrôle au compas que A'B' = AB."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Le triangle A'B'C' est l'image du triangle ABC par une symétrie centrale. On sait que AB = 5 cm et que l'angle BAC mesure 40°. Que valent A'B' et l'angle B'A'C' ?",
+      "indice": "Une symétrie centrale est une isométrie.",
+      "corrige": [
+        "Une isométrie conserve les longueurs : A'B' = AB = 5 cm.",
+        "Elle conserve les angles : B'A'C' = BAC = 40°."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "O et O' sont deux points distincts. M₁ est le symétrique de M par rapport à O, puis M' le symétrique de M₁ par rapport à O'. Démontre que MM'→ = 2OO'→.",
+      "indice": "O est le milieu de [MM₁] et O' celui de [M₁M'] : utilise la droite des milieux dans le triangle MM₁M'.",
+      "corrige": [
+        "O est le milieu de [MM₁] et O' est le milieu de [M₁M'].",
+        "Dans le triangle MM₁M', la droite des milieux donne : OO'→ = ½ MM'→.",
+        "Donc MM'→ = 2OO'→ : la composée est la translation de vecteur 2OO'→."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "(D) et (D') sont deux droites parallèles distantes de 3 cm. On applique la symétrie d'axe (D), puis celle d'axe (D'). 1) Quelle transformation obtient-on ? Précise son vecteur. 2) Même question si (D) et (D') sont perpendiculaires en O.",
+      "indice": "Construis l'image d'un point M pour voir le déplacement obtenu.",
+      "corrige": [
+        "1) On obtient une translation. Son vecteur est perpendiculaire aux deux axes, dirigé de (D) vers (D'), et sa longueur vaut 2 × 3 = 6 cm.",
+        "2) Si les axes sont perpendiculaires en O, on obtient la symétrie centrale de centre O (demi-tour autour de O)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les transformations",
+    "etapes": [
+      "Construis toujours l'image d'au moins deux points pour deviner la transformation.",
+      "Cite la propriété de conservation utilisée (distance, angle, parallélisme).",
+      "Précise tous les éléments : centre, axe, vecteur, angle."
+    ]
+  }
+}

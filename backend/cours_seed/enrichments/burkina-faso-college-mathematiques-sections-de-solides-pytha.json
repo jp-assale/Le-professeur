@@ -1,0 +1,77 @@
+{
+  "_topic": "sections-solides",
+  "objectifs": [
+    "Connaître la nature des sections planes du pavé, du cylindre, de la pyramide, du cône et de la sphère.",
+    "Calculer les dimensions d'une section avec Pythagore ou Thalès.",
+    "Utiliser le coefficient de réduction pour les aires et les volumes."
+  ],
+  "prerequis": [
+    "Théorèmes de Pythagore et de Thalès.",
+    "Volumes des solides usuels."
+  ],
+  "a_retenir": {
+    "points": [
+      "Pavé droit : une section parallèle à une face est un rectangle de mêmes dimensions que cette face.",
+      "Cylindre : section parallèle à la base → disque de même rayon ; section parallèle à l'axe → rectangle.",
+      "Pyramide et cône : section parallèle à la base → réduction de la base (coefficient k).",
+      "Sphère de rayon R : la section par un plan situé à la distance d du centre (d < R) est un cercle de rayon r = √(R² − d²)."
+    ],
+    "formules": [
+      "r = √(R² − d²)   (section d'une sphère)",
+      "aire de la section = k² × aire de la base ; V' = k³ × V"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'une section de pyramide parallèle à la base a la même taille que la base.",
+      "correction": "C'est une réduction : ses dimensions sont multipliées par k < 1."
+    },
+    {
+      "erreur": "Prendre d (distance au centre) pour le rayon de la section d'une sphère.",
+      "correction": "Utilise Pythagore : r² + d² = R²."
+    },
+    {
+      "erreur": "Calculer k avec les distances depuis la base au lieu du sommet.",
+      "correction": "k = distance du sommet à la section / hauteur totale."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un pavé droit mesure 6 cm × 4 cm × 3 cm. On le coupe par un plan parallèle à la face de dimensions 6 cm × 4 cm. Quelle est la nature et l'aire de la section ?",
+      "indice": "La section est identique à la face à laquelle elle est parallèle.",
+      "corrige": [
+        "La section est un rectangle de 6 cm sur 4 cm.",
+        "Son aire est 6 × 4 = 24 cm²."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une sphère a un rayon de 5 cm. On la coupe par un plan situé à 3 cm de son centre. Calcule le rayon et l'aire de la section.",
+      "indice": "Rayon de la sphère, distance au centre et rayon de la section forment un triangle rectangle.",
+      "corrige": [
+        "r = √(5² − 3²) = √(25 − 9) = √16 = 4 cm.",
+        "Aire = π × 4² = 16π cm² ≈ 50,3 cm²."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "SABCD est une pyramide de hauteur SO = 12 cm dont la base est un carré de 9 cm de côté. On la coupe par un plan parallèle à la base à 4 cm du sommet S. 1) Calcule le coefficient de réduction. 2) Quelle est la nature de la section ? Calcule son côté et son aire. 3) Calcule le volume de la grande pyramide puis celui de la petite.",
+      "indice": "k = 4 / 12. Vérifie que le petit volume vaut k³ fois le grand.",
+      "corrige": [
+        "1) k = 4 / 12 = 1/3.",
+        "2) La section est un carré (réduction de la base) de côté 9 × 1/3 = 3 cm ; aire 9 cm² (= 81 × k²).",
+        "3) Grande pyramide : V = (1/3) × 81 × 12 = 324 cm³.",
+        "Petite pyramide : V' = (1/3) × 9 × 4 = 12 cm³ ; on retrouve V' = 324 × (1/3)³ = 324 / 27 = 12 cm³."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les sections de solides",
+    "etapes": [
+      "Nomme la nature de la section en citant la propriété.",
+      "Isole dans la figure un triangle rectangle (Pythagore) ou une configuration de Thalès.",
+      "Utilise k, k² et k³ pour vérifier tes résultats."
+    ]
+  }
+}

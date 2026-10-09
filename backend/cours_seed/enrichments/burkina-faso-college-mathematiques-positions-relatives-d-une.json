@@ -1,0 +1,79 @@
+{
+  "_topic": "droite-cercle",
+  "objectifs": [
+    "Déterminer la position relative d'une droite et d'un cercle.",
+    "Construire et utiliser la tangente à un cercle en un point.",
+    "Calculer une longueur de tangente ou de corde avec Pythagore."
+  ],
+  "prerequis": [
+    "Distance d'un point à une droite (longueur de la perpendiculaire).",
+    "Théorème de Pythagore."
+  ],
+  "a_retenir": {
+    "points": [
+      "On compare la distance d du centre O à la droite avec le rayon r.",
+      "d > r : la droite est extérieure au cercle (aucun point commun).",
+      "d = r : la droite est tangente au cercle (un seul point commun).",
+      "d < r : la droite est sécante (deux points communs).",
+      "La tangente en un point T du cercle est perpendiculaire au rayon [OT]."
+    ],
+    "formules": [
+      "Tangente issue d'un point A : AT² = OA² − r²",
+      "Demi-corde : √(r² − d²)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Comparer la distance d avec le diamètre.",
+      "correction": "On compare d avec le RAYON r."
+    },
+    {
+      "erreur": "Tracer une tangente « à l'œil ».",
+      "correction": "Trace le rayon [OT] puis la perpendiculaire à [OT] en T, à l'équerre."
+    },
+    {
+      "erreur": "Oublier l'angle droit en T pour appliquer Pythagore.",
+      "correction": "OTA est rectangle en T car la tangente est perpendiculaire au rayon."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un cercle a pour rayon 5 cm. Donne la position d'une droite située à 3 cm, à 5 cm puis à 7 cm du centre.",
+      "indice": "Compare chaque distance à 5.",
+      "corrige": [
+        "d = 3 < 5 : droite sécante (2 points communs).",
+        "d = 5 : droite tangente (1 point commun).",
+        "d = 7 > 5 : droite extérieure (aucun point commun)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un cercle de centre O a pour rayon 6 cm. A est un point tel que OA = 10 cm. Une tangente issue de A touche le cercle en T. Calcule AT.",
+      "indice": "Le triangle OTA est rectangle en T.",
+      "corrige": [
+        "(AT) est tangente en T, donc (AT) ⊥ (OT) : OTA est rectangle en T.",
+        "AT² = OA² − OT² = 100 − 36 = 64, donc AT = 8 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un cercle de centre O a pour rayon 5 cm. Une droite (D) est à 3 cm de O. 1) Quelle est la position de (D) par rapport au cercle ? 2) (D) coupe le cercle en E et F ; H est le pied de la perpendiculaire à (D) passant par O. Calcule HE puis la longueur de la corde [EF].",
+      "indice": "OHE est rectangle en H et H est le milieu de [EF].",
+      "corrige": [
+        "1) d = 3 < 5 = r : (D) est sécante au cercle.",
+        "2) OHE est rectangle en H : HE² = OE² − OH² = 25 − 9 = 16, donc HE = 4 cm.",
+        "Le triangle OEF est isocèle en O (OE = OF), donc la hauteur [OH] est aussi médiane : H est le milieu de [EF].",
+        "EF = 2 × 4 = 8 cm."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : droite et cercle",
+    "etapes": [
+      "Trace la perpendiculaire du centre à la droite pour faire apparaître d.",
+      "Compare d et r et conclus avec le bon vocabulaire (extérieure, tangente, sécante).",
+      "Cherche le triangle rectangle (rayon ⊥ tangente) pour calculer."
+    ]
+  }
+}

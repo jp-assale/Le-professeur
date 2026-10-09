@@ -1,0 +1,79 @@
+{
+  "_topic": "symetrie-orthogonale",
+  "objectifs": [
+    "Construire le symétrique d'un point par rapport à une droite.",
+    "Utiliser la médiatrice et les propriétés de conservation.",
+    "Calculer des coordonnées de symétriques par rapport aux axes.",
+    "Résoudre un problème de plus court chemin."
+  ],
+  "prerequis": [
+    "La médiatrice d'un segment.",
+    "Placer des points dans un repère."
+  ],
+  "a_retenir": {
+    "points": [
+      "M' est le symétrique de M par rapport à (D) si (D) est la médiatrice de [MM'].",
+      "Les points de l'axe (D) sont invariants.",
+      "La symétrie orthogonale conserve les longueurs, les angles, l'alignement et les aires.",
+      "Tout point de l'axe est à égale distance de M et de M'.",
+      "Plus court chemin de A à B en passant par (D) (A et B du même côté) : on remplace B par son symétrique B' ; le chemin le plus court est la ligne droite [AB']."
+    ],
+    "formules": [
+      "Par rapport à (Ox) : M(x ; y) → M'(x ; −y)",
+      "Par rapport à (Oy) : M(x ; y) → M'(−x ; y)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Construire le symétrique sans tracer la perpendiculaire à l'axe.",
+      "correction": "M' est sur la perpendiculaire à (D) passant par M, de l'autre côté, à la même distance."
+    },
+    {
+      "erreur": "Inverser les formules pour (Ox) et (Oy).",
+      "correction": "Symétrie par rapport à (Ox) : c'est l'ordonnée y qui change de signe."
+    },
+    {
+      "erreur": "Penser que l'image d'une droite lui est toujours parallèle.",
+      "correction": "C'est vrai pour la symétrie centrale et la translation, pas en général pour la symétrie orthogonale."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "A(2 ; 5). Donne les coordonnées de son symétrique par rapport à l'axe (Ox), puis par rapport à l'axe (Oy).",
+      "indice": "(Ox) : on change le signe de y ; (Oy) : celui de x.",
+      "corrige": [
+        "Par rapport à (Ox) : (2 ; −5).",
+        "Par rapport à (Oy) : (−2 ; 5)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "A' est le symétrique de A par rapport à une droite (D) et M est un point de (D). Démontre que MA = MA'.",
+      "indice": "Quelle est la droite (D) pour le segment [AA'] ?",
+      "corrige": [
+        "Par définition, (D) est la médiatrice de [AA'].",
+        "Tout point de la médiatrice est à égale distance des extrémités du segment.",
+        "M ∈ (D), donc MA = MA'."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un berger est en A et doit faire boire ses moutons à la rivière avant d'aller au point B, A et B étant du même côté de la rivière. Dans un repère orthonormé (unité : 1 km), la rivière est l'axe (Ox), A(0 ; 3) et B(6 ; 1). 1) Donne les coordonnées de B', symétrique de B par rapport à (Ox). 2) Le meilleur point M de la rivière est l'intersection de [AB'] avec (Ox). Explique pourquoi. 3) Calcule la longueur du trajet le plus court AM + MB.",
+      "indice": "MB = MB' car M est sur l'axe de symétrie.",
+      "corrige": [
+        "1) B'(6 ; −1).",
+        "2) Pour tout point M de la rivière, MB = MB', donc AM + MB = AM + MB'. Cette somme est la plus petite quand A, M et B' sont alignés (la ligne droite est le plus court chemin).",
+        "3) Le trajet minimal vaut AB' = √((6 − 0)² + (−1 − 3)²) = √(36 + 16) = √52 = 2√13 ≈ 7,2 km."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la symétrie orthogonale",
+    "etapes": [
+      "Construis à l'équerre (perpendiculaire) et au compas (même distance).",
+      "Traduis par « (D) est la médiatrice de [MM'] ».",
+      "Pense à la symétrie pour les problèmes de plus court chemin."
+    ]
+  }
+}
