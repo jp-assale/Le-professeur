@@ -1,0 +1,76 @@
+{
+  "_topic": "reproduction",
+  "objectifs": [
+    "Expliquer la gamétogenèse et le rôle de la méiose.",
+    "Décrire les cycles ovarien et utérin et leur régulation hormonale.",
+    "Expliquer la fécondation, la contraception hormonale et la double fécondation des plantes à fleurs."
+  ],
+  "prerequis": [
+    "Appareils reproducteurs.",
+    "Mitose et chromosomes."
+  ],
+  "a_retenir": {
+    "points": [
+      "La méiose produit des gamètes haploïdes (n chromosomes) à partir de cellules diploïdes (2n) ; la fécondation rétablit la diploïdie.",
+      "Cycle ovarien : phase folliculaire (sécrétion d'œstrogènes), ovulation déclenchée par un pic de LH, phase lutéale (corps jaune, progestérone).",
+      "L'hypophyse (FSH, LH) est contrôlée par l'hypothalamus et par les hormones ovariennes (rétrocontrôles).",
+      "Si une grossesse débute, l'hormone hCG de l'embryon maintient le corps jaune ; sinon la chute de progestérone déclenche les règles.",
+      "La pilule (œstrogènes + progestatif) exerce un rétrocontrôle négatif qui empêche le pic de LH et donc l'ovulation. Chez les spermaphytes : double fécondation (zygote + albumen)."
+    ],
+    "formules": [
+      "2n —(méiose)→ n ; n + n —(fécondation)→ 2n",
+      "Pic de LH → ovulation (vers le 14e jour d'un cycle de 28 jours)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que l'ovaire sécrète la LH.",
+      "correction": "FSH et LH sont sécrétées par l'hypophyse ; l'ovaire sécrète œstrogènes et progestérone."
+    },
+    {
+      "erreur": "Confondre cycle ovarien et cycle utérin.",
+      "correction": "Ovarien : follicule, ovulation, corps jaune ; utérin : règles, épaississement de la muqueuse."
+    },
+    {
+      "erreur": "Penser que la méiose conserve le nombre de chromosomes.",
+      "correction": "Elle le divise par deux."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Chez l'Homme, 2n = 46. Combien de chromosomes ont un spermatozoïde, un ovule et une cellule-œuf ?",
+      "indice": "Gamètes : n.",
+      "corrige": [
+        "Spermatozoïde : 23 ; ovule : 23 ; cellule-œuf : 46."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On dose la progestérone chez une femme : elle augmente du 15e au 22e jour puis chute au 28e jour, et les règles apparaissent. Explique. Que se passerait-il en cas de grossesse ?",
+      "indice": "Corps jaune.",
+      "corrige": [
+        "Après l'ovulation, le corps jaune sécrète de la progestérone qui prépare la muqueuse utérine ; sans fécondation, il dégénère, la progestérone chute et la muqueuse se détache : ce sont les règles.",
+        "En cas de grossesse, l'hCG de l'embryon maintient le corps jaune : la progestérone reste élevée, pas de règles."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une femme prend une pilule combinée (œstrogène + progestatif de synthèse) pendant 21 jours. On constate l'absence de pic de LH. 1) Explique le mode d'action de la pilule. 2) Pourquoi des règles apparaissent-elles pendant l'arrêt de 7 jours ? 3) La pilule protège-t-elle des IST ?",
+      "indice": "Rétrocontrôle négatif sur l'axe hypothalamo-hypophysaire.",
+      "corrige": [
+        "1) Les hormones de synthèse exercent un rétrocontrôle négatif sur l'hypothalamus et l'hypophyse : pas de pic de LH, donc pas d'ovulation.",
+        "2) À l'arrêt, la chute brutale des hormones provoque la desquamation de la muqueuse utérine.",
+        "3) Non : seul le préservatif protège des IST et du VIH."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : exploiter des courbes hormonales",
+    "etapes": [
+      "Décris l'évolution de chaque hormone avec les jours et les valeurs.",
+      "Relie chaque variation à un événement ovarien ou utérin.",
+      "Explique les régulations (rétrocontrôles positif et négatif)."
+    ]
+  }
+}

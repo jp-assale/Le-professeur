@@ -1,0 +1,76 @@
+{
+  "_topic": "milieu-interieur",
+  "objectifs": [
+    "Définir le milieu intérieur et la notion de constante biologique.",
+    "Expliquer la régulation de la glycémie (insuline, glucagon).",
+    "Expliquer le diabète."
+  ],
+  "prerequis": [
+    "Digestion et absorption du glucose."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le milieu intérieur (plasma, lymphe, liquide interstitiel) baigne les cellules ; sa composition est maintenue constante (homéostasie).",
+      "La glycémie normale à jeun est d'environ 1 g/L.",
+      "Après un repas, la hausse de la glycémie déclenche la sécrétion d'insuline par les cellules β du pancréas : stockage du glucose (glycogène dans le foie et les muscles), la glycémie baisse.",
+      "En cas de baisse, les cellules α sécrètent le glucagon : le foie libère du glucose, la glycémie remonte.",
+      "Diabète de type 1 : absence d'insuline ; diabète de type 2 : insuline peu efficace (souvent lié au surpoids et à la sédentarité)."
+    ],
+    "formules": [
+      "Insuline : hormone hypoglycémiante",
+      "Glucagon : hormone hyperglycémiante",
+      "Glycémie à jeun ≈ 1 g/L"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que l'insuline est sécrétée par le foie.",
+      "correction": "Elle est sécrétée par le pancréas (cellules β des îlots de Langerhans)."
+    },
+    {
+      "erreur": "Confondre glucagon et glycogène.",
+      "correction": "Glucagon : hormone ; glycogène : forme de réserve du glucose."
+    },
+    {
+      "erreur": "Penser que le diabète vient seulement de manger du sucre.",
+      "correction": "Les causes sont un défaut de sécrétion ou d'action de l'insuline ; l'hygiène de vie joue sur le type 2."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quelle est la valeur normale de la glycémie à jeun ? Quelles hormones la régulent ?",
+      "indice": "Une hormone fait baisser, l'autre monter.",
+      "corrige": [
+        "Environ 1 g/L.",
+        "L'insuline (hypoglycémiante) et le glucagon (hyperglycémiante)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Après un repas, la glycémie d'une personne passe de 1 g/L à 1,4 g/L puis revient à 1 g/L en 2 heures. Explique ce retour à la normale.",
+      "indice": "Rôle de l'insuline.",
+      "corrige": [
+        "La hausse de la glycémie stimule les cellules β du pancréas qui sécrètent l'insuline ; celle-ci favorise l'entrée et le stockage du glucose (glycogène), la glycémie redescend à 1 g/L."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Chez un chien, l'ablation du pancréas provoque une glycémie de 3 g/L et la présence de glucose dans l'urine. Des injections d'extraits d'îlots de Langerhans ramènent la glycémie à la normale. 1) Que montre l'ablation ? 2) Que montrent les injections ? 3) Quel type de diabète cette expérience rappelle-t-elle ?",
+      "indice": "Rôle endocrine du pancréas.",
+      "corrige": [
+        "1) Le pancréas est indispensable au maintien de la glycémie : sans lui, hyperglycémie et glycosurie (diabète).",
+        "2) Les îlots de Langerhans sécrètent une substance hypoglycémiante dans le sang : l'insuline (rôle endocrine).",
+        "3) Le diabète de type 1 (absence d'insuline), traité par des injections d'insuline."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la régulation de la glycémie",
+    "etapes": [
+      "Lis les courbes de glycémie et d'hormones en parallèle.",
+      "Identifie le système réglé, les capteurs, les hormones et les effecteurs.",
+      "Explique chaque expérience (ablation, greffe, injection) par comparaison."
+    ]
+  }
+}

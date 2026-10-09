@@ -1,0 +1,78 @@
+{
+  "_topic": "muscle-energie",
+  "objectifs": [
+    "Décrire l'organisation du muscle strié et le mécanisme de la contraction.",
+    "Expliquer le rôle de l'ATP et ses voies de régénération.",
+    "Interpréter des données sur l'effort physique."
+  ],
+  "prerequis": [
+    "Respiration et fermentation.",
+    "Cellule."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le muscle est formé de fibres contenant des myofibrilles ; l'unité contractile est le sarcomère.",
+      "Contraction : les filaments d'actine glissent entre les filaments de myosine ; le sarcomère et les bandes claires (I) raccourcissent, la bande sombre (A) garde sa longueur.",
+      "Les ions calcium déclenchent la contraction ; l'ATP fournit l'énergie.",
+      "L'ATP est régénéré par la phosphocréatine (très rapide, courte durée), la fermentation lactique (rapide, peu rentable) et la respiration (lente mais très rentable, effort long).",
+      "Un effort intense sans assez de dioxygène entraîne une accumulation d'acide lactique (lactate)."
+    ],
+    "formules": [
+      "ATP → ADP + Pi + énergie",
+      "Phosphocréatine + ADP → créatine + ATP",
+      "Respiration : glucose + O₂ → CO₂ + H₂O + beaucoup d'ATP"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que les filaments raccourcissent.",
+      "correction": "Les filaments gardent leur longueur ; ils glissent les uns par rapport aux autres."
+    },
+    {
+      "erreur": "Penser que le muscle utilise directement le glucose.",
+      "correction": "Seul l'ATP est utilisé directement ; le glucose sert à le régénérer."
+    },
+    {
+      "erreur": "Confondre fermentation lactique et respiration.",
+      "correction": "La fermentation se fait sans O₂ et produit du lactate avec peu d'ATP."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quelle molécule fournit directement l'énergie de la contraction ? Cite ses trois voies de régénération.",
+      "indice": "Une molécule à trois phosphates.",
+      "corrige": [
+        "L'ATP.",
+        "Phosphocréatine, fermentation lactique, respiration cellulaire."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Au microscope électronique, un sarcomère passe de 2,4 µm (repos) à 1,8 µm (contraction) ; la bande A reste à 1,5 µm. Interprète.",
+      "indice": "Bande A = longueur des filaments de myosine.",
+      "corrige": [
+        "Le sarcomère raccourcit de 0,6 µm alors que la bande A ne change pas : les filaments de myosine ne raccourcissent pas.",
+        "La contraction résulte du glissement des filaments d'actine entre ceux de myosine (les bandes I raccourcissent)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un athlète court un 100 m (10 s), un autre un 5 000 m (15 min). Pour chacun, indique la principale voie de régénération de l'ATP et justifie. Pourquoi le sprinter a-t-il un taux sanguin de lactate élevé à l'arrivée ?",
+      "indice": "Rapidité contre rendement.",
+      "corrige": [
+        "100 m : phosphocréatine puis fermentation lactique, voies très rapides adaptées à un effort bref et intense.",
+        "5 000 m : surtout la respiration, plus lente mais très rentable, adaptée à un effort long.",
+        "Le sprinter produit beaucoup d'ATP par fermentation lactique (sans assez d'O₂), ce qui libère du lactate dans le sang."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : muscle et énergie",
+    "etapes": [
+      "Exploite les mesures (longueurs, concentrations) en comparant repos et effort.",
+      "Relie durée/intensité de l'effort à la voie métabolique.",
+      "Fais un schéma du sarcomère au repos et contracté."
+    ]
+  }
+}

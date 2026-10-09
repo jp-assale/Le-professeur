@@ -1,0 +1,80 @@
+{
+  "_topic": "aliments-digestion",
+  "objectifs": [
+    "Classer les aliments selon leur rôle (énergétiques, bâtisseurs, fonctionnels).",
+    "Décrire la digestion : organes, enzymes, nutriments obtenus.",
+    "Interpréter une expérience de digestion in vitro.",
+    "Expliquer l'absorption intestinale et les conséquences d'une alimentation déséquilibrée."
+  ],
+  "prerequis": [
+    "Les organes de l'appareil digestif."
+  ],
+  "a_retenir": {
+    "points": [
+      "Aliments énergétiques (glucides, lipides), bâtisseurs (protides), fonctionnels ou protecteurs (vitamines, sels minéraux) ; l'eau est indispensable.",
+      "La digestion transforme les aliments en nutriments grâce à des actions mécaniques et chimiques (enzymes).",
+      "Amylase salivaire : amidon → maltose ; pepsine (estomac) : protéines → peptides ; enzymes du pancréas et de l'intestin : achèvent la digestion.",
+      "Nutriments obtenus : glucose, acides aminés, acides gras et glycérol ; ils traversent la paroi de l'intestin grêle (villosités) et passent dans le sang et la lymphe.",
+      "Une enzyme agit à une température optimale (37 °C chez l'Homme) et est détruite par une forte chaleur. Carence en protéines chez l'enfant : kwashiorkor."
+    ],
+    "formules": [
+      "Amidon —(amylase)→ maltose → glucose",
+      "Protéines → acides aminés",
+      "Lipides → acides gras + glycérol"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que la digestion se fait seulement dans l'estomac.",
+      "correction": "Elle commence dans la bouche et s'achève dans l'intestin grêle, où se fait l'absorption."
+    },
+    {
+      "erreur": "Confondre aliment et nutriment.",
+      "correction": "Le nutriment est la petite molécule obtenue après digestion, utilisable par les cellules."
+    },
+    {
+      "erreur": "Oublier le tube témoin dans l'interprétation.",
+      "correction": "C'est la comparaison avec le témoin qui prouve le rôle de l'enzyme."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe ces aliments selon leur rôle principal : riz, poisson, huile de palme, mangue, haricot, igname.",
+      "indice": "Glucides et lipides → énergie ; protides → construction ; vitamines → protection.",
+      "corrige": [
+        "Énergétiques : riz, igname (glucides), huile de palme (lipides).",
+        "Bâtisseurs : poisson, haricot (protides).",
+        "Fonctionnels : mangue (vitamines)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Tube 1 : empois d'amidon + salive à 37 °C. Tube 2 : empois d'amidon + salive bouillie à 37 °C. Après 20 min, l'eau iodée ne bleuit plus dans le tube 1 mais bleuit dans le tube 2 ; la liqueur de Fehling chauffée donne un précipité rouge brique seulement dans le tube 1. Interprète.",
+      "indice": "L'eau iodée révèle l'amidon, la liqueur de Fehling les sucres réducteurs.",
+      "corrige": [
+        "Tube 1 : l'amidon a disparu et un sucre réducteur (maltose) est apparu : la salive a digéré l'amidon.",
+        "Tube 2 : l'amidon est resté : la salive bouillie n'agit plus.",
+        "Conclusion : la salive contient une enzyme (amylase) qui transforme l'amidon en maltose ; elle est détruite par la chaleur."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un enfant de 3 ans, nourri presque uniquement de bouillie de maïs, présente des œdèmes, un ventre gonflé et des cheveux décolorés. 1) Quelle maladie peut-on suspecter ? 2) Quel groupe d'aliments manque ? 3) Propose une ration améliorée avec des produits locaux.",
+      "indice": "La bouillie de maïs est riche en glucides mais pauvre en protéines.",
+      "corrige": [
+        "1) Le kwashiorkor, malnutrition due à une carence en protéines.",
+        "2) Il manque des aliments bâtisseurs (protides).",
+        "3) Enrichir la bouillie avec de la farine d'arachide ou de soja, du lait, du poisson séché ou des œufs, et ajouter fruits et légumes."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : exploiter une expérience de digestion",
+    "etapes": [
+      "Présente le montage et identifie le tube témoin.",
+      "Décris les résultats de chaque test (eau iodée, Fehling).",
+      "Interprète en comparant au témoin, puis conclus sur le rôle de l'enzyme."
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_topic": "sang-groupes",
+  "objectifs": [
+    "Décrire la composition du sang et le rôle de chaque élément.",
+    "Expliquer les groupes sanguins ABO et Rhésus (antigènes, anticorps).",
+    "Appliquer les règles de la transfusion sanguine."
+  ],
+  "prerequis": [
+    "Notion de cellule."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le sang comprend le plasma (environ 55 %) et des éléments figurés : hématies (transport du dioxygène par l'hémoglobine), leucocytes (défense), plaquettes (coagulation).",
+      "Groupe A : antigène A sur les hématies et anticorps anti-B dans le plasma ; groupe B : antigène B et anti-A ; groupe AB : A et B, aucun anticorps ; groupe O : aucun antigène, anti-A et anti-B.",
+      "Rhésus positif (Rh+) : présence de l'antigène D ; Rhésus négatif (Rh−) : absence.",
+      "Règle : les hématies du donneur ne doivent pas porter d'antigène reconnu par les anticorps du receveur (sinon agglutination).",
+      "O− est donneur universel, AB+ receveur universel ; on préfère toujours transfuser du sang du même groupe."
+    ],
+    "formules": [
+      "Antigène A + anticorps anti-A → agglutination",
+      "Donneur universel : O− ; receveur universel : AB+"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le groupe O possède l'antigène O.",
+      "correction": "Le groupe O n'a ni antigène A ni antigène B."
+    },
+    {
+      "erreur": "Raisonner sur les anticorps du donneur.",
+      "correction": "On vérifie les ANTIGÈNES du donneur face aux ANTICORPS du receveur."
+    },
+    {
+      "erreur": "Oublier le facteur Rhésus.",
+      "correction": "Un receveur Rh− ne doit pas recevoir de sang Rh+."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les éléments figurés du sang et donne le rôle de chacun.",
+      "indice": "Trois types de cellules ou fragments.",
+      "corrige": [
+        "Hématies (globules rouges) : transport du dioxygène.",
+        "Leucocytes (globules blancs) : défense de l'organisme.",
+        "Plaquettes : coagulation du sang."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Le sang de Koffi s'agglutine avec un sérum anti-A, pas avec un sérum anti-B, et s'agglutine avec un sérum anti-D (Rhésus). Quel est son groupe ?",
+      "indice": "L'agglutination révèle la présence de l'antigène correspondant.",
+      "corrige": [
+        "Antigène A présent, antigène B absent, antigène D présent.",
+        "Koffi est du groupe A Rhésus positif (A+)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Koffi (A+) a besoin d'une transfusion. Donneurs disponibles : Awa (O−), Moussa (B+), Fatou (AB+), Yao (A−). 1) Lesquels peuvent donner à Koffi ? Justifie. 2) Koffi peut-il donner son sang à Fatou ? à Yao ?",
+      "indice": "Koffi a des anticorps anti-B ; il est Rh+.",
+      "corrige": [
+        "1) Awa (O−) : aucun antigène A, B ni D → possible. Yao (A−) : antigène A seulement → possible. Moussa (B+) : antigène B attaqué par les anti-B de Koffi → impossible. Fatou (AB+) : antigène B → impossible.",
+        "2) À Fatou (AB+) : oui, elle n'a pas d'anticorps anti-A et elle est Rh+. À Yao (A−) : non, car Yao est Rhésus négatif et le sang de Koffi porte l'antigène D."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : groupes sanguins et transfusion",
+    "etapes": [
+      "Fais un tableau : groupe, antigènes des hématies, anticorps du plasma.",
+      "Pour chaque transfusion, compare antigènes du donneur et anticorps du receveur.",
+      "N'oublie pas le Rhésus et conclus clairement."
+    ]
+  }
+}

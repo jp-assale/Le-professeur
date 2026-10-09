@@ -1,0 +1,76 @@
+{
+  "_topic": "geologie-roches",
+  "objectifs": [
+    "Expliquer les mouvements des plaques lithosphériques (divergence, subduction, collision).",
+    "Expliquer la formation des roches métamorphiques.",
+    "Décrire le cycle des roches (magmatiques, sédimentaires, métamorphiques)."
+  ],
+  "prerequis": [
+    "Structure du globe (croûte, manteau, noyau)."
+  ],
+  "a_retenir": {
+    "points": [
+      "La lithosphère est découpée en plaques qui se déplacent de quelques centimètres par an.",
+      "Dorsales : les plaques s'écartent, du magma remonte (basalte). Subduction : une plaque plonge sous une autre (volcans explosifs, séismes). Collision : formation de chaînes de montagnes.",
+      "Roches magmatiques : volcaniques (refroidissement rapide, ex. basalte) ou plutoniques (refroidissement lent en profondeur, ex. granite).",
+      "Roches sédimentaires : formées par l'accumulation de débris (sable → grès) ou de restes d'êtres vivants (calcaire).",
+      "Roches métamorphiques : transformées à l'état solide par de fortes pressions et températures (argile → schiste, granite → gneiss, calcaire → marbre)."
+    ],
+    "formules": [
+      "Érosion → transport → sédimentation → diagenèse → roche sédimentaire",
+      "Haute pression + haute température (sans fusion) → métamorphisme"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le métamorphisme fait fondre la roche.",
+      "correction": "Les transformations se font à l'état solide ; s'il y a fusion, on parle de magma."
+    },
+    {
+      "erreur": "Confondre basalte et granite.",
+      "correction": "Basalte : volcanique, refroidissement rapide, petits cristaux ; granite : plutonique, gros cristaux."
+    },
+    {
+      "erreur": "Penser que les continents sont immobiles.",
+      "correction": "Ils se déplacent lentement avec les plaques."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe ces roches : granite, grès, marbre, basalte, calcaire, gneiss.",
+      "indice": "Trois familles.",
+      "corrige": [
+        "Magmatiques : granite, basalte.",
+        "Sédimentaires : grès, calcaire.",
+        "Métamorphiques : marbre, gneiss."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "L'océan Atlantique s'élargit d'environ 2 cm par an. De combien s'est-il élargi en 10 millions d'années (en km) ?",
+      "indice": "Convertis les cm en km.",
+      "corrige": [
+        "2 cm × 10 000 000 = 20 000 000 cm = 200 km."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans une chaîne de montagnes, on trouve un calcaire contenant des fossiles marins et, plus en profondeur, du marbre. 1) Où le calcaire s'est-il formé ? 2) Comment le marbre a-t-il pu se former ? 3) À quel type de frontière de plaques cette chaîne correspond-elle ?",
+      "indice": "Les fossiles marins indiquent l'ancien milieu.",
+      "corrige": [
+        "1) Dans un ancien milieu marin (accumulation de restes d'organismes marins).",
+        "2) Le calcaire, entraîné en profondeur, a subi de fortes pressions et températures : il s'est transformé à l'état solide en marbre (métamorphisme).",
+        "3) À une zone de collision (convergence) entre plaques."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : roches et tectonique",
+    "etapes": [
+      "Identifie la famille de roche par ses caractères (cristaux, fossiles, feuilletage).",
+      "Relie la roche à ses conditions de formation.",
+      "Situe le phénomène dans le contexte des plaques."
+    ]
+  }
+}

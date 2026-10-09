@@ -1,0 +1,76 @@
+{
+  "_topic": "rein-excretion",
+  "objectifs": [
+    "Décrire l'appareil urinaire et le rôle du rein.",
+    "Comparer la composition du plasma et de l'urine.",
+    "Expliquer la formation de l'urine et la régulation du milieu intérieur."
+  ],
+  "prerequis": [
+    "La circulation sanguine."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'appareil urinaire : deux reins, deux uretères, la vessie, l'urètre.",
+      "Le rein filtre le sang grâce à environ un million de néphrons par rein.",
+      "Environ 180 L d'urine primitive sont filtrés par jour, mais il ne reste qu'environ 1,5 L d'urine définitive grâce à la réabsorption.",
+      "L'urine élimine les déchets (urée) et l'excès d'eau et de sels ; elle ne contient normalement ni protéines ni glucose.",
+      "Le rein maintient constante la composition du milieu intérieur ; boire suffisamment protège les reins."
+    ],
+    "formules": [
+      "Urine définitive = urine primitive − réabsorption",
+      "Glucose : présent dans le plasma, absent de l'urine normale"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le rein fabrique l'urée.",
+      "correction": "L'urée est produite par le foie ; le rein l'élimine."
+    },
+    {
+      "erreur": "Penser que l'urine primitive est éliminée telle quelle.",
+      "correction": "Presque toute l'eau et le glucose sont réabsorbés."
+    },
+    {
+      "erreur": "Considérer la présence de glucose dans l'urine comme normale.",
+      "correction": "C'est un signe possible de diabète."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les organes de l'appareil urinaire dans l'ordre du trajet de l'urine.",
+      "indice": "Du rein vers l'extérieur.",
+      "corrige": [
+        "Reins → uretères → vessie → urètre."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Plasma : eau 900 g/L, protéines 70 g/L, glucose 1 g/L, urée 0,3 g/L. Urine : eau 950 g/L, protéines 0, glucose 0, urée 20 g/L. Compare et interprète.",
+      "indice": "Que deviennent protéines, glucose et urée ?",
+      "corrige": [
+        "Protéines absentes de l'urine : elles ne sont pas filtrées (trop grosses).",
+        "Glucose absent : il est filtré puis totalement réabsorbé.",
+        "Urée beaucoup plus concentrée (environ 67 fois) : le rein concentre et élimine ce déchet."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "L'analyse d'urine d'un patient révèle du glucose ; sa glycémie à jeun est de 2 g/L (normale ≈ 1 g/L). 1) Quelle maladie peut-on suspecter ? 2) Explique la présence de glucose dans l'urine. 3) Donne deux conseils d'hygiène de vie.",
+      "indice": "Au-delà d'un certain seuil, le rein ne réabsorbe plus tout le glucose.",
+      "corrige": [
+        "1) Un diabète.",
+        "2) La glycémie est trop élevée : la quantité de glucose filtrée dépasse les capacités de réabsorption du rein (seuil rénal) ; l'excédent passe dans l'urine.",
+        "3) Alimentation équilibrée et limitée en sucres, activité physique régulière, suivi médical."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : le rein et l'excrétion",
+    "etapes": [
+      "Présente les données dans un tableau comparatif plasma / urine.",
+      "Pour chaque substance : filtrée ? réabsorbée ? concentrée ?",
+      "Conclus sur le rôle du rein dans la régulation du milieu intérieur."
+    ]
+  }
+}

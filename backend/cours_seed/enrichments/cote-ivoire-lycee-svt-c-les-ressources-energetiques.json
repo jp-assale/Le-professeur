@@ -1,0 +1,74 @@
+{
+  "_topic": "ressources-geologiques",
+  "objectifs": [
+    "Expliquer la formation des gisements de pétrole et de quelques minerais.",
+    "Distinguer ressources renouvelables et non renouvelables.",
+    "Réfléchir à une exploitation durable des ressources."
+  ],
+  "prerequis": [
+    "Roches sédimentaires et magmatiques."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le pétrole et le gaz proviennent de matière organique accumulée dans des sédiments, enfouie et transformée par la chaleur ; ils migrent et s'accumulent dans une roche-réservoir sous une couverture imperméable (piège).",
+      "Les minerais (or, bauxite, fer, manganèse) se concentrent par des processus magmatiques, hydrothermaux ou d'altération (latérites, bauxite en climat tropical).",
+      "Combustibles fossiles et minerais sont non renouvelables à l'échelle humaine ; le solaire, l'hydraulique et la biomasse bien gérée sont renouvelables.",
+      "L'exploitation crée des richesses mais aussi des problèmes : pollution (mercure de l'orpaillage), déforestation, conflits d'usage.",
+      "Gestion durable : économies d'énergie, recyclage, réhabilitation des sites miniers, énergies renouvelables."
+    ],
+    "formules": [
+      "Matière organique + enfouissement + temps + chaleur → pétrole / gaz",
+      "Piège : roche-réservoir poreuse + couverture imperméable"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le pétrole se forme dans des lacs souterrains.",
+      "correction": "Il imprègne les pores d'une roche-réservoir."
+    },
+    {
+      "erreur": "Considérer le pétrole comme renouvelable car il se forme encore.",
+      "correction": "Sa formation prend des millions d'années : il est non renouvelable à notre échelle."
+    },
+    {
+      "erreur": "Ignorer les impacts environnementaux de l'orpaillage.",
+      "correction": "Le mercure et le cyanure polluent les eaux et menacent la santé."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe en renouvelable ou non : pétrole, énergie solaire, or, énergie hydraulique, gaz naturel, bois (forêt gérée).",
+      "indice": "Durée de reconstitution.",
+      "corrige": [
+        "Non renouvelables : pétrole, or, gaz naturel.",
+        "Renouvelables : solaire, hydraulique, bois d'une forêt gérée durablement."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Cite les trois conditions nécessaires à la formation d'un gisement de pétrole exploitable.",
+      "indice": "Roche-mère, roche-réservoir, piège.",
+      "corrige": [
+        "Une roche-mère riche en matière organique transformée en hydrocarbures ; une roche-réservoir poreuse et perméable ; une couverture imperméable formant un piège."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une région exploite de l'or de façon artisanale (orpaillage au mercure). On observe une baisse des poissons dans la rivière et des troubles de santé chez les riverains. 1) Explique le lien. 2) Propose trois mesures pour une exploitation plus durable.",
+      "indice": "Le mercure est toxique et s'accumule.",
+      "corrige": [
+        "1) Le mercure utilisé pour amalgamer l'or est rejeté dans l'eau ; il s'accumule dans les poissons puis chez l'Homme (chaîne alimentaire) et provoque des troubles neurologiques.",
+        "2) Interdire ou remplacer le mercure par des techniques sans mercure, traiter les eaux usées, réhabiliter les sites (reboisement), encadrer et former les orpailleurs."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les ressources du sous-sol",
+    "etapes": [
+      "Explique la formation de la ressource à partir des documents (coupes, schémas).",
+      "Évalue les impacts (environnement, santé, économie).",
+      "Propose des mesures de gestion durable argumentées."
+    ]
+  }
+}

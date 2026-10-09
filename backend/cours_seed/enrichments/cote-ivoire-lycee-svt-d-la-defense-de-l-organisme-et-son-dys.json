@@ -1,0 +1,79 @@
+{
+  "_topic": "immunologie",
+  "objectifs": [
+    "Distinguer le soi et le non-soi.",
+    "Expliquer les réponses immunitaires spécifiques à médiation humorale et cellulaire.",
+    "Expliquer l'action du VIH et les dysfonctionnements (allergies, auto-immunité)."
+  ],
+  "prerequis": [
+    "Immunité (collège).",
+    "Cellules sanguines."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le soi est défini par des marqueurs membranaires (CMH, appelés HLA chez l'Homme) ; tout élément porteur d'autres marqueurs est du non-soi.",
+      "Sélection clonale : seuls les lymphocytes dont les récepteurs reconnaissent l'antigène se multiplient.",
+      "Réponse humorale : LB → plasmocytes → anticorps (molécules en Y, deux chaînes lourdes et deux légères) qui neutralisent l'antigène.",
+      "Réponse cellulaire : LT8 → LT cytotoxiques qui détruisent les cellules infectées ; les LT4 activent les deux réponses grâce aux interleukines.",
+      "Le VIH détruit les LT4 et paralyse les deux réponses ; allergies (réaction excessive) et maladies auto-immunes (réaction contre le soi) sont des dysfonctionnements."
+    ],
+    "formules": [
+      "LB → plasmocytes → anticorps",
+      "LT8 → LT cytotoxiques",
+      "LT4 → interleukines (coordination)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que les anticorps détruisent eux-mêmes les cellules infectées.",
+      "correction": "Les anticorps neutralisent l'antigène ; ce sont les LT cytotoxiques qui détruisent les cellules infectées."
+    },
+    {
+      "erreur": "Oublier le rôle central des LT4.",
+      "correction": "Sans LT4 (ex. VIH), ni les LB ni les LT8 ne sont correctement activés."
+    },
+    {
+      "erreur": "Confondre plasmocyte et lymphocyte mémoire.",
+      "correction": "Le plasmocyte produit des anticorps ; la cellule mémoire garde le souvenir de l'antigène."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Associe chaque cellule à son rôle : plasmocyte, LT cytotoxique, LT4, macrophage.",
+      "indice": "Produire, détruire, coordonner, phagocyter.",
+      "corrige": [
+        "Plasmocyte : produit les anticorps.",
+        "LT cytotoxique : détruit les cellules infectées.",
+        "LT4 : coordonne la réponse (interleukines).",
+        "Macrophage : phagocyte et présente l'antigène."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une greffe de peau entre deux individus non apparentés est rejetée en 10 jours ; une seconde greffe du même donneur est rejetée en 4 jours. Explique.",
+      "indice": "Non-soi et mémoire.",
+      "corrige": [
+        "Le greffon porte des marqueurs du non-soi (CMH différent) : il est détruit par une réponse à médiation cellulaire (LT cytotoxiques).",
+        "La seconde réponse est plus rapide grâce aux lymphocytes mémoires formés lors du premier rejet."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Chez une personne infectée par le VIH et non traitée, on observe sur plusieurs années : baisse des LT4, baisse de la production d'anticorps contre divers microbes, apparition de tuberculose et de candidoses. 1) Relie ces observations. 2) Explique l'intérêt des antirétroviraux.",
+      "indice": "Les LT4 activent LB et LT8.",
+      "corrige": [
+        "1) Le VIH infecte et détruit les LT4. Sans LT4, les LB et les LT8 ne sont plus activés : la production d'anticorps et la réponse cellulaire s'effondrent, et des maladies opportunistes apparaissent (stade SIDA).",
+        "2) Les antirétroviraux bloquent la multiplication du virus : les LT4 remontent, l'immunité est préservée et le risque de transmission diminue."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'immunologie",
+    "etapes": [
+      "Identifie le type de réponse (humorale ou cellulaire) à partir des documents.",
+      "Utilise des schémas fonctionnels (cellules, flèches, molécules).",
+      "Explique les expériences (transferts de cellules, greffes) par comparaison avec les témoins."
+    ]
+  }
+}

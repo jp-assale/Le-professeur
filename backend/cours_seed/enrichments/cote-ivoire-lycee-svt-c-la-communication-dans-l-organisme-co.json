@@ -1,0 +1,75 @@
+{
+  "_topic": "communication-nerveuse",
+  "objectifs": [
+    "Décrire le potentiel de repos et le potentiel d'action.",
+    "Expliquer le codage du message nerveux et sa propagation.",
+    "Expliquer la transmission synaptique et l'action de certaines drogues."
+  ],
+  "prerequis": [
+    "Système nerveux (collège).",
+    "Ions et membranes."
+  ],
+  "a_retenir": {
+    "points": [
+      "Au repos, la membrane du neurone est polarisée : environ −70 mV (intérieur négatif).",
+      "Une stimulation suffisante (seuil) déclenche un potentiel d'action : inversion brève de la polarité (environ +30 mV), toujours de même amplitude (loi du tout ou rien).",
+      "L'intensité du stimulus est codée par la fréquence des potentiels d'action.",
+      "La propagation est plus rapide dans les fibres myélinisées (conduction saltatoire).",
+      "À la synapse, le message devient chimique : libération d'un neurotransmetteur (ex. acétylcholine) qui se fixe sur des récepteurs du neurone suivant ; certaines drogues imitent ou bloquent ces neurotransmetteurs."
+    ],
+    "formules": [
+      "Potentiel de repos ≈ −70 mV",
+      "Vitesse de propagation v = distance / durée"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire qu'un stimulus fort donne un potentiel d'action plus grand.",
+      "correction": "L'amplitude est constante ; c'est la fréquence qui augmente."
+    },
+    {
+      "erreur": "Penser que le message traverse la synapse sous forme électrique.",
+      "correction": "Dans une synapse chimique, il est transmis par un neurotransmetteur."
+    },
+    {
+      "erreur": "Oublier de convertir cm en m et ms en s.",
+      "correction": "3 cm en 1 ms = 0,03 m / 0,001 s = 30 m/s."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quelle est la valeur du potentiel de repos ? Qu'est-ce que la loi du « tout ou rien » ?",
+      "indice": "Amplitude du potentiel d'action.",
+      "corrige": [
+        "Environ −70 mV.",
+        "Sous le seuil, aucun potentiel d'action ; au-dessus, un potentiel d'action d'amplitude toujours identique."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Deux électrodes réceptrices sont placées à 3 cm l'une de l'autre sur une fibre. Le potentiel d'action atteint la seconde 1 ms après la première. Calcule la vitesse de propagation.",
+      "indice": "v = d/t en unités SI.",
+      "corrige": [
+        "v = 0,03 m / 0,001 s = 30 m/s."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Le curare, poison de flèche, se fixe sur les récepteurs de l'acétylcholine de la plaque motrice sans les activer. 1) Explique pourquoi il provoque une paralysie. 2) Pourquoi le nerf moteur continue-t-il à conduire des potentiels d'action ?",
+      "indice": "Le curare agit à la synapse neuro-musculaire.",
+      "corrige": [
+        "1) L'acétylcholine libérée ne peut plus se fixer sur ses récepteurs : le message n'est plus transmis au muscle, qui ne se contracte plus (paralysie, notamment des muscles respiratoires).",
+        "2) Le curare n'agit pas sur la fibre nerveuse elle-même, seulement sur la synapse : la conduction nerveuse est intacte."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la communication nerveuse",
+    "etapes": [
+      "Lis les enregistrements (oscillogrammes) : potentiel de repos, amplitude, fréquence.",
+      "Calcule les vitesses avec les unités SI.",
+      "Localise l'action d'une substance : fibre ou synapse ?"
+    ]
+  }
+}

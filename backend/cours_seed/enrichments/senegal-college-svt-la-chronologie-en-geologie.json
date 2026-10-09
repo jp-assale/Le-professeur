@@ -1,0 +1,75 @@
+{
+  "_topic": "chronologie-geologie",
+  "objectifs": [
+    "Appliquer les principes de chronologie relative (superposition, recoupement, inclusion, continuité).",
+    "Utiliser les fossiles stratigraphiques.",
+    "Distinguer datation relative et datation absolue."
+  ],
+  "prerequis": [
+    "Roches sédimentaires et magmatiques."
+  ],
+  "a_retenir": {
+    "points": [
+      "Superposition : une couche sédimentaire est plus récente que celle qu'elle recouvre (si elle n'a pas été retournée).",
+      "Recoupement : une structure qui en recoupe une autre (faille, filon) est plus récente qu'elle.",
+      "Inclusion : les morceaux de roche inclus dans une autre sont plus anciens que la roche qui les contient.",
+      "Continuité : une même couche a le même âge sur toute son étendue ; les fossiles stratigraphiques permettent de dater et de corréler des couches.",
+      "La datation absolue (radiochronologie) donne un âge chiffré en années grâce aux éléments radioactifs."
+    ],
+    "formules": [
+      "En bas = plus ancien (superposition)",
+      "Ce qui recoupe est plus récent"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Appliquer la superposition à une roche magmatique intrusive.",
+      "correction": "Une intrusion recoupe les couches : elle est plus récente qu'elles, même si elle est en dessous."
+    },
+    {
+      "erreur": "Dater une faille avant les couches qu'elle coupe.",
+      "correction": "Elle est postérieure aux couches qu'elle décale."
+    },
+    {
+      "erreur": "Confondre chronologie relative et absolue.",
+      "correction": "Relative : ordre des événements ; absolue : âge en années."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Trois couches sédimentaires horizontales se succèdent de bas en haut : A, B, C. Range-les de la plus ancienne à la plus récente.",
+      "indice": "Principe de superposition.",
+      "corrige": [
+        "A (la plus ancienne), puis B, puis C (la plus récente)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une faille F décale les couches A, B et C mais pas la couche D qui les recouvre. Place F dans la chronologie.",
+      "indice": "Recoupement.",
+      "corrige": [
+        "F recoupe A, B, C : elle est plus récente qu'elles.",
+        "D n'est pas décalée et recouvre l'ensemble : elle est postérieure à F. Ordre : A, B, C, F, D."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une coupe montre de bas en haut les couches 1, 2, 3. Un filon de granite G traverse les couches 1 et 2 et s'arrête sous la couche 3. La couche 3 contient des galets de granite. Reconstitue l'histoire de la région en justifiant chaque étape.",
+      "indice": "Recoupement et inclusion.",
+      "corrige": [
+        "Dépôt de 1 puis de 2 (superposition).",
+        "Mise en place du granite G, qui recoupe 1 et 2 (recoupement) : G est postérieur à 2.",
+        "Érosion qui fait affleurer le granite, puis dépôt de la couche 3 qui contient des galets de granite (inclusion) : 3 est postérieure à G."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : chronologie en géologie",
+    "etapes": [
+      "Repère les couches, les failles, les intrusions et les inclusions.",
+      "Pour chaque relation, cite le principe utilisé.",
+      "Rédige l'histoire dans l'ordre chronologique."
+    ]
+  }
+}

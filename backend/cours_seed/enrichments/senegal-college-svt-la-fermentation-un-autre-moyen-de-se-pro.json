@@ -1,0 +1,76 @@
+{
+  "_topic": "respiration-fermentation",
+  "objectifs": [
+    "Décrire les mouvements respiratoires et les échanges gazeux pulmonaires.",
+    "Écrire le bilan de la respiration cellulaire.",
+    "Comparer respiration et fermentation (conditions, produits, énergie)."
+  ],
+  "prerequis": [
+    "Nutriments (glucose).",
+    "Test du CO₂ à l'eau de chaux."
+  ],
+  "a_retenir": {
+    "points": [
+      "Inspiration : la cage thoracique s'agrandit, l'air entre ; expiration : l'air sort.",
+      "Dans les alvéoles pulmonaires, le dioxygène passe dans le sang et le dioxyde de carbone passe du sang à l'air.",
+      "L'air expiré contient moins de dioxygène (environ 16 % contre 21 %) et beaucoup plus de CO₂ (environ 4 % contre 0,04 %).",
+      "Respiration cellulaire (avec O₂) : glucose + dioxygène → dioxyde de carbone + eau + beaucoup d'énergie.",
+      "Fermentation (sans O₂) : la dégradation du glucose est incomplète et libère peu d'énergie ; fermentation alcoolique (levures : pain, bière de mil) ou lactique (yaourt, muscle en effort intense)."
+    ],
+    "formules": [
+      "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + énergie",
+      "Fermentation alcoolique : glucose → éthanol + CO₂ + peu d'énergie"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que l'air expiré ne contient plus de dioxygène.",
+      "correction": "Il en contient encore environ 16 %."
+    },
+    {
+      "erreur": "Confondre respiration (cellulaire) et ventilation pulmonaire.",
+      "correction": "La ventilation renouvelle l'air ; la respiration cellulaire produit l'énergie dans les cellules."
+    },
+    {
+      "erreur": "Penser que la fermentation produit plus d'énergie.",
+      "correction": "Elle en libère beaucoup moins que la respiration."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "On souffle dans de l'eau de chaux : elle se trouble. Qu'est-ce que cela prouve ?",
+      "indice": "L'eau de chaux est le réactif d'un gaz précis.",
+      "corrige": [
+        "L'eau de chaux se trouble en présence de dioxyde de carbone : l'air expiré est riche en CO₂."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Compare la composition de l'air inspiré (O₂ : 21 % ; CO₂ : 0,04 %) et de l'air expiré (O₂ : 16 % ; CO₂ : 4 %). Explique ces différences.",
+      "indice": "Que se passe-t-il dans les alvéoles ?",
+      "corrige": [
+        "L'air expiré contient moins d'O₂ et beaucoup plus de CO₂.",
+        "Dans les alvéoles, le sang prélève du dioxygène et rejette du dioxyde de carbone produit par la respiration des cellules."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Deux flacons contiennent des levures et du glucose. Flacon A : aéré. Flacon B : privé d'air. Après plusieurs heures : dans A, les levures se sont beaucoup multipliées, il s'est formé du CO₂ et le glucose a beaucoup diminué ; dans B, les levures se sont peu multipliées, il s'est formé du CO₂ et de l'éthanol. 1) Nomme le phénomène dans chaque flacon. 2) Explique la différence de multiplication des levures. 3) Donne une application de la vie courante.",
+      "indice": "Pense à la quantité d'énergie libérée.",
+      "corrige": [
+        "1) A : respiration (en présence de dioxygène). B : fermentation alcoolique (sans dioxygène).",
+        "2) La respiration dégrade complètement le glucose et libère beaucoup d'énergie, ce qui permet une forte multiplication ; la fermentation libère peu d'énergie.",
+        "3) Fabrication du pain (le CO₂ fait lever la pâte) ou de la bière de mil (production d'éthanol)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : respiration et fermentation",
+    "etapes": [
+      "Identifie la présence ou l'absence de dioxygène dans chaque expérience.",
+      "Compare les produits formés et l'énergie libérée.",
+      "Écris le bilan sous forme d'équation en mots."
+    ]
+  }
+}

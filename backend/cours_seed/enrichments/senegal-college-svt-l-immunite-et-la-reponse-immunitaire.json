@@ -1,0 +1,76 @@
+{
+  "_topic": "immunite",
+  "objectifs": [
+    "Décrire les barrières naturelles et la réponse non spécifique (phagocytose, inflammation).",
+    "Expliquer la réponse immunitaire spécifique (lymphocytes B et T, anticorps).",
+    "Distinguer vaccination et sérothérapie ; expliquer la mémoire immunitaire."
+  ],
+  "prerequis": [
+    "Composition du sang."
+  ],
+  "a_retenir": {
+    "points": [
+      "Barrières naturelles : peau, muqueuses, larmes, mucus.",
+      "Réponse non spécifique (rapide) : inflammation et phagocytose des microbes par les phagocytes.",
+      "Réponse spécifique : les lymphocytes B donnent des plasmocytes qui produisent des anticorps spécifiques de l'antigène ; les lymphocytes T cytotoxiques détruisent les cellules infectées ; les lymphocytes T4 coordonnent la réponse.",
+      "Après un premier contact, des cellules mémoires permettent une réponse secondaire plus rapide et plus forte.",
+      "Vaccination : préventive, durable (mémoire), nécessite des rappels. Sérothérapie : curative, immédiate mais de courte durée (anticorps tout faits)."
+    ],
+    "formules": [
+      "Antigène + anticorps → complexe immun → phagocytose",
+      "Vaccin = antigène rendu inoffensif"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire qu'un vaccin soigne une maladie déjà déclarée.",
+      "correction": "Le vaccin prévient ; c'est le sérum (anticorps) qui agit tout de suite."
+    },
+    {
+      "erreur": "Penser qu'un anticorps agit contre n'importe quel microbe.",
+      "correction": "Un anticorps est spécifique d'un antigène."
+    },
+    {
+      "erreur": "Confondre antigène et anticorps.",
+      "correction": "L'antigène est l'élément étranger ; l'anticorps est la molécule de défense produite contre lui."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite deux barrières naturelles et décris la phagocytose en deux phrases.",
+      "indice": "Le phagocyte « mange » le microbe.",
+      "corrige": [
+        "Barrières : la peau, les muqueuses (avec le mucus).",
+        "Phagocytose : le phagocyte entoure le microbe et l'englobe, puis le digère."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un enfant blessé par un clou rouillé, non vacciné contre le tétanos, reçoit une injection de sérum antitétanique, puis on commence sa vaccination. Explique ces deux décisions.",
+      "indice": "Effet immédiat / protection durable.",
+      "corrige": [
+        "Le sérum apporte des anticorps tout faits : protection immédiate contre la toxine tétanique (courte durée).",
+        "Le vaccin fait produire par l'enfant ses propres anticorps et des cellules mémoires : protection durable pour l'avenir."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On mesure la quantité d'anticorps anti-X chez un individu. Après une 1re injection de l'antigène X, les anticorps apparaissent au bout de 10 jours et restent en faible quantité. Après une 2e injection, un mois plus tard, ils apparaissent en 2 jours et en quantité 10 fois plus grande. 1) Compare les deux réponses. 2) Explique la différence. 3) Quel est l'intérêt des rappels de vaccin ?",
+      "indice": "Cellules mémoires.",
+      "corrige": [
+        "1) La réponse secondaire est plus rapide (2 jours contre 10) et plus intense (10 fois plus d'anticorps).",
+        "2) Lors du premier contact, l'organisme a formé des lymphocytes mémoires spécifiques de X, qui réagissent vite au second contact.",
+        "3) Les rappels renouvellent et renforcent la mémoire immunitaire pour maintenir une protection efficace."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : l'immunité",
+    "etapes": [
+      "Lis le graphique : délais d'apparition et quantités d'anticorps.",
+      "Compare réponse primaire et réponse secondaire.",
+      "Utilise le bon vocabulaire : antigène, anticorps, lymphocyte, mémoire, vaccin, sérum."
+    ]
+  }
+}

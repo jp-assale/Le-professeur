@@ -1,0 +1,72 @@
+{
+  "_topic": "vision",
+  "objectifs": [
+    "Décrire la structure de l'œil et le trajet de la lumière.",
+    "Expliquer le rôle de la rétine et des voies optiques jusqu'au cerveau.",
+    "Expliquer la tache aveugle et quelques troubles de la vision."
+  ],
+  "prerequis": [
+    "Lentilles convergentes (physique)."
+  ],
+  "a_retenir": {
+    "points": [
+      "La lumière traverse la cornée, l'humeur aqueuse, le cristallin (lentille convergente) et le corps vitré pour former une image sur la rétine.",
+      "La rétine contient des photorécepteurs : les cônes (vision des couleurs, en lumière vive) et les bâtonnets (vision en faible lumière).",
+      "Le nerf optique transmet le message nerveux au cerveau ; c'est l'aire visuelle (à l'arrière du cerveau) qui permet de « voir ».",
+      "La tache aveugle, là où le nerf optique quitte l'œil, ne contient pas de photorécepteurs.",
+      "Le cristallin se déforme pour voir net de près (accommodation) ; myopie, hypermétropie et presbytie se corrigent par des verres."
+    ],
+    "formules": [
+      "Lumière → cornée → cristallin → rétine → nerf optique → cerveau"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que l'on voit avec les yeux seulement.",
+      "correction": "L'œil capte la lumière ; c'est le cerveau qui construit l'image perçue."
+    },
+    {
+      "erreur": "Confondre cônes et bâtonnets.",
+      "correction": "Cônes : couleurs ; bâtonnets : faible luminosité."
+    },
+    {
+      "erreur": "Penser que l'image sur la rétine est droite.",
+      "correction": "Elle est renversée ; le cerveau la redresse."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite dans l'ordre les milieux traversés par la lumière dans l'œil.",
+      "indice": "Commence par la cornée.",
+      "corrige": [
+        "Cornée, humeur aqueuse, (pupille), cristallin, corps vitré, puis rétine."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi distingue-t-on mal les couleurs au crépuscule ?",
+      "indice": "Quels photorécepteurs fonctionnent en faible lumière ?",
+      "corrige": [
+        "En faible lumière, seuls les bâtonnets fonctionnent ; ils ne permettent pas de distinguer les couleurs (rôle des cônes)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une personne victime d'un accident à l'arrière du crâne ne voit plus, alors que ses yeux sont intacts. 1) Explique. 2) Pourquoi ne voit-on pas un objet dont l'image se forme sur la tache aveugle ?",
+      "indice": "Aire visuelle du cerveau.",
+      "corrige": [
+        "1) L'aire visuelle, située à l'arrière du cerveau, est lésée : les messages du nerf optique ne sont plus interprétés, la vision est impossible.",
+        "2) La tache aveugle ne possède pas de photorécepteurs : aucune image n'y est captée."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : la vision",
+    "etapes": [
+      "Fais un schéma légendé de l'œil (coupe).",
+      "Suis le trajet du message : lumière → récepteurs → nerf → cerveau.",
+      "Relie chaque trouble à la structure touchée."
+    ]
+  }
+}

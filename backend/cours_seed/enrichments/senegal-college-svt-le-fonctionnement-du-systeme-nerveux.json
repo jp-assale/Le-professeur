@@ -1,0 +1,74 @@
+{
+  "_topic": "systeme-nerveux",
+  "objectifs": [
+    "Décrire l'organisation du système nerveux.",
+    "Distinguer acte réflexe et acte volontaire.",
+    "Décrire l'arc réflexe et interpréter des expériences de section de nerfs."
+  ],
+  "prerequis": [
+    "Organes des sens."
+  ],
+  "a_retenir": {
+    "points": [
+      "Système nerveux central : encéphale et moelle épinière ; système nerveux périphérique : nerfs.",
+      "Le neurone est la cellule nerveuse ; il transmet un message nerveux de nature électrique.",
+      "Acte réflexe : réponse rapide, involontaire, dont le centre est la moelle épinière (ex. retirer la main d'une flamme).",
+      "Arc réflexe : récepteur → nerf sensitif → moelle épinière → nerf moteur → muscle effecteur.",
+      "Acte volontaire : commandé par le cerveau (cortex). L'alcool, les drogues et le manque de sommeil perturbent le système nerveux."
+    ],
+    "formules": [
+      "Arc réflexe : récepteur → conducteur sensitif → centre → conducteur moteur → effecteur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que tous les mouvements sont commandés par le cerveau.",
+      "correction": "Les réflexes médullaires sont commandés par la moelle épinière."
+    },
+    {
+      "erreur": "Confondre nerf sensitif et nerf moteur.",
+      "correction": "Sensitif : vers le centre ; moteur : du centre vers le muscle."
+    },
+    {
+      "erreur": "Oublier le récepteur dans l'arc réflexe.",
+      "correction": "Cite les cinq éléments dans l'ordre."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe en acte réflexe ou volontaire : écrire, retirer la main d'une plaque chaude, cligner des yeux devant un objet qui arrive, frapper un ballon.",
+      "indice": "Réflexe = involontaire et rapide.",
+      "corrige": [
+        "Réflexes : retirer la main, cligner des yeux.",
+        "Volontaires : écrire, frapper un ballon."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Décris l'arc réflexe qui intervient quand on se pique le doigt.",
+      "indice": "Cinq éléments.",
+      "corrige": [
+        "Récepteurs de la peau → nerf sensitif → moelle épinière → nerf moteur → muscles du bras qui retirent la main."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Chez une grenouille dont l'encéphale a été détruit, on pince une patte : elle se retire. On sectionne ensuite le nerf sensitif de cette patte : le pincement ne provoque plus de réaction. 1) Quel est le centre de ce réflexe ? 2) Interprète la section du nerf. 3) Que se passerait-il si on sectionnait le nerf moteur ?",
+      "indice": "L'encéphale est détruit mais le réflexe existe.",
+      "corrige": [
+        "1) La moelle épinière, puisque le réflexe existe sans encéphale.",
+        "2) Le message ne peut plus aller du récepteur vers la moelle : le nerf sensitif conduit le message vers le centre.",
+        "3) Le message ne pourrait plus atteindre le muscle : la patte ne se retirerait pas (paralysie)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : le système nerveux",
+    "etapes": [
+      "Pour chaque expérience, compare avec la situation normale.",
+      "Déduis le rôle de l'élément détruit ou sectionné.",
+      "Fais un schéma de l'arc réflexe légendé."
+    ]
+  }
+}

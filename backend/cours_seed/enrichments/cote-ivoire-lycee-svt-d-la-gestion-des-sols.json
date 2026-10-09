@@ -1,0 +1,75 @@
+{
+  "_topic": "gestion-sols",
+  "objectifs": [
+    "Expliquer la formation d'un sol (pédogenèse) en climat tropical.",
+    "Analyser les causes et mécanismes de la dégradation des sols.",
+    "Proposer une gestion durable des sols."
+  ],
+  "prerequis": [
+    "Constituants du sol, altération des roches."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un sol se forme par altération de la roche-mère et décomposition de la matière organique (humification, minéralisation) ; c'est très lent.",
+      "En climat tropical humide, l'altération intense donne des sols ferrallitiques, souvent pauvres et fragiles une fois la forêt détruite.",
+      "Dégradation : érosion, perte de matière organique, latéritisation (cuirasse), salinisation, pollution.",
+      "Gestion durable : couverture permanente du sol, agroforesterie, rotation et légumineuses, fumure organique, lutte antiérosive, usage raisonné des intrants.",
+      "Le sol est une ressource non renouvelable à l'échelle humaine."
+    ],
+    "formules": [
+      "Matière organique → humus (humification) → éléments minéraux (minéralisation)",
+      "Roche-mère + climat + êtres vivants + temps → sol"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'un sol se reconstitue en quelques années.",
+      "correction": "Il faut des siècles pour former quelques centimètres de sol."
+    },
+    {
+      "erreur": "Croire que les sols sous forêt tropicale sont toujours très riches.",
+      "correction": "La richesse est surtout dans la végétation et l'humus de surface ; après défrichement, le sol s'appauvrit vite."
+    },
+    {
+      "erreur": "Proposer des solutions générales sans lien avec le document.",
+      "correction": "Appuie chaque proposition sur une cause identifiée."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les facteurs de formation d'un sol.",
+      "indice": "Cinq facteurs.",
+      "corrige": [
+        "La roche-mère, le climat, les êtres vivants, le relief et le temps."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Après défrichement d'une forêt, le taux de matière organique du sol passe de 4 % à 1,5 % en 5 ans de culture sans apport. Explique et donne les conséquences.",
+      "indice": "Minéralisation sans renouvellement.",
+      "corrige": [
+        "Sans apport de litière, la matière organique est minéralisée et non renouvelée ; l'érosion emporte aussi l'horizon humifère.",
+        "Conséquences : baisse de la fertilité, moindre rétention de l'eau, rendements en baisse."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Compare deux parcelles de maïs pendant 4 ans : parcelle A (labour, sol nu entre les cultures, engrais minéraux seuls) et parcelle B (paillage, rotation maïs-niébé, compost). Rendements la 4e année : A = 1,2 t/ha ; B = 2,5 t/ha. Explique la différence.",
+      "indice": "Matière organique, azote, érosion.",
+      "corrige": [
+        "B est plus de deux fois plus productive.",
+        "Le paillage protège le sol de l'érosion et garde l'humidité ; le compost entretient l'humus ; le niébé (légumineuse) enrichit le sol en azote.",
+        "En A, le sol nu s'érode et perd sa matière organique ; les engrais seuls ne maintiennent pas la structure et la fertilité du sol."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la gestion des sols",
+    "etapes": [
+      "Compare les situations avec les valeurs chiffrées.",
+      "Explique avec les mécanismes (humus, érosion, azote).",
+      "Propose une gestion durable argumentée."
+    ]
+  }
+}

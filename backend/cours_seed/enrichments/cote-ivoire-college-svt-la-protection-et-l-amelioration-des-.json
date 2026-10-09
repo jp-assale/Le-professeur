@@ -1,0 +1,74 @@
+{
+  "_topic": "sol-degradation-protection",
+  "objectifs": [
+    "Identifier les causes naturelles et humaines de la dégradation des sols.",
+    "Expliquer les conséquences (érosion, baisse de fertilité, désertification).",
+    "Proposer des techniques de protection et d'amélioration des sols."
+  ],
+  "prerequis": [
+    "Constituants et propriétés d'un sol."
+  ],
+  "a_retenir": {
+    "points": [
+      "Causes : érosion par l'eau et le vent, feux de brousse, déforestation, surpâturage, cultures répétées sans repos, mauvais usage des engrais et pesticides.",
+      "Conséquences : perte de la couche fertile (humus), baisse des rendements, ravinement, ensablement, désertification.",
+      "Protection : reboisement, haies et brise-vent, cordons pierreux, demi-lunes et zaï (techniques sahéliennes de collecte de l'eau), culture en courbes de niveau.",
+      "Amélioration : fumure organique (compost, fumier), jachère, rotation des cultures, association avec des légumineuses qui enrichissent le sol en azote.",
+      "La gestion des sols est un enjeu de sécurité alimentaire."
+    ],
+    "formules": [
+      "Sol nu + pluie forte → ruissellement → érosion",
+      "Légumineuses (arachide, niébé, soja) → enrichissement en azote"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que les feux de brousse « fertilisent » durablement le sol.",
+      "correction": "Ils détruisent l'humus et les êtres vivants du sol et l'exposent à l'érosion."
+    },
+    {
+      "erreur": "Compter uniquement sur les engrais chimiques.",
+      "correction": "Sans matière organique, le sol perd sa structure ; mal utilisés, les engrais polluent."
+    },
+    {
+      "erreur": "Proposer des solutions sans lien avec la cause.",
+      "correction": "À chaque cause, associe une mesure adaptée."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite trois causes humaines de la dégradation des sols.",
+      "indice": "Pense aux pratiques agricoles et à la forêt.",
+      "corrige": [
+        "Feux de brousse, déforestation, surpâturage (ou cultures sans jachère)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Sur une parcelle en pente, on mesure la terre emportée par la pluie : parcelle nue : 40 t/ha/an ; parcelle avec cordons pierreux et herbe : 5 t/ha/an. Interprète.",
+      "indice": "Compare les deux valeurs.",
+      "corrige": [
+        "La parcelle nue perd 8 fois plus de terre.",
+        "Les cordons pierreux et la végétation freinent le ruissellement et retiennent la terre : ils protègent le sol contre l'érosion."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un village constate que les rendements de maïs baissent d'année en année sur les mêmes champs, cultivés sans repos et brûlés après chaque récolte. 1) Explique la baisse des rendements. 2) Propose un plan d'action en trois mesures, en justifiant chacune.",
+      "indice": "Humus, éléments minéraux, érosion.",
+      "corrige": [
+        "1) Les cultures répétées épuisent les éléments minéraux ; les feux détruisent l'humus et les organismes du sol, qui devient pauvre et sensible à l'érosion.",
+        "2) Apporter du compost ou du fumier (restaure l'humus) ; pratiquer la rotation avec des légumineuses comme le niébé (enrichit en azote) ; arrêter les brûlis et planter des haies ou faire des cordons pierreux (limite l'érosion)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : dégradation et protection des sols",
+    "etapes": [
+      "Relève dans les documents les causes de dégradation.",
+      "Explique le mécanisme (érosion, perte d'humus, épuisement).",
+      "Propose des solutions adaptées et justifiées."
+    ]
+  }
+}

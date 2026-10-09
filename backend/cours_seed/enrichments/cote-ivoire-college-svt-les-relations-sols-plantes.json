@@ -1,0 +1,74 @@
+{
+  "_topic": "sol-composition",
+  "objectifs": [
+    "Identifier les constituants d'un sol et ses horizons.",
+    "Mesurer la teneur en eau et la perméabilité d'un sol.",
+    "Expliquer comment la plante prélève l'eau et les sels minéraux du sol."
+  ],
+  "prerequis": [
+    "Notions de mélange et de filtration."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un sol contient des éléments minéraux (sables, limons, argiles), de la matière organique (humus), de l'eau, de l'air et des êtres vivants.",
+      "Un profil de sol présente des horizons : horizon humifère en surface, horizon d'accumulation, puis la roche-mère.",
+      "Un sol sableux est très perméable mais retient peu l'eau ; un sol argileux retient l'eau mais est peu perméable.",
+      "Le complexe argilo-humique retient les sels minéraux et l'eau, qui sont absorbés par les poils absorbants des racines.",
+      "La plante a besoin d'azote (N), de phosphore (P) et de potassium (K) : ce sont les éléments des engrais NPK."
+    ],
+    "formules": [
+      "Teneur en eau (%) = (masse humide − masse sèche) / masse humide × 100",
+      "Perméabilité : volume d'eau traversant le sol par unité de temps"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que le sol est inerte.",
+      "correction": "Il contient de nombreux êtres vivants (vers de terre, bactéries) qui fabriquent l'humus."
+    },
+    {
+      "erreur": "Confondre perméabilité et capacité de rétention.",
+      "correction": "Le sable laisse passer l'eau (perméable) mais la retient mal."
+    },
+    {
+      "erreur": "Dire que la plante se nourrit de terre.",
+      "correction": "Elle absorbe de l'eau et des sels minéraux ; elle fabrique sa matière organique par photosynthèse."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les constituants d'un sol.",
+      "indice": "Minéraux, organiques, eau, air, vivants.",
+      "corrige": [
+        "Sables, limons, argiles ; humus ; eau ; air ; êtres vivants (racines, vers, bactéries…)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un échantillon de sol pèse 100 g ; après séchage à l'étuve, il pèse 80 g. Calcule sa teneur en eau.",
+      "indice": "Masse d'eau = 100 − 80.",
+      "corrige": [
+        "Masse d'eau = 20 g ; teneur en eau = 20/100 × 100 = 20 %."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On verse 100 mL d'eau sur trois échantillons de même masse placés dans des entonnoirs. Volume recueilli après 5 min : sol A : 85 mL ; sol B : 50 mL ; sol C : 10 mL. 1) Classe les sols selon leur perméabilité. 2) Lequel est probablement sableux ? argileux ? 3) Lequel conviendrait le mieux à une culture de saison sèche avec peu d'arrosage ? Justifie.",
+      "indice": "Plus il passe d'eau, plus le sol est perméable.",
+      "corrige": [
+        "1) A (le plus perméable) > B > C (le moins perméable).",
+        "2) A est probablement sableux, C argileux, B intermédiaire (limoneux ou riche en humus).",
+        "3) B : il laisse passer l'eau sans noyer les racines tout en retenant une partie de l'eau ; A retient trop peu d'eau, C risque l'asphyxie des racines."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : étude d'un sol",
+    "etapes": [
+      "Décris le protocole et les résultats avec les valeurs.",
+      "Interprète en reliant texture (sable, argile) et propriétés (perméabilité, rétention).",
+      "Conclus par une application agricole."
+    ]
+  }
+}

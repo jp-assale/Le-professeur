@@ -1,0 +1,76 @@
+{
+  "_topic": "vih-sida",
+  "objectifs": [
+    "Expliquer l'action du VIH sur le système immunitaire.",
+    "Décrire les étapes de l'infection jusqu'au SIDA.",
+    "Connaître les modes de transmission et les moyens de prévention."
+  ],
+  "prerequis": [
+    "Le système immunitaire (lymphocytes T4)."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le VIH est un virus qui infecte et détruit les lymphocytes T4, chefs d'orchestre de la réponse immunitaire.",
+      "Étapes : primo-infection, longue phase sans symptôme (la personne est séropositive et peut transmettre le virus), puis SIDA quand le nombre de T4 devient très bas (maladies opportunistes : tuberculose, diarrhées…).",
+      "Transmission : rapports sexuels non protégés, sang contaminé (objets tranchants, transfusion non contrôlée), de la mère à l'enfant (grossesse, accouchement, allaitement).",
+      "Le VIH ne se transmet pas par une poignée de main, un repas partagé, les moustiques ou les toilettes.",
+      "Prévention : abstinence, fidélité, préservatif, dépistage ; les antirétroviraux (ARV) contrôlent le virus et réduisent la transmission, notamment de la mère à l'enfant."
+    ],
+    "formules": [
+      "Séropositif = présence d'anticorps anti-VIH dans le sang",
+      "SIDA = stade avancé (T4 très bas + maladies opportunistes)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre séropositif et malade du SIDA.",
+      "correction": "Une personne séropositive peut vivre longtemps sans être malade, surtout sous traitement."
+    },
+    {
+      "erreur": "Croire qu'un test négatif juste après une prise de risque est définitif.",
+      "correction": "Il existe une période (fenêtre) pendant laquelle les anticorps ne sont pas encore détectables : il faut refaire le test."
+    },
+    {
+      "erreur": "Rejeter une personne vivant avec le VIH.",
+      "correction": "La vie quotidienne ne transmet pas le virus : la stigmatisation est injuste et décourage le dépistage."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe ces situations selon le risque de transmission du VIH : partager une lame de rasoir, serrer la main, rapport sexuel sans préservatif, manger dans le même plat, piqûre de moustique.",
+      "indice": "Le virus se transmet par le sang, les liquides sexuels et de la mère à l'enfant.",
+      "corrige": [
+        "Risque : partager une lame de rasoir, rapport sexuel sans préservatif.",
+        "Aucun risque : serrer la main, manger dans le même plat, piqûre de moustique."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Le nombre de lymphocytes T4 d'un patient non traité passe de 1 000 /mm³ à 150 /mm³ en 8 ans. Explique cette évolution et ses conséquences.",
+      "indice": "Le VIH se multiplie dans les T4.",
+      "corrige": [
+        "Le VIH infecte et détruit progressivement les lymphocytes T4.",
+        "En dessous d'environ 200 T4 /mm³, le système immunitaire ne coordonne plus la défense : des maladies opportunistes apparaissent, c'est le stade SIDA."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une jeune femme séropositive est enceinte. 1) Par quelles voies peut-elle transmettre le virus à son enfant ? 2) Quelles mesures réduisent fortement ce risque ? 3) Pourquoi le dépistage précoce des jeunes est-il important ?",
+      "indice": "Prévention de la transmission mère-enfant (PTME).",
+      "corrige": [
+        "1) Pendant la grossesse, l'accouchement et l'allaitement.",
+        "2) Traitement antirétroviral de la mère, suivi médical de l'accouchement, traitement préventif du nouveau-né, conseils sur l'alimentation du bébé.",
+        "3) Se savoir séropositif permet de se soigner tôt (ARV), de protéger ses partenaires et ses futurs enfants."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : le VIH/SIDA",
+    "etapes": [
+      "Lis les courbes (T4, virus, anticorps) et décris leur évolution avec des valeurs.",
+      "Explique avec le rôle des lymphocytes T4.",
+      "Termine par des mesures de prévention concrètes."
+    ]
+  }
+}

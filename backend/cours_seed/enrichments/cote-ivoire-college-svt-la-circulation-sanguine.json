@@ -1,0 +1,74 @@
+{
+  "_topic": "circulation-sanguine",
+  "objectifs": [
+    "Décrire le cœur et le trajet du sang (petite et grande circulation).",
+    "Distinguer artères, veines et capillaires.",
+    "Calculer une fréquence et un débit cardiaques."
+  ],
+  "prerequis": [
+    "Composition du sang."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le cœur est un muscle creux à 4 cavités : 2 oreillettes et 2 ventricules ; les valvules imposent un sens unique au sang.",
+      "Petite circulation : ventricule droit → artère pulmonaire → poumons (le sang se charge en O₂) → veines pulmonaires → oreillette gauche.",
+      "Grande circulation : ventricule gauche → aorte → organes (le sang cède l'O₂) → veines caves → oreillette droite.",
+      "Les artères partent du cœur, les veines y reviennent ; les échanges se font au niveau des capillaires.",
+      "Hygiène : activité physique, alimentation peu salée et peu grasse, pas de tabac."
+    ],
+    "formules": [
+      "Fréquence cardiaque = nombre de battements par minute",
+      "Débit cardiaque = volume d'éjection × fréquence"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que les artères transportent toujours du sang riche en O₂.",
+      "correction": "L'artère pulmonaire transporte du sang pauvre en O₂ vers les poumons."
+    },
+    {
+      "erreur": "Inverser droite et gauche sur un schéma vu de face.",
+      "correction": "Sur un schéma, la gauche du cœur est à droite du lecteur."
+    },
+    {
+      "erreur": "Penser que le sang des deux moitiés du cœur se mélange.",
+      "correction": "La cloison sépare cœur droit et cœur gauche."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Indique le trajet du sang depuis le ventricule gauche jusqu'au retour au cœur.",
+      "indice": "C'est la grande circulation.",
+      "corrige": [
+        "Ventricule gauche → aorte → artères → capillaires des organes → veines → veines caves → oreillette droite."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Au repos, on compte 18 pulsations en 15 secondes. Calcule la fréquence cardiaque. Le volume d'éjection est de 70 mL : calcule le débit cardiaque en L/min.",
+      "indice": "Multiplie par 4 pour avoir une minute.",
+      "corrige": [
+        "Fréquence = 18 × 4 = 72 battements/min.",
+        "Débit = 70 × 72 = 5 040 mL/min ≈ 5 L/min."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pendant une course, la fréquence cardiaque d'un élève passe de 72 à 150 battements/min et son volume d'éjection de 70 à 100 mL. 1) Calcule le débit cardiaque à l'effort. 2) Explique pourquoi le débit augmente pendant l'effort.",
+      "indice": "Les muscles en activité consomment plus de dioxygène et de glucose.",
+      "corrige": [
+        "1) Débit à l'effort = 100 × 150 = 15 000 mL/min = 15 L/min (trois fois plus qu'au repos).",
+        "2) Les muscles actifs ont besoin de plus de dioxygène et de nutriments et produisent plus de CO₂ : le cœur bat plus vite et plus fort pour augmenter l'apport de sang."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la circulation sanguine",
+    "etapes": [
+      "Fais un schéma simple du cœur avec les vaisseaux et des flèches.",
+      "Colorie en rouge le sang riche en O₂, en bleu le sang pauvre en O₂.",
+      "Pour les calculs, ramène tout à la minute et précise les unités."
+    ]
+  }
+}

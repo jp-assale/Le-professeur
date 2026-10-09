@@ -1,0 +1,75 @@
+{
+  "_topic": "grossesses-precoces",
+  "objectifs": [
+    "Décrire les transformations de la puberté et le cycle menstruel.",
+    "Expliquer la fécondation et le début de la grossesse.",
+    "Connaître les risques d'une grossesse précoce et les moyens de prévention."
+  ],
+  "prerequis": [
+    "Les appareils reproducteurs."
+  ],
+  "a_retenir": {
+    "points": [
+      "À la puberté, l'organisme devient capable de se reproduire : premières règles chez la fille, premières éjaculations chez le garçon.",
+      "Le cycle menstruel dure en moyenne 28 jours ; l'ovulation a lieu vers le 14e jour (pour un cycle de 28 jours), mais les cycles sont souvent irréguliers à l'adolescence.",
+      "La fécondation (rencontre d'un spermatozoïde et d'un ovule) se fait dans la trompe ; l'embryon s'implante dans l'utérus.",
+      "Risques d'une grossesse précoce : complications de l'accouchement (dont la fistule obstétricale), avortements clandestins dangereux, abandon scolaire.",
+      "Prévention : abstinence, préservatif (qui protège aussi des IST et du VIH), contraception moderne sur avis médical ; la méthode du calendrier est peu fiable."
+    ],
+    "formules": [
+      "Cycle de 28 jours : ovulation vers le 14e jour",
+      "Fécondation : dans la trompe ; nidation : dans l'utérus"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Croire qu'on ne peut pas tomber enceinte au premier rapport.",
+      "correction": "Une grossesse est possible dès le premier rapport non protégé."
+    },
+    {
+      "erreur": "Se fier au calendrier chez une adolescente.",
+      "correction": "Les cycles irréguliers rendent cette méthode très peu sûre."
+    },
+    {
+      "erreur": "Penser que la pilule protège du VIH.",
+      "correction": "Seul le préservatif protège à la fois des grossesses et des IST."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Où se produisent la fécondation et la nidation ?",
+      "indice": "Trompe / utérus.",
+      "corrige": [
+        "La fécondation a lieu dans la trompe ; la nidation (implantation de l'embryon) dans la paroi de l'utérus."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Les règles d'Aïcha ont commencé le 1er mars ; son cycle dure habituellement 28 jours. À quelle date environ a lieu l'ovulation ? Pourquoi la méthode du calendrier reste-t-elle risquée ?",
+      "indice": "Ovulation vers le 14e jour.",
+      "corrige": [
+        "Ovulation vers le 14 mars.",
+        "La date d'ovulation peut varier d'un cycle à l'autre (surtout à l'adolescence) et les spermatozoïdes survivent plusieurs jours : la période à risque est difficile à prévoir."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans un collège, 12 élèves sur 600 filles ont été enceintes dans l'année. 1) Calcule le pourcentage. 2) Cite trois conséquences de ces grossesses pour les jeunes filles. 3) Propose trois actions de prévention pour l'établissement.",
+      "indice": "Pourcentage = (12 / 600) × 100.",
+      "corrige": [
+        "1) 12/600 × 100 = 2 %.",
+        "2) Risques pour la santé (accouchement difficile, fistule), abandon scolaire, difficultés sociales et économiques.",
+        "3) Éducation à la sexualité, clubs santé et causeries, accès à l'information et aux services de santé (dépistage, contraception), sensibilisation des parents."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : reproduction et prévention",
+    "etapes": [
+      "Utilise le vocabulaire exact (ovulation, fécondation, nidation, contraception).",
+      "Exploite les données chiffrées (calendrier, pourcentages).",
+      "Propose des mesures de prévention réalistes et respectueuses."
+    ]
+  }
+}

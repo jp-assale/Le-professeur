@@ -1,0 +1,79 @@
+{
+  "_topic": "genetique",
+  "objectifs": [
+    "Interpréter des croisements de monohybridisme et de dihybridisme.",
+    "Utiliser l'échiquier de croisement et le test-cross.",
+    "Analyser une transmission liée au sexe et un arbre généalogique (drépanocytose, hémophilie)."
+  ],
+  "prerequis": [
+    "Méiose et fécondation.",
+    "Gènes et allèles."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un gène existe sous plusieurs versions : les allèles ; un individu porte deux allèles de chaque gène (homozygote ou hétérozygote).",
+      "Monohybridisme avec dominance : F1 homogène ; F2 : 3/4 phénotype dominant, 1/4 récessif.",
+      "Test-cross (croisement avec un homozygote récessif) : 1/2 – 1/2 si l'individu testé est hétérozygote.",
+      "Dihybridisme, gènes indépendants : F2 en proportions 9/16, 3/16, 3/16, 1/16 ; gènes liés : proportions différentes (recombinaisons par crossing-over).",
+      "Drépanocytose : maladie autosomique récessive (allèle S), fréquente en Afrique ; deux parents AS ont 1 risque sur 4 d'avoir un enfant SS."
+    ],
+    "formules": [
+      "F2 monohybridisme : 3/4 – 1/4",
+      "Test-cross : 1/2 – 1/2",
+      "F2 dihybridisme (indépendance) : 9/3/3/1",
+      "AS × AS → 1/4 AA, 1/2 AS, 1/4 SS"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre génotype et phénotype.",
+      "correction": "Génotype : allèles portés (AS) ; phénotype : caractère observé (non malade)."
+    },
+    {
+      "erreur": "Faire un échiquier sans écrire les gamètes.",
+      "correction": "Écris d'abord les gamètes possibles de chaque parent et leurs proportions."
+    },
+    {
+      "erreur": "Penser qu'un couple AS × AS aura exactement 1 enfant malade sur 4.",
+      "correction": "C'est une probabilité pour chaque naissance, pas une répartition garantie."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "On croise deux lignées pures de pois : graines lisses × graines ridées. Toute la F1 est lisse. Quel allèle est dominant ? Donne les génotypes des parents et de la F1 (L / r).",
+      "indice": "La F1 exprime l'allèle dominant.",
+      "corrige": [
+        "L'allèle lisse (L) est dominant.",
+        "Parents : L//L et r//r ; F1 : L//r."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On croise la F1 (L//r) avec un parent ridé (r//r). Prévois les proportions de la descendance. Comment s'appelle ce croisement ?",
+      "indice": "Le parent ridé ne fournit que des gamètes r.",
+      "corrige": [
+        "Gamètes F1 : 1/2 L, 1/2 r ; gamètes ridé : r.",
+        "Descendance : 1/2 L//r (lisse), 1/2 r//r (ridé). C'est un test-cross."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Deux parents non malades sont tous deux porteurs de l'allèle S de la drépanocytose (génotype AS). 1) Réalise l'échiquier de croisement. 2) Quelle est la probabilité que leur enfant soit malade ? porteur sain ? 3) Quel conseil donner aux futurs couples ?",
+      "indice": "Chaque parent donne A ou S avec une probabilité 1/2.",
+      "corrige": [
+        "1) Gamètes de chaque parent : 1/2 A, 1/2 S. Échiquier : AA (1/4), AS (1/4), SA (1/4), SS (1/4).",
+        "2) Malade (SS) : 1/4 ; porteur sain (AS) : 1/2 ; sain non porteur (AA) : 1/4.",
+        "3) Faire une électrophorèse de l'hémoglobine avant le mariage (dépistage) pour connaître son statut et être conseillé."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'exercice de génétique",
+    "etapes": [
+      "Analyse la F1 pour trouver la dominance ; nomme les allèles.",
+      "Écris génotypes et gamètes, puis fais l'échiquier.",
+      "Compare proportions théoriques et observées, puis conclus (indépendance ou liaison)."
+    ]
+  }
+}
