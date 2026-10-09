@@ -6,13 +6,6 @@
       "runtimeExecutable": "C:/Users/jp.assale/AppData/Local/Programs/Python/Python314/python.exe",
       "runtimeArgs": ["backend/app.py"],
       "port": 5000
-    },
-    {
-      "name": "backend-amelioration",
-      "runtimeExecutable": "C:/Users/jp.assale/Desktop/Claude/assistant-scolaire-ia/backend/.venv/Scripts/python.exe",
-      "runtimeArgs": ["backend/app.py"],
-      "env": { "PORT": "5055" },
-      "port": 5055
     }
   ]
 }
