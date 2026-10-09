@@ -1,0 +1,78 @@
+{
+  "_topic": "exponentielle",
+  "objectifs": [
+    "Utiliser les propriétés algébriques de la fonction exponentielle.",
+    "Résoudre des équations et inéquations (changement de variable X = eˣ).",
+    "Dériver e^u et calculer les limites usuelles.",
+    "Étudier une fonction contenant eˣ ; définir aˣ."
+  ],
+  "prerequis": [
+    "Fonction ln.",
+    "Étude de fonction et tangente."
+  ],
+  "a_retenir": {
+    "points": [
+      "exp est définie sur ℝ, strictement positive et strictement croissante ; e⁰ = 1.",
+      "eˣ = y ⟺ x = ln y (pour y > 0) : exp et ln sont réciproques.",
+      "eᵃ × eᵇ = eᵃ⁺ᵇ ; eᵃ / eᵇ = eᵃ⁻ᵇ ; (eᵃ)ⁿ = eⁿᵃ.",
+      "Croissances comparées : eˣ / x → +∞ en +∞ ; x eˣ → 0 en −∞.",
+      "Pour a > 0 : aˣ = e^(x ln a)."
+    ],
+    "formules": [
+      "(eˣ)' = eˣ   ;   (eᵘ)' = u'eᵘ",
+      "lim (x→−∞) eˣ = 0   ;   lim (x→+∞) eˣ = +∞",
+      "aˣ = e^(x ln a)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Résoudre eˣ = −2 en x = ln(−2).",
+      "correction": "eˣ > 0 : l'équation n'a pas de solution."
+    },
+    {
+      "erreur": "Écrire eᵃ⁺ᵇ = eᵃ + eᵇ.",
+      "correction": "eᵃ⁺ᵇ = eᵃ × eᵇ."
+    },
+    {
+      "erreur": "Dériver e^(2x) en e^(2x).",
+      "correction": "(e^(2x))' = 2e^(2x)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Simplifie A = e^(2x) × e^(−x + 1) / eˣ.",
+      "indice": "Additionne et soustrais les exposants.",
+      "corrige": [
+        "A = e^(2x − x + 1 − x) = e¹ = e."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Résous dans ℝ : e^(2x) − 3eˣ + 2 = 0.",
+      "indice": "Pose X = eˣ (avec X > 0).",
+      "corrige": [
+        "Avec X = eˣ : X² − 3X + 2 = 0, donc X = 1 ou X = 2 (les deux sont positifs).",
+        "eˣ = 1 ⟺ x = 0 ; eˣ = 2 ⟺ x = ln 2. S = {0 ; ln 2}."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "f(x) = (x − 1)eˣ sur ℝ. 1) Calcule les limites de f en −∞ et en +∞. 2) Calcule f'(x) et dresse le tableau de variation. 3) Donne l'équation de la tangente au point d'abscisse 1.",
+      "indice": "En −∞, écris f(x) = x eˣ − eˣ.",
+      "corrige": [
+        "1) En −∞ : x eˣ → 0 et eˣ → 0, donc f(x) → 0 (asymptote y = 0). En +∞ : f(x) → +∞.",
+        "2) f'(x) = eˣ + (x − 1)eˣ = x eˣ, du signe de x : f décroissante sur ]−∞ ; 0], croissante sur [0 ; +∞[ ; minimum f(0) = −1.",
+        "3) f(1) = 0 et f'(1) = e : y = e(x − 1)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les fonctions exponentielles",
+    "etapes": [
+      "Rappelle que eˣ > 0 : le signe d'un produit avec eˣ est celui de l'autre facteur.",
+      "Pour les équations, pense au changement de variable X = eˣ.",
+      "Pour les limites en −∞, pense à x eˣ → 0."
+    ]
+  }
+}

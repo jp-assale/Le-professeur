@@ -1,0 +1,81 @@
+{
+  "_topic": "coniques",
+  "objectifs": [
+    "Reconnaître une parabole, une ellipse ou une hyperbole à partir de son équation réduite.",
+    "Déterminer foyers, directrices, excentricité et sommets.",
+    "Réduire une équation par mise sous forme canonique.",
+    "Utiliser la définition par foyer et directrice."
+  ],
+  "prerequis": [
+    "Forme canonique d'un trinôme.",
+    "Distance d'un point à une droite."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une conique est l'ensemble des points M tels que MF / MH = e, avec F foyer, H projeté de M sur la directrice et e l'excentricité.",
+      "e = 1 : parabole ; e < 1 : ellipse ; e > 1 : hyperbole.",
+      "Parabole y² = 2px : foyer F(p/2 ; 0), directrice x = −p/2.",
+      "Ellipse x²/a² + y²/b² = 1 (a > b > 0) : c² = a² − b², foyers (±c ; 0), e = c/a.",
+      "Hyperbole x²/a² − y²/b² = 1 : c² = a² + b², foyers (±c ; 0), e = c/a, asymptotes y = ±(b/a)x."
+    ],
+    "formules": [
+      "Ellipse : c² = a² − b²",
+      "Hyperbole : c² = a² + b²",
+      "e = c/a",
+      "Parabole y² = 2px : F(p/2 ; 0)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser c² = a² + b² pour une ellipse.",
+      "correction": "Ellipse : c² = a² − b² ; hyperbole : c² = a² + b²."
+    },
+    {
+      "erreur": "Placer le foyer de y² = 8x en (8 ; 0).",
+      "correction": "2p = 8 donc p = 4 et F(p/2 ; 0) = (2 ; 0)."
+    },
+    {
+      "erreur": "Oublier le changement de repère après une forme canonique.",
+      "correction": "Le centre de (x − 1)²/25 + y²/9 = 1 est (1 ; 0) : décale les foyers."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la nature, les sommets, les foyers et l'excentricité de la conique x²/25 + y²/9 = 1.",
+      "indice": "a = 5, b = 3.",
+      "corrige": [
+        "Ellipse avec a = 5 et b = 3 : sommets (±5 ; 0) et (0 ; ±3).",
+        "c² = 25 − 9 = 16, c = 4 : foyers (±4 ; 0) ; e = 4/5 = 0,8."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Donne les foyers, l'excentricité et les asymptotes de l'hyperbole x²/16 − y²/9 = 1.",
+      "indice": "c² = a² + b².",
+      "corrige": [
+        "a = 4, b = 3 ; c² = 16 + 9 = 25, c = 5 : foyers (±5 ; 0) ; e = 5/4.",
+        "Asymptotes : y = (3/4)x et y = −(3/4)x."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Parabole y² = 8x : donne son foyer et sa directrice, vérifie que M(2 ; 4) lui appartient et que MF est égal à la distance de M à la directrice. 2) Réduis l'équation 9x² + 25y² − 18x − 216 = 0 et donne la nature et le centre de la conique.",
+      "indice": "9x² − 18x = 9[(x − 1)² − 1].",
+      "corrige": [
+        "1) 2p = 8, p = 4 : F(2 ; 0), directrice x = −2. 4² = 16 = 8 × 2 : M est sur la parabole.",
+        "MF = √((2 − 2)² + 4²) = 4 et la distance de M à la directrice vaut 2 − (−2) = 4 : égalité vérifiée (e = 1).",
+        "2) 9(x − 1)² − 9 + 25y² = 216, soit 9(x − 1)² + 25y² = 225, donc (x − 1)²/25 + y²/9 = 1.",
+        "C'est une ellipse de centre (1 ; 0), avec a = 5 et b = 3."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les coniques",
+    "etapes": [
+      "Mets l'équation sous forme réduite (forme canonique si besoin).",
+      "Identifie a, b, puis c avec la bonne relation selon la nature.",
+      "Donne tous les éléments demandés en tenant compte du centre."
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_topic": "derivation-etude-fonctions",
+  "objectifs": [
+    "Calculer la dérivée d'une fonction avec les formules usuelles.",
+    "Déterminer l'équation d'une tangente.",
+    "Étudier le sens de variation et dresser le tableau de variation.",
+    "Étudier les asymptotes et tracer la courbe."
+  ],
+  "prerequis": [
+    "Limites et asymptotes.",
+    "Signe d'un trinôme du second degré."
+  ],
+  "a_retenir": {
+    "points": [
+      "Si f'(x) > 0 sur un intervalle, f y est strictement croissante ; si f'(x) < 0, strictement décroissante.",
+      "Si f' s'annule en changeant de signe en a, f admet un extremum local en a.",
+      "La tangente à la courbe au point d'abscisse a a pour coefficient directeur f'(a).",
+      "Plan d'étude : ensemble de définition → limites → dérivée → signe de f' → tableau de variation → asymptotes et position → courbe.",
+      "f(x) = ax + b + g(x) avec g(x) → 0 en ±∞ : y = ax + b est asymptote oblique ; le signe de g(x) donne la position."
+    ],
+    "formules": [
+      "(uv)' = u'v + uv'   ;   (u/v)' = (u'v − uv')/v²",
+      "(uⁿ)' = n·u'·uⁿ⁻¹   ;   (√u)' = u'/(2√u)",
+      "Tangente : y = f'(a)(x − a) + f(a)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire (u/v)' = u'/v'.",
+      "correction": "(u/v)' = (u'v − uv')/v²."
+    },
+    {
+      "erreur": "Dresser le tableau de variation sans étudier le signe de f'.",
+      "correction": "Factorise f'(x) et fais un tableau de signes complet."
+    },
+    {
+      "erreur": "Oublier les valeurs interdites dans le tableau.",
+      "correction": "Marque-les par une double barre ‖ et calcule les limites de chaque côté."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "f(x) = x³ − 3x + 2. Calcule f'(x) et factorise-la.",
+      "indice": "3x² − 3 = 3(x² − 1).",
+      "corrige": [
+        "f'(x) = 3x² − 3 = 3(x² − 1) = 3(x − 1)(x + 1)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Avec f(x) = x³ − 3x + 2, détermine l'équation de la tangente à la courbe au point d'abscisse 2.",
+      "indice": "Calcule f(2) et f'(2).",
+      "corrige": [
+        "f(2) = 8 − 6 + 2 = 4 ; f'(2) = 3 × 4 − 3 = 9.",
+        "y = 9(x − 2) + 4, soit y = 9x − 14."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "f(x) = (x² + 3)/(x − 1) sur ℝ \\ {1}. 1) Montre que f'(x) = (x − 3)(x + 1)/(x − 1)². 2) Dresse le tableau de variation de f (sans les limites). 3) Montre que f(x) = x + 1 + 4/(x − 1) et déduis-en une asymptote oblique.",
+      "indice": "Pour la question 3, réduis x + 1 + 4/(x − 1) au même dénominateur.",
+      "corrige": [
+        "1) f'(x) = [2x(x − 1) − (x² + 3)]/(x − 1)² = (x² − 2x − 3)/(x − 1)² = (x − 3)(x + 1)/(x − 1)².",
+        "2) (x − 1)² > 0 : f' a le signe de (x − 3)(x + 1). f croissante sur ]−∞ ; −1], décroissante sur [−1 ; 1[ et sur ]1 ; 3], croissante sur [3 ; +∞[.",
+        "Maximum local f(−1) = 4/(−2) = −2 ; minimum local f(3) = 12/2 = 6.",
+        "3) x + 1 + 4/(x − 1) = [(x + 1)(x − 1) + 4]/(x − 1) = (x² + 3)/(x − 1) = f(x).",
+        "4/(x − 1) → 0 en ±∞, donc la droite y = x + 1 est asymptote oblique."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le problème d'étude de fonction",
+    "etapes": [
+      "Suis l'ordre des questions : chaque résultat sert pour la suite.",
+      "Factorise f'(x) pour étudier son signe.",
+      "Tableau de variation complet : signes de f', flèches, extremums, limites, valeurs interdites.",
+      "Courbe : asymptotes et tangentes d'abord, puis quelques points calculés."
+    ]
+  }
+}

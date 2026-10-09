@@ -1,0 +1,79 @@
+{
+  "_topic": "logarithme",
+  "objectifs": [
+    "Utiliser les propriétés algébriques de ln.",
+    "Résoudre des équations et inéquations avec ln (sans oublier le domaine).",
+    "Dériver ln u et calculer les limites usuelles.",
+    "Étudier une fonction contenant ln."
+  ],
+  "prerequis": [
+    "Fonction dérivée, étude de fonction.",
+    "Propriétés des puissances."
+  ],
+  "a_retenir": {
+    "points": [
+      "ln est définie sur ]0 ; +∞[, strictement croissante ; ln 1 = 0 et ln e = 1.",
+      "ln transforme les produits en sommes : ln(ab) = ln a + ln b.",
+      "Pour a > 0 et b > 0 : ln a = ln b ⟺ a = b ; ln a < ln b ⟺ a < b.",
+      "ln(u(x)) existe si u(x) > 0 : commence toujours par le domaine.",
+      "Croissances comparées : ln x / x → 0 en +∞ ; x ln x → 0 en 0⁺."
+    ],
+    "formules": [
+      "ln(ab) = ln a + ln b   ;   ln(a/b) = ln a − ln b   ;   ln(aⁿ) = n ln a",
+      "(ln x)' = 1/x   ;   (ln u)' = u'/u",
+      "lim (x→0⁺) ln x = −∞   ;   lim (x→+∞) ln x = +∞"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire ln(a + b) = ln a + ln b.",
+      "correction": "C'est ln(a × b) = ln a + ln b ; ln(a + b) ne se simplifie pas."
+    },
+    {
+      "erreur": "Résoudre une équation sans chercher le domaine.",
+      "correction": "Écris d'abord les conditions (arguments > 0) et vérifie tes solutions."
+    },
+    {
+      "erreur": "Dériver ln(x² + 1) en 1/(x² + 1).",
+      "correction": "(ln u)' = u'/u = 2x/(x² + 1)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Simplifie A = ln 8 + ln 2 − 2 ln 4.",
+      "indice": "Écris tout avec des puissances de 2.",
+      "corrige": [
+        "ln 8 + ln 2 = ln 16 et 2 ln 4 = ln 16.",
+        "A = ln 16 − ln 16 = 0."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "1) Résous ln(2x − 1) = ln(x + 3). 2) Résous ln x < 1.",
+      "indice": "Commence par les conditions d'existence.",
+      "corrige": [
+        "1) Il faut 2x − 1 > 0 et x + 3 > 0, soit x > 1/2. Alors 2x − 1 = x + 3, donc x = 4 (convient). S = {4}.",
+        "2) Il faut x > 0 ; ln x < ln e ⟺ x < e. S = ]0 ; e[."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "f(x) = x − 1 − ln x sur ]0 ; +∞[. 1) Calcule les limites de f en 0 et en +∞. 2) Étudie les variations de f. 3) Déduis-en que pour tout x > 0, ln x ≤ x − 1.",
+      "indice": "En +∞, écris f(x) = x(1 − 1/x − ln x / x).",
+      "corrige": [
+        "1) En 0⁺ : −ln x → +∞, donc f(x) → +∞. En +∞ : f(x) = x(1 − 1/x − ln x / x) et la parenthèse tend vers 1, donc f(x) → +∞.",
+        "2) f'(x) = 1 − 1/x = (x − 1)/x : f décroissante sur ]0 ; 1], croissante sur [1 ; +∞[.",
+        "3) Le minimum de f est f(1) = 0, donc f(x) ≥ 0 pour tout x > 0, c'est-à-dire ln x ≤ x − 1."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les fonctions logarithmes",
+    "etapes": [
+      "Commence par l'ensemble de définition (arguments strictement positifs).",
+      "Utilise les propriétés de ln pour transformer avant de résoudre.",
+      "Pour les limites, pense aux croissances comparées et factorise par le terme dominant."
+    ]
+  }
+}

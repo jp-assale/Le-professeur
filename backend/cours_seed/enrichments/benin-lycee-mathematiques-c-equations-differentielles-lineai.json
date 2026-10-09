@@ -1,0 +1,79 @@
+{
+  "_topic": "equations-differentielles",
+  "objectifs": [
+    "Résoudre y' = ay et y' = ay + b.",
+    "Résoudre y'' + ω²y = 0 et les équations du second ordre à coefficients constants.",
+    "Déterminer la solution vérifiant des conditions initiales.",
+    "Modéliser un phénomène (refroidissement, charge, oscillations)."
+  ],
+  "prerequis": [
+    "Fonction exponentielle.",
+    "Dérivées de cos et sin."
+  ],
+  "a_retenir": {
+    "points": [
+      "Les solutions de y' = ay sont les fonctions x ↦ C e^(ax), C réel.",
+      "Les solutions de y' = ay + b (a ≠ 0) sont x ↦ C e^(ax) − b/a.",
+      "Les solutions de y'' + ω²y = 0 sont x ↦ A cos(ωx) + B sin(ωx).",
+      "Pour y'' + ay' + by = 0, on résout l'équation caractéristique r² + ar + b = 0 : deux racines réelles r₁, r₂ → y = A e^(r₁x) + B e^(r₂x) ; racine double r → y = (Ax + B) e^(rx) ; racines complexes α ± iβ → y = e^(αx)(A cos βx + B sin βx).",
+      "Les conditions initiales (y(0), y'(0)) déterminent les constantes."
+    ],
+    "formules": [
+      "y' = ay → y = C e^(ax)",
+      "y' = ay + b → y = C e^(ax) − b/a",
+      "y'' + ω²y = 0 → y = A cos ωx + B sin ωx"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire y = C e^(ax) + b/a pour y' = ay + b.",
+      "correction": "La solution particulière constante est −b/a (vérifie : 0 = a × (−b/a) + b)."
+    },
+    {
+      "erreur": "Oublier la constante avant d'utiliser la condition initiale.",
+      "correction": "Écris la solution générale, puis calcule la constante."
+    },
+    {
+      "erreur": "Confondre ω et ω² dans y'' + ω²y = 0.",
+      "correction": "Pour y'' + 4y = 0, ω = 2 (et non 4)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Résous y' = 2y, puis trouve la solution telle que y(0) = 3.",
+      "indice": "y = C e^(2x).",
+      "corrige": [
+        "Solutions : y = C e^(2x). y(0) = C = 3, donc y = 3e^(2x)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Résous y' = −0,5y + 10 et trouve la solution vérifiant y(0) = 0. Quelle est sa limite en +∞ ?",
+      "indice": "Solution particulière constante : −b/a = −10/(−0,5).",
+      "corrige": [
+        "Solutions : y = C e^(−0,5x) + 20.",
+        "y(0) = C + 20 = 0, donc C = −20 : y = 20(1 − e^(−0,5x)).",
+        "En +∞, e^(−0,5x) → 0, donc y → 20."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Résous y'' + 4y = 0 et trouve la solution vérifiant y(0) = 1 et y'(0) = 2. 2) Résous y'' − 3y' + 2y = 0.",
+      "indice": "Pour la question 2, résous r² − 3r + 2 = 0.",
+      "corrige": [
+        "1) ω = 2 : y = A cos(2x) + B sin(2x). y(0) = A = 1.",
+        "y'(x) = −2A sin(2x) + 2B cos(2x), donc y'(0) = 2B = 2 et B = 1 : y = cos(2x) + sin(2x).",
+        "2) r² − 3r + 2 = 0 ⟺ r = 1 ou r = 2 : y = A eˣ + B e^(2x), A et B réels."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les équations différentielles",
+    "etapes": [
+      "Identifie le type d'équation et écris la forme générale des solutions.",
+      "Calcule les constantes avec les conditions initiales.",
+      "Vérifie en remplaçant dans l'équation."
+    ]
+  }
+}

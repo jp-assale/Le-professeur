@@ -1,0 +1,76 @@
+{
+  "_topic": "primitives",
+  "objectifs": [
+    "Déterminer une primitive avec le tableau des primitives usuelles.",
+    "Reconnaître les formes u'uⁿ, u'/u², u'/√u, u'cos u.",
+    "Déterminer la primitive qui vérifie une condition initiale."
+  ],
+  "prerequis": [
+    "Dérivées usuelles et dérivée d'une fonction composée."
+  ],
+  "a_retenir": {
+    "points": [
+      "F est une primitive de f sur I si F' = f sur I.",
+      "Deux primitives d'une même fonction diffèrent d'une constante : F(x) + C.",
+      "Il existe une seule primitive prenant une valeur donnée en un point donné.",
+      "Toujours vérifier sa primitive en la dérivant."
+    ],
+    "formules": [
+      "xⁿ → xⁿ⁺¹/(n + 1)   (n ≠ −1)",
+      "u'·uⁿ → uⁿ⁺¹/(n + 1)   ;   u'/u² → −1/u   ;   u'/√u → 2√u",
+      "cos(ax + b) → (1/a) sin(ax + b)   ;   sin(ax + b) → −(1/a) cos(ax + b)",
+      "u'/u → ln|u|   ;   u'·eᵘ → eᵘ"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier la constante C.",
+      "correction": "« Les primitives de f » s'écrivent F(x) + C."
+    },
+    {
+      "erreur": "Primitive de sin x = cos x.",
+      "correction": "C'est −cos x (vérifie : (−cos x)' = sin x)."
+    },
+    {
+      "erreur": "Oublier le coefficient 1/a pour cos(2x).",
+      "correction": "Une primitive de cos(2x) est ½ sin(2x)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Détermine les primitives de f(x) = 3x² − 4x + 5 sur ℝ.",
+      "indice": "Primitive terme à terme.",
+      "corrige": [
+        "F(x) = x³ − 2x² + 5x + C, C ∈ ℝ."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Détermine une primitive de f(x) = 2x(x² + 1)³ sur ℝ, puis de g(x) = 1/(x + 2)² sur ]−2 ; +∞[.",
+      "indice": "Reconnais u'uⁿ avec u = x² + 1, puis u'/u² avec u = x + 2.",
+      "corrige": [
+        "f = u'u³ avec u = x² + 1 : F(x) = (x² + 1)⁴/4.",
+        "g = u'/u² avec u = x + 2 : G(x) = −1/(x + 2)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Détermine la primitive F de f(x) = cos x − 2 sin(2x) sur ℝ telle que F(0) = 3. 2) Détermine une primitive de h(x) = x/√(x² + 1).",
+      "indice": "Une primitive de −2 sin(2x) est cos(2x).",
+      "corrige": [
+        "1) F(x) = sin x + cos(2x) + C. F(0) = 0 + 1 + C = 3, donc C = 2 : F(x) = sin x + cos(2x) + 2.",
+        "Vérification : F'(x) = cos x − 2 sin(2x) = f(x).",
+        "2) h = ½ × (2x)/√(x² + 1) = ½ × u'/√u, d'où H(x) = ½ × 2√(x² + 1) = √(x² + 1)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : trouver une primitive",
+    "etapes": [
+      "Repère la forme (u'uⁿ, u'/u, u'eᵘ…) et ajuste le coefficient.",
+      "Écris la primitive générale avec + C, puis utilise la condition initiale.",
+      "Vérifie en dérivant."
+    ]
+  }
+}

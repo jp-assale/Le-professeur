@@ -1,0 +1,554 @@
+{
+  "_doc": "Complements pedagogiques - Mathematiques lycee (Terminale), lot 2 : suites, probabilites, statistique, arithmetique, barycentres, similitudes, coniques, espace. Calculs verifies a la main.",
+  "topics": {
+    "suites": {
+      "objectifs": [
+        "Reconnaître et utiliser les suites arithmétiques et géométriques.",
+        "Calculer une somme de termes consécutifs.",
+        "Démontrer une propriété par récurrence.",
+        "Étudier la convergence d'une suite (suite auxiliaire, monotonie et bornes)."
+      ],
+      "prerequis": ["Fonctions et limites.", "Pourcentages d'évolution."],
+      "a_retenir": {
+        "points": [
+          "Arithmétique : uₙ₊₁ = uₙ + r ; géométrique : uₙ₊₁ = q × uₙ.",
+          "Une suite géométrique de raison q avec |q| < 1 tend vers 0 ; avec q > 1 (et u₀ > 0), elle tend vers +∞.",
+          "Une augmentation de t % correspond à une multiplication par (1 + t/100).",
+          "Récurrence : initialisation (vrai au rang 0), hérédité (si vrai au rang n, alors vrai au rang n + 1), conclusion.",
+          "Toute suite croissante et majorée converge ; toute suite décroissante et minorée converge."
+        ],
+        "formules": [
+          "uₙ = u₀ + n·r   ;   u₀ + … + uₙ = (n + 1)(u₀ + uₙ)/2",
+          "uₙ = u₀ × qⁿ   ;   u₀ + … + uₙ = u₀ (1 − qⁿ⁺¹)/(1 − q)   (q ≠ 1)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Compter n termes au lieu de n + 1 de u₀ à uₙ.", "correction": "De u₀ à uₙ, il y a n + 1 termes." },
+        { "erreur": "Rédiger l'hérédité en supposant ce qu'on veut démontrer au rang n + 1.", "correction": "On suppose P(n) vraie et on DÉMONTRE P(n + 1)." },
+        { "erreur": "Conclure qu'une suite croissante tend vers +∞.", "correction": "Si elle est majorée, elle converge (par exemple vers 4)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "(uₙ) est arithmétique de premier terme u₀ = 5 et de raison 3. Calcule u₁₀ et S = u₀ + u₁ + … + u₁₀.",
+          "indice": "Il y a 11 termes de u₀ à u₁₀.",
+          "corrige": ["u₁₀ = 5 + 10 × 3 = 35.", "S = 11 × (5 + 35)/2 = 220."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une ville compte 10 000 habitants et sa population augmente de 2 % par an. On note uₙ la population après n années. Exprime uₙ en fonction de n et estime la population après 10 ans.",
+          "indice": "Augmenter de 2 %, c'est multiplier par 1,02.",
+          "corrige": [
+            "(uₙ) est géométrique de raison 1,02 : uₙ = 10 000 × 1,02ⁿ.",
+            "u₁₀ = 10 000 × 1,02¹⁰ ≈ 12 190 habitants."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "u₀ = 1 et uₙ₊₁ = ½uₙ + 2. 1) Démontre par récurrence que uₙ < 4 pour tout n. 2) Montre que (uₙ) est croissante. 3) On pose vₙ = uₙ − 4. Montre que (vₙ) est géométrique, puis exprime uₙ en fonction de n et calcule sa limite.",
+          "indice": "uₙ₊₁ − uₙ = ½(4 − uₙ).",
+          "corrige": [
+            "1) Initialisation : u₀ = 1 < 4. Hérédité : si uₙ < 4, alors ½uₙ < 2 et uₙ₊₁ = ½uₙ + 2 < 4. Conclusion : uₙ < 4 pour tout n.",
+            "2) uₙ₊₁ − uₙ = −½uₙ + 2 = ½(4 − uₙ) > 0 car uₙ < 4 : la suite est croissante.",
+            "3) vₙ₊₁ = uₙ₊₁ − 4 = ½uₙ − 2 = ½(uₙ − 4) = ½vₙ : (vₙ) est géométrique de raison ½, avec v₀ = −3.",
+            "vₙ = −3 × (½)ⁿ, donc uₙ = 4 − 3 × (½)ⁿ. Comme (½)ⁿ → 0, uₙ → 4."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice sur les suites",
+        "etapes": [
+          "Pour « montrer que (vₙ) est géométrique », calcule vₙ₊₁ en fonction de vₙ.",
+          "Rédige la récurrence en trois étapes bien séparées.",
+          "Exprime uₙ en fonction de n avant de chercher la limite."
+        ]
+      }
+    },
+    "probabilites": {
+      "objectifs": [
+        "Dénombrer (listes, arrangements, combinaisons) et calculer une probabilité en situation d'équiprobabilité.",
+        "Utiliser les probabilités conditionnelles et la formule des probabilités totales (arbre).",
+        "Définir une variable aléatoire, sa loi, son espérance.",
+        "Reconnaître et utiliser la loi binomiale."
+      ],
+      "prerequis": ["Fractions et pourcentages.", "Formule du binôme et coefficients C(n, k)."],
+      "a_retenir": {
+        "points": [
+          "Équiprobabilité : P(A) = nombre de cas favorables / nombre de cas possibles.",
+          "Tirage simultané → combinaisons ; tirages successifs avec remise → nᵖ ; sans remise → arrangements.",
+          "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) ; P(Ā) = 1 − P(A).",
+          "Probabilité conditionnelle : P_B(A) = P(A ∩ B) / P(B) ; sur un arbre, on multiplie le long d'une branche.",
+          "Loi binomiale B(n, p) : n épreuves de Bernoulli identiques et indépendantes, X compte les succès."
+        ],
+        "formules": [
+          "C(n, k) = n! / (k! (n − k)!)",
+          "P(B) = P(A)·P_A(B) + P(Ā)·P_Ā(B)   (probabilités totales)",
+          "P(X = k) = C(n, k) pᵏ (1 − p)ⁿ⁻ᵏ   ;   E(X) = np   ;   V(X) = np(1 − p)",
+          "E(X) = Σ xᵢ P(X = xᵢ)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre P(A ∩ B) et P_B(A).", "correction": "P_B(A) = P(A ∩ B)/P(B) : on se restreint aux cas où B est réalisé." },
+        { "erreur": "Utiliser la loi binomiale pour des tirages sans remise.", "correction": "Il faut des épreuves indépendantes (tirages avec remise, répétitions identiques)." },
+        { "erreur": "Calculer P(X ≥ 1) en additionnant beaucoup de termes.", "correction": "Passe par l'événement contraire : P(X ≥ 1) = 1 − P(X = 0)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Une urne contient 5 boules rouges et 3 boules vertes. On tire simultanément 2 boules. Calcule la probabilité d'obtenir 2 boules rouges, puis une boule de chaque couleur.",
+          "indice": "Nombre de tirages possibles : C(8, 2).",
+          "corrige": [
+            "C(8, 2) = 28 tirages équiprobables.",
+            "P(2 rouges) = C(5, 2)/28 = 10/28 = 5/14.",
+            "P(une de chaque) = (5 × 3)/28 = 15/28."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Dans un lycée, 60 % des élèves sont des filles. 30 % des filles et 20 % des garçons portent des lunettes. 1) Construis un arbre. 2) Calcule la probabilité qu'un élève pris au hasard porte des lunettes. 3) Un élève porte des lunettes : quelle est la probabilité que ce soit une fille ?",
+          "indice": "Formule des probabilités totales, puis P_L(F) = P(F ∩ L)/P(L).",
+          "corrige": [
+            "2) P(L) = 0,6 × 0,3 + 0,4 × 0,2 = 0,18 + 0,08 = 0,26.",
+            "3) P_L(F) = 0,18 / 0,26 = 9/13 ≈ 0,69."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un QCM comporte 5 questions indépendantes, chacune avec 4 réponses dont une seule juste. Un élève répond au hasard. X est le nombre de bonnes réponses. 1) Justifie que X suit une loi binomiale et précise ses paramètres. 2) Calcule P(X = 0), P(X ≥ 1) et P(X = 2) (à 10⁻³ près). 3) Calcule E(X) et interprète.",
+          "indice": "Succès : « répondre juste », de probabilité 1/4.",
+          "corrige": [
+            "1) 5 épreuves identiques et indépendantes, chacune à deux issues (juste avec p = 1/4) : X suit B(5 ; 1/4).",
+            "2) P(X = 0) = (3/4)⁵ = 243/1024 ≈ 0,237 ; P(X ≥ 1) = 1 − 0,237 ≈ 0,763.",
+            "P(X = 2) = C(5, 2) × (1/4)² × (3/4)³ = 10 × 1/16 × 27/64 = 270/1024 ≈ 0,264.",
+            "3) E(X) = 5 × 1/4 = 1,25 : en moyenne, répondre au hasard donne environ 1,25 bonne réponse sur 5."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de probabilités",
+        "etapes": [
+          "Définis les événements par des lettres et traduis l'énoncé (P(A) = …, P_A(B) = …).",
+          "Fais un arbre pondéré dès qu'il y a des conditions.",
+          "Pour une loi binomiale, justifie les trois conditions avant de calculer.",
+          "Donne les résultats sous forme de fraction puis d'arrondi."
+        ]
+      }
+    },
+    "statistique-deux-variables": {
+      "objectifs": [
+        "Représenter un nuage de points et calculer le point moyen.",
+        "Calculer variance, covariance et coefficient de corrélation linéaire.",
+        "Déterminer la droite d'ajustement (moindres carrés).",
+        "Faire une estimation et la critiquer."
+      ],
+      "prerequis": ["Moyenne et variance d'une série simple.", "Équation de droite."],
+      "a_retenir": {
+        "points": [
+          "Le point moyen G(x̄ ; ȳ) appartient toujours à la droite de régression.",
+          "Le coefficient de corrélation r est compris entre −1 et 1 ; plus |r| est proche de 1, plus l'ajustement affine est justifié (on admet souvent qu'il est bon si |r| ≥ 0,87).",
+          "Droite de régression de y en x : y = ax + b avec a = cov(x, y)/V(x) et b = ȳ − a x̄.",
+          "Une estimation loin des données observées (extrapolation) est moins fiable."
+        ],
+        "formules": [
+          "V(x) = (1/n) Σ xᵢ² − x̄²",
+          "cov(x, y) = (1/n) Σ xᵢyᵢ − x̄ ȳ",
+          "r = cov(x, y) / (σₓ σᵧ)   avec σ = √V",
+          "a = cov(x, y) / V(x)   ;   b = ȳ − a x̄"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Diviser la covariance par V(y) pour trouver a.", "correction": "Pour la droite de y en x : a = cov(x, y)/V(x)." },
+        { "erreur": "Oublier de soustraire x̄ȳ dans la covariance.", "correction": "cov = moyenne des produits − produit des moyennes." },
+        { "erreur": "Arrondir trop tôt.", "correction": "Garde les valeurs exactes jusqu'au calcul final de r, a et b." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Production d'une coopérative (en tonnes) selon le rang de l'année x : x = 1, 2, 3, 4, 5 ; y = 3, 5, 6, 8, 10. Calcule les coordonnées du point moyen G.",
+          "indice": "x̄ = moyenne des x, ȳ = moyenne des y.",
+          "corrige": ["x̄ = 15/5 = 3 ; ȳ = 32/5 = 6,4. G(3 ; 6,4)."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Avec la même série, calcule V(x), cov(x, y), puis l'équation de la droite de régression de y en x.",
+          "indice": "Σ xᵢ² = 55 et Σ xᵢyᵢ = 113.",
+          "corrige": [
+            "V(x) = 55/5 − 3² = 11 − 9 = 2.",
+            "cov(x, y) = 113/5 − 3 × 6,4 = 22,6 − 19,2 = 3,4.",
+            "a = 3,4 / 2 = 1,7 ; b = 6,4 − 1,7 × 3 = 1,3. Droite : y = 1,7x + 1,3."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Toujours avec cette série : 1) Calcule V(y) et le coefficient de corrélation r (au millième). L'ajustement affine est-il justifié ? 2) Estime la production la 7ᵉ année.",
+          "indice": "Σ yᵢ² = 234.",
+          "corrige": [
+            "1) V(y) = 234/5 − 6,4² = 46,8 − 40,96 = 5,84.",
+            "r = 3,4 / √(2 × 5,84) = 3,4 / √11,68 ≈ 0,995 : très proche de 1, l'ajustement affine est justifié.",
+            "2) Pour x = 7 : y = 1,7 × 7 + 1,3 = 13,2 tonnes (estimation, sous réserve que la tendance se maintienne)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : statistique à deux variables",
+        "etapes": [
+          "Fais un tableau avec les colonnes x, y, x², y², xy et leurs sommes.",
+          "Calcule dans l'ordre : moyennes, variances, covariance, r, puis a et b.",
+          "Conclus sur la pertinence (r) et sur la fiabilité de l'estimation."
+        ]
+      }
+    },
+    "arithmetique": {
+      "objectifs": [
+        "Effectuer une division euclidienne et utiliser les congruences.",
+        "Calculer un PGCD avec l'algorithme d'Euclide.",
+        "Utiliser les théorèmes de Bézout et de Gauss.",
+        "Résoudre une équation ax + by = c dans ℤ² ; changer de base de numération."
+      ],
+      "prerequis": ["Multiples, diviseurs, nombres premiers."],
+      "a_retenir": {
+        "points": [
+          "Division euclidienne : a = bq + r avec 0 ≤ r < b.",
+          "a ≡ b (mod n) signifie que n divise a − b ; les congruences se conservent par addition, multiplication et puissance.",
+          "Algorithme d'Euclide : PGCD(a, b) = PGCD(b, r) ; le dernier reste non nul est le PGCD.",
+          "Bézout : a et b sont premiers entre eux ⟺ il existe u, v entiers tels que au + bv = 1.",
+          "Gauss : si a divise bc et si a est premier avec b, alors a divise c."
+        ],
+        "formules": ["PGCD(a, b) × PPCM(a, b) = a × b (a, b > 0)", "aᵏ ≡ bᵏ (mod n) si a ≡ b (mod n)", "1011₂ = 1×2³ + 0×2² + 1×2 + 1 = 11"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Donner un reste négatif ou supérieur au diviseur.", "correction": "Le reste vérifie 0 ≤ r < b." },
+        { "erreur": "Appliquer Gauss sans vérifier que les nombres sont premiers entre eux.", "correction": "Cite explicitement « PGCD(a, b) = 1 »." },
+        { "erreur": "Donner une seule solution d'une équation diophantienne.", "correction": "La solution générale dépend d'un entier k : x = x₀ + bk, y = y₀ + ak." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule PGCD(252 ; 198) par l'algorithme d'Euclide, puis PPCM(252 ; 198).",
+          "indice": "Divise successivement le diviseur par le reste.",
+          "corrige": [
+            "252 = 198 × 1 + 54 ; 198 = 54 × 3 + 36 ; 54 = 36 × 1 + 18 ; 36 = 18 × 2 + 0.",
+            "PGCD = 18 (dernier reste non nul).",
+            "PPCM = 252 × 198 / 18 = 2 772."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Détermine le reste de la division de 2²⁰²⁶ par 7.",
+          "indice": "Commence par calculer 2³ modulo 7.",
+          "corrige": [
+            "2³ = 8 ≡ 1 (mod 7).",
+            "2026 = 3 × 675 + 1, donc 2²⁰²⁶ = (2³)⁶⁷⁵ × 2 ≡ 1 × 2 = 2 (mod 7).",
+            "Le reste est 2."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Vérifie que (2 ; 3) est solution de 5x − 3y = 1. 2) Résous dans ℤ² l'équation 5x − 3y = 1. 3) Écris 11 en base 2.",
+          "indice": "Soustrais 5 × 2 − 3 × 3 = 1 à l'équation et utilise le théorème de Gauss.",
+          "corrige": [
+            "1) 5 × 2 − 3 × 3 = 10 − 9 = 1.",
+            "2) Par différence : 5(x − 2) = 3(y − 3). 3 divise 5(x − 2) et PGCD(3, 5) = 1, donc d'après Gauss 3 divise x − 2 : x = 2 + 3k.",
+            "Alors 5 × 3k = 3(y − 3), donc y = 3 + 5k. Solutions : (2 + 3k ; 3 + 5k), k ∈ ℤ (et réciproquement, ces couples conviennent).",
+            "3) 11 = 8 + 2 + 1 = 1011₂."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'arithmétique",
+        "etapes": [
+          "Pose chaque division euclidienne en entier (a = bq + r).",
+          "Pour les puissances, cherche une puissance congrue à 1.",
+          "Équation diophantienne : solution particulière, différence, Gauss, réciproque."
+        ]
+      }
+    },
+    "barycentre": {
+      "objectifs": [
+        "Construire le barycentre de points pondérés.",
+        "Calculer ses coordonnées.",
+        "Utiliser l'associativité du barycentre.",
+        "Déterminer des lignes de niveau."
+      ],
+      "prerequis": ["Calcul vectoriel et relation de Chasles.", "Coordonnées dans un repère."],
+      "a_retenir": {
+        "points": [
+          "G barycentre de (A, a) et (B, b) avec a + b ≠ 0 : a·GA→ + b·GB→ = 0→.",
+          "G est sur la droite (AB) ; si a et b sont de même signe, G est sur le segment [AB].",
+          "Les coordonnées de G sont les moyennes des coordonnées pondérées par les coefficients.",
+          "Associativité : on peut remplacer des points par leur barycentre partiel affecté de la somme de leurs coefficients.",
+          "MA² + MB² = 2MI² + AB²/2 (I milieu de [AB]) : utile pour les lignes de niveau."
+        ],
+        "formules": [
+          "AG→ = (b/(a + b)) AB→",
+          "x_G = (a·x_A + b·x_B + c·x_C)/(a + b + c)",
+          "Pour tout M : a·MA→ + b·MB→ = (a + b)·MG→"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire AG→ = (a/(a + b)) AB→.", "correction": "Le coefficient de B intervient : AG→ = (b/(a + b)) AB→." },
+        { "erreur": "Oublier de diviser par la somme des coefficients.", "correction": "x_G = (Σ coefficient × x) / (Σ coefficients)." },
+        { "erreur": "Chercher un barycentre quand la somme des coefficients est nulle.", "correction": "Si a + b = 0, le barycentre n'existe pas." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "G est le barycentre de (A, 1) et (B, 3). Exprime AG→ en fonction de AB→ et place G.",
+          "indice": "AG→ = (b/(a + b)) AB→.",
+          "corrige": ["AG→ = (3/4) AB→ : G est sur [AB], aux trois quarts en partant de A."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "A(1 ; 2), B(5 ; −2), C(0 ; 3). Calcule les coordonnées du barycentre G de (A, 1), (B, 1), (C, 2).",
+          "indice": "La somme des coefficients vaut 4.",
+          "corrige": ["x_G = (1 + 5 + 0)/4 = 1,5 ; y_G = (2 − 2 + 6)/4 = 1,5. G(1,5 ; 1,5)."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "A et B sont deux points tels que AB = 6 cm ; I est le milieu de [AB]. 1) Démontre que pour tout point M, MA² + MB² = 2MI² + 18. 2) Détermine et construis l'ensemble des points M tels que MA² + MB² = 26.",
+          "indice": "Écris MA→ = MI→ + IA→ et MB→ = MI→ + IB→ avec IB→ = −IA→.",
+          "corrige": [
+            "1) MA² + MB² = (MI→ + IA→)² + (MI→ − IA→)² = 2MI² + 2IA² = 2MI² + 2 × 9 = 2MI² + 18.",
+            "2) MA² + MB² = 26 ⟺ 2MI² = 8 ⟺ MI = 2.",
+            "L'ensemble cherché est le cercle de centre I et de rayon 2 cm."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : barycentres et lignes de niveau",
+        "etapes": [
+          "Vérifie que la somme des coefficients n'est pas nulle.",
+          "Réduis les sommes vectorielles avec le barycentre (a·MA→ + b·MB→ = (a + b)·MG→).",
+          "Traduis la condition obtenue : distance fixe → cercle ; égalité de distances → médiatrice."
+        ]
+      }
+    },
+    "similitudes-transformations": {
+      "objectifs": [
+        "Écrire les transformations usuelles avec les nombres complexes.",
+        "Reconnaître une similitude directe z' = az + b et en déterminer les éléments (rapport, angle, centre).",
+        "Déterminer la similitude qui transforme deux points donnés.",
+        "Utiliser les propriétés de conservation (angles, rapports de longueurs)."
+      ],
+      "prerequis": ["Nombres complexes : module, argument, forme exponentielle."],
+      "a_retenir": {
+        "points": [
+          "Translation de vecteur d'affixe b : z' = z + b.",
+          "Homothétie de centre Ω (ω) et de rapport k : z' − ω = k(z − ω).",
+          "Rotation de centre Ω et d'angle θ : z' − ω = e^(iθ)(z − ω).",
+          "Similitude directe : z' = az + b (a ≠ 0) ; rapport |a|, angle arg a ; si a ≠ 1, centre ω = b/(1 − a).",
+          "Une similitude directe multiplie les longueurs par son rapport et conserve les angles orientés."
+        ],
+        "formules": ["z' = az + b", "rapport k = |a|   ;   angle θ = arg(a)", "centre ω = b/(1 − a)", "a = (z_B' − z_A')/(z_B − z_A)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Prendre b comme centre de la similitude.", "correction": "Le centre est le point fixe : ω = aω + b, d'où ω = b/(1 − a)." },
+        { "erreur": "Confondre rapport et angle.", "correction": "Rapport = module de a ; angle = argument de a." },
+        { "erreur": "Oublier le cas a = 1.", "correction": "Si a = 1, c'est une translation (pas de centre)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Détermine la nature et les éléments de la transformation z' = iz + 2.",
+          "indice": "|i| = 1 et arg i = π/2.",
+          "corrige": [
+            "a = i : rapport 1, angle π/2 : c'est une rotation.",
+            "Centre : ω = 2/(1 − i) = 2(1 + i)/2 = 1 + i."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Détermine les éléments caractéristiques de la similitude directe z' = (1 + i)z − i.",
+          "indice": "1 + i = √2 e^(iπ/4).",
+          "corrige": [
+            "Rapport |1 + i| = √2 ; angle π/4.",
+            "Centre : ω = −i/(1 − (1 + i)) = −i/(−i) = 1."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "A, B, A', B' ont pour affixes 0, 1, 1 + i et 1 + 2i. 1) Détermine l'écriture complexe de la similitude directe s telle que s(A) = A' et s(B) = B'. 2) Précise sa nature et ses éléments caractéristiques.",
+          "indice": "a = (z_B' − z_A')/(z_B − z_A), puis b = z_A' − a·z_A.",
+          "corrige": [
+            "1) a = (1 + 2i − 1 − i)/(1 − 0) = i ; b = (1 + i) − i × 0 = 1 + i. s : z' = iz + 1 + i.",
+            "2) |a| = 1 et arg a = π/2 : s est la rotation d'angle π/2.",
+            "Centre : ω = (1 + i)/(1 − i) = (1 + i)²/2 = 2i/2 = i. (Vérification : i + i(0 − i) = 1 + i = z_A'.)"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les similitudes",
+        "etapes": [
+          "Écris z' = az + b et calcule a à partir de deux points et de leurs images.",
+          "Donne rapport (|a|), angle (arg a) et centre (b/(1 − a)).",
+          "Vérifie avec un point connu."
+        ]
+      }
+    },
+    "coniques": {
+      "objectifs": [
+        "Reconnaître une parabole, une ellipse ou une hyperbole à partir de son équation réduite.",
+        "Déterminer foyers, directrices, excentricité et sommets.",
+        "Réduire une équation par mise sous forme canonique.",
+        "Utiliser la définition par foyer et directrice."
+      ],
+      "prerequis": ["Forme canonique d'un trinôme.", "Distance d'un point à une droite."],
+      "a_retenir": {
+        "points": [
+          "Une conique est l'ensemble des points M tels que MF / MH = e, avec F foyer, H projeté de M sur la directrice et e l'excentricité.",
+          "e = 1 : parabole ; e < 1 : ellipse ; e > 1 : hyperbole.",
+          "Parabole y² = 2px : foyer F(p/2 ; 0), directrice x = −p/2.",
+          "Ellipse x²/a² + y²/b² = 1 (a > b > 0) : c² = a² − b², foyers (±c ; 0), e = c/a.",
+          "Hyperbole x²/a² − y²/b² = 1 : c² = a² + b², foyers (±c ; 0), e = c/a, asymptotes y = ±(b/a)x."
+        ],
+        "formules": ["Ellipse : c² = a² − b²", "Hyperbole : c² = a² + b²", "e = c/a", "Parabole y² = 2px : F(p/2 ; 0)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser c² = a² + b² pour une ellipse.", "correction": "Ellipse : c² = a² − b² ; hyperbole : c² = a² + b²." },
+        { "erreur": "Placer le foyer de y² = 8x en (8 ; 0).", "correction": "2p = 8 donc p = 4 et F(p/2 ; 0) = (2 ; 0)." },
+        { "erreur": "Oublier le changement de repère après une forme canonique.", "correction": "Le centre de (x − 1)²/25 + y²/9 = 1 est (1 ; 0) : décale les foyers." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la nature, les sommets, les foyers et l'excentricité de la conique x²/25 + y²/9 = 1.",
+          "indice": "a = 5, b = 3.",
+          "corrige": [
+            "Ellipse avec a = 5 et b = 3 : sommets (±5 ; 0) et (0 ; ±3).",
+            "c² = 25 − 9 = 16, c = 4 : foyers (±4 ; 0) ; e = 4/5 = 0,8."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Donne les foyers, l'excentricité et les asymptotes de l'hyperbole x²/16 − y²/9 = 1.",
+          "indice": "c² = a² + b².",
+          "corrige": [
+            "a = 4, b = 3 ; c² = 16 + 9 = 25, c = 5 : foyers (±5 ; 0) ; e = 5/4.",
+            "Asymptotes : y = (3/4)x et y = −(3/4)x."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Parabole y² = 8x : donne son foyer et sa directrice, vérifie que M(2 ; 4) lui appartient et que MF est égal à la distance de M à la directrice. 2) Réduis l'équation 9x² + 25y² − 18x − 216 = 0 et donne la nature et le centre de la conique.",
+          "indice": "9x² − 18x = 9[(x − 1)² − 1].",
+          "corrige": [
+            "1) 2p = 8, p = 4 : F(2 ; 0), directrice x = −2. 4² = 16 = 8 × 2 : M est sur la parabole.",
+            "MF = √((2 − 2)² + 4²) = 4 et la distance de M à la directrice vaut 2 − (−2) = 4 : égalité vérifiée (e = 1).",
+            "2) 9(x − 1)² − 9 + 25y² = 216, soit 9(x − 1)² + 25y² = 225, donc (x − 1)²/25 + y²/9 = 1.",
+            "C'est une ellipse de centre (1 ; 0), avec a = 5 et b = 3."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les coniques",
+        "etapes": [
+          "Mets l'équation sous forme réduite (forme canonique si besoin).",
+          "Identifie a, b, puis c avec la bonne relation selon la nature.",
+          "Donne tous les éléments demandés en tenant compte du centre."
+        ]
+      }
+    },
+    "geometrie-espace": {
+      "objectifs": [
+        "Utiliser le produit scalaire dans l'espace (orthogonalité, distances).",
+        "Déterminer une équation cartésienne de plan.",
+        "Calculer la distance d'un point à un plan.",
+        "Utiliser le produit vectoriel (vecteur normal, aire d'un triangle)."
+      ],
+      "prerequis": ["Vecteurs et coordonnées dans l'espace.", "Produit scalaire dans le plan."],
+      "a_retenir": {
+        "points": [
+          "Dans un repère orthonormé, u→·v→ = xx' + yy' + zz' ; u→ ⊥ v→ ⟺ u→·v→ = 0.",
+          "Un plan de vecteur normal n→(a ; b ; c) a une équation ax + by + cz + d = 0.",
+          "Distance de M(x₀ ; y₀ ; z₀) au plan P : |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²).",
+          "Le produit vectoriel AB→ ∧ AC→ est normal au plan (ABC) ; sa norme vaut le double de l'aire du triangle ABC.",
+          "Une droite est orthogonale à un plan si elle est orthogonale à deux droites sécantes de ce plan."
+        ],
+        "formules": [
+          "u→ ∧ v→ = (yz' − zy' ; zx' − xz' ; xy' − yx')",
+          "Aire(ABC) = ½ ‖AB→ ∧ AC→‖",
+          "d(M, P) = |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier la valeur absolue dans la distance point-plan.", "correction": "Une distance est positive : |…| au numérateur." },
+        { "erreur": "Se tromper de signe dans la 2ᵉ coordonnée du produit vectoriel.", "correction": "Utilise exactement zx' − xz' (permutation circulaire)." },
+        { "erreur": "Ne pas vérifier l'équation du plan avec les trois points.", "correction": "Remplace les coordonnées de chaque point : le résultat doit être 0." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Les vecteurs u→(1 ; 2 ; −1) et v→(3 ; −1 ; 1) sont-ils orthogonaux ?",
+          "indice": "Calcule le produit scalaire.",
+          "corrige": ["u→·v→ = 3 − 2 − 1 = 0 : les vecteurs sont orthogonaux."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Détermine une équation du plan P passant par A(1 ; 0 ; 2) et de vecteur normal n→(2 ; −1 ; 1), puis calcule la distance de l'origine O à P.",
+          "indice": "P : 2x − y + z + d = 0.",
+          "corrige": [
+            "A ∈ P : 2 − 0 + 2 + d = 0, donc d = −4. P : 2x − y + z − 4 = 0.",
+            "d(O, P) = |−4| / √(4 + 1 + 1) = 4/√6 = 2√6/3 ≈ 1,63."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "A(1 ; 0 ; 0), B(0 ; 2 ; 0), C(0 ; 0 ; 3). 1) Calcule AB→ ∧ AC→. 2) Déduis-en une équation du plan (ABC) et l'aire du triangle ABC. 3) Calcule la distance de O au plan (ABC), puis vérifie le volume du tétraèdre OABC de deux façons.",
+          "indice": "Volume = (1/3) × aire de la base × hauteur.",
+          "corrige": [
+            "1) AB→(−1 ; 2 ; 0), AC→(−1 ; 0 ; 3) : AB→ ∧ AC→ = (2×3 − 0×0 ; 0×(−1) − (−1)×3 ; (−1)×0 − 2×(−1)) = (6 ; 3 ; 2).",
+            "2) (ABC) : 6x + 3y + 2z + d = 0 ; A donne d = −6 : 6x + 3y + 2z − 6 = 0 (B et C vérifient). Aire = ½√(36 + 9 + 4) = 7/2.",
+            "3) d(O, (ABC)) = 6/√49 = 6/7.",
+            "Volume = (1/3) × (7/2) × (6/7) = 1 ; et aussi (1/3) × aire(OAB) × OC = (1/3) × 1 × 3 = 1."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la géométrie dans l'espace",
+        "etapes": [
+          "Calcule les vecteurs utiles et vérifie qu'ils ne sont pas colinéaires.",
+          "Vecteur normal (produit vectoriel ou orthogonalité), puis équation du plan, vérifiée avec chaque point.",
+          "Distances, aires et volumes : écris la formule avant de remplacer."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-lycee-mathematiques-d-suites-numeriques": "suites",
+    "mali-lycee-mathematiques-se-etude-des-suites-numeriques": "suites",
+    "senegal-lycee-mathematiques-l1-l2-suites-numeriques": "suites",
+    "senegal-lycee-mathematiques-s1-s3-suites-numeriques": "suites",
+    "benin-lycee-mathematiques-c-suites-numeriques": "suites",
+    "guinee-lycee-mathematiques-sm-suites-recurrence-convergence-": "suites",
+    "cote-ivoire-lycee-mathematiques-d-probabilite-conditionnelle": "probabilites",
+    "mali-lycee-mathematiques-se-notion-de-probabilite": "probabilites",
+    "senegal-lycee-mathematiques-l1-l2-probabilites-denombrement-": "probabilites",
+    "senegal-lycee-mathematiques-s1-s3-probabilites-variables-ale": "probabilites",
+    "senegal-lycee-mathematiques-s2-s4-probabilites-loi-binomiale": "probabilites",
+    "guinee-lycee-mathematiques-sm-probabilites-denombrement-form": "probabilites",
+    "benin-lycee-mathematiques-c-probabilites": "probabilites",
+    "cote-ivoire-lycee-mathematiques-d-statistique-a-deux-variabl": "statistique-deux-variables",
+    "senegal-lycee-mathematiques-l1-l2-statistique-ajustement-lin": "statistique-deux-variables",
+    "senegal-lycee-mathematiques-s2-s4-statistiques-a-deux-variab": "statistique-deux-variables",
+    "cote-ivoire-lycee-mathematiques-c-divisibilite-dans-z": "arithmetique",
+    "mali-lycee-mathematiques-se-arithmetique": "arithmetique",
+    "guinee-lycee-mathematiques-sm-arithmetique-numeration-decima": "arithmetique",
+    "benin-lycee-mathematiques-c-arithmetique-anneaux-division-eu": "arithmetique",
+    "senegal-lycee-mathematiques-s1-s3-arithmetique-pgcd-ppcm-con": "arithmetique",
+    "cote-ivoire-lycee-mathematiques-c-barycentre-et-lignes-de-ni": "barycentre",
+    "mali-lycee-mathematiques-se-calculs-barycentriques": "barycentre",
+    "cote-ivoire-lycee-mathematiques-d-geometrie-du-plan-nombres-": "similitudes-transformations",
+    "senegal-lycee-mathematiques-s2-s4-similitudes-planes-directe": "similitudes-transformations",
+    "senegal-lycee-mathematiques-s1-s3-geometrie-plane-barycentre": "similitudes-transformations",
+    "benin-lycee-mathematiques-c-geometrie-plane-barycentre-de-n-": "similitudes-transformations",
+    "guinee-lycee-mathematiques-sm-geometrie-angles-inscrits-orie": "similitudes-transformations",
+    "mali-lycee-mathematiques-se-etude-des-applications-affines-d": "similitudes-transformations",
+    "cote-ivoire-lycee-mathematiques-c-coniques": "coniques",
+    "mali-lycee-mathematiques-se-notions-sur-les-coniques": "coniques",
+    "senegal-lycee-mathematiques-s1-s3-courbes-planes-et-coniques": "coniques",
+    "cote-ivoire-lycee-mathematiques-d-orthogonalite-dans-l-espac": "geometrie-espace",
+    "cote-ivoire-lycee-mathematiques-c-geometrie-analytique-de-l-": "geometrie-espace",
+    "benin-lycee-mathematiques-c-calcul-vectoriel-de-l-espace-bar": "geometrie-espace",
+    "senegal-lycee-mathematiques-s1-s3-geometrie-dans-l-espace-pr": "geometrie-espace"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_topic": "complexes",
+  "objectifs": [
+    "Calculer avec les nombres complexes sous forme algébrique.",
+    "Passer de la forme algébrique à la forme trigonométrique et exponentielle.",
+    "Utiliser les formules de Moivre et d'Euler.",
+    "Résoudre une équation du second degré dans ℂ et interpréter géométriquement."
+  ],
+  "prerequis": [
+    "Trigonométrie : cosinus et sinus des angles remarquables.",
+    "Équations du second degré dans ℝ."
+  ],
+  "a_retenir": {
+    "points": [
+      "z = a + ib avec i² = −1 ; a = Re(z), b = Im(z) ; conjugué z̄ = a − ib.",
+      "Module |z| = √(a² + b²) ; un argument θ vérifie cos θ = a/|z| et sin θ = b/|z|.",
+      "Forme exponentielle : z = r·e^(iθ) avec r = |z| ; on multiplie les modules et on additionne les arguments.",
+      "Dans ℂ, az² + bz + c = 0 avec Δ < 0 a deux solutions conjuguées : z = (−b ± i√(−Δ)) / (2a).",
+      "|z_B − z_A| = AB et arg((z_C − z_A)/(z_B − z_A)) = (AB→, AC→) : les complexes traduisent distances et angles."
+    ],
+    "formules": [
+      "|z| = √(a² + b²)   ;   z·z̄ = |z|²",
+      "(cos θ + i sin θ)ⁿ = cos(nθ) + i sin(nθ)   (Moivre)",
+      "cos θ = (e^(iθ) + e^(−iθ))/2   ;   sin θ = (e^(iθ) − e^(−iθ))/(2i)   (Euler)",
+      "|zz'| = |z|·|z'|   ;   arg(zz') = arg z + arg z' (2π)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire |2 + 3i| = 2 + 3 = 5.",
+      "correction": "|2 + 3i| = √(4 + 9) = √13."
+    },
+    {
+      "erreur": "Prendre θ = arctan(b/a) sans regarder le signe de a.",
+      "correction": "Place le point dans le plan : pour −1 − i, l'argument est −3π/4, pas π/4."
+    },
+    {
+      "erreur": "Oublier que i² = −1 en développant.",
+      "correction": "3i × (−i) = −3i² = +3."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "z₁ = 2 + 3i et z₂ = 1 − i. Calcule z₁ + z₂, z₁ × z₂, le conjugué de z₁ et |z₂|.",
+      "indice": "Développe le produit et remplace i² par −1.",
+      "corrige": [
+        "z₁ + z₂ = 3 + 2i.",
+        "z₁ × z₂ = 2 − 2i + 3i − 3i² = 2 + i + 3 = 5 + i.",
+        "z̄₁ = 2 − 3i ; |z₂| = √(1 + 1) = √2."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Soit z = 1 + i√3. 1) Écris z sous forme exponentielle. 2) Déduis-en z⁶.",
+      "indice": "Calcule |z|, puis cherche θ tel que cos θ = 1/2 et sin θ = √3/2.",
+      "corrige": [
+        "1) |z| = √(1 + 3) = 2 ; cos θ = 1/2 et sin θ = √3/2, donc θ = π/3 : z = 2e^(iπ/3).",
+        "2) z⁶ = 2⁶ e^(i·6π/3) = 64 e^(2iπ) = 64."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Résous dans ℂ l'équation z² − 2z + 5 = 0. 2) On note A et B les points d'affixes z_A = 1 + 2i et z_B = 1 − 2i, et C le point d'affixe 3. Calcule (z_A − z_C)/(z_B − z_C) et déduis-en la nature du triangle ABC.",
+      "indice": "Un quotient de module 1 et d'argument ±π/2 traduit un triangle rectangle isocèle.",
+      "corrige": [
+        "1) Δ = 4 − 20 = −16 = (4i)² ; z = (2 ± 4i)/2, donc S = {1 + 2i ; 1 − 2i}.",
+        "2) (z_A − z_C)/(z_B − z_C) = (−2 + 2i)/(−2 − 2i). En multipliant par le conjugué du dénominateur : (−2 + 2i)(−2 + 2i)/8 = (4 − 8i − 4)/8 = −i.",
+        "|−i| = 1 donc CA = CB ; arg(−i) = −π/2 donc (CB→, CA→) = −π/2.",
+        "Le triangle ABC est rectangle isocèle en C."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'exercice de nombres complexes",
+    "etapes": [
+      "Pour un module et un argument, place d'abord le point dans le plan (signe de a et b).",
+      "Utilise la forme exponentielle pour les puissances et les produits.",
+      "En géométrie, traduis : |z_B − z_A| = AB, arg du quotient = angle orienté.",
+      "Conclus par une phrase sur la nature de la figure."
+    ]
+  }
+}

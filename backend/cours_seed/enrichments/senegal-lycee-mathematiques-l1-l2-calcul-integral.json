@@ -1,0 +1,79 @@
+{
+  "_topic": "calcul-integral",
+  "objectifs": [
+    "Calculer une intégrale à l'aide d'une primitive.",
+    "Utiliser la linéarité, la relation de Chasles et la positivité.",
+    "Calculer une aire en unités d'aire puis en cm².",
+    "Intégrer par parties."
+  ],
+  "prerequis": [
+    "Primitives usuelles.",
+    "Fonctions ln et exp."
+  ],
+  "a_retenir": {
+    "points": [
+      "Si F est une primitive de f sur [a ; b] : ∫ₐᵇ f(x) dx = F(b) − F(a).",
+      "Si f ≥ 0 sur [a ; b], ∫ₐᵇ f(x) dx est l'aire sous la courbe, en unités d'aire (u.a.).",
+      "1 u.a. = (unité sur l'axe des x) × (unité sur l'axe des y) : avec 2 cm sur chaque axe, 1 u.a. = 4 cm².",
+      "Valeur moyenne de f sur [a ; b] : (1/(b − a)) ∫ₐᵇ f(x) dx.",
+      "Intégration par parties : utile pour x eˣ, x cos x, ln x…"
+    ],
+    "formules": [
+      "∫ₐᵇ f(x) dx = [F(x)]ₐᵇ = F(b) − F(a)",
+      "∫ de a à c de f = ∫ de a à b de f + ∫ de b à c de f   (Chasles)",
+      "∫ₐᵇ u v' = [uv]ₐᵇ − ∫ₐᵇ u' v   (par parties)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Calculer F(a) − F(b).",
+      "correction": "C'est F(b) − F(a) : borne du haut moins borne du bas."
+    },
+    {
+      "erreur": "Donner une aire négative.",
+      "correction": "Si f ≤ 0, l'aire vaut −∫ₐᵇ f(x) dx."
+    },
+    {
+      "erreur": "Oublier de convertir les u.a. en cm².",
+      "correction": "Multiplie par l'aire d'une unité (produit des unités des deux axes)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule I = ∫₀² (3x² − 2x) dx.",
+      "indice": "Une primitive est x³ − x².",
+      "corrige": [
+        "I = [x³ − x²]₀² = (8 − 4) − 0 = 4."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Calcule ∫₁ᵉ (1/x) dx et ∫₀¹ eˣ dx, puis l'aire du domaine limité par la courbe de x ↦ x², l'axe des abscisses et les droites x = 0 et x = 3.",
+      "indice": "x² ≥ 0 sur [0 ; 3].",
+      "corrige": [
+        "∫₁ᵉ (1/x) dx = [ln x]₁ᵉ = 1 − 0 = 1.",
+        "∫₀¹ eˣ dx = [eˣ]₀¹ = e − 1.",
+        "Aire = ∫₀³ x² dx = [x³/3]₀³ = 9 u.a."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) À l'aide d'une intégration par parties, calcule I = ∫₀¹ x eˣ dx. 2) Le repère a pour unité 2 cm sur chaque axe : donne l'aire correspondante en cm². 3) Calcule J = ∫₁ᵉ ln x dx (indication : ln x = 1 × ln x).",
+      "indice": "Pour I, pose u = x et v' = eˣ ; pour J, u = ln x et v' = 1.",
+      "corrige": [
+        "1) u = x, u' = 1 ; v' = eˣ, v = eˣ. I = [x eˣ]₀¹ − ∫₀¹ eˣ dx = e − (e − 1) = 1.",
+        "2) 1 u.a. = 2 × 2 = 4 cm², donc l'aire vaut 4 cm².",
+        "3) u = ln x, u' = 1/x ; v' = 1, v = x. J = [x ln x]₁ᵉ − ∫₁ᵉ 1 dx = e − (e − 1) = 1."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le calcul intégral",
+    "etapes": [
+      "Cherche une primitive et écris-la entre crochets avec les bornes.",
+      "Pour l'intégration par parties, écris clairement u, u', v', v.",
+      "Pour une aire, vérifie le signe de la fonction et convertis en cm²."
+    ]
+  }
+}

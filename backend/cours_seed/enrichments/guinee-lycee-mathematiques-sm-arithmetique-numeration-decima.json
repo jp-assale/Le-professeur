@@ -1,0 +1,81 @@
+{
+  "_topic": "arithmetique",
+  "objectifs": [
+    "Effectuer une division euclidienne et utiliser les congruences.",
+    "Calculer un PGCD avec l'algorithme d'Euclide.",
+    "Utiliser les théorèmes de Bézout et de Gauss.",
+    "Résoudre une équation ax + by = c dans ℤ² ; changer de base de numération."
+  ],
+  "prerequis": [
+    "Multiples, diviseurs, nombres premiers."
+  ],
+  "a_retenir": {
+    "points": [
+      "Division euclidienne : a = bq + r avec 0 ≤ r < b.",
+      "a ≡ b (mod n) signifie que n divise a − b ; les congruences se conservent par addition, multiplication et puissance.",
+      "Algorithme d'Euclide : PGCD(a, b) = PGCD(b, r) ; le dernier reste non nul est le PGCD.",
+      "Bézout : a et b sont premiers entre eux ⟺ il existe u, v entiers tels que au + bv = 1.",
+      "Gauss : si a divise bc et si a est premier avec b, alors a divise c."
+    ],
+    "formules": [
+      "PGCD(a, b) × PPCM(a, b) = a × b (a, b > 0)",
+      "aᵏ ≡ bᵏ (mod n) si a ≡ b (mod n)",
+      "1011₂ = 1×2³ + 0×2² + 1×2 + 1 = 11"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Donner un reste négatif ou supérieur au diviseur.",
+      "correction": "Le reste vérifie 0 ≤ r < b."
+    },
+    {
+      "erreur": "Appliquer Gauss sans vérifier que les nombres sont premiers entre eux.",
+      "correction": "Cite explicitement « PGCD(a, b) = 1 »."
+    },
+    {
+      "erreur": "Donner une seule solution d'une équation diophantienne.",
+      "correction": "La solution générale dépend d'un entier k : x = x₀ + bk, y = y₀ + ak."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule PGCD(252 ; 198) par l'algorithme d'Euclide, puis PPCM(252 ; 198).",
+      "indice": "Divise successivement le diviseur par le reste.",
+      "corrige": [
+        "252 = 198 × 1 + 54 ; 198 = 54 × 3 + 36 ; 54 = 36 × 1 + 18 ; 36 = 18 × 2 + 0.",
+        "PGCD = 18 (dernier reste non nul).",
+        "PPCM = 252 × 198 / 18 = 2 772."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Détermine le reste de la division de 2²⁰²⁶ par 7.",
+      "indice": "Commence par calculer 2³ modulo 7.",
+      "corrige": [
+        "2³ = 8 ≡ 1 (mod 7).",
+        "2026 = 3 × 675 + 1, donc 2²⁰²⁶ = (2³)⁶⁷⁵ × 2 ≡ 1 × 2 = 2 (mod 7).",
+        "Le reste est 2."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Vérifie que (2 ; 3) est solution de 5x − 3y = 1. 2) Résous dans ℤ² l'équation 5x − 3y = 1. 3) Écris 11 en base 2.",
+      "indice": "Soustrais 5 × 2 − 3 × 3 = 1 à l'équation et utilise le théorème de Gauss.",
+      "corrige": [
+        "1) 5 × 2 − 3 × 3 = 10 − 9 = 1.",
+        "2) Par différence : 5(x − 2) = 3(y − 3). 3 divise 5(x − 2) et PGCD(3, 5) = 1, donc d'après Gauss 3 divise x − 2 : x = 2 + 3k.",
+        "Alors 5 × 3k = 3(y − 3), donc y = 3 + 5k. Solutions : (2 + 3k ; 3 + 5k), k ∈ ℤ (et réciproquement, ces couples conviennent).",
+        "3) 11 = 8 + 2 + 1 = 1011₂."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'arithmétique",
+    "etapes": [
+      "Pose chaque division euclidienne en entier (a = bq + r).",
+      "Pour les puissances, cherche une puissance congrue à 1.",
+      "Équation diophantienne : solution particulière, différence, Gauss, réciproque."
+    ]
+  }
+}

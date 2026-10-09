@@ -1,0 +1,83 @@
+{
+  "_topic": "probabilites",
+  "objectifs": [
+    "Dénombrer (listes, arrangements, combinaisons) et calculer une probabilité en situation d'équiprobabilité.",
+    "Utiliser les probabilités conditionnelles et la formule des probabilités totales (arbre).",
+    "Définir une variable aléatoire, sa loi, son espérance.",
+    "Reconnaître et utiliser la loi binomiale."
+  ],
+  "prerequis": [
+    "Fractions et pourcentages.",
+    "Formule du binôme et coefficients C(n, k)."
+  ],
+  "a_retenir": {
+    "points": [
+      "Équiprobabilité : P(A) = nombre de cas favorables / nombre de cas possibles.",
+      "Tirage simultané → combinaisons ; tirages successifs avec remise → nᵖ ; sans remise → arrangements.",
+      "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) ; P(Ā) = 1 − P(A).",
+      "Probabilité conditionnelle : P_B(A) = P(A ∩ B) / P(B) ; sur un arbre, on multiplie le long d'une branche.",
+      "Loi binomiale B(n, p) : n épreuves de Bernoulli identiques et indépendantes, X compte les succès."
+    ],
+    "formules": [
+      "C(n, k) = n! / (k! (n − k)!)",
+      "P(B) = P(A)·P_A(B) + P(Ā)·P_Ā(B)   (probabilités totales)",
+      "P(X = k) = C(n, k) pᵏ (1 − p)ⁿ⁻ᵏ   ;   E(X) = np   ;   V(X) = np(1 − p)",
+      "E(X) = Σ xᵢ P(X = xᵢ)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre P(A ∩ B) et P_B(A).",
+      "correction": "P_B(A) = P(A ∩ B)/P(B) : on se restreint aux cas où B est réalisé."
+    },
+    {
+      "erreur": "Utiliser la loi binomiale pour des tirages sans remise.",
+      "correction": "Il faut des épreuves indépendantes (tirages avec remise, répétitions identiques)."
+    },
+    {
+      "erreur": "Calculer P(X ≥ 1) en additionnant beaucoup de termes.",
+      "correction": "Passe par l'événement contraire : P(X ≥ 1) = 1 − P(X = 0)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une urne contient 5 boules rouges et 3 boules vertes. On tire simultanément 2 boules. Calcule la probabilité d'obtenir 2 boules rouges, puis une boule de chaque couleur.",
+      "indice": "Nombre de tirages possibles : C(8, 2).",
+      "corrige": [
+        "C(8, 2) = 28 tirages équiprobables.",
+        "P(2 rouges) = C(5, 2)/28 = 10/28 = 5/14.",
+        "P(une de chaque) = (5 × 3)/28 = 15/28."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dans un lycée, 60 % des élèves sont des filles. 30 % des filles et 20 % des garçons portent des lunettes. 1) Construis un arbre. 2) Calcule la probabilité qu'un élève pris au hasard porte des lunettes. 3) Un élève porte des lunettes : quelle est la probabilité que ce soit une fille ?",
+      "indice": "Formule des probabilités totales, puis P_L(F) = P(F ∩ L)/P(L).",
+      "corrige": [
+        "2) P(L) = 0,6 × 0,3 + 0,4 × 0,2 = 0,18 + 0,08 = 0,26.",
+        "3) P_L(F) = 0,18 / 0,26 = 9/13 ≈ 0,69."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un QCM comporte 5 questions indépendantes, chacune avec 4 réponses dont une seule juste. Un élève répond au hasard. X est le nombre de bonnes réponses. 1) Justifie que X suit une loi binomiale et précise ses paramètres. 2) Calcule P(X = 0), P(X ≥ 1) et P(X = 2) (à 10⁻³ près). 3) Calcule E(X) et interprète.",
+      "indice": "Succès : « répondre juste », de probabilité 1/4.",
+      "corrige": [
+        "1) 5 épreuves identiques et indépendantes, chacune à deux issues (juste avec p = 1/4) : X suit B(5 ; 1/4).",
+        "2) P(X = 0) = (3/4)⁵ = 243/1024 ≈ 0,237 ; P(X ≥ 1) = 1 − 0,237 ≈ 0,763.",
+        "P(X = 2) = C(5, 2) × (1/4)² × (3/4)³ = 10 × 1/16 × 27/64 = 270/1024 ≈ 0,264.",
+        "3) E(X) = 5 × 1/4 = 1,25 : en moyenne, répondre au hasard donne environ 1,25 bonne réponse sur 5."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'exercice de probabilités",
+    "etapes": [
+      "Définis les événements par des lettres et traduis l'énoncé (P(A) = …, P_A(B) = …).",
+      "Fais un arbre pondéré dès qu'il y a des conditions.",
+      "Pour une loi binomiale, justifie les trois conditions avant de calculer.",
+      "Donne les résultats sous forme de fraction puis d'arrondi."
+    ]
+  }
+}

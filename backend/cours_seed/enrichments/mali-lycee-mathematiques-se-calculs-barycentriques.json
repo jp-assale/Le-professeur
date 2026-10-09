@@ -1,0 +1,77 @@
+{
+  "_topic": "barycentre",
+  "objectifs": [
+    "Construire le barycentre de points pondérés.",
+    "Calculer ses coordonnées.",
+    "Utiliser l'associativité du barycentre.",
+    "Déterminer des lignes de niveau."
+  ],
+  "prerequis": [
+    "Calcul vectoriel et relation de Chasles.",
+    "Coordonnées dans un repère."
+  ],
+  "a_retenir": {
+    "points": [
+      "G barycentre de (A, a) et (B, b) avec a + b ≠ 0 : a·GA→ + b·GB→ = 0→.",
+      "G est sur la droite (AB) ; si a et b sont de même signe, G est sur le segment [AB].",
+      "Les coordonnées de G sont les moyennes des coordonnées pondérées par les coefficients.",
+      "Associativité : on peut remplacer des points par leur barycentre partiel affecté de la somme de leurs coefficients.",
+      "MA² + MB² = 2MI² + AB²/2 (I milieu de [AB]) : utile pour les lignes de niveau."
+    ],
+    "formules": [
+      "AG→ = (b/(a + b)) AB→",
+      "x_G = (a·x_A + b·x_B + c·x_C)/(a + b + c)",
+      "Pour tout M : a·MA→ + b·MB→ = (a + b)·MG→"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire AG→ = (a/(a + b)) AB→.",
+      "correction": "Le coefficient de B intervient : AG→ = (b/(a + b)) AB→."
+    },
+    {
+      "erreur": "Oublier de diviser par la somme des coefficients.",
+      "correction": "x_G = (Σ coefficient × x) / (Σ coefficients)."
+    },
+    {
+      "erreur": "Chercher un barycentre quand la somme des coefficients est nulle.",
+      "correction": "Si a + b = 0, le barycentre n'existe pas."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "G est le barycentre de (A, 1) et (B, 3). Exprime AG→ en fonction de AB→ et place G.",
+      "indice": "AG→ = (b/(a + b)) AB→.",
+      "corrige": [
+        "AG→ = (3/4) AB→ : G est sur [AB], aux trois quarts en partant de A."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "A(1 ; 2), B(5 ; −2), C(0 ; 3). Calcule les coordonnées du barycentre G de (A, 1), (B, 1), (C, 2).",
+      "indice": "La somme des coefficients vaut 4.",
+      "corrige": [
+        "x_G = (1 + 5 + 0)/4 = 1,5 ; y_G = (2 − 2 + 6)/4 = 1,5. G(1,5 ; 1,5)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "A et B sont deux points tels que AB = 6 cm ; I est le milieu de [AB]. 1) Démontre que pour tout point M, MA² + MB² = 2MI² + 18. 2) Détermine et construis l'ensemble des points M tels que MA² + MB² = 26.",
+      "indice": "Écris MA→ = MI→ + IA→ et MB→ = MI→ + IB→ avec IB→ = −IA→.",
+      "corrige": [
+        "1) MA² + MB² = (MI→ + IA→)² + (MI→ − IA→)² = 2MI² + 2IA² = 2MI² + 2 × 9 = 2MI² + 18.",
+        "2) MA² + MB² = 26 ⟺ 2MI² = 8 ⟺ MI = 2.",
+        "L'ensemble cherché est le cercle de centre I et de rayon 2 cm."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : barycentres et lignes de niveau",
+    "etapes": [
+      "Vérifie que la somme des coefficients n'est pas nulle.",
+      "Réduis les sommes vectorielles avec le barycentre (a·MA→ + b·MB→ = (a + b)·MG→).",
+      "Traduis la condition obtenue : distance fixe → cercle ; égalité de distances → médiatrice."
+    ]
+  }
+}

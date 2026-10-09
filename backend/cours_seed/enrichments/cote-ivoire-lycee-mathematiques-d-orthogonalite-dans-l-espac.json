@@ -1,0 +1,79 @@
+{
+  "_topic": "geometrie-espace",
+  "objectifs": [
+    "Utiliser le produit scalaire dans l'espace (orthogonalité, distances).",
+    "Déterminer une équation cartésienne de plan.",
+    "Calculer la distance d'un point à un plan.",
+    "Utiliser le produit vectoriel (vecteur normal, aire d'un triangle)."
+  ],
+  "prerequis": [
+    "Vecteurs et coordonnées dans l'espace.",
+    "Produit scalaire dans le plan."
+  ],
+  "a_retenir": {
+    "points": [
+      "Dans un repère orthonormé, u→·v→ = xx' + yy' + zz' ; u→ ⊥ v→ ⟺ u→·v→ = 0.",
+      "Un plan de vecteur normal n→(a ; b ; c) a une équation ax + by + cz + d = 0.",
+      "Distance de M(x₀ ; y₀ ; z₀) au plan P : |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²).",
+      "Le produit vectoriel AB→ ∧ AC→ est normal au plan (ABC) ; sa norme vaut le double de l'aire du triangle ABC.",
+      "Une droite est orthogonale à un plan si elle est orthogonale à deux droites sécantes de ce plan."
+    ],
+    "formules": [
+      "u→ ∧ v→ = (yz' − zy' ; zx' − xz' ; xy' − yx')",
+      "Aire(ABC) = ½ ‖AB→ ∧ AC→‖",
+      "d(M, P) = |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier la valeur absolue dans la distance point-plan.",
+      "correction": "Une distance est positive : |…| au numérateur."
+    },
+    {
+      "erreur": "Se tromper de signe dans la 2ᵉ coordonnée du produit vectoriel.",
+      "correction": "Utilise exactement zx' − xz' (permutation circulaire)."
+    },
+    {
+      "erreur": "Ne pas vérifier l'équation du plan avec les trois points.",
+      "correction": "Remplace les coordonnées de chaque point : le résultat doit être 0."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Les vecteurs u→(1 ; 2 ; −1) et v→(3 ; −1 ; 1) sont-ils orthogonaux ?",
+      "indice": "Calcule le produit scalaire.",
+      "corrige": [
+        "u→·v→ = 3 − 2 − 1 = 0 : les vecteurs sont orthogonaux."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Détermine une équation du plan P passant par A(1 ; 0 ; 2) et de vecteur normal n→(2 ; −1 ; 1), puis calcule la distance de l'origine O à P.",
+      "indice": "P : 2x − y + z + d = 0.",
+      "corrige": [
+        "A ∈ P : 2 − 0 + 2 + d = 0, donc d = −4. P : 2x − y + z − 4 = 0.",
+        "d(O, P) = |−4| / √(4 + 1 + 1) = 4/√6 = 2√6/3 ≈ 1,63."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "A(1 ; 0 ; 0), B(0 ; 2 ; 0), C(0 ; 0 ; 3). 1) Calcule AB→ ∧ AC→. 2) Déduis-en une équation du plan (ABC) et l'aire du triangle ABC. 3) Calcule la distance de O au plan (ABC), puis vérifie le volume du tétraèdre OABC de deux façons.",
+      "indice": "Volume = (1/3) × aire de la base × hauteur.",
+      "corrige": [
+        "1) AB→(−1 ; 2 ; 0), AC→(−1 ; 0 ; 3) : AB→ ∧ AC→ = (2×3 − 0×0 ; 0×(−1) − (−1)×3 ; (−1)×0 − 2×(−1)) = (6 ; 3 ; 2).",
+        "2) (ABC) : 6x + 3y + 2z + d = 0 ; A donne d = −6 : 6x + 3y + 2z − 6 = 0 (B et C vérifient). Aire = ½√(36 + 9 + 4) = 7/2.",
+        "3) d(O, (ABC)) = 6/√49 = 6/7.",
+        "Volume = (1/3) × (7/2) × (6/7) = 1 ; et aussi (1/3) × aire(OAB) × OC = (1/3) × 1 × 3 = 1."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la géométrie dans l'espace",
+    "etapes": [
+      "Calcule les vecteurs utiles et vérifie qu'ils ne sont pas colinéaires.",
+      "Vecteur normal (produit vectoriel ou orthogonalité), puis équation du plan, vérifiée avec chaque point.",
+      "Distances, aires et volumes : écris la formule avant de remplacer."
+    ]
+  }
+}

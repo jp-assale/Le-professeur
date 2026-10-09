@@ -1,0 +1,79 @@
+{
+  "_topic": "suites",
+  "objectifs": [
+    "Reconnaître et utiliser les suites arithmétiques et géométriques.",
+    "Calculer une somme de termes consécutifs.",
+    "Démontrer une propriété par récurrence.",
+    "Étudier la convergence d'une suite (suite auxiliaire, monotonie et bornes)."
+  ],
+  "prerequis": [
+    "Fonctions et limites.",
+    "Pourcentages d'évolution."
+  ],
+  "a_retenir": {
+    "points": [
+      "Arithmétique : uₙ₊₁ = uₙ + r ; géométrique : uₙ₊₁ = q × uₙ.",
+      "Une suite géométrique de raison q avec |q| < 1 tend vers 0 ; avec q > 1 (et u₀ > 0), elle tend vers +∞.",
+      "Une augmentation de t % correspond à une multiplication par (1 + t/100).",
+      "Récurrence : initialisation (vrai au rang 0), hérédité (si vrai au rang n, alors vrai au rang n + 1), conclusion.",
+      "Toute suite croissante et majorée converge ; toute suite décroissante et minorée converge."
+    ],
+    "formules": [
+      "uₙ = u₀ + n·r   ;   u₀ + … + uₙ = (n + 1)(u₀ + uₙ)/2",
+      "uₙ = u₀ × qⁿ   ;   u₀ + … + uₙ = u₀ (1 − qⁿ⁺¹)/(1 − q)   (q ≠ 1)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Compter n termes au lieu de n + 1 de u₀ à uₙ.",
+      "correction": "De u₀ à uₙ, il y a n + 1 termes."
+    },
+    {
+      "erreur": "Rédiger l'hérédité en supposant ce qu'on veut démontrer au rang n + 1.",
+      "correction": "On suppose P(n) vraie et on DÉMONTRE P(n + 1)."
+    },
+    {
+      "erreur": "Conclure qu'une suite croissante tend vers +∞.",
+      "correction": "Si elle est majorée, elle converge (par exemple vers 4)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "(uₙ) est arithmétique de premier terme u₀ = 5 et de raison 3. Calcule u₁₀ et S = u₀ + u₁ + … + u₁₀.",
+      "indice": "Il y a 11 termes de u₀ à u₁₀.",
+      "corrige": [
+        "u₁₀ = 5 + 10 × 3 = 35.",
+        "S = 11 × (5 + 35)/2 = 220."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une ville compte 10 000 habitants et sa population augmente de 2 % par an. On note uₙ la population après n années. Exprime uₙ en fonction de n et estime la population après 10 ans.",
+      "indice": "Augmenter de 2 %, c'est multiplier par 1,02.",
+      "corrige": [
+        "(uₙ) est géométrique de raison 1,02 : uₙ = 10 000 × 1,02ⁿ.",
+        "u₁₀ = 10 000 × 1,02¹⁰ ≈ 12 190 habitants."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "u₀ = 1 et uₙ₊₁ = ½uₙ + 2. 1) Démontre par récurrence que uₙ < 4 pour tout n. 2) Montre que (uₙ) est croissante. 3) On pose vₙ = uₙ − 4. Montre que (vₙ) est géométrique, puis exprime uₙ en fonction de n et calcule sa limite.",
+      "indice": "uₙ₊₁ − uₙ = ½(4 − uₙ).",
+      "corrige": [
+        "1) Initialisation : u₀ = 1 < 4. Hérédité : si uₙ < 4, alors ½uₙ < 2 et uₙ₊₁ = ½uₙ + 2 < 4. Conclusion : uₙ < 4 pour tout n.",
+        "2) uₙ₊₁ − uₙ = −½uₙ + 2 = ½(4 − uₙ) > 0 car uₙ < 4 : la suite est croissante.",
+        "3) vₙ₊₁ = uₙ₊₁ − 4 = ½uₙ − 2 = ½(uₙ − 4) = ½vₙ : (vₙ) est géométrique de raison ½, avec v₀ = −3.",
+        "vₙ = −3 × (½)ⁿ, donc uₙ = 4 − 3 × (½)ⁿ. Comme (½)ⁿ → 0, uₙ → 4."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'exercice sur les suites",
+    "etapes": [
+      "Pour « montrer que (vₙ) est géométrique », calcule vₙ₊₁ en fonction de vₙ.",
+      "Rédige la récurrence en trois étapes bien séparées.",
+      "Exprime uₙ en fonction de n avant de chercher la limite."
+    ]
+  }
+}

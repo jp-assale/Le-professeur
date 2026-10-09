@@ -1,0 +1,79 @@
+{
+  "_topic": "similitudes-transformations",
+  "objectifs": [
+    "Écrire les transformations usuelles avec les nombres complexes.",
+    "Reconnaître une similitude directe z' = az + b et en déterminer les éléments (rapport, angle, centre).",
+    "Déterminer la similitude qui transforme deux points donnés.",
+    "Utiliser les propriétés de conservation (angles, rapports de longueurs)."
+  ],
+  "prerequis": [
+    "Nombres complexes : module, argument, forme exponentielle."
+  ],
+  "a_retenir": {
+    "points": [
+      "Translation de vecteur d'affixe b : z' = z + b.",
+      "Homothétie de centre Ω (ω) et de rapport k : z' − ω = k(z − ω).",
+      "Rotation de centre Ω et d'angle θ : z' − ω = e^(iθ)(z − ω).",
+      "Similitude directe : z' = az + b (a ≠ 0) ; rapport |a|, angle arg a ; si a ≠ 1, centre ω = b/(1 − a).",
+      "Une similitude directe multiplie les longueurs par son rapport et conserve les angles orientés."
+    ],
+    "formules": [
+      "z' = az + b",
+      "rapport k = |a|   ;   angle θ = arg(a)",
+      "centre ω = b/(1 − a)",
+      "a = (z_B' − z_A')/(z_B − z_A)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Prendre b comme centre de la similitude.",
+      "correction": "Le centre est le point fixe : ω = aω + b, d'où ω = b/(1 − a)."
+    },
+    {
+      "erreur": "Confondre rapport et angle.",
+      "correction": "Rapport = module de a ; angle = argument de a."
+    },
+    {
+      "erreur": "Oublier le cas a = 1.",
+      "correction": "Si a = 1, c'est une translation (pas de centre)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Détermine la nature et les éléments de la transformation z' = iz + 2.",
+      "indice": "|i| = 1 et arg i = π/2.",
+      "corrige": [
+        "a = i : rapport 1, angle π/2 : c'est une rotation.",
+        "Centre : ω = 2/(1 − i) = 2(1 + i)/2 = 1 + i."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Détermine les éléments caractéristiques de la similitude directe z' = (1 + i)z − i.",
+      "indice": "1 + i = √2 e^(iπ/4).",
+      "corrige": [
+        "Rapport |1 + i| = √2 ; angle π/4.",
+        "Centre : ω = −i/(1 − (1 + i)) = −i/(−i) = 1."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "A, B, A', B' ont pour affixes 0, 1, 1 + i et 1 + 2i. 1) Détermine l'écriture complexe de la similitude directe s telle que s(A) = A' et s(B) = B'. 2) Précise sa nature et ses éléments caractéristiques.",
+      "indice": "a = (z_B' − z_A')/(z_B − z_A), puis b = z_A' − a·z_A.",
+      "corrige": [
+        "1) a = (1 + 2i − 1 − i)/(1 − 0) = i ; b = (1 + i) − i × 0 = 1 + i. s : z' = iz + 1 + i.",
+        "2) |a| = 1 et arg a = π/2 : s est la rotation d'angle π/2.",
+        "Centre : ω = (1 + i)/(1 − i) = (1 + i)²/2 = 2i/2 = i. (Vérification : i + i(0 − i) = 1 + i = z_A'.)"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les similitudes",
+    "etapes": [
+      "Écris z' = az + b et calcule a à partir de deux points et de leurs images.",
+      "Donne rapport (|a|), angle (arg a) et centre (b/(1 − a)).",
+      "Vérifie avec un point connu."
+    ]
+  }
+}

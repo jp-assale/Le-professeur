@@ -1,0 +1,81 @@
+{
+  "_topic": "limites-continuite",
+  "objectifs": [
+    "Calculer des limites (opérations, formes indéterminées).",
+    "Interpréter graphiquement une limite (asymptotes).",
+    "Utiliser le théorème des valeurs intermédiaires (bijection).",
+    "Encadrer une solution d'équation."
+  ],
+  "prerequis": [
+    "Fonctions de référence et leurs courbes.",
+    "Factorisation et identités remarquables."
+  ],
+  "a_retenir": {
+    "points": [
+      "Formes indéterminées : « ∞ − ∞ », « 0 × ∞ », « ∞/∞ », « 0/0 » : il faut transformer l'expression.",
+      "En ±∞, un polynôme a la limite de son terme de plus haut degré ; une fraction rationnelle celle du quotient des termes de plus haut degré.",
+      "Si lim f(x) = ±∞ quand x → a, la droite x = a est asymptote verticale ; si lim f(x) = b en ±∞, y = b est asymptote horizontale.",
+      "Si lim [f(x) − (ax + b)] = 0 en ±∞, la droite y = ax + b est asymptote oblique.",
+      "Théorème de la bijection : si f est continue et strictement monotone sur [a ; b] et si f(a) et f(b) sont de signes contraires, l'équation f(x) = 0 a une unique solution dans ]a ; b[."
+    ],
+    "formules": [
+      "lim (x→0) sin x / x = 1",
+      "lim (x→+∞) (3x² − 5x + 1)/(x² + 2) = 3",
+      "Quantité conjuguée : (√A − √B)(√A + √B) = A − B"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Conclure « ∞ − ∞ = 0 ».",
+      "correction": "C'est une forme indéterminée : factorise par le terme dominant."
+    },
+    {
+      "erreur": "Oublier d'étudier la limite à gauche et à droite d'une valeur interdite.",
+      "correction": "Étudie le signe du dénominateur : il donne +∞ d'un côté et −∞ de l'autre."
+    },
+    {
+      "erreur": "Appliquer le théorème de la bijection sans citer continuité et stricte monotonie.",
+      "correction": "Les deux hypothèses doivent être écrites sur la copie."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule : lim (x→+∞) (3x² − 5x + 1)/(x² + 2) et lim (x→−∞) (x³ − x).",
+      "indice": "Garde les termes de plus haut degré.",
+      "corrige": [
+        "En +∞ : (3x² − 5x + 1)/(x² + 2) a même limite que 3x²/x² = 3.",
+        "En −∞ : x³ − x a même limite que x³, soit −∞."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "f(x) = (2x + 1)/(x − 1). Calcule les limites de f en 1 (à gauche et à droite) et en ±∞. Donne les asymptotes.",
+      "indice": "Quand x → 1, le numérateur tend vers 3 ; étudie le signe de x − 1.",
+      "corrige": [
+        "x → 1⁺ : x − 1 → 0⁺ et 2x + 1 → 3, donc f(x) → +∞ ; x → 1⁻ : f(x) → −∞.",
+        "La droite x = 1 est asymptote verticale.",
+        "En ±∞ : f(x) a même limite que 2x/x = 2 : la droite y = 2 est asymptote horizontale."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "f(x) = x³ + x − 1. 1) Démontre que l'équation f(x) = 0 admet une unique solution α dans [0 ; 1]. 2) Donne un encadrement de α d'amplitude 0,1.",
+      "indice": "Étudie le signe de f'(x), puis calcule f(0,6) et f(0,7).",
+      "corrige": [
+        "1) f est continue (polynôme) et f'(x) = 3x² + 1 > 0 : f est strictement croissante sur [0 ; 1].",
+        "f(0) = −1 < 0 et f(1) = 1 > 0. D'après le théorème de la bijection, f(x) = 0 a une unique solution α ∈ ]0 ; 1[.",
+        "2) f(0,6) = 0,216 + 0,6 − 1 = −0,184 < 0 et f(0,7) = 0,343 + 0,7 − 1 = 0,043 > 0.",
+        "Donc 0,6 < α < 0,7."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : calculer une limite",
+    "etapes": [
+      "Essaie le calcul direct ; si tu obtiens une forme indéterminée, nomme-la.",
+      "Lève l'indétermination : factorisation, terme dominant, quantité conjuguée, limites de référence.",
+      "Interprète graphiquement chaque limite (asymptote) par une phrase."
+    ]
+  }
+}

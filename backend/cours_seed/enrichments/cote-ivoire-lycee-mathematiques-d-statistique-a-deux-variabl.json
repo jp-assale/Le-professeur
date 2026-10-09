@@ -1,0 +1,79 @@
+{
+  "_topic": "statistique-deux-variables",
+  "objectifs": [
+    "Représenter un nuage de points et calculer le point moyen.",
+    "Calculer variance, covariance et coefficient de corrélation linéaire.",
+    "Déterminer la droite d'ajustement (moindres carrés).",
+    "Faire une estimation et la critiquer."
+  ],
+  "prerequis": [
+    "Moyenne et variance d'une série simple.",
+    "Équation de droite."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le point moyen G(x̄ ; ȳ) appartient toujours à la droite de régression.",
+      "Le coefficient de corrélation r est compris entre −1 et 1 ; plus |r| est proche de 1, plus l'ajustement affine est justifié (on admet souvent qu'il est bon si |r| ≥ 0,87).",
+      "Droite de régression de y en x : y = ax + b avec a = cov(x, y)/V(x) et b = ȳ − a x̄.",
+      "Une estimation loin des données observées (extrapolation) est moins fiable."
+    ],
+    "formules": [
+      "V(x) = (1/n) Σ xᵢ² − x̄²",
+      "cov(x, y) = (1/n) Σ xᵢyᵢ − x̄ ȳ",
+      "r = cov(x, y) / (σₓ σᵧ)   avec σ = √V",
+      "a = cov(x, y) / V(x)   ;   b = ȳ − a x̄"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Diviser la covariance par V(y) pour trouver a.",
+      "correction": "Pour la droite de y en x : a = cov(x, y)/V(x)."
+    },
+    {
+      "erreur": "Oublier de soustraire x̄ȳ dans la covariance.",
+      "correction": "cov = moyenne des produits − produit des moyennes."
+    },
+    {
+      "erreur": "Arrondir trop tôt.",
+      "correction": "Garde les valeurs exactes jusqu'au calcul final de r, a et b."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Production d'une coopérative (en tonnes) selon le rang de l'année x : x = 1, 2, 3, 4, 5 ; y = 3, 5, 6, 8, 10. Calcule les coordonnées du point moyen G.",
+      "indice": "x̄ = moyenne des x, ȳ = moyenne des y.",
+      "corrige": [
+        "x̄ = 15/5 = 3 ; ȳ = 32/5 = 6,4. G(3 ; 6,4)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Avec la même série, calcule V(x), cov(x, y), puis l'équation de la droite de régression de y en x.",
+      "indice": "Σ xᵢ² = 55 et Σ xᵢyᵢ = 113.",
+      "corrige": [
+        "V(x) = 55/5 − 3² = 11 − 9 = 2.",
+        "cov(x, y) = 113/5 − 3 × 6,4 = 22,6 − 19,2 = 3,4.",
+        "a = 3,4 / 2 = 1,7 ; b = 6,4 − 1,7 × 3 = 1,3. Droite : y = 1,7x + 1,3."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Toujours avec cette série : 1) Calcule V(y) et le coefficient de corrélation r (au millième). L'ajustement affine est-il justifié ? 2) Estime la production la 7ᵉ année.",
+      "indice": "Σ yᵢ² = 234.",
+      "corrige": [
+        "1) V(y) = 234/5 − 6,4² = 46,8 − 40,96 = 5,84.",
+        "r = 3,4 / √(2 × 5,84) = 3,4 / √11,68 ≈ 0,995 : très proche de 1, l'ajustement affine est justifié.",
+        "2) Pour x = 7 : y = 1,7 × 7 + 1,3 = 13,2 tonnes (estimation, sous réserve que la tendance se maintienne)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : statistique à deux variables",
+    "etapes": [
+      "Fais un tableau avec les colonnes x, y, x², y², xy et leurs sommes.",
+      "Calcule dans l'ordre : moyennes, variances, covariance, r, puis a et b.",
+      "Conclus sur la pertinence (r) et sur la fiabilité de l'estimation."
+    ]
+  }
+}

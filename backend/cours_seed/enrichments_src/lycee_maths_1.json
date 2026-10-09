@@ -1,0 +1,559 @@
+{
+  "_doc": "Complements pedagogiques - Mathematiques lycee (Terminale), lot 1 : complexes, limites, derivation, primitives, ln, exp, integrales, equations differentielles. Notation Unicode (lisible et lue a voix haute). Calculs verifies a la main.",
+  "topics": {
+    "complexes": {
+      "objectifs": [
+        "Calculer avec les nombres complexes sous forme algébrique.",
+        "Passer de la forme algébrique à la forme trigonométrique et exponentielle.",
+        "Utiliser les formules de Moivre et d'Euler.",
+        "Résoudre une équation du second degré dans ℂ et interpréter géométriquement."
+      ],
+      "prerequis": ["Trigonométrie : cosinus et sinus des angles remarquables.", "Équations du second degré dans ℝ."],
+      "a_retenir": {
+        "points": [
+          "z = a + ib avec i² = −1 ; a = Re(z), b = Im(z) ; conjugué z̄ = a − ib.",
+          "Module |z| = √(a² + b²) ; un argument θ vérifie cos θ = a/|z| et sin θ = b/|z|.",
+          "Forme exponentielle : z = r·e^(iθ) avec r = |z| ; on multiplie les modules et on additionne les arguments.",
+          "Dans ℂ, az² + bz + c = 0 avec Δ < 0 a deux solutions conjuguées : z = (−b ± i√(−Δ)) / (2a).",
+          "|z_B − z_A| = AB et arg((z_C − z_A)/(z_B − z_A)) = (AB→, AC→) : les complexes traduisent distances et angles."
+        ],
+        "formules": [
+          "|z| = √(a² + b²)   ;   z·z̄ = |z|²",
+          "(cos θ + i sin θ)ⁿ = cos(nθ) + i sin(nθ)   (Moivre)",
+          "cos θ = (e^(iθ) + e^(−iθ))/2   ;   sin θ = (e^(iθ) − e^(−iθ))/(2i)   (Euler)",
+          "|zz'| = |z|·|z'|   ;   arg(zz') = arg z + arg z' (2π)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire |2 + 3i| = 2 + 3 = 5.", "correction": "|2 + 3i| = √(4 + 9) = √13." },
+        { "erreur": "Prendre θ = arctan(b/a) sans regarder le signe de a.", "correction": "Place le point dans le plan : pour −1 − i, l'argument est −3π/4, pas π/4." },
+        { "erreur": "Oublier que i² = −1 en développant.", "correction": "3i × (−i) = −3i² = +3." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "z₁ = 2 + 3i et z₂ = 1 − i. Calcule z₁ + z₂, z₁ × z₂, le conjugué de z₁ et |z₂|.",
+          "indice": "Développe le produit et remplace i² par −1.",
+          "corrige": [
+            "z₁ + z₂ = 3 + 2i.",
+            "z₁ × z₂ = 2 − 2i + 3i − 3i² = 2 + i + 3 = 5 + i.",
+            "z̄₁ = 2 − 3i ; |z₂| = √(1 + 1) = √2."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Soit z = 1 + i√3. 1) Écris z sous forme exponentielle. 2) Déduis-en z⁶.",
+          "indice": "Calcule |z|, puis cherche θ tel que cos θ = 1/2 et sin θ = √3/2.",
+          "corrige": [
+            "1) |z| = √(1 + 3) = 2 ; cos θ = 1/2 et sin θ = √3/2, donc θ = π/3 : z = 2e^(iπ/3).",
+            "2) z⁶ = 2⁶ e^(i·6π/3) = 64 e^(2iπ) = 64."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Résous dans ℂ l'équation z² − 2z + 5 = 0. 2) On note A et B les points d'affixes z_A = 1 + 2i et z_B = 1 − 2i, et C le point d'affixe 3. Calcule (z_A − z_C)/(z_B − z_C) et déduis-en la nature du triangle ABC.",
+          "indice": "Un quotient de module 1 et d'argument ±π/2 traduit un triangle rectangle isocèle.",
+          "corrige": [
+            "1) Δ = 4 − 20 = −16 = (4i)² ; z = (2 ± 4i)/2, donc S = {1 + 2i ; 1 − 2i}.",
+            "2) (z_A − z_C)/(z_B − z_C) = (−2 + 2i)/(−2 − 2i). En multipliant par le conjugué du dénominateur : (−2 + 2i)(−2 + 2i)/8 = (4 − 8i − 4)/8 = −i.",
+            "|−i| = 1 donc CA = CB ; arg(−i) = −π/2 donc (CB→, CA→) = −π/2.",
+            "Le triangle ABC est rectangle isocèle en C."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de nombres complexes",
+        "etapes": [
+          "Pour un module et un argument, place d'abord le point dans le plan (signe de a et b).",
+          "Utilise la forme exponentielle pour les puissances et les produits.",
+          "En géométrie, traduis : |z_B − z_A| = AB, arg du quotient = angle orienté.",
+          "Conclus par une phrase sur la nature de la figure."
+        ]
+      }
+    },
+    "limites-continuite": {
+      "objectifs": [
+        "Calculer des limites (opérations, formes indéterminées).",
+        "Interpréter graphiquement une limite (asymptotes).",
+        "Utiliser le théorème des valeurs intermédiaires (bijection).",
+        "Encadrer une solution d'équation."
+      ],
+      "prerequis": ["Fonctions de référence et leurs courbes.", "Factorisation et identités remarquables."],
+      "a_retenir": {
+        "points": [
+          "Formes indéterminées : « ∞ − ∞ », « 0 × ∞ », « ∞/∞ », « 0/0 » : il faut transformer l'expression.",
+          "En ±∞, un polynôme a la limite de son terme de plus haut degré ; une fraction rationnelle celle du quotient des termes de plus haut degré.",
+          "Si lim f(x) = ±∞ quand x → a, la droite x = a est asymptote verticale ; si lim f(x) = b en ±∞, y = b est asymptote horizontale.",
+          "Si lim [f(x) − (ax + b)] = 0 en ±∞, la droite y = ax + b est asymptote oblique.",
+          "Théorème de la bijection : si f est continue et strictement monotone sur [a ; b] et si f(a) et f(b) sont de signes contraires, l'équation f(x) = 0 a une unique solution dans ]a ; b[."
+        ],
+        "formules": ["lim (x→0) sin x / x = 1", "lim (x→+∞) (3x² − 5x + 1)/(x² + 2) = 3", "Quantité conjuguée : (√A − √B)(√A + √B) = A − B"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Conclure « ∞ − ∞ = 0 ».", "correction": "C'est une forme indéterminée : factorise par le terme dominant." },
+        { "erreur": "Oublier d'étudier la limite à gauche et à droite d'une valeur interdite.", "correction": "Étudie le signe du dénominateur : il donne +∞ d'un côté et −∞ de l'autre." },
+        { "erreur": "Appliquer le théorème de la bijection sans citer continuité et stricte monotonie.", "correction": "Les deux hypothèses doivent être écrites sur la copie." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule : lim (x→+∞) (3x² − 5x + 1)/(x² + 2) et lim (x→−∞) (x³ − x).",
+          "indice": "Garde les termes de plus haut degré.",
+          "corrige": [
+            "En +∞ : (3x² − 5x + 1)/(x² + 2) a même limite que 3x²/x² = 3.",
+            "En −∞ : x³ − x a même limite que x³, soit −∞."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "f(x) = (2x + 1)/(x − 1). Calcule les limites de f en 1 (à gauche et à droite) et en ±∞. Donne les asymptotes.",
+          "indice": "Quand x → 1, le numérateur tend vers 3 ; étudie le signe de x − 1.",
+          "corrige": [
+            "x → 1⁺ : x − 1 → 0⁺ et 2x + 1 → 3, donc f(x) → +∞ ; x → 1⁻ : f(x) → −∞.",
+            "La droite x = 1 est asymptote verticale.",
+            "En ±∞ : f(x) a même limite que 2x/x = 2 : la droite y = 2 est asymptote horizontale."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "f(x) = x³ + x − 1. 1) Démontre que l'équation f(x) = 0 admet une unique solution α dans [0 ; 1]. 2) Donne un encadrement de α d'amplitude 0,1.",
+          "indice": "Étudie le signe de f'(x), puis calcule f(0,6) et f(0,7).",
+          "corrige": [
+            "1) f est continue (polynôme) et f'(x) = 3x² + 1 > 0 : f est strictement croissante sur [0 ; 1].",
+            "f(0) = −1 < 0 et f(1) = 1 > 0. D'après le théorème de la bijection, f(x) = 0 a une unique solution α ∈ ]0 ; 1[.",
+            "2) f(0,6) = 0,216 + 0,6 − 1 = −0,184 < 0 et f(0,7) = 0,343 + 0,7 − 1 = 0,043 > 0.",
+            "Donc 0,6 < α < 0,7."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : calculer une limite",
+        "etapes": [
+          "Essaie le calcul direct ; si tu obtiens une forme indéterminée, nomme-la.",
+          "Lève l'indétermination : factorisation, terme dominant, quantité conjuguée, limites de référence.",
+          "Interprète graphiquement chaque limite (asymptote) par une phrase."
+        ]
+      }
+    },
+    "derivation-etude-fonctions": {
+      "objectifs": [
+        "Calculer la dérivée d'une fonction avec les formules usuelles.",
+        "Déterminer l'équation d'une tangente.",
+        "Étudier le sens de variation et dresser le tableau de variation.",
+        "Étudier les asymptotes et tracer la courbe."
+      ],
+      "prerequis": ["Limites et asymptotes.", "Signe d'un trinôme du second degré."],
+      "a_retenir": {
+        "points": [
+          "Si f'(x) > 0 sur un intervalle, f y est strictement croissante ; si f'(x) < 0, strictement décroissante.",
+          "Si f' s'annule en changeant de signe en a, f admet un extremum local en a.",
+          "La tangente à la courbe au point d'abscisse a a pour coefficient directeur f'(a).",
+          "Plan d'étude : ensemble de définition → limites → dérivée → signe de f' → tableau de variation → asymptotes et position → courbe.",
+          "f(x) = ax + b + g(x) avec g(x) → 0 en ±∞ : y = ax + b est asymptote oblique ; le signe de g(x) donne la position."
+        ],
+        "formules": [
+          "(uv)' = u'v + uv'   ;   (u/v)' = (u'v − uv')/v²",
+          "(uⁿ)' = n·u'·uⁿ⁻¹   ;   (√u)' = u'/(2√u)",
+          "Tangente : y = f'(a)(x − a) + f(a)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire (u/v)' = u'/v'.", "correction": "(u/v)' = (u'v − uv')/v²." },
+        { "erreur": "Dresser le tableau de variation sans étudier le signe de f'.", "correction": "Factorise f'(x) et fais un tableau de signes complet." },
+        { "erreur": "Oublier les valeurs interdites dans le tableau.", "correction": "Marque-les par une double barre ‖ et calcule les limites de chaque côté." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "f(x) = x³ − 3x + 2. Calcule f'(x) et factorise-la.",
+          "indice": "3x² − 3 = 3(x² − 1).",
+          "corrige": ["f'(x) = 3x² − 3 = 3(x² − 1) = 3(x − 1)(x + 1)."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Avec f(x) = x³ − 3x + 2, détermine l'équation de la tangente à la courbe au point d'abscisse 2.",
+          "indice": "Calcule f(2) et f'(2).",
+          "corrige": [
+            "f(2) = 8 − 6 + 2 = 4 ; f'(2) = 3 × 4 − 3 = 9.",
+            "y = 9(x − 2) + 4, soit y = 9x − 14."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "f(x) = (x² + 3)/(x − 1) sur ℝ \\ {1}. 1) Montre que f'(x) = (x − 3)(x + 1)/(x − 1)². 2) Dresse le tableau de variation de f (sans les limites). 3) Montre que f(x) = x + 1 + 4/(x − 1) et déduis-en une asymptote oblique.",
+          "indice": "Pour la question 3, réduis x + 1 + 4/(x − 1) au même dénominateur.",
+          "corrige": [
+            "1) f'(x) = [2x(x − 1) − (x² + 3)]/(x − 1)² = (x² − 2x − 3)/(x − 1)² = (x − 3)(x + 1)/(x − 1)².",
+            "2) (x − 1)² > 0 : f' a le signe de (x − 3)(x + 1). f croissante sur ]−∞ ; −1], décroissante sur [−1 ; 1[ et sur ]1 ; 3], croissante sur [3 ; +∞[.",
+            "Maximum local f(−1) = 4/(−2) = −2 ; minimum local f(3) = 12/2 = 6.",
+            "3) x + 1 + 4/(x − 1) = [(x + 1)(x − 1) + 4]/(x − 1) = (x² + 3)/(x − 1) = f(x).",
+            "4/(x − 1) → 0 en ±∞, donc la droite y = x + 1 est asymptote oblique."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le problème d'étude de fonction",
+        "etapes": [
+          "Suis l'ordre des questions : chaque résultat sert pour la suite.",
+          "Factorise f'(x) pour étudier son signe.",
+          "Tableau de variation complet : signes de f', flèches, extremums, limites, valeurs interdites.",
+          "Courbe : asymptotes et tangentes d'abord, puis quelques points calculés."
+        ]
+      }
+    },
+    "primitives": {
+      "objectifs": [
+        "Déterminer une primitive avec le tableau des primitives usuelles.",
+        "Reconnaître les formes u'uⁿ, u'/u², u'/√u, u'cos u.",
+        "Déterminer la primitive qui vérifie une condition initiale."
+      ],
+      "prerequis": ["Dérivées usuelles et dérivée d'une fonction composée."],
+      "a_retenir": {
+        "points": [
+          "F est une primitive de f sur I si F' = f sur I.",
+          "Deux primitives d'une même fonction diffèrent d'une constante : F(x) + C.",
+          "Il existe une seule primitive prenant une valeur donnée en un point donné.",
+          "Toujours vérifier sa primitive en la dérivant."
+        ],
+        "formules": [
+          "xⁿ → xⁿ⁺¹/(n + 1)   (n ≠ −1)",
+          "u'·uⁿ → uⁿ⁺¹/(n + 1)   ;   u'/u² → −1/u   ;   u'/√u → 2√u",
+          "cos(ax + b) → (1/a) sin(ax + b)   ;   sin(ax + b) → −(1/a) cos(ax + b)",
+          "u'/u → ln|u|   ;   u'·eᵘ → eᵘ"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier la constante C.", "correction": "« Les primitives de f » s'écrivent F(x) + C." },
+        { "erreur": "Primitive de sin x = cos x.", "correction": "C'est −cos x (vérifie : (−cos x)' = sin x)." },
+        { "erreur": "Oublier le coefficient 1/a pour cos(2x).", "correction": "Une primitive de cos(2x) est ½ sin(2x)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Détermine les primitives de f(x) = 3x² − 4x + 5 sur ℝ.",
+          "indice": "Primitive terme à terme.",
+          "corrige": ["F(x) = x³ − 2x² + 5x + C, C ∈ ℝ."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Détermine une primitive de f(x) = 2x(x² + 1)³ sur ℝ, puis de g(x) = 1/(x + 2)² sur ]−2 ; +∞[.",
+          "indice": "Reconnais u'uⁿ avec u = x² + 1, puis u'/u² avec u = x + 2.",
+          "corrige": [
+            "f = u'u³ avec u = x² + 1 : F(x) = (x² + 1)⁴/4.",
+            "g = u'/u² avec u = x + 2 : G(x) = −1/(x + 2)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Détermine la primitive F de f(x) = cos x − 2 sin(2x) sur ℝ telle que F(0) = 3. 2) Détermine une primitive de h(x) = x/√(x² + 1).",
+          "indice": "Une primitive de −2 sin(2x) est cos(2x).",
+          "corrige": [
+            "1) F(x) = sin x + cos(2x) + C. F(0) = 0 + 1 + C = 3, donc C = 2 : F(x) = sin x + cos(2x) + 2.",
+            "Vérification : F'(x) = cos x − 2 sin(2x) = f(x).",
+            "2) h = ½ × (2x)/√(x² + 1) = ½ × u'/√u, d'où H(x) = ½ × 2√(x² + 1) = √(x² + 1)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : trouver une primitive",
+        "etapes": [
+          "Repère la forme (u'uⁿ, u'/u, u'eᵘ…) et ajuste le coefficient.",
+          "Écris la primitive générale avec + C, puis utilise la condition initiale.",
+          "Vérifie en dérivant."
+        ]
+      }
+    },
+    "logarithme": {
+      "objectifs": [
+        "Utiliser les propriétés algébriques de ln.",
+        "Résoudre des équations et inéquations avec ln (sans oublier le domaine).",
+        "Dériver ln u et calculer les limites usuelles.",
+        "Étudier une fonction contenant ln."
+      ],
+      "prerequis": ["Fonction dérivée, étude de fonction.", "Propriétés des puissances."],
+      "a_retenir": {
+        "points": [
+          "ln est définie sur ]0 ; +∞[, strictement croissante ; ln 1 = 0 et ln e = 1.",
+          "ln transforme les produits en sommes : ln(ab) = ln a + ln b.",
+          "Pour a > 0 et b > 0 : ln a = ln b ⟺ a = b ; ln a < ln b ⟺ a < b.",
+          "ln(u(x)) existe si u(x) > 0 : commence toujours par le domaine.",
+          "Croissances comparées : ln x / x → 0 en +∞ ; x ln x → 0 en 0⁺."
+        ],
+        "formules": [
+          "ln(ab) = ln a + ln b   ;   ln(a/b) = ln a − ln b   ;   ln(aⁿ) = n ln a",
+          "(ln x)' = 1/x   ;   (ln u)' = u'/u",
+          "lim (x→0⁺) ln x = −∞   ;   lim (x→+∞) ln x = +∞"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire ln(a + b) = ln a + ln b.", "correction": "C'est ln(a × b) = ln a + ln b ; ln(a + b) ne se simplifie pas." },
+        { "erreur": "Résoudre une équation sans chercher le domaine.", "correction": "Écris d'abord les conditions (arguments > 0) et vérifie tes solutions." },
+        { "erreur": "Dériver ln(x² + 1) en 1/(x² + 1).", "correction": "(ln u)' = u'/u = 2x/(x² + 1)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Simplifie A = ln 8 + ln 2 − 2 ln 4.",
+          "indice": "Écris tout avec des puissances de 2.",
+          "corrige": ["ln 8 + ln 2 = ln 16 et 2 ln 4 = ln 16.", "A = ln 16 − ln 16 = 0."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "1) Résous ln(2x − 1) = ln(x + 3). 2) Résous ln x < 1.",
+          "indice": "Commence par les conditions d'existence.",
+          "corrige": [
+            "1) Il faut 2x − 1 > 0 et x + 3 > 0, soit x > 1/2. Alors 2x − 1 = x + 3, donc x = 4 (convient). S = {4}.",
+            "2) Il faut x > 0 ; ln x < ln e ⟺ x < e. S = ]0 ; e[."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "f(x) = x − 1 − ln x sur ]0 ; +∞[. 1) Calcule les limites de f en 0 et en +∞. 2) Étudie les variations de f. 3) Déduis-en que pour tout x > 0, ln x ≤ x − 1.",
+          "indice": "En +∞, écris f(x) = x(1 − 1/x − ln x / x).",
+          "corrige": [
+            "1) En 0⁺ : −ln x → +∞, donc f(x) → +∞. En +∞ : f(x) = x(1 − 1/x − ln x / x) et la parenthèse tend vers 1, donc f(x) → +∞.",
+            "2) f'(x) = 1 − 1/x = (x − 1)/x : f décroissante sur ]0 ; 1], croissante sur [1 ; +∞[.",
+            "3) Le minimum de f est f(1) = 0, donc f(x) ≥ 0 pour tout x > 0, c'est-à-dire ln x ≤ x − 1."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les fonctions logarithmes",
+        "etapes": [
+          "Commence par l'ensemble de définition (arguments strictement positifs).",
+          "Utilise les propriétés de ln pour transformer avant de résoudre.",
+          "Pour les limites, pense aux croissances comparées et factorise par le terme dominant."
+        ]
+      }
+    },
+    "exponentielle": {
+      "objectifs": [
+        "Utiliser les propriétés algébriques de la fonction exponentielle.",
+        "Résoudre des équations et inéquations (changement de variable X = eˣ).",
+        "Dériver e^u et calculer les limites usuelles.",
+        "Étudier une fonction contenant eˣ ; définir aˣ."
+      ],
+      "prerequis": ["Fonction ln.", "Étude de fonction et tangente."],
+      "a_retenir": {
+        "points": [
+          "exp est définie sur ℝ, strictement positive et strictement croissante ; e⁰ = 1.",
+          "eˣ = y ⟺ x = ln y (pour y > 0) : exp et ln sont réciproques.",
+          "eᵃ × eᵇ = eᵃ⁺ᵇ ; eᵃ / eᵇ = eᵃ⁻ᵇ ; (eᵃ)ⁿ = eⁿᵃ.",
+          "Croissances comparées : eˣ / x → +∞ en +∞ ; x eˣ → 0 en −∞.",
+          "Pour a > 0 : aˣ = e^(x ln a)."
+        ],
+        "formules": [
+          "(eˣ)' = eˣ   ;   (eᵘ)' = u'eᵘ",
+          "lim (x→−∞) eˣ = 0   ;   lim (x→+∞) eˣ = +∞",
+          "aˣ = e^(x ln a)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Résoudre eˣ = −2 en x = ln(−2).", "correction": "eˣ > 0 : l'équation n'a pas de solution." },
+        { "erreur": "Écrire eᵃ⁺ᵇ = eᵃ + eᵇ.", "correction": "eᵃ⁺ᵇ = eᵃ × eᵇ." },
+        { "erreur": "Dériver e^(2x) en e^(2x).", "correction": "(e^(2x))' = 2e^(2x)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Simplifie A = e^(2x) × e^(−x + 1) / eˣ.",
+          "indice": "Additionne et soustrais les exposants.",
+          "corrige": ["A = e^(2x − x + 1 − x) = e¹ = e."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Résous dans ℝ : e^(2x) − 3eˣ + 2 = 0.",
+          "indice": "Pose X = eˣ (avec X > 0).",
+          "corrige": [
+            "Avec X = eˣ : X² − 3X + 2 = 0, donc X = 1 ou X = 2 (les deux sont positifs).",
+            "eˣ = 1 ⟺ x = 0 ; eˣ = 2 ⟺ x = ln 2. S = {0 ; ln 2}."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "f(x) = (x − 1)eˣ sur ℝ. 1) Calcule les limites de f en −∞ et en +∞. 2) Calcule f'(x) et dresse le tableau de variation. 3) Donne l'équation de la tangente au point d'abscisse 1.",
+          "indice": "En −∞, écris f(x) = x eˣ − eˣ.",
+          "corrige": [
+            "1) En −∞ : x eˣ → 0 et eˣ → 0, donc f(x) → 0 (asymptote y = 0). En +∞ : f(x) → +∞.",
+            "2) f'(x) = eˣ + (x − 1)eˣ = x eˣ, du signe de x : f décroissante sur ]−∞ ; 0], croissante sur [0 ; +∞[ ; minimum f(0) = −1.",
+            "3) f(1) = 0 et f'(1) = e : y = e(x − 1)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les fonctions exponentielles",
+        "etapes": [
+          "Rappelle que eˣ > 0 : le signe d'un produit avec eˣ est celui de l'autre facteur.",
+          "Pour les équations, pense au changement de variable X = eˣ.",
+          "Pour les limites en −∞, pense à x eˣ → 0."
+        ]
+      }
+    },
+    "calcul-integral": {
+      "objectifs": [
+        "Calculer une intégrale à l'aide d'une primitive.",
+        "Utiliser la linéarité, la relation de Chasles et la positivité.",
+        "Calculer une aire en unités d'aire puis en cm².",
+        "Intégrer par parties."
+      ],
+      "prerequis": ["Primitives usuelles.", "Fonctions ln et exp."],
+      "a_retenir": {
+        "points": [
+          "Si F est une primitive de f sur [a ; b] : ∫ₐᵇ f(x) dx = F(b) − F(a).",
+          "Si f ≥ 0 sur [a ; b], ∫ₐᵇ f(x) dx est l'aire sous la courbe, en unités d'aire (u.a.).",
+          "1 u.a. = (unité sur l'axe des x) × (unité sur l'axe des y) : avec 2 cm sur chaque axe, 1 u.a. = 4 cm².",
+          "Valeur moyenne de f sur [a ; b] : (1/(b − a)) ∫ₐᵇ f(x) dx.",
+          "Intégration par parties : utile pour x eˣ, x cos x, ln x…"
+        ],
+        "formules": [
+          "∫ₐᵇ f(x) dx = [F(x)]ₐᵇ = F(b) − F(a)",
+          "∫ de a à c de f = ∫ de a à b de f + ∫ de b à c de f   (Chasles)",
+          "∫ₐᵇ u v' = [uv]ₐᵇ − ∫ₐᵇ u' v   (par parties)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer F(a) − F(b).", "correction": "C'est F(b) − F(a) : borne du haut moins borne du bas." },
+        { "erreur": "Donner une aire négative.", "correction": "Si f ≤ 0, l'aire vaut −∫ₐᵇ f(x) dx." },
+        { "erreur": "Oublier de convertir les u.a. en cm².", "correction": "Multiplie par l'aire d'une unité (produit des unités des deux axes)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule I = ∫₀² (3x² − 2x) dx.",
+          "indice": "Une primitive est x³ − x².",
+          "corrige": ["I = [x³ − x²]₀² = (8 − 4) − 0 = 4."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Calcule ∫₁ᵉ (1/x) dx et ∫₀¹ eˣ dx, puis l'aire du domaine limité par la courbe de x ↦ x², l'axe des abscisses et les droites x = 0 et x = 3.",
+          "indice": "x² ≥ 0 sur [0 ; 3].",
+          "corrige": [
+            "∫₁ᵉ (1/x) dx = [ln x]₁ᵉ = 1 − 0 = 1.",
+            "∫₀¹ eˣ dx = [eˣ]₀¹ = e − 1.",
+            "Aire = ∫₀³ x² dx = [x³/3]₀³ = 9 u.a."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) À l'aide d'une intégration par parties, calcule I = ∫₀¹ x eˣ dx. 2) Le repère a pour unité 2 cm sur chaque axe : donne l'aire correspondante en cm². 3) Calcule J = ∫₁ᵉ ln x dx (indication : ln x = 1 × ln x).",
+          "indice": "Pour I, pose u = x et v' = eˣ ; pour J, u = ln x et v' = 1.",
+          "corrige": [
+            "1) u = x, u' = 1 ; v' = eˣ, v = eˣ. I = [x eˣ]₀¹ − ∫₀¹ eˣ dx = e − (e − 1) = 1.",
+            "2) 1 u.a. = 2 × 2 = 4 cm², donc l'aire vaut 4 cm².",
+            "3) u = ln x, u' = 1/x ; v' = 1, v = x. J = [x ln x]₁ᵉ − ∫₁ᵉ 1 dx = e − (e − 1) = 1."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le calcul intégral",
+        "etapes": [
+          "Cherche une primitive et écris-la entre crochets avec les bornes.",
+          "Pour l'intégration par parties, écris clairement u, u', v', v.",
+          "Pour une aire, vérifie le signe de la fonction et convertis en cm²."
+        ]
+      }
+    },
+    "equations-differentielles": {
+      "objectifs": [
+        "Résoudre y' = ay et y' = ay + b.",
+        "Résoudre y'' + ω²y = 0 et les équations du second ordre à coefficients constants.",
+        "Déterminer la solution vérifiant des conditions initiales.",
+        "Modéliser un phénomène (refroidissement, charge, oscillations)."
+      ],
+      "prerequis": ["Fonction exponentielle.", "Dérivées de cos et sin."],
+      "a_retenir": {
+        "points": [
+          "Les solutions de y' = ay sont les fonctions x ↦ C e^(ax), C réel.",
+          "Les solutions de y' = ay + b (a ≠ 0) sont x ↦ C e^(ax) − b/a.",
+          "Les solutions de y'' + ω²y = 0 sont x ↦ A cos(ωx) + B sin(ωx).",
+          "Pour y'' + ay' + by = 0, on résout l'équation caractéristique r² + ar + b = 0 : deux racines réelles r₁, r₂ → y = A e^(r₁x) + B e^(r₂x) ; racine double r → y = (Ax + B) e^(rx) ; racines complexes α ± iβ → y = e^(αx)(A cos βx + B sin βx).",
+          "Les conditions initiales (y(0), y'(0)) déterminent les constantes."
+        ],
+        "formules": ["y' = ay → y = C e^(ax)", "y' = ay + b → y = C e^(ax) − b/a", "y'' + ω²y = 0 → y = A cos ωx + B sin ωx"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire y = C e^(ax) + b/a pour y' = ay + b.", "correction": "La solution particulière constante est −b/a (vérifie : 0 = a × (−b/a) + b)." },
+        { "erreur": "Oublier la constante avant d'utiliser la condition initiale.", "correction": "Écris la solution générale, puis calcule la constante." },
+        { "erreur": "Confondre ω et ω² dans y'' + ω²y = 0.", "correction": "Pour y'' + 4y = 0, ω = 2 (et non 4)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Résous y' = 2y, puis trouve la solution telle que y(0) = 3.",
+          "indice": "y = C e^(2x).",
+          "corrige": ["Solutions : y = C e^(2x). y(0) = C = 3, donc y = 3e^(2x)."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Résous y' = −0,5y + 10 et trouve la solution vérifiant y(0) = 0. Quelle est sa limite en +∞ ?",
+          "indice": "Solution particulière constante : −b/a = −10/(−0,5).",
+          "corrige": [
+            "Solutions : y = C e^(−0,5x) + 20.",
+            "y(0) = C + 20 = 0, donc C = −20 : y = 20(1 − e^(−0,5x)).",
+            "En +∞, e^(−0,5x) → 0, donc y → 20."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Résous y'' + 4y = 0 et trouve la solution vérifiant y(0) = 1 et y'(0) = 2. 2) Résous y'' − 3y' + 2y = 0.",
+          "indice": "Pour la question 2, résous r² − 3r + 2 = 0.",
+          "corrige": [
+            "1) ω = 2 : y = A cos(2x) + B sin(2x). y(0) = A = 1.",
+            "y'(x) = −2A sin(2x) + 2B cos(2x), donc y'(0) = 2B = 2 et B = 1 : y = cos(2x) + sin(2x).",
+            "2) r² − 3r + 2 = 0 ⟺ r = 1 ou r = 2 : y = A eˣ + B e^(2x), A et B réels."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les équations différentielles",
+        "etapes": [
+          "Identifie le type d'équation et écris la forme générale des solutions.",
+          "Calcule les constantes avec les conditions initiales.",
+          "Vérifie en remplaçant dans l'équation."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-lycee-mathematiques-d-nombres-complexes": "complexes",
+    "cote-ivoire-lycee-mathematiques-c-nombres-complexes": "complexes",
+    "mali-lycee-mathematiques-se-etude-des-nombres-complexes": "complexes",
+    "burkina-faso-lycee-mathematiques-c-d-formules-de-moivre-et-d": "complexes",
+    "senegal-lycee-mathematiques-s1-s3-nombres-complexes-module-a": "complexes",
+    "senegal-lycee-mathematiques-s2-s4-nombres-complexes": "complexes",
+    "guinee-lycee-mathematiques-sm-nombres-complexes-module-argum": "complexes",
+    "benin-lycee-mathematiques-c-nombres-complexes-forme-algebriq": "complexes",
+    "cote-ivoire-lycee-mathematiques-d-limites-et-continuite": "limites-continuite",
+    "cote-ivoire-lycee-mathematiques-c-limites-et-continuite": "limites-continuite",
+    "burkina-faso-lycee-mathematiques-c-d-limite-des-fonctions-nu": "limites-continuite",
+    "benin-lycee-mathematiques-c-limites-et-continuite": "limites-continuite",
+    "cote-ivoire-lycee-mathematiques-d-derivabilite-et-etude-de-f": "derivation-etude-fonctions",
+    "cote-ivoire-lycee-mathematiques-c-derivabilite-et-etude-de-f": "derivation-etude-fonctions",
+    "mali-lycee-mathematiques-se-etude-de-fonctions-numeriques-d-": "derivation-etude-fonctions",
+    "senegal-lycee-mathematiques-s1-s3-fonctions-numeriques": "derivation-etude-fonctions",
+    "senegal-lycee-mathematiques-l1-l2-analyse-limites-continuite": "derivation-etude-fonctions",
+    "senegal-lycee-mathematiques-s2-s4-fonctions-numeriques-suite": "derivation-etude-fonctions",
+    "benin-lycee-mathematiques-c-derivabilite-etude-de-fonctions": "derivation-etude-fonctions",
+    "guinee-lycee-mathematiques-sm-fonctions-reelles-limites-cont": "derivation-etude-fonctions",
+    "cote-ivoire-lycee-mathematiques-d-primitives": "primitives",
+    "cote-ivoire-lycee-mathematiques-c-primitives": "primitives",
+    "benin-lycee-mathematiques-c-primitives": "primitives",
+    "cote-ivoire-lycee-mathematiques-c-fonctions-logarithmes": "logarithme",
+    "cote-ivoire-lycee-mathematiques-d-fonctions-logarithmes": "logarithme",
+    "benin-lycee-mathematiques-c-fonction-logarithme-neperien": "logarithme",
+    "senegal-lycee-mathematiques-l1-l2-fonction-logarithme-neperi": "logarithme",
+    "burkina-faso-lycee-mathematiques-c-d-derivee-de-lnu-et-primi": "logarithme",
+    "cote-ivoire-lycee-mathematiques-d-fonctions-exponentielles-e": "exponentielle",
+    "cote-ivoire-lycee-mathematiques-c-fonctions-exponentielles-e": "exponentielle",
+    "benin-lycee-mathematiques-c-fonction-exponentielle-neperienn": "exponentielle",
+    "senegal-lycee-mathematiques-l1-l2-fonction-exponentielle": "exponentielle",
+    "cote-ivoire-lycee-mathematiques-d-calcul-integral": "calcul-integral",
+    "benin-lycee-mathematiques-c-calcul-integral": "calcul-integral",
+    "senegal-lycee-mathematiques-s1-s3-calcul-integral": "calcul-integral",
+    "senegal-lycee-mathematiques-l1-l2-calcul-integral": "calcul-integral",
+    "mali-lycee-mathematiques-se-calcul-integral-et-equations-dif": "calcul-integral",
+    "cote-ivoire-lycee-mathematiques-d-equations-differentielles": "equations-differentielles",
+    "benin-lycee-mathematiques-c-equations-differentielles-lineai": "equations-differentielles",
+    "senegal-lycee-mathematiques-s1-s3-equations-differentielles": "equations-differentielles"
+  }
+}
