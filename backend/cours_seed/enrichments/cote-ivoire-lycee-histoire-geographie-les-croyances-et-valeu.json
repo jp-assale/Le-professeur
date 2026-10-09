@@ -1,0 +1,75 @@
+{
+  "_topic": "croyances-valeurs",
+  "objectifs": [
+    "Présenter les grandes religions et croyances du monde.",
+    "Identifier les valeurs universelles (droits humains, démocratie, tolérance).",
+    "Analyser les enjeux actuels (dialogue, intolérance, fanatisme)."
+  ],
+  "prerequis": [
+    "Relations internationales."
+  ],
+  "a_retenir": {
+    "points": [
+      "Grandes religions : monothéismes (judaïsme, christianisme, islam), hindouisme, bouddhisme, religions traditionnelles africaines (culte des ancêtres, sacré lié à la nature).",
+      "Les religions façonnent les cultures, les fêtes, l'art et les règles de vie.",
+      "Valeurs universelles : dignité humaine, droits de l'homme (Déclaration universelle de 1948), démocratie, laïcité, tolérance.",
+      "Enjeux : dialogue interreligieux (tradition de coexistence en Afrique de l'Ouest), mais aussi fanatisme, terrorisme, discriminations.",
+      "La laïcité garantit la liberté de conscience et la neutralité de l'État vis-à-vis des religions."
+    ],
+    "formules": [
+      "10 décembre 1948 : DUDH",
+      "Laïcité = liberté de conscience + neutralité de l'État"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre laïcité et rejet des religions.",
+      "correction": "La laïcité protège la liberté de croire ou de ne pas croire."
+    },
+    {
+      "erreur": "Généraliser les actes de quelques extrémistes à toute une religion.",
+      "correction": "Distingue religion et fanatisme."
+    },
+    {
+      "erreur": "Oublier les religions traditionnelles africaines.",
+      "correction": "Elles restent présentes et influencent les pratiques sociales."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les trois religions monothéistes et leur livre saint.",
+      "indice": "Torah, Bible, Coran.",
+      "corrige": [
+        "Judaïsme (Torah), christianisme (Bible), islam (Coran)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Qu'est-ce que la laïcité ? Pourquoi est-elle importante dans un pays où coexistent plusieurs religions ?",
+      "indice": "Neutralité, égalité.",
+      "corrige": [
+        "La laïcité est le principe de séparation de l'État et des religions : l'État est neutre et garantit la liberté de conscience.",
+        "Elle permet à tous les citoyens, quelle que soit leur religion, d'être égaux et de vivre ensemble en paix."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre que le dialogue interreligieux est un facteur de paix en Afrique de l'Ouest.",
+      "indice": "Exemples de coexistence, rôle des chefs religieux.",
+      "corrige": [
+        "Tradition de coexistence : familles mixtes, fêtes partagées, parenté à plaisanterie.",
+        "Rôle des chefs religieux dans la médiation des crises et la lutte contre l'extrémisme.",
+        "Le dialogue réduit les préjugés et renforce la cohésion nationale."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : croyances et valeurs",
+    "etapes": [
+      "Reste neutre et respectueux.",
+      "Définis précisément les notions (laïcité, tolérance, droits humains).",
+      "Appuie-toi sur des exemples concrets."
+    ]
+  }
+}

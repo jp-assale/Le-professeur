@@ -1,0 +1,74 @@
+{
+  "_topic": "relations-internationales",
+  "objectifs": [
+    "Retracer la Seconde Guerre mondiale et la création de l'ONU.",
+    "Expliquer la guerre froide et la bipolarisation.",
+    "Décrire le monde multipolaire actuel."
+  ],
+  "prerequis": [
+    "Première Guerre mondiale."
+  ],
+  "a_retenir": {
+    "points": [
+      "Entre-deux-guerres : révolution russe (1917), crise de 1929, montée des régimes totalitaires ; Seconde Guerre mondiale (1939-1945), fin en Europe le 8 mai 1945, bombes atomiques sur Hiroshima (6 août 1945) et Nagasaki.",
+      "ONU : Charte signée à San Francisco le 26 juin 1945 ; siège à New York ; Conseil de sécurité de 15 membres dont 5 permanents avec droit de veto (Chine, États-Unis, France, Royaume-Uni, Russie). Déclaration universelle des droits de l'homme : 10 décembre 1948.",
+      "Guerre froide (1947-1991) : affrontement indirect entre le bloc américain (Plan Marshall, OTAN en 1949) et le bloc soviétique (pacte de Varsovie en 1955) ; mur de Berlin (1961-1989), crise de Cuba (1962).",
+      "Révolution chinoise : proclamation de la République populaire de Chine le 1er octobre 1949.",
+      "Fin de l'URSS en décembre 1991 ; aujourd'hui, monde multipolaire (États-Unis, Chine, UE, puissances émergentes) et nouvelles menaces (terrorisme, conflits régionaux)."
+    ],
+    "formules": [
+      "1939-1945 : Seconde Guerre mondiale",
+      "1945 : ONU",
+      "1947-1991 : guerre froide"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que la guerre froide a opposé directement les deux Grands par les armes.",
+      "correction": "Ils ne se sont jamais affrontés directement ; les conflits se faisaient par alliés interposés (Corée, Vietnam…)."
+    },
+    {
+      "erreur": "Oublier le droit de veto dans le fonctionnement de l'ONU.",
+      "correction": "Un seul membre permanent peut bloquer une décision du Conseil de sécurité."
+    },
+    {
+      "erreur": "Confondre SDN et ONU.",
+      "correction": "La SDN (1919) a échoué ; l'ONU (1945) l'a remplacée."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les cinq membres permanents du Conseil de sécurité de l'ONU.",
+      "indice": "Les vainqueurs de 1945.",
+      "corrige": [
+        "Chine, États-Unis, France, Royaume-Uni, Russie (héritière de l'URSS)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi parle-t-on de « bipolarisation » après 1947 ?",
+      "indice": "Deux pôles.",
+      "corrige": [
+        "Le monde se divise en deux blocs dirigés par deux superpuissances, les États-Unis (capitalisme, démocratie libérale) et l'URSS (communisme) : deux pôles rivaux."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre le rôle et les limites de l'ONU dans le maintien de la paix.",
+      "indice": "Casques bleus, veto.",
+      "corrige": [
+        "Rôle : forum de dialogue, opérations de maintien de la paix (casques bleus), aide humanitaire (agences spécialisées), défense des droits humains.",
+        "Limites : droit de veto qui paralyse le Conseil de sécurité, manque de moyens propres, dépendance à la volonté des grandes puissances."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : les relations internationales",
+    "etapes": [
+      "Construis une frise chronologique (1914-1991).",
+      "Distingue les acteurs et les blocs.",
+      "Utilise des exemples précis (crises, conflits, institutions)."
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_topic": "integration-regionale",
+  "objectifs": [
+    "Connaître la CEDEAO et l'UEMOA (création, membres, objectifs).",
+    "Expliquer les relations entre l'Union européenne et les pays ACP.",
+    "Évaluer les réussites et les difficultés de la coopération."
+  ],
+  "prerequis": [
+    "Carte politique de l'Afrique de l'Ouest."
+  ],
+  "a_retenir": {
+    "points": [
+      "CEDEAO : créée par le traité de Lagos le 28 mai 1975, siège à Abuja ; objectifs : intégration économique, libre circulation des personnes (protocole de 1979), paix et sécurité (ECOMOG) ; projet de monnaie commune (« eco »).",
+      "En janvier 2024, le Mali, le Burkina Faso et le Niger ont annoncé leur retrait de la CEDEAO (effectif en 2025) et forment l'Alliance des États du Sahel.",
+      "UEMOA : créée par le traité de Dakar le 10 janvier 1994, 8 États (Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo) ; siège à Ouagadougou ; monnaie commune : le franc CFA émis par la BCEAO ; tarif extérieur commun.",
+      "Relations UE-ACP : conventions de Yaoundé (1963), de Lomé (1975), accord de Cotonou (2000), puis accord de Samoa (2023) ; aide au développement, préférences commerciales, Accords de partenariat économique (APE).",
+      "Difficultés : instabilité politique, insécurité, faiblesse du commerce entre pays voisins, infrastructures insuffisantes."
+    ],
+    "formules": [
+      "1975 : CEDEAO (Lagos)",
+      "1994 : UEMOA (Dakar)",
+      "Lomé 1975 → Cotonou 2000 → Samoa 2023"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre CEDEAO et UEMOA.",
+      "correction": "L'UEMOA réunit 8 pays utilisant le franc CFA ; la CEDEAO est plus large et regroupe aussi des pays anglophones et lusophones."
+    },
+    {
+      "erreur": "Placer le siège de l'UEMOA à Abuja.",
+      "correction": "UEMOA : Ouagadougou ; CEDEAO : Abuja ; BCEAO : Dakar."
+    },
+    {
+      "erreur": "Ne pas actualiser la liste des membres.",
+      "correction": "Tiens compte des retraits annoncés en 2024."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la date de création, le siège et la monnaie de l'UEMOA.",
+      "indice": "Dakar, 1994.",
+      "corrige": [
+        "Traité de Dakar, 10 janvier 1994 ; siège à Ouagadougou ; monnaie : franc CFA (BCEAO)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Quels avantages un commerçant ou un étudiant tire-t-il de la libre circulation dans la CEDEAO ?",
+      "indice": "Passeport, visas.",
+      "corrige": [
+        "Circulation et séjour sans visa dans les États membres, passeport CEDEAO, possibilité de commercer, d'étudier ou de travailler plus facilement dans un pays voisin."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre les réussites et les limites de l'intégration régionale en Afrique de l'Ouest.",
+      "indice": "Monnaie, circulation, paix / crises, commerce faible.",
+      "corrige": [
+        "Réussites : libre circulation, monnaie commune de l'UEMOA, tarif extérieur commun, interventions pour la paix (ECOMOG), projets d'infrastructures.",
+        "Limites : commerce entre États membres encore faible, barrières non tarifaires (tracasseries routières), crises politiques et sécuritaires, retraits de membres.",
+        "L'intégration reste un objectif majeur pour le développement de la région."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : organisations régionales",
+    "etapes": [
+      "Date, lieu, membres, siège.",
+      "Objectifs et institutions.",
+      "Bilan avec exemples récents."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_topic": "terre-systeme-solaire",
+  "objectifs": [
+    "Situer la Terre dans le système solaire.",
+    "Expliquer l'alternance des jours et des nuits et les saisons.",
+    "Utiliser les coordonnées géographiques et les fuseaux horaires."
+  ],
+  "prerequis": [
+    "Lecture de cartes et de schémas."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le système solaire compte 8 planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune ; la Terre est la 3e, à environ 150 millions de km du Soleil.",
+      "La rotation de la Terre sur elle-même (environ 24 h) explique l'alternance des jours et des nuits.",
+      "La révolution autour du Soleil (environ 365 jours et 6 heures) et l'inclinaison de l'axe de la Terre (environ 23° 26') expliquent les saisons.",
+      "Latitude : position au nord ou au sud de l'équateur (0° à 90°) ; longitude : position à l'est ou à l'ouest du méridien de Greenwich (0° à 180°).",
+      "La Terre tourne de 15° par heure : 24 fuseaux horaires ; une ville située 45° à l'est de Greenwich a 3 heures d'avance (heure solaire)."
+    ],
+    "formules": [
+      "360° ÷ 24 h = 15° par heure",
+      "Décalage horaire = écart de longitude ÷ 15°"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Expliquer les saisons par la distance Terre-Soleil.",
+      "correction": "Elles s'expliquent par l'inclinaison de l'axe de la Terre."
+    },
+    {
+      "erreur": "Confondre rotation et révolution.",
+      "correction": "Rotation : sur elle-même (jour) ; révolution : autour du Soleil (année)."
+    },
+    {
+      "erreur": "Confondre latitude et longitude.",
+      "correction": "Latitude : nord/sud (par rapport à l'équateur) ; longitude : est/ouest (par rapport à Greenwich)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Range les planètes du système solaire de la plus proche à la plus éloignée du Soleil.",
+      "indice": "« Me Voici Toute Mignonne Jolie Sur Un Nuage ».",
+      "corrige": [
+        "Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dakar est à environ 17° de longitude ouest, une ville X à 43° est. Quel est l'écart de longitude et le décalage horaire solaire approximatif ?",
+      "indice": "Additionne les longitudes de part et d'autre de Greenwich.",
+      "corrige": [
+        "Écart : 17 + 43 = 60°.",
+        "Décalage : 60 ÷ 15 = 4 heures ; X a 4 heures d'avance sur Dakar (heure solaire)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Explique pourquoi il y a des saisons, et pourquoi elles sont inversées entre les hémisphères Nord et Sud.",
+      "indice": "Axe incliné, révolution.",
+      "corrige": [
+        "L'axe de la Terre est incliné et garde la même direction pendant la révolution : selon la période de l'année, un hémisphère reçoit les rayons du Soleil plus directement et plus longtemps.",
+        "Quand l'hémisphère Nord est penché vers le Soleil (son été), l'hémisphère Sud est penché à l'opposé (son hiver), et inversement."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : la Terre dans le système solaire",
+    "etapes": [
+      "Utilise un schéma (Soleil, Terre, axe, rayons).",
+      "Distingue rotation et révolution.",
+      "Pour l'heure, calcule l'écart de longitude puis divise par 15."
+    ]
+  }
+}

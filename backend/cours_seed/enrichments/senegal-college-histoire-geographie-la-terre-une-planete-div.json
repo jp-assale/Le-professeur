@@ -1,0 +1,76 @@
+{
+  "_topic": "population-developpement",
+  "objectifs": [
+    "Calculer et interpréter les indicateurs démographiques.",
+    "Expliquer l'exode rural et les migrations.",
+    "Analyser les problèmes de développement de l'Afrique et proposer des solutions."
+  ],
+  "prerequis": [
+    "Pourcentages et taux pour mille."
+  ],
+  "a_retenir": {
+    "points": [
+      "Taux de natalité et de mortalité s'expriment en ‰ ; l'accroissement naturel = natalité − mortalité.",
+      "L'Afrique a une population jeune et en forte croissance (environ 2,5 % par an), car la mortalité a baissé plus vite que la natalité (transition démographique).",
+      "Exode rural (départ des campagnes vers les villes) et migrations (vers les pays voisins, l'Europe…) : causes économiques, climatiques, sécuritaires.",
+      "Problèmes de développement : pauvreté, faible industrialisation, dépendance aux matières premières, dette, insuffisance des services (santé, éducation), sécheresses et désertification en zone soudano-sahélienne, insécurité.",
+      "Pistes : éducation (des filles en particulier), santé, modernisation agricole, transformation locale des produits, intégration régionale, bonne gouvernance. L'IDH mesure le développement (santé, éducation, revenu)."
+    ],
+    "formules": [
+      "Accroissement naturel (‰) = natalité (‰) − mortalité (‰)",
+      "Taux (‰) = (nombre ÷ population) × 1 000",
+      "Temps de doublement ≈ 70 ÷ taux de croissance (%)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre ‰ et %.",
+      "correction": "32 ‰ = 3,2 %."
+    },
+    {
+      "erreur": "Expliquer la croissance démographique par une hausse de la natalité.",
+      "correction": "C'est surtout la baisse de la mortalité qui l'explique."
+    },
+    {
+      "erreur": "Présenter les problèmes sans solutions.",
+      "correction": "Termine toujours par des pistes argumentées."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un pays a un taux de natalité de 42 ‰ et un taux de mortalité de 10 ‰. Calcule l'accroissement naturel en ‰ et en %.",
+      "indice": "Soustraction.",
+      "corrige": [
+        "42 − 10 = 32 ‰, soit 3,2 %."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Ce pays compte 20 millions d'habitants. De combien augmente sa population en un an ? En combien d'années environ doublera-t-elle ?",
+      "indice": "3,2 % de 20 millions ; règle de 70.",
+      "corrige": [
+        "20 000 000 × 0,032 = 640 000 habitants par an.",
+        "Doublement ≈ 70 ÷ 3,2 ≈ 22 ans."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Explique les causes de l'exode rural en zone sahélienne et ses conséquences sur les villes.",
+      "indice": "Sécheresse, pauvreté / bidonvilles, chômage.",
+      "corrige": [
+        "Causes : sécheresses et dégradation des sols, pauvreté, manque d'infrastructures rurales, attrait de la ville (emplois, écoles), insécurité.",
+        "Conséquences : croissance rapide des villes, quartiers précaires, chômage et secteur informel, pression sur l'eau, les transports et les services.",
+        "Solutions : développer les campagnes (irrigation, routes, écoles, centres de santé), créer des emplois ruraux."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : population et développement",
+    "etapes": [
+      "Calcule et interprète les indicateurs.",
+      "Classe causes et conséquences.",
+      "Propose des solutions réalistes."
+    ]
+  }
+}

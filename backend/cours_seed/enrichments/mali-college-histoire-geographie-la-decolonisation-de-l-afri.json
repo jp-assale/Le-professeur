@@ -1,0 +1,75 @@
+{
+  "_topic": "decolonisation",
+  "objectifs": [
+    "Expliquer les facteurs de la décolonisation.",
+    "Distinguer décolonisation négociée et décolonisation par la guerre.",
+    "Retracer l'accession à l'indépendance de son pays et la naissance du Tiers-monde."
+  ],
+  "prerequis": [
+    "Colonisation, Seconde Guerre mondiale."
+  ],
+  "a_retenir": {
+    "points": [
+      "Facteurs : participation africaine à la Seconde Guerre mondiale, affaiblissement des métropoles, Charte de l'Atlantique (1941) et ONU, élites et partis politiques (RDA fondé à Bamako en 1946), soutien des États-Unis et de l'URSS.",
+      "Étapes en Afrique française : conférence de Brazzaville (1944), loi Houphouët-Boigny abolissant le travail forcé et loi Lamine Guèye (1946), loi-cadre Defferre (1956), référendum de 1958 (la Guinée vote « non » et devient indépendante le 2 octobre 1958), indépendances de 1960.",
+      "Indépendances : Côte d'Ivoire le 7 août 1960 ; Mali le 22 septembre 1960 après l'éclatement de la Fédération du Mali ; Sénégal le 20 août 1960.",
+      "Décolonisation par la guerre : Algérie (1954-1962, accords d'Évian, indépendance le 5 juillet 1962).",
+      "Conférence de Bandung (avril 1955) : affirmation des peuples afro-asiatiques et naissance du Tiers-monde."
+    ],
+    "formules": [
+      "1944 : Brazzaville ; 1946 : RDA",
+      "1958 : référendum ; 1960 : indépendances",
+      "1955 : Bandung"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que toutes les indépendances ont été pacifiques.",
+      "correction": "Algérie, Cameroun, Kenya : luttes armées."
+    },
+    {
+      "erreur": "Confondre RDA et Fédération du Mali.",
+      "correction": "RDA : parti interterritorial (1946) ; Fédération du Mali : union Soudan-Sénégal (1959-1960)."
+    },
+    {
+      "erreur": "Oublier le rôle de la Seconde Guerre mondiale.",
+      "correction": "Elle affaiblit les métropoles et renforce les revendications (fusillade de Thiaroye, 1944)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la date d'indépendance de la Côte d'Ivoire, du Mali, du Sénégal et de la Guinée.",
+      "indice": "1958 et 1960.",
+      "corrige": [
+        "Côte d'Ivoire : 7 août 1960 ; Mali : 22 septembre 1960 ; Sénégal : 20 août 1960 ; Guinée : 2 octobre 1958."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi la Guinée est-elle indépendante avant les autres colonies de l'AOF ?",
+      "indice": "Référendum de 1958.",
+      "corrige": [
+        "Au référendum de septembre 1958 sur la Communauté française, la Guinée, menée par Sékou Touré, vote « non » ; elle proclame son indépendance le 2 octobre 1958."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Compare la décolonisation de l'Afrique occidentale française et celle de l'Algérie.",
+      "indice": "Négociée / armée.",
+      "corrige": [
+        "AOF : décolonisation surtout négociée et progressive (réformes de 1946 et 1956, référendum 1958, indépendances 1960).",
+        "Algérie : guerre de libération (1954-1962) due à la présence d'une forte population européenne et au refus français ; indépendance après les accords d'Évian (1962).",
+        "Dans les deux cas, l'aspiration à la liberté et le contexte international ont joué."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la décolonisation",
+    "etapes": [
+      "Classe les facteurs (internes, externes).",
+      "Distingue les formes (négociée, armée).",
+      "Cite les dates clés de ton pays."
+    ]
+  }
+}

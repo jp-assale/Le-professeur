@@ -1,0 +1,74 @@
+{
+  "_topic": "oua-ua",
+  "objectifs": [
+    "Connaître la création, les objectifs et les organes de l'OUA.",
+    "Expliquer le passage de l'OUA à l'Union africaine.",
+    "Évaluer les réussites et les limites."
+  ],
+  "prerequis": [
+    "Décolonisation, panafricanisme."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'OUA est créée le 25 mai 1963 à Addis-Abeba par 32 États indépendants (le 25 mai est la Journée de l'Afrique).",
+      "Objectifs : unité et solidarité africaines, défense de la souveraineté, lutte contre le colonialisme et l'apartheid ; principe de l'intangibilité des frontières héritées de la colonisation (1964).",
+      "Organes : Conférence des chefs d'État et de gouvernement, Conseil des ministres, Secrétariat général, Commission de médiation.",
+      "Réussites : soutien aux luttes de libération (Afrique australe), fin de l'apartheid ; limites : principe de non-ingérence, manque de moyens, coups d'État et conflits.",
+      "L'Union africaine (UA) remplace l'OUA en 2002 (Durban) : Commission, Parlement panafricain, Conseil de paix et de sécurité ; Agenda 2063, Zone de libre-échange continentale africaine (ZLECAf)."
+    ],
+    "formules": [
+      "25 mai 1963 : OUA (Addis-Abeba)",
+      "2002 : Union africaine"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Placer le siège de l'OUA à Accra.",
+      "correction": "Le siège est à Addis-Abeba (Éthiopie)."
+    },
+    {
+      "erreur": "Dire que l'UA est une simple continuation sans changement.",
+      "correction": "L'UA peut intervenir dans un État membre en cas de crimes graves (fin de la non-ingérence absolue)."
+    },
+    {
+      "erreur": "Ne citer que des échecs.",
+      "correction": "Montre aussi les réussites (décolonisation, lutte contre l'apartheid)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quand et où l'OUA a-t-elle été créée ? Par combien d'États ?",
+      "indice": "Éthiopie, 1963.",
+      "corrige": [
+        "Le 25 mai 1963 à Addis-Abeba, par 32 États."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi l'OUA a-t-elle adopté le principe de l'intangibilité des frontières coloniales ?",
+      "indice": "Risque de conflits.",
+      "corrige": [
+        "Remettre en cause les frontières aurait provoqué de nombreuses guerres entre États ; on a préféré les conserver pour préserver la paix, malgré leur origine coloniale."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Fais le bilan de l'OUA et explique pourquoi elle a été remplacée par l'Union africaine.",
+      "indice": "Réussites / limites / nouveaux défis.",
+      "corrige": [
+        "Réussites : soutien aux mouvements de libération, fin de l'apartheid, cadre de dialogue.",
+        "Limites : non-ingérence face aux dictatures et aux guerres civiles, faibles moyens, faible intégration économique.",
+        "L'UA (2002) dote l'Afrique d'institutions plus fortes pour la paix, la sécurité et le développement économique."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : OUA et UA",
+    "etapes": [
+      "Date, lieu, membres fondateurs.",
+      "Objectifs et organes.",
+      "Bilan nuancé (réussites, limites)."
+    ]
+  }
+}

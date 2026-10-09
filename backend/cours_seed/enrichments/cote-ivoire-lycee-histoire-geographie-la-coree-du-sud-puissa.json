@@ -1,0 +1,75 @@
+{
+  "_topic": "puissances-economiques",
+  "objectifs": [
+    "Expliquer les facteurs de la puissance économique de la France.",
+    "Expliquer l'émergence de la Corée du Sud.",
+    "Comparer ces modèles et en tirer des leçons pour l'Afrique."
+  ],
+  "prerequis": [
+    "Secteurs d'activité, mondialisation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La France est une grande puissance économique : membre du G7 et de l'Union européenne, premier producteur agricole de l'UE, industries de pointe (aéronautique avec Airbus, nucléaire qui produit la majorité de son électricité, luxe), pays le plus visité au monde.",
+      "Problèmes de la France : désindustrialisation, chômage, dette publique, inégalités territoriales.",
+      "La Corée du Sud, très pauvre après la guerre de Corée (1950-1953), est devenue un pays industrialisé : stratégie d'industrialisation par les exportations, État stratège, grands groupes (chaebols : Samsung, Hyundai, LG), investissement massif dans l'éducation et la recherche ; membre de l'OCDE depuis 1996.",
+      "Limites coréennes : dépendance aux exportations, vieillissement et natalité très faible, tensions avec la Corée du Nord.",
+      "Leçons : rôle de l'éducation, de la planification, de la transformation industrielle et de la conquête de marchés."
+    ],
+    "formules": [
+      "Émergence = croissance forte + industrialisation + intégration au commerce mondial"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Présenter le développement coréen comme dû au seul hasard ou à l'aide extérieure.",
+      "correction": "Il repose sur une stratégie volontaire de l'État et sur l'éducation."
+    },
+    {
+      "erreur": "Oublier les faiblesses des puissances.",
+      "correction": "Toute puissance a des limites : mentionne-les."
+    },
+    {
+      "erreur": "Comparer sans critères.",
+      "correction": "Compare avec des critères : agriculture, industrie, services, commerce, éducation."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite deux atouts économiques de la France et deux de la Corée du Sud.",
+      "indice": "Agriculture, industrie / chaebols, éducation.",
+      "corrige": [
+        "France : agriculture puissante, industries aéronautique et nucléaire (ou tourisme).",
+        "Corée du Sud : grands groupes industriels exportateurs (Samsung, Hyundai), système éducatif performant."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Qu'est-ce qu'un pays émergent ? Pourquoi la Corée du Sud en est-elle un exemple célèbre ?",
+      "indice": "Pauvreté → industrialisation rapide.",
+      "corrige": [
+        "Un pays émergent connaît une croissance rapide, s'industrialise et s'intègre fortement au commerce mondial.",
+        "La Corée du Sud est passée en quelques décennies d'un pays pauvre et agricole à une puissance industrielle et technologique."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Quelles leçons un pays d'Afrique de l'Ouest peut-il tirer de l'expérience coréenne ?",
+      "indice": "Éducation, transformation, État stratège.",
+      "corrige": [
+        "Investir massivement dans l'éducation et la formation technique.",
+        "Transformer les matières premières sur place et développer des industries exportatrices.",
+        "Mettre en place un État stratège (planification, infrastructures, soutien aux entreprises nationales) et une bonne gouvernance."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : étude d'une puissance économique",
+    "etapes": [
+      "Présente les atouts par secteur.",
+      "Explique les facteurs de la puissance.",
+      "Termine par les limites et une comparaison."
+    ]
+  }
+}

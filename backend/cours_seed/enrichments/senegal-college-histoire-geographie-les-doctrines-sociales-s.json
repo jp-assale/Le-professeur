@@ -1,0 +1,75 @@
+{
+  "_topic": "industrialisation-capitalisme",
+  "objectifs": [
+    "Décrire les révolutions industrielles et les progrès scientifiques du XIXe siècle.",
+    "Expliquer le développement du capitalisme et les mutations sociales.",
+    "Présenter les réponses : syndicalisme et socialisme."
+  ],
+  "prerequis": [
+    "Notions d'économie (production, profit)."
+  ],
+  "a_retenir": {
+    "points": [
+      "1re révolution industrielle (fin XVIIIe – milieu XIXe, d'abord en Angleterre) : machine à vapeur, charbon, textile, chemin de fer.",
+      "2e révolution industrielle (fin XIXe) : électricité, pétrole, moteur à explosion, chimie, acier ; inventions comme le téléphone (Bell, 1876) et l'ampoule électrique (Edison, 1879) ; vaccin contre la rage (Pasteur, 1885).",
+      "Capitalisme : propriété privée des moyens de production, recherche du profit, concentration des entreprises (trusts, cartels), rôle des banques.",
+      "Mutations sociales : essor de la bourgeoisie, naissance du prolétariat ouvrier, exode rural, conditions de travail très dures (travail des enfants).",
+      "Réponses : syndicats ; socialisme (Marx et Engels, Manifeste du parti communiste, 1848) ; catholicisme social (encyclique Rerum novarum, 1891)."
+    ],
+    "formules": [
+      "Bourgeoisie (possède le capital) / prolétariat (vend sa force de travail)",
+      "1848 : Manifeste du parti communiste"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Mélanger les inventions des deux révolutions industrielles.",
+      "correction": "Vapeur et charbon : 1re ; électricité et pétrole : 2e."
+    },
+    {
+      "erreur": "Confondre syndicalisme et socialisme.",
+      "correction": "Le syndicat défend les travailleurs d'un métier ; le socialisme est une doctrine qui veut transformer la société."
+    },
+    {
+      "erreur": "Oublier le lien avec l'impérialisme.",
+      "correction": "L'industrie a besoin de matières premières et de débouchés : c'est une cause de la colonisation."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe ces innovations entre 1re et 2e révolution industrielle : machine à vapeur, électricité, chemin de fer, moteur à explosion, métier à tisser mécanique, pétrole.",
+      "indice": "Charbon / pétrole-électricité.",
+      "corrige": [
+        "1re : machine à vapeur, chemin de fer, métier à tisser mécanique.",
+        "2e : électricité, moteur à explosion, pétrole."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi les ouvriers créent-ils des syndicats au XIXe siècle ?",
+      "indice": "Conditions de travail.",
+      "corrige": [
+        "Journées de 12 à 15 heures, salaires faibles, travail des enfants, absence de protection en cas d'accident : les ouvriers s'unissent pour défendre leurs droits (grèves, négociations)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre le lien entre la révolution industrielle en Europe et la colonisation de l'Afrique.",
+      "indice": "Matières premières, débouchés, capitaux.",
+      "corrige": [
+        "L'industrie européenne a besoin de matières premières (coton, arachide, caoutchouc, minerais), de débouchés pour ses produits et de placements pour ses capitaux.",
+        "Les progrès techniques (bateaux à vapeur, armes modernes, quinine) facilitent la conquête.",
+        "La colonisation répond donc en grande partie aux besoins des économies industrielles."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : révolutions industrielles",
+    "etapes": [
+      "Distingue les deux révolutions par leurs énergies et inventions.",
+      "Relie économie, société et idées.",
+      "Fais le lien avec l'impérialisme quand le sujet s'y prête."
+    ]
+  }
+}

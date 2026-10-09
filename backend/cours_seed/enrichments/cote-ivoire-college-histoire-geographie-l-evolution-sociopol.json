@@ -1,0 +1,79 @@
+{
+  "_topic": "imperialisme-colonisation",
+  "objectifs": [
+    "Expliquer les causes de l'impérialisme européen.",
+    "Décrire la Conférence de Berlin et le partage de l'Afrique.",
+    "Présenter les résistances africaines et les systèmes coloniaux."
+  ],
+  "prerequis": [
+    "Révolutions industrielles."
+  ],
+  "a_retenir": {
+    "points": [
+      "Causes : économiques (matières premières, débouchés), politiques (prestige, rivalités), démographiques, idéologiques (prétendue « mission civilisatrice »), religieuses ; préparées par les explorateurs (René Caillié atteint Tombouctou en 1828).",
+      "Conférence de Berlin (novembre 1884 – février 1885), réunie par Bismarck : règles du partage (occupation effective, notification), libre navigation sur le Congo et le Niger ; elle accélère la course aux territoires.",
+      "Résistances : El Hadj Omar Tall, Samori Touré (capturé en 1898), Lat Dior (mort en 1886), Béhanzin au Dahomey (capturé en 1894), Babemba à Sikasso (1898), résistances en Côte d'Ivoire (Baoulé, Abbey).",
+      "Systèmes coloniaux : administration directe française (AOF créée en 1895, gouverneur général à Dakar) ; administration indirecte britannique (« indirect rule »).",
+      "Exploitation : travail forcé, impôt de capitation, cultures obligatoires, code de l'indigénat. La Côte d'Ivoire devient colonie le 10 mars 1893."
+    ],
+    "formules": [
+      "1884-1885 : Conférence de Berlin",
+      "1895 : création de l'AOF",
+      "1898 : capture de Samori Touré"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que l'Afrique a été « partagée sur une carte » en séance à Berlin.",
+      "correction": "Berlin a fixé les règles ; le partage s'est fait ensuite sur le terrain et par des traités bilatéraux."
+    },
+    {
+      "erreur": "Présenter l'Afrique comme passive.",
+      "correction": "De nombreuses résistances armées et passives ont eu lieu."
+    },
+    {
+      "erreur": "Confondre administration directe et indirecte.",
+      "correction": "Directe : administrateurs européens ; indirecte : chefs locaux sous contrôle colonial."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite trois résistants africains à la conquête coloniale et leur région.",
+      "indice": "Samori, Lat Dior, Béhanzin…",
+      "corrige": [
+        "Samori Touré (Haute-Guinée, sud du Mali, nord de la Côte d'Ivoire).",
+        "Lat Dior (Cayor, Sénégal).",
+        "Béhanzin (royaume du Dahomey, actuel Bénin)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Quelles décisions ont été prises à la Conférence de Berlin ?",
+      "indice": "Règles du partage, navigation.",
+      "corrige": [
+        "Une puissance doit occuper effectivement un territoire et notifier son acquisition aux autres.",
+        "Liberté de navigation et de commerce sur le Congo et le Niger.",
+        "Ces règles déclenchent une course à l'occupation de l'intérieur de l'Afrique."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Explique pourquoi les résistances africaines ont finalement été vaincues, malgré leur durée.",
+      "indice": "Armement, divisions, stratégie coloniale.",
+      "corrige": [
+        "Supériorité de l'armement européen (fusils à répétition, canons).",
+        "Divisions entre royaumes africains, exploitées par les colonisateurs (alliances, traités).",
+        "Moyens logistiques et sanitaires (quinine, chemins de fer, bateaux) ; politique de la terre brûlée et blocus (Samori)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la colonisation",
+    "etapes": [
+      "Classe les causes.",
+      "Cite des résistants avec lieux et dates.",
+      "Décris le système colonial et ses conséquences."
+    ]
+  }
+}

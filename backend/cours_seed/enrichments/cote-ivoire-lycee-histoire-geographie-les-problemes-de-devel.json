@@ -1,0 +1,77 @@
+{
+  "_topic": "economie-cote-ivoire",
+  "objectifs": [
+    "Expliquer les fondements du développement économique ivoirien.",
+    "Décrire les secteurs d'activité (primaire, secondaire, tertiaire).",
+    "Analyser les problèmes et les perspectives."
+  ],
+  "prerequis": [
+    "Carte de la Côte d'Ivoire."
+  ],
+  "a_retenir": {
+    "points": [
+      "Fondements : libéralisme économique depuis 1960, priorité à l'agriculture d'exportation, ouverture aux capitaux étrangers, infrastructures (port d'Abidjan, port de San Pedro) ; le « miracle ivoirien » (1960-1980).",
+      "Secteur primaire : premier producteur mondial de cacao et de noix de cajou (anacarde) ; café, hévéa, palmier à huile, coton, banane, ananas ; vivriers (igname, manioc, riz, banane plantain).",
+      "Secteur secondaire : agro-industrie (transformation du cacao, huileries), raffinerie, BTP ; énergie hydroélectrique (barrages de Kossou, Soubré) et hydrocarbures (gisement offshore Baleine découvert en 2021).",
+      "Secteur tertiaire : commerce, transports, banques, télécommunications ; Abidjan est un pôle régional.",
+      "Problèmes : dépendance aux cours des matières premières (crise des années 1980, dévaluation du franc CFA en 1994), déforestation, travail des enfants dans certaines plantations, inégalités et chômage des jeunes ; perspectives : transformation locale, diversification."
+    ],
+    "formules": [
+      "Primaire : agriculture, pêche, mines",
+      "Secondaire : industrie, énergie, BTP",
+      "Tertiaire : services"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Réduire l'économie ivoirienne au cacao.",
+      "correction": "Cite aussi l'anacarde, l'hévéa, les services, l'énergie."
+    },
+    {
+      "erreur": "Classer la transformation du cacao dans le primaire.",
+      "correction": "La transformation relève du secondaire."
+    },
+    {
+      "erreur": "Oublier les problèmes environnementaux.",
+      "correction": "La cacaoculture a fortement réduit la forêt."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe dans les secteurs d'activité : culture du cacao, chocolaterie, banque, port, pêche, raffinerie.",
+      "indice": "Produire / transformer / servir.",
+      "corrige": [
+        "Primaire : culture du cacao, pêche.",
+        "Secondaire : chocolaterie, raffinerie.",
+        "Tertiaire : banque, port (transport et commerce)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi la chute des cours du cacao dans les années 1980 a-t-elle provoqué une crise en Côte d'Ivoire ?",
+      "indice": "Dépendance.",
+      "corrige": [
+        "Les recettes de l'État et des paysans dépendaient fortement du cacao et du café ; la baisse des prix a réduit les revenus, augmenté l'endettement et ralenti l'économie."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Propose trois mesures pour rendre l'économie ivoirienne moins dépendante des matières premières, en justifiant.",
+      "indice": "Transformation, diversification, formation.",
+      "corrige": [
+        "Transformer localement le cacao et l'anacarde : plus de valeur ajoutée et d'emplois.",
+        "Diversifier : industrie, numérique, tourisme, énergie.",
+        "Former la main-d'œuvre et soutenir les PME pour créer des emplois aux jeunes."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'économie de la Côte d'Ivoire",
+    "etapes": [
+      "Utilise les trois secteurs pour organiser ta réponse.",
+      "Cite des productions et des lieux précis.",
+      "Termine par les problèmes et les perspectives."
+    ]
+  }
+}

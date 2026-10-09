@@ -1,0 +1,502 @@
+{
+  "_doc": "Complements pedagogiques - Histoire-Geographie (college Mali, Senegal, Cote d'Ivoire ; lycee Cote d'Ivoire). Dates et faits etablis uniquement ; les chiffres economiques recents sont donnes en ordres de grandeur.",
+  "topics": {
+    "revolution-francaise": {
+      "objectifs": ["Expliquer les causes de la Révolution française.", "Connaître les grandes étapes de 1789.", "Mesurer ses conséquences en France et dans le monde."],
+      "prerequis": ["Notions de monarchie absolue et de société d'ordres."],
+      "a_retenir": {
+        "points": [
+          "Causes : crise financière de la monarchie, inégalités de la société d'ordres (clergé, noblesse, tiers état), idées des Lumières (Montesquieu, Voltaire, Rousseau), mauvaises récoltes de 1788.",
+          "1789 : réunion des États généraux (5 mai), serment du Jeu de paume (20 juin), prise de la Bastille (14 juillet), abolition des privilèges (nuit du 4 août), Déclaration des droits de l'homme et du citoyen (26 août).",
+          "1792 : la monarchie est abolie et la République proclamée ; Louis XVI est exécuté en janvier 1793.",
+          "L'esclavage est aboli en 1794, rétabli par Bonaparte en 1802, puis définitivement aboli en 1848.",
+          "Conséquences : fin de la monarchie absolue, égalité devant la loi, souveraineté nationale, diffusion des idées de liberté dans le monde."
+        ],
+        "formules": ["14 juillet 1789 : prise de la Bastille", "26 août 1789 : DDHC", "21-22 septembre 1792 : proclamation de la République"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre la prise de la Bastille et la fin de la monarchie.", "correction": "La monarchie devient constitutionnelle en 1791 ; elle n'est abolie qu'en 1792." },
+        { "erreur": "Croire que la Révolution a définitivement aboli l'esclavage.", "correction": "Abolition en 1794, rétablissement en 1802, abolition définitive en 1848." },
+        { "erreur": "Citer des causes sans les classer.", "correction": "Classe-les : économiques, sociales, politiques, idéologiques." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Range dans l'ordre chronologique : DDHC, prise de la Bastille, États généraux, abolition des privilèges.", "indice": "Mai, juillet, août 1789.", "corrige": ["États généraux (5 mai 1789) → prise de la Bastille (14 juillet) → abolition des privilèges (4 août) → DDHC (26 août)."] },
+        { "niveau": "moyen", "enonce": "Article 1 de la DDHC : « Les hommes naissent et demeurent libres et égaux en droits. » Montre que cet article s'oppose à la société d'Ancien Régime.", "indice": "Privilèges et ordres.", "corrige": ["L'Ancien Régime reposait sur l'inégalité : clergé et noblesse avaient des privilèges (pas d'impôt direct, droits seigneuriaux) refusés au tiers état.", "L'article 1 affirme l'égalité de tous en droits : il condamne les privilèges et la société d'ordres."] },
+        { "niveau": "examen", "enonce": "Rédige un paragraphe structuré (10 lignes) sur les causes de la Révolution française.", "indice": "Quatre types de causes.", "corrige": ["Critères : introduction avec date et définition ; causes financières (déficit, dettes), sociales (privilèges, misère du tiers état), économiques (mauvaises récoltes 1788, hausse du prix du pain), idéologiques (Lumières, exemple de l'indépendance américaine) ; conclusion reliant ces causes à l'explosion de 1789."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : une question d'histoire", "etapes": ["Situe dans le temps et l'espace.", "Classe tes idées (causes, déroulement, conséquences).", "Appuie chaque idée sur une date ou un fait précis."] }
+    },
+    "industrialisation-capitalisme": {
+      "objectifs": ["Décrire les révolutions industrielles et les progrès scientifiques du XIXe siècle.", "Expliquer le développement du capitalisme et les mutations sociales.", "Présenter les réponses : syndicalisme et socialisme."],
+      "prerequis": ["Notions d'économie (production, profit)."],
+      "a_retenir": {
+        "points": [
+          "1re révolution industrielle (fin XVIIIe – milieu XIXe, d'abord en Angleterre) : machine à vapeur, charbon, textile, chemin de fer.",
+          "2e révolution industrielle (fin XIXe) : électricité, pétrole, moteur à explosion, chimie, acier ; inventions comme le téléphone (Bell, 1876) et l'ampoule électrique (Edison, 1879) ; vaccin contre la rage (Pasteur, 1885).",
+          "Capitalisme : propriété privée des moyens de production, recherche du profit, concentration des entreprises (trusts, cartels), rôle des banques.",
+          "Mutations sociales : essor de la bourgeoisie, naissance du prolétariat ouvrier, exode rural, conditions de travail très dures (travail des enfants).",
+          "Réponses : syndicats ; socialisme (Marx et Engels, Manifeste du parti communiste, 1848) ; catholicisme social (encyclique Rerum novarum, 1891)."
+        ],
+        "formules": ["Bourgeoisie (possède le capital) / prolétariat (vend sa force de travail)", "1848 : Manifeste du parti communiste"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Mélanger les inventions des deux révolutions industrielles.", "correction": "Vapeur et charbon : 1re ; électricité et pétrole : 2e." },
+        { "erreur": "Confondre syndicalisme et socialisme.", "correction": "Le syndicat défend les travailleurs d'un métier ; le socialisme est une doctrine qui veut transformer la société." },
+        { "erreur": "Oublier le lien avec l'impérialisme.", "correction": "L'industrie a besoin de matières premières et de débouchés : c'est une cause de la colonisation." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Classe ces innovations entre 1re et 2e révolution industrielle : machine à vapeur, électricité, chemin de fer, moteur à explosion, métier à tisser mécanique, pétrole.", "indice": "Charbon / pétrole-électricité.", "corrige": ["1re : machine à vapeur, chemin de fer, métier à tisser mécanique.", "2e : électricité, moteur à explosion, pétrole."] },
+        { "niveau": "moyen", "enonce": "Pourquoi les ouvriers créent-ils des syndicats au XIXe siècle ?", "indice": "Conditions de travail.", "corrige": ["Journées de 12 à 15 heures, salaires faibles, travail des enfants, absence de protection en cas d'accident : les ouvriers s'unissent pour défendre leurs droits (grèves, négociations)."] },
+        { "niveau": "examen", "enonce": "Montre le lien entre la révolution industrielle en Europe et la colonisation de l'Afrique.", "indice": "Matières premières, débouchés, capitaux.", "corrige": ["L'industrie européenne a besoin de matières premières (coton, arachide, caoutchouc, minerais), de débouchés pour ses produits et de placements pour ses capitaux.", "Les progrès techniques (bateaux à vapeur, armes modernes, quinine) facilitent la conquête.", "La colonisation répond donc en grande partie aux besoins des économies industrielles."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : révolutions industrielles", "etapes": ["Distingue les deux révolutions par leurs énergies et inventions.", "Relie économie, société et idées.", "Fais le lien avec l'impérialisme quand le sujet s'y prête."] }
+    },
+    "premiere-guerre-mondiale": {
+      "objectifs": ["Expliquer les causes et les étapes de la Première Guerre mondiale.", "Décrire la participation de l'Afrique (hommes, produits).", "Mesurer les conséquences de la guerre, notamment en Afrique."],
+      "prerequis": ["Impérialisme européen."],
+      "a_retenir": {
+        "points": [
+          "Causes : rivalités impérialistes et économiques, nationalismes, système d'alliances (Triple Entente : France, Royaume-Uni, Russie ; Triple Alliance : Allemagne, Autriche-Hongrie, Italie). Déclencheur : attentat de Sarajevo (28 juin 1914).",
+          "Étapes : guerre de mouvement (1914), guerre de tranchées (Verdun, 1916), entrée en guerre des États-Unis (1917), armistice du 11 novembre 1918 ; traité de Versailles (28 juin 1919).",
+          "L'Afrique fournit des soldats : environ 200 000 tirailleurs dits « sénégalais » recrutés dans toute l'AOF ; Blaise Diagne organise le recrutement de 1918.",
+          "Le recrutement forcé provoque des révoltes (Bélédougou au Mali, région de la Volta en 1915-1916).",
+          "L'Afrique fournit aussi des produits (arachide, huile, coton) ; la guerre éveille une conscience politique chez les anciens combattants."
+        ],
+        "formules": ["1914-1918", "11 novembre 1918 : armistice", "28 juin 1919 : traité de Versailles"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser que les « tirailleurs sénégalais » venaient seulement du Sénégal.", "correction": "Ils étaient recrutés dans toute l'Afrique occidentale (et équatoriale) française." },
+        { "erreur": "Présenter l'attentat de Sarajevo comme la seule cause.", "correction": "C'est le déclencheur ; les causes profondes sont les rivalités et les alliances." },
+        { "erreur": "Oublier les résistances africaines au recrutement.", "correction": "Révoltes du Bélédougou, de la Volta…" }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Donne les dates du début et de la fin de la Première Guerre mondiale et cite les deux blocs.", "indice": "Entente / Alliance.", "corrige": ["1914-1918 (armistice le 11 novembre 1918).", "Triple Entente : France, Royaume-Uni, Russie ; Triple Alliance (puis Empires centraux) : Allemagne, Autriche-Hongrie."] },
+        { "niveau": "moyen", "enonce": "Quelles formes a prises la participation de l'Afrique à la guerre ?", "indice": "Hommes et produits.", "corrige": ["Militaire : tirailleurs envoyés sur le front européen et au Moyen-Orient.", "Économique : produits agricoles et matières premières, impôts et contributions.", "Humaine : travailleurs réquisitionnés."] },
+        { "niveau": "examen", "enonce": "Montre que la Première Guerre mondiale a eu des conséquences durables en Afrique.", "indice": "Morts, révoltes, conscience politique.", "corrige": ["Pertes humaines et souffrances dues au recrutement forcé ; révoltes réprimées.", "Les anciens combattants, ayant vu l'Europe en guerre, réclament l'égalité de droits.", "La guerre prépare la contestation de l'ordre colonial et les mouvements d'émancipation."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la Première Guerre mondiale", "etapes": ["Distingue causes profondes et déclencheur.", "Donne les grandes dates.", "Insiste sur la contribution et les conséquences africaines."] }
+    },
+    "imperialisme-colonisation": {
+      "objectifs": ["Expliquer les causes de l'impérialisme européen.", "Décrire la Conférence de Berlin et le partage de l'Afrique.", "Présenter les résistances africaines et les systèmes coloniaux."],
+      "prerequis": ["Révolutions industrielles."],
+      "a_retenir": {
+        "points": [
+          "Causes : économiques (matières premières, débouchés), politiques (prestige, rivalités), démographiques, idéologiques (prétendue « mission civilisatrice »), religieuses ; préparées par les explorateurs (René Caillié atteint Tombouctou en 1828).",
+          "Conférence de Berlin (novembre 1884 – février 1885), réunie par Bismarck : règles du partage (occupation effective, notification), libre navigation sur le Congo et le Niger ; elle accélère la course aux territoires.",
+          "Résistances : El Hadj Omar Tall, Samori Touré (capturé en 1898), Lat Dior (mort en 1886), Béhanzin au Dahomey (capturé en 1894), Babemba à Sikasso (1898), résistances en Côte d'Ivoire (Baoulé, Abbey).",
+          "Systèmes coloniaux : administration directe française (AOF créée en 1895, gouverneur général à Dakar) ; administration indirecte britannique (« indirect rule »).",
+          "Exploitation : travail forcé, impôt de capitation, cultures obligatoires, code de l'indigénat. La Côte d'Ivoire devient colonie le 10 mars 1893."
+        ],
+        "formules": ["1884-1885 : Conférence de Berlin", "1895 : création de l'AOF", "1898 : capture de Samori Touré"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que l'Afrique a été « partagée sur une carte » en séance à Berlin.", "correction": "Berlin a fixé les règles ; le partage s'est fait ensuite sur le terrain et par des traités bilatéraux." },
+        { "erreur": "Présenter l'Afrique comme passive.", "correction": "De nombreuses résistances armées et passives ont eu lieu." },
+        { "erreur": "Confondre administration directe et indirecte.", "correction": "Directe : administrateurs européens ; indirecte : chefs locaux sous contrôle colonial." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite trois résistants africains à la conquête coloniale et leur région.", "indice": "Samori, Lat Dior, Béhanzin…", "corrige": ["Samori Touré (Haute-Guinée, sud du Mali, nord de la Côte d'Ivoire).", "Lat Dior (Cayor, Sénégal).", "Béhanzin (royaume du Dahomey, actuel Bénin)."] },
+        { "niveau": "moyen", "enonce": "Quelles décisions ont été prises à la Conférence de Berlin ?", "indice": "Règles du partage, navigation.", "corrige": ["Une puissance doit occuper effectivement un territoire et notifier son acquisition aux autres.", "Liberté de navigation et de commerce sur le Congo et le Niger.", "Ces règles déclenchent une course à l'occupation de l'intérieur de l'Afrique."] },
+        { "niveau": "examen", "enonce": "Explique pourquoi les résistances africaines ont finalement été vaincues, malgré leur durée.", "indice": "Armement, divisions, stratégie coloniale.", "corrige": ["Supériorité de l'armement européen (fusils à répétition, canons).", "Divisions entre royaumes africains, exploitées par les colonisateurs (alliances, traités).", "Moyens logistiques et sanitaires (quinine, chemins de fer, bateaux) ; politique de la terre brûlée et blocus (Samori)."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la colonisation", "etapes": ["Classe les causes.", "Cite des résistants avec lieux et dates.", "Décris le système colonial et ses conséquences."] }
+    },
+    "decolonisation": {
+      "objectifs": ["Expliquer les facteurs de la décolonisation.", "Distinguer décolonisation négociée et décolonisation par la guerre.", "Retracer l'accession à l'indépendance de son pays et la naissance du Tiers-monde."],
+      "prerequis": ["Colonisation, Seconde Guerre mondiale."],
+      "a_retenir": {
+        "points": [
+          "Facteurs : participation africaine à la Seconde Guerre mondiale, affaiblissement des métropoles, Charte de l'Atlantique (1941) et ONU, élites et partis politiques (RDA fondé à Bamako en 1946), soutien des États-Unis et de l'URSS.",
+          "Étapes en Afrique française : conférence de Brazzaville (1944), loi Houphouët-Boigny abolissant le travail forcé et loi Lamine Guèye (1946), loi-cadre Defferre (1956), référendum de 1958 (la Guinée vote « non » et devient indépendante le 2 octobre 1958), indépendances de 1960.",
+          "Indépendances : Côte d'Ivoire le 7 août 1960 ; Mali le 22 septembre 1960 après l'éclatement de la Fédération du Mali ; Sénégal le 20 août 1960.",
+          "Décolonisation par la guerre : Algérie (1954-1962, accords d'Évian, indépendance le 5 juillet 1962).",
+          "Conférence de Bandung (avril 1955) : affirmation des peuples afro-asiatiques et naissance du Tiers-monde."
+        ],
+        "formules": ["1944 : Brazzaville ; 1946 : RDA", "1958 : référendum ; 1960 : indépendances", "1955 : Bandung"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser que toutes les indépendances ont été pacifiques.", "correction": "Algérie, Cameroun, Kenya : luttes armées." },
+        { "erreur": "Confondre RDA et Fédération du Mali.", "correction": "RDA : parti interterritorial (1946) ; Fédération du Mali : union Soudan-Sénégal (1959-1960)." },
+        { "erreur": "Oublier le rôle de la Seconde Guerre mondiale.", "correction": "Elle affaiblit les métropoles et renforce les revendications (fusillade de Thiaroye, 1944)." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Donne la date d'indépendance de la Côte d'Ivoire, du Mali, du Sénégal et de la Guinée.", "indice": "1958 et 1960.", "corrige": ["Côte d'Ivoire : 7 août 1960 ; Mali : 22 septembre 1960 ; Sénégal : 20 août 1960 ; Guinée : 2 octobre 1958."] },
+        { "niveau": "moyen", "enonce": "Pourquoi la Guinée est-elle indépendante avant les autres colonies de l'AOF ?", "indice": "Référendum de 1958.", "corrige": ["Au référendum de septembre 1958 sur la Communauté française, la Guinée, menée par Sékou Touré, vote « non » ; elle proclame son indépendance le 2 octobre 1958."] },
+        { "niveau": "examen", "enonce": "Compare la décolonisation de l'Afrique occidentale française et celle de l'Algérie.", "indice": "Négociée / armée.", "corrige": ["AOF : décolonisation surtout négociée et progressive (réformes de 1946 et 1956, référendum 1958, indépendances 1960).", "Algérie : guerre de libération (1954-1962) due à la présence d'une forte population européenne et au refus français ; indépendance après les accords d'Évian (1962).", "Dans les deux cas, l'aspiration à la liberté et le contexte international ont joué."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la décolonisation", "etapes": ["Classe les facteurs (internes, externes).", "Distingue les formes (négociée, armée).", "Cite les dates clés de ton pays."] }
+    },
+    "panafricanisme-negritude": {
+      "objectifs": ["Définir le panafricanisme et la Négritude.", "Connaître leurs acteurs et leurs grandes étapes.", "Mesurer leur rôle dans l'émancipation africaine."],
+      "prerequis": ["Colonisation."],
+      "a_retenir": {
+        "points": [
+          "Panafricanisme : mouvement qui prône l'unité et la solidarité des peuples africains et d'ascendance africaine.",
+          "Acteurs : W.E.B. Du Bois, Marcus Garvey ; congrès panafricains (Paris 1919, Manchester 1945 avec Kwame Nkrumah et Jomo Kenyatta).",
+          "Le Ghana de Nkrumah, indépendant en 1957, devient un modèle ; l'unité africaine aboutit à la création de l'OUA en 1963.",
+          "Négritude : mouvement littéraire et culturel de revalorisation des cultures noires, né à Paris autour de Léopold Sédar Senghor, Aimé Césaire et Léon-Gontran Damas (revue L'Étudiant noir, 1935).",
+          "Œuvres et relais : Cahier d'un retour au pays natal (Césaire, 1939), revue Présence africaine (Alioune Diop, 1947)."
+        ],
+        "formules": ["1945 : congrès de Manchester", "1935 : L'Étudiant noir", "1963 : OUA"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre Négritude et panafricanisme.", "correction": "Négritude : surtout culturelle et littéraire ; panafricanisme : surtout politique (unité)." },
+        { "erreur": "Attribuer la Négritude au seul Senghor.", "correction": "Césaire et Damas en sont aussi les fondateurs." },
+        { "erreur": "Oublier la diaspora.", "correction": "Le panafricanisme est né en partie aux Amériques et aux Antilles." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite les trois fondateurs de la Négritude et leur pays d'origine.", "indice": "Sénégal, Martinique, Guyane.", "corrige": ["Léopold Sédar Senghor (Sénégal), Aimé Césaire (Martinique), Léon-Gontran Damas (Guyane)."] },
+        { "niveau": "moyen", "enonce": "Qu'est-ce que le congrès de Manchester de 1945 a apporté au panafricanisme ?", "indice": "Indépendance immédiate.", "corrige": ["Il réunit des leaders africains (Nkrumah, Kenyatta) qui réclament désormais l'indépendance des colonies : le panafricanisme devient un mouvement de libération porté par des Africains."] },
+        { "niveau": "examen", "enonce": "Montre comment panafricanisme et Négritude ont contribué à la décolonisation.", "indice": "Fierté culturelle et action politique.", "corrige": ["La Négritude a rendu aux Africains la fierté de leurs cultures et contesté le discours colonial.", "Le panafricanisme a organisé la solidarité politique et l'exigence d'indépendance.", "Ensemble, ils ont préparé les indépendances et l'unité africaine (OUA, 1963)."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : panafricanisme et Négritude", "etapes": ["Définis chaque mouvement.", "Cite des acteurs et des dates.", "Montre leur rôle dans l'émancipation."] }
+    },
+    "relations-internationales": {
+      "objectifs": ["Retracer la Seconde Guerre mondiale et la création de l'ONU.", "Expliquer la guerre froide et la bipolarisation.", "Décrire le monde multipolaire actuel."],
+      "prerequis": ["Première Guerre mondiale."],
+      "a_retenir": {
+        "points": [
+          "Entre-deux-guerres : révolution russe (1917), crise de 1929, montée des régimes totalitaires ; Seconde Guerre mondiale (1939-1945), fin en Europe le 8 mai 1945, bombes atomiques sur Hiroshima (6 août 1945) et Nagasaki.",
+          "ONU : Charte signée à San Francisco le 26 juin 1945 ; siège à New York ; Conseil de sécurité de 15 membres dont 5 permanents avec droit de veto (Chine, États-Unis, France, Royaume-Uni, Russie). Déclaration universelle des droits de l'homme : 10 décembre 1948.",
+          "Guerre froide (1947-1991) : affrontement indirect entre le bloc américain (Plan Marshall, OTAN en 1949) et le bloc soviétique (pacte de Varsovie en 1955) ; mur de Berlin (1961-1989), crise de Cuba (1962).",
+          "Révolution chinoise : proclamation de la République populaire de Chine le 1er octobre 1949.",
+          "Fin de l'URSS en décembre 1991 ; aujourd'hui, monde multipolaire (États-Unis, Chine, UE, puissances émergentes) et nouvelles menaces (terrorisme, conflits régionaux)."
+        ],
+        "formules": ["1939-1945 : Seconde Guerre mondiale", "1945 : ONU", "1947-1991 : guerre froide"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que la guerre froide a opposé directement les deux Grands par les armes.", "correction": "Ils ne se sont jamais affrontés directement ; les conflits se faisaient par alliés interposés (Corée, Vietnam…)." },
+        { "erreur": "Oublier le droit de veto dans le fonctionnement de l'ONU.", "correction": "Un seul membre permanent peut bloquer une décision du Conseil de sécurité." },
+        { "erreur": "Confondre SDN et ONU.", "correction": "La SDN (1919) a échoué ; l'ONU (1945) l'a remplacée." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite les cinq membres permanents du Conseil de sécurité de l'ONU.", "indice": "Les vainqueurs de 1945.", "corrige": ["Chine, États-Unis, France, Royaume-Uni, Russie (héritière de l'URSS)."] },
+        { "niveau": "moyen", "enonce": "Pourquoi parle-t-on de « bipolarisation » après 1947 ?", "indice": "Deux pôles.", "corrige": ["Le monde se divise en deux blocs dirigés par deux superpuissances, les États-Unis (capitalisme, démocratie libérale) et l'URSS (communisme) : deux pôles rivaux."] },
+        { "niveau": "examen", "enonce": "Montre le rôle et les limites de l'ONU dans le maintien de la paix.", "indice": "Casques bleus, veto.", "corrige": ["Rôle : forum de dialogue, opérations de maintien de la paix (casques bleus), aide humanitaire (agences spécialisées), défense des droits humains.", "Limites : droit de veto qui paralyse le Conseil de sécurité, manque de moyens propres, dépendance à la volonté des grandes puissances."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : les relations internationales", "etapes": ["Construis une frise chronologique (1914-1991).", "Distingue les acteurs et les blocs.", "Utilise des exemples précis (crises, conflits, institutions)."] }
+    },
+    "oua-ua": {
+      "objectifs": ["Connaître la création, les objectifs et les organes de l'OUA.", "Expliquer le passage de l'OUA à l'Union africaine.", "Évaluer les réussites et les limites."],
+      "prerequis": ["Décolonisation, panafricanisme."],
+      "a_retenir": {
+        "points": [
+          "L'OUA est créée le 25 mai 1963 à Addis-Abeba par 32 États indépendants (le 25 mai est la Journée de l'Afrique).",
+          "Objectifs : unité et solidarité africaines, défense de la souveraineté, lutte contre le colonialisme et l'apartheid ; principe de l'intangibilité des frontières héritées de la colonisation (1964).",
+          "Organes : Conférence des chefs d'État et de gouvernement, Conseil des ministres, Secrétariat général, Commission de médiation.",
+          "Réussites : soutien aux luttes de libération (Afrique australe), fin de l'apartheid ; limites : principe de non-ingérence, manque de moyens, coups d'État et conflits.",
+          "L'Union africaine (UA) remplace l'OUA en 2002 (Durban) : Commission, Parlement panafricain, Conseil de paix et de sécurité ; Agenda 2063, Zone de libre-échange continentale africaine (ZLECAf)."
+        ],
+        "formules": ["25 mai 1963 : OUA (Addis-Abeba)", "2002 : Union africaine"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Placer le siège de l'OUA à Accra.", "correction": "Le siège est à Addis-Abeba (Éthiopie)." },
+        { "erreur": "Dire que l'UA est une simple continuation sans changement.", "correction": "L'UA peut intervenir dans un État membre en cas de crimes graves (fin de la non-ingérence absolue)." },
+        { "erreur": "Ne citer que des échecs.", "correction": "Montre aussi les réussites (décolonisation, lutte contre l'apartheid)." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Quand et où l'OUA a-t-elle été créée ? Par combien d'États ?", "indice": "Éthiopie, 1963.", "corrige": ["Le 25 mai 1963 à Addis-Abeba, par 32 États."] },
+        { "niveau": "moyen", "enonce": "Pourquoi l'OUA a-t-elle adopté le principe de l'intangibilité des frontières coloniales ?", "indice": "Risque de conflits.", "corrige": ["Remettre en cause les frontières aurait provoqué de nombreuses guerres entre États ; on a préféré les conserver pour préserver la paix, malgré leur origine coloniale."] },
+        { "niveau": "examen", "enonce": "Fais le bilan de l'OUA et explique pourquoi elle a été remplacée par l'Union africaine.", "indice": "Réussites / limites / nouveaux défis.", "corrige": ["Réussites : soutien aux mouvements de libération, fin de l'apartheid, cadre de dialogue.", "Limites : non-ingérence face aux dictatures et aux guerres civiles, faibles moyens, faible intégration économique.", "L'UA (2002) dote l'Afrique d'institutions plus fortes pour la paix, la sécurité et le développement économique."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : OUA et UA", "etapes": ["Date, lieu, membres fondateurs.", "Objectifs et organes.", "Bilan nuancé (réussites, limites)."] }
+    },
+    "mali-republique": {
+      "objectifs": ["Retracer l'accession du Mali à l'indépendance.", "Connaître les différentes républiques du Mali.", "Expliquer l'importance du 26 mars 1991."],
+      "prerequis": ["Décolonisation de l'AOF."],
+      "a_retenir": {
+        "points": [
+          "Le Soudan français et le Sénégal forment la Fédération du Mali (1959), qui éclate le 20 août 1960.",
+          "Le 22 septembre 1960, Modibo Keïta proclame l'indépendance de la République du Mali (Première République, orientation socialiste).",
+          "Le 19 novembre 1968, un coup d'État militaire porte Moussa Traoré au pouvoir ; la Constitution de 1974 fonde la Deuxième République (parti unique UDPM).",
+          "Le 26 mars 1991, un soulèvement populaire, appuyé par une partie de l'armée (Amadou Toumani Touré), renverse le régime ; c'est la Journée des martyrs.",
+          "La Constitution du 25 février 1992 instaure la Troisième République démocratique (multipartisme) ; Alpha Oumar Konaré est élu en 1992. Une nouvelle Constitution a été adoptée par référendum en 2023."
+        ],
+        "formules": ["22 septembre 1960 : indépendance", "19 novembre 1968 : coup d'État", "26 mars 1991 : chute du régime", "1992 : Troisième République"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre le 20 août 1960 et le 22 septembre 1960.", "correction": "20 août : éclatement de la Fédération ; 22 septembre : proclamation de la République du Mali." },
+        { "erreur": "Présenter le 26 mars 1991 comme un simple coup d'État.", "correction": "C'est d'abord un mouvement populaire (élèves, étudiants, travailleurs) qui ouvre la voie à la démocratie." },
+        { "erreur": "Oublier le rôle de la Constitution de 1992.", "correction": "Elle fonde le multipartisme et la Troisième République." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Associe chaque date à son événement : 22 septembre 1960, 19 novembre 1968, 26 mars 1991, 25 février 1992.", "indice": "Indépendance, coup d'État, révolution, Constitution.", "corrige": ["22/09/1960 : indépendance ; 19/11/1968 : coup d'État de Moussa Traoré ; 26/03/1991 : chute du régime ; 25/02/1992 : Constitution de la Troisième République."] },
+        { "niveau": "moyen", "enonce": "Pourquoi la Fédération du Mali a-t-elle éclaté ?", "indice": "Désaccords politiques.", "corrige": ["Désaccords entre dirigeants soudanais (Modibo Keïta) et sénégalais (Senghor, Mamadou Dia) sur l'organisation du pouvoir, la répartition des postes et les orientations politiques ; le Sénégal se retire le 20 août 1960."] },
+        { "niveau": "examen", "enonce": "Montre que le 26 mars 1991 marque un tournant dans l'histoire politique du Mali.", "indice": "Avant / après.", "corrige": ["Avant : régime militaire puis parti unique, libertés limitées.", "L'événement : mobilisation populaire durement réprimée, puis intervention de militaires dirigés par ATT.", "Après : transition, Conférence nationale, Constitution de 1992, multipartisme et élections : début de la Troisième République."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : histoire du Mali", "etapes": ["Construis une frise des régimes successifs.", "Explique chaque changement par ses causes.", "Conclus sur l'évolution démocratique."] }
+    },
+    "geographie-physique-afrique": {
+      "objectifs": ["Décrire les grands ensembles du relief africain.", "Connaître les grands fleuves (source, embouchure, régime).", "Expliquer la répartition des climats et leurs facteurs."],
+      "prerequis": ["Lecture de cartes, latitudes."],
+      "a_retenir": {
+        "points": [
+          "Relief : plateaux et cuvettes (Congo, Tchad), hautes terres à l'est et au sud, fossé du Rift. Points culminants : Kilimandjaro (5 895 m, Tanzanie), mont Kenya (5 199 m), mont Cameroun (4 095 m), Toubkal (4 167 m, Atlas).",
+          "Le Niger (environ 4 200 km) naît dans le Fouta-Djalon (Guinée), forme un delta intérieur au Mali et se jette dans le golfe de Guinée par un delta au Nigeria. Le fleuve Sénégal naît aussi dans le Fouta-Djalon et se jette dans l'Atlantique à Saint-Louis.",
+          "Le Nil est le plus long fleuve d'Afrique (environ 6 650 km) ; le Congo a le plus fort débit d'Afrique.",
+          "Régime équatorial : deux crues par an ; régime tropical : une crue pendant la saison des pluies.",
+          "Climats : équatorial (pluies toute l'année), tropical humide puis sec (une saison des pluies de plus en plus courte vers le nord), sahélien, désertique (Sahara), méditerranéen. Facteurs : latitude, Front intertropical, mousson (humide) et harmattan (sec), relief, courants marins."
+        ],
+        "formules": ["Plus on va vers le nord en Afrique de l'Ouest, plus la saison des pluies est courte", "Mousson : vent humide du sud-ouest ; harmattan : vent sec du nord-est"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que le Niger se jette dans l'océan au Mali.", "correction": "Le delta intérieur est au Mali ; l'embouchure est au Nigeria (golfe de Guinée)." },
+        { "erreur": "Confondre régime d'un fleuve et climat.", "correction": "Le régime décrit les variations du débit au cours de l'année, qui dépendent du climat." },
+        { "erreur": "Inverser mousson et harmattan.", "correction": "La mousson apporte les pluies ; l'harmattan, vent sec et poussiéreux, souffle en saison sèche." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Donne la source, l'embouchure et les pays traversés principaux du fleuve Niger.", "indice": "Guinée → Nigeria.", "corrige": ["Source : Fouta-Djalon (Guinée). Pays : Guinée, Mali, Niger, (Bénin en frontière), Nigeria. Embouchure : delta dans le golfe de Guinée (Nigeria)."] },
+        { "niveau": "moyen", "enonce": "Station A : 1 800 mm de pluie, 8 mois pluvieux. Station B : 300 mm, 3 mois pluvieux. Laquelle est la plus au nord ? Nomme leur climat.", "indice": "La pluie diminue vers le nord.", "corrige": ["B est la plus au nord (moins de pluies, saison courte) : climat sahélien.", "A : climat tropical humide (soudano-guinéen)."] },
+        { "niveau": "examen", "enonce": "Explique la succession des saisons en Afrique de l'Ouest à l'aide du Front intertropical (FIT), de la mousson et de l'harmattan.", "indice": "Le FIT se déplace avec le soleil.", "corrige": ["En été boréal, le FIT remonte vers le nord : la mousson, humide, venue de l'océan, apporte les pluies (hivernage).", "En hiver boréal, le FIT redescend vers le sud : l'harmattan, sec, venu du Sahara, domine (saison sèche).", "Plus une région est au nord, moins longtemps elle reste sous la mousson : sa saison des pluies est plus courte."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la géographie physique", "etapes": ["Localise sur une carte (latitude, pays).", "Lis les diagrammes climatiques (pluies, températures).", "Explique par les facteurs (FIT, vents, relief)."] }
+    },
+    "office-du-niger": {
+      "objectifs": ["Situer l'Office du Niger et expliquer sa création.", "Décrire son fonctionnement (irrigation, cultures).", "Analyser ses atouts et ses problèmes."],
+      "prerequis": ["Le fleuve Niger et le climat sahélien."],
+      "a_retenir": {
+        "points": [
+          "L'Office du Niger a été créé en 1932, pendant la colonisation, pour irriguer le delta intérieur du Niger (région de Ségou, Niono).",
+          "Le barrage de Markala, achevé en 1947, relève le niveau du fleuve et alimente des canaux d'irrigation.",
+          "D'abord prévu pour le coton, l'Office est devenu la principale zone de production de riz du Mali ; on y cultive aussi la canne à sucre et le maraîchage.",
+          "Problèmes : travail forcé à l'époque coloniale, dégradation des sols (alcalinisation), entretien des canaux, accès à la terre, maladies liées à l'eau (paludisme, bilharziose).",
+          "Il contribue fortement à la sécurité alimentaire du pays."
+        ],
+        "formules": ["1932 : création", "1947 : barrage de Markala", "Riz = principale culture"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Placer l'Office du Niger à Mopti ou Gao.", "correction": "Il est situé dans la région de Ségou (zone de Niono, Macina, Markala)." },
+        { "erreur": "Oublier l'origine coloniale.", "correction": "Créé en 1932 par l'administration coloniale, avec recours au travail forcé." },
+        { "erreur": "Ne citer que des avantages.", "correction": "Présente aussi les problèmes environnementaux et sociaux." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "En quelle année l'Office du Niger a-t-il été créé et quel ouvrage permet l'irrigation ?", "indice": "Barrage sur le Niger.", "corrige": ["En 1932 ; le barrage de Markala (achevé en 1947) et un réseau de canaux."] },
+        { "niveau": "moyen", "enonce": "Pourquoi l'irrigation est-elle indispensable à l'agriculture dans cette région ?", "indice": "Climat.", "corrige": ["La région a un climat sahélien à soudanien : pluies faibles et irrégulières concentrées sur quelques mois ; l'irrigation permet de cultiver le riz et de faire plusieurs récoltes par an."] },
+        { "niveau": "examen", "enonce": "Fais le bilan de l'Office du Niger : atouts et problèmes.", "indice": "Riz, emplois / sols, santé, foncier.", "corrige": ["Atouts : production de riz importante, sécurité alimentaire, emplois, cultures de contre-saison.", "Problèmes : dégradation des sols, coût d'entretien des canaux, conflits fonciers, maladies hydriques.", "Perspectives : meilleure gestion de l'eau, aménagements, appui aux petits producteurs."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : étude d'un aménagement", "etapes": ["Localise l'aménagement.", "Explique son fonctionnement et sa production.", "Fais un bilan nuancé."] }
+    },
+    "integration-regionale": {
+      "objectifs": ["Connaître la CEDEAO et l'UEMOA (création, membres, objectifs).", "Expliquer les relations entre l'Union européenne et les pays ACP.", "Évaluer les réussites et les difficultés de la coopération."],
+      "prerequis": ["Carte politique de l'Afrique de l'Ouest."],
+      "a_retenir": {
+        "points": [
+          "CEDEAO : créée par le traité de Lagos le 28 mai 1975, siège à Abuja ; objectifs : intégration économique, libre circulation des personnes (protocole de 1979), paix et sécurité (ECOMOG) ; projet de monnaie commune (« eco »).",
+          "En janvier 2024, le Mali, le Burkina Faso et le Niger ont annoncé leur retrait de la CEDEAO (effectif en 2025) et forment l'Alliance des États du Sahel.",
+          "UEMOA : créée par le traité de Dakar le 10 janvier 1994, 8 États (Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo) ; siège à Ouagadougou ; monnaie commune : le franc CFA émis par la BCEAO ; tarif extérieur commun.",
+          "Relations UE-ACP : conventions de Yaoundé (1963), de Lomé (1975), accord de Cotonou (2000), puis accord de Samoa (2023) ; aide au développement, préférences commerciales, Accords de partenariat économique (APE).",
+          "Difficultés : instabilité politique, insécurité, faiblesse du commerce entre pays voisins, infrastructures insuffisantes."
+        ],
+        "formules": ["1975 : CEDEAO (Lagos)", "1994 : UEMOA (Dakar)", "Lomé 1975 → Cotonou 2000 → Samoa 2023"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre CEDEAO et UEMOA.", "correction": "L'UEMOA réunit 8 pays utilisant le franc CFA ; la CEDEAO est plus large et regroupe aussi des pays anglophones et lusophones." },
+        { "erreur": "Placer le siège de l'UEMOA à Abuja.", "correction": "UEMOA : Ouagadougou ; CEDEAO : Abuja ; BCEAO : Dakar." },
+        { "erreur": "Ne pas actualiser la liste des membres.", "correction": "Tiens compte des retraits annoncés en 2024." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Donne la date de création, le siège et la monnaie de l'UEMOA.", "indice": "Dakar, 1994.", "corrige": ["Traité de Dakar, 10 janvier 1994 ; siège à Ouagadougou ; monnaie : franc CFA (BCEAO)."] },
+        { "niveau": "moyen", "enonce": "Quels avantages un commerçant ou un étudiant tire-t-il de la libre circulation dans la CEDEAO ?", "indice": "Passeport, visas.", "corrige": ["Circulation et séjour sans visa dans les États membres, passeport CEDEAO, possibilité de commercer, d'étudier ou de travailler plus facilement dans un pays voisin."] },
+        { "niveau": "examen", "enonce": "Montre les réussites et les limites de l'intégration régionale en Afrique de l'Ouest.", "indice": "Monnaie, circulation, paix / crises, commerce faible.", "corrige": ["Réussites : libre circulation, monnaie commune de l'UEMOA, tarif extérieur commun, interventions pour la paix (ECOMOG), projets d'infrastructures.", "Limites : commerce entre États membres encore faible, barrières non tarifaires (tracasseries routières), crises politiques et sécuritaires, retraits de membres.", "L'intégration reste un objectif majeur pour le développement de la région."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : organisations régionales", "etapes": ["Date, lieu, membres, siège.", "Objectifs et institutions.", "Bilan avec exemples récents."] }
+    },
+    "population-developpement": {
+      "objectifs": ["Calculer et interpréter les indicateurs démographiques.", "Expliquer l'exode rural et les migrations.", "Analyser les problèmes de développement de l'Afrique et proposer des solutions."],
+      "prerequis": ["Pourcentages et taux pour mille."],
+      "a_retenir": {
+        "points": [
+          "Taux de natalité et de mortalité s'expriment en ‰ ; l'accroissement naturel = natalité − mortalité.",
+          "L'Afrique a une population jeune et en forte croissance (environ 2,5 % par an), car la mortalité a baissé plus vite que la natalité (transition démographique).",
+          "Exode rural (départ des campagnes vers les villes) et migrations (vers les pays voisins, l'Europe…) : causes économiques, climatiques, sécuritaires.",
+          "Problèmes de développement : pauvreté, faible industrialisation, dépendance aux matières premières, dette, insuffisance des services (santé, éducation), sécheresses et désertification en zone soudano-sahélienne, insécurité.",
+          "Pistes : éducation (des filles en particulier), santé, modernisation agricole, transformation locale des produits, intégration régionale, bonne gouvernance. L'IDH mesure le développement (santé, éducation, revenu)."
+        ],
+        "formules": ["Accroissement naturel (‰) = natalité (‰) − mortalité (‰)", "Taux (‰) = (nombre ÷ population) × 1 000", "Temps de doublement ≈ 70 ÷ taux de croissance (%)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre ‰ et %.", "correction": "32 ‰ = 3,2 %." },
+        { "erreur": "Expliquer la croissance démographique par une hausse de la natalité.", "correction": "C'est surtout la baisse de la mortalité qui l'explique." },
+        { "erreur": "Présenter les problèmes sans solutions.", "correction": "Termine toujours par des pistes argumentées." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Un pays a un taux de natalité de 42 ‰ et un taux de mortalité de 10 ‰. Calcule l'accroissement naturel en ‰ et en %.", "indice": "Soustraction.", "corrige": ["42 − 10 = 32 ‰, soit 3,2 %."] },
+        { "niveau": "moyen", "enonce": "Ce pays compte 20 millions d'habitants. De combien augmente sa population en un an ? En combien d'années environ doublera-t-elle ?", "indice": "3,2 % de 20 millions ; règle de 70.", "corrige": ["20 000 000 × 0,032 = 640 000 habitants par an.", "Doublement ≈ 70 ÷ 3,2 ≈ 22 ans."] },
+        { "niveau": "examen", "enonce": "Explique les causes de l'exode rural en zone sahélienne et ses conséquences sur les villes.", "indice": "Sécheresse, pauvreté / bidonvilles, chômage.", "corrige": ["Causes : sécheresses et dégradation des sols, pauvreté, manque d'infrastructures rurales, attrait de la ville (emplois, écoles), insécurité.", "Conséquences : croissance rapide des villes, quartiers précaires, chômage et secteur informel, pression sur l'eau, les transports et les services.", "Solutions : développer les campagnes (irrigation, routes, écoles, centres de santé), créer des emplois ruraux."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : population et développement", "etapes": ["Calcule et interprète les indicateurs.", "Classe causes et conséquences.", "Propose des solutions réalistes."] }
+    },
+    "economie-cote-ivoire": {
+      "objectifs": ["Expliquer les fondements du développement économique ivoirien.", "Décrire les secteurs d'activité (primaire, secondaire, tertiaire).", "Analyser les problèmes et les perspectives."],
+      "prerequis": ["Carte de la Côte d'Ivoire."],
+      "a_retenir": {
+        "points": [
+          "Fondements : libéralisme économique depuis 1960, priorité à l'agriculture d'exportation, ouverture aux capitaux étrangers, infrastructures (port d'Abidjan, port de San Pedro) ; le « miracle ivoirien » (1960-1980).",
+          "Secteur primaire : premier producteur mondial de cacao et de noix de cajou (anacarde) ; café, hévéa, palmier à huile, coton, banane, ananas ; vivriers (igname, manioc, riz, banane plantain).",
+          "Secteur secondaire : agro-industrie (transformation du cacao, huileries), raffinerie, BTP ; énergie hydroélectrique (barrages de Kossou, Soubré) et hydrocarbures (gisement offshore Baleine découvert en 2021).",
+          "Secteur tertiaire : commerce, transports, banques, télécommunications ; Abidjan est un pôle régional.",
+          "Problèmes : dépendance aux cours des matières premières (crise des années 1980, dévaluation du franc CFA en 1994), déforestation, travail des enfants dans certaines plantations, inégalités et chômage des jeunes ; perspectives : transformation locale, diversification."
+        ],
+        "formules": ["Primaire : agriculture, pêche, mines", "Secondaire : industrie, énergie, BTP", "Tertiaire : services"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Réduire l'économie ivoirienne au cacao.", "correction": "Cite aussi l'anacarde, l'hévéa, les services, l'énergie." },
+        { "erreur": "Classer la transformation du cacao dans le primaire.", "correction": "La transformation relève du secondaire." },
+        { "erreur": "Oublier les problèmes environnementaux.", "correction": "La cacaoculture a fortement réduit la forêt." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Classe dans les secteurs d'activité : culture du cacao, chocolaterie, banque, port, pêche, raffinerie.", "indice": "Produire / transformer / servir.", "corrige": ["Primaire : culture du cacao, pêche.", "Secondaire : chocolaterie, raffinerie.", "Tertiaire : banque, port (transport et commerce)."] },
+        { "niveau": "moyen", "enonce": "Pourquoi la chute des cours du cacao dans les années 1980 a-t-elle provoqué une crise en Côte d'Ivoire ?", "indice": "Dépendance.", "corrige": ["Les recettes de l'État et des paysans dépendaient fortement du cacao et du café ; la baisse des prix a réduit les revenus, augmenté l'endettement et ralenti l'économie."] },
+        { "niveau": "examen", "enonce": "Propose trois mesures pour rendre l'économie ivoirienne moins dépendante des matières premières, en justifiant.", "indice": "Transformation, diversification, formation.", "corrige": ["Transformer localement le cacao et l'anacarde : plus de valeur ajoutée et d'emplois.", "Diversifier : industrie, numérique, tourisme, énergie.", "Former la main-d'œuvre et soutenir les PME pour créer des emplois aux jeunes."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : l'économie de la Côte d'Ivoire", "etapes": ["Utilise les trois secteurs pour organiser ta réponse.", "Cite des productions et des lieux précis.", "Termine par les problèmes et les perspectives."] }
+    },
+    "puissances-economiques": {
+      "objectifs": ["Expliquer les facteurs de la puissance économique de la France.", "Expliquer l'émergence de la Corée du Sud.", "Comparer ces modèles et en tirer des leçons pour l'Afrique."],
+      "prerequis": ["Secteurs d'activité, mondialisation."],
+      "a_retenir": {
+        "points": [
+          "La France est une grande puissance économique : membre du G7 et de l'Union européenne, premier producteur agricole de l'UE, industries de pointe (aéronautique avec Airbus, nucléaire qui produit la majorité de son électricité, luxe), pays le plus visité au monde.",
+          "Problèmes de la France : désindustrialisation, chômage, dette publique, inégalités territoriales.",
+          "La Corée du Sud, très pauvre après la guerre de Corée (1950-1953), est devenue un pays industrialisé : stratégie d'industrialisation par les exportations, État stratège, grands groupes (chaebols : Samsung, Hyundai, LG), investissement massif dans l'éducation et la recherche ; membre de l'OCDE depuis 1996.",
+          "Limites coréennes : dépendance aux exportations, vieillissement et natalité très faible, tensions avec la Corée du Nord.",
+          "Leçons : rôle de l'éducation, de la planification, de la transformation industrielle et de la conquête de marchés."
+        ],
+        "formules": ["Émergence = croissance forte + industrialisation + intégration au commerce mondial"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Présenter le développement coréen comme dû au seul hasard ou à l'aide extérieure.", "correction": "Il repose sur une stratégie volontaire de l'État et sur l'éducation." },
+        { "erreur": "Oublier les faiblesses des puissances.", "correction": "Toute puissance a des limites : mentionne-les." },
+        { "erreur": "Comparer sans critères.", "correction": "Compare avec des critères : agriculture, industrie, services, commerce, éducation." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite deux atouts économiques de la France et deux de la Corée du Sud.", "indice": "Agriculture, industrie / chaebols, éducation.", "corrige": ["France : agriculture puissante, industries aéronautique et nucléaire (ou tourisme).", "Corée du Sud : grands groupes industriels exportateurs (Samsung, Hyundai), système éducatif performant."] },
+        { "niveau": "moyen", "enonce": "Qu'est-ce qu'un pays émergent ? Pourquoi la Corée du Sud en est-elle un exemple célèbre ?", "indice": "Pauvreté → industrialisation rapide.", "corrige": ["Un pays émergent connaît une croissance rapide, s'industrialise et s'intègre fortement au commerce mondial.", "La Corée du Sud est passée en quelques décennies d'un pays pauvre et agricole à une puissance industrielle et technologique."] },
+        { "niveau": "examen", "enonce": "Quelles leçons un pays d'Afrique de l'Ouest peut-il tirer de l'expérience coréenne ?", "indice": "Éducation, transformation, État stratège.", "corrige": ["Investir massivement dans l'éducation et la formation technique.", "Transformer les matières premières sur place et développer des industries exportatrices.", "Mettre en place un État stratège (planification, infrastructures, soutien aux entreprises nationales) et une bonne gouvernance."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : étude d'une puissance économique", "etapes": ["Présente les atouts par secteur.", "Explique les facteurs de la puissance.", "Termine par les limites et une comparaison."] }
+    },
+    "terre-systeme-solaire": {
+      "objectifs": ["Situer la Terre dans le système solaire.", "Expliquer l'alternance des jours et des nuits et les saisons.", "Utiliser les coordonnées géographiques et les fuseaux horaires."],
+      "prerequis": ["Lecture de cartes et de schémas."],
+      "a_retenir": {
+        "points": [
+          "Le système solaire compte 8 planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune ; la Terre est la 3e, à environ 150 millions de km du Soleil.",
+          "La rotation de la Terre sur elle-même (environ 24 h) explique l'alternance des jours et des nuits.",
+          "La révolution autour du Soleil (environ 365 jours et 6 heures) et l'inclinaison de l'axe de la Terre (environ 23° 26') expliquent les saisons.",
+          "Latitude : position au nord ou au sud de l'équateur (0° à 90°) ; longitude : position à l'est ou à l'ouest du méridien de Greenwich (0° à 180°).",
+          "La Terre tourne de 15° par heure : 24 fuseaux horaires ; une ville située 45° à l'est de Greenwich a 3 heures d'avance (heure solaire)."
+        ],
+        "formules": ["360° ÷ 24 h = 15° par heure", "Décalage horaire = écart de longitude ÷ 15°"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Expliquer les saisons par la distance Terre-Soleil.", "correction": "Elles s'expliquent par l'inclinaison de l'axe de la Terre." },
+        { "erreur": "Confondre rotation et révolution.", "correction": "Rotation : sur elle-même (jour) ; révolution : autour du Soleil (année)." },
+        { "erreur": "Confondre latitude et longitude.", "correction": "Latitude : nord/sud (par rapport à l'équateur) ; longitude : est/ouest (par rapport à Greenwich)." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Range les planètes du système solaire de la plus proche à la plus éloignée du Soleil.", "indice": "« Me Voici Toute Mignonne Jolie Sur Un Nuage ».", "corrige": ["Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune."] },
+        { "niveau": "moyen", "enonce": "Dakar est à environ 17° de longitude ouest, une ville X à 43° est. Quel est l'écart de longitude et le décalage horaire solaire approximatif ?", "indice": "Additionne les longitudes de part et d'autre de Greenwich.", "corrige": ["Écart : 17 + 43 = 60°.", "Décalage : 60 ÷ 15 = 4 heures ; X a 4 heures d'avance sur Dakar (heure solaire)."] },
+        { "niveau": "examen", "enonce": "Explique pourquoi il y a des saisons, et pourquoi elles sont inversées entre les hémisphères Nord et Sud.", "indice": "Axe incliné, révolution.", "corrige": ["L'axe de la Terre est incliné et garde la même direction pendant la révolution : selon la période de l'année, un hémisphère reçoit les rayons du Soleil plus directement et plus longtemps.", "Quand l'hémisphère Nord est penché vers le Soleil (son été), l'hémisphère Sud est penché à l'opposé (son hiver), et inversement."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la Terre dans le système solaire", "etapes": ["Utilise un schéma (Soleil, Terre, axe, rayons).", "Distingue rotation et révolution.", "Pour l'heure, calcule l'écart de longitude puis divise par 15."] }
+    },
+    "planete-menacee": {
+      "objectifs": ["Identifier les menaces qui pèsent sur la planète.", "Expliquer le réchauffement climatique et ses conséquences en Afrique.", "Présenter des réponses locales et internationales."],
+      "prerequis": ["Climats et ressources."],
+      "a_retenir": {
+        "points": [
+          "Menaces : surexploitation des ressources (déforestation, surpêche, surpâturage), pollutions (plastiques, eau, air), perte de biodiversité.",
+          "Le réchauffement climatique est dû à l'augmentation des gaz à effet de serre (CO₂, méthane) produits par les activités humaines.",
+          "Conséquences en Afrique : sécheresses et inondations plus fréquentes, avancée du désert, érosion côtière (Saint-Louis du Sénégal), baisse des rendements agricoles, migrations.",
+          "Réponses : Accord de Paris (2015) pour limiter le réchauffement « bien en dessous de 2 °C » ; Grande Muraille verte (lancée en 2007) ; reboisement, énergies renouvelables, gestion des déchets.",
+          "Chacun peut agir : économiser l'eau et l'énergie, planter des arbres, réduire et trier les déchets."
+        ],
+        "formules": ["Plus de gaz à effet de serre → plus de chaleur retenue → réchauffement"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre effet de serre naturel et réchauffement climatique.", "correction": "L'effet de serre naturel est indispensable à la vie ; c'est son renforcement par l'Homme qui pose problème." },
+        { "erreur": "Penser que l'Afrique est la principale responsable.", "correction": "Elle émet peu de gaz à effet de serre mais subit fortement les conséquences." },
+        { "erreur": "Rester vague dans les solutions.", "correction": "Cite des actions précises (Grande Muraille verte, solaire, reboisement)." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite trois menaces qui pèsent sur l'environnement en Afrique de l'Ouest.", "indice": "Forêt, désert, plastiques…", "corrige": ["Déforestation, désertification, pollution par les déchets plastiques (ou surpêche, érosion côtière)."] },
+        { "niveau": "moyen", "enonce": "Explique le lien entre déforestation et réchauffement climatique.", "indice": "Les arbres stockent du carbone.", "corrige": ["Les arbres absorbent du CO₂ ; quand on les coupe ou les brûle, ce stockage disparaît et du CO₂ est libéré : l'effet de serre augmente."] },
+        { "niveau": "examen", "enonce": "Présente la Grande Muraille verte : objectifs, pays concernés, intérêt.", "indice": "Sahel, d'ouest en est.", "corrige": ["Projet africain lancé en 2007 pour restaurer les terres dégradées sur une bande traversant le Sahel, du Sénégal à Djibouti.", "Objectifs : freiner la désertification, restaurer les sols, créer des emplois et améliorer la sécurité alimentaire.", "Intérêt : réponse africaine adaptée au climat et aux besoins des populations rurales."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : une planète menacée", "etapes": ["Identifie les menaces dans les documents.", "Explique causes et conséquences.", "Propose des solutions à différentes échelles (locale, nationale, mondiale)."] }
+    },
+    "croyances-valeurs": {
+      "objectifs": ["Présenter les grandes religions et croyances du monde.", "Identifier les valeurs universelles (droits humains, démocratie, tolérance).", "Analyser les enjeux actuels (dialogue, intolérance, fanatisme)."],
+      "prerequis": ["Relations internationales."],
+      "a_retenir": {
+        "points": [
+          "Grandes religions : monothéismes (judaïsme, christianisme, islam), hindouisme, bouddhisme, religions traditionnelles africaines (culte des ancêtres, sacré lié à la nature).",
+          "Les religions façonnent les cultures, les fêtes, l'art et les règles de vie.",
+          "Valeurs universelles : dignité humaine, droits de l'homme (Déclaration universelle de 1948), démocratie, laïcité, tolérance.",
+          "Enjeux : dialogue interreligieux (tradition de coexistence en Afrique de l'Ouest), mais aussi fanatisme, terrorisme, discriminations.",
+          "La laïcité garantit la liberté de conscience et la neutralité de l'État vis-à-vis des religions."
+        ],
+        "formules": ["10 décembre 1948 : DUDH", "Laïcité = liberté de conscience + neutralité de l'État"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre laïcité et rejet des religions.", "correction": "La laïcité protège la liberté de croire ou de ne pas croire." },
+        { "erreur": "Généraliser les actes de quelques extrémistes à toute une religion.", "correction": "Distingue religion et fanatisme." },
+        { "erreur": "Oublier les religions traditionnelles africaines.", "correction": "Elles restent présentes et influencent les pratiques sociales." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite les trois religions monothéistes et leur livre saint.", "indice": "Torah, Bible, Coran.", "corrige": ["Judaïsme (Torah), christianisme (Bible), islam (Coran)."] },
+        { "niveau": "moyen", "enonce": "Qu'est-ce que la laïcité ? Pourquoi est-elle importante dans un pays où coexistent plusieurs religions ?", "indice": "Neutralité, égalité.", "corrige": ["La laïcité est le principe de séparation de l'État et des religions : l'État est neutre et garantit la liberté de conscience.", "Elle permet à tous les citoyens, quelle que soit leur religion, d'être égaux et de vivre ensemble en paix."] },
+        { "niveau": "examen", "enonce": "Montre que le dialogue interreligieux est un facteur de paix en Afrique de l'Ouest.", "indice": "Exemples de coexistence, rôle des chefs religieux.", "corrige": ["Tradition de coexistence : familles mixtes, fêtes partagées, parenté à plaisanterie.", "Rôle des chefs religieux dans la médiation des crises et la lutte contre l'extrémisme.", "Le dialogue réduit les préjugés et renforce la cohésion nationale."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : croyances et valeurs", "etapes": ["Reste neutre et respectueux.", "Définis précisément les notions (laïcité, tolérance, droits humains).", "Appuie-toi sur des exemples concrets."] }
+    }
+  },
+  "map": {
+    "mali-college-histoire-geographie-la-revolution-francaise-de-": "revolution-francaise",
+    "mali-college-histoire-geographie-les-progres-scientifiques-e": "industrialisation-capitalisme",
+    "senegal-college-histoire-geographie-la-2e-revolution-industr": "industrialisation-capitalisme",
+    "senegal-college-histoire-geographie-le-developpement-du-capi": "industrialisation-capitalisme",
+    "senegal-college-histoire-geographie-les-doctrines-sociales-s": "industrialisation-capitalisme",
+    "mali-college-histoire-geographie-la-premiere-guerre-mondiale": "premiere-guerre-mondiale",
+    "mali-college-histoire-geographie-la-colonisation-et-l-imperi": "imperialisme-colonisation",
+    "mali-college-histoire-geographie-la-conference-de-berlin": "imperialisme-colonisation",
+    "senegal-college-histoire-geographie-l-imperialisme-en-afriqu": "imperialisme-colonisation",
+    "senegal-college-histoire-geographie-l-imperialisme-dans-le-r": "imperialisme-colonisation",
+    "cote-ivoire-college-histoire-geographie-le-mouvement-imperia": "imperialisme-colonisation",
+    "cote-ivoire-college-histoire-geographie-l-evolution-sociopol": "imperialisme-colonisation",
+    "mali-college-histoire-geographie-la-decolonisation-de-l-afri": "decolonisation",
+    "senegal-college-histoire-geographie-la-decolonisation-et-la-": "decolonisation",
+    "cote-ivoire-college-histoire-geographie-l-accession-de-la-co": "decolonisation",
+    "cote-ivoire-lycee-histoire-geographie-de-la-decolonisation-a": "decolonisation",
+    "mali-college-histoire-geographie-le-panafricanisme-et-la-neg": "panafricanisme-negritude",
+    "mali-college-histoire-geographie-l-onu-creation-objectifs-co": "relations-internationales",
+    "cote-ivoire-college-histoire-geographie-de-la-seconde-guerre": "relations-internationales",
+    "cote-ivoire-lycee-histoire-geographie-les-relations-internat": "relations-internationales",
+    "senegal-college-histoire-geographie-conflits-et-revolutions-": "relations-internationales",
+    "mali-college-histoire-geographie-l-oua-creation-objectifs-or": "oua-ua",
+    "mali-college-histoire-geographie-la-republique-du-mali-les-d": "mali-republique",
+    "mali-college-histoire-geographie-le-relief-africain-hauts-so": "geographie-physique-afrique",
+    "mali-college-histoire-geographie-les-fleuves-africains-regim": "geographie-physique-afrique",
+    "mali-college-histoire-geographie-les-climats-d-afrique-et-le": "geographie-physique-afrique",
+    "mali-college-histoire-geographie-l-office-du-niger": "office-du-niger",
+    "mali-college-histoire-geographie-la-cedeao": "integration-regionale",
+    "mali-college-histoire-geographie-l-uemoa": "integration-regionale",
+    "cote-ivoire-lycee-histoire-geographie-la-cedeao": "integration-regionale",
+    "cote-ivoire-lycee-histoire-geographie-les-relations-ue-acp": "integration-regionale",
+    "senegal-college-histoire-geographie-la-terre-une-planete-sol": "integration-regionale",
+    "mali-college-histoire-geographie-la-demographie-natalite-mor": "population-developpement",
+    "mali-college-histoire-geographie-les-problemes-de-developpem": "population-developpement",
+    "senegal-college-histoire-geographie-la-terre-une-planete-div": "population-developpement",
+    "cote-ivoire-college-histoire-geographie-l-afrique-face-a-la-": "population-developpement",
+    "cote-ivoire-lycee-histoire-geographie-les-problemes-de-devel": "economie-cote-ivoire",
+    "cote-ivoire-college-histoire-geographie-etude-economique-de-": "economie-cote-ivoire",
+    "cote-ivoire-lycee-histoire-geographie-les-fondements-du-deve": "economie-cote-ivoire",
+    "cote-ivoire-lycee-histoire-geographie-les-secteurs-d-activit": "economie-cote-ivoire",
+    "cote-ivoire-lycee-histoire-geographie-l-economie-de-la-franc": "puissances-economiques",
+    "cote-ivoire-lycee-histoire-geographie-la-coree-du-sud-puissa": "puissances-economiques",
+    "senegal-college-histoire-geographie-la-terre-une-planete-du-": "terre-systeme-solaire",
+    "senegal-college-histoire-geographie-la-terre-une-planete-men": "planete-menacee",
+    "cote-ivoire-lycee-histoire-geographie-les-croyances-et-valeu": "croyances-valeurs"
+  }
+}

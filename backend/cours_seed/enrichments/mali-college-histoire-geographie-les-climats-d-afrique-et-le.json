@@ -1,0 +1,75 @@
+{
+  "_topic": "geographie-physique-afrique",
+  "objectifs": [
+    "Décrire les grands ensembles du relief africain.",
+    "Connaître les grands fleuves (source, embouchure, régime).",
+    "Expliquer la répartition des climats et leurs facteurs."
+  ],
+  "prerequis": [
+    "Lecture de cartes, latitudes."
+  ],
+  "a_retenir": {
+    "points": [
+      "Relief : plateaux et cuvettes (Congo, Tchad), hautes terres à l'est et au sud, fossé du Rift. Points culminants : Kilimandjaro (5 895 m, Tanzanie), mont Kenya (5 199 m), mont Cameroun (4 095 m), Toubkal (4 167 m, Atlas).",
+      "Le Niger (environ 4 200 km) naît dans le Fouta-Djalon (Guinée), forme un delta intérieur au Mali et se jette dans le golfe de Guinée par un delta au Nigeria. Le fleuve Sénégal naît aussi dans le Fouta-Djalon et se jette dans l'Atlantique à Saint-Louis.",
+      "Le Nil est le plus long fleuve d'Afrique (environ 6 650 km) ; le Congo a le plus fort débit d'Afrique.",
+      "Régime équatorial : deux crues par an ; régime tropical : une crue pendant la saison des pluies.",
+      "Climats : équatorial (pluies toute l'année), tropical humide puis sec (une saison des pluies de plus en plus courte vers le nord), sahélien, désertique (Sahara), méditerranéen. Facteurs : latitude, Front intertropical, mousson (humide) et harmattan (sec), relief, courants marins."
+    ],
+    "formules": [
+      "Plus on va vers le nord en Afrique de l'Ouest, plus la saison des pluies est courte",
+      "Mousson : vent humide du sud-ouest ; harmattan : vent sec du nord-est"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le Niger se jette dans l'océan au Mali.",
+      "correction": "Le delta intérieur est au Mali ; l'embouchure est au Nigeria (golfe de Guinée)."
+    },
+    {
+      "erreur": "Confondre régime d'un fleuve et climat.",
+      "correction": "Le régime décrit les variations du débit au cours de l'année, qui dépendent du climat."
+    },
+    {
+      "erreur": "Inverser mousson et harmattan.",
+      "correction": "La mousson apporte les pluies ; l'harmattan, vent sec et poussiéreux, souffle en saison sèche."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la source, l'embouchure et les pays traversés principaux du fleuve Niger.",
+      "indice": "Guinée → Nigeria.",
+      "corrige": [
+        "Source : Fouta-Djalon (Guinée). Pays : Guinée, Mali, Niger, (Bénin en frontière), Nigeria. Embouchure : delta dans le golfe de Guinée (Nigeria)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Station A : 1 800 mm de pluie, 8 mois pluvieux. Station B : 300 mm, 3 mois pluvieux. Laquelle est la plus au nord ? Nomme leur climat.",
+      "indice": "La pluie diminue vers le nord.",
+      "corrige": [
+        "B est la plus au nord (moins de pluies, saison courte) : climat sahélien.",
+        "A : climat tropical humide (soudano-guinéen)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Explique la succession des saisons en Afrique de l'Ouest à l'aide du Front intertropical (FIT), de la mousson et de l'harmattan.",
+      "indice": "Le FIT se déplace avec le soleil.",
+      "corrige": [
+        "En été boréal, le FIT remonte vers le nord : la mousson, humide, venue de l'océan, apporte les pluies (hivernage).",
+        "En hiver boréal, le FIT redescend vers le sud : l'harmattan, sec, venu du Sahara, domine (saison sèche).",
+        "Plus une région est au nord, moins longtemps elle reste sous la mousson : sa saison des pluies est plus courte."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la géographie physique",
+    "etapes": [
+      "Localise sur une carte (latitude, pays).",
+      "Lis les diagrammes climatiques (pluies, températures).",
+      "Explique par les facteurs (FIT, vents, relief)."
+    ]
+  }
+}

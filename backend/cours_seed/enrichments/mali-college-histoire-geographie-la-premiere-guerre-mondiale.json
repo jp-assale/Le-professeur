@@ -1,0 +1,78 @@
+{
+  "_topic": "premiere-guerre-mondiale",
+  "objectifs": [
+    "Expliquer les causes et les étapes de la Première Guerre mondiale.",
+    "Décrire la participation de l'Afrique (hommes, produits).",
+    "Mesurer les conséquences de la guerre, notamment en Afrique."
+  ],
+  "prerequis": [
+    "Impérialisme européen."
+  ],
+  "a_retenir": {
+    "points": [
+      "Causes : rivalités impérialistes et économiques, nationalismes, système d'alliances (Triple Entente : France, Royaume-Uni, Russie ; Triple Alliance : Allemagne, Autriche-Hongrie, Italie). Déclencheur : attentat de Sarajevo (28 juin 1914).",
+      "Étapes : guerre de mouvement (1914), guerre de tranchées (Verdun, 1916), entrée en guerre des États-Unis (1917), armistice du 11 novembre 1918 ; traité de Versailles (28 juin 1919).",
+      "L'Afrique fournit des soldats : environ 200 000 tirailleurs dits « sénégalais » recrutés dans toute l'AOF ; Blaise Diagne organise le recrutement de 1918.",
+      "Le recrutement forcé provoque des révoltes (Bélédougou au Mali, région de la Volta en 1915-1916).",
+      "L'Afrique fournit aussi des produits (arachide, huile, coton) ; la guerre éveille une conscience politique chez les anciens combattants."
+    ],
+    "formules": [
+      "1914-1918",
+      "11 novembre 1918 : armistice",
+      "28 juin 1919 : traité de Versailles"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que les « tirailleurs sénégalais » venaient seulement du Sénégal.",
+      "correction": "Ils étaient recrutés dans toute l'Afrique occidentale (et équatoriale) française."
+    },
+    {
+      "erreur": "Présenter l'attentat de Sarajevo comme la seule cause.",
+      "correction": "C'est le déclencheur ; les causes profondes sont les rivalités et les alliances."
+    },
+    {
+      "erreur": "Oublier les résistances africaines au recrutement.",
+      "correction": "Révoltes du Bélédougou, de la Volta…"
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne les dates du début et de la fin de la Première Guerre mondiale et cite les deux blocs.",
+      "indice": "Entente / Alliance.",
+      "corrige": [
+        "1914-1918 (armistice le 11 novembre 1918).",
+        "Triple Entente : France, Royaume-Uni, Russie ; Triple Alliance (puis Empires centraux) : Allemagne, Autriche-Hongrie."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Quelles formes a prises la participation de l'Afrique à la guerre ?",
+      "indice": "Hommes et produits.",
+      "corrige": [
+        "Militaire : tirailleurs envoyés sur le front européen et au Moyen-Orient.",
+        "Économique : produits agricoles et matières premières, impôts et contributions.",
+        "Humaine : travailleurs réquisitionnés."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre que la Première Guerre mondiale a eu des conséquences durables en Afrique.",
+      "indice": "Morts, révoltes, conscience politique.",
+      "corrige": [
+        "Pertes humaines et souffrances dues au recrutement forcé ; révoltes réprimées.",
+        "Les anciens combattants, ayant vu l'Europe en guerre, réclament l'égalité de droits.",
+        "La guerre prépare la contestation de l'ordre colonial et les mouvements d'émancipation."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : la Première Guerre mondiale",
+    "etapes": [
+      "Distingue causes profondes et déclencheur.",
+      "Donne les grandes dates.",
+      "Insiste sur la contribution et les conséquences africaines."
+    ]
+  }
+}

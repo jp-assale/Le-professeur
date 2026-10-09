@@ -1,0 +1,75 @@
+{
+  "_topic": "panafricanisme-negritude",
+  "objectifs": [
+    "Définir le panafricanisme et la Négritude.",
+    "Connaître leurs acteurs et leurs grandes étapes.",
+    "Mesurer leur rôle dans l'émancipation africaine."
+  ],
+  "prerequis": [
+    "Colonisation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Panafricanisme : mouvement qui prône l'unité et la solidarité des peuples africains et d'ascendance africaine.",
+      "Acteurs : W.E.B. Du Bois, Marcus Garvey ; congrès panafricains (Paris 1919, Manchester 1945 avec Kwame Nkrumah et Jomo Kenyatta).",
+      "Le Ghana de Nkrumah, indépendant en 1957, devient un modèle ; l'unité africaine aboutit à la création de l'OUA en 1963.",
+      "Négritude : mouvement littéraire et culturel de revalorisation des cultures noires, né à Paris autour de Léopold Sédar Senghor, Aimé Césaire et Léon-Gontran Damas (revue L'Étudiant noir, 1935).",
+      "Œuvres et relais : Cahier d'un retour au pays natal (Césaire, 1939), revue Présence africaine (Alioune Diop, 1947)."
+    ],
+    "formules": [
+      "1945 : congrès de Manchester",
+      "1935 : L'Étudiant noir",
+      "1963 : OUA"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre Négritude et panafricanisme.",
+      "correction": "Négritude : surtout culturelle et littéraire ; panafricanisme : surtout politique (unité)."
+    },
+    {
+      "erreur": "Attribuer la Négritude au seul Senghor.",
+      "correction": "Césaire et Damas en sont aussi les fondateurs."
+    },
+    {
+      "erreur": "Oublier la diaspora.",
+      "correction": "Le panafricanisme est né en partie aux Amériques et aux Antilles."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les trois fondateurs de la Négritude et leur pays d'origine.",
+      "indice": "Sénégal, Martinique, Guyane.",
+      "corrige": [
+        "Léopold Sédar Senghor (Sénégal), Aimé Césaire (Martinique), Léon-Gontran Damas (Guyane)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Qu'est-ce que le congrès de Manchester de 1945 a apporté au panafricanisme ?",
+      "indice": "Indépendance immédiate.",
+      "corrige": [
+        "Il réunit des leaders africains (Nkrumah, Kenyatta) qui réclament désormais l'indépendance des colonies : le panafricanisme devient un mouvement de libération porté par des Africains."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre comment panafricanisme et Négritude ont contribué à la décolonisation.",
+      "indice": "Fierté culturelle et action politique.",
+      "corrige": [
+        "La Négritude a rendu aux Africains la fierté de leurs cultures et contesté le discours colonial.",
+        "Le panafricanisme a organisé la solidarité politique et l'exigence d'indépendance.",
+        "Ensemble, ils ont préparé les indépendances et l'unité africaine (OUA, 1963)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : panafricanisme et Négritude",
+    "etapes": [
+      "Définis chaque mouvement.",
+      "Cite des acteurs et des dates.",
+      "Montre leur rôle dans l'émancipation."
+    ]
+  }
+}

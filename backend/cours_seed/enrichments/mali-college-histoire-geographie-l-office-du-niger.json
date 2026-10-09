@@ -1,0 +1,75 @@
+{
+  "_topic": "office-du-niger",
+  "objectifs": [
+    "Situer l'Office du Niger et expliquer sa création.",
+    "Décrire son fonctionnement (irrigation, cultures).",
+    "Analyser ses atouts et ses problèmes."
+  ],
+  "prerequis": [
+    "Le fleuve Niger et le climat sahélien."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'Office du Niger a été créé en 1932, pendant la colonisation, pour irriguer le delta intérieur du Niger (région de Ségou, Niono).",
+      "Le barrage de Markala, achevé en 1947, relève le niveau du fleuve et alimente des canaux d'irrigation.",
+      "D'abord prévu pour le coton, l'Office est devenu la principale zone de production de riz du Mali ; on y cultive aussi la canne à sucre et le maraîchage.",
+      "Problèmes : travail forcé à l'époque coloniale, dégradation des sols (alcalinisation), entretien des canaux, accès à la terre, maladies liées à l'eau (paludisme, bilharziose).",
+      "Il contribue fortement à la sécurité alimentaire du pays."
+    ],
+    "formules": [
+      "1932 : création",
+      "1947 : barrage de Markala",
+      "Riz = principale culture"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Placer l'Office du Niger à Mopti ou Gao.",
+      "correction": "Il est situé dans la région de Ségou (zone de Niono, Macina, Markala)."
+    },
+    {
+      "erreur": "Oublier l'origine coloniale.",
+      "correction": "Créé en 1932 par l'administration coloniale, avec recours au travail forcé."
+    },
+    {
+      "erreur": "Ne citer que des avantages.",
+      "correction": "Présente aussi les problèmes environnementaux et sociaux."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "En quelle année l'Office du Niger a-t-il été créé et quel ouvrage permet l'irrigation ?",
+      "indice": "Barrage sur le Niger.",
+      "corrige": [
+        "En 1932 ; le barrage de Markala (achevé en 1947) et un réseau de canaux."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi l'irrigation est-elle indispensable à l'agriculture dans cette région ?",
+      "indice": "Climat.",
+      "corrige": [
+        "La région a un climat sahélien à soudanien : pluies faibles et irrégulières concentrées sur quelques mois ; l'irrigation permet de cultiver le riz et de faire plusieurs récoltes par an."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Fais le bilan de l'Office du Niger : atouts et problèmes.",
+      "indice": "Riz, emplois / sols, santé, foncier.",
+      "corrige": [
+        "Atouts : production de riz importante, sécurité alimentaire, emplois, cultures de contre-saison.",
+        "Problèmes : dégradation des sols, coût d'entretien des canaux, conflits fonciers, maladies hydriques.",
+        "Perspectives : meilleure gestion de l'eau, aménagements, appui aux petits producteurs."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : étude d'un aménagement",
+    "etapes": [
+      "Localise l'aménagement.",
+      "Explique son fonctionnement et sa production.",
+      "Fais un bilan nuancé."
+    ]
+  }
+}

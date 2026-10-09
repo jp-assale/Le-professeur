@@ -1,0 +1,76 @@
+{
+  "_topic": "mali-republique",
+  "objectifs": [
+    "Retracer l'accession du Mali à l'indépendance.",
+    "Connaître les différentes républiques du Mali.",
+    "Expliquer l'importance du 26 mars 1991."
+  ],
+  "prerequis": [
+    "Décolonisation de l'AOF."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le Soudan français et le Sénégal forment la Fédération du Mali (1959), qui éclate le 20 août 1960.",
+      "Le 22 septembre 1960, Modibo Keïta proclame l'indépendance de la République du Mali (Première République, orientation socialiste).",
+      "Le 19 novembre 1968, un coup d'État militaire porte Moussa Traoré au pouvoir ; la Constitution de 1974 fonde la Deuxième République (parti unique UDPM).",
+      "Le 26 mars 1991, un soulèvement populaire, appuyé par une partie de l'armée (Amadou Toumani Touré), renverse le régime ; c'est la Journée des martyrs.",
+      "La Constitution du 25 février 1992 instaure la Troisième République démocratique (multipartisme) ; Alpha Oumar Konaré est élu en 1992. Une nouvelle Constitution a été adoptée par référendum en 2023."
+    ],
+    "formules": [
+      "22 septembre 1960 : indépendance",
+      "19 novembre 1968 : coup d'État",
+      "26 mars 1991 : chute du régime",
+      "1992 : Troisième République"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre le 20 août 1960 et le 22 septembre 1960.",
+      "correction": "20 août : éclatement de la Fédération ; 22 septembre : proclamation de la République du Mali."
+    },
+    {
+      "erreur": "Présenter le 26 mars 1991 comme un simple coup d'État.",
+      "correction": "C'est d'abord un mouvement populaire (élèves, étudiants, travailleurs) qui ouvre la voie à la démocratie."
+    },
+    {
+      "erreur": "Oublier le rôle de la Constitution de 1992.",
+      "correction": "Elle fonde le multipartisme et la Troisième République."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Associe chaque date à son événement : 22 septembre 1960, 19 novembre 1968, 26 mars 1991, 25 février 1992.",
+      "indice": "Indépendance, coup d'État, révolution, Constitution.",
+      "corrige": [
+        "22/09/1960 : indépendance ; 19/11/1968 : coup d'État de Moussa Traoré ; 26/03/1991 : chute du régime ; 25/02/1992 : Constitution de la Troisième République."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi la Fédération du Mali a-t-elle éclaté ?",
+      "indice": "Désaccords politiques.",
+      "corrige": [
+        "Désaccords entre dirigeants soudanais (Modibo Keïta) et sénégalais (Senghor, Mamadou Dia) sur l'organisation du pouvoir, la répartition des postes et les orientations politiques ; le Sénégal se retire le 20 août 1960."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Montre que le 26 mars 1991 marque un tournant dans l'histoire politique du Mali.",
+      "indice": "Avant / après.",
+      "corrige": [
+        "Avant : régime militaire puis parti unique, libertés limitées.",
+        "L'événement : mobilisation populaire durement réprimée, puis intervention de militaires dirigés par ATT.",
+        "Après : transition, Conférence nationale, Constitution de 1992, multipartisme et élections : début de la Troisième République."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : histoire du Mali",
+    "etapes": [
+      "Construis une frise des régimes successifs.",
+      "Explique chaque changement par ses causes.",
+      "Conclus sur l'évolution démocratique."
+    ]
+  }
+}

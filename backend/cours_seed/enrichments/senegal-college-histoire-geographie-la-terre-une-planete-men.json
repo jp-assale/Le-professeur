@@ -1,0 +1,73 @@
+{
+  "_topic": "planete-menacee",
+  "objectifs": [
+    "Identifier les menaces qui pèsent sur la planète.",
+    "Expliquer le réchauffement climatique et ses conséquences en Afrique.",
+    "Présenter des réponses locales et internationales."
+  ],
+  "prerequis": [
+    "Climats et ressources."
+  ],
+  "a_retenir": {
+    "points": [
+      "Menaces : surexploitation des ressources (déforestation, surpêche, surpâturage), pollutions (plastiques, eau, air), perte de biodiversité.",
+      "Le réchauffement climatique est dû à l'augmentation des gaz à effet de serre (CO₂, méthane) produits par les activités humaines.",
+      "Conséquences en Afrique : sécheresses et inondations plus fréquentes, avancée du désert, érosion côtière (Saint-Louis du Sénégal), baisse des rendements agricoles, migrations.",
+      "Réponses : Accord de Paris (2015) pour limiter le réchauffement « bien en dessous de 2 °C » ; Grande Muraille verte (lancée en 2007) ; reboisement, énergies renouvelables, gestion des déchets.",
+      "Chacun peut agir : économiser l'eau et l'énergie, planter des arbres, réduire et trier les déchets."
+    ],
+    "formules": [
+      "Plus de gaz à effet de serre → plus de chaleur retenue → réchauffement"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre effet de serre naturel et réchauffement climatique.",
+      "correction": "L'effet de serre naturel est indispensable à la vie ; c'est son renforcement par l'Homme qui pose problème."
+    },
+    {
+      "erreur": "Penser que l'Afrique est la principale responsable.",
+      "correction": "Elle émet peu de gaz à effet de serre mais subit fortement les conséquences."
+    },
+    {
+      "erreur": "Rester vague dans les solutions.",
+      "correction": "Cite des actions précises (Grande Muraille verte, solaire, reboisement)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite trois menaces qui pèsent sur l'environnement en Afrique de l'Ouest.",
+      "indice": "Forêt, désert, plastiques…",
+      "corrige": [
+        "Déforestation, désertification, pollution par les déchets plastiques (ou surpêche, érosion côtière)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Explique le lien entre déforestation et réchauffement climatique.",
+      "indice": "Les arbres stockent du carbone.",
+      "corrige": [
+        "Les arbres absorbent du CO₂ ; quand on les coupe ou les brûle, ce stockage disparaît et du CO₂ est libéré : l'effet de serre augmente."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Présente la Grande Muraille verte : objectifs, pays concernés, intérêt.",
+      "indice": "Sahel, d'ouest en est.",
+      "corrige": [
+        "Projet africain lancé en 2007 pour restaurer les terres dégradées sur une bande traversant le Sahel, du Sénégal à Djibouti.",
+        "Objectifs : freiner la désertification, restaurer les sols, créer des emplois et améliorer la sécurité alimentaire.",
+        "Intérêt : réponse africaine adaptée au climat et aux besoins des populations rurales."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : une planète menacée",
+    "etapes": [
+      "Identifie les menaces dans les documents.",
+      "Explique causes et conséquences.",
+      "Propose des solutions à différentes échelles (locale, nationale, mondiale)."
+    ]
+  }
+}

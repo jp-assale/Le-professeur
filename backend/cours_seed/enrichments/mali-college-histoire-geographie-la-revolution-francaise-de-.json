@@ -1,0 +1,74 @@
+{
+  "_topic": "revolution-francaise",
+  "objectifs": [
+    "Expliquer les causes de la Révolution française.",
+    "Connaître les grandes étapes de 1789.",
+    "Mesurer ses conséquences en France et dans le monde."
+  ],
+  "prerequis": [
+    "Notions de monarchie absolue et de société d'ordres."
+  ],
+  "a_retenir": {
+    "points": [
+      "Causes : crise financière de la monarchie, inégalités de la société d'ordres (clergé, noblesse, tiers état), idées des Lumières (Montesquieu, Voltaire, Rousseau), mauvaises récoltes de 1788.",
+      "1789 : réunion des États généraux (5 mai), serment du Jeu de paume (20 juin), prise de la Bastille (14 juillet), abolition des privilèges (nuit du 4 août), Déclaration des droits de l'homme et du citoyen (26 août).",
+      "1792 : la monarchie est abolie et la République proclamée ; Louis XVI est exécuté en janvier 1793.",
+      "L'esclavage est aboli en 1794, rétabli par Bonaparte en 1802, puis définitivement aboli en 1848.",
+      "Conséquences : fin de la monarchie absolue, égalité devant la loi, souveraineté nationale, diffusion des idées de liberté dans le monde."
+    ],
+    "formules": [
+      "14 juillet 1789 : prise de la Bastille",
+      "26 août 1789 : DDHC",
+      "21-22 septembre 1792 : proclamation de la République"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre la prise de la Bastille et la fin de la monarchie.",
+      "correction": "La monarchie devient constitutionnelle en 1791 ; elle n'est abolie qu'en 1792."
+    },
+    {
+      "erreur": "Croire que la Révolution a définitivement aboli l'esclavage.",
+      "correction": "Abolition en 1794, rétablissement en 1802, abolition définitive en 1848."
+    },
+    {
+      "erreur": "Citer des causes sans les classer.",
+      "correction": "Classe-les : économiques, sociales, politiques, idéologiques."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Range dans l'ordre chronologique : DDHC, prise de la Bastille, États généraux, abolition des privilèges.",
+      "indice": "Mai, juillet, août 1789.",
+      "corrige": [
+        "États généraux (5 mai 1789) → prise de la Bastille (14 juillet) → abolition des privilèges (4 août) → DDHC (26 août)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Article 1 de la DDHC : « Les hommes naissent et demeurent libres et égaux en droits. » Montre que cet article s'oppose à la société d'Ancien Régime.",
+      "indice": "Privilèges et ordres.",
+      "corrige": [
+        "L'Ancien Régime reposait sur l'inégalité : clergé et noblesse avaient des privilèges (pas d'impôt direct, droits seigneuriaux) refusés au tiers état.",
+        "L'article 1 affirme l'égalité de tous en droits : il condamne les privilèges et la société d'ordres."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Rédige un paragraphe structuré (10 lignes) sur les causes de la Révolution française.",
+      "indice": "Quatre types de causes.",
+      "corrige": [
+        "Critères : introduction avec date et définition ; causes financières (déficit, dettes), sociales (privilèges, misère du tiers état), économiques (mauvaises récoltes 1788, hausse du prix du pain), idéologiques (Lumières, exemple de l'indépendance américaine) ; conclusion reliant ces causes à l'explosion de 1789."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : une question d'histoire",
+    "etapes": [
+      "Situe dans le temps et l'espace.",
+      "Classe tes idées (causes, déroulement, conséquences).",
+      "Appuie chaque idée sur une date ou un fait précis."
+    ]
+  }
+}
