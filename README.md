@@ -131,6 +131,41 @@ Pas encore fait (décisions à prendre avec toi) :
   SES, Mécanique, Russe... repérées dans les imports mais laissées de côté,
   décision à prendre si on veut les intégrer
 
+## Cours : compléments pédagogiques et fiches méthode
+
+Chaque leçon (`backend/cours_seed/lessons/<slug>.json`, **jamais réécrite**)
+reçoit au chargement un complément superposé
+(`backend/cours_seed/enrichments/<slug>.json`) : objectifs, prérequis, fiche
+« À retenir » (points + formules), erreurs fréquentes, 3 exercices corrigés
+(facile → moyen → type examen) et méthode d'examen. Une leçon sans complément
+s'affiche exactement comme avant. **347 leçons sur 347** sont enrichies.
+
+- **Sources** : `backend/cours_seed/enrichments_src/*.json`. Une notion
+  (« topic ») est écrite une seule fois puis associée aux leçons de chaque pays
+  qui la traitent (`map`) ; `{EXAMEN}` est remplacé par BEPC, DEF, BFEM ou BAC.
+- **Construire** après toute modification des sources :
+  `python build_enrichments.py` (`--check` pour valider sans écrire).
+- **Leçons futures** : `python generate_enrichments_ai.py` génère par l'API
+  Claude les compléments des leçons qui n'en ont pas, avec une 2e passe qui
+  refait chaque exercice et retire les corrigés faux (SDK `anthropic` ≥ 1.x,
+  utilisé en local uniquement ; à relire avant de committer).
+- **Fiches méthode** d'examen (`cours_seed/methodes.json`, routes
+  `/api/methodes` et `/api/methodes/<id>`, page `methode.html`) : dissertation
+  et commentaire philosophiques, dissertation littéraire, commentaire composé,
+  résumé-discussion, rédaction, résolution en maths et en physique-chimie, SVT,
+  histoire-géographie, langues, gestion du temps, situation d'évaluation APC
+  (Côte d'Ivoire et Bénin uniquement, champ `pays`).
+- **Côté élève** : quiz flash aux réponses mélangées, exercices avec indice et
+  corrigé masqués puis auto-évaluation (score gardé), progression locale
+  (`aida_cours_progress`, ✓ dans la liste, compteur, « chapitre suivant »),
+  chapitres dans l'ordre officiel et regroupés par série, navigation par
+  glissement et clavier, mode sombre, leçons et fiches lisibles hors-ligne
+  après une première ouverture (service worker v6).
+- **Référentiel** (`curriculum.py`) : Guinée = BEPC, Sénégal = BFEM ; contexte
+  national (monnaie — francs guinéens en Guinée —, séries du bac, approche par
+  compétences) injecté dans les prompts du chat et du générateur de leçons.
+- **Tests** : `cd backend && python -m unittest discover tests -v`.
+
 ## Compiler l'APK
 
 ```bash

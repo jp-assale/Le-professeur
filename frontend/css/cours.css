@@ -195,3 +195,4 @@
   .slide, .example-step, .resume-points li { animation: none !important; opacity: 1 !important; transform: none !important; }
 }
 .exo-enonce { white-space: pre-line; }
+.scene text:not([fill]) { fill: currentColor; }

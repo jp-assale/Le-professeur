@@ -21,7 +21,7 @@ import unicodedata
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
-from curriculum import PAYS, niveau_label
+from curriculum import PAYS, contexte_pays_note, niveau_label, pays_avec_preposition
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -82,7 +82,7 @@ TEMPLATE_NOTE = {
         "simulation dans ton JSON, elle est ajoutee automatiquement entre "
         "'concept' et 'example'. Concentre-toi sur une mise en situation, un "
         "enonce, un exemple chiffre et un quiz coherents avec une fonction "
-        "affine (de preference un contexte concret africain, prix en FCFA si "
+        "affine (de preference un contexte concret africain, prix dans la monnaie du pays si "
         "pertinent)."
     ),
     "text_only": (
@@ -111,7 +111,6 @@ QUALITATIVE_MATIERES = {"Philosophie", "Histoire-Geographie", "Francais", "Angla
 
 
 def build_prompt(entry: dict, chapitre: str, template: str) -> str:
-    pays_label = PAYS_LABEL.get(entry["pays"], entry["pays"])
     niveau = niveau_label(entry["pays"], entry["niveau"])
     serie = entry.get("serie")
     examen_txt = entry.get("examen", "")
@@ -147,8 +146,9 @@ def build_prompt(entry: dict, chapitre: str, template: str) -> str:
 
     return (
         f"Tu es Le Prof JPA, un professeur qui prepare une lecon animee pour "
-        f"un(e) eleve du {niveau} ({examen_txt}) en {entry['matiere']}, au "
-        f"{pays_label}.\n\n"
+        f"un(e) eleve du {niveau} ({examen_txt}) en {entry['matiere']}, "
+        f"{pays_avec_preposition(entry['pays'])}.\n"
+        f"{contexte_pays_note(entry['pays'], entry['niveau'])}\n\n"
         f"Le chapitre EXACT du programme officiel a couvrir est :\n"
         f"« {chapitre} »\n"
         f"(source du programme : {entry['source']})\n\n"

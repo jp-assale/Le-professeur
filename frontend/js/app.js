@@ -806,13 +806,6 @@
             link.className = "pdf-sujet-view" + (p.done ? " cours-done" : "");
             const icon = p.done ? "✅ " : (c.fallback_for ? "📚🌍 " : "📚 ");
             link.textContent = icon + (c.title || c.chapitre);
-            if (c.enrichi) {
-              const tag = document.createElement("span");
-              tag.className = "cours-tag";
-              tag.textContent = "+ exercices";
-              tag.title = "Fiche « À retenir », erreurs fréquentes et exercices corrigés";
-              link.appendChild(tag);
-            }
             if (typeof p.best === "number" && p.total) {
               const sc = document.createElement("span");
               sc.className = "cours-tag score";
