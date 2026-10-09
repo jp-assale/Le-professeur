@@ -1,0 +1,78 @@
+{
+  "_topic": "courbes-parametrees",
+  "objectifs": [
+    "Définir une courbe paramétrée et son vecteur dérivé.",
+    "Étudier conjointement x(t) et y(t).",
+    "Déterminer les tangentes (horizontales, verticales) et les points stationnaires."
+  ],
+  "prerequis": [
+    "Dérivation et tableaux de variation.",
+    "Vecteurs."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une courbe paramétrée est l'ensemble des points M(t) de coordonnées (x(t) ; y(t)) quand t décrit un intervalle.",
+      "Si le vecteur dérivé (x'(t) ; y'(t)) n'est pas nul, il dirige la tangente en M(t).",
+      "x'(t) = 0 et y'(t) ≠ 0 : tangente verticale ; y'(t) = 0 et x'(t) ≠ 0 : tangente horizontale.",
+      "Si x'(t) = y'(t) = 0, le point est stationnaire : l'étude demande plus de précision.",
+      "Penser aux symétries (parité de x et y) pour réduire l'intervalle d'étude."
+    ],
+    "formules": [
+      "M(t) = (x(t) ; y(t))",
+      "Vecteur dérivé : (x'(t) ; y'(t))",
+      "x = R cos t, y = R sin t : cercle de rayon R"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Faire deux tableaux séparés sans les relier.",
+      "correction": "Fais un tableau conjoint (t, x', x, y', y)."
+    },
+    {
+      "erreur": "Conclure à une tangente horizontale quand x' et y' sont tous deux nuls.",
+      "correction": "C'est un point stationnaire, à étudier à part."
+    },
+    {
+      "erreur": "Oublier d'éliminer t quand c'est possible.",
+      "correction": "Une équation cartésienne aide à reconnaître la courbe."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "x(t) = 2 cos t et y(t) = 2 sin t, t ∈ [0 ; 2π]. Quelle est la courbe ?",
+      "indice": "Calcule x² + y².",
+      "corrige": [
+        "x² + y² = 4(cos² t + sin² t) = 4 : c'est le cercle de centre O et de rayon 2."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "x(t) = t + 1 et y(t) = t². Donne une équation cartésienne de la courbe et le vecteur dérivé en t = 1.",
+      "indice": "t = x − 1.",
+      "corrige": [
+        "t = x − 1 donc y = (x − 1)² : parabole.",
+        "Vecteur dérivé : (1 ; 2t), soit (1 ; 2) en t = 1."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "x(t) = t² − 2t et y(t) = t³ − 3t. 1) Calcule x'(t) et y'(t). 2) Donne les points à tangente horizontale ou verticale et les points stationnaires.",
+      "indice": "Factorise y'(t) = 3(t² − 1).",
+      "corrige": [
+        "1) x'(t) = 2t − 2 = 2(t − 1) ; y'(t) = 3t² − 3 = 3(t − 1)(t + 1).",
+        "2) t = 1 : x' = y' = 0 : point stationnaire M(1) = (−1 ; −2).",
+        "t = −1 : y' = 0 et x' = −4 ≠ 0 : tangente horizontale en M(−1) = (3 ; 2).",
+        "Aucun t n'annule x' sans annuler y' : pas de tangente verticale."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : courbe paramétrée",
+    "etapes": [
+      "Réduis l'intervalle d'étude (périodicité, symétries).",
+      "Dresse le tableau conjoint des variations.",
+      "Place points et tangentes remarquables avant de tracer."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_topic": "applications-bijections",
+  "objectifs": [
+    "Définir injection, surjection, bijection.",
+    "Démontrer qu'une application est bijective.",
+    "Déterminer la bijection réciproque."
+  ],
+  "prerequis": [
+    "Fonctions, ensembles de départ et d'arrivée.",
+    "Résolution d'équations."
+  ],
+  "a_retenir": {
+    "points": [
+      "f : E → F est injective si deux éléments distincts ont des images distinctes : f(a) = f(b) ⟹ a = b.",
+      "f est surjective si tout élément de F a au moins un antécédent dans E.",
+      "f est bijective si elle est injective et surjective : tout élément de F a un unique antécédent.",
+      "Pour montrer qu'une fonction est bijective, on peut résoudre f(x) = y : une unique solution dans E pour tout y de F.",
+      "La réciproque f⁻¹ vérifie f⁻¹(f(x)) = x et f(f⁻¹(y)) = y."
+    ],
+    "formules": [
+      "Bijective ⟺ ∀y ∈ F, f(x) = y a une unique solution x ∈ E",
+      "f strictement monotone et continue sur un intervalle : bijection sur son image"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier de préciser les ensembles de départ et d'arrivée.",
+      "correction": "x ↦ x² n'est pas bijective de ℝ dans ℝ, mais l'est de [0 ; +∞[ dans [0 ; +∞[."
+    },
+    {
+      "erreur": "Montrer seulement l'injectivité.",
+      "correction": "La bijection exige aussi la surjectivité."
+    },
+    {
+      "erreur": "Ne pas vérifier que l'antécédent trouvé est dans E.",
+      "correction": "Contrôle les valeurs interdites."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Montre que f : ℝ → ℝ, x ↦ 2x + 3 est bijective et donne f⁻¹.",
+      "indice": "Résous 2x + 3 = y.",
+      "corrige": [
+        "Pour tout réel y, 2x + 3 = y ⟺ x = (y − 3)/2, unique solution réelle.",
+        "f est bijective et f⁻¹(y) = (y − 3)/2."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "g : ℝ → ℝ, x ↦ x². Est-elle injective ? surjective ? Comment la rendre bijective ?",
+      "indice": "g(−1) et g(1) ; antécédent de −1 ?",
+      "corrige": [
+        "Non injective : g(−1) = g(1) = 1.",
+        "Non surjective : −1 n'a pas d'antécédent.",
+        "En restreignant à [0 ; +∞[ → [0 ; +∞[, elle devient bijective, de réciproque y ↦ √y."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "h : ℝ \\ {1} → ℝ \\ {2}, h(x) = (2x + 1)/(x − 1). Montre que h est bijective et détermine h⁻¹.",
+      "indice": "Résous y = (2x + 1)/(x − 1) en x.",
+      "corrige": [
+        "y(x − 1) = 2x + 1 ⟺ x(y − 2) = y + 1 ⟺ x = (y + 1)/(y − 2), possible car y ≠ 2.",
+        "Cette valeur est différente de 1 (sinon y + 1 = y − 2, impossible) : elle appartient bien à ℝ \\ {1}.",
+        "Tout y ≠ 2 a donc un unique antécédent : h est bijective et h⁻¹(y) = (y + 1)/(y − 2)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : injection, surjection, bijection",
+    "etapes": [
+      "Écris clairement E et F.",
+      "Résous f(x) = y et discute selon y.",
+      "Conclus et donne la réciproque si elle existe."
+    ]
+  }
+}

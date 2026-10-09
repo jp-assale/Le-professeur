@@ -1,0 +1,76 @@
+{
+  "_topic": "moteur-electrique",
+  "objectifs": [
+    "Décrire les éléments d'un moteur électrique à courant continu.",
+    "Expliquer son principe (action d'un champ magnétique sur un courant).",
+    "Calculer puissance et rendement ; inverser le sens de rotation."
+  ],
+  "prerequis": [
+    "Aimants et électroaimants.",
+    "Puissance électrique P = U × I."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un moteur électrique transforme l'énergie électrique en énergie mécanique (et un peu de chaleur).",
+      "Éléments : stator (partie fixe : aimants ou électroaimants), rotor (partie tournante : bobines), collecteur et balais (moteur à courant continu).",
+      "Une bobine parcourue par un courant et placée dans un champ magnétique subit des forces (forces de Laplace) qui la font tourner.",
+      "Pour un moteur à courant continu à aimants, inverser la polarité de l'alimentation inverse le sens de rotation.",
+      "Rendement = puissance utile (mécanique) / puissance absorbée (électrique), toujours inférieur à 100 %."
+    ],
+    "formules": [
+      "P absorbée = U × I",
+      "η = P utile / P absorbée"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le moteur crée de l'énergie.",
+      "correction": "Il convertit l'énergie électrique ; une partie est perdue en chaleur."
+    },
+    {
+      "erreur": "Confondre moteur et générateur (dynamo).",
+      "correction": "Le moteur reçoit de l'électricité et produit un mouvement ; la dynamo fait l'inverse."
+    },
+    {
+      "erreur": "Trouver un rendement supérieur à 1.",
+      "correction": "Vérifie : utile ÷ absorbée."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite les deux parties principales d'un moteur électrique et leur rôle.",
+      "indice": "Fixe / tournante.",
+      "corrige": [
+        "Stator (fixe) : crée le champ magnétique.",
+        "Rotor (mobile) : bobines parcourues par le courant qui tournent."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Comment inverser le sens de rotation d'un petit moteur de jouet à courant continu alimenté par une pile ?",
+      "indice": "Polarité.",
+      "corrige": [
+        "On inverse les branchements des bornes + et − de la pile : le courant change de sens et le moteur tourne dans l'autre sens."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un moteur alimenté sous 12 V absorbe un courant de 2 A et fournit une puissance mécanique de 18 W. 1) Calcule la puissance absorbée. 2) Calcule le rendement. 3) Que devient l'énergie perdue ?",
+      "indice": "P = U × I.",
+      "corrige": [
+        "1) P absorbée = 12 × 2 = 24 W.",
+        "2) η = 18 / 24 = 0,75 = 75 %.",
+        "3) Les 6 W perdus sont surtout transformés en chaleur (effet Joule dans les bobines, frottements)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : le moteur électrique",
+    "etapes": [
+      "Fais un schéma légendé (stator, rotor, collecteur, balais).",
+      "Explique la conversion d'énergie par une chaîne énergétique.",
+      "Calcule puissances et rendement avec les unités."
+    ]
+  }
+}

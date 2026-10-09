@@ -1,0 +1,74 @@
+{
+  "_topic": "dessin-technique",
+  "objectifs": [
+    "Représenter un objet par ses vues (face, dessus, gauche).",
+    "Utiliser une échelle.",
+    "Lire et réaliser une cotation simple."
+  ],
+  "prerequis": [
+    "Tracés à la règle et à l'équerre."
+  ],
+  "a_retenir": {
+    "points": [
+      "Projection orthogonale : on représente l'objet par plusieurs vues ; disposition européenne : vue de dessus sous la vue de face, vue de gauche à droite de la vue de face.",
+      "Les vues sont alignées : même hauteur pour la face et la gauche, même largeur pour la face et le dessus.",
+      "Types de traits : continu fort (arêtes vues), interrompu (arêtes cachées), mixte fin (axes).",
+      "Échelle = dimension sur le dessin / dimension réelle (1:2 réduction, 2:1 agrandissement).",
+      "La cotation indique les dimensions réelles en millimètres, quelle que soit l'échelle."
+    ],
+    "formules": [
+      "Dimension dessin = dimension réelle × échelle",
+      "Dimension réelle = dimension dessin ÷ échelle"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Coter les dimensions du dessin au lieu des dimensions réelles.",
+      "correction": "La cote donne toujours la dimension réelle."
+    },
+    {
+      "erreur": "Placer la vue de dessus au-dessus de la vue de face.",
+      "correction": "En disposition européenne, elle est en dessous."
+    },
+    {
+      "erreur": "Dessiner les arêtes cachées en trait continu.",
+      "correction": "Elles se dessinent en trait interrompu fin."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une table de 2 m de long est dessinée à l'échelle 1:20. Quelle est sa longueur sur le dessin ?",
+      "indice": "2 m = 2 000 mm.",
+      "corrige": [
+        "2 000 × 1/20 = 100 mm = 10 cm."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une vis mesure 5 cm sur un dessin à l'échelle 2:1. Quelle est sa longueur réelle ?",
+      "indice": "Agrandissement.",
+      "corrige": [
+        "Longueur réelle = 5 ÷ 2 = 2,5 cm (25 mm)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On représente un pavé de 60 mm (longueur) × 40 mm (largeur) × 20 mm (hauteur) percé d'un trou cylindrique vertical de diamètre 10 mm traversant toute la hauteur. Décris les trois vues en disposition européenne (forme, dimensions, types de traits).",
+      "indice": "Le trou est vu comme un cercle d'un côté et caché dans les autres vues.",
+      "corrige": [
+        "Vue de face : rectangle 60 × 20 ; le trou apparaît par deux traits interrompus verticaux (arêtes cachées) et un axe en trait mixte.",
+        "Vue de dessus (sous la vue de face) : rectangle 60 × 40 avec un cercle de diamètre 10 en trait continu et ses axes.",
+        "Vue de gauche (à droite de la vue de face) : rectangle 40 × 20 avec le trou en traits interrompus et son axe."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : le dessin technique",
+    "etapes": [
+      "Choisis la vue de face la plus représentative.",
+      "Aligne les vues et respecte les types de traits.",
+      "Cote en dimensions réelles (mm)."
+    ]
+  }
+}

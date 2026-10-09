@@ -1,0 +1,77 @@
+{
+  "_topic": "algebre-horner",
+  "objectifs": [
+    "Composer deux applications.",
+    "Factoriser un polynôme connaissant une racine.",
+    "Utiliser la méthode de Horner."
+  ],
+  "prerequis": [
+    "Polynômes, trinôme du second degré."
+  ],
+  "a_retenir": {
+    "points": [
+      "(f∘g)(x) = f(g(x)) : on applique d'abord g, puis f ; en général f∘g ≠ g∘f.",
+      "Si a est racine de P (P(a) = 0), alors P(x) = (x − a)·Q(x), avec Q de degré inférieur d'une unité.",
+      "Méthode de Horner : on écrit les coefficients de P ; on abaisse le premier, puis on multiplie par a et on ajoute au coefficient suivant ; le dernier résultat (reste) doit être 0.",
+      "Les nombres obtenus (sauf le dernier) sont les coefficients de Q.",
+      "On termine en factorisant Q (discriminant ou racine évidente)."
+    ],
+    "formules": [
+      "(f∘g)(x) = f(g(x))",
+      "P(a) = 0 ⟹ P(x) = (x − a)Q(x)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Calculer g(f(x)) pour f∘g.",
+      "correction": "f∘g : g d'abord, f ensuite."
+    },
+    {
+      "erreur": "Oublier un coefficient nul dans le tableau de Horner.",
+      "correction": "Écris 0 pour les puissances absentes (ex. x³ + 0x² − 4x + 3)."
+    },
+    {
+      "erreur": "Diviser par (x + a) au lieu de (x − a).",
+      "correction": "Une racine a donne le facteur (x − a)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "f(x) = 2x + 1 et g(x) = x². Calcule (f∘g)(x) et (g∘f)(x).",
+      "indice": "Remplace x par g(x) dans f.",
+      "corrige": [
+        "(f∘g)(x) = 2x² + 1.",
+        "(g∘f)(x) = (2x + 1)² = 4x² + 4x + 1 : f∘g ≠ g∘f."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "P(x) = x³ − 6x² + 11x − 6. Vérifie que 1 est racine, puis factorise P avec Horner.",
+      "indice": "Coefficients : 1, −6, 11, −6.",
+      "corrige": [
+        "P(1) = 1 − 6 + 11 − 6 = 0.",
+        "Horner avec a = 1 : 1 ; −6 + 1 = −5 ; 11 − 5 = 6 ; −6 + 6 = 0. Donc Q(x) = x² − 5x + 6.",
+        "Q(x) = (x − 2)(x − 3), d'où P(x) = (x − 1)(x − 2)(x − 3)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "P(x) = 2x³ + x² − 5x + 2. 1) Trouve une racine évidente. 2) Factorise P complètement. 3) Résous P(x) = 0.",
+      "indice": "Essaie x = 1.",
+      "corrige": [
+        "1) P(1) = 2 + 1 − 5 + 2 = 0 : 1 est racine.",
+        "2) Horner : 2 ; 1 + 2 = 3 ; −5 + 3 = −2 ; 2 − 2 = 0. Q(x) = 2x² + 3x − 2 = (2x − 1)(x + 2). P(x) = (x − 1)(2x − 1)(x + 2).",
+        "3) S = {−2 ; 1/2 ; 1}."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : factoriser un polynôme",
+    "etapes": [
+      "Cherche une racine évidente (0, 1, −1, 2, −2…).",
+      "Présente le tableau de Horner proprement.",
+      "Factorise le quotient et conclus."
+    ]
+  }
+}

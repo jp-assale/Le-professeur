@@ -1,0 +1,75 @@
+{
+  "_topic": "moteur-combustion",
+  "objectifs": [
+    "Décrire le principe d'un moteur à combustion interne.",
+    "Expliquer le cycle à quatre temps.",
+    "Calculer une cylindrée et identifier les règles d'entretien et de sécurité."
+  ],
+  "prerequis": [
+    "Combustion des hydrocarbures.",
+    "Volume d'un cylindre."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le moteur transforme l'énergie chimique du carburant en énergie mécanique (rotation du vilebrequin).",
+      "Cycle à 4 temps : admission (le piston descend, le mélange entre), compression (le piston monte), combustion-détente (le mélange brûle et pousse le piston : seul temps moteur), échappement (les gaz brûlés sortent).",
+      "Un cycle complet correspond à deux tours de vilebrequin.",
+      "Moteur à essence : allumage par bougie ; moteur diesel : auto-inflammation par forte compression.",
+      "Cylindrée = surface du piston × course × nombre de cylindres. Les gaz d'échappement (CO, CO₂) sont nocifs : ne jamais faire tourner un moteur dans un local fermé."
+    ],
+    "formules": [
+      "Cylindrée d'un cylindre = π × (alésage/2)² × course",
+      "Cylindrée totale = cylindrée unitaire × nombre de cylindres"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que les quatre temps fournissent tous de l'énergie.",
+      "correction": "Seul le temps de combustion-détente est moteur."
+    },
+    {
+      "erreur": "Confondre alésage (diamètre) et rayon dans le calcul.",
+      "correction": "Rayon = alésage ÷ 2."
+    },
+    {
+      "erreur": "Négliger l'entretien (vidange, filtres).",
+      "correction": "Un moteur mal entretenu consomme plus, pollue plus et s'use plus vite."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Range dans l'ordre les temps d'un moteur à quatre temps et indique le temps moteur.",
+      "indice": "Le mélange doit d'abord entrer.",
+      "corrige": [
+        "Admission → compression → combustion-détente (temps moteur) → échappement."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Combien de tours fait le vilebrequin pendant 10 cycles complets ?",
+      "indice": "Un cycle = deux tours.",
+      "corrige": [
+        "10 × 2 = 20 tours."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un moteur a 4 cylindres d'alésage 8 cm et de course 9 cm. Calcule sa cylindrée en cm³ puis en litres.",
+      "indice": "Surface du piston = π × 4².",
+      "corrige": [
+        "Surface du piston : π × 4² ≈ 50,27 cm².",
+        "Cylindrée d'un cylindre : 50,27 × 9 ≈ 452 cm³.",
+        "Cylindrée totale : 452 × 4 ≈ 1 810 cm³, soit environ 1,8 L."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : le moteur à combustion",
+    "etapes": [
+      "Fais un schéma (cylindre, piston, soupapes, bougie, bielle, vilebrequin).",
+      "Décris chaque temps avec la position du piston et des soupapes.",
+      "Pour les calculs, écris la formule de la cylindrée avec les unités."
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "_doc": "Complements pedagogiques - dernieres lecons : maths (courbes parametrees BF, applications Guinee, algebre/Horner Senegal L) et technologie PCT du Benin (plastiques, dessin technique, moteurs, maintenance). Calculs verifies a la main.",
+  "topics": {
+    "courbes-parametrees": {
+      "objectifs": ["Définir une courbe paramétrée et son vecteur dérivé.", "Étudier conjointement x(t) et y(t).", "Déterminer les tangentes (horizontales, verticales) et les points stationnaires."],
+      "prerequis": ["Dérivation et tableaux de variation.", "Vecteurs."],
+      "a_retenir": {
+        "points": [
+          "Une courbe paramétrée est l'ensemble des points M(t) de coordonnées (x(t) ; y(t)) quand t décrit un intervalle.",
+          "Si le vecteur dérivé (x'(t) ; y'(t)) n'est pas nul, il dirige la tangente en M(t).",
+          "x'(t) = 0 et y'(t) ≠ 0 : tangente verticale ; y'(t) = 0 et x'(t) ≠ 0 : tangente horizontale.",
+          "Si x'(t) = y'(t) = 0, le point est stationnaire : l'étude demande plus de précision.",
+          "Penser aux symétries (parité de x et y) pour réduire l'intervalle d'étude."
+        ],
+        "formules": ["M(t) = (x(t) ; y(t))", "Vecteur dérivé : (x'(t) ; y'(t))", "x = R cos t, y = R sin t : cercle de rayon R"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Faire deux tableaux séparés sans les relier.", "correction": "Fais un tableau conjoint (t, x', x, y', y)." },
+        { "erreur": "Conclure à une tangente horizontale quand x' et y' sont tous deux nuls.", "correction": "C'est un point stationnaire, à étudier à part." },
+        { "erreur": "Oublier d'éliminer t quand c'est possible.", "correction": "Une équation cartésienne aide à reconnaître la courbe." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "x(t) = 2 cos t et y(t) = 2 sin t, t ∈ [0 ; 2π]. Quelle est la courbe ?", "indice": "Calcule x² + y².", "corrige": ["x² + y² = 4(cos² t + sin² t) = 4 : c'est le cercle de centre O et de rayon 2."] },
+        { "niveau": "moyen", "enonce": "x(t) = t + 1 et y(t) = t². Donne une équation cartésienne de la courbe et le vecteur dérivé en t = 1.", "indice": "t = x − 1.", "corrige": ["t = x − 1 donc y = (x − 1)² : parabole.", "Vecteur dérivé : (1 ; 2t), soit (1 ; 2) en t = 1."] },
+        { "niveau": "examen", "enonce": "x(t) = t² − 2t et y(t) = t³ − 3t. 1) Calcule x'(t) et y'(t). 2) Donne les points à tangente horizontale ou verticale et les points stationnaires.", "indice": "Factorise y'(t) = 3(t² − 1).", "corrige": ["1) x'(t) = 2t − 2 = 2(t − 1) ; y'(t) = 3t² − 3 = 3(t − 1)(t + 1).", "2) t = 1 : x' = y' = 0 : point stationnaire M(1) = (−1 ; −2).", "t = −1 : y' = 0 et x' = −4 ≠ 0 : tangente horizontale en M(−1) = (3 ; 2).", "Aucun t n'annule x' sans annuler y' : pas de tangente verticale."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : courbe paramétrée", "etapes": ["Réduis l'intervalle d'étude (périodicité, symétries).", "Dresse le tableau conjoint des variations.", "Place points et tangentes remarquables avant de tracer."] }
+    },
+    "applications-bijections": {
+      "objectifs": ["Définir injection, surjection, bijection.", "Démontrer qu'une application est bijective.", "Déterminer la bijection réciproque."],
+      "prerequis": ["Fonctions, ensembles de départ et d'arrivée.", "Résolution d'équations."],
+      "a_retenir": {
+        "points": [
+          "f : E → F est injective si deux éléments distincts ont des images distinctes : f(a) = f(b) ⟹ a = b.",
+          "f est surjective si tout élément de F a au moins un antécédent dans E.",
+          "f est bijective si elle est injective et surjective : tout élément de F a un unique antécédent.",
+          "Pour montrer qu'une fonction est bijective, on peut résoudre f(x) = y : une unique solution dans E pour tout y de F.",
+          "La réciproque f⁻¹ vérifie f⁻¹(f(x)) = x et f(f⁻¹(y)) = y."
+        ],
+        "formules": ["Bijective ⟺ ∀y ∈ F, f(x) = y a une unique solution x ∈ E", "f strictement monotone et continue sur un intervalle : bijection sur son image"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier de préciser les ensembles de départ et d'arrivée.", "correction": "x ↦ x² n'est pas bijective de ℝ dans ℝ, mais l'est de [0 ; +∞[ dans [0 ; +∞[." },
+        { "erreur": "Montrer seulement l'injectivité.", "correction": "La bijection exige aussi la surjectivité." },
+        { "erreur": "Ne pas vérifier que l'antécédent trouvé est dans E.", "correction": "Contrôle les valeurs interdites." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Montre que f : ℝ → ℝ, x ↦ 2x + 3 est bijective et donne f⁻¹.", "indice": "Résous 2x + 3 = y.", "corrige": ["Pour tout réel y, 2x + 3 = y ⟺ x = (y − 3)/2, unique solution réelle.", "f est bijective et f⁻¹(y) = (y − 3)/2."] },
+        { "niveau": "moyen", "enonce": "g : ℝ → ℝ, x ↦ x². Est-elle injective ? surjective ? Comment la rendre bijective ?", "indice": "g(−1) et g(1) ; antécédent de −1 ?", "corrige": ["Non injective : g(−1) = g(1) = 1.", "Non surjective : −1 n'a pas d'antécédent.", "En restreignant à [0 ; +∞[ → [0 ; +∞[, elle devient bijective, de réciproque y ↦ √y."] },
+        { "niveau": "examen", "enonce": "h : ℝ \\ {1} → ℝ \\ {2}, h(x) = (2x + 1)/(x − 1). Montre que h est bijective et détermine h⁻¹.", "indice": "Résous y = (2x + 1)/(x − 1) en x.", "corrige": ["y(x − 1) = 2x + 1 ⟺ x(y − 2) = y + 1 ⟺ x = (y + 1)/(y − 2), possible car y ≠ 2.", "Cette valeur est différente de 1 (sinon y + 1 = y − 2, impossible) : elle appartient bien à ℝ \\ {1}.", "Tout y ≠ 2 a donc un unique antécédent : h est bijective et h⁻¹(y) = (y + 1)/(y − 2)."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : injection, surjection, bijection", "etapes": ["Écris clairement E et F.", "Résous f(x) = y et discute selon y.", "Conclus et donne la réciproque si elle existe."] }
+    },
+    "algebre-horner": {
+      "objectifs": ["Composer deux applications.", "Factoriser un polynôme connaissant une racine.", "Utiliser la méthode de Horner."],
+      "prerequis": ["Polynômes, trinôme du second degré."],
+      "a_retenir": {
+        "points": [
+          "(f∘g)(x) = f(g(x)) : on applique d'abord g, puis f ; en général f∘g ≠ g∘f.",
+          "Si a est racine de P (P(a) = 0), alors P(x) = (x − a)·Q(x), avec Q de degré inférieur d'une unité.",
+          "Méthode de Horner : on écrit les coefficients de P ; on abaisse le premier, puis on multiplie par a et on ajoute au coefficient suivant ; le dernier résultat (reste) doit être 0.",
+          "Les nombres obtenus (sauf le dernier) sont les coefficients de Q.",
+          "On termine en factorisant Q (discriminant ou racine évidente)."
+        ],
+        "formules": ["(f∘g)(x) = f(g(x))", "P(a) = 0 ⟹ P(x) = (x − a)Q(x)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer g(f(x)) pour f∘g.", "correction": "f∘g : g d'abord, f ensuite." },
+        { "erreur": "Oublier un coefficient nul dans le tableau de Horner.", "correction": "Écris 0 pour les puissances absentes (ex. x³ + 0x² − 4x + 3)." },
+        { "erreur": "Diviser par (x + a) au lieu de (x − a).", "correction": "Une racine a donne le facteur (x − a)." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "f(x) = 2x + 1 et g(x) = x². Calcule (f∘g)(x) et (g∘f)(x).", "indice": "Remplace x par g(x) dans f.", "corrige": ["(f∘g)(x) = 2x² + 1.", "(g∘f)(x) = (2x + 1)² = 4x² + 4x + 1 : f∘g ≠ g∘f."] },
+        { "niveau": "moyen", "enonce": "P(x) = x³ − 6x² + 11x − 6. Vérifie que 1 est racine, puis factorise P avec Horner.", "indice": "Coefficients : 1, −6, 11, −6.", "corrige": ["P(1) = 1 − 6 + 11 − 6 = 0.", "Horner avec a = 1 : 1 ; −6 + 1 = −5 ; 11 − 5 = 6 ; −6 + 6 = 0. Donc Q(x) = x² − 5x + 6.", "Q(x) = (x − 2)(x − 3), d'où P(x) = (x − 1)(x − 2)(x − 3)."] },
+        { "niveau": "examen", "enonce": "P(x) = 2x³ + x² − 5x + 2. 1) Trouve une racine évidente. 2) Factorise P complètement. 3) Résous P(x) = 0.", "indice": "Essaie x = 1.", "corrige": ["1) P(1) = 2 + 1 − 5 + 2 = 0 : 1 est racine.", "2) Horner : 2 ; 1 + 2 = 3 ; −5 + 3 = −2 ; 2 − 2 = 0. Q(x) = 2x² + 3x − 2 = (2x − 1)(x + 2). P(x) = (x − 1)(2x − 1)(x + 2).", "3) S = {−2 ; 1/2 ; 1}."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : factoriser un polynôme", "etapes": ["Cherche une racine évidente (0, 1, −1, 2, −2…).", "Présente le tableau de Horner proprement.", "Factorise le quotient et conclus."] }
+    },
+    "matieres-plastiques": {
+      "objectifs": ["Distinguer thermoplastiques et thermodurcissables.", "Identifier quelques plastiques par des tests simples.", "Expliquer les enjeux environnementaux et le recyclage."],
+      "prerequis": ["Polymères (notion), combustion."],
+      "a_retenir": {
+        "points": [
+          "Les matières plastiques sont des polymères, le plus souvent fabriqués à partir du pétrole.",
+          "Thermoplastiques (polyéthylène PE, PVC, polystyrène) : ils ramollissent à la chaleur et peuvent être remodelés et recyclés.",
+          "Thermodurcissables (bakélite, résines) : ils durcissent définitivement et ne se refondent pas.",
+          "Tests : flottaison dans l'eau (le polyéthylène flotte, le PVC coule) ; test de Beilstein (un fil de cuivre chauffé avec du PVC donne une flamme verte : présence de chlore).",
+          "Les sachets plastiques mettent des centaines d'années à se dégrader ; il ne faut pas les brûler (fumées toxiques) : réduire, réutiliser, trier, recycler."
+        ],
+        "formules": ["Thermoplastique : chaleur → ramollit (recyclable)", "Thermodurcissable : chaleur → ne fond pas"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser que tous les plastiques se recyclent de la même façon.", "correction": "Il faut trier par type de plastique ; les thermodurcissables se recyclent mal." },
+        { "erreur": "Brûler les déchets plastiques.", "correction": "La combustion libère des gaz toxiques (chlorure d'hydrogène pour le PVC, monoxyde de carbone, suies)." },
+        { "erreur": "Confondre biodégradable et recyclable.", "correction": "Biodégradable : décomposé par les êtres vivants ; recyclable : retransformé en nouvel objet." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Classe : seau en polyéthylène, prise électrique en bakélite, tuyau en PVC, poignée de casserole en résine.", "indice": "Ramollit ou non à la chaleur ?", "corrige": ["Thermoplastiques : seau en polyéthylène, tuyau en PVC.", "Thermodurcissables : prise en bakélite, poignée en résine."] },
+        { "niveau": "moyen", "enonce": "Deux échantillons A et B sont placés dans l'eau : A flotte, B coule. Au test de Beilstein, seul B donne une flamme verte. Identifie-les.", "indice": "Densité et chlore.", "corrige": ["A flotte et ne contient pas de chlore : polyéthylène.", "B coule et contient du chlore : PVC."] },
+        { "niveau": "examen", "enonce": "Une famille utilise en moyenne 10 sachets plastiques par jour. 1) Combien en un an ? 2) Quels sont les dangers de ces déchets ? 3) Propose trois solutions.", "indice": "365 jours.", "corrige": ["1) 10 × 365 = 3 650 sachets par an.", "2) Pollution durable des sols et des eaux, mort d'animaux qui les avalent, caniveaux bouchés (inondations), fumées toxiques s'ils sont brûlés.", "3) Utiliser des sacs réutilisables (pagne, paniers), trier et recycler, sensibiliser le quartier et respecter les interdictions de sachets non biodégradables."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : les matières plastiques", "etapes": ["Décris les tests et leurs résultats.", "Identifie le plastique en justifiant.", "Termine sur l'environnement et le recyclage."] }
+    },
+    "dessin-technique": {
+      "objectifs": ["Représenter un objet par ses vues (face, dessus, gauche).", "Utiliser une échelle.", "Lire et réaliser une cotation simple."],
+      "prerequis": ["Tracés à la règle et à l'équerre."],
+      "a_retenir": {
+        "points": [
+          "Projection orthogonale : on représente l'objet par plusieurs vues ; disposition européenne : vue de dessus sous la vue de face, vue de gauche à droite de la vue de face.",
+          "Les vues sont alignées : même hauteur pour la face et la gauche, même largeur pour la face et le dessus.",
+          "Types de traits : continu fort (arêtes vues), interrompu (arêtes cachées), mixte fin (axes).",
+          "Échelle = dimension sur le dessin / dimension réelle (1:2 réduction, 2:1 agrandissement).",
+          "La cotation indique les dimensions réelles en millimètres, quelle que soit l'échelle."
+        ],
+        "formules": ["Dimension dessin = dimension réelle × échelle", "Dimension réelle = dimension dessin ÷ échelle"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Coter les dimensions du dessin au lieu des dimensions réelles.", "correction": "La cote donne toujours la dimension réelle." },
+        { "erreur": "Placer la vue de dessus au-dessus de la vue de face.", "correction": "En disposition européenne, elle est en dessous." },
+        { "erreur": "Dessiner les arêtes cachées en trait continu.", "correction": "Elles se dessinent en trait interrompu fin." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Une table de 2 m de long est dessinée à l'échelle 1:20. Quelle est sa longueur sur le dessin ?", "indice": "2 m = 2 000 mm.", "corrige": ["2 000 × 1/20 = 100 mm = 10 cm."] },
+        { "niveau": "moyen", "enonce": "Une vis mesure 5 cm sur un dessin à l'échelle 2:1. Quelle est sa longueur réelle ?", "indice": "Agrandissement.", "corrige": ["Longueur réelle = 5 ÷ 2 = 2,5 cm (25 mm)."] },
+        { "niveau": "examen", "enonce": "On représente un pavé de 60 mm (longueur) × 40 mm (largeur) × 20 mm (hauteur) percé d'un trou cylindrique vertical de diamètre 10 mm traversant toute la hauteur. Décris les trois vues en disposition européenne (forme, dimensions, types de traits).", "indice": "Le trou est vu comme un cercle d'un côté et caché dans les autres vues.", "corrige": ["Vue de face : rectangle 60 × 20 ; le trou apparaît par deux traits interrompus verticaux (arêtes cachées) et un axe en trait mixte.", "Vue de dessus (sous la vue de face) : rectangle 60 × 40 avec un cercle de diamètre 10 en trait continu et ses axes.", "Vue de gauche (à droite de la vue de face) : rectangle 40 × 20 avec le trou en traits interrompus et son axe."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : le dessin technique", "etapes": ["Choisis la vue de face la plus représentative.", "Aligne les vues et respecte les types de traits.", "Cote en dimensions réelles (mm)."] }
+    },
+    "moteur-combustion": {
+      "objectifs": ["Décrire le principe d'un moteur à combustion interne.", "Expliquer le cycle à quatre temps.", "Calculer une cylindrée et identifier les règles d'entretien et de sécurité."],
+      "prerequis": ["Combustion des hydrocarbures.", "Volume d'un cylindre."],
+      "a_retenir": {
+        "points": [
+          "Le moteur transforme l'énergie chimique du carburant en énergie mécanique (rotation du vilebrequin).",
+          "Cycle à 4 temps : admission (le piston descend, le mélange entre), compression (le piston monte), combustion-détente (le mélange brûle et pousse le piston : seul temps moteur), échappement (les gaz brûlés sortent).",
+          "Un cycle complet correspond à deux tours de vilebrequin.",
+          "Moteur à essence : allumage par bougie ; moteur diesel : auto-inflammation par forte compression.",
+          "Cylindrée = surface du piston × course × nombre de cylindres. Les gaz d'échappement (CO, CO₂) sont nocifs : ne jamais faire tourner un moteur dans un local fermé."
+        ],
+        "formules": ["Cylindrée d'un cylindre = π × (alésage/2)² × course", "Cylindrée totale = cylindrée unitaire × nombre de cylindres"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser que les quatre temps fournissent tous de l'énergie.", "correction": "Seul le temps de combustion-détente est moteur." },
+        { "erreur": "Confondre alésage (diamètre) et rayon dans le calcul.", "correction": "Rayon = alésage ÷ 2." },
+        { "erreur": "Négliger l'entretien (vidange, filtres).", "correction": "Un moteur mal entretenu consomme plus, pollue plus et s'use plus vite." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Range dans l'ordre les temps d'un moteur à quatre temps et indique le temps moteur.", "indice": "Le mélange doit d'abord entrer.", "corrige": ["Admission → compression → combustion-détente (temps moteur) → échappement."] },
+        { "niveau": "moyen", "enonce": "Combien de tours fait le vilebrequin pendant 10 cycles complets ?", "indice": "Un cycle = deux tours.", "corrige": ["10 × 2 = 20 tours."] },
+        { "niveau": "examen", "enonce": "Un moteur a 4 cylindres d'alésage 8 cm et de course 9 cm. Calcule sa cylindrée en cm³ puis en litres.", "indice": "Surface du piston = π × 4².", "corrige": ["Surface du piston : π × 4² ≈ 50,27 cm².", "Cylindrée d'un cylindre : 50,27 × 9 ≈ 452 cm³.", "Cylindrée totale : 452 × 4 ≈ 1 810 cm³, soit environ 1,8 L."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : le moteur à combustion", "etapes": ["Fais un schéma (cylindre, piston, soupapes, bougie, bielle, vilebrequin).", "Décris chaque temps avec la position du piston et des soupapes.", "Pour les calculs, écris la formule de la cylindrée avec les unités."] }
+    },
+    "moteur-electrique": {
+      "objectifs": ["Décrire les éléments d'un moteur électrique à courant continu.", "Expliquer son principe (action d'un champ magnétique sur un courant).", "Calculer puissance et rendement ; inverser le sens de rotation."],
+      "prerequis": ["Aimants et électroaimants.", "Puissance électrique P = U × I."],
+      "a_retenir": {
+        "points": [
+          "Un moteur électrique transforme l'énergie électrique en énergie mécanique (et un peu de chaleur).",
+          "Éléments : stator (partie fixe : aimants ou électroaimants), rotor (partie tournante : bobines), collecteur et balais (moteur à courant continu).",
+          "Une bobine parcourue par un courant et placée dans un champ magnétique subit des forces (forces de Laplace) qui la font tourner.",
+          "Pour un moteur à courant continu à aimants, inverser la polarité de l'alimentation inverse le sens de rotation.",
+          "Rendement = puissance utile (mécanique) / puissance absorbée (électrique), toujours inférieur à 100 %."
+        ],
+        "formules": ["P absorbée = U × I", "η = P utile / P absorbée"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que le moteur crée de l'énergie.", "correction": "Il convertit l'énergie électrique ; une partie est perdue en chaleur." },
+        { "erreur": "Confondre moteur et générateur (dynamo).", "correction": "Le moteur reçoit de l'électricité et produit un mouvement ; la dynamo fait l'inverse." },
+        { "erreur": "Trouver un rendement supérieur à 1.", "correction": "Vérifie : utile ÷ absorbée." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Cite les deux parties principales d'un moteur électrique et leur rôle.", "indice": "Fixe / tournante.", "corrige": ["Stator (fixe) : crée le champ magnétique.", "Rotor (mobile) : bobines parcourues par le courant qui tournent."] },
+        { "niveau": "moyen", "enonce": "Comment inverser le sens de rotation d'un petit moteur de jouet à courant continu alimenté par une pile ?", "indice": "Polarité.", "corrige": ["On inverse les branchements des bornes + et − de la pile : le courant change de sens et le moteur tourne dans l'autre sens."] },
+        { "niveau": "examen", "enonce": "Un moteur alimenté sous 12 V absorbe un courant de 2 A et fournit une puissance mécanique de 18 W. 1) Calcule la puissance absorbée. 2) Calcule le rendement. 3) Que devient l'énergie perdue ?", "indice": "P = U × I.", "corrige": ["1) P absorbée = 12 × 2 = 24 W.", "2) η = 18 / 24 = 0,75 = 75 %.", "3) Les 6 W perdus sont surtout transformés en chaleur (effet Joule dans les bobines, frottements)."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : le moteur électrique", "etapes": ["Fais un schéma légendé (stator, rotor, collecteur, balais).", "Explique la conversion d'énergie par une chaîne énergétique.", "Calcule puissances et rendement avec les unités."] }
+    },
+    "maintenance": {
+      "objectifs": ["Distinguer maintenance préventive et corrective.", "Mener un diagnostic de panne méthodique.", "Respecter les règles de sécurité et remplir une fiche de maintenance."],
+      "prerequis": ["Circuits électriques simples, objets techniques usuels."],
+      "a_retenir": {
+        "points": [
+          "Maintenance préventive : entretien avant la panne (nettoyage, graissage, vidange, contrôle) pour allonger la durée de vie.",
+          "Maintenance corrective : réparation après la panne.",
+          "Diagnostic : observer le symptôme, émettre des hypothèses, vérifier de la cause la plus simple à la plus complexe (alimentation, fusible, interrupteur, connexions, composant).",
+          "Sécurité : débrancher l'appareil avant toute intervention, utiliser des outils isolés, porter des protections.",
+          "Une fiche de maintenance note la date, l'appareil, la panne, la cause, l'intervention et les pièces changées."
+        ],
+        "formules": ["Symptôme → hypothèses → vérifications → réparation → test → fiche"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Démonter l'appareil sous tension.", "correction": "Toujours couper l'alimentation d'abord." },
+        { "erreur": "Changer des pièces au hasard.", "correction": "Vérifie méthodiquement, de la cause la plus probable et simple à la plus complexe." },
+        { "erreur": "Négliger l'entretien régulier.", "correction": "La maintenance préventive évite beaucoup de pannes coûteuses." }
+      ],
+      "exercices": [
+        { "niveau": "facile", "enonce": "Classe en maintenance préventive ou corrective : vidange d'une moto, remplacement d'un fusible grillé, nettoyage d'un ventilateur, réparation d'une chambre à air crevée.", "indice": "Avant ou après la panne ?", "corrige": ["Préventive : vidange, nettoyage du ventilateur.", "Corrective : remplacement du fusible, réparation de la chambre à air."] },
+        { "niveau": "moyen", "enonce": "Un ventilateur branché ne tourne pas. Propose l'ordre des vérifications.", "indice": "Du plus simple au plus complexe.", "corrige": ["1) La prise est-elle alimentée (tester avec une lampe) ? 2) Le cordon et la fiche sont-ils en bon état ? 3) L'interrupteur et le fusible éventuel fonctionnent-ils ? 4) Les connexions internes (appareil débranché) ? 5) Le moteur (bobinage, condensateur) ?"] },
+        { "niveau": "examen", "enonce": "Rédige la fiche de maintenance d'une lampe torche qui ne s'allume plus et dont on a trouvé que les piles étaient usées et les contacts oxydés.", "indice": "Date, appareil, symptôme, cause, intervention.", "corrige": ["Date ; appareil : lampe torche ; symptôme : ne s'allume pas ; causes : piles usées, contacts oxydés ; intervention : nettoyage des contacts (papier abrasif fin), remplacement des piles ; test : la lampe s'allume ; conseil : retirer les piles si la lampe n'est pas utilisée longtemps."] }
+      ],
+      "methode_examen": { "titre": "Au {EXAMEN} : la maintenance", "etapes": ["Rappelle les règles de sécurité.", "Présente une démarche de diagnostic ordonnée.", "Termine par la fiche de maintenance ou des conseils d'entretien."] }
+    }
+  },
+  "map": {
+    "burkina-faso-lycee-mathematiques-c-d-courbes-parametrees-du-": "courbes-parametrees",
+    "guinee-lycee-mathematiques-sm-applications-injections-surjec": "applications-bijections",
+    "senegal-lycee-mathematiques-l1-l2-algebre-composition-d-appl": "algebre-horner",
+    "benin-college-physique-chimie-les-matieres-plastiques": "matieres-plastiques",
+    "benin-college-physique-chimie-dessin-technique": "dessin-technique",
+    "benin-college-physique-chimie-projet-de-moteur-a-combustion-": "moteur-combustion",
+    "benin-college-physique-chimie-projet-de-moteur-electrique": "moteur-electrique",
+    "benin-college-physique-chimie-maintenance-des-objets-techniq": "maintenance"
+  }
+}

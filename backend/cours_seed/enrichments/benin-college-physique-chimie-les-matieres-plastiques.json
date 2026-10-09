@@ -1,0 +1,76 @@
+{
+  "_topic": "matieres-plastiques",
+  "objectifs": [
+    "Distinguer thermoplastiques et thermodurcissables.",
+    "Identifier quelques plastiques par des tests simples.",
+    "Expliquer les enjeux environnementaux et le recyclage."
+  ],
+  "prerequis": [
+    "Polymères (notion), combustion."
+  ],
+  "a_retenir": {
+    "points": [
+      "Les matières plastiques sont des polymères, le plus souvent fabriqués à partir du pétrole.",
+      "Thermoplastiques (polyéthylène PE, PVC, polystyrène) : ils ramollissent à la chaleur et peuvent être remodelés et recyclés.",
+      "Thermodurcissables (bakélite, résines) : ils durcissent définitivement et ne se refondent pas.",
+      "Tests : flottaison dans l'eau (le polyéthylène flotte, le PVC coule) ; test de Beilstein (un fil de cuivre chauffé avec du PVC donne une flamme verte : présence de chlore).",
+      "Les sachets plastiques mettent des centaines d'années à se dégrader ; il ne faut pas les brûler (fumées toxiques) : réduire, réutiliser, trier, recycler."
+    ],
+    "formules": [
+      "Thermoplastique : chaleur → ramollit (recyclable)",
+      "Thermodurcissable : chaleur → ne fond pas"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que tous les plastiques se recyclent de la même façon.",
+      "correction": "Il faut trier par type de plastique ; les thermodurcissables se recyclent mal."
+    },
+    {
+      "erreur": "Brûler les déchets plastiques.",
+      "correction": "La combustion libère des gaz toxiques (chlorure d'hydrogène pour le PVC, monoxyde de carbone, suies)."
+    },
+    {
+      "erreur": "Confondre biodégradable et recyclable.",
+      "correction": "Biodégradable : décomposé par les êtres vivants ; recyclable : retransformé en nouvel objet."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe : seau en polyéthylène, prise électrique en bakélite, tuyau en PVC, poignée de casserole en résine.",
+      "indice": "Ramollit ou non à la chaleur ?",
+      "corrige": [
+        "Thermoplastiques : seau en polyéthylène, tuyau en PVC.",
+        "Thermodurcissables : prise en bakélite, poignée en résine."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Deux échantillons A et B sont placés dans l'eau : A flotte, B coule. Au test de Beilstein, seul B donne une flamme verte. Identifie-les.",
+      "indice": "Densité et chlore.",
+      "corrige": [
+        "A flotte et ne contient pas de chlore : polyéthylène.",
+        "B coule et contient du chlore : PVC."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une famille utilise en moyenne 10 sachets plastiques par jour. 1) Combien en un an ? 2) Quels sont les dangers de ces déchets ? 3) Propose trois solutions.",
+      "indice": "365 jours.",
+      "corrige": [
+        "1) 10 × 365 = 3 650 sachets par an.",
+        "2) Pollution durable des sols et des eaux, mort d'animaux qui les avalent, caniveaux bouchés (inondations), fumées toxiques s'ils sont brûlés.",
+        "3) Utiliser des sacs réutilisables (pagne, paniers), trier et recycler, sensibiliser le quartier et respecter les interdictions de sachets non biodégradables."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les matières plastiques",
+    "etapes": [
+      "Décris les tests et leurs résultats.",
+      "Identifie le plastique en justifiant.",
+      "Termine sur l'environnement et le recyclage."
+    ]
+  }
+}

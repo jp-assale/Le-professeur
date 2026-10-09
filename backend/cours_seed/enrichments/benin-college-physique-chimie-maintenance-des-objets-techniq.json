@@ -1,0 +1,72 @@
+{
+  "_topic": "maintenance",
+  "objectifs": [
+    "Distinguer maintenance préventive et corrective.",
+    "Mener un diagnostic de panne méthodique.",
+    "Respecter les règles de sécurité et remplir une fiche de maintenance."
+  ],
+  "prerequis": [
+    "Circuits électriques simples, objets techniques usuels."
+  ],
+  "a_retenir": {
+    "points": [
+      "Maintenance préventive : entretien avant la panne (nettoyage, graissage, vidange, contrôle) pour allonger la durée de vie.",
+      "Maintenance corrective : réparation après la panne.",
+      "Diagnostic : observer le symptôme, émettre des hypothèses, vérifier de la cause la plus simple à la plus complexe (alimentation, fusible, interrupteur, connexions, composant).",
+      "Sécurité : débrancher l'appareil avant toute intervention, utiliser des outils isolés, porter des protections.",
+      "Une fiche de maintenance note la date, l'appareil, la panne, la cause, l'intervention et les pièces changées."
+    ],
+    "formules": [
+      "Symptôme → hypothèses → vérifications → réparation → test → fiche"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Démonter l'appareil sous tension.",
+      "correction": "Toujours couper l'alimentation d'abord."
+    },
+    {
+      "erreur": "Changer des pièces au hasard.",
+      "correction": "Vérifie méthodiquement, de la cause la plus probable et simple à la plus complexe."
+    },
+    {
+      "erreur": "Négliger l'entretien régulier.",
+      "correction": "La maintenance préventive évite beaucoup de pannes coûteuses."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe en maintenance préventive ou corrective : vidange d'une moto, remplacement d'un fusible grillé, nettoyage d'un ventilateur, réparation d'une chambre à air crevée.",
+      "indice": "Avant ou après la panne ?",
+      "corrige": [
+        "Préventive : vidange, nettoyage du ventilateur.",
+        "Corrective : remplacement du fusible, réparation de la chambre à air."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un ventilateur branché ne tourne pas. Propose l'ordre des vérifications.",
+      "indice": "Du plus simple au plus complexe.",
+      "corrige": [
+        "1) La prise est-elle alimentée (tester avec une lampe) ? 2) Le cordon et la fiche sont-ils en bon état ? 3) L'interrupteur et le fusible éventuel fonctionnent-ils ? 4) Les connexions internes (appareil débranché) ? 5) Le moteur (bobinage, condensateur) ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Rédige la fiche de maintenance d'une lampe torche qui ne s'allume plus et dont on a trouvé que les piles étaient usées et les contacts oxydés.",
+      "indice": "Date, appareil, symptôme, cause, intervention.",
+      "corrige": [
+        "Date ; appareil : lampe torche ; symptôme : ne s'allume pas ; causes : piles usées, contacts oxydés ; intervention : nettoyage des contacts (papier abrasif fin), remplacement des piles ; test : la lampe s'allume ; conseil : retirer les piles si la lampe n'est pas utilisée longtemps."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la maintenance",
+    "etapes": [
+      "Rappelle les règles de sécurité.",
+      "Présente une démarche de diagnostic ordonnée.",
+      "Termine par la fiche de maintenance ou des conseils d'entretien."
+    ]
+  }
+}
