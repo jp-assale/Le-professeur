@@ -1,0 +1,79 @@
+{
+  "_topic": "angles-inscrits",
+  "objectifs": [
+    "Reconnaître un angle inscrit et un angle au centre.",
+    "Utiliser la relation entre angle inscrit et angle au centre.",
+    "Utiliser l'égalité de deux angles inscrits interceptant le même arc.",
+    "Reconnaître un triangle rectangle inscrit dans un demi-cercle."
+  ],
+  "prerequis": [
+    "Somme des angles d'un triangle : 180°.",
+    "Propriétés du triangle isocèle (angles à la base égaux)."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un angle inscrit a son sommet sur le cercle ; un angle au centre a son sommet au centre O.",
+      "Un angle inscrit mesure la moitié de l'angle au centre qui intercepte le même arc.",
+      "Deux angles inscrits qui interceptent le même arc ont la même mesure.",
+      "Un angle inscrit qui intercepte un demi-cercle (côté = diamètre) est droit : 90°.",
+      "OA = OB = rayon : le triangle AOB est toujours isocèle en O."
+    ],
+    "formules": [
+      "angle inscrit = angle au centre ÷ 2",
+      "angle au centre = 2 × angle inscrit"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Prendre un angle dont le sommet n'est pas sur le cercle pour un angle inscrit.",
+      "correction": "Vérifie que le sommet est sur le cercle et que ses côtés coupent le cercle."
+    },
+    {
+      "erreur": "Comparer deux angles inscrits qui n'interceptent pas le même arc.",
+      "correction": "Repère l'arc intercepté (entre les côtés de l'angle) avant d'appliquer la propriété."
+    },
+    {
+      "erreur": "Écrire angle au centre = angle inscrit ÷ 2.",
+      "correction": "C'est l'inverse : l'angle au centre est le DOUBLE de l'angle inscrit."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Sur un cercle de centre O, l'angle au centre AOB mesure 110°. M est un point du grand arc AB. Calcule l'angle inscrit AMB.",
+      "indice": "AMB et AOB interceptent le même arc AB.",
+      "corrige": [
+        "AMB est un angle inscrit qui intercepte le même arc que l'angle au centre AOB.",
+        "AMB = AOB ÷ 2 = 110° ÷ 2 = 55°."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "[AB] est un diamètre d'un cercle et C un point de ce cercle (C distinct de A et B). L'angle CAB mesure 35°. Calcule ACB puis ABC.",
+      "indice": "Un angle inscrit qui intercepte un demi-cercle est droit.",
+      "corrige": [
+        "C est sur le cercle de diamètre [AB], donc le triangle ABC est rectangle en C : ACB = 90°.",
+        "Dans le triangle ABC : ABC = 180° − 90° − 35° = 55°."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "A, B, C et D sont quatre points d'un cercle de centre O ; C et D sont sur le même arc AB. On donne ACB = 40°. 1) Calcule ADB. 2) Calcule AOB. 3) Calcule OAB.",
+      "indice": "Pour la question 3, le triangle AOB est isocèle en O.",
+      "corrige": [
+        "1) ACB et ADB sont deux angles inscrits qui interceptent le même arc AB : ADB = ACB = 40°.",
+        "2) AOB est l'angle au centre qui intercepte le même arc : AOB = 2 × 40° = 80°.",
+        "3) OA = OB (rayons) donc AOB est isocèle en O et OAB = OBA.",
+        "OAB = (180° − 80°) ÷ 2 = 50°."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : rédiger avec les angles inscrits",
+    "etapes": [
+      "Repère sur la figure l'arc intercepté par chaque angle (colorie-le au crayon).",
+      "Écris la propriété utilisée en entier avant le calcul.",
+      "Pense aux triangles isocèles formés par deux rayons."
+    ]
+  }
+}

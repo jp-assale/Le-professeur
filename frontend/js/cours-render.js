@@ -159,12 +159,30 @@ function renderResumeSection(data) {
   return wrap;
 }
 
+/* Petite liste titree (objectifs, prerequis...) - champs optionnels apportes
+   par les complements pedagogiques (cours_seed/enrichments/). */
+function renderMiniList(className, title, items) {
+  if (!Array.isArray(items) || !items.length) return null;
+  const box = el("div", { className: "mini-list " + className });
+  box.appendChild(el("div", { className: "mini-list-title", text: title }));
+  const ul = el("ul");
+  items.forEach((t) => ul.appendChild(el("li", { text: t })));
+  box.appendChild(ul);
+  return box;
+}
+
 function renderIntroSlide(data) {
   const section = buildSlideShell("Mise en situation", data.intro.heading);
   const card = el("div", { className: "card" });
   card.appendChild(el("p", { text: data.intro.body }));
   section.appendChild(card);
   addCoursSpeakButton(section, data.intro.heading + ". " + data.intro.body);
+  // La situation accroche d'abord l'eleve ; objectifs et prerequis viennent
+  // ensuite, avant le resume anime.
+  const objectifs = renderMiniList("objectifs", "🎯 À la fin de ce cours, tu sauras :", data.objectifs);
+  if (objectifs) section.appendChild(objectifs);
+  const prerequis = renderMiniList("prerequis", "🧱 Ce que tu dois déjà savoir :", data.prerequis);
+  if (prerequis) section.appendChild(prerequis);
   const resume = renderResumeSection(data);
   if (resume) section.appendChild(resume);
   return section;
@@ -213,10 +231,31 @@ function renderConceptSlide(data) {
     box.appendChild(el("b", { text: data.concept.highlight }));
     section.appendChild(box);
   }
+  // Seconde partie du concept (presente sur quelques lecons, jusqu'ici
+  // generee mais jamais affichee).
+  const c2 = data.concept_2;
+  if (c2 && c2.explanation) {
+    if (c2.heading) section.appendChild(el("h3", { className: "sub-heading", text: c2.heading }));
+    section.appendChild(el("p", { text: c2.explanation }));
+    if (c2.highlight) {
+      const box2 = el("div", { className: "theorem-box" });
+      box2.appendChild(el("b", { text: c2.highlight }));
+      section.appendChild(box2);
+    }
+  }
+  const ext = data.concept_extension;
+  if (ext && Array.isArray(ext.types) && ext.types.length) {
+    if (ext.heading) section.appendChild(el("h3", { className: "sub-heading", text: ext.heading }));
+    ext.types.forEach((t) => {
+      const card = el("div", { className: "card type-card" });
+      card.appendChild(el("b", { text: t.name || "" }));
+      if (t.description) card.appendChild(el("p", { text: t.description }));
+      if (t.signal) card.appendChild(el("p", { className: "muted", text: "🔎 " + t.signal }));
+      section.appendChild(card);
+    });
+  }
   if (data.fallback_for) {
-    const note = el("div", { className: "theorem-box" });
-    note.style.background = "#fff4e0";
-    note.style.borderLeftColor = "#ffb347";
+    const note = el("div", { className: "theorem-box warn-box" });
     note.textContent =
       "🌍 Programme non confirmé pour " + (PAYS_LABELS[data.fallback_for] || data.fallback_for) +
       " — ce cours suit le programme confirmé de " + (PAYS_LABELS[data.pays] || data.pays) +
@@ -229,35 +268,67 @@ function renderConceptSlide(data) {
   return section;
 }
 
-function renderExampleSlide(data) {
-  const section = buildSlideShell("Exemple résolu", "Applique ce que tu viens de voir");
-  section.appendChild(el("p", { text: data.example.problem }));
-  const card = el("div", { className: "card" });
-  data.example.steps.forEach((txt, i) => {
+function appendExampleSteps(card, steps) {
+  (steps || []).forEach((txt, i) => {
     const row = el("div", { className: "example-step" });
     row.style.animationDelay = (i * 0.2) + "s";
     row.appendChild(el("div", { className: "num", text: String(i + 1) }));
     row.appendChild(el("div", { text: txt }));
     card.appendChild(row);
   });
+}
+
+function renderExampleSlide(data) {
+  const section = buildSlideShell("Exemple résolu", "Applique ce que tu viens de voir");
+  section.appendChild(el("p", { text: data.example.problem }));
+  const card = el("div", { className: "card" });
+  appendExampleSteps(card, data.example.steps);
   section.appendChild(card);
-  addCoursSpeakButton(section, data.example.problem + ". " + data.example.steps.join(". "));
+  let spoken = data.example.problem + ". " + data.example.steps.join(". ");
+  const ex2 = data.example_2;
+  if (ex2 && ex2.problem) {
+    section.appendChild(el("h3", { className: "sub-heading", text: "Deuxième exemple" }));
+    section.appendChild(el("p", { text: ex2.problem }));
+    const card2 = el("div", { className: "card" });
+    appendExampleSteps(card2, ex2.steps);
+    section.appendChild(card2);
+    spoken += ". Deuxième exemple. " + ex2.problem + ". " + (ex2.steps || []).join(". ");
+  }
+  addCoursSpeakButton(section, spoken);
   return section;
+}
+
+/* Melange de Fisher-Yates : dans les lecons generees, la bonne reponse est
+   tres souvent le 2e choix (86 % des cas) - sans melange, l'eleve apprend a
+   cocher « B » au lieu de reflechir. */
+function shuffled(list) {
+  const a = list.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 function renderQuizSlide(data) {
   const section = buildSlideShell("Question flash", "Vérifie que tu as compris");
   section.appendChild(el("p", { text: data.quiz.question }));
-  const choicesBox = el("div");
+  const choicesBox = el("div", { className: "quiz-choices" });
   const feedback = el("div", { className: "quiz-feedback" });
+  feedback.setAttribute("aria-live", "polite");
   let answered = false;
-  data.quiz.choices.forEach(c => {
+  const buttons = [];
+  shuffled(data.quiz.choices).forEach(c => {
     const btn = el("button", { className: "quiz-choice", text: c.label });
+    buttons.push({ btn, c });
     btn.addEventListener("click", () => {
       if (answered) return;
       answered = true;
       btn.classList.add(c.correct ? "correct" : "wrong");
-      feedback.style.color = c.correct ? "#1a7a3a" : "#b3261e";
+      // Montre toujours la bonne reponse apres une erreur.
+      if (!c.correct) buttons.forEach((b) => { if (b.c.correct) b.btn.classList.add("correct"); });
+      buttons.forEach((b) => { b.btn.disabled = true; });
+      feedback.classList.add(c.correct ? "ok" : "ko");
       feedback.textContent = c.correct ? data.quiz.feedback_correct : data.quiz.feedback_wrong;
     });
     choicesBox.appendChild(btn);
@@ -267,17 +338,137 @@ function renderQuizSlide(data) {
   return section;
 }
 
+/* --- Fiche « À retenir » : l'essentiel a reviser la veille de l'examen,
+   les erreurs classiques et la methode attendue a l'examen. --- */
+function renderRetenirSlide(data) {
+  const ar = data.a_retenir || {};
+  const points = Array.isArray(ar.points) ? ar.points : [];
+  const formules = Array.isArray(ar.formules) ? ar.formules : [];
+  const erreurs = Array.isArray(data.erreurs_frequentes) ? data.erreurs_frequentes : [];
+  const methode = data.methode_examen;
+  if (!points.length && !formules.length && !erreurs.length && !methode) return null;
+
+  const section = buildSlideShell("À retenir", "Ta fiche de révision");
+  let spoken = "";
+  if (points.length) {
+    const card = el("div", { className: "card retenir-card" });
+    const ul = el("ul", { className: "retenir-list" });
+    points.forEach((p) => ul.appendChild(el("li", { text: p })));
+    card.appendChild(ul);
+    section.appendChild(card);
+    spoken += points.join(". ") + ". ";
+  }
+  if (formules.length) {
+    const box = el("div", { className: "theorem-box formules-box" });
+    box.appendChild(el("div", { className: "mini-list-title", text: "📐 Formules et règles clés" }));
+    formules.forEach((f) => box.appendChild(el("div", { className: "formule", text: f })));
+    section.appendChild(box);
+  }
+  if (erreurs.length) {
+    section.appendChild(el("h3", { className: "sub-heading", text: "⚠️ Erreurs fréquentes à éviter" }));
+    erreurs.forEach((e) => {
+      const card = el("div", { className: "card erreur-card" });
+      card.appendChild(el("p", { className: "erreur", text: "✗ " + (e.erreur || "") }));
+      card.appendChild(el("p", { className: "correction", text: "✓ " + (e.correction || "") }));
+      section.appendChild(card);
+      spoken += "Erreur fréquente : " + (e.erreur || "") + ". " + (e.correction || "") + ". ";
+    });
+  }
+  if (methode && Array.isArray(methode.etapes) && methode.etapes.length) {
+    const box = el("div", { className: "card methode-card" });
+    box.appendChild(el("div", { className: "mini-list-title", text: "🧭 " + (methode.titre || "Méthode à l'examen") }));
+    const ol = el("ol");
+    methode.etapes.forEach((t) => ol.appendChild(el("li", { text: t })));
+    box.appendChild(ol);
+    section.appendChild(box);
+  }
+  if (spoken) addCoursSpeakButton(section, spoken);
+  return section;
+}
+
+/* --- Exercices d'entrainement corriges (facile → type examen), avec indice
+   et corrige caches : l'eleve cherche d'abord, puis s'auto-evalue. Le
+   meilleur score est garde localement (CoursProgress). --- */
+const NIVEAU_EXO = { facile: "Facile", moyen: "Moyen", examen: "Type examen" };
+
+function renderExercicesSlide(data) {
+  const exos = Array.isArray(data.exercices) ? data.exercices.filter((x) => x && x.enonce) : [];
+  if (!exos.length) return null;
+  const section = buildSlideShell("Entraîne-toi", "Exercices corrigés");
+  section.appendChild(el("p", {
+    className: "muted",
+    text: "Cherche d'abord sur ton cahier. Ouvre l'indice si tu bloques, puis compare avec le corrigé et dis honnêtement si tu as réussi.",
+  }));
+  const results = new Array(exos.length).fill(null);
+  const score = el("div", { className: "exo-score" });
+  score.setAttribute("aria-live", "polite");
+
+  function refreshScore() {
+    const answered = results.filter((r) => r !== null).length;
+    const ok = results.filter((r) => r === true).length;
+    if (!answered) { score.textContent = ""; return; }
+    score.textContent = `Score : ${ok} / ${exos.length}` + (answered < exos.length ? " (continue !)" : ok === exos.length ? " — excellent 🎉" : " — revois la fiche « À retenir » et réessaie.");
+    if (answered === exos.length && window.CoursProgress) CoursProgress.saveScore(data.slug, ok, exos.length);
+  }
+
+  exos.forEach((x, i) => {
+    const card = el("div", { className: "card exo-card" });
+    const head = el("div", { className: "exo-head" });
+    head.appendChild(el("b", { text: "Exercice " + (i + 1) }));
+    if (x.niveau) head.appendChild(el("span", { className: "exo-niveau " + x.niveau, text: NIVEAU_EXO[x.niveau] || x.niveau }));
+    card.appendChild(head);
+    // Une sous-question par ligne : « … 1) … 2) … » -> retours a la ligne.
+    card.appendChild(el("p", { className: "exo-enonce", text: String(x.enonce).replace(/\s(?=\d\)\s)/g, "\n") }));
+
+    const actions = el("div", { className: "exo-actions" });
+    if (x.indice) {
+      const hintBtn = el("button", { className: "exo-btn", text: "💡 Indice" });
+      const hint = el("p", { className: "exo-indice", text: x.indice });
+      hint.hidden = true;
+      hintBtn.addEventListener("click", () => { hint.hidden = !hint.hidden; });
+      actions.appendChild(hintBtn);
+      card.appendChild(actions);
+      card.appendChild(hint);
+    } else {
+      card.appendChild(actions);
+    }
+    const corrBtn = el("button", { className: "exo-btn primary", text: "📖 Voir le corrigé" });
+    actions.appendChild(corrBtn);
+    const corr = el("div", { className: "exo-corrige" });
+    corr.hidden = true;
+    const steps = Array.isArray(x.corrige) ? x.corrige : [x.corrige || ""];
+    appendExampleSteps(corr, steps);
+    const self = el("div", { className: "exo-self" });
+    self.appendChild(el("span", { text: "As-tu trouvé ?" }));
+    const yes = el("button", { className: "exo-btn ok", text: "✓ Oui" });
+    const no = el("button", { className: "exo-btn ko", text: "✗ Pas encore" });
+    yes.addEventListener("click", () => { results[i] = true; yes.classList.add("chosen"); no.classList.remove("chosen"); refreshScore(); });
+    no.addEventListener("click", () => { results[i] = false; no.classList.add("chosen"); yes.classList.remove("chosen"); refreshScore(); });
+    self.appendChild(yes);
+    self.appendChild(no);
+    corr.appendChild(self);
+    corrBtn.addEventListener("click", () => {
+      corr.hidden = !corr.hidden;
+      corrBtn.textContent = corr.hidden ? "📖 Voir le corrigé" : "Masquer le corrigé";
+    });
+    card.appendChild(corr);
+    section.appendChild(card);
+  });
+  section.appendChild(score);
+  return section;
+}
+
 /* --- Simulation : rapports de Thalès (geometry_ratio) --- */
 function renderGeometryRatioSim() {
   const section = buildSlideShell("À toi de manipuler", "Fais glisser le point M et observe");
   const card = el("div", { className: "card" });
   card.innerHTML = `
     <svg class="scene" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="160,20 40,190 280,190" fill="none" stroke="#1c2321" stroke-width="2"/>
+      <polygon points="160,20 40,190 280,190" fill="none" stroke="currentColor" stroke-width="2"/>
       <line id="sim-mn" x1="100" y1="105" x2="220" y2="105" stroke="#0d7a5f" stroke-width="3"/>
-      <circle cx="160" cy="20" r="4" fill="#1c2321"/>
-      <circle cx="40" cy="190" r="4" fill="#1c2321"/>
-      <circle cx="280" cy="190" r="4" fill="#1c2321"/>
+      <circle cx="160" cy="20" r="4" fill="currentColor"/>
+      <circle cx="40" cy="190" r="4" fill="currentColor"/>
+      <circle cx="280" cy="190" r="4" fill="currentColor"/>
       <circle id="sim-m" cx="100" cy="105" r="5" fill="#0d7a5f"/>
       <circle id="sim-n" cx="220" cy="105" r="5" fill="#0d7a5f"/>
       <text x="160" y="12" font-size="13" text-anchor="middle" font-weight="700">A</text>
@@ -334,7 +525,7 @@ function renderGeometryRatioSim() {
       verdictBox.textContent = same
         ? "✅ Les trois rapports sont égaux : Thalès s'applique."
         : "❌ (MN) n'est pas parallèle à (BC) → les rapports ne sont plus égaux.";
-      verdictBox.style.color = same ? "#1a7a3a" : "#b3261e";
+      verdictBox.className = "sim-verdict " + (same ? "ok" : "ko");
     }
     slider.addEventListener("input", update);
     parallelBox.addEventListener("change", update);
@@ -349,7 +540,7 @@ function renderPhysicsVectorSim() {
   const card = el("div", { className: "card" });
   card.innerHTML = `
     <svg class="scene" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="160" cy="110" r="9" fill="#1c2321"/>
+      <circle cx="160" cy="110" r="9" fill="currentColor"/>
       <line id="f1-line" x1="160" y1="110" x2="160" y2="170" stroke="#8a3ffc" stroke-width="3" marker-end="url(#mkP2)"/>
       <line id="f2-line" x1="160" y1="110" x2="160" y2="50" stroke="#0d7a5f" stroke-width="3" marker-end="url(#mkG2)"/>
       <line id="result-line" x1="160" y1="110" x2="160" y2="110" stroke="#b3261e" stroke-width="3" marker-end="url(#mkR2)" opacity="0"/>
@@ -412,7 +603,7 @@ function renderPhysicsVectorSim() {
       verdictBox.textContent = equilibrium
         ? "✅ Solide en équilibre : F1 et F2 sont alignées, opposées et de même intensité."
         : "❌ Pas en équilibre : le solide accélère dans le sens de la résultante (en rouge).";
-      verdictBox.style.color = equilibrium ? "#1a7a3a" : "#b3261e";
+      verdictBox.className = "sim-verdict " + (equilibrium ? "ok" : "ko");
     }
     magSlider.addEventListener("input", update);
     angleSlider.addEventListener("input", update);
@@ -474,7 +665,7 @@ function renderFunctionAffineSim() {
       if (a > 0) sens = "croissante"; else if (a < 0) sens = "décroissante";
       valuesBox.innerHTML = `<span class="chip">a = ${a}</span><span class="chip">b = ${b}</span><span class="chip ok">f(1) = ${f1}</span>`;
       verdictBox.textContent = `f(x) = ${a}x + ${b} → fonction ${sens}`;
-      verdictBox.style.color = "#1a7a3a";
+      verdictBox.className = "sim-verdict ok";
     }
     aSlider.addEventListener("input", update);
     bSlider.addEventListener("input", update);
@@ -517,7 +708,7 @@ function renderFullQuizQuestions(container, questions) {
         const correct = oi === q.correct_index;
         optBtn.classList.add(correct ? "correct" : "wrong");
         const fb = el("div", { className: "quiz-feedback", text: q.explication || "" });
-        fb.style.color = correct ? "#1a7a3a" : "#b3261e";
+        fb.classList.add(correct ? "ok" : "ko");
         qCard.appendChild(fb);
         if (window.renderMathInElement) renderMathInElement(fb, { delimiters: QUIZ_MATH_DELIMITERS, throwOnError: false });
       });
@@ -577,11 +768,55 @@ const SIM_RENDERERS = {
   function_affine: renderFunctionAffineSim,
 };
 
-function renderLesson(lesson, rootIds) {
-  const displayPays = (lesson.fallback_for || lesson.pays).replace("_", " ");
+const MATIERE_LABELS = {
+  Mathematiques: "Mathématiques", Francais: "Français", "Physique-Chimie": "Physique-Chimie",
+  SVT: "SVT", "Histoire-Geographie": "Histoire-Géographie", Anglais: "Anglais",
+  Philosophie: "Philosophie", Economie: "Économie", Allemand: "Allemand", Espagnol: "Espagnol",
+};
+const EXAMEN_LABELS = { Baccalaureat: "BAC" };
+
+function lessonHref(meta) {
+  let href = "cours.html?slug=" + encodeURIComponent(meta.slug);
+  if (meta.fallback_for) href += "&fallback_for=" + encodeURIComponent(meta.fallback_for);
+  return href;
+}
+
+/* Derniere diapositive : felicitations, chapitre marque comme termine,
+   lien direct vers le chapitre suivant du programme (meme serie). */
+function renderBilanSlide(lesson) {
+  const section = buildSlideShell("Bilan", "Chapitre terminé 🎉");
+  section.appendChild(el("p", {
+    text: "Bravo ! Ce chapitre est marqué comme terminé dans ta progression. " +
+      "Pour bien le retenir, relis la fiche « À retenir » demain, puis refais un exercice sans regarder le corrigé.",
+  }));
+  const next = el("div", { className: "bilan-next" });
+  section.appendChild(next);
+  section._setNext = function (meta) {
+    next.innerHTML = "";
+    if (!meta) return;
+    const a = el("a", { className: "nav-btn next bilan-link", text: "Chapitre suivant : " + (meta.title || meta.chapitre) + " →" });
+    a.href = lessonHref(meta);
+    next.appendChild(a);
+  };
+  return section;
+}
+
+/* Chapitre suivant dans la liste du programme (meme pays/niveau/matiere/serie). */
+function findNextLesson(lesson, siblings) {
+  if (!Array.isArray(siblings) || !siblings.length) return null;
+  const same = siblings.filter((m) => (m.serie || null) === (lesson.serie || null));
+  const i = same.findIndex((m) => m.slug === lesson.slug);
+  return i >= 0 && i < same.length - 1 ? same[i + 1] : null;
+}
+
+function renderLesson(lesson, rootIds, ctx) {
+  const displayPays = PAYS_LABELS[lesson.fallback_for || lesson.pays] || (lesson.fallback_for || lesson.pays).replace("_", " ");
+  const matiere = MATIERE_LABELS[lesson.matiere] || lesson.matiere.replace("-", " ");
+  const examen = EXAMEN_LABELS[lesson.examen] || lesson.examen;
   document.getElementById(rootIds.eyebrow).textContent =
-    `${lesson.matiere.replace("-", " ")} · ${lesson.examen}${lesson.serie ? " · série " + lesson.serie : ""} · ${displayPays}`;
+    `${matiere} · ${examen}${lesson.serie ? " · série " + lesson.serie : ""} · ${displayPays}`;
   document.getElementById(rootIds.name).textContent = lesson.title || lesson.chapitre;
+  document.title = (lesson.title || lesson.chapitre) + " · Cours";
 
   const body = document.getElementById(rootIds.body);
   body.innerHTML = "";
@@ -589,13 +824,31 @@ function renderLesson(lesson, rootIds) {
   const slides = [renderIntroSlide(lesson), renderConceptSlide(lesson)];
   const simRenderer = SIM_RENDERERS[lesson.template];
   if (simRenderer) slides.push(simRenderer());
-  slides.push(renderExampleSlide(lesson), renderQuizSlide(lesson), renderFullQuizSlide(lesson));
+  slides.push(renderExampleSlide(lesson), renderQuizSlide(lesson));
+  // Complements pedagogiques : seulement s'ils existent pour cette lecon.
+  const retenir = renderRetenirSlide(lesson);
+  if (retenir) slides.push(retenir);
+  const exos = renderExercicesSlide(lesson);
+  if (exos) slides.push(exos);
+  slides.push(renderFullQuizSlide(lesson));
+  const bilan = renderBilanSlide(lesson);
+  slides.push(bilan);
 
   slides.forEach((s, i) => {
     s.setAttribute("data-slide", i);
     body.appendChild(s);
   });
 
-  initCoursEngine(slides.length);
+  if (window.CoursProgress) CoursProgress.markOpened(lesson.slug);
+  bilan._setNext(findNextLesson(lesson, ctx && ctx.siblings));
+
+  initCoursEngine(slides.length, {
+    onSlide(i) {
+      if (i === slides.length - 1 && window.CoursProgress) CoursProgress.markDone(lesson.slug);
+    },
+  });
   slides.forEach(s => { if (s._wire) s._wire(); });
+  // La liste du programme arrive parfois apres la lecon (reseau lent) :
+  // cours.html complete alors le lien « chapitre suivant » apres coup.
+  return { setSiblings(list) { bilan._setNext(findNextLesson(lesson, list)); } };
 }

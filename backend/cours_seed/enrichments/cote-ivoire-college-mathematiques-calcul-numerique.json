@@ -1,0 +1,79 @@
+{
+  "_topic": "calcul-numerique",
+  "objectifs": [
+    "Calculer avec des fractions en respectant les priorités.",
+    "Utiliser les règles de calcul sur les puissances.",
+    "Écrire un nombre en notation scientifique.",
+    "Résoudre un problème concret avec de grands nombres."
+  ],
+  "prerequis": [
+    "Les tables de multiplication et la simplification de fractions.",
+    "Les priorités opératoires (parenthèses, × et ÷, puis + et −)."
+  ],
+  "a_retenir": {
+    "points": [
+      "Priorités : d'abord les parenthèses, puis les puissances, puis × et ÷, enfin + et −.",
+      "Pour additionner des fractions, on les met au même dénominateur.",
+      "Diviser par une fraction, c'est multiplier par son inverse.",
+      "Notation scientifique : a × 10ⁿ avec 1 ≤ a < 10 (un seul chiffre non nul avant la virgule)."
+    ],
+    "formules": [
+      "aᵐ × aⁿ = aᵐ⁺ⁿ   ;   aᵐ / aⁿ = aᵐ⁻ⁿ",
+      "(aᵐ)ⁿ = aᵐˣⁿ   ;   a⁰ = 1   ;   a⁻ⁿ = 1/aⁿ",
+      "a/b + c/b = (a + c)/b   ;   (a/b) × (c/d) = (a × c)/(b × d)",
+      "(a/b) ÷ (c/d) = (a/b) × (d/c)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Calculer 2/3 + 5/6 × 4/5 de gauche à droite.",
+      "correction": "La multiplication est prioritaire : on calcule d'abord 5/6 × 4/5."
+    },
+    {
+      "erreur": "Écrire 10² × 10³ = 10⁶.",
+      "correction": "On additionne les exposants : 10² × 10³ = 10⁵."
+    },
+    {
+      "erreur": "Écrire 45 × 10³ en notation scientifique.",
+      "correction": "45 n'est pas entre 1 et 10 : 45 × 10³ = 4,5 × 10⁴."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule et donne le résultat sous forme de fraction irréductible : A = 2/3 + 5/6 × 4/5.",
+      "indice": "Commence par la multiplication et simplifie avant de multiplier.",
+      "corrige": [
+        "5/6 × 4/5 = 20/30 = 2/3.",
+        "A = 2/3 + 2/3 = 4/3."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "1) Calcule B = (3 × 10⁵ × 4 × 10⁻²) / (6 × 10²). 2) Écris 0,000 45 en notation scientifique.",
+      "indice": "Regroupe les nombres d'un côté et les puissances de 10 de l'autre.",
+      "corrige": [
+        "1) B = (3 × 4 / 6) × (10⁵ × 10⁻² / 10²) = 2 × 10⁵⁻²⁻² = 2 × 10¹ = 20.",
+        "2) 0,000 45 = 4,5 × 10⁻⁴ (on déplace la virgule de 4 rangs vers la droite)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une citerne contient 2,4 × 10⁴ litres d'eau. On remplit des bidons de 20 L vendus 150 FCFA chacun. 1) Combien de bidons remplit-on ? 2) Quelle est la recette totale ? Donne-la aussi en notation scientifique.",
+      "indice": "Divise le volume total par le volume d'un bidon.",
+      "corrige": [
+        "1) 2,4 × 10⁴ = 24 000 L ; 24 000 ÷ 20 = 1 200 bidons.",
+        "2) Recette = 1 200 × 150 = 180 000 FCFA.",
+        "En notation scientifique : 1,8 × 10⁵ FCFA."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : réussir un calcul numérique",
+    "etapes": [
+      "Écris le calcul étape par étape, une opération à la fois.",
+      "Respecte les priorités et simplifie les fractions dès que possible.",
+      "Donne le résultat sous la forme demandée (fraction irréductible, notation scientifique, entier)."
+    ]
+  }
+}

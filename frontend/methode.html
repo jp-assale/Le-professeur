@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fiche méthode</title>
+<meta name="theme-color" content="#0d7a5f">
+<script>try { if (localStorage.getItem("aida_theme") === "dark") document.documentElement.setAttribute("data-theme", "dark"); } catch (e) {}</script>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/cours.css">
+</head>
+<body>
+<div class="lesson-app">
+
+  <header class="lesson-top">
+    <button class="lesson-back" title="Retour" aria-label="Retour" onclick="history.back()">←</button>
+    <div class="lesson-title">
+      <span class="eyebrow">🧭 Fiche méthode</span>
+      <span class="name" id="methode-name">Chargement…</span>
+    </div>
+  </header>
+
+  <main class="lesson-body" id="methode-body">
+    <p class="muted">Chargement de la fiche…</p>
+  </main>
+
+</div>
+
+<script src="js/config.js"></script>
+<script>
+(function () {
+  const id = new URLSearchParams(location.search).get("id");
+  const body = document.getElementById("methode-body");
+  const nameEl = document.getElementById("methode-name");
+
+  function el(tag, className, text) {
+    const n = document.createElement(tag);
+    if (className) n.className = className;
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+
+  function render(f) {
+    nameEl.textContent = f.titre;
+    document.title = f.titre + " · Fiche méthode";
+    body.innerHTML = "";
+    const wrap = el("section", "slide active");
+    if (f.resume) wrap.appendChild(el("p", "muted", f.resume));
+    (f.sections || []).forEach((s) => {
+      const card = el("div", "card");
+      card.appendChild(el("div", "slide-kicker", s.titre));
+      const ul = el("ul", "retenir-list");
+      (s.points || []).forEach((p) => ul.appendChild(el("li", "", p)));
+      card.appendChild(ul);
+      wrap.appendChild(card);
+    });
+    if (Array.isArray(f.erreurs) && f.erreurs.length) {
+      wrap.appendChild(el("h3", "sub-heading", "⚠️ Erreurs qui coûtent des points"));
+      const card = el("div", "card erreur-card");
+      f.erreurs.forEach((e) => card.appendChild(el("p", "erreur", "✗ " + e)));
+      wrap.appendChild(card);
+    }
+    wrap.appendChild(el("p", "muted",
+      "Conseil : entraîne-toi avec un vrai sujet d'examen dans « 📄 Sujets », puis demande au Prof de vérifier ta démarche."));
+    body.appendChild(wrap);
+  }
+
+  if (!id) { body.innerHTML = '<p class="muted">Aucune fiche demandée.</p>'; return; }
+  const base = window.AIDA_API_BASE_URL || "";
+  fetch(`${base}/api/methodes/${encodeURIComponent(id)}`)
+    .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
+    .then(render)
+    .catch(() => {
+      nameEl.textContent = "Erreur";
+      body.innerHTML = '<p class="muted">Cette fiche est introuvable. Vérifie ta connexion internet puis réessaie.</p>';
+    });
+})();
+</script>
+</body>
+</html>

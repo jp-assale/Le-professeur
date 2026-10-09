@@ -120,3 +120,78 @@
 .badge-source {
   display: inline-block; margin-top: 8px; font-size: 0.72rem; color: var(--text-muted);
 }
+
+/* ======================================================================
+   Amelioration : blocs pedagogiques (objectifs, a retenir, erreurs,
+   exercices corriges, bilan) + couleurs d'etat compatibles mode sombre.
+   ====================================================================== */
+:root {
+  --ok: #1a7a3a; --ok-bg: #e2f4e9;
+  --ko: #b3261e; --ko-bg: #fdeaea;
+  --warn: #ffb347; --warn-bg: #fff4e0;
+}
+[data-theme="dark"] {
+  --ok: #6fdc95; --ok-bg: #173527;
+  --ko: #ff8a80; --ko-bg: #3a1d1b;
+  --warn: #ffb347; --warn-bg: #3a2e14;
+}
+
+.scene { color: var(--text); }
+.sim-values .chip.warn { background: var(--ko-bg); color: var(--ko); }
+.sim-values .chip.ok { background: var(--ok-bg); color: var(--ok); }
+.sim-verdict.ok, .quiz-feedback.ok { color: var(--ok); }
+.sim-verdict.ko, .quiz-feedback.ko { color: var(--ko); }
+.quiz-choice.correct { background: var(--ok-bg); border-color: var(--ok); }
+.quiz-choice.wrong { background: var(--ko-bg); border-color: var(--ko); }
+.quiz-choice:disabled { cursor: default; }
+.quiz-choice:focus-visible, .nav-btn:focus-visible, .exo-btn:focus-visible { outline: 3px solid var(--warn); outline-offset: 2px; }
+.theorem-box.warn-box { background: var(--warn-bg); border-left-color: var(--warn); }
+
+.slide h3.sub-heading { margin: 16px 0 8px; font-size: 1rem; color: var(--green-dark); }
+.type-card b { color: var(--green-dark); }
+.type-card p { margin: 6px 0 0; }
+
+.mini-list {
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface);
+  padding: 10px 14px; margin-bottom: 12px; font-size: 0.9rem;
+}
+.mini-list-title { font-weight: 700; font-size: 0.82rem; color: var(--green-dark); margin-bottom: 6px; }
+.mini-list ul, .methode-card ol { margin: 0; padding-left: 20px; }
+.mini-list li, .methode-card li { margin: 3px 0; line-height: 1.45; }
+.mini-list.prerequis { background: var(--bg); }
+
+.retenir-list { margin: 0; padding-left: 20px; }
+.retenir-list li { margin: 6px 0; line-height: 1.5; }
+.formules-box .formule { padding: 6px 0; overflow-x: auto; }
+.erreur-card { padding: 10px 14px; }
+.erreur-card p { margin: 0 0 4px; font-size: 0.9rem; }
+.erreur-card .erreur { color: var(--ko); }
+.erreur-card .correction { color: var(--ok); margin: 0; }
+.methode-card { border-left: 4px solid var(--warn); }
+
+.exo-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.exo-niveau { font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--green-light); color: var(--green-dark); }
+.exo-niveau.moyen { background: var(--warn-bg); color: #a0620a; }
+.exo-niveau.examen { background: var(--ko-bg); color: var(--ko); }
+[data-theme="dark"] .exo-niveau.moyen { color: var(--warn); }
+.exo-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.exo-btn {
+  padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg);
+  color: var(--text); font-size: 0.85rem; font-weight: 600; cursor: pointer;
+}
+.exo-btn.primary { background: var(--green); border-color: var(--green); color: #fff; }
+.exo-btn.ok.chosen { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.exo-btn.ko.chosen { background: var(--ko-bg); border-color: var(--ko); color: var(--ko); }
+.exo-indice { margin: 10px 0 0; padding: 8px 12px; border-radius: 8px; background: var(--warn-bg); font-size: 0.9rem; }
+.exo-corrige { margin-top: 10px; border-top: 1px dashed var(--border); }
+.exo-corrige .example-step { opacity: 1; animation: none; }
+.exo-self { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 10px; font-size: 0.88rem; }
+.exo-score { font-weight: 700; color: var(--green-dark); margin: 4px 0 12px; min-height: 1.2em; }
+
+.bilan-next { margin-top: 16px; }
+.bilan-link { display: block; text-align: center; text-decoration: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .slide, .example-step, .resume-points li { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+.exo-enonce { white-space: pre-line; }

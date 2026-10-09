@@ -1,0 +1,509 @@
+[
+  {
+    "id": "jour-examen",
+    "titre": "Réussir le jour de l'examen : gérer son temps et sa copie",
+    "matieres": [],
+    "niveaux": [],
+    "resume": "Lire tout le sujet, répartir son temps, soigner la présentation : les points faciles à ne jamais perdre.",
+    "sections": [
+      {
+        "titre": "Les 10 premières minutes",
+        "points": [
+          "Lis TOUT le sujet une première fois, du début à la fin, sans écrire.",
+          "Souligne les verbes de consigne : « calculer », « justifier », « démontrer », « expliquer », « comparer ». Chacun attend un type de réponse précis.",
+          "Repère le barème : un exercice noté 6 points mérite plus de temps qu'un exercice noté 2 points.",
+          "Commence par l'exercice où tu te sens le plus à l'aise : tu gagnes confiance et points."
+        ]
+      },
+      {
+        "titre": "Répartir son temps",
+        "points": [
+          "Règle simple : temps pour un exercice ≈ (points de l'exercice ÷ total des points) × durée de l'épreuve.",
+          "Exemple : épreuve de 2 h (120 min) sur 20 points, exercice de 5 points → environ 30 minutes.",
+          "Garde 10 à 15 minutes à la fin pour te relire (calculs, unités, orthographe, numéros de questions).",
+          "Si tu bloques plus de 5 minutes sur une question, passe à la suivante et reviens-y plus tard : une question non traitée ne bloque pas toujours la suite (utilise le résultat donné par l'énoncé)."
+        ]
+      },
+      {
+        "titre": "Une copie qui rapporte des points",
+        "points": [
+          "Numérote chaque réponse exactement comme dans le sujet (Exercice 2, question 3.b).",
+          "Écris lisiblement, saute des lignes entre les questions, encadre ou souligne les résultats finaux.",
+          "Justifie toujours : une réponse juste sans justification rapporte souvent peu de points.",
+          "N'utilise pas le correcteur à outrance : barre proprement d'un seul trait ce qui est faux.",
+          "Au brouillon : uniquement les calculs et le plan. Ne recopie pas tout, tu perdrais du temps."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Répondre à une question qui n'est pas posée (hors sujet).",
+      "Oublier les unités dans un résultat de sciences.",
+      "Passer tout le temps sur le premier exercice et ne pas finir.",
+      "Rendre sa copie sans se relire alors qu'il reste du temps."
+    ]
+  },
+  {
+    "id": "situation-evaluation-apc",
+    "titre": "Traiter une situation d'évaluation (approche par compétences)",
+    "pays": ["cote_ivoire", "benin"],
+    "matieres": [],
+    "niveaux": [],
+    "resume": "Côte d'Ivoire, Bénin… : contexte, circonstance, tâches. Comment répondre à une situation complexe.",
+    "sections": [
+      {
+        "titre": "Comprendre la structure",
+        "points": [
+          "Le CONTEXTE : une situation de la vie courante (un marché, un champ, un voyage, une maison…).",
+          "La CIRCONSTANCE : le problème qui se pose aux personnages (ils doivent choisir, calculer, expliquer…).",
+          "Les TÂCHES (consignes numérotées) : ce que TU dois faire, souvent du plus simple au plus complexe.",
+          "Chaque tâche mobilise une notion précise du cours : identifie-la avant d'écrire."
+        ]
+      },
+      {
+        "titre": "La démarche",
+        "points": [
+          "1. Relis le contexte et souligne toutes les données utiles (nombres, unités, mots-clés).",
+          "2. Pour chaque tâche, écris en une phrase la notion du cours concernée (« J'utilise le théorème de Pythagore », « Il s'agit de la digestion »).",
+          "3. Traite les tâches dans l'ordre : le résultat d'une tâche sert souvent dans la suivante.",
+          "4. Termine par une phrase-réponse qui revient au problème des personnages (« Donc Awa doit acheter 12 sacs de ciment »)."
+        ]
+      },
+      {
+        "titre": "Comment c'est noté",
+        "points": [
+          "Pertinence : tu utilises la bonne notion pour la bonne tâche.",
+          "Utilisation correcte des outils : calculs justes, vocabulaire exact, raisonnement logique.",
+          "Cohérence de la réponse : la conclusion répond au problème posé dans la circonstance.",
+          "Perfectionnement : présentation soignée, unités, phrase de conclusion claire."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Faire les calculs sans jamais conclure par une phrase qui répond au problème.",
+      "Recopier le contexte au lieu de répondre aux tâches.",
+      "Oublier qu'un résultat de la tâche 1 sert dans la tâche 2."
+    ]
+  },
+  {
+    "id": "probleme-maths",
+    "titre": "Rédiger la solution d'un exercice de mathématiques",
+    "matieres": ["Mathematiques"],
+    "niveaux": [],
+    "resume": "Données, propriété utilisée, calcul, conclusion : la rédaction qui rapporte tous les points.",
+    "sections": [
+      {
+        "titre": "La structure d'une démonstration",
+        "points": [
+          "On sait que… (les DONNÉES de l'énoncé ou d'une question précédente).",
+          "Or… (la PROPRIÉTÉ, le THÉORÈME ou la DÉFINITION du cours, énoncé clairement).",
+          "Donc… (la CONCLUSION, qui répond exactement à la question).",
+          "Exemple : On sait que ABC est rectangle en A. Or, d'après le théorème de Pythagore, BC² = AB² + AC². Donc BC² = 3² + 4² = 25 et BC = 5 cm."
+        ]
+      },
+      {
+        "titre": "Calculs et résultats",
+        "points": [
+          "Écris le calcul littéral avant de remplacer par les nombres.",
+          "Donne la valeur exacte quand elle est demandée (√2, 3π, 2/3), puis la valeur approchée si on te la demande, avec la précision demandée.",
+          "Vérifie la cohérence : une longueur est positive, une probabilité est entre 0 et 1, un prix ne peut pas être négatif.",
+          "Pour une équation, vérifie ta solution en la remplaçant dans l'équation de départ."
+        ]
+      },
+      {
+        "titre": "Figures et graphiques",
+        "points": [
+          "Une figure se fait à la règle et au compas, au crayon, avec les points nommés.",
+          "Un graphique : axes gradués, unités indiquées, titre, courbe tracée proprement.",
+          "Ne démontre jamais « parce que ça se voit sur la figure » : la figure illustre, elle ne prouve pas."
+        ]
+      },
+      {
+        "titre": "Au BAC (étude de fonction, suites, complexes)",
+        "points": [
+          "Étude de fonction : ensemble de définition → limites aux bornes → dérivée → signe de la dérivée → tableau de variation → courbe.",
+          "Suites : pour une récurrence, rédige les trois étapes (initialisation, hérédité, conclusion).",
+          "Utilise les résultats donnés dans l'énoncé (« on admet que… ») même si tu n'as pas su les démontrer."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Écrire « = » entre deux choses qui ne sont pas égales (par exemple entre une équation et sa solution).",
+      "Utiliser la réciproque d'un théorème à la place du théorème (et inversement).",
+      "Oublier de conclure par une phrase.",
+      "Arrondir trop tôt dans un calcul en plusieurs étapes."
+    ]
+  },
+  {
+    "id": "exercice-physique-chimie",
+    "titre": "Résoudre un exercice de physique-chimie",
+    "matieres": ["Physique-Chimie"],
+    "niveaux": [],
+    "resume": "Données, formule littérale, application numérique, unité : la méthode en 5 étapes.",
+    "sections": [
+      {
+        "titre": "La méthode en 5 étapes",
+        "points": [
+          "1. Données : relève les grandeurs avec leurs symboles et unités (m = 500 g ; U = 220 V).",
+          "2. Conversion : mets tout dans les unités du Système international (500 g = 0,5 kg ; 2 min = 120 s ; 250 mL = 0,25 L).",
+          "3. Formule littérale : écris la relation du cours avec les lettres (P = U × I) et transforme-la si besoin (I = P / U).",
+          "4. Application numérique : remplace par les valeurs (I = 1100 / 220).",
+          "5. Résultat avec unité : I = 5 A. Un résultat sans unité est un résultat faux."
+        ]
+      },
+      {
+        "titre": "Chimie",
+        "points": [
+          "Une équation-bilan doit être équilibrée : même nombre d'atomes de chaque élément des deux côtés (et mêmes charges pour les ions).",
+          "Quantité de matière : n = m / M (mol) ; concentration : C = n / V (mol/L).",
+          "Utilise les coefficients de l'équation pour passer d'une espèce à l'autre (proportionnalité des quantités de matière)."
+        ]
+      },
+      {
+        "titre": "Schémas et graphiques",
+        "points": [
+          "Schéma électrique : symboles normalisés, à la règle, sens du courant indiqué.",
+          "Représentation d'une force : point d'application, direction, sens, et longueur à l'échelle indiquée.",
+          "Courbe expérimentale : axes avec grandeur et unité, échelle adaptée, points marqués d'une croix."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Oublier de convertir (g en kg, min en s, mL en L, cm en m).",
+      "Confondre masse (kg) et poids (N) : P = m × g.",
+      "Donner trop de chiffres après la virgule : garde la précision des données (2 ou 3 chiffres significatifs).",
+      "Équation chimique non équilibrée."
+    ]
+  },
+  {
+    "id": "svt-documents",
+    "titre": "SVT : exploiter des documents et restituer ses connaissances",
+    "matieres": ["SVT"],
+    "niveaux": [],
+    "resume": "Observer, décrire, interpréter, conclure : la méthode pour les questions sur documents et les schémas.",
+    "sections": [
+      {
+        "titre": "Exploiter un document (graphique, tableau, expérience)",
+        "points": [
+          "1. Présente le document : de quoi parle-t-il ? (« Le document montre l'évolution de la glycémie en fonction du temps… »).",
+          "2. Décris en citant des valeurs précises : « de 0 à 2 h, la glycémie passe de 1 g/L à 1,6 g/L ».",
+          "3. Interprète : explique la cause grâce à tes connaissances (« cette augmentation est due à l'absorption intestinale du glucose »).",
+          "4. Conclus en répondant exactement à la question posée."
+        ]
+      },
+      {
+        "titre": "Expérience",
+        "points": [
+          "Repère le témoin (le lot sans le facteur testé) et compare-le au lot expérimental.",
+          "Un seul facteur doit changer entre les deux lots : c'est lui qui explique la différence de résultat.",
+          "Formule la conclusion : « le facteur X est nécessaire à … »."
+        ]
+      },
+      {
+        "titre": "Schémas et restitution des connaissances",
+        "points": [
+          "Un schéma : au crayon, grand, avec un titre et des légendes reliées par des traits horizontaux à la règle.",
+          "Restitution organisée : une courte introduction, un développement structuré (une idée par paragraphe), une conclusion.",
+          "Utilise le vocabulaire scientifique exact (enzyme, nutriment, anticorps, roche-mère…)."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Décrire sans donner de valeurs chiffrées.",
+      "Interpréter sans d'abord décrire (ou décrire sans interpréter).",
+      "Schéma sans titre ou légendes qui se croisent."
+    ]
+  },
+  {
+    "id": "hg-documents-croquis",
+    "titre": "Histoire-Géographie : étude de documents, croquis et dissertation",
+    "matieres": ["Histoire-Geographie"],
+    "niveaux": [],
+    "resume": "Présenter un document, en extraire les idées, construire un croquis et une réponse organisée.",
+    "sections": [
+      {
+        "titre": "Présenter un document",
+        "points": [
+          "Nature (texte, carte, photographie, tableau statistique, caricature…).",
+          "Auteur et source (qui l'a produit ? pour qui ? est-il témoin, acteur ?).",
+          "Date et contexte historique (que se passe-t-il à ce moment-là ?).",
+          "Idée générale en une phrase."
+        ]
+      },
+      {
+        "titre": "Répondre aux questions",
+        "points": [
+          "Cite le document entre guillemets en indiquant la ligne (« … » l. 5) ou les chiffres exacts.",
+          "Explique avec tes connaissances : un document cité sans explication ne suffit pas.",
+          "Garde un regard critique : un point de vue (discours, propagande) n'est pas un fait neutre."
+        ]
+      },
+      {
+        "titre": "Croquis et carte",
+        "points": [
+          "Un titre qui reprend le sujet.",
+          "Une légende organisée en parties (1. … 2. … 3. …), pas une simple liste.",
+          "Des figurés adaptés : surfaces (couleurs) pour des zones, points pour des villes, flèches pour des flux.",
+          "Nomme les lieux importants (océans, pays, capitales) à l'horizontale et lisiblement."
+        ]
+      },
+      {
+        "titre": "Dissertation / composition (lycée)",
+        "points": [
+          "Introduction : présentation du sujet, définition des mots-clés, limites dans le temps et l'espace, problématique, annonce du plan.",
+          "Développement en 2 ou 3 parties, chacune avec des exemples précis (dates, chiffres, lieux, acteurs).",
+          "Conclusion : réponse à la problématique, puis ouverture."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Paraphraser le document (le recopier avec d'autres mots) sans l'expliquer.",
+      "Oublier les dates et les exemples précis.",
+      "Croquis sans titre ou légende non organisée."
+    ]
+  },
+  {
+    "id": "dissertation-philo",
+    "titre": "La dissertation philosophique",
+    "matieres": ["Philosophie"],
+    "niveaux": ["lycee"],
+    "resume": "Analyser le sujet, poser une problématique, construire un plan dialectique argumenté.",
+    "sections": [
+      {
+        "titre": "1. Analyser le sujet (au brouillon)",
+        "points": [
+          "Définis chaque mot-clé, y compris les petits mots (« peut-on », « faut-il », « seulement », « tout »).",
+          "Reformule le sujet avec tes définitions pour bien voir ce qui est demandé.",
+          "Cherche le paradoxe ou la tension : pourquoi la question se pose-t-elle ? Quelles sont les deux réponses possibles ?"
+        ]
+      },
+      {
+        "titre": "2. La problématique",
+        "points": [
+          "C'est une question (ou une série de questions) qui montre la difficulté du sujet.",
+          "Elle oppose deux thèses défendables : « D'un côté… ; mais d'un autre côté… Dès lors, … ? »"
+        ]
+      },
+      {
+        "titre": "3. Le plan (souvent dialectique)",
+        "points": [
+          "Partie 1 (thèse) : la réponse la plus évidente, argumentée.",
+          "Partie 2 (antithèse) : les limites de la thèse, le point de vue opposé.",
+          "Partie 3 (dépassement) : une réponse plus nuancée qui tient compte des deux premières (facultative mais valorisée).",
+          "Chaque partie : 2 ou 3 arguments, chacun avec une idée, une explication, un exemple (vie courante, histoire, société africaine…) et si possible une référence à un auteur."
+        ]
+      },
+      {
+        "titre": "4. Introduction et conclusion",
+        "points": [
+          "Introduction : amorce (une situation concrète) → énoncé du sujet → problématique → annonce du plan.",
+          "Transitions : une phrase qui résume la partie terminée et montre pourquoi il faut passer à la suivante.",
+          "Conclusion : bilan du parcours et réponse claire à la problématique ; ouverture possible."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Réciter un cours au lieu de répondre à la question posée.",
+      "Accumuler des noms d'auteurs sans expliquer leurs idées.",
+      "Donner son opinion sans arguments (« je pense que… » ne suffit pas).",
+      "Oublier de définir les termes du sujet."
+    ]
+  },
+  {
+    "id": "commentaire-philo",
+    "titre": "Le commentaire de texte philosophique",
+    "matieres": ["Philosophie"],
+    "niveaux": ["lycee"],
+    "resume": "Dégager le thème, le problème et la thèse du texte, puis l'expliquer et le discuter.",
+    "sections": [
+      {
+        "titre": "1. Comprendre le texte",
+        "points": [
+          "Lis le texte plusieurs fois et numérote ses moments (souvent 2 ou 3 étapes du raisonnement).",
+          "Thème : de quoi parle le texte (en un ou deux mots : la liberté, le travail…).",
+          "Problème : à quelle question l'auteur répond-il ?",
+          "Thèse : quelle est la réponse de l'auteur (sa position, en une phrase) ?"
+        ]
+      },
+      {
+        "titre": "2. L'étude ordonnée (explication)",
+        "points": [
+          "Suis l'ordre du texte : explique chaque moment, cite les passages entre guillemets.",
+          "Explique le sens des mots importants et les liens logiques (« donc », « mais », « en effet »).",
+          "Illustre par des exemples ce que l'auteur veut dire."
+        ]
+      },
+      {
+        "titre": "3. L'intérêt philosophique (discussion)",
+        "points": [
+          "Montre ce que la thèse a de juste et d'utile (intérêt).",
+          "Montre ses limites en t'appuyant sur d'autres arguments ou auteurs.",
+          "Conclus en donnant une position personnelle argumentée."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Paraphraser (répéter le texte avec d'autres mots) au lieu de l'expliquer.",
+      "Critiquer le texte avant de l'avoir compris et expliqué.",
+      "Confondre le thème (le sujet) et la thèse (la position de l'auteur)."
+    ]
+  },
+  {
+    "id": "dissertation-litteraire",
+    "titre": "Français : la dissertation littéraire",
+    "matieres": ["Francais"],
+    "niveaux": ["lycee"],
+    "resume": "Analyser la citation ou le sujet, problématiser, argumenter avec des exemples d'œuvres étudiées.",
+    "sections": [
+      {
+        "titre": "Analyse du sujet",
+        "points": [
+          "Repère la thèse proposée par la citation et reformule-la.",
+          "Identifie le genre concerné (roman, poésie, théâtre, essai) et la consigne exacte (« discutez », « expliquez », « commentez »)."
+        ]
+      },
+      {
+        "titre": "Construction",
+        "points": [
+          "Plan dialectique pour « discutez » (thèse / antithèse / synthèse), plan analytique ou thématique pour « expliquez ».",
+          "Chaque argument : idée → explication → exemple précis tiré d'une œuvre (titre, auteur, passage), de préférence des œuvres au programme et de la littérature africaine (Senghor, Césaire, Camara Laye, Mariama Bâ, Ahmadou Kourouma, Bernard Dadié…).",
+          "Introduction : amorce, citation du sujet, problématique, annonce du plan. Conclusion : bilan + ouverture."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Raconter l'histoire d'un livre au lieu d'argumenter.",
+      "Exemples vagues (« dans un roman… ») sans titre ni auteur.",
+      "Absence de transitions entre les parties."
+    ]
+  },
+  {
+    "id": "commentaire-compose",
+    "titre": "Français : le commentaire composé (commentaire littéraire)",
+    "matieres": ["Francais"],
+    "niveaux": ["lycee"],
+    "resume": "Dégager des centres d'intérêt et les analyser à partir des procédés d'écriture du texte.",
+    "sections": [
+      {
+        "titre": "Préparation",
+        "points": [
+          "Situe le texte : auteur, œuvre, genre, mouvement, époque.",
+          "Lis le texte crayon en main : repère les procédés (champs lexicaux, figures de style, temps verbaux, ponctuation, rythme, point de vue / focalisation).",
+          "Regroupe tes remarques en 2 ou 3 centres d'intérêt (axes de lecture)."
+        ]
+      },
+      {
+        "titre": "Rédaction",
+        "points": [
+          "Chaque paragraphe suit la règle : idée → citation précise → procédé nommé → interprétation (effet produit sur le lecteur).",
+          "Exemple : « L'auteur insiste sur la misère du village : l'énumération « cases vides, champs secs, puits taris » crée un effet d'accumulation qui souligne l'abandon. »",
+          "Introduction : situation du texte, idée générale, annonce des centres d'intérêt. Conclusion : bilan et ouverture."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Relever une figure de style sans dire à quoi elle sert (son effet).",
+      "Suivre le texte ligne par ligne (c'est une explication linéaire, pas un commentaire composé).",
+      "Citer sans guillemets ou sans analyser la citation."
+    ]
+  },
+  {
+    "id": "resume-discussion",
+    "titre": "Français : le résumé de texte et la discussion",
+    "matieres": ["Francais"],
+    "niveaux": [],
+    "resume": "Réduire un texte au quart (ou au nombre de mots demandé) en gardant ses idées et sa logique, puis discuter une idée.",
+    "sections": [
+      {
+        "titre": "Le résumé",
+        "points": [
+          "Lis le texte et repère la thèse et les étapes de l'argumentation (connecteurs logiques : mais, donc, en effet, cependant).",
+          "Respecte l'ordre des idées et le système d'énonciation de l'auteur (on résume « à la place » de l'auteur, sans écrire « l'auteur dit que »).",
+          "Reformule avec tes propres mots : pas de phrases recopiées, pas d'exemples secondaires.",
+          "Respecte le nombre de mots demandé (souvent une marge de ± 10 %) et indique le nombre de mots à la fin."
+        ]
+      },
+      {
+        "titre": "La discussion",
+        "points": [
+          "Reformule l'idée à discuter et pose une problématique.",
+          "Plan en deux parties : ce qui est juste dans cette idée / ses limites (ou l'inverse), avec des arguments et des exemples concrets.",
+          "Conclusion : ton point de vue nuancé."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Dépasser largement le nombre de mots ou ne pas l'indiquer.",
+      "Ajouter son avis personnel dans le résumé.",
+      "Recopier des phrases entières du texte."
+    ]
+  },
+  {
+    "id": "redaction-college",
+    "titre": "Français : la rédaction (expression écrite) au collège",
+    "matieres": ["Francais"],
+    "niveaux": ["college"],
+    "resume": "Narration, description, argumentation, lettre : comprendre le sujet, faire un plan, soigner la langue.",
+    "sections": [
+      {
+        "titre": "Comprendre le sujet",
+        "points": [
+          "Identifie le type de texte demandé : récit (raconter), description (décrire), argumentation (convaincre), lettre.",
+          "Repère qui parle (je / il), à quel temps (passé simple et imparfait pour un récit au passé) et toutes les consignes à respecter."
+        ]
+      },
+      {
+        "titre": "Faire un plan au brouillon",
+        "points": [
+          "Introduction : présente la situation (qui ? où ? quand ?) ou le problème.",
+          "Développement : 2 ou 3 paragraphes, une idée ou une étape par paragraphe, avec des connecteurs (d'abord, ensuite, puis, enfin ; en effet, de plus, cependant, donc).",
+          "Conclusion : fin de l'histoire ou bilan de ton avis."
+        ]
+      },
+      {
+        "titre": "Soigner la langue",
+        "points": [
+          "Phrases courtes et complètes, ponctuation correcte, majuscules.",
+          "Vocabulaire varié : évite les répétitions (utilise des pronoms et des synonymes).",
+          "Relis-toi pour les accords (sujet-verbe, nom-adjectif, participe passé)."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Un seul grand paragraphe sans alinéa.",
+      "Mélanger les temps (présent et passé simple dans le même récit).",
+      "Ne pas respecter une consigne (nombre de lignes, personnage imposé, forme de lettre)."
+    ]
+  },
+  {
+    "id": "langues-comprehension-expression",
+    "titre": "Langues vivantes : compréhension de texte et expression écrite",
+    "matieres": ["Anglais", "Allemand", "Espagnol"],
+    "niveaux": [],
+    "resume": "Reading comprehension, vrai/faux justifié, essai : la méthode pour l'épreuve écrite de langue.",
+    "sections": [
+      {
+        "titre": "Compréhension du texte",
+        "points": [
+          "Lis d'abord les questions, puis le texte : tu sais ce que tu cherches.",
+          "Vrai/Faux : justifie TOUJOURS par une courte citation du texte entre guillemets, avec la ligne.",
+          "Questions ouvertes : réponds par une phrase complète avec tes mots ; ne recopie pas un paragraphe entier.",
+          "Vocabulaire : devine le sens d'un mot grâce au contexte et aux mots de la même famille."
+        ]
+      },
+      {
+        "titre": "Expression écrite (essay)",
+        "points": [
+          "Respecte le nombre de mots et le type de texte (lettre, dialogue, argumentation).",
+          "Plan simple : introduction, 2 paragraphes d'arguments avec connecteurs (firstly, moreover, however, finally), conclusion.",
+          "Phrases simples et correctes valent mieux que des phrases compliquées et fausses.",
+          "Relis : accord du verbe à la 3e personne (he goes), temps (past simple / present perfect), majuscules."
+        ]
+      }
+    ],
+    "erreurs": [
+      "Répondre en français à une question posée dans la langue étudiée.",
+      "Vrai/Faux sans justification.",
+      "Traduire mot à mot depuis le français."
+    ]
+  }
+]

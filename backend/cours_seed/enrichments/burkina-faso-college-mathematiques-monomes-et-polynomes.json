@@ -1,0 +1,80 @@
+{
+  "_topic": "polynomes",
+  "objectifs": [
+    "Reconnaître un monôme, son coefficient et son degré.",
+    "Réduire et ordonner un polynôme.",
+    "Additionner et multiplier des polynômes.",
+    "Calculer la valeur numérique d'un polynôme."
+  ],
+  "prerequis": [
+    "Les puissances : x² × x = x³.",
+    "La distributivité et les règles des signes."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un monôme est un produit d'un nombre (coefficient) par une puissance de x : dans −5x³, le coefficient est −5 et le degré 3.",
+      "Deux monômes semblables (même puissance de x) s'additionnent : 3x² + x² = 4x².",
+      "Réduire = regrouper les monômes semblables ; ordonner = écrire du degré le plus grand au plus petit.",
+      "Le degré d'un polynôme réduit est le plus grand degré de ses monômes.",
+      "Le degré d'un produit de polynômes est la somme des degrés."
+    ],
+    "formules": [
+      "a·xᵐ × b·xⁿ = (a × b)·xᵐ⁺ⁿ",
+      "a·xⁿ + b·xⁿ = (a + b)·xⁿ"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Additionner des monômes non semblables : 3x² + 2x = 5x³.",
+      "correction": "3x² et 2x ne sont pas semblables : la somme reste 3x² + 2x."
+    },
+    {
+      "erreur": "Multiplier les exposants : x² × x³ = x⁶.",
+      "correction": "On additionne les exposants : x² × x³ = x⁵."
+    },
+    {
+      "erreur": "Oublier un terme en développant un produit de deux polynômes.",
+      "correction": "Chaque terme du 1er facteur multiplie chaque terme du 2e : (2 termes) × (2 termes) = 4 produits."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Réduis et ordonne P(x) = 3x² − 5x + 2x³ − 7 + x². Donne son degré.",
+      "indice": "Regroupe les termes en x² ensemble.",
+      "corrige": [
+        "Termes en x³ : 2x³. Termes en x² : 3x² + x² = 4x². Termes en x : −5x. Constante : −7.",
+        "P(x) = 2x³ + 4x² − 5x − 7.",
+        "Le degré de P est 3."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On donne P(x) = 2x² − 3x + 1 et Q(x) = x − 2. Calcule P(x) + Q(x) et P(x) × Q(x).",
+      "indice": "Pour le produit, multiplie chaque terme de P par x, puis par −2.",
+      "corrige": [
+        "P(x) + Q(x) = 2x² − 3x + 1 + x − 2 = 2x² − 2x − 1.",
+        "P(x) × Q(x) = 2x³ − 4x² − 3x² + 6x + x − 2.",
+        "P(x) × Q(x) = 2x³ − 7x² + 7x − 2 (degré 3 = 2 + 1)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Soit P(x) = x² − 4x + 3. 1) Calcule P(1), P(3) et P(−2). 2) Vérifie que P(x) = (x − 1)(x − 3). 3) Résous P(x) = 0.",
+      "indice": "Remplace x par la valeur, en mettant les nombres négatifs entre parenthèses.",
+      "corrige": [
+        "1) P(1) = 1 − 4 + 3 = 0 ; P(3) = 9 − 12 + 3 = 0 ; P(−2) = (−2)² − 4 × (−2) + 3 = 4 + 8 + 3 = 15.",
+        "2) (x − 1)(x − 3) = x² − 3x − x + 3 = x² − 4x + 3 = P(x).",
+        "3) P(x) = 0 ⟺ x − 1 = 0 ou x − 3 = 0 ⟺ x = 1 ou x = 3 (ce qui confirme P(1) = P(3) = 0)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : bien présenter un calcul sur les polynômes",
+    "etapes": [
+      "Réduis et ordonne toujours ton résultat final (degré décroissant).",
+      "Mets les valeurs négatives entre parenthèses quand tu remplaces x.",
+      "Vérifie un produit en contrôlant son degré (somme des degrés)."
+    ]
+  }
+}

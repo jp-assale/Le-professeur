@@ -14,14 +14,14 @@
 <div class="lesson-app">
 
   <header class="lesson-top">
-    <button class="lesson-back" title="Retour" onclick="history.back()">←</button>
+    <button class="lesson-back" title="Retour" aria-label="Retour" onclick="history.back()">←</button>
     <div class="lesson-title">
       <span class="eyebrow" id="lesson-eyebrow">Chargement…</span>
       <span class="name" id="lesson-name"></span>
     </div>
   </header>
 
-  <div class="lesson-progress" id="progress"></div>
+  <div class="lesson-progress" id="progress" aria-label="Progression dans la leçon"></div>
 
   <main class="lesson-body" id="lesson-body">
     <section class="slide active" data-slide="0">
@@ -42,6 +42,7 @@
 <script src="js/diagram-viewer.js"></script>
 <script src="js/speech-text.js"></script>
 <script src="js/voice-server.js"></script>
+<script src="js/cours-progress.js"></script>
 <script src="js/cours-engine.js"></script>
 <script src="js/cours-render.js"></script>
 <script>
@@ -57,6 +58,12 @@
   }
 
   const base = window.AIDA_API_BASE_URL || "";
+  const MATH_DELIMITERS = [
+    { left: "$$", right: "$$", display: true },
+    { left: "\\[", right: "\\]", display: true },
+    { left: "$", right: "$", display: false },
+    { left: "\\(", right: "\\)", display: false },
+  ];
   fetch(`${base}/api/cours/${encodeURIComponent(slug)}`)
     .then(r => {
       if (!r.ok) throw new Error("introuvable");
@@ -64,23 +71,25 @@
     })
     .then(lesson => {
       if (fallbackFor) lesson.fallback_for = fallbackFor;
-      renderLesson(lesson, { eyebrow: "lesson-eyebrow", name: "lesson-name", body: "lesson-body" });
+      const view = renderLesson(lesson, { eyebrow: "lesson-eyebrow", name: "lesson-name", body: "lesson-body" });
       if (window.renderMathInElement) {
-        renderMathInElement(body, {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "\\[", right: "\\]", display: true },
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-          ],
-          throwOnError: false,
-        });
+        renderMathInElement(body, { delimiters: MATH_DELIMITERS, throwOnError: false });
       }
+      // Liste du programme (meme pays/niveau/matiere) pour proposer le
+      // chapitre suivant en fin de lecon - facultatif, sans effet si hors-ligne.
+      const listParams = new URLSearchParams({
+        pays: fallbackFor || lesson.pays, niveau: lesson.niveau, matiere: lesson.matiere,
+      });
+      fetch(`${base}/api/cours?${listParams.toString()}`)
+        .then(r => (r.ok ? r.json() : []))
+        .then(list => { if (view && view.setSiblings) view.setSiblings(list); })
+        .catch(() => {});
     })
     .catch(() => {
       document.getElementById("lesson-eyebrow").textContent = "Erreur";
-      body.innerHTML = '<p class="muted">Ce cours est introuvable ou pas encore disponible.</p>';
+      body.innerHTML = '<p class="muted">Ce cours est introuvable ou pas encore disponible. Vérifie ta connexion internet puis réessaie.</p>';
     });
+
 })();
 </script>
 </body>

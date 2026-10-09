@@ -725,6 +725,32 @@
     if (!epreuvesPanel.hidden) loadEpreuvesList();
   });
 
+  // Fiches methode transversales (dissertation, commentaire, resolution de
+  // probleme...) ajoutees en bas de la liste des cours de la matiere.
+  async function loadMethodes() {
+    try {
+      const params = new URLSearchParams({ pays: selectPays.value, niveau: selectNiveau.value, matiere: selectMatiere.value });
+      const fiches = await fetchWithRetry(apiUrl("/api/methodes?" + params.toString())).then((r) => r.json());
+      if (!Array.isArray(fiches) || !fiches.length) return;
+      const head = document.createElement("li");
+      head.className = "cours-serie-head";
+      head.textContent = "🧭 Fiches méthode (examen)";
+      coursList.appendChild(head);
+      fiches.forEach((f) => {
+        const li = document.createElement("li");
+        li.className = "pdf-sujet-item";
+        const link = document.createElement("a");
+        link.href = "methode.html?id=" + encodeURIComponent(f.id);
+        link.className = "pdf-sujet-view";
+        link.textContent = "🧭 " + f.titre;
+        li.appendChild(link);
+        coursList.appendChild(li);
+      });
+    } catch (e) {
+      // Facultatif : la liste des cours reste utilisable sans les fiches.
+    }
+  }
+
   async function loadCoursList() {
     coursList.innerHTML = '<li class="epreuves-empty">Chargement…</li>';
     const params = new URLSearchParams({
@@ -744,24 +770,65 @@
             "Programme pas encore confirmé pour ce pays — voici le programme régional de référence, à titre indicatif.";
           coursList.appendChild(note);
         }
-        lecons.forEach((c) => {
-          const li = document.createElement("li");
-          li.className = "pdf-sujet-item";
 
-          const link = document.createElement("a");
-          let href = "cours.html?slug=" + encodeURIComponent(c.slug);
-          if (c.fallback_for) href += "&fallback_for=" + encodeURIComponent(c.fallback_for);
-          link.href = href;
-          link.className = "pdf-sujet-view";
-          link.textContent = (c.fallback_for ? "📚🌍 " : "📚 ") + (c.title || c.chapitre);
+        // Progression locale (cours-progress.js) : ✓ sur les chapitres finis.
+        const progress = window.CoursProgress ? CoursProgress.all() : {};
+        const doneCount = lecons.filter((c) => progress[c.slug] && progress[c.slug].done).length;
+        const summary = document.createElement("li");
+        summary.className = "cours-summary";
+        const pct = Math.round((doneCount / lecons.length) * 100);
+        summary.innerHTML =
+          '<div class="cours-summary-text"></div><div class="cours-bar"><span></span></div>';
+        summary.querySelector(".cours-summary-text").textContent =
+          "📈 " + doneCount + " / " + lecons.length + " chapitres terminés";
+        summary.querySelector(".cours-bar span").style.width = pct + "%";
+        coursList.appendChild(summary);
 
-          li.appendChild(link);
-          coursList.appendChild(li);
+        // Lycee : les series (C, D, A...) ont des programmes differents -
+        // on les separe par un intertitre au lieu de tout melanger.
+        const series = [...new Set(lecons.map((c) => c.serie || ""))];
+        series.forEach((serie) => {
+          if (series.length > 1 || serie) {
+            const head = document.createElement("li");
+            head.className = "cours-serie-head";
+            head.textContent = serie ? "Série " + serie : "Toutes séries";
+            coursList.appendChild(head);
+          }
+          lecons.filter((c) => (c.serie || "") === serie).forEach((c) => {
+            const li = document.createElement("li");
+            li.className = "pdf-sujet-item";
+            const p = progress[c.slug] || {};
+
+            const link = document.createElement("a");
+            let href = "cours.html?slug=" + encodeURIComponent(c.slug);
+            if (c.fallback_for) href += "&fallback_for=" + encodeURIComponent(c.fallback_for);
+            link.href = href;
+            link.className = "pdf-sujet-view" + (p.done ? " cours-done" : "");
+            const icon = p.done ? "✅ " : (c.fallback_for ? "📚🌍 " : "📚 ");
+            link.textContent = icon + (c.title || c.chapitre);
+            if (c.enrichi) {
+              const tag = document.createElement("span");
+              tag.className = "cours-tag";
+              tag.textContent = "+ exercices";
+              tag.title = "Fiche « À retenir », erreurs fréquentes et exercices corrigés";
+              link.appendChild(tag);
+            }
+            if (typeof p.best === "number" && p.total) {
+              const sc = document.createElement("span");
+              sc.className = "cours-tag score";
+              sc.textContent = p.best + "/" + p.total;
+              link.appendChild(sc);
+            }
+
+            li.appendChild(link);
+            coursList.appendChild(li);
+          });
         });
       } else {
         coursList.innerHTML =
-          '<li class="epreuves-empty">Aucun cours pour cette combinaison pays / niveau / matière pour l\'instant.</li>';
+          '<li class="epreuves-empty">Aucun cours pour cette combinaison pays / niveau / matière pour l\'instant. Les fiches méthode ci-dessous restent utiles, et tu peux poser ta question de cours au Prof dans le chat.</li>';
       }
+      loadMethodes();
     } catch (e) {
       coursList.innerHTML = '<li class="epreuves-empty">Erreur de chargement.</li>';
     }
@@ -913,6 +980,12 @@
     devoirsPanel.hidden = true;
     coursPanel.hidden = !coursPanel.hidden;
     if (!coursPanel.hidden) loadCoursList();
+  });
+
+  // Retour d'une lecon (history.back, page restauree depuis le cache du
+  // navigateur) : rafraichit les ✓ de progression de la liste ouverte.
+  window.addEventListener("pageshow", (e) => {
+    if (e.persisted && !coursPanel.hidden) loadCoursList();
   });
 
   quitEpreuveBtn.addEventListener("click", quitEpreuve);

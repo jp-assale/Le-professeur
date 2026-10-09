@@ -1,0 +1,81 @@
+{
+  "_topic": "thales",
+  "objectifs": [
+    "Calculer une longueur avec la propriété de Thalès.",
+    "Démontrer que deux droites sont parallèles avec la réciproque.",
+    "Démontrer que deux droites ne sont pas parallèles.",
+    "Résoudre un problème concret (ombres, hauteurs) avec Thalès."
+  ],
+  "prerequis": [
+    "Calculer avec des fractions et des produits en croix.",
+    "Reconnaître des droites parallèles et des points alignés."
+  ],
+  "a_retenir": {
+    "points": [
+      "Propriété : dans un triangle ABC, si M ∈ (AB), N ∈ (AC) et (MN) // (BC), alors AM/AB = AN/AC = MN/BC.",
+      "Réciproque : si A, M, B et A, N, C sont alignés dans le même ordre et si AM/AB = AN/AC, alors (MN) // (BC).",
+      "Si AM/AB ≠ AN/AC, alors (MN) et (BC) ne sont pas parallèles.",
+      "Les longueurs du « petit » triangle (AM, AN, MN) sont au numérateur, celles du « grand » (AB, AC, BC) au dénominateur."
+    ],
+    "formules": [
+      "AM/AB = AN/AC = MN/BC",
+      "Produit en croix : si a/b = c/d alors a × d = b × c"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser la propriété sans avoir vérifié que les droites sont parallèles.",
+      "correction": "Écris toujours « (MN) // (BC) » dans les données avant d'appliquer la propriété."
+    },
+    {
+      "erreur": "Mélanger les rapports : AM/AB = AC/AN.",
+      "correction": "Garde le même ordre partout : petit triangle en haut, grand triangle en bas."
+    },
+    {
+      "erreur": "Utiliser la réciproque avec seulement les rapports égaux.",
+      "correction": "Il faut aussi préciser que les points sont alignés dans le même ordre."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Dans un triangle ABC, M ∈ [AB] et N ∈ [AC] avec (MN) // (BC). On donne AB = 8 cm, AM = 2 cm, AC = 12 cm et BC = 10 cm. Calcule AN et MN.",
+      "indice": "Écris les trois rapports égaux, puis utilise le produit en croix.",
+      "corrige": [
+        "(MN) // (BC), donc d'après la propriété de Thalès : AM/AB = AN/AC = MN/BC.",
+        "2/8 = AN/12 donc AN = 2 × 12 / 8 = 3 cm.",
+        "2/8 = MN/10 donc MN = 2 × 10 / 8 = 2,5 cm."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Les points A, M, B sont alignés dans cet ordre, ainsi que A, N, C. AM = 3 cm, AB = 7,5 cm, AN = 4 cm, AC = 10 cm. Les droites (MN) et (BC) sont-elles parallèles ?",
+      "indice": "Calcule séparément AM/AB et AN/AC, puis compare.",
+      "corrige": [
+        "AM/AB = 3/7,5 = 0,4 et AN/AC = 4/10 = 0,4.",
+        "Les rapports sont égaux et les points sont alignés dans le même ordre.",
+        "D'après la réciproque de la propriété de Thalès, (MN) // (BC)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pour mesurer la hauteur d'un manguier, Kofi plante verticalement un bâton de 1,5 m. Au même moment, l'ombre du bâton mesure 2 m et celle du manguier 12 m. Les rayons du soleil sont parallèles. Calcule la hauteur du manguier.",
+      "indice": "Le bâton et le manguier sont parallèles (tous deux verticaux) : on a une configuration de Thalès avec le sommet de l'ombre comme point commun.",
+      "corrige": [
+        "Le bâton et l'arbre sont verticaux donc parallèles ; les ombres sont sur la même droite (le sol).",
+        "D'après la propriété de Thalès : hauteur du bâton / hauteur de l'arbre = ombre du bâton / ombre de l'arbre.",
+        "1,5 / h = 2 / 12, donc h = 1,5 × 12 / 2 = 9.",
+        "Le manguier mesure 9 m de haut."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : rédiger un exercice de Thalès",
+    "etapes": [
+      "Cite les données : « Les points … sont alignés, (MN) // (BC) ».",
+      "Nomme la propriété : « D'après la propriété de Thalès » (ou « la réciproque »).",
+      "Écris les rapports égaux, puis remplace par les valeurs connues.",
+      "Calcule avec le produit en croix et donne le résultat avec son unité."
+    ]
+  }
+}

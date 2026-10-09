@@ -1,0 +1,81 @@
+{
+  "_topic": "reels",
+  "objectifs": [
+    "Situer un nombre dans les ensembles ℕ, ℤ, 𝔻, ℚ et ℝ.",
+    "Écrire un ensemble de nombres sous forme d'intervalle.",
+    "Calculer et utiliser la valeur absolue.",
+    "Encadrer un nombre réel et donner une valeur approchée."
+  ],
+  "prerequis": [
+    "Les nombres relatifs et les fractions.",
+    "Les symboles <, ≤, >, ≥."
+  ],
+  "a_retenir": {
+    "points": [
+      "ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ : entiers naturels, entiers relatifs, décimaux, rationnels (fractions), réels.",
+      "Un nombre irrationnel (√2, π…) est réel mais n'est pas une fraction.",
+      "[a ; b] : crochets tournés vers l'intérieur → bornes comprises ; ]a ; b[ → bornes exclues ; l'infini est toujours exclu.",
+      "|x| est la distance de x à 0 : |x| = x si x ≥ 0 et |x| = −x si x < 0.",
+      "|x − a| est la distance entre x et a sur la droite graduée."
+    ],
+    "formules": [
+      "x ≥ a ⟺ x ∈ [a ; +∞[",
+      "a < x ≤ b ⟺ x ∈ ]a ; b]",
+      "|x| = r (r > 0) ⟺ x = r ou x = −r"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire [2 ; +∞] avec un crochet fermé sur l'infini.",
+      "correction": "L'infini n'est jamais atteint : [2 ; +∞[."
+    },
+    {
+      "erreur": "Penser que |x − 2| = 5 a une seule solution x = 7.",
+      "correction": "x − 2 = 5 ou x − 2 = −5, donc x = 7 ou x = −3."
+    },
+    {
+      "erreur": "Dire que 2/3 est un décimal.",
+      "correction": "2/3 = 0,666… n'a pas d'écriture décimale finie : il est rationnel mais pas décimal."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne le plus petit ensemble (ℕ, ℤ, 𝔻, ℚ ou ℝ) auquel appartient chaque nombre : 7 ; −3 ; 0,25 ; 2/3 ; √2 ; π.",
+      "indice": "Demande-toi : est-ce un entier ? un décimal ? une fraction ?",
+      "corrige": [
+        "7 ∈ ℕ ; −3 ∈ ℤ ; 0,25 ∈ 𝔻.",
+        "2/3 ∈ ℚ (fraction non décimale).",
+        "√2 et π sont irrationnels : ils sont dans ℝ seulement."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "1) Écris sous forme d'intervalle : x ≥ −2 ; −1 < x ≤ 3. 2) Détermine [−2 ; +∞[ ∩ ]−∞ ; 1[.",
+      "indice": "Pour l'intersection, représente les deux intervalles sur une même droite graduée.",
+      "corrige": [
+        "1) x ≥ −2 ⟺ x ∈ [−2 ; +∞[ ; −1 < x ≤ 3 ⟺ x ∈ ]−1 ; 3].",
+        "2) Les nombres communs sont ceux qui sont à la fois ≥ −2 et < 1.",
+        "[−2 ; +∞[ ∩ ]−∞ ; 1[ = [−2 ; 1[."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Résous |x − 2| = 5. 2) Sachant que 1,41 < √2 < 1,42, donne un encadrement de 3√2.",
+      "indice": "Multiplier une inégalité par un nombre positif ne change pas son sens.",
+      "corrige": [
+        "1) |x − 2| = 5 ⟺ x − 2 = 5 ou x − 2 = −5 ⟺ x = 7 ou x = −3.",
+        "2) On multiplie chaque membre par 3 (positif) : 3 × 1,41 < 3√2 < 3 × 1,42.",
+        "Donc 4,23 < 3√2 < 4,26."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au DEF : intervalles et valeur absolue",
+    "etapes": [
+      "Dessine une droite graduée au brouillon pour chaque intervalle.",
+      "Pour une valeur absolue, pense « distance » et écris les deux cas.",
+      "Vérifie le sens des crochets : bornes comprises ou exclues."
+    ]
+  }
+}

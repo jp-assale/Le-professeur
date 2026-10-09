@@ -1,0 +1,85 @@
+{
+  "_topic": "calcul-litteral",
+  "objectifs": [
+    "Développer et réduire une expression littérale.",
+    "Utiliser les trois identités remarquables dans les deux sens.",
+    "Factoriser une expression (facteur commun ou identité remarquable).",
+    "Résoudre une équation produit nul."
+  ],
+  "prerequis": [
+    "La distributivité : k(a + b) = ka + kb.",
+    "Les règles des signes pour la multiplication."
+  ],
+  "a_retenir": {
+    "points": [
+      "Développer = transformer un produit en somme ; factoriser = transformer une somme en produit.",
+      "Un signe « − » devant une parenthèse change tous les signes à l'intérieur : −(x − 4) = −x + 4.",
+      "Pour factoriser, cherche d'abord un facteur commun, ensuite une identité remarquable.",
+      "Un produit est nul si et seulement si l'un au moins de ses facteurs est nul."
+    ],
+    "formules": [
+      "(a + b)² = a² + 2ab + b²",
+      "(a − b)² = a² − 2ab + b²",
+      "(a + b)(a − b) = a² − b²",
+      "ka + kb = k(a + b)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire (a + b)² = a² + b².",
+      "correction": "Il manque le double produit : (a + b)² = a² + 2ab + b². Vérifie avec a = 1, b = 1 : (1 + 1)² = 4 et non 2."
+    },
+    {
+      "erreur": "Écrire −2(x − 4) = −2x − 8.",
+      "correction": "−2 × (−4) = +8, donc −2(x − 4) = −2x + 8."
+    },
+    {
+      "erreur": "Oublier de factoriser complètement : (2x − 2)(2x + 4).",
+      "correction": "On peut encore sortir 2 de chaque facteur : 4(x − 1)(x + 2)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Développe et réduis A = 3(2x − 5) − 2(x − 4).",
+      "indice": "Distribue 3 dans la première parenthèse et −2 dans la seconde, attention aux signes.",
+      "corrige": [
+        "A = 6x − 15 − 2x + 8.",
+        "On regroupe les termes en x et les nombres : A = (6x − 2x) + (−15 + 8).",
+        "A = 4x − 7."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Factorise B = (2x + 1)² − 9.",
+      "indice": "9 = 3². Reconnais la forme a² − b².",
+      "corrige": [
+        "B = (2x + 1)² − 3², de la forme a² − b² avec a = 2x + 1 et b = 3.",
+        "B = (2x + 1 − 3)(2x + 1 + 3) = (2x − 2)(2x + 4).",
+        "On factorise encore : 2x − 2 = 2(x − 1) et 2x + 4 = 2(x + 2), donc B = 4(x − 1)(x + 2)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On donne E = (x − 3)² − (x − 3)(2x + 1). 1) Développe et réduis E. 2) Factorise E. 3) Résous l'équation E = 0. 4) Calcule E pour x = −1.",
+      "indice": "Pour factoriser, (x − 3) est un facteur commun aux deux termes.",
+      "corrige": [
+        "1) (x − 3)² = x² − 6x + 9 et (x − 3)(2x + 1) = 2x² + x − 6x − 3 = 2x² − 5x − 3.",
+        "E = x² − 6x + 9 − 2x² + 5x + 3 = −x² − x + 12.",
+        "2) E = (x − 3)[(x − 3) − (2x + 1)] = (x − 3)(x − 3 − 2x − 1) = (x − 3)(−x − 4).",
+        "3) E = 0 ⟺ x − 3 = 0 ou −x − 4 = 0 ⟺ x = 3 ou x = −4.",
+        "4) Avec la forme développée : E = −(−1)² − (−1) + 12 = −1 + 1 + 12 = 12. (Vérification avec la forme factorisée : (−4)(−3) = 12.)"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'exercice de calcul littéral",
+    "etapes": [
+      "Recopie l'expression, puis écris chaque étape sur une nouvelle ligne (E = …).",
+      "Pour « développer et réduire » : distribue, puis regroupe x², x et les nombres.",
+      "Pour « factoriser » : facteur commun d'abord, identité remarquable ensuite.",
+      "Pour « calculer E pour x = … » : choisis la forme la plus simple (souvent la forme développée ou factorisée).",
+      "Vérifie ta factorisation en la redéveloppant au brouillon."
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_topic": "racines",
+  "objectifs": [
+    "Connaître la définition de la racine carrée d'un nombre positif.",
+    "Simplifier une racine carrée (a√b avec b le plus petit possible).",
+    "Calculer des sommes et produits contenant des racines carrées.",
+    "Rendre rationnel le dénominateur d'une fraction."
+  ],
+  "prerequis": [
+    "Les carrés parfaits : 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.",
+    "Les identités remarquables."
+  ],
+  "a_retenir": {
+    "points": [
+      "Pour a ≥ 0, √a est le nombre positif dont le carré est a : (√a)² = a.",
+      "La racine carrée d'un nombre négatif n'existe pas.",
+      "Pour simplifier √72, cherche le plus grand carré parfait qui divise 72 : 72 = 36 × 2, donc √72 = 6√2.",
+      "On additionne seulement des racines identiques : 2√5 + 3√5 = 5√5, mais √2 + √3 ne se simplifie pas.",
+      "Attention : √(a + b) ≠ √a + √b (exemple : √(9 + 16) = 5 alors que √9 + √16 = 7)."
+    ],
+    "formules": [
+      "√(a × b) = √a × √b   (a ≥ 0, b ≥ 0)",
+      "√(a / b) = √a / √b   (a ≥ 0, b > 0)",
+      "√(a²) = a pour a ≥ 0",
+      "1/√a = √a / a"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire √9 + √16 = √25.",
+      "correction": "√9 + √16 = 3 + 4 = 7. La racine d'une somme n'est pas la somme des racines."
+    },
+    {
+      "erreur": "Écrire 2√3 × 4√3 = 8√3.",
+      "correction": "2√3 × 4√3 = 8 × (√3)² = 8 × 3 = 24."
+    },
+    {
+      "erreur": "Laisser un résultat comme √50.",
+      "correction": "Simplifie toujours : √50 = √(25 × 2) = 5√2."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Simplifie : √50 ; √12 ; √(49/16).",
+      "indice": "Cherche un carré parfait qui divise le nombre sous la racine.",
+      "corrige": [
+        "√50 = √(25 × 2) = 5√2.",
+        "√12 = √(4 × 3) = 2√3.",
+        "√(49/16) = √49 / √16 = 7/4."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Écris A = 3√20 − √45 + 2√5 sous la forme a√5.",
+      "indice": "20 = 4 × 5 et 45 = 9 × 5.",
+      "corrige": [
+        "√20 = 2√5 donc 3√20 = 6√5 ; √45 = 3√5.",
+        "A = 6√5 − 3√5 + 2√5.",
+        "A = 5√5."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Développe B = (2√3 − 1)². 2) Calcule (√5 + 2)(√5 − 2). 3) Déduis-en que 1/(√5 − 2) = √5 + 2.",
+      "indice": "Utilise (a − b)² puis (a + b)(a − b) = a² − b².",
+      "corrige": [
+        "1) B = (2√3)² − 2 × 2√3 × 1 + 1² = 4 × 3 − 4√3 + 1 = 13 − 4√3.",
+        "2) (√5 + 2)(√5 − 2) = (√5)² − 2² = 5 − 4 = 1.",
+        "3) Comme (√5 + 2)(√5 − 2) = 1, on divise par (√5 − 2) : √5 + 2 = 1/(√5 − 2)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : réussir les calculs avec racines",
+    "etapes": [
+      "Simplifie chaque racine avant d'additionner.",
+      "Utilise les identités remarquables pour développer un carré ou un produit (√a + b)(√a − b).",
+      "Donne le résultat sous la forme demandée (a√b, fraction sans racine au dénominateur…)."
+    ]
+  }
+}

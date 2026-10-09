@@ -33,7 +33,8 @@ import reports
 import subscription
 import tts_server
 import usage_log
-from curriculum import MATIERES, NIVEAUX, PAYS, niveau_label
+from curriculum import (MATIERES, NIVEAUX, PAYS, contexte_pays_note,
+                        niveau_label, pays_avec_preposition)
 from paths import DATA_DIR
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
@@ -173,12 +174,12 @@ def _clean_prenom(raw) -> str | None:
 def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
                          profile_note: str | None = None,
                          prenom: str | None = None) -> str:
-    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    pays_lieu = pays_avec_preposition(pays_code)
     niveau = niveau_label(pays_code, niveau_code)
 
     base = (
         f"Tu es un professeur particulier bienveillant pour un(e) eleve du {niveau} "
-        f"en {matiere}, au {pays_label}, dans le systeme scolaire francophone d'Afrique "
+        f"en {matiere}, {pays_lieu}, dans le systeme scolaire francophone d'Afrique "
         "de l'Ouest. Reponds toujours en francais simple et clair."
     )
     if prenom:
@@ -194,6 +195,9 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
             f"(adapte tes explications en consequence, sans le repeter mot pour mot) :\n"
             f"{profile_note}"
         )
+    contexte = contexte_pays_note(pays_code, niveau_code)
+    if contexte:
+        base += "\n\n" + contexte
 
     return (
         base + "\n\n"
@@ -269,7 +273,7 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
 
 def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str,
                                 prenom: str | None = None) -> str:
-    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    pays_lieu = pays_avec_preposition(pays_code)
     niveau = niveau_label(pays_code, niveau_code)
     prenom_note = (
         f"L'eleve s'appelle {prenom} : appelle-le par son prenom dans ta reponse.\n\n"
@@ -277,7 +281,7 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str,
     )
     return (
         f"Tu es un professeur particulier bienveillant pour un(e) eleve du {niveau} "
-        f"en {matiere}, au {pays_label}, dans le systeme scolaire francophone d'Afrique "
+        f"en {matiere}, {pays_lieu}, dans le systeme scolaire francophone d'Afrique "
         "de l'Ouest. Reponds toujours en francais simple et clair.\n\n"
         f"{prenom_note}"
         "L'eleve vient d'envoyer une photo ou un PDF d'un sujet d'exercice. Fais ceci, "
@@ -303,20 +307,20 @@ def build_upload_system_prompt(pays_code: str, niveau_code: str, matiere: str,
 
 def build_quiz_system_prompt(pays_code: str, niveau_code: str, matiere: str, sujet: str,
                               n_questions: int, diagnostic: bool = False) -> str:
-    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    pays_lieu = pays_avec_preposition(pays_code)
     niveau = niveau_label(pays_code, niveau_code)
 
     if diagnostic:
         # Pas d'echange precedent a suivre ici : le sujet est synthetise a partir
         # de la matiere choisie par l'eleve, donc on l'affirme telle quelle.
-        intro = f"Tu es un professeur pour un(e) eleve du {niveau} en {matiere}, au {pays_label}.\n\n"
+        intro = f"Tu es un professeur pour un(e) eleve du {niveau} en {matiere}, {pays_lieu}.\n\n"
     else:
         # Le sujet ci-dessous est le texte reel de la derniere explication recue -
         # elle peut porter sur une autre matiere que celle choisie dans le menu
         # (l'eleve a pu poser une question hors matiere). Le quiz doit suivre le
         # contenu reel de l'echange, pas une matiere supposee a priori.
         intro = (
-            f"Tu es un professeur pour un(e) eleve du {niveau}, au {pays_label}.\n\n"
+            f"Tu es un professeur pour un(e) eleve du {niveau}, {pays_lieu}.\n\n"
             "Le texte ci-dessous est l'explication exacte que l'eleve vient de recevoir. "
             "Identifie toi-meme la matiere reellement concernee par ce texte (elle peut "
             "differer de la matiere habituellement etudiee par l'eleve) et genere le quiz "
@@ -352,11 +356,11 @@ def _parse_quiz_json(raw_text: str) -> dict:
 
 
 def build_correction_copie_prompt(pays_code: str, niveau_code: str, matiere: str, bareme: int) -> str:
-    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    pays_lieu = pays_avec_preposition(pays_code)
     niveau = niveau_label(pays_code, niveau_code)
     return (
         f"Tu es un examinateur qui corrige la copie d'un(e) eleve du {niveau} en {matiere}, "
-        f"au {pays_label}. Reponds toujours en francais simple et clair.\n\n"
+        f"{pays_lieu}. Reponds toujours en francais simple et clair.\n\n"
         "L'eleve t'envoie sa copie (texte ou photo), qui contient generalement a la fois la "
         "question et sa reponse. Identifie d'abord la question traitee, puis corrige.\n\n"
         f"Note la copie sur {bareme} points.\n\n"
@@ -373,11 +377,11 @@ def build_correction_copie_prompt(pays_code: str, niveau_code: str, matiere: str
 
 
 def build_profile_system_prompt(pays_code: str, niveau_code: str, matiere: str) -> str:
-    pays_label = next((p["label"] for p in PAYS if p["code"] == pays_code), pays_code)
+    pays_lieu = pays_avec_preposition(pays_code)
     niveau = niveau_label(pays_code, niveau_code)
     return (
         f"Tu es un professeur qui vient de faire passer un diagnostic a un(e) eleve du "
-        f"{niveau} en {matiere}, au {pays_label}. Voici les questions posees, la reponse "
+        f"{niveau} en {matiere}, {pays_lieu}. Voici les questions posees, la reponse "
         "de l'eleve et la bonne reponse pour chacune.\n\n"
         "Redige un court paragraphe (60 a 80 mots), adresse directement a l'eleve (tutoiement), "
         "resumant ses points forts et ses lacunes precises a travailler en priorite. Sois "
@@ -760,6 +764,22 @@ def get_cours_lesson(slug):
     if not lesson:
         return jsonify({"error": "Cours introuvable"}), 404
     return jsonify(lesson)
+
+
+@app.route("/api/methodes", methods=["GET"])
+def get_methodes_list():
+    niveau = request.args.get("niveau") or ""
+    matiere = request.args.get("matiere") or ""
+    pays = request.args.get("pays") or ""
+    return jsonify(cours_library.list_methodes(niveau, matiere, pays))
+
+
+@app.route("/api/methodes/<methode_id>", methods=["GET"])
+def get_methode(methode_id):
+    fiche = cours_library.get_methode(methode_id)
+    if not fiche:
+        return jsonify({"error": "Fiche introuvable"}), 404
+    return jsonify(fiche)
 
 
 @app.route("/api/pdf-sujets/<sujet_id>/fichier", methods=["GET"])

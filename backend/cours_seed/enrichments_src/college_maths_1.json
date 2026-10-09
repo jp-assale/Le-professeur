@@ -1,0 +1,517 @@
+{
+  "_doc": "Complements pedagogiques - Mathematiques college (lot 1). Un « topic » est ecrit une fois puis associe a toutes les lecons des differents pays qui traitent la meme notion (voir « map »). {EXAMEN} est remplace par l'examen de la lecon (BEPC, DEF, BFEM). Calculs verifies a la main.",
+  "topics": {
+    "calcul-litteral": {
+      "objectifs": [
+        "Développer et réduire une expression littérale.",
+        "Utiliser les trois identités remarquables dans les deux sens.",
+        "Factoriser une expression (facteur commun ou identité remarquable).",
+        "Résoudre une équation produit nul."
+      ],
+      "prerequis": [
+        "La distributivité : k(a + b) = ka + kb.",
+        "Les règles des signes pour la multiplication."
+      ],
+      "a_retenir": {
+        "points": [
+          "Développer = transformer un produit en somme ; factoriser = transformer une somme en produit.",
+          "Un signe « − » devant une parenthèse change tous les signes à l'intérieur : −(x − 4) = −x + 4.",
+          "Pour factoriser, cherche d'abord un facteur commun, ensuite une identité remarquable.",
+          "Un produit est nul si et seulement si l'un au moins de ses facteurs est nul."
+        ],
+        "formules": [
+          "(a + b)² = a² + 2ab + b²",
+          "(a − b)² = a² − 2ab + b²",
+          "(a + b)(a − b) = a² − b²",
+          "ka + kb = k(a + b)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire (a + b)² = a² + b².", "correction": "Il manque le double produit : (a + b)² = a² + 2ab + b². Vérifie avec a = 1, b = 1 : (1 + 1)² = 4 et non 2." },
+        { "erreur": "Écrire −2(x − 4) = −2x − 8.", "correction": "−2 × (−4) = +8, donc −2(x − 4) = −2x + 8." },
+        { "erreur": "Oublier de factoriser complètement : (2x − 2)(2x + 4).", "correction": "On peut encore sortir 2 de chaque facteur : 4(x − 1)(x + 2)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Développe et réduis A = 3(2x − 5) − 2(x − 4).",
+          "indice": "Distribue 3 dans la première parenthèse et −2 dans la seconde, attention aux signes.",
+          "corrige": [
+            "A = 6x − 15 − 2x + 8.",
+            "On regroupe les termes en x et les nombres : A = (6x − 2x) + (−15 + 8).",
+            "A = 4x − 7."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Factorise B = (2x + 1)² − 9.",
+          "indice": "9 = 3². Reconnais la forme a² − b².",
+          "corrige": [
+            "B = (2x + 1)² − 3², de la forme a² − b² avec a = 2x + 1 et b = 3.",
+            "B = (2x + 1 − 3)(2x + 1 + 3) = (2x − 2)(2x + 4).",
+            "On factorise encore : 2x − 2 = 2(x − 1) et 2x + 4 = 2(x + 2), donc B = 4(x − 1)(x + 2)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On donne E = (x − 3)² − (x − 3)(2x + 1). 1) Développe et réduis E. 2) Factorise E. 3) Résous l'équation E = 0. 4) Calcule E pour x = −1.",
+          "indice": "Pour factoriser, (x − 3) est un facteur commun aux deux termes.",
+          "corrige": [
+            "1) (x − 3)² = x² − 6x + 9 et (x − 3)(2x + 1) = 2x² + x − 6x − 3 = 2x² − 5x − 3.",
+            "E = x² − 6x + 9 − 2x² + 5x + 3 = −x² − x + 12.",
+            "2) E = (x − 3)[(x − 3) − (2x + 1)] = (x − 3)(x − 3 − 2x − 1) = (x − 3)(−x − 4).",
+            "3) E = 0 ⟺ x − 3 = 0 ou −x − 4 = 0 ⟺ x = 3 ou x = −4.",
+            "4) Avec la forme développée : E = −(−1)² − (−1) + 12 = −1 + 1 + 12 = 12. (Vérification avec la forme factorisée : (−4)(−3) = 12.)"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice de calcul littéral",
+        "etapes": [
+          "Recopie l'expression, puis écris chaque étape sur une nouvelle ligne (E = …).",
+          "Pour « développer et réduire » : distribue, puis regroupe x², x et les nombres.",
+          "Pour « factoriser » : facteur commun d'abord, identité remarquable ensuite.",
+          "Pour « calculer E pour x = … » : choisis la forme la plus simple (souvent la forme développée ou factorisée).",
+          "Vérifie ta factorisation en la redéveloppant au brouillon."
+        ]
+      }
+    },
+    "polynomes": {
+      "objectifs": [
+        "Reconnaître un monôme, son coefficient et son degré.",
+        "Réduire et ordonner un polynôme.",
+        "Additionner et multiplier des polynômes.",
+        "Calculer la valeur numérique d'un polynôme."
+      ],
+      "prerequis": [
+        "Les puissances : x² × x = x³.",
+        "La distributivité et les règles des signes."
+      ],
+      "a_retenir": {
+        "points": [
+          "Un monôme est un produit d'un nombre (coefficient) par une puissance de x : dans −5x³, le coefficient est −5 et le degré 3.",
+          "Deux monômes semblables (même puissance de x) s'additionnent : 3x² + x² = 4x².",
+          "Réduire = regrouper les monômes semblables ; ordonner = écrire du degré le plus grand au plus petit.",
+          "Le degré d'un polynôme réduit est le plus grand degré de ses monômes.",
+          "Le degré d'un produit de polynômes est la somme des degrés."
+        ],
+        "formules": [
+          "a·xᵐ × b·xⁿ = (a × b)·xᵐ⁺ⁿ",
+          "a·xⁿ + b·xⁿ = (a + b)·xⁿ"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Additionner des monômes non semblables : 3x² + 2x = 5x³.", "correction": "3x² et 2x ne sont pas semblables : la somme reste 3x² + 2x." },
+        { "erreur": "Multiplier les exposants : x² × x³ = x⁶.", "correction": "On additionne les exposants : x² × x³ = x⁵." },
+        { "erreur": "Oublier un terme en développant un produit de deux polynômes.", "correction": "Chaque terme du 1er facteur multiplie chaque terme du 2e : (2 termes) × (2 termes) = 4 produits." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Réduis et ordonne P(x) = 3x² − 5x + 2x³ − 7 + x². Donne son degré.",
+          "indice": "Regroupe les termes en x² ensemble.",
+          "corrige": [
+            "Termes en x³ : 2x³. Termes en x² : 3x² + x² = 4x². Termes en x : −5x. Constante : −7.",
+            "P(x) = 2x³ + 4x² − 5x − 7.",
+            "Le degré de P est 3."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On donne P(x) = 2x² − 3x + 1 et Q(x) = x − 2. Calcule P(x) + Q(x) et P(x) × Q(x).",
+          "indice": "Pour le produit, multiplie chaque terme de P par x, puis par −2.",
+          "corrige": [
+            "P(x) + Q(x) = 2x² − 3x + 1 + x − 2 = 2x² − 2x − 1.",
+            "P(x) × Q(x) = 2x³ − 4x² − 3x² + 6x + x − 2.",
+            "P(x) × Q(x) = 2x³ − 7x² + 7x − 2 (degré 3 = 2 + 1)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Soit P(x) = x² − 4x + 3. 1) Calcule P(1), P(3) et P(−2). 2) Vérifie que P(x) = (x − 1)(x − 3). 3) Résous P(x) = 0.",
+          "indice": "Remplace x par la valeur, en mettant les nombres négatifs entre parenthèses.",
+          "corrige": [
+            "1) P(1) = 1 − 4 + 3 = 0 ; P(3) = 9 − 12 + 3 = 0 ; P(−2) = (−2)² − 4 × (−2) + 3 = 4 + 8 + 3 = 15.",
+            "2) (x − 1)(x − 3) = x² − 3x − x + 3 = x² − 4x + 3 = P(x).",
+            "3) P(x) = 0 ⟺ x − 1 = 0 ou x − 3 = 0 ⟺ x = 1 ou x = 3 (ce qui confirme P(1) = P(3) = 0)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : bien présenter un calcul sur les polynômes",
+        "etapes": [
+          "Réduis et ordonne toujours ton résultat final (degré décroissant).",
+          "Mets les valeurs négatives entre parenthèses quand tu remplaces x.",
+          "Vérifie un produit en contrôlant son degré (somme des degrés)."
+        ]
+      }
+    },
+    "thales": {
+      "objectifs": [
+        "Calculer une longueur avec la propriété de Thalès.",
+        "Démontrer que deux droites sont parallèles avec la réciproque.",
+        "Démontrer que deux droites ne sont pas parallèles.",
+        "Résoudre un problème concret (ombres, hauteurs) avec Thalès."
+      ],
+      "prerequis": [
+        "Calculer avec des fractions et des produits en croix.",
+        "Reconnaître des droites parallèles et des points alignés."
+      ],
+      "a_retenir": {
+        "points": [
+          "Propriété : dans un triangle ABC, si M ∈ (AB), N ∈ (AC) et (MN) // (BC), alors AM/AB = AN/AC = MN/BC.",
+          "Réciproque : si A, M, B et A, N, C sont alignés dans le même ordre et si AM/AB = AN/AC, alors (MN) // (BC).",
+          "Si AM/AB ≠ AN/AC, alors (MN) et (BC) ne sont pas parallèles.",
+          "Les longueurs du « petit » triangle (AM, AN, MN) sont au numérateur, celles du « grand » (AB, AC, BC) au dénominateur."
+        ],
+        "formules": [
+          "AM/AB = AN/AC = MN/BC",
+          "Produit en croix : si a/b = c/d alors a × d = b × c"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser la propriété sans avoir vérifié que les droites sont parallèles.", "correction": "Écris toujours « (MN) // (BC) » dans les données avant d'appliquer la propriété." },
+        { "erreur": "Mélanger les rapports : AM/AB = AC/AN.", "correction": "Garde le même ordre partout : petit triangle en haut, grand triangle en bas." },
+        { "erreur": "Utiliser la réciproque avec seulement les rapports égaux.", "correction": "Il faut aussi préciser que les points sont alignés dans le même ordre." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans un triangle ABC, M ∈ [AB] et N ∈ [AC] avec (MN) // (BC). On donne AB = 8 cm, AM = 2 cm, AC = 12 cm et BC = 10 cm. Calcule AN et MN.",
+          "indice": "Écris les trois rapports égaux, puis utilise le produit en croix.",
+          "corrige": [
+            "(MN) // (BC), donc d'après la propriété de Thalès : AM/AB = AN/AC = MN/BC.",
+            "2/8 = AN/12 donc AN = 2 × 12 / 8 = 3 cm.",
+            "2/8 = MN/10 donc MN = 2 × 10 / 8 = 2,5 cm."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Les points A, M, B sont alignés dans cet ordre, ainsi que A, N, C. AM = 3 cm, AB = 7,5 cm, AN = 4 cm, AC = 10 cm. Les droites (MN) et (BC) sont-elles parallèles ?",
+          "indice": "Calcule séparément AM/AB et AN/AC, puis compare.",
+          "corrige": [
+            "AM/AB = 3/7,5 = 0,4 et AN/AC = 4/10 = 0,4.",
+            "Les rapports sont égaux et les points sont alignés dans le même ordre.",
+            "D'après la réciproque de la propriété de Thalès, (MN) // (BC)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pour mesurer la hauteur d'un manguier, Kofi plante verticalement un bâton de 1,5 m. Au même moment, l'ombre du bâton mesure 2 m et celle du manguier 12 m. Les rayons du soleil sont parallèles. Calcule la hauteur du manguier.",
+          "indice": "Le bâton et le manguier sont parallèles (tous deux verticaux) : on a une configuration de Thalès avec le sommet de l'ombre comme point commun.",
+          "corrige": [
+            "Le bâton et l'arbre sont verticaux donc parallèles ; les ombres sont sur la même droite (le sol).",
+            "D'après la propriété de Thalès : hauteur du bâton / hauteur de l'arbre = ombre du bâton / ombre de l'arbre.",
+            "1,5 / h = 2 / 12, donc h = 1,5 × 12 / 2 = 9.",
+            "Le manguier mesure 9 m de haut."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger un exercice de Thalès",
+        "etapes": [
+          "Cite les données : « Les points … sont alignés, (MN) // (BC) ».",
+          "Nomme la propriété : « D'après la propriété de Thalès » (ou « la réciproque »).",
+          "Écris les rapports égaux, puis remplace par les valeurs connues.",
+          "Calcule avec le produit en croix et donne le résultat avec son unité."
+        ]
+      }
+    },
+    "racines": {
+      "objectifs": [
+        "Connaître la définition de la racine carrée d'un nombre positif.",
+        "Simplifier une racine carrée (a√b avec b le plus petit possible).",
+        "Calculer des sommes et produits contenant des racines carrées.",
+        "Rendre rationnel le dénominateur d'une fraction."
+      ],
+      "prerequis": [
+        "Les carrés parfaits : 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.",
+        "Les identités remarquables."
+      ],
+      "a_retenir": {
+        "points": [
+          "Pour a ≥ 0, √a est le nombre positif dont le carré est a : (√a)² = a.",
+          "La racine carrée d'un nombre négatif n'existe pas.",
+          "Pour simplifier √72, cherche le plus grand carré parfait qui divise 72 : 72 = 36 × 2, donc √72 = 6√2.",
+          "On additionne seulement des racines identiques : 2√5 + 3√5 = 5√5, mais √2 + √3 ne se simplifie pas.",
+          "Attention : √(a + b) ≠ √a + √b (exemple : √(9 + 16) = 5 alors que √9 + √16 = 7)."
+        ],
+        "formules": [
+          "√(a × b) = √a × √b   (a ≥ 0, b ≥ 0)",
+          "√(a / b) = √a / √b   (a ≥ 0, b > 0)",
+          "√(a²) = a pour a ≥ 0",
+          "1/√a = √a / a"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire √9 + √16 = √25.", "correction": "√9 + √16 = 3 + 4 = 7. La racine d'une somme n'est pas la somme des racines." },
+        { "erreur": "Écrire 2√3 × 4√3 = 8√3.", "correction": "2√3 × 4√3 = 8 × (√3)² = 8 × 3 = 24." },
+        { "erreur": "Laisser un résultat comme √50.", "correction": "Simplifie toujours : √50 = √(25 × 2) = 5√2." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Simplifie : √50 ; √12 ; √(49/16).",
+          "indice": "Cherche un carré parfait qui divise le nombre sous la racine.",
+          "corrige": [
+            "√50 = √(25 × 2) = 5√2.",
+            "√12 = √(4 × 3) = 2√3.",
+            "√(49/16) = √49 / √16 = 7/4."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Écris A = 3√20 − √45 + 2√5 sous la forme a√5.",
+          "indice": "20 = 4 × 5 et 45 = 9 × 5.",
+          "corrige": [
+            "√20 = 2√5 donc 3√20 = 6√5 ; √45 = 3√5.",
+            "A = 6√5 − 3√5 + 2√5.",
+            "A = 5√5."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Développe B = (2√3 − 1)². 2) Calcule (√5 + 2)(√5 − 2). 3) Déduis-en que 1/(√5 − 2) = √5 + 2.",
+          "indice": "Utilise (a − b)² puis (a + b)(a − b) = a² − b².",
+          "corrige": [
+            "1) B = (2√3)² − 2 × 2√3 × 1 + 1² = 4 × 3 − 4√3 + 1 = 13 − 4√3.",
+            "2) (√5 + 2)(√5 − 2) = (√5)² − 2² = 5 − 4 = 1.",
+            "3) Comme (√5 + 2)(√5 − 2) = 1, on divise par (√5 − 2) : √5 + 2 = 1/(√5 − 2)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : réussir les calculs avec racines",
+        "etapes": [
+          "Simplifie chaque racine avant d'additionner.",
+          "Utilise les identités remarquables pour développer un carré ou un produit (√a + b)(√a − b).",
+          "Donne le résultat sous la forme demandée (a√b, fraction sans racine au dénominateur…)."
+        ]
+      }
+    },
+    "reels": {
+      "objectifs": [
+        "Situer un nombre dans les ensembles ℕ, ℤ, 𝔻, ℚ et ℝ.",
+        "Écrire un ensemble de nombres sous forme d'intervalle.",
+        "Calculer et utiliser la valeur absolue.",
+        "Encadrer un nombre réel et donner une valeur approchée."
+      ],
+      "prerequis": [
+        "Les nombres relatifs et les fractions.",
+        "Les symboles <, ≤, >, ≥."
+      ],
+      "a_retenir": {
+        "points": [
+          "ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ : entiers naturels, entiers relatifs, décimaux, rationnels (fractions), réels.",
+          "Un nombre irrationnel (√2, π…) est réel mais n'est pas une fraction.",
+          "[a ; b] : crochets tournés vers l'intérieur → bornes comprises ; ]a ; b[ → bornes exclues ; l'infini est toujours exclu.",
+          "|x| est la distance de x à 0 : |x| = x si x ≥ 0 et |x| = −x si x < 0.",
+          "|x − a| est la distance entre x et a sur la droite graduée."
+        ],
+        "formules": [
+          "x ≥ a ⟺ x ∈ [a ; +∞[",
+          "a < x ≤ b ⟺ x ∈ ]a ; b]",
+          "|x| = r (r > 0) ⟺ x = r ou x = −r"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire [2 ; +∞] avec un crochet fermé sur l'infini.", "correction": "L'infini n'est jamais atteint : [2 ; +∞[." },
+        { "erreur": "Penser que |x − 2| = 5 a une seule solution x = 7.", "correction": "x − 2 = 5 ou x − 2 = −5, donc x = 7 ou x = −3." },
+        { "erreur": "Dire que 2/3 est un décimal.", "correction": "2/3 = 0,666… n'a pas d'écriture décimale finie : il est rationnel mais pas décimal." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne le plus petit ensemble (ℕ, ℤ, 𝔻, ℚ ou ℝ) auquel appartient chaque nombre : 7 ; −3 ; 0,25 ; 2/3 ; √2 ; π.",
+          "indice": "Demande-toi : est-ce un entier ? un décimal ? une fraction ?",
+          "corrige": [
+            "7 ∈ ℕ ; −3 ∈ ℤ ; 0,25 ∈ 𝔻.",
+            "2/3 ∈ ℚ (fraction non décimale).",
+            "√2 et π sont irrationnels : ils sont dans ℝ seulement."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "1) Écris sous forme d'intervalle : x ≥ −2 ; −1 < x ≤ 3. 2) Détermine [−2 ; +∞[ ∩ ]−∞ ; 1[.",
+          "indice": "Pour l'intersection, représente les deux intervalles sur une même droite graduée.",
+          "corrige": [
+            "1) x ≥ −2 ⟺ x ∈ [−2 ; +∞[ ; −1 < x ≤ 3 ⟺ x ∈ ]−1 ; 3].",
+            "2) Les nombres communs sont ceux qui sont à la fois ≥ −2 et < 1.",
+            "[−2 ; +∞[ ∩ ]−∞ ; 1[ = [−2 ; 1[."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Résous |x − 2| = 5. 2) Sachant que 1,41 < √2 < 1,42, donne un encadrement de 3√2.",
+          "indice": "Multiplier une inégalité par un nombre positif ne change pas son sens.",
+          "corrige": [
+            "1) |x − 2| = 5 ⟺ x − 2 = 5 ou x − 2 = −5 ⟺ x = 7 ou x = −3.",
+            "2) On multiplie chaque membre par 3 (positif) : 3 × 1,41 < 3√2 < 3 × 1,42.",
+            "Donc 4,23 < 3√2 < 4,26."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : intervalles et valeur absolue",
+        "etapes": [
+          "Dessine une droite graduée au brouillon pour chaque intervalle.",
+          "Pour une valeur absolue, pense « distance » et écris les deux cas.",
+          "Vérifie le sens des crochets : bornes comprises ou exclues."
+        ]
+      }
+    },
+    "calcul-numerique": {
+      "objectifs": [
+        "Calculer avec des fractions en respectant les priorités.",
+        "Utiliser les règles de calcul sur les puissances.",
+        "Écrire un nombre en notation scientifique.",
+        "Résoudre un problème concret avec de grands nombres."
+      ],
+      "prerequis": [
+        "Les tables de multiplication et la simplification de fractions.",
+        "Les priorités opératoires (parenthèses, × et ÷, puis + et −)."
+      ],
+      "a_retenir": {
+        "points": [
+          "Priorités : d'abord les parenthèses, puis les puissances, puis × et ÷, enfin + et −.",
+          "Pour additionner des fractions, on les met au même dénominateur.",
+          "Diviser par une fraction, c'est multiplier par son inverse.",
+          "Notation scientifique : a × 10ⁿ avec 1 ≤ a < 10 (un seul chiffre non nul avant la virgule)."
+        ],
+        "formules": [
+          "aᵐ × aⁿ = aᵐ⁺ⁿ   ;   aᵐ / aⁿ = aᵐ⁻ⁿ",
+          "(aᵐ)ⁿ = aᵐˣⁿ   ;   a⁰ = 1   ;   a⁻ⁿ = 1/aⁿ",
+          "a/b + c/b = (a + c)/b   ;   (a/b) × (c/d) = (a × c)/(b × d)",
+          "(a/b) ÷ (c/d) = (a/b) × (d/c)"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer 2/3 + 5/6 × 4/5 de gauche à droite.", "correction": "La multiplication est prioritaire : on calcule d'abord 5/6 × 4/5." },
+        { "erreur": "Écrire 10² × 10³ = 10⁶.", "correction": "On additionne les exposants : 10² × 10³ = 10⁵." },
+        { "erreur": "Écrire 45 × 10³ en notation scientifique.", "correction": "45 n'est pas entre 1 et 10 : 45 × 10³ = 4,5 × 10⁴." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule et donne le résultat sous forme de fraction irréductible : A = 2/3 + 5/6 × 4/5.",
+          "indice": "Commence par la multiplication et simplifie avant de multiplier.",
+          "corrige": [
+            "5/6 × 4/5 = 20/30 = 2/3.",
+            "A = 2/3 + 2/3 = 4/3."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "1) Calcule B = (3 × 10⁵ × 4 × 10⁻²) / (6 × 10²). 2) Écris 0,000 45 en notation scientifique.",
+          "indice": "Regroupe les nombres d'un côté et les puissances de 10 de l'autre.",
+          "corrige": [
+            "1) B = (3 × 4 / 6) × (10⁵ × 10⁻² / 10²) = 2 × 10⁵⁻²⁻² = 2 × 10¹ = 20.",
+            "2) 0,000 45 = 4,5 × 10⁻⁴ (on déplace la virgule de 4 rangs vers la droite)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une citerne contient 2,4 × 10⁴ litres d'eau. On remplit des bidons de 20 L vendus 150 FCFA chacun. 1) Combien de bidons remplit-on ? 2) Quelle est la recette totale ? Donne-la aussi en notation scientifique.",
+          "indice": "Divise le volume total par le volume d'un bidon.",
+          "corrige": [
+            "1) 2,4 × 10⁴ = 24 000 L ; 24 000 ÷ 20 = 1 200 bidons.",
+            "2) Recette = 1 200 × 150 = 180 000 FCFA.",
+            "En notation scientifique : 1,8 × 10⁵ FCFA."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : réussir un calcul numérique",
+        "etapes": [
+          "Écris le calcul étape par étape, une opération à la fois.",
+          "Respecte les priorités et simplifie les fractions dès que possible.",
+          "Donne le résultat sous la forme demandée (fraction irréductible, notation scientifique, entier)."
+        ]
+      }
+    },
+    "angles-inscrits": {
+      "objectifs": [
+        "Reconnaître un angle inscrit et un angle au centre.",
+        "Utiliser la relation entre angle inscrit et angle au centre.",
+        "Utiliser l'égalité de deux angles inscrits interceptant le même arc.",
+        "Reconnaître un triangle rectangle inscrit dans un demi-cercle."
+      ],
+      "prerequis": [
+        "Somme des angles d'un triangle : 180°.",
+        "Propriétés du triangle isocèle (angles à la base égaux)."
+      ],
+      "a_retenir": {
+        "points": [
+          "Un angle inscrit a son sommet sur le cercle ; un angle au centre a son sommet au centre O.",
+          "Un angle inscrit mesure la moitié de l'angle au centre qui intercepte le même arc.",
+          "Deux angles inscrits qui interceptent le même arc ont la même mesure.",
+          "Un angle inscrit qui intercepte un demi-cercle (côté = diamètre) est droit : 90°.",
+          "OA = OB = rayon : le triangle AOB est toujours isocèle en O."
+        ],
+        "formules": [
+          "angle inscrit = angle au centre ÷ 2",
+          "angle au centre = 2 × angle inscrit"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Prendre un angle dont le sommet n'est pas sur le cercle pour un angle inscrit.", "correction": "Vérifie que le sommet est sur le cercle et que ses côtés coupent le cercle." },
+        { "erreur": "Comparer deux angles inscrits qui n'interceptent pas le même arc.", "correction": "Repère l'arc intercepté (entre les côtés de l'angle) avant d'appliquer la propriété." },
+        { "erreur": "Écrire angle au centre = angle inscrit ÷ 2.", "correction": "C'est l'inverse : l'angle au centre est le DOUBLE de l'angle inscrit." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Sur un cercle de centre O, l'angle au centre AOB mesure 110°. M est un point du grand arc AB. Calcule l'angle inscrit AMB.",
+          "indice": "AMB et AOB interceptent le même arc AB.",
+          "corrige": [
+            "AMB est un angle inscrit qui intercepte le même arc que l'angle au centre AOB.",
+            "AMB = AOB ÷ 2 = 110° ÷ 2 = 55°."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "[AB] est un diamètre d'un cercle et C un point de ce cercle (C distinct de A et B). L'angle CAB mesure 35°. Calcule ACB puis ABC.",
+          "indice": "Un angle inscrit qui intercepte un demi-cercle est droit.",
+          "corrige": [
+            "C est sur le cercle de diamètre [AB], donc le triangle ABC est rectangle en C : ACB = 90°.",
+            "Dans le triangle ABC : ABC = 180° − 90° − 35° = 55°."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "A, B, C et D sont quatre points d'un cercle de centre O ; C et D sont sur le même arc AB. On donne ACB = 40°. 1) Calcule ADB. 2) Calcule AOB. 3) Calcule OAB.",
+          "indice": "Pour la question 3, le triangle AOB est isocèle en O.",
+          "corrige": [
+            "1) ACB et ADB sont deux angles inscrits qui interceptent le même arc AB : ADB = ACB = 40°.",
+            "2) AOB est l'angle au centre qui intercepte le même arc : AOB = 2 × 40° = 80°.",
+            "3) OA = OB (rayons) donc AOB est isocèle en O et OAB = OBA.",
+            "OAB = (180° − 80°) ÷ 2 = 50°."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger avec les angles inscrits",
+        "etapes": [
+          "Repère sur la figure l'arc intercepté par chaque angle (colorie-le au crayon).",
+          "Écris la propriété utilisée en entier avant le calcul.",
+          "Pense aux triangles isocèles formés par deux rayons."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-college-mathematiques-calcul-litteral": "calcul-litteral",
+    "burkina-faso-college-mathematiques-monomes-et-polynomes": "polynomes",
+    "cote-ivoire-college-mathematiques-proprietes-de-thales-dans-": "thales",
+    "burkina-faso-college-mathematiques-theoreme-de-thales-et-rec": "thales",
+    "senegal-college-mathematiques-theoreme-de-thales": "thales",
+    "cote-ivoire-college-mathematiques-racines-carrees": "racines",
+    "burkina-faso-college-mathematiques-nombres-reels-et-racine-c": "racines",
+    "senegal-college-mathematiques-racine-carree": "racines",
+    "mali-college-mathematiques-ensemble-des-nombres-reels-r": "reels",
+    "cote-ivoire-college-mathematiques-calcul-numerique": "calcul-numerique",
+    "cote-ivoire-college-mathematiques-angles-inscrits": "angles-inscrits",
+    "burkina-faso-college-mathematiques-angles-inscrits-et-angles": "angles-inscrits",
+    "senegal-college-mathematiques-angles-inscrits-angles-au-cent": "angles-inscrits"
+  }
+}

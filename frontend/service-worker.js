@@ -1,4 +1,4 @@
-const CACHE_NAME = "aida-shell-v5";
+const CACHE_NAME = "aida-shell-v6";
 const SHELL_FILES = [
   "/",
   "/css/styles.css",
@@ -8,6 +8,12 @@ const SHELL_FILES = [
   "/js/diagram-viewer.js",
   "/js/voice-server.js",
   "/js/speech-text.js",
+  "/cours.html",
+  "/methode.html",
+  "/css/cours.css",
+  "/js/cours-engine.js",
+  "/js/cours-render.js",
+  "/js/cours-progress.js",
   "/manifest.json",
   "/vendor/katex/katex.min.css",
   "/vendor/katex/katex.min.js",
@@ -56,7 +62,14 @@ self.addEventListener("activate", (event) => {
 // (faiblesse #5 : cout des donnees en Afrique de l'Ouest). Les appels IA
 // (POST /api/ask, /api/upload-exercice, /api/report) ont besoin du reseau a
 // chaque fois et ne sont jamais mis en cache.
-const CACHEABLE_API_GET = [/^\/api\/curriculum$/];
+// Les cours (liste, lecons, fiches methode) sont du contenu fixe : une lecon
+// deja ouverte reste lisible hors-ligne (revision sans forfait internet).
+const CACHEABLE_API_GET = [
+  /^\/api\/curriculum$/,
+  /^\/api\/cours$/,
+  /^\/api\/cours\/[a-z0-9-]+$/,
+  /^\/api\/methodes(\/[a-z0-9-]+)?$/,
+];
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
@@ -73,8 +86,12 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     fetch(req)
       .then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
+        // Jamais d'erreur (404/500) en cache : elle masquerait la derniere
+        // bonne version hors-ligne.
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
+        }
         return response;
       })
       .catch(() => caches.match(req))
