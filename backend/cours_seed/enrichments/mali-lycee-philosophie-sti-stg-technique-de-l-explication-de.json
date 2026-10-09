@@ -1,0 +1,76 @@
+{
+  "_topic": "methodo-commentaire",
+  "objectifs": [
+    "Dégager le thème, le problème et la thèse d'un texte philosophique.",
+    "Repérer la structure logique (les mouvements) du texte.",
+    "Expliquer le texte de façon ordonnée.",
+    "Évaluer l'intérêt et les limites de la thèse."
+  ],
+  "prerequis": [
+    "Lecture attentive et vocabulaire des connecteurs logiques."
+  ],
+  "a_retenir": {
+    "points": [
+      "Thème : ce dont parle le texte. Problème : la question à laquelle il répond. Thèse : la réponse de l'auteur.",
+      "Les connecteurs (mais, donc, en effet, ainsi) indiquent les étapes du raisonnement.",
+      "Expliquer, ce n'est pas paraphraser : on éclaire le sens des mots et les liens logiques avec des exemples.",
+      "La discussion (intérêt philosophique) montre ce que la thèse apporte et ce qu'on peut lui opposer."
+    ],
+    "formules": [
+      "Thème → problème → thèse → mouvements",
+      "Explication = citer + expliquer + illustrer"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Paraphraser le texte.",
+      "correction": "Dis ce que l'auteur VEUT dire et pourquoi, avec tes mots et tes exemples."
+    },
+    {
+      "erreur": "Confondre thème et thèse.",
+      "correction": "Thème : « la liberté » ; thèse : « la liberté est une illusion »."
+    },
+    {
+      "erreur": "Critiquer avant d'avoir expliqué.",
+      "correction": "On explique d'abord fidèlement, on discute ensuite."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Texte (idée de Spinoza) : « Les hommes se croient libres parce qu'ils sont conscients de leurs actions et ignorants des causes qui les déterminent. » Donne le thème et la thèse.",
+      "indice": "Le thème tient en un mot.",
+      "corrige": [
+        "Thème : la liberté.",
+        "Thèse : le sentiment de liberté est une illusion qui vient de notre ignorance des causes de nos actes."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pour cette même idée, formule le problème posé et donne un exemple de la vie courante qui l'illustre.",
+      "indice": "Pense à un choix que tu crois libre mais qui a des causes.",
+      "corrige": [
+        "Problème : l'impression d'être libre prouve-t-elle que nous le sommes réellement ?",
+        "Exemple : je crois choisir librement mon plat préféré, mais ce goût vient de mon éducation, de ma culture, de mon corps."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Rédige le plan de la partie « intérêt philosophique » pour cette thèse de Spinoza.",
+      "indice": "Montre d'abord ce qu'elle a de juste, puis ses limites.",
+      "corrige": [
+        "Intérêt : la thèse nous invite à la lucidité ; connaître les causes (psychologiques, sociales) qui nous déterminent est le premier pas vers une vraie liberté.",
+        "Limite : Sartre affirme au contraire que l'homme est « condamné à être libre » : invoquer les causes peut devenir une excuse (mauvaise foi).",
+        "Position personnelle : la liberté n'est pas donnée mais se conquiert par la connaissance de soi et la réflexion."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : réussir le commentaire de texte",
+    "etapes": [
+      "Lis le texte au moins trois fois ; numérote et nomme ses mouvements.",
+      "Introduction : thème, problème, thèse, annonce des mouvements.",
+      "Étude ordonnée, puis intérêt philosophique, puis conclusion."
+    ]
+  }
+}

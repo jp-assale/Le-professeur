@@ -1,0 +1,78 @@
+{
+  "_topic": "liberte",
+  "objectifs": [
+    "Définir la liberté et distinguer ses différentes formes.",
+    "Discuter le déterminisme.",
+    "Relier liberté, loi et responsabilité."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Liberté naturelle (faire ce qu'on veut), liberté civile (garantie par la loi), liberté morale (autonomie, se donner sa propre loi).",
+      "Spinoza : les hommes se croient libres parce qu'ils ignorent les causes de leurs actions.",
+      "Sartre : l'homme est condamné à être libre ; il est responsable de ce qu'il fait.",
+      "Rousseau : obéir à la loi qu'on s'est prescrite est liberté.",
+      "Kant : être libre, c'est être autonome, agir selon la raison et non selon ses penchants."
+    ],
+    "formules": [
+      "Spinoza : la liberté comme illusion née de l'ignorance des causes",
+      "Sartre : « L'homme est condamné à être libre. »",
+      "Rousseau : « L'obéissance à la loi qu'on s'est prescrite est liberté. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Définir la liberté comme « faire tout ce qu'on veut ».",
+      "correction": "C'est la licence ; elle peut nous rendre esclaves de nos désirs."
+    },
+    {
+      "erreur": "Opposer simplement liberté et loi.",
+      "correction": "Une loi juste garantit la liberté de chacun."
+    },
+    {
+      "erreur": "Utiliser le déterminisme comme excuse.",
+      "correction": "Sartre parle de mauvaise foi : nous restons responsables."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue liberté naturelle, liberté civile et liberté morale.",
+      "indice": "Instinct, loi, raison.",
+      "corrige": [
+        "Naturelle : agir selon ses désirs sans autre limite que sa force.",
+        "Civile : agir dans le cadre des lois qui protègent chacun.",
+        "Morale : se donner à soi-même une règle raisonnable (autonomie)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La liberté est-elle une illusion ? »",
+      "indice": "Sentiment de liberté / causes cachées.",
+      "corrige": [
+        "Nous avons le sentiment de choisir ; mais éducation, société et corps nous déterminent.",
+        "Problématique : notre sentiment de liberté est-il trompeur, ou pouvons-nous réellement décider de nos actes ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La liberté est-elle une illusion ? »",
+      "indice": "Spinoza / Sartre / liberté conquise.",
+      "corrige": [
+        "I. Oui, en partie : déterminismes biologiques, sociaux, psychologiques ; Spinoza.",
+        "II. Non : la conscience permet de choisir et d'assumer ; Sartre, la responsabilité.",
+        "III. La liberté se conquiert : connaissance des causes, autonomie (Kant), lois justes (Rousseau)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur la liberté",
+    "etapes": [
+      "Distingue les sens de la liberté dès l'introduction.",
+      "Confronte déterminisme et responsabilité.",
+      "Choisis des exemples de la vie sociale et politique."
+    ]
+  }
+}

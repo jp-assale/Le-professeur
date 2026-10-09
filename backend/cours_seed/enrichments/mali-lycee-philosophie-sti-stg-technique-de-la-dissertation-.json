@@ -1,0 +1,80 @@
+{
+  "_topic": "methodo-dissertation",
+  "objectifs": [
+    "Analyser un sujet de dissertation (mots-clés, présupposés, enjeux).",
+    "Formuler une problématique.",
+    "Construire un plan dialectique argumenté et illustré.",
+    "Rédiger introduction, transitions et conclusion."
+  ],
+  "prerequis": [
+    "Les notions du programme et quelques auteurs de référence.",
+    "Savoir définir un mot avec précision."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une dissertation répond à une question par un raisonnement, pas par une récitation de cours.",
+      "Analyse du sujet : définir chaque terme, repérer la forme de la question (« peut-on », « faut-il », « est-ce que »), dégager le paradoxe.",
+      "La problématique montre pourquoi la question est difficile : deux réponses défendables s'opposent.",
+      "Plan dialectique : thèse, antithèse, dépassement ; chaque partie contient 2 ou 3 arguments (idée, explication, exemple, référence).",
+      "Introduction : amorce, sujet, problématique, annonce du plan. Conclusion : bilan et réponse claire."
+    ],
+    "formules": [
+      "Argument = idée + explication + exemple + référence (auteur)",
+      "Problématique : « D'un côté… ; de l'autre… Dès lors… ? »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Réciter tout ce que l'on sait sur la notion.",
+      "correction": "Chaque paragraphe doit répondre à la question posée."
+    },
+    {
+      "erreur": "Citer des auteurs sans expliquer leur idée.",
+      "correction": "Une citation doit être expliquée et reliée à ton argument."
+    },
+    {
+      "erreur": "Une conclusion qui ne répond pas.",
+      "correction": "Termine par une réponse nette et nuancée à la problématique."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Sujet : « Peut-on être libre en société ? » Repère et définis les mots-clés du sujet.",
+      "indice": "N'oublie pas l'expression « peut-on ».",
+      "corrige": [
+        "« Peut-on » : est-il possible ? (et est-il permis ?).",
+        "« Libre » : qui agit selon sa propre volonté, sans contrainte extérieure.",
+        "« En société » : en vivant avec d'autres, sous des règles et des lois communes."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Formule une problématique pour le sujet : « Peut-on être libre en société ? »",
+      "indice": "Cherche ce qui oppose liberté et société, puis ce qui les rapproche.",
+      "corrige": [
+        "Paradoxe : la société impose des lois qui limitent nos désirs ; pourtant, hors de la société, l'homme est livré à la violence des plus forts.",
+        "Problématique : la vie sociale, par ses lois, détruit-elle la liberté individuelle ou en est-elle au contraire la condition ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Propose un plan détaillé (deux ou trois parties, avec arguments et références) pour le sujet : « Peut-on être libre en société ? »",
+      "indice": "Thèse : la société contraint ; antithèse : elle libère ; dépassement : quelle liberté ?",
+      "corrige": [
+        "I. La société semble limiter la liberté : lois, coutumes, pression du groupe ; Rousseau : « L'homme est né libre, et partout il est dans les fers ».",
+        "II. Mais sans société, la liberté n'est qu'apparente : Hobbes décrit l'état de nature comme une « guerre de chacun contre chacun » ; la loi protège le faible contre le fort.",
+        "III. La vraie liberté est l'autonomie du citoyen : pour Rousseau, « l'obéissance à la loi qu'on s'est prescrite est liberté » ; d'où l'importance de lois justes et démocratiques.",
+        "Conclusion : on peut être libre en société, à condition que les lois soient l'expression de la volonté générale et non de la force."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : réussir la dissertation",
+    "etapes": [
+      "20 à 30 minutes d'analyse au brouillon (définitions, paradoxe, problématique, plan).",
+      "Rédige directement l'introduction et la conclusion au propre après le plan.",
+      "Sépare les parties par des transitions et soigne la langue."
+    ]
+  }
+}

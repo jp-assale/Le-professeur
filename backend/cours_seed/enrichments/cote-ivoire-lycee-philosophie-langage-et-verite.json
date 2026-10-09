@@ -1,0 +1,78 @@
+{
+  "_topic": "langage",
+  "objectifs": [
+    "Distinguer le langage humain de la communication animale.",
+    "Analyser le rapport entre langage et pensée.",
+    "Discuter le pouvoir et les limites des mots (vérité, manipulation)."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le langage humain est un système de signes arbitraires (Saussure) qui permet de produire une infinité de phrases nouvelles.",
+      "Benveniste : la danse des abeilles transmet un message mais sans dialogue ni création ; ce n'est pas un langage au sens humain.",
+      "Descartes : les animaux n'ont pas de langage véritable, signe qu'ils ne pensent pas comme l'homme.",
+      "Hegel : nous pensons dans les mots ; Bergson : les mots sont des étiquettes générales qui trahissent la singularité de nos sentiments.",
+      "Le langage peut servir la vérité (dialogue, science) ou la manipulation (propagande, rumeur)."
+    ],
+    "formules": [
+      "Saussure : le signe linguistique est arbitraire",
+      "Hegel : « C'est dans les mots que nous pensons. »",
+      "Bergson : les mots sont des « étiquettes »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que les animaux parlent comme nous.",
+      "correction": "Ils communiquent, mais sans système de signes créatif et sans dialogue."
+    },
+    {
+      "erreur": "Confondre langue et langage.",
+      "correction": "Le langage est la faculté ; une langue (bambara, wolof, français) en est une réalisation."
+    },
+    {
+      "erreur": "Affirmer que tout peut être dit sans nuance.",
+      "correction": "Pense à l'ineffable (émotion, mystique) et aux limites des mots."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue langage, langue et parole.",
+      "indice": "Faculté / système / usage individuel.",
+      "corrige": [
+        "Langage : faculté humaine de communiquer par des signes.",
+        "Langue : système de signes propre à une communauté (le wolof, le français).",
+        "Parole : usage personnel de la langue par un individu."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Les mots trahissent-ils la pensée ? »",
+      "indice": "Bergson vs Hegel.",
+      "corrige": [
+        "Nous peinons parfois à dire ce que nous ressentons ; pourtant sans mots notre pensée resterait confuse.",
+        "Problématique : le langage est-il un obstacle qui déforme la pensée, ou l'instrument même qui lui permet d'exister clairement ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Les mots trahissent-ils la pensée ? »",
+      "indice": "Étiquettes / pensée dans les mots / art et effort d'expression.",
+      "corrige": [
+        "I. Oui : les mots sont généraux et ne saisissent pas l'unique (Bergson) ; on ne trouve pas toujours ses mots.",
+        "II. Non : la pensée n'existe clairement que dans les mots (Hegel) ; l'ineffable est souvent une pensée confuse.",
+        "III. Le langage s'enrichit par l'effort : la poésie et les proverbes africains disent l'indicible ; bien parler, c'est bien penser."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur le langage",
+    "etapes": [
+      "Distingue communication animale et langage humain avec un exemple précis.",
+      "Mobilise le couple langage / pensée.",
+      "Pense aux enjeux moraux et politiques (vérité, mensonge, propagande)."
+    ]
+  }
+}

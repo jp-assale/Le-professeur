@@ -1,0 +1,79 @@
+{
+  "_topic": "philosophie",
+  "objectifs": [
+    "Définir la philosophie et son attitude propre (étonnement, doute, esprit critique).",
+    "Distinguer la philosophie du mythe, de la religion et de la science.",
+    "Présenter le débat sur la philosophie africaine.",
+    "Réfléchir à l'utilité de la philosophie."
+  ],
+  "prerequis": [
+    "Aucun : c'est le chapitre d'entrée."
+  ],
+  "a_retenir": {
+    "points": [
+      "Philosophie signifie « amour de la sagesse » ; elle naît de l'étonnement (Platon, Aristote).",
+      "Socrate pratique le dialogue et reconnaît son ignorance pour chercher la vérité.",
+      "La philosophie est une réflexion critique, rationnelle et argumentée sur les grandes questions (vérité, bien, liberté, sens de la vie).",
+      "Débat sur la philosophie africaine : Tempels (La philosophie bantoue) décrit une sagesse collective ; Paulin Hountondji critique cette « ethnophilosophie » et défend une philosophie faite de textes argumentés d'auteurs africains.",
+      "Utilité : former l'esprit critique, lutter contre les préjugés et les manipulations."
+    ],
+    "formules": [
+      "Socrate : « Tout ce que je sais, c'est que je ne sais rien. »",
+      "Kant : on n'apprend pas la philosophie, on apprend à philosopher.",
+      "Platon : l'allégorie de la caverne"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Réduire la philosophie à des opinions personnelles.",
+      "correction": "Une opinion devient philosophique quand elle est argumentée et soumise à la critique."
+    },
+    {
+      "erreur": "Dire que la philosophie est inutile parce qu'elle ne produit rien de matériel.",
+      "correction": "Son utilité est de former un jugement libre et lucide."
+    },
+    {
+      "erreur": "Résumer le débat sur la philosophie africaine en « oui ou non ».",
+      "correction": "Expose les arguments de Tempels et de Hountondji."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue philosophie, mythe et science.",
+      "indice": "Récit, démonstration, réflexion critique.",
+      "corrige": [
+        "Mythe : récit traditionnel qui explique le monde par des êtres surnaturels.",
+        "Science : connaissance démontrée et vérifiée par l'expérience.",
+        "Philosophie : réflexion rationnelle et critique sur les questions fondamentales, y compris sur les sciences et les mythes."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « À quoi sert la philosophie ? »",
+      "indice": "Utilité matérielle ou utilité pour l'esprit ?",
+      "corrige": [
+        "La philosophie ne fabrique ni outils ni richesses : elle semble inutile ; pourtant elle apprend à penser par soi-même.",
+        "Problématique : faut-il juger la philosophie selon l'utilité matérielle, ou reconnaître une autre forme d'utilité, celle de la liberté de l'esprit ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La philosophie est-elle inutile ? »",
+      "indice": "Apparence d'inutilité / utilité critique / sagesse.",
+      "corrige": [
+        "I. Elle paraît inutile : pas de résultats techniques, débats sans fin (le reproche fait à Thalès tombé dans le puits).",
+        "II. Elle est utile autrement : esprit critique contre les préjugés (allégorie de la caverne), contre les manipulations et le fanatisme.",
+        "III. Sa valeur est au-delà de l'utile : elle vise la sagesse et une vie réfléchie ; Hountondji montre aussi qu'elle aide l'Afrique à penser librement son développement."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : sujets sur la philosophie",
+    "etapes": [
+      "Définis l'attitude philosophique (étonnement, doute, argumentation).",
+      "Illustre par Socrate et l'allégorie de la caverne.",
+      "Pense au débat sur la philosophie africaine si le sujet s'y prête."
+    ]
+  }
+}

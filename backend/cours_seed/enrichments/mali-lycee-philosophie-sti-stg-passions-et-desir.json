@@ -1,0 +1,78 @@
+{
+  "_topic": "passions-desir",
+  "objectifs": [
+    "Distinguer besoin, désir et passion.",
+    "Présenter les grandes analyses philosophiques du désir.",
+    "Discuter la valeur des passions pour l'homme."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le besoin est naturel et limité ; le désir est illimité et marqué par l'imagination ; la passion est une émotion forte et durable qui domine l'esprit.",
+      "Platon (Gorgias) : l'homme qui veut satisfaire tous ses désirs ressemble à un tonneau percé.",
+      "Épicure classe les désirs : naturels et nécessaires, naturels non nécessaires, ni naturels ni nécessaires.",
+      "Spinoza : le désir est l'essence même de l'homme.",
+      "Hegel : rien de grand ne s'est accompli sans passion ; la passion peut être une énergie créatrice."
+    ],
+    "formules": [
+      "Spinoza : « Le désir est l'essence même de l'homme. »",
+      "Hegel : « Rien de grand ne s'est accompli dans le monde sans passion. »",
+      "Platon : le tonneau percé"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Condamner toutes les passions.",
+      "correction": "Une passion peut être destructrice (jalousie) ou créatrice (passion du savoir)."
+    },
+    {
+      "erreur": "Confondre besoin et désir.",
+      "correction": "J'ai besoin de manger ; je désire un plat précis, souvent pour des raisons sociales."
+    },
+    {
+      "erreur": "Oublier la maîtrise de soi.",
+      "correction": "La question centrale est souvent : faut-il supprimer ou maîtriser ses désirs ?"
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue besoin, désir et passion avec un exemple pour chacun.",
+      "indice": "Boire, vouloir un smartphone dernier cri, être obsédé par le jeu.",
+      "corrige": [
+        "Besoin : boire quand on a soif.",
+        "Désir : vouloir le dernier modèle de téléphone.",
+        "Passion : être dominé par le jeu au point d'y perdre son argent et sa raison."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Faut-il se libérer de ses désirs pour être heureux ? »",
+      "indice": "Désirs sources de souffrance, mais aussi de vie.",
+      "corrige": [
+        "Les désirs sans fin rendent malheureux ; pourtant un homme sans désir serait sans élan et sans projet.",
+        "Problématique : le bonheur exige-t-il de supprimer le désir, ou de savoir le choisir et le maîtriser ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Faut-il se libérer de ses désirs pour être heureux ? »",
+      "indice": "Platon et Épicure / Spinoza et Hegel / maîtrise.",
+      "corrige": [
+        "I. Les désirs illimités rendent malheureux : tonneau percé (Platon), frustration, dépendance.",
+        "II. Mais le désir est la vie même : Spinoza ; sans passion rien de grand (Hegel).",
+        "III. Il faut ordonner ses désirs : tri d'Épicure, maîtrise de soi, désirs orientés vers des buts dignes."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : désirs et passions",
+    "etapes": [
+      "Distingue soigneusement besoin, désir et passion.",
+      "Présente les thèses avec exactitude (Platon, Épicure, Spinoza, Hegel).",
+      "Préfère une conclusion de maîtrise plutôt que de suppression totale."
+    ]
+  }
+}

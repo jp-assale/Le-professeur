@@ -1,0 +1,78 @@
+{
+  "_topic": "societe-etat",
+  "objectifs": [
+    "Expliquer pourquoi l'homme vit en société.",
+    "Définir l'État et son rôle.",
+    "Discuter la légitimité du pouvoir politique."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Pour Aristote, l'homme est naturellement fait pour vivre en communauté politique.",
+      "Pour les théoriciens du contrat (Hobbes, Locke, Rousseau), la société politique naît d'un accord pour sortir de l'état de nature.",
+      "Hobbes : sans pouvoir commun, c'est la guerre de chacun contre chacun ; l'État (le Léviathan) garantit la sécurité.",
+      "Weber : l'État détient le monopole de la violence physique légitime.",
+      "Marx : l'État peut être un instrument de domination d'une classe sur une autre."
+    ],
+    "formules": [
+      "Aristote : « L'homme est un animal politique. »",
+      "Rousseau : le contrat social, la volonté générale",
+      "Weber : monopole de la violence physique légitime"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre État, gouvernement et nation.",
+      "correction": "L'État est l'institution durable du pouvoir ; le gouvernement l'exerce un temps ; la nation est une communauté humaine."
+    },
+    {
+      "erreur": "Présenter l'état de nature comme une période historique réelle.",
+      "correction": "C'est une hypothèse pour penser ce que serait l'homme sans lois."
+    },
+    {
+      "erreur": "Voir l'État uniquement comme oppresseur ou uniquement comme protecteur.",
+      "correction": "Montre les deux faces et la question de la légitimité."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Définis : société, État, pouvoir légitime.",
+      "indice": "Un pouvoir légitime est accepté comme juste.",
+      "corrige": [
+        "Société : groupe humain organisé par des règles communes.",
+        "État : ensemble des institutions qui exercent l'autorité politique sur un territoire et une population.",
+        "Pouvoir légitime : pouvoir reconnu comme juste et fondé en droit (par exemple par le vote), et pas seulement imposé par la force."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise le sujet : « L'État est-il un mal nécessaire ? »",
+      "indice": "Pourquoi un « mal » ? Pourquoi « nécessaire » ?",
+      "corrige": [
+        "L'État contraint (impôts, lois, police) : il apparaît comme un mal ; mais sans lui règnent l'insécurité et la loi du plus fort.",
+        "Problématique : l'État n'est-il qu'une contrainte que l'on subit faute de mieux, ou peut-il être la condition positive de la liberté et de la justice ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'État est-il un mal nécessaire ? »",
+      "indice": "Hobbes, Marx, Rousseau.",
+      "corrige": [
+        "I. L'État est nécessaire : Hobbes montre qu'il met fin à la guerre de tous contre tous ; il protège les biens et les personnes.",
+        "II. Il peut devenir un mal : abus de pouvoir, dictatures ; Marx y voit un instrument de domination de classe.",
+        "III. Un État légitime n'est pas un mal : fondé sur la volonté générale (Rousseau) et le respect des droits, il rend possible la liberté du citoyen ; d'où l'importance de la démocratie et du contrôle du pouvoir."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : sujets de philosophie politique",
+    "etapes": [
+      "Distingue soigneusement État, pouvoir, gouvernement, société.",
+      "Appuie-toi sur des exemples historiques et africains (indépendances, constitutions, élections).",
+      "Pose toujours la question de la légitimité."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_topic": "violence-democratie",
+  "objectifs": [
+    "Définir la violence, la force et le pouvoir.",
+    "Analyser le rapport entre démocratie et violence.",
+    "Discuter la légitimité de la violence et la valeur de la paix."
+  ],
+  "prerequis": [
+    "La société et l'État."
+  ],
+  "a_retenir": {
+    "points": [
+      "La violence est l'usage de la force pour contraindre, blesser ou détruire.",
+      "Hobbes : la peur de la mort violente pousse les hommes à créer l'État.",
+      "Weber : l'État moderne revendique le monopole de la violence physique légitime.",
+      "Hannah Arendt : le pouvoir vient de l'action commune et du consentement ; la violence apparaît quand le pouvoir se perd.",
+      "La démocratie remplace la violence par le débat, le vote et le droit ; la non-violence (Gandhi, Martin Luther King) montre qu'on peut lutter sans tuer."
+    ],
+    "formules": [
+      "Weber : le monopole de la violence physique légitime",
+      "Arendt : pouvoir et violence s'opposent",
+      "Churchill : la démocratie est « le pire des régimes, à l'exception de tous les autres »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre force et violence.",
+      "correction": "La force peut être légitime et encadrée par la loi ; la violence est un usage brutal et souvent illégitime."
+    },
+    {
+      "erreur": "Présenter la démocratie comme parfaite.",
+      "correction": "Tocqueville met en garde contre la « tyrannie de la majorité »."
+    },
+    {
+      "erreur": "Justifier toute violence au nom d'une cause.",
+      "correction": "Examine les conditions : légitime défense, dernier recours, proportionnalité."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue force, violence et pouvoir.",
+      "indice": "Arendt.",
+      "corrige": [
+        "Force : capacité physique d'agir ou de contraindre.",
+        "Violence : usage brutal de la force contre quelqu'un.",
+        "Pouvoir : capacité d'agir ensemble et de commander avec le consentement des gouvernés."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La démocratie peut-elle se passer de la violence ? »",
+      "indice": "Police, armée, mais aussi débat et vote.",
+      "corrige": [
+        "La démocratie repose sur le débat et le vote ; pourtant elle a besoin d'une police, d'une armée et de sanctions.",
+        "Problématique : la démocratie supprime-t-elle la violence, ou ne fait-elle que la limiter et la soumettre au droit ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La démocratie peut-elle se passer de la violence ? »",
+      "indice": "Débat / violence légitime / dérives.",
+      "corrige": [
+        "I. La démocratie s'oppose à la violence : élections, liberté d'expression et justice règlent les conflits pacifiquement.",
+        "II. Elle conserve une violence légitime : police et armée encadrées par la loi (Weber).",
+        "III. Elle est menacée par des violences internes (coups d'État, émeutes, tyrannie de la majorité) : la paix démocratique est une construction permanente (éducation civique, non-violence)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : violence, paix et démocratie",
+    "etapes": [
+      "Définis violence, force, pouvoir, légitimité.",
+      "Appuie-toi sur des exemples historiques (luttes pour l'indépendance, transitions démocratiques).",
+      "Conclus sur les conditions d'une paix durable."
+    ]
+  }
+}

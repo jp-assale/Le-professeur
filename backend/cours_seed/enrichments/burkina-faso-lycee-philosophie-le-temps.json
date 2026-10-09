@@ -1,0 +1,77 @@
+{
+  "_topic": "temps",
+  "objectifs": [
+    "Distinguer temps objectif (mesuré) et temps vécu (durée).",
+    "Analyser le rapport de l'homme au passé, au présent et à l'avenir.",
+    "Discuter l'idée que le temps nous échappe."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Saint Augustin : le temps est difficile à définir ; le passé n'est plus, l'avenir n'est pas encore, le présent ne dure pas.",
+      "Bergson distingue le temps mesuré par les horloges et la durée vécue, qui s'allonge ou se contracte selon nos états.",
+      "Héraclite : on ne se baigne jamais deux fois dans le même fleuve ; tout change.",
+      "Pascal : nous ne vivons jamais le présent, toujours tournés vers le passé ou l'avenir.",
+      "Le temps est aussi la condition du projet, de la mémoire et de l'histoire."
+    ],
+    "formules": [
+      "Saint Augustin : « Si personne ne me le demande, je le sais ; si je veux l'expliquer, je ne le sais plus. »",
+      "Bergson : la durée",
+      "Héraclite : « On ne se baigne jamais deux fois dans le même fleuve. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Parler du temps qu'il fait (météo).",
+      "correction": "Il s'agit de la durée, du devenir."
+    },
+    {
+      "erreur": "Rester dans la description sans problème.",
+      "correction": "Pose une question : le temps est-il un ennemi ou une chance ?"
+    },
+    {
+      "erreur": "Oublier le temps vécu.",
+      "correction": "L'attente d'un résultat d'examen paraît longue, une fête trop courte."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue temps objectif et temps vécu avec un exemple.",
+      "indice": "Montre et ressenti.",
+      "corrige": [
+        "Temps objectif : mesuré par la montre, identique pour tous (une heure).",
+        "Temps vécu : ressenti personnellement ; une heure d'attente semble longue, une heure de jeu paraît courte."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Le temps est-il un ennemi pour l'homme ? »",
+      "indice": "Vieillesse, mort / progrès, maturité.",
+      "corrige": [
+        "Le temps use, fait vieillir et mène à la mort ; mais il permet aussi d'apprendre, de grandir et de réaliser des projets.",
+        "Problématique : le temps n'est-il que destruction, ou est-il la condition même de toute réalisation humaine ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Le temps est-il un ennemi pour l'homme ? »",
+      "indice": "Usure / projet / sagesse du présent.",
+      "corrige": [
+        "I. Le temps semble ennemi : fuite, vieillissement, mort ; Pascal, nous ne vivons jamais le présent.",
+        "II. Il est aussi un allié : apprentissage, mémoire, histoire, projets ; la durée vécue fait la richesse de la conscience (Bergson).",
+        "III. Tout dépend de notre rapport au temps : savoir vivre le présent et préparer l'avenir (proverbe : « Le temps ne respecte pas ce qu'on fait sans lui »)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur le temps",
+    "etapes": [
+      "Distingue temps mesuré et durée vécue.",
+      "Varie les exemples (vie quotidienne, histoire, nature).",
+      "Pose clairement la question du rapport humain au temps."
+    ]
+  }
+}

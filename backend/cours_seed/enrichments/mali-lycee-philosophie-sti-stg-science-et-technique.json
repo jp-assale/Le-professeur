@@ -1,0 +1,77 @@
+{
+  "_topic": "technique",
+  "objectifs": [
+    "Définir la technique et la distinguer de la science.",
+    "Analyser le rapport de l'homme à la nature par la technique.",
+    "Discuter les dangers de la technique et la responsabilité humaine."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La technique est l'ensemble des procédés et outils par lesquels l'homme transforme la nature pour satisfaire ses besoins.",
+      "Bergson définit l'homme comme homo faber, l'être qui fabrique des outils.",
+      "Descartes espérait que la science et la technique nous rendraient « comme maîtres et possesseurs de la nature ».",
+      "La technique peut libérer (santé, travail moins pénible) mais aussi asservir ou détruire (pollution, armes, dépendance).",
+      "Hans Jonas : le « principe responsabilité » oblige à penser les effets de nos techniques sur les générations futures."
+    ],
+    "formules": [
+      "Bergson : homo faber",
+      "Descartes : « nous rendre comme maîtres et possesseurs de la nature »",
+      "Jonas : le principe responsabilité"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre technique et technologie moderne uniquement.",
+      "correction": "La houe, la pirogue et le métier à tisser sont aussi des techniques."
+    },
+    {
+      "erreur": "Juger la technique bonne ou mauvaise en soi.",
+      "correction": "Tout dépend de l'usage que l'homme en fait : c'est une question morale et politique."
+    },
+    {
+      "erreur": "Oublier les enjeux écologiques.",
+      "correction": "Déforestation, désertification, déchets plastiques : exemples concrets."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue science et technique avec un exemple.",
+      "indice": "Connaître / produire.",
+      "corrige": [
+        "Science : connaître les lois de la nature (par exemple l'électricité).",
+        "Technique : produire et transformer (fabriquer un panneau solaire, une pompe)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La technique libère-t-elle l'homme ? »",
+      "indice": "Libère de quoi ? Asservit à quoi ?",
+      "corrige": [
+        "La technique libère des contraintes naturelles (fatigue, maladies, distances) ; mais elle crée de nouvelles dépendances et menaces.",
+        "Problématique : la technique est-elle un instrument d'émancipation, ou une puissance qui finit par dominer l'homme ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La technique libère-t-elle l'homme ? »",
+      "indice": "Libération / aliénation / responsabilité.",
+      "corrige": [
+        "I. Oui : elle libère des contraintes naturelles (moulins à mil, forages, vaccins) ; Descartes : maîtrise de la nature.",
+        "II. Mais elle peut asservir : dépendance au téléphone, chômage, armes, pollution ; la nature maîtrisée est aussi menacée.",
+        "III. La liberté dépend de l'usage : choix politiques et éthiques, principe responsabilité (Jonas), techniques adaptées aux besoins réels."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur la technique",
+    "etapes": [
+      "Définis la technique au sens large (pas seulement les machines modernes).",
+      "Équilibre avantages et dangers avec des exemples africains concrets.",
+      "Conclus sur la responsabilité humaine."
+    ]
+  }
+}

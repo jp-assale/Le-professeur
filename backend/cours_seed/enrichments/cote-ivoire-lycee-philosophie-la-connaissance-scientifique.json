@@ -1,0 +1,78 @@
+{
+  "_topic": "science",
+  "objectifs": [
+    "Décrire la démarche scientifique (observation, hypothèse, expérimentation).",
+    "Expliquer le rôle de la théorie et de l'expérience.",
+    "Présenter les critères de scientificité (Popper) et les limites de la science."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La science cherche des lois générales vérifiables ; elle se distingue de l'opinion et du sens commun.",
+      "Claude Bernard : méthode expérimentale en trois temps (observation, hypothèse, expérimentation).",
+      "Bachelard : la connaissance scientifique se construit contre des obstacles (préjugés, première impression).",
+      "Popper : une théorie est scientifique si elle est réfutable par l'expérience ; aucune théorie n'est définitivement prouvée.",
+      "Mathématiques et logique : sciences formelles qui démontrent sans recourir à l'expérience."
+    ],
+    "formules": [
+      "Claude Bernard : observation → hypothèse → expérimentation",
+      "Popper : le critère de réfutabilité (falsifiabilité)",
+      "Bachelard : « Rien ne va de soi. Rien n'est donné. Tout est construit. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que la science prouve tout définitivement.",
+      "correction": "Les théories sont révisables (Newton complété par Einstein)."
+    },
+    {
+      "erreur": "Opposer science et philosophie.",
+      "correction": "La philosophie réfléchit sur les méthodes et les limites de la science (épistémologie)."
+    },
+    {
+      "erreur": "Confondre science et technique.",
+      "correction": "La science vise à connaître ; la technique à produire et transformer."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne les étapes de la méthode expérimentale avec un exemple simple.",
+      "indice": "Exemple : des plants de mil qui jaunissent.",
+      "corrige": [
+        "Observation : les plants de mil jaunissent dans une partie du champ.",
+        "Hypothèse : le sol de cette partie manque d'azote.",
+        "Expérimentation : on ajoute de l'engrais azoté à quelques plants (et on garde des témoins) ; s'ils reverdissent, l'hypothèse est confirmée."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « L'expérience suffit-elle à fonder la connaissance scientifique ? »",
+      "indice": "Rôle de la théorie, des hypothèses, des mathématiques.",
+      "corrige": [
+        "La science s'appuie sur des faits ; mais les faits ne parlent pas seuls : il faut une hypothèse pour savoir quoi observer.",
+        "Problématique : la connaissance scientifique vient-elle de l'expérience, ou d'une construction de la raison que l'expérience vient tester ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'expérience suffit-elle à fonder la connaissance scientifique ? »",
+      "indice": "Empirisme / rôle de la théorie / réfutabilité.",
+      "corrige": [
+        "I. L'expérience est indispensable : la science part de l'observation (Bacon) et doit être vérifiée (Claude Bernard).",
+        "II. Mais elle ne suffit pas : sans hypothèse, pas d'expérience utile ; le fait scientifique est construit (Bachelard) ; les mathématiques démontrent sans expérience.",
+        "III. Théorie et expérience coopèrent : la théorie propose, l'expérience teste et peut réfuter (Popper)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets d'épistémologie",
+    "etapes": [
+      "Appuie-toi sur un exemple scientifique précis et correct.",
+      "Distingue sciences expérimentales et sciences formelles.",
+      "Termine sur les limites et la responsabilité de la science."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_topic": "conscience-inconscient",
+  "objectifs": [
+    "Définir la conscience (spontanée, réfléchie, morale).",
+    "Expliquer l'hypothèse freudienne de l'inconscient.",
+    "Discuter la portée de cette hypothèse pour la liberté et la responsabilité."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La conscience est la connaissance que l'esprit a de lui-même et du monde ; la conscience morale juge le bien et le mal.",
+      "Pour Descartes, la conscience de penser est la première certitude.",
+      "Freud : une partie de notre vie psychique nous échappe (rêves, lapsus, actes manqués) ; le psychisme comprend le ça, le moi et le surmoi.",
+      "L'inconscient limite la transparence du sujet à lui-même, mais la psychanalyse cherche à en prendre conscience.",
+      "Sartre refuse l'excuse de l'inconscient : la « mauvaise foi » consiste à se mentir pour fuir sa responsabilité."
+    ],
+    "formules": [
+      "Descartes : « Je pense, donc je suis. »",
+      "Freud : « Le moi n'est pas maître dans sa propre maison. »",
+      "Sartre : la mauvaise foi"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre l'inconscient freudien avec le simple fait d'être évanoui.",
+      "correction": "L'inconscient désigne des désirs refoulés qui agissent sur nous sans que nous le sachions."
+    },
+    {
+      "erreur": "Conclure que l'inconscient supprime toute responsabilité.",
+      "correction": "Nuance : il limite la maîtrise de soi, mais l'homme reste responsable de ses actes."
+    },
+    {
+      "erreur": "Citer Descartes sans expliquer le doute méthodique.",
+      "correction": "Explique que le « je pense » résiste à tous les doutes."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue conscience spontanée, conscience réfléchie et conscience morale avec un exemple pour chacune.",
+      "indice": "Pense à « je vois », « je sais que je vois », « je sais que c'est mal ».",
+      "corrige": [
+        "Spontanée : je vois l'arbre devant moi.",
+        "Réfléchie : je me rends compte que je suis en train de regarder l'arbre.",
+        "Morale : je sens qu'il serait mal de couper cet arbre du voisin sans permission."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Analyse le sujet : « Sommes-nous toujours conscients de ce que nous faisons ? » et formule une problématique.",
+      "indice": "Lapsus, habitudes, actes manqués…",
+      "corrige": [
+        "Nous avons l'impression de savoir ce que nous faisons ; pourtant habitudes, lapsus et rêves montrent que beaucoup de choses nous échappent.",
+        "Problématique : l'homme est-il transparent à lui-même, ou une part de ses actes s'explique-t-elle par des causes qu'il ignore ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'hypothèse de l'inconscient supprime-t-elle la responsabilité ? »",
+      "indice": "Freud, puis Sartre, puis une position nuancée.",
+      "corrige": [
+        "I. L'inconscient semble réduire la responsabilité : Freud montre que des désirs refoulés guident nos actes (« le moi n'est pas maître dans sa propre maison »).",
+        "II. Mais l'homme reste responsable : Sartre dénonce la mauvaise foi ; la justice distingue d'ailleurs l'irresponsabilité pénale (folie) des cas ordinaires.",
+        "III. Connaître son inconscient permet d'élargir sa liberté : la psychanalyse vise à rendre conscient ce qui était caché ; la responsabilité devient une tâche."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : sujets sur la conscience",
+    "etapes": [
+      "Définis précisément le type de conscience dont parle le sujet.",
+      "Utilise des exemples concrets (lapsus, rêve, habitude, remords).",
+      "Relie toujours conscience, liberté et responsabilité."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_topic": "religion",
+  "objectifs": [
+    "Définir la religion, la foi et la raison.",
+    "Présenter des explications philosophiques du fait religieux.",
+    "Discuter les rapports entre raison et croyance."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La religion est un ensemble de croyances et de pratiques qui relient l'homme au sacré et unissent une communauté.",
+      "La foi est une adhésion qui ne repose pas sur une démonstration ; la raison exige des preuves.",
+      "Pascal : le cœur (l'intuition) atteint des vérités que la raison ne démontre pas.",
+      "Durkheim : la religion est un fait social qui renforce l'unité du groupe.",
+      "Marx et Freud critiquent la religion (consolation illusoire) ; Kant limite le savoir pour laisser place à la croyance."
+    ],
+    "formules": [
+      "Pascal : « Le cœur a ses raisons que la raison ne connaît point. »",
+      "Marx : la religion est « l'opium du peuple ».",
+      "Kant : « J'ai dû abolir le savoir afin d'obtenir de la place pour la croyance. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Faire une copie de prédication ou de rejet personnel.",
+      "correction": "La philosophie examine les arguments, elle ne prêche pas."
+    },
+    {
+      "erreur": "Confondre foi et superstition.",
+      "correction": "La superstition attribue des pouvoirs magiques sans cohérence ; la foi peut être réfléchie."
+    },
+    {
+      "erreur": "Citer Marx sans le contexte de la souffrance sociale.",
+      "correction": "Pour Marx, la religion console d'une misère réelle qu'il faut transformer."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue savoir, croyance et foi.",
+      "indice": "Peut-on prouver ? Est-ce un engagement ?",
+      "corrige": [
+        "Savoir : connaissance justifiée par des preuves.",
+        "Croyance : adhésion sans preuve suffisante.",
+        "Foi : croyance religieuse vécue comme un engagement et une confiance totale."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La raison peut-elle s'opposer à la foi ? »",
+      "indice": "Domaines différents ou conflit ?",
+      "corrige": [
+        "La raison exige des preuves, la foi les dépasse : elles semblent s'exclure ; pourtant de nombreux croyants réfléchissent leur foi.",
+        "Problématique : raison et foi sont-elles rivales sur le même terrain, ou répondent-elles à des besoins humains différents ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La raison peut-elle s'opposer à la foi ? »",
+      "indice": "Critique rationnelle / limites de la raison / complémentarité.",
+      "corrige": [
+        "I. La raison critique la foi : exigence de preuves, critiques de Marx et Freud (illusion, consolation).",
+        "II. Mais la raison a des limites : Kant montre qu'elle ne peut ni prouver ni réfuter l'existence de Dieu ; Pascal : le cœur a ses raisons.",
+        "III. Foi et raison peuvent coopérer : une foi réfléchie refuse le fanatisme ; la raison protège contre l'intolérance et la superstition."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur la religion",
+    "etapes": [
+      "Reste neutre et argumenté : expose les thèses, ne prêche pas.",
+      "Distingue religion, foi, croyance, superstition.",
+      "Utilise des exemples respectueux (religions traditionnelles africaines, islam, christianisme)."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_topic": "droit-justice",
+  "objectifs": [
+    "Distinguer le droit, la justice et la force.",
+    "Distinguer droit naturel et droit positif.",
+    "Discuter la question de la loi injuste."
+  ],
+  "prerequis": [
+    "La société et l'État."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le droit positif est l'ensemble des lois en vigueur dans un pays ; le droit naturel désigne des droits que tout homme possède en tant qu'homme.",
+      "Rousseau : « la force ne fait pas droit » ; obéir par force n'est pas un devoir.",
+      "Pascal : faute de pouvoir rendre la justice forte, on a rendu juste ce qui est fort.",
+      "Aristote distingue la justice commutative (échanges égaux) et la justice distributive (selon le mérite ou les besoins).",
+      "Antigone désobéit à la loi du roi au nom d'une loi plus haute : la question de la désobéissance à une loi injuste."
+    ],
+    "formules": [
+      "Rousseau : « La force ne fait pas droit. »",
+      "Pascal : « Ne pouvant faire que ce qui est juste fût fort, on a fait que ce qui est fort fût juste. »",
+      "Aristote : justice commutative / distributive"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Croire que tout ce qui est légal est juste.",
+      "correction": "L'esclavage ou l'apartheid ont été légaux et pourtant injustes."
+    },
+    {
+      "erreur": "Confondre égalité et équité.",
+      "correction": "L'équité adapte la règle aux situations particulières pour être plus juste."
+    },
+    {
+      "erreur": "Défendre la désobéissance sans condition.",
+      "correction": "Distingue la désobéissance civile (publique, non violente) de l'intérêt personnel."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue légal et légitime avec un exemple.",
+      "indice": "Conforme à la loi / conforme à la justice.",
+      "corrige": [
+        "Légal : conforme aux lois en vigueur.",
+        "Légitime : conforme à ce qui est juste. Exemple : la ségrégation raciale était légale aux États-Unis mais illégitime."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Doit-on toujours obéir aux lois ? »",
+      "indice": "Ordre social / loi injuste.",
+      "corrige": [
+        "Les lois garantissent l'ordre et la sécurité : désobéir menace la société ; mais certaines lois sont injustes.",
+        "Problématique : l'obéissance aux lois est-elle un devoir absolu, ou la conscience peut-elle exiger de désobéir à une loi injuste ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Doit-on toujours obéir aux lois ? »",
+      "indice": "Socrate / Antigone / désobéissance civile.",
+      "corrige": [
+        "I. Oui : sans respect des lois, la société retombe dans la loi du plus fort ; Socrate refuse de s'évader pour ne pas détruire les lois.",
+        "II. Non : une loi injuste n'oblige pas en conscience (Antigone, lutte contre l'apartheid, Rosa Parks).",
+        "III. Désobéir doit rester exceptionnel et responsable : désobéissance civile publique et non violente, pour améliorer les lois, pas pour son intérêt."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : droit et justice",
+    "etapes": [
+      "Définis droit, justice, loi, légalité, légitimité.",
+      "Choisis des exemples historiques précis (apartheid, droits de l'homme, indépendances).",
+      "Pense à la nuance entre justice et vengeance."
+    ]
+  }
+}

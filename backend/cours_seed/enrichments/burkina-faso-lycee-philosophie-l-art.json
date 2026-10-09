@@ -1,0 +1,77 @@
+{
+  "_topic": "art",
+  "objectifs": [
+    "Distinguer l'art, l'artisanat et la technique.",
+    "Analyser le jugement de goût et la notion de beau.",
+    "Réfléchir aux fonctions de l'art, notamment en Afrique."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'œuvre d'art est une création unique, l'objet artisanal vise d'abord l'utilité.",
+      "Platon se méfie de l'art, imitation d'une imitation, éloignée du vrai.",
+      "Kant : le beau plaît universellement sans concept ; le jugement de goût prétend à l'accord de tous.",
+      "Hegel : le beau artistique est supérieur au beau naturel car il est né de l'esprit.",
+      "En Afrique, de nombreuses œuvres (masques, statues, chants, danses) ont une fonction religieuse et sociale ; elles ont aussi influencé l'art moderne européen (cubisme)."
+    ],
+    "formules": [
+      "Kant : « Est beau ce qui plaît universellement sans concept. »",
+      "Platon : l'art comme imitation (mimèsis)",
+      "Hegel : le beau artistique, né de l'esprit"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire « des goûts et des couleurs on ne discute pas » et s'arrêter là.",
+      "correction": "Kant montre que le jugement de beauté prétend à l'universalité : on en discute."
+    },
+    {
+      "erreur": "Réduire l'art africain à de l'artisanat.",
+      "correction": "Il possède une dimension esthétique, symbolique et spirituelle."
+    },
+    {
+      "erreur": "Confondre beau et agréable.",
+      "correction": "L'agréable est personnel (j'aime le sucré) ; le beau prétend valoir pour tous."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue artiste et artisan.",
+      "indice": "Création unique / production utile selon des règles.",
+      "corrige": [
+        "Artisan : produit des objets utiles selon un savoir-faire et des modèles connus.",
+        "Artiste : crée une œuvre originale qui vaut pour elle-même et exprime une vision."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « L'art a-t-il une utilité ? »",
+      "indice": "Œuvre gratuite / fonctions sociales.",
+      "corrige": [
+        "L'œuvre d'art ne sert à rien de matériel ; pourtant les sociétés lui ont toujours donné des fonctions (religieuses, éducatives, politiques).",
+        "Problématique : l'art vaut-il par sa gratuité, ou est-il indispensable à la vie humaine ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'art a-t-il une utilité ? »",
+      "indice": "Gratuité / fonctions / utilité spirituelle.",
+      "corrige": [
+        "I. L'art semble inutile : il ne satisfait aucun besoin vital ; Kant parle d'une satisfaction désintéressée.",
+        "II. Il a des fonctions : religieuses et sociales (masques, griots), politiques (chants de lutte), éducatives.",
+        "III. Son utilité est spirituelle : il éveille la sensibilité, fait voir le monde autrement et unit les hommes autour du beau."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur l'art",
+    "etapes": [
+      "Définis art, beau, goût.",
+      "Utilise des exemples précis d'œuvres (africaines et universelles).",
+      "Montre plusieurs fonctions de l'art."
+    ]
+  }
+}

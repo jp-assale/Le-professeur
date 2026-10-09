@@ -1,0 +1,77 @@
+{
+  "_topic": "nature-culture",
+  "objectifs": [
+    "Distinguer ce qui relève de la nature et ce qui relève de la culture chez l'homme.",
+    "Expliquer le rôle de l'éducation.",
+    "Discuter la diversité des cultures et le relativisme."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La nature : ce qui est inné, universel, donné ; la culture : ce qui est acquis, transmis, variable selon les sociétés.",
+      "Les « enfants sauvages » (comme Victor de l'Aveyron) montrent que sans éducation l'homme ne développe ni langage ni comportements humains.",
+      "Rousseau : l'homme se distingue par sa perfectibilité, sa capacité à se transformer.",
+      "Lévi-Strauss : la prohibition de l'inceste, règle universelle, marque le passage de la nature à la culture.",
+      "Il n'y a pas de culture supérieure par nature : le respect des cultures n'empêche pas de défendre des valeurs universelles (dignité humaine)."
+    ],
+    "formules": [
+      "Kant : « L'homme ne peut devenir homme que par l'éducation. »",
+      "Lévi-Strauss : la prohibition de l'inceste, règle universelle",
+      "Rousseau : la perfectibilité"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Opposer totalement nature et culture.",
+      "correction": "La culture transforme des besoins naturels (manger → cuisine, repas, interdits alimentaires)."
+    },
+    {
+      "erreur": "Juger une culture « primitive ».",
+      "correction": "C'est de l'ethnocentrisme ; chaque culture répond à sa manière aux mêmes besoins humains."
+    },
+    {
+      "erreur": "Confondre culture (au sens philosophique) et culture générale.",
+      "correction": "Ici, culture = tout ce que l'homme ajoute à la nature et transmet."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe en « nature » ou « culture » : avoir faim, manger avec la main droite, parler le mooré, dormir, saluer les aînés.",
+      "indice": "Universel et inné, ou appris et variable ?",
+      "corrige": [
+        "Nature : avoir faim, dormir.",
+        "Culture : manger avec la main droite, parler le mooré, saluer les aînés."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « L'homme est-il un être naturel ? »",
+      "indice": "Il a un corps, mais…",
+      "corrige": [
+        "L'homme est un vivant soumis aux lois de la nature ; mais tout en lui semble transformé par la culture (langage, techniques, règles).",
+        "Problématique : l'humanité de l'homme vient-elle de sa nature ou de ce qu'il apprend et construit ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'homme est-il un être naturel ? »",
+      "indice": "Corps et besoins / éducation / perfectibilité.",
+      "corrige": [
+        "I. Oui, l'homme appartient à la nature : besoins biologiques, naissance, mort, instincts.",
+        "II. Mais il ne devient humain que par la culture : enfants sauvages, Kant (l'éducation), Lévi-Strauss (la règle).",
+        "III. La nature de l'homme est d'être culturel : sa perfectibilité (Rousseau) lui permet de se construire ; nature et culture sont mêlées en lui."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : nature et culture",
+    "etapes": [
+      "Définis nature et culture dès l'introduction.",
+      "Utilise des exemples précis tirés de la vie africaine (langues, rites, cuisine, initiations).",
+      "Évite l'ethnocentrisme dans ta copie."
+    ]
+  }
+}

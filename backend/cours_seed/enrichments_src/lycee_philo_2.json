@@ -1,0 +1,609 @@
+{
+  "_doc": "Complements pedagogiques - Philosophie (Terminale), lot 2 : technique, violence et democratie, passions et desir, droit et justice, existence et mort, liberte, temps, autrui et personne, art.",
+  "topics": {
+    "technique": {
+      "objectifs": [
+        "Définir la technique et la distinguer de la science.",
+        "Analyser le rapport de l'homme à la nature par la technique.",
+        "Discuter les dangers de la technique et la responsabilité humaine."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La technique est l'ensemble des procédés et outils par lesquels l'homme transforme la nature pour satisfaire ses besoins.",
+          "Bergson définit l'homme comme homo faber, l'être qui fabrique des outils.",
+          "Descartes espérait que la science et la technique nous rendraient « comme maîtres et possesseurs de la nature ».",
+          "La technique peut libérer (santé, travail moins pénible) mais aussi asservir ou détruire (pollution, armes, dépendance).",
+          "Hans Jonas : le « principe responsabilité » oblige à penser les effets de nos techniques sur les générations futures."
+        ],
+        "formules": [
+          "Bergson : homo faber",
+          "Descartes : « nous rendre comme maîtres et possesseurs de la nature »",
+          "Jonas : le principe responsabilité"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre technique et technologie moderne uniquement.", "correction": "La houe, la pirogue et le métier à tisser sont aussi des techniques." },
+        { "erreur": "Juger la technique bonne ou mauvaise en soi.", "correction": "Tout dépend de l'usage que l'homme en fait : c'est une question morale et politique." },
+        { "erreur": "Oublier les enjeux écologiques.", "correction": "Déforestation, désertification, déchets plastiques : exemples concrets." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue science et technique avec un exemple.",
+          "indice": "Connaître / produire.",
+          "corrige": [
+            "Science : connaître les lois de la nature (par exemple l'électricité).",
+            "Technique : produire et transformer (fabriquer un panneau solaire, une pompe)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La technique libère-t-elle l'homme ? »",
+          "indice": "Libère de quoi ? Asservit à quoi ?",
+          "corrige": [
+            "La technique libère des contraintes naturelles (fatigue, maladies, distances) ; mais elle crée de nouvelles dépendances et menaces.",
+            "Problématique : la technique est-elle un instrument d'émancipation, ou une puissance qui finit par dominer l'homme ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La technique libère-t-elle l'homme ? »",
+          "indice": "Libération / aliénation / responsabilité.",
+          "corrige": [
+            "I. Oui : elle libère des contraintes naturelles (moulins à mil, forages, vaccins) ; Descartes : maîtrise de la nature.",
+            "II. Mais elle peut asservir : dépendance au téléphone, chômage, armes, pollution ; la nature maîtrisée est aussi menacée.",
+            "III. La liberté dépend de l'usage : choix politiques et éthiques, principe responsabilité (Jonas), techniques adaptées aux besoins réels."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur la technique",
+        "etapes": [
+          "Définis la technique au sens large (pas seulement les machines modernes).",
+          "Équilibre avantages et dangers avec des exemples africains concrets.",
+          "Conclus sur la responsabilité humaine."
+        ]
+      }
+    },
+    "violence-democratie": {
+      "objectifs": [
+        "Définir la violence, la force et le pouvoir.",
+        "Analyser le rapport entre démocratie et violence.",
+        "Discuter la légitimité de la violence et la valeur de la paix."
+      ],
+      "prerequis": ["La société et l'État."],
+      "a_retenir": {
+        "points": [
+          "La violence est l'usage de la force pour contraindre, blesser ou détruire.",
+          "Hobbes : la peur de la mort violente pousse les hommes à créer l'État.",
+          "Weber : l'État moderne revendique le monopole de la violence physique légitime.",
+          "Hannah Arendt : le pouvoir vient de l'action commune et du consentement ; la violence apparaît quand le pouvoir se perd.",
+          "La démocratie remplace la violence par le débat, le vote et le droit ; la non-violence (Gandhi, Martin Luther King) montre qu'on peut lutter sans tuer."
+        ],
+        "formules": [
+          "Weber : le monopole de la violence physique légitime",
+          "Arendt : pouvoir et violence s'opposent",
+          "Churchill : la démocratie est « le pire des régimes, à l'exception de tous les autres »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre force et violence.", "correction": "La force peut être légitime et encadrée par la loi ; la violence est un usage brutal et souvent illégitime." },
+        { "erreur": "Présenter la démocratie comme parfaite.", "correction": "Tocqueville met en garde contre la « tyrannie de la majorité »." },
+        { "erreur": "Justifier toute violence au nom d'une cause.", "correction": "Examine les conditions : légitime défense, dernier recours, proportionnalité." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue force, violence et pouvoir.",
+          "indice": "Arendt.",
+          "corrige": [
+            "Force : capacité physique d'agir ou de contraindre.",
+            "Violence : usage brutal de la force contre quelqu'un.",
+            "Pouvoir : capacité d'agir ensemble et de commander avec le consentement des gouvernés."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La démocratie peut-elle se passer de la violence ? »",
+          "indice": "Police, armée, mais aussi débat et vote.",
+          "corrige": [
+            "La démocratie repose sur le débat et le vote ; pourtant elle a besoin d'une police, d'une armée et de sanctions.",
+            "Problématique : la démocratie supprime-t-elle la violence, ou ne fait-elle que la limiter et la soumettre au droit ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La démocratie peut-elle se passer de la violence ? »",
+          "indice": "Débat / violence légitime / dérives.",
+          "corrige": [
+            "I. La démocratie s'oppose à la violence : élections, liberté d'expression et justice règlent les conflits pacifiquement.",
+            "II. Elle conserve une violence légitime : police et armée encadrées par la loi (Weber).",
+            "III. Elle est menacée par des violences internes (coups d'État, émeutes, tyrannie de la majorité) : la paix démocratique est une construction permanente (éducation civique, non-violence)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : violence, paix et démocratie",
+        "etapes": [
+          "Définis violence, force, pouvoir, légitimité.",
+          "Appuie-toi sur des exemples historiques (luttes pour l'indépendance, transitions démocratiques).",
+          "Conclus sur les conditions d'une paix durable."
+        ]
+      }
+    },
+    "passions-desir": {
+      "objectifs": [
+        "Distinguer besoin, désir et passion.",
+        "Présenter les grandes analyses philosophiques du désir.",
+        "Discuter la valeur des passions pour l'homme."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Le besoin est naturel et limité ; le désir est illimité et marqué par l'imagination ; la passion est une émotion forte et durable qui domine l'esprit.",
+          "Platon (Gorgias) : l'homme qui veut satisfaire tous ses désirs ressemble à un tonneau percé.",
+          "Épicure classe les désirs : naturels et nécessaires, naturels non nécessaires, ni naturels ni nécessaires.",
+          "Spinoza : le désir est l'essence même de l'homme.",
+          "Hegel : rien de grand ne s'est accompli sans passion ; la passion peut être une énergie créatrice."
+        ],
+        "formules": [
+          "Spinoza : « Le désir est l'essence même de l'homme. »",
+          "Hegel : « Rien de grand ne s'est accompli dans le monde sans passion. »",
+          "Platon : le tonneau percé"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Condamner toutes les passions.", "correction": "Une passion peut être destructrice (jalousie) ou créatrice (passion du savoir)." },
+        { "erreur": "Confondre besoin et désir.", "correction": "J'ai besoin de manger ; je désire un plat précis, souvent pour des raisons sociales." },
+        { "erreur": "Oublier la maîtrise de soi.", "correction": "La question centrale est souvent : faut-il supprimer ou maîtriser ses désirs ?" }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue besoin, désir et passion avec un exemple pour chacun.",
+          "indice": "Boire, vouloir un smartphone dernier cri, être obsédé par le jeu.",
+          "corrige": [
+            "Besoin : boire quand on a soif.",
+            "Désir : vouloir le dernier modèle de téléphone.",
+            "Passion : être dominé par le jeu au point d'y perdre son argent et sa raison."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Faut-il se libérer de ses désirs pour être heureux ? »",
+          "indice": "Désirs sources de souffrance, mais aussi de vie.",
+          "corrige": [
+            "Les désirs sans fin rendent malheureux ; pourtant un homme sans désir serait sans élan et sans projet.",
+            "Problématique : le bonheur exige-t-il de supprimer le désir, ou de savoir le choisir et le maîtriser ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Faut-il se libérer de ses désirs pour être heureux ? »",
+          "indice": "Platon et Épicure / Spinoza et Hegel / maîtrise.",
+          "corrige": [
+            "I. Les désirs illimités rendent malheureux : tonneau percé (Platon), frustration, dépendance.",
+            "II. Mais le désir est la vie même : Spinoza ; sans passion rien de grand (Hegel).",
+            "III. Il faut ordonner ses désirs : tri d'Épicure, maîtrise de soi, désirs orientés vers des buts dignes."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : désirs et passions",
+        "etapes": [
+          "Distingue soigneusement besoin, désir et passion.",
+          "Présente les thèses avec exactitude (Platon, Épicure, Spinoza, Hegel).",
+          "Préfère une conclusion de maîtrise plutôt que de suppression totale."
+        ]
+      }
+    },
+    "droit-justice": {
+      "objectifs": [
+        "Distinguer le droit, la justice et la force.",
+        "Distinguer droit naturel et droit positif.",
+        "Discuter la question de la loi injuste."
+      ],
+      "prerequis": ["La société et l'État."],
+      "a_retenir": {
+        "points": [
+          "Le droit positif est l'ensemble des lois en vigueur dans un pays ; le droit naturel désigne des droits que tout homme possède en tant qu'homme.",
+          "Rousseau : « la force ne fait pas droit » ; obéir par force n'est pas un devoir.",
+          "Pascal : faute de pouvoir rendre la justice forte, on a rendu juste ce qui est fort.",
+          "Aristote distingue la justice commutative (échanges égaux) et la justice distributive (selon le mérite ou les besoins).",
+          "Antigone désobéit à la loi du roi au nom d'une loi plus haute : la question de la désobéissance à une loi injuste."
+        ],
+        "formules": [
+          "Rousseau : « La force ne fait pas droit. »",
+          "Pascal : « Ne pouvant faire que ce qui est juste fût fort, on a fait que ce qui est fort fût juste. »",
+          "Aristote : justice commutative / distributive"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Croire que tout ce qui est légal est juste.", "correction": "L'esclavage ou l'apartheid ont été légaux et pourtant injustes." },
+        { "erreur": "Confondre égalité et équité.", "correction": "L'équité adapte la règle aux situations particulières pour être plus juste." },
+        { "erreur": "Défendre la désobéissance sans condition.", "correction": "Distingue la désobéissance civile (publique, non violente) de l'intérêt personnel." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue légal et légitime avec un exemple.",
+          "indice": "Conforme à la loi / conforme à la justice.",
+          "corrige": [
+            "Légal : conforme aux lois en vigueur.",
+            "Légitime : conforme à ce qui est juste. Exemple : la ségrégation raciale était légale aux États-Unis mais illégitime."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Doit-on toujours obéir aux lois ? »",
+          "indice": "Ordre social / loi injuste.",
+          "corrige": [
+            "Les lois garantissent l'ordre et la sécurité : désobéir menace la société ; mais certaines lois sont injustes.",
+            "Problématique : l'obéissance aux lois est-elle un devoir absolu, ou la conscience peut-elle exiger de désobéir à une loi injuste ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Doit-on toujours obéir aux lois ? »",
+          "indice": "Socrate / Antigone / désobéissance civile.",
+          "corrige": [
+            "I. Oui : sans respect des lois, la société retombe dans la loi du plus fort ; Socrate refuse de s'évader pour ne pas détruire les lois.",
+            "II. Non : une loi injuste n'oblige pas en conscience (Antigone, lutte contre l'apartheid, Rosa Parks).",
+            "III. Désobéir doit rester exceptionnel et responsable : désobéissance civile publique et non violente, pour améliorer les lois, pas pour son intérêt."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : droit et justice",
+        "etapes": [
+          "Définis droit, justice, loi, légalité, légitimité.",
+          "Choisis des exemples historiques précis (apartheid, droits de l'homme, indépendances).",
+          "Pense à la nuance entre justice et vengeance."
+        ]
+      }
+    },
+    "existence-mort": {
+      "objectifs": [
+        "Réfléchir à la condition humaine (existence, finitude).",
+        "Présenter les principales attitudes philosophiques face à la mort.",
+        "Discuter le sens de la vie."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Exister, pour l'homme, c'est se projeter, faire des choix et se savoir mortel.",
+          "Sartre : « l'existence précède l'essence » ; l'homme n'a pas de nature fixée, il se fait par ses actes.",
+          "Épicure : la mort n'est rien pour nous, car quand elle est là nous ne sommes plus.",
+          "Montaigne : philosopher, c'est apprendre à mourir ; Heidegger : l'homme est un être-pour-la-mort.",
+          "Dans de nombreuses cultures africaines, les morts restent présents parmi les vivants (culte des ancêtres ; Birago Diop : « Les morts ne sont pas morts »)."
+        ],
+        "formules": [
+          "Sartre : « L'existence précède l'essence. »",
+          "Épicure : « La mort n'est rien pour nous. »",
+          "Montaigne : « Philosopher, c'est apprendre à mourir. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Faire une copie uniquement religieuse ou uniquement émotive.", "correction": "Expose et compare des arguments philosophiques." },
+        { "erreur": "Mal comprendre Épicure (« la mort ne fait pas peur à tout le monde »).", "correction": "Son argument : là où je suis, la mort n'est pas ; là où elle est, je ne suis plus." },
+        { "erreur": "Oublier la question du sens de la vie.", "correction": "Penser la mort conduit à se demander comment bien vivre." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Explique la phrase de Sartre : « L'existence précède l'essence. »",
+          "indice": "Un objet fabriqué a d'abord un plan ; l'homme ?",
+          "corrige": [
+            "Un objet (un coupe-papier) est conçu avant d'exister : son essence précède son existence.",
+            "L'homme existe d'abord, puis se définit par ses choix : il est ce qu'il se fait."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La pensée de la mort empêche-t-elle de vivre ? »",
+          "indice": "Angoisse / urgence de bien vivre.",
+          "corrige": [
+            "Penser à la mort angoisse et peut paralyser ; pourtant savoir que la vie est courte donne du prix à chaque instant.",
+            "Problématique : la conscience de notre mort est-elle un obstacle au bonheur ou la condition d'une vie plus lucide et plus intense ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La pensée de la mort empêche-t-elle de vivre ? »",
+          "indice": "Angoisse / Épicure / Montaigne et Heidegger.",
+          "corrige": [
+            "I. Oui : la peur de la mort angoisse et paralyse ; on fuit dans le divertissement (Pascal).",
+            "II. Non si on raisonne : pour Épicure, la mort n'est rien pour nous ; craindre ce qui n'est rien est absurde.",
+            "III. Elle aide même à bien vivre : Montaigne, Heidegger ; la mémoire des ancêtres relie les vivants et les morts et donne sens à la vie."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : existence et mort",
+        "etapes": [
+          "Évite le témoignage personnel : argumente.",
+          "Présente plusieurs attitudes (Épicure, Montaigne, Sartre, traditions africaines).",
+          "Conclus sur l'art de vivre."
+        ]
+      }
+    },
+    "liberte": {
+      "objectifs": [
+        "Définir la liberté et distinguer ses différentes formes.",
+        "Discuter le déterminisme.",
+        "Relier liberté, loi et responsabilité."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Liberté naturelle (faire ce qu'on veut), liberté civile (garantie par la loi), liberté morale (autonomie, se donner sa propre loi).",
+          "Spinoza : les hommes se croient libres parce qu'ils ignorent les causes de leurs actions.",
+          "Sartre : l'homme est condamné à être libre ; il est responsable de ce qu'il fait.",
+          "Rousseau : obéir à la loi qu'on s'est prescrite est liberté.",
+          "Kant : être libre, c'est être autonome, agir selon la raison et non selon ses penchants."
+        ],
+        "formules": [
+          "Spinoza : la liberté comme illusion née de l'ignorance des causes",
+          "Sartre : « L'homme est condamné à être libre. »",
+          "Rousseau : « L'obéissance à la loi qu'on s'est prescrite est liberté. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Définir la liberté comme « faire tout ce qu'on veut ».", "correction": "C'est la licence ; elle peut nous rendre esclaves de nos désirs." },
+        { "erreur": "Opposer simplement liberté et loi.", "correction": "Une loi juste garantit la liberté de chacun." },
+        { "erreur": "Utiliser le déterminisme comme excuse.", "correction": "Sartre parle de mauvaise foi : nous restons responsables." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue liberté naturelle, liberté civile et liberté morale.",
+          "indice": "Instinct, loi, raison.",
+          "corrige": [
+            "Naturelle : agir selon ses désirs sans autre limite que sa force.",
+            "Civile : agir dans le cadre des lois qui protègent chacun.",
+            "Morale : se donner à soi-même une règle raisonnable (autonomie)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La liberté est-elle une illusion ? »",
+          "indice": "Sentiment de liberté / causes cachées.",
+          "corrige": [
+            "Nous avons le sentiment de choisir ; mais éducation, société et corps nous déterminent.",
+            "Problématique : notre sentiment de liberté est-il trompeur, ou pouvons-nous réellement décider de nos actes ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La liberté est-elle une illusion ? »",
+          "indice": "Spinoza / Sartre / liberté conquise.",
+          "corrige": [
+            "I. Oui, en partie : déterminismes biologiques, sociaux, psychologiques ; Spinoza.",
+            "II. Non : la conscience permet de choisir et d'assumer ; Sartre, la responsabilité.",
+            "III. La liberté se conquiert : connaissance des causes, autonomie (Kant), lois justes (Rousseau)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur la liberté",
+        "etapes": [
+          "Distingue les sens de la liberté dès l'introduction.",
+          "Confronte déterminisme et responsabilité.",
+          "Choisis des exemples de la vie sociale et politique."
+        ]
+      }
+    },
+    "temps": {
+      "objectifs": [
+        "Distinguer temps objectif (mesuré) et temps vécu (durée).",
+        "Analyser le rapport de l'homme au passé, au présent et à l'avenir.",
+        "Discuter l'idée que le temps nous échappe."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Saint Augustin : le temps est difficile à définir ; le passé n'est plus, l'avenir n'est pas encore, le présent ne dure pas.",
+          "Bergson distingue le temps mesuré par les horloges et la durée vécue, qui s'allonge ou se contracte selon nos états.",
+          "Héraclite : on ne se baigne jamais deux fois dans le même fleuve ; tout change.",
+          "Pascal : nous ne vivons jamais le présent, toujours tournés vers le passé ou l'avenir.",
+          "Le temps est aussi la condition du projet, de la mémoire et de l'histoire."
+        ],
+        "formules": [
+          "Saint Augustin : « Si personne ne me le demande, je le sais ; si je veux l'expliquer, je ne le sais plus. »",
+          "Bergson : la durée",
+          "Héraclite : « On ne se baigne jamais deux fois dans le même fleuve. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Parler du temps qu'il fait (météo).", "correction": "Il s'agit de la durée, du devenir." },
+        { "erreur": "Rester dans la description sans problème.", "correction": "Pose une question : le temps est-il un ennemi ou une chance ?" },
+        { "erreur": "Oublier le temps vécu.", "correction": "L'attente d'un résultat d'examen paraît longue, une fête trop courte." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue temps objectif et temps vécu avec un exemple.",
+          "indice": "Montre et ressenti.",
+          "corrige": [
+            "Temps objectif : mesuré par la montre, identique pour tous (une heure).",
+            "Temps vécu : ressenti personnellement ; une heure d'attente semble longue, une heure de jeu paraît courte."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Le temps est-il un ennemi pour l'homme ? »",
+          "indice": "Vieillesse, mort / progrès, maturité.",
+          "corrige": [
+            "Le temps use, fait vieillir et mène à la mort ; mais il permet aussi d'apprendre, de grandir et de réaliser des projets.",
+            "Problématique : le temps n'est-il que destruction, ou est-il la condition même de toute réalisation humaine ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Le temps est-il un ennemi pour l'homme ? »",
+          "indice": "Usure / projet / sagesse du présent.",
+          "corrige": [
+            "I. Le temps semble ennemi : fuite, vieillissement, mort ; Pascal, nous ne vivons jamais le présent.",
+            "II. Il est aussi un allié : apprentissage, mémoire, histoire, projets ; la durée vécue fait la richesse de la conscience (Bergson).",
+            "III. Tout dépend de notre rapport au temps : savoir vivre le présent et préparer l'avenir (proverbe : « Le temps ne respecte pas ce qu'on fait sans lui »)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur le temps",
+        "etapes": [
+          "Distingue temps mesuré et durée vécue.",
+          "Varie les exemples (vie quotidienne, histoire, nature).",
+          "Pose clairement la question du rapport humain au temps."
+        ]
+      }
+    },
+    "autrui-personne": {
+      "objectifs": [
+        "Définir la personne et sa dignité.",
+        "Analyser le rôle d'autrui dans la conscience de soi.",
+        "Discuter les rapports humains (conflit, reconnaissance, devoir moral)."
+      ],
+      "prerequis": ["La conscience."],
+      "a_retenir": {
+        "points": [
+          "Une personne est un être conscient, libre et responsable, qui a une dignité et non un prix.",
+          "Kant : il faut traiter l'humanité toujours comme une fin et jamais simplement comme un moyen.",
+          "Hegel : la conscience de soi se forme dans la lutte pour la reconnaissance.",
+          "Sartre : le regard d'autrui me fait exister mais aussi me juge (l'exemple de la honte) ; « l'enfer, c'est les autres » (Huis clos).",
+          "Levinas : le visage d'autrui m'oblige moralement ; l'Ubuntu africain : « je suis parce que nous sommes »."
+        ],
+        "formules": [
+          "Kant : la personne comme fin en soi",
+          "Sartre : « L'enfer, c'est les autres. »",
+          "Ubuntu : « Je suis parce que nous sommes. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Lire « l'enfer, c'est les autres » comme une haine des autres.", "correction": "Sartre veut dire que nous dépendons du jugement d'autrui ; le rapport peut devenir infernal quand il est mal vécu." },
+        { "erreur": "Confondre personne et individu.", "correction": "L'individu est un être singulier ; la personne est un sujet moral doté de dignité." },
+        { "erreur": "Oublier la dimension morale.", "correction": "Autrui n'est pas seulement un obstacle ou un miroir : il est un être à respecter." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Explique pourquoi, selon Kant, une personne a une dignité et non un prix.",
+          "indice": "Ce qui a un prix peut être remplacé.",
+          "corrige": [
+            "Une chose a un prix : on peut l'échanger contre une autre de même valeur.",
+            "Une personne est irremplaçable et libre : elle a une dignité ; on ne peut ni l'acheter ni l'utiliser comme un simple moyen."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Autrui est-il un obstacle à ma liberté ? »",
+          "indice": "Regard, conflit / reconnaissance, coopération.",
+          "corrige": [
+            "Autrui me juge, me limite et entre en conflit avec mes désirs ; pourtant sans lui je n'apprendrais ni à parler ni à penser.",
+            "Problématique : autrui limite-t-il ma liberté, ou en est-il la condition ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Autrui est-il un obstacle à ma liberté ? »",
+          "indice": "Sartre / Hegel / Ubuntu et Kant.",
+          "corrige": [
+            "I. Autrui semble un obstacle : son regard me fige et me juge (Sartre), ses désirs s'opposent aux miens.",
+            "II. Mais il est la condition de ma conscience et de ma liberté : reconnaissance (Hegel), éducation, langage.",
+            "III. La liberté se construit avec autrui : respect mutuel (Kant), solidarité (Ubuntu) ; ma liberté s'arrête où commence celle des autres, mais elle s'en nourrit."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : autrui et la personne",
+        "etapes": [
+          "Définis autrui (l'autre moi, à la fois semblable et différent).",
+          "Mobilise le conflit et la reconnaissance.",
+          "Termine sur la dimension morale (respect, dignité, solidarité)."
+        ]
+      }
+    },
+    "art": {
+      "objectifs": [
+        "Distinguer l'art, l'artisanat et la technique.",
+        "Analyser le jugement de goût et la notion de beau.",
+        "Réfléchir aux fonctions de l'art, notamment en Afrique."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "L'œuvre d'art est une création unique, l'objet artisanal vise d'abord l'utilité.",
+          "Platon se méfie de l'art, imitation d'une imitation, éloignée du vrai.",
+          "Kant : le beau plaît universellement sans concept ; le jugement de goût prétend à l'accord de tous.",
+          "Hegel : le beau artistique est supérieur au beau naturel car il est né de l'esprit.",
+          "En Afrique, de nombreuses œuvres (masques, statues, chants, danses) ont une fonction religieuse et sociale ; elles ont aussi influencé l'art moderne européen (cubisme)."
+        ],
+        "formules": [
+          "Kant : « Est beau ce qui plaît universellement sans concept. »",
+          "Platon : l'art comme imitation (mimèsis)",
+          "Hegel : le beau artistique, né de l'esprit"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire « des goûts et des couleurs on ne discute pas » et s'arrêter là.", "correction": "Kant montre que le jugement de beauté prétend à l'universalité : on en discute." },
+        { "erreur": "Réduire l'art africain à de l'artisanat.", "correction": "Il possède une dimension esthétique, symbolique et spirituelle." },
+        { "erreur": "Confondre beau et agréable.", "correction": "L'agréable est personnel (j'aime le sucré) ; le beau prétend valoir pour tous." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue artiste et artisan.",
+          "indice": "Création unique / production utile selon des règles.",
+          "corrige": [
+            "Artisan : produit des objets utiles selon un savoir-faire et des modèles connus.",
+            "Artiste : crée une œuvre originale qui vaut pour elle-même et exprime une vision."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « L'art a-t-il une utilité ? »",
+          "indice": "Œuvre gratuite / fonctions sociales.",
+          "corrige": [
+            "L'œuvre d'art ne sert à rien de matériel ; pourtant les sociétés lui ont toujours donné des fonctions (religieuses, éducatives, politiques).",
+            "Problématique : l'art vaut-il par sa gratuité, ou est-il indispensable à la vie humaine ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'art a-t-il une utilité ? »",
+          "indice": "Gratuité / fonctions / utilité spirituelle.",
+          "corrige": [
+            "I. L'art semble inutile : il ne satisfait aucun besoin vital ; Kant parle d'une satisfaction désintéressée.",
+            "II. Il a des fonctions : religieuses et sociales (masques, griots), politiques (chants de lutte), éducatives.",
+            "III. Son utilité est spirituelle : il éveille la sensibilité, fait voir le monde autrement et unit les hommes autour du beau."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur l'art",
+        "etapes": [
+          "Définis art, beau, goût.",
+          "Utilise des exemples précis d'œuvres (africaines et universelles).",
+          "Montre plusieurs fonctions de l'art."
+        ]
+      }
+    }
+  },
+  "map": {
+    "mali-lycee-philosophie-sti-stg-science-et-technique": "technique",
+    "burkina-faso-lycee-philosophie-la-technique": "technique",
+    "mali-lycee-philosophie-sti-stg-democratie-et-violence": "violence-democratie",
+    "burkina-faso-lycee-philosophie-la-violence-et-la-paix": "violence-democratie",
+    "mali-lycee-philosophie-sti-stg-passions-et-desir": "passions-desir",
+    "burkina-faso-lycee-philosophie-le-droit-et-la-justice": "droit-justice",
+    "burkina-faso-lycee-philosophie-l-existence-et-la-mort": "existence-mort",
+    "benin-lycee-philosophie-a-sequence-d-apprentissage-1-l-homme": "existence-mort",
+    "burkina-faso-lycee-philosophie-la-liberte": "liberte",
+    "burkina-faso-lycee-philosophie-le-temps": "temps",
+    "burkina-faso-lycee-philosophie-autrui": "autrui-personne",
+    "burkina-faso-lycee-philosophie-la-personne": "autrui-personne",
+    "burkina-faso-lycee-philosophie-l-art": "art",
+    "senegal-lycee-philosophie-l-esthetique-representation-artist": "art"
+  }
+}

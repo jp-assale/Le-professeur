@@ -1,0 +1,77 @@
+{
+  "_topic": "existence-mort",
+  "objectifs": [
+    "Réfléchir à la condition humaine (existence, finitude).",
+    "Présenter les principales attitudes philosophiques face à la mort.",
+    "Discuter le sens de la vie."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Exister, pour l'homme, c'est se projeter, faire des choix et se savoir mortel.",
+      "Sartre : « l'existence précède l'essence » ; l'homme n'a pas de nature fixée, il se fait par ses actes.",
+      "Épicure : la mort n'est rien pour nous, car quand elle est là nous ne sommes plus.",
+      "Montaigne : philosopher, c'est apprendre à mourir ; Heidegger : l'homme est un être-pour-la-mort.",
+      "Dans de nombreuses cultures africaines, les morts restent présents parmi les vivants (culte des ancêtres ; Birago Diop : « Les morts ne sont pas morts »)."
+    ],
+    "formules": [
+      "Sartre : « L'existence précède l'essence. »",
+      "Épicure : « La mort n'est rien pour nous. »",
+      "Montaigne : « Philosopher, c'est apprendre à mourir. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Faire une copie uniquement religieuse ou uniquement émotive.",
+      "correction": "Expose et compare des arguments philosophiques."
+    },
+    {
+      "erreur": "Mal comprendre Épicure (« la mort ne fait pas peur à tout le monde »).",
+      "correction": "Son argument : là où je suis, la mort n'est pas ; là où elle est, je ne suis plus."
+    },
+    {
+      "erreur": "Oublier la question du sens de la vie.",
+      "correction": "Penser la mort conduit à se demander comment bien vivre."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Explique la phrase de Sartre : « L'existence précède l'essence. »",
+      "indice": "Un objet fabriqué a d'abord un plan ; l'homme ?",
+      "corrige": [
+        "Un objet (un coupe-papier) est conçu avant d'exister : son essence précède son existence.",
+        "L'homme existe d'abord, puis se définit par ses choix : il est ce qu'il se fait."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La pensée de la mort empêche-t-elle de vivre ? »",
+      "indice": "Angoisse / urgence de bien vivre.",
+      "corrige": [
+        "Penser à la mort angoisse et peut paralyser ; pourtant savoir que la vie est courte donne du prix à chaque instant.",
+        "Problématique : la conscience de notre mort est-elle un obstacle au bonheur ou la condition d'une vie plus lucide et plus intense ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La pensée de la mort empêche-t-elle de vivre ? »",
+      "indice": "Angoisse / Épicure / Montaigne et Heidegger.",
+      "corrige": [
+        "I. Oui : la peur de la mort angoisse et paralyse ; on fuit dans le divertissement (Pascal).",
+        "II. Non si on raisonne : pour Épicure, la mort n'est rien pour nous ; craindre ce qui n'est rien est absurde.",
+        "III. Elle aide même à bien vivre : Montaigne, Heidegger ; la mémoire des ancêtres relie les vivants et les morts et donne sens à la vie."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : existence et mort",
+    "etapes": [
+      "Évite le témoignage personnel : argumente.",
+      "Présente plusieurs attitudes (Épicure, Montaigne, Sartre, traditions africaines).",
+      "Conclus sur l'art de vivre."
+    ]
+  }
+}

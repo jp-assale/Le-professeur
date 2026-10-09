@@ -1,0 +1,77 @@
+{
+  "_topic": "verite",
+  "objectifs": [
+    "Définir la vérité et la distinguer de la réalité et de l'opinion.",
+    "Présenter les critères de la vérité.",
+    "Discuter le relativisme et le doute."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "La vérité est une qualité d'un jugement : un énoncé est vrai s'il correspond à la réalité (vérité-correspondance).",
+      "Elle se distingue de l'opinion, croyance non justifiée (Platon : sortir de la caverne).",
+      "Descartes : est vrai ce que je conçois clairement et distinctement (critère de l'évidence), après le doute méthodique.",
+      "Vérités formelles (mathématiques : cohérence) et vérités expérimentales (sciences : vérification).",
+      "Nietzsche critique l'idée d'une vérité absolue ; mais le relativisme total se contredit lui-même."
+    ],
+    "formules": [
+      "Vérité = accord du jugement avec la réalité",
+      "Descartes : l'évidence (« clair et distinct »)",
+      "Nietzsche : les vérités sont « des illusions dont on a oublié qu'elles le sont »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre vérité et réalité.",
+      "correction": "La réalité est ce qui est ; la vérité qualifie ce que l'on DIT de la réalité."
+    },
+    {
+      "erreur": "Dire « chacun sa vérité » sans examen.",
+      "correction": "Si tout se vaut, la phrase « chacun sa vérité » ne vaut pas plus que son contraire."
+    },
+    {
+      "erreur": "Assimiler sincérité et vérité.",
+      "correction": "On peut être sincère et se tromper."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue vérité, réalité, opinion et sincérité.",
+      "indice": "Qu'est-ce qui qualifie un jugement, une chose, une attitude ?",
+      "corrige": [
+        "Réalité : ce qui existe. Vérité : accord d'un jugement avec la réalité.",
+        "Opinion : jugement non démontré. Sincérité : accord entre ce que l'on dit et ce que l'on pense."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « La vérité est-elle relative ? »",
+      "indice": "Diversité des opinions / universalité des sciences.",
+      "corrige": [
+        "Les hommes ne sont pas d'accord et les vérités semblent varier selon les cultures et les époques ; pourtant 2 + 2 = 4 partout.",
+        "Problématique : la vérité dépend-elle des individus et des cultures, ou existe-t-il des vérités universelles ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « La vérité est-elle relative ? »",
+      "indice": "Relativisme / vérités universelles / vérité comme recherche.",
+      "corrige": [
+        "I. Elle paraît relative : diversité des croyances, révisions des théories scientifiques, critique de Nietzsche.",
+        "II. Mais il existe des vérités universelles : mathématiques, faits établis ; le relativisme absolu se contredit.",
+        "III. La vérité est une recherche : on s'en approche par le doute méthodique (Descartes), le dialogue et la vérification."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur la vérité",
+    "etapes": [
+      "Définis clairement vérité, réalité, opinion.",
+      "Distingue domaines : mathématiques, sciences, morale, religion.",
+      "Évite le relativisme facile : argumente."
+    ]
+  }
+}

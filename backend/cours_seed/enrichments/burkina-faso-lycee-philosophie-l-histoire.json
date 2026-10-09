@@ -1,0 +1,77 @@
+{
+  "_topic": "histoire",
+  "objectifs": [
+    "Distinguer l'histoire vécue et l'histoire comme connaissance.",
+    "Discuter le sens de l'histoire.",
+    "Réfléchir à l'histoire africaine et à son écriture."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le mot « histoire » désigne à la fois les événements passés et la science qui les étudie.",
+      "L'historien travaille sur des traces (archives, monuments, traditions orales) et doit rester objectif.",
+      "Hegel : l'histoire a un sens, la réalisation progressive de la liberté ; la « ruse de la raison » se sert des passions humaines.",
+      "Marx : le moteur de l'histoire est la lutte des classes.",
+      "Cheikh Anta Diop et Joseph Ki-Zerbo ont contribué à réécrire l'histoire de l'Afrique contre les préjugés coloniaux, en valorisant aussi la tradition orale."
+    ],
+    "formules": [
+      "Hegel : « Rien de grand ne s'est accompli dans le monde sans passion. »",
+      "Marx : « L'histoire de toute société jusqu'à nos jours est l'histoire de luttes de classes. »",
+      "Ki-Zerbo : Histoire de l'Afrique noire"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Faire un exposé d'histoire-géographie.",
+      "correction": "En philosophie, on réfléchit au sens et à la connaissance de l'histoire."
+    },
+    {
+      "erreur": "Croire que l'histoire est une science exacte comme la physique.",
+      "correction": "Elle ne peut pas répéter les événements en laboratoire ; elle interprète des traces."
+    },
+    {
+      "erreur": "Oublier la tradition orale africaine.",
+      "correction": "Les griots et récits transmis sont des sources que l'historien critique et utilise."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Explique les deux sens du mot « histoire ».",
+      "indice": "Ce qui s'est passé / ce qu'on en sait.",
+      "corrige": [
+        "Histoire-réalité : l'ensemble des événements vécus par les hommes.",
+        "Histoire-connaissance : le récit et l'étude méthodique de ces événements par les historiens."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « L'histoire a-t-elle un sens ? »",
+      "indice": "« Sens » : direction et signification.",
+      "corrige": [
+        "« Sens » veut dire direction (va-t-elle quelque part ?) et signification (est-elle compréhensible ?).",
+        "Problématique : les événements humains suivent-ils un progrès orienté, ou l'histoire n'est-elle qu'une suite de hasards et de violences ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « L'histoire a-t-elle un sens ? »",
+      "indice": "Hegel et Marx / guerres et hasards / l'homme donne un sens.",
+      "corrige": [
+        "I. Oui : Hegel y voit le progrès de la liberté ; Marx un mouvement vers une société sans classes.",
+        "II. Non : guerres, génocides, esclavage et colonisation semblent contredire tout progrès ; le hasard joue un rôle.",
+        "III. Le sens de l'histoire est à construire : les peuples (indépendances africaines, luttes pour les droits) donnent un sens à leur histoire par leurs actions."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur l'histoire",
+    "etapes": [
+      "Précise dès l'introduction de quel sens du mot « histoire » tu parles.",
+      "Choisis des exemples historiques précis (dates, événements).",
+      "Pense aux enjeux pour l'Afrique : mémoire, objectivité, identité."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_topic": "autrui-personne",
+  "objectifs": [
+    "Définir la personne et sa dignité.",
+    "Analyser le rôle d'autrui dans la conscience de soi.",
+    "Discuter les rapports humains (conflit, reconnaissance, devoir moral)."
+  ],
+  "prerequis": [
+    "La conscience."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une personne est un être conscient, libre et responsable, qui a une dignité et non un prix.",
+      "Kant : il faut traiter l'humanité toujours comme une fin et jamais simplement comme un moyen.",
+      "Hegel : la conscience de soi se forme dans la lutte pour la reconnaissance.",
+      "Sartre : le regard d'autrui me fait exister mais aussi me juge (l'exemple de la honte) ; « l'enfer, c'est les autres » (Huis clos).",
+      "Levinas : le visage d'autrui m'oblige moralement ; l'Ubuntu africain : « je suis parce que nous sommes »."
+    ],
+    "formules": [
+      "Kant : la personne comme fin en soi",
+      "Sartre : « L'enfer, c'est les autres. »",
+      "Ubuntu : « Je suis parce que nous sommes. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Lire « l'enfer, c'est les autres » comme une haine des autres.",
+      "correction": "Sartre veut dire que nous dépendons du jugement d'autrui ; le rapport peut devenir infernal quand il est mal vécu."
+    },
+    {
+      "erreur": "Confondre personne et individu.",
+      "correction": "L'individu est un être singulier ; la personne est un sujet moral doté de dignité."
+    },
+    {
+      "erreur": "Oublier la dimension morale.",
+      "correction": "Autrui n'est pas seulement un obstacle ou un miroir : il est un être à respecter."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Explique pourquoi, selon Kant, une personne a une dignité et non un prix.",
+      "indice": "Ce qui a un prix peut être remplacé.",
+      "corrige": [
+        "Une chose a un prix : on peut l'échanger contre une autre de même valeur.",
+        "Une personne est irremplaçable et libre : elle a une dignité ; on ne peut ni l'acheter ni l'utiliser comme un simple moyen."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Autrui est-il un obstacle à ma liberté ? »",
+      "indice": "Regard, conflit / reconnaissance, coopération.",
+      "corrige": [
+        "Autrui me juge, me limite et entre en conflit avec mes désirs ; pourtant sans lui je n'apprendrais ni à parler ni à penser.",
+        "Problématique : autrui limite-t-il ma liberté, ou en est-il la condition ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Autrui est-il un obstacle à ma liberté ? »",
+      "indice": "Sartre / Hegel / Ubuntu et Kant.",
+      "corrige": [
+        "I. Autrui semble un obstacle : son regard me fige et me juge (Sartre), ses désirs s'opposent aux miens.",
+        "II. Mais il est la condition de ma conscience et de ma liberté : reconnaissance (Hegel), éducation, langage.",
+        "III. La liberté se construit avec autrui : respect mutuel (Kant), solidarité (Ubuntu) ; ma liberté s'arrête où commence celle des autres, mais elle s'en nourrit."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : autrui et la personne",
+    "etapes": [
+      "Définis autrui (l'autre moi, à la fois semblable et différent).",
+      "Mobilise le conflit et la reconnaissance.",
+      "Termine sur la dimension morale (respect, dignité, solidarité)."
+    ]
+  }
+}

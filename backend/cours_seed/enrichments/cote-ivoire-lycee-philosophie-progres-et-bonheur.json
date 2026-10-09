@@ -1,0 +1,78 @@
+{
+  "_topic": "bonheur",
+  "objectifs": [
+    "Définir le bonheur et le distinguer du plaisir.",
+    "Présenter les grandes sagesses antiques (Épicure, stoïciens).",
+    "Discuter le lien entre bonheur, morale et progrès."
+  ],
+  "prerequis": [
+    "Méthode de la dissertation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le bonheur est un état de satisfaction durable et complet ; le plaisir est passager.",
+      "Aristote : tous les hommes recherchent le bonheur, qui réside dans une activité conforme à la vertu.",
+      "Épicure : le bonheur est l'absence de trouble de l'âme (ataraxie) ; il faut trier ses désirs (naturels et nécessaires d'abord).",
+      "Les stoïciens (Épictète) : distinguer ce qui dépend de nous de ce qui n'en dépend pas.",
+      "Kant : la morale ne consiste pas à être heureux mais à se rendre digne du bonheur ; le progrès technique ne garantit pas le bonheur (Rousseau)."
+    ],
+    "formules": [
+      "Épicure : l'ataraxie (absence de trouble)",
+      "Épictète : « Il y a ce qui dépend de nous et ce qui ne dépend pas de nous. »",
+      "Kant : le bonheur est « un idéal de l'imagination »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Résumer Épicure à « profiter de tous les plaisirs ».",
+      "correction": "Épicure prône une vie simple et la modération des désirs."
+    },
+    {
+      "erreur": "Confondre bonheur et richesse.",
+      "correction": "La richesse peut aider, mais ne suffit pas (désirs illimités, inquiétude)."
+    },
+    {
+      "erreur": "Oublier la dimension collective du bonheur.",
+      "correction": "Pense aussi à la justice sociale et aux liens avec les autres."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Distingue plaisir, joie et bonheur.",
+      "indice": "Durée et profondeur.",
+      "corrige": [
+        "Plaisir : satisfaction d'un besoin ou d'un désir, souvent corporelle et brève.",
+        "Joie : émotion intense liée à un événement heureux.",
+        "Bonheur : état de satisfaction globale et durable de toute une vie."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Problématise : « Le progrès rend-il l'homme heureux ? »",
+      "indice": "Confort matériel / nouveaux problèmes.",
+      "corrige": [
+        "Le progrès (médecine, électricité, téléphone) améliore la vie ; mais il crée aussi pollution, inégalités et nouveaux besoins.",
+        "Problématique : le bonheur dépend-il des progrès matériels, ou d'une sagesse que la technique ne peut pas fournir ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Plan détaillé : « Le progrès rend-il l'homme heureux ? »",
+      "indice": "Condorcet / Rousseau / sagesse.",
+      "corrige": [
+        "I. Le progrès contribue au bonheur : santé, confort, communication ; Condorcet croyait au perfectionnement indéfini de l'humanité.",
+        "II. Mais il ne suffit pas : Rousseau montre que les progrès des sciences et des arts n'ont pas rendu les hommes meilleurs ; désirs sans fin, inégalités, menaces écologiques.",
+        "III. Le bonheur exige une sagesse : maîtrise des désirs (Épicure, stoïciens) et usage juste du progrès au service de tous."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les sujets sur le bonheur",
+    "etapes": [
+      "Distingue bonheur, plaisir, satisfaction, bien-être.",
+      "Utilise les sagesses antiques avec exactitude.",
+      "Pense au lien avec la morale et la société."
+    ]
+  }
+}

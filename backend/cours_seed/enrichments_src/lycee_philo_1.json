@@ -1,0 +1,823 @@
+{
+  "_doc": "Complements pedagogiques - Philosophie (Terminale), lot 1 : methodologie, conscience, societe et Etat, nature et culture, religion, histoire, philosophie, bonheur, langage, verite, science. Les « formules » sont des reperes (auteur - these) a citer en les expliquant. Exercices : definitions, analyse de sujet, plan detaille.",
+  "topics": {
+    "methodo-dissertation": {
+      "objectifs": [
+        "Analyser un sujet de dissertation (mots-clés, présupposés, enjeux).",
+        "Formuler une problématique.",
+        "Construire un plan dialectique argumenté et illustré.",
+        "Rédiger introduction, transitions et conclusion."
+      ],
+      "prerequis": ["Les notions du programme et quelques auteurs de référence.", "Savoir définir un mot avec précision."],
+      "a_retenir": {
+        "points": [
+          "Une dissertation répond à une question par un raisonnement, pas par une récitation de cours.",
+          "Analyse du sujet : définir chaque terme, repérer la forme de la question (« peut-on », « faut-il », « est-ce que »), dégager le paradoxe.",
+          "La problématique montre pourquoi la question est difficile : deux réponses défendables s'opposent.",
+          "Plan dialectique : thèse, antithèse, dépassement ; chaque partie contient 2 ou 3 arguments (idée, explication, exemple, référence).",
+          "Introduction : amorce, sujet, problématique, annonce du plan. Conclusion : bilan et réponse claire."
+        ],
+        "formules": [
+          "Argument = idée + explication + exemple + référence (auteur)",
+          "Problématique : « D'un côté… ; de l'autre… Dès lors… ? »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Réciter tout ce que l'on sait sur la notion.", "correction": "Chaque paragraphe doit répondre à la question posée." },
+        { "erreur": "Citer des auteurs sans expliquer leur idée.", "correction": "Une citation doit être expliquée et reliée à ton argument." },
+        { "erreur": "Une conclusion qui ne répond pas.", "correction": "Termine par une réponse nette et nuancée à la problématique." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Sujet : « Peut-on être libre en société ? » Repère et définis les mots-clés du sujet.",
+          "indice": "N'oublie pas l'expression « peut-on ».",
+          "corrige": [
+            "« Peut-on » : est-il possible ? (et est-il permis ?).",
+            "« Libre » : qui agit selon sa propre volonté, sans contrainte extérieure.",
+            "« En société » : en vivant avec d'autres, sous des règles et des lois communes."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Formule une problématique pour le sujet : « Peut-on être libre en société ? »",
+          "indice": "Cherche ce qui oppose liberté et société, puis ce qui les rapproche.",
+          "corrige": [
+            "Paradoxe : la société impose des lois qui limitent nos désirs ; pourtant, hors de la société, l'homme est livré à la violence des plus forts.",
+            "Problématique : la vie sociale, par ses lois, détruit-elle la liberté individuelle ou en est-elle au contraire la condition ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Propose un plan détaillé (deux ou trois parties, avec arguments et références) pour le sujet : « Peut-on être libre en société ? »",
+          "indice": "Thèse : la société contraint ; antithèse : elle libère ; dépassement : quelle liberté ?",
+          "corrige": [
+            "I. La société semble limiter la liberté : lois, coutumes, pression du groupe ; Rousseau : « L'homme est né libre, et partout il est dans les fers ».",
+            "II. Mais sans société, la liberté n'est qu'apparente : Hobbes décrit l'état de nature comme une « guerre de chacun contre chacun » ; la loi protège le faible contre le fort.",
+            "III. La vraie liberté est l'autonomie du citoyen : pour Rousseau, « l'obéissance à la loi qu'on s'est prescrite est liberté » ; d'où l'importance de lois justes et démocratiques.",
+            "Conclusion : on peut être libre en société, à condition que les lois soient l'expression de la volonté générale et non de la force."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : réussir la dissertation",
+        "etapes": [
+          "20 à 30 minutes d'analyse au brouillon (définitions, paradoxe, problématique, plan).",
+          "Rédige directement l'introduction et la conclusion au propre après le plan.",
+          "Sépare les parties par des transitions et soigne la langue."
+        ]
+      }
+    },
+    "methodo-commentaire": {
+      "objectifs": [
+        "Dégager le thème, le problème et la thèse d'un texte philosophique.",
+        "Repérer la structure logique (les mouvements) du texte.",
+        "Expliquer le texte de façon ordonnée.",
+        "Évaluer l'intérêt et les limites de la thèse."
+      ],
+      "prerequis": ["Lecture attentive et vocabulaire des connecteurs logiques."],
+      "a_retenir": {
+        "points": [
+          "Thème : ce dont parle le texte. Problème : la question à laquelle il répond. Thèse : la réponse de l'auteur.",
+          "Les connecteurs (mais, donc, en effet, ainsi) indiquent les étapes du raisonnement.",
+          "Expliquer, ce n'est pas paraphraser : on éclaire le sens des mots et les liens logiques avec des exemples.",
+          "La discussion (intérêt philosophique) montre ce que la thèse apporte et ce qu'on peut lui opposer."
+        ],
+        "formules": ["Thème → problème → thèse → mouvements", "Explication = citer + expliquer + illustrer"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Paraphraser le texte.", "correction": "Dis ce que l'auteur VEUT dire et pourquoi, avec tes mots et tes exemples." },
+        { "erreur": "Confondre thème et thèse.", "correction": "Thème : « la liberté » ; thèse : « la liberté est une illusion »." },
+        { "erreur": "Critiquer avant d'avoir expliqué.", "correction": "On explique d'abord fidèlement, on discute ensuite." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Texte (idée de Spinoza) : « Les hommes se croient libres parce qu'ils sont conscients de leurs actions et ignorants des causes qui les déterminent. » Donne le thème et la thèse.",
+          "indice": "Le thème tient en un mot.",
+          "corrige": [
+            "Thème : la liberté.",
+            "Thèse : le sentiment de liberté est une illusion qui vient de notre ignorance des causes de nos actes."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Pour cette même idée, formule le problème posé et donne un exemple de la vie courante qui l'illustre.",
+          "indice": "Pense à un choix que tu crois libre mais qui a des causes.",
+          "corrige": [
+            "Problème : l'impression d'être libre prouve-t-elle que nous le sommes réellement ?",
+            "Exemple : je crois choisir librement mon plat préféré, mais ce goût vient de mon éducation, de ma culture, de mon corps."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Rédige le plan de la partie « intérêt philosophique » pour cette thèse de Spinoza.",
+          "indice": "Montre d'abord ce qu'elle a de juste, puis ses limites.",
+          "corrige": [
+            "Intérêt : la thèse nous invite à la lucidité ; connaître les causes (psychologiques, sociales) qui nous déterminent est le premier pas vers une vraie liberté.",
+            "Limite : Sartre affirme au contraire que l'homme est « condamné à être libre » : invoquer les causes peut devenir une excuse (mauvaise foi).",
+            "Position personnelle : la liberté n'est pas donnée mais se conquiert par la connaissance de soi et la réflexion."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : réussir le commentaire de texte",
+        "etapes": [
+          "Lis le texte au moins trois fois ; numérote et nomme ses mouvements.",
+          "Introduction : thème, problème, thèse, annonce des mouvements.",
+          "Étude ordonnée, puis intérêt philosophique, puis conclusion."
+        ]
+      }
+    },
+    "conscience-inconscient": {
+      "objectifs": [
+        "Définir la conscience (spontanée, réfléchie, morale).",
+        "Expliquer l'hypothèse freudienne de l'inconscient.",
+        "Discuter la portée de cette hypothèse pour la liberté et la responsabilité."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La conscience est la connaissance que l'esprit a de lui-même et du monde ; la conscience morale juge le bien et le mal.",
+          "Pour Descartes, la conscience de penser est la première certitude.",
+          "Freud : une partie de notre vie psychique nous échappe (rêves, lapsus, actes manqués) ; le psychisme comprend le ça, le moi et le surmoi.",
+          "L'inconscient limite la transparence du sujet à lui-même, mais la psychanalyse cherche à en prendre conscience.",
+          "Sartre refuse l'excuse de l'inconscient : la « mauvaise foi » consiste à se mentir pour fuir sa responsabilité."
+        ],
+        "formules": [
+          "Descartes : « Je pense, donc je suis. »",
+          "Freud : « Le moi n'est pas maître dans sa propre maison. »",
+          "Sartre : la mauvaise foi"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre l'inconscient freudien avec le simple fait d'être évanoui.", "correction": "L'inconscient désigne des désirs refoulés qui agissent sur nous sans que nous le sachions." },
+        { "erreur": "Conclure que l'inconscient supprime toute responsabilité.", "correction": "Nuance : il limite la maîtrise de soi, mais l'homme reste responsable de ses actes." },
+        { "erreur": "Citer Descartes sans expliquer le doute méthodique.", "correction": "Explique que le « je pense » résiste à tous les doutes." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue conscience spontanée, conscience réfléchie et conscience morale avec un exemple pour chacune.",
+          "indice": "Pense à « je vois », « je sais que je vois », « je sais que c'est mal ».",
+          "corrige": [
+            "Spontanée : je vois l'arbre devant moi.",
+            "Réfléchie : je me rends compte que je suis en train de regarder l'arbre.",
+            "Morale : je sens qu'il serait mal de couper cet arbre du voisin sans permission."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Analyse le sujet : « Sommes-nous toujours conscients de ce que nous faisons ? » et formule une problématique.",
+          "indice": "Lapsus, habitudes, actes manqués…",
+          "corrige": [
+            "Nous avons l'impression de savoir ce que nous faisons ; pourtant habitudes, lapsus et rêves montrent que beaucoup de choses nous échappent.",
+            "Problématique : l'homme est-il transparent à lui-même, ou une part de ses actes s'explique-t-elle par des causes qu'il ignore ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'hypothèse de l'inconscient supprime-t-elle la responsabilité ? »",
+          "indice": "Freud, puis Sartre, puis une position nuancée.",
+          "corrige": [
+            "I. L'inconscient semble réduire la responsabilité : Freud montre que des désirs refoulés guident nos actes (« le moi n'est pas maître dans sa propre maison »).",
+            "II. Mais l'homme reste responsable : Sartre dénonce la mauvaise foi ; la justice distingue d'ailleurs l'irresponsabilité pénale (folie) des cas ordinaires.",
+            "III. Connaître son inconscient permet d'élargir sa liberté : la psychanalyse vise à rendre conscient ce qui était caché ; la responsabilité devient une tâche."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : sujets sur la conscience",
+        "etapes": [
+          "Définis précisément le type de conscience dont parle le sujet.",
+          "Utilise des exemples concrets (lapsus, rêve, habitude, remords).",
+          "Relie toujours conscience, liberté et responsabilité."
+        ]
+      }
+    },
+    "societe-etat": {
+      "objectifs": [
+        "Expliquer pourquoi l'homme vit en société.",
+        "Définir l'État et son rôle.",
+        "Discuter la légitimité du pouvoir politique."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Pour Aristote, l'homme est naturellement fait pour vivre en communauté politique.",
+          "Pour les théoriciens du contrat (Hobbes, Locke, Rousseau), la société politique naît d'un accord pour sortir de l'état de nature.",
+          "Hobbes : sans pouvoir commun, c'est la guerre de chacun contre chacun ; l'État (le Léviathan) garantit la sécurité.",
+          "Weber : l'État détient le monopole de la violence physique légitime.",
+          "Marx : l'État peut être un instrument de domination d'une classe sur une autre."
+        ],
+        "formules": [
+          "Aristote : « L'homme est un animal politique. »",
+          "Rousseau : le contrat social, la volonté générale",
+          "Weber : monopole de la violence physique légitime"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre État, gouvernement et nation.", "correction": "L'État est l'institution durable du pouvoir ; le gouvernement l'exerce un temps ; la nation est une communauté humaine." },
+        { "erreur": "Présenter l'état de nature comme une période historique réelle.", "correction": "C'est une hypothèse pour penser ce que serait l'homme sans lois." },
+        { "erreur": "Voir l'État uniquement comme oppresseur ou uniquement comme protecteur.", "correction": "Montre les deux faces et la question de la légitimité." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Définis : société, État, pouvoir légitime.",
+          "indice": "Un pouvoir légitime est accepté comme juste.",
+          "corrige": [
+            "Société : groupe humain organisé par des règles communes.",
+            "État : ensemble des institutions qui exercent l'autorité politique sur un territoire et une population.",
+            "Pouvoir légitime : pouvoir reconnu comme juste et fondé en droit (par exemple par le vote), et pas seulement imposé par la force."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise le sujet : « L'État est-il un mal nécessaire ? »",
+          "indice": "Pourquoi un « mal » ? Pourquoi « nécessaire » ?",
+          "corrige": [
+            "L'État contraint (impôts, lois, police) : il apparaît comme un mal ; mais sans lui règnent l'insécurité et la loi du plus fort.",
+            "Problématique : l'État n'est-il qu'une contrainte que l'on subit faute de mieux, ou peut-il être la condition positive de la liberté et de la justice ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'État est-il un mal nécessaire ? »",
+          "indice": "Hobbes, Marx, Rousseau.",
+          "corrige": [
+            "I. L'État est nécessaire : Hobbes montre qu'il met fin à la guerre de tous contre tous ; il protège les biens et les personnes.",
+            "II. Il peut devenir un mal : abus de pouvoir, dictatures ; Marx y voit un instrument de domination de classe.",
+            "III. Un État légitime n'est pas un mal : fondé sur la volonté générale (Rousseau) et le respect des droits, il rend possible la liberté du citoyen ; d'où l'importance de la démocratie et du contrôle du pouvoir."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : sujets de philosophie politique",
+        "etapes": [
+          "Distingue soigneusement État, pouvoir, gouvernement, société.",
+          "Appuie-toi sur des exemples historiques et africains (indépendances, constitutions, élections).",
+          "Pose toujours la question de la légitimité."
+        ]
+      }
+    },
+    "nature-culture": {
+      "objectifs": [
+        "Distinguer ce qui relève de la nature et ce qui relève de la culture chez l'homme.",
+        "Expliquer le rôle de l'éducation.",
+        "Discuter la diversité des cultures et le relativisme."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La nature : ce qui est inné, universel, donné ; la culture : ce qui est acquis, transmis, variable selon les sociétés.",
+          "Les « enfants sauvages » (comme Victor de l'Aveyron) montrent que sans éducation l'homme ne développe ni langage ni comportements humains.",
+          "Rousseau : l'homme se distingue par sa perfectibilité, sa capacité à se transformer.",
+          "Lévi-Strauss : la prohibition de l'inceste, règle universelle, marque le passage de la nature à la culture.",
+          "Il n'y a pas de culture supérieure par nature : le respect des cultures n'empêche pas de défendre des valeurs universelles (dignité humaine)."
+        ],
+        "formules": [
+          "Kant : « L'homme ne peut devenir homme que par l'éducation. »",
+          "Lévi-Strauss : la prohibition de l'inceste, règle universelle",
+          "Rousseau : la perfectibilité"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Opposer totalement nature et culture.", "correction": "La culture transforme des besoins naturels (manger → cuisine, repas, interdits alimentaires)." },
+        { "erreur": "Juger une culture « primitive ».", "correction": "C'est de l'ethnocentrisme ; chaque culture répond à sa manière aux mêmes besoins humains." },
+        { "erreur": "Confondre culture (au sens philosophique) et culture générale.", "correction": "Ici, culture = tout ce que l'homme ajoute à la nature et transmet." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Classe en « nature » ou « culture » : avoir faim, manger avec la main droite, parler le mooré, dormir, saluer les aînés.",
+          "indice": "Universel et inné, ou appris et variable ?",
+          "corrige": [
+            "Nature : avoir faim, dormir.",
+            "Culture : manger avec la main droite, parler le mooré, saluer les aînés."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « L'homme est-il un être naturel ? »",
+          "indice": "Il a un corps, mais…",
+          "corrige": [
+            "L'homme est un vivant soumis aux lois de la nature ; mais tout en lui semble transformé par la culture (langage, techniques, règles).",
+            "Problématique : l'humanité de l'homme vient-elle de sa nature ou de ce qu'il apprend et construit ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'homme est-il un être naturel ? »",
+          "indice": "Corps et besoins / éducation / perfectibilité.",
+          "corrige": [
+            "I. Oui, l'homme appartient à la nature : besoins biologiques, naissance, mort, instincts.",
+            "II. Mais il ne devient humain que par la culture : enfants sauvages, Kant (l'éducation), Lévi-Strauss (la règle).",
+            "III. La nature de l'homme est d'être culturel : sa perfectibilité (Rousseau) lui permet de se construire ; nature et culture sont mêlées en lui."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : nature et culture",
+        "etapes": [
+          "Définis nature et culture dès l'introduction.",
+          "Utilise des exemples précis tirés de la vie africaine (langues, rites, cuisine, initiations).",
+          "Évite l'ethnocentrisme dans ta copie."
+        ]
+      }
+    },
+    "religion": {
+      "objectifs": [
+        "Définir la religion, la foi et la raison.",
+        "Présenter des explications philosophiques du fait religieux.",
+        "Discuter les rapports entre raison et croyance."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La religion est un ensemble de croyances et de pratiques qui relient l'homme au sacré et unissent une communauté.",
+          "La foi est une adhésion qui ne repose pas sur une démonstration ; la raison exige des preuves.",
+          "Pascal : le cœur (l'intuition) atteint des vérités que la raison ne démontre pas.",
+          "Durkheim : la religion est un fait social qui renforce l'unité du groupe.",
+          "Marx et Freud critiquent la religion (consolation illusoire) ; Kant limite le savoir pour laisser place à la croyance."
+        ],
+        "formules": [
+          "Pascal : « Le cœur a ses raisons que la raison ne connaît point. »",
+          "Marx : la religion est « l'opium du peuple ».",
+          "Kant : « J'ai dû abolir le savoir afin d'obtenir de la place pour la croyance. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Faire une copie de prédication ou de rejet personnel.", "correction": "La philosophie examine les arguments, elle ne prêche pas." },
+        { "erreur": "Confondre foi et superstition.", "correction": "La superstition attribue des pouvoirs magiques sans cohérence ; la foi peut être réfléchie." },
+        { "erreur": "Citer Marx sans le contexte de la souffrance sociale.", "correction": "Pour Marx, la religion console d'une misère réelle qu'il faut transformer." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue savoir, croyance et foi.",
+          "indice": "Peut-on prouver ? Est-ce un engagement ?",
+          "corrige": [
+            "Savoir : connaissance justifiée par des preuves.",
+            "Croyance : adhésion sans preuve suffisante.",
+            "Foi : croyance religieuse vécue comme un engagement et une confiance totale."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La raison peut-elle s'opposer à la foi ? »",
+          "indice": "Domaines différents ou conflit ?",
+          "corrige": [
+            "La raison exige des preuves, la foi les dépasse : elles semblent s'exclure ; pourtant de nombreux croyants réfléchissent leur foi.",
+            "Problématique : raison et foi sont-elles rivales sur le même terrain, ou répondent-elles à des besoins humains différents ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La raison peut-elle s'opposer à la foi ? »",
+          "indice": "Critique rationnelle / limites de la raison / complémentarité.",
+          "corrige": [
+            "I. La raison critique la foi : exigence de preuves, critiques de Marx et Freud (illusion, consolation).",
+            "II. Mais la raison a des limites : Kant montre qu'elle ne peut ni prouver ni réfuter l'existence de Dieu ; Pascal : le cœur a ses raisons.",
+            "III. Foi et raison peuvent coopérer : une foi réfléchie refuse le fanatisme ; la raison protège contre l'intolérance et la superstition."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur la religion",
+        "etapes": [
+          "Reste neutre et argumenté : expose les thèses, ne prêche pas.",
+          "Distingue religion, foi, croyance, superstition.",
+          "Utilise des exemples respectueux (religions traditionnelles africaines, islam, christianisme)."
+        ]
+      }
+    },
+    "histoire": {
+      "objectifs": [
+        "Distinguer l'histoire vécue et l'histoire comme connaissance.",
+        "Discuter le sens de l'histoire.",
+        "Réfléchir à l'histoire africaine et à son écriture."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Le mot « histoire » désigne à la fois les événements passés et la science qui les étudie.",
+          "L'historien travaille sur des traces (archives, monuments, traditions orales) et doit rester objectif.",
+          "Hegel : l'histoire a un sens, la réalisation progressive de la liberté ; la « ruse de la raison » se sert des passions humaines.",
+          "Marx : le moteur de l'histoire est la lutte des classes.",
+          "Cheikh Anta Diop et Joseph Ki-Zerbo ont contribué à réécrire l'histoire de l'Afrique contre les préjugés coloniaux, en valorisant aussi la tradition orale."
+        ],
+        "formules": [
+          "Hegel : « Rien de grand ne s'est accompli dans le monde sans passion. »",
+          "Marx : « L'histoire de toute société jusqu'à nos jours est l'histoire de luttes de classes. »",
+          "Ki-Zerbo : Histoire de l'Afrique noire"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Faire un exposé d'histoire-géographie.", "correction": "En philosophie, on réfléchit au sens et à la connaissance de l'histoire." },
+        { "erreur": "Croire que l'histoire est une science exacte comme la physique.", "correction": "Elle ne peut pas répéter les événements en laboratoire ; elle interprète des traces." },
+        { "erreur": "Oublier la tradition orale africaine.", "correction": "Les griots et récits transmis sont des sources que l'historien critique et utilise." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Explique les deux sens du mot « histoire ».",
+          "indice": "Ce qui s'est passé / ce qu'on en sait.",
+          "corrige": [
+            "Histoire-réalité : l'ensemble des événements vécus par les hommes.",
+            "Histoire-connaissance : le récit et l'étude méthodique de ces événements par les historiens."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « L'histoire a-t-elle un sens ? »",
+          "indice": "« Sens » : direction et signification.",
+          "corrige": [
+            "« Sens » veut dire direction (va-t-elle quelque part ?) et signification (est-elle compréhensible ?).",
+            "Problématique : les événements humains suivent-ils un progrès orienté, ou l'histoire n'est-elle qu'une suite de hasards et de violences ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'histoire a-t-elle un sens ? »",
+          "indice": "Hegel et Marx / guerres et hasards / l'homme donne un sens.",
+          "corrige": [
+            "I. Oui : Hegel y voit le progrès de la liberté ; Marx un mouvement vers une société sans classes.",
+            "II. Non : guerres, génocides, esclavage et colonisation semblent contredire tout progrès ; le hasard joue un rôle.",
+            "III. Le sens de l'histoire est à construire : les peuples (indépendances africaines, luttes pour les droits) donnent un sens à leur histoire par leurs actions."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur l'histoire",
+        "etapes": [
+          "Précise dès l'introduction de quel sens du mot « histoire » tu parles.",
+          "Choisis des exemples historiques précis (dates, événements).",
+          "Pense aux enjeux pour l'Afrique : mémoire, objectivité, identité."
+        ]
+      }
+    },
+    "philosophie": {
+      "objectifs": [
+        "Définir la philosophie et son attitude propre (étonnement, doute, esprit critique).",
+        "Distinguer la philosophie du mythe, de la religion et de la science.",
+        "Présenter le débat sur la philosophie africaine.",
+        "Réfléchir à l'utilité de la philosophie."
+      ],
+      "prerequis": ["Aucun : c'est le chapitre d'entrée."],
+      "a_retenir": {
+        "points": [
+          "Philosophie signifie « amour de la sagesse » ; elle naît de l'étonnement (Platon, Aristote).",
+          "Socrate pratique le dialogue et reconnaît son ignorance pour chercher la vérité.",
+          "La philosophie est une réflexion critique, rationnelle et argumentée sur les grandes questions (vérité, bien, liberté, sens de la vie).",
+          "Débat sur la philosophie africaine : Tempels (La philosophie bantoue) décrit une sagesse collective ; Paulin Hountondji critique cette « ethnophilosophie » et défend une philosophie faite de textes argumentés d'auteurs africains.",
+          "Utilité : former l'esprit critique, lutter contre les préjugés et les manipulations."
+        ],
+        "formules": [
+          "Socrate : « Tout ce que je sais, c'est que je ne sais rien. »",
+          "Kant : on n'apprend pas la philosophie, on apprend à philosopher.",
+          "Platon : l'allégorie de la caverne"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Réduire la philosophie à des opinions personnelles.", "correction": "Une opinion devient philosophique quand elle est argumentée et soumise à la critique." },
+        { "erreur": "Dire que la philosophie est inutile parce qu'elle ne produit rien de matériel.", "correction": "Son utilité est de former un jugement libre et lucide." },
+        { "erreur": "Résumer le débat sur la philosophie africaine en « oui ou non ».", "correction": "Expose les arguments de Tempels et de Hountondji." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue philosophie, mythe et science.",
+          "indice": "Récit, démonstration, réflexion critique.",
+          "corrige": [
+            "Mythe : récit traditionnel qui explique le monde par des êtres surnaturels.",
+            "Science : connaissance démontrée et vérifiée par l'expérience.",
+            "Philosophie : réflexion rationnelle et critique sur les questions fondamentales, y compris sur les sciences et les mythes."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « À quoi sert la philosophie ? »",
+          "indice": "Utilité matérielle ou utilité pour l'esprit ?",
+          "corrige": [
+            "La philosophie ne fabrique ni outils ni richesses : elle semble inutile ; pourtant elle apprend à penser par soi-même.",
+            "Problématique : faut-il juger la philosophie selon l'utilité matérielle, ou reconnaître une autre forme d'utilité, celle de la liberté de l'esprit ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La philosophie est-elle inutile ? »",
+          "indice": "Apparence d'inutilité / utilité critique / sagesse.",
+          "corrige": [
+            "I. Elle paraît inutile : pas de résultats techniques, débats sans fin (le reproche fait à Thalès tombé dans le puits).",
+            "II. Elle est utile autrement : esprit critique contre les préjugés (allégorie de la caverne), contre les manipulations et le fanatisme.",
+            "III. Sa valeur est au-delà de l'utile : elle vise la sagesse et une vie réfléchie ; Hountondji montre aussi qu'elle aide l'Afrique à penser librement son développement."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : sujets sur la philosophie",
+        "etapes": [
+          "Définis l'attitude philosophique (étonnement, doute, argumentation).",
+          "Illustre par Socrate et l'allégorie de la caverne.",
+          "Pense au débat sur la philosophie africaine si le sujet s'y prête."
+        ]
+      }
+    },
+    "bonheur": {
+      "objectifs": [
+        "Définir le bonheur et le distinguer du plaisir.",
+        "Présenter les grandes sagesses antiques (Épicure, stoïciens).",
+        "Discuter le lien entre bonheur, morale et progrès."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Le bonheur est un état de satisfaction durable et complet ; le plaisir est passager.",
+          "Aristote : tous les hommes recherchent le bonheur, qui réside dans une activité conforme à la vertu.",
+          "Épicure : le bonheur est l'absence de trouble de l'âme (ataraxie) ; il faut trier ses désirs (naturels et nécessaires d'abord).",
+          "Les stoïciens (Épictète) : distinguer ce qui dépend de nous de ce qui n'en dépend pas.",
+          "Kant : la morale ne consiste pas à être heureux mais à se rendre digne du bonheur ; le progrès technique ne garantit pas le bonheur (Rousseau)."
+        ],
+        "formules": [
+          "Épicure : l'ataraxie (absence de trouble)",
+          "Épictète : « Il y a ce qui dépend de nous et ce qui ne dépend pas de nous. »",
+          "Kant : le bonheur est « un idéal de l'imagination »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Résumer Épicure à « profiter de tous les plaisirs ».", "correction": "Épicure prône une vie simple et la modération des désirs." },
+        { "erreur": "Confondre bonheur et richesse.", "correction": "La richesse peut aider, mais ne suffit pas (désirs illimités, inquiétude)." },
+        { "erreur": "Oublier la dimension collective du bonheur.", "correction": "Pense aussi à la justice sociale et aux liens avec les autres." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue plaisir, joie et bonheur.",
+          "indice": "Durée et profondeur.",
+          "corrige": [
+            "Plaisir : satisfaction d'un besoin ou d'un désir, souvent corporelle et brève.",
+            "Joie : émotion intense liée à un événement heureux.",
+            "Bonheur : état de satisfaction globale et durable de toute une vie."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Le progrès rend-il l'homme heureux ? »",
+          "indice": "Confort matériel / nouveaux problèmes.",
+          "corrige": [
+            "Le progrès (médecine, électricité, téléphone) améliore la vie ; mais il crée aussi pollution, inégalités et nouveaux besoins.",
+            "Problématique : le bonheur dépend-il des progrès matériels, ou d'une sagesse que la technique ne peut pas fournir ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Le progrès rend-il l'homme heureux ? »",
+          "indice": "Condorcet / Rousseau / sagesse.",
+          "corrige": [
+            "I. Le progrès contribue au bonheur : santé, confort, communication ; Condorcet croyait au perfectionnement indéfini de l'humanité.",
+            "II. Mais il ne suffit pas : Rousseau montre que les progrès des sciences et des arts n'ont pas rendu les hommes meilleurs ; désirs sans fin, inégalités, menaces écologiques.",
+            "III. Le bonheur exige une sagesse : maîtrise des désirs (Épicure, stoïciens) et usage juste du progrès au service de tous."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur le bonheur",
+        "etapes": [
+          "Distingue bonheur, plaisir, satisfaction, bien-être.",
+          "Utilise les sagesses antiques avec exactitude.",
+          "Pense au lien avec la morale et la société."
+        ]
+      }
+    },
+    "langage": {
+      "objectifs": [
+        "Distinguer le langage humain de la communication animale.",
+        "Analyser le rapport entre langage et pensée.",
+        "Discuter le pouvoir et les limites des mots (vérité, manipulation)."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "Le langage humain est un système de signes arbitraires (Saussure) qui permet de produire une infinité de phrases nouvelles.",
+          "Benveniste : la danse des abeilles transmet un message mais sans dialogue ni création ; ce n'est pas un langage au sens humain.",
+          "Descartes : les animaux n'ont pas de langage véritable, signe qu'ils ne pensent pas comme l'homme.",
+          "Hegel : nous pensons dans les mots ; Bergson : les mots sont des étiquettes générales qui trahissent la singularité de nos sentiments.",
+          "Le langage peut servir la vérité (dialogue, science) ou la manipulation (propagande, rumeur)."
+        ],
+        "formules": [
+          "Saussure : le signe linguistique est arbitraire",
+          "Hegel : « C'est dans les mots que nous pensons. »",
+          "Bergson : les mots sont des « étiquettes »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que les animaux parlent comme nous.", "correction": "Ils communiquent, mais sans système de signes créatif et sans dialogue." },
+        { "erreur": "Confondre langue et langage.", "correction": "Le langage est la faculté ; une langue (bambara, wolof, français) en est une réalisation." },
+        { "erreur": "Affirmer que tout peut être dit sans nuance.", "correction": "Pense à l'ineffable (émotion, mystique) et aux limites des mots." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue langage, langue et parole.",
+          "indice": "Faculté / système / usage individuel.",
+          "corrige": [
+            "Langage : faculté humaine de communiquer par des signes.",
+            "Langue : système de signes propre à une communauté (le wolof, le français).",
+            "Parole : usage personnel de la langue par un individu."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « Les mots trahissent-ils la pensée ? »",
+          "indice": "Bergson vs Hegel.",
+          "corrige": [
+            "Nous peinons parfois à dire ce que nous ressentons ; pourtant sans mots notre pensée resterait confuse.",
+            "Problématique : le langage est-il un obstacle qui déforme la pensée, ou l'instrument même qui lui permet d'exister clairement ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « Les mots trahissent-ils la pensée ? »",
+          "indice": "Étiquettes / pensée dans les mots / art et effort d'expression.",
+          "corrige": [
+            "I. Oui : les mots sont généraux et ne saisissent pas l'unique (Bergson) ; on ne trouve pas toujours ses mots.",
+            "II. Non : la pensée n'existe clairement que dans les mots (Hegel) ; l'ineffable est souvent une pensée confuse.",
+            "III. Le langage s'enrichit par l'effort : la poésie et les proverbes africains disent l'indicible ; bien parler, c'est bien penser."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur le langage",
+        "etapes": [
+          "Distingue communication animale et langage humain avec un exemple précis.",
+          "Mobilise le couple langage / pensée.",
+          "Pense aux enjeux moraux et politiques (vérité, mensonge, propagande)."
+        ]
+      }
+    },
+    "verite": {
+      "objectifs": [
+        "Définir la vérité et la distinguer de la réalité et de l'opinion.",
+        "Présenter les critères de la vérité.",
+        "Discuter le relativisme et le doute."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La vérité est une qualité d'un jugement : un énoncé est vrai s'il correspond à la réalité (vérité-correspondance).",
+          "Elle se distingue de l'opinion, croyance non justifiée (Platon : sortir de la caverne).",
+          "Descartes : est vrai ce que je conçois clairement et distinctement (critère de l'évidence), après le doute méthodique.",
+          "Vérités formelles (mathématiques : cohérence) et vérités expérimentales (sciences : vérification).",
+          "Nietzsche critique l'idée d'une vérité absolue ; mais le relativisme total se contredit lui-même."
+        ],
+        "formules": [
+          "Vérité = accord du jugement avec la réalité",
+          "Descartes : l'évidence (« clair et distinct »)",
+          "Nietzsche : les vérités sont « des illusions dont on a oublié qu'elles le sont »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre vérité et réalité.", "correction": "La réalité est ce qui est ; la vérité qualifie ce que l'on DIT de la réalité." },
+        { "erreur": "Dire « chacun sa vérité » sans examen.", "correction": "Si tout se vaut, la phrase « chacun sa vérité » ne vaut pas plus que son contraire." },
+        { "erreur": "Assimiler sincérité et vérité.", "correction": "On peut être sincère et se tromper." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Distingue vérité, réalité, opinion et sincérité.",
+          "indice": "Qu'est-ce qui qualifie un jugement, une chose, une attitude ?",
+          "corrige": [
+            "Réalité : ce qui existe. Vérité : accord d'un jugement avec la réalité.",
+            "Opinion : jugement non démontré. Sincérité : accord entre ce que l'on dit et ce que l'on pense."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « La vérité est-elle relative ? »",
+          "indice": "Diversité des opinions / universalité des sciences.",
+          "corrige": [
+            "Les hommes ne sont pas d'accord et les vérités semblent varier selon les cultures et les époques ; pourtant 2 + 2 = 4 partout.",
+            "Problématique : la vérité dépend-elle des individus et des cultures, ou existe-t-il des vérités universelles ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « La vérité est-elle relative ? »",
+          "indice": "Relativisme / vérités universelles / vérité comme recherche.",
+          "corrige": [
+            "I. Elle paraît relative : diversité des croyances, révisions des théories scientifiques, critique de Nietzsche.",
+            "II. Mais il existe des vérités universelles : mathématiques, faits établis ; le relativisme absolu se contredit.",
+            "III. La vérité est une recherche : on s'en approche par le doute méthodique (Descartes), le dialogue et la vérification."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets sur la vérité",
+        "etapes": [
+          "Définis clairement vérité, réalité, opinion.",
+          "Distingue domaines : mathématiques, sciences, morale, religion.",
+          "Évite le relativisme facile : argumente."
+        ]
+      }
+    },
+    "science": {
+      "objectifs": [
+        "Décrire la démarche scientifique (observation, hypothèse, expérimentation).",
+        "Expliquer le rôle de la théorie et de l'expérience.",
+        "Présenter les critères de scientificité (Popper) et les limites de la science."
+      ],
+      "prerequis": ["Méthode de la dissertation."],
+      "a_retenir": {
+        "points": [
+          "La science cherche des lois générales vérifiables ; elle se distingue de l'opinion et du sens commun.",
+          "Claude Bernard : méthode expérimentale en trois temps (observation, hypothèse, expérimentation).",
+          "Bachelard : la connaissance scientifique se construit contre des obstacles (préjugés, première impression).",
+          "Popper : une théorie est scientifique si elle est réfutable par l'expérience ; aucune théorie n'est définitivement prouvée.",
+          "Mathématiques et logique : sciences formelles qui démontrent sans recourir à l'expérience."
+        ],
+        "formules": [
+          "Claude Bernard : observation → hypothèse → expérimentation",
+          "Popper : le critère de réfutabilité (falsifiabilité)",
+          "Bachelard : « Rien ne va de soi. Rien n'est donné. Tout est construit. »"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que la science prouve tout définitivement.", "correction": "Les théories sont révisables (Newton complété par Einstein)." },
+        { "erreur": "Opposer science et philosophie.", "correction": "La philosophie réfléchit sur les méthodes et les limites de la science (épistémologie)." },
+        { "erreur": "Confondre science et technique.", "correction": "La science vise à connaître ; la technique à produire et transformer." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne les étapes de la méthode expérimentale avec un exemple simple.",
+          "indice": "Exemple : des plants de mil qui jaunissent.",
+          "corrige": [
+            "Observation : les plants de mil jaunissent dans une partie du champ.",
+            "Hypothèse : le sol de cette partie manque d'azote.",
+            "Expérimentation : on ajoute de l'engrais azoté à quelques plants (et on garde des témoins) ; s'ils reverdissent, l'hypothèse est confirmée."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Problématise : « L'expérience suffit-elle à fonder la connaissance scientifique ? »",
+          "indice": "Rôle de la théorie, des hypothèses, des mathématiques.",
+          "corrige": [
+            "La science s'appuie sur des faits ; mais les faits ne parlent pas seuls : il faut une hypothèse pour savoir quoi observer.",
+            "Problématique : la connaissance scientifique vient-elle de l'expérience, ou d'une construction de la raison que l'expérience vient tester ?"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Plan détaillé : « L'expérience suffit-elle à fonder la connaissance scientifique ? »",
+          "indice": "Empirisme / rôle de la théorie / réfutabilité.",
+          "corrige": [
+            "I. L'expérience est indispensable : la science part de l'observation (Bacon) et doit être vérifiée (Claude Bernard).",
+            "II. Mais elle ne suffit pas : sans hypothèse, pas d'expérience utile ; le fait scientifique est construit (Bachelard) ; les mathématiques démontrent sans expérience.",
+            "III. Théorie et expérience coopèrent : la théorie propose, l'expérience teste et peut réfuter (Popper)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les sujets d'épistémologie",
+        "etapes": [
+          "Appuie-toi sur un exemple scientifique précis et correct.",
+          "Distingue sciences expérimentales et sciences formelles.",
+          "Termine sur les limites et la responsabilité de la science."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-lycee-philosophie-la-dissertation-philosophique-": "methodo-dissertation",
+    "mali-lycee-philosophie-sti-stg-technique-de-la-dissertation-": "methodo-dissertation",
+    "cote-ivoire-lycee-philosophie-le-commentaire-de-texte-philos": "methodo-commentaire",
+    "mali-lycee-philosophie-sti-stg-technique-de-l-explication-de": "methodo-commentaire",
+    "burkina-faso-lycee-philosophie-la-conscience-l-inconscient": "conscience-inconscient",
+    "cote-ivoire-lycee-philosophie-la-connaissance-de-l-homme": "conscience-inconscient",
+    "cote-ivoire-lycee-philosophie-la-vie-en-societe": "societe-etat",
+    "burkina-faso-lycee-philosophie-societe-et-pouvoir": "societe-etat",
+    "burkina-faso-lycee-philosophie-l-etat": "societe-etat",
+    "senegal-lycee-philosophie-l-la-vie-sociale-nature-et-culture": "societe-etat",
+    "burkina-faso-lycee-philosophie-la-nature-et-la-culture": "nature-culture",
+    "cote-ivoire-lycee-philosophie-dieu-et-la-religion": "religion",
+    "burkina-faso-lycee-philosophie-la-religion": "religion",
+    "mali-lycee-philosophie-sti-stg-raison-et-croyance": "religion",
+    "burkina-faso-lycee-philosophie-l-irrationnel-et-le-sens": "religion",
+    "cote-ivoire-lycee-philosophie-l-histoire-de-l-humanite": "histoire",
+    "burkina-faso-lycee-philosophie-l-histoire": "histoire",
+    "cote-ivoire-lycee-philosophie-la-valeur-de-la-philosophie": "philosophie",
+    "senegal-lycee-philosophie-l-la-reflexion-philosophique-origi": "philosophie",
+    "cote-ivoire-lycee-philosophie-progres-et-bonheur": "bonheur",
+    "burkina-faso-lycee-philosophie-le-bonheur": "bonheur",
+    "cote-ivoire-lycee-philosophie-langage-et-verite": "langage",
+    "burkina-faso-lycee-philosophie-le-langage": "langage",
+    "burkina-faso-lycee-philosophie-la-verite": "verite",
+    "cote-ivoire-lycee-philosophie-la-connaissance-scientifique": "science",
+    "burkina-faso-lycee-philosophie-la-theorie-et-l-experience": "science",
+    "senegal-lycee-philosophie-l-epistemologie-emergence-de-la-pe": "science",
+    "benin-lycee-philosophie-a-sequence-d-apprentissage-2-la-conn": "science",
+    "burkina-faso-lycee-philosophie-logique-et-mathematiques": "science",
+    "burkina-faso-lycee-philosophie-la-connaissance-du-vivant": "science"
+  }
+}
