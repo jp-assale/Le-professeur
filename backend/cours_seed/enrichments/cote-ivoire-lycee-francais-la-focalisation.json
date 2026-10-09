@@ -1,0 +1,72 @@
+{
+  "_topic": "focalisation",
+  "objectifs": [
+    "Distinguer auteur et narrateur.",
+    "Identifier les trois points de vue narratifs.",
+    "Expliquer l'effet du choix de focalisation."
+  ],
+  "prerequis": [
+    "Lecture d'un récit."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'auteur écrit le livre ; le narrateur raconte l'histoire (il peut être un personnage).",
+      "Focalisation zéro (omnisciente) : le narrateur sait tout, y compris les pensées de tous les personnages et le passé ou l'avenir.",
+      "Focalisation interne : le récit est perçu à travers un personnage ; on ne connaît que ses perceptions et ses pensées.",
+      "Focalisation externe : le narrateur décrit de l'extérieur, comme une caméra, sans accès aux pensées.",
+      "Le choix du point de vue crée la proximité, le suspense ou le mystère."
+    ],
+    "formules": [
+      "Zéro : sait tout ; interne : voit par un personnage ; externe : voit de l'extérieur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'un récit à la 3e personne est forcément omniscient.",
+      "correction": "La focalisation interne peut s'écrire à la 3e personne (« il sentait… »)."
+    },
+    {
+      "erreur": "Confondre auteur et narrateur.",
+      "correction": "Dans « L'Enfant noir », le narrateur est l'enfant ; l'auteur est Camara Laye adulte."
+    },
+    {
+      "erreur": "Identifier le point de vue sans justifier.",
+      "correction": "Cite les indices (verbes de perception, accès aux pensées)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quel point de vue ? « L'homme entra, posa son sac et sortit sans un mot. On ne sut jamais d'où il venait. »",
+      "indice": "Accès aux pensées ?",
+      "corrige": [
+        "Focalisation externe : on voit seulement les gestes, sans connaître les pensées ni l'identité du personnage."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Réécris la phrase précédente en focalisation interne (du point de vue de l'homme).",
+      "indice": "Ajoute ses perceptions et pensées.",
+      "corrige": [
+        "Modèle : « Il entra, épuisé ; ce sac lui sciait l'épaule. Il le posa et ressortit aussitôt, pressé de fuir ces regards qu'il sentait sur lui. »"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pourquoi un romancier choisirait-il la focalisation interne pour raconter l'arrivée d'un enfant dans une grande ville ? Donne deux effets.",
+      "indice": "Identification, découverte.",
+      "corrige": [
+        "Le lecteur découvre la ville avec les yeux de l'enfant : il partage son émerveillement ou sa peur (identification).",
+        "Les limites du point de vue créent du suspense et une vision subjective, parfois naïve, qui peut aussi critiquer la société."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le point de vue narratif",
+    "etapes": [
+      "Repère qui perçoit (verbes de perception, pensées rapportées).",
+      "Nomme la focalisation et justifie avec des citations.",
+      "Explique l'effet sur le lecteur."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_topic": "oeuvre-narrative",
+  "objectifs": [
+    "Situer une œuvre narrative (auteur, contexte, genre).",
+    "Analyser personnages, structure du récit, narration et thèmes.",
+    "Exploiter l'œuvre pour un exposé, un commentaire ou une dissertation."
+  ],
+  "prerequis": [
+    "Focalisation, temps verbaux, schéma narratif."
+  ],
+  "a_retenir": {
+    "points": [
+      "Schéma narratif : situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale.",
+      "Personnages : héros, adjuvants, opposants (schéma actantiel) ; portrait physique et moral.",
+      "Narration : narrateur, focalisation, ordre du récit (retours en arrière), rythme (scène, sommaire, ellipse).",
+      "Thèmes fréquents de la littérature africaine : colonisation, indépendances et désillusions, tradition et modernité, condition de la femme, exil.",
+      "Une fiche de lecture : références, résumé, personnages, thèmes, citations clés, avis argumenté."
+    ],
+    "formules": [
+      "Schéma narratif en 5 étapes",
+      "Fiche : auteur / résumé / personnages / thèmes / citations"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Résumer toute l'histoire au lieu d'analyser.",
+      "correction": "Sélectionne les passages utiles à ton propos."
+    },
+    {
+      "erreur": "Confondre auteur et narrateur.",
+      "correction": "Le narrateur est une instance du texte, pas forcément l'écrivain."
+    },
+    {
+      "erreur": "Ne pas apprendre de citations.",
+      "correction": "Retiens quelques phrases courtes et marquantes."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Rappelle les cinq étapes du schéma narratif.",
+      "indice": "Du début à la fin du récit.",
+      "corrige": [
+        "Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dans un roman de ton programme, présente le héros (portrait physique et moral, rôle dans l'histoire) en 5 à 6 lignes.",
+      "indice": "Exemple : Fama dans Les Soleils des indépendances.",
+      "corrige": [
+        "Modèle : Fama Doumbouya, dernier prince malinké du Horodougou, a perdu son pouvoir avec la colonisation puis les indépendances. Fier et nostalgique, il refuse le monde nouveau et vit dans la misère. À travers lui, Kourouma montre la décadence des anciennes chefferies et les désillusions des indépendances."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Choisis un roman étudié et montre, en un paragraphe argumenté, comment il illustre le conflit entre tradition et modernité.",
+      "indice": "Thèse, exemple précis, analyse.",
+      "corrige": [
+        "Critères : thèse claire, au moins deux exemples précis (personnages, scènes), analyse de leur signification, conclusion. Exemple possible : L'Aventure ambiguë (Cheikh Hamidou Kane), où Samba Diallo est déchiré entre l'école coranique et l'école occidentale."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'œuvre intégrale",
+    "etapes": [
+      "Prépare une fiche complète de chaque œuvre au programme.",
+      "Apprends quelques citations et scènes clés.",
+      "Utilise l'œuvre comme argument, sans la résumer."
+    ]
+  }
+}

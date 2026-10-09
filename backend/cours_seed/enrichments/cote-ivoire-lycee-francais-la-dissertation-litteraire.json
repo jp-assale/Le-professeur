@@ -1,0 +1,76 @@
+{
+  "_topic": "dissertation-litteraire",
+  "objectifs": [
+    "Analyser un sujet de dissertation littéraire (citation, consigne).",
+    "Construire un plan adapté (dialectique, analytique, thématique).",
+    "Argumenter avec des exemples précis tirés des œuvres."
+  ],
+  "prerequis": [
+    "Œuvres étudiées en classe.",
+    "Argumentation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Analyse : repérer la thèse de la citation, définir ses mots-clés, identifier la consigne (discutez, expliquez, commentez, justifiez).",
+      "« Discutez » appelle un plan dialectique ; « expliquez » ou « justifiez », un plan analytique ou thématique.",
+      "Chaque argument est illustré par un exemple précis (titre, auteur, personnage, passage).",
+      "Mobilise les œuvres africaines au programme : Kourouma (Les Soleils des indépendances), Hampâté Bâ (L'étrange destin de Wangrin), Senghor, Damas, David Diop, Bernard Dadié, Seydou Badian, Cheikh Aliou Ndao…",
+      "Introduction : amorce, citation, problématique, annonce du plan ; conclusion : bilan, ouverture."
+    ],
+    "formules": [
+      "Argument + exemple littéraire précis",
+      "Consigne → type de plan"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Raconter l'intrigue d'un roman.",
+      "correction": "Utilise l'œuvre comme preuve d'un argument, brièvement."
+    },
+    {
+      "erreur": "Exemples vagues (« dans un roman africain… »).",
+      "correction": "Donne le titre, l'auteur et un passage ou un personnage."
+    },
+    {
+      "erreur": "Ignorer la consigne.",
+      "correction": "« Discutez » exige d'examiner aussi les limites de la thèse."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Sujet : « Le roman africain est avant tout un témoignage sur la société. » Discutez. Quelle est la thèse ? Quel type de plan ?",
+      "indice": "La consigne est « discutez ».",
+      "corrige": [
+        "Thèse : le roman africain a d'abord une fonction de témoignage social.",
+        "Plan dialectique (thèse, limites, dépassement)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Propose une problématique pour ce sujet.",
+      "indice": "Témoignage / œuvre d'art.",
+      "corrige": [
+        "Le roman africain se réduit-il à un document sur la société, ou est-il aussi une création artistique qui dépasse le simple témoignage ?"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Propose un plan détaillé avec un exemple par partie.",
+      "indice": "Kourouma, Hampâté Bâ…",
+      "corrige": [
+        "I. Le roman témoigne de la société : Les Soleils des indépendances (Kourouma) montre les désillusions après les indépendances.",
+        "II. Mais il est aussi une création littéraire : Kourouma « malinkise » le français ; L'étrange destin de Wangrin (Hampâté Bâ) mêle humour, conte et portrait d'un personnage rusé.",
+        "III. Le témoignage passe par l'art : c'est la force de l'écriture qui rend la critique sociale durable et universelle."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : la dissertation littéraire",
+    "etapes": [
+      "Analyse la citation et la consigne au brouillon.",
+      "Construis un plan avec des exemples précis préparés à l'avance.",
+      "Soigne transitions, langue et présentation."
+    ]
+  }
+}

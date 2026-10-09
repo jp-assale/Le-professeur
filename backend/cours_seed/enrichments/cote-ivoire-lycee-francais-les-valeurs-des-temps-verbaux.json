@@ -1,0 +1,75 @@
+{
+  "_topic": "temps-verbaux",
+  "objectifs": [
+    "Identifier les valeurs du présent, de l'imparfait, du passé simple et du passé composé.",
+    "Distinguer premier plan et arrière-plan dans un récit.",
+    "Interpréter l'emploi des temps dans un texte."
+  ],
+  "prerequis": [
+    "Conjugaison des temps de l'indicatif."
+  ],
+  "a_retenir": {
+    "points": [
+      "Présent : d'énonciation (maintenant), de vérité générale, d'habitude, de narration (rend le récit vivant).",
+      "Passé simple : actions de premier plan, ponctuelles et successives, qui font avancer le récit.",
+      "Imparfait : arrière-plan (descriptions, circonstances), actions habituelles ou en cours.",
+      "Passé composé : action passée en lien avec le présent de l'énonciateur (discours, récit à la 1re personne).",
+      "Futur : projection, promesse, prédiction ; conditionnel : hypothèse, souhait atténué."
+    ],
+    "formules": [
+      "Premier plan : passé simple ; arrière-plan : imparfait",
+      "Présent de vérité générale : « La terre tourne autour du soleil. »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre imparfait et passé simple à la 1re personne du singulier (je marchais / je marchai).",
+      "correction": "Imparfait en -ais ; passé simple en -ai (verbes du 1er groupe)."
+    },
+    {
+      "erreur": "Donner seulement le nom du temps.",
+      "correction": "Précise sa VALEUR dans le contexte et son effet."
+    },
+    {
+      "erreur": "Mélanger les temps sans raison dans une rédaction.",
+      "correction": "Choisis un système (présent ou passé) et tiens-le."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la valeur du présent : a) « Je t'écris de Ouagadougou. » b) « L'eau bout à 100 °C. » c) « Chaque matin, il va au champ. »",
+      "indice": "Moment présent, vérité, habitude.",
+      "corrige": [
+        "a) Présent d'énonciation.",
+        "b) Présent de vérité générale.",
+        "c) Présent d'habitude."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Justifie les temps : « Il pleuvait depuis l'aube. Soudain, la porte s'ouvrit et un homme entra. »",
+      "indice": "Arrière-plan / premier plan.",
+      "corrige": [
+        "« pleuvait » (imparfait) : arrière-plan, décor durable.",
+        "« s'ouvrit », « entra » (passé simple) : actions soudaines et successives de premier plan, introduites par « soudain »."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pourquoi un auteur passe-t-il brusquement du passé simple au présent au moment d'une scène d'accident ? Explique l'effet.",
+      "indice": "Présent de narration.",
+      "corrige": [
+        "C'est un présent de narration : il rapproche l'action du lecteur, la rend plus vivante et plus dramatique, comme si elle se déroulait sous ses yeux."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : les valeurs des temps",
+    "etapes": [
+      "Identifie le temps et le mode.",
+      "Donne sa valeur précise dans la phrase.",
+      "Explique l'effet produit dans le texte."
+    ]
+  }
+}

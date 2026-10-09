@@ -1,0 +1,77 @@
+{
+  "_topic": "argumentation",
+  "objectifs": [
+    "Identifier la thèse, les arguments et les exemples d'un texte argumentatif.",
+    "Repérer les connecteurs logiques et les types de raisonnement.",
+    "Produire un paragraphe ou un texte argumentatif structuré, y compris sous forme de dialogue."
+  ],
+  "prerequis": [
+    "Construction du paragraphe."
+  ],
+  "a_retenir": {
+    "points": [
+      "Thèse : opinion défendue ; argument : raison qui soutient la thèse ; exemple : fait concret qui illustre l'argument.",
+      "Connecteurs : addition (de plus, en outre), cause (car, en effet), conséquence (donc, ainsi), opposition (mais, cependant), concession (certes… mais).",
+      "Raisonnements : déductif (du général au particulier), inductif (des exemples à la règle), par analogie, par l'absurde, concessif.",
+      "Convaincre s'adresse à la raison ; persuader joue aussi sur les émotions.",
+      "Un paragraphe argumentatif : idée directrice, argument expliqué, exemple, phrase de conclusion."
+    ],
+    "formules": [
+      "Paragraphe = idée + explication + exemple + bilan",
+      "Concession : « Certes…, mais… »"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre argument et exemple.",
+      "correction": "L'argument est une idée générale ; l'exemple est un fait précis qui l'illustre."
+    },
+    {
+      "erreur": "Juxtaposer les idées sans connecteurs.",
+      "correction": "Relie tes idées : la logique doit être visible."
+    },
+    {
+      "erreur": "Dans un dialogue argumenté, faire parler les personnages sans échange réel.",
+      "correction": "Chaque réplique répond à la précédente (objection, réfutation, concession)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Dans le passage : « Le téléphone portable est utile aux élèves. En effet, il permet de faire des recherches. Par exemple, Ali y consulte un dictionnaire. » identifie thèse, argument, exemple et connecteur.",
+      "indice": "Quelle phrase est la plus générale ?",
+      "corrige": [
+        "Thèse : le portable est utile aux élèves.",
+        "Argument : il permet de faire des recherches.",
+        "Exemple : Ali consulte un dictionnaire.",
+        "Connecteurs : « en effet » (justification), « par exemple » (illustration)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Rédige un paragraphe concessif sur le sujet : « Faut-il interdire le portable au collège ? » (5 à 7 lignes).",
+      "indice": "Certes… mais…",
+      "corrige": [
+        "Critères : une concession, une opposition, un argument expliqué, un exemple, une conclusion.",
+        "Modèle : « Certes, le portable peut aider l'élève à faire des recherches ou à joindre ses parents. Cependant, en classe, il détourne l'attention : un élève qui consulte ses messages n'écoute plus le professeur. De plus, il favorise la triche pendant les devoirs. C'est pourquoi il paraît raisonnable de l'interdire pendant les cours, tout en l'autorisant à la sortie. »"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Écris un dialogue argumenté (12 à 15 lignes) entre un père qui veut marier sa fille de 15 ans et la fille qui veut poursuivre ses études.",
+      "indice": "Arguments, objections, réfutations ; ponctuation du dialogue.",
+      "corrige": [
+        "Critères : présentation (tirets, verbes de parole variés), au moins trois arguments de chaque côté, réponses aux objections, connecteurs, dénouement (accord, compromis ou refus argumenté), respect du niveau de langue.",
+        "Arguments possibles de la fille : santé (grossesse précoce dangereuse), avenir professionnel, autonomie, loi sur l'âge du mariage. Du père : tradition, sécurité, difficultés financières ; la fille peut les réfuter (bourses, métier futur pour aider la famille)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'argumentation",
+    "etapes": [
+      "Repère ou formule la thèse en une phrase.",
+      "Organise tes arguments du plus faible au plus fort, chacun avec un exemple.",
+      "Utilise des connecteurs variés et conclus clairement."
+    ]
+  }
+}

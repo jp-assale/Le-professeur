@@ -1,0 +1,73 @@
+{
+  "_topic": "enonciation",
+  "objectifs": [
+    "Identifier la situation d'énonciation (qui parle, à qui, où, quand).",
+    "Distinguer énoncé ancré dans la situation et énoncé coupé de la situation.",
+    "Repérer les modalisateurs et l'implication de l'énonciateur."
+  ],
+  "prerequis": [
+    "Pronoms personnels, temps verbaux."
+  ],
+  "a_retenir": {
+    "points": [
+      "La situation d'énonciation : l'énonciateur (je), le destinataire (tu/vous), le lieu (ici) et le moment (maintenant) de l'énonciation.",
+      "Énoncé ancré : présence de « je, tu, ici, maintenant, hier, demain », temps du discours (présent, passé composé, futur).",
+      "Énoncé coupé (récit) : 3e personne, « ce jour-là, la veille », temps du récit (passé simple, imparfait).",
+      "Les modalisateurs (adverbes comme « peut-être, sans doute », verbes comme « je crois », vocabulaire mélioratif ou péjoratif) montrent le degré de certitude et le jugement de l'énonciateur.",
+      "Paroles rapportées : discours direct, indirect, indirect libre."
+    ],
+    "formules": [
+      "Indices : je / tu / ici / maintenant",
+      "Modalisateur = trace de l'opinion de l'énonciateur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre l'auteur et le narrateur ou l'énonciateur.",
+      "correction": "L'énonciateur est celui qui parle dans le texte ; il peut être un personnage."
+    },
+    {
+      "erreur": "Oublier les indices de temps et de lieu.",
+      "correction": "« Hier », « ici » ancrent l'énoncé dans la situation."
+    },
+    {
+      "erreur": "Ne pas relier les modalisateurs au point de vue.",
+      "correction": "Dis ce qu'ils révèlent : certitude, doute, admiration, critique."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "« Demain, je viendrai te voir ici, à Bouaké. » Relève les indices de l'énonciation.",
+      "indice": "Personnes, lieu, temps.",
+      "corrige": [
+        "Je (énonciateur), te (destinataire), ici / à Bouaké (lieu), demain (temps), futur « viendrai »."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Transforme au discours indirect : Le maître dit : « Je corrigerai vos copies demain. »",
+      "indice": "Changement de personne et d'indicateur de temps.",
+      "corrige": [
+        "Le maître dit qu'il corrigera nos (leurs) copies le lendemain (si le récit est au passé : « Le maître dit qu'il corrigerait leurs copies le lendemain »)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "« Ce prétendu progrès, qui ruine sans doute nos campagnes, n'est qu'une illusion. » Relève les modalisateurs et dis ce qu'ils révèlent de l'énonciateur.",
+      "indice": "Termes de jugement et de certitude.",
+      "corrige": [
+        "« prétendu » (dévalorisant), « sans doute » (degré de certitude), « ruine » et « illusion » (vocabulaire péjoratif), la tournure « n'est qu'une ».",
+        "L'énonciateur s'implique fortement : il critique le progrès et cherche à convaincre de son caractère trompeur."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : analyser l'énonciation",
+    "etapes": [
+      "Réponds aux questions : qui parle ? à qui ? où ? quand ?",
+      "Relève les indices précis (pronoms, temps, déictiques).",
+      "Interprète : implication ou effacement de l'énonciateur, visée du texte."
+    ]
+  }
+}

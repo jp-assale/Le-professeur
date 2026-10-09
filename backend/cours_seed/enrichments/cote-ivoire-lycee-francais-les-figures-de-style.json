@@ -1,0 +1,76 @@
+{
+  "_topic": "figures-de-style",
+  "objectifs": [
+    "Identifier les principales figures de style.",
+    "Expliquer l'effet produit par une figure dans un texte.",
+    "Utiliser les figures dans un commentaire."
+  ],
+  "prerequis": [
+    "Vocabulaire de base de l'analyse de texte."
+  ],
+  "a_retenir": {
+    "points": [
+      "Figures d'analogie : comparaison (avec un outil : comme, tel, pareil à), métaphore (sans outil), personnification, allégorie.",
+      "Figures d'insistance : anaphore (répétition en début de vers ou de phrase), gradation, hyperbole, énumération.",
+      "Figures d'opposition : antithèse (idées opposées rapprochées), oxymore (deux mots contradictoires associés), chiasme (structure ABBA).",
+      "Figures d'atténuation : litote (dire moins pour suggérer plus), euphémisme (adoucir une réalité pénible).",
+      "Relever une figure ne suffit pas : il faut toujours dire son effet (insister, émouvoir, critiquer, embellir)."
+    ],
+    "formules": [
+      "Figure = relevé exact + nom + effet produit",
+      "Comparaison : comparé + outil + comparant ; métaphore : sans outil"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre comparaison et métaphore.",
+      "correction": "S'il y a un outil de comparaison (comme, tel), c'est une comparaison."
+    },
+    {
+      "erreur": "Prendre toute répétition pour une anaphore.",
+      "correction": "L'anaphore répète un mot en DÉBUT de vers, de phrase ou de proposition."
+    },
+    {
+      "erreur": "Nommer la figure sans en donner l'effet.",
+      "correction": "Ajoute : « …ce qui souligne / renforce / traduit… »."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Nomme la figure : a) « Ses yeux brillaient comme deux étoiles. » b) « Cette femme est une lionne. » c) « Une obscure clarté. » d) « Il nous a quittés » (pour dire « il est mort »).",
+      "indice": "Outil de comparaison ? mots contradictoires ? atténuation ?",
+      "corrige": [
+        "a) Comparaison.",
+        "b) Métaphore.",
+        "c) Oxymore.",
+        "d) Euphémisme."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Relève et analyse la figure : « Je marche, je cours, je vole vers toi. »",
+      "indice": "Observe la progression des verbes.",
+      "corrige": [
+        "C'est une gradation (marcher → courir → voler) : la vitesse croissante traduit l'impatience et l'intensité du désir de retrouver l'être aimé."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans le vers de Senghor « Femme nue, femme noire / Vêtue de ta couleur qui est vie, de ta forme qui est beauté », relève deux procédés et explique leur effet.",
+      "indice": "Répétition en tête de groupe, et association de « nue » / « vêtue ».",
+      "corrige": [
+        "Anaphore de « femme » : elle insiste sur la célébration de la femme africaine et donne au poème le ton d'un chant.",
+        "Antithèse « nue » / « vêtue » : la femme est vêtue de sa propre couleur ; la couleur noire devient une parure, symbole de vie et de beauté (éloge de la négritude)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : exploiter les figures de style",
+    "etapes": [
+      "Cite le passage entre guillemets.",
+      "Nomme précisément la figure.",
+      "Explique son effet en lien avec l'idée du paragraphe."
+    ]
+  }
+}

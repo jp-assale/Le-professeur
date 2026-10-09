@@ -1,0 +1,72 @@
+{
+  "_topic": "lettre",
+  "objectifs": [
+    "Distinguer lettre privée et lettre officielle.",
+    "Respecter la présentation et les formules de chaque type de lettre.",
+    "Rédiger une lettre adaptée à son destinataire et à son objet."
+  ],
+  "prerequis": [
+    "Niveaux de langue."
+  ],
+  "a_retenir": {
+    "points": [
+      "Lettre privée : lieu et date, formule d'appel familière (Cher ami), corps de la lettre, formule finale affectueuse, signature ; niveau de langue courant ou familier.",
+      "Lettre officielle (demande, réclamation) : expéditeur en haut à gauche, lieu et date à droite, destinataire, objet, formule d'appel (Monsieur le Directeur), corps structuré, formule de politesse, signature.",
+      "Le corps de la lettre officielle : situation, demande précise, justification, remerciements.",
+      "Niveau de langue soutenu, phrases claires, vouvoiement.",
+      "Formule finale officielle : « Veuillez agréer, Monsieur le Directeur, l'expression de mes salutations distinguées »."
+    ],
+    "formules": [
+      "Officielle : expéditeur / lieu et date / destinataire / objet / appel / corps / politesse / signature"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier l'objet dans une lettre officielle.",
+      "correction": "« Objet : demande d'autorisation d'absence »."
+    },
+    {
+      "erreur": "Tutoyer le destinataire officiel ou utiliser le langage familier.",
+      "correction": "Vouvoiement et langage soutenu."
+    },
+    {
+      "erreur": "Formule finale qui ne reprend pas la formule d'appel.",
+      "correction": "Si tu écris « Monsieur le Directeur », reprends-le dans la formule finale."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Écris la formule d'appel et la formule finale d'une lettre adressée au proviseur de ton lycée.",
+      "indice": "Reprends le titre dans les deux formules.",
+      "corrige": [
+        "Appel : « Monsieur le Proviseur, ».",
+        "Finale : « Veuillez agréer, Monsieur le Proviseur, l'expression de mes salutations respectueuses. »"
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Rédige l'en-tête complet (expéditeur, lieu et date, destinataire, objet) d'une lettre au maire pour demander un terrain de football pour ton quartier.",
+      "indice": "Disposition officielle.",
+      "corrige": [
+        "Modèle : en haut à gauche : nom, prénom, adresse de l'expéditeur ; à droite : « Koudougou, le 10 octobre 2026 » ; dessous à droite : « À Monsieur le Maire de la commune de Koudougou » ; « Objet : demande d'un terrain de football pour le secteur 5 »."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Rédige une lettre officielle (15 à 20 lignes) au directeur de ton collège pour lui demander d'ouvrir la bibliothèque le samedi matin.",
+      "indice": "Situation, demande, arguments, remerciements.",
+      "corrige": [
+        "Critères : présentation officielle complète ; objet clair ; exposé de la situation (manque d'espace de travail, préparation de l'examen) ; demande précise (samedi de 8 h à 12 h) ; deux ou trois arguments ; proposition d'aide (élèves volontaires pour l'organisation) ; formule de politesse adaptée ; langue correcte et soutenue."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : rédiger une lettre",
+    "etapes": [
+      "Identifie le type de lettre, le destinataire et l'objet.",
+      "Respecte la disposition et les formules.",
+      "Structure le corps en paragraphes et relis l'orthographe."
+    ]
+  }
+}

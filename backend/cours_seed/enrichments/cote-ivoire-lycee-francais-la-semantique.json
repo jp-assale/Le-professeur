@@ -1,0 +1,76 @@
+{
+  "_topic": "semantique",
+  "objectifs": [
+    "Distinguer dénotation et connotation.",
+    "Repérer et interpréter un champ lexical.",
+    "Utiliser synonymie, antonymie, polysémie et registres de langue."
+  ],
+  "prerequis": [
+    "Lecture d'un texte littéraire."
+  ],
+  "a_retenir": {
+    "points": [
+      "Dénotation : sens premier, objectif d'un mot ; connotation : sens second, valeurs et émotions associées.",
+      "Champ lexical : ensemble de mots qui se rapportent à un même thème ; il révèle les thèmes du texte.",
+      "Polysémie : un mot a plusieurs sens selon le contexte.",
+      "Vocabulaire mélioratif (valorisant) ou péjoratif (dévalorisant).",
+      "Registres de langue : familier, courant, soutenu."
+    ],
+    "formules": [
+      "Champ lexical = mots d'un même thème",
+      "Connotation = sens suggéré"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre champ lexical et famille de mots.",
+      "correction": "La famille de mots partage un même radical (terre, terrain, enterrer) ; le champ lexical, un même thème."
+    },
+    {
+      "erreur": "Relever un champ lexical sans l'interpréter.",
+      "correction": "Dis ce qu'il révèle (atmosphère, thème, point de vue)."
+    },
+    {
+      "erreur": "Ignorer le contexte d'un mot polysémique.",
+      "correction": "C'est le contexte qui fixe le sens."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la dénotation et une connotation du mot « baobab » dans un poème africain.",
+      "indice": "Arbre / symbole.",
+      "corrige": [
+        "Dénotation : grand arbre de la savane africaine.",
+        "Connotation : force, longévité, sagesse des anciens, enracinement."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Relève le champ lexical dominant : « Les tambours grondent, les balafons chantent, les voix montent, la foule danse jusqu'à l'aube. » Interprète-le.",
+      "indice": "Sons et musique.",
+      "corrige": [
+        "Champ lexical de la musique et de la fête : tambours, grondent, balafons, chantent, voix, danse.",
+        "Il crée une atmosphère de joie collective et de célébration."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Donne trois sens du mot « feuille » selon le contexte et emploie chacun dans une phrase.",
+      "indice": "Arbre, papier, document officiel.",
+      "corrige": [
+        "Partie d'une plante : « Les feuilles du manguier tombent en saison sèche. »",
+        "Morceau de papier : « Prends une feuille double pour le devoir. »",
+        "Document : « Il a reçu sa feuille d'imposition. »"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : l'étude du lexique",
+    "etapes": [
+      "Relève des mots précis, groupés par thème.",
+      "Distingue sens dénoté et sens connoté.",
+      "Interprète : quelle vision ou quelle émotion le vocabulaire traduit-il ?"
+    ]
+  }
+}

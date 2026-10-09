@@ -1,0 +1,74 @@
+{
+  "_topic": "resume",
+  "objectifs": [
+    "Dégager la structure logique d'un texte.",
+    "Réduire un texte au nombre de mots demandé sans trahir son sens.",
+    "Reformuler avec ses propres mots."
+  ],
+  "prerequis": [
+    "Connecteurs logiques, argumentation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le résumé respecte l'ordre des idées et le point de vue de l'auteur (on ne commente pas, on n'ajoute rien).",
+      "On supprime les exemples secondaires, les répétitions, les digressions.",
+      "On reformule : pas de phrases recopiées.",
+      "Les liens logiques du texte doivent rester visibles (mais, donc, en effet).",
+      "On respecte le nombre de mots demandé (avec une tolérance d'environ 10 %) et on l'indique."
+    ],
+    "formules": [
+      "Résumé ≈ 1/4 du texte (ou nombre de mots imposé)",
+      "Ordre + point de vue + logique de l'auteur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire « l'auteur dit que… ».",
+      "correction": "On résume à la place de l'auteur, sans le citer."
+    },
+    {
+      "erreur": "Recopier des phrases du texte.",
+      "correction": "Reformule avec ton propre vocabulaire."
+    },
+    {
+      "erreur": "Garder les exemples au détriment des idées.",
+      "correction": "Garde les idées, supprime les exemples secondaires."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Réduis à une phrase : « Les pluies ont été rares cette année. Les champs de mil ont séché. Les greniers sont vides et les familles s'inquiètent pour la soudure. »",
+      "indice": "Cause → conséquences.",
+      "corrige": [
+        "Modèle : « Faute de pluies, les récoltes ont échoué et les familles redoutent la disette. »"
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Quels éléments supprimer dans un résumé ? Quels éléments garder ?",
+      "indice": "Idées / exemples.",
+      "corrige": [
+        "Supprimer : exemples secondaires, répétitions, citations, détails.",
+        "Garder : thèse, idées principales, enchaînement logique."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un texte de 400 mots doit être résumé au quart. Combien de mots vise-t-on et quelle tolérance accepte-t-on ? Décris ta méthode en quatre étapes.",
+      "indice": "400 ÷ 4.",
+      "corrige": [
+        "100 mots, avec une tolérance d'environ ±10 % (de 90 à 110 mots).",
+        "Méthode : 1) lire et dégager le thème et la thèse ; 2) repérer les paragraphes et les connecteurs pour faire le plan ; 3) rédiger en reformulant chaque idée dans l'ordre ; 4) compter les mots et ajuster."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : réussir le résumé",
+    "etapes": [
+      "Plan du texte au brouillon (une idée par paragraphe).",
+      "Rédige en respectant l'ordre et la logique.",
+      "Compte les mots et indique le total à la fin."
+    ]
+  }
+}

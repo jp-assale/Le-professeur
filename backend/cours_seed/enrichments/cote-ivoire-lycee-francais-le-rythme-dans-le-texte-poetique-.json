@@ -1,0 +1,75 @@
+{
+  "_topic": "rythme",
+  "objectifs": [
+    "Compter les syllabes d'un vers (règles du e muet, diérèse, synérèse).",
+    "Analyser le rythme (coupe, césure, enjambement, rejet).",
+    "Repérer les sonorités (allitération, assonance) et le rythme de la prose."
+  ],
+  "prerequis": [
+    "Notions de vers et de strophe."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le « e » muet se prononce devant une consonne à l'intérieur du vers, mais pas en fin de vers ni devant une voyelle.",
+      "L'alexandrin a 12 syllabes, souvent coupé en deux hémistiches de 6 par la césure ; l'octosyllabe en a 8, le décasyllabe 10.",
+      "Enjambement : la phrase déborde sur le vers suivant ; rejet : un élément court rejeté au début du vers suivant ; contre-rejet : élément court en fin de vers annonçant la suite.",
+      "Allitération : répétition d'un son consonne ; assonance : répétition d'un son voyelle.",
+      "En prose aussi : rythme binaire, ternaire, accumulation, phrases courtes ou longues créent des effets."
+    ],
+    "formules": [
+      "Alexandrin = 12 syllabes (6 // 6)",
+      "Allitération (consonnes) / assonance (voyelles)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Compter le e muet de fin de vers.",
+      "correction": "Il ne se compte pas en fin de vers."
+    },
+    {
+      "erreur": "Relever une allitération sans effet.",
+      "correction": "Relie le son au sens (douceur, dureté, bruit)."
+    },
+    {
+      "erreur": "Confondre rejet et enjambement.",
+      "correction": "Le rejet est un élément BREF mis en valeur au début du vers suivant."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Compte les syllabes : « Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo).",
+      "indice": "« l'au-be à » : le e muet tombe devant voyelle.",
+      "corrige": [
+        "De (1) main (2) dès (3) l'au (4) b'à (5) l'heu (6) // r'où (7) blan (8) chit (9) la (10) cam (11) pagne (12).",
+        "12 syllabes : c'est un alexandrin, avec la césure après la 6e syllabe.",
+        "Le « e » de « aube » et de « heure » s'élide devant une voyelle ; celui de « campagne », en fin de vers, ne compte pas."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Relève et interprète : « Pour qui sont ces serpents qui sifflent sur vos têtes ? » (Racine).",
+      "indice": "Quel son se répète ?",
+      "corrige": [
+        "Allitération en [s] (sont, ces, serpents, sifflent, sur) : elle imite le sifflement des serpents et crée une atmosphère menaçante."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Explique l'effet d'un rythme ternaire et d'une phrase très courte qui suit une longue énumération dans une prose descriptive.",
+      "indice": "Équilibre, puis rupture.",
+      "corrige": [
+        "Le rythme ternaire (trois éléments) donne une impression d'harmonie, de plénitude ou d'insistance.",
+        "La phrase courte après une longue énumération crée une rupture : elle met en relief une idée ou un événement brutal (effet de chute)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le rythme et les sonorités",
+    "etapes": [
+      "Compte les syllabes en appliquant les règles du e muet.",
+      "Repère coupes, enjambements, rejets et sonorités.",
+      "Relie toujours la forme au sens."
+    ]
+  }
+}

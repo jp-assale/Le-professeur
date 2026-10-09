@@ -1,0 +1,76 @@
+{
+  "_topic": "theatre",
+  "objectifs": [
+    "Connaître les spécificités du texte théâtral (dialogue, didascalies, double énonciation).",
+    "Analyser une scène (enjeux, rapports de force, registres).",
+    "Situer les genres : tragédie, comédie, drame, théâtre africain contemporain."
+  ],
+  "prerequis": [
+    "Énonciation, tonalités."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le texte théâtral est fait pour être joué : répliques, tirades, monologues, apartés et didascalies (indications de mise en scène).",
+      "Double énonciation : les personnages se parlent entre eux, mais l'auteur s'adresse aussi au public.",
+      "Structure : actes et scènes ; exposition, nœud, dénouement.",
+      "Tragédie (destin, personnages nobles, fin malheureuse), comédie (rire, critique des mœurs), drame romantique (mélange des registres).",
+      "Le théâtre africain (Seydou Badian, Bernard Dadié, Cheikh Aliou Ndao) met souvent en scène l'histoire, le pouvoir et la critique sociale."
+    ],
+    "formules": [
+      "Didascalies = indications scéniques",
+      "Exposition → nœud → dénouement"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Analyser une scène comme un roman.",
+      "correction": "Pense au spectateur : gestes, déplacements, effets de mise en scène."
+    },
+    {
+      "erreur": "Ignorer les didascalies.",
+      "correction": "Elles informent sur le ton, les gestes, le décor."
+    },
+    {
+      "erreur": "Confondre monologue et tirade.",
+      "correction": "Monologue : personnage seul ; tirade : longue réplique devant d'autres personnages."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Définis : réplique, tirade, monologue, aparté, didascalie.",
+      "indice": "Qui parle, à qui, combien de temps ?",
+      "corrige": [
+        "Réplique : ce qu'un personnage dit en réponse à un autre.",
+        "Tirade : longue réplique.",
+        "Monologue : un personnage seul en scène parle.",
+        "Aparté : paroles dites à part, que les autres personnages ne sont pas censés entendre.",
+        "Didascalie : indication de mise en scène écrite par l'auteur."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Explique la notion de double énonciation avec un exemple d'aparté.",
+      "indice": "Le public entend l'aparté.",
+      "corrige": [
+        "Dans un aparté, le personnage révèle ses pensées au public sans que les autres personnages les entendent : l'auteur informe le spectateur, qui en sait plus que les personnages (effet comique ou dramatique)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans une scène d'affrontement entre un roi et son conseiller, quels éléments analyser pour montrer le rapport de force ?",
+      "indice": "Répartition de la parole, modes verbaux, didascalies.",
+      "corrige": [
+        "La longueur et la répartition des répliques (qui domine la parole), l'impératif et les ordres, les apostrophes et le vocabulaire du pouvoir, les interruptions, les didascalies (gestes, déplacements), le registre (tragique, satirique) et l'enjeu pour la suite de la pièce."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le texte théâtral",
+    "etapes": [
+      "Situe la scène dans la pièce (exposition, nœud, dénouement).",
+      "Analyse les échanges : qui parle, comment, avec quel effet.",
+      "N'oublie pas la dimension scénique et le public."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_topic": "commentaire-compose",
+  "objectifs": [
+    "Dégager des centres d'intérêt à partir de la lecture d'un texte.",
+    "Analyser les procédés et leurs effets.",
+    "Rédiger introduction, développement et conclusion d'un commentaire composé."
+  ],
+  "prerequis": [
+    "Outils d'analyse : figures, temps, focalisation, tonalités."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le commentaire composé organise la lecture du texte en 2 ou 3 centres d'intérêt (axes), au lieu de suivre le texte ligne par ligne.",
+      "Chaque axe se divise en sous-parties ; chaque idée s'appuie sur une citation, un procédé nommé et une interprétation.",
+      "Introduction : présentation de l'auteur et de l'œuvre, situation du passage, idée générale, annonce des centres d'intérêt.",
+      "Conclusion : bilan des axes, réponse à la question de la portée du texte, ouverture.",
+      "La forme (procédés) est toujours au service du sens (idées, émotions)."
+    ],
+    "formules": [
+      "Idée → citation → procédé → effet",
+      "Plan : 2 ou 3 centres d'intérêt"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Paraphraser le texte.",
+      "correction": "Analyse COMMENT le texte produit son sens, ne le répète pas."
+    },
+    {
+      "erreur": "Faire un catalogue de procédés.",
+      "correction": "Chaque procédé est au service d'une idée de ton axe."
+    },
+    {
+      "erreur": "Citer sans guillemets ni analyse.",
+      "correction": "Cite brièvement entre guillemets et commente aussitôt."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne les étapes d'une introduction de commentaire composé.",
+      "indice": "Du général au particulier.",
+      "corrige": [
+        "Présentation de l'auteur et de l'œuvre ; situation de l'extrait ; idée générale ; annonce des centres d'intérêt."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pour un poème célébrant la mère africaine et pleurant son absence, propose deux centres d'intérêt.",
+      "indice": "Éloge / douleur.",
+      "corrige": [
+        "I. Un éloge de la mère africaine (vocabulaire mélioratif, images de douceur et de force).",
+        "II. L'expression lyrique d'une douleur (je, exclamations, champ lexical de l'absence et du souvenir)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Rédige un paragraphe d'analyse sur le premier centre d'intérêt de l'exercice précédent, à partir de la citation fictive : « Mère, tes mains de karité ont pétri mon enfance ».",
+      "indice": "Idée → citation → procédé → effet.",
+      "corrige": [
+        "Modèle : « Le poète fait d'abord l'éloge de la mère nourricière. Dans « tes mains de karité ont pétri mon enfance », la métaphore associe la mère au karité, symbole de douceur et de soin en Afrique de l'Ouest, tandis que le verbe « pétrir » présente l'enfance comme un pain façonné patiemment. La mère apparaît ainsi comme celle qui a formé l'enfant avec tendresse et patience. »"
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : le commentaire composé",
+    "etapes": [
+      "Lis le texte plusieurs fois et relève les procédés au brouillon.",
+      "Regroupe-les en centres d'intérêt, puis construis le plan.",
+      "Rédige des paragraphes idée-citation-procédé-effet, avec transitions."
+    ]
+  }
+}

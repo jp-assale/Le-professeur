@@ -1,0 +1,894 @@
+{
+  "_doc": "Complements pedagogiques - Francais (college Burkina Faso, lycee Cote d'Ivoire et Senegal). Outils d'analyse, methodes d'examen, productions ecrites. Les corriges des productions donnent les criteres et un modele.",
+  "topics": {
+    "figures-de-style": {
+      "objectifs": [
+        "Identifier les principales figures de style.",
+        "Expliquer l'effet produit par une figure dans un texte.",
+        "Utiliser les figures dans un commentaire."
+      ],
+      "prerequis": ["Vocabulaire de base de l'analyse de texte."],
+      "a_retenir": {
+        "points": [
+          "Figures d'analogie : comparaison (avec un outil : comme, tel, pareil à), métaphore (sans outil), personnification, allégorie.",
+          "Figures d'insistance : anaphore (répétition en début de vers ou de phrase), gradation, hyperbole, énumération.",
+          "Figures d'opposition : antithèse (idées opposées rapprochées), oxymore (deux mots contradictoires associés), chiasme (structure ABBA).",
+          "Figures d'atténuation : litote (dire moins pour suggérer plus), euphémisme (adoucir une réalité pénible).",
+          "Relever une figure ne suffit pas : il faut toujours dire son effet (insister, émouvoir, critiquer, embellir)."
+        ],
+        "formules": ["Figure = relevé exact + nom + effet produit", "Comparaison : comparé + outil + comparant ; métaphore : sans outil"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre comparaison et métaphore.", "correction": "S'il y a un outil de comparaison (comme, tel), c'est une comparaison." },
+        { "erreur": "Prendre toute répétition pour une anaphore.", "correction": "L'anaphore répète un mot en DÉBUT de vers, de phrase ou de proposition." },
+        { "erreur": "Nommer la figure sans en donner l'effet.", "correction": "Ajoute : « …ce qui souligne / renforce / traduit… »." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Nomme la figure : a) « Ses yeux brillaient comme deux étoiles. » b) « Cette femme est une lionne. » c) « Une obscure clarté. » d) « Il nous a quittés » (pour dire « il est mort »).",
+          "indice": "Outil de comparaison ? mots contradictoires ? atténuation ?",
+          "corrige": ["a) Comparaison.", "b) Métaphore.", "c) Oxymore.", "d) Euphémisme."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Relève et analyse la figure : « Je marche, je cours, je vole vers toi. »",
+          "indice": "Observe la progression des verbes.",
+          "corrige": ["C'est une gradation (marcher → courir → voler) : la vitesse croissante traduit l'impatience et l'intensité du désir de retrouver l'être aimé."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans le vers de Senghor « Femme nue, femme noire / Vêtue de ta couleur qui est vie, de ta forme qui est beauté », relève deux procédés et explique leur effet.",
+          "indice": "Répétition en tête de groupe, et association de « nue » / « vêtue ».",
+          "corrige": [
+            "Anaphore de « femme » : elle insiste sur la célébration de la femme africaine et donne au poème le ton d'un chant.",
+            "Antithèse « nue » / « vêtue » : la femme est vêtue de sa propre couleur ; la couleur noire devient une parure, symbole de vie et de beauté (éloge de la négritude)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : exploiter les figures de style",
+        "etapes": [
+          "Cite le passage entre guillemets.",
+          "Nomme précisément la figure.",
+          "Explique son effet en lien avec l'idée du paragraphe."
+        ]
+      }
+    },
+    "enonciation": {
+      "objectifs": [
+        "Identifier la situation d'énonciation (qui parle, à qui, où, quand).",
+        "Distinguer énoncé ancré dans la situation et énoncé coupé de la situation.",
+        "Repérer les modalisateurs et l'implication de l'énonciateur."
+      ],
+      "prerequis": ["Pronoms personnels, temps verbaux."],
+      "a_retenir": {
+        "points": [
+          "La situation d'énonciation : l'énonciateur (je), le destinataire (tu/vous), le lieu (ici) et le moment (maintenant) de l'énonciation.",
+          "Énoncé ancré : présence de « je, tu, ici, maintenant, hier, demain », temps du discours (présent, passé composé, futur).",
+          "Énoncé coupé (récit) : 3e personne, « ce jour-là, la veille », temps du récit (passé simple, imparfait).",
+          "Les modalisateurs (adverbes comme « peut-être, sans doute », verbes comme « je crois », vocabulaire mélioratif ou péjoratif) montrent le degré de certitude et le jugement de l'énonciateur.",
+          "Paroles rapportées : discours direct, indirect, indirect libre."
+        ],
+        "formules": ["Indices : je / tu / ici / maintenant", "Modalisateur = trace de l'opinion de l'énonciateur"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre l'auteur et le narrateur ou l'énonciateur.", "correction": "L'énonciateur est celui qui parle dans le texte ; il peut être un personnage." },
+        { "erreur": "Oublier les indices de temps et de lieu.", "correction": "« Hier », « ici » ancrent l'énoncé dans la situation." },
+        { "erreur": "Ne pas relier les modalisateurs au point de vue.", "correction": "Dis ce qu'ils révèlent : certitude, doute, admiration, critique." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "« Demain, je viendrai te voir ici, à Bouaké. » Relève les indices de l'énonciation.",
+          "indice": "Personnes, lieu, temps.",
+          "corrige": ["Je (énonciateur), te (destinataire), ici / à Bouaké (lieu), demain (temps), futur « viendrai »."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Transforme au discours indirect : Le maître dit : « Je corrigerai vos copies demain. »",
+          "indice": "Changement de personne et d'indicateur de temps.",
+          "corrige": ["Le maître dit qu'il corrigera nos (leurs) copies le lendemain (si le récit est au passé : « Le maître dit qu'il corrigerait leurs copies le lendemain »)."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "« Ce prétendu progrès, qui ruine sans doute nos campagnes, n'est qu'une illusion. » Relève les modalisateurs et dis ce qu'ils révèlent de l'énonciateur.",
+          "indice": "Termes de jugement et de certitude.",
+          "corrige": [
+            "« prétendu » (dévalorisant), « sans doute » (degré de certitude), « ruine » et « illusion » (vocabulaire péjoratif), la tournure « n'est qu'une ».",
+            "L'énonciateur s'implique fortement : il critique le progrès et cherche à convaincre de son caractère trompeur."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : analyser l'énonciation",
+        "etapes": [
+          "Réponds aux questions : qui parle ? à qui ? où ? quand ?",
+          "Relève les indices précis (pronoms, temps, déictiques).",
+          "Interprète : implication ou effacement de l'énonciateur, visée du texte."
+        ]
+      }
+    },
+    "argumentation": {
+      "objectifs": [
+        "Identifier la thèse, les arguments et les exemples d'un texte argumentatif.",
+        "Repérer les connecteurs logiques et les types de raisonnement.",
+        "Produire un paragraphe ou un texte argumentatif structuré, y compris sous forme de dialogue."
+      ],
+      "prerequis": ["Construction du paragraphe."],
+      "a_retenir": {
+        "points": [
+          "Thèse : opinion défendue ; argument : raison qui soutient la thèse ; exemple : fait concret qui illustre l'argument.",
+          "Connecteurs : addition (de plus, en outre), cause (car, en effet), conséquence (donc, ainsi), opposition (mais, cependant), concession (certes… mais).",
+          "Raisonnements : déductif (du général au particulier), inductif (des exemples à la règle), par analogie, par l'absurde, concessif.",
+          "Convaincre s'adresse à la raison ; persuader joue aussi sur les émotions.",
+          "Un paragraphe argumentatif : idée directrice, argument expliqué, exemple, phrase de conclusion."
+        ],
+        "formules": ["Paragraphe = idée + explication + exemple + bilan", "Concession : « Certes…, mais… »"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre argument et exemple.", "correction": "L'argument est une idée générale ; l'exemple est un fait précis qui l'illustre." },
+        { "erreur": "Juxtaposer les idées sans connecteurs.", "correction": "Relie tes idées : la logique doit être visible." },
+        { "erreur": "Dans un dialogue argumenté, faire parler les personnages sans échange réel.", "correction": "Chaque réplique répond à la précédente (objection, réfutation, concession)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans le passage : « Le téléphone portable est utile aux élèves. En effet, il permet de faire des recherches. Par exemple, Ali y consulte un dictionnaire. » identifie thèse, argument, exemple et connecteur.",
+          "indice": "Quelle phrase est la plus générale ?",
+          "corrige": ["Thèse : le portable est utile aux élèves.", "Argument : il permet de faire des recherches.", "Exemple : Ali consulte un dictionnaire.", "Connecteurs : « en effet » (justification), « par exemple » (illustration)."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Rédige un paragraphe concessif sur le sujet : « Faut-il interdire le portable au collège ? » (5 à 7 lignes).",
+          "indice": "Certes… mais…",
+          "corrige": [
+            "Critères : une concession, une opposition, un argument expliqué, un exemple, une conclusion.",
+            "Modèle : « Certes, le portable peut aider l'élève à faire des recherches ou à joindre ses parents. Cependant, en classe, il détourne l'attention : un élève qui consulte ses messages n'écoute plus le professeur. De plus, il favorise la triche pendant les devoirs. C'est pourquoi il paraît raisonnable de l'interdire pendant les cours, tout en l'autorisant à la sortie. »"
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Écris un dialogue argumenté (12 à 15 lignes) entre un père qui veut marier sa fille de 15 ans et la fille qui veut poursuivre ses études.",
+          "indice": "Arguments, objections, réfutations ; ponctuation du dialogue.",
+          "corrige": [
+            "Critères : présentation (tirets, verbes de parole variés), au moins trois arguments de chaque côté, réponses aux objections, connecteurs, dénouement (accord, compromis ou refus argumenté), respect du niveau de langue.",
+            "Arguments possibles de la fille : santé (grossesse précoce dangereuse), avenir professionnel, autonomie, loi sur l'âge du mariage. Du père : tradition, sécurité, difficultés financières ; la fille peut les réfuter (bourses, métier futur pour aider la famille)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'argumentation",
+        "etapes": [
+          "Repère ou formule la thèse en une phrase.",
+          "Organise tes arguments du plus faible au plus fort, chacun avec un exemple.",
+          "Utilise des connecteurs variés et conclus clairement."
+        ]
+      }
+    },
+    "semantique": {
+      "objectifs": [
+        "Distinguer dénotation et connotation.",
+        "Repérer et interpréter un champ lexical.",
+        "Utiliser synonymie, antonymie, polysémie et registres de langue."
+      ],
+      "prerequis": ["Lecture d'un texte littéraire."],
+      "a_retenir": {
+        "points": [
+          "Dénotation : sens premier, objectif d'un mot ; connotation : sens second, valeurs et émotions associées.",
+          "Champ lexical : ensemble de mots qui se rapportent à un même thème ; il révèle les thèmes du texte.",
+          "Polysémie : un mot a plusieurs sens selon le contexte.",
+          "Vocabulaire mélioratif (valorisant) ou péjoratif (dévalorisant).",
+          "Registres de langue : familier, courant, soutenu."
+        ],
+        "formules": ["Champ lexical = mots d'un même thème", "Connotation = sens suggéré"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre champ lexical et famille de mots.", "correction": "La famille de mots partage un même radical (terre, terrain, enterrer) ; le champ lexical, un même thème." },
+        { "erreur": "Relever un champ lexical sans l'interpréter.", "correction": "Dis ce qu'il révèle (atmosphère, thème, point de vue)." },
+        { "erreur": "Ignorer le contexte d'un mot polysémique.", "correction": "C'est le contexte qui fixe le sens." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la dénotation et une connotation du mot « baobab » dans un poème africain.",
+          "indice": "Arbre / symbole.",
+          "corrige": ["Dénotation : grand arbre de la savane africaine.", "Connotation : force, longévité, sagesse des anciens, enracinement."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Relève le champ lexical dominant : « Les tambours grondent, les balafons chantent, les voix montent, la foule danse jusqu'à l'aube. » Interprète-le.",
+          "indice": "Sons et musique.",
+          "corrige": ["Champ lexical de la musique et de la fête : tambours, grondent, balafons, chantent, voix, danse.", "Il crée une atmosphère de joie collective et de célébration."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Donne trois sens du mot « feuille » selon le contexte et emploie chacun dans une phrase.",
+          "indice": "Arbre, papier, document officiel.",
+          "corrige": [
+            "Partie d'une plante : « Les feuilles du manguier tombent en saison sèche. »",
+            "Morceau de papier : « Prends une feuille double pour le devoir. »",
+            "Document : « Il a reçu sa feuille d'imposition. »"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'étude du lexique",
+        "etapes": [
+          "Relève des mots précis, groupés par thème.",
+          "Distingue sens dénoté et sens connoté.",
+          "Interprète : quelle vision ou quelle émotion le vocabulaire traduit-il ?"
+        ]
+      }
+    },
+    "focalisation": {
+      "objectifs": [
+        "Distinguer auteur et narrateur.",
+        "Identifier les trois points de vue narratifs.",
+        "Expliquer l'effet du choix de focalisation."
+      ],
+      "prerequis": ["Lecture d'un récit."],
+      "a_retenir": {
+        "points": [
+          "L'auteur écrit le livre ; le narrateur raconte l'histoire (il peut être un personnage).",
+          "Focalisation zéro (omnisciente) : le narrateur sait tout, y compris les pensées de tous les personnages et le passé ou l'avenir.",
+          "Focalisation interne : le récit est perçu à travers un personnage ; on ne connaît que ses perceptions et ses pensées.",
+          "Focalisation externe : le narrateur décrit de l'extérieur, comme une caméra, sans accès aux pensées.",
+          "Le choix du point de vue crée la proximité, le suspense ou le mystère."
+        ],
+        "formules": ["Zéro : sait tout ; interne : voit par un personnage ; externe : voit de l'extérieur"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'un récit à la 3e personne est forcément omniscient.", "correction": "La focalisation interne peut s'écrire à la 3e personne (« il sentait… »)." },
+        { "erreur": "Confondre auteur et narrateur.", "correction": "Dans « L'Enfant noir », le narrateur est l'enfant ; l'auteur est Camara Laye adulte." },
+        { "erreur": "Identifier le point de vue sans justifier.", "correction": "Cite les indices (verbes de perception, accès aux pensées)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Quel point de vue ? « L'homme entra, posa son sac et sortit sans un mot. On ne sut jamais d'où il venait. »",
+          "indice": "Accès aux pensées ?",
+          "corrige": ["Focalisation externe : on voit seulement les gestes, sans connaître les pensées ni l'identité du personnage."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Réécris la phrase précédente en focalisation interne (du point de vue de l'homme).",
+          "indice": "Ajoute ses perceptions et pensées.",
+          "corrige": ["Modèle : « Il entra, épuisé ; ce sac lui sciait l'épaule. Il le posa et ressortit aussitôt, pressé de fuir ces regards qu'il sentait sur lui. »"]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pourquoi un romancier choisirait-il la focalisation interne pour raconter l'arrivée d'un enfant dans une grande ville ? Donne deux effets.",
+          "indice": "Identification, découverte.",
+          "corrige": [
+            "Le lecteur découvre la ville avec les yeux de l'enfant : il partage son émerveillement ou sa peur (identification).",
+            "Les limites du point de vue créent du suspense et une vision subjective, parfois naïve, qui peut aussi critiquer la société."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le point de vue narratif",
+        "etapes": [
+          "Repère qui perçoit (verbes de perception, pensées rapportées).",
+          "Nomme la focalisation et justifie avec des citations.",
+          "Explique l'effet sur le lecteur."
+        ]
+      }
+    },
+    "tonalites": {
+      "objectifs": [
+        "Identifier les principales tonalités (registres) littéraires.",
+        "Repérer les procédés caractéristiques de chaque tonalité.",
+        "Expliquer l'effet recherché sur le lecteur."
+      ],
+      "prerequis": ["Figures de style.", "Champ lexical."],
+      "a_retenir": {
+        "points": [
+          "Lyrique : expression des sentiments personnels (je, exclamations, champ lexical des émotions).",
+          "Pathétique : susciter la pitié (souffrance, malheur) ; tragique : fatalité, destin inévitable.",
+          "Épique : exploits héroïques, amplification (hyperboles, combats) — ex. l'épopée de Soundjata.",
+          "Comique, ironique (dire le contraire de ce qu'on pense pour critiquer), satirique (moquerie d'une société).",
+          "Polémique : attaque violente d'un adversaire ; didactique : enseigner ; fantastique : hésitation entre réel et surnaturel."
+        ],
+        "formules": ["Tonalité = intention + procédés + effet sur le lecteur"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre pathétique et tragique.", "correction": "Pathétique : émouvoir par la souffrance ; tragique : sentiment d'un destin inévitable." },
+        { "erreur": "Prendre l'ironie au premier degré.", "correction": "Repère le décalage entre ce qui est dit et ce qui est pensé." },
+        { "erreur": "Nommer une tonalité sans procédés.", "correction": "Justifie avec au moins deux indices précis." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Quelle tonalité ? « Ô mon village ! Que j'aime tes soirs paisibles et la voix de ma mère ! »",
+          "indice": "Sentiments personnels.",
+          "corrige": ["Tonalité lyrique : première personne, apostrophe « Ô mon village », exclamations, expression de l'amour et de la nostalgie."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Explique l'ironie : « Quel brillant ministre, qui construit des routes qui disparaissent à la première pluie ! »",
+          "indice": "Décalage entre l'éloge et les faits.",
+          "corrige": ["« Brillant » est un faux éloge contredit par la suite (routes détruites dès la première pluie) : l'énonciateur dénonce l'incompétence ou la corruption."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans un extrait de l'épopée de Soundjata, le héros déracine un baobab pour se relever. Montre que le texte relève de la tonalité épique.",
+          "indice": "Exploit surhumain, amplification.",
+          "corrige": [
+            "Exploit surhumain (déraciner un baobab) qui révèle un héros exceptionnel.",
+            "Procédés d'amplification (hyperboles, vocabulaire de la force), présence d'un public qui admire, dimension collective (destin du Manding) : ce sont les marques de l'épique."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : identifier une tonalité",
+        "etapes": [
+          "Demande-toi quelle émotion le texte cherche à provoquer.",
+          "Relève les procédés qui la créent.",
+          "Utilise la tonalité comme axe de commentaire."
+        ]
+      }
+    },
+    "temps-verbaux": {
+      "objectifs": [
+        "Identifier les valeurs du présent, de l'imparfait, du passé simple et du passé composé.",
+        "Distinguer premier plan et arrière-plan dans un récit.",
+        "Interpréter l'emploi des temps dans un texte."
+      ],
+      "prerequis": ["Conjugaison des temps de l'indicatif."],
+      "a_retenir": {
+        "points": [
+          "Présent : d'énonciation (maintenant), de vérité générale, d'habitude, de narration (rend le récit vivant).",
+          "Passé simple : actions de premier plan, ponctuelles et successives, qui font avancer le récit.",
+          "Imparfait : arrière-plan (descriptions, circonstances), actions habituelles ou en cours.",
+          "Passé composé : action passée en lien avec le présent de l'énonciateur (discours, récit à la 1re personne).",
+          "Futur : projection, promesse, prédiction ; conditionnel : hypothèse, souhait atténué."
+        ],
+        "formules": ["Premier plan : passé simple ; arrière-plan : imparfait", "Présent de vérité générale : « La terre tourne autour du soleil. »"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Confondre imparfait et passé simple à la 1re personne du singulier (je marchais / je marchai).", "correction": "Imparfait en -ais ; passé simple en -ai (verbes du 1er groupe)." },
+        { "erreur": "Donner seulement le nom du temps.", "correction": "Précise sa VALEUR dans le contexte et son effet." },
+        { "erreur": "Mélanger les temps sans raison dans une rédaction.", "correction": "Choisis un système (présent ou passé) et tiens-le." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la valeur du présent : a) « Je t'écris de Ouagadougou. » b) « L'eau bout à 100 °C. » c) « Chaque matin, il va au champ. »",
+          "indice": "Moment présent, vérité, habitude.",
+          "corrige": ["a) Présent d'énonciation.", "b) Présent de vérité générale.", "c) Présent d'habitude."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Justifie les temps : « Il pleuvait depuis l'aube. Soudain, la porte s'ouvrit et un homme entra. »",
+          "indice": "Arrière-plan / premier plan.",
+          "corrige": ["« pleuvait » (imparfait) : arrière-plan, décor durable.", "« s'ouvrit », « entra » (passé simple) : actions soudaines et successives de premier plan, introduites par « soudain »."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pourquoi un auteur passe-t-il brusquement du passé simple au présent au moment d'une scène d'accident ? Explique l'effet.",
+          "indice": "Présent de narration.",
+          "corrige": ["C'est un présent de narration : il rapproche l'action du lecteur, la rend plus vivante et plus dramatique, comme si elle se déroulait sous ses yeux."]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les valeurs des temps",
+        "etapes": [
+          "Identifie le temps et le mode.",
+          "Donne sa valeur précise dans la phrase.",
+          "Explique l'effet produit dans le texte."
+        ]
+      }
+    },
+    "rythme": {
+      "objectifs": [
+        "Compter les syllabes d'un vers (règles du e muet, diérèse, synérèse).",
+        "Analyser le rythme (coupe, césure, enjambement, rejet).",
+        "Repérer les sonorités (allitération, assonance) et le rythme de la prose."
+      ],
+      "prerequis": ["Notions de vers et de strophe."],
+      "a_retenir": {
+        "points": [
+          "Le « e » muet se prononce devant une consonne à l'intérieur du vers, mais pas en fin de vers ni devant une voyelle.",
+          "L'alexandrin a 12 syllabes, souvent coupé en deux hémistiches de 6 par la césure ; l'octosyllabe en a 8, le décasyllabe 10.",
+          "Enjambement : la phrase déborde sur le vers suivant ; rejet : un élément court rejeté au début du vers suivant ; contre-rejet : élément court en fin de vers annonçant la suite.",
+          "Allitération : répétition d'un son consonne ; assonance : répétition d'un son voyelle.",
+          "En prose aussi : rythme binaire, ternaire, accumulation, phrases courtes ou longues créent des effets."
+        ],
+        "formules": ["Alexandrin = 12 syllabes (6 // 6)", "Allitération (consonnes) / assonance (voyelles)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Compter le e muet de fin de vers.", "correction": "Il ne se compte pas en fin de vers." },
+        { "erreur": "Relever une allitération sans effet.", "correction": "Relie le son au sens (douceur, dureté, bruit)." },
+        { "erreur": "Confondre rejet et enjambement.", "correction": "Le rejet est un élément BREF mis en valeur au début du vers suivant." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Compte les syllabes : « Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo).",
+          "indice": "« l'au-be à » : le e muet tombe devant voyelle.",
+          "corrige": [
+            "De (1) main (2) dès (3) l'au (4) b'à (5) l'heu (6) // r'où (7) blan (8) chit (9) la (10) cam (11) pagne (12).",
+            "12 syllabes : c'est un alexandrin, avec la césure après la 6e syllabe.",
+            "Le « e » de « aube » et de « heure » s'élide devant une voyelle ; celui de « campagne », en fin de vers, ne compte pas."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Relève et interprète : « Pour qui sont ces serpents qui sifflent sur vos têtes ? » (Racine).",
+          "indice": "Quel son se répète ?",
+          "corrige": ["Allitération en [s] (sont, ces, serpents, sifflent, sur) : elle imite le sifflement des serpents et crée une atmosphère menaçante."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Explique l'effet d'un rythme ternaire et d'une phrase très courte qui suit une longue énumération dans une prose descriptive.",
+          "indice": "Équilibre, puis rupture.",
+          "corrige": [
+            "Le rythme ternaire (trois éléments) donne une impression d'harmonie, de plénitude ou d'insistance.",
+            "La phrase courte après une longue énumération crée une rupture : elle met en relief une idée ou un événement brutal (effet de chute)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le rythme et les sonorités",
+        "etapes": [
+          "Compte les syllabes en appliquant les règles du e muet.",
+          "Repère coupes, enjambements, rejets et sonorités.",
+          "Relie toujours la forme au sens."
+        ]
+      }
+    },
+    "commentaire-compose": {
+      "objectifs": [
+        "Dégager des centres d'intérêt à partir de la lecture d'un texte.",
+        "Analyser les procédés et leurs effets.",
+        "Rédiger introduction, développement et conclusion d'un commentaire composé."
+      ],
+      "prerequis": ["Outils d'analyse : figures, temps, focalisation, tonalités."],
+      "a_retenir": {
+        "points": [
+          "Le commentaire composé organise la lecture du texte en 2 ou 3 centres d'intérêt (axes), au lieu de suivre le texte ligne par ligne.",
+          "Chaque axe se divise en sous-parties ; chaque idée s'appuie sur une citation, un procédé nommé et une interprétation.",
+          "Introduction : présentation de l'auteur et de l'œuvre, situation du passage, idée générale, annonce des centres d'intérêt.",
+          "Conclusion : bilan des axes, réponse à la question de la portée du texte, ouverture.",
+          "La forme (procédés) est toujours au service du sens (idées, émotions)."
+        ],
+        "formules": ["Idée → citation → procédé → effet", "Plan : 2 ou 3 centres d'intérêt"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Paraphraser le texte.", "correction": "Analyse COMMENT le texte produit son sens, ne le répète pas." },
+        { "erreur": "Faire un catalogue de procédés.", "correction": "Chaque procédé est au service d'une idée de ton axe." },
+        { "erreur": "Citer sans guillemets ni analyse.", "correction": "Cite brièvement entre guillemets et commente aussitôt." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne les étapes d'une introduction de commentaire composé.",
+          "indice": "Du général au particulier.",
+          "corrige": ["Présentation de l'auteur et de l'œuvre ; situation de l'extrait ; idée générale ; annonce des centres d'intérêt."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Pour un poème célébrant la mère africaine et pleurant son absence, propose deux centres d'intérêt.",
+          "indice": "Éloge / douleur.",
+          "corrige": ["I. Un éloge de la mère africaine (vocabulaire mélioratif, images de douceur et de force).", "II. L'expression lyrique d'une douleur (je, exclamations, champ lexical de l'absence et du souvenir)."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Rédige un paragraphe d'analyse sur le premier centre d'intérêt de l'exercice précédent, à partir de la citation fictive : « Mère, tes mains de karité ont pétri mon enfance ».",
+          "indice": "Idée → citation → procédé → effet.",
+          "corrige": [
+            "Modèle : « Le poète fait d'abord l'éloge de la mère nourricière. Dans « tes mains de karité ont pétri mon enfance », la métaphore associe la mère au karité, symbole de douceur et de soin en Afrique de l'Ouest, tandis que le verbe « pétrir » présente l'enfance comme un pain façonné patiemment. La mère apparaît ainsi comme celle qui a formé l'enfant avec tendresse et patience. »"
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le commentaire composé",
+        "etapes": [
+          "Lis le texte plusieurs fois et relève les procédés au brouillon.",
+          "Regroupe-les en centres d'intérêt, puis construis le plan.",
+          "Rédige des paragraphes idée-citation-procédé-effet, avec transitions."
+        ]
+      }
+    },
+    "dissertation-litteraire": {
+      "objectifs": [
+        "Analyser un sujet de dissertation littéraire (citation, consigne).",
+        "Construire un plan adapté (dialectique, analytique, thématique).",
+        "Argumenter avec des exemples précis tirés des œuvres."
+      ],
+      "prerequis": ["Œuvres étudiées en classe.", "Argumentation."],
+      "a_retenir": {
+        "points": [
+          "Analyse : repérer la thèse de la citation, définir ses mots-clés, identifier la consigne (discutez, expliquez, commentez, justifiez).",
+          "« Discutez » appelle un plan dialectique ; « expliquez » ou « justifiez », un plan analytique ou thématique.",
+          "Chaque argument est illustré par un exemple précis (titre, auteur, personnage, passage).",
+          "Mobilise les œuvres africaines au programme : Kourouma (Les Soleils des indépendances), Hampâté Bâ (L'étrange destin de Wangrin), Senghor, Damas, David Diop, Bernard Dadié, Seydou Badian, Cheikh Aliou Ndao…",
+          "Introduction : amorce, citation, problématique, annonce du plan ; conclusion : bilan, ouverture."
+        ],
+        "formules": ["Argument + exemple littéraire précis", "Consigne → type de plan"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Raconter l'intrigue d'un roman.", "correction": "Utilise l'œuvre comme preuve d'un argument, brièvement." },
+        { "erreur": "Exemples vagues (« dans un roman africain… »).", "correction": "Donne le titre, l'auteur et un passage ou un personnage." },
+        { "erreur": "Ignorer la consigne.", "correction": "« Discutez » exige d'examiner aussi les limites de la thèse." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Sujet : « Le roman africain est avant tout un témoignage sur la société. » Discutez. Quelle est la thèse ? Quel type de plan ?",
+          "indice": "La consigne est « discutez ».",
+          "corrige": ["Thèse : le roman africain a d'abord une fonction de témoignage social.", "Plan dialectique (thèse, limites, dépassement)."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Propose une problématique pour ce sujet.",
+          "indice": "Témoignage / œuvre d'art.",
+          "corrige": ["Le roman africain se réduit-il à un document sur la société, ou est-il aussi une création artistique qui dépasse le simple témoignage ?"]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Propose un plan détaillé avec un exemple par partie.",
+          "indice": "Kourouma, Hampâté Bâ…",
+          "corrige": [
+            "I. Le roman témoigne de la société : Les Soleils des indépendances (Kourouma) montre les désillusions après les indépendances.",
+            "II. Mais il est aussi une création littéraire : Kourouma « malinkise » le français ; L'étrange destin de Wangrin (Hampâté Bâ) mêle humour, conte et portrait d'un personnage rusé.",
+            "III. Le témoignage passe par l'art : c'est la force de l'écriture qui rend la critique sociale durable et universelle."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la dissertation littéraire",
+        "etapes": [
+          "Analyse la citation et la consigne au brouillon.",
+          "Construis un plan avec des exemples précis préparés à l'avance.",
+          "Soigne transitions, langue et présentation."
+        ]
+      }
+    },
+    "oeuvre-narrative": {
+      "objectifs": [
+        "Situer une œuvre narrative (auteur, contexte, genre).",
+        "Analyser personnages, structure du récit, narration et thèmes.",
+        "Exploiter l'œuvre pour un exposé, un commentaire ou une dissertation."
+      ],
+      "prerequis": ["Focalisation, temps verbaux, schéma narratif."],
+      "a_retenir": {
+        "points": [
+          "Schéma narratif : situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale.",
+          "Personnages : héros, adjuvants, opposants (schéma actantiel) ; portrait physique et moral.",
+          "Narration : narrateur, focalisation, ordre du récit (retours en arrière), rythme (scène, sommaire, ellipse).",
+          "Thèmes fréquents de la littérature africaine : colonisation, indépendances et désillusions, tradition et modernité, condition de la femme, exil.",
+          "Une fiche de lecture : références, résumé, personnages, thèmes, citations clés, avis argumenté."
+        ],
+        "formules": ["Schéma narratif en 5 étapes", "Fiche : auteur / résumé / personnages / thèmes / citations"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Résumer toute l'histoire au lieu d'analyser.", "correction": "Sélectionne les passages utiles à ton propos." },
+        { "erreur": "Confondre auteur et narrateur.", "correction": "Le narrateur est une instance du texte, pas forcément l'écrivain." },
+        { "erreur": "Ne pas apprendre de citations.", "correction": "Retiens quelques phrases courtes et marquantes." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Rappelle les cinq étapes du schéma narratif.",
+          "indice": "Du début à la fin du récit.",
+          "corrige": ["Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Dans un roman de ton programme, présente le héros (portrait physique et moral, rôle dans l'histoire) en 5 à 6 lignes.",
+          "indice": "Exemple : Fama dans Les Soleils des indépendances.",
+          "corrige": ["Modèle : Fama Doumbouya, dernier prince malinké du Horodougou, a perdu son pouvoir avec la colonisation puis les indépendances. Fier et nostalgique, il refuse le monde nouveau et vit dans la misère. À travers lui, Kourouma montre la décadence des anciennes chefferies et les désillusions des indépendances."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Choisis un roman étudié et montre, en un paragraphe argumenté, comment il illustre le conflit entre tradition et modernité.",
+          "indice": "Thèse, exemple précis, analyse.",
+          "corrige": ["Critères : thèse claire, au moins deux exemples précis (personnages, scènes), analyse de leur signification, conclusion. Exemple possible : L'Aventure ambiguë (Cheikh Hamidou Kane), où Samba Diallo est déchiré entre l'école coranique et l'école occidentale."]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'œuvre intégrale",
+        "etapes": [
+          "Prépare une fiche complète de chaque œuvre au programme.",
+          "Apprends quelques citations et scènes clés.",
+          "Utilise l'œuvre comme argument, sans la résumer."
+        ]
+      }
+    },
+    "theatre": {
+      "objectifs": [
+        "Connaître les spécificités du texte théâtral (dialogue, didascalies, double énonciation).",
+        "Analyser une scène (enjeux, rapports de force, registres).",
+        "Situer les genres : tragédie, comédie, drame, théâtre africain contemporain."
+      ],
+      "prerequis": ["Énonciation, tonalités."],
+      "a_retenir": {
+        "points": [
+          "Le texte théâtral est fait pour être joué : répliques, tirades, monologues, apartés et didascalies (indications de mise en scène).",
+          "Double énonciation : les personnages se parlent entre eux, mais l'auteur s'adresse aussi au public.",
+          "Structure : actes et scènes ; exposition, nœud, dénouement.",
+          "Tragédie (destin, personnages nobles, fin malheureuse), comédie (rire, critique des mœurs), drame romantique (mélange des registres).",
+          "Le théâtre africain (Seydou Badian, Bernard Dadié, Cheikh Aliou Ndao) met souvent en scène l'histoire, le pouvoir et la critique sociale."
+        ],
+        "formules": ["Didascalies = indications scéniques", "Exposition → nœud → dénouement"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Analyser une scène comme un roman.", "correction": "Pense au spectateur : gestes, déplacements, effets de mise en scène." },
+        { "erreur": "Ignorer les didascalies.", "correction": "Elles informent sur le ton, les gestes, le décor." },
+        { "erreur": "Confondre monologue et tirade.", "correction": "Monologue : personnage seul ; tirade : longue réplique devant d'autres personnages." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Définis : réplique, tirade, monologue, aparté, didascalie.",
+          "indice": "Qui parle, à qui, combien de temps ?",
+          "corrige": [
+            "Réplique : ce qu'un personnage dit en réponse à un autre.",
+            "Tirade : longue réplique.",
+            "Monologue : un personnage seul en scène parle.",
+            "Aparté : paroles dites à part, que les autres personnages ne sont pas censés entendre.",
+            "Didascalie : indication de mise en scène écrite par l'auteur."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Explique la notion de double énonciation avec un exemple d'aparté.",
+          "indice": "Le public entend l'aparté.",
+          "corrige": ["Dans un aparté, le personnage révèle ses pensées au public sans que les autres personnages les entendent : l'auteur informe le spectateur, qui en sait plus que les personnages (effet comique ou dramatique)."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans une scène d'affrontement entre un roi et son conseiller, quels éléments analyser pour montrer le rapport de force ?",
+          "indice": "Répartition de la parole, modes verbaux, didascalies.",
+          "corrige": ["La longueur et la répartition des répliques (qui domine la parole), l'impératif et les ordres, les apostrophes et le vocabulaire du pouvoir, les interruptions, les didascalies (gestes, déplacements), le registre (tragique, satirique) et l'enjeu pour la suite de la pièce."]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : le texte théâtral",
+        "etapes": [
+          "Situe la scène dans la pièce (exposition, nœud, dénouement).",
+          "Analyse les échanges : qui parle, comment, avec quel effet.",
+          "N'oublie pas la dimension scénique et le public."
+        ]
+      }
+    },
+    "poesie": {
+      "objectifs": [
+        "Identifier les formes poétiques (vers réguliers, vers libres, poème en prose, sonnet, fable).",
+        "Analyser images, rythme et sonorités.",
+        "Situer les mouvements poétiques étudiés (classicisme, romantisme, négritude, surréalisme)."
+      ],
+      "prerequis": ["Figures de style, rythme."],
+      "a_retenir": {
+        "points": [
+          "Le poème travaille le langage : images, rythme, sonorités, disposition sur la page.",
+          "Classicisme (Boileau, La Fontaine) : clarté, règles, morale ; la fable instruit en divertissant.",
+          "Romantisme (Hugo) : expression des sentiments, nature, engagement.",
+          "Négritude (Senghor, Césaire, Damas, David Diop) : affirmation des valeurs noires, dénonciation de la colonisation, célébration de l'Afrique.",
+          "Surréalisme (Breton, Éluard, Aragon) : libération de l'imagination, images inattendues, écriture automatique ; Césaire s'en inspire."
+        ],
+        "formules": ["Poésie = images + rythme + sonorités", "Négritude : revue L'Étudiant noir (1935)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Résumer le poème sans analyser sa forme.", "correction": "La forme fait le sens : rythme, images, sonorités." },
+        { "erreur": "Confondre poète et « je » lyrique sans nuance.", "correction": "Le « je » peut représenter un peuple (Négritude)." },
+        { "erreur": "Rattacher un poète au mauvais mouvement.", "correction": "Retiens : Hugo (romantisme), Senghor/Césaire/Damas (Négritude), Éluard (surréalisme)." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Associe chaque poète à son mouvement : La Fontaine, Victor Hugo, Léopold Sédar Senghor, Paul Éluard.",
+          "indice": "Classicisme, romantisme, Négritude, surréalisme.",
+          "corrige": ["La Fontaine : classicisme ; Hugo : romantisme ; Senghor : Négritude ; Éluard : surréalisme."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Dans « Afrique » de David Diop, le poète interroge : « Afrique dis-moi Afrique / Est-ce donc toi ce dos qui se courbe ». Quel procédé et quel effet ?",
+          "indice": "Apostrophe et image du dos courbé.",
+          "corrige": ["Apostrophe à l'Afrique personnifiée et question rhétorique ; l'image du « dos qui se courbe » évoque la souffrance et l'humiliation du peuple colonisé, que le poète dénonce avant d'annoncer l'espoir de la libération."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Quels points communs et quelles différences vois-tu entre la Négritude et le surréalisme ?",
+          "indice": "Liberté des images / engagement identitaire.",
+          "corrige": [
+            "Points communs : refus des conventions, recherche d'images neuves et fortes, révolte contre l'ordre établi (Césaire utilise des images surréalistes).",
+            "Différences : le surréalisme explore l'inconscient et le rêve ; la Négritude affirme une identité noire et lutte contre la colonisation et le racisme."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : étudier un poème",
+        "etapes": [
+          "Lis le poème à voix basse pour sentir le rythme.",
+          "Relève images, sonorités et structure.",
+          "Rattache le texte à son mouvement et à ses thèmes."
+        ]
+      }
+    },
+    "lettre": {
+      "objectifs": [
+        "Distinguer lettre privée et lettre officielle.",
+        "Respecter la présentation et les formules de chaque type de lettre.",
+        "Rédiger une lettre adaptée à son destinataire et à son objet."
+      ],
+      "prerequis": ["Niveaux de langue."],
+      "a_retenir": {
+        "points": [
+          "Lettre privée : lieu et date, formule d'appel familière (Cher ami), corps de la lettre, formule finale affectueuse, signature ; niveau de langue courant ou familier.",
+          "Lettre officielle (demande, réclamation) : expéditeur en haut à gauche, lieu et date à droite, destinataire, objet, formule d'appel (Monsieur le Directeur), corps structuré, formule de politesse, signature.",
+          "Le corps de la lettre officielle : situation, demande précise, justification, remerciements.",
+          "Niveau de langue soutenu, phrases claires, vouvoiement.",
+          "Formule finale officielle : « Veuillez agréer, Monsieur le Directeur, l'expression de mes salutations distinguées »."
+        ],
+        "formules": ["Officielle : expéditeur / lieu et date / destinataire / objet / appel / corps / politesse / signature"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier l'objet dans une lettre officielle.", "correction": "« Objet : demande d'autorisation d'absence »." },
+        { "erreur": "Tutoyer le destinataire officiel ou utiliser le langage familier.", "correction": "Vouvoiement et langage soutenu." },
+        { "erreur": "Formule finale qui ne reprend pas la formule d'appel.", "correction": "Si tu écris « Monsieur le Directeur », reprends-le dans la formule finale." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Écris la formule d'appel et la formule finale d'une lettre adressée au proviseur de ton lycée.",
+          "indice": "Reprends le titre dans les deux formules.",
+          "corrige": ["Appel : « Monsieur le Proviseur, ».", "Finale : « Veuillez agréer, Monsieur le Proviseur, l'expression de mes salutations respectueuses. »"]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Rédige l'en-tête complet (expéditeur, lieu et date, destinataire, objet) d'une lettre au maire pour demander un terrain de football pour ton quartier.",
+          "indice": "Disposition officielle.",
+          "corrige": ["Modèle : en haut à gauche : nom, prénom, adresse de l'expéditeur ; à droite : « Koudougou, le 10 octobre 2026 » ; dessous à droite : « À Monsieur le Maire de la commune de Koudougou » ; « Objet : demande d'un terrain de football pour le secteur 5 »."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Rédige une lettre officielle (15 à 20 lignes) au directeur de ton collège pour lui demander d'ouvrir la bibliothèque le samedi matin.",
+          "indice": "Situation, demande, arguments, remerciements.",
+          "corrige": ["Critères : présentation officielle complète ; objet clair ; exposé de la situation (manque d'espace de travail, préparation de l'examen) ; demande précise (samedi de 8 h à 12 h) ; deux ou trois arguments ; proposition d'aide (élèves volontaires pour l'organisation) ; formule de politesse adaptée ; langue correcte et soutenue."]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : rédiger une lettre",
+        "etapes": [
+          "Identifie le type de lettre, le destinataire et l'objet.",
+          "Respecte la disposition et les formules.",
+          "Structure le corps en paragraphes et relis l'orthographe."
+        ]
+      }
+    },
+    "recit-production": {
+      "objectifs": [
+        "Produire un récit cohérent intégrant un dialogue et un portrait.",
+        "Imaginer une scène antérieure ou une suite cohérente avec un texte donné.",
+        "Respecter le système des temps et la ponctuation du dialogue."
+      ],
+      "prerequis": ["Schéma narratif, temps du récit."],
+      "a_retenir": {
+        "points": [
+          "Un récit au passé utilise le passé simple (premier plan) et l'imparfait (arrière-plan, descriptions, portraits).",
+          "Le portrait combine traits physiques et moraux, du général au particulier, avec un vocabulaire précis et des comparaisons.",
+          "Ponctuation du dialogue : deux-points, guillemets, tirets à chaque changement d'interlocuteur, verbes de parole variés (répondit, murmura, s'écria).",
+          "Une scène antérieure doit être cohérente avec le texte de départ : mêmes personnages, même lieu et même ton, et elle doit expliquer la situation du texte.",
+          "Relire : cohérence, temps, accords, ponctuation."
+        ],
+        "formules": ["Dialogue : « … », dit-il. — … — …", "Portrait = physique + moral + effet sur les autres"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire un dialogue sans tirets ni verbes de parole.", "correction": "Le lecteur doit savoir qui parle." },
+        { "erreur": "Contredire le texte de départ dans la scène antérieure.", "correction": "Relève les indices du texte (noms, lieux, faits) et respecte-les." },
+        { "erreur": "Passer sans raison du présent au passé.", "correction": "Choisis un système de temps et garde-le." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Ponctue ce dialogue : Où vas-tu demanda Moussa Au marché répondit Awa Viens avec moi",
+          "indice": "Guillemets, tirets, points d'interrogation.",
+          "corrige": ["« Où vas-tu ? demanda Moussa.", "— Au marché, répondit Awa. Viens avec moi ! »"]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Fais en 5 lignes le portrait d'une vieille commerçante du marché (physique et moral).",
+          "indice": "Imparfait, détails précis, comparaison.",
+          "corrige": ["Modèle : « Mâ Fanta trônait derrière ses tas de tomates. Son visage ridé comme une pomme séchée s'éclairait d'un sourire édenté. Ses mains, rapides malgré l'âge, rendaient la monnaie sans jamais se tromper. Généreuse, elle offrait toujours un piment de plus aux enfants, mais gare à qui tentait de la voler ! »"]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Texte de départ : « Quand Ali rentra, la case était vide et la porte arrachée. » Imagine la scène antérieure (12 à 15 lignes) avec un dialogue.",
+          "indice": "Que s'est-il passé avant le retour d'Ali ?",
+          "corrige": ["Critères : cohérence avec le texte (case vide, porte arrachée, Ali absent) ; récit au passé (passé simple / imparfait) ; dialogue correctement ponctué ; un portrait ou une description ; progression vers la situation du texte de départ (par exemple une tempête ou une dispute qui force la famille à partir) ; orthographe soignée."]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la production de récit",
+        "etapes": [
+          "Relève les consignes et les indices du texte de départ.",
+          "Fais un plan rapide (étapes, personnages, dialogue).",
+          "Rédige au passé et relis temps, ponctuation et accords."
+        ]
+      }
+    },
+    "resume": {
+      "objectifs": [
+        "Dégager la structure logique d'un texte.",
+        "Réduire un texte au nombre de mots demandé sans trahir son sens.",
+        "Reformuler avec ses propres mots."
+      ],
+      "prerequis": ["Connecteurs logiques, argumentation."],
+      "a_retenir": {
+        "points": [
+          "Le résumé respecte l'ordre des idées et le point de vue de l'auteur (on ne commente pas, on n'ajoute rien).",
+          "On supprime les exemples secondaires, les répétitions, les digressions.",
+          "On reformule : pas de phrases recopiées.",
+          "Les liens logiques du texte doivent rester visibles (mais, donc, en effet).",
+          "On respecte le nombre de mots demandé (avec une tolérance d'environ 10 %) et on l'indique."
+        ],
+        "formules": ["Résumé ≈ 1/4 du texte (ou nombre de mots imposé)", "Ordre + point de vue + logique de l'auteur"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire « l'auteur dit que… ».", "correction": "On résume à la place de l'auteur, sans le citer." },
+        { "erreur": "Recopier des phrases du texte.", "correction": "Reformule avec ton propre vocabulaire." },
+        { "erreur": "Garder les exemples au détriment des idées.", "correction": "Garde les idées, supprime les exemples secondaires." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Réduis à une phrase : « Les pluies ont été rares cette année. Les champs de mil ont séché. Les greniers sont vides et les familles s'inquiètent pour la soudure. »",
+          "indice": "Cause → conséquences.",
+          "corrige": ["Modèle : « Faute de pluies, les récoltes ont échoué et les familles redoutent la disette. »"]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Quels éléments supprimer dans un résumé ? Quels éléments garder ?",
+          "indice": "Idées / exemples.",
+          "corrige": ["Supprimer : exemples secondaires, répétitions, citations, détails.", "Garder : thèse, idées principales, enchaînement logique."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un texte de 400 mots doit être résumé au quart. Combien de mots vise-t-on et quelle tolérance accepte-t-on ? Décris ta méthode en quatre étapes.",
+          "indice": "400 ÷ 4.",
+          "corrige": [
+            "100 mots, avec une tolérance d'environ ±10 % (de 90 à 110 mots).",
+            "Méthode : 1) lire et dégager le thème et la thèse ; 2) repérer les paragraphes et les connecteurs pour faire le plan ; 3) rédiger en reformulant chaque idée dans l'ordre ; 4) compter les mots et ajuster."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : réussir le résumé",
+        "etapes": [
+          "Plan du texte au brouillon (une idée par paragraphe).",
+          "Rédige en respectant l'ordre et la logique.",
+          "Compte les mots et indique le total à la fin."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-lycee-francais-les-figures-de-style": "figures-de-style",
+    "cote-ivoire-lycee-francais-l-enonciation": "enonciation",
+    "cote-ivoire-lycee-francais-les-outils-de-l-argumentation": "argumentation",
+    "burkina-faso-college-francais-produire-tout-type-d-argumenta": "argumentation",
+    "burkina-faso-college-francais-produire-un-texte-de-dialogue-": "argumentation",
+    "cote-ivoire-lycee-francais-la-semantique": "semantique",
+    "cote-ivoire-lycee-francais-la-focalisation": "focalisation",
+    "cote-ivoire-lycee-francais-les-tonalites-litteraires": "tonalites",
+    "cote-ivoire-lycee-francais-les-valeurs-des-temps-verbaux": "temps-verbaux",
+    "cote-ivoire-lycee-francais-le-rythme-dans-le-texte-poetique-": "rythme",
+    "cote-ivoire-lycee-francais-le-commentaire-compose": "commentaire-compose",
+    "cote-ivoire-lycee-francais-la-dissertation-litteraire": "dissertation-litteraire",
+    "cote-ivoire-lycee-francais-etude-d-une-uvre-integrale-narrat": "oeuvre-narrative",
+    "burkina-faso-college-francais-lecture-de-textes-longs-uvre-i": "oeuvre-narrative",
+    "senegal-lycee-francais-l1-l2-s1-s2-roman-abbe-prevost-camus-": "oeuvre-narrative",
+    "cote-ivoire-lycee-francais-etude-d-un-groupement-de-textes-t": "theatre",
+    "senegal-lycee-francais-l1-l2-s1-s2-theatre-corneille-hugo-mu": "theatre",
+    "cote-ivoire-lycee-francais-etude-d-une-uvre-integrale-poetiq": "poesie",
+    "senegal-lycee-francais-l1-l2-s1-s2-poesie-boileau-hugo-la-fo": "poesie",
+    "senegal-lycee-francais-l1-l2-s1-s2-le-surrealisme-apollinair": "poesie",
+    "burkina-faso-college-francais-ecrire-une-lettre-privee-et-ou": "lettre",
+    "burkina-faso-college-francais-produire-un-recit-integrant-un": "recit-production",
+    "burkina-faso-college-francais-produire-la-scene-anterieure-d": "recit-production",
+    "burkina-faso-college-francais-reduire-tout-type-de-texte-res": "resume"
+  }
+}

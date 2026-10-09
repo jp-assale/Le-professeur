@@ -1,0 +1,73 @@
+{
+  "_topic": "tonalites",
+  "objectifs": [
+    "Identifier les principales tonalités (registres) littéraires.",
+    "Repérer les procédés caractéristiques de chaque tonalité.",
+    "Expliquer l'effet recherché sur le lecteur."
+  ],
+  "prerequis": [
+    "Figures de style.",
+    "Champ lexical."
+  ],
+  "a_retenir": {
+    "points": [
+      "Lyrique : expression des sentiments personnels (je, exclamations, champ lexical des émotions).",
+      "Pathétique : susciter la pitié (souffrance, malheur) ; tragique : fatalité, destin inévitable.",
+      "Épique : exploits héroïques, amplification (hyperboles, combats) — ex. l'épopée de Soundjata.",
+      "Comique, ironique (dire le contraire de ce qu'on pense pour critiquer), satirique (moquerie d'une société).",
+      "Polémique : attaque violente d'un adversaire ; didactique : enseigner ; fantastique : hésitation entre réel et surnaturel."
+    ],
+    "formules": [
+      "Tonalité = intention + procédés + effet sur le lecteur"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Confondre pathétique et tragique.",
+      "correction": "Pathétique : émouvoir par la souffrance ; tragique : sentiment d'un destin inévitable."
+    },
+    {
+      "erreur": "Prendre l'ironie au premier degré.",
+      "correction": "Repère le décalage entre ce qui est dit et ce qui est pensé."
+    },
+    {
+      "erreur": "Nommer une tonalité sans procédés.",
+      "correction": "Justifie avec au moins deux indices précis."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Quelle tonalité ? « Ô mon village ! Que j'aime tes soirs paisibles et la voix de ma mère ! »",
+      "indice": "Sentiments personnels.",
+      "corrige": [
+        "Tonalité lyrique : première personne, apostrophe « Ô mon village », exclamations, expression de l'amour et de la nostalgie."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Explique l'ironie : « Quel brillant ministre, qui construit des routes qui disparaissent à la première pluie ! »",
+      "indice": "Décalage entre l'éloge et les faits.",
+      "corrige": [
+        "« Brillant » est un faux éloge contredit par la suite (routes détruites dès la première pluie) : l'énonciateur dénonce l'incompétence ou la corruption."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans un extrait de l'épopée de Soundjata, le héros déracine un baobab pour se relever. Montre que le texte relève de la tonalité épique.",
+      "indice": "Exploit surhumain, amplification.",
+      "corrige": [
+        "Exploit surhumain (déraciner un baobab) qui révèle un héros exceptionnel.",
+        "Procédés d'amplification (hyperboles, vocabulaire de la force), présence d'un public qui admire, dimension collective (destin du Manding) : ce sont les marques de l'épique."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : identifier une tonalité",
+    "etapes": [
+      "Demande-toi quelle émotion le texte cherche à provoquer.",
+      "Relève les procédés qui la créent.",
+      "Utilise la tonalité comme axe de commentaire."
+    ]
+  }
+}

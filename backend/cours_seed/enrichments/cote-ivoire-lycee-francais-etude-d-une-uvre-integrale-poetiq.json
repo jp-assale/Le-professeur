@@ -1,0 +1,73 @@
+{
+  "_topic": "poesie",
+  "objectifs": [
+    "Identifier les formes poétiques (vers réguliers, vers libres, poème en prose, sonnet, fable).",
+    "Analyser images, rythme et sonorités.",
+    "Situer les mouvements poétiques étudiés (classicisme, romantisme, négritude, surréalisme)."
+  ],
+  "prerequis": [
+    "Figures de style, rythme."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le poème travaille le langage : images, rythme, sonorités, disposition sur la page.",
+      "Classicisme (Boileau, La Fontaine) : clarté, règles, morale ; la fable instruit en divertissant.",
+      "Romantisme (Hugo) : expression des sentiments, nature, engagement.",
+      "Négritude (Senghor, Césaire, Damas, David Diop) : affirmation des valeurs noires, dénonciation de la colonisation, célébration de l'Afrique.",
+      "Surréalisme (Breton, Éluard, Aragon) : libération de l'imagination, images inattendues, écriture automatique ; Césaire s'en inspire."
+    ],
+    "formules": [
+      "Poésie = images + rythme + sonorités",
+      "Négritude : revue L'Étudiant noir (1935)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Résumer le poème sans analyser sa forme.",
+      "correction": "La forme fait le sens : rythme, images, sonorités."
+    },
+    {
+      "erreur": "Confondre poète et « je » lyrique sans nuance.",
+      "correction": "Le « je » peut représenter un peuple (Négritude)."
+    },
+    {
+      "erreur": "Rattacher un poète au mauvais mouvement.",
+      "correction": "Retiens : Hugo (romantisme), Senghor/Césaire/Damas (Négritude), Éluard (surréalisme)."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Associe chaque poète à son mouvement : La Fontaine, Victor Hugo, Léopold Sédar Senghor, Paul Éluard.",
+      "indice": "Classicisme, romantisme, Négritude, surréalisme.",
+      "corrige": [
+        "La Fontaine : classicisme ; Hugo : romantisme ; Senghor : Négritude ; Éluard : surréalisme."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dans « Afrique » de David Diop, le poète interroge : « Afrique dis-moi Afrique / Est-ce donc toi ce dos qui se courbe ». Quel procédé et quel effet ?",
+      "indice": "Apostrophe et image du dos courbé.",
+      "corrige": [
+        "Apostrophe à l'Afrique personnifiée et question rhétorique ; l'image du « dos qui se courbe » évoque la souffrance et l'humiliation du peuple colonisé, que le poète dénonce avant d'annoncer l'espoir de la libération."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Quels points communs et quelles différences vois-tu entre la Négritude et le surréalisme ?",
+      "indice": "Liberté des images / engagement identitaire.",
+      "corrige": [
+        "Points communs : refus des conventions, recherche d'images neuves et fortes, révolte contre l'ordre établi (Césaire utilise des images surréalistes).",
+        "Différences : le surréalisme explore l'inconscient et le rêve ; la Négritude affirme une identité noire et lutte contre la colonisation et le racisme."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BAC : étudier un poème",
+    "etapes": [
+      "Lis le poème à voix basse pour sentir le rythme.",
+      "Relève images, sonorités et structure.",
+      "Rattache le texte à son mouvement et à ses thèmes."
+    ]
+  }
+}

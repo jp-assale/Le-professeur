@@ -1,0 +1,73 @@
+{
+  "_topic": "recit-production",
+  "objectifs": [
+    "Produire un récit cohérent intégrant un dialogue et un portrait.",
+    "Imaginer une scène antérieure ou une suite cohérente avec un texte donné.",
+    "Respecter le système des temps et la ponctuation du dialogue."
+  ],
+  "prerequis": [
+    "Schéma narratif, temps du récit."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un récit au passé utilise le passé simple (premier plan) et l'imparfait (arrière-plan, descriptions, portraits).",
+      "Le portrait combine traits physiques et moraux, du général au particulier, avec un vocabulaire précis et des comparaisons.",
+      "Ponctuation du dialogue : deux-points, guillemets, tirets à chaque changement d'interlocuteur, verbes de parole variés (répondit, murmura, s'écria).",
+      "Une scène antérieure doit être cohérente avec le texte de départ : mêmes personnages, même lieu et même ton, et elle doit expliquer la situation du texte.",
+      "Relire : cohérence, temps, accords, ponctuation."
+    ],
+    "formules": [
+      "Dialogue : « … », dit-il. — … — …",
+      "Portrait = physique + moral + effet sur les autres"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire un dialogue sans tirets ni verbes de parole.",
+      "correction": "Le lecteur doit savoir qui parle."
+    },
+    {
+      "erreur": "Contredire le texte de départ dans la scène antérieure.",
+      "correction": "Relève les indices du texte (noms, lieux, faits) et respecte-les."
+    },
+    {
+      "erreur": "Passer sans raison du présent au passé.",
+      "correction": "Choisis un système de temps et garde-le."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Ponctue ce dialogue : Où vas-tu demanda Moussa Au marché répondit Awa Viens avec moi",
+      "indice": "Guillemets, tirets, points d'interrogation.",
+      "corrige": [
+        "« Où vas-tu ? demanda Moussa.",
+        "— Au marché, répondit Awa. Viens avec moi ! »"
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Fais en 5 lignes le portrait d'une vieille commerçante du marché (physique et moral).",
+      "indice": "Imparfait, détails précis, comparaison.",
+      "corrige": [
+        "Modèle : « Mâ Fanta trônait derrière ses tas de tomates. Son visage ridé comme une pomme séchée s'éclairait d'un sourire édenté. Ses mains, rapides malgré l'âge, rendaient la monnaie sans jamais se tromper. Généreuse, elle offrait toujours un piment de plus aux enfants, mais gare à qui tentait de la voler ! »"
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Texte de départ : « Quand Ali rentra, la case était vide et la porte arrachée. » Imagine la scène antérieure (12 à 15 lignes) avec un dialogue.",
+      "indice": "Que s'est-il passé avant le retour d'Ali ?",
+      "corrige": [
+        "Critères : cohérence avec le texte (case vide, porte arrachée, Ali absent) ; récit au passé (passé simple / imparfait) ; dialogue correctement ponctué ; un portrait ou une description ; progression vers la situation du texte de départ (par exemple une tempête ou une dispute qui force la famille à partir) ; orthographe soignée."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la production de récit",
+    "etapes": [
+      "Relève les consignes et les indices du texte de départ.",
+      "Fais un plan rapide (étapes, personnages, dialogue).",
+      "Rédige au passé et relis temps, ponctuation et accords."
+    ]
+  }
+}
