@@ -1,0 +1,82 @@
+{
+  "_topic": "metaux-oxydation",
+  "objectifs": [
+    "Décrire l'oxydation de quelques métaux et corps purs simples (fer, cuivre, aluminium, carbone, soufre).",
+    "Écrire et équilibrer les équations d'oxydation.",
+    "Expliquer la corrosion du fer et les moyens de protection.",
+    "Décrire l'action de l'acide chlorhydrique sur quelques métaux."
+  ],
+  "prerequis": [
+    "Équilibrer une équation.",
+    "Test du dihydrogène."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une oxydation est une réaction d'un corps avec le dioxygène ; elle produit un oxyde.",
+      "Le fer brûle dans le dioxygène en donnant de l'oxyde magnétique Fe₃O₄ ; à l'air humide il rouille lentement (rouille poreuse qui laisse continuer la corrosion).",
+      "L'aluminium se recouvre d'une fine couche d'alumine Al₂O₃ imperméable qui le protège.",
+      "On protège le fer par la peinture, la graisse, la galvanisation (couche de zinc).",
+      "L'acide chlorhydrique attaque le fer, le zinc et l'aluminium avec dégagement de dihydrogène ; il n'attaque pas le cuivre."
+    ],
+    "formules": [
+      "3 Fe + 2 O₂ → Fe₃O₄",
+      "2 Cu + O₂ → 2 CuO",
+      "4 Al + 3 O₂ → 2 Al₂O₃",
+      "C + O₂ → CO₂   ;   S + O₂ → SO₂",
+      "Fe + 2 HCl → FeCl₂ + H₂"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire Al + O₂ → Al₂O₃ sans équilibrer.",
+      "correction": "4 Al + 3 O₂ → 2 Al₂O₃ (4 Al et 6 O de chaque côté)."
+    },
+    {
+      "erreur": "Penser que l'aluminium rouille comme le fer.",
+      "correction": "Sa couche d'alumine est protectrice ; la rouille du fer, elle, est poreuse."
+    },
+    {
+      "erreur": "Dire que le cuivre réagit avec l'acide chlorhydrique dilué.",
+      "correction": "Le cuivre n'est pas attaqué par l'acide chlorhydrique dilué."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Équilibre : Cu + O₂ → CuO et Al + O₂ → Al₂O₃.",
+      "indice": "Pour l'aluminium, commence par équilibrer les O (2 et 3 → 6).",
+      "corrige": [
+        "2 Cu + O₂ → 2 CuO.",
+        "4 Al + 3 O₂ → 2 Al₂O₃."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Pourquoi une tôle de fer non peinte finit-elle trouée, alors qu'une marmite en aluminium dure longtemps ? Propose deux moyens de protéger le fer.",
+      "indice": "Compare la rouille et l'alumine.",
+      "corrige": [
+        "La rouille est poreuse : l'air et l'eau continuent d'attaquer le fer en profondeur.",
+        "L'alumine forme une couche imperméable qui protège l'aluminium.",
+        "Protection du fer : peinture, graisse, galvanisation (zinc)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On verse de l'acide chlorhydrique sur de la limaille de fer dans un tube, et sur du cuivre dans un autre tube. 1) Qu'observe-t-on dans chaque tube ? 2) Comment identifier le gaz formé ? 3) Écris l'équation de la réaction avec le fer (il se forme du chlorure de fer II, FeCl₂).",
+      "indice": "Un seul des deux métaux réagit.",
+      "corrige": [
+        "1) Avec le fer : effervescence (dégagement gazeux) et la solution devient verdâtre. Avec le cuivre : aucune réaction.",
+        "2) Le gaz produit une légère détonation à l'approche d'une flamme : c'est du dihydrogène.",
+        "3) Fe + 2 HCl → FeCl₂ + H₂."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : les métaux et l'oxydation",
+    "etapes": [
+      "Décris les observations (couleur, flamme, gaz, dépôt).",
+      "Nomme le produit et écris l'équation équilibrée.",
+      "Relie à la vie courante (corrosion, protection, sécurité)."
+    ]
+  }
+}

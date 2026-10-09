@@ -1,0 +1,76 @@
+{
+  "_topic": "reaction-chimique",
+  "objectifs": [
+    "Distinguer transformation physique et réaction chimique.",
+    "Identifier réactifs et produits.",
+    "Écrire et équilibrer une équation-bilan.",
+    "Appliquer la conservation de la masse (loi de Lavoisier)."
+  ],
+  "prerequis": [
+    "Atomes, molécules et formules chimiques."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une réaction chimique fait disparaître des corps (réactifs) et apparaître de nouveaux corps (produits).",
+      "Un changement d'état (fusion, évaporation) n'est pas une réaction chimique : la substance reste la même.",
+      "Au cours d'une réaction, les atomes se conservent : ils se réarrangent pour former de nouvelles molécules.",
+      "Équilibrer, c'est placer des coefficients devant les formules (jamais modifier les indices).",
+      "Loi de Lavoisier : la masse totale des réactifs consommés est égale à la masse totale des produits formés."
+    ],
+    "formules": [
+      "2 H₂ + O₂ → 2 H₂O",
+      "C + O₂ → CO₂ (12 g + 32 g → 44 g)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Changer H₂O en H₂O₂ pour équilibrer.",
+      "correction": "On ne touche jamais aux indices : on ajoute des coefficients (2 H₂O)."
+    },
+    {
+      "erreur": "Considérer la fonte de la glace comme une réaction chimique.",
+      "correction": "C'est un changement d'état : l'eau reste de l'eau."
+    },
+    {
+      "erreur": "Penser que la masse diminue quand du gaz se dégage.",
+      "correction": "La masse se conserve ; elle semble diminuer si le gaz s'échappe du récipient."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Le charbon (carbone) brûle dans le dioxygène de l'air en donnant du dioxyde de carbone. Nomme les réactifs et le produit, puis écris l'équation-bilan.",
+      "indice": "Réactifs à gauche de la flèche.",
+      "corrige": [
+        "Réactifs : carbone et dioxygène. Produit : dioxyde de carbone.",
+        "C + O₂ → CO₂."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Équilibre : H₂ + O₂ → H₂O et Fe + O₂ → Fe₃O₄.",
+      "indice": "Pour Fe₃O₄, il faut 4 O, donc 2 O₂.",
+      "corrige": [
+        "2 H₂ + O₂ → 2 H₂O.",
+        "3 Fe + 2 O₂ → Fe₃O₄."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "La combustion complète de 12 g de carbone consomme 32 g de dioxygène. 1) Quelle masse de dioxyde de carbone se forme-t-il ? Énonce la loi utilisée. 2) Quelles masses de dioxygène et de dioxyde de carbone correspondent à la combustion de 6 g de carbone ?",
+      "indice": "Les masses qui réagissent sont proportionnelles.",
+      "corrige": [
+        "1) Loi de Lavoisier : m(CO₂) = 12 + 32 = 44 g.",
+        "2) 6 g, c'est la moitié de 12 g : il faut 32 ÷ 2 = 16 g de dioxygène et il se forme 44 ÷ 2 = 22 g de CO₂."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la réaction chimique",
+    "etapes": [
+      "Écris le bilan en mots (réactifs → produits), puis avec les formules.",
+      "Équilibre élément par élément et vérifie.",
+      "Pour les masses : Lavoisier et proportionnalité."
+    ]
+  }
+}

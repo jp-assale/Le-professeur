@@ -1,0 +1,79 @@
+{
+  "_topic": "energie-mecanique",
+  "objectifs": [
+    "Calculer l'énergie cinétique et l'énergie potentielle de pesanteur.",
+    "Calculer l'énergie mécanique.",
+    "Utiliser la conservation de l'énergie mécanique (sans frottements)."
+  ],
+  "prerequis": [
+    "Poids P = m × g.",
+    "Conversion km/h → m/s (diviser par 3,6)."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'énergie cinétique est liée à la vitesse : elle augmente avec la masse et surtout avec la vitesse (au carré).",
+      "L'énergie potentielle de pesanteur est liée à l'altitude h par rapport à une référence.",
+      "Énergie mécanique : Em = Ec + Ep.",
+      "Sans frottements, l'énergie mécanique se conserve : quand un objet tombe, Ep diminue et Ec augmente d'autant.",
+      "Avec des frottements, une partie de l'énergie est transformée en chaleur."
+    ],
+    "formules": [
+      "Ec = ½ × m × v²   (J, kg, m/s)",
+      "Ep = m × g × h",
+      "Em = Ec + Ep",
+      "v (m/s) = v (km/h) ÷ 3,6"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser la vitesse en km/h dans Ec.",
+      "correction": "Convertis en m/s : 72 km/h = 20 m/s."
+    },
+    {
+      "erreur": "Oublier le carré de la vitesse ou le ½.",
+      "correction": "Ec = ½ × m × v² : à vitesse double, l'énergie cinétique est multipliée par 4."
+    },
+    {
+      "erreur": "Penser que l'énergie disparaît avec les frottements.",
+      "correction": "Elle est transformée (chaleur), pas détruite."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Une boule de 2 kg roule à 3 m/s. Calcule son énergie cinétique. Calcule l'énergie potentielle de cette boule placée à 5 m de hauteur (g = 10 N/kg).",
+      "indice": "Ec = ½ m v² ; Ep = m g h.",
+      "corrige": [
+        "Ec = ½ × 2 × 3² = 9 J.",
+        "Ep = 2 × 10 × 5 = 100 J."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une moto et son pilote (150 kg au total) roulent à 72 km/h. Calcule leur énergie cinétique.",
+      "indice": "Convertis d'abord la vitesse en m/s.",
+      "corrige": [
+        "v = 72 ÷ 3,6 = 20 m/s.",
+        "Ec = ½ × 150 × 20² = 75 × 400 = 30 000 J."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une mangue de 0,2 kg se détache d'une branche à 5 m du sol. On néglige les frottements et on prend g = 10 N/kg (référence : le sol). 1) Calcule son énergie mécanique au départ (vitesse nulle). 2) Que vaut son énergie cinétique juste avant de toucher le sol ? 3) Déduis-en sa vitesse.",
+      "indice": "Sans frottements, l'énergie mécanique se conserve.",
+      "corrige": [
+        "1) Au départ : Ec = 0 et Ep = 0,2 × 10 × 5 = 10 J, donc Em = 10 J.",
+        "2) Au sol, Ep = 0 et Em se conserve : Ec = 10 J.",
+        "3) ½ × 0,2 × v² = 10, donc v² = 100 et v = 10 m/s (36 km/h)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'énergie mécanique",
+    "etapes": [
+      "Précise la référence des altitudes (souvent le sol).",
+      "Calcule Ec et Ep à chaque position, présente-les dans un tableau.",
+      "Utilise la conservation de Em (sans frottements) pour trouver l'inconnue."
+    ]
+  }
+}

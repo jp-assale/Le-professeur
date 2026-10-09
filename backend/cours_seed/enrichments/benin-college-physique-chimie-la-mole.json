@@ -1,0 +1,78 @@
+{
+  "_topic": "mole",
+  "objectifs": [
+    "Définir la mole et utiliser le nombre d'Avogadro.",
+    "Calculer une masse molaire moléculaire.",
+    "Passer de la masse à la quantité de matière, et inversement.",
+    "Utiliser le volume molaire d'un gaz."
+  ],
+  "prerequis": [
+    "Formules chimiques.",
+    "Puissances de 10 et notation scientifique."
+  ],
+  "a_retenir": {
+    "points": [
+      "La mole est l'unité de quantité de matière : une mole contient Nₐ = 6,02 × 10²³ entités (atomes, molécules, ions).",
+      "La masse molaire M (g/mol) est la masse d'une mole ; celle d'une molécule est la somme des masses molaires de ses atomes.",
+      "Pour un gaz, le volume molaire est le même pour tous les gaz dans les mêmes conditions (22,4 L/mol dans les conditions normales).",
+      "Masses molaires utiles : H = 1 ; C = 12 ; N = 14 ; O = 16 g/mol."
+    ],
+    "formules": [
+      "n = m / M",
+      "N = n × Nₐ",
+      "n = V / Vₘ (gaz)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Calculer M(H₂O) = 1 + 16 = 17 g/mol.",
+      "correction": "Il y a 2 atomes d'hydrogène : M = 2 × 1 + 16 = 18 g/mol."
+    },
+    {
+      "erreur": "Utiliser le volume molaire pour un liquide ou un solide.",
+      "correction": "Vₘ ne s'applique qu'aux gaz."
+    },
+    {
+      "erreur": "Confondre n (mol) et N (nombre d'entités).",
+      "correction": "N = n × 6,02 × 10²³."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule les masses molaires de H₂O et de CO₂ (H = 1 ; C = 12 ; O = 16 g/mol).",
+      "indice": "Additionne les masses molaires de tous les atomes.",
+      "corrige": [
+        "M(H₂O) = 2 × 1 + 16 = 18 g/mol.",
+        "M(CO₂) = 12 + 2 × 16 = 44 g/mol."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Combien de moles et combien de molécules y a-t-il dans 36 g d'eau ?",
+      "indice": "n = m / M puis N = n × Nₐ.",
+      "corrige": [
+        "n = 36 / 18 = 2 mol.",
+        "N = 2 × 6,02 × 10²³ = 1,204 × 10²⁴ molécules."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On recueille 4,4 g de dioxyde de carbone. 1) Calcule la quantité de matière. 2) Calcule le volume occupé dans les conditions normales (Vₘ = 22,4 L/mol). 3) Calcule le nombre de molécules.",
+      "indice": "M(CO₂) = 44 g/mol.",
+      "corrige": [
+        "1) n = 4,4 / 44 = 0,1 mol.",
+        "2) V = n × Vₘ = 0,1 × 22,4 = 2,24 L.",
+        "3) N = 0,1 × 6,02 × 10²³ = 6,02 × 10²² molécules."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les calculs avec la mole",
+    "etapes": [
+      "Calcule d'abord la masse molaire en détaillant chaque atome.",
+      "Écris la formule (n = m/M, n = V/Vₘ, N = n × Nₐ) puis l'application numérique.",
+      "Donne le résultat avec l'unité et en notation scientifique si besoin."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_topic": "hydrocarbures",
+  "objectifs": [
+    "Reconnaître un alcane et écrire sa formule brute CₙH₂ₙ₊₂.",
+    "Écrire et équilibrer l'équation de combustion complète d'un alcane.",
+    "Identifier les produits de combustion (tests à l'eau de chaux et au sulfate de cuivre anhydre).",
+    "Connaître les dangers de la combustion incomplète et l'origine des hydrocarbures (pétrole, gaz naturel)."
+  ],
+  "prerequis": [
+    "Équilibrer une équation chimique."
+  ],
+  "a_retenir": {
+    "points": [
+      "Les hydrocarbures sont formés uniquement de carbone et d'hydrogène ; les alcanes ont pour formule CₙH₂ₙ₊₂.",
+      "Méthane CH₄, éthane C₂H₆, propane C₃H₈, butane C₄H₁₀ (gaz des bouteilles domestiques).",
+      "Combustion complète : alcane + dioxygène → dioxyde de carbone + eau.",
+      "Le CO₂ trouble l'eau de chaux ; l'eau bleuit le sulfate de cuivre anhydre (blanc).",
+      "Combustion incomplète (manque d'air) : formation de carbone (fumée noire) et de monoxyde de carbone CO, gaz mortel sans odeur. Toujours aérer la cuisine.",
+      "Le pétrole brut est séparé en coupes (gaz, essence, kérosène, gasoil…) par distillation fractionnée."
+    ],
+    "formules": [
+      "CₙH₂ₙ₊₂",
+      "CH₄ + 2 O₂ → CO₂ + 2 H₂O",
+      "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Écrire C₄H₈ pour le butane.",
+      "correction": "n = 4 : H = 2 × 4 + 2 = 10, donc C₄H₁₀."
+    },
+    {
+      "erreur": "Oublier d'équilibrer les O en dernier.",
+      "correction": "Équilibre C, puis H, puis O (compte les O de CO₂ ET de H₂O)."
+    },
+    {
+      "erreur": "Penser que le CO se sent.",
+      "correction": "Le monoxyde de carbone est inodore : seule l'aération protège."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Donne la formule brute des alcanes ayant 3 puis 4 atomes de carbone et nomme-les.",
+      "indice": "CₙH₂ₙ₊₂.",
+      "corrige": [
+        "n = 3 : C₃H₈, le propane.",
+        "n = 4 : C₄H₁₀, le butane."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Équilibre l'équation de combustion complète du propane : C₃H₈ + O₂ → CO₂ + H₂O.",
+      "indice": "3 carbones donnent 3 CO₂ ; 8 hydrogènes donnent 4 H₂O.",
+      "corrige": [
+        "Carbone : 3 CO₂. Hydrogène : 4 H₂O.",
+        "Oxygène à droite : 3 × 2 + 4 × 1 = 10 atomes, soit 5 O₂.",
+        "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une cuisinière fonctionne au butane. 1) Écris et équilibre l'équation de combustion complète du butane. 2) Quel volume de dioxygène faut-il pour brûler 2 L de butane (mêmes conditions) ? 3) Pourquoi est-il dangereux d'utiliser ce gaz dans une pièce fermée ?",
+      "indice": "Commence par 2 C₄H₁₀ pour éviter les demi-molécules d'O₂.",
+      "corrige": [
+        "1) 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O (O : 26 = 16 + 10).",
+        "2) 2 volumes de butane réagissent avec 13 volumes de O₂ : 2 L de butane demandent 13 L de dioxygène.",
+        "3) Sans aération, le dioxygène manque : la combustion devient incomplète et produit du monoxyde de carbone, gaz toxique et inodore qui peut tuer."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la combustion des hydrocarbures",
+    "etapes": [
+      "Écris la formule brute de l'alcane (CₙH₂ₙ₊₂).",
+      "Équilibre C, puis H, puis O ; vérifie atome par atome.",
+      "Cite les tests des produits (eau de chaux, sulfate de cuivre anhydre) et les règles de sécurité."
+    ]
+  }
+}

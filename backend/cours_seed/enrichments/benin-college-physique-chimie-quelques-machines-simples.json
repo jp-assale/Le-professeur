@@ -1,0 +1,78 @@
+{
+  "_topic": "machines-simples",
+  "objectifs": [
+    "Reconnaître les machines simples : levier, poulie, plan incliné.",
+    "Appliquer la condition d'équilibre d'un levier.",
+    "Calculer la force nécessaire avec une poulie ou un plan incliné.",
+    "Comprendre qu'une machine simple réduit la force mais pas le travail."
+  ],
+  "prerequis": [
+    "Poids P = m × g.",
+    "Travail W = F × d."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une machine simple permet de soulever ou déplacer une charge en modifiant la force à exercer.",
+      "Levier en équilibre : F₁ × d₁ = F₂ × d₂ (d = distance de la droite d'action à l'axe de rotation).",
+      "Plus le bras de levier est long, plus la force à exercer est petite.",
+      "Poulie fixe : elle change seulement la direction de la force. Poulie mobile : elle divise la force par 2 (mais il faut tirer deux fois plus de corde).",
+      "Plan incliné (sans frottement) : F × L = P × h. Le travail reste le même : on gagne en force, on perd en distance."
+    ],
+    "formules": [
+      "F₁ × d₁ = F₂ × d₂",
+      "Plan incliné : F = P × h / L"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'une machine simple réduit le travail.",
+      "correction": "Elle réduit la force, mais la distance augmente : le travail est le même (sans frottement)."
+    },
+    {
+      "erreur": "Mesurer le bras de levier depuis le bout de la barre.",
+      "correction": "On le mesure depuis l'axe de rotation (le point d'appui)."
+    },
+    {
+      "erreur": "Croire qu'une poulie fixe diminue l'effort.",
+      "correction": "Elle ne fait que changer la direction de la force."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Pour soulever une pierre de poids 600 N placée à 0,5 m du point d'appui, un ouvrier appuie à 1,5 m de ce point. Quelle force doit-il exercer ?",
+      "indice": "F₁ × d₁ = F₂ × d₂.",
+      "corrige": [
+        "F × 1,5 = 600 × 0,5, donc F = 300 / 1,5 = 200 N."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On veut soulever un sac de ciment de 50 kg (g = 10 N/kg). Quelle force faut-il avec une poulie fixe ? avec une poulie mobile ?",
+      "indice": "Calcule d'abord le poids.",
+      "corrige": [
+        "P = 50 × 10 = 500 N.",
+        "Poulie fixe : F = 500 N (seule la direction change).",
+        "Poulie mobile : F = 500 / 2 = 250 N (mais il faut tirer deux fois plus de corde)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Pour charger un fût de poids 1 000 N dans un camion dont le plateau est à 1 m du sol, on le roule sur une planche de 5 m. On néglige les frottements. 1) Calcule la force parallèle à la planche nécessaire. 2) Compare le travail fourni avec et sans la planche. Conclus.",
+      "indice": "F × L = P × h.",
+      "corrige": [
+        "1) F × 5 = 1 000 × 1, donc F = 200 N.",
+        "2) Avec la planche : W = 200 × 5 = 1 000 J ; sans la planche : W = 1 000 × 1 = 1 000 J.",
+        "Le travail est le même : la planche permet d'exercer une force 5 fois plus petite, mais sur une distance 5 fois plus grande."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les machines simples",
+    "etapes": [
+      "Fais un schéma avec l'axe (ou la poulie), les forces et les distances.",
+      "Écris la relation d'équilibre adaptée à la machine.",
+      "Vérifie avec le travail : la force diminue, la distance augmente."
+    ]
+  }
+}

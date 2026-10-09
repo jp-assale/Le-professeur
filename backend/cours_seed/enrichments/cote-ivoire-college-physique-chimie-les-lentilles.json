@@ -1,0 +1,80 @@
+{
+  "_topic": "lentilles",
+  "objectifs": [
+    "Reconnaître une lentille convergente et une lentille divergente.",
+    "Définir foyer, distance focale et vergence.",
+    "Construire l'image d'un objet donnée par une lentille convergente.",
+    "Expliquer le fonctionnement de la loupe."
+  ],
+  "prerequis": [
+    "La propagation rectiligne de la lumière.",
+    "Conversion cm → m."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une lentille convergente (bords minces) concentre la lumière ; une lentille divergente (bords épais) l'étale.",
+      "Le foyer image F' est le point où convergent les rayons arrivant parallèlement à l'axe optique.",
+      "La distance focale f = OF' ; la vergence C = 1/f s'exprime en dioptries (δ) avec f en mètres.",
+      "Trois rayons particuliers : celui qui passe par le centre O n'est pas dévié ; celui parallèle à l'axe ressort par F' ; celui qui passe par F ressort parallèle à l'axe.",
+      "Un objet placé entre le foyer F et la lentille donne une image droite et agrandie : c'est le principe de la loupe."
+    ],
+    "formules": [
+      "C = 1 / f   (C en δ, f en m)",
+      "C > 0 : convergente ; C < 0 : divergente"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Calculer C = 1/20 = 0,05 δ avec f = 20 cm.",
+      "correction": "Il faut f en mètres : f = 0,20 m, donc C = 1/0,20 = 5 δ."
+    },
+    {
+      "erreur": "Faire passer tous les rayons par le foyer.",
+      "correction": "Seul le rayon parallèle à l'axe ressort par F' ; le rayon passant par O n'est pas dévié."
+    },
+    {
+      "erreur": "Confondre foyer objet F et foyer image F'.",
+      "correction": "F est avant la lentille (côté objet), F' après, symétrique de F par rapport à O."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "1) Calcule la vergence d'une lentille de distance focale 20 cm. 2) Une lentille a une vergence de −4 δ : est-elle convergente ou divergente ? Quelle est sa distance focale ?",
+      "indice": "Convertis 20 cm en mètres.",
+      "corrige": [
+        "1) f = 20 cm = 0,20 m ; C = 1 / 0,20 = 5 δ (lentille convergente).",
+        "2) C < 0 : la lentille est divergente. |f| = 1 / 4 = 0,25 m = 25 cm."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un objet AB de 2 cm est placé à 30 cm d'une lentille convergente de distance focale 10 cm. Construis l'image à l'échelle 1/5 et décris-la (position, sens, taille).",
+      "indice": "Utilise le rayon passant par O et celui parallèle à l'axe.",
+      "corrige": [
+        "À l'échelle 1/5 sur l'axe : OA = 6 cm et OF' = OF = 2 cm. On dessine AB à sa taille réelle (2 cm) pour que la figure reste lisible.",
+        "Le rayon issu de B passant par O n'est pas dévié ; le rayon issu de B parallèle à l'axe ressort par F'. Leur intersection donne B'.",
+        "On trouve l'image à 15 cm de la lentille (en réel), de l'autre côté : image réelle, renversée.",
+        "Sa taille est la moitié de celle de l'objet : A'B' = 1 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Awa veut lire de très petits caractères avec une lentille de vergence +10 δ utilisée comme loupe. 1) Calcule la distance focale. 2) À quelle distance de la lentille doit-elle placer le texte ? 3) Comment est l'image obtenue ?",
+      "indice": "Pour une loupe, l'objet se place entre le foyer et la lentille.",
+      "corrige": [
+        "1) f = 1 / C = 1 / 10 = 0,1 m = 10 cm.",
+        "2) Le texte doit être placé à moins de 10 cm de la lentille, entre le foyer F et la lentille.",
+        "3) L'image est virtuelle, droite et agrandie : Awa voit les caractères plus gros."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : construire une image",
+    "etapes": [
+      "Trace l'axe optique, la lentille, F et F' à l'échelle indiquée.",
+      "Trace au moins deux rayons particuliers issus de B, à la règle.",
+      "Décris l'image : réelle ou virtuelle, droite ou renversée, plus grande ou plus petite."
+    ]
+  }
+}

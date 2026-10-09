@@ -1,0 +1,78 @@
+{
+  "_topic": "energie-rendement",
+  "objectifs": [
+    "Reconnaître les formes d'énergie et leurs conversions.",
+    "Calculer une énergie électrique E = P × t en J et en kWh.",
+    "Calculer le rendement d'un convertisseur."
+  ],
+  "prerequis": [
+    "Travail et puissance.",
+    "Pourcentages."
+  ],
+  "a_retenir": {
+    "points": [
+      "Formes d'énergie : mécanique, électrique, thermique, chimique, lumineuse, nucléaire.",
+      "Un convertisseur transforme une forme d'énergie en une autre (moteur : électrique → mécanique).",
+      "L'énergie se conserve : énergie reçue = énergie utile + énergie perdue (souvent chaleur).",
+      "Le rendement est toujours inférieur à 1 (ou à 100 %).",
+      "1 kWh = 1 000 W × 3 600 s = 3,6 × 10⁶ J."
+    ],
+    "formules": [
+      "E = P × t",
+      "η = énergie utile / énergie reçue",
+      "1 kWh = 3,6 × 10⁶ J"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Trouver un rendement supérieur à 100 %.",
+      "correction": "Tu as inversé le rapport : utile ÷ reçue."
+    },
+    {
+      "erreur": "Mélanger heures et secondes dans E = P × t.",
+      "correction": "W × s donne des joules ; kW × h donne des kWh."
+    },
+    {
+      "erreur": "Dire que l'énergie perdue disparaît.",
+      "correction": "Elle est transformée, le plus souvent en chaleur."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un moteur reçoit 1 000 J d'énergie électrique et fournit 800 J d'énergie mécanique. Calcule son rendement et l'énergie perdue. Sous quelle forme est-elle perdue ?",
+      "indice": "η = utile / reçue.",
+      "corrige": [
+        "η = 800 / 1 000 = 0,8 = 80 %.",
+        "Énergie perdue : 1 000 − 800 = 200 J, essentiellement sous forme de chaleur."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une lampe de 60 W reste allumée 5 heures. Calcule l'énergie consommée en Wh, en kWh puis en joules.",
+      "indice": "E = P × t avec t en heures pour les Wh.",
+      "corrige": [
+        "E = 60 × 5 = 300 Wh = 0,3 kWh.",
+        "En joules : 0,3 × 3,6 × 10⁶ = 1 080 000 J (ou 60 W × 18 000 s)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une pompe électrique de puissance 500 W remonte 1 200 kg d'eau d'un puits de 15 m en 10 minutes. On prend g = 10 N/kg. 1) Calcule l'énergie électrique reçue. 2) Calcule l'énergie utile (travail pour remonter l'eau). 3) Calcule le rendement.",
+      "indice": "Énergie utile = m × g × h.",
+      "corrige": [
+        "1) E reçue = P × t = 500 × 600 = 300 000 J.",
+        "2) E utile = 1 200 × 10 × 15 = 180 000 J.",
+        "3) η = 180 000 / 300 000 = 0,6 = 60 %."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : énergie et rendement",
+    "etapes": [
+      "Fais une chaîne énergétique : énergie reçue → convertisseur → énergie utile + pertes.",
+      "Calcule chaque énergie dans la même unité (J).",
+      "Vérifie que le rendement est entre 0 et 100 %."
+    ]
+  }
+}

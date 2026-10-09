@@ -1,0 +1,805 @@
+{
+  "_doc": "Complements pedagogiques - Physique-Chimie college, partie chimie + chapitres PCT du Benin (atome, mole, machines simples, transmission, courant alternatif). Equations equilibrees et calculs verifies a la main.",
+  "topics": {
+    "electrolyse-eau": {
+      "objectifs": [
+        "Décrire l'électrolyse de l'eau et identifier les gaz formés.",
+        "Connaître les tests du dihydrogène et du dioxygène.",
+        "Écrire les équations-bilans de l'électrolyse et de la synthèse de l'eau.",
+        "Utiliser le rapport des volumes (2 pour 1)."
+      ],
+      "prerequis": ["Atomes et molécules : H₂, O₂, H₂O.", "Équilibrer une équation chimique."],
+      "a_retenir": {
+        "points": [
+          "L'eau pure conduit très mal : on ajoute un peu de soude (hydroxyde de sodium) pour réaliser l'électrolyse.",
+          "À la cathode (borne −) se dégage du dihydrogène H₂ ; à l'anode (borne +) du dioxygène O₂.",
+          "Le volume de dihydrogène est le double de celui de dioxygène.",
+          "Test du H₂ : une flamme approchée provoque une légère détonation. Test du O₂ : il rallume une bûchette incandescente.",
+          "La synthèse de l'eau est la réaction inverse : le dihydrogène brûle dans le dioxygène en donnant de l'eau."
+        ],
+        "formules": ["Électrolyse : 2 H₂O → 2 H₂ + O₂", "Synthèse : 2 H₂ + O₂ → 2 H₂O", "V(H₂) = 2 × V(O₂)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Placer le dioxygène à la cathode.", "correction": "Cathode (−) → dihydrogène ; anode (+) → dioxygène." },
+        { "erreur": "Écrire H₂O → H₂ + O₂ sans équilibrer.", "correction": "Il faut 2 H₂O → 2 H₂ + O₂ (4 H et 2 O de chaque côté)." },
+        { "erreur": "Inverser les tests des deux gaz.", "correction": "Détonation → H₂ ; bûchette qui se rallume → O₂." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Lors d'une électrolyse de l'eau, on recueille 30 mL de dioxygène. Quel volume de dihydrogène obtient-on dans les mêmes conditions ?",
+          "indice": "V(H₂) = 2 × V(O₂).",
+          "corrige": ["V(H₂) = 2 × 30 = 60 mL."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Nomme le gaz recueilli à chaque électrode et décris le test qui permet de l'identifier.",
+          "indice": "Pense à la bûchette et à la flamme.",
+          "corrige": [
+            "Cathode (−) : dihydrogène ; une flamme approchée produit une petite détonation.",
+            "Anode (+) : dioxygène ; il ravive (rallume) une bûchette incandescente."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On réalise la synthèse de l'eau avec un mélange de 40 cm³ de dihydrogène et 30 cm³ de dioxygène. 1) Écris l'équation-bilan. 2) Quel volume de dioxygène réagit avec les 40 cm³ de dihydrogène ? 3) Quel gaz reste en excès et quel est son volume ?",
+          "indice": "Les gaz réagissent dans les proportions 2 volumes de H₂ pour 1 volume de O₂.",
+          "corrige": [
+            "1) 2 H₂ + O₂ → 2 H₂O.",
+            "2) 40 cm³ de H₂ réagissent avec 40 ÷ 2 = 20 cm³ de O₂.",
+            "3) Il reste du dioxygène : 30 − 20 = 10 cm³ en excès."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : électrolyse et synthèse de l'eau",
+        "etapes": [
+          "Fais un schéma légendé (électrodes, bornes, tubes, gaz).",
+          "Écris l'équation-bilan équilibrée.",
+          "Utilise le rapport 2 pour 1 pour les volumes et cherche le réactif en excès."
+        ]
+      }
+    },
+    "hydrocarbures": {
+      "objectifs": [
+        "Reconnaître un alcane et écrire sa formule brute CₙH₂ₙ₊₂.",
+        "Écrire et équilibrer l'équation de combustion complète d'un alcane.",
+        "Identifier les produits de combustion (tests à l'eau de chaux et au sulfate de cuivre anhydre).",
+        "Connaître les dangers de la combustion incomplète et l'origine des hydrocarbures (pétrole, gaz naturel)."
+      ],
+      "prerequis": ["Équilibrer une équation chimique."],
+      "a_retenir": {
+        "points": [
+          "Les hydrocarbures sont formés uniquement de carbone et d'hydrogène ; les alcanes ont pour formule CₙH₂ₙ₊₂.",
+          "Méthane CH₄, éthane C₂H₆, propane C₃H₈, butane C₄H₁₀ (gaz des bouteilles domestiques).",
+          "Combustion complète : alcane + dioxygène → dioxyde de carbone + eau.",
+          "Le CO₂ trouble l'eau de chaux ; l'eau bleuit le sulfate de cuivre anhydre (blanc).",
+          "Combustion incomplète (manque d'air) : formation de carbone (fumée noire) et de monoxyde de carbone CO, gaz mortel sans odeur. Toujours aérer la cuisine.",
+          "Le pétrole brut est séparé en coupes (gaz, essence, kérosène, gasoil…) par distillation fractionnée."
+        ],
+        "formules": ["CₙH₂ₙ₊₂", "CH₄ + 2 O₂ → CO₂ + 2 H₂O", "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire C₄H₈ pour le butane.", "correction": "n = 4 : H = 2 × 4 + 2 = 10, donc C₄H₁₀." },
+        { "erreur": "Oublier d'équilibrer les O en dernier.", "correction": "Équilibre C, puis H, puis O (compte les O de CO₂ ET de H₂O)." },
+        { "erreur": "Penser que le CO se sent.", "correction": "Le monoxyde de carbone est inodore : seule l'aération protège." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Donne la formule brute des alcanes ayant 3 puis 4 atomes de carbone et nomme-les.",
+          "indice": "CₙH₂ₙ₊₂.",
+          "corrige": ["n = 3 : C₃H₈, le propane.", "n = 4 : C₄H₁₀, le butane."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Équilibre l'équation de combustion complète du propane : C₃H₈ + O₂ → CO₂ + H₂O.",
+          "indice": "3 carbones donnent 3 CO₂ ; 8 hydrogènes donnent 4 H₂O.",
+          "corrige": [
+            "Carbone : 3 CO₂. Hydrogène : 4 H₂O.",
+            "Oxygène à droite : 3 × 2 + 4 × 1 = 10 atomes, soit 5 O₂.",
+            "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une cuisinière fonctionne au butane. 1) Écris et équilibre l'équation de combustion complète du butane. 2) Quel volume de dioxygène faut-il pour brûler 2 L de butane (mêmes conditions) ? 3) Pourquoi est-il dangereux d'utiliser ce gaz dans une pièce fermée ?",
+          "indice": "Commence par 2 C₄H₁₀ pour éviter les demi-molécules d'O₂.",
+          "corrige": [
+            "1) 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O (O : 26 = 16 + 10).",
+            "2) 2 volumes de butane réagissent avec 13 volumes de O₂ : 2 L de butane demandent 13 L de dioxygène.",
+            "3) Sans aération, le dioxygène manque : la combustion devient incomplète et produit du monoxyde de carbone, gaz toxique et inodore qui peut tuer."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la combustion des hydrocarbures",
+        "etapes": [
+          "Écris la formule brute de l'alcane (CₙH₂ₙ₊₂).",
+          "Équilibre C, puis H, puis O ; vérifie atome par atome.",
+          "Cite les tests des produits (eau de chaux, sulfate de cuivre anhydre) et les règles de sécurité."
+        ]
+      }
+    },
+    "acides-bases": {
+      "objectifs": [
+        "Classer une solution acide, neutre ou basique grâce au pH ou à un indicateur.",
+        "Prévoir l'effet de la dilution sur le pH.",
+        "Décrire et écrire une réaction de neutralisation (acide chlorhydrique + soude).",
+        "Respecter les règles de sécurité avec les acides et les bases."
+      ],
+      "prerequis": ["Solution, soluté, solvant.", "Ions H⁺ (H₃O⁺) et OH⁻."],
+      "a_retenir": {
+        "points": [
+          "Le pH varie de 0 à 14 : pH < 7 acide, pH = 7 neutre, pH > 7 basique (à 25 °C).",
+          "Une solution acide contient plus d'ions H⁺ que d'ions OH⁻ ; une solution basique, l'inverse.",
+          "Diluer une solution rapproche son pH de 7 (sans jamais le dépasser).",
+          "Bleu de bromothymol (BBT) : jaune en milieu acide, vert en milieu neutre, bleu en milieu basique.",
+          "Neutralisation : acide + base → sel + eau ; la réaction dégage de la chaleur.",
+          "Sécurité : lunettes, gants ; on verse toujours l'acide dans l'eau, jamais l'inverse."
+        ],
+        "formules": ["H⁺ + OH⁻ → H₂O", "HCl + NaOH → NaCl + H₂O", "À l'équivalence : C_A × V_A = C_B × V_B"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire qu'en diluant un acide on obtient une solution basique.", "correction": "Le pH augmente vers 7 mais la solution reste acide." },
+        { "erreur": "Croire que pH 2 est moins acide que pH 4.", "correction": "Plus le pH est petit, plus la solution est acide." },
+        { "erreur": "Verser l'eau dans l'acide concentré.", "correction": "Danger de projections : on verse l'acide dans l'eau." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Classe ces solutions : jus de citron (pH 2,5), eau pure (pH 7), eau savonneuse (pH 10), boisson gazeuse (pH 3).",
+          "indice": "Compare chaque pH à 7.",
+          "corrige": [
+            "Acides : jus de citron et boisson gazeuse (le jus de citron est le plus acide).",
+            "Neutre : eau pure. Basique : eau savonneuse."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On dilue 10 fois une solution d'acide de pH 3. Le pH obtenu peut-il être 2 ? 4 ? 8 ? Justifie.",
+          "indice": "La dilution rapproche le pH de 7.",
+          "corrige": [
+            "Le pH augmente vers 7 : il ne peut pas valoir 2.",
+            "Il ne peut pas dépasser 7 : 8 est impossible.",
+            "Une valeur comme 4 est possible : la solution reste acide."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On verse progressivement une solution de soude de concentration 0,05 mol/L dans 20 mL d'acide chlorhydrique de concentration 0,1 mol/L, additionnés de quelques gouttes de BBT. 1) Quelle est la couleur au départ ? 2) Écris l'équation de la réaction. 3) Quel volume de soude faut-il verser pour atteindre l'équivalence ? Quelle est alors la couleur ? 4) Et si on continue d'ajouter de la soude ?",
+          "indice": "À l'équivalence, C_A × V_A = C_B × V_B.",
+          "corrige": [
+            "1) Milieu acide : le BBT est jaune.",
+            "2) HCl + NaOH → NaCl + H₂O (ou H⁺ + OH⁻ → H₂O).",
+            "3) V_B = C_A × V_A / C_B = 0,1 × 20 / 0,05 = 40 mL ; la solution est neutre, le BBT est vert.",
+            "4) La soude est en excès : la solution devient basique et le BBT bleu."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : acides et bases",
+        "etapes": [
+          "Compare le pH à 7 et utilise le vocabulaire acide / neutre / basique.",
+          "Pour un dosage, écris l'équation puis la relation d'équivalence.",
+          "Indique les couleurs de l'indicateur avant, à et après l'équivalence."
+        ]
+      }
+    },
+    "solutions-aqueuses": {
+      "objectifs": [
+        "Définir solution, soluté et solvant.",
+        "Calculer une concentration massique et une concentration molaire.",
+        "Préparer une solution de concentration donnée.",
+        "Réaliser et calculer une dilution."
+      ],
+      "prerequis": ["La mole et la masse molaire.", "Conversions mL → L."],
+      "a_retenir": {
+        "points": [
+          "Une solution aqueuse est obtenue en dissolvant un soluté dans l'eau (le solvant).",
+          "Une solution est saturée quand le soluté ne peut plus se dissoudre.",
+          "Concentration massique : masse de soluté par litre de solution (g/L).",
+          "Concentration molaire : quantité de matière de soluté par litre de solution (mol/L).",
+          "Lors d'une dilution, la quantité de soluté ne change pas : C₁ × V₁ = C₂ × V₂."
+        ],
+        "formules": ["C_m = m / V (g/L)", "C = n / V (mol/L)", "C_m = C × M", "C₁ × V₁ = C₂ × V₂"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Garder le volume en mL dans C = n / V.", "correction": "V doit être en litres : 250 mL = 0,25 L." },
+        { "erreur": "Prendre le volume d'eau ajouté au lieu du volume final de solution.", "correction": "On complète jusqu'au trait de jauge de la fiole : c'est le volume de la SOLUTION." },
+        { "erreur": "Penser que la dilution augmente la concentration.", "correction": "Diluer = ajouter du solvant : la concentration diminue." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "On dissout 10 g de sucre pour obtenir 250 mL de solution. Calcule la concentration massique.",
+          "indice": "Convertis 250 mL en litres.",
+          "corrige": ["C_m = 10 / 0,25 = 40 g/L."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Quelle masse de sel (chlorure de sodium) faut-il pour préparer 500 mL de sérum physiologique à 9 g/L ? Décris la préparation.",
+          "indice": "m = C_m × V.",
+          "corrige": [
+            "m = 9 × 0,5 = 4,5 g.",
+            "On pèse 4,5 g de sel, on les introduit dans une fiole jaugée de 500 mL, on ajoute de l'eau distillée, on agite pour dissoudre, puis on complète jusqu'au trait de jauge et on homogénéise."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On dissout 5,85 g de chlorure de sodium NaCl dans de l'eau pour obtenir 0,5 L de solution. Données : M(Na) = 23 g/mol, M(Cl) = 35,5 g/mol. 1) Calcule la masse molaire de NaCl. 2) Calcule la quantité de matière dissoute et la concentration molaire. 3) On prélève 10 mL de cette solution qu'on dilue pour obtenir 100 mL. Calcule la nouvelle concentration.",
+          "indice": "Pour la dilution, C₁ × V₁ = C₂ × V₂.",
+          "corrige": [
+            "1) M(NaCl) = 23 + 35,5 = 58,5 g/mol.",
+            "2) n = 5,85 / 58,5 = 0,1 mol ; C = 0,1 / 0,5 = 0,2 mol/L.",
+            "3) C₂ = C₁ × V₁ / V₂ = 0,2 × 10 / 100 = 0,02 mol/L."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les solutions",
+        "etapes": [
+          "Identifie soluté, solvant et volume de solution (en L).",
+          "Choisis la bonne formule : g/L ou mol/L.",
+          "Pour une dilution, écris C₁V₁ = C₂V₂ et précise le matériel (pipette, fiole jaugée)."
+        ]
+      }
+    },
+    "metaux-oxydation": {
+      "objectifs": [
+        "Décrire l'oxydation de quelques métaux et corps purs simples (fer, cuivre, aluminium, carbone, soufre).",
+        "Écrire et équilibrer les équations d'oxydation.",
+        "Expliquer la corrosion du fer et les moyens de protection.",
+        "Décrire l'action de l'acide chlorhydrique sur quelques métaux."
+      ],
+      "prerequis": ["Équilibrer une équation.", "Test du dihydrogène."],
+      "a_retenir": {
+        "points": [
+          "Une oxydation est une réaction d'un corps avec le dioxygène ; elle produit un oxyde.",
+          "Le fer brûle dans le dioxygène en donnant de l'oxyde magnétique Fe₃O₄ ; à l'air humide il rouille lentement (rouille poreuse qui laisse continuer la corrosion).",
+          "L'aluminium se recouvre d'une fine couche d'alumine Al₂O₃ imperméable qui le protège.",
+          "On protège le fer par la peinture, la graisse, la galvanisation (couche de zinc).",
+          "L'acide chlorhydrique attaque le fer, le zinc et l'aluminium avec dégagement de dihydrogène ; il n'attaque pas le cuivre."
+        ],
+        "formules": [
+          "3 Fe + 2 O₂ → Fe₃O₄",
+          "2 Cu + O₂ → 2 CuO",
+          "4 Al + 3 O₂ → 2 Al₂O₃",
+          "C + O₂ → CO₂   ;   S + O₂ → SO₂",
+          "Fe + 2 HCl → FeCl₂ + H₂"
+        ]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Écrire Al + O₂ → Al₂O₃ sans équilibrer.", "correction": "4 Al + 3 O₂ → 2 Al₂O₃ (4 Al et 6 O de chaque côté)." },
+        { "erreur": "Penser que l'aluminium rouille comme le fer.", "correction": "Sa couche d'alumine est protectrice ; la rouille du fer, elle, est poreuse." },
+        { "erreur": "Dire que le cuivre réagit avec l'acide chlorhydrique dilué.", "correction": "Le cuivre n'est pas attaqué par l'acide chlorhydrique dilué." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Équilibre : Cu + O₂ → CuO et Al + O₂ → Al₂O₃.",
+          "indice": "Pour l'aluminium, commence par équilibrer les O (2 et 3 → 6).",
+          "corrige": ["2 Cu + O₂ → 2 CuO.", "4 Al + 3 O₂ → 2 Al₂O₃."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Pourquoi une tôle de fer non peinte finit-elle trouée, alors qu'une marmite en aluminium dure longtemps ? Propose deux moyens de protéger le fer.",
+          "indice": "Compare la rouille et l'alumine.",
+          "corrige": [
+            "La rouille est poreuse : l'air et l'eau continuent d'attaquer le fer en profondeur.",
+            "L'alumine forme une couche imperméable qui protège l'aluminium.",
+            "Protection du fer : peinture, graisse, galvanisation (zinc)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On verse de l'acide chlorhydrique sur de la limaille de fer dans un tube, et sur du cuivre dans un autre tube. 1) Qu'observe-t-on dans chaque tube ? 2) Comment identifier le gaz formé ? 3) Écris l'équation de la réaction avec le fer (il se forme du chlorure de fer II, FeCl₂).",
+          "indice": "Un seul des deux métaux réagit.",
+          "corrige": [
+            "1) Avec le fer : effervescence (dégagement gazeux) et la solution devient verdâtre. Avec le cuivre : aucune réaction.",
+            "2) Le gaz produit une légère détonation à l'approche d'une flamme : c'est du dihydrogène.",
+            "3) Fe + 2 HCl → FeCl₂ + H₂."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les métaux et l'oxydation",
+        "etapes": [
+          "Décris les observations (couleur, flamme, gaz, dépôt).",
+          "Nomme le produit et écris l'équation équilibrée.",
+          "Relie à la vie courante (corrosion, protection, sécurité)."
+        ]
+      }
+    },
+    "reduction-oxydes": {
+      "objectifs": [
+        "Définir la réduction d'un oxyde et identifier le réducteur.",
+        "Reconnaître une réaction d'oxydoréduction.",
+        "Écrire et équilibrer les équations de réduction (carbone, aluminium, monoxyde de carbone).",
+        "Utiliser la conservation de la masse."
+      ],
+      "prerequis": ["Oxydation des corps purs simples.", "Équilibrer une équation."],
+      "a_retenir": {
+        "points": [
+          "Réduire un oxyde, c'est lui enlever son oxygène ; le corps qui capte l'oxygène est le réducteur.",
+          "Le réducteur est lui-même oxydé : oxydation et réduction se produisent ensemble (oxydoréduction).",
+          "Le carbone réduit l'oxyde de cuivre : il se forme du cuivre (rouge) et du CO₂ (trouble l'eau de chaux).",
+          "L'aluminium réduit l'oxyde de fer (aluminothermie, utilisée pour souder les rails).",
+          "Dans le haut fourneau, le monoxyde de carbone réduit le minerai de fer.",
+          "Conservation de la masse (Lavoisier) : masse des réactifs = masse des produits."
+        ],
+        "formules": ["2 CuO + C → 2 Cu + CO₂", "Fe₂O₃ + 2 Al → 2 Fe + Al₂O₃", "Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que le carbone est réduit.", "correction": "Le carbone capte l'oxygène : il est OXYDÉ ; c'est l'oxyde de cuivre qui est réduit." },
+        { "erreur": "Oublier de vérifier l'équilibre des atomes d'oxygène.", "correction": "Compte les O de chaque côté : 2 CuO (2 O) → CO₂ (2 O)." },
+        { "erreur": "Confondre réducteur et oxydant.", "correction": "Le réducteur prend l'oxygène, l'oxydant (l'oxyde) le cède." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Dans la réaction 2 CuO + C → 2 Cu + CO₂, quel corps est réduit ? quel corps est oxydé ? quel est le réducteur ?",
+          "indice": "Qui perd l'oxygène ? Qui le gagne ?",
+          "corrige": [
+            "CuO perd son oxygène : il est réduit en cuivre.",
+            "Le carbone gagne de l'oxygène : il est oxydé en CO₂ ; c'est le réducteur."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Équilibre l'équation de l'aluminothermie : Fe₂O₃ + Al → Fe + Al₂O₃.",
+          "indice": "2 Fe à gauche, 2 Al à droite.",
+          "corrige": [
+            "Fer : 2 Fe à droite. Aluminium : 2 Al à gauche. Oxygène : 3 de chaque côté.",
+            "Fe₂O₃ + 2 Al → 2 Fe + Al₂O₃."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Dans un haut fourneau, le monoxyde de carbone réduit l'oxyde de fer Fe₂O₃. 1) Équilibre : Fe₂O₃ + CO → Fe + CO₂. 2) Identifie le réducteur. 3) Sachant que 160 g de Fe₂O₃ donnent 112 g de fer et 132 g de CO₂, calcule la masse de CO qui a réagi.",
+          "indice": "Utilise la conservation de la masse.",
+          "corrige": [
+            "1) Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂ (O : 3 + 3 = 6 = 3 × 2).",
+            "2) Le réducteur est le monoxyde de carbone CO (il est oxydé en CO₂).",
+            "3) Masse des réactifs = masse des produits : 160 + m(CO) = 112 + 132 = 244, donc m(CO) = 84 g."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la réduction des oxydes",
+        "etapes": [
+          "Repère l'oxyde (réduit) et le corps qui capte l'oxygène (réducteur, oxydé).",
+          "Équilibre l'équation en comptant chaque type d'atome.",
+          "Utilise la conservation de la masse pour les calculs."
+        ]
+      }
+    },
+    "reaction-chimique": {
+      "objectifs": [
+        "Distinguer transformation physique et réaction chimique.",
+        "Identifier réactifs et produits.",
+        "Écrire et équilibrer une équation-bilan.",
+        "Appliquer la conservation de la masse (loi de Lavoisier)."
+      ],
+      "prerequis": ["Atomes, molécules et formules chimiques."],
+      "a_retenir": {
+        "points": [
+          "Une réaction chimique fait disparaître des corps (réactifs) et apparaître de nouveaux corps (produits).",
+          "Un changement d'état (fusion, évaporation) n'est pas une réaction chimique : la substance reste la même.",
+          "Au cours d'une réaction, les atomes se conservent : ils se réarrangent pour former de nouvelles molécules.",
+          "Équilibrer, c'est placer des coefficients devant les formules (jamais modifier les indices).",
+          "Loi de Lavoisier : la masse totale des réactifs consommés est égale à la masse totale des produits formés."
+        ],
+        "formules": ["2 H₂ + O₂ → 2 H₂O", "C + O₂ → CO₂ (12 g + 32 g → 44 g)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Changer H₂O en H₂O₂ pour équilibrer.", "correction": "On ne touche jamais aux indices : on ajoute des coefficients (2 H₂O)." },
+        { "erreur": "Considérer la fonte de la glace comme une réaction chimique.", "correction": "C'est un changement d'état : l'eau reste de l'eau." },
+        { "erreur": "Penser que la masse diminue quand du gaz se dégage.", "correction": "La masse se conserve ; elle semble diminuer si le gaz s'échappe du récipient." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Le charbon (carbone) brûle dans le dioxygène de l'air en donnant du dioxyde de carbone. Nomme les réactifs et le produit, puis écris l'équation-bilan.",
+          "indice": "Réactifs à gauche de la flèche.",
+          "corrige": [
+            "Réactifs : carbone et dioxygène. Produit : dioxyde de carbone.",
+            "C + O₂ → CO₂."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Équilibre : H₂ + O₂ → H₂O et Fe + O₂ → Fe₃O₄.",
+          "indice": "Pour Fe₃O₄, il faut 4 O, donc 2 O₂.",
+          "corrige": ["2 H₂ + O₂ → 2 H₂O.", "3 Fe + 2 O₂ → Fe₃O₄."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "La combustion complète de 12 g de carbone consomme 32 g de dioxygène. 1) Quelle masse de dioxyde de carbone se forme-t-il ? Énonce la loi utilisée. 2) Quelles masses de dioxygène et de dioxyde de carbone correspondent à la combustion de 6 g de carbone ?",
+          "indice": "Les masses qui réagissent sont proportionnelles.",
+          "corrige": [
+            "1) Loi de Lavoisier : m(CO₂) = 12 + 32 = 44 g.",
+            "2) 6 g, c'est la moitié de 12 g : il faut 32 ÷ 2 = 16 g de dioxygène et il se forme 44 ÷ 2 = 22 g de CO₂."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la réaction chimique",
+        "etapes": [
+          "Écris le bilan en mots (réactifs → produits), puis avec les formules.",
+          "Équilibre élément par élément et vérifie.",
+          "Pour les masses : Lavoisier et proportionnalité."
+        ]
+      }
+    },
+    "mole": {
+      "objectifs": [
+        "Définir la mole et utiliser le nombre d'Avogadro.",
+        "Calculer une masse molaire moléculaire.",
+        "Passer de la masse à la quantité de matière, et inversement.",
+        "Utiliser le volume molaire d'un gaz."
+      ],
+      "prerequis": ["Formules chimiques.", "Puissances de 10 et notation scientifique."],
+      "a_retenir": {
+        "points": [
+          "La mole est l'unité de quantité de matière : une mole contient Nₐ = 6,02 × 10²³ entités (atomes, molécules, ions).",
+          "La masse molaire M (g/mol) est la masse d'une mole ; celle d'une molécule est la somme des masses molaires de ses atomes.",
+          "Pour un gaz, le volume molaire est le même pour tous les gaz dans les mêmes conditions (22,4 L/mol dans les conditions normales).",
+          "Masses molaires utiles : H = 1 ; C = 12 ; N = 14 ; O = 16 g/mol."
+        ],
+        "formules": ["n = m / M", "N = n × Nₐ", "n = V / Vₘ (gaz)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer M(H₂O) = 1 + 16 = 17 g/mol.", "correction": "Il y a 2 atomes d'hydrogène : M = 2 × 1 + 16 = 18 g/mol." },
+        { "erreur": "Utiliser le volume molaire pour un liquide ou un solide.", "correction": "Vₘ ne s'applique qu'aux gaz." },
+        { "erreur": "Confondre n (mol) et N (nombre d'entités).", "correction": "N = n × 6,02 × 10²³." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule les masses molaires de H₂O et de CO₂ (H = 1 ; C = 12 ; O = 16 g/mol).",
+          "indice": "Additionne les masses molaires de tous les atomes.",
+          "corrige": ["M(H₂O) = 2 × 1 + 16 = 18 g/mol.", "M(CO₂) = 12 + 2 × 16 = 44 g/mol."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Combien de moles et combien de molécules y a-t-il dans 36 g d'eau ?",
+          "indice": "n = m / M puis N = n × Nₐ.",
+          "corrige": [
+            "n = 36 / 18 = 2 mol.",
+            "N = 2 × 6,02 × 10²³ = 1,204 × 10²⁴ molécules."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "On recueille 4,4 g de dioxyde de carbone. 1) Calcule la quantité de matière. 2) Calcule le volume occupé dans les conditions normales (Vₘ = 22,4 L/mol). 3) Calcule le nombre de molécules.",
+          "indice": "M(CO₂) = 44 g/mol.",
+          "corrige": [
+            "1) n = 4,4 / 44 = 0,1 mol.",
+            "2) V = n × Vₘ = 0,1 × 22,4 = 2,24 L.",
+            "3) N = 0,1 × 6,02 × 10²³ = 6,02 × 10²² molécules."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les calculs avec la mole",
+        "etapes": [
+          "Calcule d'abord la masse molaire en détaillant chaque atome.",
+          "Écris la formule (n = m/M, n = V/Vₘ, N = n × Nₐ) puis l'application numérique.",
+          "Donne le résultat avec l'unité et en notation scientifique si besoin."
+        ]
+      }
+    },
+    "constituants-matiere": {
+      "objectifs": [
+        "Décrire la structure de l'atome (noyau, protons, neutrons, électrons).",
+        "Utiliser la notation ᴬ_Z X pour trouver le nombre de chaque particule.",
+        "Répartir les électrons sur les couches K, L, M.",
+        "Expliquer la formation des ions."
+      ],
+      "prerequis": ["Notion de molécule et d'atome."],
+      "a_retenir": {
+        "points": [
+          "L'atome est formé d'un noyau (protons positifs et neutrons neutres) entouré d'électrons négatifs.",
+          "Z (numéro atomique) = nombre de protons ; A (nombre de masse) = nombre de protons + neutrons.",
+          "Un atome est électriquement neutre : il a autant d'électrons que de protons (Z).",
+          "Couches électroniques : K (2 électrons au plus), L (8), M (8 pour les 18 premiers éléments).",
+          "Un cation est un atome qui a perdu des électrons (Na⁺) ; un anion en a gagné (Cl⁻)."
+        ],
+        "formules": ["nombre de neutrons N = A − Z", "Na (Z = 11) : K² L⁸ M¹", "Cl (Z = 17) : K² L⁸ M⁷"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'un ion positif a gagné des électrons.", "correction": "Positif = il a PERDU des électrons (il a plus de protons que d'électrons)." },
+        { "erreur": "Confondre A et Z.", "correction": "Z en bas (protons), A en haut (protons + neutrons)." },
+        { "erreur": "Mettre 8 électrons sur la couche K.", "correction": "La couche K contient au maximum 2 électrons." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "L'atome de sodium est noté ²³₁₁Na. Donne son nombre de protons, de neutrons et d'électrons.",
+          "indice": "N = A − Z.",
+          "corrige": ["Protons : Z = 11 ; électrons : 11 (atome neutre) ; neutrons : 23 − 11 = 12."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Combien d'électrons possèdent l'ion Na⁺ (Z = 11) et l'ion Cl⁻ (Z = 17) ?",
+          "indice": "Na⁺ a perdu un électron, Cl⁻ en a gagné un.",
+          "corrige": ["Na⁺ : 11 − 1 = 10 électrons.", "Cl⁻ : 17 + 1 = 18 électrons."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Donne la répartition électronique de Na (Z = 11) et de Cl (Z = 17). 2) Combien d'électrons chacun a-t-il sur sa couche externe ? 3) Explique la formation des ions Na⁺ et Cl⁻ et du sel NaCl.",
+          "indice": "Les atomes tendent à avoir 8 électrons sur leur couche externe.",
+          "corrige": [
+            "1) Na : K² L⁸ M¹ ; Cl : K² L⁸ M⁷.",
+            "2) Na : 1 électron externe ; Cl : 7 électrons externes.",
+            "3) Na perd son électron externe (il devient Na⁺, couche L à 8 électrons) ; Cl en gagne un (Cl⁻, couche M à 8). Les ions de charges opposées s'attirent et forment le chlorure de sodium NaCl."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'atome et les ions",
+        "etapes": [
+          "Lis A et Z, puis calcule protons, neutrons, électrons.",
+          "Remplis les couches dans l'ordre K, L, M.",
+          "Pour un ion, ajoute ou retire des électrons selon la charge."
+        ]
+      }
+    },
+    "classification-elements": {
+      "objectifs": [
+        "Expliquer le principe de la classification périodique (lignes et colonnes).",
+        "Situer un élément à partir de sa répartition électronique.",
+        "Connaître quelques familles : alcalins, halogènes, gaz nobles.",
+        "Prévoir l'ion formé par un élément."
+      ],
+      "prerequis": ["Structure de l'atome et couches K, L, M."],
+      "a_retenir": {
+        "points": [
+          "Les éléments sont rangés par numéro atomique Z croissant.",
+          "Le numéro de la ligne (période) = nombre de couches électroniques occupées.",
+          "Pour les 18 premiers éléments, le numéro de colonne = nombre d'électrons de la couche externe.",
+          "Les éléments d'une même colonne forment une famille aux propriétés chimiques voisines.",
+          "Alcalins (colonne I : Li, Na, K) donnent des ions +1 ; halogènes (colonne VII : F, Cl) donnent des ions −1 ; gaz nobles (colonne VIII : He, Ne, Ar) sont très stables."
+        ],
+        "formules": ["Période = nombre de couches", "Colonne = électrons externes (18 premiers éléments)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Placer un élément d'après sa masse A.", "correction": "La classification utilise le numéro atomique Z." },
+        { "erreur": "Confondre période (ligne) et groupe (colonne).", "correction": "Ligne = nombre de couches ; colonne = électrons externes." },
+        { "erreur": "Dire qu'un gaz noble forme facilement des ions.", "correction": "Sa couche externe est saturée : il est très stable." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Le magnésium a pour numéro atomique Z = 12. Donne sa répartition électronique, sa période et sa colonne.",
+          "indice": "Remplis K, puis L, puis M.",
+          "corrige": ["Mg : K² L⁸ M² ; 3 couches → 3ᵉ période ; 2 électrons externes → colonne II."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "L'oxygène a pour numéro atomique Z = 8. Situe-le dans la classification et prévois l'ion qu'il forme.",
+          "indice": "Combien d'électrons lui manque-t-il pour en avoir 8 sur sa couche externe ?",
+          "corrige": [
+            "O : K² L⁶ → 2ᵉ période, colonne VI.",
+            "Il gagne 2 électrons pour compléter sa couche L : ion O²⁻."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un élément X est situé dans la 3ᵉ période et la colonne VII. 1) Donne sa répartition électronique et son numéro atomique. 2) Identifie-le et nomme sa famille. 3) Quel ion forme-t-il ?",
+          "indice": "3 couches occupées, 7 électrons sur la dernière.",
+          "corrige": [
+            "1) K² L⁸ M⁷ : Z = 2 + 8 + 7 = 17.",
+            "2) C'est le chlore, de la famille des halogènes.",
+            "3) Il gagne 1 électron : ion chlorure Cl⁻."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la classification périodique",
+        "etapes": [
+          "Écris la répartition électronique à partir de Z.",
+          "Déduis la période (couches) et la colonne (électrons externes).",
+          "Utilise la règle de l'octet pour prévoir l'ion."
+        ]
+      }
+    },
+    "machines-simples": {
+      "objectifs": [
+        "Reconnaître les machines simples : levier, poulie, plan incliné.",
+        "Appliquer la condition d'équilibre d'un levier.",
+        "Calculer la force nécessaire avec une poulie ou un plan incliné.",
+        "Comprendre qu'une machine simple réduit la force mais pas le travail."
+      ],
+      "prerequis": ["Poids P = m × g.", "Travail W = F × d."],
+      "a_retenir": {
+        "points": [
+          "Une machine simple permet de soulever ou déplacer une charge en modifiant la force à exercer.",
+          "Levier en équilibre : F₁ × d₁ = F₂ × d₂ (d = distance de la droite d'action à l'axe de rotation).",
+          "Plus le bras de levier est long, plus la force à exercer est petite.",
+          "Poulie fixe : elle change seulement la direction de la force. Poulie mobile : elle divise la force par 2 (mais il faut tirer deux fois plus de corde).",
+          "Plan incliné (sans frottement) : F × L = P × h. Le travail reste le même : on gagne en force, on perd en distance."
+        ],
+        "formules": ["F₁ × d₁ = F₂ × d₂", "Plan incliné : F = P × h / L"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'une machine simple réduit le travail.", "correction": "Elle réduit la force, mais la distance augmente : le travail est le même (sans frottement)." },
+        { "erreur": "Mesurer le bras de levier depuis le bout de la barre.", "correction": "On le mesure depuis l'axe de rotation (le point d'appui)." },
+        { "erreur": "Croire qu'une poulie fixe diminue l'effort.", "correction": "Elle ne fait que changer la direction de la force." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Pour soulever une pierre de poids 600 N placée à 0,5 m du point d'appui, un ouvrier appuie à 1,5 m de ce point. Quelle force doit-il exercer ?",
+          "indice": "F₁ × d₁ = F₂ × d₂.",
+          "corrige": ["F × 1,5 = 600 × 0,5, donc F = 300 / 1,5 = 200 N."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On veut soulever un sac de ciment de 50 kg (g = 10 N/kg). Quelle force faut-il avec une poulie fixe ? avec une poulie mobile ?",
+          "indice": "Calcule d'abord le poids.",
+          "corrige": [
+            "P = 50 × 10 = 500 N.",
+            "Poulie fixe : F = 500 N (seule la direction change).",
+            "Poulie mobile : F = 500 / 2 = 250 N (mais il faut tirer deux fois plus de corde)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Pour charger un fût de poids 1 000 N dans un camion dont le plateau est à 1 m du sol, on le roule sur une planche de 5 m. On néglige les frottements. 1) Calcule la force parallèle à la planche nécessaire. 2) Compare le travail fourni avec et sans la planche. Conclus.",
+          "indice": "F × L = P × h.",
+          "corrige": [
+            "1) F × 5 = 1 000 × 1, donc F = 200 N.",
+            "2) Avec la planche : W = 200 × 5 = 1 000 J ; sans la planche : W = 1 000 × 1 = 1 000 J.",
+            "Le travail est le même : la planche permet d'exercer une force 5 fois plus petite, mais sur une distance 5 fois plus grande."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les machines simples",
+        "etapes": [
+          "Fais un schéma avec l'axe (ou la poulie), les forces et les distances.",
+          "Écris la relation d'équilibre adaptée à la machine.",
+          "Vérifie avec le travail : la force diminue, la distance augmente."
+        ]
+      }
+    },
+    "transmission-mouvement": {
+      "objectifs": [
+        "Reconnaître les systèmes de transmission (engrenages, poulies-courroie, pignons-chaîne).",
+        "Calculer une vitesse de rotation avec le rapport de transmission.",
+        "Prévoir le sens de rotation de l'élément récepteur."
+      ],
+      "prerequis": ["Proportionnalité.", "Vitesse de rotation en tours par minute (tr/min)."],
+      "a_retenir": {
+        "points": [
+          "L'élément moteur entraîne l'élément récepteur.",
+          "Engrenages : N₁ × Z₁ = N₂ × Z₂ (Z = nombre de dents, N = vitesse de rotation).",
+          "Poulies et courroie : N₁ × D₁ = N₂ × D₂ (D = diamètre).",
+          "Deux roues dentées en contact tournent en sens inverse ; avec une courroie droite ou une chaîne, le sens est conservé (courroie croisée : sens inversé).",
+          "Le rapport de transmission k = N₂ / N₁ : si k < 1, le mouvement est ralenti (réducteur) ; si k > 1, il est accéléré (multiplicateur)."
+        ],
+        "formules": ["N₁ × Z₁ = N₂ × Z₂", "N₁ × D₁ = N₂ × D₂", "k = N₂ / N₁ = Z₁ / Z₂ = D₁ / D₂"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser que la grande roue tourne plus vite.", "correction": "La plus grande roue (plus de dents) tourne plus LENTEMENT." },
+        { "erreur": "Inverser le rapport : k = Z₂ / Z₁.", "correction": "k = N₂ / N₁ = Z₁ / Z₂ (moteur au numérateur pour les dents)." },
+        { "erreur": "Oublier le sens de rotation.", "correction": "Engrenage extérieur : sens inversé ; chaîne ou courroie droite : même sens." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un pignon moteur de 20 dents tourne à 300 tr/min et entraîne une roue de 60 dents. Calcule la vitesse de la roue et donne son sens de rotation.",
+          "indice": "N₁ × Z₁ = N₂ × Z₂.",
+          "corrige": [
+            "N₂ = 300 × 20 / 60 = 100 tr/min.",
+            "Engrenage : la roue tourne en sens inverse du pignon."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Sur un vélo, le plateau (pédalier) a 48 dents et le pignon de la roue arrière 16 dents. Combien de tours fait la roue quand le cycliste fait un tour de pédalier ?",
+          "indice": "Plateau = moteur, pignon = récepteur.",
+          "corrige": [
+            "N₂ = N₁ × Z₁ / Z₂ = 1 × 48 / 16 = 3 tours.",
+            "La chaîne conserve le sens : la roue tourne dans le même sens que le pédalier."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un moteur de moulin à mil tourne à 1 500 tr/min. Sa poulie a un diamètre de 10 cm et entraîne par courroie droite une poulie de 30 cm de diamètre. 1) Calcule la vitesse de la poulie réceptrice. 2) Calcule le rapport de transmission. S'agit-il d'un réducteur ? 3) Les deux poulies tournent-elles dans le même sens ?",
+          "indice": "N₁ × D₁ = N₂ × D₂.",
+          "corrige": [
+            "1) N₂ = 1 500 × 10 / 30 = 500 tr/min.",
+            "2) k = 500 / 1 500 = 1/3 < 1 : c'est un réducteur de vitesse.",
+            "3) Courroie droite : les deux poulies tournent dans le même sens."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la transmission du mouvement",
+        "etapes": [
+          "Repère l'élément moteur et l'élément récepteur.",
+          "Écris la relation (dents ou diamètres) et calcule la vitesse.",
+          "Donne le rapport, la nature (réducteur/multiplicateur) et le sens de rotation."
+        ]
+      }
+    },
+    "production-courant": {
+      "objectifs": [
+        "Expliquer la production d'un courant par induction (aimant et bobine).",
+        "Décrire le principe de l'alternateur et des centrales électriques.",
+        "Caractériser une tension alternative : période, fréquence, valeur maximale et efficace."
+      ],
+      "prerequis": ["Aimants et pôles.", "Tension et oscilloscope."],
+      "a_retenir": {
+        "points": [
+          "Le déplacement d'un aimant près d'une bobine (ou de la bobine près de l'aimant) produit un courant : c'est l'induction.",
+          "Un alternateur (rotor aimanté qui tourne devant des bobines) produit une tension alternative ; la dynamo de vélo en est un exemple.",
+          "Dans une centrale (hydraulique, thermique, solaire…), une turbine fait tourner l'alternateur ; seule l'énergie qui la met en mouvement change.",
+          "Une tension alternative change de signe périodiquement ; la période T est la durée d'un motif, la fréquence f = 1/T (en hertz).",
+          "Le réseau électrique en Afrique de l'Ouest fournit 220 V (valeur efficace) à 50 Hz."
+        ],
+        "formules": ["f = 1 / T   (Hz, s)", "U_max = U_eff × √2"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Penser qu'un aimant immobile dans une bobine produit du courant.", "correction": "Il faut un MOUVEMENT relatif entre l'aimant et la bobine." },
+        { "erreur": "Calculer f avec T en millisecondes.", "correction": "Convertis : 20 ms = 0,02 s, donc f = 50 Hz." },
+        { "erreur": "Confondre 220 V (efficace) et la valeur maximale.", "correction": "La tension maximale vaut 220 × √2 ≈ 311 V." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "La tension du secteur a une fréquence de 50 Hz. Calcule sa période.",
+          "indice": "T = 1 / f.",
+          "corrige": ["T = 1 / 50 = 0,02 s = 20 ms."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Sur l'écran d'un oscilloscope, un motif de la tension occupe 4 divisions horizontales ; la base de temps est réglée sur 5 ms/division. Calcule la période et la fréquence.",
+          "indice": "T = nombre de divisions × base de temps.",
+          "corrige": ["T = 4 × 5 = 20 ms = 0,02 s.", "f = 1 / 0,02 = 50 Hz."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) Explique comment le barrage hydroélectrique de Nangbéto, sur le fleuve Mono, produit de l'électricité. 2) La tension délivrée chez toi vaut 220 V (efficace). Calcule sa valeur maximale.",
+          "indice": "Chaîne : eau → turbine → alternateur.",
+          "corrige": [
+            "1) L'eau retenue par le barrage descend et fait tourner une turbine ; la turbine entraîne le rotor (aimant) d'un alternateur ; le mouvement de l'aimant devant les bobines produit une tension alternative par induction.",
+            "2) U_max = 220 × √2 ≈ 311 V."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la production du courant",
+        "etapes": [
+          "Décris la chaîne énergétique de la centrale jusqu'à l'alternateur.",
+          "Lis un oscillogramme : nombre de divisions × calibre.",
+          "Convertis les durées en secondes avant de calculer la fréquence."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-college-physique-chimie-electrolyse-et-synthese-": "electrolyse-eau",
+    "benin-college-physique-chimie-electrolyse-et-synthese-de-l-e": "electrolyse-eau",
+    "cote-ivoire-college-physique-chimie-les-alcanes": "hydrocarbures",
+    "senegal-college-physique-chimie-les-hydrocarbures": "hydrocarbures",
+    "benin-college-physique-chimie-les-petroles-et-gaz-naturels": "hydrocarbures",
+    "cote-ivoire-college-physique-chimie-solutions-acides-basique": "acides-bases",
+    "senegal-college-physique-chimie-acides-et-bases": "acides-bases",
+    "senegal-college-physique-chimie-solutions-aqueuses": "solutions-aqueuses",
+    "benin-college-physique-chimie-les-solutions-aqueuses": "solutions-aqueuses",
+    "cote-ivoire-college-physique-chimie-oxydation-des-corps-purs": "metaux-oxydation",
+    "senegal-college-physique-chimie-quelques-proprietes-chimique": "metaux-oxydation",
+    "cote-ivoire-college-physique-chimie-reduction-des-oxydes": "reduction-oxydes",
+    "benin-college-physique-chimie-notion-de-reaction-chimique": "reaction-chimique",
+    "benin-college-physique-chimie-la-mole": "mole",
+    "benin-college-physique-chimie-les-constituants-de-la-matiere": "constituants-matiere",
+    "benin-college-physique-chimie-classification-des-elements-ch": "classification-elements",
+    "benin-college-physique-chimie-quelques-machines-simples": "machines-simples",
+    "benin-college-physique-chimie-transmission-du-mouvement-de-r": "transmission-mouvement",
+    "benin-college-physique-chimie-production-d-un-courant-electr": "production-courant"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_topic": "reduction-oxydes",
+  "objectifs": [
+    "Définir la réduction d'un oxyde et identifier le réducteur.",
+    "Reconnaître une réaction d'oxydoréduction.",
+    "Écrire et équilibrer les équations de réduction (carbone, aluminium, monoxyde de carbone).",
+    "Utiliser la conservation de la masse."
+  ],
+  "prerequis": [
+    "Oxydation des corps purs simples.",
+    "Équilibrer une équation."
+  ],
+  "a_retenir": {
+    "points": [
+      "Réduire un oxyde, c'est lui enlever son oxygène ; le corps qui capte l'oxygène est le réducteur.",
+      "Le réducteur est lui-même oxydé : oxydation et réduction se produisent ensemble (oxydoréduction).",
+      "Le carbone réduit l'oxyde de cuivre : il se forme du cuivre (rouge) et du CO₂ (trouble l'eau de chaux).",
+      "L'aluminium réduit l'oxyde de fer (aluminothermie, utilisée pour souder les rails).",
+      "Dans le haut fourneau, le monoxyde de carbone réduit le minerai de fer.",
+      "Conservation de la masse (Lavoisier) : masse des réactifs = masse des produits."
+    ],
+    "formules": [
+      "2 CuO + C → 2 Cu + CO₂",
+      "Fe₂O₃ + 2 Al → 2 Fe + Al₂O₃",
+      "Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le carbone est réduit.",
+      "correction": "Le carbone capte l'oxygène : il est OXYDÉ ; c'est l'oxyde de cuivre qui est réduit."
+    },
+    {
+      "erreur": "Oublier de vérifier l'équilibre des atomes d'oxygène.",
+      "correction": "Compte les O de chaque côté : 2 CuO (2 O) → CO₂ (2 O)."
+    },
+    {
+      "erreur": "Confondre réducteur et oxydant.",
+      "correction": "Le réducteur prend l'oxygène, l'oxydant (l'oxyde) le cède."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Dans la réaction 2 CuO + C → 2 Cu + CO₂, quel corps est réduit ? quel corps est oxydé ? quel est le réducteur ?",
+      "indice": "Qui perd l'oxygène ? Qui le gagne ?",
+      "corrige": [
+        "CuO perd son oxygène : il est réduit en cuivre.",
+        "Le carbone gagne de l'oxygène : il est oxydé en CO₂ ; c'est le réducteur."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Équilibre l'équation de l'aluminothermie : Fe₂O₃ + Al → Fe + Al₂O₃.",
+      "indice": "2 Fe à gauche, 2 Al à droite.",
+      "corrige": [
+        "Fer : 2 Fe à droite. Aluminium : 2 Al à gauche. Oxygène : 3 de chaque côté.",
+        "Fe₂O₃ + 2 Al → 2 Fe + Al₂O₃."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Dans un haut fourneau, le monoxyde de carbone réduit l'oxyde de fer Fe₂O₃. 1) Équilibre : Fe₂O₃ + CO → Fe + CO₂. 2) Identifie le réducteur. 3) Sachant que 160 g de Fe₂O₃ donnent 112 g de fer et 132 g de CO₂, calcule la masse de CO qui a réagi.",
+      "indice": "Utilise la conservation de la masse.",
+      "corrige": [
+        "1) Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂ (O : 3 + 3 = 6 = 3 × 2).",
+        "2) Le réducteur est le monoxyde de carbone CO (il est oxydé en CO₂).",
+        "3) Masse des réactifs = masse des produits : 160 + m(CO) = 112 + 132 = 244, donc m(CO) = 84 g."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la réduction des oxydes",
+    "etapes": [
+      "Repère l'oxyde (réduit) et le corps qui capte l'oxygène (réducteur, oxydé).",
+      "Équilibre l'équation en comptant chaque type d'atome.",
+      "Utilise la conservation de la masse pour les calculs."
+    ]
+  }
+}

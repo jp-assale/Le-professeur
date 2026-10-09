@@ -1,0 +1,76 @@
+{
+  "_topic": "resistance-ohm",
+  "objectifs": [
+    "Mesurer et calculer la résistance d'un conducteur ohmique.",
+    "Utiliser la loi d'Ohm U = R × I.",
+    "Calculer la résistance équivalente d'une association en série et en dérivation."
+  ],
+  "prerequis": [
+    "Brancher un voltmètre (dérivation) et un ampèremètre (série)."
+  ],
+  "a_retenir": {
+    "points": [
+      "La résistance R d'un conducteur ohmique s'exprime en ohms (Ω) ; elle s'oppose au passage du courant.",
+      "Loi d'Ohm : la tension aux bornes d'un conducteur ohmique est proportionnelle à l'intensité qui le traverse.",
+      "Sa caractéristique U = f(I) est une droite passant par l'origine, de coefficient directeur R.",
+      "En série, les résistances s'ajoutent ; en dérivation, la résistance équivalente est plus petite que chacune.",
+      "Un conducteur ohmique transforme l'énergie électrique en chaleur (effet Joule)."
+    ],
+    "formules": [
+      "U = R × I   (V, Ω, A)",
+      "Série : R = R₁ + R₂",
+      "Dérivation : 1/R = 1/R₁ + 1/R₂, soit R = R₁ × R₂ / (R₁ + R₂)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser I en mA dans U = R × I.",
+      "correction": "Convertis : 50 mA = 0,05 A."
+    },
+    {
+      "erreur": "Additionner les résistances en dérivation.",
+      "correction": "En dérivation, on additionne les INVERSES : 1/R = 1/R₁ + 1/R₂."
+    },
+    {
+      "erreur": "Brancher l'ampèremètre en dérivation.",
+      "correction": "L'ampèremètre se branche en série, le voltmètre en dérivation."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un conducteur ohmique de 100 Ω est traversé par un courant de 50 mA. Calcule la tension à ses bornes.",
+      "indice": "Convertis 50 mA en ampères.",
+      "corrige": [
+        "I = 0,05 A ; U = R × I = 100 × 0,05 = 5 V."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Sous une tension de 12 V, un conducteur ohmique est traversé par 0,3 A. Calcule sa résistance. Quelle intensité le traverse sous 6 V ?",
+      "indice": "R = U / I ; la loi d'Ohm est une proportionnalité.",
+      "corrige": [
+        "R = 12 / 0,3 = 40 Ω.",
+        "Sous 6 V : I = 6 / 40 = 0,15 A (la moitié, car U est divisée par 2)."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "R₁ = 30 Ω et R₂ = 60 Ω. 1) On les associe en série sous 18 V : calcule la résistance équivalente, l'intensité et la tension aux bornes de chacune. 2) On les associe en dérivation sous 18 V : calcule la résistance équivalente et l'intensité débitée par le générateur.",
+      "indice": "En série, la même intensité traverse R₁ et R₂.",
+      "corrige": [
+        "1) R = 30 + 60 = 90 Ω ; I = 18 / 90 = 0,2 A.",
+        "U₁ = 30 × 0,2 = 6 V et U₂ = 60 × 0,2 = 12 V (6 + 12 = 18 V ✓).",
+        "2) R = 30 × 60 / (30 + 60) = 1 800 / 90 = 20 Ω ; I = 18 / 20 = 0,9 A."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : la loi d'Ohm",
+    "etapes": [
+      "Fais le schéma du montage avec les appareils de mesure bien placés.",
+      "Écris U = R × I et isole l'inconnue.",
+      "Pour un graphique U = f(I), trace une droite passant par l'origine et calcule R avec un point bien choisi."
+    ]
+  }
+}

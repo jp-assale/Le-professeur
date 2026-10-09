@@ -1,0 +1,74 @@
+{
+  "_topic": "dispersion-lumiere",
+  "objectifs": [
+    "Décrire la décomposition de la lumière blanche par un prisme.",
+    "Distinguer lumière blanche (polychromatique) et lumière monochromatique.",
+    "Expliquer la couleur d'un objet éclairé.",
+    "Expliquer la formation de l'arc-en-ciel."
+  ],
+  "prerequis": [
+    "Propagation rectiligne de la lumière."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un prisme décompose la lumière blanche en un spectre continu de couleurs : rouge, orange, jaune, vert, bleu, indigo, violet.",
+      "Ce phénomène s'appelle la dispersion : le violet est le plus dévié, le rouge le moins.",
+      "Une lumière monochromatique (laser) n'est pas décomposée par un prisme.",
+      "Un objet absorbe certaines couleurs et diffuse les autres : un objet rouge diffuse le rouge.",
+      "L'arc-en-ciel est dû à la dispersion de la lumière du soleil dans les gouttes de pluie."
+    ],
+    "formules": [
+      "Ordre du spectre : R – O – J – V – B – I – V (du moins dévié au plus dévié)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que le prisme colore la lumière.",
+      "correction": "Le prisme ne crée pas les couleurs : il sépare celles qui composent déjà la lumière blanche."
+    },
+    {
+      "erreur": "Penser qu'un objet rouge reste rouge sous n'importe quelle lumière.",
+      "correction": "Éclairé en lumière verte, il ne diffuse rien : il paraît noir."
+    },
+    {
+      "erreur": "Inverser rouge et violet dans la déviation.",
+      "correction": "Le violet est le plus dévié."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Cite dans l'ordre les couleurs du spectre de la lumière blanche, de la moins déviée à la plus déviée.",
+      "indice": "Commence par le rouge.",
+      "corrige": [
+        "Rouge, orange, jaune, vert, bleu, indigo, violet."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un pagne rouge est éclairé en lumière verte. De quelle couleur apparaît-il ? Explique.",
+      "indice": "Un objet rouge diffuse uniquement le rouge.",
+      "corrige": [
+        "Le pagne absorbe le vert et ne diffuse que le rouge, absent de l'éclairage.",
+        "Il ne renvoie aucune lumière : il apparaît noir."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) On envoie sur un prisme la lumière d'un laser rouge, puis celle du soleil. Décris ce que l'on observe sur l'écran dans chaque cas. 2) Explique la formation de l'arc-en-ciel après une pluie.",
+      "indice": "Lumière monochromatique ou polychromatique ?",
+      "corrige": [
+        "1) Laser : une seule tache rouge, déviée mais non décomposée (lumière monochromatique). Soleil : un spectre continu du rouge au violet (lumière blanche polychromatique).",
+        "2) Les gouttes de pluie se comportent comme de petits prismes : elles dispersent la lumière du soleil, ce qui fait apparaître les couleurs de l'arc-en-ciel (le soleil doit être dans le dos de l'observateur)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : la lumière et les couleurs",
+    "etapes": [
+      "Fais un schéma : source, prisme, écran, rayons rouge et violet.",
+      "Utilise le vocabulaire exact : dispersion, spectre, monochromatique, polychromatique.",
+      "Pour la couleur d'un objet : dis ce qu'il absorbe et ce qu'il diffuse."
+    ]
+  }
+}

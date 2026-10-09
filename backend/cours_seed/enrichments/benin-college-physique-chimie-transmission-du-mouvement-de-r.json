@@ -1,0 +1,78 @@
+{
+  "_topic": "transmission-mouvement",
+  "objectifs": [
+    "Reconnaître les systèmes de transmission (engrenages, poulies-courroie, pignons-chaîne).",
+    "Calculer une vitesse de rotation avec le rapport de transmission.",
+    "Prévoir le sens de rotation de l'élément récepteur."
+  ],
+  "prerequis": [
+    "Proportionnalité.",
+    "Vitesse de rotation en tours par minute (tr/min)."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'élément moteur entraîne l'élément récepteur.",
+      "Engrenages : N₁ × Z₁ = N₂ × Z₂ (Z = nombre de dents, N = vitesse de rotation).",
+      "Poulies et courroie : N₁ × D₁ = N₂ × D₂ (D = diamètre).",
+      "Deux roues dentées en contact tournent en sens inverse ; avec une courroie droite ou une chaîne, le sens est conservé (courroie croisée : sens inversé).",
+      "Le rapport de transmission k = N₂ / N₁ : si k < 1, le mouvement est ralenti (réducteur) ; si k > 1, il est accéléré (multiplicateur)."
+    ],
+    "formules": [
+      "N₁ × Z₁ = N₂ × Z₂",
+      "N₁ × D₁ = N₂ × D₂",
+      "k = N₂ / N₁ = Z₁ / Z₂ = D₁ / D₂"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser que la grande roue tourne plus vite.",
+      "correction": "La plus grande roue (plus de dents) tourne plus LENTEMENT."
+    },
+    {
+      "erreur": "Inverser le rapport : k = Z₂ / Z₁.",
+      "correction": "k = N₂ / N₁ = Z₁ / Z₂ (moteur au numérateur pour les dents)."
+    },
+    {
+      "erreur": "Oublier le sens de rotation.",
+      "correction": "Engrenage extérieur : sens inversé ; chaîne ou courroie droite : même sens."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un pignon moteur de 20 dents tourne à 300 tr/min et entraîne une roue de 60 dents. Calcule la vitesse de la roue et donne son sens de rotation.",
+      "indice": "N₁ × Z₁ = N₂ × Z₂.",
+      "corrige": [
+        "N₂ = 300 × 20 / 60 = 100 tr/min.",
+        "Engrenage : la roue tourne en sens inverse du pignon."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Sur un vélo, le plateau (pédalier) a 48 dents et le pignon de la roue arrière 16 dents. Combien de tours fait la roue quand le cycliste fait un tour de pédalier ?",
+      "indice": "Plateau = moteur, pignon = récepteur.",
+      "corrige": [
+        "N₂ = N₁ × Z₁ / Z₂ = 1 × 48 / 16 = 3 tours.",
+        "La chaîne conserve le sens : la roue tourne dans le même sens que le pédalier."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un moteur de moulin à mil tourne à 1 500 tr/min. Sa poulie a un diamètre de 10 cm et entraîne par courroie droite une poulie de 30 cm de diamètre. 1) Calcule la vitesse de la poulie réceptrice. 2) Calcule le rapport de transmission. S'agit-il d'un réducteur ? 3) Les deux poulies tournent-elles dans le même sens ?",
+      "indice": "N₁ × D₁ = N₂ × D₂.",
+      "corrige": [
+        "1) N₂ = 1 500 × 10 / 30 = 500 tr/min.",
+        "2) k = 500 / 1 500 = 1/3 < 1 : c'est un réducteur de vitesse.",
+        "3) Courroie droite : les deux poulies tournent dans le même sens."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la transmission du mouvement",
+    "etapes": [
+      "Repère l'élément moteur et l'élément récepteur.",
+      "Écris la relation (dents ou diamètres) et calcule la vitesse.",
+      "Donne le rapport, la nature (réducteur/multiplicateur) et le sens de rotation."
+    ]
+  }
+}

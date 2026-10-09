@@ -1,0 +1,77 @@
+{
+  "_topic": "electrisation-courant",
+  "objectifs": [
+    "Expliquer l'électrisation par frottement.",
+    "Connaître les deux types de charges et leurs interactions.",
+    "Décrire la nature du courant électrique dans un métal et son sens conventionnel.",
+    "Mesurer une intensité et appliquer la loi des nœuds."
+  ],
+  "prerequis": [
+    "Circuit électrique simple, générateur, récepteurs."
+  ],
+  "a_retenir": {
+    "points": [
+      "Il existe deux types de charges : positives et négatives. Deux charges de même signe se repoussent, de signes contraires s'attirent.",
+      "Frotter deux objets transfère des électrons de l'un à l'autre : celui qui gagne des électrons devient négatif, l'autre positif.",
+      "Dans un métal, le courant électrique est un déplacement d'électrons, de la borne − vers la borne + à l'extérieur du générateur.",
+      "Le sens conventionnel du courant va de la borne + vers la borne − à l'extérieur du générateur (inverse du mouvement des électrons).",
+      "Loi des nœuds : la somme des intensités qui arrivent à un nœud est égale à la somme de celles qui en repartent."
+    ],
+    "formules": [
+      "Loi des nœuds : I = I₁ + I₂",
+      "En série, l'intensité est la même partout"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire que des charges positives se déplacent dans les fils métalliques.",
+      "correction": "Ce sont les électrons (négatifs) qui se déplacent."
+    },
+    {
+      "erreur": "Confondre sens des électrons et sens conventionnel.",
+      "correction": "Conventionnel : de + vers − hors du générateur ; électrons : l'inverse."
+    },
+    {
+      "erreur": "Brancher l'ampèremètre sur un calibre trop petit.",
+      "correction": "Commence par le plus grand calibre, puis descends."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Après avoir frotté un ballon sur tes cheveux, il attire de petits morceaux de papier. Explique.",
+      "indice": "Que se passe-t-il pendant le frottement ?",
+      "corrige": [
+        "Le frottement a transféré des électrons : le ballon s'est électrisé (chargé).",
+        "Un corps électrisé attire les petits objets légers, comme les morceaux de papier."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Dans un circuit (pile, lampe, fils de cuivre), indique le sens de déplacement des électrons et le sens conventionnel du courant.",
+      "indice": "Les électrons sont attirés par la borne +.",
+      "corrige": [
+        "Électrons : à l'extérieur de la pile, ils vont de la borne − vers la borne +.",
+        "Sens conventionnel : de la borne + vers la borne − à l'extérieur de la pile."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Deux lampes L₁ et L₂ sont branchées en dérivation sur une pile. L'ampèremètre placé dans la branche principale indique 0,5 A, celui de la branche de L₁ indique 0,2 A. 1) Énonce la loi utilisée. 2) Calcule l'intensité dans L₂. 3) Si on dévisse L₁, L₂ reste-t-elle allumée ?",
+      "indice": "Applique la loi des nœuds.",
+      "corrige": [
+        "1) Loi des nœuds : l'intensité dans la branche principale est égale à la somme des intensités des branches dérivées.",
+        "2) I₂ = 0,5 − 0,2 = 0,3 A.",
+        "3) Oui : en dérivation, chaque lampe est sur sa propre boucle avec la pile ; L₂ reste allumée."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : circuits et intensités",
+    "etapes": [
+      "Fais le schéma normalisé du circuit et repère les nœuds.",
+      "Indique le sens conventionnel du courant par des flèches.",
+      "Applique la loi des nœuds (dérivation) ou l'unicité de l'intensité (série)."
+    ]
+  }
+}

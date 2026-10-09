@@ -1,0 +1,82 @@
+{
+  "_topic": "acides-bases",
+  "objectifs": [
+    "Classer une solution acide, neutre ou basique grâce au pH ou à un indicateur.",
+    "Prévoir l'effet de la dilution sur le pH.",
+    "Décrire et écrire une réaction de neutralisation (acide chlorhydrique + soude).",
+    "Respecter les règles de sécurité avec les acides et les bases."
+  ],
+  "prerequis": [
+    "Solution, soluté, solvant.",
+    "Ions H⁺ (H₃O⁺) et OH⁻."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le pH varie de 0 à 14 : pH < 7 acide, pH = 7 neutre, pH > 7 basique (à 25 °C).",
+      "Une solution acide contient plus d'ions H⁺ que d'ions OH⁻ ; une solution basique, l'inverse.",
+      "Diluer une solution rapproche son pH de 7 (sans jamais le dépasser).",
+      "Bleu de bromothymol (BBT) : jaune en milieu acide, vert en milieu neutre, bleu en milieu basique.",
+      "Neutralisation : acide + base → sel + eau ; la réaction dégage de la chaleur.",
+      "Sécurité : lunettes, gants ; on verse toujours l'acide dans l'eau, jamais l'inverse."
+    ],
+    "formules": [
+      "H⁺ + OH⁻ → H₂O",
+      "HCl + NaOH → NaCl + H₂O",
+      "À l'équivalence : C_A × V_A = C_B × V_B"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire qu'en diluant un acide on obtient une solution basique.",
+      "correction": "Le pH augmente vers 7 mais la solution reste acide."
+    },
+    {
+      "erreur": "Croire que pH 2 est moins acide que pH 4.",
+      "correction": "Plus le pH est petit, plus la solution est acide."
+    },
+    {
+      "erreur": "Verser l'eau dans l'acide concentré.",
+      "correction": "Danger de projections : on verse l'acide dans l'eau."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Classe ces solutions : jus de citron (pH 2,5), eau pure (pH 7), eau savonneuse (pH 10), boisson gazeuse (pH 3).",
+      "indice": "Compare chaque pH à 7.",
+      "corrige": [
+        "Acides : jus de citron et boisson gazeuse (le jus de citron est le plus acide).",
+        "Neutre : eau pure. Basique : eau savonneuse."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On dilue 10 fois une solution d'acide de pH 3. Le pH obtenu peut-il être 2 ? 4 ? 8 ? Justifie.",
+      "indice": "La dilution rapproche le pH de 7.",
+      "corrige": [
+        "Le pH augmente vers 7 : il ne peut pas valoir 2.",
+        "Il ne peut pas dépasser 7 : 8 est impossible.",
+        "Une valeur comme 4 est possible : la solution reste acide."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On verse progressivement une solution de soude de concentration 0,05 mol/L dans 20 mL d'acide chlorhydrique de concentration 0,1 mol/L, additionnés de quelques gouttes de BBT. 1) Quelle est la couleur au départ ? 2) Écris l'équation de la réaction. 3) Quel volume de soude faut-il verser pour atteindre l'équivalence ? Quelle est alors la couleur ? 4) Et si on continue d'ajouter de la soude ?",
+      "indice": "À l'équivalence, C_A × V_A = C_B × V_B.",
+      "corrige": [
+        "1) Milieu acide : le BBT est jaune.",
+        "2) HCl + NaOH → NaCl + H₂O (ou H⁺ + OH⁻ → H₂O).",
+        "3) V_B = C_A × V_A / C_B = 0,1 × 20 / 0,05 = 40 mL ; la solution est neutre, le BBT est vert.",
+        "4) La soude est en excès : la solution devient basique et le BBT bleu."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : acides et bases",
+    "etapes": [
+      "Compare le pH à 7 et utilise le vocabulaire acide / neutre / basique.",
+      "Pour un dosage, écris l'équation puis la relation d'équivalence.",
+      "Indique les couleurs de l'indicateur avant, à et après l'équivalence."
+    ]
+  }
+}

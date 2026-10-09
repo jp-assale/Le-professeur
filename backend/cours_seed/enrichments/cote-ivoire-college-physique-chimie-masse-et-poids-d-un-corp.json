@@ -1,0 +1,76 @@
+{
+  "_topic": "masse-poids",
+  "objectifs": [
+    "Distinguer la masse (kg) et le poids (N).",
+    "Calculer un poids avec la relation P = m × g.",
+    "Donner les caractéristiques du poids d'un corps.",
+    "Comparer le poids d'un corps sur la Terre et sur la Lune."
+  ],
+  "prerequis": [
+    "Conversions g → kg.",
+    "Notion de force."
+  ],
+  "a_retenir": {
+    "points": [
+      "La masse m mesure la quantité de matière : elle se mesure avec une balance, en kilogrammes (kg), et ne change pas d'un lieu à l'autre.",
+      "Le poids P est la force d'attraction exercée par la Terre : il se mesure avec un dynamomètre, en newtons (N).",
+      "Caractéristiques du poids : point d'application au centre de gravité, direction verticale, sens vers le bas, intensité P = m × g.",
+      "L'intensité de la pesanteur g vaut environ 9,8 N/kg sur Terre (souvent arrondie à 10 N/kg) et 1,6 N/kg sur la Lune."
+    ],
+    "formules": [
+      "P = m × g   (P en N, m en kg, g en N/kg)",
+      "m = P / g"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Dire « je pèse 50 kg » en physique.",
+      "correction": "Ta MASSE est 50 kg ; ton POIDS est 50 × 9,8 = 490 N."
+    },
+    {
+      "erreur": "Garder la masse en grammes dans P = m × g.",
+      "correction": "Convertis : 500 g = 0,5 kg."
+    },
+    {
+      "erreur": "Penser que la masse change sur la Lune.",
+      "correction": "Seul le poids change (g est plus petit) ; la masse reste la même."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Calcule le poids d'un élève de masse 50 kg (g = 9,8 N/kg).",
+      "indice": "P = m × g.",
+      "corrige": [
+        "P = 50 × 9,8 = 490 N."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un dynamomètre indique 24,5 N lorsqu'on y suspend un sac de riz. Calcule la masse du sac (g = 9,8 N/kg).",
+      "indice": "m = P / g.",
+      "corrige": [
+        "m = 24,5 / 9,8 = 2,5 kg."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un astronaute a une masse de 70 kg. 1) Calcule son poids sur la Terre (g = 9,8 N/kg). 2) Calcule son poids sur la Lune (g = 1,6 N/kg). 3) Quelle est sa masse sur la Lune ? 4) Donne les caractéristiques de son poids sur la Terre.",
+      "indice": "La masse ne dépend pas du lieu.",
+      "corrige": [
+        "1) P(Terre) = 70 × 9,8 = 686 N.",
+        "2) P(Lune) = 70 × 1,6 = 112 N.",
+        "3) Sa masse reste 70 kg.",
+        "4) Point d'application : son centre de gravité ; direction : verticale ; sens : vers le bas ; intensité : 686 N."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : masse et poids",
+    "etapes": [
+      "Repère si on te donne une masse (kg, g) ou un poids (N).",
+      "Convertis la masse en kg, écris P = m × g, puis l'application numérique.",
+      "Donne les 4 caractéristiques quand on te demande de « caractériser » le poids."
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_topic": "classification-elements",
+  "objectifs": [
+    "Expliquer le principe de la classification périodique (lignes et colonnes).",
+    "Situer un élément à partir de sa répartition électronique.",
+    "Connaître quelques familles : alcalins, halogènes, gaz nobles.",
+    "Prévoir l'ion formé par un élément."
+  ],
+  "prerequis": [
+    "Structure de l'atome et couches K, L, M."
+  ],
+  "a_retenir": {
+    "points": [
+      "Les éléments sont rangés par numéro atomique Z croissant.",
+      "Le numéro de la ligne (période) = nombre de couches électroniques occupées.",
+      "Pour les 18 premiers éléments, le numéro de colonne = nombre d'électrons de la couche externe.",
+      "Les éléments d'une même colonne forment une famille aux propriétés chimiques voisines.",
+      "Alcalins (colonne I : Li, Na, K) donnent des ions +1 ; halogènes (colonne VII : F, Cl) donnent des ions −1 ; gaz nobles (colonne VIII : He, Ne, Ar) sont très stables."
+    ],
+    "formules": [
+      "Période = nombre de couches",
+      "Colonne = électrons externes (18 premiers éléments)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Placer un élément d'après sa masse A.",
+      "correction": "La classification utilise le numéro atomique Z."
+    },
+    {
+      "erreur": "Confondre période (ligne) et groupe (colonne).",
+      "correction": "Ligne = nombre de couches ; colonne = électrons externes."
+    },
+    {
+      "erreur": "Dire qu'un gaz noble forme facilement des ions.",
+      "correction": "Sa couche externe est saturée : il est très stable."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Le magnésium a pour numéro atomique Z = 12. Donne sa répartition électronique, sa période et sa colonne.",
+      "indice": "Remplis K, puis L, puis M.",
+      "corrige": [
+        "Mg : K² L⁸ M² ; 3 couches → 3ᵉ période ; 2 électrons externes → colonne II."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "L'oxygène a pour numéro atomique Z = 8. Situe-le dans la classification et prévois l'ion qu'il forme.",
+      "indice": "Combien d'électrons lui manque-t-il pour en avoir 8 sur sa couche externe ?",
+      "corrige": [
+        "O : K² L⁶ → 2ᵉ période, colonne VI.",
+        "Il gagne 2 électrons pour compléter sa couche L : ion O²⁻."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Un élément X est situé dans la 3ᵉ période et la colonne VII. 1) Donne sa répartition électronique et son numéro atomique. 2) Identifie-le et nomme sa famille. 3) Quel ion forme-t-il ?",
+      "indice": "3 couches occupées, 7 électrons sur la dernière.",
+      "corrige": [
+        "1) K² L⁸ M⁷ : Z = 2 + 8 + 7 = 17.",
+        "2) C'est le chlore, de la famille des halogènes.",
+        "3) Il gagne 1 électron : ion chlorure Cl⁻."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la classification périodique",
+    "etapes": [
+      "Écris la répartition électronique à partir de Z.",
+      "Déduis la période (couches) et la colonne (électrons externes).",
+      "Utilise la règle de l'octet pour prévoir l'ion."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_topic": "travail-puissance",
+  "objectifs": [
+    "Calculer le travail d'une force constante.",
+    "Calculer la puissance mécanique.",
+    "Utiliser les unités : joule (J), watt (W), seconde (s)."
+  ],
+  "prerequis": [
+    "Poids P = m × g.",
+    "Conversions de durées en secondes."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une force travaille si son point d'application se déplace et si elle n'est pas perpendiculaire au déplacement.",
+      "Force parallèle au déplacement et de même sens : W = F × d (travail moteur, positif).",
+      "Force de sens contraire au déplacement : le travail est résistant (négatif).",
+      "Pour soulever un objet d'une hauteur h, on fournit au minimum le travail W = m × g × h.",
+      "La puissance mesure la rapidité avec laquelle un travail est effectué : P = W / t."
+    ],
+    "formules": [
+      "W = F × d   (J = N × m)",
+      "W = m × g × h",
+      "P = W / t   (W = J / s)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Utiliser t en minutes dans P = W / t.",
+      "correction": "La durée doit être en secondes : 2 min = 120 s."
+    },
+    {
+      "erreur": "Dire qu'une force qui ne bouge pas l'objet travaille.",
+      "correction": "Sans déplacement du point d'application, le travail est nul."
+    },
+    {
+      "erreur": "Confondre le watt (puissance) et le joule (énergie, travail).",
+      "correction": "1 W = 1 J par seconde."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un homme pousse une brouette avec une force constante de 200 N, parallèle au déplacement, sur 15 m. Calcule le travail de cette force.",
+      "indice": "W = F × d.",
+      "corrige": [
+        "W = 200 × 15 = 3 000 J."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Un docker monte un sac de 50 kg à une hauteur de 3 m en 30 s. On prend g = 10 N/kg. Calcule le travail fourni et la puissance développée.",
+      "indice": "W = m × g × h.",
+      "corrige": [
+        "W = 50 × 10 × 3 = 1 500 J.",
+        "P = W / t = 1 500 / 30 = 50 W."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une pompe remonte 1 200 L d'eau (masse 1 200 kg) d'un puits de 15 m de profondeur en 10 minutes. On prend g = 10 N/kg. 1) Calcule le poids de l'eau. 2) Calcule le travail fourni par la pompe. 3) Calcule sa puissance.",
+      "indice": "Convertis 10 minutes en secondes.",
+      "corrige": [
+        "1) P = m × g = 1 200 × 10 = 12 000 N.",
+        "2) W = P × h = 12 000 × 15 = 180 000 J.",
+        "3) t = 10 × 60 = 600 s ; puissance = 180 000 / 600 = 300 W."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : travail et puissance",
+    "etapes": [
+      "Écris les données avec les unités SI (N, m, s).",
+      "Formule littérale, puis application numérique.",
+      "Résultat avec l'unité : J pour le travail, W pour la puissance."
+    ]
+  }
+}

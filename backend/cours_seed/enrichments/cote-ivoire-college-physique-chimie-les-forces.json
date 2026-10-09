@@ -1,0 +1,77 @@
+{
+  "_topic": "forces",
+  "objectifs": [
+    "Identifier les forces qui s'exercent sur un objet (contact, à distance).",
+    "Donner les quatre caractéristiques d'une force.",
+    "Représenter une force par un vecteur à l'échelle.",
+    "Mesurer une force avec un dynamomètre."
+  ],
+  "prerequis": [
+    "Masse et poids.",
+    "Tracer un segment à la règle."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une force modélise une action mécanique : elle peut mettre en mouvement, modifier un mouvement ou déformer un objet.",
+      "Action de contact (main, fil, table, ressort) ou action à distance (poids, aimant, électrisation).",
+      "Caractéristiques : point d'application, direction (droite d'action), sens, intensité en newtons (N).",
+      "On représente une force par une flèche (vecteur) dont la longueur est proportionnelle à l'intensité, selon une échelle."
+    ],
+    "formules": [
+      "longueur de la flèche = intensité ÷ échelle (ex. 30 N avec 1 cm ↔ 10 N → 3 cm)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier le poids dans l'inventaire des forces.",
+      "correction": "Tout objet sur Terre est soumis à son poids (action à distance)."
+    },
+    {
+      "erreur": "Confondre direction et sens.",
+      "correction": "Direction = la droite (verticale, horizontale…) ; sens = vers le haut, vers le bas, vers la droite…"
+    },
+    {
+      "erreur": "Dessiner une flèche sans respecter l'échelle.",
+      "correction": "Calcule la longueur avant de tracer et écris l'échelle à côté du schéma."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un livre est posé sur une table. Fais l'inventaire des forces qui s'exercent sur le livre et précise s'il s'agit d'actions de contact ou à distance.",
+      "indice": "Qui agit sur le livre ? La Terre, et… ?",
+      "corrige": [
+        "Le poids P du livre, exercé par la Terre : action à distance.",
+        "La réaction R de la table : action de contact."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Représente une force horizontale de 30 N dirigée vers la droite, avec l'échelle 1 cm ↔ 10 N.",
+      "indice": "Calcule d'abord la longueur de la flèche.",
+      "corrige": [
+        "Longueur = 30 ÷ 10 = 3 cm.",
+        "On trace une flèche horizontale de 3 cm, orientée vers la droite, partant du point d'application."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une calebasse de masse 0,5 kg est suspendue à un fil. On prend g = 9,8 N/kg. 1) Fais l'inventaire des forces. 2) Calcule l'intensité du poids. 3) Donne les caractéristiques de la tension du fil (la calebasse est immobile). 4) Représente les deux forces avec l'échelle 1 cm ↔ 2 N.",
+      "indice": "La calebasse est immobile : les deux forces se compensent.",
+      "corrige": [
+        "1) Le poids P (action à distance de la Terre) et la tension T du fil (action de contact).",
+        "2) P = m × g = 0,5 × 9,8 = 4,9 N.",
+        "3) T : point d'application au point d'attache du fil, direction verticale, sens vers le haut, intensité T = P = 4,9 N.",
+        "4) Chaque flèche mesure 4,9 ÷ 2 = 2,45 cm : P vers le bas depuis le centre de gravité, T vers le haut depuis le point d'attache."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'exercice sur les forces",
+    "etapes": [
+      "Fais l'inventaire de TOUTES les forces (contact et à distance).",
+      "Donne les 4 caractéristiques sous forme de tableau.",
+      "Représente à l'échelle, et indique l'échelle sur ta copie."
+    ]
+  }
+}

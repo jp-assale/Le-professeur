@@ -1,0 +1,748 @@
+{
+  "_doc": "Complements pedagogiques - Physique-Chimie college, partie physique (optique, mecanique, energie, electricite). On precise g a chaque exercice. Calculs verifies a la main.",
+  "topics": {
+    "lentilles": {
+      "objectifs": [
+        "Reconnaître une lentille convergente et une lentille divergente.",
+        "Définir foyer, distance focale et vergence.",
+        "Construire l'image d'un objet donnée par une lentille convergente.",
+        "Expliquer le fonctionnement de la loupe."
+      ],
+      "prerequis": ["La propagation rectiligne de la lumière.", "Conversion cm → m."],
+      "a_retenir": {
+        "points": [
+          "Une lentille convergente (bords minces) concentre la lumière ; une lentille divergente (bords épais) l'étale.",
+          "Le foyer image F' est le point où convergent les rayons arrivant parallèlement à l'axe optique.",
+          "La distance focale f = OF' ; la vergence C = 1/f s'exprime en dioptries (δ) avec f en mètres.",
+          "Trois rayons particuliers : celui qui passe par le centre O n'est pas dévié ; celui parallèle à l'axe ressort par F' ; celui qui passe par F ressort parallèle à l'axe.",
+          "Un objet placé entre le foyer F et la lentille donne une image droite et agrandie : c'est le principe de la loupe."
+        ],
+        "formules": ["C = 1 / f   (C en δ, f en m)", "C > 0 : convergente ; C < 0 : divergente"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Calculer C = 1/20 = 0,05 δ avec f = 20 cm.", "correction": "Il faut f en mètres : f = 0,20 m, donc C = 1/0,20 = 5 δ." },
+        { "erreur": "Faire passer tous les rayons par le foyer.", "correction": "Seul le rayon parallèle à l'axe ressort par F' ; le rayon passant par O n'est pas dévié." },
+        { "erreur": "Confondre foyer objet F et foyer image F'.", "correction": "F est avant la lentille (côté objet), F' après, symétrique de F par rapport à O." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "1) Calcule la vergence d'une lentille de distance focale 20 cm. 2) Une lentille a une vergence de −4 δ : est-elle convergente ou divergente ? Quelle est sa distance focale ?",
+          "indice": "Convertis 20 cm en mètres.",
+          "corrige": [
+            "1) f = 20 cm = 0,20 m ; C = 1 / 0,20 = 5 δ (lentille convergente).",
+            "2) C < 0 : la lentille est divergente. |f| = 1 / 4 = 0,25 m = 25 cm."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un objet AB de 2 cm est placé à 30 cm d'une lentille convergente de distance focale 10 cm. Construis l'image à l'échelle 1/5 et décris-la (position, sens, taille).",
+          "indice": "Utilise le rayon passant par O et celui parallèle à l'axe.",
+          "corrige": [
+            "À l'échelle 1/5 sur l'axe : OA = 6 cm et OF' = OF = 2 cm. On dessine AB à sa taille réelle (2 cm) pour que la figure reste lisible.",
+            "Le rayon issu de B passant par O n'est pas dévié ; le rayon issu de B parallèle à l'axe ressort par F'. Leur intersection donne B'.",
+            "On trouve l'image à 15 cm de la lentille (en réel), de l'autre côté : image réelle, renversée.",
+            "Sa taille est la moitié de celle de l'objet : A'B' = 1 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Awa veut lire de très petits caractères avec une lentille de vergence +10 δ utilisée comme loupe. 1) Calcule la distance focale. 2) À quelle distance de la lentille doit-elle placer le texte ? 3) Comment est l'image obtenue ?",
+          "indice": "Pour une loupe, l'objet se place entre le foyer et la lentille.",
+          "corrige": [
+            "1) f = 1 / C = 1 / 10 = 0,1 m = 10 cm.",
+            "2) Le texte doit être placé à moins de 10 cm de la lentille, entre le foyer F et la lentille.",
+            "3) L'image est virtuelle, droite et agrandie : Awa voit les caractères plus gros."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : construire une image",
+        "etapes": [
+          "Trace l'axe optique, la lentille, F et F' à l'échelle indiquée.",
+          "Trace au moins deux rayons particuliers issus de B, à la règle.",
+          "Décris l'image : réelle ou virtuelle, droite ou renversée, plus grande ou plus petite."
+        ]
+      }
+    },
+    "defauts-oeil": {
+      "objectifs": [
+        "Décrire l'œil comme un système optique (cristallin, rétine).",
+        "Expliquer la myopie, l'hypermétropie et la presbytie.",
+        "Choisir la lentille qui corrige chaque défaut."
+      ],
+      "prerequis": ["Lentilles convergentes et divergentes, vergence."],
+      "a_retenir": {
+        "points": [
+          "Le cristallin joue le rôle d'une lentille convergente ; la rétine joue le rôle d'écran.",
+          "Œil normal : l'image se forme sur la rétine ; l'accommodation permet de voir net de près.",
+          "Œil myope : trop convergent, l'image se forme AVANT la rétine ; il voit mal de loin. Correction : lentille divergente.",
+          "Œil hypermétrope : pas assez convergent, l'image se forme APRÈS la rétine. Correction : lentille convergente.",
+          "Presbytie : avec l'âge, le cristallin accommode moins ; on voit mal de près. Correction : lentille convergente pour lire."
+        ],
+        "formules": ["Verre de vergence négative → myopie ; positive → hypermétropie ou presbytie"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Corriger la myopie avec une lentille convergente.", "correction": "L'œil myope converge déjà trop : on le corrige avec une lentille DIVERGENTE." },
+        { "erreur": "Dire que le myope voit mal de près.", "correction": "Le myope voit bien de près mais mal de loin." },
+        { "erreur": "Confondre presbytie et hypermétropie.", "correction": "La presbytie est due à l'âge (perte d'accommodation) ; l'hypermétropie est un défaut de l'œil, souvent dès l'enfance." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Associe chaque défaut à sa correction : myopie, hypermétropie, presbytie / lentille convergente, lentille divergente.",
+          "indice": "Demande-toi si l'œil converge trop ou pas assez.",
+          "corrige": [
+            "Myopie → lentille divergente.",
+            "Hypermétropie → lentille convergente.",
+            "Presbytie → lentille convergente (lunettes de lecture)."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Les lunettes de Moussa ont une vergence de −2 δ. Quel est son défaut ? Calcule la distance focale de ses verres.",
+          "indice": "Le signe de la vergence indique le type de lentille.",
+          "corrige": [
+            "C < 0 : verres divergents, donc Moussa est myope.",
+            "|f| = 1 / 2 = 0,5 m = 50 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Sur l'ordonnance de Grand-mère Adjoa, on lit : œil droit +1,5 δ ; œil gauche +1,75 δ. Elle voit bien de loin mais ne peut plus lire son journal. 1) Quel est son défaut ? 2) Quel type de lentilles porte-t-elle ? 3) Calcule la distance focale de chaque verre (au centimètre).",
+          "indice": "Elle voit mal de près à cause de l'âge.",
+          "corrige": [
+            "1) Elle voit mal de près avec l'âge : c'est la presbytie.",
+            "2) Vergences positives : lentilles convergentes.",
+            "3) Œil droit : f = 1 / 1,5 ≈ 0,67 m = 67 cm ; œil gauche : f = 1 / 1,75 ≈ 0,57 m = 57 cm."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : les défauts de l'œil",
+        "etapes": [
+          "Dis où se forme l'image (avant, sur, après la rétine).",
+          "Déduis-en si l'œil est trop ou pas assez convergent.",
+          "Propose la lentille correctrice et justifie par une phrase."
+        ]
+      }
+    },
+    "masse-poids": {
+      "objectifs": [
+        "Distinguer la masse (kg) et le poids (N).",
+        "Calculer un poids avec la relation P = m × g.",
+        "Donner les caractéristiques du poids d'un corps.",
+        "Comparer le poids d'un corps sur la Terre et sur la Lune."
+      ],
+      "prerequis": ["Conversions g → kg.", "Notion de force."],
+      "a_retenir": {
+        "points": [
+          "La masse m mesure la quantité de matière : elle se mesure avec une balance, en kilogrammes (kg), et ne change pas d'un lieu à l'autre.",
+          "Le poids P est la force d'attraction exercée par la Terre : il se mesure avec un dynamomètre, en newtons (N).",
+          "Caractéristiques du poids : point d'application au centre de gravité, direction verticale, sens vers le bas, intensité P = m × g.",
+          "L'intensité de la pesanteur g vaut environ 9,8 N/kg sur Terre (souvent arrondie à 10 N/kg) et 1,6 N/kg sur la Lune."
+        ],
+        "formules": ["P = m × g   (P en N, m en kg, g en N/kg)", "m = P / g"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire « je pèse 50 kg » en physique.", "correction": "Ta MASSE est 50 kg ; ton POIDS est 50 × 9,8 = 490 N." },
+        { "erreur": "Garder la masse en grammes dans P = m × g.", "correction": "Convertis : 500 g = 0,5 kg." },
+        { "erreur": "Penser que la masse change sur la Lune.", "correction": "Seul le poids change (g est plus petit) ; la masse reste la même." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Calcule le poids d'un élève de masse 50 kg (g = 9,8 N/kg).",
+          "indice": "P = m × g.",
+          "corrige": ["P = 50 × 9,8 = 490 N."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un dynamomètre indique 24,5 N lorsqu'on y suspend un sac de riz. Calcule la masse du sac (g = 9,8 N/kg).",
+          "indice": "m = P / g.",
+          "corrige": ["m = 24,5 / 9,8 = 2,5 kg."]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Un astronaute a une masse de 70 kg. 1) Calcule son poids sur la Terre (g = 9,8 N/kg). 2) Calcule son poids sur la Lune (g = 1,6 N/kg). 3) Quelle est sa masse sur la Lune ? 4) Donne les caractéristiques de son poids sur la Terre.",
+          "indice": "La masse ne dépend pas du lieu.",
+          "corrige": [
+            "1) P(Terre) = 70 × 9,8 = 686 N.",
+            "2) P(Lune) = 70 × 1,6 = 112 N.",
+            "3) Sa masse reste 70 kg.",
+            "4) Point d'application : son centre de gravité ; direction : verticale ; sens : vers le bas ; intensité : 686 N."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : masse et poids",
+        "etapes": [
+          "Repère si on te donne une masse (kg, g) ou un poids (N).",
+          "Convertis la masse en kg, écris P = m × g, puis l'application numérique.",
+          "Donne les 4 caractéristiques quand on te demande de « caractériser » le poids."
+        ]
+      }
+    },
+    "forces": {
+      "objectifs": [
+        "Identifier les forces qui s'exercent sur un objet (contact, à distance).",
+        "Donner les quatre caractéristiques d'une force.",
+        "Représenter une force par un vecteur à l'échelle.",
+        "Mesurer une force avec un dynamomètre."
+      ],
+      "prerequis": ["Masse et poids.", "Tracer un segment à la règle."],
+      "a_retenir": {
+        "points": [
+          "Une force modélise une action mécanique : elle peut mettre en mouvement, modifier un mouvement ou déformer un objet.",
+          "Action de contact (main, fil, table, ressort) ou action à distance (poids, aimant, électrisation).",
+          "Caractéristiques : point d'application, direction (droite d'action), sens, intensité en newtons (N).",
+          "On représente une force par une flèche (vecteur) dont la longueur est proportionnelle à l'intensité, selon une échelle."
+        ],
+        "formules": ["longueur de la flèche = intensité ÷ échelle (ex. 30 N avec 1 cm ↔ 10 N → 3 cm)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier le poids dans l'inventaire des forces.", "correction": "Tout objet sur Terre est soumis à son poids (action à distance)." },
+        { "erreur": "Confondre direction et sens.", "correction": "Direction = la droite (verticale, horizontale…) ; sens = vers le haut, vers le bas, vers la droite…" },
+        { "erreur": "Dessiner une flèche sans respecter l'échelle.", "correction": "Calcule la longueur avant de tracer et écris l'échelle à côté du schéma." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un livre est posé sur une table. Fais l'inventaire des forces qui s'exercent sur le livre et précise s'il s'agit d'actions de contact ou à distance.",
+          "indice": "Qui agit sur le livre ? La Terre, et… ?",
+          "corrige": [
+            "Le poids P du livre, exercé par la Terre : action à distance.",
+            "La réaction R de la table : action de contact."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Représente une force horizontale de 30 N dirigée vers la droite, avec l'échelle 1 cm ↔ 10 N.",
+          "indice": "Calcule d'abord la longueur de la flèche.",
+          "corrige": [
+            "Longueur = 30 ÷ 10 = 3 cm.",
+            "On trace une flèche horizontale de 3 cm, orientée vers la droite, partant du point d'application."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une calebasse de masse 0,5 kg est suspendue à un fil. On prend g = 9,8 N/kg. 1) Fais l'inventaire des forces. 2) Calcule l'intensité du poids. 3) Donne les caractéristiques de la tension du fil (la calebasse est immobile). 4) Représente les deux forces avec l'échelle 1 cm ↔ 2 N.",
+          "indice": "La calebasse est immobile : les deux forces se compensent.",
+          "corrige": [
+            "1) Le poids P (action à distance de la Terre) et la tension T du fil (action de contact).",
+            "2) P = m × g = 0,5 × 9,8 = 4,9 N.",
+            "3) T : point d'application au point d'attache du fil, direction verticale, sens vers le haut, intensité T = P = 4,9 N.",
+            "4) Chaque flèche mesure 4,9 ÷ 2 = 2,45 cm : P vers le bas depuis le centre de gravité, T vers le haut depuis le point d'attache."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'exercice sur les forces",
+        "etapes": [
+          "Fais l'inventaire de TOUTES les forces (contact et à distance).",
+          "Donne les 4 caractéristiques sous forme de tableau.",
+          "Représente à l'échelle, et indique l'échelle sur ta copie."
+        ]
+      }
+    },
+    "equilibre-deux-forces": {
+      "objectifs": [
+        "Énoncer les conditions d'équilibre d'un solide soumis à deux forces.",
+        "Déterminer les caractéristiques d'une force inconnue grâce à l'équilibre.",
+        "Utiliser la relation entre la tension d'un ressort et son allongement."
+      ],
+      "prerequis": ["Les caractéristiques d'une force.", "Le poids P = m × g."],
+      "a_retenir": {
+        "points": [
+          "Un solide soumis à deux forces F₁ et F₂ est en équilibre si : elles ont la même droite d'action, des sens contraires et la même intensité.",
+          "On écrit alors F₁→ + F₂→ = 0→.",
+          "Un corps suspendu à un fil et immobile : la tension du fil compense exactement le poids.",
+          "Pour un ressort, la tension est proportionnelle à l'allongement : T = k × x (k : raideur en N/m, x en m)."
+        ],
+        "formules": ["F₁→ + F₂→ = 0→", "T = k × x"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Oublier la condition « même droite d'action ».", "correction": "Deux forces opposées et de même intensité mais décalées font tourner le solide : il n'est pas en équilibre." },
+        { "erreur": "Garder l'allongement en cm dans T = k × x avec k en N/m.", "correction": "Convertis x en mètres." },
+        { "erreur": "Dessiner les deux forces de longueurs différentes à l'équilibre.", "correction": "Même intensité → même longueur de flèche." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un solide est soumis à deux forces de 5 N, portées par la même droite et de sens contraires. Est-il en équilibre ? Même question si l'une des forces vaut 7 N.",
+          "indice": "Vérifie les trois conditions.",
+          "corrige": [
+            "Même droite, sens contraires, même intensité (5 N) : le solide est en équilibre.",
+            "Avec 5 N et 7 N, les intensités sont différentes : il n'est pas en équilibre."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "On suspend une masse de 200 g à un ressort de raideur k = 50 N/m. On prend g = 10 N/kg. Calcule l'allongement du ressort à l'équilibre.",
+          "indice": "À l'équilibre, la tension du ressort est égale au poids.",
+          "corrige": [
+            "P = m × g = 0,2 × 10 = 2 N.",
+            "À l'équilibre, T = P = 2 N.",
+            "x = T / k = 2 / 50 = 0,04 m = 4 cm."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une lampe de masse 1,2 kg est suspendue au plafond par un fil. On prend g = 10 N/kg. 1) Calcule le poids de la lampe. 2) Énonce la condition d'équilibre et déduis-en les caractéristiques de la tension T du fil. 3) Représente P et T à l'échelle 1 cm ↔ 4 N.",
+          "indice": "La lampe est immobile.",
+          "corrige": [
+            "1) P = 1,2 × 10 = 12 N.",
+            "2) La lampe est en équilibre sous l'action de P et T : P→ + T→ = 0→. T a la même droite d'action (verticale), le sens contraire (vers le haut) et la même intensité : T = 12 N, appliquée au point d'attache du fil.",
+            "3) Chaque flèche mesure 12 ÷ 4 = 3 cm, sur la même verticale, en sens opposés."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'équilibre d'un solide",
+        "etapes": [
+          "Fais l'inventaire des deux forces.",
+          "Écris la condition d'équilibre F₁→ + F₂→ = 0→.",
+          "Déduis-en les caractéristiques de la force inconnue, puis représente à l'échelle."
+        ]
+      }
+    },
+    "travail-puissance": {
+      "objectifs": [
+        "Calculer le travail d'une force constante.",
+        "Calculer la puissance mécanique.",
+        "Utiliser les unités : joule (J), watt (W), seconde (s)."
+      ],
+      "prerequis": ["Poids P = m × g.", "Conversions de durées en secondes."],
+      "a_retenir": {
+        "points": [
+          "Une force travaille si son point d'application se déplace et si elle n'est pas perpendiculaire au déplacement.",
+          "Force parallèle au déplacement et de même sens : W = F × d (travail moteur, positif).",
+          "Force de sens contraire au déplacement : le travail est résistant (négatif).",
+          "Pour soulever un objet d'une hauteur h, on fournit au minimum le travail W = m × g × h.",
+          "La puissance mesure la rapidité avec laquelle un travail est effectué : P = W / t."
+        ],
+        "formules": ["W = F × d   (J = N × m)", "W = m × g × h", "P = W / t   (W = J / s)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser t en minutes dans P = W / t.", "correction": "La durée doit être en secondes : 2 min = 120 s." },
+        { "erreur": "Dire qu'une force qui ne bouge pas l'objet travaille.", "correction": "Sans déplacement du point d'application, le travail est nul." },
+        { "erreur": "Confondre le watt (puissance) et le joule (énergie, travail).", "correction": "1 W = 1 J par seconde." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un homme pousse une brouette avec une force constante de 200 N, parallèle au déplacement, sur 15 m. Calcule le travail de cette force.",
+          "indice": "W = F × d.",
+          "corrige": ["W = 200 × 15 = 3 000 J."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un docker monte un sac de 50 kg à une hauteur de 3 m en 30 s. On prend g = 10 N/kg. Calcule le travail fourni et la puissance développée.",
+          "indice": "W = m × g × h.",
+          "corrige": [
+            "W = 50 × 10 × 3 = 1 500 J.",
+            "P = W / t = 1 500 / 30 = 50 W."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une pompe remonte 1 200 L d'eau (masse 1 200 kg) d'un puits de 15 m de profondeur en 10 minutes. On prend g = 10 N/kg. 1) Calcule le poids de l'eau. 2) Calcule le travail fourni par la pompe. 3) Calcule sa puissance.",
+          "indice": "Convertis 10 minutes en secondes.",
+          "corrige": [
+            "1) P = m × g = 1 200 × 10 = 12 000 N.",
+            "2) W = P × h = 12 000 × 15 = 180 000 J.",
+            "3) t = 10 × 60 = 600 s ; puissance = 180 000 / 600 = 300 W."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : travail et puissance",
+        "etapes": [
+          "Écris les données avec les unités SI (N, m, s).",
+          "Formule littérale, puis application numérique.",
+          "Résultat avec l'unité : J pour le travail, W pour la puissance."
+        ]
+      }
+    },
+    "energie-mecanique": {
+      "objectifs": [
+        "Calculer l'énergie cinétique et l'énergie potentielle de pesanteur.",
+        "Calculer l'énergie mécanique.",
+        "Utiliser la conservation de l'énergie mécanique (sans frottements)."
+      ],
+      "prerequis": ["Poids P = m × g.", "Conversion km/h → m/s (diviser par 3,6)."],
+      "a_retenir": {
+        "points": [
+          "L'énergie cinétique est liée à la vitesse : elle augmente avec la masse et surtout avec la vitesse (au carré).",
+          "L'énergie potentielle de pesanteur est liée à l'altitude h par rapport à une référence.",
+          "Énergie mécanique : Em = Ec + Ep.",
+          "Sans frottements, l'énergie mécanique se conserve : quand un objet tombe, Ep diminue et Ec augmente d'autant.",
+          "Avec des frottements, une partie de l'énergie est transformée en chaleur."
+        ],
+        "formules": ["Ec = ½ × m × v²   (J, kg, m/s)", "Ep = m × g × h", "Em = Ec + Ep", "v (m/s) = v (km/h) ÷ 3,6"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser la vitesse en km/h dans Ec.", "correction": "Convertis en m/s : 72 km/h = 20 m/s." },
+        { "erreur": "Oublier le carré de la vitesse ou le ½.", "correction": "Ec = ½ × m × v² : à vitesse double, l'énergie cinétique est multipliée par 4." },
+        { "erreur": "Penser que l'énergie disparaît avec les frottements.", "correction": "Elle est transformée (chaleur), pas détruite." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Une boule de 2 kg roule à 3 m/s. Calcule son énergie cinétique. Calcule l'énergie potentielle de cette boule placée à 5 m de hauteur (g = 10 N/kg).",
+          "indice": "Ec = ½ m v² ; Ep = m g h.",
+          "corrige": [
+            "Ec = ½ × 2 × 3² = 9 J.",
+            "Ep = 2 × 10 × 5 = 100 J."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une moto et son pilote (150 kg au total) roulent à 72 km/h. Calcule leur énergie cinétique.",
+          "indice": "Convertis d'abord la vitesse en m/s.",
+          "corrige": [
+            "v = 72 ÷ 3,6 = 20 m/s.",
+            "Ec = ½ × 150 × 20² = 75 × 400 = 30 000 J."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une mangue de 0,2 kg se détache d'une branche à 5 m du sol. On néglige les frottements et on prend g = 10 N/kg (référence : le sol). 1) Calcule son énergie mécanique au départ (vitesse nulle). 2) Que vaut son énergie cinétique juste avant de toucher le sol ? 3) Déduis-en sa vitesse.",
+          "indice": "Sans frottements, l'énergie mécanique se conserve.",
+          "corrige": [
+            "1) Au départ : Ec = 0 et Ep = 0,2 × 10 × 5 = 10 J, donc Em = 10 J.",
+            "2) Au sol, Ep = 0 et Em se conserve : Ec = 10 J.",
+            "3) ½ × 0,2 × v² = 10, donc v² = 100 et v = 10 m/s (36 km/h)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'énergie mécanique",
+        "etapes": [
+          "Précise la référence des altitudes (souvent le sol).",
+          "Calcule Ec et Ep à chaque position, présente-les dans un tableau.",
+          "Utilise la conservation de Em (sans frottements) pour trouver l'inconnue."
+        ]
+      }
+    },
+    "energie-rendement": {
+      "objectifs": [
+        "Reconnaître les formes d'énergie et leurs conversions.",
+        "Calculer une énergie électrique E = P × t en J et en kWh.",
+        "Calculer le rendement d'un convertisseur."
+      ],
+      "prerequis": ["Travail et puissance.", "Pourcentages."],
+      "a_retenir": {
+        "points": [
+          "Formes d'énergie : mécanique, électrique, thermique, chimique, lumineuse, nucléaire.",
+          "Un convertisseur transforme une forme d'énergie en une autre (moteur : électrique → mécanique).",
+          "L'énergie se conserve : énergie reçue = énergie utile + énergie perdue (souvent chaleur).",
+          "Le rendement est toujours inférieur à 1 (ou à 100 %).",
+          "1 kWh = 1 000 W × 3 600 s = 3,6 × 10⁶ J."
+        ],
+        "formules": ["E = P × t", "η = énergie utile / énergie reçue", "1 kWh = 3,6 × 10⁶ J"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Trouver un rendement supérieur à 100 %.", "correction": "Tu as inversé le rapport : utile ÷ reçue." },
+        { "erreur": "Mélanger heures et secondes dans E = P × t.", "correction": "W × s donne des joules ; kW × h donne des kWh." },
+        { "erreur": "Dire que l'énergie perdue disparaît.", "correction": "Elle est transformée, le plus souvent en chaleur." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un moteur reçoit 1 000 J d'énergie électrique et fournit 800 J d'énergie mécanique. Calcule son rendement et l'énergie perdue. Sous quelle forme est-elle perdue ?",
+          "indice": "η = utile / reçue.",
+          "corrige": [
+            "η = 800 / 1 000 = 0,8 = 80 %.",
+            "Énergie perdue : 1 000 − 800 = 200 J, essentiellement sous forme de chaleur."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une lampe de 60 W reste allumée 5 heures. Calcule l'énergie consommée en Wh, en kWh puis en joules.",
+          "indice": "E = P × t avec t en heures pour les Wh.",
+          "corrige": [
+            "E = 60 × 5 = 300 Wh = 0,3 kWh.",
+            "En joules : 0,3 × 3,6 × 10⁶ = 1 080 000 J (ou 60 W × 18 000 s)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une pompe électrique de puissance 500 W remonte 1 200 kg d'eau d'un puits de 15 m en 10 minutes. On prend g = 10 N/kg. 1) Calcule l'énergie électrique reçue. 2) Calcule l'énergie utile (travail pour remonter l'eau). 3) Calcule le rendement.",
+          "indice": "Énergie utile = m × g × h.",
+          "corrige": [
+            "1) E reçue = P × t = 500 × 600 = 300 000 J.",
+            "2) E utile = 1 200 × 10 × 15 = 180 000 J.",
+            "3) η = 180 000 / 300 000 = 0,6 = 60 %."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : énergie et rendement",
+        "etapes": [
+          "Fais une chaîne énergétique : énergie reçue → convertisseur → énergie utile + pertes.",
+          "Calcule chaque énergie dans la même unité (J).",
+          "Vérifie que le rendement est entre 0 et 100 %."
+        ]
+      }
+    },
+    "puissance-energie-electrique": {
+      "objectifs": [
+        "Calculer la puissance d'un appareil : P = U × I.",
+        "Calculer l'énergie consommée et son coût.",
+        "Vérifier si une installation domestique peut supporter plusieurs appareils.",
+        "Connaître les règles de sécurité électrique à la maison."
+      ],
+      "prerequis": ["Tension (V) et intensité (A).", "Conversions heures ↔ secondes."],
+      "a_retenir": {
+        "points": [
+          "La puissance nominale (en W) et la tension nominale (en V) sont inscrites sur chaque appareil.",
+          "Dans une maison, les appareils sont branchés en dérivation (parallèle) : ils reçoivent tous la même tension (220 V en Afrique de l'Ouest).",
+          "Les intensités des appareils en marche s'ajoutent dans le fil principal.",
+          "Le fusible ou le disjoncteur coupe le courant si l'intensité dépasse sa valeur : il protège contre les surintensités et les courts-circuits.",
+          "Sécurité : prise de terre pour les appareils à carcasse métallique, ne jamais toucher un fil dénudé, ne pas surcharger les multiprises."
+        ],
+        "formules": ["P = U × I", "E = P × t (Wh ou J)", "Coût = énergie (kWh) × prix du kWh"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Additionner les tensions des appareils d'une maison.", "correction": "En dérivation, ce sont les INTENSITÉS (et les puissances) qui s'ajoutent ; la tension est la même pour tous." },
+        { "erreur": "Calculer le coût avec l'énergie en Wh.", "correction": "Le prix est donné par kWh : divise les Wh par 1 000." },
+        { "erreur": "Remplacer un fusible par un fil de cuivre.", "correction": "Danger d'incendie : il n'y a plus de protection." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un fer à repasser porte l'indication 220 V – 1 100 W. Calcule l'intensité du courant qui le traverse en fonctionnement normal.",
+          "indice": "I = P / U.",
+          "corrige": ["I = 1 100 / 220 = 5 A."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Une télévision de 110 W fonctionne 4 heures par jour pendant 30 jours. Calcule l'énergie consommée en kWh, puis le coût si le kWh coûte 100 FCFA (prix supposé).",
+          "indice": "E = P × t avec t en heures.",
+          "corrige": [
+            "Durée totale : 4 × 30 = 120 h.",
+            "E = 110 × 120 = 13 200 Wh = 13,2 kWh.",
+            "Coût = 13,2 × 100 = 1 320 FCFA."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Une maison alimentée en 220 V est protégée par un disjoncteur de 10 A. Fonctionnent en même temps : un réfrigérateur (300 W), un ventilateur (100 W), cinq lampes de 40 W et un fer à repasser (1 000 W). 1) Calcule la puissance totale et l'intensité dans le fil principal. 2) Le disjoncteur coupe-t-il ? 3) On branche en plus une bouilloire de 1 000 W : que se passe-t-il ?",
+          "indice": "Les puissances s'ajoutent ; I = P / U.",
+          "corrige": [
+            "1) P = 300 + 100 + 5 × 40 + 1 000 = 1 600 W ; I = 1 600 / 220 ≈ 7,3 A.",
+            "2) 7,3 A < 10 A : le disjoncteur ne coupe pas.",
+            "3) P = 2 600 W ; I = 2 600 / 220 ≈ 11,8 A > 10 A : le disjoncteur coupe le courant (surintensité)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : l'installation électrique",
+        "etapes": [
+          "Lis les indications nominales (U, P) de chaque appareil.",
+          "Additionne les puissances des appareils en marche, puis calcule I = P / U.",
+          "Compare à la valeur du fusible ou du disjoncteur et conclus."
+        ]
+      }
+    },
+    "resistance-ohm": {
+      "objectifs": [
+        "Mesurer et calculer la résistance d'un conducteur ohmique.",
+        "Utiliser la loi d'Ohm U = R × I.",
+        "Calculer la résistance équivalente d'une association en série et en dérivation."
+      ],
+      "prerequis": ["Brancher un voltmètre (dérivation) et un ampèremètre (série)."],
+      "a_retenir": {
+        "points": [
+          "La résistance R d'un conducteur ohmique s'exprime en ohms (Ω) ; elle s'oppose au passage du courant.",
+          "Loi d'Ohm : la tension aux bornes d'un conducteur ohmique est proportionnelle à l'intensité qui le traverse.",
+          "Sa caractéristique U = f(I) est une droite passant par l'origine, de coefficient directeur R.",
+          "En série, les résistances s'ajoutent ; en dérivation, la résistance équivalente est plus petite que chacune.",
+          "Un conducteur ohmique transforme l'énergie électrique en chaleur (effet Joule)."
+        ],
+        "formules": ["U = R × I   (V, Ω, A)", "Série : R = R₁ + R₂", "Dérivation : 1/R = 1/R₁ + 1/R₂, soit R = R₁ × R₂ / (R₁ + R₂)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Utiliser I en mA dans U = R × I.", "correction": "Convertis : 50 mA = 0,05 A." },
+        { "erreur": "Additionner les résistances en dérivation.", "correction": "En dérivation, on additionne les INVERSES : 1/R = 1/R₁ + 1/R₂." },
+        { "erreur": "Brancher l'ampèremètre en dérivation.", "correction": "L'ampèremètre se branche en série, le voltmètre en dérivation." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Un conducteur ohmique de 100 Ω est traversé par un courant de 50 mA. Calcule la tension à ses bornes.",
+          "indice": "Convertis 50 mA en ampères.",
+          "corrige": ["I = 0,05 A ; U = R × I = 100 × 0,05 = 5 V."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Sous une tension de 12 V, un conducteur ohmique est traversé par 0,3 A. Calcule sa résistance. Quelle intensité le traverse sous 6 V ?",
+          "indice": "R = U / I ; la loi d'Ohm est une proportionnalité.",
+          "corrige": [
+            "R = 12 / 0,3 = 40 Ω.",
+            "Sous 6 V : I = 6 / 40 = 0,15 A (la moitié, car U est divisée par 2)."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "R₁ = 30 Ω et R₂ = 60 Ω. 1) On les associe en série sous 18 V : calcule la résistance équivalente, l'intensité et la tension aux bornes de chacune. 2) On les associe en dérivation sous 18 V : calcule la résistance équivalente et l'intensité débitée par le générateur.",
+          "indice": "En série, la même intensité traverse R₁ et R₂.",
+          "corrige": [
+            "1) R = 30 + 60 = 90 Ω ; I = 18 / 90 = 0,2 A.",
+            "U₁ = 30 × 0,2 = 6 V et U₂ = 60 × 0,2 = 12 V (6 + 12 = 18 V ✓).",
+            "2) R = 30 × 60 / (30 + 60) = 1 800 / 90 = 20 Ω ; I = 18 / 20 = 0,9 A."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la loi d'Ohm",
+        "etapes": [
+          "Fais le schéma du montage avec les appareils de mesure bien placés.",
+          "Écris U = R × I et isole l'inconnue.",
+          "Pour un graphique U = f(I), trace une droite passant par l'origine et calcule R avec un point bien choisi."
+        ]
+      }
+    },
+    "electrisation-courant": {
+      "objectifs": [
+        "Expliquer l'électrisation par frottement.",
+        "Connaître les deux types de charges et leurs interactions.",
+        "Décrire la nature du courant électrique dans un métal et son sens conventionnel.",
+        "Mesurer une intensité et appliquer la loi des nœuds."
+      ],
+      "prerequis": ["Circuit électrique simple, générateur, récepteurs."],
+      "a_retenir": {
+        "points": [
+          "Il existe deux types de charges : positives et négatives. Deux charges de même signe se repoussent, de signes contraires s'attirent.",
+          "Frotter deux objets transfère des électrons de l'un à l'autre : celui qui gagne des électrons devient négatif, l'autre positif.",
+          "Dans un métal, le courant électrique est un déplacement d'électrons, de la borne − vers la borne + à l'extérieur du générateur.",
+          "Le sens conventionnel du courant va de la borne + vers la borne − à l'extérieur du générateur (inverse du mouvement des électrons).",
+          "Loi des nœuds : la somme des intensités qui arrivent à un nœud est égale à la somme de celles qui en repartent."
+        ],
+        "formules": ["Loi des nœuds : I = I₁ + I₂", "En série, l'intensité est la même partout"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que des charges positives se déplacent dans les fils métalliques.", "correction": "Ce sont les électrons (négatifs) qui se déplacent." },
+        { "erreur": "Confondre sens des électrons et sens conventionnel.", "correction": "Conventionnel : de + vers − hors du générateur ; électrons : l'inverse." },
+        { "erreur": "Brancher l'ampèremètre sur un calibre trop petit.", "correction": "Commence par le plus grand calibre, puis descends." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Après avoir frotté un ballon sur tes cheveux, il attire de petits morceaux de papier. Explique.",
+          "indice": "Que se passe-t-il pendant le frottement ?",
+          "corrige": [
+            "Le frottement a transféré des électrons : le ballon s'est électrisé (chargé).",
+            "Un corps électrisé attire les petits objets légers, comme les morceaux de papier."
+          ]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Dans un circuit (pile, lampe, fils de cuivre), indique le sens de déplacement des électrons et le sens conventionnel du courant.",
+          "indice": "Les électrons sont attirés par la borne +.",
+          "corrige": [
+            "Électrons : à l'extérieur de la pile, ils vont de la borne − vers la borne +.",
+            "Sens conventionnel : de la borne + vers la borne − à l'extérieur de la pile."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "Deux lampes L₁ et L₂ sont branchées en dérivation sur une pile. L'ampèremètre placé dans la branche principale indique 0,5 A, celui de la branche de L₁ indique 0,2 A. 1) Énonce la loi utilisée. 2) Calcule l'intensité dans L₂. 3) Si on dévisse L₁, L₂ reste-t-elle allumée ?",
+          "indice": "Applique la loi des nœuds.",
+          "corrige": [
+            "1) Loi des nœuds : l'intensité dans la branche principale est égale à la somme des intensités des branches dérivées.",
+            "2) I₂ = 0,5 − 0,2 = 0,3 A.",
+            "3) Oui : en dérivation, chaque lampe est sur sa propre boucle avec la pile ; L₂ reste allumée."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : circuits et intensités",
+        "etapes": [
+          "Fais le schéma normalisé du circuit et repère les nœuds.",
+          "Indique le sens conventionnel du courant par des flèches.",
+          "Applique la loi des nœuds (dérivation) ou l'unicité de l'intensité (série)."
+        ]
+      }
+    },
+    "dispersion-lumiere": {
+      "objectifs": [
+        "Décrire la décomposition de la lumière blanche par un prisme.",
+        "Distinguer lumière blanche (polychromatique) et lumière monochromatique.",
+        "Expliquer la couleur d'un objet éclairé.",
+        "Expliquer la formation de l'arc-en-ciel."
+      ],
+      "prerequis": ["Propagation rectiligne de la lumière."],
+      "a_retenir": {
+        "points": [
+          "Un prisme décompose la lumière blanche en un spectre continu de couleurs : rouge, orange, jaune, vert, bleu, indigo, violet.",
+          "Ce phénomène s'appelle la dispersion : le violet est le plus dévié, le rouge le moins.",
+          "Une lumière monochromatique (laser) n'est pas décomposée par un prisme.",
+          "Un objet absorbe certaines couleurs et diffuse les autres : un objet rouge diffuse le rouge.",
+          "L'arc-en-ciel est dû à la dispersion de la lumière du soleil dans les gouttes de pluie."
+        ],
+        "formules": ["Ordre du spectre : R – O – J – V – B – I – V (du moins dévié au plus dévié)"]
+      },
+      "erreurs_frequentes": [
+        { "erreur": "Dire que le prisme colore la lumière.", "correction": "Le prisme ne crée pas les couleurs : il sépare celles qui composent déjà la lumière blanche." },
+        { "erreur": "Penser qu'un objet rouge reste rouge sous n'importe quelle lumière.", "correction": "Éclairé en lumière verte, il ne diffuse rien : il paraît noir." },
+        { "erreur": "Inverser rouge et violet dans la déviation.", "correction": "Le violet est le plus dévié." }
+      ],
+      "exercices": [
+        {
+          "niveau": "facile",
+          "enonce": "Cite dans l'ordre les couleurs du spectre de la lumière blanche, de la moins déviée à la plus déviée.",
+          "indice": "Commence par le rouge.",
+          "corrige": ["Rouge, orange, jaune, vert, bleu, indigo, violet."]
+        },
+        {
+          "niveau": "moyen",
+          "enonce": "Un pagne rouge est éclairé en lumière verte. De quelle couleur apparaît-il ? Explique.",
+          "indice": "Un objet rouge diffuse uniquement le rouge.",
+          "corrige": [
+            "Le pagne absorbe le vert et ne diffuse que le rouge, absent de l'éclairage.",
+            "Il ne renvoie aucune lumière : il apparaît noir."
+          ]
+        },
+        {
+          "niveau": "examen",
+          "enonce": "1) On envoie sur un prisme la lumière d'un laser rouge, puis celle du soleil. Décris ce que l'on observe sur l'écran dans chaque cas. 2) Explique la formation de l'arc-en-ciel après une pluie.",
+          "indice": "Lumière monochromatique ou polychromatique ?",
+          "corrige": [
+            "1) Laser : une seule tache rouge, déviée mais non décomposée (lumière monochromatique). Soleil : un spectre continu du rouge au violet (lumière blanche polychromatique).",
+            "2) Les gouttes de pluie se comportent comme de petits prismes : elles dispersent la lumière du soleil, ce qui fait apparaître les couleurs de l'arc-en-ciel (le soleil doit être dans le dos de l'observateur)."
+          ]
+        }
+      ],
+      "methode_examen": {
+        "titre": "Au {EXAMEN} : la lumière et les couleurs",
+        "etapes": [
+          "Fais un schéma : source, prisme, écran, rayons rouge et violet.",
+          "Utilise le vocabulaire exact : dispersion, spectre, monochromatique, polychromatique.",
+          "Pour la couleur d'un objet : dis ce qu'il absorbe et ce qu'il diffuse."
+        ]
+      }
+    }
+  },
+  "map": {
+    "cote-ivoire-college-physique-chimie-les-lentilles": "lentilles",
+    "senegal-college-physique-chimie-lentilles-minces": "lentilles",
+    "cote-ivoire-college-physique-chimie-les-defauts-de-l-il-et-l": "defauts-oeil",
+    "cote-ivoire-college-physique-chimie-masse-et-poids-d-un-corp": "masse-poids",
+    "cote-ivoire-college-physique-chimie-les-forces": "forces",
+    "senegal-college-physique-chimie-forces": "forces",
+    "cote-ivoire-college-physique-chimie-equilibre-d-un-solide-so": "equilibre-deux-forces",
+    "cote-ivoire-college-physique-chimie-travail-et-puissance-mec": "travail-puissance",
+    "senegal-college-physique-chimie-travail-et-puissance-mecaniq": "travail-puissance",
+    "cote-ivoire-college-physique-chimie-energie-mecanique": "energie-mecanique",
+    "senegal-college-physique-chimie-energie-et-rendement": "energie-rendement",
+    "cote-ivoire-college-physique-chimie-puissance-et-energie-ele": "puissance-energie-electrique",
+    "benin-college-physique-chimie-electricite-domestique": "puissance-energie-electrique",
+    "benin-college-physique-chimie-circuit-electrique-domestique": "puissance-energie-electrique",
+    "cote-ivoire-college-physique-chimie-le-conducteur-ohmique": "resistance-ohm",
+    "senegal-college-physique-chimie-resistance-electrique": "resistance-ohm",
+    "senegal-college-physique-chimie-electrisation-par-frottement": "electrisation-courant",
+    "senegal-college-physique-chimie-dispersion-de-la-lumiere": "dispersion-lumiere"
+  }
+}

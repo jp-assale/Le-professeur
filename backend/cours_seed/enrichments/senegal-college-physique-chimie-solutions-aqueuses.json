@@ -1,0 +1,79 @@
+{
+  "_topic": "solutions-aqueuses",
+  "objectifs": [
+    "Définir solution, soluté et solvant.",
+    "Calculer une concentration massique et une concentration molaire.",
+    "Préparer une solution de concentration donnée.",
+    "Réaliser et calculer une dilution."
+  ],
+  "prerequis": [
+    "La mole et la masse molaire.",
+    "Conversions mL → L."
+  ],
+  "a_retenir": {
+    "points": [
+      "Une solution aqueuse est obtenue en dissolvant un soluté dans l'eau (le solvant).",
+      "Une solution est saturée quand le soluté ne peut plus se dissoudre.",
+      "Concentration massique : masse de soluté par litre de solution (g/L).",
+      "Concentration molaire : quantité de matière de soluté par litre de solution (mol/L).",
+      "Lors d'une dilution, la quantité de soluté ne change pas : C₁ × V₁ = C₂ × V₂."
+    ],
+    "formules": [
+      "C_m = m / V (g/L)",
+      "C = n / V (mol/L)",
+      "C_m = C × M",
+      "C₁ × V₁ = C₂ × V₂"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Garder le volume en mL dans C = n / V.",
+      "correction": "V doit être en litres : 250 mL = 0,25 L."
+    },
+    {
+      "erreur": "Prendre le volume d'eau ajouté au lieu du volume final de solution.",
+      "correction": "On complète jusqu'au trait de jauge de la fiole : c'est le volume de la SOLUTION."
+    },
+    {
+      "erreur": "Penser que la dilution augmente la concentration.",
+      "correction": "Diluer = ajouter du solvant : la concentration diminue."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "On dissout 10 g de sucre pour obtenir 250 mL de solution. Calcule la concentration massique.",
+      "indice": "Convertis 250 mL en litres.",
+      "corrige": [
+        "C_m = 10 / 0,25 = 40 g/L."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Quelle masse de sel (chlorure de sodium) faut-il pour préparer 500 mL de sérum physiologique à 9 g/L ? Décris la préparation.",
+      "indice": "m = C_m × V.",
+      "corrige": [
+        "m = 9 × 0,5 = 4,5 g.",
+        "On pèse 4,5 g de sel, on les introduit dans une fiole jaugée de 500 mL, on ajoute de l'eau distillée, on agite pour dissoudre, puis on complète jusqu'au trait de jauge et on homogénéise."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On dissout 5,85 g de chlorure de sodium NaCl dans de l'eau pour obtenir 0,5 L de solution. Données : M(Na) = 23 g/mol, M(Cl) = 35,5 g/mol. 1) Calcule la masse molaire de NaCl. 2) Calcule la quantité de matière dissoute et la concentration molaire. 3) On prélève 10 mL de cette solution qu'on dilue pour obtenir 100 mL. Calcule la nouvelle concentration.",
+      "indice": "Pour la dilution, C₁ × V₁ = C₂ × V₂.",
+      "corrige": [
+        "1) M(NaCl) = 23 + 35,5 = 58,5 g/mol.",
+        "2) n = 5,85 / 58,5 = 0,1 mol ; C = 0,1 / 0,5 = 0,2 mol/L.",
+        "3) C₂ = C₁ × V₁ / V₂ = 0,2 × 10 / 100 = 0,02 mol/L."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BFEM : les solutions",
+    "etapes": [
+      "Identifie soluté, solvant et volume de solution (en L).",
+      "Choisis la bonne formule : g/L ou mol/L.",
+      "Pour une dilution, écris C₁V₁ = C₂V₂ et précise le matériel (pipette, fiole jaugée)."
+    ]
+  }
+}

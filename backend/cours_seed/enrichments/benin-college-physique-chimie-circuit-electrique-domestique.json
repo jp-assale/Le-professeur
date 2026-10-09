@@ -1,0 +1,79 @@
+{
+  "_topic": "puissance-energie-electrique",
+  "objectifs": [
+    "Calculer la puissance d'un appareil : P = U × I.",
+    "Calculer l'énergie consommée et son coût.",
+    "Vérifier si une installation domestique peut supporter plusieurs appareils.",
+    "Connaître les règles de sécurité électrique à la maison."
+  ],
+  "prerequis": [
+    "Tension (V) et intensité (A).",
+    "Conversions heures ↔ secondes."
+  ],
+  "a_retenir": {
+    "points": [
+      "La puissance nominale (en W) et la tension nominale (en V) sont inscrites sur chaque appareil.",
+      "Dans une maison, les appareils sont branchés en dérivation (parallèle) : ils reçoivent tous la même tension (220 V en Afrique de l'Ouest).",
+      "Les intensités des appareils en marche s'ajoutent dans le fil principal.",
+      "Le fusible ou le disjoncteur coupe le courant si l'intensité dépasse sa valeur : il protège contre les surintensités et les courts-circuits.",
+      "Sécurité : prise de terre pour les appareils à carcasse métallique, ne jamais toucher un fil dénudé, ne pas surcharger les multiprises."
+    ],
+    "formules": [
+      "P = U × I",
+      "E = P × t (Wh ou J)",
+      "Coût = énergie (kWh) × prix du kWh"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Additionner les tensions des appareils d'une maison.",
+      "correction": "En dérivation, ce sont les INTENSITÉS (et les puissances) qui s'ajoutent ; la tension est la même pour tous."
+    },
+    {
+      "erreur": "Calculer le coût avec l'énergie en Wh.",
+      "correction": "Le prix est donné par kWh : divise les Wh par 1 000."
+    },
+    {
+      "erreur": "Remplacer un fusible par un fil de cuivre.",
+      "correction": "Danger d'incendie : il n'y a plus de protection."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un fer à repasser porte l'indication 220 V – 1 100 W. Calcule l'intensité du courant qui le traverse en fonctionnement normal.",
+      "indice": "I = P / U.",
+      "corrige": [
+        "I = 1 100 / 220 = 5 A."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Une télévision de 110 W fonctionne 4 heures par jour pendant 30 jours. Calcule l'énergie consommée en kWh, puis le coût si le kWh coûte 100 FCFA (prix supposé).",
+      "indice": "E = P × t avec t en heures.",
+      "corrige": [
+        "Durée totale : 4 × 30 = 120 h.",
+        "E = 110 × 120 = 13 200 Wh = 13,2 kWh.",
+        "Coût = 13,2 × 100 = 1 320 FCFA."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une maison alimentée en 220 V est protégée par un disjoncteur de 10 A. Fonctionnent en même temps : un réfrigérateur (300 W), un ventilateur (100 W), cinq lampes de 40 W et un fer à repasser (1 000 W). 1) Calcule la puissance totale et l'intensité dans le fil principal. 2) Le disjoncteur coupe-t-il ? 3) On branche en plus une bouilloire de 1 000 W : que se passe-t-il ?",
+      "indice": "Les puissances s'ajoutent ; I = P / U.",
+      "corrige": [
+        "1) P = 300 + 100 + 5 × 40 + 1 000 = 1 600 W ; I = 1 600 / 220 ≈ 7,3 A.",
+        "2) 7,3 A < 10 A : le disjoncteur ne coupe pas.",
+        "3) P = 2 600 W ; I = 2 600 / 220 ≈ 11,8 A > 10 A : le disjoncteur coupe le courant (surintensité)."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'installation électrique",
+    "etapes": [
+      "Lis les indications nominales (U, P) de chaque appareil.",
+      "Additionne les puissances des appareils en marche, puis calcule I = P / U.",
+      "Compare à la valeur du fusible ou du disjoncteur et conclus."
+    ]
+  }
+}

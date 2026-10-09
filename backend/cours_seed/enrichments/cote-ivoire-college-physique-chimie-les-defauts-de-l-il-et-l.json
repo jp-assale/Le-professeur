@@ -1,0 +1,76 @@
+{
+  "_topic": "defauts-oeil",
+  "objectifs": [
+    "Décrire l'œil comme un système optique (cristallin, rétine).",
+    "Expliquer la myopie, l'hypermétropie et la presbytie.",
+    "Choisir la lentille qui corrige chaque défaut."
+  ],
+  "prerequis": [
+    "Lentilles convergentes et divergentes, vergence."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le cristallin joue le rôle d'une lentille convergente ; la rétine joue le rôle d'écran.",
+      "Œil normal : l'image se forme sur la rétine ; l'accommodation permet de voir net de près.",
+      "Œil myope : trop convergent, l'image se forme AVANT la rétine ; il voit mal de loin. Correction : lentille divergente.",
+      "Œil hypermétrope : pas assez convergent, l'image se forme APRÈS la rétine. Correction : lentille convergente.",
+      "Presbytie : avec l'âge, le cristallin accommode moins ; on voit mal de près. Correction : lentille convergente pour lire."
+    ],
+    "formules": [
+      "Verre de vergence négative → myopie ; positive → hypermétropie ou presbytie"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Corriger la myopie avec une lentille convergente.",
+      "correction": "L'œil myope converge déjà trop : on le corrige avec une lentille DIVERGENTE."
+    },
+    {
+      "erreur": "Dire que le myope voit mal de près.",
+      "correction": "Le myope voit bien de près mais mal de loin."
+    },
+    {
+      "erreur": "Confondre presbytie et hypermétropie.",
+      "correction": "La presbytie est due à l'âge (perte d'accommodation) ; l'hypermétropie est un défaut de l'œil, souvent dès l'enfance."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Associe chaque défaut à sa correction : myopie, hypermétropie, presbytie / lentille convergente, lentille divergente.",
+      "indice": "Demande-toi si l'œil converge trop ou pas assez.",
+      "corrige": [
+        "Myopie → lentille divergente.",
+        "Hypermétropie → lentille convergente.",
+        "Presbytie → lentille convergente (lunettes de lecture)."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Les lunettes de Moussa ont une vergence de −2 δ. Quel est son défaut ? Calcule la distance focale de ses verres.",
+      "indice": "Le signe de la vergence indique le type de lentille.",
+      "corrige": [
+        "C < 0 : verres divergents, donc Moussa est myope.",
+        "|f| = 1 / 2 = 0,5 m = 50 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Sur l'ordonnance de Grand-mère Adjoa, on lit : œil droit +1,5 δ ; œil gauche +1,75 δ. Elle voit bien de loin mais ne peut plus lire son journal. 1) Quel est son défaut ? 2) Quel type de lentilles porte-t-elle ? 3) Calcule la distance focale de chaque verre (au centimètre).",
+      "indice": "Elle voit mal de près à cause de l'âge.",
+      "corrige": [
+        "1) Elle voit mal de près avec l'âge : c'est la presbytie.",
+        "2) Vergences positives : lentilles convergentes.",
+        "3) Œil droit : f = 1 / 1,5 ≈ 0,67 m = 67 cm ; œil gauche : f = 1 / 1,75 ≈ 0,57 m = 57 cm."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : les défauts de l'œil",
+    "etapes": [
+      "Dis où se forme l'image (avant, sur, après la rétine).",
+      "Déduis-en si l'œil est trop ou pas assez convergent.",
+      "Propose la lentille correctrice et justifie par une phrase."
+    ]
+  }
+}

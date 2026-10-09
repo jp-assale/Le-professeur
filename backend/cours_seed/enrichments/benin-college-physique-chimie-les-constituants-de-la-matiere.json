@@ -1,0 +1,77 @@
+{
+  "_topic": "constituants-matiere",
+  "objectifs": [
+    "Décrire la structure de l'atome (noyau, protons, neutrons, électrons).",
+    "Utiliser la notation ᴬ_Z X pour trouver le nombre de chaque particule.",
+    "Répartir les électrons sur les couches K, L, M.",
+    "Expliquer la formation des ions."
+  ],
+  "prerequis": [
+    "Notion de molécule et d'atome."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'atome est formé d'un noyau (protons positifs et neutrons neutres) entouré d'électrons négatifs.",
+      "Z (numéro atomique) = nombre de protons ; A (nombre de masse) = nombre de protons + neutrons.",
+      "Un atome est électriquement neutre : il a autant d'électrons que de protons (Z).",
+      "Couches électroniques : K (2 électrons au plus), L (8), M (8 pour les 18 premiers éléments).",
+      "Un cation est un atome qui a perdu des électrons (Na⁺) ; un anion en a gagné (Cl⁻)."
+    ],
+    "formules": [
+      "nombre de neutrons N = A − Z",
+      "Na (Z = 11) : K² L⁸ M¹",
+      "Cl (Z = 17) : K² L⁸ M⁷"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'un ion positif a gagné des électrons.",
+      "correction": "Positif = il a PERDU des électrons (il a plus de protons que d'électrons)."
+    },
+    {
+      "erreur": "Confondre A et Z.",
+      "correction": "Z en bas (protons), A en haut (protons + neutrons)."
+    },
+    {
+      "erreur": "Mettre 8 électrons sur la couche K.",
+      "correction": "La couche K contient au maximum 2 électrons."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "L'atome de sodium est noté ²³₁₁Na. Donne son nombre de protons, de neutrons et d'électrons.",
+      "indice": "N = A − Z.",
+      "corrige": [
+        "Protons : Z = 11 ; électrons : 11 (atome neutre) ; neutrons : 23 − 11 = 12."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Combien d'électrons possèdent l'ion Na⁺ (Z = 11) et l'ion Cl⁻ (Z = 17) ?",
+      "indice": "Na⁺ a perdu un électron, Cl⁻ en a gagné un.",
+      "corrige": [
+        "Na⁺ : 11 − 1 = 10 électrons.",
+        "Cl⁻ : 17 + 1 = 18 électrons."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Donne la répartition électronique de Na (Z = 11) et de Cl (Z = 17). 2) Combien d'électrons chacun a-t-il sur sa couche externe ? 3) Explique la formation des ions Na⁺ et Cl⁻ et du sel NaCl.",
+      "indice": "Les atomes tendent à avoir 8 électrons sur leur couche externe.",
+      "corrige": [
+        "1) Na : K² L⁸ M¹ ; Cl : K² L⁸ M⁷.",
+        "2) Na : 1 électron externe ; Cl : 7 électrons externes.",
+        "3) Na perd son électron externe (il devient Na⁺, couche L à 8 électrons) ; Cl en gagne un (Cl⁻, couche M à 8). Les ions de charges opposées s'attirent et forment le chlorure de sodium NaCl."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'atome et les ions",
+    "etapes": [
+      "Lis A et Z, puis calcule protons, neutrons, électrons.",
+      "Remplis les couches dans l'ordre K, L, M.",
+      "Pour un ion, ajoute ou retire des électrons selon la charge."
+    ]
+  }
+}

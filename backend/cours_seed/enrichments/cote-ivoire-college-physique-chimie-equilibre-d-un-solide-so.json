@@ -1,0 +1,77 @@
+{
+  "_topic": "equilibre-deux-forces",
+  "objectifs": [
+    "Énoncer les conditions d'équilibre d'un solide soumis à deux forces.",
+    "Déterminer les caractéristiques d'une force inconnue grâce à l'équilibre.",
+    "Utiliser la relation entre la tension d'un ressort et son allongement."
+  ],
+  "prerequis": [
+    "Les caractéristiques d'une force.",
+    "Le poids P = m × g."
+  ],
+  "a_retenir": {
+    "points": [
+      "Un solide soumis à deux forces F₁ et F₂ est en équilibre si : elles ont la même droite d'action, des sens contraires et la même intensité.",
+      "On écrit alors F₁→ + F₂→ = 0→.",
+      "Un corps suspendu à un fil et immobile : la tension du fil compense exactement le poids.",
+      "Pour un ressort, la tension est proportionnelle à l'allongement : T = k × x (k : raideur en N/m, x en m)."
+    ],
+    "formules": [
+      "F₁→ + F₂→ = 0→",
+      "T = k × x"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Oublier la condition « même droite d'action ».",
+      "correction": "Deux forces opposées et de même intensité mais décalées font tourner le solide : il n'est pas en équilibre."
+    },
+    {
+      "erreur": "Garder l'allongement en cm dans T = k × x avec k en N/m.",
+      "correction": "Convertis x en mètres."
+    },
+    {
+      "erreur": "Dessiner les deux forces de longueurs différentes à l'équilibre.",
+      "correction": "Même intensité → même longueur de flèche."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Un solide est soumis à deux forces de 5 N, portées par la même droite et de sens contraires. Est-il en équilibre ? Même question si l'une des forces vaut 7 N.",
+      "indice": "Vérifie les trois conditions.",
+      "corrige": [
+        "Même droite, sens contraires, même intensité (5 N) : le solide est en équilibre.",
+        "Avec 5 N et 7 N, les intensités sont différentes : il n'est pas en équilibre."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "On suspend une masse de 200 g à un ressort de raideur k = 50 N/m. On prend g = 10 N/kg. Calcule l'allongement du ressort à l'équilibre.",
+      "indice": "À l'équilibre, la tension du ressort est égale au poids.",
+      "corrige": [
+        "P = m × g = 0,2 × 10 = 2 N.",
+        "À l'équilibre, T = P = 2 N.",
+        "x = T / k = 2 / 50 = 0,04 m = 4 cm."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "Une lampe de masse 1,2 kg est suspendue au plafond par un fil. On prend g = 10 N/kg. 1) Calcule le poids de la lampe. 2) Énonce la condition d'équilibre et déduis-en les caractéristiques de la tension T du fil. 3) Représente P et T à l'échelle 1 cm ↔ 4 N.",
+      "indice": "La lampe est immobile.",
+      "corrige": [
+        "1) P = 1,2 × 10 = 12 N.",
+        "2) La lampe est en équilibre sous l'action de P et T : P→ + T→ = 0→. T a la même droite d'action (verticale), le sens contraire (vers le haut) et la même intensité : T = 12 N, appliquée au point d'attache du fil.",
+        "3) Chaque flèche mesure 12 ÷ 4 = 3 cm, sur la même verticale, en sens opposés."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : l'équilibre d'un solide",
+    "etapes": [
+      "Fais l'inventaire des deux forces.",
+      "Écris la condition d'équilibre F₁→ + F₂→ = 0→.",
+      "Déduis-en les caractéristiques de la force inconnue, puis représente à l'échelle."
+    ]
+  }
+}

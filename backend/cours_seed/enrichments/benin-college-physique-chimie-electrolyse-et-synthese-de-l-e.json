@@ -1,0 +1,78 @@
+{
+  "_topic": "electrolyse-eau",
+  "objectifs": [
+    "Décrire l'électrolyse de l'eau et identifier les gaz formés.",
+    "Connaître les tests du dihydrogène et du dioxygène.",
+    "Écrire les équations-bilans de l'électrolyse et de la synthèse de l'eau.",
+    "Utiliser le rapport des volumes (2 pour 1)."
+  ],
+  "prerequis": [
+    "Atomes et molécules : H₂, O₂, H₂O.",
+    "Équilibrer une équation chimique."
+  ],
+  "a_retenir": {
+    "points": [
+      "L'eau pure conduit très mal : on ajoute un peu de soude (hydroxyde de sodium) pour réaliser l'électrolyse.",
+      "À la cathode (borne −) se dégage du dihydrogène H₂ ; à l'anode (borne +) du dioxygène O₂.",
+      "Le volume de dihydrogène est le double de celui de dioxygène.",
+      "Test du H₂ : une flamme approchée provoque une légère détonation. Test du O₂ : il rallume une bûchette incandescente.",
+      "La synthèse de l'eau est la réaction inverse : le dihydrogène brûle dans le dioxygène en donnant de l'eau."
+    ],
+    "formules": [
+      "Électrolyse : 2 H₂O → 2 H₂ + O₂",
+      "Synthèse : 2 H₂ + O₂ → 2 H₂O",
+      "V(H₂) = 2 × V(O₂)"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Placer le dioxygène à la cathode.",
+      "correction": "Cathode (−) → dihydrogène ; anode (+) → dioxygène."
+    },
+    {
+      "erreur": "Écrire H₂O → H₂ + O₂ sans équilibrer.",
+      "correction": "Il faut 2 H₂O → 2 H₂ + O₂ (4 H et 2 O de chaque côté)."
+    },
+    {
+      "erreur": "Inverser les tests des deux gaz.",
+      "correction": "Détonation → H₂ ; bûchette qui se rallume → O₂."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "Lors d'une électrolyse de l'eau, on recueille 30 mL de dioxygène. Quel volume de dihydrogène obtient-on dans les mêmes conditions ?",
+      "indice": "V(H₂) = 2 × V(O₂).",
+      "corrige": [
+        "V(H₂) = 2 × 30 = 60 mL."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Nomme le gaz recueilli à chaque électrode et décris le test qui permet de l'identifier.",
+      "indice": "Pense à la bûchette et à la flamme.",
+      "corrige": [
+        "Cathode (−) : dihydrogène ; une flamme approchée produit une petite détonation.",
+        "Anode (+) : dioxygène ; il ravive (rallume) une bûchette incandescente."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "On réalise la synthèse de l'eau avec un mélange de 40 cm³ de dihydrogène et 30 cm³ de dioxygène. 1) Écris l'équation-bilan. 2) Quel volume de dioxygène réagit avec les 40 cm³ de dihydrogène ? 3) Quel gaz reste en excès et quel est son volume ?",
+      "indice": "Les gaz réagissent dans les proportions 2 volumes de H₂ pour 1 volume de O₂.",
+      "corrige": [
+        "1) 2 H₂ + O₂ → 2 H₂O.",
+        "2) 40 cm³ de H₂ réagissent avec 40 ÷ 2 = 20 cm³ de O₂.",
+        "3) Il reste du dioxygène : 30 − 20 = 10 cm³ en excès."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : électrolyse et synthèse de l'eau",
+    "etapes": [
+      "Fais un schéma légendé (électrodes, bornes, tubes, gaz).",
+      "Écris l'équation-bilan équilibrée.",
+      "Utilise le rapport 2 pour 1 pour les volumes et cherche le réactif en excès."
+    ]
+  }
+}

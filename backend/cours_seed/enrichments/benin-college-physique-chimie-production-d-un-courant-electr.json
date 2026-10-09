@@ -1,0 +1,75 @@
+{
+  "_topic": "production-courant",
+  "objectifs": [
+    "Expliquer la production d'un courant par induction (aimant et bobine).",
+    "Décrire le principe de l'alternateur et des centrales électriques.",
+    "Caractériser une tension alternative : période, fréquence, valeur maximale et efficace."
+  ],
+  "prerequis": [
+    "Aimants et pôles.",
+    "Tension et oscilloscope."
+  ],
+  "a_retenir": {
+    "points": [
+      "Le déplacement d'un aimant près d'une bobine (ou de la bobine près de l'aimant) produit un courant : c'est l'induction.",
+      "Un alternateur (rotor aimanté qui tourne devant des bobines) produit une tension alternative ; la dynamo de vélo en est un exemple.",
+      "Dans une centrale (hydraulique, thermique, solaire…), une turbine fait tourner l'alternateur ; seule l'énergie qui la met en mouvement change.",
+      "Une tension alternative change de signe périodiquement ; la période T est la durée d'un motif, la fréquence f = 1/T (en hertz).",
+      "Le réseau électrique en Afrique de l'Ouest fournit 220 V (valeur efficace) à 50 Hz."
+    ],
+    "formules": [
+      "f = 1 / T   (Hz, s)",
+      "U_max = U_eff × √2"
+    ]
+  },
+  "erreurs_frequentes": [
+    {
+      "erreur": "Penser qu'un aimant immobile dans une bobine produit du courant.",
+      "correction": "Il faut un MOUVEMENT relatif entre l'aimant et la bobine."
+    },
+    {
+      "erreur": "Calculer f avec T en millisecondes.",
+      "correction": "Convertis : 20 ms = 0,02 s, donc f = 50 Hz."
+    },
+    {
+      "erreur": "Confondre 220 V (efficace) et la valeur maximale.",
+      "correction": "La tension maximale vaut 220 × √2 ≈ 311 V."
+    }
+  ],
+  "exercices": [
+    {
+      "niveau": "facile",
+      "enonce": "La tension du secteur a une fréquence de 50 Hz. Calcule sa période.",
+      "indice": "T = 1 / f.",
+      "corrige": [
+        "T = 1 / 50 = 0,02 s = 20 ms."
+      ]
+    },
+    {
+      "niveau": "moyen",
+      "enonce": "Sur l'écran d'un oscilloscope, un motif de la tension occupe 4 divisions horizontales ; la base de temps est réglée sur 5 ms/division. Calcule la période et la fréquence.",
+      "indice": "T = nombre de divisions × base de temps.",
+      "corrige": [
+        "T = 4 × 5 = 20 ms = 0,02 s.",
+        "f = 1 / 0,02 = 50 Hz."
+      ]
+    },
+    {
+      "niveau": "examen",
+      "enonce": "1) Explique comment le barrage hydroélectrique de Nangbéto, sur le fleuve Mono, produit de l'électricité. 2) La tension délivrée chez toi vaut 220 V (efficace). Calcule sa valeur maximale.",
+      "indice": "Chaîne : eau → turbine → alternateur.",
+      "corrige": [
+        "1) L'eau retenue par le barrage descend et fait tourner une turbine ; la turbine entraîne le rotor (aimant) d'un alternateur ; le mouvement de l'aimant devant les bobines produit une tension alternative par induction.",
+        "2) U_max = 220 × √2 ≈ 311 V."
+      ]
+    }
+  ],
+  "methode_examen": {
+    "titre": "Au BEPC : la production du courant",
+    "etapes": [
+      "Décris la chaîne énergétique de la centrale jusqu'à l'alternateur.",
+      "Lis un oscillogramme : nombre de divisions × calibre.",
+      "Convertis les durées en secondes avant de calculer la fréquence."
+    ]
+  }
+}
