@@ -332,6 +332,9 @@ function renderQuizSlide(data) {
       buttons.forEach((b) => { b.btn.disabled = true; });
       feedback.classList.add(c.correct ? "ok" : "ko");
       feedback.textContent = c.correct ? data.quiz.feedback_correct : data.quiz.feedback_wrong;
+      // Le texte arrive après le rendu initial des formules : on le rend ici
+      // (sinon « $3x + 5x$ » s'affiche en code brut).
+      if (window.renderMathInElement) renderMathInElement(feedback, { delimiters: QUIZ_MATH_DELIMITERS, throwOnError: false });
     });
     choicesBox.appendChild(btn);
   });
