@@ -1382,6 +1382,13 @@
   // leur verification a ce jour). Format wa.me : chiffres uniquement, sans
   // le "00" ni le "+".
   const SUBSCRIBE_WHATSAPP_NUMBER = "22371698694";
+  // Paiement Orange Money : meme numero que WhatsApp (confirme par l'admin le 2026-10-12).
+  // Le serveur peut le remplacer sans publier d'appli (variables PAY_* sur Render, /api/pay-info).
+  const SUBSCRIBE_PAY_INFO = {
+    whatsapp: SUBSCRIBE_WHATSAPP_NUMBER,
+    beneficiary: null,
+    methods: [{ label: "Orange Money", number: "+223 71 69 86 94" }],
+  };
 
   // Un seul forfait a la fois a du sens (pas un choix multiple) - boutons
   // radio plutot que des cases a cocher independantes, meme principe visuel.
@@ -1482,16 +1489,19 @@
 
     // Numero WhatsApp et moyens de paiement : fournis par le serveur (reglables sans
     // publier une nouvelle version de l'appli), avec repli sur les valeurs integrees.
-    fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
+    function showPay(info) {
       if (info.whatsapp) { waNumber = info.whatsapp; updateWaLink(); }
-      if (info.methods && info.methods.length) {
-        const pay = overlay.querySelector("#subscribe-pay");
-        pay.innerHTML = "<strong>1. Paie par Mobile Money</strong><br>" +
-          info.methods.map((m) => escapeHtml(m.label) + " : <strong>" + escapeHtml(m.number) + "</strong>").join("<br>") +
-          (info.beneficiary ? "<br>Au nom de : " + escapeHtml(info.beneficiary) : "") +
-          "<br><strong>2. Touche le bouton vert</strong> et envoie la capture.";
-        pay.hidden = false;
-      }
+      if (!info.methods || !info.methods.length) return;
+      const pay = overlay.querySelector("#subscribe-pay");
+      pay.innerHTML = "<strong>1. Paie par Mobile Money</strong><br>" +
+        info.methods.map((m) => escapeHtml(m.label) + " : <strong>" + escapeHtml(m.number) + "</strong>").join("<br>") +
+        (info.beneficiary ? "<br>Au nom de : " + escapeHtml(info.beneficiary) : "") +
+        "<br><strong>2. Touche le bouton vert</strong> et envoie la capture.";
+      pay.hidden = false;
+    }
+    showPay(SUBSCRIBE_PAY_INFO); // affichage immediat, meme hors-ligne
+    fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
+      if (info.whatsapp || (info.methods && info.methods.length)) showPay({ ...SUBSCRIBE_PAY_INFO, ...info, methods: (info.methods && info.methods.length) ? info.methods : SUBSCRIBE_PAY_INFO.methods });
     }).catch(() => {});
   }
 
