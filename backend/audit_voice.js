@@ -1,13 +1,19 @@
 const fs = require("fs"), path = require("path");
 const { speakableFrench: sp } = require("../frontend/js/speech-text.js");
-const dir = path.join(__dirname, "cours_seed", "lessons");
+// Lecons + complements pedagogiques (enrichments : fiches methode, astuces, etc.).
+const dirs = ["lessons", "enrichments"].map((d) => path.join(__dirname, "cours_seed", d));
 const strings = [];
 function walk(v, file, key) {
   if (typeof v === "string") { if (v.length > 3) strings.push({ file, key, v }); }
   else if (Array.isArray(v)) v.forEach((x) => walk(x, file, key));
   else if (v && typeof v === "object") for (const k of Object.keys(v)) { if (k === "schema" || k === "schema_status") continue; walk(v[k], file, k); }
 }
-for (const f of fs.readdirSync(dir)) walk(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")), f, "");
+for (const dir of dirs) {
+  if (!fs.existsSync(dir)) continue;
+  for (const f of fs.readdirSync(dir)) {
+    if (f.endsWith(".json")) walk(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")), path.basename(dir) + "/" + f, "");
+  }
+}
 console.log("textes:", strings.length);
 const ok = /[A-Za-zÀ-ÿŒœ0-9\s.,;:!?'’"()\-«»%]/;
 const stat = {}; const ctx = {};

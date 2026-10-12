@@ -61,6 +61,19 @@
     eV: ["électronvolt", "électronvolts", "m"], FCFA: ["franc CFA", "francs CFA", "m"],
   };
 
+  // Unites avec prefixe micro / nano / pico (µF, nF, µA, µs...) et farad.
+  ["µ", "μ"].forEach((p) => {
+    UNITS[p + "F"] = ["microfarad", "microfarads", "m"];
+    UNITS[p + "A"] = ["microampère", "microampères", "m"];
+    UNITS[p + "s"] = ["microseconde", "microsecondes", "f"];
+    UNITS[p + "g"] = ["microgramme", "microgrammes", "m"];
+    UNITS[p + "L"] = ["microlitre", "microlitres", "m"];
+    UNITS[p + "mol"] = ["micromole", "micromoles", "f"];
+  });
+  UNITS.mF = ["millifarad", "millifarads", "m"];
+  UNITS.nF = ["nanofarad", "nanofarads", "m"];
+  UNITS.pF = ["picofarad", "picofarads", "m"];
+
   // Symboles d'une seule lettre : ambigus avec des variables (m, t, s, A, V...).
   const AMBIGUOUS = new Set(["m", "g", "s", "h", "t", "l", "L", "N", "J", "W", "V", "A", "K"]);
   // Parmi eux, ceux qu'on accepte collés au nombre dans un texte (pas une formule) : "5m".
@@ -76,6 +89,15 @@
     "(-?\\d+(?:[.,]\\d+)?)(\\s*)" + UNIT_TOKEN + "(?:\\/" + UNIT_TOKEN + ")?(?![" + LETTER + "0-9_])", "g");
   const RE_BARE_UNIT = new RegExp(
     "(?<![" + LETTER + "0-9_\\/])" + UNIT_TOKEN + "(?:\\/" + UNIT_TOKEN + ")?(?![" + LETTER + "0-9_])", "g");
+
+  // Unites sans nombre : seulement les symboles de 2 lettres ou plus qui ne sont pas aussi des
+  // mots francais courants (min, bar, cal exclus).
+  const BARE_SIMPLE_ALT = Object.keys(UNITS)
+    .filter((k) => k.length >= 2 && !["min", "bar", "cal", "ml", "cl", "dl"].includes(k))
+    .sort((a, b) => b.length - a.length)
+    .map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .join("|");
+  const RE_BARE_SIMPLE = new RegExp("(?<![" + LETTER + "0-9_\\/\\-])(" + BARE_SIMPLE_ALT + ")(?![" + LETTER + "0-9_\\/²³])", "g");
 
   function expOf(a, b) {
     const e = a || (b === "²" ? "2" : b === "³" ? "3" : "");
@@ -130,6 +152,11 @@
       if (!inMath && u1.length === 1 && !u2 && AMBIGUOUS.has(u1) && /^[stmhg]$/.test(u1) && e1) return m;
       return composeUnit(u1, e1, u2, e2, true);
     });
+    // Unites seules dans une phrase (« en kg », « convertir les kΩ et µF ») : jamais
+    // dans une formule (m, g... pourraient etre des variables) ni les symboles ambigus.
+    if (!inMath) {
+      text = text.replace(RE_BARE_SIMPLE, (m, u) => unitWords(u, "", true, false));
+    }
     return text;
   }
 
@@ -139,8 +166,15 @@
     return s;
   }
 
+  // Exposants / indices Unicode (chiffres, signes ET lettres : eˣ, uⁿ, Nₐ, xᵢ, Vₘ...).
   const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-", "⁺": "+" };
   const SUBS = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9", "₊": "+", "₋": "-" };
+  "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾᴿᵀᵁⱽᵂ".split("").forEach((c) => { SUP[c] = c.normalize("NFKD"); });
+  "ₐₑₕᵢⱼₖₗₘₙₒₚᵣₛₜᵤᵥₓ".split("").forEach((c) => { SUBS[c] = c.normalize("NFKD"); });
+  SUBS["ᵧ"] = "y"; // indice gamma utilise comme « y »
+  const SUP_RUN = new RegExp("[" + Object.keys(SUP).join("") + "]+", "g");
+  const SUB_DIGITS_AFTER_CAPITAL = /(?<=[A-Z)\]])[₀₁₂₃₄₅₆₇₈₉]+/g;
+  const SUB_RUN = new RegExp("[" + Object.keys(SUBS).join("") + "]+", "g");
   const SYM_WORDS = {
     "ℝ": " les réels ", "ℤ": " les entiers relatifs ", "ℕ": " les entiers naturels ", "ℚ": " les rationnels ",
     "ℂ": " les complexes ", "∈": " appartient à ", "∉": " n'appartient pas à ", "⊂": " inclus dans ",
@@ -151,7 +185,8 @@
     "‰": " pour mille ", "∥": " parallèle à ", "⊥": " perpendiculaire à ", "∠": " angle ", "≡": " équivaut à ",
     "∞": " l'infini ", "≠": " différent de ", "≤": " inférieur ou égal à ", "≥": " supérieur ou égal à ",
     "≈": " environ égal à ", "×": " fois ", "÷": " divisé par ", "±": " plus ou moins ", "→": " donne ", "⇒": " donc ",
-    "−": " moins ",
+    "−": " moins ", "½": " un demi ", "¼": " un quart ", "¾": " trois quarts ", "⅓": " un tiers ",
+    "⅔": " deux tiers ", "ℓ": " l ", "µ": " micro ",
   };
   const GREEK_CHARS = {
     α: "alpha", β: "bêta", γ: "gamma", Γ: "gamma", δ: "delta", Δ: "delta", ε: "epsilon", ζ: "dzêta", η: "êta",
@@ -164,19 +199,34 @@
   // lettres grecques, valeur absolue, intervalles, /, ^, _, tirets, puces...)
   // convertis en mots ou en pauses : le moteur vocal ne doit rien epeler.
   function normalizeSymbols(s) {
-    // Exposants Unicode : H⁺ / Fe³⁺ (ions), 10⁻¹⁹ et x² (puissances).
-    s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+/g, (run) => {
+    // Barre au-dessus (Ā, ȳ, x̄) : « A barre », « y barre ».
+    s = s.normalize("NFD").replace(/([A-Za-z])̄/g, "$1 barre ").normalize("NFC");
+    s = s.replace(/𝔻/gu, " les décimaux ");
+    // Prime typographique : u′ -> u', f″ -> f''.
+    s = s.replace(/′/g, "'").replace(/″/g, "''");
+    // Bornes d'integrale ecrites en Unicode : ∫ₐᵇ -> « integrale de a a b de », ∫₀¹ -> « de 0 a 1 ».
+    s = s.replace(/∫\s*([₀-₉ₐₑₕᵢⱼₖₗₘₙₒₚᵣₛₜᵤᵥₓ]+)\s*([⁰¹²³⁴⁵⁶⁷⁸⁹ᵃᵇᶜᵈⁿˣ⁺⁻]+)/g, (m, lo, hi) =>
+      " intégrale de " + [...lo].map((c) => SUBS[c]).join("") + " à " + [...hi].map((c) => SUP[c]).join("") + " de ");
+    // Ordinaux : 3ᵉ -> 3e, 1ᵉʳ -> 1er (et non « 3 puissance e »).
+    s = s.replace(/(\d)ᵉʳ/g, "$1er").replace(/(\d)ᵉˢ?/g, "$1ème");
+
+    // Exposants Unicode : H⁺ / Fe³⁺ (ions), 10⁻¹⁹, x², eˣ, uⁿ (puissances).
+    s = s.replace(SUP_RUN, (run) => {
       const a = [...run].map((c) => SUP[c]).join("");
       if (a === "+") return " plus ";
       if (a === "-") return " moins ";
       if (/^\d+[+-]$/.test(a)) return " " + a.slice(0, -1) + (a.endsWith("+") ? " plus " : " moins ");
       if (a === "2") return " au carré ";
       if (a === "3") return " au cube ";
-      return " puissance " + a.replace("-", "moins ").replace("+", "") + " ";
+      const spoken = a.replace(/\+/g, " plus ").replace(/-/g, " moins ").replace(/\s+/g, " ").trim();
+      return a.length === 1 || /^-?\d+$/.test(a) ? " puissance " + spoken + " " : " puissance , " + spoken + " , ";
     });
-    // Indices Unicode : chimie (H₂O) = chiffres seuls ; maths (x₀, P₁) = « indice ».
-    s = s.replace(/(?<=[A-Z)\]])[₀₁₂₃₄₅₆₇₈₉]+/g, (run) => " " + [...run].map((c) => SUBS[c]).join("") + " ")
-      .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, (run) => " indice " + [...run].map((c) => SUBS[c]).join("").replace("-", "moins ") + " ");
+    // Indices Unicode : chimie (H₂O) = chiffres seuls ; maths (x₀, P₁, Nₐ, Vₘ) = « indice ».
+    s = s.replace(SUB_DIGITS_AFTER_CAPITAL, (run) => " " + [...run].map((c) => SUBS[c]).join("") + " ")
+      .replace(SUB_RUN, (run) => {
+        const a = [...run].map((c) => SUBS[c]).join("").replace(/\+/g, " plus ").replace(/-/g, " moins ").replace(/\s+/g, " ").trim();
+        return a.length === 1 || /^\d+$/.test(a) ? " indice " + a + " " : " indice , " + a + " , ";
+      });
 
     // Puissances et indices ecrits en texte brut (a^n, e^(i·x), m_1, P_total).
     s = s.replace(/\^\s*\{\s*2\s*\}|\^\s*2(?![0-9])/g, " au carré ")
