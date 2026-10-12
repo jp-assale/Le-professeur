@@ -107,6 +107,33 @@
     return prenom ? WELCOME_TEXT.replace("Salut !", "Salut " + prenom + " !") : WELCOME_TEXT;
   }
 
+  // Le message d'accueil est sauvegarde avec la discussion (aida_chat_state) : apres un
+  // changement de prenom, on le met a jour a l'ecran ET dans la sauvegarde, sinon
+  // « Salut <ancien prenom> ! » reste affiche alors que la voix dit le nouveau prenom.
+  function refreshWelcomeName() {
+    const marker = "Je suis Le Prof JPA, ton assistant pour les devoirs";
+    const text = getWelcomeText();
+    let changed = false;
+    chatLog.forEach((m) => {
+      if (m.cls === "msg-bot" && typeof m.text === "string" && m.text.indexOf(marker) !== -1) {
+        m.text = text;
+        changed = true;
+      }
+    });
+    chatEl.querySelectorAll(".msg-bot").forEach((div) => {
+      const content = div.querySelector(".msg-content");
+      if (!content || content.textContent.indexOf(marker) === -1) return;
+      renderBotContent(content, text);
+      const oldBtn = div.querySelector(".msg-speak-btn");
+      if (oldBtn) {
+        const tmp = document.createElement("div");
+        addSpeakButton(tmp, text); // le bouton « Ecouter » doit lire le nouveau texte
+        oldBtn.replaceWith(tmp.firstChild);
+      }
+    });
+    if (changed) persistChatState();
+  }
+
   function openPrenomModal() {
     const overlay = document.createElement("div");
     overlay.className = "modal-overlay";
@@ -142,6 +169,7 @@
         try { localStorage.setItem(PRENOM_KEY, name); } catch (e) {}
         const welcomePrenomEl = document.getElementById("welcome-prenom");
         if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + name + " !";
+        refreshWelcomeName();
       }
       close();
     }
