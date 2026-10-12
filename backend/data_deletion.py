@@ -19,7 +19,7 @@ def delete_device_data(device_id: str, include_subscription: bool = False) -> di
     conn = db.get_connection()
     counts = {}
     try:
-        for table in ("progress_events", "profiles", "reports", "payments", "quota"):
+        for table in ("progress_events", "profiles", "reports", "payments", "quota", "activation_requests"):
             counts[table] = conn.execute(
                 "DELETE FROM %s WHERE device_id = ?" % table, (device_id,)
             ).rowcount

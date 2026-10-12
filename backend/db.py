@@ -79,6 +79,15 @@ CREATE TABLE IF NOT EXISTS reports (
     excerpt TEXT,
     comment TEXT
 );
+CREATE TABLE IF NOT EXISTS activation_requests (
+    request_id TEXT PRIMARY KEY,
+    device_id TEXT NOT NULL,
+    days INTEGER NOT NULL,
+    nom TEXT,
+    contact TEXT,
+    ts TEXT NOT NULL,
+    premium_until TEXT
+);
 CREATE TABLE IF NOT EXISTS _migrations (
     name TEXT PRIMARY KEY
 );

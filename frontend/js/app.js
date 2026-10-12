@@ -1404,49 +1404,117 @@
           <span>✨ Passer en illimité</span>
           <button type="button" id="subscribe-modal-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
         </div>
-        <p style="font-size:0.9rem;color:var(--text);margin:0 0 14px;line-height:1.5;">
-          Le paiement en ligne automatique arrive bientôt ! En attendant, tu
-          peux t'abonner directement par WhatsApp : choisis ta formule
-          ci-dessous, dis-nous que tu veux passer en illimité, on t'indique
-          comment payer (Mobile Money) et on active ton compte en quelques
-          minutes.
+        <p id="subscribe-intro" style="font-size:0.9rem;color:var(--text);margin:0 0 12px;line-height:1.5;">
+          Choisis ta formule, puis touche le bouton vert : WhatsApp s'ouvre avec
+          ton message. Envoie-le, puis envoie la capture de ton paiement Mobile
+          Money : ton accès illimité est activé en quelques minutes.
         </p>
-        <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:14px;">
+        <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:12px;">
           ${plansHtml}
         </div>
+        <div id="subscribe-pay" hidden style="font-size:0.88rem;background:var(--green-light);border-radius:10px;padding:10px 12px;margin-bottom:12px;line-height:1.5;"></div>
+        <input type="tel" id="subscribe-tel" placeholder="Ton numéro WhatsApp (facultatif)" autocomplete="tel"
+          style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
         <a id="subscribe-whatsapp-link" href="#" target="_blank" rel="noopener"
           style="display:block;text-align:center;padding:12px;border-radius:10px;background:#25d366;color:#fff;font-weight:600;text-decoration:none;font-size:0.95rem;">
-          💬 Contacter sur WhatsApp
+          💬 Envoyer ma demande sur WhatsApp
         </a>
+        <p style="font-size:0.78rem;color:var(--text-muted);margin:10px 0 0;text-align:center;">Après ton paiement, envoie la capture dans la discussion.</p>
       </div>`;
     document.body.appendChild(overlay);
     overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
     overlay.querySelector("#subscribe-modal-close").addEventListener("click", () => overlay.remove());
 
     const waLink = overlay.querySelector("#subscribe-whatsapp-link");
+    const telInput = overlay.querySelector("#subscribe-tel");
+    let waNumber = SUBSCRIBE_WHATSAPP_NUMBER;
+    try { telInput.value = localStorage.getItem("aida_sub_tel") || ""; } catch (e) {}
+
+    // Reference unique de la demande : stable pour une meme formule pendant 24 h,
+    // pour que renvoyer le message ne puisse jamais activer l'abonnement deux fois.
+    function requestRef(planId) {
+      const key = "aida_sub_k_" + planId;
+      try {
+        const saved = JSON.parse(localStorage.getItem(key) || "null");
+        if (saved && saved.k && Date.now() - saved.t < 24 * 3600 * 1000) return saved.k;
+      } catch (e) {}
+      const bytes = new Uint8Array(9);
+      (window.crypto || { getRandomValues: (a) => a.forEach((_, i) => { a[i] = Math.floor(Math.random() * 256); }) }).getRandomValues(bytes);
+      const k = "r" + [...bytes].map((b) => b.toString(36).padStart(2, "0")).join("").slice(0, 15);
+      try { localStorage.setItem(key, JSON.stringify({ k, t: Date.now() })); } catch (e) {}
+      return k;
+    }
+    function b64urlJson(obj) {
+      const bytes = new TextEncoder().encode(JSON.stringify(obj));
+      let bin = "";
+      bytes.forEach((b) => { bin += String.fromCharCode(b); });
+      return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    }
+
     function updateWaLink() {
       const checked = overlay.querySelector('input[name="sub-plan"]:checked');
-      const label = checked ? checked.dataset.label : SUBSCRIBE_PLANS[0].label;
-      const price = checked ? checked.dataset.price : SUBSCRIBE_PLANS[0].price;
-      const days = checked ? checked.dataset.days : SUBSCRIBE_PLANS[0].days;
+      const plan = SUBSCRIBE_PLANS.find((p) => checked && p.id === checked.value) || SUBSCRIBE_PLANS[0];
       const prenom = getStoredPrenom();
-      // Lien qui ouvre la page admin avec le code et la duree deja remplis
-      // (l'admin n'a plus qu'a verifier le paiement et cliquer Activer).
-      const adminUrl = SHARE_URL + "/admin.html?device=" + encodeURIComponent(DEVICE_ID) +
-        "&days=" + days + (prenom ? "&nom=" + encodeURIComponent(prenom) : "");
+      const tel = telInput.value.trim();
+      // Lien de validation (comme dans JPA BRVM) : l'admin le touche sur son telephone,
+      // la page admin s'ouvre avec la demande deja remplie et UN bouton pour valider.
+      // Le lien seul n'active rien : seul l'admin (jeton) peut valider.
+      const link = SHARE_URL + "/admin.html#demande-" + b64urlJson({
+        k: requestRef(plan.id), d: DEVICE_ID, j: plan.days, n: prenom || "", t: tel, p: plan.label, m: plan.price,
+      });
       const message =
-        "Bonjour ! Je voudrais m'abonner à l'illimité sur JPA Assistant Scolaire.\n" +
-        (prenom ? "Je m'appelle " + prenom + ".\n" : "") +
-        "Formule choisie : " + label + " (" + Number(price).toLocaleString("fr-FR") + " FCFA)\n" +
-        "Mon code appareil : " + DEVICE_ID + "\n" +
-        "(Je t'envoie la capture de mon paiement juste après.)\n\n" +
-        "Lien d'activation (réservé à l'admin) : " + adminUrl;
-      waLink.href = "https://wa.me/" + SUBSCRIBE_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+        "Bonjour ! Je veux passer en illimité sur JPA Assistant Scolaire.\n" +
+        (prenom ? "Prénom : " + prenom + "\n" : "") +
+        "Formule : " + plan.label + " (" + plan.price.toLocaleString("fr-FR") + " FCFA)\n" +
+        "Je t'envoie la capture de mon paiement.\n\n" +
+        "Lien de validation (réservé à l'admin) :\n" + link;
+      waLink.href = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(message);
     }
     overlay.querySelectorAll('input[name="sub-plan"]').forEach((input) => {
       input.addEventListener("change", updateWaLink);
     });
+    telInput.addEventListener("input", () => {
+      try { localStorage.setItem("aida_sub_tel", telInput.value.trim()); } catch (e) {}
+      updateWaLink();
+    });
+    waLink.addEventListener("click", () => startActivationWatch());
     updateWaLink();
+
+    // Numero WhatsApp et moyens de paiement : fournis par le serveur (reglables sans
+    // publier une nouvelle version de l'appli), avec repli sur les valeurs integrees.
+    fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
+      if (info.whatsapp) { waNumber = info.whatsapp; updateWaLink(); }
+      if (info.methods && info.methods.length) {
+        const pay = overlay.querySelector("#subscribe-pay");
+        pay.innerHTML = "<strong>1. Paie par Mobile Money</strong><br>" +
+          info.methods.map((m) => escapeHtml(m.label) + " : <strong>" + escapeHtml(m.number) + "</strong>").join("<br>") +
+          (info.beneficiary ? "<br>Au nom de : " + escapeHtml(info.beneficiary) : "") +
+          "<br><strong>2. Touche le bouton vert</strong> et envoie la capture.";
+        pay.hidden = false;
+      }
+    }).catch(() => {});
+  }
+
+  // Apres l'envoi du message, verifie regulierement si l'admin a active l'abonnement
+  // (toutes les 20 s pendant 15 min) et previent l'eleve des que c'est fait.
+  let activationWatch = null;
+  function startActivationWatch() {
+    if (activationWatch) return;
+    const started = Date.now();
+    activationWatch = setInterval(async () => {
+      if (Date.now() - started > 15 * 60 * 1000) { clearInterval(activationWatch); activationWatch = null; return; }
+      try {
+        const res = await fetch(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)));
+        const data = await res.json();
+        if (data.premium) {
+          clearInterval(activationWatch); activationWatch = null;
+          isPremium = true;
+          setQuota(data.remaining, data.limit);
+          document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
+          addMessage("✨ Ton accès illimité est activé ! Merci, et bon courage pour tes révisions.", "msg-bot");
+        }
+      } catch (e) { /* hors-ligne : on reessaie au prochain tour */ }
+    }, 20000);
   }
 
   upgradeLink.addEventListener("click", async () => {

@@ -76,10 +76,46 @@
     background: #25d366; color: #fff; border: none; border-radius: 6px;
     padding: 5px 10px; font-size: 0.75rem; text-decoration: none; white-space: nowrap;
   }
+  /* Validation rapide (lien WhatsApp) */
+  .quick {
+    border: 2px solid var(--green); border-radius: 16px; padding: 16px; margin-bottom: 22px;
+    background: var(--surface); box-shadow: 0 8px 22px rgba(8, 84, 63, 0.14);
+  }
+  .quick h2 { font-size: 1.1rem; margin: 0 0 6px; }
+  .quick-who { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+  .quick-details { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0 0 12px; font-size: 0.9rem; }
+  .quick-details dt { color: var(--text-muted); }
+  .quick-details dd { margin: 0; font-weight: 600; word-break: break-all; }
+  .quick-warn { font-size: 0.85rem; color: #8a6d1a; background: #fffaf0; border: 1px solid #e8c468; border-radius: 10px; padding: 8px 10px; margin: 0 0 12px; }
+  .admin .quick-ok { width: 100%; padding: 16px; font-size: 1.05rem; font-weight: 700; border-radius: 14px; }
+  .admin .quick-no { width: 100%; margin-top: 8px; background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+  .quick-wa {
+    display: block; text-align: center; margin-top: 12px; padding: 14px; border-radius: 14px;
+    background: #25d366; color: #fff; font-weight: 700; text-decoration: none; font-size: 1rem;
+  }
+  .quick.done { border-color: #25d366; }
+  .quick[hidden], .quick [hidden] { display: none !important; }
 </style>
 </head>
 <body>
 <div class="admin">
+  <!-- Validation rapide d'un abonnement : s'affiche quand on ouvre le lien de validation
+       reçu par WhatsApp (admin.html#demande-...). Un seul bouton. -->
+  <section class="quick" id="quick" hidden>
+    <h2>💳 Demande d'abonnement</h2>
+    <div class="quick-who" id="quick-who"></div>
+    <dl class="quick-details" id="quick-details"></dl>
+    <div class="admin-field" id="quick-token-wrap" hidden>
+      <label for="quick-token">Jeton admin (une seule fois : il sera mémorisé sur ce téléphone)</label>
+      <input type="password" id="quick-token" placeholder="Colle ton ADMIN_TOKEN" autocomplete="off">
+    </div>
+    <p class="quick-warn">Vérifie d'abord la capture du paiement dans WhatsApp, puis valide.</p>
+    <button type="button" class="quick-ok" id="quick-ok">✅ Oui, j'ai reçu le paiement</button>
+    <button type="button" class="quick-no" id="quick-no">Pas encore reçu</button>
+    <div class="admin-msg" id="quick-msg"></div>
+    <a class="quick-wa" id="quick-wa" href="#" target="_blank" rel="noopener" hidden>💬 Répondre à l'élève sur WhatsApp</a>
+  </section>
+
   <p><a href="index.html">← Retour à l'appli</a></p>
   <h1>Administration — Bibliothèque de sujets PDF</h1>
   <p style="font-size:0.82rem;color:var(--text-muted)">
@@ -538,6 +574,104 @@
       " : vérifie la capture de paiement, puis clique « Activer l'illimité ».";
     premiumMsg.className = "admin-msg ok";
     document.getElementById("premium-activate-btn").scrollIntoView({ block: "center" });
+  })();
+
+  // --- Validation rapide : lien de validation recu par WhatsApp (#demande-...) ---
+  // L'eleve (appli) envoie un message contenant ce lien ; l'admin le touche sur son
+  // telephone, verifie la capture de paiement, et un seul bouton active l'acces.
+  // Le lien seul n'active RIEN : il faut le jeton admin (memorise sur ce telephone).
+  (function quickValidation() {
+    const hash = location.hash || "";
+    if (!hash.startsWith("#demande-")) return;
+    const card = document.getElementById("quick");
+    const who = document.getElementById("quick-who");
+    const details = document.getElementById("quick-details");
+    const tokenWrap = document.getElementById("quick-token-wrap");
+    const tokenField = document.getElementById("quick-token");
+    const okBtn = document.getElementById("quick-ok");
+    const noBtn = document.getElementById("quick-no");
+    const qMsg = document.getElementById("quick-msg");
+    const waBtn = document.getElementById("quick-wa");
+    card.hidden = false;
+
+    let req;
+    try {
+      const b64 = hash.slice("#demande-".length).replace(/-/g, "+").replace(/_/g, "/");
+      const bin = atob(b64 + "===".slice((b64.length + 3) % 4));
+      req = JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0))));
+    } catch (e) { req = null; }
+    if (!req || !/^[A-Za-z0-9_-]{8,40}$/.test(req.k || "") || !/^[A-Za-z0-9_.-]{6,120}$/.test(req.d || "") || !(Number(req.j) >= 1)) {
+      who.textContent = "Lien de validation incomplet";
+      qMsg.textContent = "Demande à l'élève de renvoyer son message depuis l'appli.";
+      qMsg.className = "admin-msg err";
+      okBtn.hidden = noBtn.hidden = true;
+      document.querySelector(".quick-warn").hidden = true;
+      return;
+    }
+    const nom = (req.n || "").trim();
+    who.textContent = (nom || "Un élève") + " demande l'accès illimité";
+    [["Formule", (req.p || "") + " (" + req.j + " jours)"],
+     ["Montant", req.m ? Number(req.m).toLocaleString("fr-FR") + " FCFA" : "—"],
+     ["Téléphone", req.t || "(pas donné : réponds dans la discussion)"],
+     ["Code appareil", req.d]].forEach(([k, v]) => {
+      const dt = document.createElement("dt"); dt.textContent = k;
+      const dd = document.createElement("dd"); dd.textContent = v;
+      details.append(dt, dd);
+    });
+    if (!localStorage.getItem("admin_token")) tokenWrap.hidden = false;
+
+    function fmtDate(iso) { const [y, m, d] = iso.split("-"); return d + "/" + m + "/" + y; }
+    function waUrl(text) {
+      let digits = String(req.t || "").replace(/\D/g, "");
+      if (digits.length === 8) digits = "223" + digits;       // numero local malien sans indicatif
+      return "https://wa.me/" + (digits.length >= 10 ? digits : "") + "?text=" + encodeURIComponent(text);
+    }
+    function showWa(text) { waBtn.href = waUrl(text); waBtn.hidden = false; }
+
+    okBtn.addEventListener("click", async () => {
+      if (tokenField.value.trim()) {
+        localStorage.setItem("admin_token", tokenField.value.trim());
+        tokenInput.value = tokenField.value.trim();
+      }
+      const token = localStorage.getItem("admin_token");
+      if (!token) { qMsg.textContent = "Colle d'abord le jeton admin."; qMsg.className = "admin-msg err"; tokenWrap.hidden = false; return; }
+      okBtn.disabled = true;
+      qMsg.textContent = "Activation en cours…"; qMsg.className = "admin-msg";
+      try {
+        const res = await fetch("/api/admin/activate-request", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "X-Admin-Token": token },
+          body: JSON.stringify({ k: req.k, device_id: req.d, days: Number(req.j), nom, tel: req.t || "" }),
+        });
+        const data = await res.json();
+        if (res.status === 403) {
+          localStorage.removeItem("admin_token"); tokenInput.value = "";
+          tokenWrap.hidden = false; okBtn.disabled = false;
+          qMsg.textContent = "Jeton admin incorrect : colle-le à nouveau.";
+          qMsg.className = "admin-msg err";
+          return;
+        }
+        if (!res.ok) throw new Error(data.error || ("Erreur " + res.status));
+        card.classList.add("done");
+        okBtn.hidden = noBtn.hidden = true;
+        document.querySelector(".quick-warn").hidden = true;
+        qMsg.textContent = (data.already ? "✅ Déjà activé avec ce lien, jusqu'au " : "✅ Accès illimité activé jusqu'au ") + fmtDate(data.premium_until) + ".";
+        qMsg.className = "admin-msg ok";
+        showWa("Bonjour" + (nom ? " " + nom : "") + " ! Ton paiement est bien reçu ✅ Ton accès illimité est activé jusqu'au " +
+          fmtDate(data.premium_until) + ". Ouvre l'appli JPA Assistant Scolaire : si besoin, ferme-la puis rouvre-la. Bon courage pour tes révisions !");
+        if (typeof loadPremiumList === "function") loadPremiumList();
+      } catch (err) {
+        okBtn.disabled = false;
+        qMsg.textContent = "Échec : " + (err && err.message ? err.message : err);
+        qMsg.className = "admin-msg err";
+      }
+    });
+
+    noBtn.addEventListener("click", () => {
+      qMsg.textContent = "Rien n'a été activé. Réponds à l'élève :";
+      qMsg.className = "admin-msg";
+      showWa("Bonjour" + (nom ? " " + nom : "") + " ! Je n'ai pas encore reçu ton paiement. Peux-tu vérifier et m'envoyer la capture de la transaction ?");
+    });
   })();
 
   loadCurriculum();

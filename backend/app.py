@@ -1038,6 +1038,51 @@ def admin_set_premium():
     return jsonify({"ok": True, "device_id": device_id, "premium": premium, "premium_until": premium_until})
 
 
+@app.route("/api/admin/activate-request", methods=["POST"])
+def admin_activate_request():
+    """Validation en un clic d'une demande d'abonnement (lien de validation recu
+    par WhatsApp, voir admin.html #demande-...). Reserve a l'admin ; une demande
+    (`k`) ne peut activer l'abonnement qu'une seule fois."""
+    denied = _require_admin()
+    if denied:
+        return denied
+    data = request.get_json(silent=True) or {}
+    k = str(data.get("k") or "").strip()
+    device_id = str(data.get("device_id") or "").strip()
+    if not re.fullmatch(r"[A-Za-z0-9_-]{8,40}", k):
+        return jsonify({"error": "reference de demande invalide"}), 400
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{6,120}", device_id):
+        return jsonify({"error": "code appareil invalide"}), 400
+    try:
+        days = int(data.get("days"))
+    except (TypeError, ValueError):
+        return jsonify({"error": "duree invalide"}), 400
+    if not 1 <= days <= 366:
+        return jsonify({"error": "duree hors limites (1 a 366 jours)"}), 400
+    nom = _clean_prenom(data.get("nom"))
+    tel = re.sub(r"[^0-9+ ]", "", str(data.get("tel") or ""))[:20].strip() or None
+    result = subscription.activate_request(k, device_id, days, nom=nom, contact=tel)
+    return jsonify({"ok": True, **result})
+
+
+@app.route("/api/pay-info", methods=["GET"])
+def pay_info():
+    """Infos de paiement affichees dans l'appli (numero WhatsApp, Mobile Money).
+    Modifiables dans les variables d'environnement Render (PAY_*), sans publier
+    une nouvelle version de l'appli."""
+    methods = []
+    for key, label in (("PAY_WAVE", "Wave"), ("PAY_ORANGE", "Orange Money"),
+                       ("PAY_MTN", "MTN MoMo"), ("PAY_MOOV", "Moov Money")):
+        number = (os.environ.get(key) or "").strip()
+        if number:
+            methods.append({"label": label, "number": number})
+    return jsonify({
+        "whatsapp": re.sub(r"\D", "", os.environ.get("PAY_WHATSAPP", "") or "") or None,
+        "beneficiary": (os.environ.get("PAY_BENEFICIARY") or "").strip() or None,
+        "methods": methods,
+    })
+
+
 @app.route("/api/admin/premium/list", methods=["GET"])
 def admin_list_premium():
     denied = _require_admin()
