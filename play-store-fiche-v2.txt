@@ -1,0 +1,54 @@
+=== FICHE PLAY STORE v2 — JPA Assistant Scolaire (à coller dans Play Console) ===
+Écrite pour respecter la politique « Métadonnées » : pas d'émojis, pas de MAJUSCULES, pas de
+superlatifs ni de promesses de résultats, pas d'argument de prix ou de promotion, pas de noms de
+marques tierces, pas de témoignages, pas de répétition de mots-clés. Tout ce qui est décrit existe
+réellement dans l'appli (version 2.13).
+
+--- Nom de l'appli (30 caractères max) — 22 caractères ---
+JPA Assistant Scolaire
+(Pourquoi : c'est exactement le nom affiché sur le téléphone après installation et dans la description ;
+« JPA Academy » ne disait pas ce que fait l'appli et ne correspondait à rien d'autre. Motif du refus Google du
+12/10/2026 : « Description inexacte » — la fiche doit décrire clairement la fonction de base.)
+
+--- Description courte (80 caractères max) ---
+Aide aux devoirs expliquée étape par étape, pour le collège et le lycée
+
+--- Description longue (4000 caractères max) ---
+JPA Assistant Scolaire est une application d'aide aux devoirs : tu poses une question de cours ou d'exercice, et un assistant fondé sur l'intelligence artificielle te l'explique pour comprendre ta leçon, au collège comme au lycée. Il est conçu pour les programmes francophones d'Afrique de l'Ouest : Mali, Sénégal, Côte d'Ivoire, Burkina Faso, Bénin et Guinée.
+
+Tu choisis ton pays, ton niveau et ta matière, puis tu poses ta question. L'assistant, appelé « Le Prof JPA », explique la démarche étape par étape pour que tu comprennes la méthode, au lieu de te donner seulement le résultat.
+
+Ce que tu peux faire
+- Poser une question de cours ou d'exercice, en écrivant, en dictant avec le micro ou en envoyant la photo ou le PDF de ton sujet.
+- Écouter l'explication : le Prof JPA peut la lire à voix haute, y compris les formules et les unités.
+- Suivre des leçons guidées avec résumé, exemple résolu, schémas et petit quiz, pour certains chapitres de mathématiques, de physique-chimie, de SVT, d'histoire-géographie et de philosophie.
+- Demander un schéma simplifié sur un sujet de sciences.
+- Consulter une bibliothèque de sujets d'examen classés par pays, niveau et matière.
+- Faire un quiz après une explication, ou un diagnostic de niveau pour repérer les points à revoir.
+- Partager une explication avec des amis par message.
+
+Matières
+Mathématiques, français, physique-chimie, SVT, histoire-géographie, anglais, philosophie, économie, allemand et espagnol, selon le pays et le niveau.
+
+Utilisation
+Aucun compte n'est nécessaire. Un nombre limité de questions par jour est proposé ; un abonnement permet de poser plus de questions. L'abonnement s'active manuellement après paiement par mobile money.
+
+À savoir
+Les réponses sont générées par une intelligence artificielle et peuvent contenir des erreurs. Compare toujours avec ton cours et ton professeur. Un bouton permet de signaler une réponse incorrecte.
+
+Confidentialité
+Les questions et les fichiers envoyés servent uniquement à produire la réponse. Tu peux demander la suppression de tes données à tout moment. Les détails sont dans la politique de confidentialité de l'appli.
+
+--- Catégorie ---
+Éducation
+
+--- Coordonnées de contact (Play Console → Fiche principale) ---
+E-mail : maintlog.sarl@gmail.com
+Site web : https://le-professeur.onrender.com
+Politique de confidentialité : https://le-professeur.onrender.com/privacy.html
+
+--- Captures d'écran : consignes ---
+- Prendre les captures avec l'appli 2.13 (nouveau design). Pas de texte promotionnel ajouté, pas de cadre
+  « Nouveau ! », pas de prix, pas d'étoiles ni de notes.
+- Aucune capture ne doit montrer le niveau Primaire (retiré).
+- Ne pas montrer de données personnelles réelles (prénom d'élève, code appareil).
