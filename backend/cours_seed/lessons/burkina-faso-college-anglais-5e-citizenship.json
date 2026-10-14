@@ -1,0 +1,74 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-citizenship",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Citizenship",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Citizenship",
+  "intro": {
+    "heading": "Un billet au marché",
+    "body": "Au marché de Ouagadougou, Fatou trouve un billet de 1 000 FCFA par terre. Elle le rend à la vendeuse qui l'a perdu. La vendeuse sourit et dit merci. Fatou est une bonne citoyenne : elle respecte les autres. Aujourd'hui, tu apprends à dire en anglais ce que fait un bon citoyen."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Citizen veut dire citoyen ou citoyenne."
+      },
+      {
+        "icon": "📘",
+        "text": "Avec I, le verbe ne change pas : I respect."
+      },
+      {
+        "icon": "🏫",
+        "text": "Avec he ou she, on ajoute s : she respects."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler d'un bon citoyen en anglais",
+    "explanation": "Un citizen (un citoyen) est une personne qui vit dans un pays et qui a des droits et des devoirs. Pour dire de quel pays tu es citoyen, tu dis : I am a citizen of Burkina Faso (Je suis citoyen ou citoyenne du Burkina Faso). Un bon citoyen respecte les règles : the rules (les règles) et the law (la loi). Il aide aussi les autres : help (aider), et il garde son école propre : keep the school clean (garder l'école propre). Avec I, le verbe ne change pas : I respect the rules (Je respecte les règles). Avec he (il) ou she (elle), on ajoute un s au verbe : She respects the rules (Elle respecte les règles). Mes droits se disent my rights et mes devoirs se disent my duties.",
+    "highlight": "I respect the rules. (Je respecte les règles.) She respects the rules. (Elle respecte les règles.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Awa respecte ses camarades de classe. »",
+    "steps": [
+      "Le sujet est Awa, une fille : avec Awa, le verbe se conjugue comme avec she (elle).",
+      "Le verbe respecter se dit respect en anglais.",
+      "Comme avec she, on ajoute un s : respects.",
+      "Ses camarades de classe se dit her classmates, car Awa est une fille.",
+      "On met les mots dans l'ordre : sujet, verbe, complément.",
+      "Réponse : Awa respects her classmates. (Awa respecte ses camarades de classe.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Awa is a good citizen. She ___ her teacher. (Awa est une bonne citoyenne. Elle ___ son professeur.)",
+    "reponse_calculee": "respects",
+    "choices": [
+      {
+        "label": "respects",
+        "correct": true
+      },
+      {
+        "label": "respect",
+        "correct": false
+      },
+      {
+        "label": "respecting",
+        "correct": false
+      },
+      {
+        "label": "to respect",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec she, on ajoute un s au verbe : She respects her teacher. (Elle respecte son professeur.)",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Avec he ou she, le verbe prend un s : She respects her teacher. (Elle respecte son professeur.) Respect sans s s'utilise avec I : I respect my teacher."
+  },
+  "verification": "ok2"
+}

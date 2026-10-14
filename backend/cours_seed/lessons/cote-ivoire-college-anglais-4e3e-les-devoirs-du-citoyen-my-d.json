@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-les-devoirs-du-citoyen-my-d",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Les devoirs du citoyen (My duties)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Les devoirs du citoyen (My duties)",
+  "intro": {
+    "heading": "Un bon citoyen à l'école et dans le quartier",
+    "body": "Aya et Kofi sont élèves à Abidjan. Un matin, leur professeur leur demande : « What are your duties as citizens? » (Quels sont vos devoirs de citoyens ?). Chacun doit répondre en anglais et expliquer pourquoi ce devoir est important. Dans cette leçon, tu apprends les mots de la citoyenneté, à dire un devoir, à donner une raison, et à bien écouter un message oral."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "Je retiens les mots : citizen, duty, law, vote."
+      },
+      {
+        "icon": "✅",
+        "text": "Je dis un devoir avec must + verbe."
+      },
+      {
+        "icon": "💡",
+        "text": "Je donne une raison avec because."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer un devoir et donner une raison",
+    "explanation": "Un citoyen (citizen) a des devoirs (duties) envers son pays et envers les autres. Voici des mots utiles : the law (la loi), to vote (voter), to pay taxes (payer les impôts), to respect others (respecter les autres), to protect the environment (protéger l'environnement). Pour exprimer un devoir, on utilise must (devoir) suivi du verbe à l'infinitif sans to : « We must pay taxes. » (Nous devons payer les impôts.) On peut aussi dire « I have to go to school. » (Je dois aller à l'école.) Pour donner une raison, on utilise because (parce que) : « I must obey the law because it protects everybody. » (Je dois obéir à la loi parce qu'elle protège tout le monde.) À l'oral, écoute d'abord l'idée générale : de quoi parle le message ? Repère ensuite les mots-clés, les mots les plus accentués, comme duty, law, vote. Pour l'intonation, la voix descend à la fin d'une phrase affirmative et monte à la fin d'une question qui attend « yes » ou « no ».",
+    "highlight": "I must + verbe + because + raison. Ex : I must vote because my country needs me. (Je dois voter parce que mon pays a besoin de moi.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais avec ces éléments : Kofi / pay taxes / the country needs money. Exprime le devoir de Kofi et donne la raison.",
+    "steps": [
+      "Je cherche le sujet : Kofi, donc je commence par « Kofi ».",
+      "Je choisis le devoir : must (doit) + pay taxes (payer des impôts), sans to après must.",
+      "Je mets le verbe à l'infinitif sans s : « must pay », même avec Kofi.",
+      "J'ajoute because (parce que) pour introduire la raison.",
+      "J'écris la raison : the country needs money (le pays a besoin d'argent).",
+      "Réponse : Kofi must pay taxes because the country needs money. (Kofi doit payer des impôts parce que le pays a besoin d'argent.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime correctement un devoir et sa raison ?",
+    "reponse_calculee": "I must respect the law because it protects everybody.",
+    "choices": [
+      {
+        "label": "I must respect the law because it protects everybody.",
+        "correct": true
+      },
+      {
+        "label": "I must to respect the law because it protects everybody.",
+        "correct": false
+      },
+      {
+        "label": "I must respects the law because it protects everybody.",
+        "correct": false
+      },
+      {
+        "label": "I must respecting the law because it protects everybody.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après must, on met le verbe à l'infinitif sans to et sans s : « I must respect ». Because introduit la raison. La phrase signifie : Je dois respecter la loi parce qu'elle protège tout le monde.",
+    "feedback_wrong": "Après must, le verbe reste à l'infinitif, sans to, sans s et sans -ing. La bonne phrase est : « I must respect the law because it protects everybody. » (Je dois respecter la loi parce qu'elle protège tout le monde.)"
+  },
+  "verification": "ok2"
+}

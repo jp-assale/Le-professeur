@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-texte-narratif",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le texte narratif",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le texte narratif",
+  "intro": {
+    "heading": "Une histoire au retour du marché",
+    "body": "Hier, ta camarade Adjoua t'a raconté comment elle a perdu son panier de mangues en rentrant du marché, puis comment un voisin l'a aidée à le retrouver. Tu as suivi l'histoire du début à la fin sans te perdre. C'est ce qu'on appelle un texte narratif : un texte qui raconte des événements vécus par des personnages. Dans cette leçon, tu découvres comment il est construit et comment le reconnaître."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Un récit raconte des actions qui s'enchaînent dans le temps."
+      },
+      {
+        "icon": "🧩",
+        "text": "Il suit cinq étapes : situation initiale, déclencheur, péripéties, dénouement, situation finale."
+      },
+      {
+        "icon": "⏳",
+        "text": "Passé simple et imparfait, connecteurs de temps et comparaisons t'aident à l'analyser."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et analyser un texte narratif",
+    "explanation": "Un texte narratif raconte une histoire : des personnages vivent des événements dans un lieu et à un moment donnés. Les outils grammaticaux sont les temps du passé : le passé simple fait avancer l'action (« Il courut »), tandis que l'imparfait décrit le décor ou une action qui dure (« Il pleuvait »). Les indices lexicaux sont les mots qui marquent le temps (« soudain », « puis », « enfin ») et les verbes d'action. Les figures de style rendent le récit plus vivant : la comparaison relie deux éléments avec un mot comme « comme » ou « aussi... que » (« rapide comme une gazelle »). La structure du texte comporte cinq étapes : la situation initiale, l'élément déclencheur, les péripéties, le dénouement et la situation finale. Un récit simple raconte une seule suite d'actions dans l'ordre où elles se passent. Un récit complexe est plus riche : il peut mêler plusieurs personnages, plusieurs actions qui se passent en même temps, ou un retour en arrière.",
+    "highlight": "Récit = personnages + actions enchaînées + cinq étapes : situation initiale, déclencheur, péripéties, dénouement, situation finale."
+  },
+  "example": {
+    "problem": "Analyse ce court texte : « Kouassi rentrait de l'école. Soudain, un chien aboya derrière lui. Il courut aussi vite qu'une gazelle. Enfin, il arriva chez lui, sain et sauf. »",
+    "steps": [
+      "Relève les verbes : « rentrait » est à l'imparfait et décrit la situation de départ ; « aboya », « courut » et « arriva » sont au passé simple et font avancer l'action.",
+      "Repère les indices de temps : « soudain » annonce un événement imprévu, « enfin » annonce la fin de l'histoire.",
+      "Cherche la figure de style : « aussi vite qu'une gazelle » est une comparaison qui montre la grande vitesse de Kouassi.",
+      "Retrouve la structure : situation initiale (Kouassi rentrait de l'école), élément déclencheur (le chien aboya), péripétie (il courut), dénouement (il arriva chez lui, le danger est écarté), situation finale (Kouassi est sain et sauf).",
+      "Conclus sur le type de récit : c'est un récit simple, car il raconte une seule suite d'actions vécues par Kouassi, dans l'ordre où elles se passent."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un texte narratif, comment s'appelle l'étape où le problème de départ trouve sa solution ?",
+    "reponse_calculee": "Le dénouement",
+    "choices": [
+      {
+        "label": "La situation initiale",
+        "correct": false
+      },
+      {
+        "label": "L'élément déclencheur",
+        "correct": false
+      },
+      {
+        "label": "Les péripéties",
+        "correct": false
+      },
+      {
+        "label": "Le dénouement",
+        "correct": true
+      }
+    ],
+    "feedback_correct": "Bravo ! Le dénouement est l'étape où le problème est résolu et où l'histoire s'achève. Il est suivi de la situation finale.",
+    "feedback_wrong": "La situation initiale présente les personnages et le lieu au début. L'élément déclencheur est l'événement qui lance l'histoire. Les péripéties sont les actions qui compliquent l'histoire. La réponse correcte est le dénouement, l'étape où le problème est résolu."
+  },
+  "verification": "ok2"
+}

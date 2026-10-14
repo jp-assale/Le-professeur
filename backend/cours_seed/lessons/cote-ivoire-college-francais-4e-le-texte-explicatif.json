@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-texte-explicatif",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le texte explicatif",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le texte explicatif",
+  "intro": {
+    "heading": "Pourquoi ma peau devient-elle sèche ?",
+    "body": "Awa vit à Bouaké. Chaque année, en saison sèche, elle remarque que ses lèvres se gercent et que l'air est plein de poussière. Elle demande à son grand frère Koffi : « Pourquoi cela arrive-t-il ? » Koffi lui explique la cause pas à pas, comme on le fait dans un texte explicatif. Aujourd'hui, tu apprends à lire ce type de texte comme un vrai lecteur méthodique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Le texte explicatif fait comprendre un phénomène ou un fait."
+      },
+      {
+        "icon": "🔗",
+        "text": "Il utilise des connecteurs de cause et de conséquence."
+      },
+      {
+        "icon": "🗂️",
+        "text": "Pour le lire : relève les indices, classe-les, interprète-les."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire et comprendre un texte explicatif",
+    "explanation": "Un texte explicatif a pour but de faire comprendre pourquoi ou comment quelque chose se produit. Il peut expliquer un phénomène naturel (la pluie, le vent, la marée) ou un fait socio-culturel (une coutume, une fête, une habitude de vie). Il suit souvent trois temps : une question ou un problème de départ, une explication organisée, puis une courte conclusion. Les outils de la langue sont précis : le présent de vérité générale (« Le vent souffle »), les connecteurs de cause et de conséquence (car, parce que, comme, donc, c'est pourquoi) et des mots de définition (« est un », « désigne »). Le texte contient aussi un champ lexical lié à son thème : dans un texte sur l'harmattan, on peut trouver par exemple sec, poussière, désert, saison. Pour appliquer la lecture méthodique, tu relèves d'abord les indices du texte (titre, mots du champ lexical, connecteurs). Ensuite tu les classes : le sujet expliqué, les causes, les conséquences. Enfin tu les interprètes pour dire ce que le texte veut te faire comprendre.",
+    "highlight": "Texte explicatif = question de départ + causes et conséquences reliées par des connecteurs + présent de vérité générale."
+  },
+  "example": {
+    "problem": "Situation : à l'école de Yamoussoukro, ton professeur te donne ce court texte inventé. Tâche : le lire méthodiquement. Texte : « Pourquoi l'harmattan dessèche-t-il la peau ? L'harmattan est un vent sec qui vient du désert. Il souffle surtout pendant la saison sèche. Comme il contient très peu d'humidité, il dessèche la peau et les lèvres. C'est pourquoi on met souvent du beurre de karité. »",
+    "steps": [
+      "Étape 1 : Repère le sujet expliqué. Le titre-question annonce un phénomène naturel : l'effet de l'harmattan sur la peau.",
+      "Étape 2 : Relève le champ lexical du thème : vent, sec, désert, saison sèche, humidité, dessèche.",
+      "Étape 3 : Relève les outils de la langue. « Est un » donne une définition ; « comme » introduit la cause ; « c'est pourquoi » introduit la conséquence ; les verbes sont au présent de vérité générale.",
+      "Étape 4 : Organise les informations. Cause : le vent contient très peu d'humidité. Conséquence : la peau et les lèvres se dessèchent. Réaction des gens : ils mettent du beurre de karité.",
+      "Étape 5 : Interprète. Le texte veut te faire comprendre que la sécheresse de la peau vient de l'air sec de l'harmattan, et que l'on peut s'en protéger."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le rôle principal d'un texte explicatif ?",
+    "reponse_calculee": "Faire comprendre pourquoi ou comment un phénomène se produit",
+    "choices": [
+      {
+        "label": "Faire comprendre pourquoi ou comment un phénomène se produit",
+        "correct": true
+      },
+      {
+        "label": "Raconter une histoire imaginaire avec des personnages",
+        "correct": false
+      },
+      {
+        "label": "Convaincre le lecteur d'adopter une opinion",
+        "correct": false
+      },
+      {
+        "label": "Donner des ordres pour réaliser une tâche étape par étape",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Un texte explicatif sert à faire comprendre pourquoi ou comment un phénomène naturel ou un fait socio-culturel se produit, grâce à des causes et des conséquences reliées par des connecteurs.",
+    "feedback_wrong": "Non. Raconter une histoire relève du récit, convaincre relève du texte argumentatif et donner des ordres relève du texte injonctif. Le texte explicatif, lui, fait comprendre pourquoi ou comment un phénomène naturel ou un fait socio-culturel se produit."
+  },
+  "verification": "ok2"
+}

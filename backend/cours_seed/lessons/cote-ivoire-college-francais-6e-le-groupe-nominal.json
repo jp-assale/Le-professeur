@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-groupe-nominal",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le Groupe Nominal",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le Groupe Nominal",
+  "intro": {
+    "heading": "Au marché avec Aya",
+    "body": "Aya accompagne sa mère au marché. Elle dit : « Maman, je voudrais ces mangues très mûres. » Sa mère répond : « Prends plutôt les mangues du vendeur qui est près du hangar, elles sont plus sucrées. » Dans ces phrases, certains groupes de mots tournent autour d'un nom : ce sont des groupes nominaux. Voyons comment ils se construisent."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧱",
+        "text": "Le groupe nominal se construit autour d'un nom noyau."
+      },
+      {
+        "icon": "🔎",
+        "text": "Les expansions précisent le nom : adjectif, complément, relative."
+      },
+      {
+        "icon": "📏",
+        "text": "L'adjectif a trois degrés : positif, comparatif, superlatif."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les constituants et les expansions du groupe nominal",
+    "explanation": "Le groupe nominal (GN) est un groupe de mots dont le noyau est un nom. Il est formé d'un déterminant et d'un nom noyau, auxquels s'ajoutent parfois des expansions. Les déterminants sont les articles (le, la, un, des), les possessifs (mon, ta, leurs), les démonstratifs (ce, cette, ces) et les numéraux (deux, trois). Les expansions du nom donnent des précisions : l'adjectif épithète (une robe bleue), le complément du nom (le cahier d'Awa) et la proposition relative (le vendeur qui est près du hangar). L'adjectif peut s'employer à trois degrés. Le positif exprime simplement la qualité : grand. Le comparatif compare : plus grand que (supériorité), aussi grand que (égalité), moins grand que (infériorité). Le superlatif exprime le plus haut degré : le plus grand (relatif) ou très grand (absolu).",
+    "highlight": "GN = déterminant + nom noyau + expansion(s) éventuelle(s)"
+  },
+  "example": {
+    "problem": "Analyse le groupe nominal « ces mangues très mûres » dans la phrase : « Koffi achète ces mangues très mûres. » Puis écris une phrase avec le nom « mangues » dont l'adjectif est au comparatif de supériorité.",
+    "steps": [
+      "Repère le nom noyau : c'est « mangues », le mot autour duquel le groupe se construit.",
+      "Repère le déterminant : « ces » est un déterminant démonstratif, placé avant le nom.",
+      "Repère l'expansion : « très mûres » est un adjectif épithète qui précise le nom « mangues ».",
+      "Identifie le degré : « très mûres » exprime un superlatif absolu, sans comparaison avec autre chose.",
+      "Produis le comparatif de supériorité : « Ces mangues sont plus mûres que ces bananes. »",
+      "Conclusion : le GN « ces mangues très mûres » se compose d'un déterminant, d'un nom noyau et d'une expansion."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase contient un adjectif au comparatif de supériorité ?",
+    "reponse_calculee": "Ce marché est plus grand que celui du quartier.",
+    "choices": [
+      {
+        "label": "Ce marché est plus grand que celui du quartier.",
+        "correct": true
+      },
+      {
+        "label": "Ce marché est très grand.",
+        "correct": false
+      },
+      {
+        "label": "Ce marché est aussi grand que celui du quartier.",
+        "correct": false
+      },
+      {
+        "label": "Ce marché est grand.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « plus grand que » compare deux éléments et exprime la supériorité : c'est un comparatif de supériorité.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. « très grand » est un superlatif absolu, « aussi grand que » est un comparatif d'égalité et « grand » est un positif. Seule la phrase avec « plus grand que » exprime la supériorité."
+  },
+  "verification": "ok2"
+}

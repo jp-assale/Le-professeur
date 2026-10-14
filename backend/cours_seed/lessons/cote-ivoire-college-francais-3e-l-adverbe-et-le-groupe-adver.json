@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-adverbe-et-le-groupe-adver",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'adverbe et le groupe adverbial",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'adverbe et le groupe adverbial",
+  "intro": {
+    "heading": "Au marché de Bouaké",
+    "body": "Ce matin, Mariam arrive très tôt au marché. Elle marchande poliment, puis elle compare les prix : les mangues sont moins chères ici que là-bas. Dans ces phrases, de petits mots précisent le moment, la manière et l'intensité. Ce sont des adverbes : tu vas apprendre à les reconnaître, à les employer et à bien les choisir."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "L'adverbe est un mot invariable qui apporte une précision."
+      },
+      {
+        "icon": "📊",
+        "text": "Il peut avoir des degrés : comparatif et superlatif."
+      },
+      {
+        "icon": "🧩",
+        "text": "Un adverbe noyau accompagné d'un autre adverbe qui le précise forme un groupe adverbial."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et employer l'adverbe",
+    "explanation": "L'adverbe est un mot invariable : il ne prend ni genre ni nombre. Il précise le sens d'un verbe, d'un adjectif, d'un autre adverbe, ou de toute la phrase. Selon sa forme, on distingue les adverbes simples (bien, vite, hier, très), les adverbes en -ment et les locutions adverbiales composées de plusieurs mots (tout à coup, peu à peu). Les adverbes en -ment sont formés le plus souvent à partir de l'adjectif au féminin (lente devient lentement ; calme devient calmement) ; mais après un adjectif masculin terminé par -i, -é ou -u, on ajoute -ment au masculin (poli devient poliment ; vrai devient vraiment). Le groupe adverbial est formé d'un adverbe noyau accompagné d'un autre adverbe : dans « très calmement », « calmement » est le noyau et « très » le précise. L'adverbe a des degrés : le comparatif de supériorité (plus vite que), d'égalité (aussi vite que) ou d'infériorité (moins vite que), et le superlatif relatif (le plus vite, le moins vite) ou absolu (très vite). Attention, « bien » devient « mieux » au comparatif de supériorité. Côté fonction, l'adverbe est souvent complément circonstanciel (de temps, de lieu, de manière) ; il peut aussi préciser un adjectif (très grand) ou un adverbe (assez vite). Enfin, choisis l'adverbe qui convient au contexte : hier et demain pour le temps, ici et là-bas pour le lieu, doucement pour la manière, beaucoup pour la quantité.",
+    "highlight": "L'adverbe est invariable ; il précise un verbe, un adjectif ou un autre adverbe, et il peut avoir des degrés."
+  },
+  "example": {
+    "problem": "Analyse la phrase « Hier, Aminata a répondu très calmement à son professeur », puis produis une phrase au comparatif de supériorité avec l'adverbe « calmement ».",
+    "steps": [
+      "Repère les adverbes : « hier », « très » et « calmement » sont invariables et apportent des précisions.",
+      "Observe la forme : « hier » est un adverbe simple ; « calmement » est un adverbe en -ment, formé sur l'adjectif calme.",
+      "Repère le groupe adverbial : « très calmement » est formé du noyau « calmement » et de l'adverbe « très ».",
+      "Donne les fonctions : « hier » est complément circonstanciel de temps ; « très calmement » est complément circonstanciel de manière, et « très » précise l'adverbe « calmement ».",
+      "Identifie le degré : « très calmement » exprime un superlatif absolu.",
+      "Produis la phrase demandée : « Aminata répond plus calmement que Koffi. » C'est un comparatif de supériorité."
+    ]
+  },
+  "quiz": {
+    "question": "Dans quelle phrase l'adverbe est-il au comparatif d'égalité ?",
+    "reponse_calculee": "Awa chante aussi bien que Fanta.",
+    "choices": [
+      {
+        "label": "Awa chante aussi bien que Fanta.",
+        "correct": true
+      },
+      {
+        "label": "Awa chante mieux que Fanta.",
+        "correct": false
+      },
+      {
+        "label": "Awa chante moins bien que Fanta.",
+        "correct": false
+      },
+      {
+        "label": "Awa chante le mieux de la classe.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « aussi bien que » exprime une égalité entre Awa et Fanta : c'est un comparatif d'égalité.",
+    "feedback_wrong": "La bonne réponse est « Awa chante aussi bien que Fanta. » : « aussi… que » marque l'égalité. « mieux que » est un comparatif de supériorité, « moins bien que » un comparatif d'infériorité, et « le mieux » un superlatif relatif."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-droits-et-devoirs-de-la-fem",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Droits et devoirs de la femme (Women's rights and duties)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Droits et devoirs de la femme (Women's rights and duties)",
+  "intro": {
+    "heading": "Un débat au club d'anglais",
+    "body": "Au collège, le club d'anglais prépare un petit débat sur la femme au travail. Awa dit que sa mère travaille autant que son père, et Koffi veut comparer leurs rôles à la maison et au marché. Pour réussir cette situation d'évaluation, tu dois parler des droits et des devoirs de la femme et faire des comparaisons simples en anglais. Tu vas apprendre les mots utiles, les structures de comparaison et la bonne intonation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "Je connais les mots des droits et devoirs de la femme."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Je compare avec as ... as, more ... than et -er than."
+      },
+      {
+        "icon": "🎤",
+        "text": "La voix descend en fin d'affirmation et monte pour oui/non."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les mots des droits et devoirs et la comparaison",
+    "explanation": "Voici des mots utiles : a right (un droit), a duty (un devoir), equal (égal), to vote (voter), to go to school (aller à l'école), to work (travailler), to respect the law (respecter la loi). Exemple : Women have the right to go to school. (Les femmes ont le droit d'aller à l'école.) Pour comparer, avec un adjectif court, on ajoute -er puis than : strong, stronger than (fort, plus fort que). Avec un adjectif long, on utilise more ... than : more important than (plus important que). Pour dire que deux choses sont égales, on utilise as + adjectif + as : as tall as (aussi grand que). Pour dire « pas aussi ... que », on utilise not as ... as. Attention à good : better than (meilleur que). Côté intonation, la voix descend à la fin d'une affirmation : Women have the right to vote. Elle monte à la fin d'une question à réponse oui ou non : Do women have the right to vote?",
+    "highlight": "as + adjectif + as : Education is as important for girls as for boys. (L'éducation est aussi importante pour les filles que pour les garçons.)"
+  },
+  "example": {
+    "problem": "Mariam et Issouf ont le même salaire : 80 000 FCFA par mois. Complète la phrase avec as ... as : Mariam's salary is ___ high ___ Issouf's salary.",
+    "steps": [
+      "Je lis la situation : les deux salaires sont égaux, donc je ne dis pas que l'un est plus grand que l'autre.",
+      "Pour exprimer l'égalité, j'utilise la structure as + adjectif + as.",
+      "L'adjectif est high (élevé) et il ne change pas de forme.",
+      "Je place le premier as avant high et le deuxième as après high.",
+      "Phrase complète : Mariam's salary is as high as Issouf's salary. (Le salaire de Mariam est aussi élevé que celui d'Issouf.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Les droits de la femme sont aussi importants que ceux de l'homme » ?",
+    "reponse_calculee": "Women's rights are as important as men's rights.",
+    "choices": [
+      {
+        "label": "Women's rights are as important as men's rights.",
+        "correct": true
+      },
+      {
+        "label": "Women's rights are more important as men's rights.",
+        "correct": false
+      },
+      {
+        "label": "Women's rights are as important than men's rights.",
+        "correct": false
+      },
+      {
+        "label": "Women's rights are importanter than men's rights.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour exprimer l'égalité, on utilise as + adjectif + as : Women's rights are as important as men's rights. (Les droits de la femme sont aussi importants que ceux de l'homme.)",
+    "feedback_wrong": "La bonne réponse est : Women's rights are as important as men's rights. L'égalité se dit avec as ... as. On n'utilise pas more ... as ni as ... than, et important est un adjectif long : on ne dit jamais importanter."
+  },
+  "verification": "ok2"
+}

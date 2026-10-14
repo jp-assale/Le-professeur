@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-la-pronominalisation",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · La pronominalisation",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · La pronominalisation",
+  "intro": {
+    "heading": "Un message qui se répète",
+    "body": "Yao écrit à sa cousine : « Yao a acheté un cahier. Yao a payé le cahier. Yao montre le cahier à Yao. » Sa cousine éclate de rire en lisant ce message lourd et répétitif. Comment Yao peut-il écrire plus clairement, sans répéter les mêmes mots ? Dans cette leçon, tu découvres comment les pronoms remplacent des mots pour rendre un texte fluide."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔁",
+        "text": "Un pronom remplace un mot ou un groupe de mots."
+      },
+      {
+        "icon": "🧩",
+        "text": "Il existe plusieurs sortes de pronoms : personnels, démonstratifs, possessifs, interrogatifs, indéfinis."
+      },
+      {
+        "icon": "✍️",
+        "text": "Le pronom a souvent le même genre et le même nombre que le mot qu'il remplace."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Qu'est-ce que la pronominalisation ?",
+    "explanation": "La pronominalisation consiste à remplacer un nom, un groupe nominal ou une proposition par un pronom, afin d'éviter une répétition. Le mot repris s'appelle l'antécédent : le pronom reprend souvent son genre et son nombre. Les pronoms personnels désignent les personnes (je, tu, il, elle, nous, vous, ils, elles) ou servent de compléments (me, te, le, la, les, lui, leur, en, y). Les pronoms démonstratifs montrent ou désignent (celui, celle, ceux, celles, ceci, cela), et les pronoms possessifs indiquent l'appartenance (le mien, la tienne, les nôtres, les leurs). Les pronoms interrogatifs servent à poser une question (qui, que, quoi, lequel, laquelle). Les pronoms indéfinis désignent de façon imprécise (on, quelqu'un, personne, rien, chacun, tous). Pour pronominaliser, tu repères le mot répété, tu identifies sa fonction dans la phrase (sujet, complément d'objet direct, complément d'objet indirect), puis tu choisis le pronom adapté.",
+    "highlight": "Un pronom remplace un mot ou un groupe de mots déjà connu, pour éviter une répétition."
+  },
+  "example": {
+    "problem": "Réécris ce texte en remplaçant les mots répétés par des pronoms : « Awa a acheté un cahier. Awa a payé le cahier 500 FCFA. Awa montre le cahier à sa mère. »",
+    "steps": [
+      "Repère les répétitions : « Awa » revient trois fois et « le cahier » aussi. On garde la première mention et on remplace les suivantes.",
+      "Dans la deuxième phrase, « Awa » est sujet, féminin singulier : on le remplace par « elle ».",
+      "Toujours dans la deuxième phrase, « le cahier » est complément d'objet direct, masculin singulier : on le remplace par « le », qui devient « l' » devant « a ». On écrit : « Elle l'a payé 500 FCFA. »",
+      "Dans la troisième phrase, « Awa » devient « elle », « le cahier » (COD) devient « le », et « à sa mère » (complément d'objet indirect) devient « lui ».",
+      "Place les pronoms compléments avant le verbe, « le » avant « lui » : « Elle le lui montre. »",
+      "Relis le texte final : « Awa a acheté un cahier. Elle l'a payé 500 FCFA. Elle le lui montre. » Il est clair et sans répétition."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Koffi a oublié son stylo, alors je lui prête le mien. », quelle est la nature du groupe de mots « le mien » ?",
+    "reponse_calculee": "un pronom possessif",
+    "choices": [
+      {
+        "label": "un pronom possessif",
+        "correct": true
+      },
+      {
+        "label": "un pronom démonstratif",
+        "correct": false
+      },
+      {
+        "label": "un pronom indéfini",
+        "correct": false
+      },
+      {
+        "label": "un pronom interrogatif",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Le mien » est un pronom possessif : il remplace « mon stylo » et indique que ce stylo m'appartient.",
+    "feedback_wrong": "« Le mien » indique l'appartenance et remplace le groupe « mon stylo » : c'est un pronom possessif. Un pronom démonstratif désigne (celui, celle), un pronom indéfini est imprécis (quelqu'un, rien) et un pronom interrogatif pose une question (qui, lequel)."
+  },
+  "verification": "ok2"
+}

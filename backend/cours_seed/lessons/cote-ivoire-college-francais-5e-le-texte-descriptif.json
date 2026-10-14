@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-texte-descriptif",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le texte descriptif",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le texte descriptif",
+  "intro": {
+    "heading": "Une lettre pour un correspondant",
+    "body": "Koffi, élève de 5e à Abidjan, écrit à un correspondant d'un autre pays. Il veut lui faire découvrir le marché de son quartier, avec ses couleurs, ses odeurs et ses bruits. Mais comment écrire pour que son ami voie vraiment la scène, sans être sur place ? Dans cette leçon, tu apprends à reconnaître et à analyser un texte descriptif, puis à le lire avec méthode."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👀",
+        "text": "Un texte descriptif fait voir un lieu, un objet ou une personne."
+      },
+      {
+        "icon": "🧩",
+        "text": "On relève verbes, adjectifs, champs lexicaux, comparaisons et ordre de la description."
+      },
+      {
+        "icon": "🔍",
+        "text": "Lecture méthodique : observer, relever, interpréter, puis conclure."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et analyser une description",
+    "explanation": "Le type de texte : un texte descriptif présente un lieu, une personne ou un objet pour le faire voir au lecteur ; il ne raconte pas une suite d'actions. Les outils grammaticaux : on y trouve surtout le présent ou l'imparfait de description, des verbes d'état (être, sembler, paraître), des adjectifs qualificatifs, des compléments du nom et des indicateurs de lieu (à gauche, derrière, au fond). Les indices lexicaux : ce sont les champs lexicaux (couleurs, formes, odeurs, bruits) et le vocabulaire des cinq sens. Les figures de style : la comparaison relie deux éléments par un outil comme « comme » ; la métaphore les rapproche sans outil ; la personnification donne des actions humaines à une chose. La technique descriptive : l'auteur suit un ordre, par exemple du plan général vers les détails, de gauche à droite ou de près à loin, selon son point de vue. La lecture méthodique : tu observes le texte, tu relèves les procédés, tu expliques l'effet produit, puis tu conclus.",
+    "highlight": "Décrire, c'est faire voir : on relève le type, la grammaire, le lexique, les figures et l'ordre de la description."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : pour le journal de ton collège, tu analyses ce court texte inventé. « Au marché du quartier, les étals s'alignent le long de la grande allée. Les mangues, rouges comme des braises, brillent au soleil. À gauche, Awa vend des tomates fraîches ; à droite, une odeur de poisson braisé flotte dans l'air. » Tâche : fais une lecture méthodique du texte.",
+    "steps": [
+      "Type de texte : c'est une description, car le texte fait voir un lieu sans raconter d'événement principal.",
+      "Outils grammaticaux : les verbes sont au présent (s'alignent, brillent, flotte) ; les adjectifs et compléments (grande, rouges, fraîches, de poisson braisé) précisent ce que l'on voit ; « à gauche » et « à droite » situent les éléments.",
+      "Indices lexicaux : le champ lexical du marché (étals, mangues, tomates, poisson) et les sens sollicités, la vue (rouges, brillent) et l'odorat (une odeur).",
+      "Figure de style : « rouges comme des braises » est une comparaison, car l'outil « comme » rapproche les mangues et les braises.",
+      "Technique descriptive : le texte part de l'ensemble (les étals le long de l'allée), puis passe aux détails (les mangues) et organise la scène de gauche à droite.",
+      "Conclusion : l'auteur fait ressentir un marché vivant, coloré et odorant grâce à la description et à la comparaison."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Les mangues, rouges comme des braises, brillent au soleil », quelle figure de style est employée ?",
+    "reponse_calculee": "La comparaison",
+    "choices": [
+      {
+        "label": "La comparaison",
+        "correct": true
+      },
+      {
+        "label": "La métaphore",
+        "correct": false
+      },
+      {
+        "label": "La personnification",
+        "correct": false
+      },
+      {
+        "label": "L'antithèse",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'expression « rouges comme des braises » rapproche les mangues et les braises grâce à l'outil de comparaison « comme ». C'est bien une comparaison.",
+    "feedback_wrong": "La bonne réponse est la comparaison. Le mot « comme » relie les mangues aux braises : c'est l'outil de la comparaison. Une métaphore n'aurait pas d'outil, une personnification donnerait une action humaine aux mangues, et une antithèse opposerait deux idées contraires."
+  },
+  "verification": "ok"
+}

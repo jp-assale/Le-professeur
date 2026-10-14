@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-maison-foyer-et-vie-en-famil",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Maison, foyer et vie en famille",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Maison, foyer et vie en famille",
+  "intro": {
+    "heading": "Un message pour ton correspondant",
+    "body": "Koffi habite à Abidjan et il écrit à un correspondant allemand. Il veut lui présenter sa famille et sa maison en quelques phrases simples. Pour cela, il doit dire « mon père », « ma mère » ou « ma cuisine » sans se tromper. Toi aussi, tu vas apprendre à le faire en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧",
+        "text": "Présente ta famille avec Das ist… et Das sind…"
+      },
+      {
+        "icon": "🏠",
+        "text": "Chaque nom a un genre : der, die ou das."
+      },
+      {
+        "icon": "✍️",
+        "text": "Mon, ma, mes : mein ou meine selon le nom."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Mein ou meine : dire « mon, ma, mes »",
+    "explanation": "Pour présenter une personne ou une pièce, tu dis Das ist… (C'est…). Pour plusieurs personnes, tu dis Das sind… (Ce sont…). En allemand, chaque nom a un genre : der (masculin), die (féminin) ou das (neutre). Le mot pour « mon, ma, mes » est mein, et il change selon le nom. Avec un nom masculin ou neutre, tu écris mein : mein Vater (mon père), mein Zimmer (ma chambre). Avec un nom féminin ou un pluriel, tu écris meine : meine Mutter (ma mère), meine Eltern (mes parents). Attention : le genre allemand ne suit pas toujours le français. Par exemple, das Haus (la maison) est neutre, donc tu dis mein Haus (ma maison).",
+    "highlight": "der / das → mein ; die / pluriel → meine. Exemple : Das ist meine Küche. (C'est ma cuisine.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec mein ou meine : « Das ist ___ Schwester Awa. » (C'est ma sœur Awa.)",
+    "steps": [
+      "Repère le nom après le trou : Schwester (sœur).",
+      "Cherche son article : die Schwester. Le nom est donc féminin.",
+      "Un nom féminin demande meine (et non mein).",
+      "Place meine devant Schwester, sans changer le reste de la phrase.",
+      "Réponse : Das ist meine Schwester Awa. (C'est ma sœur Awa.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand « C'est ma cuisine. » (die Küche = la cuisine) ?",
+    "reponse_calculee": "Das ist meine Küche.",
+    "choices": [
+      {
+        "label": "Das ist meine Küche.",
+        "correct": true
+      },
+      {
+        "label": "Das ist mein Küche.",
+        "correct": false
+      },
+      {
+        "label": "Das ist meiner Küche.",
+        "correct": false
+      },
+      {
+        "label": "Das ist meinen Küche.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Küche est féminin (die Küche), donc on utilise meine : Das ist meine Küche. (C'est ma cuisine.)",
+    "feedback_wrong": "La bonne réponse est : Das ist meine Küche. Le nom die Küche est féminin, donc on écrit meine. Les formes mein, meiner et meinen ne conviennent pas ici."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-article-de-journal-ii",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'article de journal II",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'article de journal II",
+  "intro": {
+    "heading": "Une nouvelle dans le quartier",
+    "body": "Ce matin, Awa arrive au collège et voit tous ses camarades autour d'un journal mural. Un camion de légumes s'est renversé près du marché, et chacun raconte l'histoire à sa façon. Awa veut écrire un article clair pour informer les élèves sans exagérer. Pour cela, elle doit savoir rapporter un fait divers comme un vrai journaliste."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📰",
+        "text": "Le fait divers raconte un événement de la vie courante, précis et local."
+      },
+      {
+        "icon": "🔎",
+        "text": "Je donne les informations : qui, quoi, où, quand, comment, pourquoi."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Le journaliste reste neutre, avec un ton sobre et clair."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Écrire un article de fait divers",
+    "explanation": "Un article de journal informe le lecteur sur un événement. Le fait divers est un petit événement de la vie courante, souvent local : un accident, un incendie, un vol, une dispute au marché. Le thème du texte est le sujet dont parle l'article, par exemple un accident de la route. Le journaliste donne les informations essentielles en répondant aux questions : qui ? quoi ? où ? quand ? comment ? pourquoi ? Sa position est neutre : il rapporte les faits sans insulter, sans exprimer ses émotions et sans donner son opinion. La tonalité est donc sérieuse et objective, avec des phrases courtes et des verbes au passé composé ou à l'imparfait. Le vocabulaire est lié au sujet : pour un accident, on emploie des mots comme conducteur, blessé, secours, enquête. L'article comporte un titre court et informatif, une courte introduction qui donne l'essentiel, puis un développement des détails.",
+    "highlight": "Fait divers = événement de la vie courante. Je donne les faits (qui, quoi, où, quand, comment, pourquoi), avec un ton neutre et un vocabulaire adapté."
+  },
+  "example": {
+    "problem": "Voici un court article inventé : « Ce matin, un camion de légumes s'est renversé devant le marché du quartier. Le chauffeur, Moussa, a été légèrement blessé. Des commerçantes ont aidé à ramasser les cageots. Une enquête a été ouverte pour connaître la cause. » Analyse-le, puis propose un titre.",
+    "steps": [
+      "Thème : un accident de la route devant un marché.",
+      "Genre : c'est un fait divers, car l'événement est de la vie courante et limité à un lieu.",
+      "Informations : qui ? le chauffeur Moussa ; quoi ? un camion renversé ; où ? devant le marché ; quand ? ce matin ; pourquoi ? la cause est inconnue, une enquête est ouverte.",
+      "Position du journaliste : elle est neutre, car il n'y a ni « je », ni jugement, ni exclamation.",
+      "Vocabulaire du sujet : camion, chauffeur, blessé, enquête. La tonalité est sobre et les verbes de l'article sont au passé composé.",
+      "Titre possible : « Un camion de légumes se renverse devant le marché »."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un article de fait divers, quelle phrase respecte la position neutre du journaliste ?",
+    "reponse_calculee": "Le camion s'est renversé devant le marché ce matin.",
+    "choices": [
+      {
+        "label": "Le camion s'est renversé devant le marché ce matin.",
+        "correct": true
+      },
+      {
+        "label": "Le chauffeur, imprudent, a causé cet horrible accident.",
+        "correct": false
+      },
+      {
+        "label": "Je trouve que tous les conducteurs sont fous.",
+        "correct": false
+      },
+      {
+        "label": "Quelle tristesse, ce pauvre chauffeur !",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase rapporte seulement le fait, avec le lieu et le moment, sans jugement ni émotion : c'est la position neutre du journaliste.",
+    "feedback_wrong": "Relis chaque phrase : cherche les mots qui expriment un jugement (imprudent, horrible, fous), une opinion (« je trouve ») ou un sentiment (exclamation). Le journaliste neutre rapporte seulement les faits."
+  },
+  "verification": "ok2"
+}

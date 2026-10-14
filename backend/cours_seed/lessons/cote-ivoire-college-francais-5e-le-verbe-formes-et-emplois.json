@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-verbe-formes-et-emplois",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le verbe : formes et emplois",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le verbe : formes et emplois",
+  "intro": {
+    "heading": "Un verbe, plusieurs visages",
+    "body": "Au marché de Treichville, Awa raconte sa journée à sa grand-mère : « Hier, j'ai vendu des mangues. Aujourd'hui, je me lève tôt. Demain, j'irai au champ. » Dans ces trois phrases, le verbe change de forme à chaque fois. Dans cette leçon, tu vas comprendre comment et pourquoi il change, pour bien l'employer à l'écrit comme à l'oral."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⏰",
+        "text": "Temps simples : un seul mot ; temps composés : auxiliaire + participe."
+      },
+      {
+        "icon": "🔄",
+        "text": "Voix passive : être + participe passé, agent introduit par « par »."
+      },
+      {
+        "icon": "🧩",
+        "text": "Tournure pronominale avec « se », impersonnelle avec « il » neutre."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formes et les emplois du verbe",
+    "explanation": "Le verbe exprime une action ou un état et change de forme selon la personne et le temps. Aux temps simples (présent, imparfait, futur simple), il s'écrit en un seul mot : « Koffi mange ». Aux temps composés (passé composé, plus-que-parfait), il s'écrit avec l'auxiliaire avoir ou être et un participe passé : « Koffi a mangé ». Les verbes irréguliers changent de radical : aller (je vais, nous allons, ils iront), prendre (je prends, nous prenons, ils prennent), faire (nous faisons, vous faites). Le présent exprime un fait actuel ou une vérité générale, l'imparfait une habitude ou une action en cours dans le passé, le passé composé une action terminée, le futur une action à venir. À la voix passive, le complément d'objet direct (COD) devient sujet, l'auxiliaire être se met au même temps que le verbe de la phrase active et est suivi du participe passé du verbe, et l'ancien sujet devient complément d'agent introduit par « par ». Dans la tournure pronominale, le verbe est accompagné d'un pronom de la même personne que le sujet : « elle se lève » ; aux temps composés, on utilise l'auxiliaire être. Dans la tournure impersonnelle, le sujet « il » ne représente ni une personne ni une chose : « il pleut », « il faut étudier ».",
+    "highlight": "Passif : COD devenu sujet + être au même temps + participe passé + par + agent."
+  },
+  "example": {
+    "problem": "Situation : au marché, tu lis la phrase « Awa a vendu des mangues. » Analyse le verbe, puis transforme la phrase à la voix passive.",
+    "steps": [
+      "Repère le verbe : « a vendu » est au passé composé, un temps composé (auxiliaire avoir + participe passé « vendu »). Il exprime une action terminée.",
+      "Identifie le sujet « Awa » et le complément d'objet direct « des mangues ».",
+      "Fais passer le complément d'objet en position de sujet : « Des mangues ».",
+      "Mets l'auxiliaire être au même temps (passé composé) : « ont été », puis le participe passé accordé avec le nouveau sujet : « vendues ».",
+      "Transforme l'ancien sujet en complément d'agent avec « par » : « par Awa ».",
+      "Écris la phrase complète : « Des mangues ont été vendues par Awa. »"
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases est à la voix passive ?",
+    "reponse_calculee": "Le repas a été préparé par Awa.",
+    "choices": [
+      {
+        "label": "Awa a préparé le repas.",
+        "correct": false
+      },
+      {
+        "label": "Le repas a été préparé par Awa.",
+        "correct": true
+      },
+      {
+        "label": "Awa se prépare pour l'école.",
+        "correct": false
+      },
+      {
+        "label": "Il faut préparer le repas.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Le repas a été préparé par Awa » contient « a été préparé » (être au passé composé + participe passé), et l'agent « Awa » est introduit par « par ». C'est bien la voix passive.",
+    "feedback_wrong": "La bonne réponse est « Le repas a été préparé par Awa. » Elle est au passif : le sujet « le repas » subit l'action, le verbe est « être + participe passé » et l'agent est introduit par « par ». « Awa a préparé le repas » est à la voix active ; « Awa se prépare pour l'école » est une tournure pronominale ; « Il faut préparer le repas » est une tournure impersonnelle."
+  },
+  "verification": "ok2"
+}

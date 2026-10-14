@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-science",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Science",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Science",
+  "intro": {
+    "heading": "Un exposé au club de sciences",
+    "body": "Aya, élève de 2nde à Abidjan, prépare un exposé pour le club de sciences du lycée. Elle doit expliquer pourquoi les scientifiques font des expériences, pourquoi ils portent des gants et pourquoi ils notent des résultats. Pour répondre en anglais, elle a besoin de dire le but d'une action. Tu vas apprendre les structures qui servent à répondre à la question « pour quoi faire ? »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "To + verbe à la forme de base sert à dire le but d'une action."
+      },
+      {
+        "icon": "🧪",
+        "text": "In order to est plus formel, et so as not to exprime le but négatif (pour ne pas)."
+      },
+      {
+        "icon": "🔬",
+        "text": "So that est suivi d'un sujet et d'un verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "L'expression du but en anglais",
+    "explanation": "Pour dire « pour faire quelque chose », on utilise to + verbe à la base, par exemple « to learn » (pour apprendre). In order to a le même sens et s'emploie surtout à l'écrit ou dans un exposé. Pour le but négatif (« pour ne pas »), on dit so as not to + verbe, par exemple « so as not to break » (pour ne pas casser). Après so that, on met un sujet puis un verbe, souvent avec can, could ou will : « so that we can understand » (pour que nous puissions comprendre). Attention : pour dire le but d'une action, on n'emploie pas « for » + verbe à la forme de base (on ne dit pas « for learn »). Après to, in order to et so as not to, le verbe reste toujours à la forme de base, sans -s ni -ing.",
+    "highlight": "sujet + verbe + to / in order to + verbe. Exemple : We do experiments to learn. (Nous faisons des expériences pour apprendre.) Négatif : She wears gloves so as not to touch the product. (Elle porte des gants pour ne pas toucher le produit.) Avec so that : The teacher speaks slowly so that we can understand. (Le professeur parle lentement pour que nous puissions comprendre.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec « in order to » : Kouadio uses a microscope. He wants to see small cells. (Kouadio utilise un microscope. Il veut voir de petites cellules.)",
+    "steps": [
+      "Repère le but dans la 2e phrase : voir de petites cellules, en anglais « see small cells ».",
+      "Garde la première phrase : Kouadio uses a microscope.",
+      "Supprime « He wants to » et garde seulement le verbe du but avec son complément : see small cells.",
+      "Ajoute « in order to » devant le verbe à la forme de base : in order to see small cells.",
+      "Phrase complète : Kouadio uses a microscope in order to see small cells. (Kouadio utilise un microscope pour voir de petites cellules.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase dit correctement : « Awa lit son cahier de sciences pour réviser » ?",
+    "reponse_calculee": "Awa reads her science notebook to revise.",
+    "choices": [
+      {
+        "label": "Awa reads her science notebook to revise.",
+        "correct": true
+      },
+      {
+        "label": "Awa reads her science notebook for revise.",
+        "correct": false
+      },
+      {
+        "label": "Awa reads her science notebook to revising.",
+        "correct": false
+      },
+      {
+        "label": "Awa reads her science notebook for to revise.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour exprimer le but, on met to suivi du verbe à la forme de base : to revise (pour réviser).",
+    "feedback_wrong": "La bonne réponse est : Awa reads her science notebook to revise. (Awa lit son cahier de sciences pour réviser.) Pour dire le but d'une action, on utilise to + verbe à la forme de base : pas de for devant le verbe, et pas de -ing après to."
+  },
+  "verification": "ok2"
+}

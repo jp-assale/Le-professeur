@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-art-and-culture",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Art and culture",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Art and culture",
+  "intro": {
+    "heading": "Au marché des artisans",
+    "body": "Dimanche, Issa accompagne sa tante au marché. Il voit des masques, des tambours et des tissus colorés. Un touriste lui demande : « Do you like art? » (Aimes-tu l'art ?). Dans cette leçon, tu apprends à dire en anglais ce que tu aimes dans l'art et la culture."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎵",
+        "text": "Je retiens des mots : music, dance, painting, mask, drum."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Avec I, je dis : I like music."
+      },
+      {
+        "icon": "✍️",
+        "text": "Avec he ou she, j'ajoute un s : she likes dance."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que tu aimes avec « like »",
+    "explanation": "Pour dire ce que tu aimes, tu utilises le verbe « like » (aimer). Voici des mots utiles : music (la musique), dance (la danse), painting (la peinture), a mask (un masque), a drum (un tambour), a song (une chanson). Avec « I » (je), tu dis : I like music. (J'aime la musique.) Avec « he » (il), « she » (elle) ou un prénom, tu ajoutes un « s » : she likes music. (Elle aime la musique.) En anglais, quand tu parles de ce que tu aimes en général, tu n'utilises pas « the » : on dit « I like dance ». (« The dance » désigne une danse précise.) L'ordre est toujours le même : la personne, puis like ou likes, puis ce que tu aimes.",
+    "highlight": "I like music. (J'aime la musique.) / Aminata likes music. (Aminata aime la musique.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Issa aime la danse. »",
+    "steps": [
+      "Je cherche la personne : c'est Issa, un garçon. Je peux penser à « he » (il).",
+      "Je choisis le verbe : « aimer » se dit « like ».",
+      "Avec Issa (he), j'ajoute un s : « likes ».",
+      "« La danse » se dit « dance ». Je n'écris pas « the », car je parle de la danse en général.",
+      "Je mets dans l'ordre : Issa + likes + dance. Réponse : Issa likes dance. (Issa aime la danse.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : « Awa ___ painting. » (Awa aime la peinture.)",
+    "reponse_calculee": "likes",
+    "choices": [
+      {
+        "label": "likes",
+        "correct": true
+      },
+      {
+        "label": "like",
+        "correct": false
+      },
+      {
+        "label": "liking",
+        "correct": false
+      },
+      {
+        "label": "are like",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Awa est une fille (she), donc on ajoute un s au verbe : Awa likes painting. (Awa aime la peinture.)",
+    "feedback_wrong": "La bonne réponse est « likes ». Avec Awa (she), le verbe like prend un s : Awa likes painting. (Awa aime la peinture.) « Like » seul s'utilise avec I, et les formes « liking » et « are like » ne conviennent pas ici."
+  },
+  "verification": "ok2"
+}

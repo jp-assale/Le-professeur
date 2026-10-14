@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-maison-foyer-et-vie-en-famil",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Maison, foyer et vie en famille",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Maison, foyer et vie en famille",
+  "intro": {
+    "heading": "Un message pour ton correspondant allemand",
+    "body": "Tu viens de recevoir une lettre d'un élève de Hambourg qui veut connaître ta vie à la maison. Ton professeur te demande de lui présenter ta famille et l'endroit où tu habites, à Abidjan ou ailleurs en Côte d'Ivoire. Pour cela, tu dois savoir nommer les membres de ta famille et dire « mon, ma, mes » en allemand. Dans cette leçon, tu apprends les mots et le modèle de phrase pour y arriver."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧",
+        "text": "Je nomme les membres de la famille en allemand."
+      },
+      {
+        "icon": "🏠",
+        "text": "Je dis où j'habite avec wohnen et in."
+      },
+      {
+        "icon": "✏️",
+        "text": "J'emploie mein ou meine selon le genre du mot."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de sa famille : mein et meine",
+    "explanation": "Pour dire « mon, ma, mes », l'allemand utilise mein ou meine. Tu choisis selon le genre du nom. Avec un nom masculin (der) ou neutre (das), tu dis mein : mein Vater (mon père), mein Haus (ma maison). Avec un nom féminin (die) et avec un pluriel, tu dis meine : meine Mutter (ma mère), meine Eltern (mes parents). Voici d'autres mots utiles : der Bruder (le frère), die Schwester (la sœur), das Zimmer (la chambre, la pièce), die Küche (la cuisine). Pour dire où tu habites, tu utilises le verbe wohnen (habiter) : ich wohne (j'habite), er wohnt (il habite), wir wohnen (nous habitons). Le verbe s'accorde avec le sujet, et on dit in Abidjan pour « à Abidjan ».",
+    "highlight": "mein + der/das : mein Bruder (mon frère) ; meine + die/pluriel : meine Schwester (ma sœur)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec mein ou meine, puis traduis-la : « ___ Schwester heißt Awa. »",
+    "steps": [
+      "Repère le nom : Schwester. Son article est die Schwester (la sœur).",
+      "Die indique un nom féminin.",
+      "Pour un nom féminin, on emploie meine, pas mein.",
+      "Le verbe heißen (s'appeler) à la 3e personne du singulier s'écrit heißt.",
+      "Réponse complète : Meine Schwester heißt Awa. (Ma sœur s'appelle Awa.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Mon frère habite à Abidjan » ?",
+    "reponse_calculee": "Mein Bruder wohnt in Abidjan.",
+    "choices": [
+      {
+        "label": "Mein Bruder wohnt in Abidjan.",
+        "correct": true
+      },
+      {
+        "label": "Meine Bruder wohnt in Abidjan.",
+        "correct": false
+      },
+      {
+        "label": "Mein Bruder wohnen in Abidjan.",
+        "correct": false
+      },
+      {
+        "label": "Meine Bruder wohnen in Abidjan.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Der Bruder est masculin, donc on dit mein Bruder. Le sujet est à la 3e personne du singulier, donc le verbe est wohnt : Mein Bruder wohnt in Abidjan. (Mon frère habite à Abidjan.)",
+    "feedback_wrong": "La bonne réponse est : Mein Bruder wohnt in Abidjan. Der Bruder est masculin, donc il faut mein et non meine. Le sujet est au singulier, donc le verbe prend la forme wohnt et non wohnen."
+  },
+  "verification": "ok"
+}

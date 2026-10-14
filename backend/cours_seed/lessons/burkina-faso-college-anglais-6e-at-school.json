@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-at-school",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · At school",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · At school",
+  "intro": {
+    "heading": "Bienvenue dans la classe d'anglais !",
+    "body": "Awa arrive à l'école avec son sac. Dans la salle de classe, son professeur montre un objet et demande en anglais : « What is this? » Awa doit répondre en une phrase courte. Aujourd'hui, tu apprends à nommer les objets de la classe et à dire « Ceci est un... » en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎒",
+        "text": "Je connais des mots de la classe : book, pen, bag."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Je dis : This is a pen. (Ceci est un stylo.)"
+      },
+      {
+        "icon": "✏️",
+        "text": "J'emploie « a » devant un son consonne et « an » devant un son voyelle."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce qu'est un objet : This is a... / This is an...",
+    "explanation": "Pour montrer un objet proche de toi, tu dis « This is... » (Ceci est...). Avant le nom de l'objet, tu mets « a » ou « an », qui veulent dire « un » ou « une ». Tu utilises « a » devant un mot qui commence par un son consonne : a book (un livre), a pen (un stylo), a bag (un sac), a ruler (une règle). Tu utilises « an » devant un mot qui commence par un son voyelle (souvent a, e, i, o, u) : an eraser (une gomme). Pour poser la question, tu dis « What is this? » (Qu'est-ce que c'est ?). Tu peux répondre « It's a book. » (C'est un livre.) ; « It's » est la forme courte de « It is ». Voici d'autres mots utiles : a desk (un bureau d'élève), a notebook (un cahier), a teacher (un professeur), a student (un élève).",
+    "highlight": "This is a pen. / This is an eraser. (Ceci est un stylo. / Ceci est une gomme.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec « a » ou « an » : « This is ___ eraser. » (Ceci est une gomme.)",
+    "steps": [
+      "Repère le nom de l'objet : eraser (une gomme).",
+      "Regarde la première lettre du mot : « e ».",
+      "La lettre « e » est une voyelle, donc le mot commence par un son voyelle.",
+      "Devant un son voyelle, tu choisis « an » et non « a ».",
+      "Réponse : This is an eraser. (Ceci est une gomme.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Ceci est un livre » ?",
+    "reponse_calculee": "This is a book.",
+    "choices": [
+      {
+        "label": "This is a book.",
+        "correct": true
+      },
+      {
+        "label": "This is an book.",
+        "correct": false
+      },
+      {
+        "label": "This a book.",
+        "correct": false
+      },
+      {
+        "label": "This are a book.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « book » commence par la consonne « b », donc on utilise « a » : This is a book. (Ceci est un livre.)",
+    "feedback_wrong": "La bonne phrase est « This is a book. » On a besoin du verbe « is » après « This », et « book » commence par un son consonne, donc on met « a » et non « an »."
+  },
+  "verification": "ok2"
+}

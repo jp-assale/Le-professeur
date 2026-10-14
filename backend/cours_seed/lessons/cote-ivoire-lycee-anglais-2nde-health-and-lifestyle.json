@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-health-and-lifestyle",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Health and lifestyle",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Health and lifestyle",
+  "intro": {
+    "heading": "Le nouveau mode de vie de Kofi",
+    "body": "Kofi, un élève de 2nde à Abidjan, avait mal à la tête presque tous les jours. Il buvait beaucoup de sodas et dormait peu. Son infirmière lui a conseillé de changer ses habitudes. Pour raconter ce changement en anglais, tu as besoin de trois structures proches : used to, be used to et get used to."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕰️",
+        "text": "I used to + verbe : une habitude passée qui n'existe plus."
+      },
+      {
+        "icon": "✅",
+        "text": "I am used to + verbe en -ing : je suis habitué(e)."
+      },
+      {
+        "icon": "🌱",
+        "text": "I get used to + verbe en -ing : je m'habitue progressivement."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Trois structures, trois sens différents",
+    "explanation": "Used to + verbe à l'infinitif sert à parler d'une habitude du passé qui est terminée. Par exemple : I used to have headaches (j'avais souvent des maux de tête). Be used to + verbe en -ing ou nom veut dire « être habitué à » : I am used to walking to school (je suis habitué à aller à l'école à pied). Get used to + verbe en -ing veut dire « s'habituer à » : He is getting used to waking up early (il s'habitue à se réveiller tôt). Attention : après used to (habitude passée), on met le verbe de base, sans -ing. Après be used to et get used to, le mot to est une préposition, donc on met le verbe en -ing.",
+    "highlight": "I used to drink soda. (Avant, je buvais du soda.) / I am used to drinking water. (Je suis habitué à boire de l'eau.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Avant, je buvais beaucoup de soda, mais maintenant je bois de l'eau. »",
+    "steps": [
+      "Avant, je buvais : c'est une habitude du passé qui est terminée, donc on utilise used to + verbe de base.",
+      "Used to est suivi de l'infinitif : used to drink (buvais).",
+      "Beaucoup de soda se dit a lot of soda.",
+      "Mais maintenant se dit but now. Le présent I drink water exprime l'habitude actuelle.",
+      "Réponse : I used to drink a lot of soda, but now I drink water. (Avant, je buvais beaucoup de soda, mais maintenant je bois de l'eau.)"
+    ]
+  },
+  "quiz": {
+    "question": "Aminata est infirmière. Elle travaille à l'hôpital depuis longtemps. Complète : She ___ getting up at 5 a.m. (Elle est habituée à se lever à 5 h.)",
+    "reponse_calculee": "is used to",
+    "choices": [
+      {
+        "label": "is used to",
+        "correct": true
+      },
+      {
+        "label": "used to",
+        "correct": false
+      },
+      {
+        "label": "is use to",
+        "correct": false
+      },
+      {
+        "label": "uses to",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Be used to + verbe en -ing veut dire « être habitué à ». She is used to getting up at 5 a.m. (Elle est habituée à se lever à 5 h.)",
+    "feedback_wrong": "La bonne réponse est is used to. Used to seul est suivi de l'infinitif et parle d'une habitude passée terminée. Les formes is use to et uses to n'existent pas. Pour dire « être habitué à » suivi d'un verbe en -ing, on écrit be used to."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-l-eau-et-la-sante-water-and",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · L'eau et la santé (Water and health)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · L'eau et la santé (Water and health)",
+  "intro": {
+    "heading": "Une eau propre pour toute la famille",
+    "body": "Aya aide sa mère au marché, puis elle rentre à la maison avec des bidons d'eau. Son petit frère Koffi a soif et veut boire tout de suite, mais l'eau n'est pas encore filtrée. Aya lui dit en anglais ce qu'il faut faire pour rester en bonne santé. Dans cette leçon, tu apprends à exprimer l'obligation en anglais pour parler de l'eau et de la santé."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💧",
+        "text": "must + verbe exprime une obligation forte."
+      },
+      {
+        "icon": "📏",
+        "text": "have to / has to exprime aussi une obligation."
+      },
+      {
+        "icon": "🚫",
+        "text": "mustn't exprime l'interdiction, don't have to l'absence d'obligation."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer l'obligation : must et have to",
+    "explanation": "Pour dire qu'on est obligé de faire quelque chose, on utilise « must » ou « have to ». Après « must », on met le verbe à l'infinitif sans « to » et sans « s » : « She must wash her hands. » (Elle doit se laver les mains.) Avec « have to », on écrit « has to » à la 3e personne du singulier : « He has to boil the water. » (Il doit faire bouillir l'eau.) Pour dire qu'une chose est interdite, on utilise « mustn't » : « You mustn't drink dirty water. » (Tu ne dois pas boire d'eau sale.) Attention : « don't have to » ne veut pas dire interdit, mais « pas obligé » : « You don't have to buy water today. » (Tu n'es pas obligé d'acheter de l'eau aujourd'hui.) Pour donner un simple conseil, on utilise « should » : « You should drink water. » (Tu devrais boire de l'eau.)",
+    "highlight": "must / have to + verbe : You must wash your hands. (Tu dois te laver les mains.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Tu dois boire de l'eau propre. »",
+    "steps": [
+      "Le sens est une obligation : on peut utiliser « must » ou « have to ».",
+      "Le sujet est « tu » : on écrit « You ».",
+      "Après « must », le verbe reste à l'infinitif sans « to » : « drink ».",
+      "Le complément est « de l'eau propre » : « clean water ».",
+      "On assemble : sujet + must + verbe + complément.",
+      "Réponse : You must drink clean water. (Tu dois boire de l'eau propre.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime correctement l'obligation « Nous devons faire bouillir l'eau » ?",
+    "reponse_calculee": "We must boil the water.",
+    "choices": [
+      {
+        "label": "We must boil the water.",
+        "correct": true
+      },
+      {
+        "label": "We must to boil the water.",
+        "correct": false
+      },
+      {
+        "label": "We must boiling the water.",
+        "correct": false
+      },
+      {
+        "label": "We musts boil the water.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « must », on met le verbe à l'infinitif sans « to » : « We must boil the water. » (Nous devons faire bouillir l'eau.)",
+    "feedback_wrong": "Après « must », le verbe est à l'infinitif sans « to », et « must » ne prend jamais de « s ». La bonne phrase est : « We must boil the water. » (Nous devons faire bouillir l'eau.)"
+  },
+  "verification": "ok"
+}

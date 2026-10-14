@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-defile-de-mode-fashion-show",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Défilé de mode (Fashion show)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Défilé de mode (Fashion show)",
+  "intro": {
+    "heading": "Un défilé au collège d'Abidjan",
+    "body": "Ton école organise un défilé de mode pour la fête de fin d'année. Ton ami Kofi est mannequin et ta sœur Awa présente les tenues en anglais. On te demande d'écrire un petit texte pour décrire le défilé et inviter les élèves à venir. Dans cette leçon, tu apprends les mots et les phrases utiles pour y arriver."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👗",
+        "text": "Décrire une tenue avec is wearing et un adjectif."
+      },
+      {
+        "icon": "❤️",
+        "text": "Dire ce que tu aimes avec I like et I love."
+      },
+      {
+        "icon": "✍️",
+        "text": "Persuader ou dissuader, puis organiser ton texte avec first, then, finally."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Décrire un défilé et donner son avis",
+    "explanation": "Pour décrire ce qui se passe pendant un défilé, on utilise le présent continu : sujet + am/is/are + verbe en -ing. Exemple : The model is walking (Le mannequin marche). Pour parler d'une tenue, on dit is wearing (porte) : She is wearing a long skirt (Elle porte une jupe longue). L'adjectif se place avant le nom et ne change jamais : a red dress (une robe rouge), two red dresses (deux robes rouges). Pour dire ce que tu aimes, utilise I like ou I love : I love this skirt (J'adore cette jupe). Pour persuader, dis par exemple Come to the fashion show! You will love it! (Viens au défilé de mode ! Tu adoreras !). Pour dissuader, dis par exemple Don't buy it. It is too expensive. (Ne l'achète pas. C'est trop cher.). Pour bien écrire ton texte, fais trois parties : la présentation, la description, ton avis. Relie tes phrases avec first (d'abord), then (ensuite), finally (enfin), and (et), but (mais), because (parce que). Voici quelques mots utiles : fashion show (défilé de mode), model (mannequin), catwalk (podium), designer (styliste), outfit (tenue), audience (public).",
+    "highlight": "Sujet + am/is/are + wearing + adjectif + nom : She is wearing a green dress. (Elle porte une robe verte.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais pour décrire Kofi, un mannequin qui porte un boubou jaune sur le podium.",
+    "steps": [
+      "Je cherche le sujet : Kofi.",
+      "Je choisis le présent continu, car l'action se passe maintenant : is wearing (porte).",
+      "Je place l'adjectif avant le nom : a yellow boubou (un boubou jaune).",
+      "J'ajoute le lieu : on the catwalk (sur le podium).",
+      "Je relie les éléments dans l'ordre : sujet, is wearing, adjectif et nom, lieu. Réponse : Kofi is wearing a yellow boubou on the catwalk. (Kofi porte un boubou jaune sur le podium.)"
+    ]
+  },
+  "quiz": {
+    "question": "Awa est sur le podium. Elle porte une robe bleue. Quelle phrase anglaise la décrit correctement ?",
+    "reponse_calculee": "Awa is wearing a blue dress.",
+    "choices": [
+      {
+        "label": "Awa is wearing a blue dress.",
+        "correct": true
+      },
+      {
+        "label": "Awa wearing a blue dress.",
+        "correct": false
+      },
+      {
+        "label": "Awa are wearing a blue dress.",
+        "correct": false
+      },
+      {
+        "label": "Awa is wear a blue dress.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec Awa, on utilise is, puis le verbe en -ing : is wearing. L'adjectif blue se place avant le nom dress. Awa is wearing a blue dress. (Awa porte une robe bleue.)",
+    "feedback_wrong": "La bonne réponse est : Awa is wearing a blue dress. (Awa porte une robe bleue.) Au présent continu, il faut is après Awa, puis le verbe en -ing. Awa wearing oublie is. Awa are utilise un mauvais verbe être. Is wear oublie le -ing."
+  },
+  "verification": "ok2"
+}

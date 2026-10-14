@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-herzlichen-gluckwunsch",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Herzlichen Glückwunsch",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Herzlichen Glückwunsch",
+  "intro": {
+    "heading": "Une carte pour Awa",
+    "body": "Demain, c'est l'anniversaire de ton amie Awa. Tu as acheté une petite carte à 500 FCFA et tu veux écrire un message en allemand. Que dire pour lui faire plaisir ? Dans cette leçon, tu apprends à féliciter quelqu'un et à lui souhaiter un bon anniversaire en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎉",
+        "text": "Herzlichen Glückwunsch sert à féliciter quelqu'un."
+      },
+      {
+        "icon": "🎂",
+        "text": "Pour un anniversaire : zum Geburtstag."
+      },
+      {
+        "icon": "💬",
+        "text": "On répond simplement : Danke schön !"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Féliciter avec « Herzlichen Glückwunsch zum ... »",
+    "explanation": "En allemand, pour féliciter quelqu'un, on dit Herzlichen Glückwunsch (félicitations, de tout cœur). On ajoute ensuite l'occasion avec zum ou zur. On utilise zum devant un mot masculin ou neutre : der Geburtstag (l'anniversaire) donne zum Geburtstag. On utilise zur devant un mot féminin : die Hochzeit (le mariage) donne zur Hochzeit. Pour un anniversaire, tu peux aussi dire Alles Gute zum Geburtstag ! (Bon anniversaire !). La personne répond souvent Danke schön ! (Merci beaucoup !). Tu peux ajouter le prénom à la fin : Herzlichen Glückwunsch zum Geburtstag, Awa !",
+    "highlight": "Herzlichen Glückwunsch zum Geburtstag ! (Joyeux anniversaire !) ; zur Hochzeit (pour le mariage)"
+  },
+  "example": {
+    "problem": "Complète et traduis le message pour ton ami Koffi : « Herzlichen Glückwunsch ___ Geburtstag, Koffi ! »",
+    "steps": [
+      "Repère le mot après le trou : Geburtstag (l'anniversaire).",
+      "Cherche son article : on dit der Geburtstag, c'est donc un mot masculin.",
+      "Pour un mot masculin, on utilise zum (et non zur).",
+      "Mets zum à la place du trou et garde le prénom à la fin.",
+      "Réponse : Herzlichen Glückwunsch zum Geburtstag, Koffi ! (Joyeux anniversaire, Koffi !)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : « Herzlichen Glückwunsch ___ Hochzeit ! » (die Hochzeit = le mariage)",
+    "reponse_calculee": "zur",
+    "choices": [
+      {
+        "label": "zur",
+        "correct": true
+      },
+      {
+        "label": "zum",
+        "correct": false
+      },
+      {
+        "label": "auf",
+        "correct": false
+      },
+      {
+        "label": "in",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Die Hochzeit est un mot féminin, donc on dit zur Hochzeit : Herzlichen Glückwunsch zur Hochzeit ! (Félicitations pour le mariage !)",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Pour féliciter, on emploie zum ou zur. Comme die Hochzeit est féminin, on utilise zur : Herzlichen Glückwunsch zur Hochzeit ! (Félicitations pour le mariage !) Zum sert pour les mots masculins ou neutres, comme zum Geburtstag."
+  },
+  "verification": "ok"
+}

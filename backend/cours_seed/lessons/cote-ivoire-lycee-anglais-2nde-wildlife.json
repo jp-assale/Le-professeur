@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-wildlife",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Wildlife",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Wildlife",
+  "intro": {
+    "heading": "Une sortie dans la forêt",
+    "body": "Aya et son frère Koffi visitent une réserve avec leur classe. Un garde forestier leur explique qu'il faut protéger les animaux et arrêter les braconniers. Il dit : « Elephants must be protected. » Aujourd'hui, tu vas apprendre à dire ce genre de phrase en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🐘",
+        "text": "Vocabulaire : poacher, ranger, endangered species, to protect."
+      },
+      {
+        "icon": "🔧",
+        "text": "Passif avec modal : modal + be + participe passé."
+      },
+      {
+        "icon": "✍️",
+        "text": "Un essai argumentatif a une introduction, des arguments et une conclusion."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le passif avec les modaux et le vocabulaire de Wildlife",
+    "explanation": "Au passif, on met en avant ce qui subit l'action : sujet + be + participe passé. Par exemple, « The forest is protected » signifie « La forêt est protégée ». Avec un modal (can, must, should), on garde le modal, puis on ajoute be et le participe passé. Le modal ne change jamais et be reste à l'infinitif. Si on veut dire qui fait l'action, on ajoute by : « by rangers » (par les gardes forestiers). Retiens ces mots : a poacher (un braconnier), a ranger (un garde forestier), an endangered species (une espèce en danger), to protect (protéger). Le suffixe -less s'ajoute à un nom et signifie « sans » : homeless (sans abri), helpless (sans défense). Pour un essai argumentatif, écris une introduction, puis des paragraphes avec First (d'abord), Moreover (de plus), However (cependant), et termine par In conclusion (pour conclure).",
+    "highlight": "Modal + be + participe passé : Poachers must be stopped. (Les braconniers doivent être arrêtés.)"
+  },
+  "example": {
+    "problem": "Mets cette phrase au passif : « Rangers must protect elephants. » (Les gardes forestiers doivent protéger les éléphants.)",
+    "steps": [
+      "Repère le modal dans la phrase : must (devoir).",
+      "Repère le complément : elephants. Il devient le sujet de la nouvelle phrase.",
+      "Construis le verbe : modal + be + participe passé, donc must be protected.",
+      "Ajoute l'auteur de l'action avec by : by rangers.",
+      "Réponse : Elephants must be protected by rangers. (Les éléphants doivent être protégés par les gardes forestiers.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Les braconniers doivent être arrêtés » ?",
+    "reponse_calculee": "Poachers must be stopped.",
+    "choices": [
+      {
+        "label": "Poachers must be stopped.",
+        "correct": true
+      },
+      {
+        "label": "Poachers must stopped.",
+        "correct": false
+      },
+      {
+        "label": "Poachers must be stop.",
+        "correct": false
+      },
+      {
+        "label": "Poachers must been stopped.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après le modal must, on met be, puis le participe passé stopped. Poachers must be stopped. (Les braconniers doivent être arrêtés.)",
+    "feedback_wrong": "Le passif avec modal suit toujours le schéma modal + be + participe passé. Il faut donc must be stopped : be reste à l'infinitif (pas been) et le verbe est au participe passé (pas stop). Phrase correcte : Poachers must be stopped. (Les braconniers doivent être arrêtés.)"
+  },
+  "verification": "ok"
+}

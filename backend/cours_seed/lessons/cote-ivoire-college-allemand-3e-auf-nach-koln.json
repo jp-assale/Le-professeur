@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-auf-nach-koln",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Auf Nach Köln",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Auf Nach Köln",
+  "intro": {
+    "heading": "Un voyage à Cologne",
+    "body": "Ton ami Koffi a un correspondant allemand, Lukas, qui habite à Cologne. Lukas l'invite pour les vacances et Koffi doit lui écrire un petit message pour annoncer son voyage. Il veut dire où il va et comment il voyage. Aujourd'hui, tu apprends à le faire en allemand, comme à l'épreuve du BEPC."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚆",
+        "text": "Auf nach Köln ! signifie : En route pour Cologne !"
+      },
+      {
+        "icon": "📍",
+        "text": "Pour aller dans une ville, on utilise nach + la ville."
+      },
+      {
+        "icon": "✍️",
+        "text": "Le verbe fahren change : ich fahre, du fährst, er fährt."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire où l'on va et comment : nach + ville, fahren + mit dem",
+    "explanation": "Pour dire que l'on va dans une ville, on utilise « nach » suivi du nom de la ville, sans article. Par exemple : nach Köln (à Cologne), nach Berlin (à Berlin), nach Abidjan (à Abidjan). Pour voyager, on utilise le verbe « fahren » (aller en véhicule, voyager). Ce verbe change à la 2e et à la 3e personne du singulier : ich fahre, du fährst, er/sie fährt, wir fahren, ihr fahrt, sie fahren. Pour dire comment on voyage, on utilise « mit dem » : mit dem Zug (en train), mit dem Bus (en bus), mit dem Auto (en voiture). Dans une phrase simple, le verbe conjugué est toujours en deuxième position. L'expression « Auf nach Köln ! » est une exclamation qui veut dire « En route pour Cologne ! ».",
+    "highlight": "Sujet + fahren + mit dem + moyen de transport + nach + ville. Exemple : Ich fahre mit dem Bus nach Köln. (Je vais à Cologne en bus.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Koffi va à Cologne en train. »",
+    "steps": [
+      "Je repère le sujet : Koffi, c'est une personne (il), donc 3e personne du singulier.",
+      "Je conjugue fahren avec er : il fährt (avec un ä).",
+      "Je place le verbe en deuxième position, juste après le sujet : Koffi fährt.",
+      "Pour dire « en train », j'écris : mit dem Zug.",
+      "Pour dire « à Cologne », j'écris : nach Köln, sans article.",
+      "Réponse complète : Koffi fährt mit dem Zug nach Köln. (Koffi va à Cologne en train.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand : « Nous allons à Cologne en train » ?",
+    "reponse_calculee": "Wir fahren mit dem Zug nach Köln.",
+    "choices": [
+      {
+        "label": "Wir fahren mit dem Zug nach Köln.",
+        "correct": true
+      },
+      {
+        "label": "Wir fährt mit dem Zug nach Köln.",
+        "correct": false
+      },
+      {
+        "label": "Wir mit dem Zug fahren nach Köln.",
+        "correct": false
+      },
+      {
+        "label": "Wir fahren mit dem Zug nach der Köln.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec wir, le verbe fahren devient fahren. Il est en deuxième position, puis on ajoute mit dem Zug (en train) et nach Köln (à Cologne), sans article.",
+    "feedback_wrong": "La bonne réponse est : Wir fahren mit dem Zug nach Köln. Avec wir, on écrit fahren et non fährt. Le verbe conjugué doit rester en deuxième position. Devant le nom d'une ville, on met nach sans article : nach Köln."
+  },
+  "verification": "ok"
+}

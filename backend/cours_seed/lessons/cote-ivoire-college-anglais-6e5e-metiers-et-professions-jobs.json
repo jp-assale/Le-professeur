@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-metiers-et-professions-jobs",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Métiers et professions (Jobs and occupations)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Métiers et professions (Jobs and occupations)",
+  "intro": {
+    "heading": "Qui travaille dans ta famille ?",
+    "body": "Ce samedi à Abidjan, ton ami Koffi te demande ce que font les membres de ta famille. Ta mère vend au marché, ton oncle conduit un taxi et ta tante soigne des malades. Pour lui répondre en anglais, tu dois connaître les noms des métiers, savoir poser des questions et dire à qui appartient chaque métier. C'est exactement ce que tu vas apprendre dans cette leçon."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👩‍🏫",
+        "text": "Je connais des métiers : teacher, nurse, driver, farmer."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Pour dire un métier : I am a / an + métier."
+      },
+      {
+        "icon": "❓",
+        "text": "Je demande What is your job? et j'emploie my, his, her."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire et demander le métier de quelqu'un",
+    "explanation": "Voici quelques noms de métiers : a teacher (un enseignant), a doctor (un médecin), a nurse (un infirmier, une infirmière), a farmer (un agriculteur), a driver (un chauffeur), a tailor (un couturier) et a trader (un commerçant). Pour dire un métier, on utilise le verbe « to be » suivi de a ou an : I am a driver (Je suis chauffeur). On emploie an devant un son voyelle : an engineer (un ingénieur). Au pluriel, il n'y a pas de a ni de an : They are farmers (Ils sont agriculteurs). Les adjectifs possessifs se placent devant le nom : my (mon, ma, mes), your (ton, ta, tes, votre, vos), his (son, sa, ses, pour un homme), her (son, sa, ses, pour une femme), our (notre, nos) et their (leur, leurs). Ils ne changent jamais, même si le nom est au pluriel : his brothers (ses frères). Pour poser la question du métier, on dit What is your job? (Quel est ton métier ?) ou What does she do? (Que fait-elle comme métier ?). On peut aussi demander Is he a doctor? (Est-il médecin ?) et répondre Yes, he is. (Oui.) ou No, he isn't. (Non.)",
+    "highlight": "What is her job? – She is a nurse. (Quel est son métier ? – Elle est infirmière.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Mon père est mécanicien. »",
+    "steps": [
+      "Cherche le mot « père » : father.",
+      "« Mon » se dit my. Il se place devant le nom : my father.",
+      "« Est » se dit is, car on parle d'une seule personne (he).",
+      "« Mécanicien » se dit mechanic. Il commence par un son consonne, donc on met a devant.",
+      "Assemble la phrase : My father is a mechanic. (Mon père est mécanicien.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Koffi is a farmer. ___ job is hard.",
+    "reponse_calculee": "His",
+    "choices": [
+      {
+        "label": "His",
+        "correct": true
+      },
+      {
+        "label": "Her",
+        "correct": false
+      },
+      {
+        "label": "Our",
+        "correct": false
+      },
+      {
+        "label": "Their",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Koffi est un garçon, donc on utilise his (son) devant le nom job : His job is hard. (Son métier est difficile.)",
+    "feedback_wrong": "La bonne réponse est His. Koffi est un homme et une seule personne, donc on emploie his. Her s'utilise pour une femme, our pour « notre » et their pour « leur » (plusieurs personnes). La phrase correcte est : His job is hard. (Son métier est difficile.)"
+  },
+  "verification": "ok2"
+}

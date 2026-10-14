@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-deadly-viruses-and-diseases",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Deadly viruses and diseases",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Deadly viruses and diseases",
+  "intro": {
+    "heading": "Une alerte santé au lycée",
+    "body": "Ce matin, l'infirmière du lycée parle aux élèves de ta classe. Elle dit : « I am worried about the flu. » (Je suis inquiète à propos de la grippe.) À la maison, ton petit frère te demande ce qu'elle a dit. Tu dois alors rapporter ses paroles avec tes propres mots : She said that she was worried about the flu. C'est le discours indirect, très utile pour parler des maladies, des virus et de la prévention."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Le discours indirect rapporte les paroles de quelqu'un."
+      },
+      {
+        "icon": "⏪",
+        "text": "Après said, le verbe recule d'un temps : présent devient passé."
+      },
+      {
+        "icon": "🙋",
+        "text": "Les pronoms changent : I devient he ou she."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Rapporter une phrase affirmative (reported speech)",
+    "explanation": "Pour rapporter une phrase, on utilise un verbe introducteur au passé, comme said (a dit) ou told (a dit à). On peut ajouter that (que), mais ce mot est facultatif. Le verbe de la phrase rapportée recule d'un temps : le présent simple devient le prétérit, et will devient would. Par exemple, am et is deviennent was, et have devient had. Les pronoms changent selon la personne qui parle : I devient he ou she. Les mots de temps changent aussi : today devient that day, et tomorrow devient the next day. Avec told, on doit toujours nommer la personne : She told me that she was ill. (Elle m'a dit qu'elle était malade.)",
+    "highlight": "Présent → passé : « I have a fever. » → Awa said that she had a fever. (Awa a dit qu'elle avait de la fièvre.)"
+  },
+  "example": {
+    "problem": "Mets cette phrase au discours indirect : Kofi said, « I have malaria. » (Kofi a dit : « J'ai le paludisme. »)",
+    "steps": [
+      "Le verbe introducteur est déjà au passé : said (a dit). On le garde.",
+      "Le pronom I (je) désigne Kofi : on écrit he (il).",
+      "Le verbe have (avoir) est au présent : il recule d'un temps et devient had.",
+      "On peut ajouter that (que) après said, ou le laisser de côté.",
+      "Phrase finale : Kofi said that he had malaria. (Kofi a dit qu'il avait le paludisme.)"
+    ]
+  },
+  "quiz": {
+    "question": "Moussa said, « I have a cough. » (Moussa a dit : « J'ai une toux. ») Quelle est la bonne phrase au discours indirect ?",
+    "reponse_calculee": "Moussa said that he had a cough.",
+    "choices": [
+      {
+        "label": "Moussa said that he had a cough.",
+        "correct": true
+      },
+      {
+        "label": "Moussa said that I have a cough.",
+        "correct": false
+      },
+      {
+        "label": "Moussa said that he have a cough.",
+        "correct": false
+      },
+      {
+        "label": "Moussa said that he will have a cough.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le pronom I devient he, et le verbe have recule d'un temps et devient had : Moussa said that he had a cough. (Moussa a dit qu'il avait une toux.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Il faut changer le pronom I en he, puis faire reculer have au passé : had. Le bon choix est : Moussa said that he had a cough. (Moussa a dit qu'il avait une toux.)"
+  },
+  "verification": "ok2"
+}

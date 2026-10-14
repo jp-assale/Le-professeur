@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-contemporary-africa",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Contemporary africa",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Contemporary africa",
+  "intro": {
+    "heading": "Le marché d'Aminata",
+    "body": "Aminata tient une petite boutique à Abidjan. Elle vend des pagnes à 5 000 FCFA et elle propose aussi la livraison. Pour présenter son activité en anglais lors d'un exposé sur les affaires, elle veut relier ces deux idées dans une seule phrase forte. Tu vas apprendre à faire comme elle avec « Not only … but also »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "➕",
+        "text": "Not only … but also sert à ajouter deux idées."
+      },
+      {
+        "icon": "🔄",
+        "text": "Not only en début de phrase : on inverse auxiliaire et sujet."
+      },
+      {
+        "icon": "🎤",
+        "text": "Utile dans un exposé ou une dissertation sur l'économie."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Not only … but also (non seulement … mais aussi)",
+    "explanation": "« Not only … but also » sert à ajouter une deuxième idée, souvent plus forte que la première. On l'utilise beaucoup dans un exposé oral ou dans l'introduction d'une dissertation argumentative. Première construction : « She sells not only rice but also yams » (Elle vend non seulement du riz mais aussi des ignames). Les deux éléments reliés doivent avoir la même forme : deux noms, deux verbes ou deux adjectifs. Deuxième construction : si tu mets « Not only » au début de la phrase, tu dois inverser le sujet et l'auxiliaire, comme dans une question. Au présent simple, on utilise « does » ou « do » et le verbe reste à la forme de base. Après la virgule, la deuxième partie reprend l'ordre normal : « but he also sells … ». L'inversion vient du fait que « Not only » (une expression à valeur négative) est placé en début de phrase, même si le sens de la phrase reste positif.",
+    "highlight": "Not only + auxiliaire + sujet + verbe, but … also … : Not only does Awa sell rice, but she also sells yams. (Awa ne vend pas seulement du riz, mais elle vend aussi des ignames.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec « Not only … but also » en commençant par « Not only » : Mariam sells fabric. (Mariam vend du tissu.) Mariam sells shoes. (Mariam vend des chaussures.)",
+    "steps": [
+      "Repère les deux idées : vendre du tissu (sells fabric) et vendre des chaussures (sells shoes).",
+      "Commence par « Not only » : la phrase demande une inversion, comme dans une question.",
+      "Au présent simple, l'auxiliaire est « does » (sujet à la 3e personne du singulier) : « Not only does Mariam … ».",
+      "Après « does », le verbe reste à la forme de base, sans -s : « sell fabric ».",
+      "Ajoute une virgule, puis « but » et la seconde idée dans l'ordre normal, avec « also » : « but she also sells shoes » (ici le verbe prend le -s).",
+      "Réponse : Not only does Mariam sell fabric, but she also sells shoes. (Mariam ne vend pas seulement du tissu, mais elle vend aussi des chaussures.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte ?",
+    "reponse_calculee": "Not only does Kofi speak English, but he also speaks French.",
+    "choices": [
+      {
+        "label": "Not only does Kofi speak English, but he also speaks French.",
+        "correct": true
+      },
+      {
+        "label": "Not only Kofi speaks English, but he also speaks French.",
+        "correct": false
+      },
+      {
+        "label": "Not only does Kofi speaks English, but he also speaks French.",
+        "correct": false
+      },
+      {
+        "label": "Not only Kofi does speak English, but also he speak French.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « Not only » en début de phrase, on inverse : « does » + sujet, puis le verbe à la forme de base (speak). La seconde partie garde l'ordre normal : « but he also speaks French ». (Kofi ne parle pas seulement anglais, mais il parle aussi français.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Quand « Not only » commence la phrase, il faut l'inversion auxiliaire + sujet : « Not only does Kofi … ». Après « does », le verbe n'a pas de -s : « speak ». La seconde partie reste normale : « but he also speaks French ». La bonne phrase est : Not only does Kofi speak English, but he also speaks French. (Kofi ne parle pas seulement anglais, mais il parle aussi français.)"
+  },
+  "verification": "ok2"
+}

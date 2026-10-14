@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-societe-de-consommation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Société de consommation",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Société de consommation",
+  "intro": {
+    "heading": "Au marché, tout donne envie !",
+    "body": "Ce samedi, Awa et son frère Koffi se promènent au marché d'Abidjan. Il y a des téléphones, des baskets, des robes, et la publicité est partout. Dans une société de consommation, on achète beaucoup, parfois sans réfléchir. Dans une situation d'évaluation, tu pourrais devoir dire en allemand ce que tu voudrais acheter. Voyons comment le faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛒",
+        "text": "Je dis ce que je voudrais acheter avec « ich möchte »."
+      },
+      {
+        "icon": "📍",
+        "text": "Le verbe möchte reste en deuxième position dans la phrase."
+      },
+      {
+        "icon": "🔚",
+        "text": "L'infinitif, par exemple kaufen, se place à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Möchte + infinitif à la fin",
+    "explanation": "Pour dire ce que tu voudrais faire, tu utilises le verbe möchte (je voudrais). Il se conjugue : ich möchte (je voudrais), du möchtest (tu voudrais), er möchte (il voudrait), wir möchten (nous voudrions). Dans la phrase, möchte est toujours en deuxième position. L'autre verbe reste à l'infinitif et se place tout à la fin de la phrase. Par exemple, avec kaufen (acheter), tu dis : Ich möchte ein Handy kaufen. (Je voudrais acheter un téléphone.) Pour parler du prix, tu peux demander : Was kostet das? (Combien ça coûte ?) Tu peux aussi te poser la question : Brauche ich das wirklich? (En ai-je vraiment besoin ?)",
+    "highlight": "Sujet + möchte + ... + infinitif : Ich möchte ein Handy kaufen. (Je voudrais acheter un téléphone.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en allemand avec les mots suivants : Awa / möchte / ein Kleid / auf dem Markt / kaufen. (Awa voudrait acheter une robe au marché.)",
+    "steps": [
+      "Le sujet vient en premier : Awa.",
+      "Le verbe möchte se place en deuxième position : Awa möchte.",
+      "L'infinitif kaufen (acheter) va tout à la fin de la phrase.",
+      "Les autres éléments se placent entre les deux verbes : auf dem Markt (au marché), ein Kleid (une robe).",
+      "Réponse : Awa möchte auf dem Markt ein Kleid kaufen. (Awa voudrait acheter une robe au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Koffi voudrait acheter un vélo » ?",
+    "reponse_calculee": "Koffi möchte ein Fahrrad kaufen.",
+    "choices": [
+      {
+        "label": "Koffi möchte ein Fahrrad kaufen.",
+        "correct": true
+      },
+      {
+        "label": "Koffi möchte kaufen ein Fahrrad.",
+        "correct": false
+      },
+      {
+        "label": "Koffi kaufen möchte ein Fahrrad.",
+        "correct": false
+      },
+      {
+        "label": "Koffi ein Fahrrad möchte kaufen.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Möchte est en deuxième position et l'infinitif kaufen est à la fin : Koffi möchte ein Fahrrad kaufen. (Koffi voudrait acheter un vélo.)",
+    "feedback_wrong": "La bonne phrase est : Koffi möchte ein Fahrrad kaufen. (Koffi voudrait acheter un vélo.) Le verbe möchte doit être en deuxième position, juste après le sujet. L'infinitif kaufen se place à la fin de la phrase, après ein Fahrrad."
+  },
+  "verification": "ok"
+}

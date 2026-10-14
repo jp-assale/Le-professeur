@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-la-lettre-officielle",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · La lettre officielle",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · La lettre officielle",
+  "intro": {
+    "heading": "Une demande à faire au directeur",
+    "body": "Aminata a besoin d'un certificat de scolarité pour constituer un dossier de bourse. Elle veut l'écrire à son directeur comme elle parlerait à une camarade : « Salut, donne-moi mon papier ! ». Son grand frère sourit et lui explique que sa demande risquerait d'être mal reçue à cause de sa forme. Dans cette leçon, tu apprends à rédiger une lettre officielle claire, polie et bien construite."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✉️",
+        "text": "La lettre officielle s'adresse à une autorité ou à une administration."
+      },
+      {
+        "icon": "🎩",
+        "text": "Elle emploie le registre soutenu et le vouvoiement."
+      },
+      {
+        "icon": "📝",
+        "text": "Elle suit une présentation précise avec objet et formules officielles."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les règles de la lettre officielle",
+    "explanation": "Une lettre officielle est écrite à une autorité ou à une administration (directeur, maire, préfet, ministre) pour demander, informer, réclamer ou remercier. Son objet doit être précis : une seule demande clairement annoncée, par exemple « Objet : demande d'un certificat de scolarité ». Elle suit une présentation fixe : en haut, le nom et l'adresse de l'expéditeur, puis le lieu et la date, le destinataire, l'objet, la formule d'appel, le corps de la lettre, la formule de politesse et la signature. Le registre de langue est soutenu : tu vouvoies le destinataire, tu évites l'argot, les abréviations et les mots familiers. Tu utilises un vocabulaire approprié : solliciter, une requête, une autorisation, joindre, une pièce jointe, une suite favorable. Tu emploies aussi des tournures officielles comme « J'ai l'honneur de solliciter… », « Je vous prie de bien vouloir… » ou « Dans l'attente d'une réponse favorable… ». Enfin, la lettre est courte, ordonnée en paragraphes et se termine par une formule de politesse respectueuse.",
+    "highlight": "Lettre officielle = objet précis + présentation fixe + registre soutenu + tournures administratives + formule de politesse."
+  },
+  "example": {
+    "problem": "Yao, élève de 4e, a égaré son bulletin du premier trimestre. Son brouillon dit : « Salut Monsieur le directeur, j'ai perdu mon bulletin, donnez-m'en un autre vite. » Transforme cette phrase en éléments d'une lettre officielle adressée au directeur de son collège.",
+    "steps": [
+      "Repère l'objet de la lettre : une demande de duplicata. Écris : « Objet : demande de duplicata de bulletin ».",
+      "Remplace l'appel familier « Salut » par la formule d'appel « Monsieur le Directeur, ».",
+      "Reformule la demande en registre soutenu : « J'ai l'honneur de solliciter un duplicata de mon bulletin du premier trimestre, que j'ai égaré. »",
+      "Supprime « vite » et « donnez-m'en » : remplace-les par « Je vous prie de bien vouloir m'établir ce document. »",
+      "Termine par une formule de politesse : « Dans l'attente d'une suite favorable, veuillez agréer, Monsieur le Directeur, l'expression de mes respectueuses salutations. »",
+      "Place le lieu et la date en haut de la lettre, puis ajoute ta signature en bas, avec ton nom, ton prénom et ta classe."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases convient pour terminer une lettre officielle adressée au directeur de ton collège ?",
+    "reponse_calculee": "Veuillez agréer, Monsieur le Directeur, l'expression de mes respectueuses salutations.",
+    "choices": [
+      {
+        "label": "Veuillez agréer, Monsieur le Directeur, l'expression de mes respectueuses salutations.",
+        "correct": true
+      },
+      {
+        "label": "Bisous et à bientôt, Monsieur le Directeur !",
+        "correct": false
+      },
+      {
+        "label": "Réponds-moi vite, merci d'avance, salut.",
+        "correct": false
+      },
+      {
+        "label": "Voilà, c'est tout ce que j'avais à te dire, ciao.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette formule est respectueuse, emploie le vouvoiement et appartient au registre soutenu, comme l'exige une lettre officielle.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse : la phrase que tu as choisie est familière (salutations amicales, tutoiement ou langage trop relâché). Une lettre officielle se termine par une formule de politesse soutenue : « Veuillez agréer, Monsieur le Directeur, l'expression de mes respectueuses salutations. »"
+  },
+  "verification": "ok2"
+}

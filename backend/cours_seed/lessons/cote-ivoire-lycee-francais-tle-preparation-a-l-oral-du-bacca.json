@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-tle-preparation-a-l-oral-du-bacca",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Tle · Préparation à l'Oral du Baccalauréat",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Préparation à l'Oral du Baccalauréat",
+  "intro": {
+    "heading": "Le jour de l'oral",
+    "body": "Fatou est devant le jury, son texte à la main, et le chrono tourne. Elle ne veut pas réciter le texte : elle veut montrer qu'elle l'a compris. Sa méthode est simple : elle repère le thème, le type, le genre et la tonalité, puis elle formule une hypothèse générale. Ensuite, elle construit des axes de lecture et les appuie sur des entrées pertinentes. Tu vas apprendre la même démarche."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔎",
+        "text": "Identifie le thème, le type, le genre et la tonalité."
+      },
+      {
+        "icon": "💡",
+        "text": "Formule une hypothèse générale, puis vérifie-la dans le texte."
+      },
+      {
+        "icon": "🧭",
+        "text": "Choisis des axes de lecture, appuyés sur des entrées pertinentes."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les outils pour présenter un texte à l'oral",
+    "explanation": "Le thème est le sujet principal dont parle le texte, par exemple l'amitié, le travail ou l'école. Le type de texte indique la façon dont il est organisé et ce qu'il vise : narratif, descriptif, explicatif, argumentatif ou injonctif. Le genre est la catégorie littéraire du texte : roman, nouvelle, conte, poème, pièce de théâtre, lettre ou essai. La tonalité est l'atmosphère ou l'émotion dominante : lyrique, pathétique, ironique, comique, polémique, épique ou tragique. L'hypothèse générale de lecture est une phrase qui dit ce que le texte veut montrer ; tu la formules après la première lecture, puis tu la vérifies. Les axes de lecture sont deux ou trois grandes directions d'analyse, qui organisent ta présentation et répondent à l'hypothèse. Les entrées pertinentes sont les éléments précis du texte qui justifient chaque axe : champ lexical, temps verbaux, mots d'opposition, figures de style, ponctuation. Sans ces indices relevés dans le texte, ton axe reste une simple opinion.",
+    "highlight": "Démarche : thème, type, genre, tonalité, hypothèse générale, axes de lecture, entrées pertinentes."
+  },
+  "example": {
+    "problem": "Voici un court texte inventé : « Aya vendait des mangues au marché de son quartier depuis l'aube. Le soleil piquait, les clients passaient sans s'arrêter, ses mains tremblaient de fatigue. Pourtant, quand elle compta ses pièces de cent FCFA, elle sourit : ce soir-là, son petit frère pourrait acheter des cahiers pour l'école. » Présente ce texte comme à l'oral.",
+    "steps": [
+      "Thème : le courage d'une vendeuse qui travaille pour l'avenir de son petit frère.",
+      "Type et genre : le texte est narratif, avec quelques touches descriptives. Il ressemble à un début de nouvelle, c'est-à-dire un récit bref.",
+      "Tonalité : pathétique, car le texte touche le lecteur par la peine et la fatigue d'Aya ; cette émotion est adoucie par une note d'espoir à la fin.",
+      "Hypothèse générale : le texte montre qu'un travail pénible peut devenir source de fierté quand il est fait par amour pour sa famille.",
+      "Axes de lecture : premier axe, la dureté du travail d'Aya ; second axe, sa dignité et son espoir.",
+      "Entrées pertinentes : pour le premier axe, les expressions de la difficulté et de l'indifférence (« Le soleil piquait », « les clients passaient sans s'arrêter », « ses mains tremblaient de fatigue »). Pour le second axe, le mot d'opposition « Pourtant », le passé simple (« compta », « sourit ») qui marque le changement, et le projet des cahiers pour le petit frère."
+    ]
+  },
+  "quiz": {
+    "question": "À quoi servent les entrées pertinentes dans la présentation orale d'un texte ?",
+    "reponse_calculee": "À relever dans le texte les éléments précis qui justifient les axes de lecture",
+    "choices": [
+      {
+        "label": "À relever dans le texte les éléments précis qui justifient les axes de lecture",
+        "correct": true
+      },
+      {
+        "label": "À raconter la vie de l'auteur avant de présenter le texte",
+        "correct": false
+      },
+      {
+        "label": "À donner son avis personnel sur le texte sans le citer",
+        "correct": false
+      },
+      {
+        "label": "À résumer l'histoire du texte du début à la fin",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les entrées pertinentes sont les indices du texte (champ lexical, temps verbaux, mots d'opposition, figures de style) qui prouvent que tes axes de lecture sont justes.",
+    "feedback_wrong": "Ce n'est pas cela. Les entrées pertinentes ne servent ni à résumer le texte, ni à raconter la vie de l'auteur, ni à donner un avis sans preuve. Ce sont les éléments précis relevés dans le texte pour justifier chaque axe de lecture."
+  },
+  "verification": "corrige2"
+}

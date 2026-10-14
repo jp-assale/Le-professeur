@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-l-importance-du-sport-the-i",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · L'importance du sport (The importance of sport)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · L'importance du sport (The importance of sport)",
+  "intro": {
+    "heading": "Quel sport préfères-tu ?",
+    "body": "À la récréation, Awa, Kofi et Yao discutent du sport qu'ils préfèrent. Le sport est bon pour la santé, il permet de se faire des amis et d'apprendre à jouer en équipe. Pour parler avec un correspondant anglophone, tu dois savoir dire en anglais ce que tu aimes et ce que tu préfères. Dans cette leçon, tu apprends les phrases simples pour exprimer ta préférence."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❤️",
+        "text": "Pour aimer : I like, I love, I enjoy + nom de sport ou verbe en -ing."
+      },
+      {
+        "icon": "⚽",
+        "text": "Pour préférer : I prefer + sport + to + autre sport."
+      },
+      {
+        "icon": "✍️",
+        "text": "À la 3e personne, on écrit prefers, likes, loves."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer la préférence en anglais",
+    "explanation": "Pour dire ce que tu aimes, tu utilises I like, I love ou I enjoy. Après ces verbes, tu peux mettre un nom de sport ou un verbe en -ing : I like football. (J'aime le football.) I like running. (J'aime courir.) Pour dire que tu n'aimes pas, tu écris I don't like : I don't like swimming. (Je n'aime pas nager.) Pour dire que tu préfères une chose à une autre, tu utilises prefer ... to ... : I prefer football to basketball. (Je préfère le football au basketball.) Avec he, she ou un prénom, tu ajoutes un s : Awa prefers volleyball to football. (Awa préfère le volley-ball au football.) Pour poser la question, tu dis : Which sport do you prefer? (Quel sport préfères-tu ?) Tu peux répondre : My favourite sport is football. (Mon sport préféré est le football.)",
+    "highlight": "I prefer + sport 1 + to + sport 2. Exemple : I prefer football to tennis. (Je préfère le football au tennis.)"
+  },
+  "example": {
+    "problem": "Situation : ton correspondant anglophone te parle de ses sports préférés. Tu veux lui dire que ton ami Kofi préfère le football au basketball. Traduis en anglais : « Kofi préfère le football au basketball. »",
+    "steps": [
+      "Repère le sujet : c'est Kofi, une seule personne (il), donc 3e personne du singulier.",
+      "Choisis le verbe : « préférer » se dit prefer. Avec Kofi, on ajoute un s : prefers.",
+      "Rappelle la structure : prefer + premier sport + to + deuxième sport.",
+      "Place les sports : le football (football) est préféré, le basketball (basketball) vient après to.",
+      "Assemble la phrase : Kofi prefers football to basketball. (Kofi préfère le football au basketball.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire que tu préfères le football au tennis ?",
+    "reponse_calculee": "I prefer football to tennis.",
+    "choices": [
+      {
+        "label": "I prefer football to tennis.",
+        "correct": true
+      },
+      {
+        "label": "I prefer football than tennis.",
+        "correct": false
+      },
+      {
+        "label": "I am prefer football to tennis.",
+        "correct": false
+      },
+      {
+        "label": "I prefers football to tennis.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec I, le verbe reste prefer sans s, et on relie les deux sports avec to : I prefer football to tennis. (Je préfère le football au tennis.)",
+    "feedback_wrong": "La bonne phrase est : I prefer football to tennis. (Je préfère le football au tennis.) Pour comparer deux sports avec prefer, on utilise to (pas than). On n'ajoute pas am devant prefer. Avec I, on n'ajoute pas de s au verbe : I prefer, mais she prefers."
+  },
+  "verification": "ok2"
+}

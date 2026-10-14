@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-freedom-and-civil-rights",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Freedom and civil rights",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Freedom and civil rights",
+  "intro": {
+    "heading": "Un débat sur l'égalité des droits",
+    "body": "En classe de Tle à Abidjan, Aya participe à un débat sur la lutte pour la liberté et l'égalité des droits civils. Elle veut dire que des citoyens auraient dû réagir face à une injustice, ou qu'une personne a sans doute eu peur de parler. Pour exprimer ces regrets et ces déductions sur le passé, l'anglais utilise les modaux au passé. Dans cette leçon, tu apprends à les former et à les employer."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Modal + have + participe passé parle du passé."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Should have exprime un reproche ou un regret."
+      },
+      {
+        "icon": "🔍",
+        "text": "Must have et can't have expriment une déduction."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le passé des auxiliaires modaux",
+    "explanation": "Pour parler du passé avec un modal, on emploie la structure modal + have + participe passé. Should have exprime un reproche ou un regret : You should have listened. (Tu aurais dû écouter.) Could have exprime une possibilité passée qui ne s'est pas réalisée : She could have won. (Elle aurait pu gagner.) Must have exprime une déduction presque certaine : He must have been tired. (Il a dû être fatigué.) Can't have exprime une impossibilité déduite : They can't have known. (Ils n'ont pas pu le savoir.) Might have exprime une possibilité incertaine : She might have forgotten. (Elle a peut-être oublié.) Après le modal, have ne change jamais, même avec he ou she, et on n'ajoute pas to. Pour les verbes irréguliers, on utilise le participe passé : be devient been.",
+    "highlight": "Sujet + should / could / must / might / can't + have + participe passé. Ex. : He should have voted. (Il aurait dû voter.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Tu aurais dû défendre ton demi-frère. »",
+    "steps": [
+      "« Tu aurais dû » exprime un reproche sur le passé : on choisit should have.",
+      "Le sujet est « tu » : you. On écrit donc You should have.",
+      "Le verbe « défendre » se traduit par defend. Son participe passé est defended.",
+      "« Demi-frère » se dit half-brother et « ton » se dit your : your half-brother.",
+      "On assemble : sujet + should have + participe passé + complément.",
+      "Réponse : You should have defended your half-brother. (Tu aurais dû défendre ton demi-frère.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase anglaise signifie « Elle aurait dû protester contre cette injustice » ?",
+    "reponse_calculee": "She should have protested against this injustice.",
+    "choices": [
+      {
+        "label": "She should have protested against this injustice.",
+        "correct": true
+      },
+      {
+        "label": "She should protest against this injustice.",
+        "correct": false
+      },
+      {
+        "label": "She must have protested against this injustice.",
+        "correct": false
+      },
+      {
+        "label": "She can't have protested against this injustice.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Aurait dû » exprime un reproche sur le passé, donc on emploie should have + participe passé : She should have protested against this injustice. (Elle aurait dû protester contre cette injustice.)",
+    "feedback_wrong": "La bonne réponse est : She should have protested against this injustice. (Elle aurait dû protester contre cette injustice.) She should protest se rapporte au présent ou au futur (Elle devrait protester). She must have protested exprime une déduction (Elle a dû protester). She can't have protested exprime une impossibilité (Elle n'a pas pu protester)."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-la-communication",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · La communication",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · La communication",
+  "intro": {
+    "heading": "Pourquoi parle-t-on ?",
+    "body": "À la récréation, Mariam crie : « Quelle joie, j'ai eu 16 en français ! » Plus tard, sa mère lui demande : « Range ton cahier ! », puis son oncle lui téléphone : « Allô, tu m'entends ? » Ces trois phrases n'ont pas le même but. Dans cette leçon, tu découvres les fonctions du langage, c'est-à-dire les buts pour lesquels on parle ou on écrit."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Communiquer, c'est transmettre un message d'un émetteur à un récepteur."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chaque message a une fonction dominante selon son but."
+      },
+      {
+        "icon": "📚",
+        "text": "Six fonctions : référentielle, expressive, conative, phatique, métalinguistique, poétique."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les six fonctions du langage",
+    "explanation": "Communiquer, c'est transmettre un message d'un émetteur à un récepteur, avec un code (la langue), par un canal (voix, écrit, téléphone), à propos d'un référent (ce dont on parle). Selon l'élément mis en avant, le message a une fonction différente. La fonction référentielle informe sur le monde : « Le cahier coûte 500 FCFA. » La fonction expressive montre les sentiments de l'émetteur : « Quelle joie ! J'ai réussi ! » La fonction conative agit sur le récepteur par un ordre, un conseil ou une question : « Range ton cahier ! » La fonction phatique sert à établir ou vérifier le contact : « Allô ? Tu m'entends ? » La fonction métalinguistique explique la langue elle-même : « Le mot 'marché' est un nom masculin. » La fonction poétique soigne la forme du message (rythme, images, sons) pour le rendre beau. Une phrase peut mélanger plusieurs fonctions, mais une seule est dominante.",
+    "highlight": "Pour trouver la fonction dominante, demande-toi : quel est le but principal de cette phrase ?"
+  },
+  "example": {
+    "problem": "Identifie la fonction dominante de chaque phrase, puis produis une phrase phatique. Phrase 1 : « Le cahier de Mariam coûte 500 FCFA à la boutique du quartier. » Phrase 2 : « Quelle joie, j'ai réussi mon devoir ! » Phrase 3 : « Kouadio, range ton cahier maintenant ! »",
+    "steps": [
+      "Pour chaque phrase, cherche le but principal : informer, exprimer un sentiment, pousser à agir, garder le contact, parler de la langue ou embellir.",
+      "Phrase 1 : elle donne une information précise et vérifiable, le prix du cahier. La fonction dominante est référentielle.",
+      "Phrase 2 : l'émetteur dit ce qu'il ressent, avec une exclamation et le pronom « je ». La fonction dominante est expressive.",
+      "Phrase 3 : elle contient un verbe à l'impératif et interpelle Kouadio pour obtenir une action. La fonction dominante est conative.",
+      "Pour produire une phrase phatique, imagine un appel téléphonique et écris : « Allô, Awa, tu m'entends bien ? »",
+      "Cette phrase ne donne aucune information nouvelle : elle sert seulement à vérifier que le contact passe, donc elle est bien phatique."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la fonction dominante de la phrase : « Fatou, apporte-moi ton cahier de français tout de suite ! » ?",
+    "reponse_calculee": "La fonction conative",
+    "choices": [
+      {
+        "label": "La fonction référentielle",
+        "correct": false
+      },
+      {
+        "label": "La fonction expressive",
+        "correct": false
+      },
+      {
+        "label": "La fonction conative",
+        "correct": true
+      },
+      {
+        "label": "La fonction métalinguistique",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! La phrase interpelle Fatou et lui donne un ordre à l'impératif : le but est d'agir sur le récepteur. C'est la fonction conative.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. La phrase ne donne pas une simple information, n'exprime pas un sentiment et ne parle pas de la langue. Elle donne un ordre à Fatou pour qu'elle agisse : c'est la fonction conative."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-what-the-future-holds",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · What the future holds",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · What the future holds",
+  "intro": {
+    "heading": "Un projet pour l'année prochaine",
+    "body": "Awa fait partie d'un club humanitaire de son lycée à Abidjan. Elle prépare un projet pour aider un village et dit à ses amis ce qui se passera dans quelques mois. Pour parler de ces actions à venir en anglais, elle doit choisir le bon temps du futur. Dans cette leçon, tu apprends à faire ce choix, surtout avec le future perfect."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔮",
+        "text": "Will exprime une prédiction ; be going to, une intention."
+      },
+      {
+        "icon": "⏳",
+        "text": "Le futur progressif : will be + verbe en -ing."
+      },
+      {
+        "icon": "✅",
+        "text": "Le future perfect : will have + participe passé, avec by."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formes du futur en anglais",
+    "explanation": "Pour parler de l'avenir en anglais, tu as plusieurs structures. Will sert à une prédiction ou à une décision spontanée : It will rain tomorrow (Il pleuvra demain). Be going to exprime une intention ou une prévision fondée sur un indice : I am going to join the Red Cross club (Je vais rejoindre le club de la Croix-Rouge). Le futur progressif, will be + verbe en -ing, montre une action en cours à un moment futur : At 8 a.m., we will be working (À 8 heures, nous serons en train de travailler). Le future perfect, will have + participe passé, montre une action terminée avant un moment futur, souvent avec by : By June, we will have finished (D'ici juin, nous aurons fini). Dans une dissertation, ces temps te servent à imaginer l'avenir de la planète ou des villes africaines.",
+    "highlight": "Future perfect : will + have + participe passé. By June, I will have finished. (D'ici juin, j'aurai fini.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « D'ici la fin de l'année, Awa et ses amis auront construit dix puits dans le village. »",
+    "steps": [
+      "« D'ici la fin de l'année » donne une date limite : l'action sera terminée avant ce moment, donc on emploie le future perfect.",
+      "On utilise la forme will + have + participe passé, et by introduit la date limite : By the end of the year.",
+      "Le verbe « construire » se dit build. Son participe passé est irrégulier : built.",
+      "Le sujet est Awa and her friends. Will have ne change pas avec le sujet.",
+      "Réponse : By the end of the year, Awa and her friends will have built ten wells in the village. (D'ici la fin de l'année, Awa et ses amis auront construit dix puits dans le village.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis la phrase correcte : By December, Mariam ____ 50,000 FCFA for the school fund.",
+    "reponse_calculee": "will have saved",
+    "choices": [
+      {
+        "label": "will have saved",
+        "correct": true
+      },
+      {
+        "label": "will have save",
+        "correct": false
+      },
+      {
+        "label": "will has saved",
+        "correct": false
+      },
+      {
+        "label": "will saving",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! By December annonce une date limite, donc on emploie le future perfect : will + have + participe passé. Saved est le participe passé de save. (D'ici décembre, Mariam aura économisé 50 000 FCFA pour la caisse de l'école.)",
+    "feedback_wrong": "Le future perfect se forme avec will + have + participe passé. Après will, on utilise toujours have, jamais has. Le verbe qui suit doit être au participe passé : saved, et non save ou saving. La bonne réponse est will have saved."
+  },
+  "verification": "ok"
+}

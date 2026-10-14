@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-etude-de-quelques-propositio",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Étude de quelques propositions subordonnées",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Étude de quelques propositions subordonnées",
+  "intro": {
+    "heading": "Un message pour la fête de l'école",
+    "body": "Aya prépare l'affiche de la fête de son collège à Abidjan. Elle écrit : « Les élèves qui chantent le mieux viendront sur scène parce que le public les attend. » Une seule phrase contient donc plusieurs idées qui se complètent. Aujourd'hui, tu apprends à repérer ces morceaux de phrase appelés propositions subordonnées et à comprendre leur rôle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Une subordonnée dépend toujours d'une proposition principale."
+      },
+      {
+        "icon": "🔍",
+        "text": "Relative, complétive, circonstancielle : repère le mot qui l'introduit."
+      },
+      {
+        "icon": "✍️",
+        "text": "Chaque subordonnée a une fonction et peut se transformer."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et employer les subordonnées",
+    "explanation": "Une proposition subordonnée dépend d'une proposition principale et ne peut pas former une phrase seule. La relative commence par un pronom relatif (qui, que, dont, où) et complète un nom appelé antécédent : elle est complément de l'antécédent. La complétive commence souvent par « que » et complète un verbe : elle est le plus souvent complément d'objet direct, comme dans « Kofi pense que le car est en retard ». La circonstancielle commence par une conjonction de subordination et joue le rôle de complément circonstanciel : elle exprime la cause (parce que, puisque), la conséquence (si bien que, tellement que), le but (pour que, afin que, avec le subjonctif) ou le temps (quand, lorsque, après que, pendant que). Pour faire une transformation relative, tu remplaces le groupe répété dans la deuxième phrase par un pronom relatif : « Awa porte un pagne. Le pagne est neuf. » devient « Awa porte un pagne qui est neuf. ». Pour faire une transformation complétive, tu changes une phrase en proposition introduite par « que » : « Il dit : Je viens. » devient « Il dit qu'il vient. ». Pour trouver la fonction, pose-toi la question : cette subordonnée complète quel mot, ou quelle proposition ?",
+    "highlight": "Relative : pronom relatif, complète un nom. Complétive : « que », complète un verbe. Circonstancielle : conjonction, indique cause, conséquence, but ou temps."
+  },
+  "example": {
+    "problem": "Analyse la phrase « Aminata achète un pagne qui coûte 5 000 FCFA. » puis explique comment on l'obtient à partir de deux phrases.",
+    "steps": [
+      "Repère les verbes conjugués : « achète » et « coûte ». Il y a donc deux propositions.",
+      "La proposition principale est « Aminata achète un pagne ». La subordonnée est « qui coûte 5 000 FCFA ».",
+      "Le mot qui introduit la subordonnée est « qui » : c'est un pronom relatif. Il reprend le nom « pagne », qui est son antécédent.",
+      "Nature et fonction : c'est une proposition subordonnée relative, complément de l'antécédent « pagne ».",
+      "Les deux phrases de départ sont : « Aminata achète un pagne. Le pagne coûte 5 000 FCFA. ».",
+      "Dans la transformation relative, « qui » remplace « le pagne », sujet de la deuxième phrase, et relie les deux phrases en une seule."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Koffi explique que le car est en panne. », quelle est la nature et la fonction de la subordonnée « que le car est en panne » ?",
+    "reponse_calculee": "Une complétive, complément d'objet direct du verbe « explique »",
+    "choices": [
+      {
+        "label": "Une complétive, complément d'objet direct du verbe « explique »",
+        "correct": true
+      },
+      {
+        "label": "Une relative, complément de l'antécédent « car »",
+        "correct": false
+      },
+      {
+        "label": "Une circonstancielle de cause, complément circonstanciel",
+        "correct": false
+      },
+      {
+        "label": "Une circonstancielle de but, complément circonstanciel",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! La subordonnée commence par « que » et complète le verbe « explique » : Koffi explique quoi ? Que le car est en panne. C'est une complétive, complément d'objet direct.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Ici, « que » est une conjonction qui introduit une proposition complétant le verbe « explique » : on demande « Koffi explique quoi ? ». La subordonnée est donc une complétive, complément d'objet direct. Elle n'est ni relative, car elle ne reprend aucun nom, ni circonstancielle, car elle n'exprime ni cause ni but."
+  },
+  "verification": "ok"
+}

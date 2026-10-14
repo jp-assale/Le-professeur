@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-schooling-opportunities-in-b",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Schooling opportunities in Burkina Faso",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Schooling opportunities in Burkina Faso",
+  "intro": {
+    "heading": "Quelle école pour Issouf ?",
+    "body": "Issouf termine la 5e à Bobo-Dioulasso. Sa cousine Awa vient d'une autre ville et lui demande : quelles écoles existent chez vous ? Issouf veut lui répondre en anglais pour s'entraîner. Dans cette leçon, tu apprends à nommer quelques types d'écoles et à dire quelle école tu peux fréquenter."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏫",
+        "text": "Il existe des écoles primaires, secondaires, publiques et privées."
+      },
+      {
+        "icon": "💬",
+        "text": "Modèle à retenir : I can go to a ... school."
+      },
+      {
+        "icon": "✏️",
+        "text": "On met a avant le type d'école : a public school, a private school."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire quelle école je peux fréquenter",
+    "explanation": "Pour parler des écoles, tu as besoin de quelques mots. Primary school veut dire école primaire. Secondary school veut dire collège ou lycée. Public school veut dire école publique et private school veut dire école privée. Pour dire ce que tu peux faire, tu utilises I can (je peux) puis go to (aller à ou aller dans). Exemple : I can go to a secondary school (Je peux aller dans un collège ou un lycée). Avant le type d'école, on met a, car c'est une école parmi d'autres. L'adjectif (public, private, primary, secondary) se place avant le nom school. Attention : quand on parle simplement d'aller en classe, on dit I go to school (Je vais à l'école), sans a. Après I can, le verbe go ne change jamais.",
+    "highlight": "I can go to a + type d'école + school. Exemple : I can go to a public school. (Je peux aller dans une école publique.)"
+  },
+  "example": {
+    "problem": "Awa dit : « Je peux aller dans une école privée. » Traduis cette phrase en anglais.",
+    "steps": [
+      "Je peux se dit I can en anglais.",
+      "Aller dans se dit go to.",
+      "Une école privée se dit a private school.",
+      "En anglais, on met d'abord l'adjectif private, puis le nom school.",
+      "Réponse : I can go to a private school. (Je peux aller dans une école privée.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Je peux aller dans une école publique » en anglais ?",
+    "reponse_calculee": "I can go to a public school.",
+    "choices": [
+      {
+        "label": "I can go to a public school.",
+        "correct": true
+      },
+      {
+        "label": "I can go to a school public.",
+        "correct": false
+      },
+      {
+        "label": "I am go to a public school.",
+        "correct": false
+      },
+      {
+        "label": "I go can to a public school.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! I can go to a public school est la bonne phrase. On met I can, puis go to, puis a, puis l'adjectif public avant le nom school.",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. La bonne réponse est I can go to a public school. (Je peux aller dans une école publique.) Après I can, le verbe go reste tel quel, et l'adjectif public se place avant le nom school."
+  },
+  "verification": "ok2"
+}

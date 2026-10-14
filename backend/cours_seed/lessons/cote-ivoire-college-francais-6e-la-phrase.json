@@ -1,0 +1,75 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-la-phrase",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · La phrase",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · La phrase",
+  "intro": {
+    "heading": "Un message au marché",
+    "body": "Awa écrit un petit mot à son frère Koffi : « Rapporte du pain ce soir. » Koffi comprend tout de suite ce qu'il doit faire. Si Awa avait écrit « pain soir du rapporte ce », il n'aurait rien compris. Aujourd'hui, tu découvres comment bien construire une phrase pour te faire comprendre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧩",
+        "text": "Une phrase a un sens, une majuscule et une ponctuation finale."
+      },
+      {
+        "icon": "❓",
+        "text": "Quatre types : déclarative, interrogative, impérative, exclamative."
+      },
+      {
+        "icon": "🔗",
+        "text": "Un verbe conjugué : phrase simple ; plusieurs : phrase complexe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et analyser une phrase",
+    "explanation": "Une phrase est une suite de mots organisés qui a un sens. Elle commence par une majuscule et se termine par un signe de ponctuation (. ? ! ou ...). En général, elle comprend deux constituants essentiels : le groupe sujet, qui dit de qui ou de quoi on parle, et le groupe verbal, qui dit ce que fait le sujet ou ce qu'il est. (À l'impératif, le sujet n'est pas exprimé : « Rapporte du pain. ») Elle peut aussi avoir un complément de phrase, que l'on peut déplacer ou supprimer, par exemple « au marché ». Il existe quatre types de phrases : la déclarative donne une information, l'interrogative pose une question, l'impérative donne un ordre ou un conseil, l'exclamative exprime un sentiment. Chaque phrase a une forme affirmative ou négative : « Koffi mange » est affirmative, « Koffi ne mange pas » est négative. Une phrase simple contient un seul verbe conjugué (un verbe à un temps composé, comme « a mangé », compte pour un seul verbe). Une phrase complexe contient plusieurs verbes conjugués, reliés par un mot comme « et », « mais », « parce que » ou « pendant que », ou séparés par une virgule.",
+    "highlight": "Un seul verbe conjugué : phrase simple. Plusieurs verbes conjugués : phrase complexe."
+  },
+  "example": {
+    "problem": "Situation : à l'école, ton enseignant te demande d'analyser deux phrases écrites par Awa. Phrase 1 : « Awa vend des mangues au marché. » Phrase 2 : « Awa vend des mangues et Koffi les achète. » Tâche : identifie les constituants, le type, la forme, puis dis si chaque phrase est simple ou complexe.",
+    "steps": [
+      "Phrase 1 : le verbe conjugué est « vend ». Il n'y a qu'un seul verbe conjugué, donc c'est une phrase simple.",
+      "Constituants : le groupe sujet est « Awa », le groupe verbal est « vend des mangues », le complément de phrase est « au marché » (il indique le lieu).",
+      "Vérification : on peut déplacer ce complément, « Au marché, Awa vend des mangues. » La phrase garde son sens.",
+      "Type et forme : la phrase donne une information, elle est déclarative. Elle ne contient aucune négation, elle est donc affirmative.",
+      "Transformation : « Awa ne vend pas de mangues au marché. » est la forme négative. « Awa vend-elle des mangues au marché ? » est une phrase interrogative.",
+      "Phrase 2 : on trouve deux verbes conjugués, « vend » et « achète », reliés par « et ». C'est donc une phrase complexe.",
+      "Analyse de la phrase 2 : elle contient deux groupes sujet-verbe, « Awa vend des mangues » et « Koffi les achète ». Elle donne une information, elle est déclarative. Elle ne contient aucune négation, elle est donc affirmative."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases est une phrase complexe ?",
+    "reponse_calculee": "Aya chante pendant que sa mère prépare le repas.",
+    "choices": [
+      {
+        "label": "Koffi mange une mangue.",
+        "correct": false
+      },
+      {
+        "label": "Les élèves de la 6e jouent dans la cour.",
+        "correct": false
+      },
+      {
+        "label": "Aya chante pendant que sa mère prépare le repas.",
+        "correct": true
+      },
+      {
+        "label": "Le marché ouvre tôt le matin.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase contient deux verbes conjugués, « chante » et « prépare », reliés par « pendant que ». C'est bien une phrase complexe.",
+    "feedback_wrong": "Une phrase complexe contient plusieurs verbes conjugués. « Koffi mange une mangue », « Les élèves de la 6e jouent dans la cour » et « Le marché ouvre tôt le matin » n'ont chacune qu'un seul verbe conjugué : ce sont des phrases simples. La bonne réponse est « Aya chante pendant que sa mère prépare le repas. », qui a deux verbes conjugués : « chante » et « prépare »."
+  },
+  "verification": "ok2"
+}

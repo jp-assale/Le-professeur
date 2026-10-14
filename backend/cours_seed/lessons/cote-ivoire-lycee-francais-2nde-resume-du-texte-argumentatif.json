@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-resume-du-texte-argumentatif",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · Resume du texte argumentatif",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Resume du texte argumentatif",
+  "intro": {
+    "heading": "Une situation d'évaluation au lycée",
+    "body": "Ton professeur de français te remet un texte de vingt lignes sur l'usage du téléphone portable à l'école, avec la consigne suivante : « Résume ce texte au quart de sa longueur. » Ton camarade Koffi recopie des phrases entières et n'obtient presque aucun point. Toi, tu veux garder uniquement ce qui compte vraiment. Dans cette leçon, tu apprends la méthode pour y parvenir, étape par étape."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Repère la thèse et les arguments de l'auteur."
+      },
+      {
+        "icon": "🎯",
+        "text": "Garde l'essentiel, supprime exemples et détails."
+      },
+      {
+        "icon": "📝",
+        "text": "Reformule avec tes mots et respecte la consigne."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode du résumé argumentatif",
+    "explanation": "Un texte argumentatif défend une thèse, c'est-à-dire une opinion, à l'aide d'arguments. Avant de résumer, tu identifies la situation d'argumentation : qui parle, à qui, sur quel sujet et dans quel but. Ensuite, tu lis le texte paragraphe par paragraphe et tu sélectionnes les idées essentielles : la thèse, les arguments principaux et l'idée finale de l'auteur. Tu écartes les exemples, les anecdotes, les citations et les répétitions. Puis tu reformules chaque idée avec tes propres mots, sans recopier de phrases du texte. Tu rédiges enfin un texte continu, en restant fidèle au point de vue de l'auteur (tu n'écris pas « l'auteur dit que » à chaque phrase), avec des connecteurs logiques comme « d'abord », « en outre », « donc ». Tu ne donnes jamais ton avis personnel et tu respectes la longueur demandée (souvent le quart du texte). Tu présentes seulement les idées de l'auteur, sans commentaire de ta part.",
+    "highlight": "Résumer, c'est garder la thèse et les arguments, supprimer les exemples, et reformuler avec ses propres mots."
+  },
+  "example": {
+    "problem": "Voici un court texte inventé : « Beaucoup d'adultes affirment que le téléphone portable nuit aux études. Pourtant, bien utilisé, il aide l'élève à réviser. Par exemple, Awa télécharge des exercices et les corrige avec ses amies après les cours. Il permet aussi de chercher le sens d'un mot inconnu. Le problème n'est donc pas l'appareil, mais l'usage qu'on en fait. » Résume ce texte en deux phrases.",
+    "steps": [
+      "Situation d'argumentation : l'auteur s'adresse à des lecteurs qui pensent peut-être le contraire et veut montrer que le téléphone n'est pas mauvais en soi.",
+      "Thèse : le téléphone portable peut aider les études s'il est bien utilisé.",
+      "Arguments essentiels : il facilite la révision et la recherche du sens des mots.",
+      "Idée à supprimer : l'exemple d'Awa, qui n'illustre qu'un argument.",
+      "Reformulation : « est utile » à la place de « aide », « recherche de vocabulaire » à la place de « chercher le sens d'un mot inconnu », « la manière de s'en servir » à la place de « l'usage qu'on en fait ».",
+      "Résumé rédigé : Le téléphone portable est utile aux élèves, car il facilite la révision et la recherche de vocabulaire. Ce n'est donc pas l'outil qui pose problème, mais la manière de s'en servir."
+    ]
+  },
+  "quiz": {
+    "question": "Lors du résumé d'un texte argumentatif, lequel de ces éléments dois-tu supprimer ?",
+    "reponse_calculee": "Les exemples et anecdotes qui illustrent les arguments",
+    "choices": [
+      {
+        "label": "La thèse défendue par l'auteur",
+        "correct": false
+      },
+      {
+        "label": "Les exemples et anecdotes qui illustrent les arguments",
+        "correct": true
+      },
+      {
+        "label": "Les arguments principaux du texte",
+        "correct": false
+      },
+      {
+        "label": "Les idées essentielles de chaque paragraphe",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les exemples et les anecdotes servent seulement à illustrer les arguments : on les supprime pour garder la thèse et les arguments principaux.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. La thèse, les arguments principaux et les idées essentielles doivent être conservés dans le résumé. Ce sont les exemples et les anecdotes qu'on supprime."
+  },
+  "verification": "corrige2"
+}

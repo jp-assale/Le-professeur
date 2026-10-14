@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-vetements-modernes-et-vetem",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Vêtements modernes et vêtements traditionnels (Modern and traditional clothes)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Vêtements modernes et vêtements traditionnels (Modern and traditional clothes)",
+  "intro": {
+    "heading": "Un mariage à Abidjan",
+    "body": "Awa va au mariage de sa cousine. Sa mère porte un beau boubou et son frère Koffi préfère un jean et une chemise. Qui a raison ? Chacun explique son choix : « Je porte ça parce que... ». Dans cette leçon, tu apprends les mots des vêtements en anglais et comment donner des raisons dans un petit texte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👗",
+        "text": "Je connais des mots : boubou, jeans, dress, shirt, cap."
+      },
+      {
+        "icon": "💬",
+        "text": "Because donne la raison, so donne le résultat."
+      },
+      {
+        "icon": "✍️",
+        "text": "Je structure mon texte : majuscule, point, First, Also, Finally."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Décrire ses vêtements et donner des raisons",
+    "explanation": "Voici quelques mots utiles : a boubou (un boubou), a traditional dress (une robe traditionnelle), jeans (un jean, toujours au pluriel en anglais), a shirt (une chemise), a skirt (une jupe), a cap (une casquette). Pour dire ce que tu portes, tu utilises « I wear » (je porte). Avec he, she ou un prénom, on ajoute un -s : Awa wears, Koffi wears. Pour donner une raison, tu utilises « because » (parce que) : la raison est une phrase complète avec un sujet et un verbe. Pour donner un résultat, tu utilises « so » (donc). Exemple : It is hot, so I wear a light shirt (Il fait chaud, donc je porte une chemise légère). Pour répondre à la question « Why? » (Pourquoi ?), tu commences par « Because... ». Dans un texte écrit, tu commences chaque phrase par une majuscule et tu termines par un point. Tu peux organiser tes idées avec First (d'abord), Also (aussi) et Finally (enfin).",
+    "highlight": "I wear + vêtement + because + sujet + verbe. Exemple : I wear a boubou because it is elegant. (Je porte un boubou parce qu'il est élégant.)"
+  },
+  "example": {
+    "problem": "Awa va à un mariage. Relie les deux idées avec because pour écrire une seule phrase : Awa wears a traditional dress. / It is beautiful.",
+    "steps": [
+      "Je repère la première idée : Awa wears a traditional dress (Awa porte une robe traditionnelle). C'est l'action.",
+      "Je repère la deuxième idée : It is beautiful (Elle est belle). C'est la raison.",
+      "Je place because (parce que) entre l'action et la raison.",
+      "Je garde la raison complète, avec un sujet et un verbe : it is beautiful.",
+      "Je mets une majuscule au début et un point à la fin. Réponse : Awa wears a traditional dress because it is beautiful. (Awa porte une robe traditionnelle parce qu'elle est belle.)"
+    ]
+  },
+  "quiz": {
+    "question": "Koffi porte une casquette parce qu'il y a du soleil. Quelle phrase anglaise le dit correctement ?",
+    "reponse_calculee": "Koffi wears a cap because it is sunny.",
+    "choices": [
+      {
+        "label": "Koffi wears a cap because it is sunny.",
+        "correct": true
+      },
+      {
+        "label": "Koffi wears a cap because sunny.",
+        "correct": false
+      },
+      {
+        "label": "Koffi because wears a cap it is sunny.",
+        "correct": false
+      },
+      {
+        "label": "Koffi wears a cap because of it is sunny.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après because, on écrit une phrase complète avec un sujet et un verbe : it is sunny. Koffi wears a cap because it is sunny signifie : Koffi porte une casquette parce qu'il y a du soleil.",
+    "feedback_wrong": "La bonne réponse est : Koffi wears a cap because it is sunny. (Koffi porte une casquette parce qu'il y a du soleil.) Because se place entre l'action et la raison, et la raison doit avoir un sujet et un verbe. Il manque le verbe dans « because sunny », l'ordre des mots est faux dans « Koffi because wears a cap it is sunny », et « because of » ne se met pas devant une phrase complète comme « it is sunny »."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-probier-mal",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Probier Mal",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Probier Mal",
+  "intro": {
+    "heading": "Une mangue à partager",
+    "body": "À la récréation, Awa apporte des mangues douces pour ses amis. Elle veut inviter Koffi à goûter, mais en allemand ! Aujourd'hui, tu apprends à dire « Probier mal ! » (Goûte donc !) et à construire d'autres invitations simples pour inviter un camarade à essayer quelque chose."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🥭",
+        "text": "Probier mal ! veut dire : Goûte donc ! (Essaie un peu !)"
+      },
+      {
+        "icon": "✂️",
+        "text": "Impératif avec du (verbes réguliers) : on enlève -st au verbe."
+      },
+      {
+        "icon": "🙂",
+        "text": "Le petit mot mal rend l'invitation plus aimable."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "L'impératif avec « du » et le mot « mal »",
+    "explanation": "Pour inviter un ami à faire quelque chose, on utilise l'impératif. Pour s'adresser à une seule personne que l'on tutoie, on part de la forme avec du, puis on enlève la terminaison -st (verbes réguliers). Exemple : du probierst (tu goûtes) devient Probier ! (Goûte !). De même, du kommst (tu viens) devient Komm ! (Viens !) et du machst (tu fais) devient Mach ! (Fais !). Attention : certains verbes changent leur voyelle et sont à apprendre par cœur : essen (manger) donne Iss ! (Mange !) et nehmen (prendre) donne Nimm ! (Prends !). Le verbe se place au début de la phrase. Le petit mot mal rend l'invitation plus douce, comme « donc » ou « un peu » en français : Probier mal ! (Goûte donc !).",
+    "highlight": "Forme avec du sans -st + mal : Probier mal die Mango ! (Goûte donc la mangue !)"
+  },
+  "example": {
+    "problem": "Awa offre une mangue à Koffi. Écris en allemand : « Goûte donc la mangue ! » (die Mango = la mangue).",
+    "steps": [
+      "Le verbe est probieren (goûter, essayer).",
+      "À la forme avec du : du probierst (tu goûtes).",
+      "On enlève -st : probier. L'impératif est Probier.",
+      "On ajoute le petit mot mal pour être aimable : Probier mal.",
+      "On ajoute ce que Koffi doit goûter : die Mango.",
+      "Réponse : Probier mal die Mango ! (Goûte donc la mangue !)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase signifie « Goûte donc la mangue ! » en s'adressant à un ami ?",
+    "reponse_calculee": "Probier mal die Mango!",
+    "choices": [
+      {
+        "label": "Probier mal die Mango!",
+        "correct": true
+      },
+      {
+        "label": "Probierst mal die Mango!",
+        "correct": false
+      },
+      {
+        "label": "Probieren mal die Mango!",
+        "correct": false
+      },
+      {
+        "label": "Mal die Mango probier!",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour tutoyer un ami, on prend du probierst, on enlève -st et on met le verbe en premier : Probier mal die Mango ! (Goûte donc la mangue !)",
+    "feedback_wrong": "La bonne réponse est Probier mal die Mango ! Pour l'impératif avec du, on enlève la terminaison -st : probier, et non probierst. Le verbe doit aussi être placé au début de la phrase."
+  },
+  "verification": "ok2"
+}

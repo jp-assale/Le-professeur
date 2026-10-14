@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-recettes-de-cuisine-recipes",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Recettes de cuisine (Recipes)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Recettes de cuisine (Recipes)",
+  "intro": {
+    "heading": "Cuisine avec ta cousine Awa",
+    "body": "Ce samedi, ta cousine Awa veut préparer de l'alloco (des bananes plantains frites), mais elle ne lit que l'anglais sur un site de cuisine. Tu dois lui expliquer la recette étape par étape. Dans une situation d'évaluation, on te demande souvent d'écrire ou de dire une recette simple à un ami. Dans cette leçon, tu apprends à donner des instructions, à ordonner les étapes et à bien placer ta voix."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍳",
+        "text": "Une instruction utilise un verbe à la forme de base, sans sujet."
+      },
+      {
+        "icon": "🔢",
+        "text": "First, then, next, after that, finally organisent les étapes."
+      },
+      {
+        "icon": "🎵",
+        "text": "La voix descend à la fin d'une instruction."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner des instructions et ordonner les étapes",
+    "explanation": "Pour donner un ordre ou une instruction en anglais, tu utilises le verbe à la forme de base, sans sujet. Par exemple : Peel the plantains. (Épluche les plantains.) Pour dire de ne pas faire quelque chose, tu mets Don't devant le verbe : Don't burn the plantains. (Ne fais pas brûler les plantains.) Pour ordonner les étapes, tu utilises des connecteurs chronologiques : First (d'abord), then (ensuite), next (puis), after that (après cela) et finally (enfin). Après le connecteur, on met en général une virgule à l'écrit et une petite pause à l'oral. Pour l'intonation, la voix descend à la fin d'une instruction : Cut the onions. Dans une liste d'ingrédients, la voix monte un peu sur chaque élément, puis descend sur le dernier : oil, salt and onions.",
+    "highlight": "Verbe de base + complément : Wash the rice. (Lave le riz.) Connecteur + virgule : Then, add salt. (Ensuite, ajoute du sel.)"
+  },
+  "example": {
+    "problem": "Awa te demande de l'aide. Avec les mots then, the, wash, rice, construis l'instruction « Ensuite, lave le riz. »",
+    "steps": [
+      "Cherche d'abord le connecteur : then signifie « ensuite ». Il se place au début de la phrase.",
+      "Mets une virgule après le connecteur : Then,",
+      "Choisis le verbe d'instruction : wash. Il reste à la forme de base, sans sujet (pas de you).",
+      "Ajoute le complément : the rice.",
+      "Termine par un point et lis la phrase en faisant descendre ta voix sur rice. Réponse : Then, wash the rice. (Ensuite, lave le riz.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais « Coupe les oignons. » dans une recette ?",
+    "reponse_calculee": "Cut the onions.",
+    "choices": [
+      {
+        "label": "Cut the onions.",
+        "correct": true
+      },
+      {
+        "label": "You cuts the onions.",
+        "correct": false
+      },
+      {
+        "label": "Cutting the onions you.",
+        "correct": false
+      },
+      {
+        "label": "Onions the cut.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Une instruction commence par le verbe à la forme de base (cut), suivi de son complément (the onions). Cut the onions. (Coupe les oignons.)",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Dans une instruction, on utilise le verbe à la forme de base, sans sujet et sans -s, puis le complément dans le bon ordre. La bonne réponse est : Cut the onions. (Coupe les oignons.)"
+  },
+  "verification": "ok2"
+}

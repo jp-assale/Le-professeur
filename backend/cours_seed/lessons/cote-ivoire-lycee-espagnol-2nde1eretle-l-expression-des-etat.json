@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-l-expression-des-etat",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · L'expression des états d'âme",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · L'expression des états d'âme",
+  "intro": {
+    "heading": "Un message pour un correspondant espagnol",
+    "body": "Koffi, un élève d'Abidjan, reçoit le résultat de son examen. Il est heureux, mais son ami Yao a échoué et il en est triste. Il veut écrire à un correspondant espagnol pour lui dire ce qu'il ressent et pourquoi. Dans une situation d'évaluation, on te demandera la même chose : exprimer un sentiment et le justifier avec des phrases simples."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "😊",
+        "text": "Pour dire un sentiment : estar + adjectif, ou tener miedo."
+      },
+      {
+        "icon": "❤️",
+        "text": "Pour les goûts : me gusta, prefiero, quiero."
+      },
+      {
+        "icon": "✍️",
+        "text": "Pour justifier un sentiment, utilise porque + la raison."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que l'on ressent et pourquoi",
+    "explanation": "En espagnol, on exprime la joie ou la peine avec le verbe estar suivi d'un adjectif : Estoy contento (Je suis content) ou Estoy triste (Je suis triste). L'adjectif s'accorde : contento devient contenta pour une fille. La peur se dit avec tener : Tengo miedo (J'ai peur). Pour les goûts, on dit Me gusta el fútbol (J'aime le football), Prefiero el arroz (Je préfère le riz) et Quiero viajar (Je veux voyager). Pour la compassion, on dit Lo siento mucho (Je suis vraiment désolé). Pour la surprise ou l'admiration, on utilise ¡Qué sorpresa! (Quelle surprise !) et ¡Qué bonito! (Comme c'est beau !). Pour la reconnaissance, on dit Gracias (Merci) ; pour l'espérance ou l'intention, Espero aprobar (J'espère réussir). Pour justifier, on ajoute porque (parce que) et la raison.",
+    "highlight": "Estoy + adjectif + porque + raison. Exemple : Estoy contenta porque tengo una buena nota. (Je suis contente parce que j'ai une bonne note.)"
+  },
+  "example": {
+    "problem": "Construis en espagnol la phrase : « Aya est contente parce qu'elle a une bonne note. »",
+    "steps": [
+      "Identifie l'état d'âme : c'est la joie, donc on utilise estar + contento ou contenta.",
+      "Aya est une fille, donc l'adjectif est au féminin : contenta.",
+      "Le sujet est à la 3e personne du singulier, donc estar devient está : Aya está contenta.",
+      "Pour justifier, ajoute porque (parce que).",
+      "La raison est tiene una buena nota (elle a une bonne note). Phrase complète : Aya está contenta porque tiene una buena nota. (Aya est contente parce qu'elle a une bonne note.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en espagnol : « Je suis triste parce que mon ami est malade » ?",
+    "reponse_calculee": "Estoy triste porque mi amigo está enfermo.",
+    "choices": [
+      {
+        "label": "Estoy triste porque mi amigo está enfermo.",
+        "correct": true
+      },
+      {
+        "label": "Estoy contento porque mi amigo está enfermo.",
+        "correct": false
+      },
+      {
+        "label": "Tengo triste porque mi amigo está enfermo.",
+        "correct": false
+      },
+      {
+        "label": "Estoy triste pero mi amigo está enfermo.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Estoy triste exprime la peine avec estar + adjectif, et porque introduit la raison : mi amigo está enfermo (mon ami est malade).",
+    "feedback_wrong": "La bonne réponse est : Estoy triste porque mi amigo está enfermo. Contento veut dire content, donc le sens est faux. Avec triste, on utilise estar et non tener (tener sert pour tengo miedo). Pero veut dire mais ; pour justifier, il faut porque."
+  },
+  "verification": "ok2"
+}

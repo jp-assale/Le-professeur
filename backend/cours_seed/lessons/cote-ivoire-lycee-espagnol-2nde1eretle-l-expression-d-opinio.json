@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-l-expression-d-opinio",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · L'expression d'opinion",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · L'expression d'opinion",
+  "intro": {
+    "heading": "Un débat à la sortie du cours",
+    "body": "À Abidjan, Awa et Koffi discutent après le cours d'espagnol. Awa dit que le sport est important pour tous les élèves. Koffi n'est pas d'accord et explique pourquoi. Pour participer à ce débat en espagnol, tu dois savoir donner ton avis, dire si tu es sûr(e) de toi, approuver ou désapprouver, puis justifier."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Pour donner ton avis, dis Creo que ou Pienso que."
+      },
+      {
+        "icon": "✅",
+        "text": "Pour approuver, dis Estoy de acuerdo ; pour désapprouver, No estoy de acuerdo."
+      },
+      {
+        "icon": "🧠",
+        "text": "Pour justifier ton opinion, utilise porque suivi de ta raison."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner son avis et le justifier",
+    "explanation": "Pour exprimer une opinion, tu peux commencer par Creo que (Je crois que) ou Pienso que (Je pense que). Pour exprimer la certitude, dis Estoy seguro de que (Je suis sûr que) si tu es un garçon, et Estoy segura de que si tu es une fille. Pour l'incertitude, dis No estoy seguro (Je ne suis pas sûr) ou No estoy segura. Pour approuver, dis Estoy de acuerdo (Je suis d'accord). Pour désapprouver, dis No estoy de acuerdo (Je ne suis pas d'accord). Ensuite, tu justifies avec porque (parce que) et tu donnes ta raison.",
+    "highlight": "Creo que + opinion, porque + raison. Exemple : Creo que el deporte es importante porque es bueno para la salud. (Je crois que le sport est important parce que c'est bon pour la santé.)"
+  },
+  "example": {
+    "problem": "Traduis en espagnol : « Je suis d'accord avec Awa parce que le sport est important. »",
+    "steps": [
+      "Pour approuver, on utilise Estoy de acuerdo (Je suis d'accord).",
+      "Pour dire « avec Awa », on ajoute con Awa.",
+      "Pour justifier, on utilise porque (parce que) suivi de la raison.",
+      "« Le sport » se dit el deporte, et « est important » se dit es importante.",
+      "Phrase complète : Estoy de acuerdo con Awa porque el deporte es importante. (Je suis d'accord avec Awa parce que le sport est important.)"
+    ]
+  },
+  "quiz": {
+    "question": "Koffi n'est pas du même avis qu'Awa. Quelle phrase espagnole doit-il dire pour désapprouver ?",
+    "reponse_calculee": "No estoy de acuerdo.",
+    "choices": [
+      {
+        "label": "Estoy de acuerdo.",
+        "correct": false
+      },
+      {
+        "label": "No estoy de acuerdo.",
+        "correct": true
+      },
+      {
+        "label": "Estoy seguro.",
+        "correct": false
+      },
+      {
+        "label": "Porque es importante.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! No estoy de acuerdo signifie « Je ne suis pas d'accord ». Le mot No placé devant estoy de acuerdo sert à désapprouver.",
+    "feedback_wrong": "La bonne réponse est No estoy de acuerdo (Je ne suis pas d'accord). Estoy de acuerdo veut dire « Je suis d'accord », donc c'est le contraire. Estoy seguro veut dire « Je suis sûr » et exprime la certitude. Porque es importante veut dire « Parce que c'est important » : c'est une justification, pas une façon de désapprouver."
+  },
+  "verification": "ok2"
+}

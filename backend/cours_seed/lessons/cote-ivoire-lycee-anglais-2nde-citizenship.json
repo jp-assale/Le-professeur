@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-citizenship",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Citizenship",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Citizenship",
+  "intro": {
+    "heading": "Un quartier qui s'organise",
+    "body": "Kouassi et Aya habitent le même quartier à Abidjan. Le samedi, ils nettoient la rue avec d'autres jeunes, et une ONG leur prête des gants et des sacs. Leur professeur d'anglais leur demande de présenter cette action en anglais. Pour cela, il faut savoir décrire une personne, une chose ou un lieu avec les pronoms relatifs who, which, where et that."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧑",
+        "text": "Who s'emploie pour une personne."
+      },
+      {
+        "icon": "📦",
+        "text": "Which s'emploie pour une chose, where pour un lieu."
+      },
+      {
+        "icon": "🔗",
+        "text": "That remplace who ou which dans les phrases courantes."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les pronoms relatifs who, which, where, that",
+    "explanation": "Un pronom relatif relie deux phrases et évite de répéter un mot. Après une personne, tu utilises who : a citizen (un citoyen) who votes. Après une chose ou une idée, tu utilises which : a law (une loi) which protects people. Après un lieu, tu utilises where : the town hall (la mairie) where citizens meet. Le pronom that peut remplacer who ou which dans les phrases simples, mais il ne remplace pas where. Quand who, which ou that remplace le sujet (he, she, it, they), on ne répète pas ce sujet : on dit a volunteer who helps, et non a volunteer who she helps. Tu peux ainsi présenter une ONG ou un bénévole (a volunteer) en une seule phrase.",
+    "highlight": "personne → who ; chose → which ; lieu → where. Ex. : A volunteer is a person who helps others. (Un bénévole est une personne qui aide les autres.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec le bon pronom relatif : Aya is a volunteer. She helps children in our neighbourhood. (Aya est bénévole. Elle aide les enfants de notre quartier.)",
+    "steps": [
+      "Lis les deux phrases : Aya is a volunteer. / She helps children in our neighbourhood.",
+      "Repère le mot qui se répète : She remplace Aya, donc une personne.",
+      "Pour une personne, on choisit le pronom who.",
+      "On remplace She par who et on relie les deux phrases sans point entre elles.",
+      "Réponse : Aya is a volunteer who helps children in our neighbourhood. (Aya est une bénévole qui aide les enfants de notre quartier.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis le bon mot : Mariam is a citizen ___ helps her neighbours. (Mariam est une citoyenne qui aide ses voisins.)",
+    "reponse_calculee": "who",
+    "choices": [
+      {
+        "label": "who",
+        "correct": true
+      },
+      {
+        "label": "which",
+        "correct": false
+      },
+      {
+        "label": "where",
+        "correct": false
+      },
+      {
+        "label": "each other",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Mariam est une personne, donc on utilise who : Mariam is a citizen who helps her neighbours.",
+    "feedback_wrong": "La bonne réponse est who. Mariam est une personne, donc on utilise who. Which sert pour une chose, where pour un lieu, et each other est un pronom réciproque qui ne relie pas deux phrases."
+  },
+  "verification": "ok2"
+}

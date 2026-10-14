@@ -1,0 +1,75 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-l-expose-oral-ii",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · L'exposé oral II",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · L'exposé oral II",
+  "intro": {
+    "heading": "Une semaine de la lecture à l'école",
+    "body": "Ton collège organise une semaine de la lecture. Ton professeur de français te demande de présenter à la classe un conte que tu as lu. Ton camarade Yao parle trop vite, mélange les idées et emploie des mots de la rue ; personne ne le comprend bien. Tu vas apprendre à préparer un compte rendu oral clair, bien construit et adapté à ton auditoire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Présente le document, résume l'essentiel, donne ton avis, puis conclus."
+      },
+      {
+        "icon": "📝",
+        "text": "Choisis un vocabulaire précis et des phrases variées."
+      },
+      {
+        "icon": "🏫",
+        "text": "Adapte ton registre de langue : courant ou soutenu en classe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Réussir un compte rendu oral de lecture",
+    "explanation": "Un compte rendu oral de lecture consiste à présenter devant un auditoire un document que tu as lu, en gardant seulement l'essentiel. Il comporte quatre éléments : la présentation du document (titre, auteur, nature), le résumé de son contenu, ton appréciation justifiée et une courte conclusion. Le document peut être un conte, un article, un texte informatif, une affiche ou une bande dessinée ; tu dois d'abord en préciser la nature. Choisis un vocabulaire approprié : des verbes comme présenter, raconter ou expliquer, et des mots de liaison comme d'abord, ensuite, enfin. Varie les types de phrases (déclarative, interrogative, impérative, exclamative) et leurs formes (affirmative, négative) ; une question posée à la classe retient l'attention. Adapte le registre de langue au contexte : devant la classe, on emploie le registre courant ou soutenu, jamais le registre familier. Parle d'une voix claire et appuie-toi sur de courtes notes, sans lire mot à mot.",
+    "highlight": "Compte rendu oral : présenter le document, résumer, donner son avis, conclure, avec un registre courant ou soutenu."
+  },
+  "example": {
+    "problem": "Contexte : ton école organise une semaine de la lecture. Circonstance : tu as lu un conte inventé, « La bourse de Tanoh », dans lequel un garçon trouve une bourse contenant 5 000 FCFA au marché et la rend à sa propriétaire. Tâche : prépare les parties principales de ton compte rendu oral : la présentation, le résumé, une question à la classe, ton avis et la conclusion.",
+    "steps": [
+      "Repère la nature du document : c'est un conte, et son titre est La bourse de Tanoh.",
+      "Rédige la présentation : « Bonjour à tous, je vais vous présenter le conte intitulé La bourse de Tanoh. » C'est une phrase déclarative au registre courant.",
+      "Résume l'essentiel en une phrase : « Au marché, Tanoh trouve une bourse contenant 5 000 FCFA et la rend à sa propriétaire. » Le verbe est au présent et la phrase est brève.",
+      "Ajoute une question pour captiver l'auditoire : « Et vous, auriez-vous agi comme lui ? » C'est une phrase interrogative.",
+      "Évite le registre familier. Ne dis pas : « Le gars a trouvé un paquet de sous. » Dis plutôt : « Le garçon a trouvé une somme d'argent. »",
+      "Donne ton avis justifié : « J'ai aimé ce conte parce qu'il montre la valeur de l'honnêteté. »",
+      "Termine par une courte conclusion : « Je vous recommande ce conte. Merci de votre attention. »"
+    ]
+  },
+  "quiz": {
+    "question": "Tu commences ton compte rendu oral devant la classe. Quelle phrase respecte le registre de langue adapté à cette situation ?",
+    "reponse_calculee": "Je vais vous présenter le conte intitulé La bourse de Tanoh.",
+    "choices": [
+      {
+        "label": "Je vais vous présenter le conte intitulé La bourse de Tanoh.",
+        "correct": true
+      },
+      {
+        "label": "Bon, je vous raconte l'histoire du gars-là, c'est chaud !",
+        "correct": false
+      },
+      {
+        "label": "Yo la classe, le texte-là, c'est trop fort, écoutez bien !",
+        "correct": false
+      },
+      {
+        "label": "Voilà, ça parle d'un truc bizarre, j'ai pas trop compris.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase est une déclarative claire, au registre courant, et elle présente le document avec son titre. C'est exactement ce qu'on attend au début d'un compte rendu oral.",
+    "feedback_wrong": "Les autres phrases emploient le registre familier (« le gars-là », « c'est chaud », « yo », « truc »), qui ne convient pas devant la classe. La bonne réponse est : Je vais vous présenter le conte intitulé La bourse de Tanoh. Elle est en registre courant et présente le titre du document."
+  },
+  "verification": "ok2"
+}

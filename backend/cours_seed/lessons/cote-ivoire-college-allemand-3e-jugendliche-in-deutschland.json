@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-jugendliche-in-deutschland",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Jugendliche In Deutschland",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Jugendliche In Deutschland",
+  "intro": {
+    "heading": "Une lettre de Lukas",
+    "body": "Dans ta classe de 3e à Abidjan, ton professeur reçoit une lettre d'un jeune Allemand, Lukas, qui cherche un correspondant. Il parle de son école, de ses loisirs et de sa semaine. Ta tâche est de lui répondre en allemand avec des phrases simples sur ton quotidien. Pour cela, tu dois bien placer le verbe dans la phrase."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "Les jeunes parlent de leurs loisirs et de leur semaine."
+      },
+      {
+        "icon": "2️⃣",
+        "text": "Le verbe conjugué est toujours en deuxième position."
+      },
+      {
+        "icon": "✉️",
+        "text": "Tu peux écrire à un correspondant avec des phrases simples."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le verbe en deuxième position",
+    "explanation": "Pour parler de la vie quotidienne, on utilise le présent. Les verbes réguliers prennent ces terminaisons : ich spiele (je joue), du spielst (tu joues), er spielt (il joue). Dans une phrase affirmative allemande, le verbe conjugué est toujours en deuxième position. Cela ne change pas si tu commences la phrase par un complément de temps comme « am Montag » (le lundi). Dans ce cas, le verbe reste en deuxième place et le sujet passe après le verbe. Voici deux exemples : Lukas spielt am Samstag Fußball (Lukas joue au football le samedi) et Am Samstag spielt Lukas Fußball (Le samedi, Lukas joue au football). Ces deux phrases ont le même sens.",
+    "highlight": "Am Samstag spielt Lukas Fußball. (Le samedi, Lukas joue au football.)"
+  },
+  "example": {
+    "problem": "Remets les mots dans le bon ordre pour former une phrase : Am Wochenende – geht – Anna – ins Kino.",
+    "steps": [
+      "Repère le verbe conjugué : « geht » (va), de gehen (aller).",
+      "Commence par le complément de temps : « Am Wochenende » (le week-end).",
+      "Place le verbe en deuxième position, juste après : « geht ».",
+      "Ajoute ensuite le sujet : « Anna ».",
+      "Termine par le lieu : « ins Kino » (au cinéma).",
+      "Réponse : Am Wochenende geht Anna ins Kino. (Le week-end, Anna va au cinéma.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte en allemand ?",
+    "reponse_calculee": "Am Montag spielt Jonas Basketball.",
+    "choices": [
+      {
+        "label": "Am Montag spielt Jonas Basketball.",
+        "correct": true
+      },
+      {
+        "label": "Am Montag Jonas spielt Basketball.",
+        "correct": false
+      },
+      {
+        "label": "Am Montag Jonas Basketball spielt.",
+        "correct": false
+      },
+      {
+        "label": "Jonas am Montag spielt Basketball.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe « spielt » (joue) est en deuxième position, juste après « Am Montag » (le lundi). Le sujet « Jonas » vient ensuite : Am Montag spielt Jonas Basketball (Le lundi, Jonas joue au basketball).",
+    "feedback_wrong": "Dans une phrase affirmative allemande, le verbe conjugué est toujours en deuxième position. La bonne phrase est : Am Montag spielt Jonas Basketball (Le lundi, Jonas joue au basketball). Dans les autres propositions, le verbe est placé trop tard ou le sujet est mal placé."
+  },
+  "verification": "ok"
+}

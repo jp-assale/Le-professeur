@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-dialogue-argumentatif",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le dialogue argumentatif",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le dialogue argumentatif",
+  "intro": {
+    "heading": "Un débat à la cour du collège",
+    "body": "À la récréation, Aya et Kouassi discutent : faut-il porter l'uniforme tous les jours ? Aya répond que oui, Kouassi pense que non, et chacun donne ses raisons. Cet échange est un dialogue argumentatif. À l'examen, une situation d'évaluation te demandera de lire un tel texte, d'en repérer les idées, puis de défendre ton propre point de vue."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Deux personnages défendent des opinions opposées sur un même thème."
+      },
+      {
+        "icon": "🔍",
+        "text": "Repère le thème, les thèses, les connecteurs et les figures de style."
+      },
+      {
+        "icon": "💡",
+        "text": "Pour défendre une thèse, trouve des arguments et des exemples."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire méthodiquement un dialogue argumentatif",
+    "explanation": "Un dialogue argumentatif est un échange entre des personnages qui défendent des opinions différentes sur le même thème, c'est-à-dire le sujet dont ils parlent. Chaque personnage soutient une thèse, une opinion qu'il veut faire accepter, en donnant des arguments appuyés par des exemples. Pour lire méthodiquement, tu repères d'abord le thème, puis les thèses en présence, puis la structure du texte : ouverture du débat, échange d'arguments et de réfutations, conclusion ou accord. Les outils grammaticaux t'aident : les connecteurs logiques (car, parce que, donc, mais, pourtant, en effet) marquent la cause, la conséquence et l'opposition, et les phrases interrogatives ou exclamatives servent à convaincre. Les indices lexicaux sont les verbes d'opinion (penser, croire, estimer), les expressions d'accord ou de désaccord (je ne suis pas d'accord) et les mots valorisants ou dévalorisants. Les figures de style, comme la comparaison, la métaphore, l'hyperbole ou l'antithèse, rendent un argument plus frappant. Pour développer une thèse, tu cherches les idées en te demandant « pourquoi ? », tu trouves des exemples de la vie quotidienne et tu prévois l'objection de l'autre.",
+    "highlight": "Thème = sujet du débat ; thèse = opinion défendue ; argument = raison qui la soutient, appuyée par un exemple."
+  },
+  "example": {
+    "problem": "Lis ce court dialogue inventé et analyse-le. Yao : « Je pense que les élèves doivent apporter un téléphone au collège, car il aide à chercher des informations. » Mariam : « Je ne suis pas d'accord : en classe, le téléphone est un voleur de temps. Hier, Issa a joué au lieu d'écouter. Donc il faut l'interdire. »",
+    "steps": [
+      "Le thème : l'usage du téléphone portable au collège.",
+      "Les thèses en présence : Yao est pour le téléphone, Mariam est contre.",
+      "Les outils grammaticaux : « car » introduit l'argument de Yao ; « donc » introduit la conclusion de Mariam ; les deux points annoncent son explication.",
+      "Les indices lexicaux : « Je pense que » exprime une opinion, « Je ne suis pas d'accord » marque l'opposition.",
+      "La figure de style : « le téléphone est un voleur de temps » est une métaphore qui présente le téléphone comme un voleur, ce qui renforce la thèse de Mariam.",
+      "La structure : Yao donne sa thèse et un argument, Mariam réfute, donne un exemple (Issa) et conclut."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un dialogue argumentatif, que désigne le mot « thèse » ?",
+    "reponse_calculee": "L'opinion qu'un personnage défend sur le thème du débat",
+    "choices": [
+      {
+        "label": "Le sujet général dont les personnages parlent",
+        "correct": false
+      },
+      {
+        "label": "L'opinion qu'un personnage défend sur le thème du débat",
+        "correct": true
+      },
+      {
+        "label": "Le mot de liaison qui relie deux phrases",
+        "correct": false
+      },
+      {
+        "label": "La comparaison qui embellit une phrase",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! La thèse est l'opinion qu'un personnage cherche à faire accepter. Elle porte sur le thème et s'appuie sur des arguments et des exemples.",
+    "feedback_wrong": "La thèse est l'opinion qu'un personnage défend sur le thème du débat. Le sujet dont on parle est le thème, le mot de liaison est un connecteur logique, et la comparaison est une figure de style."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-expression-des-circonstanc",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'expression des circonstances dans la phrase simple / complexe",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'expression des circonstances dans la phrase simple / complexe",
+  "intro": {
+    "heading": "Un match annulé au collège",
+    "body": "Ce samedi, Awa et Koffi devaient jouer un match de football dans la cour de leur collège. Awa dit : « À cause de la pluie, le match est annulé. » Koffi répond : « Le match est annulé parce qu'il pleut. » Les deux phrases disent la même chose, mais elles ne sont pas construites de la même manière. Dans cette leçon, tu apprends à exprimer cause, conséquence, but, temps, comparaison, condition et opposition."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌧️",
+        "text": "Phrase simple : la circonstance est un groupe prépositionnel ou nominal."
+      },
+      {
+        "icon": "🔗",
+        "text": "Phrase complexe : une subordonnée introduite par un subordonnant."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le subordonnant donne la valeur et commande souvent le mode."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les circonstances et les subordonnants",
+    "explanation": "Une circonstance précise dans quelles conditions se passe l'action : cause, conséquence, but, temps, comparaison, condition ou opposition. Dans la phrase simple, elle s'exprime par un complément circonstanciel, souvent un groupe prépositionnel : « À cause de la pluie, le match est annulé. » Dans la phrase complexe, elle s'exprime par une proposition subordonnée circonstancielle, qui possède son propre verbe : « Le match est annulé parce qu'il pleut. » C'est le subordonnant qui donne la valeur : parce que (cause), si bien que (conséquence), pour que (but), quand (temps), comme (comparaison), si (condition), bien que (opposition). Le mode du verbe dépend du subordonnant. On emploie l'indicatif après parce que, si bien que, quand et si. On emploie le subjonctif après pour que, bien que, avant que (temps) et à condition que (condition). Attention : dans la subordonnée introduite par « si » de condition, on n'emploie ni le futur ni le conditionnel : on dit « Si tu travailles, tu réussiras ».",
+    "highlight": "Phrase simple : complément circonstanciel. Phrase complexe : subordonnée introduite par un subordonnant. Pour que et bien que sont suivis du subjonctif."
+  },
+  "example": {
+    "problem": "Transforme la phrase simple « Malgré la fatigue, Fatou vend ses mangues au marché. » en phrase complexe, puis nomme la circonstance.",
+    "steps": [
+      "Repère le complément circonstanciel : « Malgré la fatigue » est un groupe prépositionnel.",
+      "Cherche sa valeur : la préposition « malgré » exprime l'opposition.",
+      "Choisis un subordonnant d'opposition : « bien que », qui est suivi du subjonctif.",
+      "Remplace le groupe nominal « la fatigue » par une proposition avec un verbe : « elle est fatiguée » devient « qu'elle soit fatiguée » au subjonctif.",
+      "Écris la phrase complexe : « Bien qu'elle soit fatiguée, Fatou vend ses mangues au marché. »",
+      "Vérifie que le sens est resté le même : la circonstance est toujours l'opposition."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases contient une proposition subordonnée circonstancielle de but ?",
+    "reponse_calculee": "Kouadio révise chaque soir pour que ses notes s'améliorent.",
+    "choices": [
+      {
+        "label": "Kouadio révise chaque soir pour que ses notes s'améliorent.",
+        "correct": true
+      },
+      {
+        "label": "Kouadio révise chaque soir parce qu'il veut réussir.",
+        "correct": false
+      },
+      {
+        "label": "Kouadio révise chaque soir bien qu'il soit fatigué.",
+        "correct": false
+      },
+      {
+        "label": "Kouadio révise chaque soir quand il rentre de l'école.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Pour que » introduit un but et il est suivi du subjonctif : « pour que ses notes s'améliorent ». Kouadio révise dans l'intention d'améliorer ses notes.",
+    "feedback_wrong": "La bonne réponse est « Kouadio révise chaque soir pour que ses notes s'améliorent. » Le subordonnant « pour que » exprime le but et se construit avec le subjonctif. Les autres phrases expriment la cause (parce que), l'opposition (bien que) et le temps (quand)."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-tle-la-resolution-pacifique-des-c",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "Tle · La résolution pacifique des conflits",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "Tle · La résolution pacifique des conflits",
+  "intro": {
+    "heading": "Une dispute dans la cour du lycée",
+    "body": "À Abidjan, Awa et Koffi se disputent à cause d'un match de football pendant la récréation, et la tension monte. Ton professeur te demande d'écrire en allemand quelques phrases pour proposer une solution sans violence. Ta tâche : utiliser le vocabulaire du conflit et de la paix, puis construire des phrases avec un verbe modal pour conseiller les deux camarades."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕊️",
+        "text": "Der Frieden (la paix) s'oppose à die Gewalt (la violence)."
+      },
+      {
+        "icon": "🗣️",
+        "text": "verhandeln (négocier), zuhören (écouter), der Kompromiss (le compromis) : les mots clés pour résoudre un conflit."
+      },
+      {
+        "icon": "🧩",
+        "text": "Verbe modal en position 2, infinitif à la fin de la phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Vocabulaire du conflit et phrases avec verbe modal",
+    "explanation": "Pour parler de la résolution pacifique des conflits, tu as besoin de quelques mots essentiels : der Konflikt (le conflit), der Streit (la dispute), der Frieden (la paix), die Gewalt (la violence), friedlich (pacifique), der Kompromiss (le compromis), der Vermittler (le médiateur) et verhandeln (négocier). Pour donner un conseil ou exprimer une obligation, on utilise souvent un verbe modal : müssen (devoir), können (pouvoir) ou sollen (devoir, au sens de conseil). Voici la conjugaison de müssen au présent : ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen. Dans la phrase, le verbe modal est conjugué et se place en deuxième position. Le verbe de sens reste à l'infinitif et se place à la toute fin de la phrase. Par exemple : Wir können den Streit friedlich lösen. (Nous pouvons résoudre la dispute pacifiquement.) Avec cette structure, tu peux argumenter simplement : proposer, conseiller et refuser la violence.",
+    "highlight": "Modalverb an Position 2 + Infinitiv am Ende : Wir müssen miteinander sprechen. (Nous devons nous parler.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande : « Awa et Koffi doivent se parler. » Utilise le verbe modal müssen et le mot miteinander (les uns avec les autres).",
+    "steps": [
+      "Repère le sujet : Awa und Koffi, c'est un sujet au pluriel (ils).",
+      "Choisis le verbe modal conjugué : avec « ils », on dit sie müssen, donc müssen.",
+      "Place le verbe modal en deuxième position, juste après le sujet : Awa und Koffi müssen.",
+      "Ajoute miteinander (les uns avec les autres) avant le verbe de sens.",
+      "Mets le verbe de sens sprechen (parler) à l'infinitif, tout à la fin.",
+      "Phrase complète : Awa und Koffi müssen miteinander sprechen. (Awa et Koffi doivent se parler.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase allemande est correcte pour dire « Nous devons résoudre le conflit pacifiquement » ?",
+    "reponse_calculee": "Wir müssen den Konflikt friedlich lösen.",
+    "choices": [
+      {
+        "label": "Wir müssen den Konflikt friedlich lösen.",
+        "correct": true
+      },
+      {
+        "label": "Wir müssen lösen den Konflikt friedlich.",
+        "correct": false
+      },
+      {
+        "label": "Wir muss den Konflikt friedlich lösen.",
+        "correct": false
+      },
+      {
+        "label": "Wir müssen den Konflikt friedlich löst.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe modal müssen est conjugué à la forme wir müssen, en deuxième position, et le verbe de sens lösen reste à l'infinitif en fin de phrase. Wir müssen den Konflikt friedlich lösen. (Nous devons résoudre le conflit pacifiquement.)",
+    "feedback_wrong": "La bonne phrase est : Wir müssen den Konflikt friedlich lösen. (Nous devons résoudre le conflit pacifiquement.) Avec un verbe modal, on conjugue le modal (wir müssen, jamais wir muss) et on place le verbe de sens à l'infinitif tout à la fin, sans le conjuguer (lösen, pas löst)."
+  },
+  "verification": "ok2"
+}

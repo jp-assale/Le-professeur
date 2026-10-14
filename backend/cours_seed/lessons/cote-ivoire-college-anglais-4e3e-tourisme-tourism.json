@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-tourisme-tourism",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Tourisme (Tourism)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Tourisme (Tourism)",
+  "intro": {
+    "heading": "Un week-end à organiser",
+    "body": "Awa et Koffi veulent passer une journée de visite pendant les vacances. Ils doivent choisir un endroit, se faire des propositions, puis écrire à un ami anglophone pour lui décrire le site choisi. Dans une situation d'évaluation, on te demandera de faire la même chose en anglais. Voyons comment proposer, accepter, refuser et décrire un lieu."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏖️",
+        "text": "Apprends les mots du tourisme : beach, hotel, museum, guide."
+      },
+      {
+        "icon": "💡",
+        "text": "Suggère avec Let's, Why don't we ou How about."
+      },
+      {
+        "icon": "✍️",
+        "text": "Décris un site avec un plan simple et le présent."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de tourisme en anglais",
+    "explanation": "Pour parler de tourisme, tu utilises des mots comme tourist (touriste), hotel (hôtel), beach (plage), museum (musée), guide (guide) et ticket (billet). Pour faire une suggestion, tu peux dire Let's + verbe, Why don't we + verbe ? ou How about + verbe en -ing ? Pour accepter, dis Good idea! (Bonne idée !) ou Yes, let's! (Oui, allons-y !). Pour refuser poliment, dis Sorry, I can't. (Désolé, je ne peux pas.) ou No, thanks. (Non, merci.) Pour décrire un site par écrit, suis un petit plan : une phrase pour présenter le lieu, deux ou trois phrases de détails, puis une phrase de conclusion. Utilise le présent simple, par exemple It is a big park. (C'est un grand parc.) Relie tes idées avec First (d'abord), Then (ensuite) et Finally (enfin).",
+    "highlight": "Let's + verbe : Let's visit the museum. (Visitons le musée.)"
+  },
+  "example": {
+    "problem": "Tu es avec ton ami Koffi. Tu proposes de visiter le musée en utilisant Why don't we + verbe. Écris ta suggestion en anglais.",
+    "steps": [
+      "Je veux faire une suggestion : je choisis l'expression Why don't we.",
+      "Après Why don't we, j'utilise le verbe à la forme de base, sans to et sans -ing.",
+      "Visiter se dit visit et le musée se dit the museum.",
+      "Je mets un point d'interrogation à la fin, car Why don't we est une question.",
+      "Réponse : Why don't we visit the museum? (Et si nous visitions le musée ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Awa propose à ses amis de visiter le marché. Quelle phrase est une suggestion correcte en anglais ?",
+    "reponse_calculee": "Let's visit the market.",
+    "choices": [
+      {
+        "label": "Let's visit the market.",
+        "correct": true
+      },
+      {
+        "label": "Let's visiting the market.",
+        "correct": false
+      },
+      {
+        "label": "Let's to visit the market.",
+        "correct": false
+      },
+      {
+        "label": "Let's visits the market.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après Let's, on met le verbe à la forme de base : Let's visit the market. (Visitons le marché.)",
+    "feedback_wrong": "Après Let's, le verbe reste à la forme de base : pas de -ing, pas de to et pas de s. La bonne phrase est Let's visit the market. (Visitons le marché.)"
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-les-nombres-et-les-fournitu",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Les nombres et les fournitures scolaires (Numbers and school things)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Les nombres et les fournitures scolaires (Numbers and school things)",
+  "intro": {
+    "heading": "Une nouvelle camarade dans ta classe",
+    "body": "Koffi accueille Awa, une nouvelle élève, dans sa salle de classe à Abidjan. Elle ne connaît pas encore le nom des objets en anglais. Koffi doit lui dire combien il y a de cahiers et de stylos, et où ils se trouvent. Aide-le avec les nombres de 0 à 20, le pluriel, le verbe to be et les mots de lieu."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔢",
+        "text": "Compte de 0 à 20 : zero, one, two… twenty."
+      },
+      {
+        "icon": "📚",
+        "text": "Au pluriel, on ajoute souvent -s : one book, two books."
+      },
+      {
+        "icon": "📍",
+        "text": "Avec is ou are et in, on, under, tu situes un objet."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Compter, nommer et situer les objets",
+    "explanation": "Voici des objets de la classe : a book (un livre), a pen (un stylo), a notebook (un cahier), a ruler (une règle), a bag (un sac), a chair (une chaise), a desk (un bureau), a board (un tableau). Pour compter : zero (zéro), one (un), two (deux), three (trois), four (quatre), five (cinq), six (six), seven (sept), eight (huit), nine (neuf), ten (dix), puis eleven (onze), twelve (douze), thirteen (treize), fourteen (quatorze), fifteen (quinze), sixteen (seize), seventeen (dix-sept), eighteen (dix-huit), nineteen (dix-neuf), twenty (vingt). Au pluriel, on ajoute généralement -s au nom : one pen (un stylo), two pens (deux stylos). Après un nom qui finit par -s, -x, -ch ou -sh, on ajoute -es : one box (une boîte), two boxes (deux boîtes). Le verbe to be (être) au présent : I am (je suis), you are (tu es), he is (il est), she is (elle est), it is (il ou elle est, pour une chose), we are (nous sommes), they are (ils sont). Avec un seul objet, on utilise is ; avec plusieurs objets, on utilise are. Pour dire où se trouve un objet, on utilise in (dans), on (sur), under (sous), next to (à côté de), behind (derrière), in front of (devant). Pour poser la question, on place is ou are avant le sujet : Is the pen on the desk? (Le stylo est-il sur le bureau ?) Pour affirmer, on garde l'ordre normal : The pen is on the desk. (Le stylo est sur le bureau.)",
+    "highlight": "Where is the book? The book is on the desk. (Où est le livre ? Le livre est sur le bureau.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Les trois stylos sont sur le bureau. »",
+    "steps": [
+      "Cherche les mots : trois = three, stylo = pen, bureau = desk.",
+      "Il y a plusieurs stylos : on ajoute -s, donc pens.",
+      "Le sujet est pluriel : on utilise are, et non is.",
+      "« Sur » se dit on, et on place le nom après : on the desk.",
+      "Réponse : The three pens are on the desk. (Les trois stylos sont sur le bureau.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : The two books ___ under the chair. (Les deux livres sont sous la chaise.)",
+    "reponse_calculee": "are",
+    "choices": [
+      {
+        "label": "are",
+        "correct": true
+      },
+      {
+        "label": "is",
+        "correct": false
+      },
+      {
+        "label": "am",
+        "correct": false
+      },
+      {
+        "label": "be",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Two books est un sujet pluriel (ils), donc on utilise are : The two books are under the chair. (Les deux livres sont sous la chaise.)",
+    "feedback_wrong": "La bonne réponse est are. Two books est un sujet pluriel (ils), donc il faut are. Is s'utilise avec un seul objet, am s'utilise seulement avec I (je), et be seul ne convient pas dans cette phrase. La phrase correcte est : The two books are under the chair. (Les deux livres sont sous la chaise.)"
+  },
+  "verification": "ok2"
+}

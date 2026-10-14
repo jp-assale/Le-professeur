@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-human-rights",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Human rights",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Human rights",
+  "intro": {
+    "heading": "Et si tous les enfants allaient à l'école ?",
+    "body": "Au marché de Treichville, Awa voit un garçon de douze ans qui vend de l'eau toute la journée au lieu d'aller en classe. Elle se demande : « Que se passera-t-il si on l'aide ? Que se serait-il passé si on l'avait aidé plus tôt ? » Pour parler en anglais de ce que l'on peut faire, de ce que l'on imagine ou de ce que l'on regrette à propos des droits humains, tu as besoin des phrases conditionnelles. Aujourd'hui, tu apprends les trois types avec des exemples sur le travail des enfants et l'égalité des chances."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📘",
+        "text": "Type 1 : If + présent, will + verbe (possible)."
+      },
+      {
+        "icon": "💭",
+        "text": "Type 2 : If + prétérit, would + verbe (imaginaire)."
+      },
+      {
+        "icon": "⏪",
+        "text": "Type 3 : If + past perfect, would have + participe passé."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les trois types de phrases conditionnelles",
+    "explanation": "Une phrase conditionnelle a deux parties : la condition (avec « if ») et le résultat. Le type 1 parle d'une situation réelle ou possible dans l'avenir : If children go to school, they will have a better future. (Si les enfants vont à l'école, ils auront un meilleur avenir.) Le type 2 parle d'une situation imaginaire ou peu probable dans le présent : If every child had equal opportunities, society would be fairer. (Si chaque enfant avait des chances égales, la société serait plus juste.) Le type 3 parle d'une situation passée qui ne peut plus changer, souvent avec un regret : If Kofi had not worked in the fields, he would have gone to school. (Si Kofi n'avait pas travaillé dans les champs, il serait allé à l'école.) Attention : après « if », on n'utilise pas « will » dans le type 1. Quand la condition vient en premier, on met une virgule avant le résultat.",
+    "highlight": "Type 1 : If + présent, will + verbe. Type 2 : If + prétérit, would + verbe. Type 3 : If + had + participe passé, would have + participe passé. Exemple : If you study, you will succeed. (Si tu étudies, tu réussiras.)"
+  },
+  "example": {
+    "problem": "Situation : le conseil de ton village parle de l'éducation des enfants. Complète la phrase (type 1, situation possible dans l'avenir) avec les verbes entre parenthèses : « If the government ___ (build) more schools, more children ___ (go) to school. »",
+    "steps": [
+      "Lis la consigne : la situation est possible dans l'avenir, donc on utilise le type 1.",
+      "Le type 1 suit le modèle : If + présent simple, will + verbe à l'infinitif.",
+      "Dans la partie avec « if », « the government » est à la troisième personne du singulier, donc build devient builds.",
+      "Dans le résultat, on met will + verbe sans « to » : will go.",
+      "Réponse : If the government builds more schools, more children will go to school. (Si le gouvernement construit plus d'écoles, plus d'enfants iront à l'école.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis la bonne forme pour compléter : « If Awa had received a scholarship, she ___ to university. »",
+    "reponse_calculee": "would have gone",
+    "choices": [
+      {
+        "label": "would have gone",
+        "correct": true
+      },
+      {
+        "label": "will go",
+        "correct": false
+      },
+      {
+        "label": "had gone",
+        "correct": false
+      },
+      {
+        "label": "goes",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! La condition est au past perfect (had received) : c'est le type 3, donc le résultat s'écrit would have + participe passé. If Awa had received a scholarship, she would have gone to university. (Si Awa avait reçu une bourse, elle serait allée à l'université.)",
+    "feedback_wrong": "La condition « had received » est au past perfect : c'est une situation passée qui ne peut plus changer, donc le type 3. Le résultat s'écrit would have + participe passé : would have gone. Les formes will go, had gone et goes ne conviennent pas dans la partie résultat d'une phrase de type 3."
+  },
+  "verification": "ok2"
+}

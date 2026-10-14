@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-texte-descriptif",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le texte descriptif",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le texte descriptif",
+  "intro": {
+    "heading": "Dessine avec des mots !",
+    "body": "Ton ami Koffi n'est jamais allé au marché de ton quartier. Tu veux qu'il imagine les mangues, les pagnes et les bruits sans rien voir. Pour cela, tu ne racontes pas une histoire : tu décris. Dans cette leçon, tu apprends à reconnaître et à construire un texte descriptif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🖼️",
+        "text": "Un texte descriptif fait voir un lieu, un être ou un objet."
+      },
+      {
+        "icon": "🎨",
+        "text": "Il utilise des adjectifs, des mots de lieu et des comparaisons."
+      },
+      {
+        "icon": "🧭",
+        "text": "Il suit un ordre : du proche au lointain, par exemple."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et analyser un texte descriptif",
+    "explanation": "Un texte descriptif présente ce que l'on observe : un lieu, une personne, un objet ou un animal. Il ne raconte pas une suite d'actions, il fait voir. Les outils grammaticaux principaux sont les adjectifs qualificatifs, les compléments du nom, les verbes d'état comme être ou paraître, le présent ou l'imparfait de l'indicatif et les mots de lieu comme devant, derrière, au fond. Les indices lexicaux sont les mots qui révèlent la description : le champ lexical des couleurs, des formes, des odeurs, des bruits ou des matières. Les figures de style rendent l'image plus vivante : la comparaison utilise un outil (comme, tel, semblable à), la métaphore rapproche deux réalités sans outil, la personnification donne des qualités humaines à une chose. La technique descriptive est l'ordre choisi pour décrire : du proche au lointain, de haut en bas, de gauche à droite, ou du général au détail. Pour trouver cet ordre, repère les mots qui organisent l'espace dans le texte.",
+    "highlight": "Décrire, c'est faire voir : adjectifs, mots de lieu, comparaisons et un ordre clair."
+  },
+  "example": {
+    "problem": "Analyse ce court texte : « Le marché du village s'éveille. Devant l'entrée, des mangues dorées et des tomates luisantes forment une montagne colorée. Plus loin, Maman Adjoua, drapée dans un pagne bleu, vend des piments rouges comme des flammes. Au fond, des hangars de tôle abritent les étals. »",
+    "steps": [
+      "Type de texte : c'est un texte descriptif, car il fait voir un lieu et ne raconte pas d'aventure.",
+      "Outils grammaticaux : les adjectifs dorées, luisantes, colorée, bleu et rouges précisent les noms ; les verbes sont au présent de l'indicatif.",
+      "Mots de lieu : devant l'entrée, plus loin, au fond situent chaque élément dans l'espace.",
+      "Indices lexicaux : dorées, bleu et rouges forment le champ lexical des couleurs.",
+      "Figure de style : « rouges comme des flammes » est une comparaison, avec l'outil comme.",
+      "Technique descriptive : la description va du proche au lointain, de l'entrée jusqu'au fond du marché."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Les piments de Maman Awa brillent comme des braises », quelle figure de style est utilisée ?",
+    "reponse_calculee": "Une comparaison",
+    "choices": [
+      {
+        "label": "Une comparaison",
+        "correct": true
+      },
+      {
+        "label": "Une métaphore",
+        "correct": false
+      },
+      {
+        "label": "Une personnification",
+        "correct": false
+      },
+      {
+        "label": "Une répétition",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les piments sont rapprochés des braises grâce à l'outil de comparaison « comme » : c'est une comparaison.",
+    "feedback_wrong": "La bonne réponse est la comparaison. La phrase contient l'outil « comme », qui rapproche les piments et les braises. Sans cet outil, ce serait une métaphore. Il n'y a ici ni personnification, ni mot répété."
+  },
+  "verification": "ok"
+}

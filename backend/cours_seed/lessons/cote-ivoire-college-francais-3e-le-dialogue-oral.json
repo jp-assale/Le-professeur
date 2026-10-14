@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-dialogue-oral",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le dialogue oral",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le dialogue oral",
+  "intro": {
+    "heading": "Une demande à faire au directeur",
+    "body": "Awa veut demander au directeur du collège l'autorisation d'organiser une collecte de livres pour la bibliothèque. Elle frappe à la porte, mais elle hésite : comment commencer, quel ton prendre, comment répondre aux questions ? Pour réussir ce type d'échange à l'oral, il faut connaître quelques règles simples. Voyons ensemble comment mener un bon dialogue."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Choisis un sujet clair et reste dans le sujet."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Utilise un registre standard ou soutenu, avec des phrases correctes."
+      },
+      {
+        "icon": "🤝",
+        "text": "Écoute, réponds, relance : chacun parle à son tour."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les règles du dialogue oral",
+    "explanation": "Un dialogue oral est un échange de paroles entre deux personnes ou plus. Il porte sur un sujet précis : c'est le thème dont on parle, par exemple l'organisation d'une fête de classe. Une conversation est un échange où chacun parle à son tour, écoute l'autre et réagit à ce qu'il dit. Pour bien dialoguer, on emploie des types de phrases adaptés : des phrases interrogatives pour demander, des phrases déclaratives pour informer, des phrases impératives pour proposer ou conseiller, et des phrases exclamatives pour exprimer un sentiment. On choisit aussi un registre de langue standard ou soutenu, sans mots d'argot ni expressions trop familières, surtout avec un adulte ou une personne que l'on respecte. On construit des phrases correctes, avec un verbe bien conjugué, une construction correcte et un vocabulaire précis. Enfin, la technique du dialogue consiste à saluer, à présenter son sujet, à prendre la parole au bon moment, à écouter, à relancer par une question et à conclure poliment.",
+    "highlight": "Un bon dialogue oral : un sujet clair, un registre soutenu ou standard, des phrases correctes et un échange où chacun écoute et répond."
+  },
+  "example": {
+    "problem": "Situation : Kouassi veut convaincre son oncle, commerçant au marché, de lui prêter 5 000 FCFA pour acheter des fournitures scolaires. Il doit lui parler avec respect. Transforme sa phrase familière « Tonton, donne-moi les sous, j'ai besoin ! » en une réplique de registre standard ou soutenu, puis imagine une relance.",
+    "steps": [
+      "Étape 1 : Repère le sujet du dialogue : une aide financière pour acheter des fournitures.",
+      "Étape 2 : Repère l'erreur de registre : « les sous » est familier et la phrase impérative est trop brusque.",
+      "Étape 3 : Commence par une salutation polie : « Bonjour, mon oncle. »",
+      "Étape 4 : Formule la demande avec une phrase interrogative polie : « Pourriez-vous me prêter 5 000 FCFA pour acheter mes fournitures scolaires ? »",
+      "Étape 5 : Imagine une relance par une question, après sa réponse : « Merci, mon oncle. Quand pourrai-je passer chercher l'argent ? »",
+      "Étape 6 : Vérifie : le sujet est clair, le registre est standard ou soutenu, les phrases sont correctes, le ton est respectueux et la relance prolonge l'échange."
+    ]
+  },
+  "quiz": {
+    "question": "Tu dois demander un renseignement à ton professeur de français. Laquelle de ces phrases est la mieux adaptée à un dialogue oral au registre standard ou soutenu ?",
+    "reponse_calculee": "Monsieur, pourriez-vous m'expliquer cette leçon, s'il vous plaît ?",
+    "choices": [
+      {
+        "label": "Monsieur, pourriez-vous m'expliquer cette leçon, s'il vous plaît ?",
+        "correct": true
+      },
+      {
+        "label": "Eh Monsieur, explique-moi ça vite !",
+        "correct": false
+      },
+      {
+        "label": "Monsieur, moi je comprends rien à ta leçon.",
+        "correct": false
+      },
+      {
+        "label": "Dis, Monsieur, c'est quoi ce truc-là ?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase est une interrogation polie, correctement construite, avec une formule de politesse. Elle respecte le registre standard ou soutenu qu'on emploie avec un professeur.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Les phrases familières ou brusques emploient des mots comme « ça » ou « truc », un ordre direct ou le tutoiement, et parfois une négation incorrecte. Avec un professeur, on choisit une phrase interrogative polie, au registre standard ou soutenu : « Monsieur, pourriez-vous m'expliquer cette leçon, s'il vous plaît ? »"
+  },
+  "verification": "ok2"
+}

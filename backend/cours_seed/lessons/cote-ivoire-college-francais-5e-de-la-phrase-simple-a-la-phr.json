@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-de-la-phrase-simple-a-la-phr",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · De la phrase simple à la phrase complexe",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · De la phrase simple à la phrase complexe",
+  "intro": {
+    "heading": "Un message au marché de Bouaké",
+    "body": "Aya écrit à sa cousine : « Je vais au marché. » Puis elle ajoute : « J'achète les mangues que ma mère préfère et je pense que le prix est bon. » Sa première phrase est courte, la seconde est plus longue et plus riche. Dans cette leçon, tu découvres comment on passe d'une phrase simple à une phrase complexe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📝",
+        "text": "Une phrase simple contient un seul verbe conjugué."
+      },
+      {
+        "icon": "🔗",
+        "text": "La relative complète un nom : c'est le complément de l'antécédent."
+      },
+      {
+        "icon": "💡",
+        "text": "La complétive, introduite par « que », est souvent COD du verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Phrase simple, phrase complexe, relative et complétive",
+    "explanation": "Une phrase simple ne contient qu'une seule proposition, donc un seul verbe conjugué : « Kofi lit un livre. » Une phrase complexe contient plusieurs verbes conjugués, donc plusieurs propositions. La proposition subordonnée relative commence par un pronom relatif (qui, que, dont, où). Elle complète un nom ou un pronom placé avant elle, appelé l'antécédent. Sa fonction est donc complément de l'antécédent : dans « Le livre que Kofi lit est drôle », la relative « que Kofi lit » complète « le livre ». La proposition subordonnée complétive commence le plus souvent par la conjonction « que » et complète un verbe de la proposition principale, comme penser, savoir, dire ou croire. Sa fonction la plus courante est complément d'objet direct (COD) du verbe principal : dans « Kofi pense que le livre est drôle », la complétive est COD du verbe « pense ».",
+    "highlight": "Relative : complément de l'antécédent. Complétive : le plus souvent COD du verbe principal."
+  },
+  "example": {
+    "problem": "Analyse ces deux phrases : (a) « Yao mange la mangue que sa sœur a cueillie. » (b) « Yao pense que la mangue est mûre. »",
+    "steps": [
+      "Dans (a), compte les verbes conjugués : « mange » et « a cueillie ». Il y en a deux, donc la phrase est complexe.",
+      "La subordonnée de (a) est « que sa sœur a cueillie ». Elle commence par le pronom relatif « que », qui remplace « la mangue » (sa sœur a cueilli la mangue).",
+      "Sa fonction : la relative complète le nom « la mangue », qui est son antécédent. Elle est complément de l'antécédent.",
+      "Dans (b), les verbes conjugués sont « pense » et « est ». La phrase est complexe et la subordonnée est « que la mangue est mûre ».",
+      "Ici, « que » est une conjonction : il ne remplace aucun nom. On peut remplacer la subordonnée par « cela » : « Yao pense cela. »",
+      "Conclusion : (b) contient une subordonnée complétive, COD du verbe « pense »."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Fatou sait que son frère viendra demain. », quelle est la nature et la fonction de « que son frère viendra demain » ?",
+    "reponse_calculee": "Une subordonnée complétive, COD du verbe « sait »",
+    "choices": [
+      {
+        "label": "Une subordonnée relative, complément de l'antécédent « Fatou »",
+        "correct": false
+      },
+      {
+        "label": "Une subordonnée complétive, COD du verbe « sait »",
+        "correct": true
+      },
+      {
+        "label": "Une proposition indépendante coordonnée",
+        "correct": false
+      },
+      {
+        "label": "Une subordonnée relative, COD du verbe « viendra »",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Ici, « que » est une conjonction : il ne remplace aucun nom. La proposition « que son frère viendra demain » complète le verbe « sait » et peut être remplacée par « cela » (Fatou sait cela). C'est bien une subordonnée complétive, COD du verbe « sait ».",
+    "feedback_wrong": "Regarde bien le mot qui introduit la subordonnée : « que » est ici une conjonction, il ne remplace aucun nom, donc ce n'est pas une relative. La proposition complète le verbe « sait » et on peut la remplacer par « cela » (Fatou sait cela). C'est donc une subordonnée complétive, COD du verbe « sait »."
+  },
+  "verification": "ok2"
+}

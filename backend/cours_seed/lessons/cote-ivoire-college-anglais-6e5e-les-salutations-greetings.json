@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-les-salutations-greetings",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Les salutations (Greetings)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Les salutations (Greetings)",
+  "intro": {
+    "heading": "Un premier jour à l'école",
+    "body": "Aya arrive au collège à 7 h du matin. Elle croise son professeur d'anglais, M. Traoré, puis une nouvelle camarade, Fatou. Que doit-elle dire à chacun, et comment le dire poliment ? Dans cette leçon, tu apprends à saluer, à te présenter et à choisir la bonne formule selon le moment de la journée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌅",
+        "text": "La salutation change selon le moment de la journée."
+      },
+      {
+        "icon": "🙋",
+        "text": "Pour se présenter : My name is... ou I'm..."
+      },
+      {
+        "icon": "🎓",
+        "text": "Avec un professeur, utilise Mr, Mrs ou Miss devant le nom de famille, ou Sir / Madam tout seuls."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Saluer et se présenter en anglais",
+    "explanation": "On choisit la salutation selon l'heure : Good morning (Bonjour, le matin), Good afternoon (Bonjour, l'après-midi), Good evening (Bonsoir, en fin de journée). Good night (Bonne nuit) se dit seulement quand on va dormir ou qu'on se quitte le soir. Entre amis, on peut dire Hello ou Hi (Salut). Pour demander des nouvelles, on dit How are you? (Comment vas-tu ?) et on répond I'm fine, thank you. And you? (Je vais bien, merci. Et toi ?). Pour se présenter, on dit My name is Aya (Je m'appelle Aya) ou I'm Aya (Je suis Aya), puis Nice to meet you (Enchanté). Pour montrer du respect, on ajoute une civilité devant le nom de famille : Mr (Monsieur), Mrs (Madame, mariée), Miss (Mademoiselle). On peut aussi dire Sir (Monsieur) ou Madam (Madame) sans le nom : Good morning, Sir. Pour dire au revoir, on dit Goodbye (Au revoir) ou See you tomorrow (À demain).",
+    "highlight": "Good + moment de la journée + civilité + nom : Good morning, Mr Traoré. (Bonjour, Monsieur Traoré.)"
+  },
+  "example": {
+    "problem": "Il est 8 h du matin. Kofi voit sa professeure, Mrs Koné. Écris en anglais une salutation polie suivie d'une demande de nouvelles.",
+    "steps": [
+      "Repère le moment de la journée : 8 h du matin, donc on utilise Good morning.",
+      "Repère la personne : c'est une professeure mariée, donc on ajoute la civilité Mrs devant son nom.",
+      "Assemble la salutation : Good morning, Mrs Koné.",
+      "Ajoute la demande de nouvelles : How are you?",
+      "Réponse complète : Good morning, Mrs Koné. How are you? (Bonjour, Madame Koné. Comment allez-vous ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Il est 14 h. Tu rencontres ton professeur, M. Traoré, dans la cour. Que dis-tu en anglais ?",
+    "reponse_calculee": "Good afternoon, Mr Traoré.",
+    "choices": [
+      {
+        "label": "Good morning, Mr Traoré.",
+        "correct": false
+      },
+      {
+        "label": "Good afternoon, Mr Traoré.",
+        "correct": true
+      },
+      {
+        "label": "Good night, Mr Traoré.",
+        "correct": false
+      },
+      {
+        "label": "Good evening, Mr Traoré.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! À 14 h, on est l'après-midi, donc on dit Good afternoon, et on ajoute la civilité Mr devant le nom du professeur.",
+    "feedback_wrong": "Ce n'est pas la bonne formule. Good morning se dit le matin, Good evening en fin de journée et Good night seulement pour aller dormir. À 14 h, on dit Good afternoon, Mr Traoré. (Bonjour, Monsieur Traoré.)"
+  },
+  "verification": "ok2"
+}

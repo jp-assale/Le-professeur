@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-lifestyle-moving-with-the-time",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Lifestyle: moving with the times",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Lifestyle: moving with the times",
+  "intro": {
+    "heading": "La vie a bien changé !",
+    "body": "Aminata écoute sa grand-mère raconter la vie au village quand elle était jeune : on puisait l'eau au puits et on écrivait des lettres. Aujourd'hui, Aminata vit à Abidjan, paie parfois en FCFA avec son téléphone et envoie des messages en une seconde. Pour comparer ces deux modes de vie en anglais, elle doit choisir entre le passé et le présent. Dans cette leçon, tu apprends à parler de ce qui a changé avec le present perfect."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕰️",
+        "text": "Le present perfect relie le passé au présent."
+      },
+      {
+        "icon": "✍️",
+        "text": "Forme : have ou has + participe passé."
+      },
+      {
+        "icon": "📅",
+        "text": "Since donne le point de départ, for donne la durée."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le present perfect pour comparer hier et aujourd'hui",
+    "explanation": "Pour parler des changements de mode de vie, tu compares le passé et le présent. Le present perfect se forme avec have ou has + le participe passé : « Life has changed » (La vie a changé). Tu l'emploies pour une action commencée dans le passé qui continue encore, ou dont le résultat compte maintenant. Il s'utilise souvent avec since (depuis un point de départ) et for (pendant une durée) : « We have lived here for five years » (Nous habitons ici depuis cinq ans). Le past simple s'emploie pour une action terminée, à un moment du passé précisé : « My grandmother walked to the market every day when she was young » (Ma grand-mère allait au marché à pied chaque jour quand elle était jeune). Le past perfect (had + participe passé) montre une action passée qui a eu lieu avant une autre action passée : « When I arrived, the shop had closed » (Quand je suis arrivé, la boutique avait fermé).",
+    "highlight": "have / has + participe passé : Life has changed a lot. (La vie a beaucoup changé.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec le verbe entre parenthèses au bon temps : « Kofi ... (use) a smartphone since he was twelve. »",
+    "steps": [
+      "Repère le mot since : il indique une action commencée dans le passé qui continue jusqu'à maintenant.",
+      "Dans ce cas, on choisit le present perfect.",
+      "Kofi correspond à he : on utilise donc has.",
+      "Le participe passé du verbe use est used.",
+      "Réponse complète : Kofi has used a smartphone since he was twelve. (Kofi utilise un smartphone depuis l'âge de douze ans.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis la bonne forme pour compléter : « Life in our city ... a lot since my grandmother was a girl. »",
+    "reponse_calculee": "has changed",
+    "choices": [
+      {
+        "label": "has changed",
+        "correct": true
+      },
+      {
+        "label": "changed",
+        "correct": false
+      },
+      {
+        "label": "had changing",
+        "correct": false
+      },
+      {
+        "label": "will changed",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Since indique une action commencée dans le passé qui continue jusqu'à maintenant, donc on emploie le present perfect : has + changed. Life has changed a lot since my grandmother was a girl. (La vie a beaucoup changé depuis que ma grand-mère était petite.)",
+    "feedback_wrong": "La bonne réponse est « has changed ». Le mot since demande le present perfect : have ou has + participe passé. « changed » seul est un past simple, qui ne convient pas ici. « had changing » et « will changed » ne sont pas des formes correctes en anglais."
+  },
+  "verification": "ok"
+}

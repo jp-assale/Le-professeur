@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-l-echange-de-civilite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · L'échange de civilités",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · L'échange de civilités",
+  "intro": {
+    "heading": "Une invitation à Abidjan",
+    "body": "Aya, élève de 2nde à Abidjan, accueille chez elle Lucía, une correspondante qui parle espagnol. Il faut saluer, inviter à table, remercier et même demander de l'aide si besoin. Dans une situation d'évaluation, tu devras jouer ce dialogue en espagnol avec des phrases polies et justes. Voyons les formules essentielles pour y arriver."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👋",
+        "text": "Salue avec Buenos días, Buenas tardes ou Buenas noches."
+      },
+      {
+        "icon": "🙏",
+        "text": "Utilise por favor, gracias et de nada pour rester poli."
+      },
+      {
+        "icon": "🍽️",
+        "text": "Avant de manger, dis ¡Buen provecho! à table."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formules de politesse à connaître",
+    "explanation": "En espagnol, on commence par saluer : Buenos días (bonjour, le matin), Buenas tardes (bonjour ou bonsoir, l'après-midi) et Buenas noches (bonsoir ou bonne nuit). Pour remercier, on dit Gracias (merci) ou Muchas gracias (merci beaucoup), et on répond De nada (de rien). Pour inviter, tu peux dire ¿Quieres venir a mi casa? (Veux-tu venir chez moi ?) et répondre Con mucho gusto (avec plaisir). Pour interpeller quelqu'un, on dit Perdone, señora (Excusez-moi, madame). Avant de manger, on dit ¡Buen provecho! (Bon appétit !), et après le repas on peut dire Estaba muy rico, gracias (C'était très bon, merci). Pour remettre un objet, on dit Toma (tiens) à un ami et Aquí tiene (voici) à un adulte ou à un professeur. Pour demander de l'aide, on dit ¿Me puede ayudar, por favor? (Pouvez-vous m'aider, s'il vous plaît ?) ou, en urgence, ¡Socorro! (Au secours !). Avec un adulte, on utilise la forme de politesse usted, avec un ami la forme tú.",
+    "highlight": "Aquí tiene, señora. (Voici, madame.) Avec un adulte : tiene. Avec un ami : Toma."
+  },
+  "example": {
+    "problem": "Tu remets un cahier à ta professeure, madame Koné, qui te remercie. Écris en espagnol l'échange complet : « Voici, madame. – Merci. – De rien. »",
+    "steps": [
+      "Ta professeure est une adulte : tu utilises la forme de politesse (usted).",
+      "Pour dire « voici » à un adulte, on emploie Aquí tiene.",
+      "Pour dire « madame », on ajoute señora.",
+      "Ta professeure te remercie avec Gracias (merci).",
+      "Tu réponds poliment avec De nada (de rien).",
+      "Réponse : Aquí tiene, señora. – Gracias. – De nada. (Voici, madame. – Merci. – De rien.)"
+    ]
+  },
+  "quiz": {
+    "question": "Que dis-tu en espagnol à table pour souhaiter bon appétit aux autres ?",
+    "reponse_calculee": "¡Buen provecho!",
+    "choices": [
+      {
+        "label": "¡Buen provecho!",
+        "correct": true
+      },
+      {
+        "label": "¡Buenas noches!",
+        "correct": false
+      },
+      {
+        "label": "¡De nada!",
+        "correct": false
+      },
+      {
+        "label": "¡Socorro!",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact ! ¡Buen provecho! signifie « Bon appétit ! » et se dit avant de manger.",
+    "feedback_wrong": "La bonne réponse est ¡Buen provecho! (Bon appétit !). ¡Buenas noches! est une salutation du soir, ¡De nada! répond à un merci, et ¡Socorro! signifie « Au secours ! »."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-recit",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le récit",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le récit",
+  "intro": {
+    "heading": "Un récit pour le concours du club de lecture",
+    "body": "Ton école organise un concours de récits. Ta camarade Adjoua veut raconter comment son petit frère a perdu une pièce de 500 FCFA au marché. Elle hésite : par quoi commencer, quels mots choisir, quel temps employer ? Tu vas découvrir comment bien construire un récit pour réussir ce genre de situation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Un récit raconte des événements vécus par des personnages."
+      },
+      {
+        "icon": "🧭",
+        "text": "Il suit des étapes : début, péripéties, fin."
+      },
+      {
+        "icon": "✍️",
+        "text": "On emploie l'imparfait, le passé simple et des connecteurs de temps."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les caractéristiques du récit",
+    "explanation": "Un récit est un texte qui raconte une histoire : des personnages vivent des événements dans un lieu et à un moment précis. Avant d'écrire, tu dois bien comprendre le thème demandé, puis chercher des idées qui s'y rapportent : qui sont les personnages, où se passe l'action, que leur arrive-t-il ? Ensuite, tu prépares le lexique lié au thème. Pour un récit sur le marché, tu peux utiliser : vendeuse, étal, pièce, marchander, inquiet, soulagé. Le récit suit généralement quatre étapes : la situation initiale (qui, où, quand), les péripéties (les événements qui s'enchaînent, à partir d'un problème), le dénouement (le problème se règle) et la situation finale. Pour les outils de la langue, tu emploies des verbes au passé : l'imparfait pour le décor et les habitudes, le passé simple pour les actions qui font avancer l'histoire. Tu relies les événements avec des mots de temps comme un matin, soudain, puis, alors, enfin. Le récit est écrit à la troisième personne (il, elle) ou à la première personne (je) si le narrateur fait partie de l'histoire.",
+    "highlight": "Récit = personnages + lieu + temps + étapes (situation initiale, péripéties, dénouement, situation finale), écrit au passé avec des connecteurs de temps."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : ton école organise un concours de récits. Tu dois écrire un court récit de 3 phrases : Kofi perd une pièce de 500 FCFA au marché, puis la retrouve.",
+    "steps": [
+      "Thème : la perte puis la découverte d'une pièce d'argent au marché. Personnage principal : Kofi.",
+      "Idées : Kofi va acheter du pain ; il s'aperçoit que sa pièce a disparu ; il cherche partout ; une vendeuse la lui rend.",
+      "Lexique : marché, vendeuse, pièce, chercher, inquiet, soulagé.",
+      "Situation initiale à l'imparfait : « Un samedi matin, Kofi allait au marché pour acheter du pain. »",
+      "Péripéties et dénouement au passé simple : « Soudain, il remarqua que sa pièce de 500 FCFA avait disparu. Il chercha partout, puis une vendeuse la lui rendit. »",
+      "Vérification : on trouve le début, un problème, une fin heureuse, des mots de temps (un samedi matin, soudain, puis) et des verbes au passé."
+    ]
+  },
+  "quiz": {
+    "question": "Quel est l'ordre habituel des étapes d'un récit ?",
+    "reponse_calculee": "Situation initiale, péripéties, dénouement, situation finale",
+    "choices": [
+      {
+        "label": "Situation initiale, péripéties, dénouement, situation finale",
+        "correct": true
+      },
+      {
+        "label": "Dénouement, situation initiale, péripéties, situation finale",
+        "correct": false
+      },
+      {
+        "label": "Péripéties, situation finale, situation initiale, dénouement",
+        "correct": false
+      },
+      {
+        "label": "Situation finale, péripéties, dénouement, situation initiale",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Un récit commence par la situation initiale, où l'on présente les personnages, le lieu et le moment. Viennent ensuite les péripéties, puis le dénouement qui règle le problème, et enfin la situation finale.",
+    "feedback_wrong": "Ce n'est pas le bon ordre. Un récit commence habituellement par la situation initiale, qui présente les personnages, le lieu et le moment. Les péripéties suivent, puis le dénouement qui règle le problème, et enfin la situation finale."
+  },
+  "verification": "ok2"
+}

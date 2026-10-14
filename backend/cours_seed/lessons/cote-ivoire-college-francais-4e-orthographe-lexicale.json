@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-orthographe-lexicale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Orthographe lexicale",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Orthographe lexicale",
+  "intro": {
+    "heading": "Un panneau avec une faute au marché",
+    "body": "Au marché de Bouaké, Aya lit un panneau écrit à la main : « Marchan de chou-fleur, prix imbattable ». Elle sourit, car elle repère une faute : il manque une lettre à « marchan ». Pour bien écrire un mot, il faut savoir comment il est construit et retrouver ses lettres cachées. Dans cette leçon, tu apprends à le faire avec la composition, la dérivation, les consonnes finales muettes et les consonnes doubles."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧩",
+        "text": "La composition assemble des mots existants : chou-fleur, porte-monnaie."
+      },
+      {
+        "icon": "🔤",
+        "text": "Pour une consonne finale muette, cherche un mot de la même famille."
+      },
+      {
+        "icon": "✍️",
+        "text": "Un préfixe peut doubler une consonne : illisible, irrégulier, apporter."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment les mots se forment et s'écrivent",
+    "explanation": "La composition consiste à assembler deux mots (ou plus) qui existent déjà pour en former un nouveau : un chou-fleur, un porte-monnaie, un taille-crayon, un grand-père. La dérivation consiste à ajouter un préfixe (au début) ou un suffixe (à la fin) à un radical : défaire = dé- + faire ; jardinier = jardin + -ier. Certains mots se terminent par une consonne qu'on n'entend pas, comme le d de marchand ou le t de chant. Pour la trouver, cherche un mot de la même famille où on l'entend, ou le féminin : marchande, marchander, chanter, chanteur. Les consonnes doubles apparaissent souvent à la rencontre d'un préfixe et d'un radical : ap- + porter = apporter ; ac- + cueillir = accueillir ; il- + lisible = illisible. Le préfixe in- devient il- devant l, ir- devant r et im- devant m : illisible, irréel, immobile. Devant b ou p, il devient im- sans doubler la consonne : impossible.",
+    "highlight": "Mot de la même famille = consonne muette retrouvée ; préfixe in- + l, r ou m = consonne doublée."
+  },
+  "example": {
+    "problem": "Aya écrit : « J'ai perdu mon porte-monnaie chez le marchand, et mon reçu est illisible. » Explique l'orthographe de porte-monnaie, marchand et illisible.",
+    "steps": [
+      "Repère les trois mots à justifier : porte-monnaie, marchand, illisible.",
+      "Porte-monnaie est un mot composé : le verbe porte et le nom monnaie sont reliés par un trait d'union. Monnaie garde ses deux n.",
+      "Marchand se termine par un d muet. Pour le justifier, cherche la famille du mot : marchande, marchander. On y entend le d, donc on l'écrit à la fin de marchand.",
+      "Illisible est un mot dérivé : préfixe in- + radical lisible.",
+      "Devant la lettre l, in- devient il-. On obtient donc illisible, avec deux l.",
+      "Conclusion : composition, famille de mots et préfixe expliquent les trois orthographes de la phrase."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est l'orthographe correcte du contraire de « régulier » ?",
+    "reponse_calculee": "irrégulier",
+    "choices": [
+      {
+        "label": "inrégulier",
+        "correct": false
+      },
+      {
+        "label": "irégulier",
+        "correct": false
+      },
+      {
+        "label": "irrégulier",
+        "correct": true
+      },
+      {
+        "label": "irréguler",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le préfixe in- devient ir- devant la lettre r. Il se place devant le radical régulier, ce qui donne irrégulier avec deux r.",
+    "feedback_wrong": "La bonne réponse est irrégulier. Le préfixe in- devient ir- devant un r, et le radical régulier commence par r : les deux r se suivent. Le mot se termine par -ier, comme régulier."
+  },
+  "verification": "ok2"
+}

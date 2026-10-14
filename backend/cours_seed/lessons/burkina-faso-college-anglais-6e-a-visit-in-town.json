@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-a-visit-in-town",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · A visit in town",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · A visit in town",
+  "intro": {
+    "heading": "Awa se promène en ville",
+    "body": "Awa accompagne son cousin Issouf en ville. Issouf cherche la banque, puis le marché. Un touriste leur demande en anglais : « Where is the market? ». Aujourd'hui, tu apprends à nommer les lieux de la ville et à dire où ils se trouvent, en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏙️",
+        "text": "Je nomme des lieux : the market, the bank, the school."
+      },
+      {
+        "icon": "❓",
+        "text": "Je demande : Where is the bank?"
+      },
+      {
+        "icon": "📍",
+        "text": "Je réponds avec next to, near, in front of, behind."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander et dire où est un lieu",
+    "explanation": "Pour demander où est un lieu, on dit « Where is the ...? », qui veut dire « Où est ... ? ». Pour répondre, on dit « It is ... » suivi d'un petit mot de lieu. Ces petits mots sont : next to (à côté de), near (près de), in front of (devant, en face de) et behind (derrière). Quelques lieux utiles : the market (le marché), the bank (la banque), the school (l'école), the hospital (l'hôpital), the post office (la poste). En anglais, « the » se place devant le nom et ne change jamais : the market, the school. Le verbe « is » veut dire « est » quand on parle d'un seul lieu. On peut aussi dire le nom du lieu au début de la phrase : « The bank is next to the market. »",
+    "highlight": "Where is the bank? – It is next to the market. (Où est la banque ? – Elle est à côté du marché.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Le marché est près de l'école. »",
+    "steps": [
+      "Étape 1 : « Le marché » se dit « the market ».",
+      "Étape 2 : « est » se dit « is », car on parle d'un seul lieu.",
+      "Étape 3 : « près de » se dit « near ».",
+      "Étape 4 : « l'école » se dit « the school ».",
+      "Étape 5 : on met les mots dans l'ordre et on obtient la phrase complète : The market is near the school. (Le marché est près de l'école.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « La banque est à côté du marché » en anglais ?",
+    "reponse_calculee": "The bank is next to the market.",
+    "choices": [
+      {
+        "label": "The bank is next to the market.",
+        "correct": true
+      },
+      {
+        "label": "The bank is behind the market.",
+        "correct": false
+      },
+      {
+        "label": "The bank is in front of the market.",
+        "correct": false
+      },
+      {
+        "label": "The bank is next to the school.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Next to » veut dire « à côté de », et la phrase parle bien de la banque et du marché : The bank is next to the market.",
+    "feedback_wrong": "La bonne réponse est : The bank is next to the market. « Behind » veut dire « derrière » et « in front of » veut dire « devant ». Attention aussi au lieu de référence : le marché, pas l'école."
+  },
+  "verification": "ok2"
+}

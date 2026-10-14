@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-vetements-et-couleurs-cloth",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Vêtements et couleurs (Clothes and colours)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Vêtements et couleurs (Clothes and colours)",
+  "intro": {
+    "heading": "Au marché de Treichville",
+    "body": "Aya accompagne sa tante au marché de Treichville pour acheter une tenue de sport à 8 000 FCFA. Une cliente anglophone lui demande : « What are you wearing? » (Que portes-tu ?). Aya veut aussi lui dire de quelle couleur sont ses vêtements. Dans cette leçon, tu apprends à nommer des vêtements, à dire leurs couleurs et à dire ce que tu portes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👕",
+        "text": "Je connais des vêtements : shirt, skirt, dress, trousers, shoes."
+      },
+      {
+        "icon": "🎨",
+        "text": "Je demande une couleur : What colour is your shirt?"
+      },
+      {
+        "icon": "🗣️",
+        "text": "Je dis ce que je porte : I am wearing a red cap."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander et dire les couleurs et ce que l'on porte",
+    "explanation": "Voici quelques vêtements : a shirt (une chemise), a skirt (une jupe), a dress (une robe), a cap (une casquette), trousers (un pantalon), shoes (des chaussures) et socks (des chaussettes). Voici des couleurs : red (rouge), blue (bleu), green (vert), yellow (jaune), black (noir), white (blanc) et brown (marron). Pour demander une couleur, tu dis : « What colour is your shirt? » (De quelle couleur est ta chemise ?). Tu réponds : « It is blue. » (Elle est bleue.). Au pluriel, tu dis : « What colour are your shoes? » (De quelle couleur sont tes chaussures ?) et « They are black. » (Elles sont noires.). Pour demander ce que quelqu'un porte, tu dis : « What are you wearing? » (Que portes-tu ?). Tu réponds : « I am wearing a white shirt. » (Je porte une chemise blanche.). En anglais, la couleur se place AVANT le nom et ne prend jamais de -s : a green dress, green shoes. À l'oral, la voix descend à la fin d'une question avec What : What colour is your cap? La voix monte à la fin d'une question à laquelle on répond par oui ou non : Are you wearing a red skirt? (Portes-tu une jupe rouge ?)",
+    "highlight": "What are you wearing? → I am wearing a red cap. (Que portes-tu ? → Je porte une casquette rouge.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « Awa porte une chemise jaune et une jupe verte. »",
+    "steps": [
+      "Pour dire « porter » en ce moment, on utilise is wearing avec Awa (elle).",
+      "« Une chemise » se dit a shirt et « jaune » se dit yellow.",
+      "La couleur se place avant le nom : a yellow shirt (et non a shirt yellow).",
+      "« Une jupe verte » se dit a green skirt, avec la couleur avant le nom.",
+      "On relie les deux vêtements avec and (et). Réponse : Awa is wearing a yellow shirt and a green skirt. (Awa porte une chemise jaune et une jupe verte.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Je porte une chemise noire. » ?",
+    "reponse_calculee": "I am wearing a black shirt.",
+    "choices": [
+      {
+        "label": "I am wearing a black shirt.",
+        "correct": true
+      },
+      {
+        "label": "I am wearing a shirt black.",
+        "correct": false
+      },
+      {
+        "label": "I wearing a black shirt.",
+        "correct": false
+      },
+      {
+        "label": "I am wear a black shirt.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « I am wearing a black shirt. » est la bonne phrase : on utilise am wearing, et la couleur black se place avant le nom shirt.",
+    "feedback_wrong": "La bonne réponse est « I am wearing a black shirt. » (Je porte une chemise noire.) En anglais, la couleur se place avant le nom : a black shirt. De plus, il faut am wearing, avec am et wearing en -ing, pour dire ce que l'on porte."
+  },
+  "verification": "ok2"
+}

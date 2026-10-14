@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-looking-forward",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Looking forward",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Looking forward",
+  "intro": {
+    "heading": "Et demain, que se passera-t-il ?",
+    "body": "Kouadio et Awa préparent un exposé au lycée sur les sources d'énergie de demain. Ils se demandent : si nous utilisons l'énergie solaire, que se passera-t-il ? Pour parler d'une possibilité dans le futur, l'anglais utilise le first conditional. Dans cette leçon, tu apprends à construire ces phrases avec will, won't, may et might."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "☀️",
+        "text": "If + présent simple, puis will + verbe pour une possibilité future."
+      },
+      {
+        "icon": "❌",
+        "text": "Won't exprime la négation : If it rains, we won't go."
+      },
+      {
+        "icon": "🤔",
+        "text": "May et might expriment une chose possible, mais moins sûre."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le first conditional : condition réelle et résultat",
+    "explanation": "Le first conditional sert à parler d'une situation possible dans le futur et de son résultat. Il se construit en deux parties : la condition avec if + présent simple, puis le résultat avec will + verbe à l'infinitif sans to. Attention : dans la partie avec if, on n'utilise pas will. Avec he, she ou it, le verbe du présent prend un s : If she uses solar energy… (Si elle utilise l'énergie solaire…). Pour la négation, on utilise won't (forme courte de will not) : If we waste water, we won't have enough. (Si nous gaspillons l'eau, nous n'en aurons pas assez.) Si le résultat est possible mais pas certain, on remplace will par may ou might : If it is sunny, we may use the solar panel. (S'il fait beau, nous utiliserons peut-être le panneau solaire.) On peut aussi mettre la partie avec if en deuxième position, sans virgule : We will save money if we use less electricity. (Nous économiserons de l'argent si nous utilisons moins d'électricité.)",
+    "highlight": "If + présent simple, will + verbe. Exemple : If we use solar energy, we will save money. (Si nous utilisons l'énergie solaire, nous économiserons de l'argent.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec les verbes entre parenthèses : If Awa (use) solar energy, she (save) money.",
+    "steps": [
+      "Repère la structure : c'est une condition possible dans le futur, donc on utilise le first conditional.",
+      "La partie avec if prend le présent simple. Le sujet Awa correspond à she, donc le verbe use prend un s : uses.",
+      "La partie résultat prend will + verbe à l'infinitif sans to : will save.",
+      "Vérifie qu'il n'y a pas de will après if : on écrit If Awa uses, et non If Awa will use.",
+      "Réponse complète : If Awa uses solar energy, she will save money. (Si Awa utilise l'énergie solaire, elle économisera de l'argent.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour parler d'une possibilité dans le futur ?",
+    "reponse_calculee": "If it rains tomorrow, we will stay at home.",
+    "choices": [
+      {
+        "label": "If it rains tomorrow, we will stay at home.",
+        "correct": true
+      },
+      {
+        "label": "If it will rain tomorrow, we will stay at home.",
+        "correct": false
+      },
+      {
+        "label": "If it rains tomorrow, we stay will at home.",
+        "correct": false
+      },
+      {
+        "label": "If it rains tomorrow, we will to stay at home.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! If it rains tomorrow, we will stay at home. (S'il pleut demain, nous resterons à la maison.) La condition est au présent simple et le résultat est au futur avec will + verbe.",
+    "feedback_wrong": "La bonne phrase est : If it rains tomorrow, we will stay at home. (S'il pleut demain, nous resterons à la maison.) Après if, on utilise le présent simple et non will. Dans le résultat, will se place avant le verbe, qui est à l'infinitif sans to : will stay."
+  },
+  "verification": "ok2"
+}

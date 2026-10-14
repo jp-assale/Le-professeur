@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-debat-ii",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le débat II",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le débat II",
+  "intro": {
+    "heading": "Un débat au collège d'Abengourou",
+    "body": "Ton professeur propose un débat : « Faut-il interdire le téléphone portable dans la cour du collège ? » Awa est pour, Koffi est contre, et toute la classe écoute. Pour convaincre sans se disputer, il faut bien préparer ses idées, parler poliment et écouter l'autre. Voyons ensemble comment réussir un débat."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Identifier le thème et se documenter avant de parler."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Parler dans un registre courant ou soutenu, avec une bonne prononciation."
+      },
+      {
+        "icon": "👂",
+        "text": "Écouter l'autre et réagir à ses arguments avec respect."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les règles d'un bon débat",
+    "explanation": "Un débat est un échange oral où chacun défend son opinion sur un thème, avec des arguments. D'abord, tu identifies le thème : c'est la question précise débattue. Ensuite, tu te documentes : tu lis, tu interroges des personnes, tu notes des idées et des exemples. Pendant le débat, tu emploies le lexique du thème (par exemple : interdire, autoriser, distraction, règlement). Tu choisis un registre de langue courant ou soutenu, jamais familier, et tu évites l'argot. Tu varies les types de phrases : déclaratives pour affirmer, interrogatives pour questionner, impératives pour proposer, exclamatives pour exprimer une émotion. Tu parles distinctement, sans te presser, en articulant bien. Enfin, tu écoutes sans couper la parole, tu reprends l'idée de l'autre (« Je comprends ton point de vue, mais... ») puis tu donnes ton argument.",
+    "highlight": "Débattre, c'est préparer ses arguments, parler avec respect dans un registre approprié et écouter l'autre."
+  },
+  "example": {
+    "problem": "Pendant le débat sur le téléphone portable au collège, Koffi dit : « Ton idée, c'est nul, les gars ! » Améliore sa réplique pour répondre à Awa dans un registre approprié.",
+    "steps": [
+      "Étape 1 : Repère le thème du débat : l'interdiction du téléphone portable dans la cour.",
+      "Étape 2 : Repère l'erreur : « c'est nul » et « les gars » appartiennent au registre familier, et la réplique n'apporte aucun argument.",
+      "Étape 3 : Commence par montrer que tu as écouté : « J'ai bien entendu ton idée, Awa. »",
+      "Étape 4 : Ajoute ton désaccord poli avec un argument : « Mais le téléphone permet de prévenir nos parents en cas d'urgence. »",
+      "Étape 5 : Termine par une phrase interrogative pour relancer l'échange : « Ne crois-tu pas qu'une règle d'usage serait plus juste qu'une interdiction ? »",
+      "Étape 6 : Réplique finale : « J'ai bien entendu ton idée, Awa. Mais le téléphone permet de prévenir nos parents en cas d'urgence. Ne crois-tu pas qu'une règle d'usage serait plus juste qu'une interdiction ? »"
+    ]
+  },
+  "quiz": {
+    "question": "Pendant un débat, un camarade donne un avis opposé au tien. Quelle réaction est la plus appropriée ?",
+    "reponse_calculee": "Je l'écoute jusqu'au bout, puis je réponds poliment avec un argument.",
+    "choices": [
+      {
+        "label": "Je l'écoute jusqu'au bout, puis je réponds poliment avec un argument.",
+        "correct": true
+      },
+      {
+        "label": "Je lui coupe la parole pour dire que son idée est nulle.",
+        "correct": false
+      },
+      {
+        "label": "Je me tais et je ne donne plus jamais mon avis.",
+        "correct": false
+      },
+      {
+        "label": "Je réponds en argot pour faire rire la classe.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Écouter jusqu'au bout, puis répondre avec politesse et un argument, c'est la manière de débattre : tu montres ta capacité d'écoute et tu emploies un registre approprié.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Couper la parole, insulter ou parler en argot nuit au débat, et se taire empêche d'échanger. Un bon débatteur écoute l'autre jusqu'au bout, puis répond poliment avec un argument."
+  },
+  "verification": "ok"
+}

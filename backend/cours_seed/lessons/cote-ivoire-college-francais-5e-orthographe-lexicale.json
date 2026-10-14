@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-orthographe-lexicale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Orthographe lexicale",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Orthographe lexicale",
+  "intro": {
+    "heading": "Un mot qui change de forme",
+    "body": "Aya aide sa tante à vendre des légumes au marché. Sur l'ardoise, elle écrit : « Les tomates sont inpossibles à trouver aujourd'hui ». Son frère Koffi sourit et lui dit qu'il y a une erreur dans le mot « inpossibles ». Pour la corriger, il faut comprendre comment un mot se construit à partir d'un autre mot : c'est la dérivation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧱",
+        "text": "Un mot dérivé = radical + préfixe et/ou suffixe."
+      },
+      {
+        "icon": "🔤",
+        "text": "Le radical garde en général son orthographe, même sa lettre finale muette."
+      },
+      {
+        "icon": "✍️",
+        "text": "Devant m, b, p, le préfixe in- devient im-."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment fabriquer un mot dérivé ?",
+    "explanation": "La dérivation consiste à former un nouveau mot à partir d'un mot de base, appelé le radical. On ajoute un préfixe avant le radical, ou un suffixe après lui, ou les deux. Exemple : dans « jardinier », le radical est « jardin » et le suffixe est « -ier ». Dans « malheureux », le préfixe est « mal- » et le radical est « heureux ». Première règle : le radical garde en général son orthographe dans les mots de sa famille. Cela t'aide à retrouver une lettre muette : « grand » donne « grandeur », donc il y a un d à la fin de « grand ». Deuxième règle : le préfixe « in- », qui exprime le contraire, devient « im- » devant m, b ou p (impossible, imbuvable). Il devient « il- » devant l (illisible) et « ir- » devant r (irréel). Devant les autres lettres, il reste « in- » (inutile, inoubliable).",
+    "highlight": "Mot dérivé = radical + préfixe et/ou suffixe. Le préfixe in- devient im- devant m, b, p."
+  },
+  "example": {
+    "problem": "Dans la phrase « Mariam admire la grandeur du baobab et trouve son ombre inoubliable », analyse les mots « grandeur » et « inoubliable » et explique leur orthographe.",
+    "steps": [
+      "Repère d'abord les deux mots dérivés : « grandeur » et « inoubliable ».",
+      "Décompose « grandeur » : le radical est « grand » et le suffixe est « -eur ».",
+      "Le d de « grand » est muet, mais il s'entend dans « grandeur » : cela confirme la lettre d à la fin de « grand ».",
+      "Décompose « inoubliable » : préfixe « in- », radical « oubli- » (de « oublier ») et suffixe « -able ».",
+      "Le radical « oubli- » commence par la voyelle o, donc le préfixe reste « in- » : on écrit « inoubliable ».",
+      "Compare avec « possible », qui commence par p : le contraire s'écrit « impossible » et non « inpossible »."
+    ]
+  },
+  "quiz": {
+    "question": "Tu ajoutes le préfixe in- au mot « poli » pour exprimer le contraire. Quelle écriture est correcte ?",
+    "reponse_calculee": "impoli",
+    "choices": [
+      {
+        "label": "impoli",
+        "correct": true
+      },
+      {
+        "label": "inpoli",
+        "correct": false
+      },
+      {
+        "label": "ipoli",
+        "correct": false
+      },
+      {
+        "label": "enpoli",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le radical « poli » commence par la lettre p, donc le préfixe in- devient im- : on écrit « impoli ».",
+    "feedback_wrong": "La bonne réponse est « impoli ». Devant les lettres m, b et p, le préfixe in- se transforme en im-. On garde aussi le radical « poli » sans le modifier, et on n'écrit jamais « inpoli »."
+  },
+  "verification": "ok2"
+}

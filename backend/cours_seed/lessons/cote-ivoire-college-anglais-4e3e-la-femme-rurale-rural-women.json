@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-la-femme-rurale-rural-women",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · La femme rurale (Rural women)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · La femme rurale (Rural women)",
+  "intro": {
+    "heading": "Un jour au village",
+    "body": "Ton oncle te rend visite avec sa fille Aya, qui vit dans un village. Tu découvres que sa mère cultive le manioc, pile l'igname et vend ses légumes au marché. Ton professeur te demande ensuite de présenter ces femmes en anglais et de rapporter ce qu'elles disent. Pour cela, tu dois savoir dire ce qu'elles peuvent faire, citer leurs activités et rapporter leurs paroles."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💪",
+        "text": "Pour la capacité, on utilise can + verbe simple."
+      },
+      {
+        "icon": "🌾",
+        "text": "Apprends les mots des activités : farm, harvest, sell, fetch."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Après said, can devient could dans le discours rapporté."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Can, vocabulaire et discours rapporté",
+    "explanation": "Pour exprimer la capacité, on utilise « can » suivi du verbe à l'infinitif sans « to ». Exemple : She can cook rice. (Elle sait cuisiner le riz.) La forme négative est « cannot » ou « can't » : She can't drive. (Elle ne sait pas conduire.) Pour poser une question, on place « can » avant le sujet : Can you plant yams? (Peux-tu planter des ignames ?) Voici des mots utiles : to harvest cassava (récolter le manioc), to sell vegetables (vendre des légumes), to fetch water (chercher de l'eau), to carry firewood (porter du bois de chauffe), to look after children (s'occuper des enfants). Pour rapporter une phrase, on emploie « said that » et on change le pronom : « can » devient « could ». Exemple : Aya said, « I can sell rice. » devient Aya said that she could sell rice. (Aya a dit qu'elle pouvait vendre du riz.) Pour l'intonation, la voix descend à la fin d'une phrase affirmative et monte à la fin d'une question qui attend oui ou non : Can you cook? (Sais-tu cuisiner ?)",
+    "highlight": "She can + verbe. Discours rapporté : said that she could + verbe. Exemple : She can fetch water. (Elle peut chercher de l'eau.)"
+  },
+  "example": {
+    "problem": "Aya dit : « I can sell vegetables at the market. » Rapporte sa phrase en anglais avec « said that ».",
+    "steps": [
+      "Repère la personne qui parle : Aya. Dans la phrase rapportée, « I » devient « she ».",
+      "Commence par le verbe de parole : Aya said that.",
+      "Repère « can » dans la phrase d'origine : I can sell.",
+      "Après « said », on change « can » en « could ».",
+      "Garde le reste de la phrase : sell vegetables at the market.",
+      "Réponse : Aya said that she could sell vegetables at the market. (Aya a dit qu'elle pouvait vendre des légumes au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime correctement la capacité d'une femme rurale à planter du riz ?",
+    "reponse_calculee": "Mariam can plant rice.",
+    "choices": [
+      {
+        "label": "Mariam can plant rice.",
+        "correct": true
+      },
+      {
+        "label": "Mariam can plants rice.",
+        "correct": false
+      },
+      {
+        "label": "Mariam cans plant rice.",
+        "correct": false
+      },
+      {
+        "label": "Mariam can to plant rice.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « can », on met le verbe à l'infinitif sans « to » et sans « s » : Mariam can plant rice. (Mariam sait planter le riz.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. « Can » ne prend jamais de « s » et ne s'emploie pas avec « to ». Le verbe qui suit reste à l'infinitif simple. La bonne phrase est : Mariam can plant rice. (Mariam sait planter le riz.)"
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-un-sejour-dans-une-famille-a",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Un séjour dans une famille allemande",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Un séjour dans une famille allemande",
+  "intro": {
+    "heading": "Ton séjour chez les Müller",
+    "body": "Imagine que tu passes deux semaines à Hambourg chez une famille d'accueil allemande. À la gare, tu dois présenter ta propre famille, expliquer en quoi elle ressemble à la famille allemande ou en diffère, puis raconter ton séjour à ton retour à Abidjan. Dans cette leçon, tu apprends les mots et les phrases simples pour faire tout cela en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👨‍👩‍👧",
+        "text": "Présenter la famille avec Das ist … et le bon article."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Comparer avec l'adjectif + er + als."
+      },
+      {
+        "icon": "😊",
+        "text": "Donner ses impressions avec war et Es hat mir gefallen."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Présenter, comparer et donner ses impressions",
+    "explanation": "Pour présenter les membres d'une famille, tu dis « Das ist … » (Voici …) avec le bon article : der Vater (le père), die Mutter (la mère), der Bruder (le frère), die Schwester (la sœur), die Großmutter (la grand-mère). Pour comparer deux personnes ou deux familles, tu ajoutes -er à l'adjectif, puis tu utilises « als » (que). Par exemple : klein (petit) devient kleiner (plus petit). Certains adjectifs prennent un tréma : alt (âgé) devient älter et groß (grand) devient größer. Tu peux ainsi comparer ta famille à Abidjan et ta famille d'accueil : « Meine Familie in Abidjan ist größer als meine Gastfamilie. » (Ma famille à Abidjan est plus grande que ma famille d'accueil.) Pour donner tes impressions de voyage, utilise le verbe « war » (était) : « Das Essen war lecker. » (La nourriture était délicieuse.) Tu peux aussi dire : « Es hat mir gut gefallen. » (Cela m'a beaucoup plu.)",
+    "highlight": "Adjectif + er + als : Mein Bruder ist älter als ich. (Mon frère est plus âgé que moi.)"
+  },
+  "example": {
+    "problem": "Construis en allemand la phrase : « Ma grand-mère est plus âgée que ma tante. »",
+    "steps": [
+      "Commence par le sujet : « ma grand-mère » se dit Meine Großmutter (die Großmutter est féminin, donc meine).",
+      "Place le verbe sein (être) conjugué à la 3e personne du singulier : ist.",
+      "Prends l'adjectif alt (âgé) et fais le comparatif : on ajoute -er et on met un tréma, donc älter.",
+      "Ajoute le mot de comparaison als (que).",
+      "Termine par « ma tante » : meine Tante. Phrase complète : Meine Großmutter ist älter als meine Tante. (Ma grand-mère est plus âgée que ma tante.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on correctement en allemand : « Mon frère est plus grand que moi » ?",
+    "reponse_calculee": "Mein Bruder ist größer als ich.",
+    "choices": [
+      {
+        "label": "Mein Bruder ist größer als ich.",
+        "correct": true
+      },
+      {
+        "label": "Mein Bruder ist groß als ich.",
+        "correct": false
+      },
+      {
+        "label": "Mein Bruder größer ist als ich.",
+        "correct": false
+      },
+      {
+        "label": "Mein Bruder ist am größten als ich.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe ist est en deuxième position, l'adjectif groß devient größer (-er et tréma), puis on ajoute als avant ich. Mein Bruder ist größer als ich. (Mon frère est plus grand que moi.)",
+    "feedback_wrong": "La bonne réponse est : Mein Bruder ist größer als ich. Pour comparer, on met l'adjectif au comparatif (groß devient größer) et le verbe ist reste en deuxième position. On utilise ensuite als (que) pour introduire le second élément de la comparaison."
+  },
+  "verification": "ok"
+}

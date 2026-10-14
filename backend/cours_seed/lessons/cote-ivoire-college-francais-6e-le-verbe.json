@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-verbe",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le verbe",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le verbe",
+  "intro": {
+    "heading": "Une journée au marché",
+    "body": "Ce matin, Awa aide sa mère au marché. Elle raconte : « Hier, j'ai vendu des tomates. Maintenant, je compte mes FCFA. Demain, j'irai chercher d'autres légumes. » Dans ces phrases, ce sont les verbes qui disent quand les actions se passent. Dans cette leçon, tu apprends à reconnaître leur forme et à choisir le bon temps."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "Le verbe a un radical et une terminaison."
+      },
+      {
+        "icon": "⏰",
+        "text": "Chaque temps de l'indicatif a une valeur d'emploi précise."
+      },
+      {
+        "icon": "🏃",
+        "text": "Les auxiliaires d'aspect précisent le début, la durée ou la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le verbe : sa forme, ses temps et ses aspects",
+    "explanation": "Le verbe est le mot qui exprime une action ou un état. Il change de forme selon la personne et le temps. Un verbe conjugué comprend un radical, qui porte le sens, et une terminaison, qui indique la personne et le temps. Dans « nous chantons », chant- est le radical et -ons est la terminaison. À l'indicatif, le présent exprime une action en train de se faire ou une vérité générale. L'imparfait exprime une action passée qui dure ou qui se répète. Le passé composé exprime une action passée et terminée, et le futur simple exprime une action à venir. Les auxiliaires d'aspect, comme « venir de », « aller », « être en train de », « commencer à » et « finir de », se placent devant un verbe à l'infinitif. Ils précisent le déroulement de l'action : « venir de » indique un passé très récent, « aller » un futur proche, « être en train de » une action en cours, « commencer à » le début de l'action et « finir de » sa fin.",
+    "highlight": "Verbe conjugué = radical + terminaison. Le temps choisi indique le moment de l'action, et l'auxiliaire d'aspect précise son déroulement."
+  },
+  "example": {
+    "problem": "Situation : tu écris un petit message à ton ami Koffi pour lui raconter la journée d'Awa au marché. Analyse les phrases suivantes : « Hier, Awa a acheté trois mangues à 500 FCFA. Maintenant, elle est en train de les manger. »",
+    "steps": [
+      "Dans la première phrase, le verbe conjugué est « a acheté ». Il est formé de l'auxiliaire avoir au présent (a) et du participe passé « acheté ».",
+      "Son infinitif est « acheter » (1er groupe). Le radical est achet- et la terminaison de l'infinitif est -er.",
+      "Le mot « Hier » indique le passé. Le temps est donc le passé composé de l'indicatif, qui exprime une action passée et terminée.",
+      "Dans la deuxième phrase, « est en train de » est un auxiliaire d'aspect. Il est suivi de l'infinitif « manger ». Seul « est » est conjugué, au présent.",
+      "Cet auxiliaire montre que l'action est en cours de déroulement au moment où l'on parle.",
+      "Autre exemple : dans « Ce matin, Koffi vient de ranger ses cahiers », « vient de » est suivi de l'infinitif « ranger » et exprime un passé très récent."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Koffi vient de terminer son devoir », qu'exprime l'auxiliaire d'aspect « vient de » ?",
+    "reponse_calculee": "Un passé très récent",
+    "choices": [
+      {
+        "label": "Un passé très récent",
+        "correct": true
+      },
+      {
+        "label": "Un futur proche",
+        "correct": false
+      },
+      {
+        "label": "Une action en cours de déroulement",
+        "correct": false
+      },
+      {
+        "label": "Une habitude du passé",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Venir de » suivi d'un infinitif exprime une action qui vient juste de se terminer : c'est un passé très récent.",
+    "feedback_wrong": "La bonne réponse est : un passé très récent. L'auxiliaire « venir de » + infinitif indique qu'une action s'est achevée il y a très peu de temps. Le futur proche s'exprime avec « aller » et l'action en cours avec « être en train de »."
+  },
+  "verification": "ok2"
+}

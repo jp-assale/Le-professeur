@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-le-vih-sida-hiv-aids",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Le VIH/SIDA (HIV/AIDS)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Le VIH/SIDA (HIV/AIDS)",
+  "intro": {
+    "heading": "Un poster pour le club santé",
+    "body": "Aya et Koffi, élèves de 3e à Abidjan, préparent un poster en anglais pour le club santé de leur collège. Ils doivent expliquer simplement ce que sont le VIH et le SIDA. Ils doivent aussi donner des conseils pour bien vivre et se protéger. Pour réussir, ils ont besoin de mots précis, de phrases de conseil et de bonnes techniques de lecture. Tu vas les aider !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Je lis un texte pour trouver l'idée générale."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Je sensibilise avec « You can't get HIV by... »."
+      },
+      {
+        "icon": "💡",
+        "text": "Je conseille avec « You should » et « You must »."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire un texte sur le VIH/SIDA et donner des conseils",
+    "explanation": "HIV veut dire Human Immunodeficiency Virus (virus de l'immunodéficience humaine) et AIDS veut dire Acquired Immune Deficiency Syndrome (syndrome d'immunodéficience acquise). Voici quelques mots utiles : blood (le sang), clinic (la clinique), test (le test), safe (sûr). Pour lire un texte, regarde d'abord le titre et les premières lignes : cela te donne l'idée générale (de quoi parle tout le texte). Ensuite, repère les idées secondaires, c'est-à-dire les détails qui expliquent l'idée générale. Les petits mots de liaison montrent les relations entre les phrases : and (et) ajoute une idée, but (mais) oppose deux idées, because (parce que) donne une cause. Pour sensibiliser, on utilise « can » et « can't » : You can't get HIV by shaking hands (Tu ne peux pas attraper le VIH en serrant la main). Pour donner un conseil, on utilise « should » (tu devrais) ou « must » (tu dois) suivi du verbe sans « to ». Pour dire ce qu'il ne faut pas faire, on utilise « shouldn't » (tu ne devrais pas) ou « mustn't » (tu ne dois pas).",
+    "highlight": "You should + verbe sans « to » : You should go to the clinic. (Tu devrais aller à la clinique.)"
+  },
+  "example": {
+    "problem": "Koffi veut conseiller un ami d'aller à la clinique pour faire un test. Construis la phrase en anglais avec « should ».",
+    "steps": [
+      "Je veux donner un conseil : j'utilise « should » (tu devrais).",
+      "Je choisis le sujet : « You » (tu).",
+      "Après « should », je mets le verbe sans « to » : « go » (aller).",
+      "J'ajoute le lieu : « to the clinic » (à la clinique).",
+      "J'ajoute le but : « for a test » (pour un test).",
+      "Réponse : You should go to the clinic for a test. (Tu devrais aller à la clinique pour un test.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour conseiller à un ami d'aller à la clinique ?",
+    "reponse_calculee": "You should go to the clinic.",
+    "choices": [
+      {
+        "label": "You should go to the clinic.",
+        "correct": true
+      },
+      {
+        "label": "You should to go to the clinic.",
+        "correct": false
+      },
+      {
+        "label": "You should goes to the clinic.",
+        "correct": false
+      },
+      {
+        "label": "You should going to the clinic.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « should », on met le verbe à la forme de base, sans « to » et sans « s » : You should go to the clinic. (Tu devrais aller à la clinique.)",
+    "feedback_wrong": "Après « should », le verbe reste à la forme de base : pas de « to », pas de « s » et pas de « -ing ». La bonne phrase est : You should go to the clinic. (Tu devrais aller à la clinique.)"
+  },
+  "verification": "ok"
+}

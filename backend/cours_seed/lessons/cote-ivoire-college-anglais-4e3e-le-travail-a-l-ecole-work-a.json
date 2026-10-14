@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-le-travail-a-l-ecole-work-a",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Le travail à l'école (Work at school)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Le travail à l'école (Work at school)",
+  "intro": {
+    "heading": "Le bulletin de Kofi",
+    "body": "Kofi, élève de 3e à Abidjan, reçoit son bulletin du trimestre. Son ami anglophone lui demande en anglais : « How are your results? » Kofi veut expliquer ses notes et dire ce qui arrivera s'il travaille davantage. Dans cette leçon, tu apprends à faire la même chose en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📝",
+        "text": "If + présent simple, puis will + verbe pour la condition."
+      },
+      {
+        "icon": "🏆",
+        "text": "Marks, results, pass, fail : les mots des résultats scolaires."
+      },
+      {
+        "icon": "🎵",
+        "text": "La voix descend à la fin d'une affirmation et monte à la fin d'une question à réponse oui/non."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer la condition et parler de ses résultats",
+    "explanation": "Pour exprimer une condition possible, on utilise « if » (si) suivi du présent simple, puis « will » + verbe pour le résultat. Exemple : If I study, I will get good marks. (Si j'étudie, j'aurai de bonnes notes.) Après « if », on n'utilise pas « will ». Voici des mots utiles sur les résultats scolaires : marks (notes), results (résultats), homework (devoirs), report card (bulletin), progress (progrès), pass (réussir un examen, un test) et fail (échouer). Pour parler de résultats, tu peux dire : She has good marks. (Elle a de bonnes notes.) ou He failed the test. (Il a échoué au test.) Pour l'intonation, la voix descend à la fin d'une phrase affirmative, et elle monte à la fin d'une question à réponse oui ou non : Did you pass? (As-tu réussi ?) Quand la phrase commence par « if », fais une courte pause à la virgule.",
+    "highlight": "If + présent simple, will + verbe : If you study, you will pass. (Si tu étudies, tu réussiras.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec les verbes entre parenthèses : If Awa ___ (study) hard, she ___ (pass) the exam.",
+    "steps": [
+      "Je repère « if » : la phrase exprime une condition possible.",
+      "Après « if », j'utilise le présent simple. Awa est « she », donc study devient studies.",
+      "Dans la deuxième partie, j'utilise will + verbe sans « s » : will pass.",
+      "Je relis la phrase et je fais une courte pause à la virgule, avec la voix qui descend à la fin.",
+      "Réponse : If Awa studies hard, she will pass the exam. (Si Awa étudie sérieusement, elle réussira à l'examen.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime correctement la condition ?",
+    "reponse_calculee": "If you work hard, you will pass the BEPC.",
+    "choices": [
+      {
+        "label": "If you work hard, you will pass the BEPC.",
+        "correct": true
+      },
+      {
+        "label": "If you will work hard, you pass the BEPC.",
+        "correct": false
+      },
+      {
+        "label": "If you worked hard, you will passing the BEPC.",
+        "correct": false
+      },
+      {
+        "label": "If you work hard, you passes the BEPC.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! If you work hard, you will pass the BEPC. (Si tu travailles dur, tu réussiras au BEPC.) On utilise le présent simple après « if » et will + verbe pour le résultat.",
+    "feedback_wrong": "La bonne réponse est : If you work hard, you will pass the BEPC. (Si tu travailles dur, tu réussiras au BEPC.) Après « if », on met le présent simple, sans « will ». Dans le résultat, on met will + verbe à la base, sans « s » ni « -ing »."
+  },
+  "verification": "ok2"
+}

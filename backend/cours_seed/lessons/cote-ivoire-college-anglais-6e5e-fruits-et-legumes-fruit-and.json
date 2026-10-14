@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-fruits-et-legumes-fruit-and",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Fruits et légumes (Fruit and vegetables)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Fruits et légumes (Fruit and vegetables)",
+  "intro": {
+    "heading": "Au marché avec Aya",
+    "body": "Aya accompagne sa mère au marché à Abidjan. Elle doit acheter des fruits et des légumes, mais la vendeuse parle anglais avec une cliente étrangère. Aya veut comprendre, comparer les produits et demander les quantités. Dans cette leçon, tu apprends les mots et les phrases pour y arriver."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍌",
+        "text": "Retiens les noms : mango, banana, orange, tomato, onion."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Comparatif : adjectif court + er than, ou more + adjectif long."
+      },
+      {
+        "icon": "🧺",
+        "text": "Quantité : some, a kilo of, a bag of, how much."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer, comparer et demander une quantité",
+    "explanation": "Voici des noms utiles : a mango (une mangue), a banana (une banane), an orange (une orange), a pineapple (un ananas), a tomato (une tomate), an onion (un oignon), a carrot (une carotte). On écrit « a » devant un son de consonne et « an » devant un son de voyelle. Pour comparer, on ajoute -er à un adjectif court, puis on met « than » (que) : cheap devient cheaper than, big devient bigger than. Avec un adjectif long comme expensive (cher), on place « more » devant : more expensive than. Pour la quantité, on utilise some (du, de la, des), a kilo of (un kilo de), a bag of (un sac de), a basket of (un panier de) : a basket of tomatoes (un panier de tomates). Pour demander le prix, on dit : How much is a kilo of tomatoes? (Combien coûte un kilo de tomates ?)",
+    "highlight": "Adjectif court + er + than : A mango is bigger than an orange. (Une mangue est plus grosse qu'une orange.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « Les ananas sont plus chers que les bananes. »",
+    "steps": [
+      "Le sujet est « les ananas » : pineapples. Il est au pluriel, donc le verbe est « are ».",
+      "L'adjectif « cher » se dit expensive. Il est long (trois syllabes), donc on met « more » devant : more expensive.",
+      "« Que » dans une comparaison se dit « than ».",
+      "« Les bananes » se dit bananas.",
+      "Réponse : Pineapples are more expensive than bananas. (Les ananas sont plus chers que les bananes.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase dit correctement « Une mangue est plus grosse qu'une orange » ?",
+    "reponse_calculee": "A mango is bigger than an orange.",
+    "choices": [
+      {
+        "label": "A mango is bigger than an orange.",
+        "correct": true
+      },
+      {
+        "label": "A mango is more big than an orange.",
+        "correct": false
+      },
+      {
+        "label": "A mango is biger than an orange.",
+        "correct": false
+      },
+      {
+        "label": "A mango is bigger that an orange.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Big est un adjectif court : on double le g, on ajoute -er, puis on utilise than. A mango is bigger than an orange. (Une mangue est plus grosse qu'une orange.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Big est un adjectif court : on n'utilise pas « more », on écrit bigger avec deux g, et on emploie « than » (et non « that ») pour dire « que ». La bonne phrase est : A mango is bigger than an orange. (Une mangue est plus grosse qu'une orange.)"
+  },
+  "verification": "ok2"
+}

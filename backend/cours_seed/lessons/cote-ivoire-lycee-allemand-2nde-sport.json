@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-sport",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Sport",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Sport",
+  "intro": {
+    "heading": "Un match après les cours à Abidjan",
+    "body": "À la récréation, Koffi et Aya parlent de leurs activités préférées. Koffi dit : « Ich spiele gern Fußball » (J'aime jouer au football). Aya répond qu'elle préfère nager. Aujourd'hui, tu apprends à dire en allemand quel sport tu pratiques et si tu l'aimes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "Les sports de ballon se disent avec spielen : Fußball spielen."
+      },
+      {
+        "icon": "✏️",
+        "text": "Terminaisons : ich spiele, du spielst, er spielt."
+      },
+      {
+        "icon": "❤️",
+        "text": "gern se place après le verbe : Ich spiele gern Tennis."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de sport avec spielen, gern et Sport machen",
+    "explanation": "Pour les sports de ballon, on utilise le verbe spielen (jouer) : Fußball spielen (jouer au football), Basketball spielen (jouer au basket). Pour d'autres activités, il existe des verbes propres : schwimmen (nager) et laufen (courir). Pour dire de façon générale que tu fais du sport, tu dis : Ich mache Sport (Je fais du sport). Le verbe change de terminaison selon la personne : ich spiele (je joue), du spielst (tu joues), er spielt (il joue), sie spielt (elle joue). Pour dire que tu aimes une activité, ajoute gern après le verbe : Ich spiele gern Fußball (J'aime jouer au football). Pour dire que tu n'aimes pas, tu écris nicht gern : Ich spiele nicht gern Tennis (Je n'aime pas jouer au tennis). Dans une phrase simple, le verbe est toujours en deuxième position : Am Samstag spiele ich Fußball (Le samedi, je joue au football).",
+    "highlight": "Ich spiele gern Fußball. (J'aime jouer au football.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en allemand : « Aya aime jouer au basket. » Utilise le verbe spielen, le mot gern et le mot Basketball.",
+    "steps": [
+      "Commence par le sujet : Aya (c'est une seule personne, comme « elle »).",
+      "Choisis le verbe spielen et conjugue-le à la 3e personne du singulier : on ajoute -t, donc spielt.",
+      "Place le verbe juste après le sujet, en deuxième position : Aya spielt.",
+      "Ajoute gern après le verbe pour exprimer que Aya aime cette activité : Aya spielt gern.",
+      "Termine par le sport : Basketball.",
+      "Réponse complète : Aya spielt gern Basketball. (Aya aime jouer au basket.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand « Tu joues au football » ?",
+    "reponse_calculee": "Du spielst Fußball.",
+    "choices": [
+      {
+        "label": "Du spielst Fußball.",
+        "correct": true
+      },
+      {
+        "label": "Du spiele Fußball.",
+        "correct": false
+      },
+      {
+        "label": "Du spielt Fußball.",
+        "correct": false
+      },
+      {
+        "label": "Du spielen Fußball.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec du (tu), le verbe spielen prend la terminaison -st : du spielst. Du spielst Fußball se traduit par « Tu joues au football ».",
+    "feedback_wrong": "Ce n'est pas la bonne forme. Avec du, la terminaison du verbe est toujours -st : du spielst. La terminaison -e va avec ich (ich spiele), la terminaison -t avec er ou sie (er spielt), et la forme spielen avec wir ou sie au pluriel. La bonne phrase est donc : Du spielst Fußball. (Tu joues au football.)"
+  },
+  "verification": "ok"
+}

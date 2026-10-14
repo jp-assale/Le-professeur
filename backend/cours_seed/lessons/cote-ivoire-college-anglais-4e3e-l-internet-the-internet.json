@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-l-internet-the-internet",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · L'Internet (The Internet)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'Internet (The Internet)",
+  "intro": {
+    "heading": "Un exposé à préparer",
+    "body": "Awa, élève de 3e à Abidjan, doit présenter un exposé sur l'Internet. Avec son téléphone, elle trouve un petit texte en anglais. Elle doit dire de quoi parle le texte, puis décrire à quoi sert l'Internet. Comme dans une situation d'évaluation, tu vas apprendre à lire le texte et à écrire des phrases simples pour la tâche demandée."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👀",
+        "text": "Lis vite pour l'idée générale, puis cherche les détails."
+      },
+      {
+        "icon": "💻",
+        "text": "Apprends les mots : email, website, download, search."
+      },
+      {
+        "icon": "✍️",
+        "text": "Dis : We use the Internet to + verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire un texte et parler de l'Internet",
+    "explanation": "Pour comprendre un texte, utilise deux techniques de lecture. Le skimming (lire vite) sert à trouver l'idée générale : regarde le titre et la première phrase. Le scanning (chercher une information précise) sert à trouver un détail comme un nom, un exemple ou un chiffre. Les mots de l'Internet à connaître sont : an email (un e-mail), a website (un site web), a search engine (un moteur de recherche), to download (télécharger), to chat (discuter) et to watch videos (regarder des vidéos). Pour dire à quoi sert l'Internet, on utilise la structure use + the Internet + to + verbe. Après to, le verbe reste à la forme de base, sans -s ni -ing. Avec he, she ou it, le verbe use prend un -s : she uses. Pour parler de ce qui est possible, on peut aussi dire You can + verbe.",
+    "highlight": "Sujet + use(s) + the Internet + to + verbe. Exemple : We use the Internet to send emails. (Nous utilisons Internet pour envoyer des e-mails.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais avec ces mots : Kofi / use / the Internet / to / search for / information. Conjugue le verbe use au présent.",
+    "steps": [
+      "Repère le sujet : Kofi. C'est une seule personne, donc on peut le remplacer par he (il).",
+      "Avec he, le verbe au présent prend un -s : use devient uses.",
+      "On veut dire « pour chercher » : on écrit to + verbe de base, donc to search for.",
+      "Ajoute le complément : information (des informations).",
+      "Assemble dans l'ordre : sujet + verbe + the Internet + to + verbe + complément.",
+      "Réponse : Kofi uses the Internet to search for information. (Kofi utilise Internet pour chercher des informations.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire que nous utilisons l'Internet pour envoyer des e-mails ?",
+    "reponse_calculee": "We use the Internet to send emails.",
+    "choices": [
+      {
+        "label": "We use the Internet to send emails.",
+        "correct": true
+      },
+      {
+        "label": "We use the Internet for send emails.",
+        "correct": false
+      },
+      {
+        "label": "We uses the Internet to send emails.",
+        "correct": false
+      },
+      {
+        "label": "We use the Internet to sending emails.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec we, le verbe use ne prend pas de -s, et après to on met le verbe de base : We use the Internet to send emails. (Nous utilisons Internet pour envoyer des e-mails.)",
+    "feedback_wrong": "La bonne phrase est : We use the Internet to send emails. (Nous utilisons Internet pour envoyer des e-mails.) Avec we, on écrit use et non uses. Après to, on met le verbe de base (send) et non sending, et on n'utilise pas for devant un verbe."
+  },
+  "verification": "ok2"
+}

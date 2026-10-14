@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-dialogue-oral",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le dialogue oral",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le dialogue oral",
+  "intro": {
+    "heading": "Au marché de Treichville",
+    "body": "Aya accompagne sa mère au marché et veut acheter des mangues. Elle salue la vendeuse, pose des questions sur le prix, puis négocie poliment. Ce petit échange est un dialogue oral : deux personnes parlent tour à tour dans une situation précise. Dans cette leçon, tu apprends à construire un dialogue clair et adapté à la situation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Le dialogue oral est un échange entre deux personnes ou plus."
+      },
+      {
+        "icon": "❓",
+        "text": "Les phrases interrogatives questionnent, les déclaratives informent."
+      },
+      {
+        "icon": "🎯",
+        "text": "Le registre de langue dépend de la personne et du lieu."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Réussir un dialogue oral",
+    "explanation": "Un dialogue oral est un échange de paroles entre deux personnes ou plus, qui parlent à tour de rôle. Il s'inscrit dans une situation de communication : qui parle (l'émetteur), à qui (le récepteur), de quoi (le sujet), où et pourquoi. Pour bien dialoguer, tu salues, tu écoutes, tu réponds au sujet traité et tu respectes les tours de parole. Tu utilises des phrases déclaratives pour donner une information (« Je cherche un cahier. ») et des phrases interrogatives pour poser une question (« Combien coûte-t-il ? »). Tu emploies aussi le lexique du thème : au marché, on dit prix, acheter, vendre, monnaie, remise. Le registre de langue doit convenir à la situation : avec un enseignant ou un adulte, tu emploies le registre courant et poli et tu dis « vous » ; avec un ami, tu peux employer le registre familier. Enfin, tu varies les types de phrases selon ce que tu veux exprimer : tu peux affirmer (phrase déclarative), interroger (phrase interrogative), ordonner (phrase impérative) ou exclamer (phrase exclamative).",
+    "highlight": "Dialoguer, c'est parler à tour de rôle sur un sujet, avec le bon registre, en variant phrases déclaratives et interrogatives."
+  },
+  "example": {
+    "problem": "Situation : Koffi veut acheter un cahier à 500 FCFA chez la vendeuse de la boutique de l'école. Il parle à une adulte qu'il ne connaît pas. Écris un court dialogue de deux répliques et analyse-le.",
+    "steps": [
+      "Étape 1 : identifie la situation de communication. Koffi (émetteur) parle à la vendeuse (récepteur) à la boutique, pour acheter un cahier.",
+      "Étape 2 : choisis le registre. La vendeuse est une adulte inconnue, donc on emploie le registre courant et poli, avec « vous » et « s'il vous plaît ».",
+      "Étape 3 : écris la réplique de Koffi, qui commence par une salutation : « Bonjour madame, je voudrais un cahier. Combien coûte-t-il, s'il vous plaît ? »",
+      "Étape 4 : écris la réponse de la vendeuse : « Bonjour, mon petit. Il coûte 500 FCFA. »",
+      "Étape 5 : repère les types de phrases. « Je voudrais un cahier » et « Il coûte 500 FCFA » sont des phrases déclaratives ; « Combien coûte-t-il, s'il vous plaît ? » est une phrase interrogative. « Bonjour madame » est une salutation : ce n'est pas une question.",
+      "Étape 6 : repère le lexique du thème : cahier, coûte, FCFA. Il appartient bien au thème de l'achat."
+    ]
+  },
+  "quiz": {
+    "question": "Dans le dialogue suivant, quelle phrase est interrogative ? « Bonjour madame. Je cherche des tomates. Combien coûte le tas ? »",
+    "reponse_calculee": "Combien coûte le tas ?",
+    "choices": [
+      {
+        "label": "Bonjour madame.",
+        "correct": false
+      },
+      {
+        "label": "Je cherche des tomates.",
+        "correct": false
+      },
+      {
+        "label": "Combien coûte le tas ?",
+        "correct": true
+      },
+      {
+        "label": "Aucune phrase n'est interrogative.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Combien coûte le tas ? » pose une question : c'est une phrase interrogative. Elle contient le mot interrogatif « combien » et, à l'écrit, elle se termine par un point d'interrogation.",
+    "feedback_wrong": "« Bonjour madame » est une salutation et « Je cherche des tomates » donne une information (phrase déclarative) : aucune des deux ne pose de question. Seule « Combien coûte le tas ? » pose une question, c'est donc la phrase interrogative."
+  },
+  "verification": "ok2"
+}

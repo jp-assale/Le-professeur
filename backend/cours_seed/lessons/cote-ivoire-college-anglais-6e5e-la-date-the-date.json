@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-la-date-the-date",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · La date (The date)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · La date (The date)",
+  "intro": {
+    "heading": "Quel jour sommes-nous ?",
+    "body": "Awa et Kofi préparent l'anniversaire de leur camarade de classe à Abidjan. Kofi demande : « Quelle est la date aujourd'hui ? » Awa doit répondre en anglais, devant leur professeur. Dans cette leçon, tu apprends à dire et à écrire la date comme Awa."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📅",
+        "text": "Jours et mois s'écrivent avec une majuscule en anglais."
+      },
+      {
+        "icon": "🔢",
+        "text": "Pour la date, on utilise les nombres ordinaux : first, second, third."
+      },
+      {
+        "icon": "✍️",
+        "text": "Modèle : It's the 5th of May."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander et dire la date",
+    "explanation": "En anglais, les jours de la semaine et les mois de l'année prennent toujours une majuscule : Monday (lundi), Friday (vendredi), January (janvier), June (juin). Pour dire la date, on utilise un nombre ordinal : first (premier), second (deuxième), third (troisième), fourth (quatrième), fifth (cinquième), twelfth (douzième). À l'écrit, on ajoute la fin du mot au chiffre : 1st, 2nd, 3rd, 4th, 12th. Pour demander la date, on dit : What is the date today? (Quelle est la date aujourd'hui ?). Pour demander le jour, on dit : What day is it today? (Quel jour est-on aujourd'hui ?). On peut répondre : It's the 5th of May. (Nous sommes le 5 mai.) ou Today is Monday. (Aujourd'hui, c'est lundi.). Pour parler d'un anniversaire : When is your birthday? (Quand est ton anniversaire ?) – My birthday is on the 12th of March. (Mon anniversaire est le 12 mars.).",
+    "highlight": "What is the date today? – It's the 5th of May. (Quelle est la date aujourd'hui ? – Nous sommes le 5 mai.)"
+  },
+  "example": {
+    "problem": "Écris en anglais la phrase : « Mon anniversaire est le 22 août. »",
+    "steps": [
+      "Commence par la structure : My birthday is on... (Mon anniversaire est le...).",
+      "Traduis le mois : août se dit August, avec une majuscule.",
+      "Transforme le nombre 22 en ordinal : twenty-second, qui s'écrit 22nd.",
+      "Utilise le modèle : the + nombre ordinal + of + mois, donc the 22nd of August.",
+      "Assemble la phrase : My birthday is on the 22nd of August. (Mon anniversaire est le 22 août.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « le 3 mars » en anglais ?",
+    "reponse_calculee": "the third of March",
+    "choices": [
+      {
+        "label": "the third of March",
+        "correct": true
+      },
+      {
+        "label": "the three of March",
+        "correct": false
+      },
+      {
+        "label": "the thirdth of March",
+        "correct": false
+      },
+      {
+        "label": "the third March of",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour la date, on utilise un nombre ordinal : third (troisième), puis of et le mois avec une majuscule : the third of March (le 3 mars).",
+    "feedback_wrong": "La bonne réponse est : the third of March. Pour dire la date, on utilise un nombre ordinal (third, et non three), sans ajouter « th » à third. L'ordre est : the + ordinal + of + mois."
+  },
+  "verification": "ok2"
+}

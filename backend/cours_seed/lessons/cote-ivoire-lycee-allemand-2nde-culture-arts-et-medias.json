@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-culture-arts-et-medias",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Culture, arts et médias",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Culture, arts et médias",
+  "intro": {
+    "heading": "Ton correspondant allemand te pose une question",
+    "body": "Tu as un correspondant allemand, Jonas, qui veut te connaître. Il t'écrit un message pour savoir quelle musique ou quelles émissions tu aimes. Dans une situation d'évaluation, tu devrais lui répondre par quelques phrases simples. Dans cette leçon, tu apprends à dire ce que tu aimes écouter (musique, radio) avec le mot gern."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎵",
+        "text": "Je dis ce que j'aime faire avec le mot gern."
+      },
+      {
+        "icon": "📍",
+        "text": "Dans une phrase affirmative, le verbe conjugué occupe la deuxième place."
+      },
+      {
+        "icon": "✍️",
+        "text": "Après er, sie ou un prénom comme Awa, le verbe finit par -t."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que j'aime avec « gern »",
+    "explanation": "Pour dire qu'on aime faire quelque chose, on place le petit mot gern (volontiers) après le verbe. Exemple : Ich höre gern Musik (J'écoute volontiers de la musique, donc j'aime écouter de la musique). Dans une phrase affirmative, le verbe conjugué est en deuxième position. Avec ich (je), le verbe finit par -e : ich höre (j'écoute). Avec du (tu), il finit par -st : du hörst (tu écoutes). Avec er, sie ou un prénom, il finit par -t : Awa hört (Awa écoute). Voici des mots utiles : die Musik (la musique), das Radio (la radio), der Film (le film), das Buch (le livre). Pour poser la question à ton ami, tu mets le verbe en première position : Hörst du gern Musik? (Aimes-tu écouter de la musique ?).",
+    "highlight": "Sujet + verbe + gern + complément : Ich höre gern Musik. (J'aime écouter de la musique.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande avec ces mots : Awa / gern / Radio / hören. Tu veux dire : Awa aime écouter la radio.",
+    "steps": [
+      "Je repère le sujet : Awa, c'est une personne seule, comme sie (elle).",
+      "Je conjugue le verbe hören avec sie : on prend le radical hör- et on ajoute -t, donc hört.",
+      "Je place le verbe conjugué en deuxième position, juste après le sujet : Awa hört.",
+      "Je place gern après le verbe : Awa hört gern.",
+      "Je termine par le complément : Awa hört gern Radio. (Awa aime écouter la radio.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Moussa aime écouter de la musique » ?",
+    "reponse_calculee": "Moussa hört gern Musik.",
+    "choices": [
+      {
+        "label": "Moussa hört gern Musik.",
+        "correct": true
+      },
+      {
+        "label": "Moussa gern hört Musik.",
+        "correct": false
+      },
+      {
+        "label": "Moussa hören gern Musik.",
+        "correct": false
+      },
+      {
+        "label": "Moussa hörst gern Musik.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Moussa est une personne seule, donc le verbe prend -t : hört. Il est en deuxième position, et gern vient juste après lui : Moussa hört gern Musik. (Moussa aime écouter de la musique.)",
+    "feedback_wrong": "La bonne phrase est : Moussa hört gern Musik. Dans une phrase affirmative, le verbe doit être en deuxième position, donc gern ne peut pas se placer devant lui. Avec Moussa (comme er), la terminaison est -t : hört. La forme hören va avec wir ou sie au pluriel, et la forme hörst va avec du."
+  },
+  "verification": "ok2"
+}

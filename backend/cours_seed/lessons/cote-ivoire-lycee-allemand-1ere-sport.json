@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-sport",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Sport",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Sport",
+  "intro": {
+    "heading": "Au terrain de sport du lycée",
+    "body": "Après les cours, Kofi et Awa discutent sur le terrain du lycée à Abidjan. Un correspondant allemand leur demande : « Welchen Sport machst du gern? » (Quel sport aimes-tu pratiquer ?). Pour lui répondre, tu dois savoir dire quel sport tu pratiques et si tu l'aimes. Dans cette leçon, tu apprends les phrases simples qui permettent de parler de sport en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "Pour un sport de ballon, on utilise spielen."
+      },
+      {
+        "icon": "💬",
+        "text": "Gern se place après le verbe (et après le sujet s'il est placé derrière le verbe) : Ich spiele gern Fußball."
+      },
+      {
+        "icon": "📌",
+        "text": "Dans une phrase déclarative simple, le verbe conjugué est en deuxième position."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire quel sport on pratique et qu'on l'aime",
+    "explanation": "Pour les sports de ballon, on utilise le verbe spielen (jouer), sans article : Fußball spielen (jouer au football), Basketball spielen (jouer au basket), Handball spielen (jouer au handball). Pour d'autres activités, on emploie souvent machen (faire) : Ich mache Judo (je fais du judo). Certains sports ont leur propre verbe : schwimmen (nager) et laufen (courir). Voici la conjugaison de spielen : ich spiele, du spielst, er/sie spielt, wir spielen, ihr spielt, sie spielen. Pour dire qu'on aime une activité, on ajoute gern (volontiers) après le verbe conjugué : Ich spiele gern Fußball. Si le sujet est placé derrière le verbe, gern vient après le sujet : Am Samstag spiele ich gern Fußball. Dans une phrase déclarative simple, le verbe conjugué occupe la deuxième place : Am Samstag spiele ich Fußball (Samedi, je joue au football).",
+    "highlight": "Sujet + spielen conjugué + gern + sport : Ich spiele gern Fußball. (J'aime jouer au football.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Awa aime jouer au handball. »",
+    "steps": [
+      "Repère le sujet : Awa, c'est une seule personne (elle). Le verbe prend donc la terminaison -t.",
+      "Choisis le verbe : un sport de ballon utilise spielen (jouer). Avec Awa, on écrit spielt.",
+      "Place gern (volontiers) juste après le verbe : spielt gern.",
+      "Ajoute le sport sans article : Handball.",
+      "Réponse complète : Awa spielt gern Handball. (Awa aime jouer au handball.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand : « Moussa aime jouer au football » ?",
+    "reponse_calculee": "Moussa spielt gern Fußball.",
+    "choices": [
+      {
+        "label": "Moussa spielt gern Fußball.",
+        "correct": true
+      },
+      {
+        "label": "Moussa spielen gern Fußball.",
+        "correct": false
+      },
+      {
+        "label": "Moussa Fußball spielt gern.",
+        "correct": false
+      },
+      {
+        "label": "Moussa ist gern Fußball.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Moussa est à la 3e personne du singulier, donc spielen devient spielt. Gern vient après le verbe, puis on ajoute le sport : Moussa spielt gern Fußball. (Moussa aime jouer au football.)",
+    "feedback_wrong": "La bonne réponse est : Moussa spielt gern Fußball. Avec Moussa (er), le verbe prend la terminaison -t : spielt, et non spielen. Dans une phrase déclarative simple, le verbe conjugué doit rester en deuxième position, juste après le sujet. Enfin, pour un sport de ballon, on utilise spielen et non ist."
+  },
+  "verification": "ok2"
+}

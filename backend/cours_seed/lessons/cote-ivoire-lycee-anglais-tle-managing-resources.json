@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-managing-resources",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Managing resources",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Managing resources",
+  "intro": {
+    "heading": "Le village et son puits",
+    "body": "Dans le village d'Adjoua, le puits donne de moins en moins d'eau et les cultures souffrent. Son grand-père dit : « Plus il fait chaud, moins il y a d'eau ». Pour le dire en anglais à un exposé, tu as besoin des doubles comparatifs. Ils servent à décrire un changement qui continue, par exemple pour les terres, l'agriculture ou l'eau."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📈",
+        "text": "Adjectif court : adjectif en -er + and + même forme."
+      },
+      {
+        "icon": "🌍",
+        "text": "Adjectif long : more and more + adjectif."
+      },
+      {
+        "icon": "💧",
+        "text": "The more..., the less... : deux changements liés."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les doubles comparatifs pour décrire un changement",
+    "explanation": "En anglais, on répète le comparatif avec « and » pour dire qu'une chose change de plus en plus. Avec un adjectif court, on ajoute -er : drier and drier (de plus en plus sec). Avec un adjectif long, on emploie « more and more » devant l'adjectif : more and more expensive (de plus en plus cher). On utilise souvent les verbes « get » ou « become » : the land is getting drier and drier. Pour une quantité, on dit « less and less water » (de moins en moins d'eau). Il existe une autre structure : « The more..., the more/less... », qui relie deux changements : plus l'un augmente, plus l'autre augmente ou diminue. Attention aux formes irrégulières : good devient better and better, bad devient worse and worse. Dans un exposé, ces structures montrent clairement l'évolution d'un problème.",
+    "highlight": "Court : adjectif-er and adjectif-er. Long : more and more + adjectif. Ex : The land is getting drier and drier. (La terre devient de plus en plus sèche.) Ex : The more we waste water, the less we have. (Plus nous gaspillons l'eau, moins nous en avons.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Le prix des tomates est de plus en plus élevé au marché. »",
+    "steps": [
+      "Repère l'expression « de plus en plus » : c'est un double comparatif.",
+      "L'adjectif « élevé » se dit « high » : c'est un adjectif court, donc on écrit higher and higher.",
+      "Pour exprimer le changement, on utilise le verbe « is getting » (devient).",
+      "Le sujet est « the price of tomatoes » (le prix des tomates) et le lieu est « at the market » (au marché).",
+      "Réponse : The price of tomatoes is getting higher and higher at the market. (Le prix des tomates est de plus en plus élevé au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase anglaise correspond à : « L'eau devient de plus en plus chère » ?",
+    "reponse_calculee": "Water is becoming more and more expensive.",
+    "choices": [
+      {
+        "label": "Water is becoming more and more expensive.",
+        "correct": true
+      },
+      {
+        "label": "Water is becoming expensiver and expensiver.",
+        "correct": false
+      },
+      {
+        "label": "Water is becoming most and most expensive.",
+        "correct": false
+      },
+      {
+        "label": "Water is becoming more expensive and more.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Expensive » est un adjectif long, donc on dit « more and more expensive » (de plus en plus cher). Water is becoming more and more expensive. (L'eau devient de plus en plus chère.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Avec un adjectif long comme « expensive », on ne met pas -er et on répète « more and more » devant l'adjectif. La bonne réponse est : Water is becoming more and more expensive. (L'eau devient de plus en plus chère.)"
+  },
+  "verification": "ok"
+}

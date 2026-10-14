@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-au-village-village-life",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Au village (Village life)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Au village (Village life)",
+  "intro": {
+    "heading": "Un week-end chez grand-mère",
+    "body": "Awa passe le week-end au village chez sa grand-mère. Elle voit des champs, un puits et des fermiers qui travaillent. Son cousin Kouadio lui demande en anglais : « Do you like village life? » Pour lui répondre, Awa doit connaître les mots du village, dire ce qu'elle souhaite et expliquer pourquoi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌾",
+        "text": "Je connais des mots du village : field, farm, well."
+      },
+      {
+        "icon": "💭",
+        "text": "Je dis mon désir avec I want to et I would like to."
+      },
+      {
+        "icon": "🎯",
+        "text": "J'explique avec because et je donne un but avec to + verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de la vie au village en anglais",
+    "explanation": "Voici des mots utiles : village (village), farm (ferme), field (champ), farmer (agriculteur), well (puits), river (rivière), market (marché), chief (chef). Pour exprimer un désir ou un souhait, tu utilises I want to + verbe (je veux…) ou I would like to + verbe (j'aimerais…). Pour exprimer un sentiment, tu peux dire I am happy (je suis content(e)) ou I love the village (j'adore le village). Pour poser la question, tu dis : Do you like the village? (Aimes-tu le village ?). Pour donner une raison, tu utilises because + une phrase complète : I like the village because it is quiet (j'aime le village parce que c'est calme). Pour donner un but ou une intention, tu utilises to + verbe à l'infinitif : I go to the market to buy fish (je vais au marché pour acheter du poisson).",
+    "highlight": "I want to + verbe ; because + phrase ; to + verbe. Exemple : I want to visit the village because I love my family. (Je veux visiter le village parce que j'aime ma famille.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « Kofi va au marché pour vendre des ignames. » Utilise to + verbe pour exprimer le but.",
+    "steps": [
+      "Cherche le sujet et le verbe aller : Kofi goes (avec un s, car Kofi = he).",
+      "Ajoute le lieu : to the market (au marché).",
+      "Le but répond à la question « pour quoi faire ? » : on utilise to + verbe.",
+      "Le verbe vendre se dit sell, donc to sell.",
+      "Ajoute le complément : yams (des ignames).",
+      "Phrase complète : Kofi goes to the market to sell yams. (Kofi va au marché pour vendre des ignames.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase dit correctement : « Je vais au champ pour planter du manioc » ?",
+    "reponse_calculee": "I go to the field to plant cassava.",
+    "choices": [
+      {
+        "label": "I go to the field to plant cassava.",
+        "correct": true
+      },
+      {
+        "label": "I go to the field for plant cassava.",
+        "correct": false
+      },
+      {
+        "label": "I go to the field to planting cassava.",
+        "correct": false
+      },
+      {
+        "label": "I go to the field because plant cassava.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour exprimer un but, on utilise to + verbe à l'infinitif : to plant (pour planter). I go to the field to plant cassava. (Je vais au champ pour planter du manioc.)",
+    "feedback_wrong": "La bonne réponse est I go to the field to plant cassava. Pour dire le but d'une action, on utilise to suivi du verbe à l'infinitif, sans for et sans -ing. Because s'emploie pour une raison et il est suivi d'une phrase complète avec un sujet et un verbe."
+  },
+  "verification": "ok2"
+}

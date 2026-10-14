@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-possession",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Possession",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Possession",
+  "intro": {
+    "heading": "Le cahier perdu de la classe",
+    "body": "À la sortie de l'école, Awa trouve un cahier sur un banc. Elle demande à ses camarades : « Est-ce le cahier d'Issouf ou le cahier de Fatou ? » Pour répondre en anglais, tu dois savoir dire à qui appartient un objet. Dans cette leçon, tu apprends à le faire avec des phrases très simples."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📘",
+        "text": "My, your, his, her, our, their disent à qui est l'objet."
+      },
+      {
+        "icon": "✏️",
+        "text": "Pour une personne : propriétaire + 's + objet."
+      },
+      {
+        "icon": "🔄",
+        "text": "En anglais, on dit d'abord le propriétaire, puis l'objet."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les adjectifs possessifs et le 's",
+    "explanation": "En anglais, pour dire à qui appartient une chose, on utilise un adjectif possessif ou la forme 's. Voici les adjectifs possessifs : my (mon, ma, mes), your (ton, ta, tes), his (son, sa, ses, pour un garçon ou un homme), her (son, sa, ses, pour une fille ou une femme), our (notre, nos), their (leur, leurs). Ces mots ne changent jamais avec l'objet : my book (mon livre), my books (mes livres). Le choix entre his et her dépend du propriétaire, pas de l'objet. Pour parler d'une personne précise, on écrit le nom du propriétaire, puis 's, puis l'objet : Awa's book (le livre d'Awa). L'ordre est donc inversé par rapport au français : on dit d'abord le propriétaire, puis l'objet. On n'utilise pas d'article devant l'objet dans cette construction.",
+    "highlight": "propriétaire + 's + objet : Awa's book (le livre d'Awa)."
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Le cahier de Moussa. »",
+    "steps": [
+      "Cherche le propriétaire : c'est Moussa.",
+      "Cherche l'objet : c'est le cahier, en anglais notebook.",
+      "Ajoute 's après le propriétaire : Moussa's.",
+      "Mets l'objet après : Moussa's notebook, sans article devant notebook.",
+      "Réponse : Moussa's notebook. (Le cahier de Moussa.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Le livre d'Awa » en anglais ?",
+    "reponse_calculee": "Awa's book",
+    "choices": [
+      {
+        "label": "Awa's book",
+        "correct": true
+      },
+      {
+        "label": "Book's Awa",
+        "correct": false
+      },
+      {
+        "label": "Awa book's",
+        "correct": false
+      },
+      {
+        "label": "Book Awa's",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! On écrit d'abord le propriétaire avec 's, puis l'objet : Awa's book (le livre d'Awa).",
+    "feedback_wrong": "La bonne réponse est Awa's book (le livre d'Awa). En anglais, on dit d'abord le propriétaire avec 's, puis l'objet. Les autres propositions inversent l'ordre ou placent le 's au mauvais endroit."
+  },
+  "verification": "ok"
+}

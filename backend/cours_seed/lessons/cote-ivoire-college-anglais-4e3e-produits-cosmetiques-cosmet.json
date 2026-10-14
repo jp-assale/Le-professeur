@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-produits-cosmetiques-cosmet",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Produits cosmétiques (Cosmetics)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Produits cosmétiques (Cosmetics)",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa est au marché d'Adjamé avec sa cousine Mariam. Mariam a la peau sèche et hésite entre un savon fort et du beurre de karité à 1 500 FCFA. Awa veut lui donner un bon conseil et lui expliquer pourquoi. Dans cette leçon, tu apprends à conseiller, persuader, dissuader, donner des raisons et dire ce qui est permis ou interdit en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💡",
+        "text": "Pour conseiller, on utilise should + verbe."
+      },
+      {
+        "icon": "🧴",
+        "text": "On donne une raison avec because."
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour interdire, on dit You must not."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Conseiller, persuader et donner des raisons",
+    "explanation": "Pour donner un conseil, on utilise should suivi du verbe sans to : You should use sunscreen. (Tu devrais utiliser de la crème solaire.) Pour déconseiller, on dit shouldn't : You shouldn't use strong soap. (Tu ne devrais pas utiliser de savon fort.) Pour persuader, on peut dire : Why don't you try shea butter? (Pourquoi n'essaies-tu pas le beurre de karité ?) Pour dissuader, on dit : Don't use it! (Ne l'utilise pas !) Pour donner une raison, on utilise because (parce que) : It protects your skin. (Cela protège ta peau.) Pour permettre, on dit You can (Tu peux) ; pour interdire, on dit You must not (Tu ne dois pas). Voici des mots utiles pour les effets : moisturise (hydrater), protect (protéger), soft (doux), skin (la peau). Pour écrire un petit message de conseil, tu commences par une salutation, tu donnes ton conseil avec should, tu ajoutes la raison avec because, puis tu termines par une phrase de conclusion.",
+    "highlight": "You should + verbe : You should use sunscreen because it protects your skin. (Tu devrais utiliser de la crème solaire parce qu'elle protège ta peau.)"
+  },
+  "example": {
+    "problem": "Kofi a la peau qui brûle au soleil. Écris en anglais un conseil pour lui avec une raison : « Tu devrais utiliser de la crème solaire parce qu'elle protège ta peau. »",
+    "steps": [
+      "Pour un conseil, on commence par You should. (Tu devrais.)",
+      "Après should, le verbe reste sans to : use. (utiliser)",
+      "Le complément est sunscreen. (la crème solaire)",
+      "Pour la raison, on ajoute because it protects your skin. (parce qu'elle protège ta peau)",
+      "Phrase complète : You should use sunscreen because it protects your skin. (Tu devrais utiliser de la crème solaire parce qu'elle protège ta peau.)"
+    ]
+  },
+  "quiz": {
+    "question": "Aya a la peau sèche. Quelle phrase lui donne un conseil correct avec une raison ?",
+    "reponse_calculee": "You should use shea butter because it moisturises your skin.",
+    "choices": [
+      {
+        "label": "You should use shea butter because it moisturises your skin.",
+        "correct": true
+      },
+      {
+        "label": "You should to use shea butter because it moisturises your skin.",
+        "correct": false
+      },
+      {
+        "label": "You shoulds use shea butter because it moisturises your skin.",
+        "correct": false
+      },
+      {
+        "label": "You should uses shea butter because it moisturises your skin.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après should, on met le verbe sans to et sans s : use. Because introduit la raison : it moisturises your skin. (parce que cela hydrate ta peau)",
+    "feedback_wrong": "Should ne prend jamais de s et il est suivi du verbe sans to et sans s. La seule phrase correcte est : You should use shea butter because it moisturises your skin. (Tu devrais utiliser du beurre de karité parce que cela hydrate ta peau.)"
+  },
+  "verification": "ok"
+}

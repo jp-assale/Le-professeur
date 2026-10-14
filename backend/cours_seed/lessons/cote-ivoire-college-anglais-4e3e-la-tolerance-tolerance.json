@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-la-tolerance-tolerance",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · La tolérance (Tolerance)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · La tolérance (Tolerance)",
+  "intro": {
+    "heading": "Un nouvel élève dans la classe",
+    "body": "Dans ta classe à Abidjan, un nouvel élève, Yao, arrive d'un autre village. Il parle avec un accent différent, et certains camarades rient de lui. Ton professeur te demande d'écrire quelques règles de vie en anglais pour que la classe reste un lieu de respect et de paix. Dans cette leçon, tu apprends les mots de la tolérance et les structures pour dire ce qu'on doit faire et ce qu'on ne doit pas faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Tolerance = respecter les personnes différentes de nous."
+      },
+      {
+        "icon": "✅",
+        "text": "must + verbe exprime une obligation ; mustn't + verbe, une interdiction."
+      },
+      {
+        "icon": "👂",
+        "text": "Pour comprendre un message oral, repère les mots-clés."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire les obligations et les interdictions",
+    "explanation": "La tolérance (tolerance), c'est accepter que les autres soient différents de nous : ils ont une autre langue, une autre religion ou d'autres idées. Quelques mots utiles : respect (le respect), peace (la paix), neighbour (le voisin), classmate (le camarade de classe), kind (gentil), rude (impoli). Pour exprimer une obligation, on utilise must + le verbe à la forme de base, sans « to » : We must help each other. (Nous devons nous entraider.) Pour exprimer une interdiction, on utilise mustn't (ou must not) + le verbe : You mustn't insult people. (Tu ne dois pas insulter les gens.) Must ne change jamais, quel que soit le sujet : I must, she must, they must. Quand tu écoutes un message oral, ne cherche pas à tout comprendre : repère les mots-clés, ceux que la voix accentue, comme respect, must ou mustn't. Ces mots-clés t'aident à trouver l'idée générale du message. Pour l'intonation, la voix descend à la fin d'une phrase affirmative et monte à la fin d'une question à laquelle on répond par oui ou non : Do you respect your classmates? (Respectes-tu tes camarades ?)",
+    "highlight": "must + verbe = obligation ; mustn't + verbe = interdiction. Exemple : We must respect others. (Nous devons respecter les autres.)"
+  },
+  "example": {
+    "problem": "Situation : tu écris une règle pour ta classe. Traduis en anglais avec mustn't : « Tu ne dois pas te moquer de tes camarades. »",
+    "steps": [
+      "Repère le sens de la phrase : « tu ne dois pas » indique une interdiction.",
+      "Pour une interdiction, choisis mustn't, suivi du verbe à la forme de base.",
+      "Traduis « se moquer de » par laugh at (se moquer de) : on garde la forme de base, sans « to ».",
+      "Traduis « tes camarades » par your classmates (tes camarades de classe).",
+      "Assemble : sujet You + mustn't + laugh at + your classmates.",
+      "Réponse : You mustn't laugh at your classmates. (Tu ne dois pas te moquer de tes camarades.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime une interdiction ?",
+    "reponse_calculee": "You mustn't insult your neighbour. (Tu ne dois pas insulter ton voisin.)",
+    "choices": [
+      {
+        "label": "You mustn't insult your neighbour. (Tu ne dois pas insulter ton voisin.)",
+        "correct": true
+      },
+      {
+        "label": "You must respect your neighbour. (Tu dois respecter ton voisin.)",
+        "correct": false
+      },
+      {
+        "label": "You must help your neighbour. (Tu dois aider ton voisin.)",
+        "correct": false
+      },
+      {
+        "label": "You listen to your neighbour. (Tu écoutes ton voisin.)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! mustn't + verbe exprime une interdiction : You mustn't insult your neighbour. (Tu ne dois pas insulter ton voisin.) Cela veut dire qu'il est interdit de le faire.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. must + verbe exprime une obligation (ce qu'il faut faire), et une phrase simple comme You listen... décrit seulement une action. Seule la phrase avec mustn't exprime une interdiction : You mustn't insult your neighbour. (Tu ne dois pas insulter ton voisin.)"
+  },
+  "verification": "ok"
+}

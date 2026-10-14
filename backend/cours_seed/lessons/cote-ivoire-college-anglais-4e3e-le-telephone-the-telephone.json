@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-le-telephone-the-telephone",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Le téléphone (The telephone)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Le téléphone (The telephone)",
+  "intro": {
+    "heading": "Un appel important",
+    "body": "Awa vient d'acheter un téléphone et veut appeler son oncle. Elle a mis 1 000 FCFA de crédit dessus. Sa cousine anglophone lui demande de décrire son nouveau téléphone et de dire à quoi il sert. Aujourd'hui, tu apprends à le faire en anglais, simplement et correctement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📱",
+        "text": "Je nomme les parties : screen, battery, camera."
+      },
+      {
+        "icon": "📞",
+        "text": "Je dis les fonctions : call, send a message, take a photo."
+      },
+      {
+        "icon": "💬",
+        "text": "Je décris un téléphone et je téléphone poliment."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler du téléphone en anglais",
+    "explanation": "Pour parler du téléphone, tu dois connaître trois groupes de mots : les parties, les fonctions et les phrases pour téléphoner. Les parties : screen (écran), battery (batterie), camera (appareil photo), charger (chargeur), button (bouton). Les fonctions : to call (appeler), to send a message (envoyer un message), to take a photo (prendre une photo). Pour décrire un téléphone, utilise « It is + adjectif » et « It has + nom » : It is new (Il est neuf). Pour téléphoner, dis « Hello, this is Awa. » (Allô, c'est Awa.) puis « Can I speak to Koffi, please? » (Puis-je parler à Koffi, s'il te plaît ?). Pour dire à quoi sert un téléphone, utilise « can » + verbe : I can send a message (Je peux envoyer un message). My phone can take photos (Mon téléphone peut prendre des photos).",
+    "highlight": "It has + a/an + nom : It has a big screen. (Il a un grand écran.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Mon téléphone a une petite batterie et un grand écran. »",
+    "steps": [
+      "Le sujet « Mon téléphone » se dit : My phone.",
+      "Le verbe « avoir » avec un sujet à la 3e personne du singulier se dit has (et non have) : My phone has.",
+      "« Une petite batterie » se dit a small battery : l'adjectif small se place avant le nom.",
+      "« Et un grand écran » se dit and a big screen.",
+      "Phrase complète : My phone has a small battery and a big screen. (Mon téléphone a une petite batterie et un grand écran.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour demander à parler à Ama au téléphone ?",
+    "reponse_calculee": "Can I speak to Ama, please?",
+    "choices": [
+      {
+        "label": "Can I speak to Ama, please?",
+        "correct": true
+      },
+      {
+        "label": "Can I speaks to Ama, please?",
+        "correct": false
+      },
+      {
+        "label": "I can speaking to Ama, please?",
+        "correct": false
+      },
+      {
+        "label": "Do I can speak Ama, please?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Can I speak to Ama, please? (Puis-je parler à Ama, s'il te plaît ?) est la phrase correcte : après can, le verbe reste à la forme de base (speak), et on dit speak to quelqu'un.",
+    "feedback_wrong": "La bonne réponse est : Can I speak to Ama, please? (Puis-je parler à Ama, s'il te plaît ?). Après can, le verbe ne prend ni -s ni -ing : on écrit speak. On n'utilise pas do avec can, et on dit speak to Ama."
+  },
+  "verification": "ok2"
+}

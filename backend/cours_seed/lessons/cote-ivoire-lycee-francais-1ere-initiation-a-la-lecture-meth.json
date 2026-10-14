@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-1ere-initiation-a-la-lecture-meth",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "1ère · Initiation à la lecture méthodique dans le cadre de la préparation à l'oral du Baccalauréat",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Initiation à la lecture méthodique dans le cadre de la préparation à l'oral du Baccalauréat",
+  "intro": {
+    "heading": "Un texte inconnu devant le jury",
+    "body": "Imagine Koffi, élève de 1ère A1, devant l'examinateur le jour de l'oral du Baccalauréat. On lui remet un court texte qu'il n'a jamais lu et on lui laisse quelques minutes de préparation. Au lieu de paniquer, il suit une méthode précise qui lui permet de transformer ses impressions en analyse organisée. Cette méthode, c'est la lecture méthodique, et tu vas apprendre à la maîtriser pas à pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧭",
+        "text": "Formule l'hypothèse générale : thème, type, tonalité."
+      },
+      {
+        "icon": "🔍",
+        "text": "Dégage deux ou trois axes de lecture."
+      },
+      {
+        "icon": "📖",
+        "text": "Appuie chaque axe sur des entrées pertinentes du texte."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La démarche de la lecture méthodique",
+    "explanation": "La lecture méthodique consiste à lire un texte de façon organisée pour en expliquer le sens et les effets. Tu commences par une lecture attentive qui te permet de formuler l'hypothèse générale : c'est une réponse provisoire qui indique le thème (de quoi parle le texte), le type (narratif, descriptif, argumentatif, explicatif, injonctif) et la tonalité (comique, pathétique, lyrique, ironique, polémique...). Ensuite, tu construis des axes de lecture : ce sont les grandes directions de ton analyse, souvent deux ou trois, qui répondent à ton hypothèse. Chaque axe est soutenu par des entrées pertinentes, c'est-à-dire des indices précis du texte : champs lexicaux, temps verbaux, figures de style, ponctuation, structure, point de vue du narrateur. Une entrée est pertinente seulement si elle t'aide à prouver ton hypothèse et ton axe. À l'oral, tu présentes d'abord l'hypothèse, tu annonces tes axes, tu les développes avec des citations courtes, puis tu conclus en confirmant ou en nuançant ton hypothèse.",
+    "highlight": "Hypothèse générale (thème, type, tonalité) → axes de lecture → entrées pertinentes → conclusion."
+  },
+  "example": {
+    "problem": "Voici un texte inventé : « Au marché, Aya serre dans son pagne ses dernières pièces de 500 FCFA. Le soleil tape, la foule la bouscule, mais elle sourit : ce soir, ses enfants mangeront. » Applique la démarche de la lecture méthodique.",
+    "steps": [
+      "Hypothèse générale : le thème est le courage d'une mère de famille qui cherche à nourrir ses enfants ; le type est narratif ; la tonalité est pathétique, adoucie par l'espoir.",
+      "Axe 1 : le texte montre une situation matérielle difficile.",
+      "Entrées pour l'axe 1 : les indices de la difficulté (« le soleil tape », « la foule la bouscule ») et l'expression « dernières pièces », qui suggère le manque d'argent.",
+      "Axe 2 : le personnage garde courage et espoir malgré les difficultés.",
+      "Entrées pour l'axe 2 : la conjonction « mais », qui marque l'opposition, le verbe « sourit » et le futur « mangeront », qui tourne le texte vers l'avenir.",
+      "Conclusion : l'hypothèse est confirmée ; le texte émeut le lecteur tout en montrant la force d'Aya."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la lecture méthodique, qu'est-ce que l'hypothèse générale ?",
+    "reponse_calculee": "Une proposition qui annonce le thème, le type et la tonalité du texte, à vérifier ensuite",
+    "choices": [
+      {
+        "label": "Une proposition qui annonce le thème, le type et la tonalité du texte, à vérifier ensuite",
+        "correct": true
+      },
+      {
+        "label": "Un résumé du texte raconté phrase par phrase",
+        "correct": false
+      },
+      {
+        "label": "La biographie de l'auteur présentée au jury",
+        "correct": false
+      },
+      {
+        "label": "La liste de toutes les figures de style du texte",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'hypothèse générale est une réponse provisoire qui donne le thème, le type et la tonalité. Tu la vérifies ensuite grâce aux axes de lecture et aux entrées pertinentes.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. L'hypothèse générale n'est ni un résumé, ni une biographie, ni une liste de procédés. C'est une proposition qui annonce le thème, le type et la tonalité du texte, que tu vérifies ensuite dans l'analyse."
+  },
+  "verification": "ok2"
+}

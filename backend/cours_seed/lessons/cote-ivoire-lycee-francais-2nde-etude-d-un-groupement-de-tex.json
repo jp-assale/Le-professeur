@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-etude-d-un-groupement-de-tex",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · Étude d'un Groupement de Textes (GT) poétiques de littérature africaine ou étrangère",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Étude d'un Groupement de Textes (GT) poétiques de littérature africaine ou étrangère",
+  "intro": {
+    "heading": "Un groupement de poèmes à présenter au club de lecture",
+    "body": "Ton professeur te propose un groupement de trois poèmes. Le club de lecture du lycée de Bouaké doit choisir celui qui parle le mieux de la nature, et Awa te demande de l'aider. Ta tâche est de lire les textes, d'observer leur forme et leurs images, puis de dire ce qui les relie. Pour cela, tu as besoin des outils de l'analyse poétique."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Le poème se reconnaît à ses vers, ses strophes et ses images."
+      },
+      {
+        "icon": "📏",
+        "text": "Forme fixe ou vers libres : compte les syllabes et repère les rimes."
+      },
+      {
+        "icon": "🔎",
+        "text": "L'axe d'étude relie les textes du groupement."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire un poème et un groupement de textes",
+    "explanation": "Le genre poétique repose sur le vers, le rythme, les sonorités et les images qui expriment des émotions ou une vision du monde. Un poème à forme fixe suit des règles précises : le sonnet, par exemple, compte 14 vers répartis en deux quatrains et deux tercets. Un poème en vers libres n'impose ni mètre régulier ni rimes obligatoires, mais il garde un rythme et une organisation voulus par l'auteur. La structure du poème se décrit par ses strophes, le nombre de vers de chacune et leur enchaînement. La versification étudie le mètre (le nombre de syllabes : l'octosyllabe en compte 8, l'alexandrin 12), les rimes (plates AABB, croisées ABAB, embrassées ABBA) et la règle du e muet. Les figures de style donnent de la force aux images : la comparaison, la métaphore, la personnification, l'anaphore. Dans un groupement de textes, tu cherches enfin l'axe d'étude, c'est-à-dire l'idée commune qui relie les poèmes, comme la célébration de la terre natale ou l'espoir. Pour chaque texte, observe la forme, relève les procédés, puis explique l'effet produit.",
+    "highlight": "Forme, versification, figures de style : trois entrées pour retrouver l'axe d'étude du groupement."
+  },
+  "example": {
+    "problem": "Voici un quatrain inventé : « Le soir tombe sur la lagune, / Les pêcheurs reviennent chantant ; / Dans le ciel s'allume la lune, / Tout le monde semble content. » Analyse sa forme et une de ses images.",
+    "steps": [
+      "Compte les vers : il y a 4 vers, donc une seule strophe, un quatrain.",
+      "Compte les syllabes du vers 1 : Le-soir-tom-be-sur-la-la-gu(ne). Le e muet final de « lagune » ne compte pas, donc le vers a 8 syllabes. C'est un octosyllabe.",
+      "Repère les rimes : « lagune » et « lune » riment (A), « chantant » et « content » riment (B).",
+      "Note le schéma ABAB : ce sont des rimes croisées.",
+      "Relève une figure : dans « s'allume la lune », la lune est comparée à une lampe qu'on allume, sans mot de comparaison. C'est une métaphore.",
+      "Conclus : ce quatrain est régulier et célèbre la paix du soir au bord de la lagune. Il pourrait appartenir à un groupement sur la nature."
+    ]
+  },
+  "quiz": {
+    "question": "Un poème est composé de deux quatrains suivis de deux tercets, soit 14 vers. De quelle forme fixe s'agit-il ?",
+    "reponse_calculee": "Un sonnet",
+    "choices": [
+      {
+        "label": "Un sonnet",
+        "correct": true
+      },
+      {
+        "label": "Un poème en vers libres",
+        "correct": false
+      },
+      {
+        "label": "Un haïku",
+        "correct": false
+      },
+      {
+        "label": "Une fable en prose",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact : le sonnet est une forme fixe de 14 vers, répartis en deux quatrains puis deux tercets.",
+    "feedback_wrong": "La bonne réponse est le sonnet. Un poème en vers libres n'a pas de structure imposée, un haïku ne compte que trois vers et une fable en prose n'est pas un poème."
+  },
+  "verification": "ok2"
+}

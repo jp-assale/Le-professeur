@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-lieux-de-travail-work-place",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Lieux de travail (Work places)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Lieux de travail (Work places)",
+  "intro": {
+    "heading": "Une visite au quartier avec Kofi",
+    "body": "Kofi prépare un exposé pour son cours d'anglais. Dans son quartier à Abidjan, il veut présenter les lieux où travaillent sa tante infirmière, son oncle mécanicien et son voisin cultivateur. Pour réussir, il doit connaître le nom des lieux de travail en anglais et savoir construire des phrases simples. Tu vas apprendre à le faire, comme dans une situation d'évaluation de ta classe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏥",
+        "text": "Chaque métier a un lieu : hospital, school, garage, bank, farm."
+      },
+      {
+        "icon": "✍️",
+        "text": "Modèle : A teacher works in a school."
+      },
+      {
+        "icon": "❓",
+        "text": "Avec he ou she, work devient works : She works in a bank. Pour demander : Where does she work? (après does, le verbe reste work)."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire où une personne travaille",
+    "explanation": "En anglais, on dit le métier avec « is a... » ou « is an... », puis le lieu avec le verbe « work ». Voici des lieux importants : a school (une école), a hospital (un hôpital), a garage (un garage), a bank (une banque), a shop (une boutique), a restaurant (un restaurant), an office (un bureau) et a farm (une ferme). On utilise « an » devant un mot qui commence par un son voyelle : an office (un bureau). Avec he, she ou un nom au singulier, le verbe prend un -s : She works in a bank. (Elle travaille dans une banque.) Avec they ou un nom au pluriel, il n'y a pas de -s : They work in a school. (Ils travaillent dans une école.) On utilise souvent « in » (dans) pour le lieu, mais on dit « on a farm » (dans une ferme). Pour poser la question, on écrit : Where does he work? (Où travaille-t-il ?) et Where do they work? (Où travaillent-ils ?). Après « does », le verbe reste sans -s : Where does she work?",
+    "highlight": "Modèle : sujet + work(s) + in + a/an + lieu (mais on a farm). Exemple : A teacher works in a school. (Un enseignant travaille dans une école.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais : Moussa est mécanicien. Dis où il travaille (dans un garage).",
+    "steps": [
+      "Je cherche le métier : mécanicien se dit mechanic (mécanicien). Je pense à « a mechanic ».",
+      "Je cherche le lieu : un garage se dit a garage (un garage).",
+      "Le sujet est Moussa, donc he (il) : le verbe work prend un -s, donc works.",
+      "Pour dire « dans », j'utilise la préposition in.",
+      "Je construis la phrase : Moussa is a mechanic. He works in a garage. (Moussa est mécanicien. Il travaille dans un garage.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase dit correctement : « Awa est infirmière. Elle travaille dans un hôpital. » ?",
+    "reponse_calculee": "Awa is a nurse. She works in a hospital.",
+    "choices": [
+      {
+        "label": "Awa is a nurse. She works in a hospital.",
+        "correct": true
+      },
+      {
+        "label": "Awa is a nurse. She work in a hospital.",
+        "correct": false
+      },
+      {
+        "label": "Awa is a nurse. She works in a school.",
+        "correct": false
+      },
+      {
+        "label": "Awa is a nurse. She works on a hospital.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec she, le verbe prend un -s : works. Une infirmière (a nurse) travaille dans un hôpital (a hospital), et on utilise « in » pour dire « dans ».",
+    "feedback_wrong": "La bonne réponse est : Awa is a nurse. She works in a hospital. Avec she, il faut écrire works avec un -s, donc « She work » est faux. Le mot school veut dire école, pas hôpital. Et on dit « in a hospital », pas « on a hospital » : « on » s'emploie dans « on a farm »."
+  },
+  "verification": "ok2"
+}

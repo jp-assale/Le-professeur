@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-exode-rural-rural-exodus",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Exode rural (Rural exodus)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Exode rural (Rural exodus)",
+  "intro": {
+    "heading": "Un village qui se vide",
+    "body": "Dans le village de ta grand-mère, beaucoup de jeunes partent travailler à la ville. Les champs sont moins cultivés et les marchés sont plus calmes. Ton professeur te donne une situation d'évaluation : tu dois parler de ce problème en anglais, proposer des idées et expliquer les conséquences. Dans cette leçon, tu apprends les mots et les phrases pour le faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💡",
+        "text": "Pour proposer une idée : Why don't we + verbe ?"
+      },
+      {
+        "icon": "➡️",
+        "text": "Pour exprimer une conséquence : so ou As a result."
+      },
+      {
+        "icon": "👂",
+        "text": "Dans un message oral, repère les mots-clés importants."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de l'exode rural en anglais",
+    "explanation": "L'exode rural (rural exodus) est le départ des habitants du village vers la ville pour trouver un travail ou étudier. Voici des mots utiles : villagers (les villageois), a job (un emploi), to leave (quitter), the city (la ville). Pour décrire un changement, tu peux dire : There are fewer young people in the village. (Il y a moins de jeunes au village.) Pour faire une suggestion, utilise Why don't we + verbe ? ou We should + verbe. Pour exprimer une conséquence, utilise so (donc) ou As a result (par conséquent) : Many young people leave, so the fields are empty. (Beaucoup de jeunes partent, donc les champs sont vides.) Pour l'intonation, ta voix descend à la fin d'une phrase affirmative et monte à la fin d'une question à réponse oui ou non : Do you like the city? (Aimes-tu la ville ?) Quand tu écoutes un message oral, repère les mots-clés (key words) comme city, jobs, leave, fewer ou so : ils t'aident à comprendre l'idée générale.",
+    "highlight": "Why don't we + verbe ? Exemple : Why don't we build a school? (Et si nous construisions une école ?)"
+  },
+  "example": {
+    "problem": "Awa veut garder les jeunes au village. Construis une suggestion en anglais avec Why don't we + create a small market in the village.",
+    "steps": [
+      "Repère la structure : Why don't we + verbe à la forme de base (sans to).",
+      "Le verbe est create (créer) : on écrit create, sans s et sans -ing.",
+      "Ajoute le complément : a small market (un petit marché) in the village (au village).",
+      "Termine par un point d'interrogation, car la suggestion a la forme d'une question.",
+      "Réponse : Why don't we create a small market in the village? (Et si nous créions un petit marché au village ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est une suggestion correcte en anglais ?",
+    "reponse_calculee": "Why don't we plant more trees in the village?",
+    "choices": [
+      {
+        "label": "Why don't we plant more trees in the village?",
+        "correct": true
+      },
+      {
+        "label": "Why we don't plant more trees in the village?",
+        "correct": false
+      },
+      {
+        "label": "Why don't we planting more trees in the village?",
+        "correct": false
+      },
+      {
+        "label": "Why don't we to plant more trees in the village?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Why don't we + verbe de base est la bonne structure : Why don't we plant more trees in the village? (Et si nous plantions plus d'arbres au village ?)",
+    "feedback_wrong": "La bonne réponse est : Why don't we plant more trees in the village? (Et si nous plantions plus d'arbres au village ?) Après Why don't we, on emploie le verbe à la forme de base, sans to et sans -ing, et l'ordre des mots reste Why don't we."
+  },
+  "verification": "ok"
+}

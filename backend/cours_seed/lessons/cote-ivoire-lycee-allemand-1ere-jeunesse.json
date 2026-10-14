@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-jeunesse",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Jeunesse",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Jeunesse",
+  "intro": {
+    "heading": "Une présentation pour ton correspondant",
+    "body": "Ton école d'Abidjan a un correspondant allemand, Jonas, qui te demande de te présenter. Il veut savoir ce que les jeunes font pendant leur temps libre en Côte d'Ivoire. Ta tâche est d'écrire quelques phrases simples et correctes sur tes loisirs. Pour cela, tu dois maîtriser la place du verbe en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧑‍🎓",
+        "text": "Je me présente et je parle de mes loisirs."
+      },
+      {
+        "icon": "2️⃣",
+        "text": "Le verbe conjugué est toujours en deuxième position."
+      },
+      {
+        "icon": "🔄",
+        "text": "Après « Am Samstag », le verbe passe avant le sujet."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La place du verbe dans la phrase simple",
+    "explanation": "Pour parler de ta jeunesse et de tes loisirs, tu utilises des phrases courtes comme « Ich bin sechzehn Jahre alt. » (J'ai seize ans.) ou « Ich höre gern Musik. » (J'écoute volontiers de la musique.). En allemand, le verbe conjugué occupe toujours la deuxième place dans la phrase déclarative. Si la phrase commence par le sujet, l'ordre ressemble au français : « Ich spiele gern Fußball. » (Je joue volontiers au football.). Si tu commences par un complément de temps comme « Am Samstag » (le samedi) ou « In meiner Freizeit » (pendant mon temps libre), le verbe reste en deuxième position et le sujet vient après lui. Tu dis donc « Am Samstag spiele ich Fußball. » (Le samedi, je joue au football.) et jamais « Am Samstag ich spiele ». Le petit mot « gern » (volontiers) se place après le verbe pour dire que tu aimes faire quelque chose.",
+    "highlight": "Verbe en 2e position : In meiner Freizeit spiele ich gern Fußball. (Pendant mon temps libre, je joue volontiers au football.)"
+  },
+  "example": {
+    "problem": "Construis une phrase correcte avec ces mots : am Samstag – geht – Awa – ins Kino. (Le samedi, Awa va au cinéma.)",
+    "steps": [
+      "Repère le verbe conjugué : geht (va).",
+      "Commence par le complément de temps : Am Samstag.",
+      "Place le verbe en deuxième position : Am Samstag geht.",
+      "Place le sujet après le verbe : Am Samstag geht Awa.",
+      "Ajoute ins Kino à la fin de la phrase.",
+      "Réponse : Am Samstag geht Awa ins Kino. (Le samedi, Awa va au cinéma.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Le samedi, je joue au football avec mes amis » ?",
+    "reponse_calculee": "Am Samstag spiele ich Fußball mit meinen Freunden.",
+    "choices": [
+      {
+        "label": "Am Samstag spiele ich Fußball mit meinen Freunden.",
+        "correct": true
+      },
+      {
+        "label": "Am Samstag ich spiele Fußball mit meinen Freunden.",
+        "correct": false
+      },
+      {
+        "label": "Am Samstag Fußball spiele ich mit meinen Freunden.",
+        "correct": false
+      },
+      {
+        "label": "Am Samstag ich Fußball spiele mit meinen Freunden.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « Am Samstag », le verbe « spiele » est en deuxième position et le sujet « ich » vient juste après. Am Samstag spiele ich Fußball mit meinen Freunden. (Le samedi, je joue au football avec mes amis.)",
+    "feedback_wrong": "La bonne réponse est : Am Samstag spiele ich Fußball mit meinen Freunden. En allemand, le verbe conjugué doit toujours être en deuxième position. Quand la phrase commence par « Am Samstag », le verbe « spiele » vient donc tout de suite après, puis le sujet « ich »."
+  },
+  "verification": "ok"
+}

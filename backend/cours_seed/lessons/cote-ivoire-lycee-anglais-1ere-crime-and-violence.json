@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-crime-and-violence",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Crime and violence",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Crime and violence",
+  "intro": {
+    "heading": "Un vol au marché",
+    "body": "Awa fait ses courses au grand marché d'Abidjan quand quelqu'un lui vole son téléphone, qui valait 45 000 FCFA. Elle ne sait pas qui est le voleur, mais elle doit expliquer les faits à un policier. En anglais, pour parler d'un crime dont on ne connaît pas l'auteur, on utilise très souvent la forme passive. Aujourd'hui, tu apprends à l'utiliser avec le vocabulaire du crime."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕵️",
+        "text": "Vocabulaire du crime : thief, victim, witness, police officer."
+      },
+      {
+        "icon": "🧩",
+        "text": "Passif : sujet + be + participe passé."
+      },
+      {
+        "icon": "📝",
+        "text": "Dans un rapport, on raconte les faits au passé."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La forme passive pour parler d'un crime",
+    "explanation": "Voici d'abord quelques mots utiles : a thief (un voleur), a victim (une victime), a witness (un témoin), a police officer (un policier) et theft (le vol). La forme passive s'emploie quand on ne connaît pas l'auteur de l'action, ou quand il est moins important que ce qui s'est passé. Elle se construit ainsi : sujet + verbe be + participe passé du verbe. Le verbe be se met au temps de la phrase : was ou were pour le passé, is ou are pour le présent. Avec le passé, on utilise was pour un sujet singulier et were pour un sujet pluriel. Si on veut préciser l'auteur, on ajoute by + l'auteur à la fin de la phrase. Attention aux verbes irréguliers : steal (voler) donne stole puis stolen. Cette forme est très utile dans un rapport, par exemple sur un accident ou un vol, car elle reste claire et neutre.",
+    "highlight": "Passif au passé : sujet + was/were + participe passé. Ex. : The phone was stolen. (Le téléphone a été volé.)"
+  },
+  "example": {
+    "problem": "Mets cette phrase à la forme passive : Someone stole Awa's bag at the market. (Quelqu'un a volé le sac d'Awa au marché.)",
+    "steps": [
+      "Repère l'objet de la phrase active : Awa's bag (le sac d'Awa). Il devient le sujet de la phrase passive.",
+      "Repère le verbe : stole est le passé de steal. Son participe passé est stolen.",
+      "Choisis le verbe be au passé : le sujet « Awa's bag » est singulier, donc on emploie was.",
+      "Supprime Someone, car on ne connaît pas l'auteur du vol.",
+      "Garde la fin de la phrase : at the market.",
+      "Réponse : Awa's bag was stolen at the market. (Le sac d'Awa a été volé au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Le voleur a été arrêté par la police. » ?",
+    "reponse_calculee": "The thief was arrested by the police.",
+    "choices": [
+      {
+        "label": "The thief was arrested by the police.",
+        "correct": true
+      },
+      {
+        "label": "The thief arrested by the police.",
+        "correct": false
+      },
+      {
+        "label": "The thief was arrest by the police.",
+        "correct": false
+      },
+      {
+        "label": "The thief were arrested by the police.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le sujet « the thief » est singulier, donc on emploie was, suivi du participe passé arrested. Le complément d'agent by the police précise qui a arrêté le voleur.",
+    "feedback_wrong": "La bonne réponse est : The thief was arrested by the police. Il faut le verbe be (was) avant le participe passé, sans oublier le -ed de arrested. Comme « the thief » est singulier, on emploie was et non were."
+  },
+  "verification": "ok"
+}

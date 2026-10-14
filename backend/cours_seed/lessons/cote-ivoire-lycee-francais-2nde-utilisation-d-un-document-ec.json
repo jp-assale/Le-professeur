@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-utilisation-d-un-document-ec",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · Utilisation d'un document écrit",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Utilisation d'un document écrit",
+  "intro": {
+    "heading": "Quel document ouvrir pour quelle recherche ?",
+    "body": "Awa, élève de 2nde à Abidjan, prépare un exposé sur le rôle des marchés dans la vie d'un quartier. Elle hésite : doit-elle ouvrir un dictionnaire, un manuel, un journal ou une revue ? Pour gagner du temps, elle doit d'abord savoir à quoi sert chaque document. Dans cette leçon, tu apprends à reconnaître la nature d'un document écrit et à choisir celui qui répond à ton besoin."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📰",
+        "text": "Un document écrit a une nature : journal, manuel, revue, dictionnaire."
+      },
+      {
+        "icon": "🔍",
+        "text": "On identifie un document grâce à son titre, sa couverture et sa présentation."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chaque document répond à un besoin précis de recherche."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La nature d'un document écrit",
+    "explanation": "La nature d'un document écrit, c'est le type de document dont il s'agit. Chaque type a un but, un contenu et une présentation qui lui sont propres. Le journal rapporte l'actualité du jour ou de la semaine : il contient des articles, des titres, des rubriques et des photos, et il paraît à intervalles réguliers. Le manuel est un livre destiné à l'enseignement d'une matière : il est organisé en chapitres, avec des leçons, des exercices et un sommaire. La revue est une publication périodique, souvent mensuelle, qui approfondit un domaine particulier, comme la santé, le sport ou les sciences. Le dictionnaire donne le sens, la classe grammaticale et l'orthographe des mots, classés par ordre alphabétique. Pour reconnaître la nature d'un document, observe sa couverture, son titre, son sommaire, sa date de parution et la façon dont les informations sont rangées.",
+    "highlight": "Pour identifier un document : observe le titre, la date, le sommaire et l'organisation du contenu."
+  },
+  "example": {
+    "problem": "Koffi a sous les yeux un document qui porte la date du jour, plusieurs titres en gros caractères, des rubriques « Société », « Sport » et « Économie » et des photographies. Il doit dire de quel type de document il s'agit et justifier sa réponse.",
+    "steps": [
+      "Étape 1 : Koffi relève les indices visibles : une date du jour, des titres en gros caractères, des rubriques et des photographies.",
+      "Étape 2 : Il se demande à quoi sert le document : informer sur ce qui se passe en ce moment.",
+      "Étape 3 : Il élimine le dictionnaire, car les informations ne sont pas classées par mots dans l'ordre alphabétique.",
+      "Étape 4 : Il élimine le manuel, car on n'y trouve ni leçons ni exercices, mais des articles d'actualité.",
+      "Étape 5 : Il élimine la revue, car elle approfondit un seul domaine, alors que ce document traite plusieurs sujets (société, sport, économie) et porte la date du jour.",
+      "Étape 6 : Il conclut : « Ce document est un journal, car il porte la date du jour, présente des articles classés en rubriques et informe sur l'actualité. »"
+    ]
+  },
+  "quiz": {
+    "question": "Fatou cherche le sens du mot « prospère » et sa classe grammaticale. Quel document écrit doit-elle consulter ?",
+    "reponse_calculee": "Un dictionnaire",
+    "choices": [
+      {
+        "label": "Un dictionnaire",
+        "correct": true
+      },
+      {
+        "label": "Un journal",
+        "correct": false
+      },
+      {
+        "label": "Une revue de sport",
+        "correct": false
+      },
+      {
+        "label": "Un manuel d'histoire",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le dictionnaire donne le sens des mots, leur classe grammaticale et leur orthographe, classés par ordre alphabétique. C'est le bon outil pour ce besoin.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Un journal informe sur l'actualité, une revue approfondit un domaine précis et un manuel enseigne une matière. Pour connaître le sens d'un mot et sa classe grammaticale, on consulte un dictionnaire."
+  },
+  "verification": "ok2"
+}

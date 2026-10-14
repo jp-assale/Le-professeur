@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-les-preparatifs-d-un-voyage",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Les préparatifs d'un voyage",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Les préparatifs d'un voyage",
+  "intro": {
+    "heading": "Le grand départ de Kouassi",
+    "body": "Kouassi, élève de 3e à Abidjan, va faire un voyage scolaire en Allemagne. Il doit acheter sa Fahrkarte (son billet), préparer son Koffer (sa valise) et dire à son correspondant allemand qu'il a hâte de partir. Dans cette leçon, tu apprends les mots et les phrases pour préparer un voyage et exprimer ton impatience et tes souhaits en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧳",
+        "text": "Je connais les mots pour préparer un voyage."
+      },
+      {
+        "icon": "😃",
+        "text": "J'exprime mon impatience avec : Ich freue mich auf ..."
+      },
+      {
+        "icon": "🎫",
+        "text": "Avec möchte, le verbe à l'infinitif va en fin de phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les mots et les phrases pour préparer un voyage",
+    "explanation": "Voici les mots utiles : der Koffer (la valise), der Reisepass (le passeport), die Fahrkarte (le billet), die Reise (le voyage), packen (faire ses bagages) et buchen (réserver). Pour dire ce que tu dois faire, tu écris : Ich muss den Koffer packen. (Je dois faire ma valise.) Pour exprimer un souhait, tu utilises ich möchte (je voudrais) : le verbe à l'infinitif se place alors à la fin de la phrase. Pour exprimer ton impatience, tu dis : Ich freue mich auf die Reise. (Je me réjouis du voyage.) Après auf, on emploie ici l'accusatif : auf die Reise. Tu peux aussi dire : Ich kann es kaum erwarten. (J'ai très hâte.) Pour formuler un espoir, tu commences par Hoffentlich (j'espère que) : Hoffentlich ist das Wetter schön. (J'espère que le temps sera beau.)",
+    "highlight": "Ich freue mich auf die Reise. (Je me réjouis du voyage.) / Ich möchte eine Fahrkarte kaufen. (Je voudrais acheter un billet.)"
+  },
+  "example": {
+    "problem": "Construis en allemand la phrase : « Fatou voudrait acheter un billet pour Abidjan. » Mots donnés : Fatou, möchte, eine Fahrkarte, nach Abidjan, kaufen.",
+    "steps": [
+      "Le sujet vient en premier : Fatou.",
+      "Le verbe de souhait est conjugué en deuxième position : möchte (voudrait).",
+      "Le complément suit : eine Fahrkarte nach Abidjan (un billet pour Abidjan).",
+      "L'infinitif kaufen (acheter) se place tout à la fin de la phrase.",
+      "Réponse : Fatou möchte eine Fahrkarte nach Abidjan kaufen. (Fatou voudrait acheter un billet pour Abidjan.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand : « Je me réjouis du voyage » ?",
+    "reponse_calculee": "Ich freue mich auf die Reise.",
+    "choices": [
+      {
+        "label": "Ich freue mich auf die Reise.",
+        "correct": true
+      },
+      {
+        "label": "Ich freue mich in die Reise.",
+        "correct": false
+      },
+      {
+        "label": "Ich freue mich mit die Reise.",
+        "correct": false
+      },
+      {
+        "label": "Ich freue mich die Reise auf.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour dire qu'on se réjouit de quelque chose à venir, on emploie sich freuen auf + accusatif : Ich freue mich auf die Reise.",
+    "feedback_wrong": "La bonne réponse est : Ich freue mich auf die Reise. (Je me réjouis du voyage.) Le verbe sich freuen s'utilise avec la préposition auf suivie de l'accusatif, placée avant le groupe nominal : auf die Reise."
+  },
+  "verification": "ok"
+}

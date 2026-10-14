@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-la-technique-d-expres",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · La technique d'expression orale ou écrite",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · La technique d'expression orale ou écrite",
+  "intro": {
+    "heading": "Quelle technique pour quelle situation ?",
+    "body": "Awa est à Abidjan, dans son lycée. Dans la même journée, elle bavarde avec une camarade, interroge un commerçant pour un devoir, prépare un exposé et demande un service à son professeur. Elle ne parle pas de la même façon à chaque fois. En espagnol aussi, il faut identifier la situation, puis choisir la technique qui convient."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔎",
+        "text": "Identifie d'abord la situation : avec qui, pourquoi ?"
+      },
+      {
+        "icon": "🗣️",
+        "text": "Quatre techniques : converser, interviewer, exposer, faire une requête."
+      },
+      {
+        "icon": "✅",
+        "text": "Chaque technique a ses phrases types et son niveau de politesse."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Identifier, choisir et utiliser la technique",
+    "explanation": "Pour bien t'exprimer, tu commences par identifier la situation : qui est ton interlocuteur et que veux-tu obtenir ? Ensuite, tu choisis la technique adaptée. Conversar (converser) sert à échanger librement avec un camarade ou un ami. Entrevistar (interviewer) sert à poser des questions à quelqu'un pour apprendre des choses sur lui. Exponer (exposer) sert à présenter un sujet devant un public, avec une introduction, des idées et une conclusion. Hacer una solicitud (faire une requête) sert à demander poliment quelque chose. Enfin, tu développes la technique choisie, à l'oral comme à l'écrit : tu utilises les phrases types, tu gardes le même ton (tú avec un ami, usted avec un adulte ou un professeur) et tu organises tes idées.",
+    "highlight": "Requête polie : ¿Puede + verbe à l'infinitif, por favor ? Exemple : ¿Puede ayudarme, por favor ? (Pouvez-vous m'aider, s'il vous plaît ?)"
+  },
+  "example": {
+    "problem": "Tu veux demander poliment à ton professeur d'espagnol de répéter une phrase. Construis la phrase en espagnol.",
+    "steps": [
+      "Identifie la situation : tu t'adresses à un adulte et tu veux obtenir un service.",
+      "Choisis la technique : c'est une requête (hacer una solicitud).",
+      "Choisis le niveau de politesse : avec un professeur, on emploie usted, donc la forme Puede.",
+      "Prends la formule de requête : ¿Puede + verbe à l'infinitif ? Le verbe est repetir (répéter).",
+      "Ajoute l'objet (la frase) et la formule de politesse por favor.",
+      "Réponse : ¿Puede repetir la frase, por favor? (Pouvez-vous répéter la phrase, s'il vous plaît ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu commences un exposé devant ta classe sur ton quartier. Quelle phrase est adaptée à cette technique ?",
+    "reponse_calculee": "Hoy voy a hablar de mi barrio. (Aujourd'hui, je vais parler de mon quartier.)",
+    "choices": [
+      {
+        "label": "Hoy voy a hablar de mi barrio. (Aujourd'hui, je vais parler de mon quartier.)",
+        "correct": true
+      },
+      {
+        "label": "¿Puede darme un cuaderno, por favor? (Pouvez-vous me donner un cahier, s'il vous plaît ?)",
+        "correct": false
+      },
+      {
+        "label": "¿Qué tal, amigo? (Comment ça va, mon ami ?)",
+        "correct": false
+      },
+      {
+        "label": "¿Cuál es su nombre, señor? (Quel est votre nom, monsieur ?)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour commencer un exposé, on annonce le sujet à tout le public : Hoy voy a hablar de mi barrio.",
+    "feedback_wrong": "Pas tout à fait. Un exposé commence par l'annonce du sujet. Une demande polie est une requête, « ¿Qué tal, amigo? » est une conversation entre amis et « ¿Cuál es su nombre, señor? » est une question d'interview. La bonne réponse est : Hoy voy a hablar de mi barrio."
+  },
+  "verification": "ok2"
+}

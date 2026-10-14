@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-gender-issues",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Gender issues",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Gender issues",
+  "intro": {
+    "heading": "Awa et Issa à la maison",
+    "body": "Awa et son frère Issa rentrent de l'école. Awa veut jouer au football dans la cour et Issa veut aider sa mère à cuisiner. Un voisin dit : « Le football, c'est pour les garçons et la cuisine, c'est pour les filles ». Awa et Issa ne sont pas d'accord. Aujourd'hui, tu apprends à dire en anglais que les filles et les garçons peuvent faire les mêmes choses."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👧",
+        "text": "Girl veut dire fille et boy veut dire garçon."
+      },
+      {
+        "icon": "💪",
+        "text": "Avec can, on dit ce que quelqu'un peut faire."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Les filles et les garçons ont les mêmes droits."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que filles et garçons peuvent faire avec « can »",
+    "explanation": "Les « gender issues » sont les questions d'égalité entre les filles et les garçons, entre les femmes et les hommes. En anglais, on dit « girl » (fille), « boy » (garçon), « woman » (femme) et « man » (homme). Pour dire ce que quelqu'un peut faire, on utilise « can » (pouvoir). La phrase suit ce modèle : sujet + can + verbe. Après « can », le verbe reste à l'infinitif, sans « to » et sans « s ». Par exemple, on dit « She can cook » (Elle peut cuisiner) et jamais « She can cooks ». On peut aussi dire « Girls and boys can go to school » (Les filles et les garçons peuvent aller à l'école). Ainsi, tu peux défendre l'égalité avec des phrases simples.",
+    "highlight": "Sujet + can + verbe : Boys can cook. (Les garçons peuvent cuisiner.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « Fatou peut jouer au football. »",
+    "steps": [
+      "Cherche le sujet : Fatou. Le prénom reste le même en anglais.",
+      "Cherche « peut » : en anglais, on dit « can ».",
+      "Cherche le verbe : « jouer » se dit « play ». Après « can », on garde « play » sans « to » et sans « s ».",
+      "Cherche le complément : « au football » se dit « football ». Ici, on n'écrit pas « the » devant.",
+      "Mets les mots dans l'ordre sujet + can + verbe + complément. Réponse : Fatou can play football. (Fatou peut jouer au football.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Ibrahim peut cuisiner » ?",
+    "reponse_calculee": "Ibrahim can cook.",
+    "choices": [
+      {
+        "label": "Ibrahim can cook.",
+        "correct": true
+      },
+      {
+        "label": "Ibrahim can cooks.",
+        "correct": false
+      },
+      {
+        "label": "Ibrahim can to cook.",
+        "correct": false
+      },
+      {
+        "label": "Ibrahim cans cook.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « can », le verbe reste à l'infinitif sans « to » et sans « s » : Ibrahim can cook. (Ibrahim peut cuisiner.)",
+    "feedback_wrong": "La bonne phrase est : Ibrahim can cook. (Ibrahim peut cuisiner.) « Can » ne prend jamais de « s » et on n'écrit pas « to » après lui. Le verbe « cook » reste aussi sans « s »."
+  },
+  "verification": "ok"
+}

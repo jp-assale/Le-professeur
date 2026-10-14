@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-child-s-rights-and-duties",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Child's rights and duties",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Child's rights and duties",
+  "intro": {
+    "heading": "À l'école avec Awa et Ibrahim",
+    "body": "Awa et Ibrahim sont élèves à Ouagadougou. Ce matin, leur professeur d'anglais écrit au tableau : « right » et « duty ». Awa demande : « Un enfant a des droits, mais a-t-il aussi des devoirs ? » Aujourd'hui, tu apprends à dire en anglais, avec des phrases très simples, ce que tu as le droit de faire et ce que tu dois faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📘",
+        "text": "Right veut dire droit : I have the right to..."
+      },
+      {
+        "icon": "✅",
+        "text": "Duty veut dire devoir : I must + verbe."
+      },
+      {
+        "icon": "🏫",
+        "text": "Après must, le verbe reste simple, sans s ni to."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire un droit et dire un devoir",
+    "explanation": "En anglais, « right » signifie « droit » et « duty » signifie « devoir ». Pour dire un droit, tu utilises la phrase « I have the right to » suivie d'un verbe. Par exemple : « I have the right to go to school. » (J'ai le droit d'aller à l'école.) Pour dire un devoir, tu utilises « I must » suivi d'un verbe. Par exemple : « I must respect my teacher. » (Je dois respecter mon professeur.) Après « must », le verbe ne change jamais et tu n'ajoutes pas « to ». Tu dis « I must help » (Je dois aider) et jamais « I must to help ». Retiens bien : un droit, c'est ce que tu peux faire ; un devoir, c'est ce que tu dois faire.",
+    "highlight": "Droit : I have the right to + verbe. Ex. : I have the right to play. (J'ai le droit de jouer.) Devoir : I must + verbe. Ex. : I must do my homework. (Je dois faire mes devoirs.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Je dois aider ma mère. »",
+    "steps": [
+      "Cherche d'abord si c'est un droit ou un devoir : « je dois » exprime un devoir.",
+      "Pour un devoir, on utilise « I must » (je dois).",
+      "Le verbe « aider » se dit « help », sans « to » après must.",
+      "« ma mère » se dit « my mother ».",
+      "Réponse : I must help my mother. (Je dois aider ma mère.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Je dois respecter mon professeur. » ?",
+    "reponse_calculee": "I must respect my teacher.",
+    "choices": [
+      {
+        "label": "I must respect my teacher.",
+        "correct": true
+      },
+      {
+        "label": "I have the right to respect my teacher.",
+        "correct": false
+      },
+      {
+        "label": "I must to respect my teacher.",
+        "correct": false
+      },
+      {
+        "label": "I must respects my teacher.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « I must » exprime un devoir et le verbe « respect » reste simple, sans « to » et sans s. I must respect my teacher. (Je dois respecter mon professeur.)",
+    "feedback_wrong": "La bonne réponse est « I must respect my teacher. ». « I have the right to » veut dire « j'ai le droit de », ce n'est pas un devoir. Après « must », on n'ajoute ni « to » ni « s » au verbe."
+  },
+  "verification": "ok"
+}

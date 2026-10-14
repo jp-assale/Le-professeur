@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-description-of-people-and-th",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Description of people and things",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Description of people and things",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa va au marché avec son frère Ousmane. Elle veut acheter un sac rouge à 3 000 FCFA. La vendeuse lui demande : « Comment est ton frère ? Comment est le sac ? ». Awa doit décrire une personne et un objet en anglais. Dans cette leçon, tu apprends à le faire avec des phrases très simples."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧍",
+        "text": "Pour décrire une personne : He is ou She is."
+      },
+      {
+        "icon": "👜",
+        "text": "Pour décrire une chose : It is, puis un adjectif."
+      },
+      {
+        "icon": "🎨",
+        "text": "L'adjectif ne change jamais : tall, red, big, new."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le verbe « to be » + un adjectif",
+    "explanation": "Pour décrire quelqu'un ou quelque chose, tu utilises le verbe « to be » (être), puis un adjectif. Pour un garçon, tu dis « He is » (Il est). Pour une fille, tu dis « She is » (Elle est). Pour un objet ou un animal, tu dis « It is » (Il est / Elle est). Pour plusieurs personnes ou choses, tu dis « They are » (Ils sont / Elles sont). L'adjectif se place après le verbe. Il ne change jamais, ni au féminin ni au pluriel. Voici quelques adjectifs : tall (grand), short (petit), big (gros, grand), small (petit), new (neuf), old (vieux), nice (gentil), red (rouge).",
+    "highlight": "He / She / It + is + adjectif. Exemple : She is tall. (Elle est grande.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Ousmane est grand. »",
+    "steps": [
+      "Ousmane est un garçon : tu penses à « He » (Il).",
+      "Avec He, le verbe « to be » devient « is » (est).",
+      "« Grand » se dit « tall » en anglais.",
+      "L'ordre est : sujet + is + adjectif.",
+      "Réponse : Ousmane is tall. (Ousmane est grand.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Le sac est rouge. » ?",
+    "reponse_calculee": "The bag is red.",
+    "choices": [
+      {
+        "label": "The bag is red.",
+        "correct": true
+      },
+      {
+        "label": "The bag are red.",
+        "correct": false
+      },
+      {
+        "label": "The bag red is.",
+        "correct": false
+      },
+      {
+        "label": "The bag is reds.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour un objet, on utilise « is », puis l'adjectif « red » (rouge) après le verbe. L'adjectif ne prend pas de « s ».",
+    "feedback_wrong": "La bonne réponse est « The bag is red. ». Un seul sac demande « is » et non « are ». L'adjectif se place après le verbe et ne change jamais, donc on n'écrit pas « reds »."
+  },
+  "verification": "ok"
+}

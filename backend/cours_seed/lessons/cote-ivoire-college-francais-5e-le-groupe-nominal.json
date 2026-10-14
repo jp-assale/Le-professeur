@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-groupe-nominal",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le Groupe Nominal",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le Groupe Nominal",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa décrit à sa grand-mère ce qu'elle a vu au marché : « J'ai vu des mangues. » Sa grand-mère lui demande : « Lesquelles ? » Awa précise alors : « Ces grosses mangues sucrées du vendeur qui porte un chapeau. » En ajoutant des mots autour du nom, Awa a construit un groupe nominal riche et précis. Dans cette leçon, tu vas apprendre à le construire et à bien accorder ses mots."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📝",
+        "text": "Le groupe nominal s'organise autour d'un nom noyau."
+      },
+      {
+        "icon": "🔎",
+        "text": "Les expansions précisent le nom : adjectif, complément, relative."
+      },
+      {
+        "icon": "📚",
+        "text": "Déterminants et pluriels suivent des règles à bien retenir."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Construire et accorder le groupe nominal",
+    "explanation": "Un groupe nominal (GN) est un groupe de mots organisé autour d'un nom, appelé le noyau. Il comporte en général un déterminant placé devant le nom, par exemple « la mangue ». Les déterminants sont les articles (le, la, les, un, une, des), les déterminants possessifs (mon, ma, mes, ton, ta, tes, son, sa, ses...), démonstratifs (ce, cet, cette, ces), numéraux (deux, trois) et indéfinis (quelques, plusieurs, chaque). Le GN peut recevoir des expansions, c'est-à-dire des mots ou groupes de mots qui précisent le nom : l'adjectif épithète (« une mangue mûre »), le complément du nom introduit par une préposition (« la mangue du marché ») et la proposition subordonnée relative (« la mangue que Kofi mange »). Pour former le pluriel d'un nom simple, on ajoute en général un -s : un cahier, des cahiers. Les noms terminés par -s, -x ou -z ne changent pas : un pois, des pois. Les noms en -eau prennent en général un -x : un bateau, des bateaux ; la plupart des noms en -al font -aux : un cheval, des chevaux. Quelques noms en -ou prennent aussi un -x : un chou, des choux. Dans un nom composé, les noms et les adjectifs prennent en général la marque du pluriel : un chou-fleur devient des choux-fleurs (deux noms), un coffre-fort devient des coffres-forts (un nom et un adjectif). Le verbe, lui, ne prend jamais la marque du pluriel dans un nom composé.",
+    "highlight": "GN = déterminant + nom noyau + expansions possibles (adjectif, complément du nom, relative)."
+  },
+  "example": {
+    "problem": "Analyse le groupe nominal « ce grand marché du quartier » dans la phrase « Ce grand marché du quartier vend un chou-fleur frais. » Puis écris la phrase au pluriel.",
+    "steps": [
+      "Cherche le nom noyau : c'est « marché ».",
+      "Repère le déterminant : « ce » est un déterminant démonstratif.",
+      "Repère les expansions : « grand » est un adjectif épithète et « du quartier » est un complément du nom.",
+      "Mets le groupe nominal sujet au pluriel : « ce » devient « ces », « grand » devient « grands » et « marché » devient « marchés ». Dans cette phrase, on parle d'un seul quartier : le complément du nom « du quartier » reste donc au singulier.",
+      "Mets le groupe nominal complément au pluriel : « un chou-fleur » devient « des choux-fleurs » (les deux noms prennent la marque du pluriel : un -x pour « chou » et un -s pour « fleur ») et « frais » reste « frais ». Le verbe s'accorde avec le sujet : « vend » devient « vendent ».",
+      "Phrase finale : « Ces grands marchés du quartier vendent des choux-fleurs frais. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le pluriel correct de « un chou-fleur » ?",
+    "reponse_calculee": "des choux-fleurs",
+    "choices": [
+      {
+        "label": "des choux-fleurs",
+        "correct": true
+      },
+      {
+        "label": "des chou-fleurs",
+        "correct": false
+      },
+      {
+        "label": "des choux-fleur",
+        "correct": false
+      },
+      {
+        "label": "des chous-fleurs",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Chou-fleur » est composé de deux noms. Les deux prennent la marque du pluriel : « chou » fait son pluriel en -x et « fleur » prend un -s. On écrit donc « des choux-fleurs ».",
+    "feedback_wrong": "La bonne réponse est « des choux-fleurs ». Dans un nom composé de deux noms, chaque nom prend la marque du pluriel. Le nom « chou » fait son pluriel en -x : « choux ». Le nom « fleur » prend un -s : « fleurs »."
+  },
+  "verification": "corrige2"
+}

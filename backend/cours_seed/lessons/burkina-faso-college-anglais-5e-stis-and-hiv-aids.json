@@ -1,0 +1,74 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-stis-and-hiv-aids",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · STIS and HIV/AIDS",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · STIS and HIV/AIDS",
+  "intro": {
+    "heading": "Au club santé du collège",
+    "body": "Issa et Fatou font partie du club santé de leur collège à Ouagadougou. Aujourd'hui, ils préparent une affiche en anglais sur les STI (les IST) et le HIV/AIDS (le VIH/SIDA). Ils veulent écrire des phrases courtes et justes pour que tous les élèves comprennent. Tu vas apprendre à dire en anglais par quels gestes du quotidien on ne peut pas attraper le VIH."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🩺",
+        "text": "HIV est un virus, AIDS est une maladie."
+      },
+      {
+        "icon": "🤝",
+        "text": "You cannot get HIV by shaking hands."
+      },
+      {
+        "icon": "📚",
+        "text": "Après by, le verbe prend -ing."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire « You cannot get HIV by... »",
+    "explanation": "STI veut dire « sexually transmitted infection » (infection sexuellement transmissible, ou IST). HIV est le virus (le VIH) et AIDS est la maladie (le SIDA). Pour dire qu'on ne peut pas faire quelque chose, on utilise « You cannot + verbe » (Tu ne peux pas + verbe). Pour dire « en faisant quelque chose », on utilise « by » suivi du verbe en -ing. Par exemple : by hugging (en faisant un câlin), by sharing food (en partageant de la nourriture). Voici trois mots utiles : a test (un test), a doctor (un médecin), a clinic (une clinique). Tu peux aussi dire : You can go to the clinic. (Tu peux aller à la clinique.)",
+    "highlight": "You cannot get HIV by + verbe en -ing. Exemple : You cannot get HIV by hugging. (Tu ne peux pas attraper le VIH en faisant un câlin.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Tu ne peux pas attraper le VIH en partageant la nourriture. »",
+    "steps": [
+      "Commence par « Tu ne peux pas » : en anglais, on écrit « You cannot ».",
+      "Ajoute « attraper le VIH » : on écrit « get HIV ».",
+      "Pour « en + verbe », on utilise « by ».",
+      "Le verbe « partager » devient « sharing » (share + -ing, sans le e).",
+      "« La nourriture » se dit « food ».",
+      "Réponse complète : You cannot get HIV by sharing food. (Tu ne peux pas attraper le VIH en partageant la nourriture.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase veut dire : « Tu ne peux pas attraper le VIH en serrant la main » ?",
+    "reponse_calculee": "You cannot get HIV by shaking hands.",
+    "choices": [
+      {
+        "label": "You cannot get HIV by shaking hands.",
+        "correct": true
+      },
+      {
+        "label": "You can get HIV by shaking hands.",
+        "correct": false
+      },
+      {
+        "label": "You cannot get HIV by shake hands.",
+        "correct": false
+      },
+      {
+        "label": "You cannot HIV get by shaking hands.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « You cannot get HIV by shaking hands. » est correcte : « cannot » exprime « ne peux pas », et le verbe après « by » prend -ing (shaking). (Tu ne peux pas attraper le VIH en serrant la main.)",
+    "feedback_wrong": "La bonne réponse est « You cannot get HIV by shaking hands. ». « You can get... » veut dire le contraire (Tu peux attraper...). Après « by », il faut le verbe en -ing : shaking, pas shake. L'ordre des mots est aussi important : on dit « get HIV », pas « HIV get »."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-la-description-i",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · La description I",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · La description I",
+  "intro": {
+    "heading": "Le cartable perdu de Kouadio",
+    "body": "À la sortie de l'école à Bouaké, Kouadio a oublié son cartable dans le car. Le chauffeur lui demande : « Comment est-il ? » Kouadio répond seulement : « Il est beau. » Avec une description aussi pauvre, le chauffeur ne peut pas le reconnaître. Dans cette leçon, tu apprends à décrire un objet avec précision pour que ton lecteur le voie comme s'il l'avait devant lui."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Décrire, c'est faire voir un objet avec des mots précis."
+      },
+      {
+        "icon": "🧩",
+        "text": "On présente l'objet, puis ses parties, dans un ordre logique."
+      },
+      {
+        "icon": "✏️",
+        "text": "On emploie des adjectifs, des compléments du nom et le présent."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment décrire un objet ?",
+    "explanation": "Décrire un objet, c'est le faire voir au lecteur avec des mots précis, comme si tu le dessinais avec des phrases. On commence par nommer l'objet et dire à quoi il sert, par exemple : « La lampe tempête éclaire la cour le soir. » Ensuite, on présente ses différentes parties dans un ordre logique : de l'ensemble vers les détails, de haut en bas ou de gauche à droite. Le lexique lié à l'objet doit être précis : les noms de ses parties (l'anse, le couvercle, la poignée), sa matière (le bois, le plastique, la toile), sa forme, sa couleur et sa taille. Les outils grammaticaux utiles sont les adjectifs qualificatifs (un seau rouge), les compléments du nom (une chaise en bois), les prépositions et expressions de lieu (sur, sous, au milieu de, à côté de) et les verbes d'état (être, sembler, paraître). On écrit le plus souvent au présent de l'indicatif, et on garde le même temps du début à la fin. Une bonne description est donc ordonnée, précise et cohérente, et elle peut ajouter une impression personnelle comme « il me semble solide ».",
+    "highlight": "Décrire = nommer l'objet, présenter ses parties dans l'ordre, utiliser des mots précis et le présent."
+  },
+  "example": {
+    "problem": "Awa veut décrire son cartable à sa correspondante en deux ou trois phrases. Aide-la à produire cette description.",
+    "steps": [
+      "Nomme l'objet et son usage : « Mon cartable sert à porter mes cahiers à l'école. »",
+      "Choisis un ordre : d'abord l'ensemble, puis les détails de haut en bas.",
+      "Repère les parties à décrire : la poignée, les bretelles, la petite poche sur le devant et la fermeture.",
+      "Ajoute des adjectifs et un complément du nom : « un cartable bleu, solide, en toile ».",
+      "Utilise le présent, un verbe d'état et une expression de lieu : « Il est solide. Sur le devant, une petite poche contient mon stylo. »",
+      "Relis ta description : l'objet est nommé, les parties suivent un ordre, les temps sont au présent."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Le cartable de Kouadio est grand et solide », quels mots sont des adjectifs qualificatifs ?",
+    "reponse_calculee": "grand et solide",
+    "choices": [
+      {
+        "label": "grand et solide",
+        "correct": true
+      },
+      {
+        "label": "Le cartable",
+        "correct": false
+      },
+      {
+        "label": "de Kouadio",
+        "correct": false
+      },
+      {
+        "label": "est",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Grand » et « solide » donnent des précisions sur le cartable : ce sont des adjectifs qualificatifs, outils essentiels de la description.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. « Grand » et « solide » sont les adjectifs qualificatifs, car ils disent comment est le cartable. « Le cartable » est un groupe nominal, « de Kouadio » est un complément du nom et « est » est un verbe d'état."
+  },
+  "verification": "ok2"
+}

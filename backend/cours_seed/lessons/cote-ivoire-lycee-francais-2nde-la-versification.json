@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-la-versification",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · La versification",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · La versification",
+  "intro": {
+    "heading": "Le poème de Kofi",
+    "body": "Kofi doit présenter un poème au club de lecture de son lycée. Son professeur lui demande de dire de quels vers, de quelles strophes et de quelles rimes il est fait. Kofi hésite : il ne sait pas compter les syllabes ni nommer la disposition des rimes. Dans cette leçon, tu apprends les outils pour analyser un poème avec méthode."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Le vers se mesure en syllabes ; la strophe groupe des vers."
+      },
+      {
+        "icon": "🎶",
+        "text": "La rime répète un son final : plates, croisées, embrassées."
+      },
+      {
+        "icon": "🔊",
+        "text": "Les sons répétés donnent de la musique au poème ; l'enjambement et le rejet jouent sur son rythme."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les outils de la versification",
+    "explanation": "Un vers se mesure en syllabes. Le e muet se compte devant une consonne (« rou-ge soleil »), mais on ne le compte pas à la fin du vers, ni devant une voyelle. L'octosyllabe a 8 syllabes, le décasyllabe 10 et l'alexandrin 12. Un groupe de vers forme une strophe : le distique a 2 vers, le tercet 3, le quatrain 4, le quintil 5 et le sizain 6. La rime est la répétition du même son à la fin de deux vers. Les rimes peuvent être plates (AABB), croisées (ABAB) ou embrassées (ABBA). La musique du vers vient aussi de l'allitération, répétition d'une consonne (« Le sable sec sous le soleil »), et de l'assonance, répétition d'une voyelle (« Awa va dans la savane »). Le hiatus est la rencontre de deux sons voyelles qui se suivent, comme dans « Il va à Abidjan ». Pour le rythme, l'enjambement a lieu quand la phrase déborde sur le vers suivant. Le rejet est un mot ou un groupe court placé au début du vers suivant, alors qu'il complète la phrase commencée au vers précédent.",
+    "highlight": "Compte les syllabes, repère le nombre de vers, puis note les rimes avec des lettres (A, B)."
+  },
+  "example": {
+    "problem": "Kofi a écrit ce quatrain : « Le soir tombe sur le village, / On entend un très joyeux chant, / Les pêcheurs sont sur le rivage, / Dans le rouge soleil couchant. » Analyse la mesure des vers, la strophe et la disposition des rimes.",
+    "steps": [
+      "Compte le premier vers sans le e muet final : Le-soir-tom-be-sur-le-vil-la(ge), soit 8 syllabes.",
+      "Vérifie les trois autres vers de la même façon : « On en-tend un très jo-yeux chant », « Les pê-cheurs sont sur le ri-va(ge) » et « Dans le rou-ge so-leil cou-chant » ont chacun 8 syllabes, ce sont donc des octosyllabes.",
+      "Compte les vers : il y en a 4, donc la strophe est un quatrain.",
+      "Repère les sons finals : village (A), chant (B), rivage (A), couchant (B).",
+      "Lis le schéma obtenu : ABAB, ce qui correspond à des rimes croisées.",
+      "Conclus : c'est un quatrain d'octosyllabes à rimes croisées."
+    ]
+  },
+  "quiz": {
+    "question": "Quatre vers d'une strophe se terminent par les mots : soleil, village, paysage, réveil. Quelle est la disposition des rimes ?",
+    "reponse_calculee": "Rimes embrassées (ABBA)",
+    "choices": [
+      {
+        "label": "Rimes plates (AABB)",
+        "correct": false
+      },
+      {
+        "label": "Rimes croisées (ABAB)",
+        "correct": false
+      },
+      {
+        "label": "Rimes embrassées (ABBA)",
+        "correct": true
+      },
+      {
+        "label": "Il n'y a aucune rime",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Soleil et réveil riment ensemble (A), village et paysage aussi (B). Le schéma est A B B A : les rimes B sont enfermées entre les rimes A, ce sont donc des rimes embrassées.",
+    "feedback_wrong": "Note la lettre de chaque son final : soleil (A), village (B), paysage (B), réveil (A). Le schéma est ABBA, avec les deux rimes B placées entre les deux rimes A : ce sont des rimes embrassées. Les rimes plates donneraient AABB et les rimes croisées ABAB."
+  },
+  "verification": "ok2"
+}

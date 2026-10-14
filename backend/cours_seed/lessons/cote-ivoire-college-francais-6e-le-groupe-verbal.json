@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-groupe-verbal",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le Groupe Verbal",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le Groupe Verbal",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Ce samedi, Awa aide sa mère au marché de Bouaké. Elle vend des mangues, pèse les tomates et reste calme malgré la foule. Un client dit : « Cette petite semble très courageuse ! » Dans ces phrases, les verbes nous disent ce que fait Awa ou comment elle est : c'est ce que tu vas apprendre à reconnaître."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏃",
+        "text": "Un verbe d'action dit ce que fait le sujet."
+      },
+      {
+        "icon": "🔗",
+        "text": "Être et ses substituts relient le sujet à une qualité."
+      },
+      {
+        "icon": "🧩",
+        "text": "Le groupe verbal est le verbe avec ses compléments."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le groupe verbal, les verbes d'action et le verbe être",
+    "explanation": "Dans une phrase, on distingue le groupe sujet et le groupe verbal. Le groupe verbal est formé du verbe et de ce qui le complète. Dans « Awa vend des mangues au marché », le groupe verbal est « vend des mangues au marché ». Un verbe d'action exprime ce que fait le sujet : vendre, courir, acheter, ranger, chanter. Le verbe être est un verbe d'état : il relie le sujet à une qualité ou à une façon d'être. Cette qualité ou cette façon d'être s'appelle l'attribut du sujet. Exemple : « Kouadio est calme. » (« calme » est l'attribut). Certains verbes peuvent remplacer être : ce sont ses substituts. Les principaux sont sembler, paraître, devenir, rester, demeurer et avoir l'air. Pour les reconnaître, regarde si le verbe est suivi d'un mot qui dit comment est le sujet, et essaie de le remplacer par « est » : si la phrase garde un sens proche, à une nuance près, c'est un substitut. Par exemple, « Kouadio reste calme » veut dire à peu près « Kouadio est calme », avec l'idée que cela dure.",
+    "highlight": "Verbe d'action : ce que fait le sujet. Être et ses substituts (sembler, paraître, devenir, rester, demeurer, avoir l'air) : comment est le sujet. Groupe verbal : le verbe et ses compléments."
+  },
+  "example": {
+    "problem": "Analyse ces deux phrases : « Awa vend des mangues au marché. » et « Kouadio reste calme devant le maître. » Trouve le verbe, dis sa nature et délimite le groupe verbal.",
+    "steps": [
+      "Dans la première phrase, le verbe est « vend » : il se conjugue et change avec le temps (vendait, vendra).",
+      "« Vend » dit ce que fait Awa : c'est un verbe d'action.",
+      "Le groupe verbal de la première phrase est « vend des mangues au marché » : le verbe et ses compléments.",
+      "Dans la seconde phrase, le verbe est « reste ». Kouadio ne fait pas d'action : « calme » dit comment il est.",
+      "On peut dire « Kouadio est calme » avec un sens très proche (« reste » ajoute l'idée que cela dure) : « reste » est donc un substitut du verbe être, et « calme » est l'attribut.",
+      "Le groupe verbal de la seconde phrase est « reste calme devant le maître »."
+    ]
+  },
+  "quiz": {
+    "question": "Dans quelle phrase le verbe est-il un substitut du verbe être ?",
+    "reponse_calculee": "Fatou semble heureuse de son résultat.",
+    "choices": [
+      {
+        "label": "Fatou semble heureuse de son résultat.",
+        "correct": true
+      },
+      {
+        "label": "Fatou range ses cahiers dans son sac.",
+        "correct": false
+      },
+      {
+        "label": "Fatou achète du pain à 100 FCFA.",
+        "correct": false
+      },
+      {
+        "label": "Fatou chante à la fête de l'école.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Semble » peut presque être remplacé par « est » : Fatou est heureuse. « Semble » est un substitut du verbe être, et « heureuse » est l'attribut de Fatou.",
+    "feedback_wrong": "La bonne réponse est « Fatou semble heureuse de son résultat. » Dans les autres phrases, ranger, acheter et chanter sont des verbes d'action : ils disent ce que Fatou fait. « Semble » relie Fatou à une façon d'être (« heureuse ») : c'est un substitut du verbe être."
+  },
+  "verification": "ok2"
+}

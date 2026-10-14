@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-les-droits-du-citoyen-my-ri",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Les droits du citoyen (My rights)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Les droits du citoyen (My rights)",
+  "intro": {
+    "heading": "Un débat au collège",
+    "body": "Dans ta classe à Abidjan, ton professeur d'anglais organise un débat sur les droits des citoyens. Awa pense que chaque enfant doit aller à l'école, et Koffi donne aussi son opinion. Tu dois pouvoir dire ce que tu penses, en anglais, et dire si tu es d'accord ou non. Tu dois aussi comprendre l'idée générale d'un message oral."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Every citizen has the right to + verbe pour dire un droit."
+      },
+      {
+        "icon": "💬",
+        "text": "In my opinion, I agree, I disagree : donner son avis."
+      },
+      {
+        "icon": "👂",
+        "text": "Écoute les mots-clés et l'intonation pour comprendre l'idée générale."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler des droits et donner son opinion",
+    "explanation": "Pour exprimer un droit, on utilise « has the right to » avec un sujet singulier comme every citizen (chaque citoyen), et « have the right to » avec we ou they. Après « the right to », on met un verbe à l'infinitif sans « to » (go, speak) ou un nom (education). Quelques mots utiles : a right (un droit), freedom (la liberté), education (l'éducation), health care (les soins de santé), equality (l'égalité), the law (la loi), to respect (respecter), to protect (protéger). Pour donner ton opinion, tu dis « In my opinion, ... » (À mon avis, ...) ou « I think that ... » (Je pense que ...). Pour approuver, tu dis « I agree » (Je suis d'accord) ; pour désapprouver, tu dis « I disagree » (Je ne suis pas d'accord). Quand tu écoutes un message oral, repère d'abord les mots-clés, comme right, school ou respect, pour comprendre l'idée générale. Fais aussi attention à l'intonation : la voix descend à la fin d'une phrase affirmative et monte à la fin d'une question à laquelle on répond par oui ou non.",
+    "highlight": "Every citizen has the right to + verbe. Exemple : Every citizen has the right to go to school. (Chaque citoyen a le droit d'aller à l'école.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « Chaque enfant a le droit d'aller à l'école. »",
+    "steps": [
+      "Traduis le sujet : « chaque enfant » se dit every child.",
+      "Le sujet every child est au singulier, donc on utilise has (et non have).",
+      "« Avoir le droit de » se dit has the right to.",
+      "Après the right to, le verbe reste à l'infinitif, sans « s » : go. « Aller à l'école » se dit go to school.",
+      "Réponse : Every child has the right to go to school. (Chaque enfant a le droit d'aller à l'école.)"
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases est correcte pour dire que chaque citoyen a le droit de parler librement ?",
+    "reponse_calculee": "Every citizen has the right to speak freely.",
+    "choices": [
+      {
+        "label": "Every citizen has the right to speak freely.",
+        "correct": true
+      },
+      {
+        "label": "Every citizen have the right to speak freely.",
+        "correct": false
+      },
+      {
+        "label": "Every citizen has right to speak freely.",
+        "correct": false
+      },
+      {
+        "label": "Every citizen has the right for speak freely.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Every citizen has the right to speak freely. (Chaque citoyen a le droit de parler librement.) Le sujet est au singulier, donc on emploie has, puis the right to suivi d'un verbe.",
+    "feedback_wrong": "La bonne réponse est : Every citizen has the right to speak freely. (Chaque citoyen a le droit de parler librement.) Avec every citizen, on emploie has et non have. Il faut aussi l'article the avant right, et la structure the right to suivie du verbe, et non for."
+  },
+  "verification": "ok2"
+}

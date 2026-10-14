@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-tle-les-problemes-lies-a-la-jeune",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "Tle · Les problèmes liés à la jeunesse",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "Tle · Les problèmes liés à la jeunesse",
+  "intro": {
+    "heading": "Les jeunes d'Abidjan parlent de leurs soucis",
+    "body": "À la sortie du lycée, Aminata et Kofi discutent. Aminata est fatiguée par les devoirs et Kofi s'inquiète de trouver un travail plus tard. Ces soucis, beaucoup de jeunes les partagent. À l'examen, tu devras présenter un problème de la jeunesse et en donner la cause en allemand, dans une situation d'évaluation concrète."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧑‍🎓",
+        "text": "Die Jugendlichen = les jeunes ; das Problem = le problème."
+      },
+      {
+        "icon": "🔗",
+        "text": "Pour donner une cause, utilise « weil » (parce que)."
+      },
+      {
+        "icon": "📌",
+        "text": "Après « weil », le verbe conjugué va à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer un problème et donner sa cause avec « weil »",
+    "explanation": "Pour parler de la jeunesse, tu as besoin de quelques mots clés : die Jugend (la jeunesse), die Jugendlichen (les jeunes), die Arbeitslosigkeit (le chômage), der Stress (le stress), die Gewalt (la violence) et die Drogen (les drogues). Pour expliquer pourquoi un jeune a un problème, tu utilises la conjonction « weil » (parce que). Tu écris d'abord la phrase principale, puis une virgule, puis « weil ». Après « weil », tu mets le sujet, puis les autres éléments. Le verbe conjugué se place tout à la fin de la phrase : c'est la règle la plus importante. Cette règle s'applique à chaque phrase avec « weil », sans exception. Pense à toujours mettre la virgule devant « weil ».",
+    "highlight": "Hauptsatz, weil + Subjekt + ... + Verb. Exemple : Viele Jugendliche sind gestresst, weil sie viele Hausaufgaben haben. (Beaucoup de jeunes sont stressés parce qu'ils ont beaucoup de devoirs.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec « weil » : Aminata ist müde. Sie lernt bis spät in die Nacht. (Aminata est fatiguée. Elle étudie jusque tard dans la nuit.)",
+    "steps": [
+      "Repère la conséquence : Aminata ist müde (Aminata est fatiguée). Elle reste au début.",
+      "Repère la cause : Sie lernt bis spät in die Nacht (elle étudie jusque tard dans la nuit).",
+      "Écris une virgule après « müde », puis « weil » devant la cause.",
+      "Garde le sujet « sie » juste après « weil ».",
+      "Place le verbe conjugué « lernt » à la fin de la phrase.",
+      "Réponse : Aminata ist müde, weil sie bis spät in die Nacht lernt. (Aminata est fatiguée parce qu'elle étudie jusque tard dans la nuit.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Kofi est triste parce qu'il n'a pas de travail » ?",
+    "reponse_calculee": "Kofi ist traurig, weil er keine Arbeit hat.",
+    "choices": [
+      {
+        "label": "Kofi ist traurig, weil er keine Arbeit hat.",
+        "correct": true
+      },
+      {
+        "label": "Kofi ist traurig, weil er hat keine Arbeit.",
+        "correct": false
+      },
+      {
+        "label": "Kofi ist traurig, weil hat er keine Arbeit.",
+        "correct": false
+      },
+      {
+        "label": "Kofi ist traurig, weil er keine Arbeit.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « weil », le sujet « er » vient en premier et le verbe conjugué « hat » se place à la fin : Kofi ist traurig, weil er keine Arbeit hat. (Kofi est triste parce qu'il n'a pas de travail.)",
+    "feedback_wrong": "La bonne phrase est : Kofi ist traurig, weil er keine Arbeit hat. (Kofi est triste parce qu'il n'a pas de travail.) Après « weil », le verbe conjugué « hat » doit être à la fin de la phrase, et il ne doit pas manquer."
+  },
+  "verification": "ok"
+}

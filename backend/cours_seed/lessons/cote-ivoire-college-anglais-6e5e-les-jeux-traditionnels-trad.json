@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-les-jeux-traditionnels-trad",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Les jeux traditionnels (traditional games)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Les jeux traditionnels (traditional games)",
+  "intro": {
+    "heading": "À la récréation avec Awa et Koffi",
+    "body": "C'est la récréation à l'école. Awa, Koffi et Yao ne savent pas à quoi jouer. Awa a une idée : elle veut proposer un jeu traditionnel à ses camarades, mais en anglais, pour le cours de la semaine prochaine. Ta mission : apprendre les mots du jeu et les phrases pour faire une suggestion."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎲",
+        "text": "Retiens les mots des jeux : hopscotch, marbles, hide-and-seek."
+      },
+      {
+        "icon": "💡",
+        "text": "Pour proposer : Let's, Why don't we, How about, Shall we."
+      },
+      {
+        "icon": "🏃",
+        "text": "Après Let's et Why don't we, on utilise le verbe simple."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les jeux traditionnels et comment faire une suggestion",
+    "explanation": "Voici des mots utiles : hopscotch (la marelle), marbles (les billes), hide-and-seek (cache-cache), skipping rope (la corde à sauter), a player (un joueur), a team (une équipe), to win (gagner), to lose (perdre). Pour proposer un jeu à tes amis, tu as quatre modèles. Après « Let's » et « Why don't we », tu mets le verbe à la forme de base : Let's play marbles. (Jouons aux billes.) Après « How about », tu mets le verbe avec -ing : How about playing hopscotch? (Et si on jouait à la marelle ?) Avec « Shall we », tu mets aussi le verbe de base : Shall we play hide-and-seek? (Si on jouait à cache-cache ?) Pour répondre, tu peux dire : Good idea! (Bonne idée !) ou Yes, let's! (Oui, allons-y !)",
+    "highlight": "Let's + verbe : Let's play hopscotch. (Jouons à la marelle.) / How about + verbe en -ing : How about playing hopscotch? (Et si on jouait à la marelle ?)"
+  },
+  "example": {
+    "problem": "Awa veut proposer un jeu à ses amis. Traduis en anglais : « Pourquoi ne jouons-nous pas à cache-cache ? »",
+    "steps": [
+      "Je repère l'idée : c'est une suggestion, donc je choisis la structure « Why don't we ».",
+      "Après « Why don't we », je mets le verbe à la forme de base, sans -ing et sans to.",
+      "Le verbe est « jouer » : play. Le jeu est « cache-cache » : hide-and-seek.",
+      "Je termine par un point d'interrogation, car c'est une question.",
+      "Réponse : Why don't we play hide-and-seek? (Pourquoi ne jouons-nous pas à cache-cache ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Koffi veut proposer de jouer aux billes. Quelle phrase est correcte ?",
+    "reponse_calculee": "How about playing marbles?",
+    "choices": [
+      {
+        "label": "How about playing marbles?",
+        "correct": true
+      },
+      {
+        "label": "How about play marbles?",
+        "correct": false
+      },
+      {
+        "label": "Let's playing marbles.",
+        "correct": false
+      },
+      {
+        "label": "Why don't we playing marbles?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « How about », le verbe prend -ing : How about playing marbles? (Et si on jouait aux billes ?)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Après « How about », on utilise le verbe en -ing : playing. Après « Let's » et « Why don't we », on utilise le verbe de base : Let's play marbles. Why don't we play marbles? La bonne réponse est : How about playing marbles? (Et si on jouait aux billes ?)"
+  },
+  "verification": "ok"
+}

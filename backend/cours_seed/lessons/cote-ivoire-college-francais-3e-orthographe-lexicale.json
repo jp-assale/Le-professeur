@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-orthographe-lexicale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Orthographe lexicale",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Orthographe lexicale",
+  "intro": {
+    "heading": "Le message du club de lecture",
+    "body": "Mariam, élève de 3e à Abidjan, écrit une affiche pour le club de lecture de son collège. Elle hésite : faut-il écrire « fatiguant » ou « fatigant » ? « maire » ou « mère » ? « éminent » ou « imminent » ? Un seul mot mal choisi peut changer le sens de sa phrase. Dans cette leçon, tu apprends à trancher avec des règles simples, pour réussir ta situation d'évaluation du BEPC."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✍️",
+        "text": "Le participe présent est invariable ; l'adjectif verbal s'accorde."
+      },
+      {
+        "icon": "🔊",
+        "text": "Les homophones non homographes sonnent pareil mais s'écrivent différemment."
+      },
+      {
+        "icon": "🔍",
+        "text": "Les paronymes se ressemblent, mais leurs sens sont différents."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Distinguer les mots qui se ressemblent",
+    "explanation": "Le participe présent est invariable et garde un sens de verbe : il exprime une action et peut avoir un complément. Exemple : « Moussa, convainquant ses camarades, a gagné le débat. » L'adjectif verbal, lui, exprime une qualité et s'accorde en genre et en nombre avec le nom : « des explications convaincantes ». Pour les verbes en -quer et en -guer, ainsi que pour le verbe convaincre, l'orthographe change : le participe présent s'écrit -quant ou -guant (provoquant, fatiguant, convainquant), l'adjectif verbal s'écrit -cant ou -gant (provocant, fatigant, convaincant). Pour d'autres verbes, la finale change aussi : participe présent « négligeant » et « précédant », adjectif « négligent » et « précédent ». Les homophones non homographes se prononcent de la même façon mais s'écrivent différemment : « mère », « maire », « mer ». Pour choisir, tu regardes le sens de la phrase et la nature du mot. Les paronymes se ressemblent par la forme ou le son, mais ont des sens différents : « éminent » veut dire remarquable, qui se distingue par ses qualités ; « imminent » veut dire sur le point d'arriver.",
+    "highlight": "Participe présent : invariable, en -ant, peut avoir un complément. Adjectif verbal : s'accorde, exprime une qualité. Homophones : même son, graphie différente. Paronymes : mots proches, sens différents."
+  },
+  "example": {
+    "problem": "Écris correctement le verbe entre parenthèses dans chaque phrase : 1) « Les explications de Moussa sont (convaincre). » 2) « Moussa, (convaincre) ses camarades, a gagné le débat. »",
+    "steps": [
+      "Phrase 1 : le verbe est après « sont » et décrit les explications. Il exprime une qualité, donc c'est un adjectif verbal.",
+      "L'adjectif verbal s'accorde avec « explications », féminin pluriel. De plus, avec le verbe convaincre, l'adjectif s'écrit -cant. On écrit donc : « convaincantes ».",
+      "Phrase 2 : « convainquant » exprime une action de Moussa et a un complément, « ses camarades ». C'est un participe présent.",
+      "Le participe présent est invariable et, pour ce verbe, il s'écrit -quant. On écrit : « convainquant ».",
+      "Phrases corrigées : « Les explications de Moussa sont convaincantes. » et « Moussa, convainquant ses camarades, a gagné le débat. »",
+      "Pour vérifier, remplace le mot par un autre adjectif comme « claires » : cela marche dans la phrase 1, pas dans la phrase 2."
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase avec la forme correcte du verbe « fatiguer » : « Ces longues marches sont ______ pour Adjoua. »",
+    "reponse_calculee": "fatigantes",
+    "choices": [
+      {
+        "label": "fatigantes",
+        "correct": true
+      },
+      {
+        "label": "fatiguantes",
+        "correct": false
+      },
+      {
+        "label": "fatiguant",
+        "correct": false
+      },
+      {
+        "label": "fatigant",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Ici, le mot décrit les marches : c'est un adjectif verbal. Il s'accorde au féminin pluriel et, pour les verbes en -guer, il s'écrit -gant : « fatigantes ».",
+    "feedback_wrong": "« Fatigantes » est la bonne réponse. Le mot décrit « marches » (féminin pluriel) : c'est un adjectif verbal, donc il s'accorde. Pour les verbes en -guer, l'adjectif verbal s'écrit -gant (et non -guant, forme du participe présent invariable). On écrit donc « fatigantes »."
+  },
+  "verification": "ok2"
+}

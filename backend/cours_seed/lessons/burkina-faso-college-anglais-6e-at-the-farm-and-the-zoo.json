@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-at-the-farm-and-the-zoo",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · At the farm and the zoo",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · At the farm and the zoo",
+  "intro": {
+    "heading": "Une visite à la ferme et au zoo",
+    "body": "Awa passe les vacances chez son oncle, qui a une petite ferme. Elle regarde les animaux et dit à son frère Issouf ce qu'elle voit. Plus tard, la classe de 6e visite un zoo. Pour décrire les animaux, tu vas apprendre à dire « Il y a... » en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🐄",
+        "text": "Je connais des animaux : cow, goat, hen, lion, monkey."
+      },
+      {
+        "icon": "☝️",
+        "text": "Pour un seul animal : There is a / an."
+      },
+      {
+        "icon": "🔢",
+        "text": "Pour plusieurs animaux : There are + nombre + animal avec s."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire « Il y a... » : There is / There are",
+    "explanation": "Pour dire qu'un animal est présent, on utilise there is (il y a) avec un seul animal : There is a cow. (Il y a une vache.) Avec plusieurs animaux, on utilise there are : There are two cows. (Il y a deux vaches.) Au pluriel, on ajoute s à l'animal : a goat (une chèvre), two goats (deux chèvres). Devant un mot qui commence par une voyelle (a, e, i, o, u), on écrit an et non a : an elephant (un éléphant). Pour dire où sont les animaux, on ajoute at the farm (à la ferme) ou at the zoo (au zoo). Voici d'autres mots utiles : a hen (une poule), a donkey (un âne), a monkey (un singe), a lion (un lion). Retiens bien : there is pour un seul, there are pour plusieurs.",
+    "highlight": "There is a hen. (Il y a une poule.) / There are three hens. (Il y a trois poules.)"
+  },
+  "example": {
+    "problem": "Complète et traduis la phrase : « There ___ three goats at the farm. » (Il y a trois chèvres à la ferme.) Choisis is ou are.",
+    "steps": [
+      "Je regarde le nombre : three (trois). Il y a donc plusieurs chèvres.",
+      "Pour plusieurs animaux, j'utilise there are, pas there is.",
+      "Je vérifie le nom : goats a bien un s, car il est au pluriel.",
+      "Je garde at the farm (à la ferme) à la fin de la phrase.",
+      "Réponse : There are three goats at the farm. (Il y a trois chèvres à la ferme.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Il y a deux vaches à la ferme » ?",
+    "reponse_calculee": "There are two cows at the farm.",
+    "choices": [
+      {
+        "label": "There are two cows at the farm.",
+        "correct": true
+      },
+      {
+        "label": "There is two cows at the farm.",
+        "correct": false
+      },
+      {
+        "label": "There are two cow at the farm.",
+        "correct": false
+      },
+      {
+        "label": "There is a two cows at the farm.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec two (deux), on parle de plusieurs vaches : on utilise there are et on met un s à cows. There are two cows at the farm. (Il y a deux vaches à la ferme.)",
+    "feedback_wrong": "La bonne réponse est : There are two cows at the farm. Avec deux animaux, on utilise there are (et non there is), et le nom prend un s : two cows. (deux vaches)"
+  },
+  "verification": "ok"
+}

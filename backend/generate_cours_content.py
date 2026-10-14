@@ -226,6 +226,8 @@ def main():
     failed = []
 
     for entry in source:
+        if entry.get("generateur"):
+            continue  # entrees traitees par un generateur dedie (voir generate_cours_langues.py)
         for chapitre in entry["chapitres"]:
             serie_part = entry.get("serie", "")
             slug_base = f"{entry['pays']}-{entry['niveau']}-{entry['matiere']}-{serie_part}-{chapitre}"

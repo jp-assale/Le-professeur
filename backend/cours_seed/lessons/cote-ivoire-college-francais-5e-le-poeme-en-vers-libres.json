@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-poeme-en-vers-libres",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le poème en vers libres",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le poème en vers libres",
+  "intro": {
+    "heading": "Un poème pour le club de lecture",
+    "body": "Kouadio doit présenter un poème à son club de lecture du collège, mais le texte n'a ni rimes régulières ni vers de même longueur. Il se demande si c'est vraiment un poème. Sa professeure lui répond que c'est un poème en vers libres et qu'il peut l'analyser avec une méthode précise. Ta tâche aujourd'hui : apprendre à reconnaître ce type de poème et à en comprendre le sens."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📝",
+        "text": "Les vers libres n'ont ni rime fixe ni mesure imposée."
+      },
+      {
+        "icon": "🔍",
+        "text": "Je cherche le sujet, les idées et le champ lexical."
+      },
+      {
+        "icon": "🎨",
+        "text": "J'identifie les images et les procédés d'écriture."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Lire et comprendre un poème en vers libres",
+    "explanation": "Un poème en vers libres est un poème dont les vers n'obéissent à aucune règle fixe : le nombre de syllabes n'est pas régulier d'un vers à l'autre et les rimes ne suivent pas de schéma régulier. Les éléments de versification à relever sont le vers (une ligne), la strophe (un groupe de vers), la rime (le retour d'un même son) et le rythme créé par les retours à la ligne et la ponctuation. Pour comprendre le poème, tu trouves d'abord son sujet (de quoi il parle), puis les idées que le poète exprime. Tu relèves ensuite le champ lexical, c'est-à-dire l'ensemble des mots qui se rapportent au même thème. Tu repères aussi les procédés d'écriture usuels (comparaison, métaphore, personnification, répétition, énumération) et les images qu'ils construisent. Enfin, tu t'appuies sur des indices pour justifier ta réponse : des indices grammaticaux (temps des verbes, pronoms), des indices lexicaux (mots choisis) et des indices textuels (titre, disposition des vers, répétitions).",
+    "highlight": "Vers libres = pas de rime fixe, pas de mesure imposée ; on relève sujet, idées, champ lexical, procédés et images."
+  },
+  "example": {
+    "problem": "Analyse ce court poème inventé : « Le marché s'éveille. / Les mangues rient dans les paniers. / Maman Awa compte ses pagnes et ses espoirs. / Le soleil pose sa main d'or sur les étals. »",
+    "steps": [
+      "Versification : les 4 vers ont des longueurs inégales et ne riment pas entre eux selon un schéma régulier, donc ce sont des vers libres.",
+      "Sujet : le poème parle du réveil d'un marché le matin.",
+      "Champ lexical : marché, mangues, paniers, pagnes, étals sont des mots liés au commerce et au marché.",
+      "Procédés et images : « les mangues rient » est une personnification, car un fruit agit comme une personne ; « main d'or » est une métaphore qui montre les rayons du soleil comme un geste doux et précieux (le soleil est aussi présenté comme une personne qui pose sa main).",
+      "Indice grammatical : les verbes au présent (s'éveille, rient, compte, pose) donnent l'impression d'une scène vue en direct.",
+      "Idée : le marché est un lieu vivant, plein de lumière et d'espoir."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle caractéristique définit un poème en vers libres ?",
+    "reponse_calculee": "Il ne suit aucune règle fixe de rime ni de nombre de syllabes",
+    "choices": [
+      {
+        "label": "Il ne suit aucune règle fixe de rime ni de nombre de syllabes",
+        "correct": true
+      },
+      {
+        "label": "Tous ses vers ont le même nombre de syllabes",
+        "correct": false
+      },
+      {
+        "label": "Ses rimes suivent toujours le schéma AABB",
+        "correct": false
+      },
+      {
+        "label": "Il est écrit en prose, sans retour à la ligne",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Dans un poème en vers libres, la longueur des vers et les rimes ne sont pas soumises à une règle fixe. Le poète crée son propre rythme avec les retours à la ligne et la ponctuation.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Un poème en vers libres ne suit aucune règle fixe : les vers n'ont pas tous la même longueur et les rimes ne forment pas de schéma régulier. Il reste pourtant un poème, car il est écrit en vers, avec des images et un rythme."
+  },
+  "verification": "ok2"
+}

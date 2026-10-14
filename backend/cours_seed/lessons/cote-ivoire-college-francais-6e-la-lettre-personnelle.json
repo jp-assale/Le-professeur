@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-la-lettre-personnelle",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · La lettre personnelle",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · La lettre personnelle",
+  "intro": {
+    "heading": "Un message pour ton cousin",
+    "body": "Ton cousin Yao, qui habite à Korhogo, t'a envoyé un beau ballon pour ton anniversaire. Tu n'as pas son numéro de téléphone, alors tu décides de lui écrire une lettre. Mais comment commencer, que dire et comment terminer ? Dans cette leçon, tu apprends à écrire et à reconnaître une lettre personnelle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✉️",
+        "text": "La lettre personnelle s'écrit à une personne que l'on connaît."
+      },
+      {
+        "icon": "🎯",
+        "text": "Elle a un objet : remercier, inviter, donner des nouvelles."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Le registre et les mots s'adaptent au destinataire."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et écrire une lettre personnelle",
+    "explanation": "La lettre personnelle est un texte épistolaire : on l'écrit à une personne que l'on connaît (parent, ami, cousin) pour lui parler de soi ou lui demander de ses nouvelles. Elle comporte le lieu et la date, une formule d'appel (« Cher Koffi, »), le corps de la lettre, une formule de politesse (« Je t'embrasse très fort. ») et la signature. Les outils grammaticaux sont les pronoms « je » et « tu », le présent, le passé composé pour raconter et le futur pour annoncer, ainsi que des phrases interrogatives, exclamatives ou à l'impératif. Les indices lexicaux sont les mots d'affection (« cher », « ma chère »), les mots de remerciement ou d'invitation (« merci », « je t'invite »). Tu peux employer une figure de style simple comme la comparaison : « Ton cadeau m'a rendu heureux comme un roi. » Le registre de langue est familier ou courant avec un ami ou un cousin, et plus soutenu avec une personne que l'on respecte beaucoup (un grand-parent, par exemple). L'objet de la lettre est la raison pour laquelle tu écris : remercier, inviter, féliciter ou donner des nouvelles. Toutes les idées de ta lettre doivent se rattacher à cet objet, avec des mots bien choisis.",
+    "highlight": "Une lettre personnelle = lieu et date + formule d'appel + corps du message sur un objet précis + formule de politesse + signature, avec « je » et « tu »."
+  },
+  "example": {
+    "problem": "Situation d'évaluation. Contexte : ton cousin Yao, qui vit à Korhogo, t'a envoyé un ballon pour ton anniversaire. Circonstance : tu veux lui répondre sans attendre. Tâche : écris une courte lettre personnelle de 4 à 5 phrases pour le remercier. Tu signes Kouadio.",
+    "steps": [
+      "Repère l'objet de la lettre : remercier Yao pour le ballon.",
+      "Écris le lieu et la date en haut à droite, puis la formule d'appel : « Cher Yao, ».",
+      "Rédige le corps avec « je » et « tu » : « Merci beaucoup pour ton beau ballon ! Je l'ai reçu hier et j'ai joué avec mes amis toute la journée. »",
+      "Ajoute une comparaison liée à l'objet : « Ton cadeau m'a rendu heureux comme un roi. »",
+      "Choisis un registre familier ou courant, adapté à un cousin, sans mots grossiers.",
+      "Termine par la formule de politesse et la signature : « Je t'embrasse fort. Ton cousin Kouadio. »"
+    ]
+  },
+  "quiz": {
+    "question": "Kouadio écrit à son oncle : « Cher oncle, merci beaucoup pour le beau cartable que tu m'as offert pour la rentrée. » Quel est l'objet de cette lettre personnelle ?",
+    "reponse_calculee": "Remercier son oncle pour un cadeau",
+    "choices": [
+      {
+        "label": "Remercier son oncle pour un cadeau",
+        "correct": true
+      },
+      {
+        "label": "Inviter son oncle à une fête",
+        "correct": false
+      },
+      {
+        "label": "Demander pardon à son oncle",
+        "correct": false
+      },
+      {
+        "label": "Annoncer une mauvaise nouvelle à son oncle",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les mots « merci beaucoup » et « le beau cartable que tu m'as offert » sont des indices lexicaux qui montrent que l'objet de la lettre est de remercier pour un cadeau.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Dans la phrase, aucun mot ne montre une invitation, un pardon ou une mauvaise nouvelle. Les mots « merci beaucoup » et « le cartable que tu m'as offert » indiquent que l'objet de la lettre est de remercier son oncle pour un cadeau."
+  },
+  "verification": "ok2"
+}

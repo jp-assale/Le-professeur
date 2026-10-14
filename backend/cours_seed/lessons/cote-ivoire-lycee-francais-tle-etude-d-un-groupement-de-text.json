@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-francais-tle-etude-d-un-groupement-de-text",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Tle · Étude d'un Groupement de Textes (GT) théâtraux africains ou français",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Étude d'un Groupement de Textes (GT) théâtraux africains ou français",
+  "intro": {
+    "heading": "Du maquis au rideau rouge",
+    "body": "Ce samedi, ton club de théâtre prépare un spectacle. Awa joue une commerçante ruinée et Yao un chef de village intransigeant. Le public rit à une scène, puis se tait à la suivante. Pour comprendre pourquoi, tu dois savoir reconnaître le genre d'une pièce, suivre son intrigue et repérer la force qui pousse chaque personnage à agir."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎭",
+        "text": "Comédie, tragédie et drame ont chacun leurs codes."
+      },
+      {
+        "icon": "📈",
+        "text": "L'intrigue progresse de l'exposition au dénouement."
+      },
+      {
+        "icon": "🧭",
+        "text": "Le schéma actantiel révèle les forces qui font agir."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les genres théâtraux, l'intrigue et le schéma actantiel",
+    "explanation": "La comédie met en scène des personnages ordinaires, vise à faire rire et à corriger les défauts humains, et se termine bien. La tragédie met en scène des héros face à un destin fatal ; elle suscite la crainte et la pitié, et finit par une issue funeste. Le drame mélange le sérieux et le familier, le rire et les larmes. Le drame bourgeois s'intéresse aux problèmes de la vie privée et familiale. Le drame romantique refuse la séparation stricte des genres et mêle le sublime et le grotesque. L'intrigue progresse en quatre temps : l'exposition présente la situation, le nœud lance le conflit, les péripéties le compliquent, puis le dénouement le résout. Le schéma actantiel relie six rôles : le destinateur, le destinataire, le sujet, l'objet, l'adjuvant et l'opposant. Enfin, le drame moderne et le théâtre de l'absurde, comme chez Ionesco ou Beckett, brouillent ces repères : l'intrigue s'efface, le dialogue tourne à vide et l'action n'aboutit presque pas.",
+    "highlight": "Le sujet veut atteindre un objet, poussé par un destinateur, au profit d'un destinataire, aidé par un adjuvant et gêné par un opposant."
+  },
+  "example": {
+    "problem": "Voici une scène inventée. Aya a économisé 150 000 FCFA au marché pour payer la scolarité de sa petite sœur Mariam. Son oncle Brou veut cet argent pour sa boutique et cache la clé de la caisse. Adjoua, sa voisine, garde l'étal d'Aya pour qu'elle puisse chercher la clé. Construis le schéma actantiel de cette scène.",
+    "steps": [
+      "Cherche d'abord qui désire quelque chose : c'est Aya, donc le sujet.",
+      "Identifie ce qu'elle veut obtenir : payer la scolarité de Mariam, c'est l'objet.",
+      "Cherche la force qui la pousse : son devoir de grande sœur est le destinateur. Mariam, qui profite de l'action, est la destinataire.",
+      "Repère celle qui l'aide : Adjoua, qui garde l'étal, est l'adjuvante. Repère celui qui la gêne : l'oncle Brou, qui cache la clé, est l'opposant.",
+      "Situe l'épisode dans l'intrigue : la clé cachée est une péripétie, car elle complique la quête d'Aya avant le dénouement."
+    ]
+  },
+  "quiz": {
+    "question": "Dans le schéma actantiel, quel actant aide le sujet à atteindre son objet ?",
+    "reponse_calculee": "L'adjuvant",
+    "choices": [
+      {
+        "label": "L'adjuvant",
+        "correct": true
+      },
+      {
+        "label": "L'opposant",
+        "correct": false
+      },
+      {
+        "label": "Le destinataire",
+        "correct": false
+      },
+      {
+        "label": "Le destinateur",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact : l'adjuvant est la personne, la force ou l'objet qui aide le sujet dans sa quête. Dans la scène d'Aya, c'est Adjoua.",
+    "feedback_wrong": "L'actant qui aide le sujet est l'adjuvant. L'opposant, lui, gêne le sujet. Le destinateur pousse le sujet à agir, et le destinataire profite du résultat de l'action."
+  },
+  "verification": "ok"
+}

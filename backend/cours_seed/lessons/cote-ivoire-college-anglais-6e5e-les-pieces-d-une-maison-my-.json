@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-les-pieces-d-une-maison-my-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Les pièces d'une maison (My house)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Les pièces d'une maison (My house)",
+  "intro": {
+    "heading": "Koffi présente sa maison",
+    "body": "Koffi, un élève d'Abidjan, écrit à un correspondant anglophone. Il veut lui décrire sa maison : les pièces, les meubles et les appareils. Il doit dire ce qu'il y a dans chaque pièce, en anglais. Dans cette leçon, tu apprends les mots et les phrases pour faire comme lui."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏠",
+        "text": "Je connais les pièces : kitchen, bedroom, living room."
+      },
+      {
+        "icon": "🛋️",
+        "text": "Je nomme meubles et appareils : bed, table, fridge, fan."
+      },
+      {
+        "icon": "✏️",
+        "text": "J'utilise There is / There are pour dire ce qu'il y a."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Identifier les pièces, les meubles et les appareils",
+    "explanation": "Les pièces : a kitchen (une cuisine), a bedroom (une chambre), a living room (un salon), a dining room (une salle à manger), a bathroom (une salle de bain), a toilet (des toilettes). Les meubles : a bed (un lit), a table (une table), a chair (une chaise), a sofa (un canapé), a wardrobe (une armoire). Les appareils : a fridge (un réfrigérateur), a cooker (une cuisinière), a TV (une télévision), a fan (un ventilateur), an iron (un fer à repasser). Pour identifier un objet, on dit : This is a bed. (Ceci est un lit.) Au pluriel, on dit : These are chairs. (Ce sont des chaises.) Pour dire ce qu'il y a dans une pièce, on emploie There is devant un seul objet et There are devant plusieurs objets. On place a devant un mot qui commence par une consonne, et an devant un mot qui commence par une voyelle : an iron. Pour poser la question : Is there a fan in the bedroom? (Y a-t-il un ventilateur dans la chambre ?) Réponses courtes : Yes, there is. (Oui.) No, there isn't. (Non.)",
+    "highlight": "There is a fridge in the kitchen. (Il y a un réfrigérateur dans la cuisine.) There are two chairs. (Il y a deux chaises.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Il y a un ventilateur dans le salon. »",
+    "steps": [
+      "Cherche les mots : un ventilateur = a fan ; le salon = the living room.",
+      "Il y a un seul objet, donc on utilise There is.",
+      "Fan commence par une consonne, donc on écrit a fan.",
+      "Le lieu se dit avec in : in the living room.",
+      "Réponse : There is a fan in the living room. (Il y a un ventilateur dans le salon.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase dit correctement : « Il y a deux chaises dans la salle à manger » ?",
+    "reponse_calculee": "There are two chairs in the dining room.",
+    "choices": [
+      {
+        "label": "There are two chairs in the dining room.",
+        "correct": true
+      },
+      {
+        "label": "There is two chairs in the dining room.",
+        "correct": false
+      },
+      {
+        "label": "There are two chair in the dining room.",
+        "correct": false
+      },
+      {
+        "label": "There is a two chairs in the dining room.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Il y a deux chaises, donc on emploie There are, et chairs prend un s au pluriel. Dining room signifie salle à manger.",
+    "feedback_wrong": "La bonne réponse est : There are two chairs in the dining room. Devant plusieurs objets, on emploie There are (et non There is), et le nom prend un s au pluriel : two chairs. On n'écrit pas a devant two."
+  },
+  "verification": "ok"
+}

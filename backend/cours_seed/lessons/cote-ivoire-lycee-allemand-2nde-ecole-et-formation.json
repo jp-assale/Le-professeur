@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-ecole-et-formation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · École et formation",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · École et formation",
+  "intro": {
+    "heading": "Un message pour ton correspondant",
+    "body": "Kouamé, élève de 2nde à Abidjan, reçoit un message d'un correspondant allemand qui lui demande : « Wie ist deine Schule? » (Comment est ton école ?). Kouamé veut répondre en allemand et présenter son emploi du temps. Il doit écrire des phrases simples, claires et sans faute. Comme lui, tu vas apprendre à parler de l'école et à bien placer le verbe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏫",
+        "text": "Mots clés : die Schule, das Fach, die Klasse."
+      },
+      {
+        "icon": "2️⃣",
+        "text": "Le verbe conjugué se place toujours en deuxième position."
+      },
+      {
+        "icon": "📅",
+        "text": "Après Am Montag, le verbe vient avant le sujet."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le verbe en deuxième position",
+    "explanation": "Pour parler de l'école, retiens d'abord ces mots : die Schule (l'école), das Fach (la matière), die Klasse (la classe), der Lehrer (le professeur), die Lehrerin (la professeure), die Hausaufgaben (les devoirs). Dans une phrase simple en allemand, le verbe conjugué est toujours en deuxième position. Si tu commences par le sujet, l'ordre ressemble au français : Ich lerne Deutsch. (J'apprends l'allemand.) Si tu commences par une indication de temps, le verbe reste en deuxième place et le sujet passe après lui : Am Montag lerne ich Deutsch. (Lundi, j'apprends l'allemand.) On ne dit donc jamais « Am Montag ich lerne ». Pour dire ce que tu préfères, tu peux écrire : Mein Lieblingsfach ist Englisch. (Ma matière préférée est l'anglais.)",
+    "highlight": "Verbe en 2e position : Am Montag lerne ich Deutsch. (Lundi, j'apprends l'allemand.)"
+  },
+  "example": {
+    "problem": "Construis une phrase allemande avec ces éléments : Awa / hat / Deutsch / am Montag. Elle veut dire : Lundi, Awa a cours d'allemand. Commence la phrase par l'indication de temps.",
+    "steps": [
+      "Repère les éléments : le sujet est Awa, le verbe conjugué est hat (a), le temps est am Montag (lundi).",
+      "Tu commences par l'indication de temps : Am Montag.",
+      "Le verbe conjugué doit être en deuxième position : Am Montag hat.",
+      "Le sujet vient ensuite, après le verbe : Am Montag hat Awa.",
+      "Tu ajoutes la matière à la fin : Am Montag hat Awa Deutsch. (Lundi, Awa a cours d'allemand.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Le mardi, nous avons maths » ?",
+    "reponse_calculee": "Am Dienstag haben wir Mathe.",
+    "choices": [
+      {
+        "label": "Am Dienstag haben wir Mathe.",
+        "correct": true
+      },
+      {
+        "label": "Am Dienstag wir haben Mathe.",
+        "correct": false
+      },
+      {
+        "label": "Am Dienstag Mathe haben wir.",
+        "correct": false
+      },
+      {
+        "label": "Wir am Dienstag haben Mathe.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Am Dienstag haben wir Mathe. (Le mardi, nous avons maths.) Le verbe haben est bien en deuxième position, juste après Am Dienstag, et le sujet wir vient après lui.",
+    "feedback_wrong": "La bonne phrase est : Am Dienstag haben wir Mathe. (Le mardi, nous avons maths.) En allemand, le verbe conjugué occupe toujours la deuxième place. Dans les autres propositions, il est en troisième position ou plus loin, ce qui est faux."
+  },
+  "verification": "ok"
+}

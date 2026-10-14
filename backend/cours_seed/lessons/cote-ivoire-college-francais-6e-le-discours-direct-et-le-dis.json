@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-le-discours-direct-et-le-dis",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Le discours direct et le discours indirect",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Le discours direct et le discours indirect",
+  "intro": {
+    "heading": "Qui a dit quoi à la sortie de la classe ?",
+    "body": "À la sortie de la classe, Awa raconte à sa mère ce que son camarade Koffi lui a dit. Elle peut répéter ses mots exactement : Koffi m'a dit : « Je suis en retard. » Elle peut aussi les intégrer à son récit : Koffi m'a dit qu'il était en retard. Dans les deux cas, on rapporte des paroles, mais pas de la même façon. Dans cette leçon, tu apprends à reconnaître ces deux manières et à passer de l'une à l'autre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Le discours direct utilise les deux-points et les guillemets (ou des tirets dans un dialogue)."
+      },
+      {
+        "icon": "🔁",
+        "text": "Le discours indirect n'a ni guillemets ni deux-points : il utilise un verbe introducteur et un mot de liaison (que, si, de)."
+      },
+      {
+        "icon": "❓",
+        "text": "Selon la modalité : déclarative → que ; interrogative → si ou un mot interrogatif ; injonctive → de + infinitif."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Rapporter des paroles : les marques et les modalités",
+    "explanation": "Le discours direct rapporte les paroles exactement comme elles ont été dites. Il est signalé par les deux-points, les guillemets (ou les tirets dans un dialogue) et souvent un verbe de parole comme dire, demander ou répondre. Le discours indirect intègre les paroles dans la phrase de celui qui raconte. Il n'a ni guillemets ni deux-points, et il utilise un mot de liaison : que, si, de ou un mot interrogatif. Au passage du direct à l'indirect, les pronoms changent, et les temps des verbes et les mots de temps changent souvent, surtout quand le verbe introducteur est au passé : « Je viens » devient Il a dit qu'il venait (mais Il dit qu'il vient si le verbe introducteur est au présent). La modalité de la phrase décide du mot de liaison. La phrase déclarative est introduite par que. La phrase interrogative est introduite par si (question à laquelle on répond par oui ou non) ou par un mot interrogatif (où, quand, pourquoi). La phrase injonctive (ordre, conseil) est le plus souvent introduite par de suivi d'un infinitif. Au discours indirect, le point d'interrogation disparaît.",
+    "highlight": "Direct : deux-points et guillemets. Indirect : pas de guillemets, mais que, si ou de."
+  },
+  "example": {
+    "problem": "Koffi a demandé à Awa : « Est-ce que tu as ton cahier ? » Transforme cette phrase au discours indirect.",
+    "steps": [
+      "Repère les marques du discours direct : les deux-points, les guillemets et le verbe introducteur « a demandé ».",
+      "Identifie la modalité : c'est une phrase interrogative, avec une question à laquelle on répond par oui ou non.",
+      "Supprime les deux-points et les guillemets, puis ajoute le mot de liaison « si » : Koffi a demandé à Awa si...",
+      "Change les pronoms : « tu » devient « elle » et « ton » devient « son ».",
+      "Change le temps : le verbe introducteur est au passé composé, donc « as » devient « avait ». Le point d'interrogation disparaît.",
+      "Phrase finale : Koffi a demandé à Awa si elle avait son cahier."
+    ]
+  },
+  "quiz": {
+    "question": "Laquelle de ces phrases est au discours indirect ?",
+    "reponse_calculee": "Moussa a dit à son frère qu'il avait faim.",
+    "choices": [
+      {
+        "label": "Moussa a dit à son frère qu'il avait faim.",
+        "correct": true
+      },
+      {
+        "label": "Moussa dit à son frère : « J'ai faim ! »",
+        "correct": false
+      },
+      {
+        "label": "— J'ai faim, dit Moussa à son frère.",
+        "correct": false
+      },
+      {
+        "label": "Moussa s'écrie : « J'ai tellement faim ! »",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase n'a ni guillemets ni deux-points, et les paroles de Moussa sont intégrées après le mot « que ». C'est bien du discours indirect.",
+    "feedback_wrong": "Les autres phrases sont au discours direct : elles contiennent des guillemets, des deux-points ou un tiret de dialogue et reprennent les paroles de Moussa telles quelles. La seule phrase où les paroles sont intégrées avec « que », sans guillemets, est : Moussa a dit à son frère qu'il avait faim."
+  },
+  "verification": "ok2"
+}

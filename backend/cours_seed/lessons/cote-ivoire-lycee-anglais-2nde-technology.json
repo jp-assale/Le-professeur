@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-technology",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Technology",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Technology",
+  "intro": {
+    "heading": "Le nouveau téléphone de Koffi",
+    "body": "Koffi a acheté un téléphone portable à 45 000 FCFA et il l'utilise tous les jours pour aller sur Internet. Sa correspondante anglaise lui demande : « How long have you had this phone? » (Depuis combien de temps as-tu ce téléphone ?). Pour répondre, Koffi doit utiliser le Present perfect avec for ou since. Dans cette leçon, tu apprends à le faire pour parler de la technologie autour de toi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📱",
+        "text": "Present perfect = have ou has + participe passé."
+      },
+      {
+        "icon": "⏳",
+        "text": "For + durée : for two years (pendant deux ans)."
+      },
+      {
+        "icon": "📅",
+        "text": "Since + point de départ : since Monday (depuis lundi)."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "For et since avec le Present perfect",
+    "explanation": "On emploie le Present perfect pour une action ou un état qui a commencé dans le passé et qui continue maintenant. On le forme avec have ou has, suivi du participe passé du verbe. On utilise has avec he, she et it, et have avec les autres sujets. Après for, on donne une durée : for two years (pendant deux ans), for ten minutes (pendant dix minutes). Après since, on donne le moment où l'action a commencé : since Monday (depuis lundi), since last year (depuis l'année dernière). En français, on dit souvent « depuis » pour les deux, mais en anglais il faut choisir entre for et since. Attention : avec une date ou un moment précis du passé terminé, on emploie le Past simple, par exemple : I bought this phone yesterday (J'ai acheté ce téléphone hier).",
+    "highlight": "have/has + participe passé + for (durée) ou since (point de départ). Ex. : I have had this phone for two years. (J'ai ce téléphone depuis deux ans.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Kouassi a cet ordinateur depuis lundi. »",
+    "steps": [
+      "L'état a commencé lundi et continue maintenant : on emploie le Present perfect.",
+      "Le sujet est Kouassi, c'est-à-dire he : on utilise has.",
+      "Le participe passé de have (avoir) est had.",
+      "Lundi est un point de départ, pas une durée : on emploie since et non for.",
+      "On place since Monday à la fin de la phrase.",
+      "Réponse : Kouassi has had this computer since Monday. (Kouassi a cet ordinateur depuis lundi.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Aya has had her smartphone ___ two years. (Aya a son smartphone depuis deux ans.)",
+    "reponse_calculee": "for",
+    "choices": [
+      {
+        "label": "for",
+        "correct": true
+      },
+      {
+        "label": "since",
+        "correct": false
+      },
+      {
+        "label": "ago",
+        "correct": false
+      },
+      {
+        "label": "yet",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Two years est une durée, donc on emploie for : Aya has had her smartphone for two years.",
+    "feedback_wrong": "La bonne réponse est for. Two years est une durée, et for s'emploie avec une durée. Since s'emploie avec un point de départ comme Monday. Ago s'emploie avec le Past simple, et yet n'a pas de sens ici."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-political-change",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Political change",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Political change",
+  "intro": {
+    "heading": "Le débat du club d'anglais",
+    "body": "Au lycée, ton club d'anglais organise un débat sur le sujet : « Should all citizens vote in elections? » (Tous les citoyens doivent-ils voter aux élections ?). Ton amie Awa doit écrire une courte dissertation, pour ou contre. Ses idées sont bonnes, mais ses phrases restent isolées et le texte ne coule pas. Dans cette leçon, tu apprends à relier tes idées avec les bonnes conjonctions."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "Les conjonctions relient les idées d'une dissertation."
+      },
+      {
+        "icon": "🗳️",
+        "text": "Although exprime l'opposition : bien que."
+      },
+      {
+        "icon": "✍️",
+        "text": "However commence une phrase et s'écrit avec une virgule."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les conjonctions pour argumenter",
+    "explanation": "Dans une dissertation pour ou contre, tu dois relier tes arguments avec des conjonctions et des mots de liaison. Pour donner une cause, utilise « because » (parce que) : I vote because I want change. (Je vote parce que je veux du changement.) Pour donner une conséquence, utilise « so » (donc) : I want change, so I vote. (Je veux du changement, donc je vote.) Pour ajouter une idée, utilise « and » (et) ou « moreover » (de plus). Pour opposer deux idées, utilise « but » (mais), « although » (bien que) ou « however » (cependant). « Although » se place devant la première idée, puis une virgule sépare cette idée de la seconde : on n'ajoute jamais « but » dans la même phrase. « However » commence une nouvelle phrase et est suivi d'une virgule : Voting is a right. However, some people do not vote. (Voter est un droit. Cependant, certaines personnes ne votent pas.) Pour conclure, utilise « in conclusion » (en conclusion).",
+    "highlight": "Although + idée 1, idée 2. Ex : Although voting is a right, some people do not vote. (Bien que voter soit un droit, certaines personnes ne votent pas.)"
+  },
+  "example": {
+    "problem": "Awa écrit un argument pour sa dissertation. Relie les deux idées avec « although » : Voting is important. (Voter est important.) Some young people stay at home. (Certains jeunes restent à la maison.)",
+    "steps": [
+      "Lis les deux idées : « Voting is important » (Voter est important) et « Some young people stay at home » (Certains jeunes restent à la maison).",
+      "Ces deux idées s'opposent : la deuxième surprend après la première. Il faut donc une conjonction d'opposition.",
+      "Place « Although » au début de la phrase, devant la première idée : Although voting is important.",
+      "Ajoute une virgule, puis la deuxième idée. N'écris pas « but » : « although » suffit.",
+      "Réponse complète : Although voting is important, some young people stay at home. (Bien que voter soit important, certains jeunes restent à la maison.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis le mot qui complète la phrase : « ___ Awa was very tired, she went to vote. » (___ Awa était très fatiguée, elle est allée voter.)",
+    "reponse_calculee": "Although",
+    "choices": [
+      {
+        "label": "Although",
+        "correct": true
+      },
+      {
+        "label": "But",
+        "correct": false
+      },
+      {
+        "label": "Therefore",
+        "correct": false
+      },
+      {
+        "label": "Or",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Although » (bien que) relie deux idées qui s'opposent : Awa était fatiguée, mais elle est quand même allée voter. On l'écrit au début de la phrase, avec une virgule avant la deuxième idée.",
+    "feedback_wrong": "La bonne réponse est « Although ». Les deux idées s'opposent, il faut donc une conjonction d'opposition placée devant la première idée. « But » (mais) ne s'utilise pas au début d'une phrase construite ainsi, « therefore » (donc) donne une conséquence et « or » (ou) propose un choix : aucun ne convient ici."
+  },
+  "verification": "ok2"
+}

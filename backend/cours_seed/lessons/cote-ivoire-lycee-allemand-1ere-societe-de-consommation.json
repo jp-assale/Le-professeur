@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-societe-de-consommation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Société de consommation",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Société de consommation",
+  "intro": {
+    "heading": "Au marché avec Koffi",
+    "body": "Koffi veut acheter des baskets à 15 000 FCFA, mais son ami Moussa trouve que c'est trop cher. Koffi doit expliquer pourquoi il veut les acheter. En allemand, pour parler de consommation, tu dois savoir donner une raison simple. Aujourd'hui, tu apprends à dire pourquoi on achète quelque chose."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛒",
+        "text": "Vocabulaire de l'achat : kaufen, das Geld, der Preis, teuer, billig."
+      },
+      {
+        "icon": "💬",
+        "text": "Weil veut dire « parce que » et donne une raison."
+      },
+      {
+        "icon": "📌",
+        "text": "Après weil, le verbe conjugué se place à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner une raison avec weil",
+    "explanation": "Dans la société de consommation, on achète beaucoup et on donne son avis sur ses achats. Voici des mots utiles : kaufen (acheter), das Geld (l'argent), der Preis (le prix), teuer (cher), billig (bon marché), brauchen (avoir besoin de). Pour expliquer un achat, tu utilises weil (parce que). Devant weil, tu mets une virgule. Après weil, le verbe conjugué va à la fin de la phrase. Dans la phrase « Ich kaufe ein Handy, weil ich es brauche. », le verbe brauche est à la fin.",
+    "highlight": "..., weil + sujet + ... + verbe conjugué. Exemple : Ich kaufe ein Handy, weil ich es brauche. (J'achète un téléphone parce que j'en ai besoin.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en allemand : « Aminata achète une robe parce qu'elle a une fête. » Utilise : Aminata kauft ein Kleid, weil ... (sie – eine Feier – hat).",
+    "steps": [
+      "Première partie : Aminata kauft ein Kleid (Aminata achète une robe).",
+      "Pour la raison, on part de : sie hat eine Feier (elle a une fête).",
+      "On relie les deux parties avec une virgule et weil (parce que).",
+      "Après weil, le verbe conjugué hat va à la fin : weil sie eine Feier hat.",
+      "Phrase complète : Aminata kauft ein Kleid, weil sie eine Feier hat. (Aminata achète une robe parce qu'elle a une fête.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Je fais des économies parce que j'ai besoin d'un vélo » ?",
+    "reponse_calculee": "Ich spare Geld, weil ich ein Fahrrad brauche.",
+    "choices": [
+      {
+        "label": "Ich spare Geld, weil ich ein Fahrrad brauche.",
+        "correct": true
+      },
+      {
+        "label": "Ich spare Geld, weil ich brauche ein Fahrrad.",
+        "correct": false
+      },
+      {
+        "label": "Ich spare Geld, weil brauche ich ein Fahrrad.",
+        "correct": false
+      },
+      {
+        "label": "Ich spare Geld, weil ich ein brauche Fahrrad.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après weil, le verbe conjugué brauche se place à la fin : Ich spare Geld, weil ich ein Fahrrad brauche. (Je fais des économies parce que j'ai besoin d'un vélo.)",
+    "feedback_wrong": "Après weil, le verbe conjugué doit être à la fin de la phrase. La bonne phrase est : Ich spare Geld, weil ich ein Fahrrad brauche. (Je fais des économies parce que j'ai besoin d'un vélo.) Dans les autres propositions, le verbe brauche n'est pas à la fin."
+  },
+  "verification": "ok2"
+}

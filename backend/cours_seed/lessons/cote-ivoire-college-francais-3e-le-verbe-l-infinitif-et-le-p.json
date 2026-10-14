@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-verbe-l-infinitif-et-le-p",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le verbe : L'infinitif et le participe",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le verbe : L'infinitif et le participe",
+  "intro": {
+    "heading": "Un message de Kouadio",
+    "body": "Kouadio écrit à sa cousine : « Ayant fini mes devoirs, je vais jouer au football avec mes amis. » Dans cette seule phrase, il emploie deux formes du verbe qui ne se conjuguent pas comme d'habitude : « ayant fini » et « jouer ». Ce sont le participe et l'infinitif. Dans cette leçon, tu apprends à les reconnaître, à les distinguer et à bien les employer."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📘",
+        "text": "L'infinitif a un temps simple (chanter) et un temps composé (avoir chanté)."
+      },
+      {
+        "icon": "✍️",
+        "text": "Le participe présent est invariable, le participe passé s'accorde souvent."
+      },
+      {
+        "icon": "🔍",
+        "text": "Identifie toujours l'auxiliaire avant d'accorder un participe passé."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître et employer l'infinitif et le participe",
+    "explanation": "L'infinitif et le participe sont des modes impersonnels : ils ne changent pas selon la personne. L'infinitif a deux formes : le présent (chanter, partir) et le passé (avoir chanté, être parti). Il peut compléter un autre verbe (Awa veut chanter), être employé comme un nom (Lire est utile), exprimer un ordre (Ne pas courir dans la cour) ou poser une question (Que faire ?). Le participe présent a une forme simple (chantant, partant) et une forme composée (ayant chanté, étant parti). Il exprime une action en cours ou terminée et reste invariable ; l'adjectif verbal, lui, s'accorde (des enfants obéissants). Le participe passé (chanté, parti) s'emploie dans les temps composés, au passif et comme adjectif. Avec l'auxiliaire être, il s'accorde avec le sujet (Fatou est partie). Avec l'auxiliaire avoir, il s'accorde avec le COD placé avant le verbe (Les mangues que Moussa a cueillies sont mûres).",
+    "highlight": "Participe présent : invariable. Participe passé avec être : accord avec le sujet. Participe passé avec avoir : accord avec le COD placé avant."
+  },
+  "example": {
+    "problem": "Analyse la phrase : « Awa, ayant fini ses devoirs, est allée acheter du pain au marché. »",
+    "steps": [
+      "Étape 1 : repère le verbe conjugué. C'est « est allée », au passé composé.",
+      "Étape 2 : « ayant fini » est un participe présent à la forme composée. Il exprime une action terminée avant « est allée ».",
+      "Étape 3 : « acheter » est un infinitif présent. Il complète le verbe « est allée » et indique le but.",
+      "Étape 4 : accorde « allée ». L'auxiliaire est être, donc le participe s'accorde avec le sujet Awa, féminin singulier : on ajoute un e.",
+      "Étape 5 : « fini » reste invariable ici, car le COD « ses devoirs » est placé après le participe.",
+      "Étape 6 : reformule en remplaçant le participe : « Quand elle a fini ses devoirs, Awa est allée acheter du pain au marché. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Fatou est partie tôt », pourquoi le participe passé « partie » prend-il un e ?",
+    "reponse_calculee": "Parce qu'il s'accorde avec le sujet Fatou, car l'auxiliaire est être",
+    "choices": [
+      {
+        "label": "Parce qu'il s'accorde avec le sujet Fatou, car l'auxiliaire est être",
+        "correct": true
+      },
+      {
+        "label": "Parce qu'il s'accorde avec un COD placé avant le verbe",
+        "correct": false
+      },
+      {
+        "label": "Parce que le verbe partir est du premier groupe",
+        "correct": false
+      },
+      {
+        "label": "Parce que le participe passé prend toujours un e",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec l'auxiliaire être, le participe passé s'accorde avec le sujet. Fatou est féminin singulier, donc on écrit « partie ».",
+    "feedback_wrong": "La bonne réponse est : il s'accorde avec le sujet Fatou, car l'auxiliaire est être. L'accord avec le COD placé avant concerne l'auxiliaire avoir. Le verbe partir est du 3e groupe et son groupe ne change rien à cette règle, et le participe passé ne prend pas toujours un e."
+  },
+  "verification": "ok2"
+}

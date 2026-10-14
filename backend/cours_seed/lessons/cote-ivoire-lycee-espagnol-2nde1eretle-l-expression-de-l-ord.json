@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-l-expression-de-l-ord",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · L'expression de l'ordre",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · L'expression de l'ordre",
+  "intro": {
+    "heading": "Un ordre, mille façons de le dire",
+    "body": "Imagine que tu aides ta tante au marché de Treichville, à Abidjan. Elle te dit : « ¡Ven aquí, Awa! » (Viens ici, Awa !), puis : « ¡Cuidado con la moto! » (Attention à la moto !). Plus tard, ton ami te conseille : « Te aconsejo estudiar cada día » (Je te conseille d'étudier chaque jour). Dans une situation d'évaluation, tu devras savoir donner une consigne, solliciter, conseiller ou prévenir par écrit : voyons comment."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📣",
+        "text": "À tú, l'impératif affirmatif ressemble à la 3e personne du présent."
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour interdire, on emploie no + le subjonctif : No hables."
+      },
+      {
+        "icon": "🤝",
+        "text": "Conseiller, suggérer, prévenir : Te aconsejo, ¿Por qué no...?, ¡Cuidado!"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les façons d'exprimer l'ordre",
+    "explanation": "Pour donner une consigne à une personne que tu tutoies, tu utilises l'impératif : il a la même forme que la 3e personne du singulier du présent (hablar : habla, comer : come, escribir : escribe). Pour interdire ou dissuader, tu écris no + le subjonctif : No hables (Ne parle pas), No comas (Ne mange pas). Quelques verbes sont irréguliers à l'affirmatif : ven (viens), haz (fais), di (dis), ten (aie), sal (sors). Pour solliciter poliment, tu peux poser une question : ¿Puedes ayudarme, por favor? (Peux-tu m'aider, s'il te plaît ?). Pour conseiller ou recommander, tu écris : Te aconsejo estudiar (Je te conseille d'étudier) ou Te recomiendo leer (Je te recommande de lire). Pour suggérer, tu proposes : ¿Por qué no estudiamos juntos? (Pourquoi n'étudions-nous pas ensemble ?). Pour interpeller ou prévenir, tu utilises des appels courts : ¡Oye, Koffi! (Eh, Koffi !), ¡Cuidado! (Attention !). Pour reconnaître un ordre, repère le verbe sans sujet, les points d'exclamation ¡ ! et por favor ; pour le dire avec tes mots, tu peux écrire Tienes que cerrar la puerta (Tu dois fermer la porte) à la place de Cierra la puerta (Ferme la porte).",
+    "highlight": "À tú : verbe à la 3e personne du présent. Habla más despacio. (Parle plus lentement.) Interdiction : No hables. (Ne parle pas.)"
+  },
+  "example": {
+    "problem": "Écris en espagnol un ordre poli adressé à ton ami Kofi : « Kofi, écris ton nom ici, s'il te plaît. »",
+    "steps": [
+      "Je repère le verbe : « écris », c'est le verbe escribir (écrire).",
+      "Je tutoie Kofi, donc j'utilise l'impératif affirmatif de tú : c'est la forme de la 3e personne du présent, escribe.",
+      "« Ton nom » se dit tu nombre ; « ici » se dit aquí.",
+      "Pour être poli, j'ajoute por favor (s'il te plaît) à la fin, et j'appelle Kofi au début.",
+      "Réponse : Kofi, escribe tu nombre aquí, por favor. (Kofi, écris ton nom ici, s'il te plaît.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on à Aya, que tu tutoies : « Mange ton riz, Aya ! » ?",
+    "reponse_calculee": "Aya, come tu arroz.",
+    "choices": [
+      {
+        "label": "Aya, come tu arroz.",
+        "correct": true
+      },
+      {
+        "label": "Aya, comes tu arroz.",
+        "correct": false
+      },
+      {
+        "label": "Aya, comí tu arroz.",
+        "correct": false
+      },
+      {
+        "label": "Aya, comeré tu arroz.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! À tú, l'impératif affirmatif est identique à la 3e personne du singulier du présent : comer devient come. Aya, come tu arroz. (Aya, mange ton riz.)",
+    "feedback_wrong": "La bonne réponse est : Aya, come tu arroz. « Comes » signifie « tu manges » (une simple constatation), « comí » signifie « j'ai mangé » et « comeré » signifie « je mangerai ». Aucune de ces formes n'exprime un ordre."
+  },
+  "verification": "ok"
+}

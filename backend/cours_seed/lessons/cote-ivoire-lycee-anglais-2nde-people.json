@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-people",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · People",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · People",
+  "intro": {
+    "heading": "Qui est cette personne ?",
+    "body": "Dans la cour du lycée, Kofi présente sa nouvelle camarade à ses amis. Il dit comment elle est : grande, gentille, un peu timide. Puis il explique ce qu'elle fait en ce moment : elle parle avec la professeure. Pour décrire les gens en anglais, tu dois savoir choisir entre deux temps : le présent simple et le présent progressif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧍",
+        "text": "Le présent simple décrit le caractère, l'apparence et les habitudes."
+      },
+      {
+        "icon": "⏱️",
+        "text": "Le présent progressif dit ce qui se passe en ce moment."
+      },
+      {
+        "icon": "🔁",
+        "text": "Always, usually, often, never se placent avant le verbe, mais après be : He always helps. He is always kind."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Présent simple ou présent progressif ?",
+    "explanation": "On utilise le présent simple pour parler de ce qui est vrai en général : le caractère, l'apparence et les habitudes. Exemple : Awa is kind (Awa est gentille). Avec he, she, it, on ajoute un -s au verbe : she helps (elle aide). On utilise le présent progressif pour une action qui se passe maintenant. Il se forme avec be (am, is, are) et le verbe en -ing : she is helping (elle est en train d'aider). Les adverbes de fréquence comme always (toujours), usually (habituellement), often (souvent) et never (jamais) vont avec le présent simple. Ils se placent avant le verbe, mais après le verbe be : He always helps. (Il aide toujours.) He is always kind. (Il est toujours gentil.) Les mots now (maintenant) et today (aujourd'hui) signalent souvent le présent progressif.",
+    "highlight": "Habitude ou trait : Kofi is tall. (Kofi est grand.) Action en cours : Kofi is laughing now. (Kofi rit en ce moment.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec les verbes entre parenthèses : Yao is generous. He usually (give) food to his friends, but today he (carry) his grandmother's bags.",
+    "steps": [
+      "Le mot usually indique une habitude : on utilise le présent simple.",
+      "Le sujet est he, donc le verbe prend un -s : give devient gives.",
+      "Le mot today et l'idée d'une action en cours montrent qu'il faut le présent progressif.",
+      "On forme ce temps avec is + carry + -ing : is carrying.",
+      "Réponse complète : Yao is generous. He usually gives food to his friends, but today he is carrying his grandmother's bags. (Yao est généreux. Il donne habituellement de la nourriture à ses amis, mais aujourd'hui il porte les sacs de sa grand-mère.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Mariam rit en ce moment » ?",
+    "reponse_calculee": "Mariam is laughing now.",
+    "choices": [
+      {
+        "label": "Mariam is laughing now.",
+        "correct": true
+      },
+      {
+        "label": "Mariam are laughing now.",
+        "correct": false
+      },
+      {
+        "label": "Mariam is laugh now.",
+        "correct": false
+      },
+      {
+        "label": "Mariam laughing now.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour une action qui se passe maintenant, on utilise be + verbe en -ing. Avec Mariam (she), on emploie is : Mariam is laughing now.",
+    "feedback_wrong": "La bonne réponse est : Mariam is laughing now. Avec she, on utilise is et non are. Le verbe doit être en -ing (laughing), et on ne peut pas supprimer is."
+  },
+  "verification": "ok2"
+}

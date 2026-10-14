@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-uvre-integrale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'œuvre intégrale",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'œuvre intégrale",
+  "intro": {
+    "heading": "Un livre à lire jusqu'à la dernière page",
+    "body": "Ton professeur de français annonce à la classe de 3e : « Ce trimestre, nous lirons un roman en entier. » Awa, Koffi et Mariam se demandent comment retenir autant de pages. Pour réussir, ils apprennent une méthode : présenter le livre, le situer, choisir un angle de lecture et suivre une question tout au long des chapitres. Cette méthode te servira aussi pour ta situation d'évaluation au BEPC."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Une œuvre intégrale se lit en entier, pas par extraits."
+      },
+      {
+        "icon": "🧭",
+        "text": "L'axe d'étude et le fil conducteur guident ta lecture."
+      },
+      {
+        "icon": "🎨",
+        "text": "Relève les figures de style et dégage les thèmes."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode pour étudier une œuvre intégrale",
+    "explanation": "Une œuvre intégrale est un livre (roman, pièce de théâtre, recueil) que tu lis en entier, et non par extraits. Tu commences par présenter l'auteur et son œuvre : qui a écrit, quel est le genre, quel est le titre. Tu situes ensuite l'œuvre dans son contexte : l'époque, le lieu et la société dont elle parle. L'axe d'étude est l'angle choisi pour lire le livre, par exemple la place de l'école dans la vie d'un enfant. Le fil conducteur, en lecture dirigée, est la question qui te guide de chapitre en chapitre, et tu y réponds par des relevés dans le texte. Tu repères les figures de style pertinentes (comparaison, métaphore, personnification, hyperbole) et tu expliques l'effet qu'elles produisent. Tu dégages les thèmes, comme l'amitié, la tradition ou le courage. Enfin, tu mesures la portée de l'œuvre : le message qu'elle garde pour un lecteur d'aujourd'hui.",
+    "highlight": "Présenter, situer, choisir un axe, suivre le fil conducteur, relever les figures de style, dégager les thèmes, mesurer la portée."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : en lisant un roman inventé, ta classe étudie le courage d'un jeune garçon, Kofi, qui doit parler devant tout le village. Tu relèves deux phrases : « Le marché bourdonnait comme une ruche. » et « La peur de Kofi était une montagne. » Ta tâche est d'identifier les figures de style, d'expliquer leur effet et de les relier à un thème.",
+    "steps": [
+      "Lis la première phrase : le mot « comme » relie le marché à une ruche, c'est une comparaison.",
+      "Explique son effet : elle fait entendre le bruit et l'agitation de la foule.",
+      "Lis la seconde phrase : la peur est directement une montagne, sans mot de comparaison, c'est une métaphore.",
+      "Explique son effet : la métaphore montre que la peur de Kofi est énorme et lourde à porter.",
+      "Relie ces deux images au thème du courage : le décor bruyant rend l'épreuve de Kofi plus impressionnante.",
+      "Rédige ta réponse : « La comparaison peint la foule agitée ; la métaphore souligne la peur de Kofi. Ces images servent le thème du courage. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans l'étude d'une œuvre intégrale en lecture dirigée, que désigne le fil conducteur ?",
+    "reponse_calculee": "La question qui guide la lecture du début à la fin de l'œuvre",
+    "choices": [
+      {
+        "label": "La question qui guide la lecture du début à la fin de l'œuvre",
+        "correct": true
+      },
+      {
+        "label": "Le nom de la maison qui a imprimé le livre",
+        "correct": false
+      },
+      {
+        "label": "La liste des mots difficiles donnée à la fin du livre",
+        "correct": false
+      },
+      {
+        "label": "Le dernier chapitre qui raconte la fin de l'histoire",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le fil conducteur est la question qui te guide de chapitre en chapitre. Tu y réponds avec des relevés précis dans le texte.",
+    "feedback_wrong": "Ce n'est pas cela. Le fil conducteur n'est ni un détail d'édition, ni un lexique, ni un chapitre précis. C'est la question qui guide ta lecture du début à la fin de l'œuvre."
+  },
+  "verification": "ok"
+}

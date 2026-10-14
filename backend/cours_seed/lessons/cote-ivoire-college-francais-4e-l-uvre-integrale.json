@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-l-uvre-integrale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · L'œuvre intégrale",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · L'œuvre intégrale",
+  "intro": {
+    "heading": "Un livre entier à découvrir",
+    "body": "Ton professeur de français t'annonce : « Cette année, nous lirons un roman en entier. » Kouadio se demande comment retenir tant de pages. Aya lui répond qu'il faut lire avec une méthode : connaître l'auteur, situer le livre, choisir un axe d'étude et vérifier ses idées dans le texte. Avec cette méthode, tu pourras présenter l'œuvre à l'oral comme à l'écrit, comme on te le demandera à l'évaluation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Une œuvre intégrale se lit en entier, avec méthode."
+      },
+      {
+        "icon": "🔍",
+        "text": "On choisit un axe d'étude et on formule des hypothèses."
+      },
+      {
+        "icon": "✍️",
+        "text": "On relève figures de style et thèmes, puis on juge la portée."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les étapes pour étudier une œuvre intégrale",
+    "explanation": "Une œuvre intégrale est un livre (roman, pièce de théâtre, recueil de contes ou de poèmes) que tu lis en entier, et non par extraits. Tu commences par présenter l'auteur et son œuvre : qui il est, ce qu'il a écrit, de quel genre est le livre. Ensuite, tu situes l'œuvre dans son contexte : à quelle époque et dans quel milieu elle a été écrite, et quelle société elle évoque. Puis tu retiens un axe d'étude, c'est-à-dire la question qui guide ta lecture, par exemple la place de la solidarité dans le récit. À partir de cet axe, tu formules des hypothèses de lecture : ce sont des idées que tu proposes sur le sens du livre et que tu vérifies avec des preuves prises dans le texte. Tu repères les figures de style pertinentes, comme la comparaison, la métaphore ou l'hyperbole, qui servent l'axe d'étude. Tu dégages les thèmes étudiés, comme l'amitié, le courage ou la justice. Enfin, tu expliques la portée de l'œuvre : ce que le livre apporte au lecteur, hier comme aujourd'hui, et le message qu'il transmet.",
+    "highlight": "Lire une œuvre intégrale : auteur, contexte, axe d'étude, hypothèses, figures de style, thèmes, portée."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : ton club de lecture prépare une présentation d'un roman imaginaire dont l'axe d'étude est « la vie en communauté ». Tâche : analyse cette phrase inventée tirée du roman : « Le marché était une fourmilière : chaque vendeuse s'activait pour nourrir sa famille. »",
+    "steps": [
+      "Étape 1 : je lis la phrase et je repère l'image : le marché est comparé à une fourmilière, sans mot de comparaison.",
+      "Étape 2 : je nomme la figure de style : c'est une métaphore, car il n'y a ni « comme » ni « pareil à ».",
+      "Étape 3 : j'explique l'effet : l'image montre un lieu très animé où chacun travaille sans s'arrêter.",
+      "Étape 4 : je fais le lien avec l'axe d'étude : le travail de chacun fait vivre toute la communauté.",
+      "Étape 5 : je formule une hypothèse de lecture : le roman semble montrer que l'entraide est la force du village, et je la vérifierai dans les autres chapitres.",
+      "Étape 6 : je rédige ma réponse : « La métaphore de la fourmilière montre une communauté active et solidaire, ce qui éclaire l'axe d'étude. »"
+    ]
+  },
+  "quiz": {
+    "question": "Pendant ta lecture d'une œuvre intégrale, tu proposes une idée sur le sens du livre et tu la vérifies ensuite avec des passages du texte. Comment s'appelle cette démarche ?",
+    "reponse_calculee": "Formuler une hypothèse de lecture",
+    "choices": [
+      {
+        "label": "Résumer le livre en une phrase",
+        "correct": false
+      },
+      {
+        "label": "Formuler une hypothèse de lecture",
+        "correct": true
+      },
+      {
+        "label": "Recopier la quatrième de couverture",
+        "correct": false
+      },
+      {
+        "label": "Changer l'axe d'étude à chaque chapitre",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Une hypothèse de lecture est une idée sur le sens du livre que tu vérifies avec des preuves prises dans le texte.",
+    "feedback_wrong": "La bonne réponse est : formuler une hypothèse de lecture. Résumer ou recopier la quatrième de couverture ne demande pas de vérifier une idée dans le texte, et l'axe d'étude doit rester le même pour guider toute ta lecture."
+  },
+  "verification": "ok"
+}

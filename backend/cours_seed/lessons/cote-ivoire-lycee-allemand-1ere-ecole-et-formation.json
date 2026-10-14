@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-ecole-et-formation",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · École et formation",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · École et formation",
+  "intro": {
+    "heading": "Un message de ta correspondante allemande",
+    "body": "Imagine : Lena, une élève de Berlin, t'écrit pour faire connaissance. Elle te demande : « Welche Fächer magst du? » (Quelles matières aimes-tu ?). Tu dois lui répondre en allemand et expliquer pourquoi tu aimes ou non une matière de ton lycée. C'est une vraie situation de communication : tu présentes ton école et tu donnes ton avis."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "Le vocabulaire de l'école : das Fach, die Klasse, die Schule."
+      },
+      {
+        "icon": "💬",
+        "text": "Pour donner une raison, utilise weil (parce que)."
+      },
+      {
+        "icon": "📍",
+        "text": "Après weil, le verbe conjugué va à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner son avis avec weil",
+    "explanation": "Pour parler de l'école, tu as besoin de quelques mots : das Fach (la matière), die Schule (l'école), die Klasse (la classe), die Lehrerin (la professeure), der Lehrer (le professeur), die Hausaufgaben (les devoirs). Pour dire ce que tu aimes, tu utilises « Ich mag … » (j'aime …) ou « Mein Lieblingsfach ist … » (ma matière préférée est …). Pour expliquer pourquoi, tu ajoutes weil (parce que). Weil commence une proposition subordonnée, séparée de la première par une virgule. Dans cette proposition, le verbe conjugué se place tout à la fin. En français, on dit « parce que c'est facile » ; en allemand, on dit « weil es leicht ist », avec ist à la fin. Ici, es ist leicht signifie « c'est facile » (es est impersonnel). Retiens bien : sujet après weil, puis le reste, puis le verbe.",
+    "highlight": "Ich mag Mathe, weil es leicht ist. (J'aime les maths parce que c'est facile.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec weil : « Ich mag Geschichte. » (J'aime l'histoire.) et « Sie ist interessant. » (Elle est intéressante.)",
+    "steps": [
+      "Garde la première phrase telle quelle : Ich mag Geschichte.",
+      "Ajoute une virgule, puis le mot weil (parce que).",
+      "Après weil, écris le sujet : le mot Geschichte est féminin, donc on dit sie (elle).",
+      "Écris ensuite l'adjectif : interessant.",
+      "Place le verbe conjugué ist à la fin de la proposition.",
+      "Réponse : Ich mag Geschichte, weil sie interessant ist. (J'aime l'histoire parce qu'elle est intéressante.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « J'aime les maths parce que c'est facile » ?",
+    "reponse_calculee": "Ich mag Mathe, weil es leicht ist.",
+    "choices": [
+      {
+        "label": "Ich mag Mathe, weil es ist leicht.",
+        "correct": false
+      },
+      {
+        "label": "Ich mag Mathe, weil es leicht ist.",
+        "correct": true
+      },
+      {
+        "label": "Ich mag Mathe, weil ist es leicht.",
+        "correct": false
+      },
+      {
+        "label": "Ich mag Mathe, weil leicht es ist.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après weil, le verbe conjugué ist se place à la fin de la proposition : weil es leicht ist (« parce que c'est facile »).",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Après weil, le verbe conjugué doit être placé tout à la fin de la proposition. La bonne phrase est : Ich mag Mathe, weil es leicht ist. (J'aime les maths parce que c'est facile.)"
+  },
+  "verification": "ok2"
+}

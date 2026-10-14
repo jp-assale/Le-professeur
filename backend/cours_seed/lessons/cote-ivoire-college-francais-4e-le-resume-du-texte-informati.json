@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-resume-du-texte-informati",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le résumé du texte informatif",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le résumé du texte informatif",
+  "intro": {
+    "heading": "Un article trop long pour Grand-mère",
+    "body": "Aya a lu en classe un long article sur la propreté de son quartier. Le soir, sa grand-mère lui demande : « De quoi parle ce texte ? » Aya n'a pas le temps de tout relire à voix haute. Elle doit dire l'essentiel en quelques phrases claires, sans rien déformer. C'est exactement ce que demande un résumé de texte informatif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Repère le thème et la thèse du texte."
+      },
+      {
+        "icon": "🎯",
+        "text": "Garde les idées essentielles et reformule-les avec tes mots."
+      },
+      {
+        "icon": "🔗",
+        "text": "Relie les idées logiquement et respecte la longueur demandée."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les étapes et les contraintes du résumé",
+    "explanation": "Résumer, c'est dire l'essentiel d'un texte en moins de mots, sans changer son sens. D'abord, tu trouves le thème : c'est le sujet dont parle le texte. Ensuite, tu repères la thèse : c'est ce que l'auteur veut faire comprendre ou défendre à propos de ce sujet. Puis tu sélectionnes les idées essentielles, celles sans lesquelles le texte perd son sens, et tu laisses de côté les exemples, les détails et les répétitions. Tu reformules ces idées avec tes propres mots, au lieu de recopier les phrases du texte. Tu les enchaînes dans un ordre logique grâce à des connecteurs comme « d'abord », « ensuite », « donc » ou « enfin ». Enfin, tu respectes la longueur demandée.",
+    "highlight": "Un bon résumé garde le thème, la thèse et les idées essentielles, reformulés, sans avis personnel."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : à l'école, ton professeur affiche un petit texte informatif. Il te demande de le résumer en deux phrases pour le journal de la classe. Texte : « Dans beaucoup de quartiers, les sachets en plastique jetés dans la rue bouchent les caniveaux. Quand la pluie arrive, l'eau ne s'écoule plus et envahit les cours des maisons. Pour éviter cela, les habitants peuvent utiliser des paniers ou des sacs en tissu au marché. Ils peuvent aussi se regrouper pour nettoyer les caniveaux chaque semaine. Ainsi, le quartier reste propre et protégé des inondations. »",
+    "steps": [
+      "Thème : les sachets en plastique et leurs conséquences dans les quartiers.",
+      "Thèse : jeter les sachets provoque des inondations, mais les habitants peuvent agir pour les éviter.",
+      "Idées essentielles : les sachets bouchent les caniveaux et l'eau envahit les maisons ; on peut utiliser des sacs en tissu ; on peut nettoyer ensemble les caniveaux.",
+      "Détail à supprimer : le marché et le rythme du nettoyage hebdomadaire ne sont pas indispensables pour comprendre le texte.",
+      "Rédaction avec reformulation et connecteur : Les sachets en plastique abandonnés bouchent les caniveaux et provoquent des inondations dans les quartiers. Les habitants peuvent donc agir en utilisant des sacs en tissu et en nettoyant ensemble les caniveaux.",
+      "Vérification : deux phrases, pas d'avis personnel, pas de phrase recopiée, idées dans le même ordre logique que le texte."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces propositions, laquelle correspond à une contrainte du résumé d'un texte informatif ?",
+    "reponse_calculee": "Reformuler les idées essentielles avec tes propres mots, sans donner ton avis",
+    "choices": [
+      {
+        "label": "Recopier les phrases du texte pour ne rien changer",
+        "correct": false
+      },
+      {
+        "label": "Reformuler les idées essentielles avec tes propres mots, sans donner ton avis",
+        "correct": true
+      },
+      {
+        "label": "Ajouter ton opinion personnelle à la fin du résumé",
+        "correct": false
+      },
+      {
+        "label": "Garder tous les exemples et tous les détails du texte",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Un résumé garde seulement les idées essentielles, les reformule avec tes mots et reste fidèle au texte, sans opinion personnelle.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Dans un résumé, on ne recopie pas les phrases du texte, on n'ajoute pas son avis et on supprime les exemples et les détails. La contrainte à respecter est de reformuler les idées essentielles avec tes propres mots, sans donner ton avis."
+  },
+  "verification": "ok2"
+}

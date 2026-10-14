@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-sante-et-bien-etre",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Santé et bien-être",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Santé et bien-être",
+  "intro": {
+    "heading": "Awa a mal à la tête",
+    "body": "Ton amie Awa arrive au lycée à Abidjan et te dit qu'elle a mal à la tête depuis le matin. Dans une situation d'évaluation, tu pourrais devoir lui écrire un petit message en allemand pour lui donner des conseils. Pour cela, tu dois savoir dire où tu as mal et conseiller quelqu'un avec politesse. C'est exactement ce que tu vas apprendre dans cette leçon sur la santé et le bien-être."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤒",
+        "text": "Dire ce qui ne va pas : Ich habe Kopfschmerzen."
+      },
+      {
+        "icon": "💡",
+        "text": "Conseiller avec : Du solltest + infinitif en fin de phrase."
+      },
+      {
+        "icon": "🥗",
+        "text": "Parler de bien-être : Wasser trinken, Sport treiben, früh schlafen."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire où l'on a mal et donner un conseil",
+    "explanation": "Pour dire que tu as mal, tu utilises souvent « Ich habe » suivi du nom de la douleur : « Ich habe Kopfschmerzen » (J'ai mal à la tête) ou « Ich habe Bauchschmerzen » (J'ai mal au ventre). Tu peux aussi dire « Ich habe Fieber » (J'ai de la fièvre). Pour donner un conseil à un ami, tu emploies le verbe « sollen » sous la forme « du solltest » (tu devrais). Le verbe « solltest » reste en deuxième position dans la phrase. Le deuxième verbe se place à la fin de la phrase et il est à l'infinitif. Par exemple : « Du solltest zum Arzt gehen » (Tu devrais aller chez le médecin). Pour parler à plusieurs personnes, on dit « ihr solltet » (vous devriez). Pour parler de toi, on dit « ich sollte » (je devrais).",
+    "highlight": "Du solltest + complément + infinitif. Exemple : Du solltest früh schlafen gehen. (Tu devrais aller dormir tôt.)"
+  },
+  "example": {
+    "problem": "Ton ami Koffi a mal à la tête. Écris en allemand un conseil : « Tu devrais boire beaucoup d'eau. » Mots donnés : du, solltest, viel Wasser, trinken.",
+    "steps": [
+      "Je repère qu'il s'agit d'un conseil : j'utilise « solltest » (tu devrais).",
+      "Le sujet est « du », car je parle à Koffi : « Du solltest ».",
+      "Le verbe conjugué « solltest » est en deuxième position dans la phrase.",
+      "Le complément « viel Wasser » (beaucoup d'eau) vient ensuite.",
+      "Le deuxième verbe « trinken » (boire) reste à l'infinitif, tout à la fin.",
+      "Réponse : Du solltest viel Wasser trinken. (Tu devrais boire beaucoup d'eau.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase signifie correctement « Tu devrais aller chez le médecin » ?",
+    "reponse_calculee": "Du solltest zum Arzt gehen.",
+    "choices": [
+      {
+        "label": "Du solltest zum Arzt gehen.",
+        "correct": true
+      },
+      {
+        "label": "Du solltest gehen zum Arzt.",
+        "correct": false
+      },
+      {
+        "label": "Du sollte zum Arzt gehen.",
+        "correct": false
+      },
+      {
+        "label": "Du solltest zum Arzt gehst.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « solltest » est conjugué avec « du » et placé en deuxième position, et l'infinitif « gehen » se trouve à la fin : Du solltest zum Arzt gehen. (Tu devrais aller chez le médecin.)",
+    "feedback_wrong": "La bonne phrase est : Du solltest zum Arzt gehen. Avec « du », le verbe prend la forme « solltest » (et non « sollte »). Le deuxième verbe est à l'infinitif (« gehen », pas « gehst ») et se place à la fin de la phrase."
+  },
+  "verification": "ok"
+}

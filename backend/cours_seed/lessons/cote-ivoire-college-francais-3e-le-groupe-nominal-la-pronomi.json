@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-groupe-nominal-la-pronomi",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le Groupe Nominal : la pronominalisation",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le Groupe Nominal : la pronominalisation",
+  "intro": {
+    "heading": "Un compte rendu qui se répète",
+    "body": "Aminata rédige le compte rendu de la fête de fin d'année dans son collège à Abidjan. Elle écrit : « Le directeur a félicité les élèves. Le directeur a remis un prix aux élèves. Ensuite, le directeur a salué les parents. » Sa professeure lui dit que le texte est lourd à cause des répétitions. Aujourd'hui, tu vas apprendre à les éviter grâce à la pronominalisation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔁",
+        "text": "Le pronom remplace un groupe nominal pour éviter les répétitions."
+      },
+      {
+        "icon": "🧭",
+        "text": "Le pronom reprend le genre et le nombre du groupe nominal qu'il remplace."
+      },
+      {
+        "icon": "🧩",
+        "text": "La forme du pronom dépend de sa fonction dans la phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Remplacer un groupe nominal par un pronom",
+    "explanation": "La pronominalisation consiste à remplacer un groupe nominal (GN) par un pronom. Le GN repris s'appelle l'antécédent. Il existe plusieurs sortes de pronoms : personnels (il, elle, le, la, les, lui, leur, en, y), démonstratifs (celui-ci, celle-là), possessifs (le mien, la sienne), relatifs (qui, que, dont) et indéfinis (chacun, certains). Le pronom reprend le nombre et, quand sa forme le permet, le genre de son antécédent : « la mangue » devient « la », « les cahiers » devient « les ». Sa forme dépend aussi de sa fonction : le, la, les sont des compléments d'objet direct (COD) ; lui et leur sont des compléments d'objet indirect (COI) qui remplacent « à + une personne ». Le pronom « en » remplace un GN introduit par « de », et « y » remplace un GN de chose introduit par « à » ou un complément de lieu. À un temps conjugué (sauf à l'impératif affirmatif), le pronom se place devant le verbe, et si l'on en met deux, on écrit par exemple « Je la lui donne ».",
+    "highlight": "Un pronom remplace un groupe nominal et prend sa forme selon sa fonction, son genre et son nombre."
+  },
+  "example": {
+    "problem": "Remplace par des pronoms les deux compléments de la phrase : « Awa offre la mangue à sa cousine. » (compléments à remplacer : « la mangue » et « à sa cousine »).",
+    "steps": [
+      "Repère les compléments à remplacer : « la mangue » et « à sa cousine ».",
+      "Analyse « la mangue » : elle répond à la question « Awa offre quoi ? », c'est donc un COD. Le nom est féminin singulier, le pronom est « la ».",
+      "Analyse « à sa cousine » : elle répond à la question « à qui ? », c'est donc un COI désignant une personne. Le pronom est « lui ».",
+      "Place les pronoms devant le verbe, dans l'ordre : le pronom COD « la » d'abord, puis le pronom COI « lui ».",
+      "Écris la phrase finale : « Awa la lui offre. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Kouamé range les cahiers sur l'étagère. », quelle phrase remplace correctement « les cahiers » par un pronom ?",
+    "reponse_calculee": "Kouamé les range sur l'étagère.",
+    "choices": [
+      {
+        "label": "Kouamé les range sur l'étagère.",
+        "correct": true
+      },
+      {
+        "label": "Kouamé leur range sur l'étagère.",
+        "correct": false
+      },
+      {
+        "label": "Kouamé le range sur l'étagère.",
+        "correct": false
+      },
+      {
+        "label": "Kouamé range les sur l'étagère.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Les cahiers » est un COD au masculin pluriel. Il est remplacé par « les », placé devant le verbe : « Kouamé les range sur l'étagère. »",
+    "feedback_wrong": "« Les cahiers » est un COD (Kouamé range quoi ?) au pluriel, donc le pronom est « les ». « Leur » remplace un COI désignant des personnes, « le » est un singulier, et dans cette phrase le pronom se place devant le verbe, pas après lui."
+  },
+  "verification": "ok2"
+}

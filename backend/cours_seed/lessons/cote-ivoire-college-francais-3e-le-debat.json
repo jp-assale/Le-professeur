@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-debat",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le débat",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le débat",
+  "intro": {
+    "heading": "Un débat en classe au collège",
+    "body": "Ce vendredi, Aya, Kouadio et Fatou débattent au collège sur la question : « Faut-il autoriser le téléphone portable au collège ? ». Chacun a un avis différent, mais tout le monde veut être écouté. Le professeur désigne un animateur pour donner la parole à chacun. Tu vas apprendre comment se prépare et se déroule un débat, pour participer avec assurance."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Un débat est un échange organisé d'idées sur un thème."
+      },
+      {
+        "icon": "👥",
+        "text": "Il réunit un animateur, des intervenants et un public."
+      },
+      {
+        "icon": "💡",
+        "text": "Chaque intervention contient un avis, un argument et un exemple."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les éléments d'un débat",
+    "explanation": "Un débat est un échange organisé d'idées entre plusieurs personnes autour d'un thème, c'est-à-dire une question sur laquelle on peut avoir des avis différents. Le thème est annoncé sous forme de question, par exemple : « Faut-il interdire le téléphone portable au collège ? ». Les participants ont chacun un rôle : l'animateur présente le thème, donne la parole et veille au respect des règles ; les intervenants défendent leur point de vue ; le public écoute et peut poser des questions. Avant de parler, chaque intervenant prépare des idées sur le thème : un avis, des arguments (les raisons de son avis) et des exemples tirés de la vie quotidienne. Il utilise aussi le lexique lié au thème, par exemple : autoriser, interdire, distraction, recherche, outil, règlement, connexion. Une intervention est une prise de parole courte et polie : tu donnes ton avis, tu l'appuies par un argument, tu ajoutes un exemple. Tu peux utiliser des formules comme « Je pense que » ou « Je ne suis pas d'accord avec toi, car », et des mots comme « D'abord » et « Enfin » pour organiser tes arguments. Un débat se déroule en trois temps : l'ouverture avec la présentation du thème, l'échange des interventions, puis la conclusion de l'animateur.",
+    "highlight": "Une bonne intervention = un avis + un argument + un exemple, dit poliment sans couper la parole."
+  },
+  "example": {
+    "problem": "Le thème du débat est : « Faut-il autoriser le téléphone portable au collège ? ». Kouadio est pour. Aide-le à construire une intervention de deux phrases.",
+    "steps": [
+      "Repère le thème et l'avis de Kouadio : il est pour l'autorisation du téléphone.",
+      "Cherche un argument : le téléphone permet de faire des recherches utiles pour les leçons.",
+      "Ajoute un exemple concret : une camarade, Awa, a retrouvé le sens d'un mot difficile pendant l'étude.",
+      "Choisis du lexique du thème : autoriser, recherche, outil, règlement.",
+      "Rédige : « Je pense qu'il faut autoriser le téléphone au collège, car il aide à faire des recherches. Par exemple, Awa a retrouvé le sens d'un mot difficile pendant l'étude. »",
+      "Vérifie ton intervention : elle contient un avis, un argument, un exemple et un ton poli."
+    ]
+  },
+  "quiz": {
+    "question": "Dans un débat, quel est le rôle de l'animateur ?",
+    "reponse_calculee": "Présenter le thème, donner la parole et faire respecter les règles",
+    "choices": [
+      {
+        "label": "Présenter le thème, donner la parole et faire respecter les règles",
+        "correct": true
+      },
+      {
+        "label": "Défendre seulement son propre avis pendant tout le débat",
+        "correct": false
+      },
+      {
+        "label": "Parler plus longtemps que les autres intervenants",
+        "correct": false
+      },
+      {
+        "label": "Imposer sa conclusion sans écouter les intervenants",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'animateur présente le thème, donne la parole à chacun et veille au respect des règles, sans imposer son avis.",
+    "feedback_wrong": "La bonne réponse est : présenter le thème, donner la parole et faire respecter les règles. L'animateur ne défend pas son avis et il ne monopolise pas la parole. Son rôle est de permettre à chacun de s'exprimer dans le respect."
+  },
+  "verification": "ok2"
+}

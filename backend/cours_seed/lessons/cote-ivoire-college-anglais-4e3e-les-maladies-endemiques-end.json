@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-les-maladies-endemiques-end",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Les maladies endémiques (Endemic diseases)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Les maladies endémiques (Endemic diseases)",
+  "intro": {
+    "heading": "Un texte sur le paludisme en classe d'anglais",
+    "body": "Ce matin, à Abidjan, Awa reçoit un texte en anglais sur le paludisme (malaria). Son camarade Koffi est absent parce qu'il est malade. Le professeur demande à Awa de comprendre le texte, puis d'écrire deux phrases pour décrire les symptômes de Koffi. Tu vas apprendre les outils pour faire comme elle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤒",
+        "text": "On décrit un symptôme avec have ou has : He has a fever."
+      },
+      {
+        "icon": "🦟",
+        "text": "Le passif : am, is ou are + participe passé."
+      },
+      {
+        "icon": "📖",
+        "text": "Lis d'abord le titre pour trouver l'idée générale du texte."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Décrire les symptômes et utiliser le passif",
+    "explanation": "Une maladie endémique est une maladie présente en permanence dans une région, comme le paludisme (malaria). Pour décrire les symptômes, tu utilises have ou has : « I have a headache. » (J'ai mal à la tête.) et « He has a fever. » (Il a de la fièvre.) Tu peux aussi dire « I feel weak. » (Je me sens faible.) Pour la forme passive, tu utilises am, is ou are, puis le participe passé du verbe. Le passif met en avant la chose ou la maladie, et on ajoute by pour dire qui fait l'action. Pour lire un texte, regarde d'abord le titre et la première phrase : ils donnent l'idée générale. Ensuite, relis pour trouver les idées secondaires, comme les symptômes ou la prévention. Les mots because (parce que), so (donc) et but (mais) relient les phrases entre elles.",
+    "highlight": "Passif : sujet + am/is/are + participe passé (+ by ...). Ex. : Malaria is spread by mosquitoes. (Le paludisme est transmis par les moustiques.)"
+  },
+  "example": {
+    "problem": "Mets cette phrase à la forme passive : « Mosquitoes spread malaria. » (Les moustiques transmettent le paludisme.)",
+    "steps": [
+      "Repère les trois parties : Mosquitoes (sujet), spread (verbe), malaria (complément).",
+      "Le complément devient le sujet de la nouvelle phrase : Malaria.",
+      "Ajoute le verbe be au présent. Malaria est singulier, donc on écrit is.",
+      "Écris le participe passé de spread : c'est spread, la forme ne change pas.",
+      "Ajoute by et l'ancien sujet : by mosquitoes.",
+      "Réponse : Malaria is spread by mosquitoes. (Le paludisme est transmis par les moustiques.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte à la forme passive, au présent ?",
+    "reponse_calculee": "Malaria is spread by mosquitoes.",
+    "choices": [
+      {
+        "label": "Malaria is spread by mosquitoes.",
+        "correct": true
+      },
+      {
+        "label": "Malaria spread by mosquitoes.",
+        "correct": false
+      },
+      {
+        "label": "Malaria is spread mosquitoes.",
+        "correct": false
+      },
+      {
+        "label": "Malaria are spread by mosquitoes.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le passif se forme avec is (malaria est singulier), le participe passé spread, et by pour introduire celui qui fait l'action : Malaria is spread by mosquitoes. (Le paludisme est transmis par les moustiques.)",
+    "feedback_wrong": "La bonne réponse est : Malaria is spread by mosquitoes. Il faut le verbe be (is, car malaria est singulier), le participe passé spread, et by devant mosquitoes. Sans is, sans by, ou avec are, la phrase est incorrecte."
+  },
+  "verification": "ok"
+}

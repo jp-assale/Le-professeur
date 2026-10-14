@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-technology-and-our-lives",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Technology and our lives",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Technology and our lives",
+  "intro": {
+    "heading": "Ton téléphone, tes conditions",
+    "body": "Kofi, élève à Abidjan, utilise son téléphone pour réviser et pour discuter avec ses amis. Mais il doit toujours penser à ses données, à sa batterie et à son crédit. Dans une situation d'évaluation, on peut te demander de donner des conseils sur l'usage de la technologie. Pour cela, tu as besoin de trois petits mots très utiles : unless, as long as et in case."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔌",
+        "text": "Unless veut dire « sauf si » ou « à moins que »."
+      },
+      {
+        "icon": "⏳",
+        "text": "As long as veut dire « tant que » ou « à condition que »."
+      },
+      {
+        "icon": "🎒",
+        "text": "In case veut dire « au cas où » et se construit avec le présent."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer une condition avec unless, as long as et in case",
+    "explanation": "Pour parler de conditions liées à la technologie, tu utilises trois expressions. Unless signifie « sauf si » : il remplace « if ... not ». Par exemple : I can't send the message unless I have data (Je ne peux pas envoyer le message sauf si j'ai des données). As long as signifie « tant que » ou « à condition que » : le résultat est vrai si la condition reste vraie. Par exemple : You can use my phone as long as you are careful (Tu peux utiliser mon téléphone tant que tu fais attention). In case signifie « au cas où » : on se prépare à un problème possible. Après ces trois expressions, on utilise le présent simple, jamais will. Avec unless, ne mets pas de négation, car le sens négatif est déjà dans le mot.",
+    "highlight": "Unless + présent simple = sauf si. Ex : I won't call you unless I have credit. (Je ne t'appellerai pas sauf si j'ai du crédit.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec unless, as long as ou in case : Awa takes her charger to school ... her phone battery dies. (Awa prend son chargeur à l'école ... la batterie de son téléphone se décharge.)",
+    "steps": [
+      "Lis la phrase en français : Awa prend son chargeur pour se préparer à un problème possible.",
+      "Le problème possible est que la batterie se décharge : on exprime une précaution.",
+      "Une précaution se dit « au cas où » : c'est in case.",
+      "Unless (sauf si) et as long as (tant que) ne donnent pas ce sens de précaution.",
+      "Après in case, on garde le présent simple : her phone battery dies, sans will.",
+      "Réponse : Awa takes her charger to school in case her phone battery dies. (Awa prend son chargeur à l'école au cas où la batterie de son téléphone se décharge.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase traduit correctement : « Je n'irai pas sur Internet sauf si j'ai du crédit » ?",
+    "reponse_calculee": "I won't go online unless I have credit.",
+    "choices": [
+      {
+        "label": "I won't go online unless I have credit.",
+        "correct": true
+      },
+      {
+        "label": "I won't go online unless I don't have credit.",
+        "correct": false
+      },
+      {
+        "label": "I won't go online in case I have credit.",
+        "correct": false
+      },
+      {
+        "label": "I won't go online unless I will have credit.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Unless veut dire « sauf si » et se construit avec le présent simple, sans négation : I won't go online unless I have credit (Je n'irai pas sur Internet sauf si j'ai du crédit).",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Unless contient déjà le sens négatif, donc on ne dit pas unless I don't have. Après unless, on n'emploie pas will : on utilise le présent simple. In case veut dire « au cas où » et ne convient pas ici. La bonne phrase est : I won't go online unless I have credit."
+  },
+  "verification": "ok"
+}

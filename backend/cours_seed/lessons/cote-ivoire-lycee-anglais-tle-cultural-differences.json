@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-cultural-differences",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Cultural differences",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Cultural differences",
+  "intro": {
+    "heading": "Un stage, une nouvelle culture",
+    "body": "Koffi, élève de Terminale à Abidjan, prépare une lettre de motivation pour un stage dans une entreprise où travaillent des collègues venus de plusieurs pays. Lors de sa visite, il remarque des gestes et des façons de saluer qui ne sont pas ceux auxquels il est habitué. Il veut dire en anglais ce qu'il ressent et ce qui l'impressionne. Pour cela, il doit bien choisir entre des adjectifs comme interested et interesting."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "😊",
+        "text": "Adjectif en -ed : ce que la personne ressent."
+      },
+      {
+        "icon": "🔎",
+        "text": "Adjectif en -ing : ce qui provoque le sentiment."
+      },
+      {
+        "icon": "✉️",
+        "text": "Dans une lettre de motivation : I am interested in..."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Adjectifs en -ed et en -ing",
+    "explanation": "Beaucoup d'adjectifs anglais existent sous deux formes, l'une en -ed et l'autre en -ing. L'adjectif en -ed décrit le sentiment d'une personne : I am bored (je m'ennuie). L'adjectif en -ing décrit la chose ou la personne qui provoque ce sentiment : The film is boring (le film est ennuyeux). Pour choisir, demande-toi : est-ce que je décris celui qui ressent, ou ce qui provoque la réaction ? Voici d'autres paires : interested et interesting (intéressé et intéressant), tired et tiring (fatigué et fatigant), surprised et surprising (surpris et surprenant). Après interested, on utilise la préposition in : I am interested in this job (ce poste m'intéresse). Dans une lettre de motivation, tu peux écrire : I am very interested in your offer (votre offre m'intéresse beaucoup). Pour parler d'une différence culturelle, tu peux dire : This gesture is surprising (ce geste est surprenant).",
+    "highlight": "-ed = sentiment ressenti ; -ing = cause du sentiment. Exemple : I am surprised. The news is surprising. (Je suis surpris(e). La nouvelle est surprenante.)"
+  },
+  "example": {
+    "problem": "Choisis le bon adjectif (interested ou interesting) pour compléter la phrase : « Aminata is ... in this internship offer. »",
+    "steps": [
+      "Repère le sujet : c'est Aminata, une personne qui ressent quelque chose.",
+      "Pose la question : Aminata ressent-elle un sentiment, ou provoque-t-elle un sentiment chez les autres ? Elle le ressent.",
+      "Un sentiment ressenti par une personne demande la forme en -ed : interested.",
+      "Après interested, on met la préposition in : to be interested in something.",
+      "Réponse complète : Aminata is interested in this internship offer. (Aminata est intéressée par cette offre de stage.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis l'adjectif correct : « Awa is very ... because her manager did not shake her hand. »",
+    "reponse_calculee": "surprised",
+    "choices": [
+      {
+        "label": "surprised",
+        "correct": true
+      },
+      {
+        "label": "surprising",
+        "correct": false
+      },
+      {
+        "label": "surprise",
+        "correct": false
+      },
+      {
+        "label": "surprisingly",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Awa ressent un sentiment : on utilise donc la forme en -ed. Awa is very surprised (Awa est très surprise).",
+    "feedback_wrong": "La bonne réponse est surprised. Awa ressent un sentiment, donc il faut la forme en -ed. Surprising décrirait Awa comme la cause de la surprise, ce qui ne correspond pas à la phrase ; surprise est un nom et surprisingly est un adverbe : on ne les emploie pas après is very pour dire ce que ressent Awa."
+  },
+  "verification": "ok2"
+}

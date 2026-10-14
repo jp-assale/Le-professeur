@@ -1,172 +1,3951 @@
 [
-  {
-    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Mathematiques",
-    "chapitres": ["Calcul littéral", "Propriétés de Thalès dans un triangle", "Racines carrées", "Triangle rectangle", "Calcul numérique", "Angles inscrits", "Vecteurs", "Équations et inéquations dans ℝ", "Coordonnées de vecteurs", "Équations de droites", "Statistique", "Équations et inéquations dans ℝ×ℝ", "Applications affines", "Pyramides et cônes"],
-    "source": "dpfc-ci.net — Progressions annuelles 2024-2025"
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Calcul littéral",
+   "Propriétés de Thalès dans un triangle",
+   "Racines carrées",
+   "Triangle rectangle",
+   "Calcul numérique",
+   "Angles inscrits",
+   "Vecteurs",
+   "Équations et inéquations dans ℝ",
+   "Coordonnées de vecteurs",
+   "Équations de droites",
+   "Statistique",
+   "Équations et inéquations dans ℝ×ℝ",
+   "Applications affines",
+   "Pyramides et cônes"
+  ],
+  "source": "dpfc-ci.net — Progressions annuelles 2024-2025"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Physique-Chimie",
+  "chapitres": [
+   "Les lentilles",
+   "Les défauts de l'œil et leurs corrections",
+   "Masse et poids d'un corps",
+   "Les forces",
+   "Équilibre d'un solide soumis à deux forces",
+   "Travail et puissance mécaniques",
+   "Énergie mécanique",
+   "Puissance et énergie électriques",
+   "Le conducteur ohmique",
+   "Électrolyse et synthèse de l'eau",
+   "Les alcanes",
+   "Oxydation des corps purs simples",
+   "Réduction des oxydes",
+   "Solutions acides, basiques et neutres"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "SVT",
+  "chapitres": [
+   "Les aliments et l'Homme",
+   "La digestion des aliments",
+   "Le sang",
+   "La transfusion sanguine",
+   "La circulation sanguine",
+   "Les grossesses précoces et les moyens de prévention",
+   "L'infection au VIH",
+   "Les caractéristiques d'un sol",
+   "Les relations sols-plantes",
+   "La dégradation des sols",
+   "La protection et l'amélioration des sols"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Histoire-Geographie",
+  "chapitres": [
+   "L'évolution sociopolitique de la Côte d'Ivoire et de l'Afrique du XIXe siècle",
+   "De la Seconde Guerre mondiale aux efforts de construction du monde",
+   "Le mouvement impérialiste",
+   "L'accession de la Côte d'Ivoire à l'indépendance",
+   "Étude économique de la Côte d'Ivoire",
+   "L'Afrique face à la mondialisation"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Nombres complexes",
+   "Limites et continuité",
+   "Dérivabilité et étude de fonctions",
+   "Primitives",
+   "Fonctions logarithmes",
+   "Fonctions exponentielles et fonctions puissances",
+   "Calcul intégral",
+   "Suites numériques",
+   "Équations différentielles",
+   "Statistique à deux variables",
+   "Probabilité conditionnelle et variable aléatoire",
+   "Géométrie du plan (nombres complexes et transformations)",
+   "Orthogonalité dans l'espace"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Barycentre et lignes de niveaux",
+   "Limites et continuité",
+   "Divisibilité dans ℤ",
+   "Dérivabilité et étude de fonctions",
+   "Géométrie analytique de l'espace",
+   "Primitives",
+   "Fonctions logarithmes",
+   "Coniques",
+   "Fonctions exponentielles et fonctions puissances",
+   "Nombres complexes"
+  ],
+  "source": "dpfc-ci.net — Progressions 2024-2025"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Philosophie",
+  "chapitres": [
+   "La dissertation philosophique (méthodologie)",
+   "Le commentaire de texte philosophique (méthodologie)",
+   "La connaissance de l'homme",
+   "La vie en société",
+   "Dieu et la religion",
+   "L'histoire de l'humanité",
+   "La valeur de la philosophie",
+   "Progrès et bonheur",
+   "Langage et vérité",
+   "La connaissance scientifique"
+  ],
+  "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Physique-Chimie",
+  "chapitres": [
+   "Mécanique",
+   "Électromagnétisme",
+   "Électricité",
+   "La lumière : onde ou particule",
+   "Réactions nucléaires",
+   "Chimie organique",
+   "Chimie générale"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "D",
+  "matiere": "SVT",
+  "chapitres": [
+   "Les ressources minières",
+   "La gestion des sols",
+   "La reproduction chez les mammifères et chez les spermaphytes",
+   "La transmission des caractères héréditaires",
+   "Le milieu intérieur",
+   "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "SVT",
+  "chapitres": [
+   "Les ressources énergétiques",
+   "La gestion des sols",
+   "La reproduction chez l'Homme",
+   "La transmission des caractères héréditaires",
+   "Le métabolisme énergétique et l'activité musculaire",
+   "La défense de l'organisme et son dysfonctionnement",
+   "La communication dans l'organisme (communication nerveuse)"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Histoire-Geographie",
+  "chapitres": [
+   "Les relations internationales de 1945 à nos jours (ONU, bipolarisation, monde multipolaire)",
+   "De la décolonisation aux efforts d'organisation (nationalismes africains, indépendances CI et Algérie, Union Africaine)",
+   "Les croyances et valeurs dans le monde d'aujourd'hui",
+   "Les fondements du développement économique de la Côte d'Ivoire",
+   "Les secteurs d'activités économiques de la Côte d'Ivoire",
+   "Les problèmes de développement économique de la Côte d'Ivoire",
+   "L'économie de la France",
+   "La Corée du Sud, puissance émergente",
+   "La CEDEAO",
+   "Les relations UE/ACP"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Francais",
+  "chapitres": [
+   "Étude d'une œuvre intégrale narrative (littérature africaine ou étrangère)",
+   "Étude d'un groupement de textes théâtraux",
+   "Étude d'une œuvre intégrale poétique (série A)",
+   "L'énonciation",
+   "Les outils de l'argumentation",
+   "La sémantique",
+   "La focalisation",
+   "Les tonalités littéraires",
+   "Les figures de style",
+   "Les valeurs des temps verbaux",
+   "Le rythme dans le texte poétique et la prose",
+   "Le commentaire composé",
+   "La dissertation littéraire"
+  ],
+  "source": "dpfc-ci.net"
+ },
+ {
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Arithmétique",
+   "Étude de fonctions numériques d'une variable réelle",
+   "Étude des suites numériques",
+   "Calcul intégral et équations différentielles",
+   "Étude des nombres complexes",
+   "Calculs barycentriques",
+   "Étude des applications affines du plan et de l'espace",
+   "Notions sur les coniques",
+   "Notion de probabilité"
+  ],
+  "source": "bkalan.ml (API pédagogique)"
+ },
+ {
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SE",
+  "matiere": "Physique-Chimie",
+  "chapitres": [
+   "Mécanique et thermodynamique",
+   "Induction électromagnétique et auto-induction",
+   "Oscillateurs libres",
+   "Oscillations forcées",
+   "Optique physique",
+   "Physique atomique et nucléaire",
+   "Notion de stéréochimie",
+   "Les alcools",
+   "Les amines",
+   "Les acides carboxyliques et fonctions dérivées",
+   "Les acides α-aminés",
+   "Les polymères synthétiques",
+   "La cinétique chimique",
+   "Les équilibres chimiques",
+   "Produit ionique de l'eau / pH d'une solution aqueuse"
+  ],
+  "source": "bkalan.ml"
+ },
+ {
+  "pays": "mali",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "STI-STG",
+  "matiere": "Philosophie",
+  "chapitres": [
+   "Démocratie et violence",
+   "Technique de la dissertation philosophique",
+   "Science et technique",
+   "Raison et croyance",
+   "Technique de l'explication de texte",
+   "Passions et désir"
+  ],
+  "source": "bkalan.ml"
+ },
+ {
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Vecteurs du plan et repère cartésien",
+   "Nombres réels et racine carrée d'un réel positif",
+   "Projection (rapport de projection, projection orthogonale)",
+   "Triangle rectangle (Pythagore et réciproque, trigonométrie)",
+   "Équations et inéquations du premier degré, puis systèmes",
+   "Monômes et polynômes",
+   "Théorème de Thalès et réciproque",
+   "Repère orthonormal (distance, droites, parallélisme)",
+   "Angles inscrits et angles au centre",
+   "Fonctions et applications (rationnelles, affines)",
+   "Positions relatives d'une droite et d'un cercle",
+   "Isométries du plan",
+   "Statistiques",
+   "Sections de solides (Pythagore/Thalès dans l'espace)",
+   "Logique / entraînement à la démonstration"
+  ],
+  "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018"
+ },
+ {
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Francais",
+  "chapitres": [
+   "Écrire une lettre privée et/ou officielle",
+   "Produire un récit intégrant un dialogue et/ou un portrait",
+   "Produire la scène antérieure d'un texte (récit)",
+   "Réduire tout type de texte (résumé)",
+   "Produire tout type d'argumentation",
+   "Produire un texte de dialogue argumenté",
+   "Lecture de textes longs (œuvre intégrale)"
+  ],
+  "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e"
+ },
+ {
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Philosophie",
+  "chapitres": [
+   "Le bonheur",
+   "La connaissance du vivant",
+   "Le droit et la justice",
+   "Le langage",
+   "L'existence et la mort",
+   "La liberté",
+   "Logique et mathématiques",
+   "Le temps",
+   "La théorie et l'expérience",
+   "La violence et la paix",
+   "La conscience / l'inconscient",
+   "Société et pouvoir",
+   "L'État",
+   "Autrui",
+   "La personne",
+   "L'histoire",
+   "La religion",
+   "L'art",
+   "La nature et la culture",
+   "L'irrationnel et le sens",
+   "La vérité",
+   "La technique"
+  ],
+  "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010"
+ },
+ {
+  "pays": "burkina_faso",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C/D",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Courbes paramétrées du plan",
+   "Formules de Moivre et d'Euler",
+   "Limite des fonctions numériques",
+   "Dérivée de ln∘u et primitive de u'/u"
+  ],
+  "source": "fasoeducation.bf (catalogue de cours)"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Algèbre : composition d'applications, factorisation de polynômes (méthode de Horner)",
+   "Probabilités : dénombrement, équiprobabilité",
+   "Statistique : ajustement linéaire, corrélation",
+   "Analyse : limites-continuité, dérivabilité, étude de fonctions",
+   "Fonction logarithme népérien",
+   "Fonction exponentielle",
+   "Suites numériques",
+   "Calcul intégral"
+  ],
+  "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S1/S3",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Probabilités : variables aléatoires, loi binomiale, Bernoulli",
+   "Nombres complexes : module, argument, formule de Moivre",
+   "Arithmétique : PGCD/PPCM, congruences, systèmes de numération",
+   "Suites numériques",
+   "Fonctions numériques",
+   "Calcul intégral",
+   "Équations différentielles",
+   "Géométrie plane : barycentres, similitudes",
+   "Géométrie dans l'espace : produit vectoriel/mixte, transformations",
+   "Courbes planes et coniques"
+  ],
+  "source": "officedubac.sn — Programme_Maths-LS.pdf"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "S2/S4",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Fonctions numériques, suites, calcul intégral, équations différentielles",
+   "Statistiques à deux variables",
+   "Probabilités, loi binomiale",
+   "Nombres complexes",
+   "Similitudes planes directes"
+  ],
+  "source": "officedubac.sn — Programme_Maths-LS.pdf"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L",
+  "matiere": "Philosophie",
+  "chapitres": [
+   "La réflexion philosophique (origines, grandes interrogations, enjeux, idée d'une philosophie africaine)",
+   "La vie sociale (nature et culture, individu et société, conscience et inconscient, la liberté, l'État)",
+   "Épistémologie (émergence de la pensée scientifique, types de sciences, science et technique)",
+   "Esthétique (représentation artistique, formes et fonctions de l'art)"
+  ],
+  "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "L1/L2/S1/S2",
+  "matiere": "Francais",
+  "chapitres": [
+   "Le Surréalisme (Apollinaire, Aragon, Éluard, Soupault, Desnos, Char, Césaire, Senghor, Depestre)",
+   "Poésie — Boileau, Hugo, La Fontaine / Senghor, Damas, D. Diop",
+   "Roman — Abbé Prévost, Camus / Kourouma, Hampâté Bâ",
+   "Théâtre — Corneille, Hugo, Musset, Anouilh, Sartre, Beckett / Badian, Ndébéka, Dadié, Cheikh Aliou Ndao"
+  ],
+  "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)"
+ },
+ {
+  "pays": "guinee",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "SM",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Nombres complexes (module, arguments, représentation géométrique)",
+   "Arithmétique (numération décimale/binaire, anneau ℤ, sous-groupes de ℤ)",
+   "Applications (injections, surjections, bijections)",
+   "Suites (récurrence, convergence, monotonie)",
+   "Probabilités (dénombrement, formule du binôme, loi binomiale)",
+   "Fonctions réelles (limites, continuité, dérivées, intégration, équations différentielles)",
+   "Géométrie (angles inscrits/orientés, barycentres, isométries, similitudes, géométrie de l'espace, coniques)"
+  ],
+  "source": "Animathor.fr — résumé du programme Terminale SM Guinée"
+ },
+ {
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "C",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Calcul vectoriel de l'espace (barycentre, produit vectoriel), applications affines de l'espace",
+   "Arithmétique (anneaux, division euclidienne, systèmes de numération, divisibilité)",
+   "Nombres complexes (forme algébrique, module/argument, formes trigonométrique/exponentielle, équations)",
+   "Probabilités",
+   "Limites et continuité",
+   "Dérivabilité — étude de fonctions",
+   "Primitives",
+   "Fonction logarithme népérien",
+   "Fonction exponentielle népérienne et fonctions exponentielles/puissances",
+   "Calcul intégral",
+   "Équations différentielles linéaires à coefficients constants",
+   "Suites numériques",
+   "Géométrie plane (barycentre de n points, isométries, applications affines, coniques, similitudes planes directes)"
+  ],
+  "source": "Document « Mathématiques Terminale C Bénin »"
+ },
+ {
+  "pays": "benin",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": "A",
+  "matiere": "Philosophie",
+  "chapitres": [
+   "Séquence d'apprentissage 1 : L'homme et le monde",
+   "Séquence d'apprentissage 2 : La connaissance scientifique"
+  ],
+  "source": "Résumé « Philosophie Terminale A Bénin Complet »"
+ },
+ {
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Ensemble des nombres réels ℝ",
+   "Équation du premier degré à deux inconnues",
+   "Système de deux équations du premier degré à deux inconnues (résolution graphique)",
+   "Inéquation du premier degré à deux inconnues",
+   "Système d'inéquations du premier degré à une et deux inconnues (résolution graphique)",
+   "Fonction rationnelle (ensemble de définition, calcul de valeurs numériques)",
+   "Trigonométrie (pratique)",
+   "Translation",
+   "Symétrie centrale",
+   "Symétrie orthogonale",
+   "Homothétie"
+  ],
+  "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies"
+ },
+ {
+  "pays": "mali",
+  "niveau": "college",
+  "examen": "DEF",
+  "matiere": "Histoire-Geographie",
+  "chapitres": [
+   "La Révolution française de 1789 (causes, conséquences)",
+   "Les progrès scientifiques et techniques du XIXe siècle",
+   "La Première Guerre mondiale (contribution africaine)",
+   "La colonisation et l'impérialisme européen en Afrique (causes, résistances)",
+   "La Conférence de Berlin",
+   "La décolonisation de l'Afrique (formes, facteurs)",
+   "Le panafricanisme et la négritude",
+   "L'ONU (création, objectifs, Conseil de sécurité)",
+   "L'OUA (création, objectifs, organes)",
+   "La République du Mali (les différentes républiques, l'indépendance de 1960, le 26 mars 1991)",
+   "Le relief africain (hauts sommets)",
+   "Les fleuves africains (régime, source, embouchure, delta)",
+   "Les climats d'Afrique et leurs facteurs",
+   "L'Office du Niger",
+   "La CEDEAO",
+   "L'UEMOA",
+   "La démographie (natalité, mortalité, exode rural, migrations)",
+   "Les problèmes de développement de l'Afrique et de la zone soudano-sahélienne"
+  ],
+  "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant"
+ },
+ {
+  "pays": "benin",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Physique-Chimie",
+  "chapitres": [
+   "Les constituants de la matière",
+   "Classification des éléments chimiques",
+   "La mole",
+   "Notion de réaction chimique",
+   "Électrolyse et synthèse de l'eau",
+   "Les solutions aqueuses",
+   "Quelques machines simples",
+   "Production d'un courant électrique",
+   "Électricité domestique",
+   "Les pétroles et gaz naturels",
+   "Les matières plastiques",
+   "Dessin technique",
+   "Transmission du mouvement de rotation",
+   "Projet de moteur à combustion interne",
+   "Projet de moteur électrique",
+   "Circuit électrique domestique",
+   "Maintenance des objets techniques"
+  ],
+  "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "matiere": "Mathematiques",
+  "chapitres": [
+   "Racine carrée",
+   "Équations et inéquations à une inconnue",
+   "Équations et systèmes d'équations à deux inconnues",
+   "Inéquations et systèmes d'inéquations à deux inconnues",
+   "Applications affines",
+   "Statistique",
+   "Théorème de Thalès",
+   "Relations trigonométriques dans un triangle rectangle",
+   "Angles inscrits, angles au centre",
+   "Vecteurs",
+   "Transformations du plan",
+   "Repérage dans le plan",
+   "Géométrie dans l'espace"
+  ],
+  "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "matiere": "Physique-Chimie",
+  "chapitres": [
+   "Lentilles minces",
+   "Dispersion de la lumière",
+   "Forces",
+   "Travail et puissance mécanique",
+   "Électrisation par frottement, le courant électrique",
+   "Résistance électrique",
+   "Énergie et rendement",
+   "Solutions aqueuses",
+   "Acides et bases",
+   "Quelques propriétés chimiques des métaux usuels",
+   "Les hydrocarbures"
+  ],
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "matiere": "SVT",
+  "chapitres": [
+   "Le fonctionnement du système nerveux",
+   "Étude de la vision",
+   "La respiration chez l'espèce humaine",
+   "Phénomènes énergétiques accompagnant la respiration",
+   "La fermentation, un autre moyen de se procurer de l'énergie",
+   "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur",
+   "L'immunité et la réponse immunitaire",
+   "Le système immunitaire",
+   "Les groupes sanguins (spécificité immunologique)",
+   "Aide à l'immunité",
+   "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)",
+   "La tectonique des plaques et la formation des roches métamorphiques",
+   "Le cycle des roches",
+   "La chronologie en géologie"
+  ],
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
+ },
+ {
+  "pays": "senegal",
+  "niveau": "college",
+  "examen": "BFEM",
+  "matiere": "Histoire-Geographie",
+  "chapitres": [
+   "La 2e révolution industrielle et ses conséquences",
+   "Le développement du capitalisme et les mutations sociales",
+   "Les doctrines sociales : syndicalisme et socialisme",
+   "L'impérialisme en Afrique (missions et explorations, congrès de Berlin, résistances, systèmes coloniaux)",
+   "L'impérialisme dans le reste du monde (Japon, Asie, États-Unis)",
+   "Conflits et révolutions au XXe siècle (révolutions chinoises, Première Guerre mondiale, révolution russe, crise des années 30, Deuxième Guerre mondiale, relations Est-Ouest 1945-90)",
+   "La décolonisation et la naissance du Tiers-monde (causes et formes de la décolonisation, le Sénégal de 1944 à 1962, Bandoeng)",
+   "La Terre, une planète du système solaire",
+   "La Terre, une planète menacée (surexploitation des ressources, conséquences climatiques)",
+   "La Terre, une planète divisée (inégalités de développement, systèmes économiques)",
+   "La Terre, une planète solidaire (coopération, communication)"
+  ],
+  "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Anglais",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "6e–5e · Les salutations (Greetings)",
+   "6e–5e · La salle de classe (In the classroom)",
+   "6e–5e · Les nombres et les fournitures scolaires (Numbers and school things)",
+   "6e–5e · La famille (My family)",
+   "6e–5e · Les pièces d'une maison (My house)",
+   "6e–5e · Dans la cuisine (In the kitchen)",
+   "6e–5e · La date (The date)",
+   "6e–5e · L'heure (The time)",
+   "6e–5e · L'emploi du temps (The time table)",
+   "6e–5e · Métiers et professions (Jobs and occupations)",
+   "6e–5e · Outils de travail (Tools)",
+   "6e–5e · Lieux de travail (Work places)",
+   "6e–5e · Vêtements (Clothes)",
+   "6e–5e · Vêtements et couleurs (Clothes and colours)",
+   "6e–5e · Chez le marchand de vêtements (Buying clothes)",
+   "6e–5e · Repas et boissons (Meals and drinks)",
+   "6e–5e · Fruits et légumes (Fruit and vegetables)",
+   "6e–5e · Recettes de cuisine (Recipes)",
+   "6e–5e · Les parties du corps et l'hygiène corporelle (Hygiene and the parts of the body)",
+   "6e–5e · Insalubrité et maladies courantes (Insalubrity and common diseases)",
+   "6e–5e · L'eau et la santé (Water and health)",
+   "6e–5e · L'importance du sport (The importance of sport)",
+   "6e–5e · La CAN (The CAN)",
+   "6e–5e · Les jeux traditionnels (traditional games)",
+   "4e–3e · Souvenirs de vacances (My last holidays)",
+   "4e–3e · Souvenirs d'école (School memories)",
+   "4e–3e · Le travail à l'école (Work at school)",
+   "4e–3e · La femme rurale (Rural women)",
+   "4e–3e · Droits et devoirs de la femme (Women's rights and duties)",
+   "4e–3e · La jeune fille à l'école (Girls at school)",
+   "4e–3e · Les moyens de transport (Means of transport)",
+   "4e–3e · A l'aéroport (At the airport)",
+   "4e–3e · Tourisme (Tourism)",
+   "4e–3e · Vêtements modernes et vêtements traditionnels (Modern and traditional clothes)",
+   "4e–3e · Défilé de mode (Fashion show)",
+   "4e–3e · Produits cosmétiques (Cosmetics)",
+   "4e–3e · A la ville (City life)",
+   "4e–3e · Au village (Village life)",
+   "4e–3e · Exode rural (Rural exodus)",
+   "4e–3e · Les droits du citoyen (My rights)",
+   "4e–3e · Les devoirs du citoyen (My duties)",
+   "4e–3e · La tolérance (Tolerance)",
+   "4e–3e · Les maladies endémiques (Endemic diseases)",
+   "4e–3e · Le VIH/SIDA (HIV/AIDS)",
+   "4e–3e · L'ordinateur (The computer)",
+   "4e–3e · Le téléphone (The telephone)",
+   "4e–3e · L'Internet (The Internet)",
+   "4e–3e · L'hygiène à l'école (Hygiene at school)"
+  ],
+  "details": {
+   "6e–5e · Les salutations (Greetings)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Les salutations (Greetings)",
+    "theme": "A L'ECOLE (At school)",
+    "contenus": [
+     "Les mots, les expressions, les formules de salutations et de présentations",
+     "Les structures grammaticales appropriées aux salutations et aux présentations",
+     "Les moments de la journée",
+     "Des intonations correctes",
+     "Des civilités"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · La salle de classe (In the classroom)": {
+    "classe": "6e–5e",
+    "titre_officiel": "La salle de classe (In the classroom)",
+    "theme": "A L'ECOLE (At school)",
+    "contenus": [
+     "Les noms des objets d'une salle de classe",
+     "Les mots, les expressions de salutations et de présentations d'autres personnes",
+     "Des phrases interrogatives",
+     "Des phrases affirmatives",
+     "Aux questions pour identifier les personnes et les objets d'une salle de classe",
+     "Aux questions pour localiser les objets d'une salle de classe",
+     "Aux questions pour demander la provenance des personnes"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Les nombres et les fournitures scolaires (Numbers and school things)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Les nombres et les fournitures scolaires (Numbers and school things)",
+    "theme": "A L'ECOLE (At school)",
+    "contenus": [
+     "Les noms des objets dans une salle de classe",
+     "Les nombres de 0 à 20",
+     "Le pluriel des noms",
+     "Le présent simple de \"to be\" (verbe être)",
+     "Les prépositions de lieu",
+     "Des phrases interrogatives",
+     "Des phrases affirmatives"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · La famille (My family)": {
+    "classe": "6e–5e",
+    "titre_officiel": "La famille (My family)",
+    "theme": "A LA MAISON (At home)",
+    "contenus": [
+     "Les relations familiales",
+     "Les nombres de 21 à 100",
+     "Le pluriel des noms",
+     "Le présent simple de 'to have '",
+     "Les structures grammaticales appropriées aux questions pour identifier les personnes",
+     "Aux questions pour identifier les personnes",
+     "Aux questions pour demander l'âge",
+     "Aux questions pour dénombrer"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Les pièces d'une maison (My house)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Les pièces d'une maison (My house)",
+    "theme": "A LA MAISON (At home)",
+    "contenus": [
+     "Les noms des différentes pièces d'une maison",
+     "Les noms du mobilier d'une maison",
+     "Les noms des appareils électroménagers d'une maison",
+     "Les structures grammaticales pour identifier les pièces, les appareils électroménagers et le mobilier d'une maison"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Dans la cuisine (In the kitchen)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Dans la cuisine (In the kitchen)",
+    "theme": "A LA MAISON (At home)",
+    "contenus": [
+     "Les noms des ustensiles de cuisine et les mots relatifs à la vaisselle",
+     "Les mots relatifs au couvert",
+     "Le nom du mobilier de cuisine",
+     "Les mots relatifs à la cuisine et aux repas",
+     "Le présent progressif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · La date (The date)": {
+    "classe": "6e–5e",
+    "titre_officiel": "La date (The date)",
+    "theme": "L'HEURE ET LA DATE (Time and date)",
+    "contenus": [
+     "Les jours de la semaine",
+     "Les mois de l'année",
+     "Les nombres ordinaux",
+     "La date",
+     "Les structures grammaticales pour demander/dire la date",
+     "Les techniques de rédaction d'un texte simple"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · L'heure (The time)": {
+    "classe": "6e–5e",
+    "titre_officiel": "L'heure (The time)",
+    "theme": "L'HEURE ET LA DATE (Time and date)",
+    "contenus": [
+     "Les mots et les expressions pour demander et donner l'heure",
+     "Les structures grammaticales pour demander et dire l'heure",
+     "Des phrases simples pour demander et dire l'heure",
+     "Les techniques de rédaction d'un texte simple"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · L'emploi du temps (The time table)": {
+    "classe": "6e–5e",
+    "titre_officiel": "L'emploi du temps (The time table)",
+    "theme": "L'HEURE ET LA DATE (Time and date)",
+    "contenus": [
+     "Les noms des disciplines scolaires de l'emploi du temps",
+     "Les dates et les noms des événements de l'année",
+     "Le présent simple du verbe",
+     "Les adverbes de fréquence",
+     "Des prépositions de temps",
+     "Les techniques de rédaction d'un texte simple"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Métiers et professions (Jobs and occupations)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Métiers et professions (Jobs and occupations)",
+    "theme": "METIERS ET PROFESSIONS (Jobs and occupations)",
+    "contenus": [
+     "Les noms des métiers et professions",
+     "Les adjectifs possessifs",
+     "Les structures grammaticales pour identifier les métiers et professions",
+     "Les questions pour identifier les métiers/professions"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Outils de travail (Tools)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Outils de travail (Tools)",
+    "theme": "METIERS ET PROFESSIONS (Jobs and occupations)",
+    "contenus": [
+     "Les noms des outils et instruments utilisés dans les différents métiers/professions",
+     "Le cas possessif",
+     "Les structures grammaticales pour demander et exprimer la possession"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Lieux de travail (Work places)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Lieux de travail (Work places)",
+    "theme": "METIERS ET PROFESSIONS (Jobs and occupations)",
+    "contenus": [
+     "Les noms des lieux correspondant aux métiers/professions",
+     "Les structures grammaticales appropriées pour décrire les lieux spécifiques aux métiers et professions"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Vêtements (Clothes)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Vêtements (Clothes)",
+    "theme": "VETEMENTS ET COULEURS (Clothes and colours)",
+    "contenus": [
+     "Les noms d'articles de vêtements",
+     "Les structures grammaticales pour demander et dire ce que l'on porte",
+     "Intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Vêtements et couleurs (Clothes and colours)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Vêtements et couleurs (Clothes and colours)",
+    "theme": "VETEMENTS ET COULEURS (Clothes and colours)",
+    "contenus": [
+     "Les noms d'autres articles de vêtements et leurs couleurs",
+     "Les structures grammaticales pour demander et dire les noms des couleurs",
+     "Les structures grammaticales pour demander et dire ce que l'on porte",
+     "L'intonation correcte",
+     "Demander et dire les noms des couleurs",
+     "Demander et dire ce que l'on porte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Chez le marchand de vêtements (Buying clothes)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Chez le marchand de vêtements (Buying clothes)",
+    "theme": "VETEMENTS ET COULEURS (Clothes and colours)",
+    "contenus": [
+     "Les nombres au-delà de 100",
+     "Les prix des articles de vêtements",
+     "Les mots relatifs au shopping",
+     "Les structures grammaticales pour demander le prix d'un article",
+     "Les structures grammaticales pour exprimer les préférences",
+     "Demander le prix d'un article",
+     "Donner le prix d'un article"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Repas et boissons (Meals and drinks)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Repas et boissons (Meals and drinks)",
+    "theme": "NOURRITURE ET BOISSONS (Food and drinks)",
+    "contenus": [
+     "Les noms de mets, de repas et de boissons",
+     "Les structures grammaticales pour exprimer les préférences en matière de repas",
+     "L'intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Fruits et légumes (Fruit and vegetables)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Fruits et légumes (Fruit and vegetables)",
+    "theme": "NOURRITURE ET BOISSONS (Food and drinks)",
+    "contenus": [
+     "Les noms des fruits et légumes",
+     "Le comparatif",
+     "Les mots et expressions pour exprimer la quantité",
+     "L'intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Recettes de cuisine (Recipes)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Recettes de cuisine (Recipes)",
+    "theme": "NOURRITURE ET BOISSONS (Food and drinks)",
+    "contenus": [
+     "Les structures grammaticales pour donner des instructions relatives à la préparation d'un met",
+     "Les connecteurs chronologiques",
+     "L'intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Les parties du corps et l'hygiène corporelle (Hygiene and the parts of the body)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Les parties du corps et l'hygiène corporelle (Hygiene and the parts of the body)",
+    "theme": "ENVIRONNEMENT ET SANTE (Health and Environment)",
+    "contenus": [
+     "Les structures grammaticales pour exprimer l'obligation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Insalubrité et maladies courantes (Insalubrity and common diseases)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Insalubrité et maladies courantes (Insalubrity and common diseases)",
+    "theme": "ENVIRONNEMENT ET SANTE (Health and Environment)",
+    "contenus": [
+     "Les mots et les expressions relatifs aux maladies endémiques",
+     "Les structures grammaticales appropriées pour donner des conseils"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · L'eau et la santé (Water and health)": {
+    "classe": "6e–5e",
+    "titre_officiel": "L'eau et la santé (Water and health)",
+    "theme": "ENVIRONNEMENT ET SANTE (Health and Environment)",
+    "contenus": [
+     "Les structures grammaticales relatives à l'obligation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · L'importance du sport (The importance of sport)": {
+    "classe": "6e–5e",
+    "titre_officiel": "L'importance du sport (The importance of sport)",
+    "theme": "JEUX ET SPORTS (Sports and games)",
+    "contenus": [
+     "Les structures grammaticales pour exprimer la préférence"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · La CAN (The CAN)": {
+    "classe": "6e–5e",
+    "titre_officiel": "La CAN (The CAN)",
+    "theme": "JEUX ET SPORTS (Sports and games)",
+    "contenus": [
+     "Les mots et les expressions liés au football",
+     "Les structures grammaticales pour exprimer un but et une cause"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "6e–5e · Les jeux traditionnels (traditional games)": {
+    "classe": "6e–5e",
+    "titre_officiel": "Les jeux traditionnels (traditional games)",
+    "theme": "JEUX ET SPORTS (Sports and games)",
+    "contenus": [
+     "Les mots et les expressions liés à un jeu traditionnel",
+     "Les structures grammaticales appropriées pour faire une suggestion"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "4e–3e · Souvenirs de vacances (My last holidays)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Souvenirs de vacances (My last holidays)",
+    "theme": "LA VIE A L'ECOLE (Life at school)",
+    "contenus": [
+     "Les mots et expressions liés aux souvenirs de vacances",
+     "Les formes du prétérit",
+     "Les verbes irréguliers au prétérit",
+     "Des phrases pour raconter des événements passés",
+     "L'intonation correcte",
+     "Des informations liées aux souvenirs de vacances"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Souvenirs d'école (School memories)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Souvenirs d'école (School memories)",
+    "theme": "LA VIE A L'ECOLE (Life at school)",
+    "contenus": [
+     "Les mots, les expressions et structures grammaticales pour exprimer des souvenirs d'école",
+     "Des phrases pour exprimer des souvenirs d'école",
+     "L'intonation correcte",
+     "Des informations liées aux souvenirs d'école"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Le travail à l'école (Work at school)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Le travail à l'école (Work at school)",
+    "theme": "LA VIE A L'ECOLE (Life at school)",
+    "contenus": [
+     "Les mots et les expressions exprimant la condition",
+     "Les mots et les expressions relatifs aux rendements scolaires",
+     "Des phrases pour exprimer la condition",
+     "Des phrases pour exprimer les rendements scolaires",
+     "L'intonation correcte",
+     "Des informations sur les rendements scolaires"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · La femme rurale (Rural women)": {
+    "classe": "4e–3e",
+    "titre_officiel": "La femme rurale (Rural women)",
+    "theme": "LA FEMME AU TRAVAIL (Women at work)",
+    "contenus": [
+     "Les structures grammaticales pour exprimer la capacité à faire quelque chose",
+     "Les mots et expressions relatifs aux activités de la femme rurale",
+     "Les structures grammaticales pour rapporter un énoncé ou un discours",
+     "Des phrases pour exprimer la capacité à faire quelque chose",
+     "L'intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Droits et devoirs de la femme (Women's rights and duties)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Droits et devoirs de la femme (Women's rights and duties)",
+    "theme": "LA FEMME AU TRAVAIL (Women at work)",
+    "contenus": [
+     "Les mots, expressions relatifs aux droits et devoirs de la femme",
+     "Les structures grammaticales exprimant la comparaison",
+     "Les mots et les formules de comparaison",
+     "Des phrases exprimant la comparaison",
+     "L'intonation correcte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · La jeune fille à l'école (Girls at school)": {
+    "classe": "4e–3e",
+    "titre_officiel": "La jeune fille à l'école (Girls at school)",
+    "theme": "LA FEMME AU TRAVAIL (Women at work)",
+    "contenus": [
+     "Les mots et expressions relatifs à la scolarisation de la jeune fille",
+     "Les formules et expressions pour exprimer une opinion",
+     "Des phrases pour exprimer une opinion",
+     "L'intonation correcte",
+     "Des informations sur la scolarisation de la jeune fille"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Les moyens de transport (Means of transport)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Les moyens de transport (Means of transport)",
+    "theme": "LES VOYAGES (Travelling)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs aux moyens de transport",
+     "Les structures grammaticales pour exprimer des comparaisons",
+     "Les mots et expressions pour exprimer les goûts et les préférences en matière de transport",
+     "Des phrases pour exprimer les goûts et les préférences",
+     "La syntaxe et les techniques de l'expression écrite"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · A l'aéroport (At the airport)": {
+    "classe": "4e–3e",
+    "titre_officiel": "A l'aéroport (At the airport)",
+    "theme": "LES VOYAGES (Travelling)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs au transport aérien",
+     "Les structures grammaticales pour exprimer des comparaisons",
+     "Les mots et expressions pour exprimer les goûts et les préférences",
+     "Des phrases pour faire des comparaisons",
+     "La syntaxe et les techniques de l'expression écrite"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Tourisme (Tourism)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Tourisme (Tourism)",
+    "theme": "LES VOYAGES (Travelling)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs au tourisme",
+     "Les mots et expressions pour faire des suggestions",
+     "Les mots et expressions pour accepter/refuser des suggestions",
+     "Des phrases, paragraphes pour décrire des sites touristiques",
+     "Des phrases exprimant la suggestion"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Vêtements modernes et vêtements traditionnels (Modern and traditional clothes)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Vêtements modernes et vêtements traditionnels (Modern and traditional clothes)",
+    "theme": "LA MODE (Fashion)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs aux habits modernes et traditionnels",
+     "Les mots et structures grammaticales pour donner des raisons",
+     "Des phrases exprimant des raisons",
+     "La syntaxe et les techniques de l'expression écrite"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Défilé de mode (Fashion show)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Défilé de mode (Fashion show)",
+    "theme": "LA MODE (Fashion)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs au défilé de mode",
+     "Exprimer ce que l'on aime",
+     "Persuader/dissuader",
+     "Décrire un défilé de mode",
+     "La syntaxe et les techniques de l'expression écrite"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Produits cosmétiques (Cosmetics)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Produits cosmétiques (Cosmetics)",
+    "theme": "LA MODE (Fashion)",
+    "contenus": [
+     "Les techniques de l'expression écrite",
+     "Les mots et expressions relatifs aux effets des produits cosmétiques",
+     "Demander/donner des conseils",
+     "Persuader/dissuader",
+     "Donner des raisons",
+     "Interdire/permettre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · A la ville (City life)": {
+    "classe": "4e–3e",
+    "titre_officiel": "A la ville (City life)",
+    "theme": "AU VILLAGE OU A LA VILLE ? (City or village ?)",
+    "contenus": [
+     "Les mots et expressions relatifs à la vie en zone urbaine",
+     "Exprimer des goûts et des préférences",
+     "Exprimer des souhaits, des intentions, des buts",
+     "Les mots-clés d'un message oral",
+     "L'intonation correcte",
+     "Une information précise dans un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Au village (Village life)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Au village (Village life)",
+    "theme": "AU VILLAGE OU A LA VILLE ? (City or village ?)",
+    "contenus": [
+     "Les mots et expressions relatifs à la vie en zone rurale",
+     "Exprimer des sentiments / des désirs / des souhaits",
+     "Exprimer des raisons, des intentions, des buts",
+     "Les mots-clés d'un message oral",
+     "L'intonation correcte",
+     "Une information précise dans un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Exode rural (Rural exodus)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Exode rural (Rural exodus)",
+    "theme": "AU VILLAGE OU A LA VILLE ? (City or village ?)",
+    "contenus": [
+     "Faire des suggestions",
+     "Exprimer des conséquences",
+     "L'intonation correcte",
+     "Les mots et expressions liés à l'exode rural",
+     "Les mots et expressions pour décrire les changements liés à l'exode rural",
+     "Les mots-clés d'un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Les droits du citoyen (My rights)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Les droits du citoyen (My rights)",
+    "theme": "LES DROITS HUMAINS (Human rights)",
+    "contenus": [
+     "Les mots et expressions liés au respect des droits humains",
+     "Les formules et expressions pour exprimer son opinion, son approbation/désapprobation",
+     "Les mots et structures grammaticales pour exprimer les droits du citoyen",
+     "Les mots-clés d'un message oral",
+     "L'intonation correcte",
+     "Identifier l'idée générale d'un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Les devoirs du citoyen (My duties)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Les devoirs du citoyen (My duties)",
+    "theme": "LES DROITS HUMAINS (Human rights)",
+    "contenus": [
+     "Les mots et expressions relatifs à la citoyenneté et aux devoirs du citoyen",
+     "Exprimer les devoirs du citoyen",
+     "Exprimer les raisons",
+     "Les mots-clés d'un message oral",
+     "L'intonation correcte",
+     "Identifier l'idée générale d'un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · La tolérance (Tolerance)": {
+    "classe": "4e–3e",
+    "titre_officiel": "La tolérance (Tolerance)",
+    "theme": "LES DROITS HUMAINS (Human rights)",
+    "contenus": [
+     "Les mots et expressions relatifs au civisme et à la tolérance",
+     "Les mots et les structures grammaticales pour exprimer les obligations/des interdictions",
+     "Les mots-clés d'un message oral",
+     "L'intonation correcte",
+     "Identifier l'idée générale d'un message oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Les maladies endémiques (Endemic diseases)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Les maladies endémiques (Endemic diseases)",
+    "theme": "HYGIENE ET SANTE (Hygiene and health)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les sens des mots relatifs aux maladies endémiques",
+     "Les relations entre les mots",
+     "Les structures grammaticales pour exprimer la forme passive",
+     "Les structures grammaticales pour décrire les symptômes des maladies",
+     "L'idée générale d'un texte",
+     "Les relations entre les phrases",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Le VIH/SIDA (HIV/AIDS)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Le VIH/SIDA (HIV/AIDS)",
+    "theme": "HYGIENE ET SANTE (Hygiene and health)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les sens des mots relatifs au VIH/SIDA",
+     "Les structures grammaticales pour sensibiliser sur la pandémie du VIH/SIDA",
+     "Les structures grammaticales pour donner des recommandations sur l'hygiène de vie",
+     "L'idée générale d'un texte",
+     "Les relations entre les mots",
+     "Les relations entre les phrases",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · L'ordinateur (The computer)": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'ordinateur (The computer)",
+    "theme": "LES TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION TICs (Information and Communication Technologies - ICTs)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les mots désignant les différentes parties d'un ordinateur",
+     "Les mots désignant les différentes fonctions d'un ordinateur",
+     "L'idée générale d'un texte",
+     "Les sens des mots relatifs à l'ordinateur",
+     "Les structures grammaticales relatives à l'utilisation de l'ordinateur",
+     "Les structures grammaticales pour décrire le fonctionnement d'un ordinateur",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · Le téléphone (The telephone)": {
+    "classe": "4e–3e",
+    "titre_officiel": "Le téléphone (The telephone)",
+    "theme": "LES TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION TICs (Information and Communication Technologies - ICTs)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les sens des mots relatifs au téléphone",
+     "Les mots désignant les différentes parties d'un téléphone",
+     "Les mots désignant les différentes fonctions d'un téléphone",
+     "L'idée générale d'un texte",
+     "Les structures grammaticales relatives à l'utilisation du téléphone",
+     "Les structures grammaticales pour décrire un téléphone",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · L'Internet (The Internet)": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'Internet (The Internet)",
+    "theme": "LES TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION TICs (Information and Communication Technologies - ICTs)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les mots relatifs aux différentes utilisations de l'internet",
+     "Les structures grammaticales pour décrire l'internet",
+     "L'idée générale d'un texte",
+     "Les sens des mots relatifs à l'Internet",
+     "Les structures grammaticales relatives à l'internet",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   },
+   "4e–3e · L'hygiène à l'école (Hygiene at school)": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'hygiène à l'école (Hygiene at school)",
+    "theme": "HYGIENE ET SANTE (Hygiene and health)",
+    "contenus": [
+     "Les techniques de lecture",
+     "Les sens des mots relatifs a l'hygiène à l'école",
+     "Les relations entre les mots",
+     "Les relations entre les phrases",
+     "Les structures grammaticales pour donner des conseils sur l'hygiène",
+     "Les mots et expressions désignant les mesures d'hygiène",
+     "L'idée générale d'un texte",
+     "Les idées secondaires d'un texte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Physique-Chimie",
-    "chapitres": ["Les lentilles", "Les défauts de l'œil et leurs corrections", "Masse et poids d'un corps", "Les forces", "Équilibre d'un solide soumis à deux forces", "Travail et puissance mécaniques", "Énergie mécanique", "Puissance et énergie électriques", "Le conducteur ohmique", "Électrolyse et synthèse de l'eau", "Les alcanes", "Oxydation des corps purs simples", "Réduction des oxydes", "Solutions acides, basiques et neutres"],
-    "source": "dpfc-ci.net"
+  "sources_programmes": {
+   "6e–5e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf"
+   },
+   "4e–3e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "SVT",
-    "chapitres": ["Les aliments et l'Homme", "La digestion des aliments", "Le sang", "La transfusion sanguine", "La circulation sanguine", "Les grossesses précoces et les moyens de prévention", "L'infection au VIH", "Les caractéristiques d'un sol", "Les relations sols-plantes", "La dégradation des sols", "La protection et l'amélioration des sols"],
-    "source": "dpfc-ci.net"
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Anglais",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "2nde · People",
+   "2nde · Health and lifestyle",
+   "2nde · Technology",
+   "2nde · Looking forward",
+   "2nde · Gender and education",
+   "2nde · Citizenship",
+   "2nde · Sports",
+   "2nde · Science",
+   "2nde · Wildlife",
+   "2nde · Culture and civilization",
+   "1ère · Travel and world tourism",
+   "1ère · Natural resources",
+   "1ère · Deadly viruses and diseases",
+   "1ère · Crime and violence",
+   "1ère · Human rights",
+   "1ère · Technology and our lives",
+   "1ère · Political change",
+   "1ère · African cultural heritage",
+   "1ère · Our consumer society",
+   "1ère · Friends, dating and entertainment",
+   "Tle · Lifestyle: moving with the times",
+   "Tle · Freedom and civil rights",
+   "Tle · Development issues",
+   "Tle · What the future holds",
+   "Tle · Managing resources",
+   "Tle · Contemporary africa",
+   "Tle · International issues",
+   "Tle · Cultural differences",
+   "Tle · Justice",
+   "Tle · Demography"
+  ],
+  "details": {
+   "2nde · People": {
+    "classe": "2nde",
+    "titre_officiel": "People",
+    "theme": "People",
+    "contenus": [
+     "Les mots et expressions relatifs aux personnalités et aux apparences physiques des personnes",
+     "Les antonymes, locutions verbales et expressions idiomatiques",
+     "Les adverbes",
+     "Le présent simple et progressif",
+     "Les gérondifs et les infinitifs",
+     "Les verbes suivis de la forme ing et les verbes suivis de l'infinitif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Health and lifestyle": {
+    "classe": "2nde",
+    "titre_officiel": "Health and lifestyle",
+    "theme": "Health and lifestyle",
+    "contenus": [
+     "Les mots relatifs aux maladies et problèmes de santé",
+     "Les synonymes",
+     "Les collocations",
+     "Le prétérit, le passé progressif et le 'past perfect'",
+     "Les structures I used to …; to get used to… et to be used to …",
+     "Les techniques de rédaction d'un courrier dans un style familier"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Technology": {
+    "classe": "2nde",
+    "titre_officiel": "Technology",
+    "theme": "Technology",
+    "contenus": [
+     "Les mots relatifs à l'Internet, à l'ordinateur, aux téléphones portables, à la télévision",
+     "Les mots-composés",
+     "Les Verbes et Adjectifs toujours suivis de prépositions",
+     "Le 'Present perfect' employé avec just, already, yet, still",
+     "Le 'Present perfect' employé avec for et since",
+     "Le Present perfect et le Past simple (Le Prétérit)",
+     "Les techniques de rédaction d'une lettre amicale"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Looking forward": {
+    "classe": "2nde",
+    "titre_officiel": "Looking forward",
+    "theme": "Looking forward",
+    "contenus": [
+     "Les mots et expressions relatifs aux sources d'énergie et aux problèmes du monde de demain",
+     "Les mots et structures pour décrire les graphiques et diagrammes",
+     "Les Adjectifs + le suffixes -able, ist, er, or",
+     "Les auxiliaires modaux will, won't, may, might",
+     "Les phrases conditionnelles (First conditional)",
+     "Be going to, will et le Présent progressif pour exprimer les activités futures prévues",
+     "Les techniques de rédaction d'un article de journal"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Gender and education": {
+    "classe": "2nde",
+    "titre_officiel": "Gender and education",
+    "theme": "Gender and education",
+    "contenus": [
+     "Les mots relatifs à l'analphabétisme, à l'éducation de la jeune fille, au mariage précoce et aux systèmes éducatifs",
+     "Les adjectives + le suffixe al",
+     "L'emploi de some et any",
+     "Les dénombrables et indénombrables : much, many, a lot of, a little, a few",
+     "L'expression de l'obligation et de la recommandation avec: Have to, must, should",
+     "Les techniques de rédaction d'un récit ou la description des activités de routine"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Citizenship": {
+    "classe": "2nde",
+    "titre_officiel": "Citizenship",
+    "theme": "Citizenship",
+    "contenus": [
+     "Les mots et expressions relatifs à la citoyenneté, au bénévolat dans la communauté, aux actions humanitaires, aux lois et aux ONGs",
+     "Les locutions verbales avec up",
+     "Les verbes d'actions",
+     "Les adjectifs employés comme noms",
+     "Les pronoms relatives who, which, where, that",
+     "Les pronoms indéfinis some, any, every",
+     "Les pronoms réciproques each other, one another",
+     "Les techniques de rédaction d'une lettre officielle"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Sports": {
+    "classe": "2nde",
+    "titre_officiel": "Sports",
+    "theme": "Sports",
+    "contenus": [
+     "Les mots relatifs à la pratique, aux qualités et valeurs du sport, aux lieux et équipements de sport, à l'approche genre dans le domaine du sport",
+     "Les locutions verbales avec come",
+     "Les phrases conditionnelles (première et deuxième conditions",
+     "L'emploi de So et such (phrases exclamatives)",
+     "Les comparatifs et les superlatifs",
+     "Les techniques de rédaction d'une dissertation argumentative"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Science": {
+    "classe": "2nde",
+    "titre_officiel": "Science",
+    "theme": "Science",
+    "contenus": [
+     "Les mots et expression relatifs à la génétique",
+     "Les mots et structures pour décrire les graphiques et les diagrammes",
+     "Les prépositions (de mouvement)",
+     "Les suffixes (o) logy et (o) logist",
+     "L'article the et l'absence de l'article",
+     "L'expression du but avec to, in order to, so that, so as (not) to)",
+     "Le discours indirect",
+     "Les techniques de rédaction d'un commentaire écrit et oral d'une courbe ou d'un diagramme"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Wildlife": {
+    "classe": "2nde",
+    "titre_officiel": "Wildlife",
+    "theme": "Wildlife",
+    "contenus": [
+     "Les mots relatifs à la protection de la faune et de la flore, au braconnage et aux métiers des gardes forestiers",
+     "Les noms avec les suffixes privatifs less",
+     "La forme passive",
+     "La forme passive avec les modaux",
+     "Les techniques de rédaction d'un essai argumentatif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Culture and civilization": {
+    "classe": "2nde",
+    "titre_officiel": "Culture and civilization",
+    "theme": "Culture and civilization",
+    "contenus": [
+     "Les mots relatifs à la culture et tradition africaine, à la musique et aux musiciens",
+     "Les familles des mots",
+     "Les suffixes des noms: -ance,-ation, -ment,-hood",
+     "Les adjectifs divers",
+     "Les adverbes de temps : after, before, when, during, until, while",
+     "Le 'Present perfect' progressif",
+     "Les techniques de la rédaction d'un récit ou la description d'un événement"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "1ère · Travel and world tourism": {
+    "classe": "1ère",
+    "titre_officiel": "Travel and world tourism",
+    "theme": "Travel and world tourism",
+    "contenus": [
+     "Les mots et expressions relatifs à l'industrie touristique et à l'écotourisme",
+     "Les locutions verbales",
+     "Les prépositions",
+     "Les dates et les nombres",
+     "Le ‘present perfect' simple et progressif",
+     "Les pronoms relatifs",
+     "Les synonymes"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Natural resources": {
+    "classe": "1ère",
+    "titre_officiel": "Natural resources",
+    "theme": "Natural resources",
+    "contenus": [
+     "Les mots et expressions relatifs aux ressources naturelles renouvelables et non-renouvelables, aux catastrophes naturelles et au changement climatique",
+     "La formation des antonymes avec les préfixes",
+     "Les collocations",
+     "La formation des suffixes avec –tion",
+     "Les gérondifs et les articles",
+     "Les techniques de la rédaction d'un article de journal"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Deadly viruses and diseases": {
+    "classe": "1ère",
+    "titre_officiel": "Deadly viruses and diseases",
+    "theme": "Deadly viruses and diseases",
+    "contenus": [
+     "Les mots et expressions relatifs aux maladies et aux virus",
+     "Les locutions verbales formées avec –out",
+     "Les mots pour exprimer les prédictions et les attentes",
+     "Le discours indirect (phrases affirmatives, questions et requêtes)",
+     "Les dénotations et les connotations",
+     "Les techniques de la rédaction d'un courrier électronique dans un style familier"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Crime and violence": {
+    "classe": "1ère",
+    "titre_officiel": "Crime and violence",
+    "theme": "Crime and violence",
+    "contenus": [
+     "Les mots et expressions relatifs à la criminalité, aux crimes et aux criminels",
+     "Les mots composés",
+     "Les expressions idiomatiques",
+     "Les préfixes et les suffixes",
+     "La forme passive",
+     "Les déterminants",
+     "Les techniques de rédaction d'un rapport (réunions, accident, procès etc.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Human rights": {
+    "classe": "1ère",
+    "titre_officiel": "Human rights",
+    "theme": "Human rights",
+    "contenus": [
+     "Les mots et expressions relatifs à la dignité et aux droits humains",
+     "Les mots et expressions relatifs au travail des enfants, à l'égalité des chances",
+     "Les familles des mots",
+     "Les expressions idiomatiques",
+     "L'anglais britannique et l'anglais américain",
+     "Les phrases conditionnelles (premières, deuxièmes et troisièmes formes)",
+     "Les techniques de la rédaction d'une lettre officielle"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Technology and our lives": {
+    "classe": "1ère",
+    "titre_officiel": "Technology and our lives",
+    "theme": "Technology and our lives",
+    "contenus": [
+     "Les mots et expressions relatifs à la technologie et ses effets dans notre vie",
+     "Les mots et expressions relatifs aux réseaux sociaux",
+     "Les expressions idiomatiques",
+     "Les familles des mots",
+     "Les comparatifs",
+     "L'expression des conditions avec unless ; as long as, in case",
+     "Les techniques de rédaction d'une dissertation pour exprimer ses opinions"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Political change": {
+    "classe": "1ère",
+    "titre_officiel": "Political change",
+    "theme": "Political change",
+    "contenus": [
+     "Les mots et expressions relatifs aux systèmes politiques et aux élections",
+     "Les expressions idiomatiques",
+     "Les suffixes –al et -ic",
+     "Les conjonctions",
+     "La position des adjectifs qualificatifs",
+     "Les techniques de rédaction d'une dissertation argumentative (pour ou contre)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · African cultural heritage": {
+    "classe": "1ère",
+    "titre_officiel": "African cultural heritage",
+    "theme": "African cultural heritage",
+    "contenus": [
+     "Les mots et expressions relatifs à l'héritage culturel (mythes, folklore, us et coutumes)",
+     "Les expressions idiomatiques",
+     "Les familles des mots",
+     "Les locutions verbales avec make",
+     "Les conjonctions (moreover, as well as, yet, in spite of, despite, even though)",
+     "Les gérondifs (Révision)",
+     "La position des adverbes et locutions adverbiales",
+     "Les techniques de rédaction d'un récit/d'une narration"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Our consumer society": {
+    "classe": "1ère",
+    "titre_officiel": "Our consumer society",
+    "theme": "Our consumer society",
+    "contenus": [
+     "Les mots et expressions relatifs à la société de consommation, à la publicité, à la mode et au shopping",
+     "L'emploi des locutions verbales",
+     "Les auxiliaires modaux",
+     "Diverses expressions de la forme passive",
+     "Les techniques de rédaction d'une annonce publicitaire"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Friends, dating and entertainment": {
+    "classe": "1ère",
+    "titre_officiel": "Friends, dating and entertainment",
+    "theme": "Friends, dating and entertainment",
+    "contenus": [
+     "Les mots et expressions relatifs à l'amitié et à la camaraderie, à la jeunesse, aux loisirs et passe-temps",
+     "Les exclamations, mots et expressions familières",
+     "Les expressions idiomatiques et locutions verbales",
+     "Diverses expressions du futur",
+     "Diverses expressions du passé"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "Tle · Lifestyle: moving with the times": {
+    "classe": "Tle",
+    "titre_officiel": "Lifestyle: moving with the times",
+    "theme": "Lifestyle: moving with the times",
+    "contenus": [
+     "Les mots et expressions relatifs aux modes de vie passés et présents, au service public et aux valeurs morales, à la migration des temps modernes",
+     "Le suffix -ness",
+     "Wherever, whenever, whoever, whichever, whatever, however",
+     "Le présent et le ‘present perfect'",
+     "Le passé et le ‘past perfect'",
+     "Les techniques de rédaction d'une lettre officielle : une plainte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Freedom and civil rights": {
+    "classe": "Tle",
+    "titre_officiel": "Freedom and civil rights",
+    "theme": "Freedom and civil rights",
+    "contenus": [
+     "Les mots et expressions relatifs à la lutte pour la liberté et l'égalité des droits civils, à la discrimination et aux préjugés sociaux",
+     "Les mots et expressions relatifs aux membres de la famille élargie : step… ; half… ; … in law",
+     "Les préfixes et suffixes des noms",
+     "Le passé des auxiliaires modaux",
+     "Les techniques de rédaction d'une lettre ou d'un courrier électronique dans un style familier"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Development issues": {
+    "classe": "Tle",
+    "titre_officiel": "Development issues",
+    "theme": "Development issues",
+    "contenus": [
+     "Les mots et expressions relatifs aux grands défis des pays émergeants et en voie de développement, aux droits et à la lutte pour la survie des peuples indigènes",
+     "Les locutions verbales à trois parties",
+     "Les structures verbales avec make/let/allow/enable",
+     "Les structures causatives avec get/have",
+     "Les comparatives et les superlatifs",
+     "Les déterminants",
+     "Les techniques de rédaction d'un article de journal : le plan et le brouillon"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · What the future holds": {
+    "classe": "Tle",
+    "titre_officiel": "What the future holds",
+    "theme": "What the future holds",
+    "contenus": [
+     "Les mots et expressions relatifs aux actions humanitaires, aux grandes questions liées à l'avenir de notre planète, à l'urbanisation de l'Afrique",
+     "Les adjectifs intensifiants: tired/exhausted;big/huge",
+     "Le futur simple et be going to",
+     "Le futur progressif et le ‘ future perfect'",
+     "Les structures verbales",
+     "Les expressions commençeant par it: impératifs ou gérondifs?",
+     "Les techniques de rédaction d'une dissertation argumentative (pour ou contre) : les connecteurs logiques"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Managing resources": {
+    "classe": "Tle",
+    "titre_officiel": "Managing resources",
+    "theme": "Managing resources",
+    "contenus": [
+     "Les mots et expressions relatifs aux problèmes des terres cultivables, à l'agriculture (culture vivrières et cultures de rente, à l'eau et à la santé (hygiène et propreté)",
+     "Les préfixes bio-, mano-, multi-",
+     "Les doubles comparatifs pour décrire un changement",
+     "Les phrases conditionnelles",
+     "Les propositions relatives",
+     "Les formes passives impersonnelles",
+     "Les techniques de rédaction d'un exposé : la structuration de l'exposé"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Contemporary africa": {
+    "classe": "Tle",
+    "titre_officiel": "Contemporary africa",
+    "theme": "Contemporary africa",
+    "contenus": [
+     "Les mots et expressions relatifs à l'économie et aux affaires",
+     "Les idiomes",
+     "Les structures négatives",
+     "Not only …, but also",
+     "Les locutions verbales",
+     "Les techniques de présentation d'un exposé oral relatif à l'économie et aux affaires",
+     "Les techniques de rédaction d'une dissertation argumentative : l'introduction et le conclusion"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · International issues": {
+    "classe": "Tle",
+    "titre_officiel": "International issues",
+    "theme": "International issues",
+    "contenus": [
+     "Les mots et expressions relatifs aux organisations internationales, aux actions humanitaires et aux langues étrangères",
+     "Les préfixes et les suffixes",
+     "Les prépositions",
+     "Les infinitifs et gérondifs passifs",
+     "L'emploi de Dare et need",
+     "Les discours et les questions indirects",
+     "Les requêtes et les ordres",
+     "Les techniques de rédaction d'une dissertation argumentative : le développement"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Cultural differences": {
+    "classe": "Tle",
+    "titre_officiel": "Cultural differences",
+    "theme": "Cultural differences",
+    "contenus": [
+     "Les mots et expressions relatifs aux gestes et au langage corporel, aux qualités requises pour un stage professionnel, et aux sentiments",
+     "Les adjectifs se terminant par –edet -ing",
+     "Les formes interrogatives",
+     "Les structures verbales",
+     "Les techniques de rédaction d'une lettre officielle : une lettre de motivation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Justice": {
+    "classe": "Tle",
+    "titre_officiel": "Justice",
+    "theme": "Justice",
+    "contenus": [
+     "Les mots et expressions relatifs à un procès, aux personnels et auxiliaires de justice, à la police, à la corruption, à l'univers carcéral",
+     "Les ‘questions tag'et les formes interro-négatives",
+     "Les structures grammaticales pour approuver ou désapprouver : I agree/I disagree",
+     "Les questions de clarification ; de vérification",
+     "Les expressions pour faire le point/résumer une discussion, pour conclure, pour changer de sujets",
+     "Les techniques de rédaction d'un dialogue"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   },
+   "Tle · Demography": {
+    "classe": "Tle",
+    "titre_officiel": "Demography",
+    "theme": "Demography",
+    "contenus": [
+     "Les mots et expressions relatifs à la croissance démographiques et ses problèmes : surpopulation des villes, rareté de la nourriture et des services de santé, migration des populations, le foncier rural, contrôle des naissances",
+     "Les mots et expressions pour décrire les courbes de croissance démographiques",
+     "Les pronoms personnels sujets et compléments : réflexifs et réciproques",
+     "Les techniques de structuration, de rédaction et de présentation d'un exposé sur le th thème de la démographie"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "college", "examen": "BEPC", "matiere": "Histoire-Geographie",
-    "chapitres": ["L'évolution sociopolitique de la Côte d'Ivoire et de l'Afrique du XIXe siècle", "De la Seconde Guerre mondiale aux efforts de construction du monde", "Le mouvement impérialiste", "L'accession de la Côte d'Ivoire à l'indépendance", "Étude économique de la Côte d'Ivoire", "L'Afrique face à la mondialisation"],
-    "source": "dpfc-ci.net"
+  "sources_programmes": {
+   "2nde": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "1ère": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "Tle": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "D", "matiere": "Mathematiques",
-    "chapitres": ["Nombres complexes", "Limites et continuité", "Dérivabilité et étude de fonctions", "Primitives", "Fonctions logarithmes", "Fonctions exponentielles et fonctions puissances", "Calcul intégral", "Suites numériques", "Équations différentielles", "Statistique à deux variables", "Probabilité conditionnelle et variable aléatoire", "Géométrie du plan (nombres complexes et transformations)", "Orthogonalité dans l'espace"],
-    "source": "dpfc-ci.net"
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Espagnol",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "4e–3e · La découverte du monde hispanique",
+   "4e–3e · La présentation des civilités",
+   "4e–3e · L'échange d'information",
+   "4e–3e · L'expression d'opinion",
+   "4e–3e · L'expression des goûts et des préférences",
+   "4e–3e · L'expression des sentiments",
+   "4e–3e · L'expression de l'ordre"
+  ],
+  "details": {
+   "4e–3e · La découverte du monde hispanique": {
+    "classe": "4e–3e",
+    "titre_officiel": "La découverte du monde hispanique",
+    "theme": "Activités de compréhension orale",
+    "contenus": [
+     "L'Espagne",
+     "Les pays de l'Amérique hispanique",
+     "Le pays hispanophone d'Afrique",
+     "Prononcer les lettres et sons particuliers",
+     "Choisir les pays du monde hispanique",
+     "Les lettres et sons particuliers",
+     "Les pays du monde hispanique",
+     "Le monde hispanique (l'Espagne, les pays de l'Amérique hispanique, Le pays hispanophone d'Afrique)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · La présentation des civilités": {
+    "classe": "4e–3e",
+    "titre_officiel": "La présentation des civilités",
+    "theme": "Activités d'expression orale",
+    "contenus": [
+     "Les mots et expressions liés à l'échange de civilités",
+     "Les structures grammaticales liées à l'échange de civilités",
+     "Les formules liées à l'échange de civilités",
+     "Les formules appropriées",
+     "Les civilités (saluer ; se présenter /présenter quelqu'un; prendre congé de quelqu'un ; féliciter quelqu'un; remercier quelqu'un; inviter quelqu'un.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · L'échange d'information": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'échange d'information",
+    "theme": "Activités d'expression écrite",
+    "contenus": [
+     "Les mots et expressions liés à l'échange d'information",
+     "Les structures grammaticales liées à l'échange d'information",
+     "Les informations",
+     "Les formules appropriées",
+     "Les informations (poser des questions/ répondre à des questions; décrire; orienter / s'orienter; raconter ; résumer.)",
+     "Les formules liées à l'échange d'information"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · L'expression d'opinion": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'expression d'opinion",
+    "theme": "Activités d'expression orale",
+    "contenus": [
+     "Les mots et formules liés à l'expression d'opinion",
+     "Les structures grammaticales liées à l'expression d'opinion",
+     "La compréhension des formules liées à l'expression d'opinion",
+     "Les formules appropriées",
+     "L'opinion (demander/exprimer une opinion; approuver/désapprouver; convaincre.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · L'expression des goûts et des préférences": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'expression des goûts et des préférences",
+    "theme": "Activités d'expression orale",
+    "contenus": [
+     "Les mots et formules liés à l'expression des goûts et des préférences",
+     "Les structures grammaticales liées à l'expression des goûts et des préférences",
+     "La compréhension des formules liées à l'expression des goûts et des préférences",
+     "Les formules appropriées",
+     "Les goûts",
+     "Les préférences",
+     "Les goûts et leur justification. Les préférences et leur justification"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · L'expression des sentiments": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'expression des sentiments",
+    "theme": "Activités d'expression écrite",
+    "contenus": [
+     "Les mots et formules liés à l'expression des sentiments",
+     "Les structures grammaticales liées à l'expression des sentiments",
+     "Les formules liées à l'expression des sentiments",
+     "Les formules appropriées",
+     "Les sentiments (exprimer la joie/la peine; présenter/accepter des excuses; exprimer l'indifférence; exprimer le regret.)",
+     "Les mots et expressions liés à l'expression des sentiments",
+     "Les sentiments et leur justification (exprimer la joie/la peine ; présenter/accepter des excuses ; exprimer l'indifférence; exprimer le regret)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   },
+   "4e–3e · L'expression de l'ordre": {
+    "classe": "4e–3e",
+    "titre_officiel": "L'expression de l'ordre",
+    "theme": "Activités de compréhension écrite/orale",
+    "contenus": [
+     "Les mots et formules liés à l'expression d'ordre",
+     "Les formules liées à l'expression d'ordre",
+     "Les formules appropriées",
+     "L'ordre (autoriser ; interdire; conseiller.)",
+     "L'ordre et sa justification (autoriser ; interdire; conseiller)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "Mathematiques",
-    "chapitres": ["Barycentre et lignes de niveaux", "Limites et continuité", "Divisibilité dans ℤ", "Dérivabilité et étude de fonctions", "Géométrie analytique de l'espace", "Primitives", "Fonctions logarithmes", "Coniques", "Fonctions exponentielles et fonctions puissances", "Nombres complexes"],
-    "source": "dpfc-ci.net — Progressions 2024-2025"
+  "sources_programmes": {
+   "4e–3e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Philosophie",
-    "chapitres": ["La dissertation philosophique (méthodologie)", "Le commentaire de texte philosophique (méthodologie)", "La connaissance de l'homme", "La vie en société", "Dieu et la religion", "L'histoire de l'humanité", "La valeur de la philosophie", "Progrès et bonheur", "Langage et vérité", "La connaissance scientifique"],
-    "source": "dpfc-ci.net — Programmes Terminale A1/A2 et C/D/E"
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Espagnol",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "2nde–1ère–Tle · La connaissance des réalités du monde hispanique et de l'Afrique",
+   "2nde–1ère–Tle · L'échange de civilités",
+   "2nde–1ère–Tle · L'échange d'information",
+   "2nde–1ère–Tle · L'expression d'opinion",
+   "2nde–1ère–Tle · L'expression des états d'âme",
+   "2nde–1ère–Tle · L'expression de l'ordre",
+   "2nde–1ère–Tle · La technique d'expression orale ou écrite",
+   "2nde–1ère–Tle · La connaissance des réalités du monde hispanique"
+  ],
+  "details": {
+   "2nde–1ère–Tle · La connaissance des réalités du monde hispanique et de l'Afrique": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "La connaissance des réalités du monde hispanique et de l'Afrique",
+    "theme": "Activités de compréhension orale",
+    "contenus": [
+     "Les faits historiques de l'Espagne, de l'Amérique hispanique et de l'Afrique",
+     "Les aspects de la géographie (physique, humaine, économique)",
+     "Les aspects socioculturels de l'Espagne, de l'Amérique hispanique et de l'Afrique",
+     "Le système politique de l'Espagne (les Autonomies, la royauté), de l'Amérique hispanique et de l'Afrique",
+     "Le système politique de l'Espagne (les Autonomies), de l'Amérique hispanique et de l'Afrique"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · L'échange de civilités": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "L'échange de civilités",
+    "theme": "Activités d'expression orale",
+    "contenus": [
+     "Les actes de civilités",
+     "L'expression de la gratitude",
+     "L'invitation",
+     "L'interpellation",
+     "Les expressions avant, pendant et après un repas",
+     "La remise d'un objet à quelqu'un",
+     "La demande d'aide/secours"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · L'échange d'information": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "L'échange d'information",
+    "theme": "Activités d'expression orale",
+    "contenus": [
+     "Décrire",
+     "Relater",
+     "Rectifier",
+     "Poser des questions/répondre à des questions",
+     "Résumer",
+     "Rappeler",
+     "Repérer l'information",
+     "Dire avec ses mots une information",
+     "Utiliser une information",
+     "Echanger une information (décrire, relater, rectifier, poser des questions/ répondre à des questions, résumer, rappeler)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · L'expression d'opinion": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "L'expression d'opinion",
+    "theme": "Activités de compréhension écrite",
+    "contenus": [
+     "Exprimer la capacité/l'incapacité",
+     "Exprimer la certitude/l'incertitude",
+     "Approuver/désapprouver",
+     "Reconnaître une opinion",
+     "Dire avec ses mots une opinion",
+     "Choisir une opinion",
+     "Argumenter une opinion",
+     "Exprimer une opinion (exprimer la capacité/l'incapacité, exprimer la certitude/l'incertitude, approuver/désapprouver) et sa justification",
+     "Exprimer une opinion (exprimer la capacité/l'incapacité, exprimer la certitude/l'incertitude, approuver/désapprouver), justifier"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · L'expression des états d'âme": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "L'expression des états d'âme",
+    "theme": "Activités d'expression écrite",
+    "contenus": [
+     "La joie/la peine/le regret/la peur/la pitié",
+     "Les goûts/les préférences/le souhait",
+     "La reconnaissance/l'intention/l'espérance",
+     "La surprise/l'admiration/le mécontentement/la compassion",
+     "La justification des états d'âme",
+     "Identifier les états d'âme",
+     "Dire avec ses mots les états d'âme",
+     "Choisir les états d'âme",
+     "Justifier les états d'âme",
+     "Exprimer les états d'âme (exprimer la joie/ la peine/ le regret/ la peur/ la pitié/ les goûts/ les préférences/ le souhait/ la reconnaissance/ l'intention/ l'espérance/ la surprise/ l'admiration/ le mécontentement/ la compassion, etc.) et leur justification"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · L'expression de l'ordre": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "L'expression de l'ordre",
+    "theme": "Activités d'expression écrite",
+    "contenus": [
+     "Donner une consigne",
+     "Solliciter",
+     "Interpeler",
+     "Recommander",
+     "Conseiller",
+     "Suggérer",
+     "Prévenir",
+     "Persuader /dissuader",
+     "Reconnaître l'ordre",
+     "Dire avec ses mots l'ordre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · La technique d'expression orale ou écrite": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "La technique d'expression orale ou écrite",
+    "theme": "Activités d'expression orale ou écrite",
+    "contenus": [
+     "Identifier la technique appropriée (converser, interviewer, exposer, faire une requête, etc.)",
+     "Choisir la technique appropriée",
+     "Utiliser la technique appropriée",
+     "Développer la technique appropriée (expression orale et écrite)",
+     "Identifier la techniques appropriée (converser, interviewer, exposer, faire une requête, etc.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   },
+   "2nde–1ère–Tle · La connaissance des réalités du monde hispanique": {
+    "classe": "2nde–1ère–Tle",
+    "titre_officiel": "La connaissance des réalités du monde hispanique",
+    "theme": "Activités de compréhension orale",
+    "contenus": [
+     "Les faits historiques de l'Espagne, de l'Amérique hispanique et de la Guinée Equatoriale",
+     "Les aspects de la géographie (physique, humaine, économique) de l'Espagne, de l'Amérique hispanique et de la Guinée Equatoriale",
+     "Les aspects socioculturels de l'Espagne, de l'Amérique hispanique et de la Guinée Equatoriale",
+     "Le système politique de l'Espagne (les Autonomies), de l'Amérique hispanique et de la Guinée Equatoriale"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C/D", "matiere": "Physique-Chimie",
-    "chapitres": ["Mécanique", "Électromagnétisme", "Électricité", "La lumière : onde ou particule", "Réactions nucléaires", "Chimie organique", "Chimie générale"],
-    "source": "dpfc-ci.net"
+  "sources_programmes": {
+   "2nde–1ère–Tle": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "D", "matiere": "SVT",
-    "chapitres": ["Les ressources minières", "La gestion des sols", "La reproduction chez les mammifères et chez les spermaphytes", "La transmission des caractères héréditaires", "Le milieu intérieur", "La défense de l'organisme et son dysfonctionnement (dont l'infection par le VIH)"],
-    "source": "dpfc-ci.net"
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Francais",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "6e · Le dialogue oral",
+   "6e · Œuvre intégrale",
+   "6e · La lettre personnelle",
+   "6e · Le texte narratif",
+   "6e · Le texte descriptif",
+   "6e · Le récit",
+   "6e · La description I",
+   "6e · La description II",
+   "6e · La phrase",
+   "6e · Le Groupe Nominal",
+   "6e · Le discours direct et le discours indirect",
+   "6e · Le verbe",
+   "6e · Le Groupe Verbal",
+   "6e · Les adverbes",
+   "6e · Orthographe lexicale",
+   "6e · Orthographe grammaticale",
+   "5e · L'exposé oral I",
+   "5e · L'exposé oral II",
+   "5e · L'œuvre intégrale",
+   "5e · Le portrait",
+   "5e · Le texte descriptif",
+   "5e · Le poème en vers libres",
+   "5e · La description",
+   "5e · Le compte rendu de lecture",
+   "5e · Le Groupe Nominal",
+   "5e · Le groupe adjectif",
+   "5e · La pronominalisation",
+   "5e · Le verbe : formes et emplois",
+   "5e · De la phrase simple à la phrase complexe",
+   "5e · Orthographe lexicale",
+   "5e · Orthographe grammaticale",
+   "4e · Le débat I",
+   "4e · Le débat II",
+   "4e · L'œuvre intégrale",
+   "4e · Le texte explicatif",
+   "4e · Le dialogue argumentatif",
+   "4e · Le compte rendu de réunion",
+   "4e · La lettre officielle",
+   "4e · Le résumé du texte informatif",
+   "4e · Le Groupe Nominal",
+   "4e · La pronominalisation",
+   "4e · Le verbe : formes et emplois",
+   "4e · Étude de quelques propositions subordonnées",
+   "4e · Orthographe lexicale",
+   "4e · Orthographe grammaticale",
+   "3e · Le dialogue oral",
+   "3e · L'exposé oral",
+   "3e · Le débat",
+   "3e · L'œuvre intégrale",
+   "3e · Le texte argumentatif",
+   "3e · L'article de journal",
+   "3e · Le texte argumentatif I",
+   "3e · Le texte argumentatif II",
+   "3e · Le résumé du texte argumentatif",
+   "3e · L'article de journal I",
+   "3e · L'article de journal II",
+   "3e · La communication",
+   "3e · Le Groupe Nominal : la pronominalisation",
+   "3e · L'adverbe et le groupe adverbial",
+   "3e · Le verbe : L'infinitif et le participe",
+   "3e · La coordination",
+   "3e · L'expression des circonstances dans la phrase simple / complexe",
+   "3e · Orthographe lexicale",
+   "3e · Orthographe grammaticale"
+  ],
+  "details": {
+   "6e · Le dialogue oral": {
+    "classe": "6e",
+    "titre_officiel": "Le dialogue oral",
+    "theme": "Compétence 1 : Traiter des situations relatives à la production des énoncés oraux",
+    "contenus": [
+     "La situation de communication",
+     "La technique du dialogue oral",
+     "Le sujet du dialogue",
+     "Phrases interrogatives et déclaratives",
+     "Le lexique relatif au thème",
+     "Le registre de langue approprié",
+     "Les modalités du discours"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Œuvre intégrale": {
+    "classe": "6e",
+    "titre_officiel": "Œuvre intégrale",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "L'auteur et son œuvre",
+     "Le contexte de l'œuvre",
+     "L'axe d'étude",
+     "Hypothèses de lecture",
+     "Les personnages et les thèmes majeurs",
+     "Les figures de style pertinentes",
+     "La portée de l'œuvre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · La lettre personnelle": {
+    "classe": "6e",
+    "titre_officiel": "La lettre personnelle",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Le type de texte",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de styles pertinentes",
+     "Le registre de langue utilisé",
+     "Le type de texte à produire",
+     "L'objet de la lettre personnelle",
+     "Les idées liées à l'objet de la lettre",
+     "Un vocabulaire approprié",
+     "Les outils grammaticaux appropriés"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le texte narratif": {
+    "classe": "6e",
+    "titre_officiel": "Le texte narratif",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de styles pertinentes",
+     "La structure du texte",
+     "Le récit simple",
+     "Le récit complexe"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le texte descriptif": {
+    "classe": "6e",
+    "titre_officiel": "Le texte descriptif",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Le type de texte",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de styles pertinentes",
+     "La technique descriptive utilisée"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le récit": {
+    "classe": "6e",
+    "titre_officiel": "Le récit",
+    "theme": "Compétence 3: Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "Le thème du récit à rédiger",
+     "Les idées relatives au thème du récit",
+     "Le lexique lié au thème",
+     "Les outils de la langue appropriés",
+     "Les caractéristiques du récit"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · La description I": {
+    "classe": "6e",
+    "titre_officiel": "La description I",
+    "theme": "Compétence 3: Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "L'objet",
+     "Le lexique lié à l'objet",
+     "Les différentes parties de l'objet à décrire",
+     "Les outils grammaticaux appropriés",
+     "Les caractéristiques de la description"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · La description II": {
+    "classe": "6e",
+    "titre_officiel": "La description II",
+    "theme": "Compétence 3: Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "Le lieu à décrire",
+     "Le lexique lié au lieu décrit",
+     "Les différentes composantes du lieu à décrire",
+     "Les outils grammaticaux appropriés",
+     "Les caractéristiques de la description"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · La phrase": {
+    "classe": "6e",
+    "titre_officiel": "La phrase",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les constituants de la phrase",
+     "Les types de phrases",
+     "Les formes de phrases",
+     "La notion de phrase",
+     "Les phrases simples",
+     "Les phrases complexes"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le Groupe Nominal": {
+    "classe": "6e",
+    "titre_officiel": "Le Groupe Nominal",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les constituants du groupe nominal",
+     "Les expansions du nom",
+     "Les déterminants du nom",
+     "Les degrés de l'adjectif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le discours direct et le discours indirect": {
+    "classe": "6e",
+    "titre_officiel": "Le discours direct et le discours indirect",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les marques du discours direct",
+     "Les marques du discours indirect",
+     "Les modalités du discours"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le verbe": {
+    "classe": "6e",
+    "titre_officiel": "Le verbe",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "La morphologie des verbes",
+     "Les temps verbaux de l'indicatif",
+     "Les valeurs d'emploi des temps verbaux",
+     "Quelques auxiliaires d'aspect"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Le Groupe Verbal": {
+    "classe": "6e",
+    "titre_officiel": "Le Groupe Verbal",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "L'auxiliaire « être » et ses substituts",
+     "Les verbes d'action",
+     "Le groupe verbal"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Les adverbes": {
+    "classe": "6e",
+    "titre_officiel": "Les adverbes",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les adverbes de lieu",
+     "Les adverbes de temps"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Orthographe lexicale": {
+    "classe": "6e",
+    "titre_officiel": "Orthographe lexicale",
+    "theme": "Compétence 5 : Traiter des situations relatives à l'orthographe correcte des mots",
+    "contenus": [
+     "Les accents, l'apostrophe et l'élision",
+     "Les homophones",
+     "La notion d'homophone",
+     "Les adverbes en « ment »"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "6e · Orthographe grammaticale": {
+    "classe": "6e",
+    "titre_officiel": "Orthographe grammaticale",
+    "theme": "Compétence 5 : Traiter des situations relatives à l'orthographe correcte des mots",
+    "contenus": [
+     "L'accord du verbe précédé des pronoms le/la/les/l'",
+     "L'orthographe de leur (pronom personnel) et leur (adjectif possessif)",
+     "L'accord du participe passé avec avoir ou être",
+     "Les règles d'écriture de ces outils grammaticaux"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "5e · L'exposé oral I": {
+    "classe": "5e",
+    "titre_officiel": "L'exposé oral I",
+    "theme": "Compétence 1 : Traiter des situations relatives à la production des énoncés oraux",
+    "contenus": [
+     "La technique de l'exposé oral",
+     "Les éléments d'informations relatifs au thème",
+     "Les idées relatives au thème",
+     "Un vocabulaire approprié",
+     "Les types et formes de phrases",
+     "Le registre de langue au contexte de communication"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · L'exposé oral II": {
+    "classe": "5e",
+    "titre_officiel": "L'exposé oral II",
+    "theme": "Compétence 1 : Traiter des situations relatives à la production des énoncés oraux",
+    "contenus": [
+     "Les éléments constitutifs d'un compte rendu oral de lecture",
+     "Un vocabulaire approprié",
+     "Les types et formes de phrases",
+     "Le registre de langue au contexte de communication",
+     "Les documents",
+     "Un compte rendu oral de lecture d'un document"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · L'œuvre intégrale": {
+    "classe": "5e",
+    "titre_officiel": "L'œuvre intégrale",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "L'auteur et son œuvre",
+     "L'œuvre dans son contexte",
+     "L'axe d'étude",
+     "Des hypothèses de lecture",
+     "Les personnages et les thèmes majeurs",
+     "Les figures de style pertinentes",
+     "La portée de l'œuvre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le portrait": {
+    "classe": "5e",
+    "titre_officiel": "Le portrait",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Les techniques du portrait",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de styles pertinentes",
+     "Les indices textuels relevés",
+     "Le lexique lié au thème",
+     "Un portrait",
+     "Le sujet du portrait",
+     "Les idées",
+     "Le champ lexical approprié"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le texte descriptif": {
+    "classe": "5e",
+    "titre_officiel": "Le texte descriptif",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Le type de texte",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de styles pertinentes",
+     "La technique descriptive utilisée",
+     "La démarche de la lecture méthodique"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le poème en vers libres": {
+    "classe": "5e",
+    "titre_officiel": "Le poème en vers libres",
+    "theme": "Compétence 2 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Les éléments de versification",
+     "Les procédés de rhétorique usuels",
+     "Les images élaborées",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les indices textuels relevés",
+     "Un poème en vers libres",
+     "Le sujet du poème",
+     "Les idées",
+     "Le champ lexical propre au thème du poème"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · La description": {
+    "classe": "5e",
+    "titre_officiel": "La description",
+    "theme": "Compétence 3: Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "Le lieu à décrire",
+     "Le lexique lié au lieu décrit",
+     "Les différentes composantes du lieu à décrire",
+     "Les informations sur les différentes parties du lieu",
+     "Les outils grammaticaux appropriés",
+     "Les caractéristiques de la description"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le compte rendu de lecture": {
+    "classe": "5e",
+    "titre_officiel": "Le compte rendu de lecture",
+    "theme": "Compétence 3: Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "La technique d'un compte rendu écrit de lecture",
+     "L'œuvre lue",
+     "Le lexique approprié",
+     "Les outils grammaticaux",
+     "Le registre de langue standard",
+     "Les caractéristiques d'un compte rendu écrit de lecture"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le Groupe Nominal": {
+    "classe": "5e",
+    "titre_officiel": "Le Groupe Nominal",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les expansions du Groupe Nominal",
+     "Le pluriel des noms simples et des noms composés",
+     "Les différents déterminants du nom"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le groupe adjectif": {
+    "classe": "5e",
+    "titre_officiel": "Le groupe adjectif",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "La morphologie des adjectifs",
+     "Les trois fonctions de l'adjectif",
+     "Les degrés de comparaison",
+     "L'expansion de l'adjectif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · La pronominalisation": {
+    "classe": "5e",
+    "titre_officiel": "La pronominalisation",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "Les différents pronoms personnels",
+     "Les pronoms adverbiaux",
+     "Les fonctions des pronoms personnels",
+     "La notion de pronominalisation",
+     "Le processus de pronominalisation",
+     "Les pronoms appropriés"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Le verbe : formes et emplois": {
+    "classe": "5e",
+    "titre_officiel": "Le verbe : formes et emplois",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "La morphologie des verbes irréguliers",
+     "Les valeurs des temps verbaux simples et composés",
+     "La transformation passive",
+     "La tournure pronominale",
+     "La tournure impersonnelle",
+     "Les temps simples et les temps composés"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · De la phrase simple à la phrase complexe": {
+    "classe": "5e",
+    "titre_officiel": "De la phrase simple à la phrase complexe",
+    "theme": "Compétence 4 : Traiter des situations relatives à l'utilisation des outils grammaticaux divers",
+    "contenus": [
+     "La phrase simple",
+     "La phrase complexe",
+     "La proposition subordonnée relative",
+     "La proposition subordonnée complétive",
+     "La fonction de la relative",
+     "La fonction de la complétive"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Orthographe lexicale": {
+    "classe": "5e",
+    "titre_officiel": "Orthographe lexicale",
+    "theme": "Compétence 5 : Traiter des situations relatives à l'orthographe correcte des mots",
+    "contenus": [
+     "Les mots dérivés",
+     "La notion de dérivation",
+     "Les règles de la dérivation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "5e · Orthographe grammaticale": {
+    "classe": "5e",
+    "titre_officiel": "Orthographe grammaticale",
+    "theme": "Compétence 5 : Traiter des situations relatives à l'orthographe correcte des mots",
+    "contenus": [
+     "La différence entre « on » et « ont »",
+     "La différence entre adjectif verbal et participe présent",
+     "L'accord de l'adjectif simple ou composé de couleur",
+     "L'orthographe des adjectifs et adverbes « nu, mi, demi, semi »",
+     "La formation des adverbes à partir des adjectifs correspondants"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "4e · Le débat I": {
+    "classe": "4e",
+    "titre_officiel": "Le débat I",
+    "theme": "Expression orale",
+    "contenus": [
+     "Identifier le thème du débat",
+     "Connaître la technique du débat",
+     "Introduire le débat",
+     "Présenter les participants",
+     "Rechercher des idées sur le thème",
+     "Employer le lexique lié au thème",
+     "Utiliser le registre de langue approprié",
+     "Organiser les interventions"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le débat II": {
+    "classe": "4e",
+    "titre_officiel": "Le débat II",
+    "theme": "Expression orale",
+    "contenus": [
+     "Identifier le thème du débat",
+     "Se documenter sur le thème du débat",
+     "Interagir dans un débat",
+     "Formuler les types et formes de phrases appropriés",
+     "Employer le lexique lié au thème",
+     "Utiliser le registre de langue approprié",
+     "Prononcer les phrases correctement",
+     "Manifester une capacité d'écoute"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · L'œuvre intégrale": {
+    "classe": "4e",
+    "titre_officiel": "L'œuvre intégrale",
+    "theme": "Lecture",
+    "contenus": [
+     "L'auteur et son œuvre",
+     "L'œuvre dans son contexte",
+     "L'axe d'étude",
+     "Des hypothèses de lecture",
+     "Les figures de style pertinentes",
+     "Les thèmes étudiés",
+     "La portée de l'œuvre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le texte explicatif": {
+    "classe": "4e",
+    "titre_officiel": "Le texte explicatif",
+    "theme": "Lecture",
+    "contenus": [
+     "Le phénomène naturel",
+     "Le fait socio-culturel",
+     "Les outils de la langue pertinents",
+     "Les champs lexicaux liés au thème",
+     "Analyser les indices textuels relevés",
+     "Interpréter les indices textuels relevés",
+     "Appliquer la démarche de la lecture méthodique",
+     "Le fait socioculturel à expliquer",
+     "Le phénomène naturel à expliquer",
+     "Organiser les informations relevées"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le dialogue argumentatif": {
+    "classe": "4e",
+    "titre_officiel": "Le dialogue argumentatif",
+    "theme": "Lecture",
+    "contenus": [
+     "Le thème du texte",
+     "Les thèses en présence",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les figures de style pertinentes",
+     "La structure du texte",
+     "Appliquer la démarche de la lecture méthodique",
+     "Le thème sur lequel porte le dialogue",
+     "La thèse à développer",
+     "Rechercher les idées"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le compte rendu de réunion": {
+    "classe": "4e",
+    "titre_officiel": "Le compte rendu de réunion",
+    "theme": "Expression écrite",
+    "contenus": [
+     "L'objet de la réunion",
+     "Les informations essentielles abordées",
+     "Organiser les informations relevées",
+     "Le lexique lié au thème",
+     "Les outils de la langue appropriés",
+     "Les caractéristiques du compte rendu de réunion"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · La lettre officielle": {
+    "classe": "4e",
+    "titre_officiel": "La lettre officielle",
+    "theme": "Expression écrite",
+    "contenus": [
+     "L'objet de la lettre officielle à rédiger",
+     "Les outils lexicaux appropriés",
+     "Le registre de langue soutenu",
+     "Les tournures officielles, administratives",
+     "Les caractéristiques de la lettre officielle"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le résumé du texte informatif": {
+    "classe": "4e",
+    "titre_officiel": "Le résumé du texte informatif",
+    "theme": "Expression écrite",
+    "contenus": [
+     "Le thème du texte à résumer",
+     "La ou les thèse(s) du texte à résumer",
+     "Les idées essentielles du texte",
+     "Reformuler les idées essentielles",
+     "Un enchaînement logique entre les idées",
+     "Les contraintes du résumé"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le Groupe Nominal": {
+    "classe": "4e",
+    "titre_officiel": "Le Groupe Nominal",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les expansions du groupe nominal",
+     "Le déterminant zéro",
+     "Les constituants du groupe nominal"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · La pronominalisation": {
+    "classe": "4e",
+    "titre_officiel": "La pronominalisation",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les différents pronoms personnels",
+     "Les pronoms démonstratifs et les pronoms possessifs",
+     "Les pronoms interrogatifs",
+     "Les pronoms indéfinis",
+     "Le fonctionnement de la pronominalisation",
+     "La notion de pronominalisation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Le verbe : formes et emplois": {
+    "classe": "4e",
+    "titre_officiel": "Le verbe : formes et emplois",
+    "theme": "Grammaire",
+    "contenus": [
+     "La morphologie des verbes du 3e groupe",
+     "Les modalités verbales de l'indicatif",
+     "Les emplois des auxiliaires « avoir » et « être »",
+     "Les emplois des semi-auxiliaires",
+     "Le conditionnel",
+     "Le mode subjonctif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Étude de quelques propositions subordonnées": {
+    "classe": "4e",
+    "titre_officiel": "Étude de quelques propositions subordonnées",
+    "theme": "Grammaire",
+    "contenus": [
+     "La proposition subordonnée relative",
+     "La proposition subordonnée complétive",
+     "Les propositions subordonnées circonstancielles de cause, de conséquence, de but, de temps",
+     "La transformation relative",
+     "La transformation complétive",
+     "Les fonctions des propositions subordonnées"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Orthographe lexicale": {
+    "classe": "4e",
+    "titre_officiel": "Orthographe lexicale",
+    "theme": "Orthographe",
+    "contenus": [
+     "La formation des mots par composition",
+     "Les consonnes finales muettes",
+     "Les consonnes doubles",
+     "Les notions de composition et de dérivation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "4e · Orthographe grammaticale": {
+    "classe": "4e",
+    "titre_officiel": "Orthographe grammaticale",
+    "theme": "Orthographe",
+    "contenus": [
+     "L'accord du verbe avec le sujet dont le déterminant est : beaucoup, assez, peu",
+     "Les homophones grammaticaux : quand/qu'en/quant (à, aux)",
+     "Les homophones grammaticaux : plus tôt/plutôt/aussi tôt/aussitôt",
+     "La notion d'homophone"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "3e · Le dialogue oral": {
+    "classe": "3e",
+    "titre_officiel": "Le dialogue oral",
+    "theme": "Expression Orale",
+    "contenus": [
+     "Le sujet du dialogue",
+     "La conversation",
+     "Des types et formes de phrases appropriés",
+     "Le registre de langue standard et / ou soutenu",
+     "Les phrases correctement",
+     "La technique du dialogue oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'exposé oral": {
+    "classe": "3e",
+    "titre_officiel": "L'exposé oral",
+    "theme": "Expression Orale",
+    "contenus": [
+     "Le thème de l'exposé",
+     "Des informations sur le thème de l'exposé",
+     "Les informations relevées",
+     "Le lexique lié au thème",
+     "Le registre de langue standard et/ou soutenu",
+     "Un exposé oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le débat": {
+    "classe": "3e",
+    "titre_officiel": "Le débat",
+    "theme": "Expression Orale",
+    "contenus": [
+     "Le thème du débat",
+     "Le débat",
+     "Les participants",
+     "Des idées sur le thème",
+     "Le lexique lié au thème",
+     "Les interventions",
+     "Un débat"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'œuvre intégrale": {
+    "classe": "3e",
+    "titre_officiel": "L'œuvre intégrale",
+    "theme": "Lecture",
+    "contenus": [
+     "L'auteur et son œuvre",
+     "L'œuvre dans son contexte",
+     "L'axe d'étude",
+     "Le fil conducteur (Lecture dirigée)",
+     "Les figures de style pertinentes",
+     "Les thèmes étudiés",
+     "La portée de l'œuvre"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le texte argumentatif": {
+    "classe": "3e",
+    "titre_officiel": "Le texte argumentatif",
+    "theme": "Lecture",
+    "contenus": [
+     "Le thème du texte",
+     "La ou les thèse(s) en présence",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "La structure du texte",
+     "La démarche de la lecture méthodique"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'article de journal": {
+    "classe": "3e",
+    "titre_officiel": "L'article de journal",
+    "theme": "Lecture",
+    "contenus": [
+     "Le thème du texte",
+     "Les outils grammaticaux pertinents",
+     "Les indices lexicaux pertinents",
+     "Les procédés de rhétorique",
+     "Les indices textuels relevés",
+     "La démarche de la lecture méthodique"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le texte argumentatif I": {
+    "classe": "3e",
+    "titre_officiel": "Le texte argumentatif I",
+    "theme": "Expression Écrite",
+    "contenus": [
+     "Le thème du sujet",
+     "La thèse à étayer",
+     "Les idées sur la thèse à étayer",
+     "Les idées et les arguments",
+     "Le lexique spécifique au thème",
+     "Les procédés de rhétorique",
+     "Les caractéristiques du texte argumentatif pour étayer un point de vue"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le texte argumentatif II": {
+    "classe": "3e",
+    "titre_officiel": "Le texte argumentatif II",
+    "theme": "Expression Écrite",
+    "contenus": [
+     "Le thème du sujet",
+     "La thèse à réfuter",
+     "Les idées sur la thèse à réfuter",
+     "Les idées et les arguments",
+     "Les outils grammaticaux appropriés",
+     "Les procédés de rhétorique",
+     "Les caractéristiques du texte argumentatif pour réfuter un point de vue"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le résumé du texte argumentatif": {
+    "classe": "3e",
+    "titre_officiel": "Le résumé du texte argumentatif",
+    "theme": "Expression Écrite",
+    "contenus": [
+     "Le thème du texte à résumer",
+     "La ou les thèse (s) du texte à résumer",
+     "Les idées essentielles contenues dans le texte",
+     "Un enchaînement logique entre les idées",
+     "Les contraintes du résumé"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'article de journal I": {
+    "classe": "3e",
+    "titre_officiel": "L'article de journal I",
+    "theme": "Expression Écrite",
+    "contenus": [
+     "Le fait divers,",
+     "La position du journaliste",
+     "Les circonstances du fait divers",
+     "Le vocabulaire relatif au sujet",
+     "Les outils de langue appropriés",
+     "La tonalité appropriée",
+     "Les caractéristiques de l'article de journal dont on a été témoin"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'article de journal II": {
+    "classe": "3e",
+    "titre_officiel": "L'article de journal II",
+    "theme": "Expression Écrite",
+    "contenus": [
+     "Le thème du texte",
+     "Le fait divers",
+     "La position du journaliste",
+     "Les informations sur le fait",
+     "Le vocabulaire relatif au sujet",
+     "La tonalité appropriée",
+     "Les caractéristiques de l'article de journal"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · La communication": {
+    "classe": "3e",
+    "titre_officiel": "La communication",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les types de communication",
+     "Le schéma de la communication",
+     "Les marques de l'oral et de l'écrit",
+     "Les registres de langue",
+     "Les modalités du discours"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le Groupe Nominal : la pronominalisation": {
+    "classe": "3e",
+    "titre_officiel": "Le Groupe Nominal : la pronominalisation",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les différents pronoms",
+     "Le fonctionnement de la pronominalisation",
+     "La notion de pronominalisation",
+     "La pronominalisation"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'adverbe et le groupe adverbial": {
+    "classe": "3e",
+    "titre_officiel": "L'adverbe et le groupe adverbial",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les adverbes selon leur morphologie",
+     "Le groupe adverbial",
+     "Les degrés de l'adverbe",
+     "Les fonctions des adverbes",
+     "La notion de degrés adverbiaux",
+     "Les adverbes appropriés en contexte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Le verbe : L'infinitif et le participe": {
+    "classe": "3e",
+    "titre_officiel": "Le verbe : L'infinitif et le participe",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les temps du mode infinitif",
+     "Les temps du mode participe",
+     "Les valeurs et fonctions du mode infinitif",
+     "Les emplois du mode infinitif",
+     "Les emplois du participe passé",
+     "Le participe passé et le participe présent"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · La coordination": {
+    "classe": "3e",
+    "titre_officiel": "La coordination",
+    "theme": "Grammaire",
+    "contenus": [
+     "Les conjonctions de coordinations",
+     "Les éléments coordonnés",
+     "La notion de coordination",
+     "Les valeurs des conjonctions de coordination",
+     "Les conjonctions de coordination"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · L'expression des circonstances dans la phrase simple / complexe": {
+    "classe": "3e",
+    "titre_officiel": "L'expression des circonstances dans la phrase simple / complexe",
+    "theme": "Grammaire",
+    "contenus": [
+     "L'expression des circonstances dans la phrase simple : cause, conséquence, but, temps, comparaison, condition, opposition",
+     "L'expression des circonstances dans la phrase complexe : cause, conséquence, but, temps, comparaison, condition, opposition",
+     "Les valeurs d'emploi des subordonnants",
+     "Les modes dans les propositions subordonnées circonstancielles",
+     "Les circonstances dans la phrase simple",
+     "Les circonstances dans la phrase complexe"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Orthographe lexicale": {
+    "classe": "3e",
+    "titre_officiel": "Orthographe lexicale",
+    "theme": "Orthographe",
+    "contenus": [
+     "La formation de l'adjectif verbal et du participe présent de certains verbes",
+     "Les homophones non homographes",
+     "Les paronymes",
+     "Le procédé de formation de l'adjectif verbal et du participe présent",
+     "La structure des homophones non homographes",
+     "L'adjectif verbal et le participe présent en contexte"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   },
+   "3e · Orthographe grammaticale": {
+    "classe": "3e",
+    "titre_officiel": "Orthographe grammaticale",
+    "theme": "Orthographe",
+    "contenus": [
+     "L'accord de : même, tout, tel",
+     "L'accord de l'adjectif qualificatif (en insistant sur un cas particulier : le masculin dans une énumération)",
+     "L'accord des participes passés employés avec ‘‘Avoir'' et précédés de « en »",
+     "L'accord des verbes pronominaux"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "SVT",
-    "chapitres": ["Les ressources énergétiques", "La gestion des sols", "La reproduction chez l'Homme", "La transmission des caractères héréditaires", "Le métabolisme énergétique et l'activité musculaire", "La défense de l'organisme et son dysfonctionnement", "La communication dans l'organisme (communication nerveuse)"],
-    "source": "dpfc-ci.net"
+  "sources_programmes": {
+   "6e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf"
+   },
+   "5e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf"
+   },
+   "4e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf"
+   },
+   "3e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Histoire-Geographie",
-    "chapitres": ["Les relations internationales de 1945 à nos jours (ONU, bipolarisation, monde multipolaire)", "De la décolonisation aux efforts d'organisation (nationalismes africains, indépendances CI et Algérie, Union Africaine)", "Les croyances et valeurs dans le monde d'aujourd'hui", "Les fondements du développement économique de la Côte d'Ivoire", "Les secteurs d'activités économiques de la Côte d'Ivoire", "Les problèmes de développement économique de la Côte d'Ivoire", "L'économie de la France", "La Corée du Sud, puissance émergente", "La CEDEAO", "Les relations UE/ACP"],
-    "source": "dpfc-ci.net"
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Francais",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "2nde · Étude d'un Groupement de Textes (GT) poétiques de littérature africaine ou étrangère",
+   "2nde · La communication",
+   "2nde · La versification",
+   "2nde · L'implicite",
+   "2nde · Utilisation d'un document écrit",
+   "2nde · Les techniques de communication",
+   "2nde · Resume du texte argumentatif",
+   "1ère · Étude d'un Groupement de Textes (GT) romanesques de littérature africaine ou étrangère",
+   "1ère · L'implicite",
+   "1ère · Lecture des consignes et élaboration de plan",
+   "1ère · Initiation à la lecture méthodique dans le cadre de la préparation à l'oral du Baccalauréat",
+   "1ère · Resume du texte argumentatif",
+   "Tle · Étude d'un Groupement de Textes (GT) théâtraux africains ou français",
+   "Tle · Leçon 3 (uniquement pour la série A) : Étude d'une œuvre intégrale poétique en littérature africaine ou étrangère",
+   "Tle · Préparation à l'Oral du Baccalauréat",
+   "Tle · Resume du texte argumentatif"
+  ],
+  "details": {
+   "2nde · Étude d'un Groupement de Textes (GT) poétiques de littérature africaine ou étrangère": {
+    "classe": "2nde",
+    "titre_officiel": "Étude d'un Groupement de Textes (GT) poétiques de littérature africaine ou étrangère",
+    "theme": "Compétence 1 : Traiter des situations relatives à la construction du sens de textes divers. (Activité : Lecture)",
+    "contenus": [
+     "Le genre poétique",
+     "Les poèmes à forme fixe",
+     "Les poèmes en vers libres",
+     "La structure du poème",
+     "Les éléments de versification",
+     "Les figures de style pertinentes",
+     "L'axe d'étude du groupement de textes"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · La communication": {
+    "classe": "2nde",
+    "titre_officiel": "La communication",
+    "theme": "Compétence 2 : Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "Les fonctions du langage"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · La versification": {
+    "classe": "2nde",
+    "titre_officiel": "La versification",
+    "theme": "Compétence 2 : Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "Les différents types de vers",
+     "Les différents types de strophes",
+     "La rime et la disposition des rimes",
+     "L'unité sonore (allitération, assonance, hiatus)",
+     "Le rythme (enjambement, rejet, contre-rejet)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · L'implicite": {
+    "classe": "2nde",
+    "titre_officiel": "L'implicite",
+    "theme": "Compétence 2 : Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "Le présupposé",
+     "Le sous-entendu"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · Utilisation d'un document écrit": {
+    "classe": "2nde",
+    "titre_officiel": "Utilisation d'un document écrit",
+    "theme": "Compétence 2 : Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "La nature d'un document écrit (Journal, Manuel, Revue, dictionnaire, etc.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · Les techniques de communication": {
+    "classe": "2nde",
+    "titre_officiel": "Les techniques de communication",
+    "theme": "Compétence 2 : Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "La prise de notes à partir d'un énoncé oral"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "2nde · Resume du texte argumentatif": {
+    "classe": "2nde",
+    "titre_officiel": "Resume du texte argumentatif",
+    "theme": "Compétence 3 : Traiter des situations relatives à la rédaction des écrits divers. (Activité : Expression écrite)",
+    "contenus": [
+     "Répondre aux consignes / questions",
+     "Identifier la situation d'argumentation",
+     "Sélectionner les idées essentielles",
+     "Reformuler les idées essentielles",
+     "Rédiger le résumé",
+     "Analyser le sujet et rechercher les idées",
+     "Rédiger un paragraphe argumentatif",
+     "Rédiger l'introduction et la conclusion"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "1ère · Étude d'un Groupement de Textes (GT) romanesques de littérature africaine ou étrangère": {
+    "classe": "1ère",
+    "titre_officiel": "Étude d'un Groupement de Textes (GT) romanesques de littérature africaine ou étrangère",
+    "theme": "Compétence 1 : Traiter des situations relatives à la construction du sens de textes divers",
+    "contenus": [
+     "Le personnage dans un roman",
+     "L'espace dans un roman",
+     "Le temps dans un roman",
+     "Les modes de narration",
+     "Roman historique",
+     "Roman autobiographique (à pacte fictif ou réel)",
+     "Roman d'analyse",
+     "Nouveau roman"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "1ère · L'implicite": {
+    "classe": "1ère",
+    "titre_officiel": "L'implicite",
+    "theme": "Compétence 2: Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire",
+    "contenus": [
+     "Le présupposé",
+     "Le sous-entendu"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "1ère · Lecture des consignes et élaboration de plan": {
+    "classe": "1ère",
+    "titre_officiel": "Lecture des consignes et élaboration de plan",
+    "theme": "Compétence 2: Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire",
+    "contenus": [
+     "L'information",
+     "Les consignes/questions",
+     "Les mots-clés de la partie information du sujet",
+     "Le verbe de la consigne",
+     "Les types de plan à partir du verbe de la consigne",
+     "Recherche des idées",
+     "Organisation des idées par domaine"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "1ère · Initiation à la lecture méthodique dans le cadre de la préparation à l'oral du Baccalauréat": {
+    "classe": "1ère",
+    "titre_officiel": "Initiation à la lecture méthodique dans le cadre de la préparation à l'oral du Baccalauréat",
+    "theme": "Compétence 2: Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire",
+    "contenus": [
+     "L'hypothèse générale : le thème, le type, la tonalité",
+     "Les axes de lecture",
+     "Les entrées pertinentes",
+     "La démarche de la Lecture méthodique"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "1ère · Resume du texte argumentatif": {
+    "classe": "1ère",
+    "titre_officiel": "Resume du texte argumentatif",
+    "theme": "Compétence 3 : Traiter des situations relatives à la rédaction des écrits divers",
+    "contenus": [
+     "Le thème",
+     "La ou les thèses en présences",
+     "Les indices d'énonciation",
+     "Les connecteurs logiques",
+     "La structure du texte",
+     "Les techniques de réduction de texte",
+     "Les synonymes et les mots englobants",
+     "Les composantes d'un paragraphe argumentatif"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "Tle · Étude d'un Groupement de Textes (GT) théâtraux africains ou français": {
+    "classe": "Tle",
+    "titre_officiel": "Étude d'un Groupement de Textes (GT) théâtraux africains ou français",
+    "theme": "Compétence 1 : Traiter des situations relatives à la construction du sens de textes divers. (Activité : Lecture)",
+    "contenus": [
+     "La comédie, la tragédie, le drame (le drame bourgeois, le drame romantique)",
+     "La progression de l'intrigue",
+     "Le schéma actantiel",
+     "Le drame moderne et le théâtre de l'absurde"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf"
+   },
+   "Tle · Leçon 3 (uniquement pour la série A) : Étude d'une œuvre intégrale poétique en littérature africaine ou étrangère": {
+    "classe": "Tle",
+    "titre_officiel": "Leçon 3 (uniquement pour la série A) : Étude d'une œuvre intégrale poétique en littérature africaine ou étrangère",
+    "theme": "Compétence 1 : Traiter des situations relatives à la construction du sens de textes divers. (Activité : Lecture)",
+    "contenus": [
+     "La poésie lyrique",
+     "La poésie épique",
+     "La poésie didactique",
+     "La poésie satirique",
+     "La poésie parnassienne (l'art pour l'art)",
+     "La poésie engagée"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf"
+   },
+   "Tle · Préparation à l'Oral du Baccalauréat": {
+    "classe": "Tle",
+    "titre_officiel": "Préparation à l'Oral du Baccalauréat",
+    "theme": "Compétence 2: Traiter des situations relatives à l'utilisation d'outils de la langue et au savoir-faire. (Activité : Perfectionnement de la langue et savoir – faire)",
+    "contenus": [
+     "L'hypothèse générale",
+     "Le thème du texte",
+     "Le type",
+     "Le genre",
+     "La tonalité du texte",
+     "Les axes de lecture",
+     "Les entrées pertinentes"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf"
+   },
+   "Tle · Resume du texte argumentatif": {
+    "classe": "Tle",
+    "titre_officiel": "Resume du texte argumentatif",
+    "theme": "Compétence 3 : Traiter des situations relatives à la rédaction des écrits divers. (Activité : Expression écrite)",
+    "contenus": [
+     "La situation d'argumentation",
+     "La structure du texte",
+     "Les connecteurs logiques",
+     "La visée argumentative",
+     "Les techniques de réduction de texte",
+     "Les synonymes et les mots englobants",
+     "La technique du résumé",
+     "La technique de la production écrite"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf"
+   }
   },
-  {
-    "pays": "cote_ivoire", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Francais",
-    "chapitres": ["Étude d'une œuvre intégrale narrative (littérature africaine ou étrangère)", "Étude d'un groupement de textes théâtraux", "Étude d'une œuvre intégrale poétique (série A)", "L'énonciation", "Les outils de l'argumentation", "La sémantique", "La focalisation", "Les tonalités littéraires", "Les figures de style", "Les valeurs des temps verbaux", "Le rythme dans le texte poétique et la prose", "Le commentaire composé", "La dissertation littéraire"],
-    "source": "dpfc-ci.net"
+  "sources_programmes": {
+   "2nde": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf"
+   },
+   "1ère": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf"
+   },
+   "Tle": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf"
+   }
   },
-  {
-    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SE", "matiere": "Mathematiques",
-    "chapitres": ["Arithmétique", "Étude de fonctions numériques d'une variable réelle", "Étude des suites numériques", "Calcul intégral et équations différentielles", "Étude des nombres complexes", "Calculs barycentriques", "Étude des applications affines du plan et de l'espace", "Notions sur les coniques", "Notion de probabilité"],
-    "source": "bkalan.ml (API pédagogique)"
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Allemand",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "4e · Willkommen In Afrika",
+   "4e · In Der Schule",
+   "4e · Herzlichen Glückwunsch",
+   "4e · Probier Mal",
+   "4e · Gute Besserung",
+   "4e · Besuch Im Dorf",
+   "4e · Unser Deutschclub",
+   "4e · Schönes Wochenende",
+   "3e · Les préparatifs d'un voyage",
+   "3e · Un séjour dans une famille allemande",
+   "3e · Jugendliche In Deutschland",
+   "3e · Auf Nach Köln",
+   "3e · Afrika In Deutschland",
+   "3e · Besuch In Berlin"
+  ],
+  "details": {
+   "4e · Willkommen In Afrika": {
+    "classe": "4e",
+    "titre_officiel": "Willkommen In Afrika",
+    "theme": "Bienvenue en Afrique — Leçon 1 : premiers contacts (civilités)",
+    "contenus": [
+     "Les mots et expressions relatifs aux échanges de civilités",
+     "Les structures grammaticales s'y rapportant",
+     "La formule appropriée",
+     "Les civilités (se saluer, se présenter, s'informer etc.)",
+     "Phrases simples",
+     "Phrases élaborées contenant des connecteurs logiques (und, denn, dass, etc.)"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · In Der Schule": {
+    "classe": "4e",
+    "titre_officiel": "In Der Schule",
+    "theme": "L'école — Leçon 2 : l'emploi du temps et les activités de classes",
+    "contenus": [
+     "Les mots et expressions relatifs aux matières scolaires, aux activités de classes et à l'emploi du temps",
+     "Les structures grammaticales s'y rapportant",
+     "Présenter son emploi du temps",
+     "Parler des activités de classes",
+     "Parler de ses matières préférées",
+     "Sur les matières scolaires"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Herzlichen Glückwunsch": {
+    "classe": "4e",
+    "titre_officiel": "Herzlichen Glückwunsch",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Probier Mal": {
+    "classe": "4e",
+    "titre_officiel": "Probier Mal",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Gute Besserung": {
+    "classe": "4e",
+    "titre_officiel": "Gute Besserung",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Besuch Im Dorf": {
+    "classe": "4e",
+    "titre_officiel": "Besuch Im Dorf",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Unser Deutschclub": {
+    "classe": "4e",
+    "titre_officiel": "Unser Deutschclub",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "4e · Schönes Wochenende": {
+    "classe": "4e",
+    "titre_officiel": "Schönes Wochenende",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "3e · Les préparatifs d'un voyage": {
+    "classe": "3e",
+    "titre_officiel": "Les préparatifs d'un voyage",
+    "theme": "Thème : les voyages — Leçon 1",
+    "contenus": [
+     "Les mots et expressions relatifs aux préparatifs d'un voyage",
+     "Les mots et expressions pour exprimer son impatience, ses souhaits",
+     "Les structures grammaticales s'y rapportant",
+     "La formule appropriée pour préparer un voyage"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   },
+   "3e · Un séjour dans une famille allemande": {
+    "classe": "3e",
+    "titre_officiel": "Un séjour dans une famille allemande",
+    "theme": "Thème : la famille — Leçon 2",
+    "contenus": [
+     "Les mots et expressions relatifs à la vie en famille, à la comparaison et aux impressions de voyage",
+     "Les structures grammaticales s'y rapportant",
+     "Présenter les membres d'une famille",
+     "Comparer la vie de famille en Allemagne avec celle de l'Afrique",
+     "Donner ses impressions de voyage"
+    ],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   },
+   "3e · Jugendliche In Deutschland": {
+    "classe": "3e",
+    "titre_officiel": "Jugendliche In Deutschland",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   },
+   "3e · Auf Nach Köln": {
+    "classe": "3e",
+    "titre_officiel": "Auf Nach Köln",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   },
+   "3e · Afrika In Deutschland": {
+    "classe": "3e",
+    "titre_officiel": "Afrika In Deutschland",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   },
+   "3e · Besuch In Berlin": {
+    "classe": "3e",
+    "titre_officiel": "Besuch In Berlin",
+    "theme": "unité de la progression annuelle",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   }
   },
-  {
-    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SE", "matiere": "Physique-Chimie",
-    "chapitres": ["Mécanique et thermodynamique", "Induction électromagnétique et auto-induction", "Oscillateurs libres", "Oscillations forcées", "Optique physique", "Physique atomique et nucléaire", "Notion de stéréochimie", "Les alcools", "Les amines", "Les acides carboxyliques et fonctions dérivées", "Les acides α-aminés", "Les polymères synthétiques", "La cinétique chimique", "Les équilibres chimiques", "Produit ionique de l'eau / pH d'une solution aqueuse"],
-    "source": "bkalan.ml"
+  "sources_programmes": {
+   "4e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf"
+   },
+   "3e": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf"
+   }
   },
-  {
-    "pays": "mali", "niveau": "lycee", "examen": "Baccalaureat", "serie": "STI-STG", "matiere": "Philosophie",
-    "chapitres": ["Démocratie et violence", "Technique de la dissertation philosophique", "Science et technique", "Raison et croyance", "Technique de l'explication de texte", "Passions et désir"],
-    "source": "bkalan.ml"
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>"
+ },
+ {
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "matiere": "Allemand",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "2nde · École et formation",
+   "2nde · Maison, foyer et vie en famille",
+   "2nde · Jeunesse",
+   "2nde · Monde du travail et métiers",
+   "2nde · Sport",
+   "2nde · Santé et bien-être",
+   "2nde · Congés, loisirs et voyages",
+   "2nde · Culture, arts et médias",
+   "2nde · Société de consommation",
+   "2nde · Environnement",
+   "1ère · École et formation",
+   "1ère · Maison, foyer et vie en famille",
+   "1ère · Jeunesse",
+   "1ère · Monde du travail et métiers",
+   "1ère · Sport",
+   "1ère · Santé et bien-être",
+   "1ère · Congés, loisirs et voyages",
+   "1ère · Culture, arts et médias",
+   "1ère · Société de consommation",
+   "1ère · Environnement",
+   "Tle · L'environnement et sa sauvegarde",
+   "Tle · L'engagement de la jeunesse",
+   "Tle · La résolution pacifique des conflits",
+   "Tle · La consommation des stupéfiants et de l'alcool et leurs conséquences",
+   "Tle · Les problèmes liés à la jeunesse"
+  ],
+  "details": {
+   "2nde · École et formation": {
+    "classe": "2nde",
+    "titre_officiel": "École et formation",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Maison, foyer et vie en famille": {
+    "classe": "2nde",
+    "titre_officiel": "Maison, foyer et vie en famille",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Jeunesse": {
+    "classe": "2nde",
+    "titre_officiel": "Jeunesse",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Monde du travail et métiers": {
+    "classe": "2nde",
+    "titre_officiel": "Monde du travail et métiers",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Sport": {
+    "classe": "2nde",
+    "titre_officiel": "Sport",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Santé et bien-être": {
+    "classe": "2nde",
+    "titre_officiel": "Santé et bien-être",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Congés, loisirs et voyages": {
+    "classe": "2nde",
+    "titre_officiel": "Congés, loisirs et voyages",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Culture, arts et médias": {
+    "classe": "2nde",
+    "titre_officiel": "Culture, arts et médias",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Société de consommation": {
+    "classe": "2nde",
+    "titre_officiel": "Société de consommation",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "2nde · Environnement": {
+    "classe": "2nde",
+    "titre_officiel": "Environnement",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "1ère · École et formation": {
+    "classe": "1ère",
+    "titre_officiel": "École et formation",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Maison, foyer et vie en famille": {
+    "classe": "1ère",
+    "titre_officiel": "Maison, foyer et vie en famille",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Jeunesse": {
+    "classe": "1ère",
+    "titre_officiel": "Jeunesse",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Monde du travail et métiers": {
+    "classe": "1ère",
+    "titre_officiel": "Monde du travail et métiers",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Sport": {
+    "classe": "1ère",
+    "titre_officiel": "Sport",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Santé et bien-être": {
+    "classe": "1ère",
+    "titre_officiel": "Santé et bien-être",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Congés, loisirs et voyages": {
+    "classe": "1ère",
+    "titre_officiel": "Congés, loisirs et voyages",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Culture, arts et médias": {
+    "classe": "1ère",
+    "titre_officiel": "Culture, arts et médias",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Société de consommation": {
+    "classe": "1ère",
+    "titre_officiel": "Société de consommation",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "1ère · Environnement": {
+    "classe": "1ère",
+    "titre_officiel": "Environnement",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "Tle · L'environnement et sa sauvegarde": {
+    "classe": "Tle",
+    "titre_officiel": "L'environnement et sa sauvegarde",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   },
+   "Tle · L'engagement de la jeunesse": {
+    "classe": "Tle",
+    "titre_officiel": "L'engagement de la jeunesse",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   },
+   "Tle · La résolution pacifique des conflits": {
+    "classe": "Tle",
+    "titre_officiel": "La résolution pacifique des conflits",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   },
+   "Tle · La consommation des stupéfiants et de l'alcool et leurs conséquences": {
+    "classe": "Tle",
+    "titre_officiel": "La consommation des stupéfiants et de l'alcool et leurs conséquences",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   },
+   "Tle · Les problèmes liés à la jeunesse": {
+    "classe": "Tle",
+    "titre_officiel": "Les problèmes liés à la jeunesse",
+    "theme": "thème au programme",
+    "contenus": [],
+    "source_url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   }
   },
-  {
-    "pays": "burkina_faso", "niveau": "college", "examen": "BEPC", "matiere": "Mathematiques",
-    "chapitres": ["Vecteurs du plan et repère cartésien", "Nombres réels et racine carrée d'un réel positif", "Projection (rapport de projection, projection orthogonale)", "Triangle rectangle (Pythagore et réciproque, trigonométrie)", "Équations et inéquations du premier degré, puis systèmes", "Monômes et polynômes", "Théorème de Thalès et réciproque", "Repère orthonormal (distance, droites, parallélisme)", "Angles inscrits et angles au centre", "Fonctions et applications (rationnelles, affines)", "Positions relatives d'une droite et d'un cercle", "Isométries du plan", "Statistiques", "Sections de solides (Pythagore/Thalès dans l'espace)", "Logique / entraînement à la démonstration"],
-    "source": "DGREIP/MENAPLN — Curricula post-primaire 3e, Mathématiques, 2018"
+  "sources_programmes": {
+   "2nde": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf"
+   },
+   "1ère": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf"
+   },
+   "Tle": {
+    "programme": "Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle",
+    "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf"
+   }
   },
-  {
-    "pays": "burkina_faso", "niveau": "college", "examen": "BEPC", "matiere": "Francais",
-    "chapitres": ["Écrire une lettre privée et/ou officielle", "Produire un récit intégrant un dialogue et/ou un portrait", "Produire la scène antérieure d'un texte (récit)", "Réduire tout type de texte (résumé)", "Produire tout type d'argumentation", "Produire un texte de dialogue argumenté", "Lecture de textes longs (œuvre intégrale)"],
-    "source": "MENAPLN/DGREIP — Guide de l'enseignant, Le Français en 4e/3e"
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>"
+ },
+ {
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "matiere": "Anglais",
+  "serie": null,
+  "generateur": "langues",
+  "chapitres": [
+   "6e · At school",
+   "6e · Plans and activities",
+   "6e · Socialisation",
+   "6e · Description of people and things",
+   "6e · Possession",
+   "6e · Our health",
+   "6e · Child's rights and duties",
+   "6e · Cooking and food",
+   "6e · A visit in town",
+   "6e · Shopping",
+   "6e · At the farm and the zoo",
+   "5e · Schooling opportunities in Burkina Faso",
+   "5e · Child's rights and duties",
+   "5e · Environmental education",
+   "5e · Health and sanitation",
+   "5e · STIS and HIV/AIDS",
+   "5e · Citizenship",
+   "5e · Road safety",
+   "5e · Gender issues",
+   "5e · Jobs and activities",
+   "5e · Art and culture",
+   "5e · Information and communication technologies"
+  ],
+  "details": {
+   "6e · At school": {
+    "classe": "6e",
+    "titre_officiel": "At school",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Plans and activities": {
+    "classe": "6e",
+    "titre_officiel": "Plans and activities",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Socialisation": {
+    "classe": "6e",
+    "titre_officiel": "Socialisation",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Description of people and things": {
+    "classe": "6e",
+    "titre_officiel": "Description of people and things",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Possession": {
+    "classe": "6e",
+    "titre_officiel": "Possession",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Our health": {
+    "classe": "6e",
+    "titre_officiel": "Our health",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Child's rights and duties": {
+    "classe": "6e",
+    "titre_officiel": "Child's rights and duties",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Cooking and food": {
+    "classe": "6e",
+    "titre_officiel": "Cooking and food",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · A visit in town": {
+    "classe": "6e",
+    "titre_officiel": "A visit in town",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · Shopping": {
+    "classe": "6e",
+    "titre_officiel": "Shopping",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "6e · At the farm and the zoo": {
+    "classe": "6e",
+    "titre_officiel": "At the farm and the zoo",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Schooling opportunities in Burkina Faso": {
+    "classe": "5e",
+    "titre_officiel": "Schooling opportunities in Burkina Faso",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Child's rights and duties": {
+    "classe": "5e",
+    "titre_officiel": "Child's rights and duties",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Environmental education": {
+    "classe": "5e",
+    "titre_officiel": "Environmental education",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Health and sanitation": {
+    "classe": "5e",
+    "titre_officiel": "Health and sanitation",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · STIS and HIV/AIDS": {
+    "classe": "5e",
+    "titre_officiel": "STIS and HIV/AIDS",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Citizenship": {
+    "classe": "5e",
+    "titre_officiel": "Citizenship",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Road safety": {
+    "classe": "5e",
+    "titre_officiel": "Road safety",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Gender issues": {
+    "classe": "5e",
+    "titre_officiel": "Gender issues",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Jobs and activities": {
+    "classe": "5e",
+    "titre_officiel": "Jobs and activities",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Art and culture": {
+    "classe": "5e",
+    "titre_officiel": "Art and culture",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e · Information and communication technologies": {
+    "classe": "5e",
+    "titre_officiel": "Information and communication technologies",
+    "theme": "unité du guide officiel",
+    "contenus": [],
+    "source_url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   }
   },
-  {
-    "pays": "burkina_faso", "niveau": "lycee", "examen": "Baccalaureat", "matiere": "Philosophie",
-    "chapitres": ["Le bonheur", "La connaissance du vivant", "Le droit et la justice", "Le langage", "L'existence et la mort", "La liberté", "Logique et mathématiques", "Le temps", "La théorie et l'expérience", "La violence et la paix", "La conscience / l'inconscient", "Société et pouvoir", "L'État", "Autrui", "La personne", "L'histoire", "La religion", "L'art", "La nature et la culture", "L'irrationnel et le sens", "La vérité", "La technique"],
-    "source": "fasoeducation.bf (catalogue de cours) + Diotime n°46, 2010"
+  "sources_programmes": {
+   "6e": {
+    "programme": "Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e",
+    "url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   },
+   "5e": {
+    "programme": "Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e",
+    "url": "https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf"
+   }
   },
-  {
-    "pays": "burkina_faso", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C/D", "matiere": "Mathematiques",
-    "chapitres": ["Courbes paramétrées du plan", "Formules de Moivre et d'Euler", "Limite des fonctions numériques", "Dérivée de ln∘u et primitive de u'/u"],
-    "source": "fasoeducation.bf (catalogue de cours)"
-  },
-  {
-    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L1/L2", "matiere": "Mathematiques",
-    "chapitres": ["Algèbre : composition d'applications, factorisation de polynômes (méthode de Horner)", "Probabilités : dénombrement, équiprobabilité", "Statistique : ajustement linéaire, corrélation", "Analyse : limites-continuité, dérivabilité, étude de fonctions", "Fonction logarithme népérien", "Fonction exponentielle", "Suites numériques", "Calcul intégral"],
-    "source": "officedubac.sn — Programme_Maths-LS.pdf (officiel, 2006)"
-  },
-  {
-    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "S1/S3", "matiere": "Mathematiques",
-    "chapitres": ["Probabilités : variables aléatoires, loi binomiale, Bernoulli", "Nombres complexes : module, argument, formule de Moivre", "Arithmétique : PGCD/PPCM, congruences, systèmes de numération", "Suites numériques", "Fonctions numériques", "Calcul intégral", "Équations différentielles", "Géométrie plane : barycentres, similitudes", "Géométrie dans l'espace : produit vectoriel/mixte, transformations", "Courbes planes et coniques"],
-    "source": "officedubac.sn — Programme_Maths-LS.pdf"
-  },
-  {
-    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "S2/S4", "matiere": "Mathematiques",
-    "chapitres": ["Fonctions numériques, suites, calcul intégral, équations différentielles", "Statistiques à deux variables", "Probabilités, loi binomiale", "Nombres complexes", "Similitudes planes directes"],
-    "source": "officedubac.sn — Programme_Maths-LS.pdf"
-  },
-  {
-    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L", "matiere": "Philosophie",
-    "chapitres": ["La réflexion philosophique (origines, grandes interrogations, enjeux, idée d'une philosophie africaine)", "La vie sociale (nature et culture, individu et société, conscience et inconscient, la liberté, l'État)", "Épistémologie (émergence de la pensée scientifique, types de sciences, science et technique)", "Esthétique (représentation artistique, formes et fonctions de l'art)"],
-    "source": "officedubac.sn — Programme_Philosophie_Tle.pdf (Programme de Transition, 2006-08)"
-  },
-  {
-    "pays": "senegal", "niveau": "lycee", "examen": "Baccalaureat", "serie": "L1/L2/S1/S2", "matiere": "Francais",
-    "chapitres": ["Le Surréalisme (Apollinaire, Aragon, Éluard, Soupault, Desnos, Char, Césaire, Senghor, Depestre)", "Poésie — Boileau, Hugo, La Fontaine / Senghor, Damas, D. Diop", "Roman — Abbé Prévost, Camus / Kourouma, Hampâté Bâ", "Théâtre — Corneille, Hugo, Musset, Anouilh, Sartre, Beckett / Badian, Ndébéka, Dadié, Cheikh Aliou Ndao"],
-    "source": "officedubac.sn — Programme_Francais_Tle_LS.pdf (2009)"
-  },
-  {
-    "pays": "guinee", "niveau": "lycee", "examen": "Baccalaureat", "serie": "SM", "matiere": "Mathematiques",
-    "chapitres": ["Nombres complexes (module, arguments, représentation géométrique)", "Arithmétique (numération décimale/binaire, anneau ℤ, sous-groupes de ℤ)", "Applications (injections, surjections, bijections)", "Suites (récurrence, convergence, monotonie)", "Probabilités (dénombrement, formule du binôme, loi binomiale)", "Fonctions réelles (limites, continuité, dérivées, intégration, équations différentielles)", "Géométrie (angles inscrits/orientés, barycentres, isométries, similitudes, géométrie de l'espace, coniques)"],
-    "source": "Animathor.fr — résumé du programme Terminale SM Guinée"
-  },
-  {
-    "pays": "benin", "niveau": "lycee", "examen": "Baccalaureat", "serie": "C", "matiere": "Mathematiques",
-    "chapitres": ["Calcul vectoriel de l'espace (barycentre, produit vectoriel), applications affines de l'espace", "Arithmétique (anneaux, division euclidienne, systèmes de numération, divisibilité)", "Nombres complexes (forme algébrique, module/argument, formes trigonométrique/exponentielle, équations)", "Probabilités", "Limites et continuité", "Dérivabilité — étude de fonctions", "Primitives", "Fonction logarithme népérien", "Fonction exponentielle népérienne et fonctions exponentielles/puissances", "Calcul intégral", "Équations différentielles linéaires à coefficients constants", "Suites numériques", "Géométrie plane (barycentre de n points, isométries, applications affines, coniques, similitudes planes directes)"],
-    "source": "Document « Mathématiques Terminale C Bénin »"
-  },
-  {
-    "pays": "benin", "niveau": "lycee", "examen": "Baccalaureat", "serie": "A", "matiere": "Philosophie",
-    "chapitres": ["Séquence d'apprentissage 1 : L'homme et le monde", "Séquence d'apprentissage 2 : La connaissance scientifique"],
-    "source": "Résumé « Philosophie Terminale A Bénin Complet »"
-  },
-  {
-    "pays": "mali", "niveau": "college", "examen": "DEF", "matiere": "Mathematiques",
-    "chapitres": ["Ensemble des nombres réels ℝ", "Équation du premier degré à deux inconnues", "Système de deux équations du premier degré à deux inconnues (résolution graphique)", "Inéquation du premier degré à deux inconnues", "Système d'inéquations du premier degré à une et deux inconnues (résolution graphique)", "Fonction rationnelle (ensemble de définition, calcul de valeurs numériques)", "Trigonométrie (pratique)", "Translation", "Symétrie centrale", "Symétrie orthogonale", "Homothétie"],
-    "source": "POEM-SCEF (2011) — Programme Officiel de l'Enseignement des Mathématiques au Second Cycle de l'Enseignement Fondamental, Mali, cité dans Camara & Li Na (2019), European Journal of Education Studies"
-  },
-  {
-    "pays": "mali", "niveau": "college", "examen": "DEF", "matiere": "Histoire-Geographie",
-    "chapitres": ["La Révolution française de 1789 (causes, conséquences)", "Les progrès scientifiques et techniques du XIXe siècle", "La Première Guerre mondiale (contribution africaine)", "La colonisation et l'impérialisme européen en Afrique (causes, résistances)", "La Conférence de Berlin", "La décolonisation de l'Afrique (formes, facteurs)", "Le panafricanisme et la négritude", "L'ONU (création, objectifs, Conseil de sécurité)", "L'OUA (création, objectifs, organes)", "La République du Mali (les différentes républiques, l'indépendance de 1960, le 26 mars 1991)", "Le relief africain (hauts sommets)", "Les fleuves africains (régime, source, embouchure, delta)", "Les climats d'Afrique et leurs facteurs", "L'Office du Niger", "La CEDEAO", "L'UEMOA", "La démographie (natalité, mortalité, exode rural, migrations)", "Les problèmes de développement de l'Afrique et de la zone soudano-sahélienne"],
-    "source": "Brochure de révision (non officielle, compile les sujets réellement enseignés en 9e année), Samba Zacharie Sidibé, enseignant"
-  },
-  {
-    "pays": "benin", "niveau": "college", "examen": "BEPC", "matiere": "Physique-Chimie",
-    "chapitres": ["Les constituants de la matière", "Classification des éléments chimiques", "La mole", "Notion de réaction chimique", "Électrolyse et synthèse de l'eau", "Les solutions aqueuses", "Quelques machines simples", "Production d'un courant électrique", "Électricité domestique", "Les pétroles et gaz naturels", "Les matières plastiques", "Dessin technique", "Transmission du mouvement de rotation", "Projet de moteur à combustion interne", "Projet de moteur électrique", "Circuit électrique domestique", "Maintenance des objets techniques"],
-    "source": "« Cours de PCT en 3ème en APC », recoupé par « Cours PCT 3ème Module 2 (2017-2018) » — PCT (Physique-Chimie-Technologie), matière obligatoire depuis la réforme 2024"
-  },
-  {
-    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Mathematiques",
-    "chapitres": ["Racine carrée", "Équations et inéquations à une inconnue", "Équations et systèmes d'équations à deux inconnues", "Inéquations et systèmes d'inéquations à deux inconnues", "Applications affines", "Statistique", "Théorème de Thalès", "Relations trigonométriques dans un triangle rectangle", "Angles inscrits, angles au centre", "Vecteurs", "Transformations du plan", "Repérage dans le plan", "Géométrie dans l'espace"],
-    "source": "Livret officiel DEMSG (Direction de l'Enseignement Moyen Secondaire Général), Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
-  },
-  {
-    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Physique-Chimie",
-    "chapitres": ["Lentilles minces", "Dispersion de la lumière", "Forces", "Travail et puissance mécanique", "Électrisation par frottement, le courant électrique", "Résistance électrique", "Énergie et rendement", "Solutions aqueuses", "Acides et bases", "Quelques propriétés chimiques des métaux usuels", "Les hydrocarbures"],
-    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
-  },
-  {
-    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "SVT",
-    "chapitres": ["Le fonctionnement du système nerveux", "Étude de la vision", "La respiration chez l'espèce humaine", "Phénomènes énergétiques accompagnant la respiration", "La fermentation, un autre moyen de se procurer de l'énergie", "Le rôle du rein dans l'excrétion urinaire et la régulation du milieu intérieur", "L'immunité et la réponse immunitaire", "Le système immunitaire", "Les groupes sanguins (spécificité immunologique)", "Aide à l'immunité", "Dysfonctionnement du système immunitaire (infection au VIH/SIDA)", "La tectonique des plaques et la formation des roches métamorphiques", "Le cycle des roches", "La chronologie en géologie"],
-    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, juin 2023 — topeducationsn.com"
-  },
-  {
-    "pays": "senegal", "niveau": "college", "examen": "BFEM", "matiere": "Histoire-Geographie",
-    "chapitres": ["La 2e révolution industrielle et ses conséquences", "Le développement du capitalisme et les mutations sociales", "Les doctrines sociales : syndicalisme et socialisme", "L'impérialisme en Afrique (missions et explorations, congrès de Berlin, résistances, systèmes coloniaux)", "L'impérialisme dans le reste du monde (Japon, Asie, États-Unis)", "Conflits et révolutions au XXe siècle (révolutions chinoises, Première Guerre mondiale, révolution russe, crise des années 30, Deuxième Guerre mondiale, relations Est-Ouest 1945-90)", "La décolonisation et la naissance du Tiers-monde (causes et formes de la décolonisation, le Sénégal de 1944 à 1962, Bandoeng)", "La Terre, une planète du système solaire", "La Terre, une planète menacée (surexploitation des ressources, conséquences climatiques)", "La Terre, une planète divisée (inégalités de développement, systèmes économiques)", "La Terre, une planète solidaire (coopération, communication)"],
-    "source": "Livret officiel DEMSG, Ministère de l'Éducation nationale du Sénégal, mai 2023 — topeducationsn.com"
-  }
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>"
+ }
 ]

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-portrait",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le portrait",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le portrait",
+  "intro": {
+    "heading": "Un portrait pour le journal de l'école",
+    "body": "Ton club de lecture prépare le journal de l'école de ton quartier à Abidjan. Le directeur te demande de présenter Mamie Adjoua, la vendeuse d'attiéké que tous les élèves connaissent. Il faut que le lecteur la voie et comprenne son caractère sans l'avoir jamais rencontrée. Pour réussir cette tâche, tu dois maîtriser les techniques du portrait."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧑🏾",
+        "text": "Un portrait décrit le physique et le caractère d'une personne."
+      },
+      {
+        "icon": "🔍",
+        "text": "Adjectifs, verbes d'état et comparaisons sont les indices à relever."
+      },
+      {
+        "icon": "✍🏾",
+        "text": "Choisis ton sujet, organise tes idées, emploie un champ lexical adapté."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment construire et lire un portrait",
+    "explanation": "Un portrait est un texte qui décrit une personne : son apparence physique (taille, visage, cheveux, vêtements) et son caractère (qualités, défauts, habitudes). Le sujet du portrait est la personne décrite ; tu la présentes dès le début. Ensuite, tu organises tes idées : par exemple, d'abord le physique, puis le moral, ou bien du général au détail. Pour décrire, tu utilises des outils grammaticaux : des adjectifs qualificatifs (grande, souriante), des verbes d'état (être, paraître, sembler, rester, devenir), des expansions du nom (une femme aux mains fines) et souvent le présent ou l'imparfait de description. Un champ lexical est l'ensemble des mots qui se rapportent à un même thème : pour la gentillesse, on trouve généreux, aimable, attentionné. Les figures de style, comme la comparaison (Il est fort comme un lion) ou la métaphore (Ce garçon est un volcan), rendent le portrait vivant. Pour lire un portrait, tu relèves les indices textuels, c'est-à-dire les mots et les phrases qui prouvent ce que dit le texte.",
+    "highlight": "Portrait = sujet présenté + idées ordonnées (physique, moral) + champ lexical adapté + adjectifs, verbes d'état et figures de style."
+  },
+  "example": {
+    "problem": "Analyse ce court portrait inventé : « Mamadou, mon grand-père, est un homme grand et mince. Ses cheveux blancs brillent comme du coton. Il est patient et généreux : il partage toujours son repas avec les voisins. »",
+    "steps": [
+      "Repère le sujet du portrait : c'est Mamadou, le grand-père de celui qui parle.",
+      "Relève les indices du portrait physique : grand et mince (qui décrivent l'homme), blancs (qui décrit les cheveux). Ce sont des adjectifs qualificatifs.",
+      "Cherche la figure de style : « brillent comme du coton » est une comparaison, car le mot « comme » relie les cheveux au coton.",
+      "Relève les indices du portrait moral : patient et généreux. Le verbe d'état « est » relie le sujet à ces qualités.",
+      "Trouve la preuve du caractère : « il partage toujours son repas avec les voisins » est un indice textuel qui illustre la générosité.",
+      "Conclus : le texte suit l'ordre physique puis moral, et le champ lexical du caractère est celui des qualités (patient, généreux)."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Ses yeux brillent comme deux petites lampes », quelle figure de style est employée ?",
+    "reponse_calculee": "Une comparaison",
+    "choices": [
+      {
+        "label": "Une comparaison",
+        "correct": true
+      },
+      {
+        "label": "Une métaphore",
+        "correct": false
+      },
+      {
+        "label": "Une hyperbole",
+        "correct": false
+      },
+      {
+        "label": "Une antithèse",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le mot « comme » rapproche les yeux et les lampes : c'est bien une comparaison, qui rend le portrait plus vivant.",
+    "feedback_wrong": "La bonne réponse est une comparaison. Le mot « comme » relie deux éléments (les yeux et les lampes). Dans une métaphore, il n'y a pas de mot de comparaison. Une hyperbole exagère et une antithèse oppose deux idées, ce qui n'est pas le cas ici."
+  },
+  "verification": "ok2"
+}

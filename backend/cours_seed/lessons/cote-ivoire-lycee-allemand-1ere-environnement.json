@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-environnement",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Environnement",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Environnement",
+  "intro": {
+    "heading": "Un quartier propre, ça commence par nous",
+    "body": "Au lycée d'Abidjan, ton club de l'environnement prépare une affiche pour le marché du quartier. Il faut donner des conseils simples sur les déchets, l'eau et les arbres. Ton professeur te demande de rédiger ces conseils en allemand pour un correspondant de Berlin. Dans cette leçon, tu apprends à dire ce que l'on doit ou peut faire pour l'environnement (die Umwelt)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "die Umwelt (l'environnement) est féminin en allemand."
+      },
+      {
+        "icon": "🗑️",
+        "text": "Pour un conseil, utilise müssen, sollen ou können."
+      },
+      {
+        "icon": "📌",
+        "text": "Le verbe modal est en 2e position, l'infinitif à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner un conseil avec un verbe modal",
+    "explanation": "Pour parler de l'environnement, on dit souvent ce que l'on doit ou peut faire. On utilise pour cela un verbe modal : müssen (devoir, être obligé), sollen (devoir, conseil ou obligation morale) ou können (pouvoir). Le verbe modal est conjugué et se place en 2e position dans la phrase. L'autre verbe reste à l'infinitif et se place tout à la fin. Avec wir (nous), le verbe modal se termine par -en : wir müssen, wir sollen, wir können. Voici du vocabulaire utile : der Müll (les déchets), das Wasser (l'eau), der Baum (l'arbre), sparen (économiser), trennen (trier), pflanzen (planter). Attention : quand der Müll est complément d'objet direct, il devient den Müll (wir müssen den Müll trennen). Pour donner ton avis, tu peux dire : Ich finde Umweltschutz wichtig. (Je trouve la protection de l'environnement importante.)",
+    "highlight": "Sujet + verbe modal (2e place) + ... + infinitif à la fin. Exemple : Wir müssen Wasser sparen. (Nous devons économiser l'eau.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en allemand avec les mots suivants : Kofi und Awa / müssen / Wasser / sparen. Elle doit signifier : Kofi et Awa doivent économiser l'eau.",
+    "steps": [
+      "Le sujet est Kofi und Awa : ce sont deux personnes, comme sie (ils/elles).",
+      "Le verbe modal müssen se conjugue avec ce sujet pluriel : müssen.",
+      "Le sujet vient en premier, puis le verbe modal en 2e position : Kofi und Awa müssen.",
+      "Le complément Wasser (sans article ici) se place au milieu de la phrase.",
+      "Le verbe sparen reste à l'infinitif et se place à la fin.",
+      "Réponse : Kofi und Awa müssen Wasser sparen. (Kofi et Awa doivent économiser l'eau.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Nous devons trier les déchets » ?",
+    "reponse_calculee": "Wir müssen den Müll trennen.",
+    "choices": [
+      {
+        "label": "Wir müssen den Müll trennen.",
+        "correct": true
+      },
+      {
+        "label": "Wir müssen trennen den Müll.",
+        "correct": false
+      },
+      {
+        "label": "Wir trennen müssen den Müll.",
+        "correct": false
+      },
+      {
+        "label": "Wir den Müll müssen trennen.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe modal müssen est en 2e position après wir, et l'infinitif trennen est à la fin : Wir müssen den Müll trennen. (Nous devons trier les déchets.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Le verbe modal doit être en 2e position et l'infinitif tout à la fin. La phrase correcte est : Wir müssen den Müll trennen. (Nous devons trier les déchets.)"
+  },
+  "verification": "ok2"
+}

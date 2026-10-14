@@ -1,0 +1,74 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-jobs-and-activities",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Jobs and activities",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Jobs and activities",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa accompagne sa mère au marché. Elle y croise un enseignant, une infirmière, un chauffeur et une commerçante. Son cousin anglophone lui demande : « What is his job? » (Quel est son métier ?). Tu vas apprendre à répondre avec des phrases simples, comme Awa."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👩‍🏫",
+        "text": "Pour dire un métier : I am a teacher."
+      },
+      {
+        "icon": "🔤",
+        "text": "Devant un métier, on met a, ou an devant un mot qui commence par une voyelle."
+      },
+      {
+        "icon": "❓",
+        "text": "Pour demander le métier : What is your job?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire son métier : am, is, are + a / an",
+    "explanation": "En anglais, pour dire le métier de quelqu'un, on utilise le verbe « to be » (être). On dit : I am (je suis), you are (tu es), he is (il est), she is (elle est). Après le verbe, on ajoute a (un, une) devant le nom du métier : a teacher (un enseignant), a driver (un chauffeur), a nurse (un infirmier, une infirmière), a farmer (un agriculteur). Si le mot commence par une voyelle (a, e, i, o, u), on met an : an engineer (un ingénieur). En français, on dit « Il est chauffeur » sans article, mais en anglais il faut l'article. Pour les métiers de cette leçon, le mot est le même pour un homme et pour une femme. Pour poser la question, on dit : What is your job? (Quel est ton métier ?). Pour parler d'une activité, on peut dire : A farmer works in the field. (Un agriculteur travaille dans le champ.)",
+    "highlight": "Sujet (I / you / he / she) + am / are / is + a / an + métier. Exemple : She is a nurse. (Elle est infirmière.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais la phrase : « Awa est infirmière. »",
+    "steps": [
+      "Je repère le sujet : Awa est une fille, donc je peux utiliser she (elle).",
+      "Je choisis le verbe être pour she : is.",
+      "Je cherche le métier : infirmière se dit nurse.",
+      "Nurse commence par une consonne (n), donc j'utilise a et non an.",
+      "Je construis la phrase dans l'ordre : sujet + is + a + métier.",
+      "Réponse : Awa is a nurse. (Awa est infirmière.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Il est chauffeur » en anglais ?",
+    "reponse_calculee": "He is a driver.",
+    "choices": [
+      {
+        "label": "He is a driver.",
+        "correct": true
+      },
+      {
+        "label": "He are a driver.",
+        "correct": false
+      },
+      {
+        "label": "He is driver.",
+        "correct": false
+      },
+      {
+        "label": "He is an driver.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec he, on utilise is, puis a devant driver, qui commence par une consonne : He is a driver. (Il est chauffeur.)",
+    "feedback_wrong": "La bonne réponse est He is a driver. Avec he, le verbe est is et non are. Il faut aussi l'article a devant driver, car le mot commence par une consonne. On n'utilise pas an dans ce cas."
+  },
+  "verification": "ok2"
+}

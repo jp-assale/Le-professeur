@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-la-description-ii",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · La description II",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · La description II",
+  "intro": {
+    "heading": "Un lieu à faire voir",
+    "body": "Kouadio vient de recevoir une lettre de Fatou, une correspondante qui n'a jamais vu son école. Il doit lui décrire la cour de récréation pour qu'elle puisse l'imaginer comme si elle y était. Il ne suffit pas de dire « c'est beau ». Il faut choisir des mots précis, organiser ce qu'on voit et utiliser les bons outils de la langue. Voyons comment faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "Décrire un lieu : situer, puis présenter chaque partie."
+      },
+      {
+        "icon": "📚",
+        "text": "Utiliser un lexique précis et des adjectifs qualificatifs."
+      },
+      {
+        "icon": "✍️",
+        "text": "Employer le présent ou l'imparfait et des indicateurs de lieu."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment décrire un lieu",
+    "explanation": "Décrire un lieu, c'est faire voir par les mots un endroit (une cour, un marché, une classe, un village) à quelqu'un qui ne le voit pas. Une bonne description suit un plan : d'abord une vue d'ensemble qui nomme le lieu et donne son aspect général, ensuite les différentes composantes (les parties du lieu et les objets, les personnes ou les êtres qui s'y trouvent), enfin quelques détails qui donnent une impression. Le lexique doit correspondre au lieu : pour un marché, on emploie par exemple étal, allée, vendeuse, hangar, pagne. Les adjectifs qualificatifs précisent la couleur, la taille, la forme et l'état : une grande cour poussiéreuse. Les indicateurs de lieu (à l'entrée, au centre, au fond de, à droite, devant, derrière, près de) organisent le texte dans l'espace. Les verbes d'état (être, paraître, sembler, rester) et les verbes de position (se trouver, se situer, s'étendre) s'emploient au présent ou à l'imparfait, selon que la description se déroule dans le présent ou dans le passé. Une description peut être objective si elle reste précise et neutre, ou subjective si elle exprime ce que tu ressens, avec des comparaisons ou des adjectifs d'appréciation.",
+    "highlight": "Plan de la description : vue d'ensemble, parties dans l'ordre, détails. Outils : lexique précis, adjectifs, indicateurs de lieu, présent ou imparfait."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : ton cousin Yao habite loin et ne connaît pas le marché de ton quartier. Dans une lettre, tu dois lui décrire ce marché en 3 ou 4 phrases pour qu'il puisse se l'imaginer. Rédige cette description.",
+    "steps": [
+      "Repère la tâche : décrire un lieu, le marché du quartier, pour quelqu'un qui ne le voit pas.",
+      "Écris la vue d'ensemble : « Le marché de mon quartier est grand et très animé. »",
+      "Choisis un ordre dans l'espace et des indicateurs de lieu : à l'entrée, au centre, au fond.",
+      "Ajoute un lexique précis et des adjectifs : étals, allées, vendeuses, commerçants, pagnes colorés, tomates rouges, hangar.",
+      "Utilise le présent pour toutes les phrases : est, étalent, alignent, découpent.",
+      "Texte final : « Le marché de mon quartier est grand et très animé. À l'entrée, des vendeuses étalent des tomates rouges et des mangues juteuses. Au centre, des commerçants alignent de beaux pagnes colorés. Au fond, sous un hangar, des bouchers découpent la viande. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quel groupe de mots est un indicateur de lieu qui aide à organiser une description ?",
+    "reponse_calculee": "au fond de la cour",
+    "choices": [
+      {
+        "label": "au fond de la cour",
+        "correct": true
+      },
+      {
+        "label": "hier soir",
+        "correct": false
+      },
+      {
+        "label": "pendant la récréation",
+        "correct": false
+      },
+      {
+        "label": "tout à coup",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Au fond de la cour » indique un endroit : c'est un indicateur de lieu, qui sert à organiser la description dans l'espace.",
+    "feedback_wrong": "Seul « au fond de la cour » indique un endroit et sert à organiser une description dans l'espace. « Hier soir », « pendant la récréation » et « tout à coup » indiquent le moment : ce sont des indicateurs de temps."
+  },
+  "verification": "ok2"
+}

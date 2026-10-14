@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-demography",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Demography",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Demography",
+  "intro": {
+    "heading": "Dans un quartier surpeuplé d'Abidjan",
+    "body": "Kofi vit dans un quartier d'Abidjan où les familles sont nombreuses et les logements trop petits. Pour son exposé de Terminale sur la démographie, il doit parler des villes surpeuplées, de la migration et du contrôle des naissances. Il veut dire en anglais que les voisins s'entraident et que les familles se posent des questions sur leur avenir. Pour cela, il doit bien choisir entre « themselves » et « each other »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔁",
+        "text": "Pronom réfléchi : le sujet et le complément sont la même personne."
+      },
+      {
+        "icon": "🤝",
+        "text": "Each other et one another expriment une action réciproque."
+      },
+      {
+        "icon": "🏙️",
+        "text": "Utilise-les dans ton exposé sur la croissance démographique."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Pronoms réfléchis et pronoms réciproques",
+    "explanation": "En anglais, les pronoms sujets sont I, you, he, she, it, we, you, they. Les pronoms compléments sont me, you, him, her, it, us, you, them. Le pronom réfléchi s'utilise quand l'action revient sur le sujet : myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. Exemple : « Many families ask themselves how to feed their children » (Beaucoup de familles se demandent comment nourrir leurs enfants). Le pronom réciproque s'utilise quand deux personnes ou plus font la même action l'une envers l'autre : each other ou one another. Exemple : « The villagers help each other » (Les villageois s'entraident). Attention : on dit « themselves » pour un retour sur le sujet et « each other » pour un échange entre plusieurs personnes. Ces pronoms sont utiles dans un exposé sur la surpopulation des villes, la migration et le contrôle des naissances.",
+    "highlight": "Sujet + verbe + themselves (même personne) ou each other (l'un l'autre). Ex. : They help each other. (Ils s'entraident.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec « each other » ou « themselves » : Aminata and her sister share a small room in Abidjan. They help ___ with their homework.",
+    "steps": [
+      "Repère le sujet : « Aminata and her sister » est remplacé par « They » (Elles).",
+      "Observe l'action : Aminata aide sa sœur et sa sœur aide Aminata.",
+      "Cette action va de l'une vers l'autre : c'est une action réciproque.",
+      "Pour une action réciproque, on choisit « each other » et non « themselves ».",
+      "Réponse : Aminata and her sister share a small room in Abidjan. They help each other with their homework. (Aminata et sa sœur partagent une petite chambre à Abidjan. Elles s'entraident pour leurs devoirs.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis le pronom correct : « In my village, neighbours help ___ during the harvest. » (Dans mon village, les voisins s'entraident pendant la récolte.)",
+    "reponse_calculee": "each other",
+    "choices": [
+      {
+        "label": "each other",
+        "correct": true
+      },
+      {
+        "label": "himself",
+        "correct": false
+      },
+      {
+        "label": "myself",
+        "correct": false
+      },
+      {
+        "label": "itself",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les voisins s'aident les uns les autres : c'est une action réciproque, donc on emploie « each other ». Phrase complète : Neighbours help each other during the harvest.",
+    "feedback_wrong": "La bonne réponse est « each other ». Le sujet « neighbours » est au pluriel et l'action est réciproque. « Himself », « myself » et « itself » sont des pronoms réfléchis singuliers et ne correspondent pas à ce sujet."
+  },
+  "verification": "ok"
+}

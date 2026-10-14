@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-friends-dating-and-entertainm",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Friends, dating and entertainment",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Friends, dating and entertainment",
+  "intro": {
+    "heading": "Un samedi entre amis à Abidjan",
+    "body": "Aya et son ami Koffi se retrouvent après les cours. Koffi dit : « Ce week-end, je vais aller au cinéma avec des amis. » Aya répond sur le coup : « Bonne idée, je viens avec vous ! » Dans cette leçon, tu apprends à exprimer le futur en anglais pour parler de tes loisirs et de tes sorties entre amis."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎬",
+        "text": "Will sert à décider sur le moment ou promettre."
+      },
+      {
+        "icon": "📅",
+        "text": "Be going to exprime un projet déjà décidé."
+      },
+      {
+        "icon": "👫",
+        "text": "Utilise ces formes pour parler de sorties entre amis."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer le futur : will et be going to",
+    "explanation": "En anglais, on utilise plusieurs formes pour parler du futur. Avec will + verbe, on exprime une décision prise au moment où l'on parle, une promesse ou une prédiction. Exemple : I will help you. (Je vais t'aider. / Je t'aiderai.) Avec be going to + verbe, on parle d'un projet déjà décidé avant de parler. Exemple : We are going to watch a film tonight. (Nous allons regarder un film ce soir.) Be s'accorde avec le sujet : I am going to, he is going to, they are going to. Après will et going to, le verbe reste à la forme de base, sans -s ni -ing. Tu peux aussi dire : I will call you later. (Je t'appellerai plus tard.) Pour la forme négative, on dit : I will not come. (Je ne viendrai pas.)",
+    "highlight": "will + verbe : décision sur le coup. Ex. : I will call you. (Je t'appellerai.) | be going to + verbe : projet décidé. Ex. : I am going to visit my friend. (Je vais rendre visite à mon ami.)"
+  },
+  "example": {
+    "problem": "Complète avec la bonne forme de be going to : Kouadio a déjà décidé d'inviter ses amis à son anniversaire. « Kouadio ... (invite) his friends to his birthday party. »",
+    "steps": [
+      "Lis la situation : Kouadio a déjà décidé, c'est donc un projet.",
+      "Pour un projet déjà décidé, on utilise be going to + verbe.",
+      "Le sujet est Kouadio (he) : on emploie is.",
+      "Le verbe invite reste à la forme de base, sans -s ni -ing : invite.",
+      "Réponse : Kouadio is going to invite his friends to his birthday party. (Kouadio va inviter ses amis à sa fête d'anniversaire.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ton amie Mariam te dit : « I'm going to the cinema tonight. » (Je vais au cinéma ce soir.) Tu décides sur le moment de venir avec elle. Quelle phrase est correcte ?",
+    "reponse_calculee": "I will come with you.",
+    "choices": [
+      {
+        "label": "I will come with you.",
+        "correct": true
+      },
+      {
+        "label": "I going to come with you.",
+        "correct": false
+      },
+      {
+        "label": "I will to come with you.",
+        "correct": false
+      },
+      {
+        "label": "I am will come with you.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Tu décides sur le moment, donc tu utilises will + verbe de base : I will come with you. (Je viendrai avec toi.)",
+    "feedback_wrong": "La bonne réponse est I will come with you. (Je viendrai avec toi.) Will est suivi directement du verbe de base, sans to et sans be. Avec going to, il faut aussi le verbe be : I am going to come."
+  },
+  "verification": "ok2"
+}

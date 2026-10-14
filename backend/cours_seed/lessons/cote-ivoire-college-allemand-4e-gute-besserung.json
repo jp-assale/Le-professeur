@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-gute-besserung",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Gute Besserung",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Gute Besserung",
+  "intro": {
+    "heading": "Ton ami Koffi est malade",
+    "body": "Ce matin, Koffi n'est pas venu au cours d'allemand. Sa mère dit qu'il a de la fièvre et mal à la tête. Tu veux lui envoyer un petit message en allemand pour lui souhaiter un bon rétablissement. Dans cette leçon, tu apprends à dire que tu es malade, à dire où tu as mal et à souhaiter « Gute Besserung! »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Gute Besserung! souhaite un bon rétablissement à un malade."
+      },
+      {
+        "icon": "🤒",
+        "text": "Ich bin krank signifie : je suis malade."
+      },
+      {
+        "icon": "🧠",
+        "text": "Ich habe Kopfschmerzen signifie : j'ai mal à la tête."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire qu'on est malade et souhaiter un bon rétablissement",
+    "explanation": "Pour dire que tu es malade, tu dis : Ich bin krank. (Je suis malade.) Pour dire où tu as mal, tu utilises le verbe haben (avoir) avec un mot terminé par -schmerzen : Ich habe Kopfschmerzen. (J'ai mal à la tête.) Ich habe Bauchschmerzen. (J'ai mal au ventre.) Pour la fièvre, tu dis : Ich habe Fieber. (J'ai de la fièvre.) Le verbe haben se conjugue ainsi : ich habe (j'ai), du hast (tu as), er hat (il a), sie hat (elle a). Dans une phrase affirmative, le verbe est toujours en deuxième position. Pour demander à quelqu'un ce qui ne va pas, tu dis : Was hast du? (Qu'est-ce que tu as ?) Tu peux aussi demander : Bist du krank? (Es-tu malade ?) À une personne malade, tu souhaites : Gute Besserung! (Bon rétablissement !)",
+    "highlight": "Ich habe Kopfschmerzen. (J'ai mal à la tête.) – Gute Besserung! (Bon rétablissement !)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Awa a mal au ventre. »",
+    "steps": [
+      "Le sujet est Awa, une fille : on peut la remplacer par sie (elle).",
+      "Avec sie, le verbe haben (avoir) devient hat : sie hat (elle a).",
+      "« Avoir mal au ventre » se dit Bauchschmerzen haben.",
+      "Dans une phrase affirmative, le verbe est en deuxième position : Awa hat, puis Bauchschmerzen à la fin.",
+      "Réponse : Awa hat Bauchschmerzen. (Awa a mal au ventre.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ton ami Koffi est malade. Quelle expression allemande lui dis-tu pour lui souhaiter un bon rétablissement ?",
+    "reponse_calculee": "Gute Besserung!",
+    "choices": [
+      {
+        "label": "Gute Besserung!",
+        "correct": true
+      },
+      {
+        "label": "Guten Appetit!",
+        "correct": false
+      },
+      {
+        "label": "Gute Nacht!",
+        "correct": false
+      },
+      {
+        "label": "Guten Morgen!",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Gute Besserung! veut dire « Bon rétablissement ! ». C'est la phrase qu'on dit à une personne malade.",
+    "feedback_wrong": "Ce n'est pas la bonne expression. Guten Appetit! veut dire « Bon appétit ! », Gute Nacht! veut dire « Bonne nuit ! » et Guten Morgen! veut dire « Bonjour (le matin) ! ». Pour souhaiter un bon rétablissement, on dit Gute Besserung!"
+  },
+  "verification": "ok2"
+}

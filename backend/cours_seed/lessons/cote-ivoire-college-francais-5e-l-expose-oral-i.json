@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-l-expose-oral-i",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · L'exposé oral I",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · L'exposé oral I",
+  "intro": {
+    "heading": "Ton premier exposé devant la classe",
+    "body": "Mariam, élève de 5e à Bouaké, doit présenter un exposé sur « l'eau potable dans mon quartier ». Elle est un peu stressée : par quoi commencer, que dire et comment parler devant le professeur ? Elle apprend qu'un bon exposé se prépare avec méthode. Aujourd'hui, tu vas découvrir ces étapes, toi aussi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗂️",
+        "text": "Rassemble des informations, trie des idées et fais un plan."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Parle fort et distinctement, avec des phrases variées."
+      },
+      {
+        "icon": "🎓",
+        "text": "Choisis un vocabulaire précis et un registre de langue adapté."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La technique de l'exposé oral",
+    "explanation": "Un exposé oral est une présentation structurée d'un sujet que tu fais à voix haute devant un auditoire. Pour le préparer, tu cherches d'abord des informations sur le thème (faits, définitions, exemples), puis tu en tires des idées que tu ranges dans un plan : introduction, développement, conclusion. Pendant la présentation, tu parles distinctement et assez fort, tu regardes tes camarades et tu t'aides de notes courtes, sans lire tout ton texte. Tu emploies un vocabulaire approprié au thème, par exemple « potable », « puits » ou « pompe » pour parler de l'eau. Tu varies les types de phrases : la déclarative pour informer, l'interrogative pour interpeller le public, l'impérative pour conseiller, l'exclamative pour exprimer une émotion ; tu peux aussi alterner les formes affirmative et négative. Enfin, tu choisis le registre de langue selon la situation : en classe, devant ton professeur, tu utilises le registre courant ou soutenu, jamais le registre familier.",
+    "highlight": "Un bon exposé = informations + idées classées en plan + vocabulaire précis + phrases variées + registre de langue adapté."
+  },
+  "example": {
+    "problem": "Situation : Ton professeur de français te demande de présenter à la classe un exposé de deux minutes sur « l'eau potable dans mon quartier ». Prépare le début de ton exposé en appliquant la méthode.",
+    "steps": [
+      "Thème : l'eau potable dans le quartier. Tu notes une information : « Beaucoup de familles puisent l'eau à la pompe du quartier. »",
+      "Idées : l'eau propre protège la santé ; il faut garder la pompe propre ; chacun doit aider à l'entretenir. Tu les ranges dans un plan : introduction, développement, conclusion.",
+      "Vocabulaire : tu choisis des mots précis comme « potable », « pompe », « puits », « maladie » et « hygiène ».",
+      "Phrases variées : « Aujourd'hui, je vais vous parler de l'eau potable. » (déclarative) ; « Savez-vous d'où vient l'eau que vous buvez ? » (interrogative) ; « Ne laissez jamais l'eau sale près de la pompe ! » (impérative, forme négative).",
+      "Registre de langue : tu commences par « Bonjour à tous, aujourd'hui, je vais vous présenter... », registre courant adapté à la classe, et non « Salut les gars, je vais vous raconter un truc »."
+    ]
+  },
+  "quiz": {
+    "question": "Tu ouvres ton exposé devant ta classe et ton professeur. Quelle phrase convient le mieux au contexte de communication ?",
+    "reponse_calculee": "Bonjour à tous, aujourd'hui, je vais vous présenter l'importance de l'eau potable.",
+    "choices": [
+      {
+        "label": "Bonjour à tous, aujourd'hui, je vais vous présenter l'importance de l'eau potable.",
+        "correct": true
+      },
+      {
+        "label": "Salut les gars, je vais vous raconter un truc sur l'eau, c'est trop bien.",
+        "correct": false
+      },
+      {
+        "label": "Bon, l'eau, ben voilà quoi, on boit ça.",
+        "correct": false
+      },
+      {
+        "label": "Veuillez agréer, Madame, l'expression de mes sentiments distingués.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase salue l'auditoire, annonce le thème et utilise un registre courant correct, adapté à un exposé en classe.",
+    "feedback_wrong": "La bonne réponse est : « Bonjour à tous, aujourd'hui, je vais vous présenter l'importance de l'eau potable. » Les phrases avec « Salut les gars » ou « ben voilà quoi » sont du registre familier, à éviter devant le professeur. La formule « Veuillez agréer... » sert à terminer une lettre, pas à ouvrir un exposé."
+  },
+  "verification": "ok"
+}

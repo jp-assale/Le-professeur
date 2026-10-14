@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-tle-l-environnement-et-sa-sauvega",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "Tle · L'environnement et sa sauvegarde",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "Tle · L'environnement et sa sauvegarde",
+  "intro": {
+    "heading": "Un message pour ton correspondant allemand",
+    "body": "Koffi est membre du club environnement de son lycée à Abidjan. Son correspondant allemand lui demande ce que les élèves font pour protéger la nature. Koffi doit répondre en allemand, donner des actions concrètes et expliquer ses raisons. Dans cette leçon, tu apprends à faire comme lui : nommer une action et la justifier."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Die Umwelt (l'environnement) : le thème de la leçon."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Pour justifier, on utilise weil (parce que)."
+      },
+      {
+        "icon": "📍",
+        "text": "Après weil, le verbe conjugué va à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Justifier une action avec weil",
+    "explanation": "Pour parler de la protection de l'environnement, il faut d'abord quelques mots : die Umwelt (l'environnement), der Müll (les déchets), das Wasser (l'eau), die Luft (l'air), der Baum (l'arbre). Voici aussi des verbes utiles : schützen (protéger), sparen (économiser), sammeln (ramasser), pflanzen (planter). Pour donner une raison, tu utilises la conjonction weil (parce que). Elle introduit une proposition subordonnée. Dans cette proposition, le verbe conjugué se place à la FIN. Si la proposition contient un verbe modal, c'est le modal conjugué qui est en dernière position, après l'infinitif. Tu sépares toujours la proposition principale et la subordonnée par une virgule. Exemple : Ich spare Wasser, weil es wichtig ist (J'économise l'eau parce que c'est important).",
+    "highlight": "weil + sujet + ... + verbe conjugué à la fin : Wir schützen die Umwelt, weil sie wichtig ist. (Nous protégeons l'environnement parce qu'elle est importante.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en allemand avec weil : Aminata ramasse les déchets parce que le marché doit rester propre.",
+    "steps": [
+      "Commence par la proposition principale : Aminata sammelt den Müll (Aminata ramasse les déchets).",
+      "Écris la raison sous forme de phrase simple : Der Markt soll sauber bleiben (Le marché doit rester propre).",
+      "Place weil devant la raison et mets une virgule avant : , weil der Markt sauber bleiben soll.",
+      "Dans la subordonnée, envoie le verbe conjugué soll à la fin, après l'infinitif bleiben.",
+      "Phrase complète : Aminata sammelt den Müll, weil der Markt sauber bleiben soll. (Aminata ramasse les déchets parce que le marché doit rester propre.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « J'économise l'eau parce que c'est important » ?",
+    "reponse_calculee": "Ich spare Wasser, weil es wichtig ist.",
+    "choices": [
+      {
+        "label": "Ich spare Wasser, weil es wichtig ist.",
+        "correct": true
+      },
+      {
+        "label": "Ich spare Wasser, weil es ist wichtig.",
+        "correct": false
+      },
+      {
+        "label": "Ich spare Wasser, weil wichtig es ist.",
+        "correct": false
+      },
+      {
+        "label": "Ich spare Wasser, weil ist es wichtig.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après weil, le verbe conjugué ist se place à la fin de la proposition : Ich spare Wasser, weil es wichtig ist. (J'économise l'eau parce que c'est important.)",
+    "feedback_wrong": "Après weil, le verbe conjugué doit être en dernière position de la proposition. La seule phrase correcte est : Ich spare Wasser, weil es wichtig ist. (J'économise l'eau parce que c'est important.) Dans les autres phrases, le verbe ist n'est pas à la fin."
+  },
+  "verification": "ok"
+}

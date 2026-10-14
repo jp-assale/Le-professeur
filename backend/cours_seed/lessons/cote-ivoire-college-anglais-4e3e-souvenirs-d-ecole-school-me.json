@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-souvenirs-d-ecole-school-me",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Souvenirs d'école (School memories)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Souvenirs d'école (School memories)",
+  "intro": {
+    "heading": "Un vieux cahier retrouvé",
+    "body": "Awa retrouve son vieux cahier de 6e dans une malle à Abidjan. Elle sourit et raconte à sa cousine : « Quand j'étais en sixième, j'allais à l'école à pied avec mon ami Koffi. » Pour raconter tes propres souvenirs d'école en anglais, tu as besoin de quelques expressions simples et du passé. Tu vas aussi apprendre à bien faire monter et descendre ta voix."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💭",
+        "text": "I remember + nom pour évoquer un souvenir."
+      },
+      {
+        "icon": "⏪",
+        "text": "Le prétérit (was, were, verbe + ed) raconte le passé."
+      },
+      {
+        "icon": "🎵",
+        "text": "Dans une phrase affirmative, la voix descend à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer un souvenir d'école",
+    "explanation": "Pour commencer un souvenir, tu peux dire « I remember my first day at school. » (Je me souviens de mon premier jour à l'école.) Pour raconter ce qui s'est passé, tu utilises le prétérit : « I was afraid. » (J'avais peur.) ou « We played football at break. » (Nous avons joué au football pendant la récréation.) Pour parler d'une habitude d'avant, tu utilises « used to » suivi du verbe sans changement : « I used to walk to school. » (J'allais à l'école à pied.) Tu peux ajouter « When I was in sixth grade, ... » (Quand j'étais en sixième, ...) pour situer le souvenir. Pour la prononciation, le « ed » final de « played » se dit /d/, celui de « walked » se dit /t/. Dans une phrase affirmative, ta voix descend à la fin. Dans une question à réponse oui ou non, comme « Did you like school? » (Aimais-tu l'école ?), ta voix monte à la fin.",
+    "highlight": "I used to + verbe. Exemple : I used to walk to school. (J'allais à l'école à pied.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Quand j'étais en sixième, j'allais à l'école à pied avec mon ami Koffi. »",
+    "steps": [
+      "Commence par « Quand j'étais en sixième » : when = quand, et « j'étais » = I was, donc : When I was in sixth grade.",
+      "Pour l'habitude d'avant (« j'allais »), on utilise used to + verbe : I used to.",
+      "« Aller à pied » se dit walk : I used to walk.",
+      "Ajoute le lieu et la personne : to school with my friend Koffi.",
+      "Assemble le tout. Phrase finale : When I was in sixth grade, I used to walk to school with my friend Koffi. (Quand j'étais en sixième, j'allais à l'école à pied avec mon ami Koffi.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase anglaise veut dire : « Avant, j'allais à l'école à pied » ?",
+    "reponse_calculee": "I used to walk to school.",
+    "choices": [
+      {
+        "label": "I used to walk to school.",
+        "correct": true
+      },
+      {
+        "label": "I used to walked to school.",
+        "correct": false
+      },
+      {
+        "label": "I use to walking to school.",
+        "correct": false
+      },
+      {
+        "label": "I was used walk to school.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « used to », le verbe reste à la forme de base : I used to walk to school. (J'allais à l'école à pied.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. La structure à retenir est « used to » + verbe sans changement. La bonne phrase est : I used to walk to school. (J'allais à l'école à pied.)"
+  },
+  "verification": "ok2"
+}

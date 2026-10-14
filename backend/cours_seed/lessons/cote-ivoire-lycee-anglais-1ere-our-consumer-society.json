@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-our-consumer-society",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Our consumer society",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Our consumer society",
+  "intro": {
+    "heading": "Une publicité devant le marché",
+    "body": "Aminata sort du marché d'Abidjan et voit une grande affiche : un téléphone à 45 000 FCFA. Elle se demande qui fabrique et qui vend ces produits, mais la publicité ne parle que du produit. En anglais, pour décrire un produit sans dire qui agit, on utilise souvent la forme passive. Aujourd'hui, tu apprends à l'employer dans le monde du shopping et de la publicité."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🛒",
+        "text": "Reconnais la forme passive dans les publicités et les étiquettes de magasin."
+      },
+      {
+        "icon": "✍️",
+        "text": "Forme passive : be + participe passé."
+      },
+      {
+        "icon": "📢",
+        "text": "Pour dire qui agit, ajoute by (par) à la fin, mais ce n'est pas obligatoire."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La forme passive : be + participe passé",
+    "explanation": "On utilise la forme passive quand l'action ou l'objet est plus important que la personne qui agit. C'est très fréquent dans les publicités et les étiquettes de magasin. Pour la former, l'objet de la phrase active devient le sujet. Ensuite, tu mets le verbe be au même temps que le verbe actif, puis le participe passé du verbe. Au présent, on emploie am/is/are et au passé was/were. Avec un modal, on emploie modal + be + participe passé : Shoes can be bought here. (Les chaussures peuvent être achetées ici.) Si tu veux dire qui agit, tu ajoutes by (par) à la fin, mais ce n'est pas obligatoire. Attention : be s'accorde avec le sujet, singulier (is) ou pluriel (are).",
+    "highlight": "Sujet + be + participe passé (+ by ...) : The dress is sold here. (La robe est vendue ici.)"
+  },
+  "example": {
+    "problem": "Mets la phrase à la forme passive : « Aminata sells cheap shoes. » (Aminata vend des chaussures bon marché.)",
+    "steps": [
+      "Repère l'objet de la phrase active : cheap shoes (des chaussures bon marché). Il devient le sujet de la phrase passive.",
+      "Repère le temps du verbe : sells est au présent simple, donc be sera au présent.",
+      "Le sujet cheap shoes est pluriel, donc on choisit are.",
+      "Le participe passé de sell est sold (verbe irrégulier).",
+      "Le sujet de la phrase active, Aminata, devient le complément introduit par by (facultatif).",
+      "Phrase passive complète : Cheap shoes are sold by Aminata. (Des chaussures bon marché sont vendues par Aminata.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : « These bags ___ in the market every day. » (Ces sacs sont vendus au marché chaque jour.)",
+    "reponse_calculee": "are sold",
+    "choices": [
+      {
+        "label": "are sold",
+        "correct": true
+      },
+      {
+        "label": "is sold",
+        "correct": false
+      },
+      {
+        "label": "are sell",
+        "correct": false
+      },
+      {
+        "label": "do sold",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! These bags est pluriel, donc on emploie are, suivi du participe passé sold : These bags are sold in the market every day.",
+    "feedback_wrong": "La bonne réponse est « are sold ». La forme passive se construit avec be + participe passé. Comme These bags est pluriel, il faut are et non is. De plus, « sell » n'est pas un participe passé et « do sold » n'existe pas."
+  },
+  "verification": "ok2"
+}

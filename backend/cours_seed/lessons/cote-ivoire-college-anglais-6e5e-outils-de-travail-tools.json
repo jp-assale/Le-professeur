@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-outils-de-travail-tools",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Outils de travail (Tools)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Outils de travail (Tools)",
+  "intro": {
+    "heading": "À l'atelier de Monsieur Yao",
+    "body": "Kofi visite l'atelier de son oncle, menuisier. Sur l'établi, il y a des marteaux, des scies et des tournevis, et il veut savoir à qui appartient chaque outil. En anglais, tu dois nommer les outils des métiers et dire à qui ils sont. Dans cette leçon, tu apprends les noms de quelques outils, le cas possessif avec 's et la question Whose...? (À qui est... ?)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔨",
+        "text": "Learn tool names: hammer, saw, scissors, screwdriver."
+      },
+      {
+        "icon": "👤",
+        "text": "Possessive case: owner + 's + object, like Awa's hammer."
+      },
+      {
+        "icon": "❓",
+        "text": "Ask Whose...? and answer It's Kofi's or It's mine."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer les outils et exprimer la possession",
+    "explanation": "Voici quelques outils : a hammer (un marteau), a saw (une scie), a screwdriver (un tournevis), scissors (des ciseaux), a needle (une aiguille) et a stethoscope (un stéthoscope). Chaque métier a ses outils : a carpenter (un menuisier) utilise a saw, a tailor (un tailleur) utilise scissors et a doctor (un médecin) utilise a stethoscope. Pour dire qu'un objet appartient à une personne, on met le nom du propriétaire d'abord, puis 's, puis l'objet. L'ordre est inverse du français : Kofi's hammer veut dire « le marteau de Kofi ». Pour demander à qui est un objet, on dit Whose hammer is this? (À qui est ce marteau ?). On répond It's Kofi's. (C'est celui de Kofi.) ou avec un pronom : It's mine. (C'est le mien.), It's yours. (C'est le tien.). Il existe aussi les adjectifs possessifs, qui se placent devant le nom : my hammer (mon marteau), your saw (ta scie), his needle (son aiguille, à lui), her scissors (ses ciseaux, à elle). Pour demander si on possède un objet, on dit Have you got a saw? (As-tu une scie ?) et on répond Yes, I have. (Oui, j'en ai une.) ou No, I haven't. (Non, je n'en ai pas.)",
+    "highlight": "Owner + 's + object : Awa's hammer (le marteau d'Awa). Question : Whose saw is this? (À qui est cette scie ?)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Le marteau d'Awa est sur la table. »",
+    "steps": [
+      "Cherche le propriétaire : c'est Awa, donc on écrit Awa.",
+      "Ajoute 's après le nom du propriétaire : Awa's.",
+      "Cherche l'objet : « marteau » se dit hammer, donc on obtient Awa's hammer.",
+      "Pour « est sur la table », on dit is on the table (est sur la table).",
+      "Réponse : Awa's hammer is on the table. (Le marteau d'Awa est sur la table.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « La scie de Kofi » en anglais ?",
+    "reponse_calculee": "Kofi's saw",
+    "choices": [
+      {
+        "label": "Kofi's saw",
+        "correct": true
+      },
+      {
+        "label": "Saw's Kofi",
+        "correct": false
+      },
+      {
+        "label": "Kofi saw's",
+        "correct": false
+      },
+      {
+        "label": "Saw of Kofi's is",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! On écrit le propriétaire, puis 's, puis l'objet : Kofi's saw (la scie de Kofi).",
+    "feedback_wrong": "La bonne réponse est Kofi's saw (la scie de Kofi). Le propriétaire vient en premier, suivi de 's, puis de l'objet. Les autres propositions inversent l'ordre ou placent le 's au mauvais endroit."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-sports",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Sports",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Sports",
+  "intro": {
+    "heading": "Le grand match du lycée",
+    "body": "Aya et Koffi discutent après le cours d'EPS. Qui court le plus vite ? Quel est le sport le plus populaire du lycée ? Pour en parler en anglais, il faut savoir comparer deux personnes ou deux sports, puis dire qui ou quoi est le premier du groupe. C'est ce que tu vas apprendre, avec du vocabulaire du sport."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Pour comparer deux choses : adjectif court + er + than."
+      },
+      {
+        "icon": "🏆",
+        "text": "Pour le premier du groupe : the + adjectif + est."
+      },
+      {
+        "icon": "⭐",
+        "text": "Adjectifs longs : more ... than et the most ..."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comparer deux sports ou deux joueurs",
+    "explanation": "En anglais, la forme dépend de la longueur de l'adjectif. Avec un adjectif court (fast, tall, strong), on ajoute -er pour comparer : faster (plus rapide), taller (plus grand). Pour dire « le plus », on met the devant et on ajoute -est : the fastest (le plus rapide). Avec un adjectif long (popular, dangerous, exciting), on utilise more ... than pour comparer et the most ... pour le superlatif. Après un comparatif, on utilise than (que) pour introduire le deuxième élément. Attention aux formes irrégulières : good devient better puis the best (bon, meilleur, le meilleur), et bad devient worse puis the worst (mauvais, pire, le pire). Tu peux utiliser ces formes pour parler du football, du basket, du handball ou de la course.",
+    "highlight": "Court : fast → faster → the fastest. Long : popular → more popular → the most popular. Exemple : Football is more popular than tennis. (Le football est plus populaire que le tennis.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en anglais : « Aya court plus vite que Koffi. »",
+    "steps": [
+      "Repère le verbe : « court » se dit runs (verbe run, avec s car Aya = she).",
+      "Repère l'adjectif ou l'adverbe : « vite » se dit fast. C'est un mot court.",
+      "Pour comparer un mot court, on ajoute -er : fast devient faster.",
+      "« Que » se dit than, et on place le deuxième nom après : than Koffi.",
+      "Réponse : Aya runs faster than Koffi. (Aya court plus vite que Koffi.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Mamadou is ___ player in our team. (Mamadou est le meilleur joueur de notre équipe.)",
+    "reponse_calculee": "the best",
+    "choices": [
+      {
+        "label": "the best",
+        "correct": true
+      },
+      {
+        "label": "better",
+        "correct": false
+      },
+      {
+        "label": "the goodest",
+        "correct": false
+      },
+      {
+        "label": "more good",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour dire « le meilleur » dans un groupe, on utilise le superlatif irrégulier de good : the best (le meilleur).",
+    "feedback_wrong": "La bonne réponse est the best. Le mot good est irrégulier : good, better, the best. Les formes the goodest et more good n'existent pas, et better s'utilise pour comparer deux personnes avec than, sans the."
+  },
+  "verification": "ok2"
+}

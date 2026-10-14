@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-l-expression-de-l-ordre",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · L'expression de l'ordre",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'expression de l'ordre",
+  "intro": {
+    "heading": "Dans la cour du collège à Abidjan",
+    "body": "Aya arrive au collège et lit les affiches : une affiche autorise, une autre interdit, une troisième donne un conseil. Son professeur d'espagnol lui demande d'expliquer chaque message à ses camarades et de dire pourquoi la règle existe. Dans une situation d'évaluation, tu devras choisir la bonne formule et donner une justification. Aujourd'hui, tu apprends les formules pour donner un ordre, autoriser, interdire et conseiller, et pour les justifier avec porque (parce que)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📢",
+        "text": "L'impératif sert à donner un ordre : habla, come, escribe."
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour interdire : Está prohibido + infinitif, ou une défense comme No hables (ne parle pas)."
+      },
+      {
+        "icon": "💡",
+        "text": "Pour justifier : porque, après une autorisation, une interdiction ou un conseil."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formules de l'ordre et leur justification",
+    "explanation": "Pour donner un ordre à une personne que tu tutoies, tu utilises l'impératif. Avec les verbes en -ar, tu prends la forme en -a : hablar donne habla (parle). Avec les verbes en -er et -ir, tu prends la forme en -e : comer donne come (mange), escribir donne escribe (écris). Quelques verbes sont irréguliers : venir donne ven (viens), salir donne sal (sors). Pour autoriser, tu dis Puedes + infinitif (tu peux…). Pour interdire, tu dis Está prohibido + infinitif (il est interdit de…) ou No + verbe, par exemple No hables (ne parle pas). Pour conseiller, tu dis Te aconsejo + infinitif (je te conseille de…). Pour justifier, tu ajoutes porque (parce que) et la raison.",
+    "highlight": "Puedes + infinitif = autoriser ; Está prohibido + infinitif = interdire ; Te aconsejo + infinitif = conseiller. Ex. : Te aconsejo estudiar porque el examen es mañana. (Je te conseille d'étudier parce que l'examen est demain.)"
+  },
+  "example": {
+    "problem": "Traduis en espagnol cet ordre avec sa justification : « Étudie tes leçons parce que l'examen est demain. »",
+    "steps": [
+      "Repère l'ordre : « étudie » est un impératif, à la forme tu.",
+      "Le verbe est estudiar. Il se termine en -ar, donc tu prends la forme en -a : estudia.",
+      "« tes leçons » se traduit par tus lecciones.",
+      "« parce que » se traduit par porque.",
+      "« l'examen est demain » se traduit par el examen es mañana.",
+      "Phrase complète : Estudia tus lecciones porque el examen es mañana. (Étudie tes leçons parce que l'examen est demain.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase exprime une INTERDICTION avec sa justification ?",
+    "reponse_calculee": "Está prohibido correr en el patio porque es peligroso. (Il est interdit de courir dans la cour parce que c'est dangereux.)",
+    "choices": [
+      {
+        "label": "Puedes correr en el patio porque es divertido. (Tu peux courir dans la cour parce que c'est amusant.)",
+        "correct": false
+      },
+      {
+        "label": "Está prohibido correr en el patio porque es peligroso. (Il est interdit de courir dans la cour parce que c'est dangereux.)",
+        "correct": true
+      },
+      {
+        "label": "Te aconsejo correr en el patio. (Je te conseille de courir dans la cour.)",
+        "correct": false
+      },
+      {
+        "label": "Corre en el patio, por favor. (Cours dans la cour, s'il te plaît.)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Está prohibido + infinitif exprime l'interdiction, et porque es peligroso donne la raison de cette interdiction.",
+    "feedback_wrong": "Puedes + infinitif autorise, Te aconsejo + infinitif conseille, et Corre est un simple ordre, pas une interdiction. Seule la phrase avec Está prohibido exprime une interdiction, et porque en donne la justification."
+  },
+  "verification": "ok2"
+}

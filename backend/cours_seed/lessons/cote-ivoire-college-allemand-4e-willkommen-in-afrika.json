@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-willkommen-in-afrika",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Willkommen In Afrika",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Willkommen In Afrika",
+  "intro": {
+    "heading": "Un correspondant allemand arrive au collège",
+    "body": "Dans ta classe d'allemand à Abidjan, un correspondant allemand, Lukas, vient te rendre visite. Pour l'accueillir, tu dois le saluer, te présenter et lui poser des questions simples. Dans cette leçon, tu apprends les formules de politesse, des phrases simples, puis à relier deux phrases avec und et denn."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👋",
+        "text": "Hallo, Guten Morgen, Auf Wiedersehen : saluer et prendre congé."
+      },
+      {
+        "icon": "🙋",
+        "text": "Ich heiße… et Ich komme aus… pour se présenter."
+      },
+      {
+        "icon": "🔗",
+        "text": "Und (et) et denn (car) relient deux phrases, avec le verbe en deuxième position."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Saluer, se présenter, s'informer et relier ses idées",
+    "explanation": "Pour saluer, en français tu dis « bonjour » ; en allemand, tu dis Guten Morgen (bonjour, le matin), Guten Tag (bonjour, dans la journée) ou Guten Abend (bonsoir). Entre amis, tu peux dire Hallo (salut) et, pour partir, Tschüs (salut, au revoir, familier) ou Auf Wiedersehen (au revoir). Pour t'informer, tu demandes Wie heißt du? (Comment t'appelles-tu ?), Woher kommst du? (D'où viens-tu ?) et Wie geht es dir? (Comment vas-tu ?). Pour répondre, tu dis Ich heiße Awa. (Je m'appelle Awa.), Ich komme aus Abidjan. (Je viens d'Abidjan.) et Mir geht es gut, danke. (Je vais bien, merci.) Dans une phrase déclarative, le verbe conjugué est en deuxième position. Les connecteurs te permettent de faire des phrases plus longues : und (et) et denn (car) gardent l'ordre normal, avec le sujet puis le verbe en deuxième position : Ich bin froh, denn ich habe eine neue Freundin.",
+    "highlight": "Ich heiße Awa und ich komme aus Abidjan. (Je m'appelle Awa et je viens d'Abidjan.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec denn : « Ich bin froh. » (Je suis content.) et « Ich habe eine neue Freundin. » (J'ai une nouvelle amie.)",
+    "steps": [
+      "Repère le sens : la deuxième phrase donne la raison de la première, donc tu utilises denn (car).",
+      "Écris la première phrase : Ich bin froh.",
+      "Mets une virgule, puis le connecteur denn.",
+      "Après denn, garde l'ordre normal : sujet puis verbe en deuxième position, donc ich habe eine neue Freundin.",
+      "Réponse : Ich bin froh, denn ich habe eine neue Freundin. (Je suis content, car j'ai une nouvelle amie.)"
+    ]
+  },
+  "quiz": {
+    "question": "Lukas te demande ton prénom. Comment dis-tu « Je m'appelle Kofi » en allemand ?",
+    "reponse_calculee": "Ich heiße Kofi.",
+    "choices": [
+      {
+        "label": "Ich heiße Kofi.",
+        "correct": true
+      },
+      {
+        "label": "Du heißt Kofi.",
+        "correct": false
+      },
+      {
+        "label": "Wie heißt Kofi?",
+        "correct": false
+      },
+      {
+        "label": "Auf Wiedersehen, Kofi.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Ich heiße Kofi. signifie « Je m'appelle Kofi ». Ich est le sujet (je) et le verbe heißen est conjugué en deuxième position.",
+    "feedback_wrong": "La bonne réponse est Ich heiße Kofi. (Je m'appelle Kofi.) Du heißt Kofi. veut dire « Tu t'appelles Kofi. » Wie heißt Kofi? veut dire « Comment s'appelle Kofi ? » Auf Wiedersehen, Kofi. veut dire « Au revoir, Kofi. » Seule la phrase avec ich permet de se présenter."
+  },
+  "verification": "ok2"
+}

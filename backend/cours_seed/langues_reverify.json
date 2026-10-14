@@ -1,0 +1,66 @@
+[
+ {
+  "slug": "cote-ivoire-college-francais-3e-le-texte-argumentatif-i",
+  "remarques": [
+   "Le contenu de la leçon (définitions de thème, thèse, idée, argument, connecteurs, procédés) est exact et adapté à la 3e, je n'y ai rien changé.",
+   "Quiz : le distracteur « Un téléphone qui sonne en classe interrompt la leçon. » est une affirmation générale qui peut passer pour une position contre le téléphone, donc pour une thèse. Cela crée une ambiguïté.",
+   "Je l'ai remplacé par un exemple précis et daté, « Hier, le téléphone de Moussa a sonné pendant la leçon de mathématiques. », qui ne peut pas être pris pour une thèse.",
+   "Le feedback_wrong a été mis à jour pour correspondre à ce nouveau distracteur.",
+   "Il reste une seule option correcte, et reponse_calculee est identique à cette option."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-college-francais-5e-le-groupe-nominal",
+  "remarques": [
+   "Étape 4 de l'exemple : « car on parle toujours d'un seul quartier » est inexact, car le complément du nom peut aussi se mettre au pluriel selon le sens. J'ai remplacé la phrase par une formulation limitée à ce cas : dans cette phrase, on parle d'un seul quartier, donc « du quartier » reste au singulier.",
+   "Concept : la règle sur les noms composés était trop absolue (« les noms et les adjectifs prennent la marque du pluriel »). J'ai ajouté « en général » (ex. des timbres-poste).",
+   "Le reste (règles de pluriel, déterminants, expansions, accords, phrase finale « Ces grands marchés du quartier vendent des choux-fleurs frais. ») est exact.",
+   "Quiz : une seule option correcte (« des choux-fleurs »), identique à reponse_calculee ; les trois distracteurs sont clairement faux ; feedbacks cohérents. Aucun changement."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-college-francais-3e-la-communication",
+  "remarques": [
+   "Étape 5 de l'exemple : « euh » était donné comme preuve du registre familier. C'est faux : « euh » est une marque de l'oral (hésitation), pas un marqueur de registre. Seul « hein » est un mot familier. J'ai reformulé l'étape et rappelé la distinction entre marque de l'oral et registre de langue.",
+   "Le reste (définitions, schéma de la communication, modalités de phrase, exemples de registres, quiz avec une seule bonne réponse « L'injonction (ordre) » identique à reponse_calculee, feedbacks cohérents) est exact et adapté au niveau de 3e."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-lycee-francais-2nde-resume-du-texte-argumentatif",
+  "remarques": [
+   "Quiz : feedback_correct et feedback_wrong étaient vides ; ils sont maintenant rédigés et cohérents avec la bonne réponse.",
+   "Quiz : « quel élément dois-tu supprimer d'abord ? » était ambigu, car « d'abord » suggère un ordre de suppression que la leçon n'enseigne pas. La question est reformulée sans ce mot.",
+   "Concept : phrase finale redondante (« ni introduction ni conclusion personnelles ») reformulée plus clairement. J'ai aussi précisé que le résumé garde le point de vue de l'auteur, sans commentaire personnel.",
+   "Reste de la leçon (intro, points de résumé, exemple et étapes, résumé rédigé en deux phrases) vérifié : exact, dans le chapitre et adapté au niveau de 2nde. 'reponse_calculee' est identique à l'unique option correcte."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-lycee-allemand-1ere-monde-du-travail-et-metiers",
+  "remarques": [
+   "Tout l'allemand de la leçon est correct : Was bist du von Beruf?, Ich bin Lehrer, Ich arbeite als Fahrer, Sie ist Lehrerin, die Ärztin, Awa ist Verkäuferin auf dem Markt, Mein Vater ist Fahrer.",
+   "Traduction ambiguë corrigée : « der Schneider, die Schneiderin (le tailleur, la couturière) » associait deux sens différents. Je l'ai remplacé par l'exemple sûr « der Fahrer, die Fahrerin (le chauffeur, la chauffeuse) », qui prépare aussi le quiz.",
+   "Traduction de « die Ärztin » reformulée en « la femme médecin / la médecin » pour un français plus naturel.",
+   "Ajout d'une précision pédagogique : l'article est omis seulement quand le métier est donné seul, sans adjectif.",
+   "Quiz vérifié : une seule option correcte, identique à reponse_calculee, les trois autres sont clairement fausses (féminin, article erroné, verbe mal placé). Les feedbacks sont cohérents. Aucune modification du quiz.",
+   "La leçon reste dans le thème et au bon niveau."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-lycee-francais-tle-preparation-a-l-oral-du-bacca",
+  "remarques": [
+   "Exemple : « ce soir, son petit frère pourrait acheter » est incohérent dans un récit au passé. Le repère « ce soir » renvoie au présent de l'énonciation, alors que le conditionnel exprime un futur dans le passé. J'ai remplacé par « ce soir-là », qui est correct.",
+   "Le reste est exact : définitions du thème, du type, du genre, de la tonalité, de l'hypothèse, des axes et des entrées pertinentes ; conjugaison au passé simple (compta, sourit) ; analyse de l'exemple (« Pourtant » comme mot d'opposition, contraste imparfait / passé simple).",
+   "Quiz : une seule option correcte, reponse_calculee identique à cette option, trois distracteurs clairement faux, feedbacks cohérents. Aucun changement.",
+   "Cohérence avec le chapitre et niveau Tle : conformes, aucun hors-sujet ni fait inventé."
+  ]
+ },
+ {
+  "slug": "cote-ivoire-lycee-francais-tle-resume-du-texte-argumentatif",
+  "remarques": [
+   "Étape 4 de l'exemple : formulation hésitante (« ou ne pas les garder si la thèse suffit ») et contradictoire avec l'étape 3, qui supprimait déjà ces détails puis les regroupait. J'ai rendu la démarche cohérente : les exemples précis sont supprimés, puis regroupés sous une expression générale (« bien utilisé »).",
+   "Étape 3 : j'ai précisé que les exemples supprimés comprennent le nom d'Awa, les cours enregistrés, l'appel au professeur et le jeu de nuit.",
+   "Phrase de résumé : j'ai reformulé pour intégrer le terme englobant (« s'il est bien utilisé ») et supprimer la redondance « par lui-même / tout dépend de l'usage », afin d'obtenir une phrase plus courte et plus proche d'un vrai résumé.",
+   "Le reste (règles, connecteurs, mot englobant « des vivres », quiz avec une seule bonne réponse identique à reponse_calculee, feedbacks) est exact et adapté au niveau."
+  ]
+ }
+]

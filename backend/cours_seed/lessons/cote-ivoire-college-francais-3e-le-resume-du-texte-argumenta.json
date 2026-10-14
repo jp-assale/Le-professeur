@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-resume-du-texte-argumenta",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le résumé du texte argumentatif",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le résumé du texte argumentatif",
+  "intro": {
+    "heading": "Le défi d'Awa en classe de français",
+    "body": "Awa, élève de 3e à Bouaké, doit résumer un texte de 400 mots qui défend l'idée que les élèves doivent limiter l'usage du téléphone portable à l'école. Elle recopie plusieurs phrases, mais son professeur lui dit que ce n'est pas un résumé. Il lui demande de retrouver le thème, la thèse et les idées essentielles, puis de les relier avec logique. Dans cette leçon, tu vas apprendre la méthode pour réussir cet exercice."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Repère le thème et la thèse défendue par l'auteur."
+      },
+      {
+        "icon": "🔗",
+        "text": "Garde les idées essentielles et relie-les logiquement."
+      },
+      {
+        "icon": "📏",
+        "text": "Respecte la longueur demandée, sans exemples ni opinion personnelle."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode du résumé argumentatif",
+    "explanation": "Le thème est le sujet général du texte : de quoi parle l'auteur ? La thèse est l'opinion que l'auteur défend à propos de ce thème. Les idées essentielles sont les arguments principaux qui soutiennent cette thèse ; les exemples, les anecdotes et les répétitions ne sont pas essentiels. Pour résumer, tu dois d'abord lire le texte, repérer le thème, la thèse et les arguments, puis les reformuler avec tes propres mots. Tu relies ensuite les idées par des connecteurs logiques comme « d'abord », « en effet », « de plus », « mais », « donc », « enfin », pour garder l'enchaînement du raisonnement de l'auteur. Les contraintes du résumé sont les suivantes : respecter le nombre de mots demandé (souvent environ le quart ou le tiers du texte, avec une petite marge de tolérance), écrire généralement au présent de l'indicatif, ne pas donner ton avis et ne pas recopier les phrases de l'auteur. Tu indiques à la fin le nombre de mots de ton résumé.",
+    "highlight": "Résumer, c'est dire l'essentiel : thème, thèse, arguments, dans l'ordre logique, avec tes mots et la longueur demandée."
+  },
+  "example": {
+    "problem": "Voici un court texte inventé : « Les élèves devraient cultiver un jardin scolaire. D'abord, cela leur apprend le travail de la terre. Par exemple, Koffi a planté des tomates avec sa classe et en a vendu 20 kg au marché. De plus, les légumes récoltés améliorent les repas de la cantine. Enfin, le jardin apprend la patience et le sens du travail en équipe. » Résume ce texte en une ou deux phrases.",
+    "steps": [
+      "Repère le thème : le jardin scolaire.",
+      "Repère la thèse : l'auteur pense que les élèves devraient cultiver un jardin à l'école.",
+      "Relève les idées essentielles : le jardin apprend le travail de la terre, il améliore les repas de la cantine, il enseigne la patience et le travail en équipe.",
+      "Supprime l'exemple de Koffi et des tomates, car c'est un détail qui illustre l'idée sans être essentiel.",
+      "Rédige avec tes propres mots (y compris pour la thèse) et un connecteur logique : « L'auteur plaide pour un jardin cultivé par les élèves, car cette activité leur fait découvrir l'agriculture, améliore les repas de la cantine et développe la patience ainsi que l'esprit d'équipe. »",
+      "Vérifie les contraintes : présent, pas d'avis personnel, pas de phrase recopiée, longueur demandée respectée."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces éléments d'un texte argumentatif, lequel doit être supprimé dans le résumé ?",
+    "reponse_calculee": "Un exemple qui illustre un argument sans être essentiel",
+    "choices": [
+      {
+        "label": "La thèse défendue par l'auteur",
+        "correct": false
+      },
+      {
+        "label": "Un exemple qui illustre un argument sans être essentiel",
+        "correct": true
+      },
+      {
+        "label": "Un argument principal du texte",
+        "correct": false
+      },
+      {
+        "label": "Le lien logique entre deux idées essentielles",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les exemples servent seulement à illustrer les arguments. Dans un résumé, on les supprime pour garder la thèse, les idées essentielles et leur enchaînement logique.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. La thèse, les arguments principaux et les liens logiques forment la structure du texte et doivent rester dans le résumé. Ce sont les exemples qui sont supprimés, car ils illustrent sans être essentiels."
+  },
+  "verification": "ok2"
+}

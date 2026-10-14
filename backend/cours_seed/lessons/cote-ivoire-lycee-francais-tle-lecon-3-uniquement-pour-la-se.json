@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-tle-lecon-3-uniquement-pour-la-se",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Tle · Leçon 3 (uniquement pour la série A) : Étude d'une œuvre intégrale poétique en littérature africaine ou étrangère",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Leçon 3 (uniquement pour la série A) : Étude d'une œuvre intégrale poétique en littérature africaine ou étrangère",
+  "intro": {
+    "heading": "Un recueil entier entre les mains",
+    "body": "Ton professeur t'annonce l'étude d'un recueil de poèmes lu en entier, du premier au dernier texte. Ton amie Adjoua te demande : « Comment savoir si ce recueil est lyrique, épique ou satirique ? » Pour répondre, il faut connaître les grandes formes de poésie et savoir repérer leurs indices dans les textes. Voilà ce que tu vas apprendre pour réussir ta situation d'évaluation de lecture."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎶",
+        "text": "La poésie lyrique exprime les sentiments personnels du poète."
+      },
+      {
+        "icon": "⚔️",
+        "text": "L'épique chante les exploits ; le satirique critique en se moquant."
+      },
+      {
+        "icon": "✊",
+        "text": "Didactique, parnassienne ou engagée : chaque poésie poursuit un but précis."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Six formes de poésie à reconnaître",
+    "explanation": "Une œuvre poétique intégrale se lit en repérant son but, son ton et ses procédés. La poésie lyrique exprime les sentiments du poète (amour, joie, nostalgie, deuil) avec le « je », des images et une forte musicalité. La poésie épique célèbre les exploits d'un héros ou d'un peuple, avec un souffle puissant, de l'exagération et parfois du merveilleux. La poésie didactique cherche à instruire : elle transmet un savoir ou une leçon de vie sous une forme agréable à retenir. La poésie satirique critique les défauts d'une personne ou d'une société en se moquant, grâce à l'ironie, à la caricature et à l'exagération. La poésie parnassienne défend l'art pour l'art : elle recherche la beauté de la forme, la perfection du vers et le travail du mot, sans montrer ses émotions. La poésie engagée met les mots au service d'une cause comme la liberté, la justice ou la dignité, et veut convaincre le lecteur d'agir ou de réfléchir. Pour étudier un recueil, observe le titre, la composition, les thèmes, le ton dominant et les procédés d'écriture, puis justifie ton classement par des indices précis. Un même recueil peut mêler plusieurs formes, mais l'une d'elles domine le plus souvent.",
+    "highlight": "Pour classer un poème, cherche son but : émouvoir, célébrer, instruire, critiquer, embellir ou défendre une cause."
+  },
+  "example": {
+    "problem": "Lis ce court poème inventé : « Ô Abidjan, quand tu t'endors, mon cœur veille et ma peine chante sous la lune. » Dis de quelle forme de poésie il relève et justifie.",
+    "steps": [
+      "Lis le vers à voix haute et repère qui parle : les déterminants possessifs « mon » et « ma » montrent que le poète parle de lui-même.",
+      "Relève l'apostrophe « Ô Abidjan » : le poète s'adresse à la ville avec émotion.",
+      "Observe le vocabulaire : « cœur » et « peine » appartiennent au champ des sentiments.",
+      "Note les images : le cœur qui veille et la peine qui chante sont des images qui traduisent la mélancolie du poète.",
+      "Conclus : ce vers relève de la poésie lyrique, car il exprime une émotion personnelle.",
+      "Rédige ta réponse : « Ce poème est lyrique, car le poète parle de lui (« mon cœur », « ma peine ») et utilise le vocabulaire des sentiments pour exprimer sa peine. »"
+    ]
+  },
+  "quiz": {
+    "question": "Un poème se moque, par l'ironie et l'exagération, d'un fonctionnaire qui réclame 5 000 FCFA à chaque usager pour signer un simple papier. De quelle forme de poésie relève-t-il ?",
+    "reponse_calculee": "La poésie satirique",
+    "choices": [
+      {
+        "label": "La poésie lyrique",
+        "correct": false
+      },
+      {
+        "label": "La poésie épique",
+        "correct": false
+      },
+      {
+        "label": "La poésie parnassienne",
+        "correct": false
+      },
+      {
+        "label": "La poésie satirique",
+        "correct": true
+      }
+    ],
+    "feedback_correct": "Bravo ! Le poème critique un défaut de la société en se moquant, grâce à l'ironie et à l'exagération : c'est la marque de la poésie satirique.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. La poésie lyrique exprime des sentiments personnels, l'épique célèbre des exploits et la parnassienne recherche la beauté pure de la forme. Ici, le poème critique en se moquant d'un fonctionnaire corrompu : il s'agit de la poésie satirique."
+  },
+  "verification": "ok2"
+}

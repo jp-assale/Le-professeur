@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-besuch-in-berlin",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Besuch In Berlin",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Besuch In Berlin",
+  "intro": {
+    "heading": "Une lettre de Berlin",
+    "body": "Koffi, élève de 3e à Abidjan, correspond avec Lena, une élève de Berlin. Lena lui écrit : « Was möchtest du in Berlin besuchen ? » Koffi doit lui répondre en allemand et lui dire ce qu'il voudrait visiter et comment il voudrait y aller. Voilà la tâche que tu vas apprendre à réussir : présenter simplement un voyage à Berlin."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✈️",
+        "text": "Avec une ville : nach + ville, sans article."
+      },
+      {
+        "icon": "🏛️",
+        "text": "Pour visiter un lieu, on utilise le verbe besuchen."
+      },
+      {
+        "icon": "🧩",
+        "text": "Avec möchte, l'infinitif se place à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce qu'on voudrait faire à Berlin",
+    "explanation": "Pour dire qu'on va vers une ville, on emploie nach sans article : Ich fahre nach Berlin (Je vais à Berlin). Pour dire qu'on voudrait faire quelque chose, on utilise le verbe möchten. Ses formes sont : ich möchte (je voudrais), du möchtest (tu voudrais), er/sie möchte (il/elle voudrait), wir möchten (nous voudrions). Dans la phrase, möchte occupe la deuxième place. Le deuxième verbe reste à l'infinitif et se place tout à la fin de la phrase. Exemple : Ich möchte das Museum besuchen (Je voudrais visiter le musée). Quelques mots utiles : die Stadt (la ville), der Bahnhof (la gare), das Museum (le musée), besuchen (visiter), fahren (aller, voyager en véhicule).",
+    "highlight": "Sujet + möchte + complément + infinitif. Exemple : Ich möchte Berlin besuchen. (Je voudrais visiter Berlin.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande qui signifie : « Awa voudrait visiter le musée à Berlin. » Utilise les mots Awa, möchte, das Museum, in Berlin, besuchen.",
+    "steps": [
+      "Je commence par le sujet : Awa.",
+      "Je place le verbe möchten en deuxième position, avec la forme de la 3e personne : möchte.",
+      "J'ajoute le complément : das Museum in Berlin.",
+      "Je mets le deuxième verbe à l'infinitif, tout à la fin : besuchen.",
+      "Phrase complète : Awa möchte das Museum in Berlin besuchen. (Awa voudrait visiter le musée à Berlin.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Nous voudrions aller à Berlin » ?",
+    "reponse_calculee": "Wir möchten nach Berlin fahren.",
+    "choices": [
+      {
+        "label": "Wir möchten nach Berlin fahren.",
+        "correct": true
+      },
+      {
+        "label": "Wir möchten fahren nach Berlin.",
+        "correct": false
+      },
+      {
+        "label": "Wir möchtet nach Berlin fahren.",
+        "correct": false
+      },
+      {
+        "label": "Wir fahren möchten nach Berlin.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Wir möchten nach Berlin fahren est correct : möchten est en deuxième position avec wir, nach est utilisé avec la ville, et l'infinitif fahren est à la fin de la phrase.",
+    "feedback_wrong": "La bonne réponse est : Wir möchten nach Berlin fahren. Avec möchten, le deuxième verbe à l'infinitif va toujours à la fin de la phrase. Avec wir, la forme est möchten, et non möchtet. Möchten doit rester en deuxième position."
+  },
+  "verification": "ok"
+}

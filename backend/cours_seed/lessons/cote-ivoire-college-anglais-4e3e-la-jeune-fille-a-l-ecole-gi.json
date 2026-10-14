@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-la-jeune-fille-a-l-ecole-gi",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · La jeune fille à l'école (Girls at school)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · La jeune fille à l'école (Girls at school)",
+  "intro": {
+    "heading": "Un débat en classe à Abidjan",
+    "body": "Dans ta classe de 3e, le professeur d'anglais organise un débat : « Girls at school » (la jeune fille à l'école). Aya pense que chaque fille doit étudier, et Koffi veut savoir pourquoi. Pour répondre, ils doivent utiliser des mots sur l'école et des expressions pour donner leur opinion. Dans cette leçon, tu vas apprendre à donner ton avis en anglais, avec la bonne intonation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎓",
+        "text": "Je connais des mots sur l'école et les filles."
+      },
+      {
+        "icon": "💬",
+        "text": "Je donne mon avis avec « In my opinion »."
+      },
+      {
+        "icon": "🔊",
+        "text": "Ma voix descend à la fin d'une opinion."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de la scolarisation des filles et donner son opinion",
+    "explanation": "Voici des mots utiles : a girl (une fille), a school (une école), a classroom (une salle de classe), a teacher (un professeur), education (l'éducation), a job (un emploi). Tu peux aussi dire : to go to school (aller à l'école). Pour donner une opinion, utilise : « I think that... » (je pense que...), « I believe that... » (je crois que...) ou « In my opinion, ... » (à mon avis, ...). Pour réagir, dis : « I agree. » (je suis d'accord.) ou « I disagree. » (je ne suis pas d'accord.). Voici une idée simple à défendre : « Education helps girls find a good job. » (L'éducation aide les filles à trouver un bon emploi.) Pour l'intonation, la voix descend à la fin d'une phrase d'opinion : In my opinion, girls should go to school. Pour une question comme « Do you agree? » (es-tu d'accord ?), la voix monte à la fin. Dans « go to school », il n'y a pas d'article devant « school ».",
+    "highlight": "In my opinion, + sujet + verbe. Exemple : In my opinion, girls should go to school. (À mon avis, les filles devraient aller à l'école.)"
+  },
+  "example": {
+    "problem": "Construis en anglais la phrase : « À mon avis, les filles devraient aller à l'école. »",
+    "steps": [
+      "Commence par l'expression d'opinion : « In my opinion, » (à mon avis,).",
+      "Ajoute le sujet : « girls » (les filles). Pour parler en général, on n'ajoute pas « the ».",
+      "Ajoute le verbe : « should go » (devraient aller).",
+      "Termine par « to school » (à l'école), sans article devant « school ».",
+      "Phrase complète : In my opinion, girls should go to school. (À mon avis, les filles devraient aller à l'école.) Ta voix descend à la fin de la phrase."
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « À mon avis, l'école est importante pour les filles » ?",
+    "reponse_calculee": "In my opinion, school is important for girls.",
+    "choices": [
+      {
+        "label": "In my opinion, school is important for girls.",
+        "correct": true
+      },
+      {
+        "label": "In my opinion, school important is for girls.",
+        "correct": false
+      },
+      {
+        "label": "My opinion school is important girls.",
+        "correct": false
+      },
+      {
+        "label": "In my opinion, school are important for girls.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « In my opinion » (à mon avis) est suivi d'une phrase complète : sujet « school », verbe « is », puis « important for girls » (importante pour les filles). Ta voix descend à la fin.",
+    "feedback_wrong": "La bonne réponse est : In my opinion, school is important for girls. Il faut garder l'ordre sujet + verbe + complément (school is important), et utiliser « is » avec « school », car « school » est singulier. Il faut aussi employer l'expression complète « In my opinion, ... » suivie d'une phrase, avec « for girls » pour dire « pour les filles »."
+  },
+  "verification": "ok2"
+}

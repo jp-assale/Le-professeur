@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-l-ordinateur-the-computer",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · L'ordinateur (The computer)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'ordinateur (The computer)",
+  "intro": {
+    "heading": "Un cours d'informatique à Abidjan",
+    "body": "Aya et Koffi entrent dans la salle informatique de leur collège à Abidjan. Leur professeur d'anglais leur donne cette situation d'évaluation : « Ta petite cousine du village n'a jamais vu d'ordinateur. Écris quelques phrases en anglais pour lui présenter les parties de la machine et lui dire à quoi elle sert. » Pour réussir, tu dois connaître les mots de l'ordinateur, une structure simple et une bonne méthode de lecture."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💻",
+        "text": "Apprends les parties : screen, keyboard, mouse, printer."
+      },
+      {
+        "icon": "⚙️",
+        "text": "Décris les fonctions avec : We use a computer to + verbe."
+      },
+      {
+        "icon": "🔎",
+        "text": "Lis : repère l'idée générale, puis les idées secondaires."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer, décrire et lire : le vocabulaire de l'ordinateur",
+    "explanation": "Voici les parties d'un ordinateur : the screen (l'écran), the keyboard (le clavier), the mouse (la souris) et the printer (l'imprimante). Pour dire à quoi sert l'ordinateur, utilise la structure We use a computer to + verbe, par exemple to type (taper), to print (imprimer), to save (enregistrer) ou to search (chercher). Pour décrire le fonctionnement, on emploie le présent simple. Avec he, she, it ou un nom au singulier, le verbe prend un s : The printer prints documents (L'imprimante imprime des documents). Avec I, you, we et they, le verbe ne change pas : You press the keys (Tu appuies sur les touches). Pour lire un texte sur l'ordinateur, lis d'abord vite le titre et la première phrase : cela donne l'idée générale (skimming). Ensuite, relis pour trouver les idées secondaires, c'est-à-dire les détails qui expliquent l'idée générale. Si un mot est nouveau, regarde les mots autour de lui pour en deviner le sens.",
+    "highlight": "We use a computer to + verbe : We use a computer to write a letter. (Nous utilisons un ordinateur pour écrire une lettre.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Koffi utilise l'ordinateur pour taper son devoir. »",
+    "steps": [
+      "Le sujet est Koffi, un garçon : on pense à he, donc le verbe use prend un s : uses.",
+      "On construit la phrase : sujet + uses + the computer + to + verbe.",
+      "Le verbe « taper » se dit type. Après to, le verbe reste à la forme de base, sans s.",
+      "« Son devoir » pour un garçon se dit his homework.",
+      "Phrase complète : Koffi uses the computer to type his homework. (Koffi utilise l'ordinateur pour taper son devoir.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire que l'imprimante imprime des documents ?",
+    "reponse_calculee": "The printer prints documents.",
+    "choices": [
+      {
+        "label": "The printer prints documents.",
+        "correct": true
+      },
+      {
+        "label": "The printer print documents.",
+        "correct": false
+      },
+      {
+        "label": "The printer to prints documents.",
+        "correct": false
+      },
+      {
+        "label": "The printer printing documents.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Printer est un nom au singulier (it), donc au présent simple le verbe prend un s : The printer prints documents. (L'imprimante imprime des documents.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Au présent simple, avec un nom au singulier comme the printer, le verbe prend un s : prints. On n'ajoute ni to ni -ing. La bonne réponse est : The printer prints documents. (L'imprimante imprime des documents.)"
+  },
+  "verification": "ok2"
+}

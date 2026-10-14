@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-la-can-the-can",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · La CAN (The CAN)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · La CAN (The CAN)",
+  "intro": {
+    "heading": "Match de la CAN au quartier",
+    "body": "Ce soir, Awa, Yao et leurs amis regardent un match de la CAN chez Koffi. Ils parlent du jeu en anglais pour s'entraîner : ils expliquent pourquoi ils sont contents ou tristes et pourquoi ils font certaines choses. Ta mission : apprendre les mots du football en anglais, puis exprimer un but et une cause avec des phrases simples."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚽",
+        "text": "Je connais des mots du football : player, goal, referee, team."
+      },
+      {
+        "icon": "🎯",
+        "text": "Pour exprimer un but, j'utilise to + verbe."
+      },
+      {
+        "icon": "❓",
+        "text": "Pour donner une cause, j'utilise because + une phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les mots du football, le but et la cause",
+    "explanation": "Voici des mots utiles : a player (un joueur), a goalkeeper (un gardien de but), a team (une équipe), a coach (un entraîneur), a referee (un arbitre), a fan (un supporteur), a ball (un ballon), a goal (un but au football), a stadium (un stade), to score (marquer), to win (gagner), to lose (perdre). Attention : en français, le mot « but » a deux sens. Au football, c'est a goal. Dans une phrase, c'est l'intention, la raison d'agir. Pour exprimer cette intention (le but), on place to + un verbe à la forme de base après l'action : I go to the stadium to watch the match. Pour donner la cause, on répond à la question Why ? (Pourquoi ?) avec because + une phrase complète : We are happy because our team wins. Because est suivi d'un sujet et d'un verbe. To est suivi seulement d'un verbe.",
+    "highlight": "But : action + to + verbe. Ex. : I go to the stadium to watch the match. (Je vais au stade pour regarder le match.) Cause : because + sujet + verbe. Ex. : I am happy because we win. (Je suis content parce que nous gagnons.)"
+  },
+  "example": {
+    "problem": "Relie les deux idées avec to pour exprimer le but : Yao goes to the market. He wants to buy a ball. Écris la phrase en anglais.",
+    "steps": [
+      "Repère l'action principale : Yao goes to the market. (Yao va au marché.)",
+      "Repère le but de cette action : buy a ball. (acheter un ballon.)",
+      "Pour exprimer le but, on utilise to + le verbe à la forme de base : to buy.",
+      "On supprime He wants et on garde seulement le verbe et son complément : to buy a ball.",
+      "Phrase finale : Yao goes to the market to buy a ball. (Yao va au marché pour acheter un ballon.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase pour donner la cause : Fatou is sad ___ her team loses the match.",
+    "reponse_calculee": "because",
+    "choices": [
+      {
+        "label": "because",
+        "correct": true
+      },
+      {
+        "label": "to",
+        "correct": false
+      },
+      {
+        "label": "with",
+        "correct": false
+      },
+      {
+        "label": "where",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Because introduit la cause et il est suivi d'une phrase complète : Fatou is sad because her team loses the match. (Fatou est triste parce que son équipe perd le match.)",
+    "feedback_wrong": "La bonne réponse est because. Il introduit la cause et il est suivi d'un sujet et d'un verbe (her team loses). To exprime un but et se place devant un verbe seul. With et where ne donnent pas de cause ici. Phrase correcte : Fatou is sad because her team loses the match. (Fatou est triste parce que son équipe perd le match.)"
+  },
+  "verification": "ok"
+}

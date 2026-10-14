@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-cooking-and-food",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Cooking and food",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Cooking and food",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa va au marché de Ouagadougou avec 1 000 FCFA. Elle achète du riz, du poisson et des tomates pour le repas de la famille. Son petit frère Issa dit qu'il aime le riz, mais qu'il n'aime pas le poisson. Aujourd'hui, tu apprends à dire en anglais les aliments et ce que tu aimes ou n'aimes pas."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍚",
+        "text": "Je connais des mots : rice, fish, bread, chicken."
+      },
+      {
+        "icon": "👍",
+        "text": "Avec I like, je dis ce que j'aime."
+      },
+      {
+        "icon": "👎",
+        "text": "Avec I don't like, je dis ce que je n'aime pas."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que j'aime et ce que je n'aime pas",
+    "explanation": "Voici des mots utiles : rice (le riz), fish (le poisson), bread (le pain), chicken (le poulet), water (l'eau), milk (le lait), banana (la banane), egg (l'œuf). Pour dire que tu aimes un aliment, tu écris I like + l'aliment. Pour dire que tu n'aimes pas, tu écris I don't like + l'aliment. En anglais, on n'utilise pas « the » devant le nom d'un aliment quand on parle de façon générale. On dit donc I like rice, et non « I like the rice ». Pour une autre personne (he, she, ou un prénom), on ajoute un s à like : She likes fish. Dans la phrase négative avec he ou she, on écrit doesn't like : He doesn't like milk. Retiens d'abord les deux modèles avec I, ils sont les plus utiles.",
+    "highlight": "I like rice. (J'aime le riz.) / I don't like fish. (Je n'aime pas le poisson.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Je n'aime pas le poisson. »",
+    "steps": [
+      "Cherche le sujet : « Je » se dit I.",
+      "Cherche le verbe : « n'aime pas » se dit don't like.",
+      "Cherche l'aliment : « le poisson » se dit fish, sans « the » devant.",
+      "Mets les mots dans l'ordre : sujet, puis don't like, puis l'aliment.",
+      "Réponse : I don't like fish. (Je n'aime pas le poisson.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Je n'aime pas le pain » en anglais ?",
+    "reponse_calculee": "I don't like bread.",
+    "choices": [
+      {
+        "label": "I don't like bread.",
+        "correct": true
+      },
+      {
+        "label": "I like bread.",
+        "correct": false
+      },
+      {
+        "label": "I not like bread.",
+        "correct": false
+      },
+      {
+        "label": "I don't bread like.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! I don't like bread. est la bonne phrase : I (je) + don't like (n'aime pas) + bread (le pain), sans « the ».",
+    "feedback_wrong": "La bonne réponse est I don't like bread. (Je n'aime pas le pain.) I like bread veut dire « J'aime le pain », donc le sens est contraire. I not like et I don't bread like sont incorrectes : il faut écrire I don't like, puis l'aliment."
+  },
+  "verification": "ok"
+}

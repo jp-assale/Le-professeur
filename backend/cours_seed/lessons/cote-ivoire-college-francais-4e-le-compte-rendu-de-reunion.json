@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-compte-rendu-de-reunion",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le compte rendu de réunion",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le compte rendu de réunion",
+  "intro": {
+    "heading": "Une réunion au collège, et après ?",
+    "body": "Le club de lecture du collège de Yopougon s'est réuni mercredi après la classe. Aya, la secrétaire, a pris des notes pendant que ses camarades discutaient. Le lendemain, le professeur demande un écrit pour informer les élèves absents. Comment transformer des notes en un texte clair et fidèle ? C'est le rôle du compte rendu de réunion."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Un compte rendu dit l'objet de la réunion et ses décisions."
+      },
+      {
+        "icon": "📝",
+        "text": "On note l'essentiel, puis on organise les informations dans l'ordre."
+      },
+      {
+        "icon": "✍️",
+        "text": "On écrit au présent ou au passé, de façon neutre et précise."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Rédiger un compte rendu de réunion",
+    "explanation": "Un compte rendu de réunion est un texte écrit qui rapporte fidèlement, de façon brève et objective, ce qui a été dit et décidé pendant une réunion. Il commence par l'en-tête : l'objet (le sujet de la réunion), la date, le lieu, l'heure, les personnes présentes et absentes. Pendant la réunion, tu relèves les informations essentielles : les idées principales, les propositions, les décisions et les tâches confiées (qui fait quoi, pour quand). Tu laisses de côté les détails inutiles, les bavardages et ton opinion personnelle. Ensuite, tu organises les informations : tu suis l'ordre du jour, tu regroupes les idées par point et tu termines par les décisions prises. Le lexique est celui de la réunion : ordre du jour, séance, président, secrétaire, proposer, débattre, adopter, décider, convenir de, lever la séance. Les outils de la langue sont des verbes au présent ou au passé composé, des mots de liaison (d'abord, ensuite, enfin, par ailleurs) et une rédaction à la 3e personne, sans « je ». Le compte rendu se termine par l'heure de clôture, le nom et la signature du rédacteur.",
+    "highlight": "Compte rendu = objet + informations essentielles organisées + décisions, écrits de façon neutre, brève et fidèle."
+  },
+  "example": {
+    "problem": "Aya a pris ces notes lors de la réunion du club de lecture : « Objet : organiser une collecte de livres. Présents : Koffi, Aya, Mariam. Koffi propose une collecte la semaine prochaine. Mariam dit que sa tante vend du poisson. Il est décidé que chaque élève apportera deux livres. Mariam fera les affiches. » Rédige un court compte rendu.",
+    "steps": [
+      "Étape 1 : repère l'objet de la réunion, ici l'organisation d'une collecte de livres, et place-le en en-tête avec les présents.",
+      "Étape 2 : trie les informations. La remarque sur la tante de Mariam qui vend du poisson n'a aucun lien avec l'objet, donc tu la supprimes.",
+      "Étape 3 : garde l'essentiel : la proposition de Koffi, la décision (deux livres par élève) et la tâche de Mariam (les affiches).",
+      "Étape 4 : organise dans l'ordre : proposition, décision, tâche, avec des mots de liaison comme d'abord, ensuite, enfin.",
+      "Étape 5 : rédige à la 3e personne : « Lors de la réunion du club de lecture, qui avait pour objet l'organisation d'une collecte de livres, Koffi a d'abord proposé de la tenir la semaine prochaine. Il a ensuite été décidé que chaque élève apporterait deux livres. Enfin, Mariam s'est chargée de faire les affiches. »",
+      "Étape 6 : vérifie ton texte : l'objet est précisé, il n'y a ni « je » ni opinion personnelle, et les décisions sont claires."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces éléments, lequel doit figurer dans un compte rendu de réunion ?",
+    "reponse_calculee": "Les décisions prises pendant la réunion",
+    "choices": [
+      {
+        "label": "Les décisions prises pendant la réunion",
+        "correct": true
+      },
+      {
+        "label": "Les bavardages des participants",
+        "correct": false
+      },
+      {
+        "label": "L'opinion personnelle du rédacteur à la première personne",
+        "correct": false
+      },
+      {
+        "label": "Toutes les phrases prononcées, mot pour mot",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Un compte rendu rapporte l'essentiel, et les décisions prises en font partie, avec l'objet et les tâches confiées.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Un compte rendu est bref, neutre et fidèle : il garde l'essentiel, donc surtout les décisions. Il ne note ni les bavardages, ni l'opinion personnelle du rédacteur, ni toutes les phrases mot pour mot."
+  },
+  "verification": "ok"
+}

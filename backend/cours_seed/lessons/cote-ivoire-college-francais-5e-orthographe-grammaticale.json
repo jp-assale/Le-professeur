@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-orthographe-grammaticale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Orthographe grammaticale",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Orthographe grammaticale",
+  "intro": {
+    "heading": "Un message plein d'erreurs",
+    "body": "Aya a écrit à son cousin Koffi pour lui raconter sa journée au marché. Il a lu : « Les vendeuses on mis des pagnes vert clairs et elles parlent gentillement. » Koffi n'a pas tout compris, car plusieurs mots sont mal écrits. Dans cette leçon, tu apprends à repérer et à corriger ces erreurs courantes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔎",
+        "text": "On = il ; ont = avaient. Fais toujours le test."
+      },
+      {
+        "icon": "📝",
+        "text": "L'adjectif verbal s'accorde ; le participe présent reste invariable."
+      },
+      {
+        "icon": "🧩",
+        "text": "Adverbe : féminin + -ment, ou -amment et -emment."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les règles à retenir",
+    "explanation": "« On » est un pronom sujet que tu peux remplacer par « il » ; « ont » est le verbe avoir, que tu peux remplacer par « avaient » (Les élèves ont faim : Les élèves avaient faim). Parmi les mots en -ant, le participe présent exprime une action et reste invariable (Les enfants, obéissant à leur mère, rangent leur chambre), alors que l'adjectif verbal exprime un état et s'accorde (des enfants obéissants). L'adjectif de couleur simple s'accorde (des pagnes verts), mais l'adjectif de couleur composé reste invariable (des pagnes vert clair, des robes bleu foncé) ; les noms employés comme couleurs, comme orange ou marron, restent aussi invariables (des sacs marron). Devant un nom, « nu » et « demi » sont invariables et liés au nom par un trait d'union (nu-pieds, une demi-heure) ; après le nom, ils s'accordent : « nu » s'accorde en genre et en nombre (des pieds nus, une tête nue), « demi » seulement en genre (une heure et demie). « Mi » et « semi » sont toujours invariables et s'écrivent avec un trait d'union (la mi-temps, à mi-chemin, une semi-voyelle). Pour former un adverbe, on ajoute -ment au féminin de l'adjectif (lent : lentement ; doux : doucement) ; si l'adjectif finit par une voyelle, on ajoute -ment au masculin (vrai : vraiment ; poli : poliment). Les adjectifs en -ant donnent des adverbes en -amment (constant : constamment) et ceux en -ent des adverbes en -emment (prudent : prudemment). Attention à l'exception : gentil donne gentiment.",
+    "highlight": "On = il ; ont = avaient. Couleur composée : invariable. Participe présent : invariable ; adjectif verbal : accord. Adverbe : féminin + -ment, -amment, -emment."
+  },
+  "example": {
+    "problem": "Corrige la phrase suivante, inventée pour l'exercice : « Les élèves d'Abidjan on acheté des cahiers vert foncés et ils attendent patiement une demie heure, les pieds nu, devant la boutique. »",
+    "steps": [
+      "Étape 1 : on remplace « on acheté » par « avaient acheté ». Cela fonctionne, donc on écrit le verbe avoir : « ont acheté ».",
+      "Étape 2 : « vert foncé » est un adjectif de couleur composé, donc il reste invariable : « des cahiers vert foncé ».",
+      "Étape 3 : l'adverbe vient de « patient », qui finit par -ent. On écrit donc « patiemment » avec -emment.",
+      "Étape 4 : « demi » est placé devant le nom « heure ». Il est invariable et prend un trait d'union : « une demi-heure ».",
+      "Étape 5 : « nu » est placé après le nom « pieds ». Il s'accorde : « les pieds nus ».",
+      "Phrase corrigée : « Les élèves d'Abidjan ont acheté des cahiers vert foncé et ils attendent patiemment une demi-heure, les pieds nus, devant la boutique. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correctement orthographiée ?",
+    "reponse_calculee": "Awa porte des robes bleu clair.",
+    "choices": [
+      {
+        "label": "Awa porte des robes bleu clair.",
+        "correct": true
+      },
+      {
+        "label": "Awa porte des robes bleus clairs.",
+        "correct": false
+      },
+      {
+        "label": "Awa porte des robes bleu clairs.",
+        "correct": false
+      },
+      {
+        "label": "Awa porte des robes bleus clair.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Bleu clair » est un adjectif de couleur composé (bleu + clair). Un adjectif de couleur composé reste invariable, même si le nom est au pluriel : des robes bleu clair.",
+    "feedback_wrong": "La bonne réponse est « Awa porte des robes bleu clair. ». Quand une couleur est formée de deux mots, comme bleu clair ou vert foncé, l'ensemble reste invariable. On n'ajoute donc aucun -s, ni à « bleu » ni à « clair »."
+  },
+  "verification": "ok2"
+}

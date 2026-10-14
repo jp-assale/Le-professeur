@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-information-and-communicatio",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Information and communication technologies",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Information and communication technologies",
+  "intro": {
+    "heading": "Un message pour Awa",
+    "body": "Awa vit à Bobo-Dioulasso. Chaque soir, elle utilise le téléphone de sa mère pour écrire à sa cousine. Son frère Ali, lui, utilise un ordinateur à l'école. Aujourd'hui, tu vas apprendre en anglais les mots des outils de communication et une phrase simple pour dire ce que tu utilises."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📱",
+        "text": "Je connais les mots: phone, computer, internet, message."
+      },
+      {
+        "icon": "🗣️",
+        "text": "Je dis ce que j'utilise avec I use."
+      },
+      {
+        "icon": "✍️",
+        "text": "Avec he, she ou un prénom, j'ajoute s: uses."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de ce qu'on utilise",
+    "explanation": "Voici quatre mots utiles: a phone (un téléphone), a computer (un ordinateur), the internet (l'internet) et a message (un message). Pour dire ce que tu utilises, tu emploies le verbe use (utiliser). Avec I, you, we et they, le verbe ne change pas: I use a phone. (J'utilise un téléphone.) Avec he, she ou un prénom comme Awa ou Ali, tu ajoutes un s: She uses a computer. (Elle utilise un ordinateur.) Le verbe send (envoyer) suit la même règle: She sends a message. (Elle envoie un message.) Avant un mot au singulier comme phone ou computer, tu mets a. Retiens bien le s avec he, she et les prénoms.",
+    "highlight": "I use a phone. (J'utilise un téléphone.) / He uses a computer. (Il utilise un ordinateur.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en anglais: « Awa utilise un ordinateur. »",
+    "steps": [
+      "Étape 1: Le sujet est Awa, un prénom de fille. On pense à she (elle).",
+      "Étape 2: Le verbe « utiliser » se dit use en anglais.",
+      "Étape 3: Avec she ou un prénom, on ajoute s au verbe: use devient uses.",
+      "Étape 4: « Un ordinateur » se dit a computer.",
+      "Étape 5: Réponse: Awa uses a computer. (Awa utilise un ordinateur.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase: Ali ___ a phone. (Ali utilise un téléphone.)",
+    "reponse_calculee": "uses",
+    "choices": [
+      {
+        "label": "uses",
+        "correct": true
+      },
+      {
+        "label": "use",
+        "correct": false
+      },
+      {
+        "label": "using",
+        "correct": false
+      },
+      {
+        "label": "to use",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo! Ali est un prénom, donc on dit he. Avec he, she ou un prénom, on ajoute s au verbe: Ali uses a phone. (Ali utilise un téléphone.)",
+    "feedback_wrong": "La bonne réponse est uses. Ali est un garçon, donc he: le verbe prend un s. On dit I use, mais Ali uses. Les formes using et to use ne conviennent pas dans cette phrase simple: Ali uses a phone. (Ali utilise un téléphone.)"
+  },
+  "verification": "ok"
+}

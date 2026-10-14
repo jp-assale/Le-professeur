@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-justice",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Justice",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Justice",
+  "intro": {
+    "heading": "Au tribunal du quartier",
+    "body": "Kouadio regarde un reportage sur un procès avec sa grande sœur Aya. Un témoin parle, l'avocat pose des questions, le juge écoute. Aya dit : « The judge is fair, isn't he? » et Kouadio doit répondre en anglais s'il est d'accord ou non. Aujourd'hui, tu apprends à vérifier une information et à donner ton avis sur la justice."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "⚖️",
+        "text": "Phrase positive : tag négatif. Phrase négative : tag positif."
+      },
+      {
+        "icon": "🗣️",
+        "text": "I agree ou I disagree pour donner ton avis."
+      },
+      {
+        "icon": "👮",
+        "text": "Retiens les mots : judge (juge), lawyer (avocat), witness (témoin), trial (procès), prison (prison)."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les question tags et l'expression de l'accord",
+    "explanation": "Un question tag est une petite question placée à la fin d'une phrase pour vérifier une information ou demander l'accord de l'autre. La règle est simple : si la phrase est positive, le tag est négatif ; si la phrase est négative, le tag est positif. Le tag reprend l'auxiliaire de la phrase (is, are, can, has...). S'il n'y a pas d'auxiliaire, on utilise do, does ou did selon le temps. Le sujet du tag est toujours un pronom (he, she, it, they...). Pour donner ton avis, tu dis « I agree » (je suis d'accord) ou « I disagree » (je ne suis pas d'accord). Voici quelques mots utiles : a judge (un juge), a lawyer (un avocat), a witness (un témoin), a trial (un procès), a prison (une prison), corruption (la corruption).",
+    "highlight": "Phrase positive + tag négatif : The judge is fair, isn't he? (Le juge est équitable, n'est-ce pas ?) Phrase négative + tag positif : The trial isn't fair, is it? (Le procès n'est pas équitable, n'est-ce pas ?)"
+  },
+  "example": {
+    "problem": "Complète avec le bon question tag : The police officers arrested the thief, ______ ? (Les policiers ont arrêté le voleur, n'est-ce pas ?)",
+    "steps": [
+      "Repère le verbe : arrested est au prétérit (simple past), sans auxiliaire.",
+      "Au prétérit, l'auxiliaire du tag est did.",
+      "La phrase est positive, donc le tag est négatif : didn't.",
+      "Le sujet est the police officers, que l'on remplace par le pronom they.",
+      "Réponse complète : The police officers arrested the thief, didn't they? (Les policiers ont arrêté le voleur, n'est-ce pas ?)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis le bon question tag : The trial isn't fair, ______ ? (Le procès n'est pas équitable, n'est-ce pas ?)",
+    "reponse_calculee": "is it?",
+    "choices": [
+      {
+        "label": "is it?",
+        "correct": true
+      },
+      {
+        "label": "isn't it?",
+        "correct": false
+      },
+      {
+        "label": "doesn't it?",
+        "correct": false
+      },
+      {
+        "label": "are they?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! La phrase est négative (isn't), donc le tag est positif. On reprend l'auxiliaire is et le pronom it pour the trial : The trial isn't fair, is it?",
+    "feedback_wrong": "La phrase The trial isn't fair est négative, donc le tag doit être positif. Il reprend l'auxiliaire is et le pronom it, qui remplace the trial. La bonne réponse est is it?"
+  },
+  "verification": "ok2"
+}

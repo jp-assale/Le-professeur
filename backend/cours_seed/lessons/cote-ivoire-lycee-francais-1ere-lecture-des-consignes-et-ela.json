@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-francais-1ere-lecture-des-consignes-et-ela",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "1ère · Lecture des consignes et élaboration de plan",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Lecture des consignes et élaboration de plan",
+  "intro": {
+    "heading": "Un devoir qui part de travers",
+    "body": "Koffi a beaucoup travaillé pour son devoir de français. Pourtant, il a eu une mauvaise note, car il a raconté des idées sans répondre à ce que la consigne demandait. Il avait lu le sujet trop vite et n'avait pas fait de plan. Dans cette leçon, tu apprends à lire un sujet correctement, puis à organiser tes idées avant d'écrire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Lis l'information et repère ses mots-clés."
+      },
+      {
+        "icon": "✏️",
+        "text": "Souligne le verbe de la consigne : il guide le plan."
+      },
+      {
+        "icon": "🗂️",
+        "text": "Cherche des idées, puis classe-les par domaine."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Du sujet au plan : la méthode en étapes",
+    "explanation": "Un sujet comporte deux parties : l'information et la consigne. L'information est le texte ou la phrase de départ qui présente la situation ; tu y relèves les mots-clés, c'est-à-dire les mots qui disent de quoi on parle. La consigne, ou la question, te dit ce que tu dois faire. Son verbe est le plus important, car il détermine le type de plan. Avec « expliquez », « analysez » ou « montrez », tu fais un plan thématique : tu traites plusieurs aspects du sujet l'un après l'autre. Avec « comparez », tu fais un plan comparatif : ressemblances et différences. Avec « discutez » ou « que pensez-vous de... », tu fais un plan dialectique : le pour, le contre, puis une position nuancée. Ensuite, tu recherches des idées en te posant des questions sur les mots-clés, et tu les organises par domaine : scolaire, familial, économique, culturel, santé, environnement.",
+    "highlight": "Le verbe de la consigne décide du type de plan ; les mots-clés disent de quoi tu dois parler."
+  },
+  "example": {
+    "problem": "Information : « Awa, élève de 1ère, affirme que le téléphone portable aide les élèves à mieux réussir à l'école. » Consigne : « Discutez cette affirmation. » Prépare le plan du devoir.",
+    "steps": [
+      "Relève les mots-clés de l'information : « téléphone portable », « aide », « mieux réussir à l'école ».",
+      "Repère le verbe de la consigne : « Discutez ». Il demande d'examiner le pour et le contre, donc un plan dialectique.",
+      "Cherche des idées. Pour : faire des recherches, échanger les leçons avec les camarades, utiliser un dictionnaire en ligne. Contre : distraction, jeux, temps perdu sur les réseaux sociaux, fatigue le soir.",
+      "Classe les idées par domaine : le domaine scolaire (recherches, échanges, distraction) et le domaine de la santé (fatigue, manque de sommeil).",
+      "Écris le plan : I. Le téléphone peut aider à réussir (recherches, échanges de leçons). II. Mais il peut aussi faire échouer (distraction, fatigue). III. Position nuancée : un usage raisonnable, limité aux besoins du travail."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la consigne « Comparez la vie au village et la vie en ville », quel plan le verbe impose-t-il ?",
+    "reponse_calculee": "Un plan comparatif : ressemblances et différences",
+    "choices": [
+      {
+        "label": "Un plan comparatif : ressemblances et différences",
+        "correct": true
+      },
+      {
+        "label": "Un plan dialectique : thèse, antithèse, synthèse",
+        "correct": false
+      },
+      {
+        "label": "Un plan chronologique : du plus ancien au plus récent",
+        "correct": false
+      },
+      {
+        "label": "Un plan qui parle seulement de la vie en ville",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe « comparer » demande de rapprocher deux réalités : on présente leurs ressemblances et leurs différences, donc un plan comparatif.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Le verbe « comparer » impose un plan comparatif, avec les ressemblances et les différences entre la vie au village et la vie en ville. Le plan dialectique correspond à des verbes comme « discutez », et un plan qui ne traite qu'un seul élément ne répond pas à la consigne."
+  },
+  "verification": "ok"
+}

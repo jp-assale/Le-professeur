@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-orthographe-lexicale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Orthographe lexicale",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Orthographe lexicale",
+  "intro": {
+    "heading": "Un message plein d'erreurs",
+    "body": "Aya écrit un message à sa cousine : « Ce matin, jai acheté des mangues a lecole et jai payé 200 FCFA. » Sa cousine a du mal à la lire : il manque des apostrophes et un accent, et le petit mot « a » est mal écrit. Dans cette leçon, tu apprends à écrire correctement les mots pour que tes messages et tes rédactions soient clairs."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✏️",
+        "text": "Les accents et l'apostrophe font partie de l'orthographe du mot."
+      },
+      {
+        "icon": "🔊",
+        "text": "Les homophones se prononcent pareil mais s'écrivent différemment."
+      },
+      {
+        "icon": "🐢",
+        "text": "Les adverbes en -ment se forment à partir de l'adjectif."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Bien écrire les mots",
+    "explanation": "Les accents (é, è, ê, à, ù) font partie du mot : « ecole » et « elève » sont des orthographes fausses, il faut écrire « école » et « élève ». L'élision remplace la voyelle finale de le, la, je, me, te, se, ne, de, que, ce par une apostrophe devant un mot qui commence par une voyelle ou un h muet : l'école, j'aime, l'homme. Les homophones sont des mots qui se prononcent de la même façon mais qui s'écrivent différemment et n'ont pas le même sens : a / à, et / est, on / ont, son / sont, ces / ses. Pour les distinguer, remplace le mot par un autre : « a » peut devenir « avait », alors que « à » ne le peut pas ; « est » peut devenir « était », alors que « et » ne le peut pas. Beaucoup d'adverbes en -ment se forment avec le féminin de l'adjectif suivi de -ment : doux, douce, doucement ; heureux, heureuse, heureusement. Si l'adjectif se termine par une voyelle (i, é, u), on ajoute simplement -ment : poli, poliment ; vrai, vraiment. Si l'adjectif se termine par -ent ou -ant, l'adverbe se termine en général par -emment ou -amment : prudent, prudemment ; brillant, brillamment. Attention : lent fait lentement, c'est une exception.",
+    "highlight": "Devant une voyelle, on élide avec une apostrophe ; pour distinguer deux homophones, remplace-les par un autre mot."
+  },
+  "example": {
+    "problem": "Corrige les erreurs d'orthographe lexicale dans cette phrase : « Koffi a un cahier ; il ecoute le professeur attentivment a lecole. »",
+    "steps": [
+      "Le mot « ecoute » n'a pas d'accent : on écrit « écoute » avec un accent aigu sur le premier e.",
+      "Le mot « lecole » est formé de « le » et de « école » : devant une voyelle, on élide et on écrit « l'école ».",
+      "L'adjectif est « attentif », son féminin est « attentive » : on ajoute -ment et on obtient « attentivement ».",
+      "Teste le premier « a » : « Koffi avait un cahier » est possible, donc on écrit « a » sans accent.",
+      "Teste le second « a » : « il écoute le professeur attentivement avait l'école » est impossible, donc on écrit « à » avec un accent grave.",
+      "Phrase corrigée : « Koffi a un cahier ; il écoute le professeur attentivement à l'école. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quel est l'adverbe correctement écrit dans la phrase : « Le chauffeur conduit ... sur la route du village » ? (adjectif de départ : prudent)",
+    "reponse_calculee": "prudemment",
+    "choices": [
+      {
+        "label": "prudement",
+        "correct": false
+      },
+      {
+        "label": "prudemment",
+        "correct": true
+      },
+      {
+        "label": "prudamment",
+        "correct": false
+      },
+      {
+        "label": "prudentment",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'adjectif « prudent » se termine par -ent : l'adverbe se termine donc par -emment, ce qui donne « prudemment ».",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Quand l'adjectif se termine par -ent, l'adverbe se termine par -emment : prudent donne « prudemment ». La forme en -amment est réservée aux adjectifs en -ant, comme brillant, brillamment."
+  },
+  "verification": "ok2"
+}

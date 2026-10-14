@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-le-texte-argumentatif-ii",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · Le texte argumentatif II",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · Le texte argumentatif II",
+  "intro": {
+    "heading": "Un débat au marché de Yopougon",
+    "body": "Dans le quartier, Tanoh affirme : « Étudier longtemps ne sert à rien, il vaut mieux vendre au marché dès la 3e. » Sa cousine Aya n'est pas d'accord et veut le convaincre sans se disputer. Elle sait qu'il faut d'abord comprendre ce que dit Tanoh, puis montrer pourquoi il se trompe, avec des raisons solides. C'est exactement ce que tu dois faire dans une situation d'évaluation où l'on te demande de réfuter un point de vue."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Réfuter, c'est montrer qu'une thèse est fausse ou exagérée."
+      },
+      {
+        "icon": "🧩",
+        "text": "Appuie chaque idée par un argument et un exemple concret."
+      },
+      {
+        "icon": "🔗",
+        "text": "Utilise des connecteurs d'opposition et des procédés de rhétorique."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Comment réfuter une thèse pas à pas",
+    "explanation": "Le thème du sujet est l'idée générale dont on parle, par exemple l'école ou le téléphone portable. La thèse à réfuter est l'opinion de l'autre que tu veux combattre ; tu la reformules d'abord avec précision. Ensuite tu examines les idées qui soutiennent cette thèse, pour repérer ce qui est exagéré, généralisé ou oublié. Tu présentes alors tes propres idées, et chacune est soutenue par un argument (une raison) et un exemple concret. Les outils grammaticaux t'aident à organiser le raisonnement : les connecteurs d'opposition (mais, pourtant, cependant, or), la concession (certes... mais, bien que + subjonctif), la cause (car, parce que) et la conséquence (donc, c'est pourquoi). Les procédés de rhétorique rendent ton texte plus convaincant : la question rhétorique, la concession, l'antithèse, la comparaison, la gradation. Le texte qui réfute a donc une structure claire : rappel de la thèse, critique de cette thèse, arguments avec exemples, conclusion. Il garde un ton respectueux, car on combat une idée et non une personne.",
+    "highlight": "Réfuter = reformuler la thèse adverse, la critiquer, puis la contredire avec des arguments et des exemples."
+  },
+  "example": {
+    "problem": "Situation : au club de lecture de ton collège, Kouadio déclare : « Le téléphone portable ne sert qu'à perdre son temps, il faut l'interdire aux élèves. » Tâche : rédige un court paragraphe qui réfute cette opinion.",
+    "steps": [
+      "Repère le thème : l'usage du téléphone portable par les élèves.",
+      "Formule la thèse à réfuter : le téléphone ne sert qu'à perdre son temps.",
+      "Analyse la thèse : l'expression « ne sert qu'à » généralise et oublie les usages utiles, comme chercher un mot dans un dictionnaire.",
+      "Choisis un argument et un exemple : l'outil n'est pas mauvais en lui-même ; Awa s'en sert pour revoir ses leçons de français.",
+      "Rédige : « Certes, certains élèves passent trop de temps sur leur téléphone. Pourtant, dire qu'il ne sert qu'à perdre son temps est exagéré, car Awa l'utilise pour revoir ses leçons. Bien que cet outil puisse distraire, il devient utile quand on s'en sert avec discipline. Peut-on condamner un outil à cause de ceux qui l'utilisent mal ? »",
+      "Relève les outils : certes... pourtant (concession et opposition), car (cause), bien que + puisse (subjonctif), et une question rhétorique en conclusion."
+    ]
+  },
+  "quiz": {
+    "question": "Lequel de ces connecteurs sert à s'opposer à la thèse adverse pour la réfuter ?",
+    "reponse_calculee": "Pourtant",
+    "choices": [
+      {
+        "label": "Pourtant",
+        "correct": true
+      },
+      {
+        "label": "Ensuite",
+        "correct": false
+      },
+      {
+        "label": "Donc",
+        "correct": false
+      },
+      {
+        "label": "Par exemple",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Pourtant » exprime l'opposition : il introduit une idée qui contredit la thèse que tu veux réfuter.",
+    "feedback_wrong": "La bonne réponse est « Pourtant ». « Ensuite » ajoute une étape, « Donc » exprime une conséquence et « Par exemple » introduit une illustration. Seul « Pourtant » marque l'opposition."
+  },
+  "verification": "ok"
+}

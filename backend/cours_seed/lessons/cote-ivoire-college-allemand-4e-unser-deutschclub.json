@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-unser-deutschclub",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Unser Deutschclub",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Unser Deutschclub",
+  "intro": {
+    "heading": "Bienvenue au club d'allemand !",
+    "body": "Ton collège ouvre un club d'allemand et tu y arrives pour la première fois. Les élèves veulent faire connaissance : ils te demandent ton prénom, ta ville et ton âge. Ta tâche est de te présenter en allemand avec des phrases courtes et correctes. Voyons comment faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👋",
+        "text": "Ich heiße… sert à dire comment tu t'appelles."
+      },
+      {
+        "icon": "📍",
+        "text": "Ich komme aus… sert à dire d'où tu viens."
+      },
+      {
+        "icon": "🔢",
+        "text": "Dans une phrase affirmative, le verbe se place en deuxième position."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Se présenter et poser des questions au club",
+    "explanation": "Pour te présenter, tu utilises quelques verbes très courants. Ich heiße Awa (Je m'appelle Awa). Ich komme aus Abidjan (Je viens d'Abidjan). Ich wohne in Bouaké (J'habite à Bouaké). Ich bin 13 Jahre alt (J'ai 13 ans). Avec ich, le verbe finit par -e, sauf sein qui donne ich bin. Avec du (tu), le verbe finit en général par -st : du kommst (tu viens), du wohnst (tu habites). Attention : avec heißen, on écrit du heißt (tu t'appelles), car le radical finit déjà par ß. Dans une phrase affirmative, le verbe est en deuxième position. Pour interroger un camarade, tu peux dire : Wie heißt du? (Comment t'appelles-tu ?), Woher kommst du? (D'où viens-tu ?), Wie alt bist du? (Quel âge as-tu ?).",
+    "highlight": "Ich komme aus Abidjan. (Je viens d'Abidjan.) Verbe en 2e position, terminaison -e avec ich."
+  },
+  "example": {
+    "problem": "Tu es Kouadio, tu as 13 ans et tu viens de Bouaké. Présente-toi au Deutschclub en trois phrases : ton prénom, ta ville, ton âge.",
+    "steps": [
+      "Pour le prénom, prends le verbe heißen avec ich : ich heiße (je m'appelle).",
+      "Pour la ville, prends kommen avec aus : ich komme aus Bouaké (je viens de Bouaké).",
+      "Pour l'âge, prends le verbe sein : ich bin (je suis), puis le nombre et Jahre alt.",
+      "Dans chaque phrase, vérifie que le verbe est en deuxième position, juste après ich.",
+      "Réponse : Ich heiße Kouadio. Ich komme aus Bouaké. Ich bin 13 Jahre alt. (Je m'appelle Kouadio. Je viens de Bouaké. J'ai 13 ans.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu veux dire « Je m'appelle Koffi » au Deutschclub. Quelle phrase est correcte ?",
+    "reponse_calculee": "Ich heiße Koffi.",
+    "choices": [
+      {
+        "label": "Ich heiße Koffi.",
+        "correct": true
+      },
+      {
+        "label": "Ich heißt Koffi.",
+        "correct": false
+      },
+      {
+        "label": "Ich Koffi heiße.",
+        "correct": false
+      },
+      {
+        "label": "Ich bin heiße Koffi.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec ich, le verbe heißen prend la terminaison -e : ich heiße. Il se place en deuxième position, juste après ich.",
+    "feedback_wrong": "La bonne phrase est : Ich heiße Koffi. (Je m'appelle Koffi.) Avec ich, on écrit heiße et non heißt, qui est la forme de du, er, sie ou es. Le verbe doit être en deuxième position, donc Ich Koffi heiße est faux. On n'ajoute pas bin devant heiße : un seul verbe suffit."
+  },
+  "verification": "ok2"
+}

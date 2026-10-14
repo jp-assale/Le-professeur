@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-la-presentation-des-civili",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · La présentation des civilités",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · La présentation des civilités",
+  "intro": {
+    "heading": "Un nouvel élève dans ta classe",
+    "body": "Ce matin, un élève venu d'un pays hispanophone arrive dans ta classe à Bouaké. Ton professeur te demande de l'accueillir en espagnol : tu dois le saluer, te présenter, lui présenter ton ami Koffi, puis l'inviter chez toi. Tu dois choisir les bonnes formules pour chaque moment. Voyons ensemble les expressions qui t'aideront à réussir cette situation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👋",
+        "text": "Saluer : Hola, Buenos días, Buenas tardes, Buenas noches."
+      },
+      {
+        "icon": "🤝",
+        "text": "Se présenter : Me llamo... ; présenter : Te presento a..."
+      },
+      {
+        "icon": "🎉",
+        "text": "Remercier, féliciter, inviter, dire au revoir avec la bonne formule."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formules de civilité en espagnol",
+    "explanation": "Pour saluer, tu dis Hola (Salut), Buenos días (Bonjour, le matin), Buenas tardes (Bonjour, l'après-midi) ou Buenas noches (Bonsoir). Pour demander des nouvelles, tu dis ¿Cómo estás? (Comment vas-tu ?) à un ami, et ¿Cómo está usted? (Comment allez-vous ?) à un adulte. Pour te présenter, tu dis Me llamo Aya (Je m'appelle Aya) ou Tengo catorce años (J'ai quatorze ans). Pour présenter quelqu'un, tu dis Te presento a Koffi (Je te présente Koffi), et la réponse est Mucho gusto (Enchanté). Pour remercier, tu dis Gracias ou Muchas gracias (Merci ou Merci beaucoup), et on te répond De nada (De rien). Pour féliciter, tu dis ¡Felicidades! ou ¡Enhorabuena! (Félicitations !). Pour inviter, tu dis ¿Quieres venir a mi casa? (Veux-tu venir chez moi ?). Pour prendre congé, tu dis Adiós (Au revoir), Hasta luego (À tout à l'heure) ou Hasta mañana (À demain).",
+    "highlight": "Te presento a + personne : Te presento a Koffi. (Je te présente Koffi.)"
+  },
+  "example": {
+    "problem": "Tu présentes ton ami Koffi à ton amie Awa. Construis la phrase en espagnol, en la tutoyant.",
+    "steps": [
+      "Repère la situation : tu présentes une personne à un ami, donc tu le tutoies.",
+      "Choisis la formule de présentation : Te presento a (Je te présente).",
+      "Après a, ajoute la personne présentée : mi amigo Koffi (mon ami Koffi).",
+      "Commence par le prénom de la personne à qui tu parles : Awa, (Awa,).",
+      "Phrase complète : Awa, te presento a mi amigo Koffi. (Awa, je te présente mon ami Koffi.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ton amie Awa a réussi son examen. Que lui dis-tu en espagnol ?",
+    "reponse_calculee": "¡Felicidades, Awa! (Félicitations, Awa !)",
+    "choices": [
+      {
+        "label": "¡Felicidades, Awa! (Félicitations, Awa !)",
+        "correct": true
+      },
+      {
+        "label": "¡Hasta luego, Awa! (À tout à l'heure, Awa !)",
+        "correct": false
+      },
+      {
+        "label": "¡De nada, Awa! (De rien, Awa !)",
+        "correct": false
+      },
+      {
+        "label": "¡Buenas noches, Awa! (Bonsoir, Awa !)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! ¡Felicidades! sert à féliciter quelqu'un pour sa réussite, par exemple à un examen.",
+    "feedback_wrong": "La bonne réponse est ¡Felicidades, Awa! (Félicitations, Awa !). Hasta luego sert à dire au revoir, De nada répond à un merci, et Buenas noches est une salutation du soir."
+  },
+  "verification": "ok"
+}

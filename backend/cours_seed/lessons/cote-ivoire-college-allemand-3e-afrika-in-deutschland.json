@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-3e-afrika-in-deutschland",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "3e · Afrika In Deutschland",
+  "classe": "3e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "3e · Afrika In Deutschland",
+  "intro": {
+    "heading": "Un(e) Ivoirien(ne) rencontre un jeune Allemand",
+    "body": "Ton ami Kofi a gagné un séjour linguistique en Allemagne. Dans un café, un jeune Allemand lui demande d'où il vient et où il habite. Kofi doit répondre en allemand, en phrases simples et correctes. Aujourd'hui, tu apprends à faire comme lui pour parler de l'Afrique et de l'Allemagne."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Pour l'origine, on dit : Ich komme aus + lieu."
+      },
+      {
+        "icon": "🏠",
+        "text": "Pour l'habitation, on dit : Ich wohne in + lieu."
+      },
+      {
+        "icon": "✏️",
+        "text": "Le verbe change avec le sujet : ich komme, er kommt."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire d'où je viens et où j'habite",
+    "explanation": "Pour demander l'origine, on dit : Woher kommst du ? (D'où viens-tu ?). Pour demander le lieu d'habitation, on dit : Wo wohnst du ? (Où habites-tu ?). Pour répondre sur l'origine, on utilise « aus » (de, venant de) : Ich komme aus Abidjan (Je viens d'Abidjan). Pour répondre sur le lieu d'habitation, on utilise « in » (à, dans) : Ich wohne in Berlin (J'habite à Berlin). Le verbe se termine selon le sujet : ich komme, du kommst, er/sie kommt ; ich wohne, du wohnst, er/sie wohnt. Attention : la Côte d'Ivoire est féminine en allemand, on dit donc : Ich komme aus der Elfenbeinküste (Je viens de la Côte d'Ivoire). Pour beaucoup de pays comme Mali ou Deutschland, il n'y a pas d'article : Er kommt aus Mali (Il vient du Mali).",
+    "highlight": "Ich komme aus Abidjan. Ich wohne in Berlin. (Je viens d'Abidjan. J'habite à Berlin.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en allemand : Awa vient de la Côte d'Ivoire et habite à Hambourg (Hamburg).",
+    "steps": [
+      "Le sujet est Awa (elle) : à la 3e personne du singulier, le verbe se termine par -t : kommt, wohnt.",
+      "Pour l'origine, on utilise « aus ». La Côte d'Ivoire est féminine : aus der Elfenbeinküste.",
+      "Pour l'habitation, on utilise « in » + la ville : in Hamburg.",
+      "On relie les deux informations avec « und » (et), sans répéter le sujet.",
+      "Réponse : Awa kommt aus der Elfenbeinküste und wohnt in Hamburg. (Awa vient de la Côte d'Ivoire et habite à Hambourg.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Kofi ___ aus Abidjan. (Kofi vient d'Abidjan.)",
+    "reponse_calculee": "kommt",
+    "choices": [
+      {
+        "label": "kommt",
+        "correct": true
+      },
+      {
+        "label": "komme",
+        "correct": false
+      },
+      {
+        "label": "kommst",
+        "correct": false
+      },
+      {
+        "label": "kommen",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Kofi correspond à « er » (il), donc le verbe kommen prend la terminaison -t : Kofi kommt aus Abidjan.",
+    "feedback_wrong": "La bonne réponse est « kommt ». Kofi correspond à « er » (il) : on écrit er kommt. La forme « komme » va avec ich, « kommst » avec du, et « kommen » avec wir (nous) ou sie (ils)."
+  },
+  "verification": "ok"
+}

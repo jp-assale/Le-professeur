@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-les-parties-du-corps-et-l-h",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Les parties du corps et l'hygiène corporelle (Hygiene and the parts of the body)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Les parties du corps et l'hygiène corporelle (Hygiene and the parts of the body)",
+  "intro": {
+    "heading": "Une campagne d'hygiène au collège",
+    "body": "Au collège d'Abobo, à Abidjan, le professeur affiche des règles sur le mur de la classe. Koffi et Aya lisent : se laver les mains, se brosser les dents, garder les ongles propres. Ces règles disent ce qu'on doit faire et ce qu'on ne doit pas faire. En anglais, on utilise des structures spéciales pour exprimer l'obligation. Tu vas les apprendre pour parler de ton corps et de ton hygiène."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧼",
+        "text": "must + verbe : obligation forte, valable pour toutes les personnes."
+      },
+      {
+        "icon": "🦷",
+        "text": "have to / has to + verbe : obligation liée à une règle."
+      },
+      {
+        "icon": "🚫",
+        "text": "mustn't : interdiction ; don't have to : pas obligé."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer l'obligation en anglais",
+    "explanation": "Pour dire qu'on doit faire quelque chose, on utilise must (devoir) suivi du verbe sans « to » : You must wash your hands. (Tu dois te laver les mains.) On peut aussi utiliser have to : I have to brush my teeth. (Je dois me brosser les dents.) Avec he, she et it, on dit has to : She has to wash her face. (Elle doit se laver le visage.) Pour une interdiction, on utilise mustn't : You mustn't share your toothbrush. (Tu ne dois pas partager ta brosse à dents.) Attention : don't have to ne veut pas dire « interdit », mais « pas obligé » : You don't have to wash your hair every day. (Tu n'es pas obligé de te laver les cheveux tous les jours.) Après must, on n'ajoute jamais « to » et on ne met jamais de « s » au verbe.",
+    "highlight": "must + verbe : You must wash your hands. (Tu dois te laver les mains.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Koffi doit se laver le visage chaque matin. »",
+    "steps": [
+      "Le sujet est Koffi, un garçon : on pense à « he ». Avec he, on utilise has to.",
+      "Le verbe « se laver » devient wash, sans « s », après has to.",
+      "« son visage » se dit his face, car Koffi est un garçon.",
+      "« chaque matin » se dit every morning.",
+      "Réponse : Koffi has to wash his face every morning. (Koffi doit se laver le visage chaque matin.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase veut dire : « Tu dois te laver les mains avant de manger » ?",
+    "reponse_calculee": "You must wash your hands before eating.",
+    "choices": [
+      {
+        "label": "You must wash your hands before eating.",
+        "correct": true
+      },
+      {
+        "label": "You must to wash your hands before eating.",
+        "correct": false
+      },
+      {
+        "label": "You must washing your hands before eating.",
+        "correct": false
+      },
+      {
+        "label": "You mustn't wash your hands before eating.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après must, on met le verbe à la forme de base, sans « to » : You must wash your hands before eating.",
+    "feedback_wrong": "La bonne réponse est : You must wash your hands before eating. Après must, on n'ajoute ni « to » ni « -ing » : on écrit le verbe de base, wash. La phrase avec mustn't exprime une interdiction (tu ne dois pas), donc elle dit le contraire."
+  },
+  "verification": "ok2"
+}

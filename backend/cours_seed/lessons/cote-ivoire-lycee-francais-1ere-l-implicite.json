@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-1ere-l-implicite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "1ère · L'implicite",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "1ère · L'implicite",
+  "intro": {
+    "heading": "Ce que les mots ne disent pas tout haut",
+    "body": "À la cantine, Awa dit à son amie Mariam : « Tu as encore oublié ton sac ! » Mariam comprend deux choses sans que personne les ait dites. Elle a déjà oublié son sac par le passé, et Awa lui fait un petit reproche. Dans cette leçon, tu apprends à repérer ces messages cachés : le présupposé et le sous-entendu."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "L'implicite, c'est ce qui est compris sans être dit."
+      },
+      {
+        "icon": "📌",
+        "text": "Le présupposé est inscrit dans les mots et reste si on nie."
+      },
+      {
+        "icon": "🎭",
+        "text": "Le sous-entendu dépend du contexte et peut être démenti."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Présupposé et sous-entendu : deux types d'implicite",
+    "explanation": "Un énoncé peut transmettre une information explicite, celle qui est dite, et des informations implicites, celles qu'on doit déduire. Le présupposé est une information cachée dans les mots de la phrase elle-même. Dans « Koffi a cessé de vendre des beignets », on comprend que Koffi vendait des beignets avant. Cette information reste vraie même si l'on nie ou si l'on interroge : « Koffi n'a pas cessé de vendre des beignets » présuppose toujours qu'il en vendait. Le présupposé apparaît souvent avec des verbes comme cesser, arrêter, continuer ou devenir, avec des adverbes comme encore, déjà ou toujours, et avec l'article défini. Le sous-entendu, lui, n'est pas inscrit dans les mots : on le déduit grâce à la situation et à l'intention de celui qui parle. Si un professeur dit « Le cours a commencé depuis longtemps » à un élève qui arrive tard, il sous-entend « tu es en retard ». Celui qui parle peut démentir le sous-entendu en disant « Je n'ai rien dit de tel », alors qu'il ne peut pas démentir un présupposé.",
+    "highlight": "Présupposé : lié aux mots, il reste même si on nie la phrase. Sous-entendu : lié au contexte, on peut le démentir."
+  },
+  "example": {
+    "problem": "Analyse l'implicite de ces deux phrases. Phrase 1 : « Awa a cessé de vendre des mangues. » Phrase 2 : le professeur dit à Yao, qui entre en classe après la sonnerie : « Le cours a commencé depuis longtemps, Yao. »",
+    "steps": [
+      "Lis la phrase 1 et repère le verbe « a cessé de » : c'est un indice de présupposé.",
+      "Présupposé de la phrase 1 : Awa vendait des mangues avant.",
+      "Fais le test de la négation : « Awa n'a pas cessé de vendre des mangues » présuppose toujours qu'elle en vendait. Le présupposé reste donc valable.",
+      "Phrase 2 : le sens explicite informe seulement que le cours a commencé depuis un moment.",
+      "Sous-entendu de la phrase 2 : « Tu es en retard », sous forme de reproche. On le comprend grâce à la situation, car Yao arrive après la sonnerie.",
+      "Le professeur peut dire « Je constate seulement l'heure ». Il peut donc démentir un sous-entendu, ce qui est impossible pour un présupposé."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Amadou a cessé de jouer au football », quelle information est un présupposé ?",
+    "reponse_calculee": "Amadou jouait au football auparavant.",
+    "choices": [
+      {
+        "label": "Amadou jouait au football auparavant.",
+        "correct": true
+      },
+      {
+        "label": "Amadou est fatigué en ce moment.",
+        "correct": false
+      },
+      {
+        "label": "Amadou n'aime pas le sport.",
+        "correct": false
+      },
+      {
+        "label": "Amadou joue maintenant au basket.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe « cesser de » présuppose que l'action existait avant. Cette information reste vraie même si l'on nie la phrase.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Le verbe « cesser de » présuppose que l'action avait lieu auparavant : Amadou jouait au football. Les autres propositions ne sont pas inscrites dans les mots de la phrase."
+  },
+  "verification": "ok2"
+}

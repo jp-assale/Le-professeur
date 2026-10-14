@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-socialisation",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Socialisation",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Socialisation",
+  "intro": {
+    "heading": "Un nouveau camarade en classe",
+    "body": "C'est la rentrée au collège. Un nouvel élève, Ousmane, s'assoit à côté de toi. Tu veux le saluer et lui dire ton prénom, mais en anglais ! Dans cette leçon, tu apprends à dire bonjour, à te présenter et à demander des nouvelles."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👋",
+        "text": "Hello, Good morning : on dit bonjour en anglais."
+      },
+      {
+        "icon": "🙋",
+        "text": "My name is... : on dit comment on s'appelle."
+      },
+      {
+        "icon": "😊",
+        "text": "How are you? : on demande des nouvelles."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire bonjour et donner son nom",
+    "explanation": "Pour saluer, tu peux dire Hello (Bonjour, salut). Le matin, tu dis Good morning (Bonjour, le matin). L'après-midi, tu dis Good afternoon (Bonjour, l'après-midi). Pour te présenter, tu utilises la phrase My name is... (Je m'appelle...). Pour demander des nouvelles, tu dis How are you? (Comment vas-tu ?). On répond I'm fine, thank you. (Je vais bien, merci.) Quand tu rencontres quelqu'un, tu peux dire Nice to meet you. (Enchanté(e).) Pour partir, tu dis Goodbye. (Au revoir.)",
+    "highlight": "My name is + prénom. Exemple : My name is Awa. (Je m'appelle Awa.)"
+  },
+  "example": {
+    "problem": "Tu t'appelles Ibrahim. Construis en anglais une phrase pour dire bonjour et donner ton prénom : Bonjour ! Je m'appelle Ibrahim.",
+    "steps": [
+      "Étape 1 : pour dire bonjour, on écrit Hello (Bonjour).",
+      "Étape 2 : on ajoute un point d'exclamation juste après Hello. En anglais, on ne laisse pas d'espace avant le « ! » : Hello!",
+      "Étape 3 : pour dire « Je m'appelle », on utilise My name is (Je m'appelle).",
+      "Étape 4 : on place le prénom à la fin : Ibrahim, avec une majuscule.",
+      "Étape 5 : on termine la phrase par un point. Réponse : Hello! My name is Ibrahim. (Bonjour ! Je m'appelle Ibrahim.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Je m'appelle Awa » en anglais ?",
+    "reponse_calculee": "My name is Awa.",
+    "choices": [
+      {
+        "label": "My name is Awa.",
+        "correct": true
+      },
+      {
+        "label": "I name Awa.",
+        "correct": false
+      },
+      {
+        "label": "Me is Awa name.",
+        "correct": false
+      },
+      {
+        "label": "Name my Awa is.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! My name is Awa. signifie bien « Je m'appelle Awa. » On met My name is devant le prénom.",
+    "feedback_wrong": "La bonne réponse est My name is Awa. (Je m'appelle Awa.) Les autres propositions ne sont pas des phrases correctes en anglais. Pour se présenter, on écrit toujours My name is, puis le prénom."
+  },
+  "verification": "ok2"
+}

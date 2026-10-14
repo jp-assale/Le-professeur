@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-expose-oral",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'exposé oral",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'exposé oral",
+  "intro": {
+    "heading": "Awa doit parler devant la classe",
+    "body": "Ton professeur de français annonce un exposé oral. Awa doit présenter un sujet devant toute la classe et répondre aux questions. Elle se demande par où commencer, comment retenir ses informations et comment parler pour être bien comprise. Tu vas découvrir la méthode pour réussir un exposé du début à la fin."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Je délimite un thème précis avant de chercher des informations."
+      },
+      {
+        "icon": "📝",
+        "text": "Je relève des informations utiles en notes courtes et organisées."
+      },
+      {
+        "icon": "🎤",
+        "text": "Je présente avec un lexique précis et un registre standard."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les étapes d'un exposé oral réussi",
+    "explanation": "Un exposé oral est une présentation organisée d'un sujet devant un public, avec une voix claire et un plan. D'abord, on choisit et on précise le thème de l'exposé : par exemple « le gaspillage de l'eau à la maison » est plus précis que « l'eau ». Ensuite, on cherche des informations sur ce thème dans des livres, des articles, auprès d'une personne compétente ou à partir de ce qu'on a observé. On relève les informations utiles sous forme de notes courtes : mots-clés, idées principales, exemples. On rassemble aussi le lexique lié au thème, c'est-à-dire les mots précis du sujet, comme « robinet », « consommation » ou « économiser ». À l'oral, on emploie le registre de langue standard, correct et clair, ou le registre soutenu, plus recherché, et on évite les mots familiers ou l'argot. On structure l'exposé en trois parties : une introduction qui annonce le thème, un développement avec les idées, une conclusion qui résume. Enfin, on s'entraîne à parler sans lire mot à mot, en regardant le public.",
+    "highlight": "Thème précis, informations relevées en notes, lexique du thème, registre standard ou soutenu : voilà les clés d'un bon exposé oral."
+  },
+  "example": {
+    "problem": "Situation : ton collège organise une semaine de la lecture. Awa doit présenter un exposé oral de 5 minutes sur « l'utilité de la lecture pour les élèves de 3e ». Aide-la à préparer le début de son exposé.",
+    "steps": [
+      "Thème : Awa précise son sujet en une phrase : « Comment la lecture aide un élève de 3e à mieux réussir à l'école. »",
+      "Informations : elle interroge son professeur de français et la documentaliste, puis elle consulte un livre sur la lecture.",
+      "Informations relevées : elle écrit des notes courtes : « enrichit le vocabulaire », « améliore l'orthographe », « aide à rédiger ».",
+      "Lexique : elle prépare des mots du thème : « vocabulaire », « compréhension », « expression », « bibliothèque ».",
+      "Registre : elle transforme la phrase familière « La lecture là, ça aide grave » en phrase standard : « La lecture aide les élèves à mieux comprendre et à mieux s'exprimer. »",
+      "Introduction orale : elle commence ainsi : « Bonjour à tous. Aujourd'hui, je vais vous présenter l'utilité de la lecture pour les élèves de 3e. »"
+    ]
+  },
+  "quiz": {
+    "question": "Awa commence son exposé devant la classe. Quelle phrase est la mieux adaptée au registre standard attendu dans un exposé oral ?",
+    "reponse_calculee": "Mesdames et messieurs, je vais vous présenter les dangers du gaspillage de l'eau.",
+    "choices": [
+      {
+        "label": "Mesdames et messieurs, je vais vous présenter les dangers du gaspillage de l'eau.",
+        "correct": true
+      },
+      {
+        "label": "Les amis, on va parler de l'eau, c'est grave comme truc.",
+        "correct": false
+      },
+      {
+        "label": "Bon, euh, l'eau là, on la gaspille trop, quoi.",
+        "correct": false
+      },
+      {
+        "label": "Je kiffe trop parler de l'eau, c'est chaud !",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase salue le public, annonce clairement le thème et emploie un registre standard, avec des mots corrects et précis.",
+    "feedback_wrong": "Cette phrase est familière : elle contient des mots d'argot, des hésitations ou des expressions imprécises. Dans un exposé oral, on emploie le registre standard ou soutenu, on annonce le thème clairement et on utilise un vocabulaire correct."
+  },
+  "verification": "ok"
+}

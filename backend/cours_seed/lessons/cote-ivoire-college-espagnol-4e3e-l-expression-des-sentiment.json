@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-l-expression-des-sentiment",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · L'expression des sentiments",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'expression des sentiments",
+  "intro": {
+    "heading": "Un message pour Aya",
+    "body": "Kouadio vit à Abidjan et il écrit à Aya, sa correspondante de Madrid. Il doit lui dire qu'il est content de sa lettre, mais aussi qu'il est triste de ne pas pouvoir la voir. Il veut aussi s'excuser d'avoir répondu en retard. Dans cette leçon, tu apprends les mots et les phrases pour dire tes sentiments et les justifier."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "😊",
+        "text": "Estoy contento/a pour dire la joie, estoy triste pour la peine."
+      },
+      {
+        "icon": "🙏",
+        "text": "Perdona et Lo siento servent à présenter des excuses."
+      },
+      {
+        "icon": "💬",
+        "text": "Porque permet de justifier le sentiment exprimé."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que tu ressens et pourquoi",
+    "explanation": "Pour exprimer un sentiment, on utilise souvent estar + adjectif : estoy contento/a (je suis content(e)), estoy triste (je suis triste). L'adjectif s'accorde : contento pour un garçon, contenta pour une fille. Pour justifier, on ajoute porque (parce que) et la raison. Pour la joie, tu peux dire ¡Qué alegría! (Quelle joie !) ou Me alegro de verte (Je suis content de te voir). Pour la peine ou le regret, tu peux dire ¡Qué pena! (Quel dommage !) ou Siento no estar contigo (Je regrette de ne pas être avec toi). Pour présenter des excuses, on dit Perdona (Pardonne-moi) ou Lo siento mucho (Je suis vraiment désolé). Pour les accepter, on répond No pasa nada (Ce n'est pas grave). Pour l'indifférence, on dit Me da igual (Ça m'est égal).",
+    "highlight": "Estoy + adjectif + porque + raison : Estoy contenta porque mi madre viene hoy. (Je suis contente parce que ma mère vient aujourd'hui.)"
+  },
+  "example": {
+    "problem": "Tu es en retard à un rendez-vous avec une amie. Écris en espagnol : « Je suis désolé, j'arrive en retard parce qu'il y a beaucoup de monde au marché. »",
+    "steps": [
+      "Pour s'excuser, on choisit la formule Lo siento (Je suis désolé).",
+      "« J'arrive en retard » se dit llego tarde (j'arrive tard).",
+      "Pour justifier, on utilise porque (parce que).",
+      "« Il y a beaucoup de monde » se dit hay mucha gente ; gente est féminin, donc mucha.",
+      "« Au marché » se dit en el mercado.",
+      "Phrase complète : Lo siento, llego tarde porque hay mucha gente en el mercado. (Je suis désolé, j'arrive en retard parce qu'il y a beaucoup de monde au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu as marché sur le pied d'un camarade. Quelle phrase espagnole utilises-tu pour présenter tes excuses ?",
+    "reponse_calculee": "Perdona, lo siento mucho.",
+    "choices": [
+      {
+        "label": "Perdona, lo siento mucho.",
+        "correct": true
+      },
+      {
+        "label": "¡Qué alegría!",
+        "correct": false
+      },
+      {
+        "label": "Me da igual.",
+        "correct": false
+      },
+      {
+        "label": "Estoy muy contento.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Perdona, lo siento mucho (Pardonne-moi, je suis vraiment désolé) est une formule d'excuses correcte et polie.",
+    "feedback_wrong": "La bonne réponse est Perdona, lo siento mucho (Pardonne-moi, je suis vraiment désolé). ¡Qué alegría! (Quelle joie !) et Estoy muy contento (Je suis très content) expriment la joie. Me da igual (Ça m'est égal) exprime l'indifférence. Aucune de ces trois phrases ne présente d'excuses."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-l-echange-d-informati",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · L'échange d'information",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · L'échange d'information",
+  "intro": {
+    "heading": "Une nouvelle camarade au lycée",
+    "body": "Aminata, élève de seconde à Abidjan, accueille Lucía, une correspondante qui parle espagnol. Lucía veut savoir où est la bibliothèque, quand commence le cours et combien coûte un cahier au marché. Aminata doit comprendre les questions, répondre clairement et corriger une erreur si besoin. Aujourd'hui, tu apprends à faire comme elle : poser des questions, répondre et rectifier."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❓",
+        "text": "Pose une question avec ¿Qué?, ¿Dónde?, ¿Cuándo?, ¿Cuánto?"
+      },
+      {
+        "icon": "💬",
+        "text": "Réponds par une phrase courte et complète."
+      },
+      {
+        "icon": "✏️",
+        "text": "Rectifie avec : No, no es… Es…"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Poser des questions, répondre et rectifier",
+    "explanation": "Pour échanger une information, tu utilises d'abord des mots interrogatifs. En voici quelques-uns : ¿Quién? (Qui ?), ¿Qué? (Que ? / Quoi ?), ¿Dónde? (Où ?), ¿Cuándo? (Quand ?), ¿Cuánto? (Combien ?) et ¿Por qué? (Pourquoi ?). Dans une question, ces mots portent un accent écrit. En espagnol, la question commence par ¿ et se termine par ?. Pour répondre, tu reprends l'information demandée dans une phrase courte : ¿Cuándo es el examen? (Quand a lieu l'examen ?) – Es el lunes. (C'est lundi.) Si l'information est fausse, tu rectifies : No, no es el lunes. Es el martes. (Non, ce n'est pas lundi. C'est mardi.)",
+    "highlight": "Mot interrogatif + verbe : ¿Dónde vives? (Où habites-tu ?) – Vivo en Abiyán. (J'habite à Abidjan.)"
+  },
+  "example": {
+    "problem": "Tu veux savoir où habite ton ami Moussa. Écris la question en espagnol, puis la réponse de Moussa, qui habite à Dakar.",
+    "steps": [
+      "Pour demander « où », tu choisis le mot interrogatif dónde, avec l'accent sur le o.",
+      "Tu parles à Moussa (tu) : le verbe vivir (habiter) devient vives (tu habites).",
+      "Tu écris ¿ au début et ? à la fin de la question : ¿Dónde vives, Moussa?",
+      "Moussa parle de lui (je) : vivir devient vivo (j'habite). Pour dire « à » avec une ville, on utilise en.",
+      "Réponse complète : ¿Dónde vives, Moussa? – Vivo en Dakar. (Où habites-tu, Moussa ? – J'habite à Dakar.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu veux demander le prix d'un cahier au marché. Quelle question est correcte en espagnol ?",
+    "reponse_calculee": "¿Cuánto cuesta este cuaderno?",
+    "choices": [
+      {
+        "label": "¿Cuánto cuesta este cuaderno?",
+        "correct": true
+      },
+      {
+        "label": "¿Dónde cuesta este cuaderno?",
+        "correct": false
+      },
+      {
+        "label": "¿Quién cuesta este cuaderno?",
+        "correct": false
+      },
+      {
+        "label": "¿Cuándo cuesta este cuaderno?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! ¿Cuánto? signifie « combien » : on l'utilise pour demander un prix. On peut répondre : Cuesta quinientos FCFA. (Il coûte cinq cents FCFA.)",
+    "feedback_wrong": "Pour demander un prix, il faut ¿Cuánto cuesta…? (Combien coûte… ?). ¿Dónde? veut dire « où », ¿Quién? veut dire « qui » et ¿Cuándo? veut dire « quand » : aucun ne convient pour un prix."
+  },
+  "verification": "ok2"
+}

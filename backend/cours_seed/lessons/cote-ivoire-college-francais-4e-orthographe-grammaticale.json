@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-orthographe-grammaticale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Orthographe grammaticale",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Orthographe grammaticale",
+  "intro": {
+    "heading": "Le message de Awa",
+    "body": "Awa écrit à son amie Mariam : « Beaucoup d'élèves est venu plutôt ce matin, quand à moi, je suis arrivée à l'heure. » Mariam sourit : il y a plusieurs erreurs dans cette phrase ! Les mots qui se prononcent pareil sont souvent source de confusion à l'écrit. Dans cette leçon, tu apprends à les distinguer et à accorder correctement le verbe."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✍️",
+        "text": "Après beaucoup de, assez de, peu de, accorde le verbe avec le nom."
+      },
+      {
+        "icon": "🔊",
+        "text": "Les homophones se prononcent pareil mais s'écrivent différemment."
+      },
+      {
+        "icon": "⏰",
+        "text": "Remplace le mot par un autre pour choisir la bonne écriture."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Accord du verbe et homophones",
+    "explanation": "Un homophone est un mot qui se prononce comme un autre mais qui s'écrit différemment et a un autre sens. Quand le sujet commence par beaucoup de, assez de ou peu de, le verbe s'accorde avec le nom qui suit : « Peu d'élèves ont réussi », mais « Beaucoup de monde est venu » (le nom « monde » est au singulier). Quand s'écrit avec un d et peut se remplacer par lorsque : « Quand la pluie tombe, nous rentrons. » Qu'en s'écrit avec une apostrophe : c'est que et en réunis : « Qu'en penses-tu ? » Quant à (ou quant aux) signifie en ce qui concerne : « Quant à Yao, il est absent. » Plus tôt s'oppose à plus tard, alors que plutôt signifie de préférence : « Je prends plutôt du riz. » Aussi tôt s'oppose à aussi tard, alors que aussitôt signifie immédiatement : « Il est parti aussitôt. »",
+    "highlight": "Pour choisir le bon homophone, remplace-le par un mot de sens proche ou contraire."
+  },
+  "example": {
+    "problem": "Écris correctement les deux phrases. A. Peu d'élèves (arriver) en retard ce matin. B. (Quant / Quand) à Yao, il est parti (aussitôt / aussi tôt) après la cloche.",
+    "steps": [
+      "Phrase A : repère le sujet « Peu d'élèves ». Le nom « élèves » est au pluriel, il commande l'accord du verbe.",
+      "Écris le verbe au pluriel : « Peu d'élèves arrivent en retard ce matin. »",
+      "Phrase B : remplace par « en ce qui concerne Yao ». La phrase garde son sens, donc on écrit « quant à ».",
+      "Pour « aussitôt », essaie « immédiatement » : la phrase garde son sens, donc on écrit aussitôt en un seul mot.",
+      "Phrase corrigée : « Quant à Yao, il est parti aussitôt après la cloche. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correctement écrite ?",
+    "reponse_calculee": "Beaucoup de parents sont arrivés plus tôt que prévu.",
+    "choices": [
+      {
+        "label": "Beaucoup de parents sont arrivés plus tôt que prévu.",
+        "correct": true
+      },
+      {
+        "label": "Beaucoup de parents est arrivé plus tôt que prévu.",
+        "correct": false
+      },
+      {
+        "label": "Beaucoup de parents sont arrivés plutôt que prévu.",
+        "correct": false
+      },
+      {
+        "label": "Beaucoup de parents sont arrivés plus tôt quand prévu.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le nom « parents » est au pluriel, donc le verbe s'accorde : « sont arrivés ». Plus tôt s'oppose à plus tard, et que introduit la comparaison avec ce qui était prévu.",
+    "feedback_wrong": "La bonne phrase est : « Beaucoup de parents sont arrivés plus tôt que prévu. » Le verbe s'accorde avec le nom pluriel « parents ». On écrit plus tôt en deux mots, car on peut le remplacer par plus tard (« plus tard que prévu »). Enfin, on écrit que et non quand, car quand ne peut pas se remplacer par lorsque ici."
+  },
+  "verification": "ok2"
+}

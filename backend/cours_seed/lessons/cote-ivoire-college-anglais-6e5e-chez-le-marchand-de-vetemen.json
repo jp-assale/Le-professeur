@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-chez-le-marchand-de-vetemen",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Chez le marchand de vêtements (Buying clothes)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Chez le marchand de vêtements (Buying clothes)",
+  "intro": {
+    "heading": "Au marché avec Aya",
+    "body": "Aya accompagne sa grande sœur au marché pour acheter une robe et une casquette. Devant l'étal, elle veut savoir combien coûtent les articles et dire ce qu'elle préfère. Le vendeur, M. Koné, parle anglais avec une cliente venue d'un autre pays. Aide Aya à poser les bonnes questions et à comprendre les prix en anglais !"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💰",
+        "text": "How much is it? sert à demander le prix d'un article."
+      },
+      {
+        "icon": "🔢",
+        "text": "100 = one hundred ; 1 000 = one thousand ; on dit le prix puis FCFA."
+      },
+      {
+        "icon": "❤️",
+        "text": "I like ... et I prefer ... expriment ce que tu aimes."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander le prix, donner le prix, dire ce que tu préfères",
+    "explanation": "Pour demander le prix d'un seul article, on dit How much is ...? (Combien coûte ... ?). Pour plusieurs articles, on dit How much are ...? (Combien coûtent ... ?). Le vendeur répond avec It is ... (Il/Elle coûte ...) ou They are ... (Ils/Elles coûtent ...), puis le prix et FCFA. Les nombres au-delà de 100 : 100 = one hundred, 200 = two hundred, 1 000 = one thousand, 2 500 = two thousand five hundred. Pour dire ce que tu aimes, utilise I like ... (J'aime ...), et pour comparer, I prefer ... (Je préfère ...). Quelques mots du shopping : shop (la boutique), customer (le client, la cliente), seller (le vendeur, la vendeuse), price (le prix), cheap (bon marché), expensive (cher), buy (acheter).",
+    "highlight": "How much is / are ... ? – It is / They are ... FCFA. Ex : How much is this shirt? (Combien coûte cette chemise ?) – It is five thousand FCFA. (Elle coûte cinq mille FCFA.)"
+  },
+  "example": {
+    "problem": "Situation : tu es au marché et tu veux acheter une chemise à 4 500 FCFA. Écris en anglais ta question au vendeur et sa réponse.",
+    "steps": [
+      "Tu parles d'un seul article (une chemise) : on utilise How much is.",
+      "On ajoute l'article : this shirt. La question devient How much is this shirt?",
+      "Le prix 4 500 s'écrit en anglais : four thousand five hundred.",
+      "Le vendeur répond avec It is, puis le prix, puis FCFA.",
+      "Réponse complète : How much is this shirt? (Combien coûte cette chemise ?) – It is four thousand five hundred FCFA. (Elle coûte quatre mille cinq cents FCFA.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu veux demander le prix de ces chaussures (shoes) au vendeur. Quelle phrase est correcte ?",
+    "reponse_calculee": "How much are these shoes?",
+    "choices": [
+      {
+        "label": "How much are these shoes?",
+        "correct": true
+      },
+      {
+        "label": "How much is these shoes?",
+        "correct": false
+      },
+      {
+        "label": "How many are these shoes?",
+        "correct": false
+      },
+      {
+        "label": "Where are these shoes?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Shoes est un pluriel, donc on dit How much are these shoes? (Combien coûtent ces chaussures ?).",
+    "feedback_wrong": "La bonne réponse est How much are these shoes? Shoes est au pluriel, donc on utilise are et non is. How many sert à compter des objets, et Where are... demande où sont les chaussures, pas leur prix."
+  },
+  "verification": "ok"
+}

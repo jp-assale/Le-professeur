@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-road-safety",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Road safety",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Road safety",
+  "intro": {
+    "heading": "Attention sur la route !",
+    "body": "Awa va à l'école à pied et son frère Ibrahim roule à mobylette. Sur la route, il y a des voitures, des motos et des vélos. Pour rester en sécurité, il faut connaître quelques ordres simples en anglais, comme « Stop! » (Arrête-toi !) ou « Look! » (Regarde !). Aujourd'hui, tu apprends à donner des conseils de sécurité routière en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚦",
+        "text": "Red light = stop, green light = go."
+      },
+      {
+        "icon": "👀",
+        "text": "Pour donner un conseil, utilise le verbe seul : Look!"
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour interdire, mets Don't devant le verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner un conseil ou un ordre : l'impératif",
+    "explanation": "En anglais, pour donner un ordre ou un conseil, on utilise le verbe seul, sans « you ». Exemple : « Stop at the red light. » (Arrête-toi au feu rouge.) Pour dire de ne pas faire quelque chose, on met « Don't » devant le verbe. Exemple : « Don't run on the road. » (Ne cours pas sur la route.) Voici des mots utiles : road (la route), red light (le feu rouge), green light (le feu vert), helmet (le casque), car (la voiture), cross (traverser), look (regarder), wear (porter). Le verbe ne change pas, que tu parles à une seule personne ou à plusieurs. Exemple : « Wear a helmet. » (Porte un casque. / Portez un casque.)",
+    "highlight": "Don't + verbe : Don't cross the road! (Ne traverse pas la route !)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Ne cours pas sur la route. »",
+    "steps": [
+      "C'est un conseil : on utilise l'impératif, donc le verbe seul, sans « you ».",
+      "« Courir » se dit run.",
+      "C'est une interdiction : on met Don't devant le verbe, donc Don't run.",
+      "« Sur la route » se dit on the road.",
+      "Réponse : Don't run on the road. (Ne cours pas sur la route.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Ne traverse pas la route ! » en anglais ?",
+    "reponse_calculee": "Don't cross the road!",
+    "choices": [
+      {
+        "label": "Don't cross the road!",
+        "correct": true
+      },
+      {
+        "label": "Cross the road!",
+        "correct": false
+      },
+      {
+        "label": "Don't crosses the road!",
+        "correct": false
+      },
+      {
+        "label": "Not cross the road!",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour interdire, on met Don't devant le verbe : Don't cross the road! (Ne traverse pas la route !)",
+    "feedback_wrong": "La bonne réponse est : Don't cross the road! On met Don't devant le verbe, et le verbe reste à la forme simple : cross. « Cross the road! » veut dire « Traverse la route ! », ce qui est le contraire. « Don't crosses » est faux car le verbe ne prend pas de s, et « Not cross » n'existe pas pour donner un ordre."
+  },
+  "verification": "ok"
+}

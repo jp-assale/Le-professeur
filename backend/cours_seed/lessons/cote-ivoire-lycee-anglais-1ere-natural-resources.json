@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-natural-resources",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Natural resources",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Natural resources",
+  "intro": {
+    "heading": "Un exposé sur les ressources naturelles",
+    "body": "Awa et Koffi préparent un exposé sur les ressources naturelles pour leur cours d'anglais à Abidjan. Awa dit que le pétrole est une ressource qui ne se renouvelle pas, alors que le soleil, lui, ne s'épuise pas. Koffi veut écrire que couper trop d'arbres n'est pas durable, mais il ne sait pas comment dire le contraire de « sustainable ». Aujourd'hui, tu apprends à former des contraires avec des préfixes, comme eux."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "Un préfixe placé devant un mot forme son contraire."
+      },
+      {
+        "icon": "🧭",
+        "text": "Choisis un-, im-, il-, ir-, dis- ou non- selon le mot."
+      },
+      {
+        "icon": "🌳",
+        "text": "Exemple : renewable devient non-renewable."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Former l'antonyme avec un préfixe",
+    "explanation": "Un antonyme est un mot de sens contraire. En anglais, on le forme souvent en ajoutant un préfixe devant le mot. Le préfixe un- est le plus fréquent : safe devient unsafe (sûr devient dangereux, pas sûr) et sustainable devient unsustainable (durable devient non durable). On utilise im- devant la lettre p : possible devient impossible (possible devient impossible). On utilise il- devant la lettre l : legal devient illegal (légal devient illégal). On utilise ir- devant la lettre r : responsible devient irresponsible (responsable devient irresponsable). Le préfixe dis- existe aussi : honest devient dishonest (honnête devient malhonnête). Pour les ressources naturelles, on dit renewable (renouvelable) et non-renewable (non renouvelable), avec un trait d'union. Il n'y a pas de règle valable pour tous les mots : en cas de doute, vérifie dans un dictionnaire.",
+    "highlight": "un- / im- / il- / ir- / dis- / non- + mot. Exemple : sustainable → unsustainable (durable → non durable)."
+  },
+  "example": {
+    "problem": "Complète la phrase avec le contraire de « sustainable » : Cutting too many trees is ___ for our forests. (Couper trop d'arbres est ___ pour nos forêts.)",
+    "steps": [
+      "Repère le mot de départ : sustainable (durable) est un adjectif.",
+      "Cherche le sens voulu : on veut dire « pas durable », donc le contraire.",
+      "Regarde la première lettre : sustainable commence par s, donc im-, il- et ir- ne conviennent pas.",
+      "Pour ce mot, la forme correcte est formée avec un- : un + sustainable = unsustainable.",
+      "Réponse complète : Cutting too many trees is unsustainable for our forests. (Couper trop d'arbres n'est pas durable pour nos forêts.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quel est le contraire correct de « responsible » (responsable) dans la phrase : Throwing plastic in the river is ___ ? (Jeter du plastique dans la rivière est ___.)",
+    "reponse_calculee": "irresponsible",
+    "choices": [
+      {
+        "label": "misresponsible",
+        "correct": false
+      },
+      {
+        "label": "disresponsible",
+        "correct": false
+      },
+      {
+        "label": "irresponsible",
+        "correct": true
+      },
+      {
+        "label": "inresponsible",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Devant la lettre r, on utilise le préfixe ir- : responsible devient irresponsible (responsable devient irresponsable). Throwing plastic in the river is irresponsible. (Jeter du plastique dans la rivière est irresponsable.)",
+    "feedback_wrong": "Ce n'est pas la bonne forme. Le mot responsible commence par la lettre r, donc son contraire se forme avec ir- : irresponsible (irresponsable). Les formes misresponsible, disresponsible et inresponsible ne sont pas de l'anglais correct."
+  },
+  "verification": "ok2"
+}

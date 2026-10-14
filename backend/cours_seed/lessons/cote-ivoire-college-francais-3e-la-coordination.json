@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-la-coordination",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · La coordination",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · La coordination",
+  "intro": {
+    "heading": "Un message à relier",
+    "body": "Aya écrit un message à son amie Fatou : « J'ai voulu venir chez toi mais il pleuvait. » Elle hésite : faut-il écrire « mais », « donc » ou « car » ? Chaque petit mot change le sens de la phrase. Dans cette leçon, tu découvres comment relier des mots ou des phrases avec les conjonctions de coordination, et comment choisir la bonne."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔗",
+        "text": "La coordination relie des éléments de même nature ou fonction."
+      },
+      {
+        "icon": "📝",
+        "text": "Les conjonctions de coordination sont : mais, ou, et, donc, or, ni, car."
+      },
+      {
+        "icon": "🎯",
+        "text": "Chaque conjonction a une valeur : opposition, choix, conséquence, cause..."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La notion de coordination et ses conjonctions",
+    "explanation": "Coordonner, c'est relier deux ou plusieurs éléments de même nature ou de même fonction grâce à une conjonction de coordination. Ces éléments coordonnés peuvent être des mots (« du riz et du poisson »), des groupes de mots ou des propositions (« Kofi chante et Awa danse »). Il y a sept conjonctions de coordination : mais, ou, et, donc, or, ni, car. Elles sont invariables et se placent entre les éléments qu'elles relient. Chacune a une valeur précise. « Et » exprime l'addition, « ni » l'addition de deux négations, « ou » le choix, « mais » l'opposition, « car » la cause, « donc » la conséquence. « Or » introduit un argument ou un fait nouveau, souvent pour opposer ou pour amener une conclusion. Avant de choisir une conjonction, demande-toi quel lien logique tu veux exprimer entre les deux éléments.",
+    "highlight": "Pour retenir les sept conjonctions : « Mais où est donc Ornicar ? » = mais, ou, et, donc, or, ni, car."
+  },
+  "example": {
+    "problem": "Analyse la phrase : « Awa voulait acheter un cahier à 300 FCFA, mais elle n'avait que 200 FCFA. » Puis écris une phrase avec « donc ».",
+    "steps": [
+      "Cherche le petit mot invariable qui relie deux parties de la phrase : c'est « mais ».",
+      "« Mais » fait partie des sept conjonctions de coordination (mais, ou, et, donc, or, ni, car).",
+      "Repère les éléments coordonnés : « Awa voulait acheter un cahier à 300 FCFA » et « elle n'avait que 200 FCFA ». Ce sont deux propositions.",
+      "Trouve la valeur : le second fait s'oppose au désir de la première proposition, donc « mais » exprime l'opposition.",
+      "Écris ta phrase avec « donc », qui exprime la conséquence : « Awa n'avait que 200 FCFA, donc elle a acheté un cahier moins cher. »",
+      "Vérifie : « donc » relie bien deux propositions, et la seconde est la conséquence de la première."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Yao est sorti sous la pluie sans parapluie, donc il est trempé. », quelle est la valeur de la conjonction « donc » ?",
+    "reponse_calculee": "La conséquence",
+    "choices": [
+      {
+        "label": "La cause",
+        "correct": false
+      },
+      {
+        "label": "L'opposition",
+        "correct": false
+      },
+      {
+        "label": "Le choix",
+        "correct": false
+      },
+      {
+        "label": "La conséquence",
+        "correct": true
+      }
+    ],
+    "feedback_correct": "Bravo ! « Donc » introduit le résultat de ce qui précède : être sorti sous la pluie sans parapluie a pour conséquence d'être trempé.",
+    "feedback_wrong": "La bonne réponse est la conséquence. « Donc » annonce le résultat d'un fait : ici, Yao est trempé parce qu'il est sorti sans parapluie sous la pluie. La cause s'exprime avec « car », l'opposition avec « mais » et le choix avec « ou »."
+  },
+  "verification": "ok"
+}

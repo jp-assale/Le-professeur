@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-travel-and-world-tourism",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · Travel and world tourism",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Travel and world tourism",
+  "intro": {
+    "heading": "Un blog de voyage pour ton club d'anglais",
+    "body": "Ton club d'anglais au lycée prépare un petit blog sur le tourisme et l'écotourisme. Ton amie Awa doit présenter son oncle Koffi, qui travaille comme guide touristique depuis plusieurs années. Elle veut dire ce qu'il a déjà fait et ce qu'il fait encore aujourd'hui. Pour cela, tu as besoin du present perfect, simple et progressif."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧳",
+        "text": "Present perfect simple : have/has + participe passé, pour un résultat."
+      },
+      {
+        "icon": "⏳",
+        "text": "Present perfect progressif : have/has been + verbe en -ing, pour la durée."
+      },
+      {
+        "icon": "📅",
+        "text": "For donne une durée ; since donne le point de départ."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le present perfect : résultat ou durée",
+    "explanation": "Le present perfect relie le passé au présent. Le present perfect simple se forme avec have ou has + le participe passé. Il exprime une expérience ou un résultat, souvent avec never, ever, already ou un nombre de fois. Exemple : We have visited a nature park. (Nous avons visité un parc naturel.) Le present perfect progressif se forme avec have/has been + le verbe en -ing. Il insiste sur la durée d'une action qui a commencé dans le passé et qui continue maintenant. On utilise for avec une durée (for two years : depuis deux ans) et since avec un point de départ (since 2021 : depuis 2021). Avec he, she et it, on emploie has ; avec I, you, we et they, on emploie have.",
+    "highlight": "have/has been + verbe en -ing : She has been working in a hotel for two years. (Elle travaille dans un hôtel depuis deux ans.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec le present perfect progressif : Koffi ... (work) as a tour guide for three years.",
+    "steps": [
+      "Repère for three years : c'est une durée, et l'action continue encore aujourd'hui.",
+      "Cette idée de durée demande le present perfect progressif : have/has been + verbe en -ing.",
+      "Le sujet est Koffi (he), donc on utilise has.",
+      "Le verbe work devient working après been.",
+      "Phrase complète : Koffi has been working as a tour guide for three years. (Koffi travaille comme guide touristique depuis trois ans.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Fatou a visité un parc naturel trois fois » ?",
+    "reponse_calculee": "Fatou has visited a nature park three times.",
+    "choices": [
+      {
+        "label": "Fatou has visited a nature park three times.",
+        "correct": true
+      },
+      {
+        "label": "Fatou have visited a nature park three times.",
+        "correct": false
+      },
+      {
+        "label": "Fatou has visit a nature park three times.",
+        "correct": false
+      },
+      {
+        "label": "Fatou is visited a nature park three times.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec Fatou (she), on emploie has + le participe passé visited. Le nombre de fois (three times) indique une expérience : on utilise donc le present perfect simple.",
+    "feedback_wrong": "La bonne phrase est : Fatou has visited a nature park three times. (Fatou a visité un parc naturel trois fois.) Avec she, on emploie has et non have. Après has, on met le participe passé visited, et non visit. La forme is visited n'est pas un present perfect."
+  },
+  "verification": "ok2"
+}

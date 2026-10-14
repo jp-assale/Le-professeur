@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-la-communication",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · La communication",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · La communication",
+  "intro": {
+    "heading": "Un message qui se perd au marché",
+    "body": "Awa envoie un message vocal à son cousin Yao pour lui demander de venir l'aider à ranger sa boutique. Yao l'écoute dans le bruit du marché et comprend le contraire de ce qu'elle voulait dire. Pourquoi ce message a-t-il mal fonctionné ? Dans cette leçon, tu apprends à analyser une communication pour savoir qui parle, à qui, comment et sur quel ton."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Une communication met en relation un émetteur et un récepteur."
+      },
+      {
+        "icon": "📝",
+        "text": "L'oral et l'écrit ont des marques différentes ; le registre de langue s'adapte à la situation."
+      },
+      {
+        "icon": "❓",
+        "text": "Les modalités de phrase : assertion, interrogation, injonction, exclamation."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les outils pour analyser une communication",
+    "explanation": "Communiquer, c'est transmettre un message à quelqu'un. Il existe deux grands types de communication : orale (on parle) et écrite (on écrit). La communication peut aussi être directe, quand on se parle face à face, ou indirecte, quand on passe par un téléphone, une lettre ou la radio. Le schéma de la communication comprend l'émetteur qui envoie le message, le récepteur qui le reçoit, le message lui-même, le canal (voix, papier, téléphone), le code (la langue utilisée) et le contexte (la situation). L'oral se reconnaît à ses hésitations (« euh »), ses répétitions, ses phrases inachevées, ses interjections, son intonation et ses gestes. L'écrit se reconnaît à ses phrases construites, à sa ponctuation et à sa mise en page. Il existe trois registres de langue, à l'oral comme à l'écrit : familier (« Tu viens bouffer ? »), courant (« Tu viens manger ? ») et soutenu (« Voudriez-vous vous restaurer avec nous ? »). Enfin, les modalités de phrase indiquent l'intention de celui qui parle : l'assertion affirme ou constate, l'interrogation pose une question, l'injonction donne un ordre ou un conseil, l'exclamation exprime un sentiment.",
+    "highlight": "Émetteur, récepteur, message, canal, code, contexte : on choisit le registre et la modalité de phrase selon la situation."
+  },
+  "example": {
+    "problem": "Situation d'évaluation. Contexte : Aya et son ami Koffi sont élèves de 3e à Abidjan. Circonstance : Aya envoie ce message vocal à Koffi : « Euh... tu viens demain à l'école ? Apporte ton livre, hein ! » Tâche : analyse cette communication, puis réécris le message à l'écrit dans un registre courant.",
+    "steps": [
+      "Étape 1 : l'émetteur est Aya, qui parle. Le récepteur est Koffi, qui écoute.",
+      "Étape 2 : le canal est le message vocal du téléphone. C'est une communication orale et indirecte, car Aya et Koffi ne sont pas face à face.",
+      "Étape 3 : les marques de l'oral sont « euh » (hésitation), « hein » (interjection) et l'intonation de la voix.",
+      "Étape 4 : « Tu viens demain à l'école ? » est une phrase de modalité interrogative (interrogation). « Apporte ton livre » est une injonction.",
+      "Étape 5 : le registre est familier, à cause de « hein », un mot très familier, et du ton spontané. Attention : « euh » est une marque de l'oral (hésitation), pas un indice de registre.",
+      "Étape 6 : réécriture à l'écrit en registre courant : « Est-ce que tu viens demain à l'école ? Apporte ton livre, s'il te plaît. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Mariam, apporte-moi ton cahier. », quelle est la modalité de la phrase ?",
+    "reponse_calculee": "L'injonction (ordre)",
+    "choices": [
+      {
+        "label": "L'assertion (constat)",
+        "correct": false
+      },
+      {
+        "label": "L'interrogation (question)",
+        "correct": false
+      },
+      {
+        "label": "L'injonction (ordre)",
+        "correct": true
+      },
+      {
+        "label": "L'exclamation (émotion)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le locuteur demande à Mariam de faire quelque chose : il lui donne un ordre. C'est donc l'injonction, avec un verbe à l'impératif (« apporte »).",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. La phrase ne constate rien, ne pose aucune question et n'exprime pas un sentiment. Elle demande à Mariam d'agir, avec un verbe à l'impératif (« apporte »). C'est une injonction."
+  },
+  "verification": "corrige2"
+}

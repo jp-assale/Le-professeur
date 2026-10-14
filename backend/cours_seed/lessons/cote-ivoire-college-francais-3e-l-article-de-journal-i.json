@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-3e-l-article-de-journal-i",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "3e · L'article de journal I",
+  "classe": "3e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "3e · L'article de journal I",
+  "intro": {
+    "heading": "Tu as vu quelque chose dans ton quartier",
+    "body": "Un samedi matin, Awa voit un petit feu se déclarer devant un étal du marché de son quartier. Les commerçants courent avec des seaux d'eau et le calme revient vite. Le lundi, son professeur lui demande de raconter l'événement dans un article pour le journal du collège. Comment raconter ce qu'elle a vu avec précision, sans exagérer ni donner son opinion ?"
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📰",
+        "text": "Le fait divers raconte un événement réel de la vie quotidienne."
+      },
+      {
+        "icon": "🔎",
+        "text": "Réponds à qui, quoi, où, quand, comment, pourquoi."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Le journaliste reste neutre, précis et utilise un ton sobre."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les règles de l'article de fait divers",
+    "explanation": "Un fait divers est un événement réel de la vie de tous les jours, comme un accident, un incendie, un vol ou un sauvetage, que la presse raconte en quelques lignes. L'article comporte un titre court et informatif, un chapeau qui résume l'essentiel, puis un corps qui développe les circonstances. Tu trouves les circonstances en répondant aux questions : qui, quoi, où, quand, comment et pourquoi. Le journaliste adopte une position neutre : il écrit à la troisième personne, vérifie les faits et ne donne pas son opinion. Si tu as été témoin, tu peux préciser ce que tu as vu ou citer un autre témoin, mais tu sépares toujours ce que tu as observé de ce que tu supposes. Tes outils de langue sont le passé composé et l'imparfait, les indicateurs de temps et de lieu, les verbes d'action et les expressions comme « selon » ou « d'après » pour citer une source ou un témoin. Le vocabulaire doit appartenir au sujet traité (flammes, sapeurs-pompiers, dégâts, maîtriser) et la tonalité reste informative et sobre.",
+    "highlight": "Fait divers = faits réels + circonstances précises (qui, quoi, où, quand, comment, pourquoi) + journaliste neutre + ton sobre."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : tu as été témoin d'un petit feu qui a détruit un étal de tissus au marché de ton quartier. Les commerçants ont éteint les flammes avec des seaux d'eau et personne n'a été blessé. Ton professeur te demande d'écrire le titre et le chapeau de l'article pour le journal du collège.",
+    "steps": [
+      "Note les circonstances : qui (les commerçants), quoi (un feu), où (au marché du quartier), quand (un samedi matin), comment (éteint avec des seaux), pourquoi (cause inconnue).",
+      "Choisis ta position : tu écris à la troisième personne, sans « je pense que » et sans jugement sur les personnes.",
+      "Rassemble le vocabulaire du sujet : feu, étal, flammes, maîtriser, dégâts, blessé.",
+      "Rédige un titre court et informatif : « Un étal de tissus détruit par un feu au marché du quartier ».",
+      "Rédige le chapeau avec le passé composé : « Un feu s'est déclaré un matin dans le marché du quartier. Grâce à l'aide des commerçants, les flammes ont été maîtrisées et personne n'a été blessé. »",
+      "Vérifie la tonalité : il n'y a ni exclamation, ni insulte, ni exagération, et la cause du feu n'est pas inventée."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase respecte la position neutre du journaliste dans un article de fait divers ?",
+    "reponse_calculee": "Le feu a détruit un étal de tissus, mais les commerçants ont éteint les flammes avec des seaux.",
+    "choices": [
+      {
+        "label": "Le feu a détruit un étal de tissus, mais les commerçants ont éteint les flammes avec des seaux.",
+        "correct": true
+      },
+      {
+        "label": "Quelle horreur ! Ces commerçants imprudents méritent ce malheur.",
+        "correct": false
+      },
+      {
+        "label": "Je pense que le propriétaire est coupable et qu'il devrait être puni.",
+        "correct": false
+      },
+      {
+        "label": "Ah, comme c'est triste, j'en pleure encore, pauvres gens !",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase rapporte des faits précis, à la troisième personne, sans jugement ni émotion personnelle : c'est la position neutre du journaliste.",
+    "feedback_wrong": "Non. Les autres phrases contiennent une exclamation, un jugement, une opinion ou une émotion personnelle. Le journaliste doit rester neutre : il rapporte seulement les faits, sans accuser ni se plaindre."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-la-salle-de-classe-in-the-c",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · La salle de classe (In the classroom)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · La salle de classe (In the classroom)",
+  "intro": {
+    "heading": "Un nouveau jour dans la classe d'anglais",
+    "body": "Ce matin, Awa arrive en classe à Abidjan et salue son professeur. Kouadio ne trouve plus son stylo et demande de l'aide à Awa. Un nouvel élève, Ibrahim, vient de Bouaké et se présente à la classe. Pour bien parler anglais dans la salle de classe, tu dois nommer les objets, les situer et demander d'où viennent les gens."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "✏️",
+        "text": "Je nomme les objets : a book, a pen, a table."
+      },
+      {
+        "icon": "📍",
+        "text": "Je situe un objet avec Where is... ? It is on..."
+      },
+      {
+        "icon": "👋",
+        "text": "Je salue, je présente et je demande : Where are you from ?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de la salle de classe en anglais",
+    "explanation": "Pour saluer, tu dis Good morning (Bonjour) le matin ou Hello (Salut). Pour présenter une personne, tu dis This is Awa. (Voici Awa.) Pour nommer un objet, tu poses la question What is this? (Qu'est-ce que c'est ?) et tu réponds This is a pen. (C'est un stylo.) Voici quelques mots utiles : a book (un livre), a bag (un sac), a table (une table), a chair (une chaise), a blackboard (un tableau noir). Pour localiser un objet, tu demandes Where is the book? (Où est le livre ?) et tu réponds avec on (sur), under (sous) ou in (dans). Pour demander la provenance d'une personne, tu dis Where are you from? (D'où viens-tu ?) et tu réponds I'm from Bouaké. (Je viens de Bouaké.) Une phrase affirmative donne une information : It is on the table. (Il est sur la table.) Une phrase interrogative pose une question et commence souvent par un mot comme What ou Where.",
+    "highlight": "Where is the book? – It is on the table. (Où est le livre ? – Il est sur la table.)"
+  },
+  "example": {
+    "problem": "Kouadio cherche son cahier. Traduis en anglais : « Où est le cahier ? Il est sur la table. »",
+    "steps": [
+      "Commence par la question : « Où est » se dit Where is.",
+      "Le mot « cahier » se dit notebook, et « le » se dit the : the notebook.",
+      "Tu assembles la question : Where is the notebook?",
+      "Pour la réponse, « Il est » se dit It is et « sur » se dit on.",
+      "« La table » se dit the table.",
+      "Réponse complète : Where is the notebook? – It is on the table. (Où est le cahier ? – Il est sur la table.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu veux demander à Fatou, une nouvelle élève, d'où elle vient. Quelle question est correcte en anglais ?",
+    "reponse_calculee": "Where are you from?",
+    "choices": [
+      {
+        "label": "Where are you from?",
+        "correct": true
+      },
+      {
+        "label": "Where is you from?",
+        "correct": false
+      },
+      {
+        "label": "What are you from?",
+        "correct": false
+      },
+      {
+        "label": "Where you are from are?",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Where are you from? (D'où viens-tu ?) est la bonne question. On utilise Where pour parler d'un lieu et are avec you.",
+    "feedback_wrong": "La bonne réponse est Where are you from? (D'où viens-tu ?). Avec you, on utilise are et non is. Le mot Where demande un lieu, alors que What demande une chose. L'ordre des mots doit être : Where + are + you + from."
+  },
+  "verification": "ok2"
+}

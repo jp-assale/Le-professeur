@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-l-hygiene-a-l-ecole-hygiene",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · L'hygiène à l'école (Hygiene at school)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'hygiène à l'école (Hygiene at school)",
+  "intro": {
+    "heading": "Une classe propre, des élèves en bonne santé",
+    "body": "À l'école d'Awa, à Abidjan, un affichage est collé près des toilettes : « Wash your hands! ». Awa le lit vite pour comprendre le sujet, puis elle relit pour trouver les détails. Ensuite, elle veut donner des conseils à ses camarades en anglais. Dans cette leçon, tu apprends à lire un texte sur l'hygiène et à conseiller comme elle."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧼",
+        "text": "Pour conseiller, on utilise should, must ou don't."
+      },
+      {
+        "icon": "📖",
+        "text": "Lis d'abord le titre pour trouver l'idée générale."
+      },
+      {
+        "icon": "🔗",
+        "text": "Les mots and, but, because et so relient les phrases."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Conseiller en anglais et comprendre un texte",
+    "explanation": "Pour donner un conseil, tu utilises should (devrais) suivi du verbe sans to : « You should clean your desk. » (Tu devrais nettoyer ton bureau.) Pour une obligation forte, tu utilises must : « You must wash your hands. » (Tu dois te laver les mains.) Pour une interdiction ou un conseil négatif, tu utilises don't suivi d'un verbe : « Don't drink dirty water. » (Ne bois pas d'eau sale.) Quelques mots utiles : soap (le savon), water (l'eau), toilets (les toilettes), bin (la poubelle), rubbish (les ordures), clean (propre ou nettoyer), dirty (sale). Pour relier les phrases, utilise and (et), but (mais), because (parce que) et so (donc). Pour lire un texte, regarde d'abord le titre et lis vite : tu trouves l'idée générale, c'est-à-dire le sujet principal. Puis relis plus lentement pour trouver les idées secondaires, c'est-à-dire les détails et les exemples qui expliquent le sujet.",
+    "highlight": "should + verbe : You should wash your hands before eating. (Tu devrais te laver les mains avant de manger.)"
+  },
+  "example": {
+    "problem": "Ton ami Koffi ne se lave pas les mains avant de manger. Écris en anglais un conseil pour lui avec should : « Koffi, tu devrais te laver les mains avant de manger. »",
+    "steps": [
+      "Je repère le modèle : should + verbe sans to.",
+      "« Te laver les mains » se dit wash your hands.",
+      "« Avant de manger » se dit before eating.",
+      "J'ajoute le prénom de Koffi au début, suivi d'une virgule.",
+      "Phrase complète : Koffi, you should wash your hands before eating. (Koffi, tu devrais te laver les mains avant de manger.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase donne un bon conseil d'hygiène à l'école ?",
+    "reponse_calculee": "You should put the rubbish in the bin. (Tu devrais mettre les ordures à la poubelle.)",
+    "choices": [
+      {
+        "label": "You should put the rubbish in the bin. (Tu devrais mettre les ordures à la poubelle.)",
+        "correct": true
+      },
+      {
+        "label": "You should throw rubbish on the floor. (Tu devrais jeter les ordures par terre.)",
+        "correct": false
+      },
+      {
+        "label": "You should not wash your hands. (Tu ne devrais pas te laver les mains.)",
+        "correct": false
+      },
+      {
+        "label": "You should drink dirty water. (Tu devrais boire de l'eau sale.)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Should + verbe donne un conseil, et mettre les ordures à la poubelle garde l'école propre.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Un conseil d'hygiène aide à rester en bonne santé. La bonne phrase est : You should put the rubbish in the bin. (Tu devrais mettre les ordures à la poubelle.) Les autres phrases donnent de mauvais conseils."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-1ere-etude-d-un-groupement-de-tex",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "1ère · Étude d'un Groupement de Textes (GT) romanesques de littérature africaine ou étrangère",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Étude d'un Groupement de Textes (GT) romanesques de littérature africaine ou étrangère",
+  "intro": {
+    "heading": "Une situation d'évaluation à Abidjan",
+    "body": "Kouadio, élève de 1ère, reçoit trois extraits de romans réunis par son professeur. On lui demande de dire ce qu'ils ont en commun et de comparer la façon dont chaque auteur construit son récit. Il ne sait pas par où commencer. Dans cette leçon, tu découvres une méthode simple pour lire un groupement de textes et répondre à ce type de tâche."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧩",
+        "text": "Un GT réunit plusieurs extraits autour d'un point commun."
+      },
+      {
+        "icon": "🔍",
+        "text": "Analyse toujours personnage, espace, temps et narration."
+      },
+      {
+        "icon": "📚",
+        "text": "Identifie le type de roman : historique, autobiographique, d'analyse, nouveau."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Méthode pour étudier un GT romanesque",
+    "explanation": "Un groupement de textes (GT) rassemble plusieurs extraits de romans africains ou étrangers liés par un point commun, comme le thème, le type de roman ou la technique d'écriture. Pour chaque extrait, tu étudies quatre éléments. Le personnage : qui est-il, comment est-il présenté, que veut-il ? L'espace : quels lieux sont décrits et quel rôle jouent-ils ? Le temps : le récit suit-il l'ordre chronologique, ou utilise-t-il un retour en arrière (analepse), une anticipation (prolepse) ou une ellipse ? La narration : le narrateur dit-il « je » (narrateur interne) ou raconte-t-il à la troisième personne, et quel est son point de vue (focalisation interne, externe ou zéro) ? Ensuite, tu identifies le type de roman. Le roman historique place une fiction dans le cadre d'une époque passée réelle, souvent avec des personnages inventés qui vivent au milieu d'événements réels. Le roman autobiographique raconte, sous forme de roman, des événements inspirés de la vie de l'auteur, souvent à la première personne. Le roman d'analyse explore les sentiments et les pensées d'un personnage. Le nouveau roman remet en cause l'intrigue et le personnage traditionnels.",
+    "highlight": "Pour chaque extrait : personnage, espace, temps, narration, puis type de roman."
+  },
+  "example": {
+    "problem": "Voici un court texte inventé : « Je suis revenu au village après de longues années. La cour avait rétréci et le manguier n'existait plus. Pourtant, en touchant le mur, je revoyais ma mère en train de piler le manioc. » Analyse-le avec la méthode du GT.",
+    "steps": [
+      "Narration : le narrateur dit « je », c'est un narrateur interne ; nous voyons tout par ses yeux (focalisation interne).",
+      "Temps : le retour au village est le moment principal du récit ; « après de longues années » marque une ellipse, et le souvenir de la mère (« je revoyais ») est une analepse (retour en arrière).",
+      "Espace : la cour, le manguier et le mur sont des lieux familiers ; ils déclenchent le souvenir et montrent le passage du temps.",
+      "Personnage : le narrateur est le personnage principal ; la mère n'apparaît que par la mémoire.",
+      "Type de roman : l'extrait est trop court pour conclure, mais il présente des traits du roman d'analyse, car il explore les émotions et les souvenirs du narrateur.",
+      "Précision : le texte seul ne permet pas de savoir si le récit s'inspire de la vie de l'auteur ; il faut un renseignement sur l'auteur pour parler de roman autobiographique."
+    ]
+  },
+  "quiz": {
+    "question": "Un extrait raconte, à la troisième personne, l'histoire de personnages inventés qui vivent au milieu d'événements réels d'une époque passée. De quel type de roman s'agit-il ?",
+    "reponse_calculee": "Un roman historique",
+    "choices": [
+      {
+        "label": "Un roman historique",
+        "correct": true
+      },
+      {
+        "label": "Un nouveau roman",
+        "correct": false
+      },
+      {
+        "label": "Un roman autobiographique",
+        "correct": false
+      },
+      {
+        "label": "Un roman d'analyse",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le roman historique place une fiction et des personnages inventés dans le cadre d'une époque passée réelle.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Ici, les personnages sont inventés et vivent dans une époque passée réelle : c'est la définition du roman historique. Le roman autobiographique s'inspire de la vie de l'auteur, le roman d'analyse explore surtout les sentiments, et le nouveau roman remet en cause l'intrigue et le personnage traditionnels."
+  },
+  "verification": "ok2"
+}

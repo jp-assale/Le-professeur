@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-besuch-im-dorf",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Besuch Im Dorf",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Besuch Im Dorf",
+  "intro": {
+    "heading": "Les vacances au village",
+    "body": "Ce sont bientôt les vacances et Awa part au village chez sa grand-mère. Elle veut écrire un petit message à son amie allemande pour raconter son voyage. Elle doit dire qui elle visite et où. Dans cette leçon, tu apprends à faire de même avec des phrases simples en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🏡",
+        "text": "Das Dorf signifie le village ; im Dorf signifie au village."
+      },
+      {
+        "icon": "👵",
+        "text": "Le verbe besuchen signifie rendre visite à quelqu'un."
+      },
+      {
+        "icon": "✏️",
+        "text": "Après besuchen, on utilise l'accusatif : meinen Onkel."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire qui tu visites et où",
+    "explanation": "Le verbe besuchen (rendre visite à) se conjugue ainsi : ich besuche (je rends visite), du besuchst (tu rends visite), er besucht (il rend visite), wir besuchen (nous rendons visite). Dans une phrase simple, le verbe est toujours en deuxième position : Ich besuche meine Oma (Je rends visite à ma grand-mère). Après besuchen, la personne visitée est à l'accusatif. Pour un mot masculin, mein devient meinen : mein Onkel (mon oncle) devient Ich besuche meinen Onkel. Pour un mot féminin, rien ne change : meine Oma (ma grand-mère). Pour dire au village, on utilise im Dorf, qui vient de in dem Dorf (dans le village). Tu peux ainsi construire ta phrase : sujet, verbe, personne visitée, puis lieu.",
+    "highlight": "Ich besuche meinen Onkel im Dorf. (Je rends visite à mon oncle au village.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande : Koffi rend visite à son oncle au village. Utilise les mots Koffi, besuchen, sein Onkel, das Dorf.",
+    "steps": [
+      "Le sujet est Koffi, c'est-à-dire er (il). Le verbe besuchen prend donc la terminaison -t : besucht.",
+      "Le verbe est en deuxième position : Koffi besucht.",
+      "Onkel est masculin et se trouve après besuchen, donc à l'accusatif : sein devient seinen, soit seinen Onkel.",
+      "Le lieu est das Dorf. Pour dire au village, on emploie im Dorf.",
+      "Phrase complète : Koffi besucht seinen Onkel im Dorf. (Koffi rend visite à son oncle au village.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase allemande est correcte pour dire : Je rends visite à mon oncle au village ?",
+    "reponse_calculee": "Ich besuche meinen Onkel im Dorf.",
+    "choices": [
+      {
+        "label": "Ich besuche meinen Onkel im Dorf.",
+        "correct": true
+      },
+      {
+        "label": "Ich besucht meinen Onkel im Dorf.",
+        "correct": false
+      },
+      {
+        "label": "Ich besuche mein Onkel im Dorf.",
+        "correct": false
+      },
+      {
+        "label": "Ich meinen Onkel besuche im Dorf.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec ich, le verbe se termine par -e (ich besuche), Onkel est masculin à l'accusatif (meinen Onkel) et le verbe est bien en deuxième position : Ich besuche meinen Onkel im Dorf.",
+    "feedback_wrong": "Avec ich, le verbe se termine par -e : ich besuche. Onkel est masculin et se trouve à l'accusatif, donc on écrit meinen Onkel. Enfin, le verbe doit rester en deuxième position dans la phrase. La bonne phrase est : Ich besuche meinen Onkel im Dorf."
+  },
+  "verification": "ok2"
+}

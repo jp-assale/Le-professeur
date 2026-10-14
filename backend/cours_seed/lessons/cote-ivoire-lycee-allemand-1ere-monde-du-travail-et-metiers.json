@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-monde-du-travail-et-metiers",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Monde du travail et métiers",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Monde du travail et métiers",
+  "intro": {
+    "heading": "Un forum de l'orientation au lycée",
+    "body": "Au lycée d'Abidjan, un forum des métiers est organisé. Des parents viennent présenter leur travail à des élèves germanophones d'un lycée partenaire. Ton rôle : dire en allemand le métier de ta mère, de ton père ou le tien plus tard. Tu dois donc savoir nommer un métier, au masculin comme au féminin, avec une phrase correcte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👩‍🏫",
+        "text": "Pour dire son métier : Ich bin ... ou Ich arbeite als ..."
+      },
+      {
+        "icon": "✍️",
+        "text": "Après sein, on n'utilise en général pas d'article devant le métier."
+      },
+      {
+        "icon": "♀️",
+        "text": "Le féminin se forme en ajoutant -in au métier masculin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire son métier et mettre un métier au féminin",
+    "explanation": "Pour demander le métier de quelqu'un, tu dis : Was bist du von Beruf? (Quel est ton métier ?). Pour répondre, tu utilises le verbe sein (être) : Ich bin Lehrer. (Je suis professeur.) Tu peux aussi dire : Ich arbeite als Fahrer. (Je travaille comme chauffeur.) Quand on donne seulement le métier, on ne met en général pas d'article devant le nom du métier après sein : on dit Ich bin Lehrer. Pour parler d'une femme, on ajoute -in au nom masculin : der Verkäufer (le vendeur), die Verkäuferin (la vendeuse). Certains mots prennent un tréma : der Arzt (le médecin), die Ärztin (la femme médecin). Retiens aussi : der Lehrer, die Lehrerin (le professeur, la professeure) et der Fahrer, die Fahrerin (le chauffeur, la chauffeuse).",
+    "highlight": "Ich bin + métier, sans article. Féminin : + -in. Exemple : Sie ist Lehrerin. (Elle est professeure.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en allemand : « Awa est vendeuse au marché. »",
+    "steps": [
+      "Le sujet est Awa, une seule personne : on utilise le verbe sein à la 3e personne du singulier, ist (est).",
+      "Le métier de base est der Verkäufer (le vendeur). Awa est une femme, donc on ajoute -in : Verkäuferin.",
+      "Après ist, on n'écrit pas d'article devant le métier : on dit ist Verkäuferin.",
+      "Le lieu « au marché » se dit auf dem Markt (au marché).",
+      "Phrase complète : Awa ist Verkäuferin auf dem Markt. (Awa est vendeuse au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand : « Mon père est chauffeur » ?",
+    "reponse_calculee": "Mein Vater ist Fahrer.",
+    "choices": [
+      {
+        "label": "Mein Vater ist Fahrer.",
+        "correct": true
+      },
+      {
+        "label": "Mein Vater ist Fahrerin.",
+        "correct": false
+      },
+      {
+        "label": "Mein Vater ist die Fahrer.",
+        "correct": false
+      },
+      {
+        "label": "Mein Vater Fahrer ist.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Mein Vater ist Fahrer. (Mon père est chauffeur.) Le verbe sein est en deuxième position, le métier masculin n'a pas d'article et ne prend pas -in.",
+    "feedback_wrong": "La bonne réponse est : Mein Vater ist Fahrer. Fahrerin est la forme féminine, donc elle ne convient pas pour un homme. On n'utilise pas d'article devant le métier après sein. Dans une phrase simple, le verbe se place en deuxième position, après le sujet."
+  },
+  "verification": "corrige2"
+}

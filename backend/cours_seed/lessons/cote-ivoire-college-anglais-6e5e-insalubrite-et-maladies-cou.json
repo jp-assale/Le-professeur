@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-insalubrite-et-maladies-cou",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Insalubrité et maladies courantes (Insalubrity and common diseases)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Insalubrité et maladies courantes (Insalubrity and common diseases)",
+  "intro": {
+    "heading": "Un voisin malade au quartier",
+    "body": "Dans ton quartier à Abidjan, ton voisin Koffi a de la fièvre et mal à la tête. Sa grand-mère pense que c'est le paludisme, car il y a beaucoup de moustiques près de la maison. Tu veux l'aider et lui donner de bons conseils, mais en anglais ! Dans cette leçon, tu apprends les mots des maladies courantes et la façon de donner des conseils."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🦟",
+        "text": "Malaria, cholera, typhoid fever : des maladies courantes."
+      },
+      {
+        "icon": "💡",
+        "text": "Pour conseiller : should + verbe sans to."
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour déconseiller : shouldn't + verbe, ou Don't + verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer les maladies et donner des conseils",
+    "explanation": "Voici d'abord des mots utiles : malaria (le paludisme), cholera (le choléra), typhoid fever (la fièvre typhoïde), diarrhoea (la diarrhée), mosquito (le moustique), dirty water (l'eau sale), rubbish (les ordures), mosquito net (la moustiquaire). Pour donner un conseil, on utilise should (devrais, devrait). Après should, on met le verbe à la base, sans to et sans s : You should wash your hands (Tu devrais te laver les mains). Pour dire ce qu'il ne faut pas faire, on utilise shouldn't : You shouldn't drink dirty water (Tu ne devrais pas boire de l'eau sale). On peut aussi utiliser l'impératif : Wash your hands! (Lave-toi les mains !) ou Don't drink dirty water! (Ne bois pas d'eau sale !). Should est le même pour tous : I should, you should, he should, we should, they should.",
+    "highlight": "You should + verbe de base. Exemple : You should boil water. (Tu devrais faire bouillir l'eau.)"
+  },
+  "example": {
+    "problem": "Koffi a la diarrhée parce qu'il a bu de l'eau sale. Construis en anglais le conseil : 'Tu devrais boire de l'eau bouillie.'",
+    "steps": [
+      "Le mot 'devrais' exprime un conseil : on utilise should.",
+      "Le sujet est 'tu' : you. On commence donc par You should.",
+      "Le verbe 'boire' se dit drink. Après should, on garde drink sans to et sans s.",
+      "'De l'eau bouillie' se dit boiled water.",
+      "On met les mots dans l'ordre : sujet + should + verbe + complément.",
+      "Réponse : You should drink boiled water. (Tu devrais boire de l'eau bouillie.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase donne correctement un conseil pour éviter le paludisme ?",
+    "reponse_calculee": "You should sleep under a mosquito net.",
+    "choices": [
+      {
+        "label": "You should sleep under a mosquito net.",
+        "correct": true
+      },
+      {
+        "label": "You should to sleep under a mosquito net.",
+        "correct": false
+      },
+      {
+        "label": "You should sleeping under a mosquito net.",
+        "correct": false
+      },
+      {
+        "label": "You should sleeps under a mosquito net.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après should, on met le verbe à la base : sleep, sans to, sans -ing et sans s. You should sleep under a mosquito net veut dire : Tu devrais dormir sous une moustiquaire.",
+    "feedback_wrong": "Après should, le verbe reste à la base : sleep. On n'ajoute ni to, ni -ing, ni s. La bonne phrase est : You should sleep under a mosquito net. (Tu devrais dormir sous une moustiquaire.)"
+  },
+  "verification": "ok2"
+}

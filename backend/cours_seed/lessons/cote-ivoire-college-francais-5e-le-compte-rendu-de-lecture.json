@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-le-compte-rendu-de-lecture",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · Le compte rendu de lecture",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · Le compte rendu de lecture",
+  "intro": {
+    "heading": "Ton avis sur le livre de la bibliothèque",
+    "body": "Aya vient de lire un roman emprunté à la bibliothèque de son collège à Abidjan. Son professeur de français lui demande d'écrire un compte rendu pour que ses camarades sachent si le livre vaut la peine d'être lu. Aya hésite : faut-il tout raconter, du début jusqu'à la fin ? Dans cette leçon, tu découvres la technique pour réussir ce type d'écrit."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Le compte rendu présente l'œuvre lue : titre, auteur, genre."
+      },
+      {
+        "icon": "✍️",
+        "text": "Il résume l'histoire au présent, sans tout raconter."
+      },
+      {
+        "icon": "💬",
+        "text": "Il donne un avis justifié, en langue standard."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les caractéristiques et la technique du compte rendu",
+    "explanation": "Un compte rendu de lecture est un écrit qui informe un lecteur sur une œuvre que tu as lue, et qui l'aide à décider s'il veut la lire. Il comporte trois parties. D'abord, tu présentes l'œuvre lue : le titre, le nom de l'auteur, le genre (roman, conte, pièce de théâtre) et les personnages principaux. Ensuite, tu résumes l'histoire en quelques phrases, au présent de l'indicatif, sans raconter la fin pour ne pas gâcher le plaisir du lecteur. Enfin, tu donnes ton appréciation personnelle en la justifiant avec une raison précise. Pour dire que tu as lu le livre ou que tu l'as apprécié, tu peux utiliser le passé composé (« j'ai lu », « j'ai apprécié ») ; c'est le résumé de l'histoire qui est au présent. Le lexique approprié comprend des mots et des expressions comme « personnage », « intrigue », « récit », « auteur », « chapitre », « thème », « j'ai apprécié ». Pour les outils grammaticaux, utilise des connecteurs (d'abord, ensuite, enfin, mais, car) et des pronoms pour éviter les répétitions. Le registre de langue est standard : pas d'argot ni de mots familiers, et des phrases correctes et complètes.",
+    "highlight": "Compte rendu = présentation de l'œuvre + résumé au présent + avis justifié, en langue standard."
+  },
+  "example": {
+    "problem": "Kofi a lu le conte « Le Tisserand et la pluie » (une histoire imaginée pour cet exercice). Il veut rédiger le début de son compte rendu et son avis. Aide-le à produire un court texte.",
+    "steps": [
+      "Étape 1 : Je présente l'œuvre : « J'ai lu le conte Le Tisserand et la pluie. »",
+      "Étape 2 : J'indique le personnage principal : « Le héros est Yao, un tisserand courageux. »",
+      "Étape 3 : Je résume au présent, sans révéler la fin : « Yao doit finir un pagne avant la saison des pluies, mais il manque de temps. »",
+      "Étape 4 : J'ajoute un connecteur pour enchaîner : « Ensuite, il demande l'aide de son village. »",
+      "Étape 5 : Je donne mon avis avec une raison, en langue standard : « J'ai apprécié ce conte car il montre la valeur de l'entraide. »",
+      "Étape 6 : Je vérifie : l'œuvre est présentée, le résumé est au présent, la fin n'est pas révélée, l'avis est justifié et aucun mot familier n'est utilisé. Le texte est correct."
+    ]
+  },
+  "quiz": {
+    "question": "Parmi ces phrases, laquelle convient le mieux à un compte rendu de lecture écrit ?",
+    "reponse_calculee": "J'ai apprécié ce roman car l'histoire d'Awa montre l'importance de l'amitié.",
+    "choices": [
+      {
+        "label": "J'ai apprécié ce roman car l'histoire d'Awa montre l'importance de l'amitié.",
+        "correct": true
+      },
+      {
+        "label": "Ce bouquin est trop bien, franchement ça déchire grave.",
+        "correct": false
+      },
+      {
+        "label": "Awa avait raconté sa vie et à la fin elle gagna tout.",
+        "correct": false
+      },
+      {
+        "label": "Lis ce livre, c'est tout, je n'ai rien d'autre à dire.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Cette phrase donne un avis justifié (avec « car »), dans une langue standard et correcte, sans raconter la fin de l'histoire.",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Un compte rendu demande un avis justifié, en langue standard, sans mots familiers et sans raconter la fin. La bonne réponse est : « J'ai apprécié ce roman car l'histoire d'Awa montre l'importance de l'amitié. »"
+  },
+  "verification": "ok2"
+}

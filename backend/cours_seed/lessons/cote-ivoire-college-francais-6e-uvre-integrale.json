@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-uvre-integrale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Œuvre intégrale",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Œuvre intégrale",
+  "intro": {
+    "heading": "Un livre à lire en entier !",
+    "body": "Ton professeur de français remet à Kouadio et à ses camarades un petit roman à lire en entier pendant le trimestre. Kouadio se demande : « Par où commencer, et que dois-je retenir ? » À la fin, la classe devra résoudre une situation d'évaluation : présenter l'œuvre à des élèves d'une autre école et leur donner envie de la lire. Pour réussir, il faut suivre une méthode claire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Une œuvre intégrale se lit en entier, du début à la fin."
+      },
+      {
+        "icon": "🧭",
+        "text": "L'axe d'étude guide ta lecture et tes hypothèses."
+      },
+      {
+        "icon": "🎭",
+        "text": "Repère les personnages, les thèmes, les figures de style et la portée."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode pour étudier une œuvre intégrale",
+    "explanation": "Une œuvre intégrale est un livre entier (roman, pièce de théâtre, recueil) que tu lis du début à la fin, et non quelques extraits. D'abord, tu présentes l'auteur et son œuvre : qui l'a écrite, quel est le titre, de quel genre il s'agit. Ensuite, tu cherches le contexte : à quelle époque et dans quel milieu l'histoire se passe et a été écrite. L'axe d'étude est la grande question qui guide ta lecture, par exemple « comment le héros change-t-il au fil de l'histoire ? ». Avant de lire, tu fais des hypothèses de lecture : ce sont des idées sur le contenu, appuyées sur le titre et la couverture, que tu vérifies ensuite. Pendant la lecture, tu repères les personnages principaux, les thèmes majeurs (l'amitié, le courage, la justice...) et les figures de style, comme la comparaison et la métaphore, qui rendent le texte plus expressif. À la fin, tu expliques la portée de l'œuvre : ce qu'elle t'apprend et ce qu'elle apporte au lecteur.",
+    "highlight": "Auteur, contexte, axe d'étude, hypothèses, personnages et thèmes, figures de style, portée : tels sont les points à retenir."
+  },
+  "example": {
+    "problem": "Voici la quatrième de couverture d'un roman imaginaire intitulé « Le Secret du vieux manguier » : « Adjoua, onze ans, découvre que le vieux manguier de son village cache un secret. Elle doit choisir entre se taire pour protéger son ami Yao et dire la vérité aux anciens. » Prépare ta lecture de ce livre.",
+    "steps": [
+      "Hypothèse de lecture : d'après le titre et la quatrième de couverture, je pense que l'histoire parlera d'un secret de village et d'un choix difficile.",
+      "Axe d'étude possible : comment Adjoua choisit-elle entre l'amitié et la vérité ?",
+      "Personnages à repérer : Adjoua, l'héroïne, et Yao, son ami. Les anciens du village jouent aussi un rôle.",
+      "Thèmes à surveiller : l'amitié, l'honnêteté et le courage.",
+      "Figure de style que je peux repérer ou produire : la métaphore, par exemple « Le manguier est un vieux gardien silencieux. »",
+      "Après la lecture, je vérifierai mes hypothèses, puis j'expliquerai la portée du livre : ce qu'il nous apprend sur l'honnêteté."
+    ]
+  },
+  "quiz": {
+    "question": "Dans l'étude d'une œuvre intégrale, qu'est-ce que l'axe d'étude ?",
+    "reponse_calculee": "La question principale qui guide la lecture de l'œuvre",
+    "choices": [
+      {
+        "label": "La question principale qui guide la lecture de l'œuvre",
+        "correct": true
+      },
+      {
+        "label": "Le nom de la maison d'édition du livre",
+        "correct": false
+      },
+      {
+        "label": "La liste de tous les mots difficiles du livre",
+        "correct": false
+      },
+      {
+        "label": "La dernière phrase du livre",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'axe d'étude est la question principale qui oriente ta lecture, par exemple : comment le héros évolue-t-il ? Il t'aide à choisir ce que tu observes dans le livre.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. L'axe d'étude n'est ni le nom de l'éditeur, ni une liste de mots, ni la dernière phrase. C'est la question principale qui guide la lecture de l'œuvre, par exemple : comment le héros change-t-il au fil de l'histoire ?"
+  },
+  "verification": "ok"
+}

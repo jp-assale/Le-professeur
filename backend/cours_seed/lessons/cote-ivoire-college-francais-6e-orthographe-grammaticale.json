@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-orthographe-grammaticale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Orthographe grammaticale",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Orthographe grammaticale",
+  "intro": {
+    "heading": "Un message plein d'erreurs",
+    "body": "Awa, élève de 6e à Bouaké, écrit un compte rendu de la kermesse de son école. Son maître lui rend la copie pleine de croix rouges sur « leur », « leurs » et sur des participes passés. Il lui demande de corriger son texte avant l'affichage dans la classe. Tu vas l'aider en apprenant les règles qui évitent ces erreurs."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👉",
+        "text": "Le, la, les, l' devant un verbe remplacent un nom."
+      },
+      {
+        "icon": "✏️",
+        "text": "Leur devant un verbe est invariable ; leur(s) devant un nom s'accorde."
+      },
+      {
+        "icon": "✅",
+        "text": "Avec être, le participe passé s'accorde avec le sujet."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le, la, les, l', leur et le participe passé",
+    "explanation": "Devant un nom, « le, la, les, l' » sont des articles : le cahier, les cahiers. Devant un verbe, ce sont des pronoms qui remplacent un nom : Je les vois. Le verbe s'accorde toujours avec son sujet, jamais avec ce pronom : Les enfants la regardent, Il les regarde. Le mot « leur » a deux emplois. Devant un verbe, c'est un pronom qui signifie « à eux » ou « à elles », et il ne prend jamais de s : Le maître leur parle. Devant un nom, c'est un adjectif possessif qui s'accorde avec ce nom : leur cahier, leurs cahiers. Avec l'auxiliaire être, le participe passé s'accorde avec le sujet : Awa est partie, Ils sont arrivés. Avec l'auxiliaire avoir, il s'accorde avec le complément d'objet direct seulement si celui-ci est placé avant le verbe : Les mangues que Mariam a achetées, mais Mariam a acheté des mangues.",
+    "highlight": "Leur + verbe : jamais de s. Leur(s) + nom : on accorde avec le nom."
+  },
+  "example": {
+    "problem": "Situation d'évaluation : Le maître te demande de corriger le texte d'Awa pour l'affichage de la classe. Voici le texte : « Awa et Yao ont perdu leur cahiers. Le maître leurs a prêté des feuilles. Ils sont arrivé en retard. » Corrige les trois erreurs.",
+    "steps": [
+      "Phrase 1 : après « leur », le nom « cahiers » est au pluriel. Leur est donc un adjectif possessif et il s'accorde : leurs cahiers.",
+      "Dans la même phrase, « ont perdu » est construit avec avoir. Le complément « leurs cahiers » est placé après le verbe, donc « perdu » ne s'accorde pas.",
+      "Phrase 2 : « leurs » est placé devant le verbe « a prêté ». C'est un pronom qui signifie « à eux », il est invariable : Le maître leur a prêté des feuilles.",
+      "Phrase 3 : « sont arrivé » est construit avec être. Le sujet « Ils » est masculin pluriel, donc le participe s'accorde : Ils sont arrivés.",
+      "Texte corrigé : « Awa et Yao ont perdu leurs cahiers. Le maître leur a prêté des feuilles. Ils sont arrivés en retard. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correctement écrite ?",
+    "reponse_calculee": "Les élèves ouvrent leurs cahiers et la maîtresse leur parle.",
+    "choices": [
+      {
+        "label": "Les élèves ouvrent leurs cahiers et la maîtresse leur parle.",
+        "correct": true
+      },
+      {
+        "label": "Les élèves ouvrent leur cahiers et la maîtresse leur parle.",
+        "correct": false
+      },
+      {
+        "label": "Les élèves ouvrent leurs cahiers et la maîtresse leurs parle.",
+        "correct": false
+      },
+      {
+        "label": "Les élèves ouvrent leur cahiers et la maîtresse leurs parle.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Devant le nom pluriel « cahiers », on écrit l'adjectif possessif « leurs ». Devant le verbe « parle », « leur » est un pronom invariable qui signifie « à eux ».",
+    "feedback_wrong": "Regarde la place du mot. Devant un nom pluriel comme « cahiers », on écrit « leurs ». Devant un verbe comme « parle », « leur » est un pronom invariable : on n'ajoute jamais de s. La bonne phrase est : Les élèves ouvrent leurs cahiers et la maîtresse leur parle."
+  },
+  "verification": "ok"
+}

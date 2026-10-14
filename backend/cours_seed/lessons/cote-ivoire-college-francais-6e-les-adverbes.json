@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-6e-les-adverbes",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "6e · Les adverbes",
+  "classe": "6e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "6e · Les adverbes",
+  "intro": {
+    "heading": "Où est passé le cahier d'Awa ?",
+    "body": "Ce matin, à Abidjan, Awa ne retrouve plus son cahier de français. Elle raconte à sa mère : « Hier, je l'avais ici, et maintenant il n'est plus là ! » Dans cette phrase, des petits mots précisent à quel moment et à quel endroit se passe l'action. Ces mots s'appellent des adverbes, et tu vas apprendre à les reconnaître."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📍",
+        "text": "L'adverbe de lieu dit où se passe l'action."
+      },
+      {
+        "icon": "⏰",
+        "text": "L'adverbe de temps dit quand se passe l'action."
+      },
+      {
+        "icon": "🔒",
+        "text": "L'adverbe est invariable : il ne change jamais de forme."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Reconnaître les adverbes de lieu et de temps",
+    "explanation": "Un adverbe est un mot invariable : il ne prend ni féminin ni pluriel. Il accompagne le plus souvent un verbe et apporte une précision sur l'action. L'adverbe de lieu indique où se passe l'action : ici, là, là-bas, dehors, partout, loin, près, devant, derrière. L'adverbe de temps indique à quel moment se passe l'action : hier, aujourd'hui, demain, maintenant, bientôt, tôt, tard, souvent, toujours. Pour les reconnaître, pose après le verbe la question « où ? » ou la question « quand ? ». Dans « Fatou travaille ici », la réponse à « où ? » est ici : c'est un adverbe de lieu. Dans « Fatou arrive demain », la réponse à « quand ? » est demain : c'est un adverbe de temps.",
+    "highlight": "Où ? → adverbe de lieu. Quand ? → adverbe de temps. Un adverbe ne change jamais."
+  },
+  "example": {
+    "problem": "Situation : tu écris un message à ton cousin de Bouaké. Dans la phrase « Hier, Awa a cherché son cahier partout. », relève les deux adverbes et dis s'ils sont de lieu ou de temps. Ensuite, écris ta propre phrase avec un adverbe de temps et un adverbe de lieu.",
+    "steps": [
+      "Repère le verbe de la phrase : « a cherché ».",
+      "Pose la question « quand ? » : Awa a cherché son cahier quand ? Réponse : hier.",
+      "Pose la question « où ? » : Awa a cherché son cahier où ? Réponse : partout.",
+      "Conclus : hier est un adverbe de temps, partout est un adverbe de lieu.",
+      "Produis ta phrase : « Demain, Moussa jouera dehors avec ses amis. »",
+      "Vérifie ta phrase : demain répond à « quand ? » (temps) et dehors répond à « où ? » (lieu)."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Les élèves jouent dehors après la classe. », quel mot est un adverbe de lieu ?",
+    "reponse_calculee": "dehors",
+    "choices": [
+      {
+        "label": "dehors",
+        "correct": true
+      },
+      {
+        "label": "élèves",
+        "correct": false
+      },
+      {
+        "label": "jouent",
+        "correct": false
+      },
+      {
+        "label": "classe",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Dehors répond à la question « où ? » : les élèves jouent où ? Dehors. C'est bien un adverbe de lieu, et il est invariable.",
+    "feedback_wrong": "La bonne réponse est « dehors ». Il répond à la question « où ? » après le verbe jouent. Élèves et classe sont des noms, et jouent est un verbe : ce ne sont pas des adverbes."
+  },
+  "verification": "ok"
+}

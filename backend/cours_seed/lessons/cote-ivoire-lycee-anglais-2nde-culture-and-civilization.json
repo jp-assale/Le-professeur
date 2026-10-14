@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-culture-and-civilization",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Culture and civilization",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Culture and civilization",
+  "intro": {
+    "heading": "La Semaine culturelle du lycée",
+    "body": "Ton lycée d'Abidjan prépare sa Semaine culturelle. Dans la cour, Aminata joue du djembé et ses camarades répètent une danse traditionnelle depuis le matin. Ton professeur te demande de dire en anglais ce que chacun fait depuis un certain temps. Pour cela, tu as besoin du Present perfect progressif (Present perfect continuous)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🥁",
+        "text": "Forme : have/has + been + verbe en -ing."
+      },
+      {
+        "icon": "⏰",
+        "text": "for + une durée ; since + un point de départ."
+      },
+      {
+        "icon": "🎶",
+        "text": "Action commencée dans le passé et qui continue maintenant."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le Present perfect progressif : have/has been + verbe en -ing",
+    "explanation": "On utilise le Present perfect progressif pour parler d'une action qui a commencé dans le passé et qui continue jusqu'à maintenant. La forme est : sujet + have/has + been + verbe en -ing. On met has avec he, she, it et un nom au singulier ; on met have avec I, you, we, they et un nom au pluriel. Pour indiquer la durée, on emploie for avec une durée : for two hours (depuis deux heures, pendant deux heures). Pour indiquer le point de départ, on emploie since : since Monday (depuis lundi). Exemple : Kofi has been playing the drum for two hours. (Kofi joue du tambour depuis deux heures.) Autre exemple : We have been rehearsing since 4 p.m. (Nous répétons depuis 16 h.) Attention : si le verbe se termine par un e muet, on enlève le e avant -ing : dance devient dancing (danser, en train de danser).",
+    "highlight": "have/has + been + verbe-ing. Ex. : She has been singing for one hour. (Elle chante depuis une heure.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec le Present perfect progressif : Aminata ... (dance) since 3 p.m. (Aminata ... depuis 15 h.)",
+    "steps": [
+      "Le sujet est Aminata : on peut le remplacer par she (elle), donc on choisit has.",
+      "Après has, on ajoute toujours been.",
+      "Le verbe dance se termine par un e muet : on l'enlève et on ajoute -ing, ce qui donne dancing.",
+      "Since 3 p.m. donne le point de départ de l'action, ce qui convient bien au Present perfect progressif.",
+      "Réponse : Aminata has been dancing since 3 p.m. (Aminata danse depuis 15 h.)"
+    ]
+  },
+  "quiz": {
+    "question": "Choisis la bonne forme : Moussa ... the balafon for three years. (Moussa joue du balafon depuis trois ans.)",
+    "reponse_calculee": "has been playing",
+    "choices": [
+      {
+        "label": "has been playing",
+        "correct": true
+      },
+      {
+        "label": "have been playing",
+        "correct": false
+      },
+      {
+        "label": "has playing",
+        "correct": false
+      },
+      {
+        "label": "is been playing",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Moussa correspond à he, donc on emploie has, puis been, puis le verbe en -ing : Moussa has been playing the balafon for three years. (Moussa joue du balafon depuis trois ans.)",
+    "feedback_wrong": "La bonne réponse est has been playing. Avec Moussa (he), on emploie has et non have. Il faut ensuite been, puis le verbe en -ing. Les formes has playing (il manque been) et is been playing (is ne s'emploie pas avec been) sont incorrectes."
+  },
+  "verification": "ok"
+}

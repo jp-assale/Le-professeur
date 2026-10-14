@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-schones-wochenende",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · Schönes Wochenende",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · Schönes Wochenende",
+  "intro": {
+    "heading": "Un message pour ta correspondante",
+    "body": "Awa, une élève d'Abidjan, écrit à sa correspondante allemande Lena pour lui raconter son week-end. Elle veut dire ce qu'elle fait le samedi et le dimanche : jouer au football, voir ses amis, aider sa famille. Dans cette leçon, tu apprends à faire des phrases simples en allemand pour parler de ton week-end. À la fin, tu pourras écrire un petit message à ton tour, comme dans une situation d'évaluation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📅",
+        "text": "Am Samstag, am Sonntag : on dit quand on fait quelque chose."
+      },
+      {
+        "icon": "⚽",
+        "text": "Le verbe conjugué est toujours en deuxième position."
+      },
+      {
+        "icon": "💬",
+        "text": "Schönes Wochenende ! signifie Bon week-end !"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que je fais le week-end",
+    "explanation": "Le mot das Wochenende (le week-end) désigne le samedi et le dimanche. Pour dire quand, on utilise am : am Samstag (samedi), am Sonntag (dimanche). Voici des activités utiles : Fußball spielen (jouer au football), Freunde treffen (retrouver des amis), auf den Markt gehen (aller au marché), meine Oma besuchen (rendre visite à ma grand-mère). Avec ich (je), le verbe se termine en -e : ich spiele (je joue), ich besuche (je rends visite). Avec wir (nous), le verbe se termine en -en : wir spielen (nous jouons). Règle essentielle : dans une phrase simple, le verbe conjugué est toujours en deuxième position. Si tu commences par Am Samstag, le verbe vient juste après, puis le sujet : Am Samstag spiele ich Fußball. Pour souhaiter un bon week-end, tu dis : Schönes Wochenende ! (Bon week-end !).",
+    "highlight": "Am Samstag spiele ich Fußball. (Samedi, je joue au football.) Le verbe est en 2e position."
+  },
+  "example": {
+    "problem": "Remets les mots dans l'ordre pour faire une phrase correcte : besuche / ich / Am Sonntag / meine Oma.",
+    "steps": [
+      "On commence par le moment : Am Sonntag (dimanche). Il occupe la première position.",
+      "Le verbe conjugué doit être en deuxième position : besuche (je rends visite).",
+      "Le sujet vient après le verbe : ich (je).",
+      "Le complément se place à la fin : meine Oma (ma grand-mère).",
+      "Réponse : Am Sonntag besuche ich meine Oma. (Dimanche, je rends visite à ma grand-mère.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Samedi, je joue au football » ?",
+    "reponse_calculee": "Am Samstag spiele ich Fußball.",
+    "choices": [
+      {
+        "label": "Am Samstag spiele ich Fußball.",
+        "correct": true
+      },
+      {
+        "label": "Am Samstag ich spiele Fußball.",
+        "correct": false
+      },
+      {
+        "label": "Am Samstag Fußball spiele ich.",
+        "correct": false
+      },
+      {
+        "label": "Ich am Samstag Fußball spiele.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après Am Samstag, le verbe conjugué spiele est en deuxième position, puis vient le sujet ich. Am Samstag spiele ich Fußball. (Samedi, je joue au football.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Dans une phrase simple allemande, le verbe conjugué est toujours en deuxième position. Quand la phrase commence par Am Samstag, le verbe vient tout de suite après : Am Samstag spiele ich Fußball. (Samedi, je joue au football.)"
+  },
+  "verification": "ok"
+}

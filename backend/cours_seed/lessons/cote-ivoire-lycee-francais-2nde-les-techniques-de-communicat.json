@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-les-techniques-de-communicat",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · Les techniques de communication",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Les techniques de communication",
+  "intro": {
+    "heading": "Ne rien perdre de ce que tu entends",
+    "body": "Ce matin, la directrice annonce à toute la classe l'organisation d'une journée de nettoyage de la cour. Elle parle vite et ne répétera pas. Awa écrit chaque mot et se retrouve en retard dès la deuxième phrase. Koffi, lui, note seulement l'essentiel et peut tout expliquer ensuite à ses camarades. Dans cette leçon, tu apprends la méthode de Koffi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👂",
+        "text": "Écoute d'abord pour repérer l'idée générale et l'essentiel."
+      },
+      {
+        "icon": "✏️",
+        "text": "Note seulement les mots clés, jamais des phrases entières."
+      },
+      {
+        "icon": "🔤",
+        "text": "Utilise abréviations et symboles pour écrire plus vite."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Qu'est-ce que prendre des notes à l'oral ?",
+    "explanation": "Prendre des notes, c'est écrire rapidement l'essentiel d'un énoncé oral pour pouvoir le reconstituer plus tard. Tu ne peux pas tout écrire, car on parle toujours plus vite qu'on n'écrit. Tu dois donc écouter, comprendre, puis choisir les informations importantes. Pour cela, repère les mots clés : noms propres, verbes d'action, nombres, lieux, moments et conséquences. Supprime les mots outils et les répétitions, et écris à l'aide d'abréviations (par exemple « sam. » pour samedi) et de symboles (par exemple « → » pour « donc » ou « pour »). Organise ta page avec des tirets, des retours à la ligne et des numéros afin qu'elle reste lisible. Relis tes notes juste après l'écoute, complète-les et corrige-les, pour que tu puisses les comprendre encore plusieurs jours après.",
+    "highlight": "Écouter, repérer les mots clés, abréger, organiser, relire."
+  },
+  "example": {
+    "problem": "Ton professeur lit une seule fois cette annonce : « Le club de lecture du lycée organise samedi matin une collecte de livres dans la cour. Chaque élève peut apporter deux livres en bon état. Les livres seront ensuite remis à la bibliothèque du quartier. Les volontaires doivent s'inscrire auprès de Mme Koffi avant jeudi. » Prends des notes utiles.",
+    "steps": [
+      "Écoute l'annonce en entier en écrivant très peu, pour comprendre le sujet : une collecte de livres organisée par le club de lecture.",
+      "Repère les informations clés : quoi (collecte de livres), quand (samedi matin), où (cour), quoi apporter (deux livres en bon état), pour qui (bibliothèque du quartier), inscription (Mme Koffi, avant jeudi).",
+      "Supprime les mots inutiles comme « chaque », « peut » ou « ensuite », et garde seulement les mots porteurs de sens.",
+      "Écris avec des abréviations et des symboles : Club lecture : collecte livres / sam. matin, cour / 2 livres bon état par élève / → biblio du quartier / inscr. Mme Koffi avant jeudi.",
+      "Relis tes notes tout de suite et vérifie qu'il ne manque ni le moment, ni le lieu, ni la démarche à suivre."
+    ]
+  },
+  "quiz": {
+    "question": "Quelle est la meilleure façon de prendre des notes pendant un énoncé oral ?",
+    "reponse_calculee": "Noter les mots clés avec des abréviations et des symboles",
+    "choices": [
+      {
+        "label": "Écrire tout ce que dit l'orateur mot à mot",
+        "correct": false
+      },
+      {
+        "label": "Noter les mots clés avec des abréviations et des symboles",
+        "correct": true
+      },
+      {
+        "label": "Ne rien écrire pour mieux écouter",
+        "correct": false
+      },
+      {
+        "label": "Noter seulement la première phrase de l'énoncé",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les mots clés, les abréviations et les symboles te permettent d'écrire vite tout en gardant l'essentiel du message.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Écrire mot à mot est impossible car on parle plus vite qu'on n'écrit, ne rien noter fait oublier les détails, et la première phrase ne contient pas tout l'essentiel. La bonne méthode consiste à noter les mots clés avec des abréviations et des symboles."
+  },
+  "verification": "ok2"
+}

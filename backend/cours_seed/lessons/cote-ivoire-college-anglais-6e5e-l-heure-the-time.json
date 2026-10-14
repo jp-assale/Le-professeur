@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-l-heure-the-time",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · L'heure (The time)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · L'heure (The time)",
+  "intro": {
+    "heading": "Awa ne veut pas être en retard",
+    "body": "Awa attend le car pour aller au collège à Abidjan. Un camarade, Kofi, lui demande en anglais : « What time is it? ». Awa regarde sa montre et doit répondre en anglais. Dans cette leçon, tu apprends à demander l'heure, à la dire et à l'écrire dans un petit texte."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🕒",
+        "text": "Pour demander l'heure : What time is it?"
+      },
+      {
+        "icon": "⏰",
+        "text": "Utilise past de 1 à 30 minutes, puis to quand il y a plus de 30 minutes."
+      },
+      {
+        "icon": "📝",
+        "text": "Écris des phrases courtes avec majuscule et point final."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander et dire l'heure",
+    "explanation": "Pour demander l'heure, tu dis : What time is it? (Quelle heure est-il ?) ou What's the time? (Quelle heure est-il ?) Pour répondre, tu commences par It's (Il est). Pour une heure exacte, tu ajoutes o'clock : It's ten o'clock. (Il est dix heures.) Pour les minutes de 1 à 30, tu utilises past (après) : It's five past three. (Il est trois heures cinq.) Pour les minutes après 30, tu dis le nombre de minutes qui manquent avec to (moins) : It's twenty to five. (Il est cinq heures moins vingt.) Tu connais aussi trois expressions spéciales : quarter past (et quart), half past (et demie) et quarter to (moins le quart). Pour écrire un petit texte, fais des phrases courtes, commence par une majuscule, termine par un point et place l'heure avec at : I go to school at seven o'clock. (Je vais à l'école à sept heures.)",
+    "highlight": "It's + minutes + past/to + heure. Exemple : It's quarter past two. (Il est deux heures et quart.)"
+  },
+  "example": {
+    "problem": "Écris en anglais, dans une phrase complète : « Il est huit heures et quart. »",
+    "steps": [
+      "Commence la réponse par It's (Il est).",
+      "Repère l'heure : huit heures, donc eight.",
+      "Repère les minutes : et quart, c'est 15 minutes, donc quarter.",
+      "Comme 15 est inférieur à 30, tu utilises past (après).",
+      "Assemble dans l'ordre : It's + quarter + past + eight.",
+      "Réponse : It's quarter past eight. (Il est huit heures et quart.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais « Il est sept heures et demie » ?",
+    "reponse_calculee": "It's half past seven.",
+    "choices": [
+      {
+        "label": "It's half past seven.",
+        "correct": true
+      },
+      {
+        "label": "It's half to seven.",
+        "correct": false
+      },
+      {
+        "label": "It's seven o'clock half.",
+        "correct": false
+      },
+      {
+        "label": "It's quarter past seven.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « Et demie » se dit half past : It's half past seven. (Il est sept heures et demie.) On met d'abord half past, puis l'heure.",
+    "feedback_wrong": "La bonne réponse est It's half past seven. (Il est sept heures et demie.) On utilise half past pour 30 minutes après l'heure, jamais half to. Quarter past veut dire « et quart », et o'clock s'emploie seulement pour une heure exacte."
+  },
+  "verification": "ok2"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-tle-resume-du-texte-argumentatif",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "Tle · Resume du texte argumentatif",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Resume du texte argumentatif",
+  "intro": {
+    "heading": "Un texte long, un temps limité",
+    "body": "Awa, élève de Tle A2 à Abidjan, prépare son bac blanc. Sa situation d'évaluation dit : « Lors d'un concours de lecture organisé par ton lycée, tu dois présenter en peu de mots un article défendant une idée. Résume-le au quart de sa longueur. » Elle hésite : que garder, que supprimer, comment rester fidèle à l'auteur ? Tu vas découvrir la méthode qui lui permet de réussir."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎯",
+        "text": "Repère la thèse et la visée de l'auteur."
+      },
+      {
+        "icon": "🔗",
+        "text": "Suis les connecteurs pour garder le fil logique."
+      },
+      {
+        "icon": "📝",
+        "text": "Supprime les exemples et emploie des mots englobants."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode du résumé argumentatif",
+    "explanation": "Un texte argumentatif naît d'une situation d'argumentation : un auteur veut convaincre ou persuader un destinataire à propos d'un sujet de débat. Sa visée argumentative est d'amener le lecteur à adhérer à sa thèse. Le texte suit en général une structure : la thèse, puis les arguments appuyés par des exemples, enfin la conclusion. Les connecteurs logiques (car, donc, mais, cependant, certes, en effet) indiquent la cause, la conséquence, l'opposition ou la concession, et te montrent comment les idées s'enchaînent. Résumer, c'est réduire le texte au nombre de mots demandé, souvent environ le quart, avec une marge de tolérance indiquée dans la consigne. Pour réduire, tu supprimes les exemples, les répétitions, les images et les détails, tu regroupes les idées proches, tu remplaces les expressions longues par des mots courts et une énumération par un mot englobant : « manioc, igname, banane » devient « des vivres ». Tu gardes le système d'énonciation de l'auteur, sans écrire « l'auteur dit que » et sans donner ton avis. Pour la production écrite, tu lis, tu soulignes thèse et arguments, tu fais un plan, tu rédiges au brouillon avec tes propres mots, tu comptes les mots, puis tu recopies et tu relis.",
+    "highlight": "Résumer = garder la thèse et les arguments dans l'ordre, supprimer exemples et détails, reformuler avec tes mots."
+  },
+  "example": {
+    "problem": "Résume en une phrase ce court texte : « Beaucoup pensent que le téléphone portable nuit aux études. Or, bien utilisé, il aide Awa à réviser grâce aux cours enregistrés et lui permet de joindre son professeur. Certes, il distrait quand on joue la nuit. Cependant, le vrai problème n'est pas l'appareil mais l'usage qu'on en fait. Les élèves doivent donc apprendre à l'utiliser avec discipline. »",
+    "steps": [
+      "Situation et thèse : l'auteur s'oppose à l'idée que le portable nuit aux études et défend l'idée que tout dépend de l'usage.",
+      "Connecteurs : « Or » marque l'opposition à l'opinion répandue, « Certes... Cependant » marque une concession suivie de la vraie idée, « donc » introduit la conclusion.",
+      "Suppression : tu enlèves le nom d'Awa et les exemples précis (cours enregistrés, appel au professeur, jeu de nuit), qui ne sont que des illustrations.",
+      "Mot englobant : « réviser » et « joindre son professeur » sont deux exemples d'usages utiles. Tu les regroupes sous une expression générale : « bien utilisé ».",
+      "Rédaction : « Le téléphone portable ne nuit pas aux études s'il est bien utilisé : les élèves doivent donc apprendre à s'en servir avec discipline. »",
+      "Vérification : la thèse et la conclusion sont gardées, il n'y a ni exemple, ni « l'auteur dit que », ni avis personnel, et la phrase est bien plus courte que le texte."
+    ]
+  },
+  "quiz": {
+    "question": "Dans le résumé d'un texte argumentatif, que dois-tu faire des exemples donnés par l'auteur ?",
+    "reponse_calculee": "Les supprimer ou les remplacer par un terme général",
+    "choices": [
+      {
+        "label": "Les recopier tous pour ne perdre aucun détail",
+        "correct": false
+      },
+      {
+        "label": "Les supprimer ou les remplacer par un terme général",
+        "correct": true
+      },
+      {
+        "label": "Les remplacer par tes propres exemples",
+        "correct": false
+      },
+      {
+        "label": "Ajouter ton avis personnel à la fin du résumé",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les exemples ne servent qu'à illustrer les arguments. Dans un résumé, tu les supprimes ou tu les remplaces par un mot englobant, pour garder l'essentiel : la thèse et les arguments.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Les exemples illustrent les arguments sans en faire partie : on les supprime ou on les remplace par un terme général. Les recopier alourdit le résumé, en inventer d'autres ou ajouter ton avis trahit le texte de l'auteur."
+  },
+  "verification": "corrige2"
+}

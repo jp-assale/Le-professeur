@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-a-la-ville-city-life",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · A la ville (City life)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · A la ville (City life)",
+  "intro": {
+    "heading": "Un week-end chez ma cousine en ville",
+    "body": "Kofi passe le week-end chez sa cousine Aya, qui habite en ville. Il découvre les grandes rues, les bus, les boutiques et le marché, et il paie son ticket de bus 200 FCFA. Aya lui demande : « Do you like the city? » (Est-ce que tu aimes la ville ?). Aujourd'hui, tu apprends à répondre, à dire ce que tu préfères et ce que tu souhaites faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚌",
+        "text": "Le vocabulaire de la ville : bus, market, street, shop."
+      },
+      {
+        "icon": "👍",
+        "text": "I like et I prefer disent tes goûts."
+      },
+      {
+        "icon": "🎯",
+        "text": "I want to et I would like to disent tes souhaits."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de la ville, de ses goûts et de ses souhaits",
+    "explanation": "Pour parler de la ville, tu utilises des mots comme : city (la ville), street (la rue), bus (le bus), market (le marché), shop (la boutique), school (l'école), traffic (la circulation). Pour dire ce que tu aimes, tu emploies « I like » suivi d'un nom ou d'un verbe en -ing : I like the city. (J'aime la ville.) Pour dire ce que tu préfères, tu emploies « I prefer » : I prefer the village. (Je préfère le village.) Pour exprimer un souhait, une intention ou un but, tu emploies « I want to » ou « I would like to » suivis du verbe à la forme de base : I want to visit the market. (Je veux visiter le marché.) Attention : après « want », on met toujours « to » avant le verbe, et on n'ajoute pas -ing. Avec he, she ou it, on dit « wants » : She wants to go to school. (Elle veut aller à l'école.) À l'oral, écoute les mots-clés : les noms de lieux, les nombres et les verbes like, prefer, want. Ils te donnent l'information précise du message. Pour l'intonation, la voix descend à la fin d'une phrase affirmative et monte à la fin d'une question qui attend « yes » ou « no » : Do you like the city? (Est-ce que tu aimes la ville ?)",
+    "highlight": "I want to + verbe. Exemple : I want to go to the market. (Je veux aller au marché.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Je veux visiter le grand marché de la ville. »",
+    "steps": [
+      "Je veux se dit « I want ».",
+      "Après « want », on ajoute « to » puis le verbe : to visit (visiter).",
+      "Le grand marché se dit « the big market ».",
+      "De la ville se traduit ici par « in the city » (dans la ville).",
+      "On assemble les morceaux dans l'ordre : sujet, want to, verbe, complément.",
+      "Réponse : I want to visit the big market in the city. (Je veux visiter le grand marché de la ville.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire « Je veux aller au marché » ?",
+    "reponse_calculee": "I want to go to the market.",
+    "choices": [
+      {
+        "label": "I want to go to the market.",
+        "correct": true
+      },
+      {
+        "label": "I want go to the market.",
+        "correct": false
+      },
+      {
+        "label": "I wanting to go to the market.",
+        "correct": false
+      },
+      {
+        "label": "I wants to go to the market.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « I want », on met « to » puis le verbe à la forme de base : I want to go to the market. (Je veux aller au marché.)",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. Après « want », il faut toujours « to » avant le verbe, et le verbe reste à la forme de base, sans -ing. Avec « I », on écrit « want » et non « wants ». La bonne phrase est : I want to go to the market. (Je veux aller au marché.)"
+  },
+  "verification": "ok2"
+}

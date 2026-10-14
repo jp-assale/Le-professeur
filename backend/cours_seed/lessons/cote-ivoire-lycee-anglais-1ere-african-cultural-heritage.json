@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-1ere-african-cultural-heritage",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "1ère · African cultural heritage",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "1ère · African cultural heritage",
+  "intro": {
+    "heading": "Un conte malgré la pluie",
+    "body": "Ce soir, à Bouaké, Awa et ses cousins veulent écouter le conte de leur grand-père. Il pleut fort, mais personne ne bouge de la cour. Pour raconter cette scène en anglais, tu as besoin de mots qui expriment l'opposition et l'ajout d'une idée. Aujourd'hui, tu apprends à les utiliser pour parler de l'héritage culturel africain : contes, danses et coutumes."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌧️",
+        "text": "Despite et in spite of sont suivis d'un nom ou d'un -ing."
+      },
+      {
+        "icon": "📖",
+        "text": "Even though est suivi d'un sujet et d'un verbe."
+      },
+      {
+        "icon": "➕",
+        "text": "Moreover et as well as ajoutent une idée."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer l'opposition et l'ajout",
+    "explanation": "Pour dire « malgré », tu utilises despite ou in spite of. Ces deux expressions sont suivies d'un nom ou d'un verbe en -ing (gérondif) : Despite the rain, we danced (Malgré la pluie, nous avons dansé). Attention : on dit in spite of, jamais in spite. Pour dire « même si » ou « bien que », tu utilises even though, suivi d'un sujet et d'un verbe : Even though it was late, we listened (Même s'il était tard, nous avons écouté). Le mot yet signifie « pourtant » et relie deux idées opposées : The story is old, yet children love it (Le conte est ancien, pourtant les enfants l'aiment). Pour ajouter une idée, moreover signifie « de plus » et se place en début de phrase avec une virgule. As well as signifie « ainsi que » ou « en plus de » : As well as singing, they danced (En plus de chanter, ils ont dansé). Ces mots sont très utiles pour rédiger un récit sur une coutume de ton village.",
+    "highlight": "Despite + nom/-ing ; even though + sujet + verbe. Ex. : Despite the rain, we danced. (Malgré la pluie, nous avons dansé.)"
+  },
+  "example": {
+    "problem": "Relie les deux idées avec even though : « It was raining. » (Il pleuvait.) et « Koffi's grandmother told the folktale. » (La grand-mère de Koffi a raconté le conte.)",
+    "steps": [
+      "Repère le sens : les deux idées s'opposent, car il pleut mais le conte est raconté malgré tout.",
+      "Choisis even though, qui est suivi d'un sujet et d'un verbe : even though it was raining.",
+      "Place cette partie au début de la phrase et ajoute une virgule après elle.",
+      "Écris ensuite l'autre idée : Koffi's grandmother told the folktale.",
+      "Avec despite, tu dirais : Despite the rain, Koffi's grandmother told the folktale.",
+      "Réponse : Even though it was raining, Koffi's grandmother told the folktale. (Même s'il pleuvait, la grand-mère de Koffi a raconté le conte.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Malgré la pluie, les enfants ont écouté le conte » ?",
+    "reponse_calculee": "Despite the rain, the children listened to the story.",
+    "choices": [
+      {
+        "label": "Despite the rain, the children listened to the story.",
+        "correct": true
+      },
+      {
+        "label": "Despite it was raining, the children listened to the story.",
+        "correct": false
+      },
+      {
+        "label": "Even though the rain, the children listened to the story.",
+        "correct": false
+      },
+      {
+        "label": "In spite the rain, the children listened to the story.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Despite est suivi d'un nom (the rain). La phrase est donc correcte : Despite the rain, the children listened to the story.",
+    "feedback_wrong": "Despite est suivi d'un nom ou d'un -ing, pas d'un sujet et d'un verbe : on ne dit pas Despite it was raining. Even though demande un sujet et un verbe, donc Even though the rain est faux. Enfin, on dit in spite of, et non in spite. La bonne réponse est : Despite the rain, the children listened to the story."
+  },
+  "verification": "ok"
+}

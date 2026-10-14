@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-health-and-sanitation",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Health and sanitation",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Health and sanitation",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa va au marché de Bobo-Dioulasso avec sa maman. Elle achète un savon à 250 FCFA et un seau d'eau propre. Sa maman dit : « Pour rester en bonne santé, il faut être propre ! » Aujourd'hui, tu apprends à donner des conseils simples de santé et d'hygiène en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧼",
+        "text": "Soap veut dire savon, water veut dire eau."
+      },
+      {
+        "icon": "💧",
+        "text": "Clean veut dire propre, dirty veut dire sale."
+      },
+      {
+        "icon": "✅",
+        "text": "Pour un conseil, on dit : You must + verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner un conseil avec « You must »",
+    "explanation": "En anglais, pour dire ce que l'on doit faire pour sa santé, on utilise « must ». « You must » veut dire « tu dois » ou « vous devez ». Après « must », on met le verbe tel quel, sans « to » et sans « s ». Par exemple : wash (laver), drink (boire), eat (manger). Pour dire qu'il ne faut pas faire quelque chose, on écrit « must not ». Voici quelques mots utiles : soap (le savon), hands (les mains), clean (propre), dirty (sale), water (l'eau). En anglais, l'adjectif se place devant le nom : « clean water » (eau propre).",
+    "highlight": "You must + verbe. Exemple : You must wash your hands. (Tu dois te laver les mains.) Négation : You must not drink dirty water. (Tu ne dois pas boire de l'eau sale.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Tu dois boire de l'eau propre. »",
+    "steps": [
+      "Commence par « tu dois » : on écrit « You must ».",
+      "Cherche le verbe « boire » : c'est « drink ». Après « must », on écrit « drink » sans « to ».",
+      "Cherche « eau propre » : « clean » veut dire propre et « water » veut dire eau.",
+      "En anglais, l'adjectif vient avant le nom : on écrit « clean water », pas « water clean ».",
+      "Assemble les morceaux : You must drink clean water. (Tu dois boire de l'eau propre.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on « Tu dois te laver les mains » en anglais ?",
+    "reponse_calculee": "You must wash your hands.",
+    "choices": [
+      {
+        "label": "You must wash your hands.",
+        "correct": true
+      },
+      {
+        "label": "You must washing your hands.",
+        "correct": false
+      },
+      {
+        "label": "You wash must your hands.",
+        "correct": false
+      },
+      {
+        "label": "You must to wash your hands.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! On écrit « You must » puis le verbe « wash » tel quel, sans « to » et sans « ing » : You must wash your hands. (Tu dois te laver les mains.)",
+    "feedback_wrong": "La bonne réponse est : You must wash your hands. Après « must », le verbe reste à la forme de base : pas de « ing », pas de « to ». Et « must » se place juste après « you », avant le verbe."
+  },
+  "verification": "ok"
+}

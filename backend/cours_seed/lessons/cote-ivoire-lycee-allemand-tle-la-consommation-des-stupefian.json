@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-tle-la-consommation-des-stupefian",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "Tle · La consommation des stupéfiants et de l'alcool et leurs conséquences",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "Tle · La consommation des stupéfiants et de l'alcool et leurs conséquences",
+  "intro": {
+    "heading": "Un débat au club santé du lycée",
+    "body": "À Abidjan, le club santé de ton lycée organise un débat sur l'alcool et les drogues. Koffi doit expliquer en allemand à un correspondant pourquoi ces produits sont dangereux. Il lui faut des mots précis et une phrase de cause correcte. Aujourd'hui, tu apprends à présenter les conséquences de la consommation avec « weil »."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍺",
+        "text": "Vocabulaire clé : Alkohol, Drogen, Sucht, Folgen."
+      },
+      {
+        "icon": "🔗",
+        "text": "« weil » introduit la cause : parce que."
+      },
+      {
+        "icon": "📍",
+        "text": "Après « weil », le verbe conjugué va à la fin."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Expliquer une conséquence avec « weil »",
+    "explanation": "Pour parler du sujet, retiens d'abord quelques mots : die Drogen (les drogues), der Alkohol (l'alcool), die Sucht (la dépendance), die Folgen (les conséquences), die Gesundheit (la santé), gefährlich (dangereux). Pour donner une raison, on utilise la conjonction « weil » (parce que). Elle introduit une proposition subordonnée, séparée de la première par une virgule. Dans cette subordonnée, l'ordre est : weil + sujet + autres éléments + verbe conjugué en dernière position. Dans la phrase principale, le verbe reste à sa place habituelle, en deuxième position. Attention : le verbe doit s'accorder avec le sujet, par exemple « sie machen » (ils/elles rendent) pour un sujet pluriel comme « Drogen ». Cette structure te permet d'argumenter simplement : tu donnes une opinion, puis la raison.",
+    "highlight": "weil + sujet + ... + verbe à la fin : Alkohol ist gefährlich, weil er abhängig macht. (L'alcool est dangereux parce qu'il rend dépendant.)"
+  },
+  "example": {
+    "problem": "Relie les deux phrases avec « weil » : Alkohol ist gefährlich. Er macht abhängig. (L'alcool est dangereux. Il rend dépendant.)",
+    "steps": [
+      "Cherche la cause : « Er macht abhängig » (Il rend dépendant) explique pourquoi l'alcool est dangereux.",
+      "Garde la phrase principale telle quelle : « Alkohol ist gefährlich » (L'alcool est dangereux), puis ajoute une virgule et « weil ».",
+      "Place le sujet juste après « weil » : « weil er » (parce qu'il).",
+      "Mets le verbe conjugué « macht » (rend) à la toute fin de la subordonnée : « abhängig macht ».",
+      "Réponse : Alkohol ist gefährlich, weil er abhängig macht. (L'alcool est dangereux parce qu'il rend dépendant.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Les drogues sont dangereuses parce qu'elles rendent malade » ?",
+    "reponse_calculee": "Drogen sind gefährlich, weil sie krank machen.",
+    "choices": [
+      {
+        "label": "Drogen sind gefährlich, weil sie krank machen.",
+        "correct": true
+      },
+      {
+        "label": "Drogen sind gefährlich, weil sie machen krank.",
+        "correct": false
+      },
+      {
+        "label": "Drogen sind gefährlich, weil machen sie krank.",
+        "correct": false
+      },
+      {
+        "label": "Drogen sind gefährlich, weil krank machen sie.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après « weil », le sujet « sie » vient d'abord, puis « krank », et le verbe conjugué « machen » se place à la fin : Drogen sind gefährlich, weil sie krank machen. (Les drogues sont dangereuses parce qu'elles rendent malade.)",
+    "feedback_wrong": "Dans une subordonnée introduite par « weil », le verbe conjugué se place toujours en dernière position. La bonne phrase est donc : Drogen sind gefährlich, weil sie krank machen. (Les drogues sont dangereuses parce qu'elles rendent malade.)"
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-tle-l-engagement-de-la-jeunesse",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "Tle · L'engagement de la jeunesse",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "Tle · L'engagement de la jeunesse",
+  "intro": {
+    "heading": "Un samedi matin à Abidjan",
+    "body": "Aminata et ses camarades de Terminale nettoient la rue de leur quartier chaque samedi. Elles veulent convaincre d'autres élèves de les rejoindre. Pour ta situation d'évaluation, tu dois écrire quelques phrases en allemand pour dire pour quoi les jeunes s'engagent. Voyons comment parler d'engagement avec les bons mots."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤝",
+        "text": "Sich engagieren für + Akkusativ signifie « s'engager pour »."
+      },
+      {
+        "icon": "🔁",
+        "text": "Le verbe est réfléchi : ich engagiere mich."
+      },
+      {
+        "icon": "🌍",
+        "text": "Pour parler d'une cause : die Umwelt, die Gesellschaft."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire pour quelle cause on s'engage",
+    "explanation": "Pour parler de l'engagement des jeunes, tu utilises le verbe réfléchi « sich engagieren » (s'engager). Il se conjugue avec un pronom réfléchi : ich engagiere mich (je m'engage), du engagierst dich (tu t'engages), er engagiert sich (il s'engage), wir engagieren uns (nous nous engageons), ihr engagiert euch (vous vous engagez), sie engagieren sich (ils s'engagent). La cause se place après « für » (pour), qui est toujours suivi de l'accusatif. Quelques mots utiles : die Jugend (la jeunesse), der Verein (l'association), die Umwelt (l'environnement), die Gesellschaft (la société), ehrenamtlich (bénévolement). Tu peux ainsi écrire : Jugendliche engagieren sich für die Umwelt (Des jeunes s'engagent pour l'environnement). Attention à l'ordre des mots : le verbe conjugué reste en deuxième position dans la phrase.",
+    "highlight": "sich engagieren für + Akkusativ : Ich engagiere mich für die Umwelt. (Je m'engage pour l'environnement.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Nous nous engageons pour les enfants du quartier. »",
+    "steps": [
+      "Le verbe est « sich engagieren » (s'engager), un verbe réfléchi.",
+      "Le sujet est « nous » : wir. Le pronom réfléchi correspondant est « uns », et le verbe prend la terminaison -en : wir engagieren uns.",
+      "Pour dire « pour », on emploie « für » suivi de l'accusatif : für die Kinder (pour les enfants).",
+      "« Du quartier » se dit « im Viertel » (dans le quartier).",
+      "Le verbe conjugué reste en deuxième position, juste après le sujet.",
+      "Réponse : Wir engagieren uns für die Kinder im Viertel. (Nous nous engageons pour les enfants du quartier.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase allemande est correcte pour dire « Je m'engage pour l'environnement » ?",
+    "reponse_calculee": "Ich engagiere mich für die Umwelt.",
+    "choices": [
+      {
+        "label": "Ich engagiere mich für die Umwelt.",
+        "correct": true
+      },
+      {
+        "label": "Ich engagiere für die Umwelt.",
+        "correct": false
+      },
+      {
+        "label": "Ich mich engagiere für die Umwelt.",
+        "correct": false
+      },
+      {
+        "label": "Ich engagiere mich an die Umwelt.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Le verbe réfléchi prend le pronom « mich », il reste en deuxième position, et la cause s'introduit par « für ». Ich engagiere mich für die Umwelt. (Je m'engage pour l'environnement.)",
+    "feedback_wrong": "La bonne phrase est : Ich engagiere mich für die Umwelt. Le verbe « sich engagieren » exige le pronom réfléchi « mich » avec « ich », le verbe conjugué doit rester en deuxième position, et la préposition correcte est « für », et non « an »."
+  },
+  "verification": "ok"
+}

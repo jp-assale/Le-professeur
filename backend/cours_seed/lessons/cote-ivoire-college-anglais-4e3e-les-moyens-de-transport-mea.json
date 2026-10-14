@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-les-moyens-de-transport-mea",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Les moyens de transport (Means of transport)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Les moyens de transport (Means of transport)",
+  "intro": {
+    "heading": "Bus, taxi ou train ?",
+    "body": "Kofi doit aller voir sa tante pendant les vacances. Il hésite entre le bus, le taxi et le train. Sa sœur Awa lui demande : « Which one do you prefer? » (Lequel préfères-tu ?). Pour répondre en anglais, Kofi doit connaître les moyens de transport, savoir comparer et expliquer son choix. C'est ce que tu vas apprendre ici."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🚌",
+        "text": "Je connais les moyens de transport en anglais."
+      },
+      {
+        "icon": "🚆",
+        "text": "Je compare avec faster than et more comfortable than."
+      },
+      {
+        "icon": "👍",
+        "text": "Je donne mon choix et j'écris pourquoi avec because."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Nommer, comparer, préférer",
+    "explanation": "Voici des mots utiles : bus (le bus), taxi (le taxi), train (le train), plane (l'avion), bicycle (le vélo), motorbike (la moto), boat (le bateau), car (la voiture). Pour comparer avec un adjectif court, on ajoute -er puis than : fast devient faster than (plus rapide que) et cheap devient cheaper than (moins cher que). Pour un adjectif long, on met more devant et than après : more comfortable than (plus confortable que), more expensive than (plus cher que). Pour dire « moins », on utilise less : less expensive than (moins cher que). Deux adjectifs sont irréguliers : good devient better than (meilleur que) et bad devient worse than (pire que). Pour dire ce que tu préfères, tu écris : I prefer the bus to the train (Je préfère le bus au train). Pour dire ce que tu aimes, tu écris : I like travelling by bus (J'aime voyager en bus). Dans un petit texte écrit, commence par une phrase simple, puis explique avec because (parce que), ajoute une idée avec and (et) et une opposition avec but (mais).",
+    "highlight": "Adjectif court + -er + than : The train is faster than the bus. (Le train est plus rapide que le bus.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais pour dire : « Le taxi est plus cher que le bus. » (expensive = cher)",
+    "steps": [
+      "Repère les deux moyens de transport : the taxi (le taxi) et the bus (le bus).",
+      "Repère l'adjectif : expensive (cher). Il est long, il a trois syllabes ou plus.",
+      "Avec un adjectif long, on n'ajoute pas -er : on met more devant l'adjectif.",
+      "On place than (que) avant le deuxième élément de la comparaison.",
+      "Réponse : The taxi is more expensive than the bus. (Le taxi est plus cher que le bus.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase correcte veut dire : « Le train est plus rapide que le bus. » ?",
+    "reponse_calculee": "The train is faster than the bus.",
+    "choices": [
+      {
+        "label": "The train is faster than the bus.",
+        "correct": true
+      },
+      {
+        "label": "The train is more fast than the bus.",
+        "correct": false
+      },
+      {
+        "label": "The train is fastest than the bus.",
+        "correct": false
+      },
+      {
+        "label": "The train is fast than the bus.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Fast est un adjectif court : on ajoute -er, ce qui donne faster, puis than. The train is faster than the bus. (Le train est plus rapide que le bus.)",
+    "feedback_wrong": "La bonne phrase est : The train is faster than the bus. Fast est un adjectif court, donc on forme faster avec -er et on ajoute than. On n'utilise pas more devant fast, on n'emploie pas fastest (qui sert à dire « le plus rapide ») et on n'oublie pas le -er."
+  },
+  "verification": "ok"
+}

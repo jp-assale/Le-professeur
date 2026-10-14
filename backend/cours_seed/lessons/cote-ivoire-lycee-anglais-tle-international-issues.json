@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-international-issues",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · International issues",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · International issues",
+  "intro": {
+    "heading": "Une rencontre avec une organisation humanitaire",
+    "body": "Awa, élève de Tle à Abidjan, veut devenir bénévole dans une organisation humanitaire. Lors d'un entretien, la responsable lui pose plusieurs questions. Le soir, Awa raconte l'entretien à son frère en anglais et doit rapporter ces questions. C'est exactement le rôle du discours indirect, très utile dans une dissertation ou un compte rendu."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗣️",
+        "text": "Une question rapportée devient une phrase affirmative."
+      },
+      {
+        "icon": "❓",
+        "text": "Pour une question sans mot interrogatif, on utilise if ou whether."
+      },
+      {
+        "icon": "⏪",
+        "text": "Après asked au passé, le verbe recule d'un temps."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les questions indirectes (reported questions)",
+    "explanation": "Quand tu rapportes une question, tu ne gardes plus la forme d'une question. Il n'y a plus d'inversion, plus de do, does ou did, et plus de point d'interrogation. L'ordre devient celui d'une phrase normale : sujet + verbe. Si la question directe commence par un mot interrogatif (where, what, why, when), tu gardes ce mot. Si c'est une question à réponse oui ou non, tu utilises if ou whether. Si le verbe d'introduction est au passé (asked), le verbe recule d'un temps : le présent simple devient le prétérit, et le prétérit devient le past perfect. Les pronoms et les possessifs changent aussi selon la personne qui parle : you devient he ou she, et your devient his ou her.",
+    "highlight": "Modèle : asked + if / mot interrogatif + sujet + verbe reculé d'un temps. Exemple : He asked if I needed help. (Il a demandé si j'avais besoin d'aide.)"
+  },
+  "example": {
+    "problem": "Transforme en discours indirect : The officer asked Awa, « Where did you hear about this organisation? » (L'agent a demandé à Awa : « Où as-tu entendu parler de cette organisation ? »)",
+    "steps": [
+      "Le verbe d'introduction est asked, au passé : les verbes vont donc reculer d'un temps.",
+      "La question commence par where : on garde where et on supprime l'inversion et did.",
+      "On remet l'ordre sujet + verbe : you heard devient she heard, car on parle d'Awa.",
+      "Le prétérit heard devient le past perfect : she had heard.",
+      "On remplace this par that et on supprime le point d'interrogation.",
+      "Réponse : The officer asked Awa where she had heard about that organisation. (L'agent a demandé à Awa où elle avait entendu parler de cette organisation.)"
+    ]
+  },
+  "quiz": {
+    "question": "The volunteer asked Awa, « Do you want to join our team? » Quelle est la bonne phrase au discours indirect ?",
+    "reponse_calculee": "The volunteer asked Awa if she wanted to join their team.",
+    "choices": [
+      {
+        "label": "The volunteer asked Awa if she wanted to join their team.",
+        "correct": true
+      },
+      {
+        "label": "The volunteer asked Awa if did she want to join their team.",
+        "correct": false
+      },
+      {
+        "label": "The volunteer asked Awa do she wanted to join our team.",
+        "correct": false
+      },
+      {
+        "label": "The volunteer asked Awa that she wanted to join their team.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Une question oui ou non se rapporte avec if. Il n'y a plus d'inversion, want recule en wanted, you devient she et our devient their.",
+    "feedback_wrong": "La bonne réponse est : The volunteer asked Awa if she wanted to join their team. Une question rapportée garde l'ordre sujet + verbe, sans do ni did. Elle s'introduit par if pour une question oui ou non, pas par that. Le verbe recule d'un temps et le pronom our devient their."
+  },
+  "verification": "ok"
+}

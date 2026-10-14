@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-la-decouverte-du-monde-his",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · La découverte du monde hispanique",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · La découverte du monde hispanique",
+  "intro": {
+    "heading": "Une journée hispanique à l'école",
+    "body": "Ton collège d'Abidjan organise une journée « Découverte du monde hispanique ». Ton professeur te demande de présenter à la classe trois zones où l'on parle espagnol : l'Espagne, l'Amérique hispanique et un pays d'Afrique. Tu dois aussi lire à voix haute quelques noms de pays et de villes en prononçant bien les sons particuliers. Cette leçon te prépare à cette tâche."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "L'espagnol se parle en Espagne, en Amérique et en Afrique."
+      },
+      {
+        "icon": "📍",
+        "text": "Pour dire d'où tu viens : Soy de + pays."
+      },
+      {
+        "icon": "🎧",
+        "text": "La lettre ñ se prononce « gn » et la lettre h est muette."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les pays hispanophones et les sons particuliers",
+    "explanation": "L'espagnol est parlé sur trois zones. En Europe, il y a l'Espagne (España), dont la capitale est Madrid. En Amérique hispanique, on trouve par exemple México, Cuba, Colombia, Argentina et Perú. En Afrique, un seul pays a l'espagnol comme langue officielle : la Guinée équatoriale (Guinea Ecuatorial), où l'espagnol est l'une des langues officielles. Pour dire d'où tu viens, tu utilises « Soy de » suivi du pays. Pour bien prononcer, retiens quelques sons : la lettre ñ se dit « gn » comme dans « montagne » (España), la lettre h ne se prononce pas (hola), et la lettre j se prononce avec un son rauque venu de la gorge (Juan). Le groupe ll se prononce comme le « y » de « yeux » (me llamo). Écoute bien et répète à voix haute : c'est comme cela que tu progresses en compréhension orale.",
+    "highlight": "Soy de + pays. Exemple : Soy de Costa de Marfil. (Je suis de Côte d'Ivoire.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en espagnol pour dire que la Guinée équatoriale est en Afrique.",
+    "steps": [
+      "Repère le sujet : la Guinée équatoriale se dit Guinea Ecuatorial.",
+      "Pour dire où se trouve un pays, on utilise le verbe estar : à la 3e personne, on écrit está.",
+      "Pour dire « en », on utilise la préposition en.",
+      "Le continent Afrique s'écrit África, avec un accent sur le premier A.",
+      "Phrase complète : Guinea Ecuatorial está en África. (La Guinée équatoriale est en Afrique.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quel pays d'Afrique parmi ces quatre a l'espagnol comme langue officielle ?",
+    "reponse_calculee": "Guinea Ecuatorial",
+    "choices": [
+      {
+        "label": "Guinea Ecuatorial",
+        "correct": true
+      },
+      {
+        "label": "Senegal",
+        "correct": false
+      },
+      {
+        "label": "Ghana",
+        "correct": false
+      },
+      {
+        "label": "Nigeria",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Guinea Ecuatorial (la Guinée équatoriale) est le pays d'Afrique où l'espagnol est l'une des langues officielles.",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Le Sénégal, le Ghana et le Nigeria n'ont pas l'espagnol comme langue officielle. Le pays d'Afrique où l'espagnol est langue officielle est Guinea Ecuatorial (la Guinée équatoriale)."
+  },
+  "verification": "ok2"
+}

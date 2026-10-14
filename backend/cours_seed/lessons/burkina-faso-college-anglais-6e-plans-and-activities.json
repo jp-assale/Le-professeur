@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-plans-and-activities",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Plans and activities",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Plans and activities",
+  "intro": {
+    "heading": "Que vas-tu faire samedi ?",
+    "body": "Fatou parle avec son ami Moussa à la sortie de l'école. Elle lui dit qu'elle va aller au marché avec sa mère, puis qu'elle va jouer avec ses amies. Moussa veut aussi raconter ses projets, mais il ne sait pas comment le dire en anglais. Dans cette leçon, tu apprends à parler de tes plans et de tes activités avec une phrase très utile."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🗓️",
+        "text": "Pour un projet, on dit : am, is ou are going to."
+      },
+      {
+        "icon": "⚽",
+        "text": "Après going to, on met un verbe sans -s."
+      },
+      {
+        "icon": "❓",
+        "text": "Pour demander : What are you going to do?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de ses projets avec « going to »",
+    "explanation": "En anglais, pour dire ce que tu as prévu de faire bientôt, tu utilises « be going to » suivi d'un verbe. Le verbe « be » change avec la personne : I am going to (je vais), you are going to (tu vas), he is going to (il va), she is going to (elle va), we are going to (nous allons), they are going to (ils vont). Après « going to », le verbe reste toujours à la forme de base, sans -s. Par exemple : She is going to cook (Elle va cuisiner). Pour dire non, tu ajoutes « not » après am, is ou are : I am not going to play (Je ne vais pas jouer). Pour poser une question, tu demandes : What are you going to do? (Que vas-tu faire ?). Tu peux ajouter un mot de temps : tomorrow (demain), on Saturday (samedi), next week (la semaine prochaine).",
+    "highlight": "Sujet + am / is / are + going to + verbe. Exemple : I am going to study tomorrow. (Je vais étudier demain.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais avec ces mots : Awa / play football / Saturday. Tu veux dire : Awa va jouer au football samedi.",
+    "steps": [
+      "Le sujet est Awa : c'est une seule personne (elle), donc on utilise « is ».",
+      "Après le sujet, on écrit « is going to » : Awa is going to.",
+      "On ajoute le verbe à la forme de base, sans -s : play football (jouer au football).",
+      "Pour dire samedi, on écrit « on Saturday », avec une majuscule à Saturday.",
+      "Réponse : Awa is going to play football on Saturday. (Awa va jouer au football samedi.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : Moussa ___ to buy bread tomorrow. (Moussa va acheter du pain demain.)",
+    "reponse_calculee": "is going",
+    "choices": [
+      {
+        "label": "is going",
+        "correct": true
+      },
+      {
+        "label": "am going",
+        "correct": false
+      },
+      {
+        "label": "are going",
+        "correct": false
+      },
+      {
+        "label": "go",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Moussa est une seule personne (il), donc on utilise « is going to » : Moussa is going to buy bread tomorrow. (Moussa va acheter du pain demain.)",
+    "feedback_wrong": "La bonne réponse est « is going ». Avec Moussa (il), on utilise « is ». « Am » va avec I, « are » va avec you, we ou they. « Go » seul ne convient pas ici : pour parler d'un projet, il faut « is going to » avant le verbe. La phrase correcte est : Moussa is going to buy bread tomorrow. (Moussa va acheter du pain demain.)"
+  },
+  "verification": "ok2"
+}

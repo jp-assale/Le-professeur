@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-dans-la-cuisine-in-the-kitc",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · Dans la cuisine (In the kitchen)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · Dans la cuisine (In the kitchen)",
+  "intro": {
+    "heading": "Aya aide sa maman à Abidjan",
+    "body": "Il est midi chez Aya. Sa maman prépare le repas et Aya met la table. Elle prend une assiette, une fourchette, un verre, et elle regarde la marmite sur la cuisinière. Aujourd'hui, tu vas apprendre à nommer ce que tu vois dans la cuisine et à dire ce que les gens sont en train de faire."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🍴",
+        "text": "Je nomme les ustensiles et le couvert : a spoon, a fork."
+      },
+      {
+        "icon": "🧊",
+        "text": "Je nomme le mobilier : a table, a fridge, a sink."
+      },
+      {
+        "icon": "🍳",
+        "text": "Je dis ce qui se passe maintenant avec am, is, are + -ing."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les mots de la cuisine et le présent progressif",
+    "explanation": "Les ustensiles et la vaisselle : a pot (une marmite), a pan (une poêle), a knife (un couteau), a spoon (une cuillère), a plate (une assiette), a bowl (un bol), a cup (une tasse), a glass (un verre). Pour le couvert, on dit aussi a fork (une fourchette). Le mobilier de la cuisine : a table (une table), a fridge (un réfrigérateur), a cooker (une cuisinière), a sink (un évier), a cupboard (un placard). Pour dire ce qui se passe en ce moment, on utilise le présent progressif : sujet + am, is ou are + verbe en -ing. On dit I am, he is, she is, it is, we are, you are, they are. Pour la négation, on ajoute not après am, is ou are : She is not cooking (Elle n'est pas en train de cuisiner). Pour la question, on place is ou are avant le sujet : Is she cooking? (Est-elle en train de cuisiner ?). Quelques verbes utiles : cook (cuisiner), wash (laver), boil (faire bouillir), eat (manger).",
+    "highlight": "Sujet + am / is / are + verbe-ing. Exemple : She is cooking rice. (Elle est en train de cuire du riz.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec le présent progressif : Mariam ... (cook) rice in a pot. Puis donne la phrase complète avec sa traduction.",
+    "steps": [
+      "Le sujet est Mariam : c'est une seule personne, comme she (elle).",
+      "Avec she, on utilise is : Mariam is.",
+      "Le verbe est cook. Au présent progressif, on ajoute -ing : cooking.",
+      "On assemble : sujet + is + cooking.",
+      "On ajoute le reste de la phrase : rice in a pot.",
+      "Réponse : Mariam is cooking rice in a pot. (Mariam est en train de cuire du riz dans une marmite.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire que Kofi est en train de laver une assiette ?",
+    "reponse_calculee": "Kofi is washing a plate.",
+    "choices": [
+      {
+        "label": "Kofi is washing a plate.",
+        "correct": true
+      },
+      {
+        "label": "Kofi washing a plate.",
+        "correct": false
+      },
+      {
+        "label": "Kofi is wash a plate.",
+        "correct": false
+      },
+      {
+        "label": "Kofi are washing a plate.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec Kofi (he), on utilise is, puis le verbe avec -ing : Kofi is washing a plate. (Kofi est en train de laver une assiette.)",
+    "feedback_wrong": "La bonne réponse est Kofi is washing a plate. Au présent progressif, il faut am, is ou are, puis le verbe en -ing. Avec Kofi, on emploie is et non are, et on écrit washing, pas wash. (Kofi est en train de laver une assiette.)"
+  },
+  "verification": "ok"
+}

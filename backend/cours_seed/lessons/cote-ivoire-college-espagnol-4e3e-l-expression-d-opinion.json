@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-l-expression-d-opinion",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · L'expression d'opinion",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'expression d'opinion",
+  "intro": {
+    "heading": "Un débat en classe à Abidjan",
+    "body": "Dans ta classe de 3e, le professeur d'espagnol organise un petit débat : faut-il porter l'uniforme à l'école ? Awa dit ce qu'elle pense, Yao n'est pas du même avis, et chacun essaie de convaincre les autres. Pour réussir cette situation d'évaluation, tu dois demander un avis, donner le tien, approuver ou désapprouver, puis justifier. Cette leçon te donne les formules utiles pour le faire en espagnol."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💬",
+        "text": "Demander l'avis : ¿Qué piensas? ¿Qué opinas?"
+      },
+      {
+        "icon": "🗣️",
+        "text": "Donner son avis : Creo que, Pienso que, Para mí."
+      },
+      {
+        "icon": "👍",
+        "text": "Approuver ou refuser : Estoy de acuerdo, No estoy de acuerdo."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formules pour exprimer une opinion",
+    "explanation": "Pour demander l'avis de quelqu'un, tu dis ¿Qué piensas? (Qu'en penses-tu ?) ou ¿Qué opinas? (Quel est ton avis ?). Pour donner ton opinion, tu utilises Creo que... (Je crois que...), Pienso que... (Je pense que...), En mi opinión... (À mon avis...) ou Para mí... (Pour moi...). Après creo que et pienso que, tu construis une phrase normale avec le verbe conjugué : Creo que la música es importante. (Je crois que la musique est importante.) Pour approuver, tu dis Estoy de acuerdo. (Je suis d'accord.), Tienes razón. (Tu as raison.) ou Es verdad. (C'est vrai.) Pour désapprouver, tu dis No estoy de acuerdo. (Je ne suis pas d'accord.) Pour convaincre, tu donnes une raison avec porque (parce que) et tu ajoutes un argument avec además (de plus). Une bonne opinion est donc courte : une formule, ton avis, puis une raison.",
+    "highlight": "Creo que + phrase : Creo que el deporte es bueno. (Je crois que le sport est bon.)"
+  },
+  "example": {
+    "problem": "Situation : ton ami Koffi te demande ton avis sur le football. Traduis en espagnol : « Je pense que le football est amusant parce que nous jouons avec les amis. »",
+    "steps": [
+      "Commence par la formule d'opinion : Pienso que (je pense que).",
+      "Ajoute ton avis sous forme de phrase complète : el fútbol es divertido (le football est amusant).",
+      "Relie la raison avec porque (parce que).",
+      "Écris la raison : jugamos con los amigos (nous jouons avec les amis).",
+      "Phrase complète : Pienso que el fútbol es divertido porque jugamos con los amigos. (Je pense que le football est amusant parce que nous jouons avec les amis.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ton camarade dit une idée avec laquelle tu n'es pas du tout d'accord. Que réponds-tu en espagnol ?",
+    "reponse_calculee": "No estoy de acuerdo.",
+    "choices": [
+      {
+        "label": "No estoy de acuerdo.",
+        "correct": true
+      },
+      {
+        "label": "Estoy de acuerdo.",
+        "correct": false
+      },
+      {
+        "label": "Tienes razón.",
+        "correct": false
+      },
+      {
+        "label": "Es verdad.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! No estoy de acuerdo veut dire Je ne suis pas d'accord. C'est la formule pour désapprouver poliment, et tu peux ensuite ajouter porque et une raison.",
+    "feedback_wrong": "La bonne réponse est No estoy de acuerdo. (Je ne suis pas d'accord.) Estoy de acuerdo (Je suis d'accord), Tienes razón (Tu as raison) et Es verdad (C'est vrai) servent à approuver, pas à désapprouver."
+  },
+  "verification": "ok"
+}

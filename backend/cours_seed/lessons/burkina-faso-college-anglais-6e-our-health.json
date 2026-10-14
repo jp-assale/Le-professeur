@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-our-health",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Our health",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Our health",
+  "intro": {
+    "heading": "Un matin à l'école",
+    "body": "Awa arrive en classe avec la main sur la tête. Son ami Moussa demande ce qui ne va pas, et elle répond en anglais qu'elle a mal à la tête. Dans cette leçon, tu apprends à dire en anglais où tu as mal, comme chez l'infirmier ou au centre de santé. Tu vas aussi voir comment parler de la santé de quelqu'un d'autre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤕",
+        "text": "Pour dire où tu as mal : I have a... ache."
+      },
+      {
+        "icon": "👩🏾‍⚕️",
+        "text": "Avec he, she ou un prénom, on dit has."
+      },
+      {
+        "icon": "🦷",
+        "text": "Head = tête, stomach = ventre, tooth = dent."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire où l'on a mal : have a... ache",
+    "explanation": "En anglais, pour dire que tu as mal quelque part, tu utilises le verbe « have » (avoir) et un mot en « -ache » (douleur) comme « headache », « stomachache » ou « toothache ». « Headache » veut dire mal à la tête, car « head » signifie tête. « Stomachache » veut dire mal au ventre, car « stomach » signifie ventre ou estomac. « Toothache » veut dire mal aux dents, car « tooth » signifie dent. Avec « I » (je), on dit « I have ». Avec « he » (il), « she » (elle) ou un prénom comme Awa ou Moussa, on dit « has ». On place « a » (un, une) devant le mot : « a headache ». Pour dire que tu es malade, tu peux aussi dire « I am ill » (je suis malade).",
+    "highlight": "I have a headache. (J'ai mal à la tête.) Awa has a headache. (Awa a mal à la tête.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en anglais : Aminata a mal aux dents.",
+    "steps": [
+      "Le sujet est Aminata. C'est une personne, comme « she » (elle).",
+      "Avec « she » ou un prénom, le verbe « avoir » devient « has » et non « have ».",
+      "Mal aux dents se dit « toothache », car « tooth » signifie dent.",
+      "On place « a » devant « toothache » : « a toothache ».",
+      "On assemble : Aminata + has + a toothache. Réponse : Aminata has a toothache. (Aminata a mal aux dents.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ousmane a mal à la tête. Quelle phrase en anglais est correcte ?",
+    "reponse_calculee": "Ousmane has a headache.",
+    "choices": [
+      {
+        "label": "Ousmane has a headache.",
+        "correct": true
+      },
+      {
+        "label": "Ousmane have a headache.",
+        "correct": false
+      },
+      {
+        "label": "Ousmane has headache a.",
+        "correct": false
+      },
+      {
+        "label": "Ousmane is a headache.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec un prénom comme Ousmane, on utilise « has », puis « a headache ». Ousmane has a headache. (Ousmane a mal à la tête.)",
+    "feedback_wrong": "La bonne réponse est « Ousmane has a headache. » Avec un prénom, on dit « has » et non « have ». Le mot « a » se place avant « headache ». Le verbe « is » ne convient pas ici, car « is a headache » voudrait dire que la personne est elle-même une douleur."
+  },
+  "verification": "ok2"
+}

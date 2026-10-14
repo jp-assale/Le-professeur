@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-4e-le-verbe-formes-et-emplois",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "4e · Le verbe : formes et emplois",
+  "classe": "4e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "4e · Le verbe : formes et emplois",
+  "intro": {
+    "heading": "Un message à Awa",
+    "body": "Kouadio écrit à sa cousine Awa à Bouaké : « Si j'avais un peu d'argent, je viendrais te voir. Il faut que tu me répondes vite ! » En quelques mots, il emploie un verbe du 3e groupe, le conditionnel et le subjonctif. Dans cette leçon, tu vas apprendre à reconnaître et à bien employer ces formes du verbe. Tu pourras ensuite les réutiliser dans tes rédactions et dans tes situations d'évaluation."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔤",
+        "text": "Les verbes du 3e groupe changent souvent de radical."
+      },
+      {
+        "icon": "🧩",
+        "text": "Avoir, être et semi-auxiliaires aident à former ou nuancer le verbe."
+      },
+      {
+        "icon": "🎯",
+        "text": "Conditionnel pour la conséquence d'une hypothèse, subjonctif pour le souhait ou l'obligation."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les formes et les emplois du verbe",
+    "explanation": "Les verbes du 3e groupe (prendre, venir, faire, vouloir, savoir...) changent souvent de radical : « je veux, nous voulons, ils veulent ». L'indicatif est le mode du réel et du certain : il situe l'action au présent, au passé ou au futur, avec des temps simples (« il mange ») ou composés (« il a mangé »). Les temps composés se forment avec l'auxiliaire « avoir » (« Awa a vendu ses mangues ») ou l'auxiliaire « être » (« Koffi est parti », « elle s'est lavée »), suivi du participe passé. Les semi-auxiliaires (aller, venir de, devoir, pouvoir, être en train de) se placent devant un infinitif et ajoutent une nuance : futur proche (« Il va partir »), passé récent (« Elle vient de sortir »), obligation, possibilité ou action en cours. Le conditionnel présent se forme avec le radical du futur et les terminaisons de l'imparfait : « je viendrais, tu viendrais ». Il exprime la conséquence d'une hypothèse, un souhait ou une demande polie : « Si j'avais 500 FCFA, j'achèterais un cahier. » Dans cette phrase, « si » est suivi de l'imparfait et non du conditionnel. Le subjonctif exprime le souhait, l'obligation ou le doute et s'emploie après « il faut que », « je veux que » ou « bien que » : « Il faut que tu viennes. »",
+    "highlight": "Après « il faut que » : subjonctif. Hypothèse : si + imparfait, puis conditionnel dans la conséquence."
+  },
+  "example": {
+    "problem": "Conjugue les verbes entre parenthèses : « Il faut que Koffi (prendre) son cahier. Si Koffi (avoir) 500 FCFA, il (acheter) un livre. »",
+    "steps": [
+      "Première phrase : « il faut que » est suivi du subjonctif présent.",
+      "« Prendre » est un verbe du 3e groupe : que je prenne, que tu prennes, qu'il prenne. On écrit donc : « Il faut que Koffi prenne son cahier. »",
+      "Deuxième phrase : après « si » qui exprime une hypothèse, on emploie l'imparfait.",
+      "« Avoir » à l'imparfait, à la 3e personne du singulier : « avait ». On écrit : « Si Koffi avait 500 FCFA ».",
+      "La conséquence se met au conditionnel présent : radical du futur « achèter- » (il achètera) et terminaison « -ait ». On obtient « il achèterait ».",
+      "Phrases complètes : « Il faut que Koffi prenne son cahier. Si Koffi avait 500 FCFA, il achèterait un livre. »"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correctement écrite ?",
+    "reponse_calculee": "Il faut que tu viennes à l'heure.",
+    "choices": [
+      {
+        "label": "Il faut que tu viennes à l'heure.",
+        "correct": true
+      },
+      {
+        "label": "Il faut que tu viens à l'heure.",
+        "correct": false
+      },
+      {
+        "label": "Il faut que tu viendras à l'heure.",
+        "correct": false
+      },
+      {
+        "label": "Il faut que tu viendrais à l'heure.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'expression « il faut que » est toujours suivie du subjonctif. Le verbe « venir » donne « que tu viennes ».",
+    "feedback_wrong": "« Il faut que » exige le subjonctif présent : « que tu viennes ». L'indicatif (viens, viendras) et le conditionnel (viendrais) ne conviennent pas après cette expression."
+  },
+  "verification": "ok2"
+}

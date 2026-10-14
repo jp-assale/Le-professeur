@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-conges-loisirs-et-voyages",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Congés, loisirs et voyages",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Congés, loisirs et voyages",
+  "intro": {
+    "heading": "La rentrée après les vacances",
+    "body": "C'est la rentrée au lycée. Ton professeur d'allemand demande à Kofi : « Was hast du in den Ferien gemacht ? » (Qu'as-tu fait pendant les vacances ?). Kofi veut raconter son voyage chez sa tante, ses journées de détente et ses loisirs. Pour cela, il doit parler au passé en allemand. Dans cette leçon, tu apprends à le faire avec le Perfekt."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🧳",
+        "text": "Pour raconter tes vacances, utilise le Perfekt."
+      },
+      {
+        "icon": "🚌",
+        "text": "Verbes de déplacement : sein + participe passé, par exemple gefahren."
+      },
+      {
+        "icon": "📝",
+        "text": "Le participe passé se place à la fin de la phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Le Perfekt pour parler de ses vacances",
+    "explanation": "Pour raconter ce que tu as fait pendant les vacances, tu utilises le Perfekt. Il se forme avec un auxiliaire (haben ou sein) conjugué, puis un participe passé. L'auxiliaire est en deuxième position dans la phrase. Le participe passé est tout à la fin. Avec la plupart des verbes, on utilise haben : « Ich habe meine Großmutter besucht. » (J'ai rendu visite à ma grand-mère.) Avec les verbes de déplacement vers un lieu, comme fahren (aller en véhicule), on utilise sein : « Wir sind nach Yamoussoukro gefahren. » (Nous sommes allés à Yamoussoukro.) Pour les loisirs, on dit par exemple : « Amina hat Fußball gespielt. » (Amina a joué au football.)",
+    "highlight": "Déplacement : sujet + sein + ... + participe passé. Exemple : Ich bin nach Abidjan gefahren. (Je suis allé(e) à Abidjan.)"
+  },
+  "example": {
+    "problem": "Construis la phrase en allemand : « Kofi est allé à Bouaké en bus pendant les vacances. » Utilise : Kofi, in den Ferien (pendant les vacances), mit dem Bus (en bus), nach Bouaké (à Bouaké), fahren (aller en véhicule).",
+    "steps": [
+      "Le verbe fahren exprime un déplacement vers un lieu : on choisit l'auxiliaire sein.",
+      "Le participe passé de fahren est gefahren.",
+      "Le sujet est Kofi (3e personne du singulier) : l'auxiliaire devient ist, en deuxième position après Kofi.",
+      "Entre l'auxiliaire et le participe, on place les compléments : in den Ferien, mit dem Bus, nach Bouaké.",
+      "On termine la phrase par le participe passé : gefahren.",
+      "Réponse : Kofi ist in den Ferien mit dem Bus nach Bouaké gefahren. (Kofi est allé à Bouaké en bus pendant les vacances.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Awa est allée à Abidjan en bus » ?",
+    "reponse_calculee": "Awa ist mit dem Bus nach Abidjan gefahren.",
+    "choices": [
+      {
+        "label": "Awa ist mit dem Bus nach Abidjan gefahren.",
+        "correct": true
+      },
+      {
+        "label": "Awa ist mit dem Bus nach Abidjan fahren.",
+        "correct": false
+      },
+      {
+        "label": "Awa gefahren ist mit dem Bus nach Abidjan.",
+        "correct": false
+      },
+      {
+        "label": "Awa hat mit dem Bus nach Abidjan gefahren.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Fahren exprime un déplacement vers un lieu : on utilise sein (ist) en deuxième position et le participe passé gefahren à la fin de la phrase. Awa ist mit dem Bus nach Abidjan gefahren. (Awa est allée à Abidjan en bus.)",
+    "feedback_wrong": "La bonne phrase est : Awa ist mit dem Bus nach Abidjan gefahren. (Awa est allée à Abidjan en bus.) Pour un déplacement vers un lieu, on utilise sein et non haben. L'auxiliaire ist se place en deuxième position, et le participe passé gefahren se place à la fin. L'infinitif fahren ne peut pas remplacer le participe passé."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-monde-du-travail-et-metiers",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Monde du travail et métiers",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Monde du travail et métiers",
+  "intro": {
+    "heading": "Qui travaille dans ta famille ?",
+    "body": "Kofi présente sa famille à son correspondant allemand. Sa mère vend des légumes au marché d'Abidjan, son père conduit un taxi et sa sœur étudie pour devenir médecin. Kofi veut dire leurs métiers en allemand, mais il hésite sur les mots et sur la phrase. Dans cette leçon, tu apprends à dire le métier de quelqu'un et à demander sa profession."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👩‍🏫",
+        "text": "Après sein, le métier s'emploie sans article."
+      },
+      {
+        "icon": "✏️",
+        "text": "Au féminin, on ajoute -in : Lehrer devient Lehrerin."
+      },
+      {
+        "icon": "❓",
+        "text": "Pour demander le métier : Was bist du von Beruf ?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire et demander un métier",
+    "explanation": "Pour dire le métier de quelqu'un, on utilise le verbe sein (être) suivi du nom du métier, sans article : Ich bin Lehrer (Je suis enseignant). Pour une femme, on ajoute généralement -in au nom : der Lehrer (l'enseignant) devient die Lehrerin (l'enseignante), et der Arzt (le médecin) devient die Ärztin (la femme médecin). Voici d'autres métiers : der Fahrer (le chauffeur), der Händler (le commerçant), der Koch (le cuisinier), der Schneider (le couturier). Pour poser la question, tu dis : Was bist du von Beruf? (Quel est ton métier ?) ou Was ist dein Vater von Beruf? (Quel est le métier de ton père ?). Pour dire où une personne travaille, tu emploies le verbe arbeiten (travailler) : ich arbeite (je travaille), du arbeitest (tu travailles), er arbeitet (il travaille), sie arbeitet (elle travaille). Le lieu s'ajoute à la fin de la phrase : Er arbeitet auf dem Markt (Il travaille au marché).",
+    "highlight": "Sujet + ist + métier (sans article) : Mein Vater ist Fahrer. (Mon père est chauffeur.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Ma mère est commerçante et elle travaille au marché. »",
+    "steps": [
+      "Le sujet est « ma mère » : Mutter est féminin, donc on dit meine Mutter.",
+      "Le verbe être à la 3e personne du singulier est ist : Meine Mutter ist...",
+      "Le métier est Händler au masculin ; au féminin on ajoute -in : Händlerin, sans article.",
+      "Pour la seconde partie, on utilise arbeiten à la 3e personne : sie arbeitet (elle travaille).",
+      "Le lieu « au marché » se dit auf dem Markt.",
+      "Phrase complète : Meine Mutter ist Händlerin und sie arbeitet auf dem Markt. (Ma mère est commerçante et elle travaille au marché.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en allemand : « Mon père est chauffeur » ?",
+    "reponse_calculee": "Mein Vater ist Fahrer.",
+    "choices": [
+      {
+        "label": "Mein Vater ist Fahrer.",
+        "correct": true
+      },
+      {
+        "label": "Mein Vater bin Fahrer.",
+        "correct": false
+      },
+      {
+        "label": "Mein Vater ist Fahrerin.",
+        "correct": false
+      },
+      {
+        "label": "Mein Vater arbeiten Fahrer.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec le sujet mein Vater, le verbe sein se conjugue ist, et le métier Fahrer s'emploie sans article. Mein Vater ist Fahrer. (Mon père est chauffeur.)",
+    "feedback_wrong": "La bonne réponse est : Mein Vater ist Fahrer. (Mon père est chauffeur.) Avec mein Vater, on utilise ist et non bin, qui va avec ich. Le mot Fahrerin désigne une femme, donc il ne convient pas pour un père. Quant à arbeiten, il est à l'infinitif et ne se construit pas directement avec le métier."
+  },
+  "verification": "ok"
+}

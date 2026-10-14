@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-sante-et-bien-etre",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Santé et bien-être",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Santé et bien-être",
+  "intro": {
+    "heading": "Un matin, Koffi ne va pas bien",
+    "body": "Koffi arrive au lycée à Abidjan et il a très mal à la tête. Un camarade allemand en échange scolaire veut l'aider, mais il ne parle qu'allemand. Dans ta situation d'évaluation, tu dois expliquer en allemand ce qui ne va pas, puis donner un conseil simple à Koffi. Tu vas apprendre deux outils : dire où l'on a mal et conseiller avec le verbe müssen (devoir)."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🤕",
+        "text": "Ich habe Kopfschmerzen : je dis ce qui ne va pas."
+      },
+      {
+        "icon": "💡",
+        "text": "Avec müssen, je donne un conseil de santé."
+      },
+      {
+        "icon": "📌",
+        "text": "L'infinitif se place à la fin de la phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire sa douleur et conseiller avec müssen",
+    "explanation": "Pour dire que tu as mal, tu utilises le verbe haben (avoir) : Ich habe Kopfschmerzen (J'ai mal à la tête). Tu peux dire aussi Ich habe Bauchschmerzen (J'ai mal au ventre). Pour donner un conseil, tu utilises le verbe müssen (devoir). Sa conjugaison au présent : ich muss (je dois), du musst (tu dois), er muss (il doit), wir müssen (nous devons), ihr müsst (vous devez), sie müssen (ils doivent). Le verbe müssen est en deuxième position dans la phrase. Le deuxième verbe reste à l'infinitif et se place tout à la fin. Quelques mots utiles : der Arzt (le médecin), die Apotheke (la pharmacie), das Wasser (l'eau), krank (malade).",
+    "highlight": "Du musst + infinitif à la fin. Exemple : Du musst viel Wasser trinken. (Tu dois boire beaucoup d'eau.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande avec les mots du, müssen, zum Arzt, gehen pour conseiller à ton ami malade : « Tu dois aller chez le médecin. »",
+    "steps": [
+      "Le sujet est du (tu). Le verbe müssen se conjugue donc : du musst.",
+      "Dans une phrase simple, le verbe conjugué est en deuxième position : Du musst ...",
+      "Le complément de lieu est zum Arzt (chez le médecin).",
+      "Le deuxième verbe gehen (aller) reste à l'infinitif et se place à la fin.",
+      "Réponse : Du musst zum Arzt gehen. (Tu dois aller chez le médecin.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase signifie correctement « Tu dois boire de l'eau » ?",
+    "reponse_calculee": "Du musst Wasser trinken.",
+    "choices": [
+      {
+        "label": "Du musst Wasser trinken.",
+        "correct": true
+      },
+      {
+        "label": "Du muss Wasser trinken.",
+        "correct": false
+      },
+      {
+        "label": "Du musst trinken Wasser.",
+        "correct": false
+      },
+      {
+        "label": "Du trinkst müssen Wasser.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec du, le verbe müssen devient musst, en deuxième position, et l'infinitif trinken se place à la fin : Du musst Wasser trinken.",
+    "feedback_wrong": "La bonne réponse est Du musst Wasser trinken. Avec du, on écrit musst (et non muss). De plus, l'infinitif trinken doit être à la fin de la phrase, et müssen doit être conjugué."
+  },
+  "verification": "ok2"
+}

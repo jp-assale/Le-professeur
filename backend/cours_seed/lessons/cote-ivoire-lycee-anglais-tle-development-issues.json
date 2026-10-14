@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-tle-development-issues",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "Tle · Development issues",
+  "classe": "Tle",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "Tle · Development issues",
+  "intro": {
+    "heading": "Un village qui change grâce à l'eau",
+    "body": "Dans le village de Koffi, un forage a été installé. Désormais, les filles ne marchent plus des heures pour chercher de l'eau et elles arrivent à l'heure à l'école. Pour le dire en anglais, tu as besoin de verbes qui expriment la cause, la permission et la possibilité. Aujourd'hui, tu apprends à utiliser make, let, allow et enable pour parler des défis du développement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔧",
+        "text": "Make et let sont suivis d'un objet puis d'un verbe sans to."
+      },
+      {
+        "icon": "✅",
+        "text": "Allow et enable sont suivis d'un objet, de to et d'un verbe."
+      },
+      {
+        "icon": "🌍",
+        "text": "Ces verbes servent à expliquer les causes et les effets du développement."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les structures avec make, let, allow et enable",
+    "explanation": "Ces quatre verbes se construisent avec un objet suivi d'un verbe. Avec make (obliger, pousser à) et let (laisser, permettre), le verbe qui suit est à l'infinitif sans to : Poverty makes many children leave school. (La pauvreté pousse de nombreux enfants à quitter l'école.) Avec allow (permettre) et enable (rendre possible), on ajoute to avant le verbe : Clean water enables children to go to school. (L'eau potable permet aux enfants d'aller à l'école.) Make exprime une cause ou une contrainte, let exprime une permission, et enable insiste sur le moyen qui rend une action possible. Voici un exemple sur les peuples indigènes : Laws let indigenous peoples protect their land. (Les lois permettent aux peuples indigènes de protéger leurs terres.) Attention : on ne dit jamais « let someone to do », ni « make someone to do ».",
+    "highlight": "make/let + objet + verbe sans to ; allow/enable + objet + to + verbe. Ex. : Roads allow farmers to sell their rice. (Les routes permettent aux agriculteurs de vendre leur riz.)"
+  },
+  "example": {
+    "problem": "Construis une phrase en anglais avec le verbe allow, avec ces éléments : mobile banking (les services bancaires mobiles) / Mariam / send money to her family (envoyer de l'argent à sa famille).",
+    "steps": [
+      "Le verbe imposé est allow : il est suivi d'un objet, puis de to et d'un verbe.",
+      "Le sujet est mobile banking (les services bancaires mobiles).",
+      "L'objet est Mariam, placée juste après allow. Comme le sujet est singulier à la 3e personne, allow prend un s : allows.",
+      "On ajoute to puis le verbe à la forme de base : to send money to her family.",
+      "Phrase complète : Mobile banking allows Mariam to send money to her family. (Les services bancaires mobiles permettent à Mariam d'envoyer de l'argent à sa famille.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « La pauvreté pousse de nombreux enfants à quitter l'école » ?",
+    "reponse_calculee": "Poverty makes many children leave school.",
+    "choices": [
+      {
+        "label": "Poverty makes many children to leave school.",
+        "correct": false
+      },
+      {
+        "label": "Poverty makes many children leave school.",
+        "correct": true
+      },
+      {
+        "label": "Poverty makes many children leaving school.",
+        "correct": false
+      },
+      {
+        "label": "Poverty makes many children left school.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Après make + objet, le verbe est à l'infinitif sans to : Poverty makes many children leave school. (La pauvreté pousse de nombreux enfants à quitter l'école.)",
+    "feedback_wrong": "La bonne réponse est : Poverty makes many children leave school. Après make + objet, on emploie le verbe à la forme de base, sans to, sans -ing et sans passé. Les formes avec to, leaving ou left sont incorrectes dans cette structure."
+  },
+  "verification": "ok"
+}

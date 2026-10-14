@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-4e3e-souvenirs-de-vacances-my-la",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "4e–3e · Souvenirs de vacances (My last holidays)",
+  "classe": "4e–3e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · Souvenirs de vacances (My last holidays)",
+  "intro": {
+    "heading": "Un message pour ton ami(e) anglophone",
+    "body": "Après les vacances, ton professeur te donne une situation d'évaluation. Ton ami Kouadio, qui vit au Ghana, te demande par message : « What did you do during the holidays? » (Qu'as-tu fait pendant les vacances ?). Ta tâche est de lui répondre en quelques phrases simples, au passé. Tu peux parler du village, du marché, de la famille ou de la plage, et dire ce que tu as fait et vu."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📅",
+        "text": "Le prétérit sert à raconter des actions finies au passé."
+      },
+      {
+        "icon": "✏️",
+        "text": "Verbes réguliers : on ajoute -ed ; irréguliers : forme à apprendre."
+      },
+      {
+        "icon": "🎵",
+        "text": "La voix descend en fin de phrase et monte dans Did you...?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Raconter ses vacances au prétérit",
+    "explanation": "Pour parler d'une action finie dans le passé, on utilise le prétérit (simple past). Avec les verbes réguliers, on ajoute -ed : visit devient visited (visiter), play devient played (jouer). Beaucoup de verbes très utiles sont irréguliers et il faut les apprendre par cœur : go devient went (aller), see devient saw (voir), eat devient ate (manger), buy devient bought (acheter), have devient had (avoir). Pour la négation, on utilise didn't + le verbe à la forme de base : I didn't go to the beach. (Je ne suis pas allé à la plage.) Pour la question, on utilise Did + sujet + verbe de base : Did you visit your aunt? (As-tu rendu visite à ta tante ?) Les expressions de temps t'aident : last week (la semaine dernière), yesterday (hier), during the holidays (pendant les vacances). Pour l'intonation, la voix descend à la fin d'une phrase affirmative. Elle monte à la fin d'une question à laquelle on répond par oui ou non, comme Did you go to the village?",
+    "highlight": "Sujet + verbe au prétérit : I went to the village. (Je suis allé au village.)"
+  },
+  "example": {
+    "problem": "Mets les verbes entre parenthèses au prétérit : During the holidays, Aya (go) to her grandmother's village and (buy) mangoes.",
+    "steps": [
+      "During the holidays (pendant les vacances) indique que l'action est finie : on utilise le prétérit.",
+      "Le verbe go est irrégulier : sa forme au prétérit est went.",
+      "Le verbe buy est irrégulier aussi : sa forme au prétérit est bought.",
+      "On garde le même ordre : sujet, verbe, complément.",
+      "Réponse : During the holidays, Aya went to her grandmother's village and bought mangoes. (Pendant les vacances, Aya est allée au village de sa grand-mère et a acheté des mangues.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase est correcte pour dire : « Pendant les vacances, j'ai vu mon cousin » ?",
+    "reponse_calculee": "I saw my cousin during the holidays.",
+    "choices": [
+      {
+        "label": "I saw my cousin during the holidays.",
+        "correct": true
+      },
+      {
+        "label": "I seed my cousin during the holidays.",
+        "correct": false
+      },
+      {
+        "label": "I see my cousin during the holidays.",
+        "correct": false
+      },
+      {
+        "label": "I did saw my cousin during the holidays.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! See est un verbe irrégulier : son prétérit est saw. I saw my cousin during the holidays. (J'ai vu mon cousin pendant les vacances.)",
+    "feedback_wrong": "La bonne réponse est I saw my cousin during the holidays. See est irrégulier : on ne dit pas seed et on n'ajoute pas -ed. I see est au présent. Did est suivi du verbe de base (Did you see...?) : on ne dit pas I did saw."
+  },
+  "verification": "ok2"
+}

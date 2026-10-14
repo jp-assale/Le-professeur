@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-anglais-2nde-gender-and-education",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "2nde · Gender and education",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_PROGRAMME_EDUCATIF_TERMINALE.pdf>",
+  "template": "text_only",
+  "title": "2nde · Gender and education",
+  "intro": {
+    "heading": "Un conseil pour Aminata",
+    "body": "Aminata est en 2nde dans un lycée d'Abidjan. Sa cousine Fatou, 13 ans, hésite à continuer l'école parce que sa famille manque d'argent. Aminata veut lui donner des conseils et lui rappeler les règles du collège, en anglais. Pour cela, tu dois savoir choisir entre must, have to et should."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📏",
+        "text": "Must et have to expriment une obligation."
+      },
+      {
+        "icon": "💡",
+        "text": "Should donne un conseil, une recommandation."
+      },
+      {
+        "icon": "✏️",
+        "text": "Après must et should, on met le verbe sans to."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Obligation et recommandation : must, have to, should",
+    "explanation": "Pour dire qu'une chose est obligatoire, on utilise must ou have to. Must exprime une obligation forte qui vient de celui qui parle : « I must study tonight. » (Je dois étudier ce soir.) Have to exprime souvent une règle venue de l'extérieur : « Students have to wear a uniform. » (Les élèves doivent porter un uniforme.) Avec he, she ou it, on dit has to : « She has to get up early. » (Elle doit se lever tôt.) Pour donner un conseil, on utilise should : « You should read every day. » (Tu devrais lire chaque jour.) Après must et should, le verbe reste à la forme de base, sans to et sans s : « She should study. » (Elle devrait étudier.) Attention aux formes négatives : mustn't veut dire « interdit » (You mustn't cheat. = Tu ne dois pas tricher.), alors que don't have to veut dire « pas obligé » (You don't have to come. = Tu n'es pas obligé de venir.).",
+    "highlight": "should + verbe = conseil ; must / have to + verbe = obligation. Ex. : You should study. (Tu devrais étudier.)"
+  },
+  "example": {
+    "problem": "Complète la phrase avec should ou must, puis traduis-la : « Fatou wants to pass her exam. She ___ study every evening. » (C'est un conseil.)",
+    "steps": [
+      "Lis la phrase : Fatou veut réussir son examen, on cherche ce qu'elle devrait faire.",
+      "Demande-toi : est-ce une règle imposée ou un conseil ? La consigne dit que c'est un conseil.",
+      "Pour un conseil, on choisit should, pas must.",
+      "Après should, le verbe reste à la forme de base : study, sans s et sans to.",
+      "Réponse : Fatou wants to pass her exam. She should study every evening. (Fatou veut réussir son examen. Elle devrait étudier chaque soir.)"
+    ]
+  },
+  "quiz": {
+    "question": "Ton ami Koffi est souvent fatigué en classe. Tu veux lui donner un conseil en anglais. Quelle phrase est correcte ?",
+    "reponse_calculee": "You should go to bed early.",
+    "choices": [
+      {
+        "label": "You should go to bed early.",
+        "correct": true
+      },
+      {
+        "label": "You should to go to bed early.",
+        "correct": false
+      },
+      {
+        "label": "You should goes to bed early.",
+        "correct": false
+      },
+      {
+        "label": "You shoulds go to bed early.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! You should go to bed early. (Tu devrais te coucher tôt.) Should sert à donner un conseil et il est suivi du verbe à la forme de base : go.",
+    "feedback_wrong": "Après should, on met le verbe sans to et sans s, et should ne prend jamais de s. La bonne phrase est : You should go to bed early. (Tu devrais te coucher tôt.)"
+  },
+  "verification": "ok"
+}

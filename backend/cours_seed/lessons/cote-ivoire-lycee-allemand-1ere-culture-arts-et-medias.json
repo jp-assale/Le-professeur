@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-1ere-culture-arts-et-medias",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "1ère · Culture, arts et médias",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "1ère · Culture, arts et médias",
+  "intro": {
+    "heading": "Un message de ton correspondant allemand",
+    "body": "Ton club culture du lycée à Abidjan échange avec un jeune Allemand, Jonas. Il t'écrit : « Was machst du gern in deiner Freizeit? » (Que fais-tu volontiers pendant ton temps libre ?) Tu dois lui répondre en quelques phrases simples sur la musique, les films ou les livres. Pour cela, tu apprends à dire ce que tu aimes et ce que tu préfères."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🎵",
+        "text": "gern exprime ce que tu aimes faire."
+      },
+      {
+        "icon": "🎬",
+        "text": "lieber compare deux activités ; am liebsten donne ta préférence."
+      },
+      {
+        "icon": "📺",
+        "text": "Dans une phrase déclarative simple, le verbe conjugué reste en deuxième position."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce qu'on aime : gern, lieber, am liebsten",
+    "explanation": "Pour parler de tes loisirs culturels, tu utilises un verbe et le petit mot gern (volontiers). Dans une phrase simple, gern se place après le verbe conjugué : « Ich höre gern Musik. » (J'aime écouter de la musique.) Pour dire que tu préfères une activité à une autre, tu remplaces gern par lieber (plutôt, de préférence). Pour dire ta préférence absolue, tu emploies am liebsten (le plus volontiers). Voici quelques mots utiles : die Musik (la musique), der Film (le film), das Buch (le livre), hören (écouter), sehen (regarder), lesen (lire). Attention aux verbes sehen et lesen : on dit « ich sehe » et « ich lese », mais « er sieht » et « sie liest ». Dans une phrase déclarative simple, le verbe conjugué est en deuxième position.",
+    "highlight": "Ich höre gern Musik, aber ich sehe lieber Filme. (J'écoute volontiers de la musique, mais je regarde plutôt des films.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Je préfère lire des livres. »",
+    "steps": [
+      "Le sujet « je » se dit ich.",
+      "Le verbe « lire » est lesen ; avec ich, on écrit : ich lese.",
+      "« Préférer » s'exprime avec lieber, placé après le verbe conjugué : ich lese lieber.",
+      "« Des livres » se dit Bücher (pluriel de das Buch).",
+      "Le verbe est bien en deuxième position, donc la phrase est : Ich lese lieber Bücher. (Je préfère lire des livres.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quelle phrase signifie « Awa regarde volontiers des films » ?",
+    "reponse_calculee": "Awa sieht gern Filme.",
+    "choices": [
+      {
+        "label": "Awa sieht gern Filme.",
+        "correct": true
+      },
+      {
+        "label": "Awa gern sieht Filme.",
+        "correct": false
+      },
+      {
+        "label": "Awa sehe gern Filme.",
+        "correct": false
+      },
+      {
+        "label": "Gern Awa sieht Filme.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec Awa (3e personne), on écrit sieht, et le verbe est en deuxième position. Gern vient après lui : « Awa sieht gern Filme. » (Awa regarde volontiers des films.)",
+    "feedback_wrong": "La bonne réponse est « Awa sieht gern Filme. » (Awa regarde volontiers des films.) Dans cette phrase déclarative, le verbe conjugué doit être en deuxième position, et gern se place après lui. Avec Awa, la forme est sieht, pas sehe, qui s'emploie seulement avec ich."
+  },
+  "verification": "ok2"
+}

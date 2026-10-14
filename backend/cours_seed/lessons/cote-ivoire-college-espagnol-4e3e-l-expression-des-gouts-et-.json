@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-l-expression-des-gouts-et-",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · L'expression des goûts et des préférences",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'expression des goûts et des préférences",
+  "intro": {
+    "heading": "Un message pour ta correspondante",
+    "body": "Ta classe d'espagnol à Abidjan reçoit un message de Lucía, une élève espagnole. Elle te demande : « ¿Qué te gusta? » (Qu'est-ce que tu aimes ?). Ta tâche est de lui répondre en quelques phrases pour dire ce que tu aimes, ce que tu n'aimes pas, ce que tu préfères, et pourquoi. Dans cette leçon, tu apprends les formules et la structure pour le faire sans te tromper."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❤️",
+        "text": "Me gusta devant un singulier, me gustan devant un pluriel."
+      },
+      {
+        "icon": "⚖️",
+        "text": "Prefiero ... a ... sert à dire ce que je préfère."
+      },
+      {
+        "icon": "💬",
+        "text": "Porque + raison permet de justifier un goût ou une préférence."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Exprimer ses goûts, ses préférences et les justifier",
+    "explanation": "Pour dire ce que tu aimes, tu utilises le verbe gustar. Il fonctionne à l'envers du français : ce qui te plaît est le sujet, donc le verbe s'accorde avec cette chose. Devant un nom singulier, on dit me gusta : Me gusta el fútbol (J'aime le football). Devant un nom pluriel, on dit me gustan : Me gustan los mangos (J'aime les mangues). Pour dire que tu adores, tu utilises me encanta : Me encanta la música (J'adore la musique). Pour dire que tu n'aimes pas, tu ajoutes no devant me : No me gusta la leche (Je n'aime pas le lait). Pour dire ta préférence, tu emploies prefiero : Prefiero el arroz a la pasta (Je préfère le riz aux pâtes). Pour justifier, tu ajoutes porque suivi de la raison : Me gusta el arroz porque es rico (J'aime le riz parce que c'est bon).",
+    "highlight": "Me gusta + singulier / Me gustan + pluriel : Me gustan los plátanos porque son dulces. (J'aime les bananes parce qu'elles sont sucrées.)"
+  },
+  "example": {
+    "problem": "Traduis en espagnol : « J'aime les mangues parce qu'elles sont sucrées. »",
+    "steps": [
+      "Pour « J'aime », on utilise le verbe gustar avec me.",
+      "« Les mangues » est au pluriel, donc on choisit me gustan et non me gusta.",
+      "« Les mangues » se dit los mangos (nom masculin pluriel).",
+      "Pour justifier, on ajoute porque (parce que).",
+      "« Elles sont sucrées » se dit son dulces : le verbe ser est au pluriel (son) et l'adjectif dulce prend un -s au pluriel (dulces).",
+      "Réponse : Me gustan los mangos porque son dulces. (J'aime les mangues parce qu'elles sont sucrées.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en espagnol « J'aime les films d'action » ?",
+    "reponse_calculee": "Me gustan las películas de acción.",
+    "choices": [
+      {
+        "label": "Me gustan las películas de acción.",
+        "correct": true
+      },
+      {
+        "label": "Me gusta las películas de acción.",
+        "correct": false
+      },
+      {
+        "label": "Me gusto las películas de acción.",
+        "correct": false
+      },
+      {
+        "label": "Me gustan a las películas de acción.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Les films d'action sont au pluriel (las películas), donc on emploie me gustan. Le verbe s'accorde avec ce qui te plaît.",
+    "feedback_wrong": "La bonne réponse est : Me gustan las películas de acción. Avec un nom pluriel, le verbe gustar prend la forme gustan. Me gusta est réservé au singulier, me gusto ne convient pas pour dire « j'aime » ici, et on n'ajoute pas a devant le nom."
+  },
+  "verification": "ok2"
+}

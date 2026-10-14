@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-francais-1ere-resume-du-texte-argumentatif",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "1ère · Resume du texte argumentatif",
+  "classe": "1ère",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "1ère · Resume du texte argumentatif",
+  "intro": {
+    "heading": "Un message à faire passer en peu de mots",
+    "body": "Ton professeur te donne un texte de deux pages sur l'usage du téléphone portable au lycée et te demande d'en rédiger le résumé en quelques lignes. Ton camarade Yao veut tout recopier, mais il n'aurait pas assez de place. Toi, tu dois trouver l'idée essentielle et la dire autrement, avec tes propres mots. Cette leçon te donne la méthode pour y arriver sans trahir l'auteur."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Repère le thème, les thèses et les connecteurs logiques."
+      },
+      {
+        "icon": "✂️",
+        "text": "Supprime les exemples et les détails ; emploie des mots englobants et des synonymes."
+      },
+      {
+        "icon": "🧱",
+        "text": "Respecte la structure : thèse, arguments, conclusion de l'auteur."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "La méthode du résumé argumentatif",
+    "explanation": "Résumer un texte argumentatif, c'est reformuler en moins de mots les idées essentielles de l'auteur, sans ajouter ton avis. D'abord, tu dégages le thème (le sujet général) et les thèses en présence : la thèse défendue par l'auteur et, parfois, la thèse adverse qu'il réfute. Ensuite, tu relèves les indices d'énonciation (je, nous, nous pensons, à mon avis) qui montrent qui parle et quelle opinion est soutenue ; la consigne précise si tu gardes ou non le système d'énonciation du texte. Les connecteurs logiques (car, donc, mais, pourtant, en effet) révèlent la structure du texte : thèse, arguments, exemples, conclusion. Un paragraphe argumentatif comprend souvent une idée directrice, un ou plusieurs arguments, des exemples qui illustrent et parfois une mini-conclusion. Pour réduire le texte, tu supprimes les exemples, les répétitions et les détails, puis tu remplaces une liste par un mot englobant (le riz, le mil, le maïs deviennent les céréales). Tu reformules aussi avec des synonymes pour ne pas recopier les phrases du texte. Enfin, tu respectes le nombre de mots demandé et l'enchaînement logique des idées.",
+    "highlight": "Résumer = garder la thèse et les arguments, supprimer les exemples, reformuler avec des synonymes et des mots englobants."
+  },
+  "example": {
+    "problem": "Voici un court texte inventé : « Certains pensent que le téléphone portable doit être interdit au lycée, car il distrait les élèves pendant les cours. Koffi avoue qu'il lit ses messages au lieu d'écouter. Pourtant, d'autres affirment qu'il aide à travailler : Awa télécharge des exercices et consulte un dictionnaire en ligne. Je pense donc qu'il faut l'autoriser, mais seulement pour des activités scolaires encadrées. » Résume ce texte en une phrase.",
+    "steps": [
+      "Thème : l'usage du téléphone portable au lycée.",
+      "Thèses en présence : la première veut l'interdire parce qu'il distrait ; la seconde veut l'autoriser parce qu'il aide à travailler. L'indice « Je pense » montre que l'auteur soutient la seconde, avec une réserve.",
+      "Connecteurs : « car » introduit une cause, « Pourtant » une opposition, « donc » une conséquence, « mais » une restriction. Ils guident l'ordre des idées à garder.",
+      "Réduction : tu supprimes les exemples de Koffi et d'Awa, puis tu reformules avec des synonymes (distrait devient détourne l'attention ; aide à travailler devient facilite l'étude).",
+      "Rédaction : « Selon l'auteur, le téléphone portable facilite l'étude des élèves, même s'il peut détourner leur attention ; il faut donc l'autoriser, mais uniquement pour des usages scolaires encadrés. »"
+    ]
+  },
+  "quiz": {
+    "question": "Dans un texte argumentatif, l'auteur écrit : « Au marché, Mariam vend du riz, de l'igname, du manioc et de la banane plantain. » Quel mot englobant peut remplacer cette liste dans ton résumé ?",
+    "reponse_calculee": "les aliments",
+    "choices": [
+      {
+        "label": "les aliments",
+        "correct": true
+      },
+      {
+        "label": "les vêtements",
+        "correct": false
+      },
+      {
+        "label": "les moyens de transport",
+        "correct": false
+      },
+      {
+        "label": "les outils scolaires",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact : le riz, l'igname, le manioc et la banane plantain sont tous des aliments. Un mot englobant remplace une énumération d'exemples par un terme général, ce qui permet de réduire le texte sans perdre le sens.",
+    "feedback_wrong": "Un mot englobant doit regrouper tous les éléments de la liste sous une même catégorie. Le riz, l'igname, le manioc et la banane plantain sont des aliments ; ce ne sont ni des vêtements, ni des moyens de transport, ni des outils scolaires. La bonne réponse est donc « les aliments »."
+  },
+  "verification": "ok2"
+}

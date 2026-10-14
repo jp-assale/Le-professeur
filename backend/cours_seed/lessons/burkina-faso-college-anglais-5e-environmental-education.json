@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-5e-environmental-education",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "5e · Environmental education",
+  "classe": "5e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "5e · Environmental education",
+  "intro": {
+    "heading": "Une cour d'école à nettoyer",
+    "body": "Ce matin, Awa et Moussa arrivent à l'école et voient des sachets plastiques partout dans la cour. Leur professeur leur demande de proposer des règles simples pour garder la cour propre. Pour cela, tu vas apprendre à donner des conseils en anglais sur l'environnement : les arbres, l'eau et les ordures. Ces phrases courtes te serviront à parler de la nature autour de toi."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌳",
+        "text": "Plant a tree = Plante un arbre."
+      },
+      {
+        "icon": "🗑️",
+        "text": "Pour donner un ordre, on utilise le verbe seul."
+      },
+      {
+        "icon": "🚫",
+        "text": "Pour interdire, on écrit Don't avant le verbe."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Donner un conseil ou un ordre : l'impératif",
+    "explanation": "En anglais, pour donner un conseil ou un ordre, on utilise le verbe seul, sans sujet. Par exemple : Plant a tree. (Plante un arbre.) Le verbe ne change pas, que tu parles à une personne ou à plusieurs. Pour dire de ne pas faire quelque chose, on met Don't devant le verbe. Par exemple : Don't cut the trees. (Ne coupe pas les arbres.) Voici quelques mots utiles : tree (arbre), water (eau), rubbish (ordures), bin (poubelle), clean (propre), school (école), ground (sol, par terre). Voici d'autres verbes : put (mettre), throw (jeter), save (économiser), keep (garder).",
+    "highlight": "Don't + verbe : Don't throw rubbish on the ground. (Ne jette pas les ordures par terre.)"
+  },
+  "example": {
+    "problem": "Awa veut écrire une règle pour la cour de l'école. Traduis en anglais : « Ne jette pas les ordures par terre. »",
+    "steps": [
+      "C'est une interdiction : on commence par Don't.",
+      "Le verbe « jeter » se dit throw, et il reste à la forme de base : Don't throw.",
+      "« Les ordures » se dit rubbish : Don't throw rubbish.",
+      "« Par terre » se dit on the ground.",
+      "Réponse complète : Don't throw rubbish on the ground. (Ne jette pas les ordures par terre.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en anglais : « Ne coupe pas les arbres. » ?",
+    "reponse_calculee": "Don't cut the trees.",
+    "choices": [
+      {
+        "label": "Don't cut the trees.",
+        "correct": true
+      },
+      {
+        "label": "Not cut the trees.",
+        "correct": false
+      },
+      {
+        "label": "Don't cutting the trees.",
+        "correct": false
+      },
+      {
+        "label": "Cut don't the trees.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Pour interdire, on écrit Don't puis le verbe à la forme de base : Don't cut the trees. (Ne coupe pas les arbres.)",
+    "feedback_wrong": "La bonne réponse est Don't cut the trees. Pour interdire quelque chose, on place Don't devant le verbe à la forme de base (cut), sans -ing et sans changer l'ordre des mots. (Ne coupe pas les arbres.)"
+  },
+  "verification": "ok"
+}

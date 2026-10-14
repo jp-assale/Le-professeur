@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-anglais-6e5e-la-famille-my-family",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e–5e · La famille (My family)",
+  "classe": "6e–5e",
+  "source": "6e–5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 6e–5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_6eme.pdf>; 4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Anglais, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Anglais/ANGLAIS_4eme.pdf>",
+  "template": "text_only",
+  "title": "6e–5e · La famille (My family)",
+  "intro": {
+    "heading": "Une nouvelle camarade à Abidjan",
+    "body": "Aya vient d'arriver dans ta classe à Abidjan. Le professeur lui demande de présenter sa famille à tout le monde. Elle veut dire qui sont les personnes sur sa photo, quel âge elles ont et combien de frères et sœurs elle a. Dans cette leçon, tu apprends à faire la même chose en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "👪",
+        "text": "Je nomme ma famille : mother, father, brother, sister."
+      },
+      {
+        "icon": "🔢",
+        "text": "Je compte de 21 à 100 : twenty-one, thirty, forty."
+      },
+      {
+        "icon": "❓",
+        "text": "Je pose des questions : Who is he? How old is she? How many?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de sa famille : have / has, pluriel et questions",
+    "explanation": "Pour dire ce que tu possèdes ou combien de personnes tu as dans ta famille, tu utilises le verbe « to have » (avoir) au présent simple. Avec I, you, we et they, on dit « have » : I have two brothers (J'ai deux frères). Avec he, she et un prénom (3e personne du singulier), on dit « has » : Aya has a sister (Aya a une sœur). Pour le pluriel des noms, on ajoute en général -s : sister devient sisters (sœurs). Attention aux pluriels irréguliers : child devient children (enfants) et man devient men (hommes). Pour identifier une personne, on demande : Who is he? (Qui est-il ?) et on répond : He is my uncle (C'est mon oncle). Pour l'âge, on demande : How old is he? (Quel âge a-t-il ?) et on répond : He is forty-five (Il a quarante-cinq ans). Pour compter, on demande : How many sisters do you have? (Combien de sœurs as-tu ?) et on répond : I have two sisters (J'ai deux sœurs). Les nombres : twenty-one (21), thirty (30), fifty (50), seventy-two (72), ninety (90), one hundred (100).",
+    "highlight": "I / you / we / they + have ; he / she + has. Exemple : She has two brothers. (Elle a deux frères.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais : « Kofi a trois sœurs et deux frères. »",
+    "steps": [
+      "Le sujet est Kofi : on peut le remplacer par « he » (il), donc on utilise « has » et non « have ».",
+      "« a trois sœurs » se traduit par « has three sisters » : après un nombre supérieur à un, le nom prend un -s.",
+      "« deux frères » se traduit par « two brothers » : brother prend aussi un -s au pluriel.",
+      "On relie les deux groupes avec « and » (et).",
+      "Réponse : Kofi has three sisters and two brothers. (Kofi a trois sœurs et deux frères.)"
+    ]
+  },
+  "quiz": {
+    "question": "Complète la phrase : My sister ___ three cousins. (Ma sœur a trois cousins.)",
+    "reponse_calculee": "has",
+    "choices": [
+      {
+        "label": "has",
+        "correct": true
+      },
+      {
+        "label": "have",
+        "correct": false
+      },
+      {
+        "label": "is",
+        "correct": false
+      },
+      {
+        "label": "haves",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « My sister » peut être remplacé par « she » (elle), donc on utilise « has » : My sister has three cousins.",
+    "feedback_wrong": "La bonne réponse est « has ». « My sister » correspond à « she », et avec he, she ou un prénom, le verbe « to have » devient « has ». « Have » s'utilise avec I, you, we et they. « Is » ne veut pas dire « a » ici, et « haves » n'existe pas en anglais."
+  },
+  "verification": "ok2"
+}

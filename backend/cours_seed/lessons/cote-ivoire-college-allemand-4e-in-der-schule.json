@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-allemand-4e-in-der-schule",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "4e · In Der Schule",
+  "classe": "4e",
+  "source": "4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_4eme.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_3eme.pdf>",
+  "template": "text_only",
+  "title": "4e · In Der Schule",
+  "intro": {
+    "heading": "Un nouvel élève dans ta classe",
+    "body": "Koffi vient d'arriver au collège à Abidjan. Il veut savoir quand vous avez maths, anglais ou sport, et quelle est ta matière préférée. En allemand, tu vas apprendre à lui répondre avec des phrases simples. Tu pourras ainsi présenter ton emploi du temps et parler de tes cours."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📚",
+        "text": "Je connais les matières : Mathe, Deutsch, Englisch, Sport."
+      },
+      {
+        "icon": "🗓️",
+        "text": "Je présente mon emploi du temps avec les jours de la semaine."
+      },
+      {
+        "icon": "⭐",
+        "text": "Je dis ma matière préférée : Mein Lieblingsfach ist..."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Parler de ses matières et de son emploi du temps",
+    "explanation": "Le mot der Stundenplan (l'emploi du temps) regroupe les cours de la semaine. Une matière se dit das Fach, et les matières courantes sont Mathe (maths), Deutsch (allemand), Französisch (français), Englisch (anglais), Geschichte (histoire), Musik (musique) et Sport (sport). Pour dire quand tu as un cours, tu utilises am avec le jour : am Montag (le lundi), am Dienstag (le mardi), am Freitag (le vendredi). Tu peux aussi donner l'heure avec um : um acht Uhr (à huit heures). Avec le verbe haben (avoir), on dit ich habe (j'ai) et wir haben (nous avons). Dans une phrase simple, le verbe conjugué est toujours en deuxième position, même si la phrase commence par le jour. Pour parler de ta matière préférée, tu dis Mein Lieblingsfach ist... Pour dire que tu aimes une matière, tu dis Ich mag... Pour poser la question à un camarade, tu demandes Was ist dein Lieblingsfach ? (Quelle est ta matière préférée ?)",
+    "highlight": "Am Montag habe ich Mathe. (Le lundi, j'ai maths.) Le verbe habe reste en 2e position. Mein Lieblingsfach ist Sport. (Ma matière préférée est le sport.)"
+  },
+  "example": {
+    "problem": "Traduis en allemand : « Le mardi, j'ai français à huit heures. »",
+    "steps": [
+      "Cherche les mots : le mardi = am Dienstag ; j'ai = ich habe ; à huit heures = um acht Uhr ; français = Französisch.",
+      "Commence la phrase par l'indication de temps : Am Dienstag.",
+      "Place le verbe conjugué en 2e position, juste après : Am Dienstag habe.",
+      "Ajoute ensuite le sujet : Am Dienstag habe ich.",
+      "Termine avec l'heure et la matière : um acht Uhr Französisch.",
+      "Réponse : Am Dienstag habe ich um acht Uhr Französisch. (Le mardi, j'ai français à huit heures.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on correctement en allemand : « Ma matière préférée est l'anglais » ?",
+    "reponse_calculee": "Mein Lieblingsfach ist Englisch.",
+    "choices": [
+      {
+        "label": "Mein Lieblingsfach ist Englisch.",
+        "correct": true
+      },
+      {
+        "label": "Mein Lieblingsfach bin Englisch.",
+        "correct": false
+      },
+      {
+        "label": "Ich Lieblingsfach ist Englisch.",
+        "correct": false
+      },
+      {
+        "label": "Meine Lieblingsfach ist Englisch.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Mein Lieblingsfach ist Englisch. (Ma matière préférée est l'anglais.) Das Fach est neutre, donc on dit mein, et le verbe sein se conjugue ist avec un sujet à la 3e personne.",
+    "feedback_wrong": "La bonne phrase est Mein Lieblingsfach ist Englisch. Le mot das Fach est neutre, donc on dit mein et non meine. Le verbe est ist (et non bin), car le sujet est Lieblingsfach. Il faut aussi garder le sujet mein Lieblingsfach au début, et non Ich."
+  },
+  "verification": "ok"
+}

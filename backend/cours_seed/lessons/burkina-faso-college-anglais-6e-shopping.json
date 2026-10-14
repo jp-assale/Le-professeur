@@ -1,0 +1,73 @@
+{
+  "slug": "burkina-faso-college-anglais-6e-shopping",
+  "pays": "burkina_faso",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Anglais",
+  "chapitre": "6e · Shopping",
+  "classe": "6e",
+  "source": "6e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 6e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>; 5e : Guide de l'enseignant d'anglais 6e-5e (MENAPLN, Burkina Faso) — 5e <https://www.education.gov.bf/fileadmin/user_upload/storages/espace_enseignant/guides/post_primaire/guide_anglais_6-5e.pdf>",
+  "template": "text_only",
+  "title": "6e · Shopping",
+  "intro": {
+    "heading": "Au marché avec Awa",
+    "body": "Awa est au marché avec son grand frère Moussa. Elle voit un joli cahier et veut savoir le prix. Le vendeur parle anglais ! Aujourd'hui, tu apprends à demander un prix et à acheter quelque chose en anglais."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "💰",
+        "text": "Pour demander le prix, on dit : How much is it?"
+      },
+      {
+        "icon": "💬",
+        "text": "Pour donner le prix, on dit : It's 500 FCFA."
+      },
+      {
+        "icon": "🛒",
+        "text": "Pour acheter poliment : Can I have a notebook, please?"
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Demander et dire un prix",
+    "explanation": "Pour connaître le prix d'un objet, tu dis « How much is it? » (C'est combien ?). Le vendeur répond avec « It's » suivi du prix. « It's » est la forme courte de « It is » (C'est). Par exemple : « It's 500 FCFA. » (C'est 500 FCFA.) Pour demander un objet, tu peux dire : « Can I have a notebook, please? » (Puis-je avoir un cahier, s'il vous plaît ?) À la fin, tu dis « Thank you. » (Merci.) Le mot « please » (s'il vous plaît) rend ta phrase polie.",
+    "highlight": "How much is it? (C'est combien ?) — It's 500 FCFA. (C'est 500 FCFA.)"
+  },
+  "example": {
+    "problem": "Traduis en anglais le petit dialogue : « C'est combien ? — C'est 300 FCFA. »",
+    "steps": [
+      "Première phrase : « C'est combien ? » se dit « How much is it? ».",
+      "Deuxième phrase : « C'est » devant un prix se dit « It's ».",
+      "Le prix reste le même : 300 FCFA.",
+      "On met « It's » devant le prix : « It's 300 FCFA. »",
+      "Réponse complète : How much is it? — It's 300 FCFA. (C'est combien ? — C'est 300 FCFA.)"
+    ]
+  },
+  "quiz": {
+    "question": "Tu es au marché et tu veux connaître le prix d'un cahier. Quelle phrase dis-tu au vendeur ?",
+    "reponse_calculee": "How much is it?",
+    "choices": [
+      {
+        "label": "How much is it?",
+        "correct": true
+      },
+      {
+        "label": "How are you?",
+        "correct": false
+      },
+      {
+        "label": "What is your name?",
+        "correct": false
+      },
+      {
+        "label": "Good night.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! « How much is it? » veut dire « C'est combien ? ». C'est la phrase à utiliser pour demander un prix.",
+    "feedback_wrong": "Ce n'est pas la bonne phrase. « How are you? » veut dire « Comment vas-tu ? », « What is your name? » veut dire « Comment t'appelles-tu ? » et « Good night. » veut dire « Bonne nuit. » Pour demander un prix, on dit « How much is it? » (C'est combien ?)."
+  },
+  "verification": "ok"
+}

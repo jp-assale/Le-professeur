@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-college-espagnol-4e3e-l-echange-d-information",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "4e–3e · L'échange d'information",
+  "classe": "4e–3e",
+  "source": "4e–3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 4e–3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Espagnol/ESPAGNOL_4eme.pdf>",
+  "template": "text_only",
+  "title": "4e–3e · L'échange d'information",
+  "intro": {
+    "heading": "Un nouvel élève à l'école",
+    "body": "Un nouvel élève espagnol arrive dans ta classe à Bouaké. Il ne connaît ni l'école, ni le marché, ni le quartier. Dans une situation d'évaluation, on te demande de lui poser des questions, de répondre aux siennes et de l'orienter en espagnol. Dans cette leçon, tu apprends les mots et les phrases pour échanger des informations simplement."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "❓",
+        "text": "Un mot interrogatif ouvre la question : ¿Dónde?, ¿Cuándo?, ¿Quién?"
+      },
+      {
+        "icon": "🧭",
+        "text": "Pour orienter : todo recto, a la derecha, a la izquierda."
+      },
+      {
+        "icon": "📝",
+        "text": "Pour raconter : primero, después, por último."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Poser des questions et y répondre",
+    "explanation": "Pour échanger des informations, tu poses des questions puis tu réponds par une phrase courte. Les mots interrogatifs portent toujours un accent à l'écrit : ¿Qué? (quoi), ¿Quién? (qui), ¿Dónde? (où), ¿Cuándo? (quand), ¿Cómo? (comment), ¿Cuánto? (combien). Pour demander la raison, on écrit ¿Por qué? (pourquoi) et on répond avec Porque (parce que). En espagnol, une question s'écrit entre deux signes : ¿ au début et ? à la fin. Pour orienter quelqu'un, tu utilises : todo recto (tout droit), a la derecha (à droite), a la izquierda (à gauche). Pour raconter ou résumer, tu ordonnes les idées avec primero (d'abord), después (ensuite) et por último (enfin). Pour être poli, commence par Perdone (excusez-moi) ou Por favor (s'il vous plaît).",
+    "highlight": "Mot interrogatif + verbe : ¿Dónde vives? (Où habites-tu ?) – Vivo en Bouaké. (J'habite à Bouaké.)"
+  },
+  "example": {
+    "problem": "Tu veux demander à Awa où elle habite, puis écrire sa réponse : « J'habite à Bouaké ». Écris la question et la réponse en espagnol.",
+    "steps": [
+      "Repère l'information demandée : un lieu. Le mot interrogatif est donc dónde (où).",
+      "Choisis le verbe : habiter se dit vivir. Avec tu, on écrit vives.",
+      "Écris la question avec les deux signes : ¿Dónde vives?",
+      "Pour répondre avec je, le verbe devient vivo, suivi de en et du lieu : Vivo en Bouaké.",
+      "Réponse complète : ¿Dónde vives, Awa? (Où habites-tu, Awa ?) – Vivo en Bouaké. (J'habite à Bouaké.)"
+    ]
+  },
+  "quiz": {
+    "question": "Quel mot interrogatif espagnol utilises-tu pour demander un lieu (« où ») ?",
+    "reponse_calculee": "Dónde (où)",
+    "choices": [
+      {
+        "label": "Dónde (où)",
+        "correct": true
+      },
+      {
+        "label": "Cuándo (quand)",
+        "correct": false
+      },
+      {
+        "label": "Quién (qui)",
+        "correct": false
+      },
+      {
+        "label": "Cómo (comment)",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Dónde sert à demander un lieu, par exemple : ¿Dónde está el mercado? (Où est le marché ?)",
+    "feedback_wrong": "Ce n'est pas le bon mot. Cuándo demande le moment, Quién demande la personne et Cómo demande la manière. Pour un lieu, on utilise Dónde : ¿Dónde vives? (Où habites-tu ?)"
+  },
+  "verification": "ok"
+}

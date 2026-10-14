@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-allemand-2nde-environnement",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Allemand",
+  "chapitre": "2nde · Environnement",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_SECONDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_PREMIERE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Allemand, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Allemand/ALLEMAND_PROGRAMME_EDUCATIF_TERMINAL.pdf>",
+  "template": "text_only",
+  "title": "2nde · Environnement",
+  "intro": {
+    "heading": "Une journée de propreté au lycée",
+    "body": "Ton lycée à Abidjan organise une journée de propreté. Le club environnement accueille aussi un groupe d'élèves venus d'Allemagne, et tu dois leur expliquer simplement ce que chacun doit faire pour l'environnement. Pour cela, tu as besoin de phrases courtes sur le thème de la nature, des déchets et de l'eau. Dans cette leçon, tu apprends à dire ce que l'on doit faire, en allemand."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Die Umwelt = l'environnement ; der Müll = les déchets."
+      },
+      {
+        "icon": "📌",
+        "text": "Müssen se place en 2e position, conjugué."
+      },
+      {
+        "icon": "🌳",
+        "text": "L'infinitif se place à la fin de la phrase."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Dire ce que l'on doit faire : le verbe müssen",
+    "explanation": "Pour dire qu'on doit faire quelque chose, on utilise le verbe müssen (devoir). Il se conjugue ainsi : ich muss (je dois), du musst (tu dois), er/sie muss (il/elle doit), wir müssen (nous devons), ihr müsst (vous devez), sie müssen (ils/elles doivent). Dans la phrase, müssen est conjugué et se place en 2e position, juste après le sujet. L'autre verbe reste à l'infinitif et se place tout à la fin de la phrase. Voici du vocabulaire utile : die Umwelt (l'environnement), der Müll (les déchets), das Wasser (l'eau), der Baum (l'arbre), die Bäume (les arbres), pflanzen (planter), sparen (économiser), sammeln (ramasser), schützen (protéger). Exemple : Ich muss den Müll sammeln. (Je dois ramasser les déchets.)",
+    "highlight": "Sujet + müssen conjugué + ... + infinitif à la fin. Exemple : Wir müssen die Umwelt schützen. (Nous devons protéger l'environnement.)"
+  },
+  "example": {
+    "problem": "Construis la phrase allemande : « Nous devons planter des arbres à l'école. » Utilise wir, müssen, pflanzen, Bäume et in der Schule (à l'école).",
+    "steps": [
+      "Le sujet est « nous » : wir.",
+      "Le verbe müssen se conjugue avec wir : wir müssen. Il se place en 2e position.",
+      "Le verbe de l'action est pflanzen (planter). Il reste à l'infinitif et va à la fin de la phrase.",
+      "Le complément « des arbres » se dit Bäume. « À l'école » se dit in der Schule.",
+      "On place les compléments entre müssen et l'infinitif final : Wir müssen in der Schule Bäume pflanzen. (Nous devons planter des arbres à l'école.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on correctement en allemand : « Tu dois économiser l'eau. » ?",
+    "reponse_calculee": "Du musst Wasser sparen.",
+    "choices": [
+      {
+        "label": "Du musst Wasser sparen.",
+        "correct": true
+      },
+      {
+        "label": "Du müssen Wasser sparen.",
+        "correct": false
+      },
+      {
+        "label": "Du musst sparen Wasser.",
+        "correct": false
+      },
+      {
+        "label": "Du Wasser sparen musst.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! Avec du, müssen devient musst et se place en 2e position. L'infinitif sparen se place à la fin : Du musst Wasser sparen. (Tu dois économiser l'eau.)",
+    "feedback_wrong": "La bonne phrase est : Du musst Wasser sparen. (Tu dois économiser l'eau.) Avec du, on écrit musst, pas müssen. Le verbe conjugué est en 2e position et l'infinitif sparen se place tout à la fin de la phrase."
+  },
+  "verification": "ok"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-college-francais-5e-l-uvre-integrale",
+  "pays": "cote_ivoire",
+  "niveau": "college",
+  "examen": "BEPC",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "5e · L'œuvre intégrale",
+  "classe": "5e",
+  "source": "6e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 6e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%206e%20VALIDE.pdf>; 5e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 5e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%205%C3%A8%20VALIDE.pdf>; 4e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 4e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%204e%20VALIDE.pdf>; 3e : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 3e <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%203e%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "5e · L'œuvre intégrale",
+  "intro": {
+    "heading": "Un livre entier à lire !",
+    "body": "Ton professeur de français annonce que la classe va lire un livre en entier pendant le trimestre. Ton camarade Yao s'inquiète : « Comment retenir autant de pages ? » Avec une bonne méthode, tu lis avec plaisir et tu réussis la situation d'évaluation sur le livre. Voyons ensemble les étapes à suivre."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "📖",
+        "text": "Une œuvre intégrale se lit en entier, pas par extraits."
+      },
+      {
+        "icon": "🧭",
+        "text": "L'axe d'étude et les hypothèses guident ta lecture."
+      },
+      {
+        "icon": "🔍",
+        "text": "Relève personnages, thèmes, figures de style et portée de l'œuvre."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Les étapes pour étudier une œuvre intégrale",
+    "explanation": "Une œuvre intégrale est un livre (roman, pièce de théâtre, recueil de contes ou de poèmes) que tu lis en entier et non par morceaux. Avant de lire, tu découvres l'auteur et son œuvre : qui a écrit, à quelle époque, et à quel genre appartient le texte. Tu situes aussi l'œuvre dans son contexte, c'est-à-dire l'époque et la société qui ont inspiré l'histoire. Ensuite, tu choisis un axe d'étude, une question qui guide toute la lecture. À partir du titre et de la couverture, tu formules des hypothèses de lecture que tu vérifies page après page. Pendant la lecture, tu relèves les personnages et les thèmes majeurs, ainsi que les figures de style importantes comme la comparaison ou la métaphore. À la fin, tu dégages la portée de l'œuvre : ce qu'elle t'apprend et ce qu'elle dit encore aux lecteurs d'aujourd'hui.",
+    "highlight": "Lire une œuvre intégrale : situer, questionner (axe d'étude), supposer (hypothèses), relever (personnages, thèmes, figures de style), conclure (portée)."
+  },
+  "example": {
+    "problem": "Ton professeur te donne un roman inventé, « La Lampe de Kouadio ». La quatrième de couverture dit : « Kouadio, élève dans un village, étudie chaque soir sous un lampadaire car sa maison n'a pas d'électricité. Un jour, un inconnu lui propose 50 000 FCFA pour quitter l'école. » Prépare ta lecture de cette œuvre.",
+    "steps": [
+      "Observe le titre : « La Lampe de Kouadio ». La lampe peut représenter le savoir qui éclaire.",
+      "Choisis un axe d'étude sous forme de question : « Comment Kouadio résiste-t-il aux obstacles pour réussir ? »",
+      "Formule une hypothèse de lecture : « Je pense que le roman raconte la volonté d'un élève qui lutte pour réussir. »",
+      "Repère le personnage principal, Kouadio, et les thèmes majeurs : l'école, la pauvreté et la tentation de l'argent facile.",
+      "Repère une figure de style dans la phrase inventée « Sa volonté était une lampe qui ne s'éteignait jamais » : c'est une métaphore, car la volonté est assimilée à une lampe sans mot de comparaison.",
+      "Après la lecture, vérifie ton hypothèse, puis dégage la portée : l'histoire montre que la persévérance aide chaque lecteur à croire en ses études."
+    ]
+  },
+  "quiz": {
+    "question": "Dans l'étude d'une œuvre intégrale, qu'est-ce qu'un axe d'étude ?",
+    "reponse_calculee": "Une question qui guide la lecture et l'étude de toute l'œuvre",
+    "choices": [
+      {
+        "label": "Une question qui guide la lecture et l'étude de toute l'œuvre",
+        "correct": true
+      },
+      {
+        "label": "Le nombre de chapitres que contient l'œuvre",
+        "correct": false
+      },
+      {
+        "label": "La biographie complète de l'auteur",
+        "correct": false
+      },
+      {
+        "label": "Un passage recopié du début de l'œuvre",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! L'axe d'étude est une question directrice, par exemple « Comment le héros surmonte-t-il les obstacles ? ». Elle t'aide à relever les éléments importants dans tout le livre.",
+    "feedback_wrong": "L'axe d'étude n'est ni le nombre de chapitres, ni la biographie de l'auteur, ni un passage recopié. C'est une question qui guide la lecture de toute l'œuvre et organise ton étude."
+  },
+  "verification": "ok2"
+}

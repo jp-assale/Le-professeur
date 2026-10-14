@@ -1,0 +1,74 @@
+{
+  "slug": "cote-ivoire-lycee-francais-2nde-l-implicite",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Francais",
+  "chapitre": "2nde · L'implicite",
+  "classe": "2nde",
+  "source": "2nde : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 2nde <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20SECONDE%20VALIDE.pdf>; 1ère : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, 1ère <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%201re%20VALIDE.pdf>; Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Francais, Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/Programmes/prg_secondaire/Fran/PROGRAMME%20EDUCATIF%20TERMINALE%20VALIDE.pdf>",
+  "template": "text_only",
+  "title": "2nde · L'implicite",
+  "intro": {
+    "heading": "Ce que les mots ne disent pas tout haut",
+    "body": "À la cantine, Mariam dit à son amie : « Tu as encore oublié ton argent. » Son amie comprend deux choses que Mariam n'a pas dites clairement. D'abord, qu'elle avait déjà oublié son argent une autre fois : le mot « encore » le laisse entendre. Ensuite, que Mariam devra peut-être lui prêter de l'argent pour le repas. Dans cette leçon, tu apprends à repérer ces informations cachées, qu'on appelle l'implicite."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🔍",
+        "text": "Le présupposé est lié aux mots et reste vrai même si la phrase est mise à la forme négative."
+      },
+      {
+        "icon": "💬",
+        "text": "Le sous-entendu se déduit du contexte et peut être nié par le locuteur."
+      },
+      {
+        "icon": "✅",
+        "text": "Repère les marqueurs puis teste par la négation."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Présupposé et sous-entendu : deux formes d'implicite",
+    "explanation": "Une phrase peut dire des choses explicitement, mais aussi en suggérer d'autres : c'est l'implicite. Le présupposé est une information contenue dans les mots de la phrase elle-même. Il reste vrai même si on met la phrase à la forme négative ou interrogative. Par exemple, « Kofi a cessé de fumer » présuppose que Kofi fumait avant ; « Kofi n'a pas cessé de fumer » présuppose la même chose. Les marqueurs du présupposé sont souvent des verbes comme cesser, arrêter, devenir, continuer, ou des adverbes comme déjà, encore, toujours. Le sous-entendu, lui, n'est pas dans les mots : c'est le destinataire qui le déduit grâce au contexte et à la situation. Si l'élève dit « Il fait très chaud dans cette salle », il sous-entend peut-être « Ouvre la fenêtre », mais il peut toujours répondre : « Je disais juste qu'il fait chaud. » Le locuteur peut donc refuser un sous-entendu, alors qu'il ne peut pas refuser un présupposé.",
+    "highlight": "Présupposé : implicite lié aux mots, qui résiste à la négation. Sous-entendu : implicite déduit du contexte, que le locuteur peut nier."
+  },
+  "example": {
+    "problem": "Analyse ces deux phrases inventées. 1) « Aminata a cessé de copier sur sa voisine. » 2) Une mère dit à son fils Kofi, devant la télévision : « Kofi, tu as une composition demain. » Trouve l'implicite de chacune et dis de quel type il s'agit.",
+    "steps": [
+      "Phrase 1 : repère le marqueur. Le verbe « cesser de » indique un changement par rapport au passé.",
+      "Déduis l'information cachée : Aminata copiait sur sa voisine auparavant.",
+      "Fais le test de la négation : « Aminata n'a pas cessé de copier » suppose toujours qu'elle copiait. C'est donc un présupposé.",
+      "Phrase 2 : aucun marqueur de présupposé. La mère donne une information, mais elle veut sans doute dire à Kofi d'éteindre la télévision et de réviser.",
+      "Vérifie avec le contexte : la mère peut répondre « Je te le rappelais simplement ». Elle peut nier, donc c'est un sous-entendu.",
+      "Conclusion : la phrase 1 contient un présupposé, la phrase 2 un sous-entendu."
+    ]
+  },
+  "quiz": {
+    "question": "Dans la phrase « Fatou a cessé de vendre des beignets devant le lycée », quel est le présupposé ?",
+    "reponse_calculee": "Fatou vendait des beignets devant le lycée auparavant",
+    "choices": [
+      {
+        "label": "Fatou vendait des beignets devant le lycée auparavant",
+        "correct": true
+      },
+      {
+        "label": "Fatou n'a plus d'argent pour acheter de la farine",
+        "correct": false
+      },
+      {
+        "label": "Les élèves n'aiment plus les beignets",
+        "correct": false
+      },
+      {
+        "label": "Fatou a ouvert une boutique ailleurs",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Exact. Le verbe « cesser de » présuppose que l'action existait avant. Cette information reste vraie même à la forme négative : « Fatou n'a pas cessé de vendre des beignets ».",
+    "feedback_wrong": "Ce n'est pas la bonne réponse. Les autres propositions sont des suppositions possibles, mais elles ne sont pas contenues dans les mots de la phrase. Le présupposé, ici, vient du verbe « cesser de » : Fatou vendait des beignets devant le lycée auparavant."
+  },
+  "verification": "ok2"
+}

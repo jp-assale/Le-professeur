@@ -1,0 +1,73 @@
+{
+  "slug": "cote-ivoire-lycee-espagnol-2nde1eretle-la-connaissance-des-r",
+  "pays": "cote_ivoire",
+  "niveau": "lycee",
+  "examen": "Baccalaureat",
+  "serie": null,
+  "matiere": "Espagnol",
+  "chapitre": "2nde–1ère–Tle · La connaissance des réalités du monde hispanique et de l'Afrique",
+  "classe": "2nde–1ère–Tle",
+  "source": "2nde–1ère–Tle : Programme éducatif officiel (MENET/DPFC, Côte d'Ivoire) — Espagnol, 2nde–1ère–Tle <https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/espagnol/ESPAGNOL%202nde.pdf>",
+  "template": "text_only",
+  "title": "2nde–1ère–Tle · La connaissance des réalités du monde hispanique et de l'Afrique",
+  "intro": {
+    "heading": "Un reportage à la radio",
+    "body": "Aya écoute un court reportage en espagnol pour préparer un exposé. Elle ne comprend pas chaque mot, mais elle repère des mots clés : país (pays), capital (capitale), rey (roi), presidente (président). Grâce à eux, elle comprend de quel pays on parle et comment il est gouverné. Dans cette leçon, tu apprends à repérer et à utiliser ces mots pour présenter un pays hispanique ou africain."
+  },
+  "resume": {
+    "points": [
+      {
+        "icon": "🌍",
+        "text": "Présenter un pays : país, capital, continente."
+      },
+      {
+        "icon": "👑",
+        "text": "Dire le système politique : monarquía, república, presidente."
+      },
+      {
+        "icon": "🎧",
+        "text": "À l'oral, repère d'abord les mots clés."
+      }
+    ]
+  },
+  "concept": {
+    "heading": "Présenter un pays et son système politique",
+    "explanation": "Pour parler du monde hispanique et de l'Afrique, tu travailles quatre domaines : la historia (l'histoire), la geografía (la géographie), la sociedad y la cultura (la société et la culture) et el sistema político (le système politique). Pour présenter un pays, tu utilises des phrases courtes avec le verbe ser, qui donne es (est). Tu dis d'abord le nom du pays, puis son continent, puis sa capitale. Pour le système politique, tu retiens deux mots : una monarquía (une monarchie) et una república (une république). L'Espagne est une monarquía : il y a un rey (un roi), et le pays est organisé en comunidades autónomas (communautés autonomes). Dans une república, il y a un presidente (un président), comme au Mexique. Guinea Ecuatorial (Guinée équatoriale) est un pays d'Afrique où l'espagnol est langue officielle. À l'oral, ne cherche pas à tout comprendre : repère les mots clés, ils te donnent le sens général.",
+    "highlight": "[Pays] es un país de [continent]. Ejemplo : México es un país de América. (Le Mexique est un pays d'Amérique.)"
+  },
+  "example": {
+    "problem": "Construis en espagnol : « La Guinée équatoriale est un pays d'Afrique. Sa capitale est Malabo. »",
+    "steps": [
+      "Étape 1 : « pays » se dit país, un mot masculin, donc on écrit un país.",
+      "Étape 2 : « est » se dit es. On écrit Guinea Ecuatorial es un país.",
+      "Étape 3 : « d'Afrique » se dit de África. On obtient Guinea Ecuatorial es un país de África.",
+      "Étape 4 : « Sa capitale » se dit Su capital, puis es (est), puis le nom Malabo.",
+      "Réponse : Guinea Ecuatorial es un país de África. Su capital es Malabo. (La Guinée équatoriale est un pays d'Afrique. Sa capitale est Malabo.)"
+    ]
+  },
+  "quiz": {
+    "question": "Comment dit-on en espagnol « L'Espagne est une monarchie » ?",
+    "reponse_calculee": "España es una monarquía.",
+    "choices": [
+      {
+        "label": "España es una monarquía.",
+        "correct": true
+      },
+      {
+        "label": "España es una república.",
+        "correct": false
+      },
+      {
+        "label": "España es un río.",
+        "correct": false
+      },
+      {
+        "label": "España es una ciudad.",
+        "correct": false
+      }
+    ],
+    "feedback_correct": "Bravo ! España es una monarquía signifie « L'Espagne est une monarchie » : le pays a un rey (un roi).",
+    "feedback_wrong": "La bonne réponse est : España es una monarquía. Una república veut dire « une république », ce qui est faux pour l'Espagne. Un río est un fleuve et una ciudad est une ville, ce qui n'a pas de sens pour un pays."
+  },
+  "verification": "ok2"
+}
