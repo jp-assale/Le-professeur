@@ -244,10 +244,34 @@ sur ton compte console.anthropic.com). Le quota gratuit par appareil sert à
 protéger la marge — à ajuster (`DAILY_FREE_LIMIT` dans `.env`) selon ce que le
 budget permet avant qu'un abonnement payant compense.
 
-Ordre de grandeur mesuré avec Haiku : environ 0,003 $ (≈ 1,7 FCFA) par question
-écrite, 0,005 $ par quiz, davantage pour une photo ou un PDF. L'illimité est
-plafonné par `PREMIUM_DAILY_LIMIT` : à 40 questions par jour, même un abonné
-qui atteint le plafond tous les jours reste proche du prix de son abonnement
-(2 500 FCFA par mois). Si la section Entonnoir montre que beaucoup d'abonnés
-l'atteignent, relève-le dans les variables d'environnement Render, sans
-publier de nouvelle version.
+**Modèle : Claude Haiku 5.5** (`claude-haiku-5-5`, effort `low`) depuis le
+14/10/2026. Mesuré sur 18 questions types (chat, schémas, courbes, quiz) avec
+les vraies consignes de l'appli : **0,38 FCFA par question en moyenne contre
+2,50 FCFA avec Haiku 4.5**, réponses en 7,5 s contre 11,8 s, aucune réponse
+coupée. La consigne « va toujours jusqu'au résultat final » a été ajoutée car
+Haiku 5.5 laissait parfois le dernier calcul à l'élève. Retour arrière :
+`ASSISTANT_MODEL=claude-haiku-4-5-20251001` sur Render (la page admin affiche
+le modèle en service).
+
+Deux plafonds protègent la marge :
+- **Gratuit** : `FREE_MONTHLY_BUDGET_USD` (35 $ par mois par défaut). Une fois
+  atteint, les élèves non abonnés passent à `FREE_LIMIT_OVER_BUDGET` (2)
+  questions par jour jusqu'à la fin du mois. La perte maximale est donc connue.
+  Jauge « Plafond IA du gratuit » dans la page admin.
+- **Illimité** : `PREMIUM_DAILY_LIMIT` (40 questions par jour, une photo ou un
+  PDF compte double). Si la section Entonnoir montre que beaucoup d'abonnés
+  l'atteignent, relève-le dans les variables d'environnement Render.
+
+## Capacité (beaucoup d'élèves en même temps)
+
+- **Anthropic** n'est pas la limite : le compte autorise 10 000 requêtes par
+  minute sur Haiku 5.5 (environ 2 800 questions par minute).
+- **Le serveur** : 2 processus × 32 fils (Dockerfile). Au plus
+  `AI_MAX_SIMULTANEOUS` (24) questions IA en même temps par processus, soit 48,
+  ce qui fait environ 380 questions par minute à 7,5 s par réponse ; les autres
+  fils restent libres pour les leçons et les sujets, qui ne figent jamais.
+  Au-delà, l'élève attend jusqu'à `AI_QUEUE_WAIT_S` (15 s) puis reçoit
+  « Beaucoup d'élèves utilisent Le Prof JPA en ce moment, réessaie dans
+  quelques secondes » ; l'appli réessaie toute seule.
+- **Étape suivante si l'affluence grandit** : une instance Render plus grosse
+  (plus de mémoire, donc plus de processus).

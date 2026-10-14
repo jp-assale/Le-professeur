@@ -1474,6 +1474,13 @@
         <div id="subscribe-pay" hidden style="font-size:0.88rem;background:var(--green-light);border-radius:10px;padding:10px 12px;margin-bottom:12px;line-height:1.5;"></div>
         <input type="tel" id="subscribe-tel" placeholder="Ton numéro WhatsApp (facultatif)" autocomplete="tel"
           style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
+        ${isNativeApp() ? "" : `
+        <label for="subscribe-app-code" style="display:block;font-size:0.82rem;color:var(--text-muted);margin:0 0 4px;">
+          Tu t'abonnes pour l'appli Android ? Colle ici le code de ton appli (bouton 🔑 dans l'appli).
+          Laisse vide pour t'abonner sur ce site.</label>
+        <input type="text" id="subscribe-app-code" placeholder="ex : dev-abc123…" autocomplete="off" spellcheck="false"
+          style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
+        <p id="subscribe-app-code-msg" style="font-size:0.78rem;margin:-6px 0 12px;"></p>`}
         <a id="subscribe-whatsapp-link" href="#" target="_blank" rel="noopener"
           style="display:block;text-align:center;padding:12px;border-radius:10px;background:#25d366;color:#fff;font-weight:600;text-decoration:none;font-size:0.95rem;">
           💬 Envoyer ma demande sur WhatsApp
@@ -1486,13 +1493,21 @@
 
     const waLink = overlay.querySelector("#subscribe-whatsapp-link");
     const telInput = overlay.querySelector("#subscribe-tel");
+    const appCodeInput = overlay.querySelector("#subscribe-app-code");
+    const appCodeMsg = overlay.querySelector("#subscribe-app-code-msg");
+    // Appareil a activer : l'appli Android dont l'eleve a colle le code, sinon ce
+    // navigateur. Un code mal colle (incomplet) n'est jamais utilise.
+    function targetDeviceId() {
+      const code = appCodeInput ? appCodeInput.value.trim() : "";
+      return /^dev-[A-Za-z0-9_.-]{4,116}$/.test(code) ? code : DEVICE_ID;
+    }
     let waNumber = SUBSCRIBE_WHATSAPP_NUMBER;
     try { telInput.value = localStorage.getItem("aida_sub_tel") || ""; } catch (e) {}
 
     // Reference unique de la demande : stable pour une meme formule pendant 24 h,
     // pour que renvoyer le message ne puisse jamais activer l'abonnement deux fois.
-    function requestRef(planId) {
-      const key = "aida_sub_k_" + planId;
+    function requestRef(planId, deviceId) {
+      const key = "aida_sub_k_" + planId + (deviceId === DEVICE_ID ? "" : "_" + deviceId);
       try {
         const saved = JSON.parse(localStorage.getItem(key) || "null");
         if (saved && saved.k && Date.now() - saved.t < 24 * 3600 * 1000) return saved.k;
@@ -1515,15 +1530,24 @@
       const plan = SUBSCRIBE_PLANS.find((p) => checked && p.id === checked.value) || SUBSCRIBE_PLANS[0];
       const prenom = getStoredPrenom();
       const tel = telInput.value.trim();
+      const target = targetDeviceId();
+      if (appCodeMsg) {
+        const saisi = appCodeInput.value.trim();
+        appCodeMsg.textContent = !saisi ? ""
+          : target === saisi ? "✓ L'abonnement sera activé dans ton appli Android."
+          : "Code incomplet : copie-le avec le bouton « Copier » de l'appli (🔑).";
+        appCodeMsg.style.color = target === saisi ? "var(--green-dark, #1a7a4c)" : "#9b2c2c";
+      }
       // Lien de validation (comme dans JPA BRVM) : l'admin le touche sur son telephone,
       // la page admin s'ouvre avec la demande deja remplie et UN bouton pour valider.
       // Le lien seul n'active rien : seul l'admin (jeton) peut valider.
       const link = SHARE_URL + "/admin.html#demande-" + b64urlJson({
-        k: requestRef(plan.id), d: DEVICE_ID, j: plan.days, n: prenom || "", t: tel, p: plan.label, m: plan.price,
+        k: requestRef(plan.id, target), d: target, j: plan.days, n: prenom || "", t: tel, p: plan.label, m: plan.price,
       });
       const message =
         "Bonjour ! Je veux passer en illimité sur JPA Assistant Scolaire.\n" +
         (prenom ? "Prénom : " + prenom + "\n" : "") +
+        (target !== DEVICE_ID ? "Pour mon appli Android (code " + target + ")\n" : "") +
         "Formule : " + plan.label + " (" + plan.price.toLocaleString("fr-FR") + " FCFA)\n" +
         "Je t'envoie la capture de mon paiement.\n\n" +
         "Lien de validation (réservé à l'admin) :\n" + link;
@@ -1536,9 +1560,11 @@
       try { localStorage.setItem("aida_sub_tel", telInput.value.trim()); } catch (e) {}
       updateWaLink();
     });
+    if (appCodeInput) appCodeInput.addEventListener("input", updateWaLink);
     waLink.addEventListener("click", () => {
       trackFunnel("demande_paiement");
-      startActivationWatch();
+      // Abonnement pour l'appli Android : c'est l'appli qui verra l'activation.
+      if (targetDeviceId() === DEVICE_ID) startActivationWatch();
     });
     updateWaLink();
 

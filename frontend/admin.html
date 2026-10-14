@@ -395,6 +395,14 @@
         "Disque Render utilisé",
         data.disque_utilise_mo + " Mo / " + data.disque_total_mo + " Mo"
       ));
+      const budgetGratuitPct = data.budget_gratuit_usd
+        ? Math.round(1000 * data.cout_gratuit_ce_mois_usd / data.budget_gratuit_usd) / 10 : 0;
+      statsGrid.appendChild(gaugeCard(
+        budgetGratuitPct,
+        "Plafond IA du gratuit ce mois (bloquant)",
+        "$" + data.cout_gratuit_ce_mois_usd + " / $" + data.budget_gratuit_usd +
+          " — " + data.questions_gratuites_par_jour + " questions gratuites par jour"
+      ));
       const storageCard = statCard(
         data.stockage_persistant ? "✓ Persistant" : "⚠ Éphémère",
         data.stockage_persistant

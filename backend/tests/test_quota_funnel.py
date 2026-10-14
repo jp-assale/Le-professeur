@@ -27,15 +27,24 @@ ANDROID = {"Origin": "https://localhost"}
 class FauxClient:
     """Remplace le client Anthropic : repond toujours la meme chose."""
 
-    def __init__(self):
+    def __init__(self, texte="Explication."):
         self.messages = self
         self.appels = 0
+        self.texte = texte
+        self.derniers_parametres = {}
 
     def create(self, **kwargs):
         self.appels += 1
+        self.derniers_parametres = kwargs
+        # Comme Haiku 5.5 : un bloc de reflexion (texte vide) avant la reponse.
+        content = [SimpleNamespace(type="thinking", thinking="", signature="x")]
+        if self.texte:
+            content.append(SimpleNamespace(type="text", text=self.texte))
         return SimpleNamespace(
-            content=[SimpleNamespace(type="text", text="Explication.")],
-            usage=SimpleNamespace(input_tokens=10, output_tokens=10),
+            content=content,
+            stop_reason="end_turn" if self.texte else "refusal",
+            # Taille realiste : un cout arrondi a 0 $ fausserait les tests du budget.
+            usage=SimpleNamespace(input_tokens=600, output_tokens=700),
         )
 
 
@@ -163,6 +172,85 @@ class TestEntonnoir(Base):
         data = self.http.get("/api/admin/stats", headers=ADMIN).get_json()
         self.assertIn("stockage_persistant", data)
         self.assertEqual(data["plafond_premium_jour"], 3)
+
+
+class TestModeleIA(Base):
+    def test_bloc_de_reflexion_ignore(self):
+        r = self.ask()
+        self.assertEqual(r.get_json()["answer"], "Explication.")
+        self.assertEqual(self.faux.derniers_parametres["model"], app_module.MODEL)
+        for cle, valeur in app_module.AI_PARAMS.items():
+            self.assertEqual(self.faux.derniers_parametres[cle], valeur)
+
+    def test_reponse_vide_message_clair_sans_consommer_le_quota(self):
+        self.faux.texte = ""
+        r = self.ask()
+        self.assertEqual(r.status_code, 502)
+        self.assertIn("Reformule", r.get_json()["error"])
+        q = self.http.get("/api/quota?device_id=" + self.device).get_json()
+        self.assertEqual(q["remaining"], q["limit"])
+
+    def test_serveur_occupe_reponse_claire_sans_consommer_le_quota(self):
+        import threading
+        slots, attente = app_module._ia_slots, app_module.AI_QUEUE_WAIT_S
+        app_module._ia_slots = threading.BoundedSemaphore(1)
+        app_module.AI_QUEUE_WAIT_S = 0.05
+        app_module._ia_slots.acquire()  # une question deja en cours, plus de place
+        try:
+            r = self.ask()
+        finally:
+            app_module._ia_slots.release()
+            app_module._ia_slots, app_module.AI_QUEUE_WAIT_S = slots, attente
+        self.assertEqual(r.status_code, 503)
+        self.assertIn("Reessaie", r.get_json()["error"])
+        self.assertEqual(self.faux.appels, 0)
+        q = self.http.get("/api/quota?device_id=" + self.device).get_json()
+        self.assertEqual(q["remaining"], q["limit"])
+
+    def test_plafond_de_longueur(self):
+        if app_module._ANCIEN_MODELE:
+            self.assertEqual(app_module._cap(1000), 1000)
+        else:
+            self.assertGreater(app_module._cap(1000), 1000)
+
+
+class TestPlafondBudgetGratuit(Base):
+    def setUp(self):
+        super().setUp()
+        import usage_log
+        self.usage_log = usage_log
+        self._budget = usage_log.FREE_MONTHLY_BUDGET_USD
+        usage_log._cache_gratuit["expire"] = 0  # pas de valeur memorisee d'un autre test
+
+    def tearDown(self):
+        self.usage_log.FREE_MONTHLY_BUDGET_USD = self._budget
+        self.usage_log._cache_gratuit["expire"] = 0
+        super().tearDown()
+
+    def test_couts_etiquetes_gratuit_ou_premium(self):
+        avant = self.usage_log.month_cost_usd("premium")
+        subscription.set_premium(self.device, True)
+        self.ask()
+        self.assertGreater(self.usage_log.month_cost_usd("premium"), avant)
+
+    def test_budget_atteint_reduit_le_gratuit_mais_pas_les_abonnes(self):
+        self.usage_log.FREE_MONTHLY_BUDGET_USD = 1e-9  # deja depasse par les tests precedents ou celui-ci
+        self.ask()
+        self.usage_log._cache_gratuit["expire"] = 0
+        q = self.http.get("/api/quota?device_id=" + self.device).get_json()
+        self.assertEqual(q["limit"], min(app_module.DAILY_FREE_LIMIT, app_module.FREE_LIMIT_OVER_BUDGET))
+        while self.ask().status_code == 200:
+            pass
+        self.assertLessEqual(self.faux.appels, app_module.FREE_LIMIT_OVER_BUDGET + 1)
+        abonne = self.device + "-abo"
+        subscription.set_premium(abonne, True)
+        r = self.http.post("/api/ask", json={"device_id": abonne, "question": "?"}, environ_base=self.ip)
+        self.assertEqual(r.status_code, 200)
+
+    def test_budget_non_atteint_quota_normal(self):
+        self.usage_log.FREE_MONTHLY_BUDGET_USD = 1e9
+        q = self.http.get("/api/quota?device_id=" + self.device).get_json()
+        self.assertEqual(q["limit"], app_module.DAILY_FREE_LIMIT)
 
 
 class TestRattrapage(unittest.TestCase):

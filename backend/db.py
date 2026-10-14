@@ -206,6 +206,20 @@ def _migrate_premium_until(conn: sqlite3.Connection) -> None:
         conn.commit()
 
 
+def _migrate_usage_offre(conn: sqlite3.Connection) -> None:
+    """Colonne offre ("gratuit"/"premium") du journal des couts IA, pour le
+    plafond mensuel du gratuit, et index sur la date (somme du mois a chaque
+    question)."""
+    cols = [row[1] for row in conn.execute("PRAGMA table_info(usage_log)").fetchall()]
+    if "offre" not in cols:
+        try:
+            conn.execute("ALTER TABLE usage_log ADD COLUMN offre TEXT")
+        except sqlite3.OperationalError:
+            pass  # deja ajoutee par l'autre worker Gunicorn
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_usage_ts ON usage_log(ts)")
+    conn.commit()
+
+
 def _migrate_funnel_backfill(conn: sqlite3.Connection) -> None:
     """Donne une seule fois aux appareils deja connus leurs etapes passees de
     l'entonnoir (dates estimees d'apres leur activite) : sans cela, leur
@@ -252,6 +266,7 @@ def get_connection() -> sqlite3.Connection:
                 conn.commit()
                 _migrate_legacy_json(conn)
                 _migrate_premium_until(conn)
+                _migrate_usage_offre(conn)
                 _migrate_funnel_backfill(conn)
                 _initialized = True
     return conn

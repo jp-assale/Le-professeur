@@ -4,6 +4,7 @@ import json
 import os
 import re
 import shutil
+import threading
 import time
 from datetime import date
 
@@ -55,7 +56,59 @@ if SENTRY_DSN:
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 DAILY_FREE_LIMIT = int(os.environ.get("DAILY_FREE_LIMIT", "5"))
-MODEL = os.environ.get("ASSISTANT_MODEL", "claude-haiku-4-5-20251001")
+MODEL = os.environ.get("ASSISTANT_MODEL", "claude-haiku-5-5")
+
+# Claude Haiku 5.5 (octobre 2026) : ~6 fois moins cher par question que Haiku 4.5
+# et plus rapide, mesure sur 18 questions types. Il reflechit avant de repondre ;
+# l'effort "low" garde des reponses rapides et peu couteuses. Haiku 4.5 ne
+# connait pas ce reglage : retour arriere possible avec
+# ASSISTANT_MODEL=claude-haiku-4-5-20251001.
+AI_EFFORT = os.environ.get("ASSISTANT_EFFORT", "low")
+_ANCIEN_MODELE = MODEL.startswith(("claude-haiku-4-5", "claude-3"))
+AI_PARAMS = {} if _ANCIEN_MODELE else {"output_config": {"effort": AI_EFFORT}}
+
+
+def _cap(max_tokens: int) -> int:
+    """Plafond de longueur de reponse : la reflexion compte dans max_tokens et le
+    tokenizer de Haiku 5.5 compte ~30 % de tokens en plus pour le meme texte -
+    plafond elargi pour ne pas couper les reponses (on ne paie que l'utilise)."""
+    return max_tokens if _ANCIEN_MODELE else int(max_tokens * 2.2)
+
+
+class ReponseVide(Exception):
+    """Aucun texte dans la reponse de l'IA (refus de securite, coupure...)."""
+
+
+class ServeurOccupe(Exception):
+    """Trop de questions en cours en meme temps sur ce processus."""
+
+
+# Questions traitees en meme temps par processus Gunicorn : le reste des fils
+# (voir --threads dans le Dockerfile) reste libre pour les lecons, sujets et
+# quotas, pour que l'appli ne fige pas si beaucoup d'eleves posent une question
+# au meme moment. Au-dela, l'eleve attend jusqu'a AI_QUEUE_WAIT_S secondes,
+# puis recoit « reessaie dans quelques secondes » (l'appli reessaie seule).
+AI_MAX_SIMULTANEOUS = int(os.environ.get("AI_MAX_SIMULTANEOUS", "24"))
+AI_QUEUE_WAIT_S = float(os.environ.get("AI_QUEUE_WAIT_S", "15"))
+_ia_slots = threading.BoundedSemaphore(AI_MAX_SIMULTANEOUS)
+
+
+def _appel_ia(**kwargs):
+    """Appel a Claude avec le modele et le niveau de reflexion configures."""
+    if not _ia_slots.acquire(timeout=AI_QUEUE_WAIT_S):
+        raise ServeurOccupe()
+    try:
+        return client.messages.create(model=MODEL, **AI_PARAMS, **kwargs)
+    finally:
+        _ia_slots.release()
+
+
+def _extract_text(response) -> str:
+    # Lire les blocs par type : Haiku 5.5 peut commencer par des blocs "thinking".
+    text = "".join(b.text for b in response.content if b.type == "text")
+    if not text.strip():
+        raise ReponseVide(response.stop_reason)
+    return text
 
 # Secret partage pour proteger l'ajout/suppression de PDF (toi seul devrait
 # pouvoir en ajouter). A definir dans .env - choisis une chaine aleatoire.
@@ -77,6 +130,10 @@ IP_DAILY_LIMIT = DAILY_FREE_LIMIT * int(os.environ.get("IP_LIMIT_MULTIPLIER", "6
 # eleve qui revise intensement depasse rarement 20 a 30 questions par jour ;
 # meme ponderation que le gratuit (une photo ou un PDF compte double).
 PREMIUM_DAILY_LIMIT = int(os.environ.get("PREMIUM_DAILY_LIMIT", "40"))
+# Plafond mensuel de depense IA du gratuit (voir usage_log.FREE_MONTHLY_BUDGET_USD) :
+# une fois atteint, quota gratuit reduit a ce nombre de questions par jour.
+FREE_LIMIT_OVER_BUDGET = int(os.environ.get("FREE_LIMIT_OVER_BUDGET", "2"))
+
 PREMIUM_CAP_MESSAGE = (
     "Tu as atteint la limite d'usage raisonnable de l'illimité pour aujourd'hui "
     f"({PREMIUM_DAILY_LIMIT} questions). Elle se renouvelle demain. "
@@ -100,6 +157,12 @@ def _friendly_ai_error(exc: Exception) -> tuple[str, int]:
     message qui invite a reessayer, avec un code HTTP que le frontend peut
     reconnaitre pour re-tenter automatiquement plutot que d'afficher une
     erreur technique brute (utile en cas de pic de connexions simultanees)."""
+    if isinstance(exc, ReponseVide):
+        return ("Le Prof JPA n'a pas pu repondre a cette question. "
+                "Reformule-la, s'il te plait.", 502)
+    if isinstance(exc, ServeurOccupe):
+        return ("Beaucoup d'eleves utilisent Le Prof JPA en ce moment. "
+                "Reessaie dans quelques secondes.", 503)
     if isinstance(exc, RateLimitError):
         return ("Beaucoup d'eleves utilisent Le Prof JPA en ce moment. "
                 "Reessaie dans quelques secondes.", 429)
@@ -216,6 +279,9 @@ def build_system_prompt(pays_code: str, niveau_code: str, matiere: str,
         "Regles:\n"
         "- Ne donne jamais directement la reponse finale en premier: explique le "
         "raisonnement etape par etape, comme un professeur au tableau.\n"
+        "- Va toujours jusqu'au bout : termine l'explication par le resultat final "
+        "(valeur numerique, unite, conclusion), puis seulement propose un exercice "
+        "pour s'entrainer. Ne laisse pas le dernier calcul a l'eleve.\n"
         "- Adapte le niveau de langage et la difficulte au niveau scolaire indique.\n"
         "- Utilise des exemples concrets et locaux quand c'est pertinent.\n"
         "- Termine par un court recapitulatif ou une question pour verifier la "
@@ -440,6 +506,18 @@ def _premium_key(device_id: str) -> str:
     return "premium:" + device_id
 
 
+def _offre(premium: bool) -> str:
+    return "premium" if premium else "gratuit"
+
+
+def _free_daily_limit() -> int:
+    """Questions gratuites par jour : reduites quand le plafond mensuel de
+    depense IA du gratuit est atteint, pour que la perte reste bornee."""
+    if usage_log.free_budget_exceeded():
+        return min(DAILY_FREE_LIMIT, FREE_LIMIT_OVER_BUDGET)
+    return DAILY_FREE_LIMIT
+
+
 def _check_quota(device_id: str, weight: int, message: str):
     """A appeler avant un appel IA. Retourne (premium, remaining, refus) :
     `refus` est la reponse 429 a renvoyer telle quelle, ou None si l'appel
@@ -456,7 +534,7 @@ def _check_quota(device_id: str, weight: int, message: str):
         return True, remaining, None
 
     ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+    remaining = quota_store.get_remaining(device_id, _free_daily_limit())
     if remaining < weight or ip_remaining < weight:
         funnel.record(device_id, "quota_atteint")
         return False, remaining, (jsonify({
@@ -474,7 +552,7 @@ def _consume_quota(device_id: str, premium: bool, weight: int = 1) -> int:
     if premium:
         return quota_store.consume(_premium_key(device_id), PREMIUM_DAILY_LIMIT, weight=weight)
     quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
-    return quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
+    return quota_store.consume(device_id, _free_daily_limit(), weight=weight)
 
 
 def _plateforme() -> str:
@@ -532,16 +610,13 @@ def upload_exercice():
     ]
 
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=900,
+        response = _appel_ia(
+            max_tokens=_cap(900),
             system=system_prompt,
             messages=[{"role": "user", "content": content}],
         )
-        answer = "".join(
-            block.text for block in response.content if block.type == "text"
-        )
-        usage_log.log_call(MODEL, "upload-exercice", response.usage.input_tokens, response.usage.output_tokens)
+        answer = _extract_text(response)
+        usage_log.log_call(MODEL, "upload-exercice", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
     except Exception as exc:
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
@@ -599,15 +674,14 @@ def generate_quiz():
     system_prompt = build_quiz_system_prompt(pays, niveau, matiere, sujet[:4000], n_questions, diagnostic)
 
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=max(1500, 220 * n_questions),
+        response = _appel_ia(
+            max_tokens=_cap(max(1500, 220 * n_questions)),
             system=system_prompt,
             messages=[{"role": "user", "content": "Genere le quiz au format demande."}],
         )
-        raw = "".join(b.text for b in response.content if b.type == "text")
+        raw = _extract_text(response)
         quiz = _parse_quiz_json(raw)
-        usage_log.log_call(MODEL, "quiz", response.usage.input_tokens, response.usage.output_tokens)
+        usage_log.log_call(MODEL, "quiz", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
     except (json.JSONDecodeError, IndexError):
         return jsonify({"error": "Reponse IA invalide, reessaie."}), 502
     except Exception as exc:
@@ -679,14 +753,14 @@ def diagnostic_complete():
 
     system_prompt = build_profile_system_prompt(pays, niveau, matiere)
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=400,
+        response = _appel_ia(
+            max_tokens=_cap(400),
             system=system_prompt,
             messages=[{"role": "user", "content": results_text}],
         )
-        note = "".join(b.text for b in response.content if b.type == "text")
-        usage_log.log_call(MODEL, "diagnostic-profile", response.usage.input_tokens, response.usage.output_tokens)
+        note = _extract_text(response)
+        usage_log.log_call(MODEL, "diagnostic-profile", response.usage.input_tokens, response.usage.output_tokens,
+                           _offre(subscription.is_premium(device_id)))
     except Exception as exc:
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
@@ -746,14 +820,13 @@ def correction_copie():
         })
 
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=1000,
+        response = _appel_ia(
+            max_tokens=_cap(1000),
             system=system_prompt,
             messages=[{"role": "user", "content": content}],
         )
-        answer = "".join(b.text for b in response.content if b.type == "text")
-        usage_log.log_call(MODEL, "correction-copie", response.usage.input_tokens, response.usage.output_tokens)
+        answer = _extract_text(response)
+        usage_log.log_call(MODEL, "correction-copie", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
     except Exception as exc:
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
@@ -902,14 +975,13 @@ def pdf_sujet_corriger(sujet_id):
         ]
 
         try:
-            response = client.messages.create(
-                model=MODEL,
-                max_tokens=1200,
+            response = _appel_ia(
+                max_tokens=_cap(1200),
                 system=system_prompt,
                 messages=[{"role": "user", "content": content}],
             )
-            answer = "".join(b.text for b in response.content if b.type == "text")
-            usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens)
+            answer = _extract_text(response)
+            usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
         except Exception as exc:
             msg, status = _friendly_ai_error(exc)
             return jsonify({"error": msg}), status
@@ -1027,6 +1099,10 @@ def admin_stats():
         # si DATA_DIR est un disque monte (disque persistant Render).
         "stockage_persistant": os.path.ismount(DATA_DIR),
         "plafond_premium_jour": PREMIUM_DAILY_LIMIT,
+        "cout_gratuit_ce_mois_usd": usage_log.month_cost_usd("gratuit"),
+        "budget_gratuit_usd": usage_log.FREE_MONTHLY_BUDGET_USD,
+        "questions_gratuites_par_jour": _free_daily_limit(),
+        "modele_ia": MODEL,
     })
 
 
@@ -1159,10 +1235,11 @@ def get_quota():
     # Appele au demarrage par toutes les versions de l'appli : la premiere
     # fois pour un appareil, c'est sa premiere ouverture.
     funnel.record(device_id, "ouverture", _plateforme())
-    remaining = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+    limit = _free_daily_limit()
+    remaining = quota_store.get_remaining(device_id, limit)
     return jsonify({
         "remaining": remaining,
-        "limit": DAILY_FREE_LIMIT,
+        "limit": limit,
         "premium": subscription.is_premium(device_id),
     })
 
@@ -1332,16 +1409,13 @@ def ask():
     messages = safe_history + [{"role": "user", "content": question}]
 
     try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=1100,
+        response = _appel_ia(
+            max_tokens=_cap(1100),
             system=system_prompt,
             messages=messages,
         )
-        answer = "".join(
-            block.text for block in response.content if block.type == "text"
-        )
-        usage_log.log_call(MODEL, "ask", response.usage.input_tokens, response.usage.output_tokens)
+        answer = _extract_text(response)
+        usage_log.log_call(MODEL, "ask", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
         progress_store.log_event(device_id, "ask", pays, niveau, matiere)
     except Exception as exc:  # surface a readable error to the frontend
         msg, status = _friendly_ai_error(exc)
