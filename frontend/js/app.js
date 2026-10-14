@@ -84,9 +84,13 @@
 
   const DEVICE_ID = getOrCreateDeviceId();
   const SHARE_URL = "https://le-professeur.onrender.com";
+  const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.leprofesseur.app";
 
   function shareToWhatsApp(text) {
-    const url = "https://wa.me/?text=" + encodeURIComponent(text + "\n\n" + SHARE_URL);
+    // Depuis l'appli Android, on partage la fiche Play Store et non le site (qui
+    // propose le paiement : interdit de renvoyer vers lui depuis l'appli).
+    const lien = isNativeApp() ? PLAY_STORE_URL : SHARE_URL;
+    const url = "https://wa.me/?text=" + encodeURIComponent(text + "\n\n" + lien);
     window.open(url, "_blank", "noopener");
   }
 
@@ -476,9 +480,87 @@
     return div;
   }
 
+  // --- Appli Android : « consommation seule » (regles de paiement Google Play) ---
+  // L'appli ne vend rien : ni bouton de paiement, ni lien vers le site ou
+  // WhatsApp. Elle donne seulement, en texte, le prix et ou s'abonner (ce que la
+  // FAQ paiements de Google Play autorise, sans lien direct), plus le code de
+  // l'appareil a communiquer. Le site web garde la fenetre de paiement complete.
+  let bureauWhatsappDigits = "22371698694"; // remplace par /api/pay-info si disponible
+
+  function formatPhone(digits) {
+    const d = String(digits || "").replace(/\D/g, "");
+    if (d.length < 9) return d;
+    return "+" + d.slice(0, 3) + " " + d.slice(3).replace(/(\d{2})(?=\d)/g, "$1 ");
+  }
+
+  function infoIllimiteHtml() {
+    const prix = SUBSCRIBE_PLANS.map((p) =>
+      p.price.toLocaleString("fr-FR") + " F pour " + p.label).join(" ou ");
+    return (
+      "<p><b>Accès illimité</b> : " + escapeHtml(prix) + ".</p>" +
+      "<p>Pour t'abonner, rends-toi sur notre site <b>" + escapeHtml(SHARE_URL.replace(/^https?:\/\//, "")) +
+      "</b> ou écris à notre bureau local sur WhatsApp au <b class=\"bureau-whatsapp\">" +
+      escapeHtml(formatPhone(bureauWhatsappDigits)) + "</b>, en donnant ton code :</p>" +
+      '<p class="code-appli"><code>' + escapeHtml(DEVICE_ID) + "</code></p>" +
+      '<div class="quota-actions">' +
+      '<button type="button" class="copy-code">📋 Copier mon code</button>' +
+      "</div>" +
+      '<p class="copy-code-msg" style="min-height:1.2em;margin:4px 0 0;"></p>' +
+      "<p>Dès que ton abonnement est validé, l'accès illimité s'active tout seul dans l'appli.</p>"
+    );
+  }
+
+  // Branche le bouton « Copier mon code » et met a jour le numero du bureau.
+  function wireInfoIllimite(container) {
+    trackFunnel("offre_vue");
+    const msg = container.querySelector(".copy-code-msg");
+    container.querySelector(".copy-code").addEventListener("click", async () => {
+      const prenom = getStoredPrenom();
+      const texte = "Code Le Prof JPA : " + DEVICE_ID + (prenom ? "\nPrénom : " + prenom : "");
+      let copie = false;
+      try {
+        await navigator.clipboard.writeText(texte);
+        copie = true;
+      } catch (e) {
+        // Ancienne methode, acceptee par plus de WebView Android.
+        const zone = document.createElement("textarea");
+        zone.value = texte;
+        zone.setAttribute("readonly", "");
+        zone.style.cssText = "position:fixed;opacity:0;";
+        document.body.appendChild(zone);
+        zone.select();
+        try { copie = document.execCommand("copy"); } catch (e2) { copie = false; }
+        zone.remove();
+      }
+      msg.textContent = copie
+        ? "✅ Code copié : colle-le dans ton message au bureau."
+        : "Recopie le code ci-dessus dans ton message au bureau.";
+      trackFunnel("demande_paiement");
+    });
+    fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
+      if (!info.whatsapp) return;
+      bureauWhatsappDigits = info.whatsapp;
+      container.querySelectorAll(".bureau-whatsapp").forEach((el) => { el.textContent = formatPhone(info.whatsapp); });
+    }).catch(() => {});
+  }
+
+  function openInfoIllimiteModal() {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML =
+      '<div class="modal-box"><div class="modal-header"><span>✨ Accès illimité</span>' +
+      '<button type="button" class="info-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button></div>' +
+      '<div class="info-illimite" style="font-size:0.9rem;line-height:1.5;">' + infoIllimiteHtml() + "</div></div>";
+    document.body.appendChild(overlay);
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
+    overlay.querySelector(".info-close").addEventListener("click", () => overlay.remove());
+    wireInfoIllimite(overlay);
+  }
+
   // Fin des questions gratuites du jour : message clair avec le bouton pour
   // passer en illimite ou la possibilite d'attendre demain (au lieu d'un
   // simple message d'erreur). Non conserve dans l'historique de conversation.
+  // Dans l'appli Android : prix et contacts en texte, sans bouton de paiement.
   function showQuotaExhausted(scrollToIt) {
     const existing = chatEl.querySelector(".msg-quota");
     if (existing) {
@@ -487,18 +569,26 @@
     }
     const div = document.createElement("div");
     div.className = "msg msg-quota";
-    div.innerHTML =
-      "<p><b>Tu as utilisé tes questions gratuites du jour 🎓</b></p>" +
-      "<p>Pour continuer à poser des questions sans limite, passe en illimité. " +
-      "Sinon, reviens demain : tu retrouveras de nouvelles questions gratuites.</p>" +
-      '<div class="quota-actions">' +
-      '<button type="button" class="quota-upgrade">✨ Passer en illimité</button>' +
-      '<button type="button" class="quota-wait">⏰ Revenir demain</button>' +
-      "</div>";
-    div.querySelector(".quota-upgrade").addEventListener("click", openSubscribeWhatsAppModal);
-    div.querySelector(".quota-wait").addEventListener("click", () => {
-      div.querySelector(".quota-actions").outerHTML = "<p>À demain ! 👋 Tes questions gratuites reviennent chaque jour.</p>";
-    });
+    if (isNativeApp()) {
+      div.innerHTML =
+        "<p><b>Tu as utilisé tes questions gratuites du jour 🎓</b></p>" +
+        "<p>Reviens demain : tu retrouveras de nouvelles questions gratuites.</p>" +
+        infoIllimiteHtml();
+      wireInfoIllimite(div);
+    } else {
+      div.innerHTML =
+        "<p><b>Tu as utilisé tes questions gratuites du jour 🎓</b></p>" +
+        "<p>Pour continuer à poser des questions sans limite, passe en illimité. " +
+        "Sinon, reviens demain : tu retrouveras de nouvelles questions gratuites.</p>" +
+        '<div class="quota-actions">' +
+        '<button type="button" class="quota-upgrade">✨ Passer en illimité</button>' +
+        '<button type="button" class="quota-wait">⏰ Revenir demain</button>' +
+        "</div>";
+      div.querySelector(".quota-upgrade").addEventListener("click", openSubscribeWhatsAppModal);
+      div.querySelector(".quota-wait").addEventListener("click", () => {
+        div.querySelector(".quota-actions").outerHTML = "<p>À demain ! 👋 Tes questions gratuites reviennent chaque jour.</p>";
+      });
+    }
     chatEl.appendChild(div);
     if (scrollToIt) chatEl.scrollTop = chatEl.scrollHeight;
   }
@@ -1608,9 +1698,15 @@
     }, 20000);
   }
 
+  if (isNativeApp()) upgradeLink.textContent = "✨ Accès illimité";
+
   upgradeLink.addEventListener("click", async () => {
     if (isPremium) {
       window.alert("Tu es déjà en illimité ✨");
+      return;
+    }
+    if (isNativeApp()) {
+      openInfoIllimiteModal(); // aucune vente dans l'appli Android (voir plus haut)
       return;
     }
     upgradeLink.disabled = true;
@@ -1827,6 +1923,23 @@
   quizBtn.addEventListener("click", () => startQuiz(false));
   diagnosticBtn.addEventListener("click", () => startQuiz(true));
 
+
+  // Retour dans l'appli (par exemple apres avoir paye sur le site ou ecrit au
+  // bureau) : si l'abonnement vient d'etre active, l'eleve le voit tout de suite.
+  let lastPremiumCheck = 0;
+  document.addEventListener("visibilitychange", async () => {
+    if (document.visibilityState !== "visible" || isPremium || Date.now() - lastPremiumCheck < 30000) return;
+    lastPremiumCheck = Date.now();
+    try {
+      const res = await fetch(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)));
+      const data = await res.json();
+      if (!data.premium) return;
+      isPremium = true;
+      setQuota(data.remaining, data.limit);
+      document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
+      addMessage("✨ Ton accès illimité est activé ! Merci, et bon courage pour tes révisions.", "msg-bot");
+    } catch (e) { /* hors-ligne : on reverifiera au prochain retour */ }
+  });
 
   loadCurriculum();
   loadQuota();

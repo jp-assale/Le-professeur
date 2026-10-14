@@ -588,8 +588,7 @@ def upload_exercice():
         device_id, UPLOAD_QUESTION_WEIGHT,
         "Envoyer un sujet compte pour "
         f"{UPLOAD_QUESTION_WEIGHT} questions et il ne t'en reste pas "
-        "assez aujourd'hui. Reviens demain, ou passe en illimite "
-        "(bientot disponible via Orange Money / Wave / Moov Money).",
+        "assez aujourd'hui. Reviens demain, ou passe en illimite.",
     )
     if refus:
         return refus
@@ -1389,8 +1388,7 @@ def ask():
     premium, _, refus = _check_quota(
         device_id, 1,
         "Tu as utilise tes questions gratuites du jour. "
-        "Reviens demain, ou passe en illimite (bientot disponible "
-        "via Orange Money / Wave / Moov Money).",
+        "Reviens demain, ou passe en illimite.",
     )
     if refus:
         return refus

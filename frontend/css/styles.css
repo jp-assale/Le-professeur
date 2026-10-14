@@ -735,6 +735,14 @@ body {
 }
 .quota-upgrade { background: linear-gradient(135deg, #ffd166, #f5a524); color: #5a3b00; box-shadow: 0 3px 10px rgba(0,0,0,0.15); }
 .quota-wait { background: rgba(0,0,0,0.07); color: inherit; }
+/* Appli Android : informations d'abonnement en texte (voir infoIllimiteHtml). */
+.code-appli code {
+  display: inline-block; max-width: 100%; padding: 4px 8px; border-radius: 6px;
+  background: rgba(0,0,0,0.07); font-size: 0.82rem; overflow-wrap: anywhere;
+}
+.copy-code { background: var(--green, #1a7a4c); color: #fff; }
+.copy-code-msg { font-size: 0.8rem; }
+.info-illimite p { margin: 0 0 8px; }
 
 /* Zone de saisie : champ pleine largeur, plus haut, contour or ; les boutons
    (photo, fichier, micro, envoyer) passent sur une ligne en dessous. */

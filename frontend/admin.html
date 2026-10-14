@@ -160,6 +160,12 @@
     tu vérifies le paiement puis tu actives ici.
   </p>
   <div class="admin-field">
+    <label for="paste-student-msg">Colle le message WhatsApp de l'élève : le code, le prénom, le numéro et la formule sont remplis tout seuls</label>
+    <textarea id="paste-student-msg" rows="3" style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:8px;border:1px solid var(--border);font-size:0.85rem;"
+      placeholder="Code Le Prof JPA : dev-…&#10;Prénom : …"></textarea>
+    <div class="admin-msg" id="paste-result"></div>
+  </div>
+  <div class="admin-field">
     <label for="premium-device-id">Code appareil de l'élève</label>
     <input type="text" id="premium-device-id" placeholder="ex: dev-abc123-1234567890">
   </div>
@@ -180,6 +186,14 @@
   </div>
   <button type="button" id="premium-deactivate-btn" style="background:#fdeceb;color:#9b2c2c;border:1px solid #f3c6c2;margin-top:8px;">Désactiver (correction d'erreur)</button>
   <div class="admin-msg" id="premium-msg"></div>
+  <div id="premium-reply" hidden style="margin-top:8px;">
+    <p style="font-size:0.82rem;color:var(--text-muted);margin:0 0 6px;">Réponse prête pour l'élève :</p>
+    <textarea id="premium-reply-text" rows="3" readonly style="width:100%;box-sizing:border-box;padding:8px 10px;border-radius:8px;border:1px solid var(--border);font-size:0.85rem;"></textarea>
+    <div class="admin-row" style="margin-top:6px;">
+      <button type="button" id="premium-reply-copy" class="stats-refresh">📋 Copier la réponse</button>
+      <a id="premium-reply-wa" class="stats-refresh" hidden target="_blank" rel="noopener" style="text-decoration:none;text-align:center;">💬 Ouvrir WhatsApp</a>
+    </div>
+  </div>
 
   <h3 style="font-size:0.9rem;margin-top:22px;">Supprimer les données d'un appareil (demande d'effacement)</h3>
   <p style="font-size:0.82rem;color:var(--text-muted);margin:4px 0 8px;">Efface progression, profils, signalements, transactions et compteur du code appareil. L'abonnement n'est supprimé que s'il est expiré, ou si tu coches la case.</p>
@@ -470,6 +484,53 @@
   const premiumContactInput = document.getElementById("premium-contact");
   const premiumDurationInput = document.getElementById("premium-duration");
   const premiumMsg = document.getElementById("premium-msg");
+  const premiumReply = document.getElementById("premium-reply");
+  const premiumReplyText = document.getElementById("premium-reply-text");
+  const premiumReplyWa = document.getElementById("premium-reply-wa");
+  let pastedPrenom = "";
+
+  // Message colle depuis WhatsApp (l'eleve a utilise « Copier mon code » dans
+  // l'appli, ou a ecrit librement) : on en tire le code appareil, le prenom, le
+  // numero et la formule, pour activer ensuite en un clic.
+  document.getElementById("paste-student-msg").addEventListener("input", (e) => {
+    const texte = e.target.value;
+    const result = document.getElementById("paste-result");
+    const code = (texte.match(/dev-[A-Za-z0-9_.-]{4,116}/) || [""])[0];
+    const sansCode = code ? texte.replace(code, " ") : texte;
+    const prenom = ((sansCode.match(/pr[ée]nom\s*:\s*([^\n\r]+)/i) || [])[1] || "").trim().slice(0, 40);
+    const tel = ((sansCode.match(/\+?\d[\d .]{7,16}\d/) || [""])[0]).trim();
+    const deuxMois = /2\s*mois|60\s*jours|4\s*500/i.test(sansCode);
+    const unMois = /1\s*mois|30\s*jours|2\s*500/i.test(sansCode);
+    if (code) premiumDeviceInput.value = code;
+    if (tel && tel.replace(/\D/g, "").length >= 8) premiumContactInput.value = tel;
+    if (deuxMois || unMois) premiumDurationInput.value = deuxMois ? "60" : "30";
+    pastedPrenom = prenom;
+    premiumReply.hidden = true;
+    if (!texte.trim()) { result.textContent = ""; return; }
+    result.textContent = code
+      ? "✅ Code trouvé" + (prenom ? ", prénom : " + prenom : "") + (tel ? ", numéro : " + tel : "") +
+        ". Vérifie la formule, puis touche « Activer l'illimité »."
+      : "Aucun code trouvé (il commence par « dev- ») : demande à l'élève d'utiliser « Copier mon code » dans l'appli.";
+    result.className = "admin-msg " + (code ? "ok" : "err");
+  });
+
+  document.getElementById("premium-reply-copy").addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(premiumReplyText.value); }
+    catch (e) { premiumReplyText.select(); document.execCommand("copy"); }
+    premiumMsg.textContent = "📋 Réponse copiée : colle-la dans la discussion WhatsApp.";
+  });
+
+  function showPremiumReply(premiumUntil) {
+    const [y, m, d] = premiumUntil.split("-");
+    premiumReplyText.value = "Bonjour" + (pastedPrenom ? " " + pastedPrenom : "") +
+      " ! Ton paiement est bien reçu ✅ Ton accès illimité est activé jusqu'au " + d + "/" + m + "/" + y +
+      ". Ouvre l'appli JPA Assistant Scolaire : si besoin, ferme-la puis rouvre-la. Bon courage pour tes révisions !";
+    let digits = premiumContactInput.value.replace(/\D/g, "");
+    if (digits.length === 8) digits = "223" + digits;  // numero local malien sans indicatif
+    premiumReplyWa.hidden = digits.length < 10;
+    premiumReplyWa.href = "https://wa.me/" + digits + "?text=" + encodeURIComponent(premiumReplyText.value);
+    premiumReply.hidden = false;
+  }
 
   async function setPremium(activate) {
     const deviceId = premiumDeviceInput.value.trim();
@@ -500,6 +561,8 @@
         ? "✅ Illimité activé jusqu'au " + data.premium_until + "."
         : "Illimité désactivé pour cet appareil.";
       premiumMsg.className = "admin-msg ok";
+      if (activate && data.premium_until) showPremiumReply(data.premium_until);
+      else premiumReply.hidden = true;
       loadPremiumList();
     } catch (err) {
       premiumMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);

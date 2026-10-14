@@ -2,7 +2,9 @@
 Écrite pour respecter la politique « Métadonnées » : pas d'émojis, pas de MAJUSCULES, pas de
 superlatifs ni de promesses de résultats, pas d'argument de prix ou de promotion, pas de noms de
 marques tierces, pas de témoignages, pas de répétition de mots-clés. Tout ce qui est décrit existe
-réellement dans l'appli (version 2.13).
+réellement dans l'appli (version 2.18).
+Règles de paiement Google Play (version 2.18) : l'appli ne vend rien et la fiche ne doit mentionner
+aucun moyen de paiement (mobile money, WhatsApp, prix). L'abonnement se prend sur le site web.
 
 --- Nom de l'appli (30 caractères max) — 22 caractères ---
 JPA Assistant Scolaire
@@ -31,7 +33,7 @@ Matières
 Mathématiques, français, physique-chimie, SVT, histoire-géographie, anglais, philosophie, économie, allemand et espagnol, selon le pays et le niveau.
 
 Utilisation
-Aucun compte n'est nécessaire. Un nombre limité de questions par jour est proposé ; un abonnement permet de poser plus de questions. L'abonnement s'active manuellement après paiement par mobile money.
+Aucun compte n'est nécessaire. Un nombre limité de questions par jour est proposé ; les abonnés peuvent en poser davantage.
 
 À savoir
 Les réponses sont générées par une intelligence artificielle et peuvent contenir des erreurs. Compare toujours avec ton cours et ton professeur. Un bouton permet de signaler une réponse incorrecte.
@@ -52,3 +54,10 @@ Politique de confidentialité : https://le-professeur.onrender.com/privacy.html
   « Nouveau ! », pas de prix, pas d'étoiles ni de notes.
 - Aucune capture ne doit montrer le niveau Primaire (retiré).
 - Ne pas montrer de données personnelles réelles (prénom d'élève, code appareil).
+
+--- Notes de version 2.18 (Play Console → Production → Nouvelle version → « Nouveautés ») ---
+<fr-FR>
+Message plus clair quand les questions gratuites du jour sont épuisées.
+Bouton pour copier le code de ton appli.
+L'accès illimité s'affiche dès ton retour dans l'appli, une fois activé.
+</fr-FR>

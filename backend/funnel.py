@@ -20,7 +20,8 @@ ETAPES = (
     ("premiere_question", "1re question posée (chat, photo, quiz…)"),
     ("quota_atteint", "Questions gratuites épuisées"),
     ("offre_vue", "Offre illimitée affichée"),
-    ("demande_paiement", "Demande envoyée sur WhatsApp"),
+    # Site : demande envoyee sur WhatsApp ; appli Android : code copie pour le bureau.
+    ("demande_paiement", "Demande d'abonnement (WhatsApp ou code copié)"),
     ("paiement", "Abonnement activé"),
 )
 # Hors entonnoir : abonnes qui atteignent le plafond d'usage raisonnable
