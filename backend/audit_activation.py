@@ -10,6 +10,7 @@ os.environ["ADMIN_TOKEN"] = "test-token-xyz"
 os.environ["PAY_WHATSAPP"] = "+223 70 00 00 00"
 os.environ["PAY_ORANGE"] = "+223 71 11 11 11"
 os.environ["PAY_BENEFICIARY"] = "Test Beneficiaire"
+os.environ["PAY_WAVE"] = ""  # variable vide = Wave desactive (sinon le numero par defaut apparait)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -58,5 +59,12 @@ check("2 demandes enregistrees (pas 3)", n == 2)
 info = c.get("/api/pay-info").get_json()
 check("/api/pay-info public : whatsapp en chiffres", info["whatsapp"] == "22370000000")
 check("/api/pay-info : mode de paiement et beneficiaire", info["methods"] == [{"label": "Orange Money", "number": "+223 71 11 11 11"}] and info["beneficiary"] == "Test Beneficiaire")
+for var in ("PAY_ORANGE", "PAY_WAVE", "PAY_WHATSAPP", "PAY_BENEFICIARY"):
+    os.environ.pop(var, None)  # sans variables : valeurs par defaut confirmees par l'admin
+d = c.get("/api/pay-info").get_json()
+check("sans variables : Orange Money + Wave par defaut",
+      [(m["label"], m["number"]) for m in d["methods"]] ==
+      [("Orange Money", "+223 71 69 86 94"), ("Wave (Côte d'Ivoire)", "+225 07 01 19 48 82")])
+check("sans variables : numero WhatsApp par defaut", d["whatsapp"] == "22371698694" and d["beneficiary"] is None)
 print("RESUME : %d echec(s)." % len(problems))
 sys.exit(1 if problems else 0)

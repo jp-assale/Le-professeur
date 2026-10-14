@@ -1415,7 +1415,10 @@
   const SUBSCRIBE_PAY_INFO = {
     whatsapp: SUBSCRIBE_WHATSAPP_NUMBER,
     beneficiary: null,
-    methods: [{ label: "Orange Money", number: "+223 71 69 86 94" }],
+    methods: [
+      { label: "Orange Money", number: "+223 71 69 86 94" },
+      { label: "Wave (Côte d'Ivoire)", number: "+225 07 01 19 48 82" },
+    ],
   };
 
   // Un seul forfait a la fois a du sens (pas un choix multiple) - boutons

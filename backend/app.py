@@ -1070,14 +1070,20 @@ def pay_info():
     """Infos de paiement affichees dans l'appli (numero WhatsApp, Mobile Money).
     Modifiables dans les variables d'environnement Render (PAY_*), sans publier
     une nouvelle version de l'appli."""
+    # Numeros confirmes par l'admin (2026-10-12 : Orange Money + WhatsApp ; 2026-10-14 : Wave CI).
+    # Une variable Render PAY_* les remplace ; une variable VIDE desactive le moyen de paiement.
+    defaults = {"PAY_ORANGE": "+223 71 69 86 94", "PAY_WAVE": "+225 07 01 19 48 82"}
     methods = []
-    for key, label in (("PAY_WAVE", "Wave"), ("PAY_ORANGE", "Orange Money"),
+    for key, label in (("PAY_ORANGE", "Orange Money"), ("PAY_WAVE", "Wave (Côte d'Ivoire)"),
                        ("PAY_MTN", "MTN MoMo"), ("PAY_MOOV", "Moov Money")):
-        number = (os.environ.get(key) or "").strip()
+        number = os.environ.get(key)
+        number = (defaults.get(key, "") if number is None else number).strip()
         if number:
             methods.append({"label": label, "number": number})
+    whatsapp = os.environ.get("PAY_WHATSAPP")
+    whatsapp = "22371698694" if whatsapp is None else whatsapp
     return jsonify({
-        "whatsapp": re.sub(r"\D", "", os.environ.get("PAY_WHATSAPP", "") or "") or None,
+        "whatsapp": re.sub(r"\D", "", whatsapp) or None,
         "beneficiary": (os.environ.get("PAY_BENEFICIARY") or "").strip() or None,
         "methods": methods,
     })
