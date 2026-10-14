@@ -19,10 +19,15 @@ def delete_device_data(device_id: str, include_subscription: bool = False) -> di
     conn = db.get_connection()
     counts = {}
     try:
-        for table in ("progress_events", "profiles", "reports", "payments", "quota", "activation_requests"):
+        for table in ("progress_events", "profiles", "reports", "payments", "quota",
+                      "activation_requests", "funnel_events"):
             counts[table] = conn.execute(
                 "DELETE FROM %s WHERE device_id = ?" % table, (device_id,)
             ).rowcount
+        # Compteur du plafond d'usage de l'illimite (voir _premium_key dans app.py).
+        counts["quota"] += conn.execute(
+            "DELETE FROM quota WHERE device_id = ?", ("premium:" + device_id,)
+        ).rowcount
 
         row = conn.execute(
             "SELECT premium, premium_until FROM subscriptions WHERE device_id = ?", (device_id,)

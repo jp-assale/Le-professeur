@@ -52,6 +52,10 @@
   .warn-ok .stats-bar-fill { background: var(--green-dark, #1a7a4c); }
   .warn-mid .stats-bar-fill { background: #b8860b; }
   .warn-high .stats-bar-fill { background: #9b2c2c; }
+  .funnel-row { border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; margin-bottom: 6px; }
+  .funnel-head { display: flex; justify-content: space-between; gap: 8px; font-size: 0.85rem; }
+  .funnel-row .stats-bar-fill { background: var(--green-dark, #1a7a4c); }
+  .funnel-row .stats-label, .funnel-note { font-size: 0.75rem; color: var(--text-muted); }
   .stats-refresh {
     background: var(--surface); color: var(--text); border: 1px solid var(--border);
     padding: 6px 12px; font-size: 0.8rem; margin-bottom: 4px;
@@ -133,6 +137,21 @@
   <button type="button" class="stats-refresh" id="stats-refresh">Actualiser</button>
   <div class="stats-grid" id="stats-grid"></div>
   <div class="admin-msg" id="stats-msg"></div>
+
+  <h2 style="font-size:1rem;margin-top:24px;">Entonnoir d'acquisition</h2>
+  <p style="font-size:0.82rem;color:var(--text-muted)">
+    Nombre d'appareils qui franchissent chaque étape, une fois chacun. Choisis une
+    date pour ne compter que les appareils ouverts pour la première fois depuis ce
+    jour (une semaine, une campagne). « Offre affichée » et « Demande envoyée » ne
+    sont comptées qu'à partir de la version 2.18 de l'appli Android.
+  </p>
+  <div class="admin-field">
+    <label for="funnel-depuis">Nouveaux appareils depuis (facultatif)</label>
+    <input type="date" id="funnel-depuis">
+  </div>
+  <button type="button" class="stats-refresh" id="funnel-refresh">Afficher l'entonnoir</button>
+  <div id="funnel-wrap" style="margin-top:10px;"></div>
+  <div class="admin-msg" id="funnel-msg"></div>
 
   <h2 style="font-size:1rem;margin-top:24px;">Activer un abonnement illimité (paiement manuel)</h2>
   <p style="font-size:0.82rem;color:var(--text-muted)">
@@ -376,6 +395,15 @@
         "Disque Render utilisé",
         data.disque_utilise_mo + " Mo / " + data.disque_total_mo + " Mo"
       ));
+      const storageCard = statCard(
+        data.stockage_persistant ? "✓ Persistant" : "⚠ Éphémère",
+        data.stockage_persistant
+          ? "Stockage des abonnements (disque monté)"
+          : "Stockage des abonnements : perdu au prochain redéploiement !"
+      );
+      storageCard.classList.add(data.stockage_persistant ? "warn-ok" : "warn-high");
+      statsGrid.appendChild(storageCard);
+      statsGrid.appendChild(statCard(data.plafond_premium_jour, "Plafond illimité (questions/jour)"));
     } catch (err) {
       statsMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
       statsMsg.className = "admin-msg err";
@@ -383,6 +411,52 @@
   }
 
   document.getElementById("stats-refresh").addEventListener("click", loadStats);
+
+  const funnelWrap = document.getElementById("funnel-wrap");
+  const funnelMsg = document.getElementById("funnel-msg");
+  const funnelDepuis = document.getElementById("funnel-depuis");
+
+  async function loadFunnel() {
+    funnelMsg.textContent = "Chargement…";
+    funnelMsg.className = "admin-msg";
+    funnelWrap.innerHTML = "";
+    try {
+      const qs = funnelDepuis.value ? "?depuis=" + encodeURIComponent(funnelDepuis.value) : "";
+      const res = await fetch("/api/admin/funnel" + qs, {
+        headers: { "X-Admin-Token": tokenInput.value },
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        funnelMsg.textContent = data.error || ("Erreur (statut " + res.status + ").");
+        funnelMsg.className = "admin-msg err";
+        return;
+      }
+      funnelMsg.textContent = "";
+      const max = Math.max(1, ...data.etapes.map((e) => e.appareils));
+      data.etapes.forEach((e) => {
+        const row = document.createElement("div");
+        row.className = "funnel-row";
+        const taux = e.taux_etape === null ? "" : e.taux_etape + " % de l'étape précédente";
+        row.innerHTML = `
+          <div class="funnel-head"><span>${e.label}</span><strong>${e.appareils}</strong></div>
+          <div class="stats-bar"><div class="stats-bar-fill" style="width:${Math.round(100 * e.appareils / max)}%"></div></div>
+          <div class="stats-label">${taux}</div>`;
+        funnelWrap.appendChild(row);
+      });
+      const plateformes = Object.entries(data.plateformes)
+        .map(([nom, n]) => nom + " : " + n).join(" · ") || "aucune";
+      const note = document.createElement("p");
+      note.className = "funnel-note";
+      note.textContent = "Premières ouvertures par plateforme — " + plateformes +
+        ". Abonnés ayant atteint le plafond de l'illimité : " + data.plafond_premium + ".";
+      funnelWrap.appendChild(note);
+    } catch (err) {
+      funnelMsg.textContent = "Connexion impossible : " + (err && err.message ? err.message : err);
+      funnelMsg.className = "admin-msg err";
+    }
+  }
+
+  document.getElementById("funnel-refresh").addEventListener("click", loadFunnel);
 
   const premiumDeviceInput = document.getElementById("premium-device-id");
   const premiumContactInput = document.getElementById("premium-contact");

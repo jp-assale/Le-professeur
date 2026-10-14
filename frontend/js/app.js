@@ -24,6 +24,12 @@
         // le quota n'est jamais consomme sur un appel IA en echec, donc
         // reessayer automatiquement ici est sans risque de double-decompte.
         if ((res.status === 429 || res.status === 503) && attempt < retries) {
+          // Questions gratuites epuisees ou plafond de l'illimite atteint :
+          // refus definitif pour aujourd'hui, inutile de faire attendre l'eleve.
+          if (res.status === 429) {
+            const body = await res.clone().json().catch(() => null);
+            if (body && (body.error === "quota_depasse" || body.error === "plafond_premium")) return res;
+          }
           await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
           continue;
         }
@@ -1428,7 +1434,22 @@
     { id: "2-mois", label: "2 mois", price: 4500, days: 60 },
   ];
 
+  // Etapes de l'entonnoir que seul l'appareil voit (voir backend/funnel.py) :
+  // envoyees une seule fois par appareil, sans jamais bloquer l'eleve.
+  function trackFunnel(etape) {
+    const key = "aida_funnel_" + etape;
+    try { if (localStorage.getItem(key)) return; } catch (e) {}
+    fetch(apiUrl("/api/funnel"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ device_id: DEVICE_ID, etape: etape }),
+    }).then((res) => {
+      if (res.ok) { try { localStorage.setItem(key, "1"); } catch (e) {} }
+    }).catch(() => {});
+  }
+
   function openSubscribeWhatsAppModal() {
+    trackFunnel("offre_vue");
     const overlay = document.createElement("div");
     overlay.className = "modal-overlay";
     const plansHtml = SUBSCRIBE_PLANS.map((p, i) => `
@@ -1515,7 +1536,10 @@
       try { localStorage.setItem("aida_sub_tel", telInput.value.trim()); } catch (e) {}
       updateWaLink();
     });
-    waLink.addEventListener("click", () => startActivationWatch());
+    waLink.addEventListener("click", () => {
+      trackFunnel("demande_paiement");
+      startActivationWatch();
+    });
     updateWaLink();
 
     // Numero WhatsApp et moyens de paiement : fournis par le serveur (reglables sans

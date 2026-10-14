@@ -24,6 +24,7 @@ from sentry_sdk.integrations.flask import FlaskIntegration
 import cinetpay
 import data_deletion
 import db
+import funnel
 import pdf_library
 import cours_library
 import payments_store
@@ -70,6 +71,17 @@ SUBSCRIPTION_PRICE_FCFA = int(os.environ.get("SUBSCRIPTION_PRICE_FCFA", "1000"))
 # par appareil (localStorage), donc on ajoute un plafond secondaire par IP,
 # plus large pour ne pas penaliser les reseaux partages (cyber, ecole).
 IP_DAILY_LIMIT = DAILY_FREE_LIMIT * int(os.environ.get("IP_LIMIT_MULTIPLIER", "6"))
+
+# Plafond d'usage raisonnable de l'illimite : chaque question coute un appel
+# IA, et un abonne sans limite pourrait couter plus que son abonnement. Un
+# eleve qui revise intensement depasse rarement 20 a 30 questions par jour ;
+# meme ponderation que le gratuit (une photo ou un PDF compte double).
+PREMIUM_DAILY_LIMIT = int(os.environ.get("PREMIUM_DAILY_LIMIT", "40"))
+PREMIUM_CAP_MESSAGE = (
+    "Tu as atteint la limite d'usage raisonnable de l'illimité pour aujourd'hui "
+    f"({PREMIUM_DAILY_LIMIT} questions). Elle se renouvelle demain. "
+    "Bon courage pour tes révisions !"
+)
 
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend")
 
@@ -423,6 +435,54 @@ def _client_ip() -> str:
     return remote
 
 
+def _premium_key(device_id: str) -> str:
+    # Compteur du plafond premium, distinct du compteur gratuit du meme appareil.
+    return "premium:" + device_id
+
+
+def _check_quota(device_id: str, weight: int, message: str):
+    """A appeler avant un appel IA. Retourne (premium, remaining, refus) :
+    `refus` est la reponse 429 a renvoyer telle quelle, ou None si l'appel
+    peut partir. `message` est celui du refus pour un eleve non abonne."""
+    if subscription.is_premium(device_id):
+        remaining = quota_store.get_remaining(_premium_key(device_id), PREMIUM_DAILY_LIMIT)
+        if remaining < weight:
+            funnel.record(device_id, funnel.ETAPE_PLAFOND)
+            return True, remaining, (jsonify({
+                "error": "plafond_premium",
+                "message": PREMIUM_CAP_MESSAGE,
+                "remaining": remaining,
+            }), 429)
+        return True, remaining, None
+
+    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
+    remaining = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
+    if remaining < weight or ip_remaining < weight:
+        funnel.record(device_id, "quota_atteint")
+        return False, remaining, (jsonify({
+            "error": "quota_depasse",
+            "message": message,
+            "remaining": min(remaining, ip_remaining),
+        }), 429)
+    return False, remaining, None
+
+
+def _consume_quota(device_id: str, premium: bool, weight: int = 1) -> int:
+    """A appeler apres un appel IA reussi (jamais en cas d'echec). Retourne
+    les questions restantes aujourd'hui (gratuites, ou sous le plafond premium)."""
+    funnel.record(device_id, "premiere_question")
+    if premium:
+        return quota_store.consume(_premium_key(device_id), PREMIUM_DAILY_LIMIT, weight=weight)
+    quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
+    return quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
+
+
+def _plateforme() -> str:
+    """Appli Android (WebView Capacitor, origine localhost) ou site web."""
+    origin = request.headers.get("Origin", "")
+    return "android" if origin in ("https://localhost", "http://localhost", "capacitor://localhost") else "web"
+
+
 @app.route("/api/upload-exercice", methods=["POST"])
 def upload_exercice():
     if client is None:
@@ -446,19 +506,15 @@ def upload_exercice():
     if not data_b64 or len(data_b64) > MAX_UPLOAD_B64_LEN:
         return jsonify({"error": "Fichier manquant ou trop volumineux (max ~9 Mo)."}), 400
 
-    premium = subscription.is_premium(device_id)
-    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
-
-    if not premium and (remaining_before < UPLOAD_QUESTION_WEIGHT or ip_remaining < UPLOAD_QUESTION_WEIGHT):
-        return jsonify({
-            "error": "quota_depasse",
-            "message": "Envoyer un sujet compte pour "
-                       f"{UPLOAD_QUESTION_WEIGHT} questions et il ne t'en reste pas "
-                       "assez aujourd'hui. Reviens demain, ou passe en illimite "
-                       "(bientot disponible via Orange Money / Wave / Moov Money).",
-            "remaining": min(remaining_before, ip_remaining),
-        }), 429
+    premium, _, refus = _check_quota(
+        device_id, UPLOAD_QUESTION_WEIGHT,
+        "Envoyer un sujet compte pour "
+        f"{UPLOAD_QUESTION_WEIGHT} questions et il ne t'en reste pas "
+        "assez aujourd'hui. Reviens demain, ou passe en illimite "
+        "(bientot disponible via Orange Money / Wave / Moov Money).",
+    )
+    if refus:
+        return refus
 
     system_prompt = build_upload_system_prompt(
         pays, niveau, matiere, prenom=_clean_prenom(payload.get("prenom"))
@@ -490,11 +546,7 @@ def upload_exercice():
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
 
-    if premium:
-        remaining_after = remaining_before
-    else:
-        quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=UPLOAD_QUESTION_WEIGHT)
-        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=UPLOAD_QUESTION_WEIGHT)
+    remaining_after = _consume_quota(device_id, premium, UPLOAD_QUESTION_WEIGHT)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 
@@ -530,17 +582,13 @@ def generate_quiz():
     if not sujet:
         return jsonify({"error": "sujet manquant"}), 400
 
-    premium = subscription.is_premium(device_id)
-    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
-
-    if not premium and (remaining_before <= 0 or ip_remaining <= 0):
-        return jsonify({
-            "error": "quota_depasse",
-            "message": "Tu as utilise tes questions gratuites du jour. Reviens demain, "
-                       "ou passe en illimite.",
-            "remaining": min(remaining_before, ip_remaining),
-        }), 429
+    premium, _, refus = _check_quota(
+        device_id, 1,
+        "Tu as utilise tes questions gratuites du jour. Reviens demain, "
+        "ou passe en illimite.",
+    )
+    if refus:
+        return refus
 
     n_questions = QUIZ_QUESTION_COUNT_DIAGNOSTIC if diagnostic else QUIZ_QUESTION_COUNT_DEFAULT
     requested_n = payload.get("n_questions")
@@ -566,13 +614,9 @@ def generate_quiz():
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
 
-    if premium:
-        remaining_after = remaining_before
-    else:
-        quota_store.consume(_client_ip(), IP_DAILY_LIMIT)
-        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT)
+    remaining_after = _consume_quota(device_id, premium)
 
-    return jsonify({"questions": quiz.get("questions", []), "remaining": remaining_after, "premium": premium})
+    return jsonify({"questions":quiz.get("questions", []), "remaining": remaining_after, "premium": premium})
 
 
 @app.route("/api/progress/log-quiz", methods=["POST"])
@@ -679,17 +723,13 @@ def correction_copie():
     has_photo = bool(mime_type and data_b64)
     weight = UPLOAD_QUESTION_WEIGHT if has_photo else 1
 
-    premium = subscription.is_premium(device_id)
-    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
-
-    if not premium and (remaining_before < weight or ip_remaining < weight):
-        return jsonify({
-            "error": "quota_depasse",
-            "message": "Il ne te reste pas assez de questions gratuites aujourd'hui pour "
-                       "cette correction. Reviens demain, ou passe en illimite.",
-            "remaining": min(remaining_before, ip_remaining),
-        }), 429
+    premium, _, refus = _check_quota(
+        device_id, weight,
+        "Il ne te reste pas assez de questions gratuites aujourd'hui pour "
+        "cette correction. Reviens demain, ou passe en illimite.",
+    )
+    if refus:
+        return refus
 
     if has_photo and mime_type not in ALLOWED_UPLOAD_MIME:
         return jsonify({"error": "Format de fichier non supporte."}), 400
@@ -728,11 +768,7 @@ def correction_copie():
         except ValueError:
             pass
 
-    if premium:
-        remaining_after = remaining_before
-    else:
-        quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
-        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
+    remaining_after = _consume_quota(device_id, premium, weight)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 
@@ -822,19 +858,15 @@ def pdf_sujet_corriger(sujet_id):
     if not device_id:
         return jsonify({"error": "device_id manquant"}), 400
 
-    premium = subscription.is_premium(device_id)
-    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
     weight = UPLOAD_QUESTION_WEIGHT
-
-    if not premium and (remaining_before < weight or ip_remaining < weight):
-        return jsonify({
-            "error": "quota_depasse",
-            "message": "Ouvrir ce sujet compte pour "
-                       f"{weight} questions et il ne t'en reste pas assez "
-                       "aujourd'hui. Reviens demain, ou passe en illimite.",
-            "remaining": min(remaining_before, ip_remaining),
-        }), 429
+    premium, _, refus = _check_quota(
+        device_id, weight,
+        "Ouvrir ce sujet compte pour "
+        f"{weight} questions et il ne t'en reste pas assez "
+        "aujourd'hui. Reviens demain, ou passe en illimite.",
+    )
+    if refus:
+        return refus
 
     # Meme sujet tague avec les memes pays/niveau/matiere que par defaut ->
     # reponse identique pour tout le monde, mise en cache. Si un(e) eleve a un
@@ -885,11 +917,7 @@ def pdf_sujet_corriger(sujet_id):
         if cache_ok:
             pdf_library.set_cached_corriger(sujet_id, answer)
 
-    if premium:
-        remaining_after = remaining_before
-    else:
-        quota_store.consume(_client_ip(), IP_DAILY_LIMIT, weight=weight)
-        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT, weight=weight)
+    remaining_after = _consume_quota(device_id, premium, weight)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 
@@ -953,10 +981,14 @@ def admin_stats():
     today = date.today().isoformat()
     conn = db.get_connection()
     try:
+        # La table quota contient aussi les compteurs par IP (garde-fou) et
+        # ceux du plafond premium : seuls les codes appareil (dev-...) sont des eleves.
         eleves_actifs_aujourdhui = conn.execute(
-            "SELECT COUNT(*) FROM quota WHERE date = ?", (today,)
+            "SELECT COUNT(*) FROM quota WHERE date = ? AND device_id LIKE 'dev-%'", (today,)
         ).fetchone()[0]
-        appareils_connus_total = conn.execute("SELECT COUNT(*) FROM quota").fetchone()[0]
+        appareils_connus_total = conn.execute(
+            "SELECT COUNT(*) FROM quota WHERE device_id LIKE 'dev-%'"
+        ).fetchone()[0]
         abonnes_premium = conn.execute(
             "SELECT COUNT(*) FROM subscriptions WHERE premium = 1"
         ).fetchone()[0]
@@ -991,6 +1023,10 @@ def admin_stats():
         "disque_utilise_mo": round(disque_utilise / (1024 * 1024), 1),
         "disque_total_mo": round(disque_total / (1024 * 1024), 1),
         "disque_pct_utilise": disque_pct,
+        # Abonnements, quotas et entonnoir ne survivent aux redeploiements que
+        # si DATA_DIR est un disque monte (disque persistant Render).
+        "stockage_persistant": os.path.ismount(DATA_DIR),
+        "plafond_premium_jour": PREMIUM_DAILY_LIMIT,
     })
 
 
@@ -1035,6 +1071,8 @@ def admin_set_premium():
         return jsonify({"error": "duree hors limites (1 a 366 jours)"}), 400
 
     premium_until = subscription.set_premium(device_id, premium, days=days, contact=contact)
+    if premium:
+        funnel.record(device_id, "paiement")
     return jsonify({"ok": True, "device_id": device_id, "premium": premium, "premium_until": premium_until})
 
 
@@ -1062,6 +1100,7 @@ def admin_activate_request():
     nom = _clean_prenom(data.get("nom"))
     tel = re.sub(r"[^0-9+ ]", "", str(data.get("tel") or ""))[:20].strip() or None
     result = subscription.activate_request(k, device_id, days, nom=nom, contact=tel)
+    funnel.record(result["device_id"], "paiement")
     return jsonify({"ok": True, **result})
 
 
@@ -1117,12 +1156,39 @@ def get_quota():
     device_id = request.args.get("device_id", "")
     if not device_id:
         return jsonify({"error": "device_id manquant"}), 400
+    # Appele au demarrage par toutes les versions de l'appli : la premiere
+    # fois pour un appareil, c'est sa premiere ouverture.
+    funnel.record(device_id, "ouverture", _plateforme())
     remaining = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
     return jsonify({
         "remaining": remaining,
         "limit": DAILY_FREE_LIMIT,
         "premium": subscription.is_premium(device_id),
     })
+
+
+@app.route("/api/funnel", methods=["POST"])
+def funnel_event():
+    """Etapes de l'entonnoir que seule l'appli voit (offre affichee, demande
+    envoyee sur WhatsApp) - les autres sont constatees par le serveur."""
+    payload = request.get_json(silent=True) or {}
+    device_id = str(payload.get("device_id") or "").strip()
+    etape = payload.get("etape")
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{6,120}", device_id) or etape not in funnel.ETAPES_CLIENT:
+        return jsonify({"error": "parametres invalides"}), 400
+    funnel.record(device_id, etape, _plateforme())
+    return jsonify({"ok": True})
+
+
+@app.route("/api/admin/funnel", methods=["GET"])
+def admin_funnel():
+    denied = _require_admin()
+    if denied:
+        return denied
+    depuis = (request.args.get("depuis") or "").strip() or None
+    if depuis and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", depuis):
+        return jsonify({"error": "date invalide (AAAA-MM-JJ)"}), 400
+    return jsonify(funnel.summary(depuis))
 
 
 @app.route("/api/report", methods=["POST"])
@@ -1213,6 +1279,7 @@ def cinetpay_webhook():
     if cinetpay.is_success(check):
         subscription.set_premium(device_id, True)
         payments_store.mark_status(transaction_id, "confirmed")
+        funnel.record(device_id, "paiement")
     else:
         payments_store.mark_status(transaction_id, "failed")
 
@@ -1242,18 +1309,14 @@ def ask():
     if len(question) > 2000:
         return jsonify({"error": "question trop longue"}), 400
 
-    premium = subscription.is_premium(device_id)
-    ip_remaining = quota_store.get_remaining(_client_ip(), IP_DAILY_LIMIT)
-    remaining_before = quota_store.get_remaining(device_id, DAILY_FREE_LIMIT)
-
-    if not premium and (remaining_before <= 0 or ip_remaining <= 0):
-        return jsonify({
-            "error": "quota_depasse",
-            "message": "Tu as utilise tes questions gratuites du jour. "
-                       "Reviens demain, ou passe en illimite (bientot disponible "
-                       "via Orange Money / Wave / Moov Money).",
-            "remaining": min(remaining_before, ip_remaining),
-        }), 429
+    premium, _, refus = _check_quota(
+        device_id, 1,
+        "Tu as utilise tes questions gratuites du jour. "
+        "Reviens demain, ou passe en illimite (bientot disponible "
+        "via Orange Money / Wave / Moov Money).",
+    )
+    if refus:
+        return refus
 
     profile_note = progress_store.get_profile_note(device_id, matiere)
     system_prompt = build_system_prompt(
@@ -1284,11 +1347,7 @@ def ask():
         msg, status = _friendly_ai_error(exc)
         return jsonify({"error": msg}), status
 
-    if premium:
-        remaining_after = remaining_before
-    else:
-        quota_store.consume(_client_ip(), IP_DAILY_LIMIT)
-        remaining_after = quota_store.consume(device_id, DAILY_FREE_LIMIT)
+    remaining_after = _consume_quota(device_id, premium)
 
     return jsonify({"answer": answer, "remaining": remaining_after, "premium": premium})
 

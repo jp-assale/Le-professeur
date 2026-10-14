@@ -88,6 +88,13 @@ CREATE TABLE IF NOT EXISTS activation_requests (
     ts TEXT NOT NULL,
     premium_until TEXT
 );
+CREATE TABLE IF NOT EXISTS funnel_events (
+    device_id TEXT NOT NULL,
+    etape TEXT NOT NULL,
+    ts TEXT NOT NULL,
+    plateforme TEXT,
+    PRIMARY KEY (device_id, etape)
+);
 CREATE TABLE IF NOT EXISTS _migrations (
     name TEXT PRIMARY KEY
 );
@@ -199,6 +206,40 @@ def _migrate_premium_until(conn: sqlite3.Connection) -> None:
         conn.commit()
 
 
+def _migrate_funnel_backfill(conn: sqlite3.Connection) -> None:
+    """Donne une seule fois aux appareils deja connus leurs etapes passees de
+    l'entonnoir (dates estimees d'apres leur activite) : sans cela, leur
+    prochaine ouverture les compterait comme de nouvelles installations dans
+    la cohorte du jour. Les cles du compteur qui ne sont pas des appareils
+    (adresses IP du garde-fou, plafond premium) sont exclues."""
+    already = conn.execute("SELECT 1 FROM _migrations WHERE name = 'funnel_backfill_v1'").fetchone()
+    if already:
+        return
+    conn.execute(
+        "INSERT OR IGNORE INTO funnel_events (device_id, etape, ts) "
+        "SELECT device_id, 'ouverture', MIN(ts) FROM ("
+        "  SELECT device_id, ts FROM progress_events"
+        "  UNION ALL SELECT device_id, date FROM quota WHERE device_id LIKE 'dev-%'"
+        "  UNION ALL SELECT device_id, updated FROM subscriptions WHERE updated IS NOT NULL"
+        ") GROUP BY device_id"
+    )
+    conn.execute(
+        "INSERT OR IGNORE INTO funnel_events (device_id, etape, ts) "
+        "SELECT device_id, 'premiere_question', MIN(ts) FROM ("
+        "  SELECT device_id, ts FROM progress_events WHERE type IN ('ask', 'quiz', 'correction')"
+        "  UNION ALL SELECT device_id, date FROM quota WHERE device_id LIKE 'dev-%'"
+        ") GROUP BY device_id"
+    )
+    conn.execute(
+        "INSERT OR IGNORE INTO funnel_events (device_id, etape, ts) "
+        "SELECT device_id, 'paiement', updated FROM subscriptions "
+        "WHERE (premium = 1 OR premium_until IS NOT NULL) AND updated IS NOT NULL"
+    )
+    # OR IGNORE : deux workers Gunicorn peuvent faire cette migration en meme temps.
+    conn.execute("INSERT OR IGNORE INTO _migrations (name) VALUES ('funnel_backfill_v1')")
+    conn.commit()
+
+
 def get_connection() -> sqlite3.Connection:
     global _initialized
     conn = sqlite3.connect(_DB_PATH, timeout=10)
@@ -211,5 +252,6 @@ def get_connection() -> sqlite3.Connection:
                 conn.commit()
                 _migrate_legacy_json(conn)
                 _migrate_premium_until(conn)
+                _migrate_funnel_backfill(conn)
                 _initialized = True
     return conn

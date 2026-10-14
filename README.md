@@ -64,6 +64,19 @@ Fait :
   scraping de site tiers**, règle stricte pour raisons de droit d'auteur.
 - Quota gratuit quotidien par appareil **et** par IP (garde-fou anti-reset via
   réinstallation), message d'incitation à l'abonnement une fois épuisé
+- **Plafond d'usage raisonnable de l'illimité** : `PREMIUM_DAILY_LIMIT`
+  (40 questions par jour par défaut, une photo ou un PDF compte double), pour
+  qu'un abonné ne coûte jamais plus en IA que son abonnement. Au-delà, l'élève
+  voit un message (« se renouvelle demain ») sans proposition d'abonnement.
+  L'admin voit combien d'abonnés l'atteignent (section Entonnoir)
+- **Entonnoir d'acquisition** (`backend/funnel.py`, page admin → « Entonnoir
+  d'acquisition ») : 1re ouverture → 1re question → questions gratuites
+  épuisées → offre affichée → demande WhatsApp → abonnement activé, une fois par
+  appareil, filtrable par date de première ouverture (cohorte). « Offre
+  affichée » et « Demande WhatsApp » sont signalées par l'appli (à partir
+  d'Android 2.18) ; les autres étapes sont constatées par le serveur. Les
+  appareils connus avant la mise en place ont été rattrapés une fois (dates
+  estimées)
 - Cache hors-ligne pour le contenu déjà consulté (curriculum) — seul le chat IA
   a besoin du réseau
 - **Série de jours consécutifs** (`🔥`) : badge purement local (localStorage,
@@ -86,9 +99,12 @@ Fait :
 - **Quiz automatique** (`📝`) et **diagnostic de niveau** (`🎯`) : QCM générés par
   l'IA, notation immédiate, bilan personnalisé mémorisé (`progress_store.py`)
   et réinjecté dans les futures explications de l'élève
-- **Backend déployé publiquement** : https://le-professeur.onrender.com (Render,
-  plan gratuit — service en veille après inactivité, disque éphémère pour tout
-  sauf `pdf_seed/`)
+- **Backend déployé publiquement** : https://le-professeur.onrender.com (Render),
+  avec un **disque persistant d'environ 1 Go** monté sur `DATA_DIR` : base
+  SQLite (abonnements, quotas, progression, entonnoir). Vérifié le 14/10/2026 :
+  un abonnement activé le 23/09 a survécu aux déploiements suivants. La page
+  admin affiche « Stockage des abonnements : ✓ Persistant » tant que `DATA_DIR`
+  est bien un disque monté (« ⚠ Éphémère » sinon, à corriger immédiatement)
 - **Logo et identité visuelle** : bulle de dialogue + toque de graduation, style
   3D (dégradé + ombre portée), généré par script (voir historique git) — décliné
   PWA (192/512/apple-touch) et Android (icône classique + adaptative, calques
@@ -120,10 +136,9 @@ Retiré volontairement (ne pas réintroduire sans qu'on en discute) :
 Pas encore fait (décisions à prendre avec toi) :
 - **Vrai paiement CinetPay** — voir section dédiée plus bas
 - **Test fermé Play Store** — recruter les 12 testeurs
-- **Stockage persistant** (quota, abonnements, cache PDF corrigé) — sur Render
-  gratuit, ces fichiers disparaissent au redéploiement (les PDF eux-mêmes sont
-  permanents via `pdf_seed/` + GitHub Releases). Nécessaire avant une forte
-  charge : disque payant Render, ou vraie base de données
+- **Sauvegarde hors serveur** — le disque persistant Render est l'unique copie
+  des abonnements : prévoir un export régulier (ou une vraie base de données)
+  avant une forte charge
 - **Matières récemment ajoutées mais partiellement couvertes** — Économie (23
   sujets), Allemand (19), Espagnol (27) : volume plus faible que les matières
   historiques, à enrichir si pertinent
@@ -228,3 +243,11 @@ Chaque question posée = un appel à l'API Claude = un coût réel (facturé à 
 sur ton compte console.anthropic.com). Le quota gratuit par appareil sert à
 protéger la marge — à ajuster (`DAILY_FREE_LIMIT` dans `.env`) selon ce que le
 budget permet avant qu'un abonnement payant compense.
+
+Ordre de grandeur mesuré avec Haiku : environ 0,003 $ (≈ 1,7 FCFA) par question
+écrite, 0,005 $ par quiz, davantage pour une photo ou un PDF. L'illimité est
+plafonné par `PREMIUM_DAILY_LIMIT` : à 40 questions par jour, même un abonné
+qui atteint le plafond tous les jours reste proche du prix de son abonnement
+(2 500 FCFA par mois). Si la section Entonnoir montre que beaucoup d'abonnés
+l'atteignent, relève-le dans les variables d'environnement Render, sans
+publier de nouvelle version.
