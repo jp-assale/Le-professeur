@@ -143,7 +143,26 @@ def _piper_load():
         with open(path + ".tmp", "wb") as f:
             f.write(r.content)
         os.replace(path + ".tmp", path)
-    _piper_voice = PiperVoice.load(os.path.join(PIPER_DIR, PIPER_NAME + ".onnx"))
+    # Session ONNX construite ici plutot que par PiperVoice.load : sans le pool
+    # memoire (arena) d'onnxruntime, un worker passe de ~350 Mo a ~95 Mo apres
+    # une synthese (limite Render : 512 Mo pour tous les workers).
+    import json
+    from pathlib import Path
+
+    import onnxruntime
+    from piper.config import PiperConfig
+    from piper.voice import ESPEAK_DATA_DIR
+
+    model = os.path.join(PIPER_DIR, PIPER_NAME + ".onnx")
+    with open(model + ".json", encoding="utf-8") as f:
+        config = PiperConfig.from_dict(json.load(f))
+    opts = onnxruntime.SessionOptions()
+    opts.enable_cpu_mem_arena = False
+    opts.enable_mem_pattern = False
+    opts.intra_op_num_threads = 1
+    session = onnxruntime.InferenceSession(model, sess_options=opts, providers=["CPUExecutionProvider"])
+    _piper_voice = PiperVoice(config=config, session=session, espeak_data_dir=Path(ESPEAK_DATA_DIR),
+                              download_dir=Path(PIPER_DIR))
     return _piper_voice
 
 

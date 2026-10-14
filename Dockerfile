@@ -11,4 +11,6 @@ WORKDIR /app/backend
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["sh", "-c", "gunicorn -w 3 --worker-class gthread --threads 6 --timeout 60 -b 0.0.0.0:${PORT} app:app"]
+# 2 workers (chacun ~190 Mo au pire, voix Piper chargee) pour tenir dans les
+# 512 Mo de Render ; recyclage periodique contre la fragmentation memoire.
+CMD ["sh", "-c", "gunicorn -w 2 --worker-class gthread --threads 8 --timeout 60 --max-requests 1000 --max-requests-jitter 100 -b 0.0.0.0:${PORT} app:app"]
