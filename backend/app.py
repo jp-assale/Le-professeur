@@ -1426,15 +1426,17 @@ def ask():
 
 @app.route("/api/tts/health", methods=["GET"])
 def tts_health():
-    """Verifie que le repli Piper fonctionne sur ce serveur (charge le modele,
-    synthetise « Bonjour. »). Aucun texte fourni par l'appelant."""
+    """Verifie que la voix du Prof (Microsoft, sans cache) fonctionne sur ce
+    serveur en synthetisant « Bonjour. ». Aucun texte fourni par l'appelant.
+    Un echec « 403 » d'edge-tts se corrige en mettant le paquet a jour."""
     if not tts_server.allow(_client_ip()):
         return jsonify({"error": "trop de demandes"}), 429
     started = time.time()
     try:
-        audio, _ = tts_server.synthesize("Bonjour.", "piper")
+        audio, _ = tts_server.synthesize("Bonjour.", "microsoft")
         return jsonify({
-            "piper": "ok", "bytes": len(audio), "seconds": round(time.time() - started, 1),
+            "voix": tts_server.VOICE, "microsoft": "ok", "piper_active": tts_server.PIPER_ENABLED,
+            "bytes": len(audio), "seconds": round(time.time() - started, 1),
             # Diagnostic : l'IP vue par le serveur est-elle bien celle du client
             # (et non celle du proxy) ? Ne revele que l'information du appelant.
             "ip_via_cloudflare": bool(request.headers.get("CF-Connecting-IP")),
@@ -1442,12 +1444,13 @@ def tts_health():
             "ip_is_private": _is_private_ip(_client_ip()),
         })
     except Exception as exc:
-        return jsonify({"piper": "erreur", "detail": f"{type(exc).__name__}: {str(exc)[:200]}"}), 503
+        return jsonify({"voix": tts_server.VOICE, "microsoft": "erreur",
+                        "detail": f"{type(exc).__name__}: {str(exc)[:200]}"}), 503
 
 
 @app.route("/api/tts", methods=["POST"])
 def tts():
-    """Voix masculine identique sur tous les telephones (voir tts_server.py)."""
+    """Voix du Prof identique sur tous les telephones et sur le site (voir tts_server.py)."""
     payload = request.get_json(silent=True) or {}
     text = (payload.get("text") or "").strip()
     if not text:

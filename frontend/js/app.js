@@ -117,6 +117,23 @@
     return prenom ? WELCOME_TEXT.replace("Salut !", "Salut " + prenom + " !") : WELCOME_TEXT;
   }
 
+  // Le message d'accueil (et la salutation vocale) n'apparaissent qu'a
+  // l'ouverture de l'appli : ils disparaissent des la premiere action (question,
+  // photo, sujet, quiz, cours, fiche...) et ne reviennent pas avant la prochaine
+  // ouverture, meme au retour d'un cours (memoire de la session en cours).
+  const WELCOME_MARKER = "Je suis Le Prof JPA, ton assistant pour les devoirs";
+  const WELCOME_SEEN_KEY = "aida_accueil_vu";
+  function isWelcomeText(text) {
+    return typeof text === "string" && text.indexOf(WELCOME_MARKER) !== -1;
+  }
+  function welcomeSeen() {
+    try { return sessionStorage.getItem(WELCOME_SEEN_KEY) === "1"; } catch (e) { return false; }
+  }
+  function hideWelcome() {
+    try { sessionStorage.setItem(WELCOME_SEEN_KEY, "1"); } catch (e) {}
+    document.querySelectorAll("#chat .msg-welcome").forEach((el) => el.remove());
+  }
+
   // Le message d'accueil est sauvegarde avec la discussion (aida_chat_state) : apres un
   // changement de prenom, on le met a jour a l'ecran ET dans la sauvegarde, sinon
   // « Salut <ancien prenom> ! » reste affiche alors que la voix dit le nouveau prenom.
@@ -272,7 +289,7 @@
     return (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.TextToSpeech) || null;
   }
   function speechAvailable() {
-    return isNativeApp() ? !!getNativeTTS() : !!window.speechSynthesis;
+    return isNativeApp() ? !!getNativeTTS() : !!(window.speakServer || window.speechSynthesis);
   }
 
   // Sur Android, le moteur systeme n'indique pas le genre des voix et la
@@ -298,17 +315,32 @@
     return chosen ? chosen.index : undefined;
   }
 
-  // Voix serveur (masculine, identique partout) d'abord ; voix du telephone
-  // seulement si le serveur est injoignable (hors ligne).
-  async function speakNative(text, rate) {
+  // Voix du Prof : celle du serveur d'abord, identique sur tous les telephones
+  // ET sur le site (avant, le site lisait avec la voix du telephone, souvent
+  // feminine). Voix de l'appareil seulement si le serveur ne repond pas.
+  async function speakVoice(text, rate) {
     rate = rate || 0.9;
     if (window.speakServer) {
       try { return await window.speakServer(text, rate); } catch (e) {}
     }
-    const voice = await pickNativeVoiceIndex();
-    const opts = { text, lang: "fr-FR", rate, pitch: 0.8 };
-    if (voice !== undefined) opts.voice = voice;
-    return getNativeTTS().speak(opts);
+    if (isNativeApp()) {
+      const voice = await pickNativeVoiceIndex();
+      const opts = { text, lang: "fr-FR", rate, pitch: 0.8 };
+      if (voice !== undefined) opts.voice = voice;
+      return getNativeTTS().speak(opts);
+    }
+    if (!window.speechSynthesis) return;
+    return new Promise((resolve) => {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "fr-FR";
+      const voice = getFrenchMaleVoice();
+      if (voice) utterance.voice = voice;
+      utterance.rate = rate;
+      utterance.onend = resolve;
+      utterance.onerror = resolve;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+    });
   }
 
   let currentUtteranceBtn = null;
@@ -316,8 +348,8 @@
 
   function stopSpeaking() {
     speechToken++; // invalide tout callback de fin en attente pour l'ancienne lecture
+    if (window.stopServerSpeech) window.stopServerSpeech();
     if (isNativeApp()) {
-      if (window.stopServerSpeech) window.stopServerSpeech();
       const tts = getNativeTTS();
       if (tts) tts.stop();
     } else if (window.speechSynthesis) {
@@ -347,20 +379,9 @@
       btn.classList.add("speaking");
       btn.textContent = "⏸ Arrêter";
 
-      if (isNativeApp()) {
-        speakNative(text, rate).catch(() => {}).then(() => {
-          if (speechToken === myToken) stopSpeaking();
-        });
-      } else {
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = "fr-FR";
-        const voice = getFrenchMaleVoice();
-        if (voice) utterance.voice = voice;
-        utterance.rate = rate;
-        utterance.onend = () => { if (speechToken === myToken) stopSpeaking(); };
-        utterance.onerror = () => { if (speechToken === myToken) stopSpeaking(); };
-        speechSynthesis.speak(utterance);
-      }
+      speakVoice(text, rate).catch(() => {}).then(() => {
+        if (speechToken === myToken) stopSpeaking();
+      });
     });
     container.appendChild(btn);
   }
@@ -428,8 +449,10 @@
   }
 
   function addMessage(text, cls) {
+    const welcome = cls === "msg-bot" && isWelcomeText(text);
+    if (!welcome && !restoringChat) hideWelcome(); // premiere action : l'accueil s'efface
     const div = document.createElement("div");
-    div.className = "msg " + cls;
+    div.className = "msg " + cls + (welcome ? " msg-welcome" : "");
     let content = null;
     if (cls === "msg-bot") {
       content = document.createElement("div");
@@ -473,7 +496,9 @@
       chatEl.scrollTop = chatEl.scrollHeight;
     }
     if (cls === "msg-bot") lastBotMessage = text;
-    if (!restoringChat && (cls === "msg-user" || cls === "msg-bot")) {
+    // L'accueil n'est jamais sauvegarde avec la discussion (il ne doit pas
+    // reapparaitre quand la discussion est restauree).
+    if (!restoringChat && !welcome && (cls === "msg-user" || cls === "msg-bot")) {
       chatLog.push({ text, cls });
       persistChatState();
     }
@@ -646,10 +671,15 @@
     } catch (e) {
       return false;
     }
-    if (!saved || !Array.isArray(saved.chatLog) || !saved.chatLog.length) return false;
+    if (!saved || !Array.isArray(saved.chatLog)) return false;
+    // Anciennes sauvegardes : l'accueil y figurait, on l'ecarte.
+    saved.chatLog = saved.chatLog.filter((m) => !isWelcomeText(m.text));
+    if (!saved.chatLog.length) return false;
 
     restoringChat = true;
     clearChat();
+    // A l'ouverture, l'accueil reste en tete, au-dessus de la discussion restauree.
+    if (!welcomeSeen()) addMessage(getWelcomeText(), "msg-bot");
     saved.chatLog.forEach((m) => addMessage(m.text, m.cls));
     restoringChat = false;
 
@@ -837,7 +867,7 @@
     chatLog = [];
     clearPersistedChatState();
     clearChat();
-    addMessage(getWelcomeText(), "msg-bot");
+    if (!welcomeSeen()) addMessage(getWelcomeText(), "msg-bot");
     epreuveActive.hidden = true;
     quitEpreuveBtn.hidden = true;
   }
@@ -1951,6 +1981,12 @@
       if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + prenom + " !";
     }
   }
+  // Retour d'un cours ou d'une fiche pendant la meme session : pas d'accueil.
+  if (welcomeSeen()) hideWelcome();
+  // Ouvrir un cours, une fiche methode ou un sujet compte comme une premiere action.
+  document.addEventListener("click", (e) => {
+    if (e.target.closest && e.target.closest('a[href^="cours.html"], a[href^="methode.html"], a.pdf-sujet-view')) hideWelcome();
+  }, true);
   askPrenomIfNeeded();
 
   // --- Salutation vocale automatique du Prof a l'ouverture ---
@@ -1974,17 +2010,7 @@
   function playGreeting(text) {
     if (!greetEnabled() || !speechAvailable()) return;
     const myToken = ++speechToken;
-    if (isNativeApp()) {
-      speakNative(text).catch(() => {});
-    } else {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "fr-FR";
-      const voice = getFrenchMaleVoice();
-      if (voice) utterance.voice = voice;
-      utterance.rate = 0.9;
-      speechSynthesis.cancel();
-      speechSynthesis.speak(utterance);
-    }
+    speakVoice(text).catch(() => {});
     return myToken;
   }
   function scheduleGreeting(freshChat) {
@@ -1992,6 +2018,9 @@
     // que la salutation contienne le prenom.
     const start = () => {
       if (document.querySelector(".modal-overlay")) { setTimeout(start, 500); return; }
+      // Salutation seulement a l'ouverture : pas au retour d'un cours, ni si
+      // l'eleve a deja pose une question avant qu'elle ne parte.
+      if (welcomeSeen()) return;
       playGreeting(greetingText(freshChat));
     };
     if (isNativeApp()) {

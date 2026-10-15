@@ -58,13 +58,29 @@ function coursGetNativeTTS() {
   return (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.TextToSpeech) || null;
 }
 function coursSpeechAvailable() {
-  return coursIsNativeApp() ? !!coursGetNativeTTS() : !!window.speechSynthesis;
+  return coursIsNativeApp() ? !!coursGetNativeTTS() : !!(window.speakServer || window.speechSynthesis);
 }
 
-async function coursSpeakNative(text, rate) {
+// Voix du Prof : celle du serveur d'abord, identique sur l'appli et le site
+// (voir app.js) ; voix de l'appareil seulement si le serveur ne repond pas.
+async function coursSpeakVoice(text, rate) {
   rate = rate || 0.9;
   if (window.speakServer) {
     try { return await window.speakServer(text, rate); } catch (e) {}
+  }
+  if (!coursIsNativeApp()) {
+    if (!window.speechSynthesis) return;
+    return new Promise((resolve) => {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "fr-FR";
+      const voice = getCoursFrenchMaleVoice();
+      if (voice) utterance.voice = voice;
+      utterance.rate = rate;
+      utterance.onend = resolve;
+      utterance.onerror = resolve;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+    });
   }
   const tts = coursGetNativeTTS();
   let voiceIndex;
@@ -86,8 +102,8 @@ let coursSpeechToken = 0;
 
 function stopCoursSpeaking() {
   coursSpeechToken++;
+  if (window.stopServerSpeech) window.stopServerSpeech();
   if (coursIsNativeApp()) {
-    if (window.stopServerSpeech) window.stopServerSpeech();
     const tts = coursGetNativeTTS();
     if (tts) tts.stop();
   } else if (window.speechSynthesis) {
@@ -114,23 +130,9 @@ function addCoursSpeakButton(section, text) {
     btn.classList.add("speaking");
     btn.textContent = "⏸ Arrêter";
 
-    if (coursIsNativeApp()) {
-      // Voir app.js pour le detail : voix choisie par l'eleve (menu
-      // « Choisir la voix », partagee via localStorage), a defaut variantes
-      // « frb »/« frd » du moteur Google + pitch abaisse.
-      coursSpeakNative(cleanText, rate).catch(() => {}).then(() => {
-        if (coursSpeechToken === myToken) stopCoursSpeaking();
-      });
-    } else {
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = "fr-FR";
-      const voice = getCoursFrenchMaleVoice();
-      if (voice) utterance.voice = voice;
-      utterance.rate = rate;
-      utterance.onend = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
-      utterance.onerror = () => { if (coursSpeechToken === myToken) stopCoursSpeaking(); };
-      speechSynthesis.speak(utterance);
-    }
+    coursSpeakVoice(cleanText, rate).catch(() => {}).then(() => {
+      if (coursSpeechToken === myToken) stopCoursSpeaking();
+    });
   });
   section.appendChild(btn);
 }

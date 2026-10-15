@@ -7,7 +7,14 @@ Fournisseurs, dans cet ordre :
     officiel, peut etre bloque a tout moment) ;
  3. Piper : voix libre « tom » (masculine), hebergee sur notre serveur, sans
     compte ni quota. Le modele (~63 Mo, licence AGPLv3) est telecharge au premier
-    usage dans DATA_DIR/piper, il n'est pas dans le depot.
+    usage dans DATA_DIR/piper, il n'est pas dans le depot. DESACTIVE par defaut
+    (TTS_PIPER=1 pour l'activer) : voix robotique peu appreciee, et son
+    chargement en memoire (~190 Mo par processus) a fait redemarrer le serveur
+    de 512 Mo le 15/10/2026 quand edge-tts etait bloque. Sans lui, si Microsoft
+    ne repond pas, l'appli lit avec la voix du telephone.
+
+Si edge-tts renvoie « 403 », mettre a jour le paquet (requirements.txt) :
+Microsoft change regulierement le jeton attendu (bloque en 7.2.8, repare en 7.3.1).
 
 Les audios sont mis en cache sur disque (DATA_DIR/tts_cache) : un meme texte,
 par exemple une reponse ecoutee par plusieurs eleves, n'est synthetise qu'une fois.
@@ -33,11 +40,13 @@ CACHE_MAX_AGE_DAYS = 14
 MAX_CHARS = 2500
 EDGE_TIMEOUT = 20  # secondes avant de basculer sur Piper
 
+PIPER_ENABLED = os.environ.get("TTS_PIPER", "0") == "1"
 PIPER_DIR = os.path.join(DATA_DIR, "piper")
 PIPER_NAME = "fr_FR-tom-medium"
 PIPER_URL = "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/tom/medium/" + PIPER_NAME
 
 _lock = threading.Lock()
+_piper_lock = threading.Lock()  # un seul chargement du modele, meme avec 32 fils
 
 
 def clamp_rate(value) -> float:
@@ -54,7 +63,10 @@ def _pct(rate: float) -> str:
 
 
 def _cache_path(text: str, ext: str, rate: float) -> str:
-    key = hashlib.sha256((VOICE + "|" + str(rate) + "|" + text).encode("utf-8")).hexdigest()
+    # mp3 = voix Microsoft (VOICE), wav = voix Piper : cles distinctes, pour
+    # qu'un changement de VOICE ne ressorte jamais un audio d'une autre voix.
+    voix = VOICE if ext == "mp3" else PIPER_NAME
+    key = hashlib.sha256((voix + "|" + str(rate) + "|" + text).encode("utf-8")).hexdigest()
     return os.path.join(CACHE_DIR, key + "." + ext)
 
 
@@ -128,6 +140,11 @@ _piper_voice = None
 
 
 def _piper_load():
+    with _piper_lock:
+        return _piper_load_locked()
+
+
+def _piper_load_locked():
     global _piper_voice
     if _piper_voice is not None:
         return _piper_voice
@@ -177,26 +194,38 @@ def _piper(text: str, rate: float) -> bytes:
     return buf.getvalue()
 
 
+def _read_cache(text: str, ext: str, rate: float) -> bytes | None:
+    path = _cache_path(text, ext, rate)
+    if not os.path.exists(path):
+        return None
+    os.utime(path, None)
+    with open(path, "rb") as f:
+        return f.read()
+
+
 def synthesize(text: str, engine: str = "", rate: float = 0.9) -> tuple:
     """Retourne (audio, extension) : mp3 (Azure/edge) ou wav (Piper).
-    `engine` ("piper") force un fournisseur, pour les tests admin."""
+    `engine` force un fournisseur sans passer par le cache, pour les tests
+    admin : "microsoft" (Azure/edge) ou "piper"."""
     text = text.strip()[:MAX_CHARS]
     if not text:
         raise ValueError("texte vide")
     if not engine:
-        for ext in ("mp3", "wav"):
-            path = _cache_path(text, ext, rate)
-            if os.path.exists(path):
-                os.utime(path, None)
-                with open(path, "rb") as f:
-                    return f.read(), ext
+        cached = _read_cache(text, "mp3", rate)
+        if cached:
+            return cached, "mp3"
 
     providers = []
     if engine != "piper":
         if AZURE_KEY and AZURE_REGION:
             providers.append((_azure, "mp3"))
         providers.append((_edge, "mp3"))
-    providers.append((_piper, "wav"))
+    if PIPER_ENABLED and engine != "microsoft":
+        # Voix de secours : un audio Piper deja en cache n'est servi que si
+        # Microsoft ne repond pas (sinon la voix choisie reprendrait le dessus).
+        if not engine:
+            providers.append((lambda t, r: _read_cache(t, "wav", r) or b"", "wav"))
+        providers.append((_piper, "wav"))
 
     audio, ext = b"", ""
     for fn, e in providers:

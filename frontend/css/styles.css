@@ -700,19 +700,24 @@ body {
 .chat { padding: 16px 14px 8px; gap: 12px; }
 
 .msg { border-radius: 18px; }
+/* Reponses du Prof aussi larges que la zone de saisie (retour proprietaire) :
+   bords alignes sur ceux du champ (.chat 14px + 6px = .composer 10px + 10px).
+   L'avatar passe dans le coin haut gauche au lieu de prendre une colonne. */
 .msg-bot {
   position: relative;
-  margin-left: 40px;
-  max-width: calc(94% - 40px);
-  border-radius: 18px 18px 18px 4px;
+  align-self: stretch;
+  margin: 10px 6px 0;
+  max-width: none;
+  padding-top: 16px;
+  border-radius: 4px 18px 18px 18px;
   box-shadow: 0 4px 14px rgba(8, 84, 63, 0.08);
 }
 .msg-bot::before {
   content: "🎓";
-  position: absolute; left: -40px; bottom: 0;
-  width: 32px; height: 32px; border-radius: 50%;
+  position: absolute; left: 10px; top: -13px;
+  width: 26px; height: 26px; border-radius: 50%;
   background: linear-gradient(135deg, #0d7a5f, #14a37f);
-  display: flex; align-items: center; justify-content: center; font-size: 1rem;
+  display: flex; align-items: center; justify-content: center; font-size: 0.85rem;
   box-shadow: 0 3px 8px rgba(8, 84, 63, 0.25);
 }
 .msg-user { border-radius: 18px 18px 4px 18px; box-shadow: 0 4px 14px rgba(8, 84, 63, 0.18); }
@@ -723,7 +728,7 @@ body {
 }
 
 .msg-quota {
-  align-self: stretch; max-width: 100%; margin-left: 0;
+  align-self: stretch; max-width: none; margin: 0 6px;
   background: linear-gradient(135deg, #fff7e6, #ffe9bd); color: #4a3200;
   border: 1px solid #f3d79a; font-size: 0.9rem;
 }
