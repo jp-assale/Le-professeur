@@ -1730,6 +1730,19 @@
 
   if (isNativeApp()) upgradeLink.textContent = "✨ Accès illimité";
 
+  // Bandeau Google Play : uniquement sur le site (jamais dans l'appli), masquable.
+  (function initPlayBanner() {
+    const banner = document.getElementById("play-banner");
+    if (!banner || isNativeApp()) return;
+    try { if (localStorage.getItem("play_banner_closed") === "1") return; } catch (e) {}
+    document.getElementById("play-banner-link").href = PLAY_STORE_URL;
+    document.getElementById("play-banner-close").addEventListener("click", () => {
+      banner.hidden = true;
+      try { localStorage.setItem("play_banner_closed", "1"); } catch (e) {}
+    });
+    banner.hidden = false;
+  })();
+
   upgradeLink.addEventListener("click", async () => {
     if (isPremium) {
       window.alert("Tu es déjà en illimité ✨");
