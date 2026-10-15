@@ -1,5 +1,6 @@
-/* Lecture vocale via le serveur (voix masculine fr-FR-HenriNeural) pour
-   l'appli Android : la voix du systeme ne permet pas de garantir un genre.
+/* Lecture vocale via le serveur (voix masculine « Henri », voir tts_server.py)
+   pour l'appli Android et le site : la voix du systeme ne permet pas de
+   garantir un genre ni d'avoir la meme voix sur tous les telephones.
    Utilise par app.js (chat) et cours-render.js (cours).
    speakServer(text) -> Promise : resolue a la fin de la lecture ou apres
    stopServerSpeech(); rejetee si le serveur n'a rien pu fournir au debut

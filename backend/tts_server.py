@@ -3,7 +3,7 @@ les telephones (la voix du systeme Android ne permet pas de garantir le genre).
 
 Fournisseurs, dans cet ordre :
  1. Azure Speech (officiel) si AZURE_SPEECH_KEY + AZURE_SPEECH_REGION sont definis ;
- 2. edge-tts : voix neuronale Microsoft fr-FR-HenriNeural, sans cle (acces non
+ 2. edge-tts : voix neuronale Microsoft VOICE (Henri), sans cle (acces non
     officiel, peut etre bloque a tout moment) ;
  3. Piper : voix libre « tom » (masculine), hebergee sur notre serveur, sans
     compte ni quota. Le modele (~63 Mo, licence AGPLv3) est telecharge au premier
@@ -31,6 +31,9 @@ import requests
 
 from paths import DATA_DIR
 
+# Voix choisie par le proprietaire le 15/10/2026 apres ecoute de 9 voix Microsoft
+# (« Henri », homme, France). Modifiable sans nouvelle version de l'appli :
+# variable TTS_VOICE sur Render (le cache est propre a chaque voix).
 VOICE = os.environ.get("TTS_VOICE", "fr-FR-HenriNeural")
 AZURE_KEY = os.environ.get("AZURE_SPEECH_KEY", "")
 AZURE_REGION = os.environ.get("AZURE_SPEECH_REGION", "")
