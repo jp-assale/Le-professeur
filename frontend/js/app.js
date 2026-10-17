@@ -95,11 +95,7 @@
   }
 
   const WELCOME_TEXT = "Salut ! Je suis Le Prof JPA, ton assistant pour les devoirs. " +
-    "Touche la puce « Pays · Niveau · Matière » en haut pour choisir ton " +
-    "programme, puis pose-moi ta question de cours ou d'exercice. Je " +
-    "t'explique étape par étape, je ne donne pas juste la réponse toute " +
-    "cuite 😉 Tu peux aussi piocher un sujet type examen dans « 📄 Sujets » " +
-    "juste au-dessus.";
+    "Je t'explique étape par étape, sans te donner la réponse toute cuite 😉";
 
   // Prenom de l'eleve (retour testeur : "le prof doit m'appeler par mon
   // nom") - demande une fois via une fenetre, stocke sur l'appareil, et
@@ -206,12 +202,42 @@
     overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
   }
 
-  function askPrenomIfNeeded() {
+  // Pas de fenetre « Comment t'appelles-tu ? » a la toute premiere visite : la
+  // plupart des visiteurs venus de la publicite repartaient devant elle. On la
+  // propose a partir de la 2e ouverture, ou apres la premiere reponse du Prof.
+  const VISITS_KEY = "aida_visites";
+  let visitCount = 1;
+  try {
+    visitCount = (parseInt(localStorage.getItem(VISITS_KEY), 10) || 0) + 1;
+    localStorage.setItem(VISITS_KEY, String(visitCount));
+  } catch (e) {}
+
+  function askPrenomIfNeeded(force) {
     let asked = false;
     try { asked = !!localStorage.getItem(PRENOM_ASKED_KEY); } catch (e) {}
     if (getStoredPrenom() || asked) return;
+    if (visitCount < 2 && !force) return;
     openPrenomModal();
   }
+
+  // Origine du visiteur (publicite Facebook : Facebook ajoute ?fbclid=... aux
+  // liens), retenue a la premiere visite et envoyee avec /api/quota pour que
+  // l'entonnoir de la page admin distingue les visiteurs venus de la pub.
+  const SOURCE_KEY = "aida_source";
+  const VISIT_SOURCE = (function () {
+    try {
+      const saved = localStorage.getItem(SOURCE_KEY);
+      if (saved) return saved;
+      const q = new URLSearchParams(location.search);
+      const src = (q.get("src") || q.get("utm_source") || "").toLowerCase();
+      const ref = document.referrer || "";
+      let source = "";
+      if (q.has("fbclid") || src.indexOf("facebook") !== -1 || src === "fb" || /facebook\.com|fb\.com/.test(ref)) source = "facebook";
+      else if (src.indexOf("whatsapp") !== -1 || src === "wa") source = "whatsapp";
+      if (source) localStorage.setItem(SOURCE_KEY, source);
+      return source;
+    } catch (e) { return ""; }
+  })();
 
   let currentEpreuveId = null;
   let history = [];
@@ -451,6 +477,9 @@
   function addMessage(text, cls) {
     const welcome = cls === "msg-bot" && isWelcomeText(text);
     if (!welcome && !restoringChat) hideWelcome(); // premiere action : l'accueil s'efface
+    // Premiere reponse du Prof : l'eleve est convaincu, on peut lui demander son
+    // prenom (laisse le temps de lire le debut de la reponse).
+    if (cls === "msg-bot" && !welcome && !restoringChat) setTimeout(() => askPrenomIfNeeded(true), 15000);
     const div = document.createElement("div");
     div.className = "msg " + cls + (welcome ? " msg-welcome" : "");
     let content = null;
@@ -1146,7 +1175,8 @@
 
   async function loadQuota() {
     try {
-      const res = await fetchWithRetry(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID)), undefined, 1, 6000);
+      const src = VISIT_SOURCE ? "&src=" + encodeURIComponent(VISIT_SOURCE) : "";
+      const res = await fetchWithRetry(apiUrl("/api/quota?device_id=" + encodeURIComponent(DEVICE_ID) + src), undefined, 1, 6000);
       const data = await res.json();
       isPremium = !!data.premium;
       setQuota(data.remaining, data.limit);
@@ -2001,6 +2031,37 @@
     if (e.target.closest && e.target.closest('a[href^="cours.html"], a[href^="methode.html"], a.pdf-sujet-view')) hideWelcome();
   }, true);
   askPrenomIfNeeded();
+
+  // --- Boutons de demarrage sous le message d'accueil ---
+  const EXEMPLES = {
+    Mathematiques: "Explique-moi le théorème de Pythagore avec un exemple",
+    "Physique-Chimie": "Explique-moi la loi d'Ohm avec un exemple simple",
+    SVT: "Explique-moi la photosynthèse simplement",
+    Francais: "Comment bien faire une introduction de dissertation ?",
+    Philosophie: "Comment bien faire une introduction de dissertation ?",
+    "Histoire-Geographie": "Comment réussir un commentaire de document en histoire ?",
+    Anglais: "Explique-moi le present perfect avec des exemples",
+  };
+  function exempleQuestion() {
+    const label = (document.getElementById("context-label") || {}).textContent || "";
+    const key = Object.keys(EXEMPLES).find((m) => label.normalize("NFD").replace(/[̀-ͯ]/g, "").indexOf(m) !== -1);
+    return EXEMPLES[key || "Mathematiques"];
+  }
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest && e.target.closest(".qs-btn");
+    if (!btn) return;
+    const action = btn.getAttribute("data-qs");
+    if (action === "photo") {
+      document.getElementById(isNativeApp() ? "camera-btn" : "attach-btn").click();
+    } else if (action === "exemple") {
+      input.value = exempleQuestion();
+      document.getElementById("composer").requestSubmit();
+    } else if (action === "cours") {
+      document.getElementById("toggle-cours-btn").click();
+    } else if (action === "sujets") {
+      document.getElementById("toggle-epreuves-btn").click();
+    }
+  });
 
   // --- Salutation vocale automatique du Prof a l'ouverture ---
   // Appli Android : demarre seule (la WebView autorise la lecture sans geste).

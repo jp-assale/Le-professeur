@@ -51,6 +51,19 @@ body {
   flex-shrink: 0;
 }
 
+/* Boutons de demarrage sous le message d'accueil (nouveaux visiteurs). */
+.quickstart { white-space: normal; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.quickstart-title { grid-column: 1 / -1; margin: 0; font-weight: 700; font-size: 0.9rem; }
+.qs-btn {
+  display: flex; align-items: center; gap: 8px; min-width: 0;
+  padding: 8px 10px; border: 1px solid var(--border); border-radius: 12px;
+  background: var(--green-light); color: var(--text); text-align: left;
+  font: inherit; cursor: pointer;
+}
+.qs-btn:hover, .qs-btn:focus-visible { border-color: var(--green); }
+.qs-ico { font-size: 1.4rem; line-height: 1; flex-shrink: 0; }
+.qs-btn b { display: block; font-size: 0.86rem; line-height: 1.25; }
+
 .play-banner {
   display: flex; align-items: center; gap: 10px;
   padding: 8px 12px 8px 16px;

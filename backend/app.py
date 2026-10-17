@@ -1233,7 +1233,13 @@ def get_quota():
         return jsonify({"error": "device_id manquant"}), 400
     # Appele au demarrage par toutes les versions de l'appli : la premiere
     # fois pour un appareil, c'est sa premiere ouverture.
-    funnel.record(device_id, "ouverture", _plateforme())
+    plateforme = _plateforme()
+    # Origine des visiteurs du site (publicite Facebook, lien WhatsApp), vue par
+    # l'entonnoir de la page admin : « web-facebook », « web-whatsapp ».
+    src = request.args.get("src", "")
+    if plateforme == "web" and src in ("facebook", "whatsapp"):
+        plateforme = "web-" + src
+    funnel.record(device_id, "ouverture", plateforme)
     limit = _free_daily_limit()
     remaining = quota_store.get_remaining(device_id, limit)
     return jsonify({
