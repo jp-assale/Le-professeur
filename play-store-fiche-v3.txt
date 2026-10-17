@@ -1,0 +1,81 @@
+=== FICHE PLAY STORE v3 — JPA Assistant Scolaire (version 2.20, à coller dans Play Console) ===
+Basée sur la fiche v2 (acceptée par Google). Changements : la photo d'un exercice et les sujets
+d'examen passent en premier, nouvelles captures d'écran 1080 x 1920 dans l'ordre de ce qui attire
+le plus. Mêmes règles « Métadonnées » : pas d'émojis, pas de MAJUSCULES, pas de superlatifs ni de
+promesses de résultats, pas d'argument de prix ni de promotion (« gratuit » interdit), pas de
+marques tierces, pas de témoignages, pas d'appel à l'action (télécharger, installer, essayer...),
+pas de répétition de mots-clés. Tout ce qui est décrit existe réellement dans l'appli 2.20.
+Paiements : l'appli ne vend rien et la fiche ne mentionne aucun moyen de paiement ni aucun prix.
+Contrôle automatique : python backend/audit_fiche_play.py play-store-fiche-v3.txt
+
+--- Nom de l'appli (30 caractères max) — inchangé ---
+JPA Assistant Scolaire
+
+--- Description courte (80 caractères max) ---
+Aide aux devoirs : photo d'un exercice, explication étape par étape
+
+--- Description longue (4000 caractères max) ---
+JPA Assistant Scolaire est une application d'aide aux devoirs : tu poses une question de cours ou d'exercice, ou tu envoies la photo de ton exercice, et un assistant fondé sur l'intelligence artificielle te l'explique étape par étape, au collège comme au lycée. Il est conçu pour les programmes francophones d'Afrique de l'Ouest : Mali, Sénégal, Côte d'Ivoire, Burkina Faso, Bénin et Guinée.
+
+Tu choisis ton pays, ton niveau et ta matière, puis tu poses ta question. L'assistant, appelé « Le Prof JPA », explique la démarche pour que tu comprennes la méthode, au lieu de te donner seulement le résultat.
+
+Ce que tu peux faire
+- Prendre en photo l'exercice qui te bloque, ou envoyer le PDF de ton sujet : le Prof JPA lit l'énoncé et t'aide à le résoudre étape par étape.
+- Poser une question de cours ou d'exercice en l'écrivant ou en la dictant avec le micro.
+- T'entraîner sur une bibliothèque de sujets d'examen classés par pays, niveau et matière, et te faire aider pour les corriger.
+- Suivre des leçons guidées avec mise en situation, notion expliquée, question flash, fiche de révision et exercices corrigés.
+- Lire des fiches méthode : dissertation, commentaire, démonstration en mathématiques, exercices de sciences.
+- Écouter l'explication : le Prof JPA peut la lire à voix haute, y compris les formules et les unités.
+- Demander un schéma simplifié sur un sujet de sciences.
+- Faire un quiz après une explication, ou un diagnostic de niveau pour repérer les points à revoir.
+- Partager une explication avec des amis par message.
+
+Matières
+Mathématiques, français, physique-chimie, SVT, histoire-géographie, anglais, philosophie, économie, allemand et espagnol, selon le pays et le niveau.
+
+Utilisation
+Aucun compte n'est nécessaire. Un nombre limité de questions par jour est proposé ; les abonnés peuvent en poser davantage.
+
+À savoir
+Les réponses sont générées par une intelligence artificielle et peuvent contenir des erreurs. Compare toujours avec ton cours et ton professeur. Un bouton permet de signaler une réponse incorrecte.
+
+Confidentialité
+Les questions et les fichiers envoyés servent uniquement à produire la réponse. Tu peux demander la suppression de tes données à tout moment par e-mail ; la procédure est expliquée sur la page de suppression des données liée à cette fiche.
+
+--- Légendes des captures d'écran (texte dans l'image, bandeau de 15,6 % de la hauteur) ---
+capture-1.png | Une photo de l'exercice, une explication étape par étape
+capture-2.png | Chaque étape expliquée, formules comprises
+capture-3.png | Des sujets d'examen classés par pays, niveau et matière
+capture-4.png | Des leçons guidées, chapitre par chapitre
+capture-5.png | Une question flash pour vérifier ta compréhension
+capture-6.png | Des fiches méthode pour bien rédiger ta copie
+capture-7.png | Les explications peuvent être écoutées à voix haute
+capture-8.png | Six pays : Mali, Sénégal, Côte d'Ivoire, Burkina Faso, Bénin, Guinée
+
+--- Textes alternatifs des captures (140 caractères max, sans « image de » ni « photo de ») ---
+capture-1.png | Le Prof JPA lit l'énoncé d'un exercice de géométrie envoyé en photo et commence l'explication
+capture-2.png | Explication en étapes du calcul d'une vitesse moyenne, avec la formule v = d / t
+capture-3.png | Liste de sujets d'examen du BEPC de Côte d'Ivoire en mathématiques, avec un bouton de correction
+capture-4.png | Leçon guidée sur le calcul littéral : la notion expliquée et la règle à retenir
+capture-5.png | Question flash d'une leçon : la bonne réponse est choisie et le raisonnement est expliqué
+capture-6.png | Fiche méthode sur la rédaction d'une démonstration en mathématiques
+capture-7.png | Fin d'une explication avec un exercice d'entraînement et le bouton pour l'écouter à voix haute
+capture-8.png | Choix du programme : pays, niveau et matière
+
+--- Captures d'écran : consignes respectées ---
+- 8 captures (maximum autorisé), 1080 x 1920 px, format 9:16, PNG 24 bits sans canal alpha.
+- Écrans réels de l'appli 2.20, sans cadre d'appareil, sans barre de notification, sans logo tiers,
+  sans badge Google Play, sans prix, sans note ni classement.
+- Élève fictif (« Awa »), aucune donnée personnelle réelle ; niveau Primaire absent.
+- Ordre : ce que l'appli fait de plus utile d'abord (photo d'un exercice, explication, sujets).
+
+--- Coordonnées de contact (inchangées) ---
+E-mail : maintlog.sarl@gmail.com
+Site web : https://le-professeur.onrender.com
+Politique de confidentialité : https://le-professeur.onrender.com/privacy.html
+
+--- Notes de version 2.20 (Play Console → Production → Nouvelle version → « Nouveautés ») ---
+<fr-FR>
+Nouvel écran d'accueil avec quatre points de départ : photo d'un exercice, question exemple, cours de ta classe ou sujet d'examen.
+Les formules des réponses aux questions flash des leçons s'affichent correctement.
+</fr-FR>
