@@ -97,21 +97,12 @@
   const WELCOME_TEXT = "Salut ! Je suis Le Prof JPA, ton assistant pour les devoirs. " +
     "Je t'explique étape par étape, sans te donner la réponse toute cuite 😉";
 
-  // Prenom de l'eleve (retour testeur : "le prof doit m'appeler par mon
-  // nom") - demande une fois via une fenetre, stocke sur l'appareil, et
-  // envoye avec chaque question pour que le Prof JPA l'utilise dans ses
-  // reponses (pas stocke cote serveur).
-  const PRENOM_KEY = "aida_prenom";
-  const PRENOM_ASKED_KEY = "aida_prenom_asked";
-
-  function getStoredPrenom() {
-    try { return (localStorage.getItem(PRENOM_KEY) || "").trim(); } catch (e) { return ""; }
-  }
-
-  function getWelcomeText() {
-    const prenom = getStoredPrenom();
-    return prenom ? WELCOME_TEXT.replace("Salut !", "Salut " + prenom + " !") : WELCOME_TEXT;
-  }
+  // Le Prof n'appelle plus l'eleve par son prenom et ne le demande plus
+  // (decision du proprietaire, 17/10/2026). Un prenom garde par une ancienne
+  // version est efface du telephone.
+  try { localStorage.removeItem("aida_prenom"); localStorage.removeItem("aida_prenom_asked"); } catch (e) {}
+  function getStoredPrenom() { return ""; }
+  function getWelcomeText() { return WELCOME_TEXT; }
 
   // Le message d'accueil (et la salutation vocale) n'apparaissent qu'a
   // l'ouverture de l'appli : ils disparaissent des la premiere action (question,
@@ -128,96 +119,6 @@
   function hideWelcome() {
     try { sessionStorage.setItem(WELCOME_SEEN_KEY, "1"); } catch (e) {}
     document.querySelectorAll("#chat .msg-welcome").forEach((el) => el.remove());
-  }
-
-  // Le message d'accueil est sauvegarde avec la discussion (aida_chat_state) : apres un
-  // changement de prenom, on le met a jour a l'ecran ET dans la sauvegarde, sinon
-  // « Salut <ancien prenom> ! » reste affiche alors que la voix dit le nouveau prenom.
-  function refreshWelcomeName() {
-    const marker = "Je suis Le Prof JPA, ton assistant pour les devoirs";
-    const text = getWelcomeText();
-    let changed = false;
-    chatLog.forEach((m) => {
-      if (m.cls === "msg-bot" && typeof m.text === "string" && m.text.indexOf(marker) !== -1) {
-        m.text = text;
-        changed = true;
-      }
-    });
-    chatEl.querySelectorAll(".msg-bot").forEach((div) => {
-      const content = div.querySelector(".msg-content");
-      if (!content || content.textContent.indexOf(marker) === -1) return;
-      renderBotContent(content, text);
-      const oldBtn = div.querySelector(".msg-speak-btn");
-      if (oldBtn) {
-        const tmp = document.createElement("div");
-        addSpeakButton(tmp, text); // le bouton « Ecouter » doit lire le nouveau texte
-        oldBtn.replaceWith(tmp.firstChild);
-      }
-    });
-    if (changed) persistChatState();
-  }
-
-  function openPrenomModal() {
-    const overlay = document.createElement("div");
-    overlay.className = "modal-overlay";
-    overlay.innerHTML = `
-      <div class="modal-box">
-        <div class="modal-header">
-          <span>👋 Comment t'appelles-tu ?</span>
-          <button type="button" id="prenom-close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--text-muted);">✕</button>
-        </div>
-        <p style="font-size:0.88rem;color:var(--text-muted);margin:0 0 10px;">
-          Le Prof JPA t'appellera par ton prénom dans ses explications.
-          Il reste sur ton téléphone, jamais publié.
-        </p>
-        <div style="display:flex;gap:8px;">
-          <input type="text" id="prenom-input" maxlength="30" placeholder="Ton prénom"
-            style="flex:1;min-width:0;padding:10px 12px;border-radius:8px;border:1px solid var(--border);font-size:0.95rem;">
-          <button type="button" id="prenom-save"
-            style="flex-shrink:0;padding:10px 16px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.9rem;cursor:pointer;">Valider</button>
-        </div>
-      </div>`;
-    document.body.appendChild(overlay);
-    const field = overlay.querySelector("#prenom-input");
-    field.value = getStoredPrenom();
-    setTimeout(() => field.focus(), 50);
-
-    function close() {
-      try { localStorage.setItem(PRENOM_ASKED_KEY, "1"); } catch (e) {}
-      overlay.remove();
-    }
-    function save() {
-      const name = field.value.trim().slice(0, 30);
-      if (name) {
-        try { localStorage.setItem(PRENOM_KEY, name); } catch (e) {}
-        const welcomePrenomEl = document.getElementById("welcome-prenom");
-        if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + name + " !";
-        refreshWelcomeName();
-      }
-      close();
-    }
-    overlay.querySelector("#prenom-save").addEventListener("click", save);
-    field.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); save(); } });
-    overlay.querySelector("#prenom-close").addEventListener("click", close);
-    overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
-  }
-
-  // Pas de fenetre « Comment t'appelles-tu ? » a la toute premiere visite : la
-  // plupart des visiteurs venus de la publicite repartaient devant elle. On la
-  // propose a partir de la 2e ouverture, ou apres la premiere reponse du Prof.
-  const VISITS_KEY = "aida_visites";
-  let visitCount = 1;
-  try {
-    visitCount = (parseInt(localStorage.getItem(VISITS_KEY), 10) || 0) + 1;
-    localStorage.setItem(VISITS_KEY, String(visitCount));
-  } catch (e) {}
-
-  function askPrenomIfNeeded(force) {
-    let asked = false;
-    try { asked = !!localStorage.getItem(PRENOM_ASKED_KEY); } catch (e) {}
-    if (getStoredPrenom() || asked) return;
-    if (visitCount < 2 && !force) return;
-    openPrenomModal();
   }
 
   // Origine du visiteur (publicite Facebook : Facebook ajoute ?fbclid=... aux
@@ -477,9 +378,6 @@
   function addMessage(text, cls) {
     const welcome = cls === "msg-bot" && isWelcomeText(text);
     if (!welcome && !restoringChat) hideWelcome(); // premiere action : l'accueil s'efface
-    // Premiere reponse du Prof : l'eleve est convaincu, on peut lui demander son
-    // prenom (laisse le temps de lire le debut de la reponse).
-    if (cls === "msg-bot" && !welcome && !restoringChat) setTimeout(() => askPrenomIfNeeded(true), 15000);
     const div = document.createElement("div");
     div.className = "msg " + cls + (welcome ? " msg-welcome" : "");
     let content = null;
@@ -1453,10 +1351,6 @@
             style="flex-shrink:0;padding:8px 14px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.85rem;cursor:pointer;">📋 Copier</button>
         </div>
         <p id="device-copy-msg" style="font-size:0.8rem;color:var(--green-dark);min-height:1.2em;margin:6px 0 0;"></p>
-        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;">
-          <button type="button" id="device-prenom-btn"
-            style="padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:0.82rem;cursor:pointer;">✏️ Changer mon prénom</button>
-        </div>
         <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
         <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
           Tu as déjà un code (utilisé sur un autre téléphone) ? Colle-le ici :
@@ -1494,10 +1388,6 @@
       setTimeout(() => { copyMsg.textContent = ""; }, 2500);
     });
 
-    overlay.querySelector("#device-prenom-btn").addEventListener("click", () => {
-      overlay.remove();
-      openPrenomModal();
-    });
     overlay.querySelector("#device-restore-btn").addEventListener("click", () => {
       const val = overlay.querySelector("#device-code-input").value.trim();
       if (val && val !== DEVICE_ID) {
@@ -2009,20 +1899,13 @@
   loadCurriculum();
   loadQuota();
   showStoredStreak();
-  if (!restoreChatState()) {
-    const prenom = getStoredPrenom();
-    if (prenom) {
-      const welcomePrenomEl = document.getElementById("welcome-prenom");
-      if (welcomePrenomEl) welcomePrenomEl.textContent = "Salut " + prenom + " !";
-    }
-  }
+  restoreChatState();
   // Retour d'un cours ou d'une fiche pendant la meme session : pas d'accueil.
   if (welcomeSeen()) hideWelcome();
   // Ouvrir un cours, une fiche methode ou un sujet compte comme une premiere action.
   document.addEventListener("click", (e) => {
     if (e.target.closest && e.target.closest('a[href^="cours.html"], a[href^="methode.html"], a.pdf-sujet-view')) hideWelcome();
   }, true);
-  askPrenomIfNeeded();
 
   // --- Boutons de demarrage sous le message d'accueil ---
   const EXEMPLES = {
@@ -2070,9 +1953,7 @@
   }
   function greetingText(freshChat) {
     if (freshChat) return cleanTextForSpeech(getWelcomeText());
-    const prenom = getStoredPrenom();
-    return "Salut " + (prenom ? prenom + " " : "") + "! Content de te revoir. " +
-      "Choisis ton programme, puis pose-moi ta question.";
+    return "Salut ! Content de te revoir. Choisis ton programme, puis pose-moi ta question.";
   }
   function playGreeting(text) {
     if (!greetEnabled() || !speechAvailable()) return;
@@ -2081,8 +1962,7 @@
     return myToken;
   }
   function scheduleGreeting(freshChat) {
-    // Attend la fermeture de la fenetre « Comment t'appelles-tu ? » pour
-    // que la salutation contienne le prenom.
+    // Attend qu'aucune fenetre ne soit ouverte avant de parler.
     const start = () => {
       if (document.querySelector(".modal-overlay")) { setTimeout(start, 500); return; }
       // Salutation seulement a l'ouverture : pas au retour d'un cours, ni si
