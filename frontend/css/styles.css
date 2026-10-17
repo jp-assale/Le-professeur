@@ -85,10 +85,17 @@ body {
   flex-shrink: 0; background: #0d7a5f; color: #fff; text-decoration: none;
   font-weight: 800; font-size: 0.88rem; padding: 9px 14px; border-radius: 999px;
   box-shadow: 0 3px 8px rgba(8, 84, 63, 0.35); white-space: nowrap;
-  animation: play-pulse 2.6s ease-in-out infinite;
+  -webkit-font-smoothing: antialiased;
+  /* Halo qui pulse autour du bouton, sans agrandir le bouton (un « scale »
+     rendait le texte flou pendant l'animation). */
+  animation: play-halo 2.4s ease-out infinite;
 }
 .play-banner-btn:hover, .play-banner-btn:focus-visible { background: #08543f; }
-@keyframes play-pulse { 0%, 70%, 100% { transform: scale(1); } 80% { transform: scale(1.07); } 90% { transform: scale(0.98); } }
+@keyframes play-halo {
+  0% { box-shadow: 0 3px 8px rgba(8, 84, 63, 0.35), 0 0 0 0 rgba(13, 122, 95, 0.55); }
+  70% { box-shadow: 0 3px 8px rgba(8, 84, 63, 0.35), 0 0 0 10px rgba(13, 122, 95, 0); }
+  100% { box-shadow: 0 3px 8px rgba(8, 84, 63, 0.35), 0 0 0 0 rgba(13, 122, 95, 0); }
+}
 @media (prefers-reduced-motion: reduce) { .play-banner-btn { animation: none; } }
 .play-banner-close {
   position: absolute; top: 2px; right: 4px; background: none; border: 0;
