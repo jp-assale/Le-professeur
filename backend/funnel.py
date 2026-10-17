@@ -27,10 +27,18 @@ ETAPES = (
 # Hors entonnoir : abonnes qui atteignent le plafond d'usage raisonnable
 # (sert a verifier que ce plafond ne gene pas un usage normal).
 ETAPE_PLAFOND = "plafond_premium"
+# Hors entonnoir : bouton d'accueil touche en premier par un nouvel eleve
+# (« Par ou veux-tu commencer ? »), pour savoir ce qui attire le plus.
+BOUTONS_ACCUEIL = (
+    ("accueil_photo", "Photo de mon exercice"),
+    ("accueil_exemple", "Une question exemple"),
+    ("accueil_cours", "Cours de ma classe"),
+    ("accueil_sujets", "Sujet d'examen"),
+)
 # Seules etapes que l'appli peut declarer elle-meme.
-ETAPES_CLIENT = {"offre_vue", "demande_paiement"}
+ETAPES_CLIENT = {"offre_vue", "demande_paiement"} | {e for e, _ in BOUTONS_ACCUEIL}
 
-_VALIDES = {e for e, _ in ETAPES} | {ETAPE_PLAFOND}
+_VALIDES = {e for e, _ in ETAPES} | {ETAPE_PLAFOND} | {e for e, _ in BOUTONS_ACCUEIL}
 
 
 def record(device_id: str, etape: str, plateforme: str | None = None) -> None:
@@ -94,4 +102,7 @@ def summary(depuis: str | None = None) -> dict:
         "etapes": etapes,
         "plafond_premium": counts.get(ETAPE_PLAFOND, 0),
         "plateformes": plateformes,
+        "boutons_accueil": [
+            {"etape": e, "label": label, "appareils": counts.get(e, 0)} for e, label in BOUTONS_ACCUEIL
+        ],
     }

@@ -2051,6 +2051,7 @@
     const btn = e.target.closest && e.target.closest(".qs-btn");
     if (!btn) return;
     const action = btn.getAttribute("data-qs");
+    trackFunnel("accueil_" + action); // quel bouton attire le plus (page admin)
     if (action === "photo") {
       document.getElementById(isNativeApp() ? "camera-btn" : "attach-btn").click();
     } else if (action === "exemple") {
