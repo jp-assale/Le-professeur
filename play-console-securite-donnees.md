@@ -27,8 +27,13 @@ avec la finalité « Fonctionnalité de l'appli » ; ce n'est pas faux, juste pl
 | Photos et vidéos → **Photos** (photo du sujet envoyée) | Oui | **Oui** (non conservée) | Facultative | Fonctionnalité de l'appli |
 | Fichiers et documents → **Fichiers et documents** (PDF du sujet) | Oui | **Oui** | Facultative | Fonctionnalité de l'appli |
 | Activité dans l'appli → **Autre contenu généré par l'utilisateur** (texte des questions) | Oui | **Oui** (non stocké en base) | Obligatoire pour utiliser l'IA | Fonctionnalité de l'appli |
-| Activité dans l'appli → **Interactions avec l'appli** (matière, nb de questions, scores des quiz, dates) | Oui | Non | Obligatoire (automatique) | Fonctionnalité de l'appli, Personnalisation |
-| Identifiants → **Identifiants d'appareil ou autres** (code appareil aléatoire ; adresse IP pour le compteur anti-abus) | Oui | Non | Obligatoire | Fonctionnalité de l'appli, Prévention de la fraude et sécurité |
+| Activité dans l'appli → **Interactions avec l'appli** (matière, nb de questions, scores des quiz, dates ; étapes de l'entonnoir et bouton d'accueil touché, à partir de 2.18 / 2.20) | Oui | Non | Obligatoire (automatique) | Fonctionnalité de l'appli, Personnalisation, **Analyse** |
+| Identifiants → **Identifiants d'appareil ou autres** (code appareil aléatoire ; adresse IP pour le compteur anti-abus) | Oui | Non | Obligatoire | Fonctionnalité de l'appli, Prévention de la fraude et sécurité, **Analyse** |
+
+« Analyse » (ajout du 17/10/2026, version 2.20) : le code appareil et les étapes franchies (1re
+ouverture, 1re question, offre affichée, bouton d'accueil touché...) servent aussi à compter, dans
+la page admin, combien d'élèves utilisent chaque partie de l'appli. Rien n'est partagé ni vendu,
+aucun outil d'analyse tiers n'est intégré.
 
 **À NE PAS cocher** (non collectés par l'appli) : position, contacts, informations financières (le paiement se fait
 par mobile money / WhatsApp, hors appli), santé, historique de navigation, messages, SMS, agenda,

@@ -534,27 +534,19 @@
     return div;
   }
 
-  // --- Appli Android : « consommation seule » (regles de paiement Google Play) ---
-  // L'appli ne vend rien : ni bouton de paiement, ni lien vers le site ou
-  // WhatsApp. Elle donne seulement, en texte, le prix et ou s'abonner (ce que la
-  // FAQ paiements de Google Play autorise, sans lien direct), plus le code de
-  // l'appareil a communiquer. Le site web garde la fenetre de paiement complete.
-  let bureauWhatsappDigits = "22371698694"; // remplace par /api/pay-info si disponible
-
-  function formatPhone(digits) {
-    const d = String(digits || "").replace(/\D/g, "");
-    if (d.length < 9) return d;
-    return "+" + d.slice(0, 3) + " " + d.slice(3).replace(/(\d{2})(?=\d)/g, "$1 ");
-  }
-
+  // --- Appli Android : « contenu uniquement consultable » (politique Paiements
+  // de Google Play) --- Rien ne s'achete dans l'appli. Elle informe seulement,
+  // sans lien direct, que l'abonnement se prend sur le site web, sur le modele
+  // de l'exemple de la FAQ Google (« Vous pouvez acheter ce livre directement
+  // sur notre site Web. ») : ni prix, ni numero WhatsApp, ni moyen de paiement
+  // (verifie le 17/10/2026 ; le Mali, le Senegal, la Cote d'Ivoire... n'ont
+  // aucun programme de facturation alternative ou d'offres externes). Le site
+  // web garde la fenetre de paiement complete.
   function infoIllimiteHtml() {
-    const prix = SUBSCRIBE_PLANS.map((p) =>
-      p.price.toLocaleString("fr-FR") + " F pour " + p.label).join(" ou ");
     return (
-      "<p><b>Accès illimité</b> : " + escapeHtml(prix) + ".</p>" +
-      "<p>Pour t'abonner, rends-toi sur notre site <b>" + escapeHtml(SHARE_URL.replace(/^https?:\/\//, "")) +
-      "</b> ou écris à notre bureau local sur WhatsApp au <b class=\"bureau-whatsapp\">" +
-      escapeHtml(formatPhone(bureauWhatsappDigits)) + "</b>, en donnant ton code :</p>" +
+      "<p>L'accès illimité ne s'achète pas dans l'appli. Tu peux t'abonner directement sur notre site web " +
+      escapeHtml(SHARE_URL.replace(/^https?:\/\//, "")) + ".</p>" +
+      "<p>Ton code, qui permet d'activer l'accès illimité sur ce téléphone :</p>" +
       '<p class="code-appli"><code>' + escapeHtml(DEVICE_ID) + "</code></p>" +
       '<div class="quota-actions">' +
       '<button type="button" class="copy-code">📋 Copier mon code</button>' +
@@ -564,7 +556,7 @@
     );
   }
 
-  // Branche le bouton « Copier mon code » et met a jour le numero du bureau.
+  // Branche le bouton « Copier mon code ».
   function wireInfoIllimite(container) {
     trackFunnel("offre_vue");
     const msg = container.querySelector(".copy-code-msg");
@@ -586,16 +578,9 @@
         try { copie = document.execCommand("copy"); } catch (e2) { copie = false; }
         zone.remove();
       }
-      msg.textContent = copie
-        ? "✅ Code copié : colle-le dans ton message au bureau."
-        : "Recopie le code ci-dessus dans ton message au bureau.";
+      msg.textContent = copie ? "✅ Code copié." : "Recopie le code ci-dessus.";
       trackFunnel("demande_paiement");
     });
-    fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
-      if (!info.whatsapp) return;
-      bureauWhatsappDigits = info.whatsapp;
-      container.querySelectorAll(".bureau-whatsapp").forEach((el) => { el.textContent = formatPhone(info.whatsapp); });
-    }).catch(() => {});
   }
 
   function openInfoIllimiteModal() {
@@ -614,7 +599,7 @@
   // Fin des questions gratuites du jour : message clair avec le bouton pour
   // passer en illimite ou la possibilite d'attendre demain (au lieu d'un
   // simple message d'erreur). Non conserve dans l'historique de conversation.
-  // Dans l'appli Android : prix et contacts en texte, sans bouton de paiement.
+  // Dans l'appli Android : simple information, sans prix ni bouton de paiement.
   function showQuotaExhausted(scrollToIt) {
     const existing = chatEl.querySelector(".msg-quota");
     if (existing) {
