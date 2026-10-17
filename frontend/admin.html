@@ -475,7 +475,7 @@
       if (data.boutons_accueil) {
         const boutons = document.createElement("p");
         boutons.className = "funnel-note";
-        boutons.textContent = "Boutons d'accueil touchés (appareils) — " +
+        boutons.textContent = "Boutons touchés (appareils) — " +
           data.boutons_accueil.map((b) => b.label + " : " + b.appareils).join(" · ") + ".";
         funnelWrap.appendChild(boutons);
       }

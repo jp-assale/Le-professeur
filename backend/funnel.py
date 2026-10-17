@@ -34,6 +34,8 @@ BOUTONS_ACCUEIL = (
     ("accueil_exemple", "Une question exemple"),
     ("accueil_cours", "Cours de ma classe"),
     ("accueil_sujets", "Sujet d'examen"),
+    # Site seulement : bouton « Installer » de l'encart Google Play.
+    ("clic_google_play", "Installer (encart Google Play du site)"),
 )
 # Seules etapes que l'appli peut declarer elle-meme.
 ETAPES_CLIENT = {"offre_vue", "demande_paiement"} | {e for e, _ in BOUTONS_ACCUEIL}

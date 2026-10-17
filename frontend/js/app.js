@@ -1745,15 +1745,22 @@
 
   if (isNativeApp()) upgradeLink.textContent = "✨ Accès illimité";
 
-  // Bandeau Google Play : uniquement sur le site (jamais dans l'appli), masquable.
+  // Encart Google Play : uniquement sur le site (jamais dans l'appli). Masque
+  // par la croix pendant 7 jours, puis il revient.
   (function initPlayBanner() {
     const banner = document.getElementById("play-banner");
     if (!banner || isNativeApp()) return;
-    try { if (localStorage.getItem("play_banner_closed") === "1") return; } catch (e) {}
-    document.getElementById("play-banner-link").href = PLAY_STORE_URL;
+    const KEY = "play_banner_closed_at";
+    try {
+      const closedAt = parseInt(localStorage.getItem(KEY), 10) || 0;
+      if (Date.now() - closedAt < 7 * 24 * 3600 * 1000) return;
+    } catch (e) {}
+    const link = document.getElementById("play-banner-link");
+    link.href = PLAY_STORE_URL;
+    link.addEventListener("click", () => trackFunnel("clic_google_play"));
     document.getElementById("play-banner-close").addEventListener("click", () => {
       banner.hidden = true;
-      try { localStorage.setItem("play_banner_closed", "1"); } catch (e) {}
+      try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {}
     });
     banner.hidden = false;
   })();

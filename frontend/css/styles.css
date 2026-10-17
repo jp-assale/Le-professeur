@@ -52,11 +52,11 @@ body {
 }
 
 /* Boutons de demarrage sous le message d'accueil (nouveaux visiteurs). */
-.quickstart { white-space: normal; margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.quickstart { white-space: normal; margin-top: 8px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .quickstart-title { grid-column: 1 / -1; margin: 0; font-weight: 700; font-size: 0.9rem; }
 .qs-btn {
   display: flex; align-items: center; gap: 8px; min-width: 0;
-  padding: 8px 10px; border: 1px solid var(--border); border-radius: 12px;
+  padding: 6px 10px; border: 1px solid var(--border); border-radius: 12px;
   background: var(--green-light); color: var(--text); text-align: left;
   font: inherit; cursor: pointer;
 }
@@ -64,23 +64,38 @@ body {
 .qs-ico { font-size: 1.4rem; line-height: 1; flex-shrink: 0; }
 .qs-btn b { display: block; font-size: 0.86rem; line-height: 1.25; }
 
+/* Encart « appli sur Google Play » (site seulement, jamais dans l'appli) :
+   doré sur l'en-tete vert pour sauter aux yeux. Pas de logo Google Play (le
+   badge officiel ne s'utilise qu'avec les fichiers et conditions de Google). */
 .play-banner {
-  display: flex; align-items: center; gap: 10px;
-  padding: 8px 12px 8px 16px;
-  background: var(--green-light); color: var(--text);
-  border-bottom: 1px solid var(--border);
-  font-size: 0.9rem; flex-shrink: 0;
+  position: relative; display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+  margin: 10px 10px 0; padding: 8px 30px 8px 10px; border-radius: 18px;
+  background: linear-gradient(120deg, #ffe08a 0%, #ffd166 45%, #ffb703 100%);
+  color: #10231d; box-shadow: 0 6px 16px rgba(176, 120, 0, 0.28);
 }
 .play-banner[hidden] { display: none; }
-.play-banner-text { flex: 1; min-width: 0; }
+.play-banner-icon {
+  width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px;
+  background: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.play-banner-text { flex: 1; min-width: 0; line-height: 1.2; }
+.play-banner-text strong { display: block; font-size: 0.9rem; font-weight: 800; }
+.play-banner-text span { display: block; font-size: 0.76rem; margin-top: 2px; color: #3d4a33; }
 .play-banner-btn {
-  background: var(--green); color: #fff; text-decoration: none;
-  font-weight: 700; padding: 6px 12px; border-radius: 999px; white-space: nowrap;
+  flex-shrink: 0; background: #0d7a5f; color: #fff; text-decoration: none;
+  font-weight: 800; font-size: 0.88rem; padding: 9px 14px; border-radius: 999px;
+  box-shadow: 0 3px 8px rgba(8, 84, 63, 0.35); white-space: nowrap;
+  animation: play-pulse 2.6s ease-in-out infinite;
 }
+.play-banner-btn:hover, .play-banner-btn:focus-visible { background: #08543f; }
+@keyframes play-pulse { 0%, 70%, 100% { transform: scale(1); } 80% { transform: scale(1.07); } 90% { transform: scale(0.98); } }
+@media (prefers-reduced-motion: reduce) { .play-banner-btn { animation: none; } }
 .play-banner-close {
-  background: none; border: 0; color: var(--text-muted);
-  font-size: 1rem; padding: 4px; cursor: pointer;
+  position: absolute; top: 2px; right: 4px; background: none; border: 0;
+  color: #5c4a12; font-size: 0.85rem; padding: 4px 6px; cursor: pointer;
 }
+/* Petits ecrans : la phrase principale suffit (les boutons d'accueil restent visibles). */
+@media (max-width: 400px) { .play-banner-text span { display: none; } }
 
 .brand { display: flex; align-items: center; gap: 8px; }
 .brand-dot {
