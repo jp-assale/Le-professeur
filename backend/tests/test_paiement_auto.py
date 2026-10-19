@@ -128,5 +128,83 @@ class PaiementAuto(unittest.TestCase):
         self.assertFalse(subscription.is_premium(self.device))
 
 
+class CodeAbonnement(unittest.TestCase):
+    """Code d'abonnement XXXX-XXXX : donne par le site, tape dans l'appli (l'abonnement y passe)."""
+    _n = 0
+
+    def setUp(self):
+        CodeAbonnement._n += 1
+        n = f"{CodeAbonnement._n}-{id(self)}"
+        self.site, self.appli, self.autre = f"dev-site{n}", f"dev-appli{n}", f"dev-autre{n}"
+        self.http = app_module.app.test_client()
+        self.ip = {"REMOTE_ADDR": f"198.51.100.{CodeAbonnement._n}"}
+        app_module._paiement_echecs.clear()
+
+    def code_de(self, device):
+        return self.http.get(f"/api/abonnement/code?device_id={device}")
+
+    def lier(self, device, code):
+        return self.http.post("/api/abonnement/lier", json={"device_id": device, "code": code}, environ_base=self.ip)
+
+    def test_pas_de_code_sans_abonnement(self):
+        self.assertEqual(self.code_de(self.site).status_code, 404)
+
+    def test_code_stable_et_lisible(self):
+        subscription.set_premium(self.site, True, days=30)
+        code = self.code_de(self.site).get_json()["code_abonnement"]
+        self.assertRegex(code, r"^[2-9A-HJKMNP-Z]{4}-[2-9A-HJKMNP-Z]{4}$")
+        self.assertEqual(self.code_de(self.site).get_json()["code_abonnement"], code)
+
+    def test_le_code_fait_passer_l_abonnement_sur_l_appli(self):
+        until = subscription.set_premium(self.site, True, days=20)
+        code = self.code_de(self.site).get_json()["code_abonnement"]
+        r = self.lier(self.appli, code.lower().replace("-", " "))  # saisie approximative acceptee
+        self.assertEqual(r.status_code, 200, r.get_json())
+        self.assertEqual(r.get_json()["premium_until"], until)
+        self.assertTrue(subscription.is_premium(self.appli))
+        self.assertFalse(subscription.is_premium(self.site))  # passe, pas copie
+        self.assertEqual(self.code_de(self.appli).get_json()["code_abonnement"], code)  # meme code, suit l'abonnement
+        self.assertEqual(self.lier(self.appli, code).status_code, 200)  # deja lie : sans effet
+
+    def test_jours_ajoutes_a_un_abonnement_deja_actif(self):
+        subscription.set_premium(self.site, True, days=20)
+        subscription.set_premium(self.appli, True, days=5)
+        code = self.code_de(self.site).get_json()["code_abonnement"]
+        r = self.lier(self.appli, code)
+        self.assertEqual(r.get_json()["premium_until"], (date.today() + timedelta(days=25)).isoformat())
+
+    def test_code_inconnu_expire_et_limites(self):
+        self.assertEqual(self.lier(self.appli, "ABCD").status_code, 400)
+        self.assertEqual(self.lier(self.appli, "2345-6789").status_code, 404)
+        subscription.set_premium(self.site, True, days=20)
+        code = self.code_de(self.site).get_json()["code_abonnement"]
+        subscription.set_premium(self.site, False)
+        self.assertEqual(self.lier(self.appli, code).status_code, 410)  # abonnement termine
+        # Le code qui passe d'un telephone a l'autre en boucle est bloque pour la journee.
+        subscription.set_premium(self.site, True, days=20)
+        for device in (self.appli, self.autre, self.site):
+            self.assertEqual(self.lier(device, code).status_code, 200)
+        self.assertEqual(self.lier(self.appli, code).status_code, 429)
+
+    def test_essais_au_hasard_bloques(self):
+        for i in range(app_module.CODE_ESSAIS_JOUR):
+            self.assertEqual(self.lier(f"{self.appli}-{i}", "2345-6789").status_code, 404)
+        # Meme adresse IP, autre appareil : bloque aussi (on ne devine pas les codes en changeant d'appareil).
+        self.assertEqual(self.lier(self.autre, "2345-6789").status_code, 429)
+
+    def test_paiement_auto_renvoie_le_code(self):
+        registre = FauxRegistre()
+        orig = app_module.requests.post
+        app_module.requests.post = registre.post
+        os.environ["PAIEMENT_CLE"] = "cle-de-test"
+        try:
+            r = self.http.post("/api/paiement-auto", json={"device_id": self.site, "plan": "1-mois", "numero": "76123456"})
+        finally:
+            app_module.requests.post = orig
+            os.environ.pop("PAIEMENT_CLE", None)
+        self.assertEqual(r.status_code, 200, r.get_json())
+        self.assertEqual(r.get_json()["code_abonnement"], self.code_de(self.site).get_json()["code_abonnement"])
+
+
 if __name__ == "__main__":
     unittest.main()

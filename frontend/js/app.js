@@ -440,23 +440,90 @@
   // (verifie le 17/10/2026 ; le Mali, le Senegal, la Cote d'Ivoire... n'ont
   // aucun programme de facturation alternative ou d'offres externes). Le site
   // web garde la fenetre de paiement complete.
+  // Le « code d'abonnement » (XXXX-XXXX) que le site donne apres l'abonnement se tape ici :
+  // comme une connexion a un compte achete ailleurs, rien ne s'achete dans l'appli.
   function infoIllimiteHtml() {
     return (
       "<p>L'accès illimité ne s'achète pas dans l'appli. Tu peux t'abonner directement sur notre site web " +
       escapeHtml(SHARE_URL.replace(/^https?:\/\//, "")) + ".</p>" +
-      "<p>Ton code, qui permet d'activer l'accès illimité sur ce téléphone :</p>" +
+      "<p><b>Tu as un code d'abonnement ?</b> Tape-le ici :</p>" +
+      codeAbonnementFormHtml() +
+      '<details class="autre-methode"><summary>Autre méthode : le code de ton appli</summary>' +
+      "<p>Ce code permet aussi d'activer l'accès illimité sur ce téléphone :</p>" +
       '<p class="code-appli"><code>' + escapeHtml(DEVICE_ID) + "</code></p>" +
       '<div class="quota-actions">' +
       '<button type="button" class="copy-code">📋 Copier mon code</button>' +
       "</div>" +
       '<p class="copy-code-msg" style="min-height:1.2em;margin:4px 0 0;"></p>' +
-      "<p>Dès que ton abonnement est validé, l'accès illimité s'active tout seul dans l'appli.</p>"
+      "<p>Dès que ton abonnement est validé, l'accès illimité s'active tout seul dans l'appli.</p></details>"
     );
   }
 
-  // Branche le bouton « Copier mon code ».
+  // Formulaire « code d'abonnement » (appli Android, et menu 🔑 du site pour changer de telephone) :
+  // l'abonnement du code passe sur cet appareil (voir /api/abonnement/lier).
+  function codeAbonnementFormHtml() {
+    return (
+      '<div style="display:flex;gap:8px;">' +
+      '<input type="text" class="code-abo-input" placeholder="ex : K7P4-QX2M" maxlength="12" autocomplete="off" ' +
+      'autocapitalize="characters" spellcheck="false" aria-label="Code d\'abonnement" ' +
+      'style="flex:1;min-width:0;padding:9px 10px;border-radius:8px;border:1px solid var(--border);font-family:monospace;font-size:1rem;letter-spacing:1px;text-transform:uppercase;">' +
+      '<button type="button" class="code-abo-btn" ' +
+      'style="flex-shrink:0;padding:9px 14px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.88rem;font-weight:600;cursor:pointer;">Activer</button>' +
+      "</div>" +
+      '<p class="code-abo-msg" style="font-size:0.82rem;min-height:1.2em;margin:6px 0 0;line-height:1.4;"></p>'
+    );
+  }
+
+  function wireCodeAbonnementForm(container) {
+    const input = container.querySelector(".code-abo-input");
+    const btn = container.querySelector(".code-abo-btn");
+    const msg = container.querySelector(".code-abo-msg");
+    if (!input || !btn) return;
+    const ko = (texte) => { msg.style.color = "#9b2c2c"; msg.textContent = texte; };
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter") btn.click(); });
+    btn.addEventListener("click", async () => {
+      const code = input.value.trim();
+      if (code.replace(/[^A-Za-z0-9]/g, "").length !== 8) { ko("Le code d'abonnement a 8 caractères, par exemple K7P4-QX2M."); return; }
+      btn.disabled = true;
+      msg.style.color = "var(--text-muted)";
+      msg.textContent = "⏳ Vérification…";
+      try {
+        const res = await fetch(apiUrl("/api/abonnement/lier"), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ device_id: DEVICE_ID, code: code }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.ok) throw new Error(data.error || "Vérification impossible pour le moment. Réessaie plus tard.");
+        activerIllimite(data.premium_until, data.code_abonnement);
+      } catch (e) {
+        btn.disabled = false;
+        ko(e instanceof TypeError ? "Connexion impossible. Réessaie quand tu as du réseau." : e.message);
+      }
+    });
+  }
+
+  // Abonnement actif sur cet appareil : badge « Illimite », fenetres fermees, message de confirmation
+  // avec le code d'abonnement (sur le site, il sert a activer l'appli Android ou un autre telephone).
+  function activerIllimite(premiumUntil, codeAbo) {
+    isPremium = true;
+    setQuota(null, null);
+    document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
+    chatEl.querySelectorAll(".msg-quota").forEach((d) => d.remove());
+    const fin = premiumUntil ? " jusqu'au " + new Date(premiumUntil + "T00:00:00").toLocaleDateString("fr-FR") : "";
+    let texte = "✨ Ton accès illimité est activé" + fin + " ! Merci, et bon courage pour tes révisions.";
+    if (codeAbo && !isNativeApp()) {
+      texte += "\n\n🔑 Ton code d'abonnement : **" + codeAbo + "**\n\nGarde-le bien. Pour utiliser ton accès dans l'appli Android, " +
+        "touche « ✨ Accès illimité » dans l'appli et tape ce code : l'accès passe alors sur l'appli. " +
+        "Il sert aussi si tu changes de téléphone. Tu le retrouves dans le menu « 🔑 Mon code appareil ».";
+    }
+    addMessage(texte, "msg-bot");
+  }
+
+  // Branche le formulaire du code d'abonnement et le bouton « Copier mon code ».
   function wireInfoIllimite(container) {
     trackFunnel("offre_vue");
+    wireCodeAbonnementForm(container);
     const msg = container.querySelector(".copy-code-msg");
     container.querySelector(".copy-code").addEventListener("click", async () => {
       const prenom = getStoredPrenom();
@@ -1351,6 +1418,12 @@
             style="flex-shrink:0;padding:8px 14px;border-radius:8px;border:none;background:var(--green);color:#fff;font-size:0.85rem;cursor:pointer;">📋 Copier</button>
         </div>
         <p id="device-copy-msg" style="font-size:0.8rem;color:var(--green-dark);min-height:1.2em;margin:6px 0 0;"></p>
+        <div id="abo-code-zone" hidden style="background:var(--green-light);border-radius:10px;padding:10px 12px;margin:8px 0 0;font-size:0.85rem;line-height:1.5;"></div>
+        <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
+          Tu as un code d'abonnement (8 caractères) ? Tape-le ici :
+        </p>
+        <div class="abo-code-form">${codeAbonnementFormHtml()}</div>
         <hr style="margin:14px 0;border:none;border-top:1px solid var(--border);">
         <p style="font-size:0.85rem;color:var(--text-muted);margin:0 0 8px;">
           Tu as déjà un code (utilisé sur un autre téléphone) ? Colle-le ici :
@@ -1368,6 +1441,7 @@
       if (e.target === overlay) overlay.remove();
     });
     overlay.querySelector("#device-modal-close").addEventListener("click", () => overlay.remove());
+    wireCodeAbonnementForm(overlay.querySelector(".abo-code-form"));
 
     const copyBtn = overlay.querySelector("#device-copy-btn");
     const copyMsg = overlay.querySelector("#device-copy-msg");
@@ -1406,6 +1480,21 @@
     deviceCodeModal.querySelector("#device-code-display").value = DEVICE_ID;
     deviceCodeModal.querySelector("#device-code-input").value = "";
     deviceCodeModal.querySelector("#device-copy-msg").textContent = "";
+    // Abonne : son code d'abonnement, pour l'appli Android ou un autre telephone.
+    const zone = deviceCodeModal.querySelector("#abo-code-zone");
+    zone.hidden = true;
+    if (!isPremium) return;
+    fetch(apiUrl("/api/abonnement/code?device_id=" + encodeURIComponent(DEVICE_ID)))
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (!data || !data.code_abonnement) return;
+        zone.innerHTML = "✨ Ton code d'abonnement : <strong style=\"font-family:monospace;font-size:1rem;letter-spacing:1px;\">" +
+          escapeHtml(data.code_abonnement) + "</strong><br>" +
+          (isNativeApp() ? "Il sert si tu changes de téléphone" : "Il sert à activer ton accès dans l'appli Android ou sur un autre téléphone") +
+          " : l'accès passe alors sur l'appareil où tu le tapes.";
+        zone.hidden = false;
+      })
+      .catch(() => {});
   });
 
   reportBtn.addEventListener("click", async () => {
@@ -1498,12 +1587,15 @@
         </div>
         <div id="subscribe-pay" hidden style="font-size:0.88rem;background:var(--green-light);border-radius:10px;padding:10px 12px;margin-bottom:12px;line-height:1.5;"></div>
         ${isNativeApp() ? "" : `
+        <p style="font-size:0.82rem;color:var(--text-muted);margin:0 0 6px;line-height:1.45;">
+          📱 Tu utilises l'appli Android ? Abonne-toi ici : une fois ton accès activé, tu reçois un
+          <strong>code d'abonnement</strong> à taper dans l'appli (bouton « ✨ Accès illimité »).</p>
+        <details class="autre-methode" style="margin:0 0 12px;"><summary>Autre méthode : coller le code de ton appli (🔑)</summary>
         <label for="subscribe-app-code" style="display:block;font-size:0.82rem;color:var(--text-muted);margin:0 0 4px;">
-          Tu t'abonnes pour l'appli Android ? Colle ici le code de ton appli (bouton 🔑 dans l'appli).
-          Laisse vide pour t'abonner sur ce site.</label>
+          Colle ici le code de ton appli (bouton 🔑 dans l'appli). Laisse vide pour t'abonner sur ce site.</label>
         <input type="text" id="subscribe-app-code" placeholder="ex : dev-abc123…" autocomplete="off" spellcheck="false"
           style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
-        <p id="subscribe-app-code-msg" style="font-size:0.78rem;margin:-6px 0 12px;"></p>
+        <p id="subscribe-app-code-msg" style="font-size:0.78rem;margin:-6px 0 0;"></p></details>
         <div id="subscribe-auto" hidden style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:12px;">
           <p style="font-size:0.88rem;margin:0 0 8px;line-height:1.5;"><strong>2. Active ton accès tout de suite</strong><br>
             Après ton paiement, écris le numéro avec lequel tu as payé : ton accès s'active en quelques secondes, même la nuit.</p>
@@ -1664,10 +1756,7 @@
           autoBtn.textContent = "✅ Accès activé";
           return;
         }
-        isPremium = true;
-        setQuota(null, null); // affiche « ✨ Illimité » et masque le bouton d'abonnement
-        document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
-        addMessage("✨ Ton accès illimité est activé jusqu'au " + fin + " ! Merci, et bon courage pour tes révisions.", "msg-bot");
+        activerIllimite(data.premium_until, data.code_abonnement);
       } catch (e) {
         autoBtn.disabled = false;
         autoBtn.textContent = "✅ J'ai payé : activer mon accès";
@@ -1689,10 +1778,9 @@
         const data = await res.json();
         if (data.premium) {
           clearInterval(activationWatch); activationWatch = null;
-          isPremium = true;
-          setQuota(data.remaining, data.limit);
-          document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
-          addMessage("✨ Ton accès illimité est activé ! Merci, et bon courage pour tes révisions.", "msg-bot");
+          let abo = {};
+          try { abo = await (await fetch(apiUrl("/api/abonnement/code?device_id=" + encodeURIComponent(DEVICE_ID)))).json(); } catch (e) {}
+          activerIllimite(abo.premium_until, abo.code_abonnement);
         }
       } catch (e) { /* hors-ligne : on reessaie au prochain tour */ }
     }, 20000);

@@ -801,6 +801,8 @@ body {
 .copy-code { background: var(--green, #1a7a4c); color: #fff; }
 .copy-code-msg { font-size: 0.8rem; }
 .info-illimite p { margin: 0 0 8px; }
+.autre-methode { margin-top: 10px; font-size: 0.85rem; }
+.autre-methode summary { cursor: pointer; color: var(--text-muted); margin-bottom: 6px; }
 
 /* Zone de saisie : champ pleine largeur, plus haut, contour or ; les boutons
    (photo, fichier, micro, envoyer) passent sur une ligne en dessous. */

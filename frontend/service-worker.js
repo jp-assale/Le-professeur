@@ -1,4 +1,4 @@
-const CACHE_NAME = "aida-shell-v15";
+const CACHE_NAME = "aida-shell-v16";
 const SHELL_FILES = [
   "/",
   "/css/styles.css",

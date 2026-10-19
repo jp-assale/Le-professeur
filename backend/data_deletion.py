@@ -38,6 +38,7 @@ def delete_device_data(device_id: str, include_subscription: bool = False) -> di
             counts["subscriptions"] = conn.execute(
                 "DELETE FROM subscriptions WHERE device_id = ?", (device_id,)
             ).rowcount
+            conn.execute("DELETE FROM subscription_codes WHERE device_id = ?", (device_id,))
         else:
             counts["subscriptions"] = 0
         counts["abonnement_actif_conserve"] = int(bool(row) and counts["subscriptions"] == 0)

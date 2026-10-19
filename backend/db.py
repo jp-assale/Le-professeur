@@ -95,6 +95,13 @@ CREATE TABLE IF NOT EXISTS funnel_events (
     plateforme TEXT,
     PRIMARY KEY (device_id, etape)
 );
+CREATE TABLE IF NOT EXISTS subscription_codes (
+    code TEXT PRIMARY KEY,
+    device_id TEXT NOT NULL UNIQUE,
+    created TEXT NOT NULL,
+    transfer_day TEXT,
+    transfer_count INTEGER NOT NULL DEFAULT 0
+);
 CREATE TABLE IF NOT EXISTS _migrations (
     name TEXT PRIMARY KEY
 );

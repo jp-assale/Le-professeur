@@ -9,6 +9,9 @@ L'abonnement expire automatiquement apres DEFAULT_DURATION_DAYS jours (voir
 premium_until) - un paiement ne rend pas premium a vie, il faut reactiver a
 chaque renouvellement.
 """
+import re
+import secrets
+import threading
 from datetime import date, datetime, timedelta, timezone
 
 import db
@@ -128,6 +131,86 @@ def extend_premium(device_id: str, days: int) -> str:
         if current:
             remaining = max(0, (date.fromisoformat(current) - date.today()).days)
     return set_premium(device_id, True, days=days + remaining)
+
+
+# --- Code d'abonnement (XXXX-XXXX) ---
+# L'eleve s'abonne sur le site ; le site lui donne ce code court, qu'il tape dans l'appli
+# Android (« J'ai un code d'abonnement ») : l'abonnement PASSE sur l'appli (l'appareil
+# d'origine le perd). Comme une connexion a un compte achete ailleurs : rien ne s'achete
+# dans l'appli (politique Paiements de Google Play). Sert aussi a changer de telephone.
+CODE_ALPHABET = "23456789ABCDEFGHJKMNPQRSTUVWXYZ"  # ni 0/O, ni 1/I/L : pas de confusion
+TRANSFERTS_PAR_JOUR = 3
+_code_lock = threading.Lock()
+
+
+def normalize_code(code: str) -> str | None:
+    """« k7p4 qx2m », « K7P4-QX2M »... -> « K7P4-QX2M » ; None si ce n'est pas un code valide."""
+    brut = re.sub(r"[^A-Za-z0-9]", "", code or "").upper()
+    if len(brut) != 8 or any(c not in CODE_ALPHABET for c in brut):
+        return None
+    return brut[:4] + "-" + brut[4:]
+
+
+def subscription_code(device_id: str) -> str | None:
+    """Code d'abonnement d'un appareil abonne (cree a la premiere demande) ; None sans
+    abonnement actif date (les anciennes activations sans date ne se transferent pas)."""
+    if not is_premium(device_id) or not get_premium_until(device_id):
+        return None
+    with _code_lock:
+        conn = db.get_connection()
+        try:
+            row = conn.execute("SELECT code FROM subscription_codes WHERE device_id = ?", (device_id,)).fetchone()
+            if row:
+                return row[0]
+            while True:
+                brut = "".join(secrets.choice(CODE_ALPHABET) for _ in range(8))
+                code = brut[:4] + "-" + brut[4:]
+                if conn.execute("INSERT OR IGNORE INTO subscription_codes (code, device_id, created) VALUES (?, ?, ?)",
+                                (code, device_id, date.today().isoformat())).rowcount:
+                    conn.commit()
+                    return code
+        finally:
+            conn.close()
+
+
+def transfer_by_code(code: str, device_id: str) -> dict:
+    """Fait passer sur `device_id` l'abonnement du code. Les jours restants s'ajoutent a un
+    abonnement deja actif sur cet appareil. Retourne {"ok": True, "premium_until", "code"}
+    ou {"ok": False, "raison": "introuvable" | "expire" | "trop_de_transferts"}."""
+    code = normalize_code(code)
+    if not code:
+        return {"ok": False, "raison": "introuvable"}
+    with _code_lock:
+        conn = db.get_connection()
+        try:
+            row = conn.execute("SELECT device_id, transfer_day, transfer_count FROM subscription_codes WHERE code = ?",
+                               (code,)).fetchone()
+        finally:
+            conn.close()
+        if not row:
+            return {"ok": False, "raison": "introuvable"}
+        origine, jour, nombre = row
+        if origine == device_id:
+            return {"ok": True, "premium_until": get_premium_until(device_id), "code": code, "deja": True}
+        until = get_premium_until(origine) if is_premium(origine) else None
+        if not until:
+            return {"ok": False, "raison": "expire"}
+        aujourdhui = date.today().isoformat()
+        nombre = nombre if jour == aujourdhui else 0
+        if nombre >= TRANSFERTS_PAR_JOUR:
+            return {"ok": False, "raison": "trop_de_transferts"}
+        jours = max(0, (date.fromisoformat(until) - date.today()).days)
+        nouveau = extend_premium(device_id, jours)
+        set_premium(origine, False)
+        conn = db.get_connection()
+        try:
+            conn.execute("DELETE FROM subscription_codes WHERE device_id = ?", (device_id,))
+            conn.execute("UPDATE subscription_codes SET device_id = ?, transfer_day = ?, transfer_count = ? WHERE code = ?",
+                         (device_id, aujourdhui, nombre + 1, code))
+            conn.commit()
+        finally:
+            conn.close()
+    return {"ok": True, "premium_until": nouveau, "code": code}
 
 
 def list_subscriptions() -> list[dict]:

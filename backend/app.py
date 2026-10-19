@@ -1222,12 +1222,16 @@ def _cle_paiement() -> str:
     return (os.environ.get("PAIEMENT_CLE") or "").strip()
 
 
-def _echecs_paiement(device_id: str, ajouter: bool = False) -> int:
+def _echecs_paiement(cle: str, ajouter: bool = False) -> int:
+    """Essais rates du jour pour `cle` (appareil ou adresse IP) : paiement introuvable,
+    code d'abonnement inconnu."""
     jour = date.today().isoformat()
     with _paiement_lock:
-        n = _paiement_echecs.get((device_id, jour), 0) + (1 if ajouter else 0)
+        if ajouter and len(_paiement_echecs) > 50000:
+            _paiement_echecs.clear()  # memoire bornee (les compteurs de la veille ne servent plus)
+        n = _paiement_echecs.get((cle, jour), 0) + (1 if ajouter else 0)
         if ajouter:
-            _paiement_echecs[(device_id, jour)] = n
+            _paiement_echecs[(cle, jour)] = n
         return n
 
 
@@ -1274,7 +1278,52 @@ def paiement_auto():
                         "code": "paiement_indisponible"}), 503
     until = subscription.extend_premium(device_id, plan["days"])
     funnel.record(device_id, "paiement")
-    return jsonify({"ok": True, "device_id": device_id, "premium_until": until, "montant": reponse.get("montant")})
+    return jsonify({"ok": True, "device_id": device_id, "premium_until": until, "montant": reponse.get("montant"),
+                    "code_abonnement": subscription.subscription_code(device_id)})
+
+
+CODE_ESSAIS_JOUR = 10
+
+
+@app.route("/api/abonnement/code", methods=["GET"])
+def abonnement_code():
+    """Code d'abonnement (XXXX-XXXX) d'un appareil abonne, a taper dans l'appli Android
+    ou sur un autre telephone (voir subscription.transfer_by_code)."""
+    device_id = (request.args.get("device_id") or "").strip()
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{6,120}", device_id):
+        return jsonify({"error": "Requête invalide."}), 400
+    code = subscription.subscription_code(device_id)
+    if not code:
+        return jsonify({"error": "Pas d'abonnement en cours sur cet appareil.", "code": "pas_abonne"}), 404
+    return jsonify({"code_abonnement": code, "premium_until": subscription.get_premium_until(device_id)})
+
+
+@app.route("/api/abonnement/lier", methods=["POST"])
+def abonnement_lier():
+    """L'eleve tape son code d'abonnement (dans l'appli Android ou sur un autre telephone) :
+    l'abonnement passe sur cet appareil. Rien ne s'achete ici (politique Paiements de Google Play)."""
+    data = request.get_json(silent=True) or {}
+    device_id = str(data.get("device_id") or "").strip()
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{6,120}", device_id):
+        return jsonify({"error": "Requête invalide."}), 400
+    ip = "ip:" + _client_ip()
+    if max(_echecs_paiement("code:" + device_id), _echecs_paiement(ip)) >= CODE_ESSAIS_JOUR:
+        return jsonify({"error": "Trop d'essais aujourd'hui. Réessaie demain.", "code": "code_bloque"}), 429
+    if not subscription.normalize_code(str(data.get("code") or "")):
+        return jsonify({"error": "Le code d'abonnement a 8 caractères, par exemple K7P4-QX2M.", "code": "code_format"}), 400
+    result = subscription.transfer_by_code(str(data.get("code")), device_id)
+    if not result["ok"]:
+        raison = result["raison"]
+        if raison == "introuvable":
+            _echecs_paiement("code:" + device_id, ajouter=True)
+            _echecs_paiement(ip, ajouter=True)
+            return jsonify({"error": "Ce code d'abonnement n'existe pas. Vérifie chaque caractère.", "code": "code_inconnu"}), 404
+        if raison == "expire":
+            return jsonify({"error": "L'abonnement de ce code est terminé.", "code": "code_expire"}), 410
+        return jsonify({"error": "Ce code a déjà changé d'appareil plusieurs fois aujourd'hui. Réessaie demain.",
+                        "code": "code_trop_utilise"}), 429
+    # Pas d'etape « paiement » ici : l'abonnement a deja ete compte a l'activation sur le site.
+    return jsonify({"ok": True, "premium_until": result["premium_until"], "code_abonnement": result["code"]})
 
 
 @app.route("/api/admin/premium/list", methods=["GET"])
