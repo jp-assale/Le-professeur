@@ -2075,6 +2075,55 @@
     const key = Object.keys(EXEMPLES).find((m) => label.normalize("NFD").replace(/[̀-ͯ]/g, "").indexOf(m) !== -1);
     return EXEMPLES[key || "Mathematiques"];
   }
+  // Site : accueil des nouveaux visiteurs (pub Facebook surtout). Du 15 au 19/10/2026, 4 % seulement
+  // posaient une 1re question. Exemple de reponse du Prof visible tout de suite (texte fixe, sans
+  // appel a l'IA), questions pretes a toucher, gratuite rappelee, photo d'exercice mise en avant.
+  // L'appli Android garde son accueil (captures de la fiche Play Store).
+  (function enrichirAccueil() {
+    const qs = document.getElementById("quickstart");
+    if (!qs || isNativeApp()) return;
+    const essais = [
+      { label: "📐 Le théorème de Pythagore", q: exempleQuestion() },
+      { label: "🧮 Résous 3x − 4 = 11", q: "Résous 3x − 4 = 11 étape par étape" },
+      { label: "✍️ Réussir une introduction", q: "Comment bien faire une introduction de dissertation ?" },
+    ];
+    if (essais[0].q !== EXEMPLES.Mathematiques) essais[0].label = "💡 " + essais[0].q.replace(/ avec (un exemple|des exemples)( simple)?$/, "");
+    const demo = document.createElement("div");
+    demo.className = "qs-demo";
+    demo.innerHTML =
+      '<p class="qs-demo-q"><span>Exemple</span> « Résous 2x + 5 = 13 »</p>' +
+      '<ol class="qs-demo-a">' +
+      "<li>On enlève 5 des deux côtés : <b>2x = 8</b></li>" +
+      "<li>On divise par 2 : <b>x = 4</b></li>" +
+      "<li>On vérifie : 2 × 4 + 5 = 13 ✅</li>" +
+      "</ol>" +
+      '<p class="qs-demo-defi">À toi ! Essaie une question 👇</p>';
+    qs.parentNode.insertBefore(demo, qs);
+    qs.classList.add("quickstart-site");
+    qs.querySelector(".quickstart-title").hidden = true; // remplace par la derniere ligne de l'exemple
+    const essaisEl = document.createElement("div");
+    essaisEl.className = "qs-essais";
+    essaisEl.innerHTML = essais.map((e) =>
+      '<button type="button" class="qs-essai" data-q="' + escapeHtml(e.q) + '">' + escapeHtml(e.label) + "</button>").join("");
+    qs.querySelector(".quickstart-title").after(essaisEl);
+    const ou = document.createElement("p");
+    ou.className = "quickstart-title qs-ou";
+    ou.textContent = "Ou bien :";
+    essaisEl.after(ou);
+    const exemple = qs.querySelector('.qs-btn[data-qs="exemple"]');
+    if (exemple) exemple.remove();
+    const gratuit = document.createElement("p");
+    gratuit.className = "qs-gratuit";
+    gratuit.textContent = "✅ Gratuit et sans inscription";
+    qs.after(gratuit);
+  })();
+  document.addEventListener("click", (e) => {
+    const essai = e.target.closest && e.target.closest(".qs-essai");
+    if (!essai) return;
+    trackFunnel("accueil_exemple");
+    input.value = essai.getAttribute("data-q");
+    document.getElementById("composer").requestSubmit();
+  });
   document.addEventListener("click", (e) => {
     const btn = e.target.closest && e.target.closest(".qs-btn");
     if (!btn) return;
