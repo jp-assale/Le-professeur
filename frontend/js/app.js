@@ -1441,13 +1441,13 @@
   // leur verification a ce jour). Format wa.me : chiffres uniquement, sans
   // le "00" ni le "+".
   const SUBSCRIBE_WHATSAPP_NUMBER = "22371698694";
-  // Paiement Orange Money : meme numero que WhatsApp (confirme par l'admin le 2026-10-12).
+  // Paiement Orange Money : +223 70 44 75 82 (recoit les SMS de paiement, 2026-10-19) ; WhatsApp reste le 71 69 86 94.
   // Le serveur peut le remplacer sans publier d'appli (variables PAY_* sur Render, /api/pay-info).
   const SUBSCRIBE_PAY_INFO = {
     whatsapp: SUBSCRIBE_WHATSAPP_NUMBER,
     beneficiary: null,
     methods: [
-      { label: "Orange Money", number: "+223 71 69 86 94" },
+      { label: "Orange Money", number: "+223 70 44 75 82" },
       { label: "Wave (Côte d'Ivoire)", number: "+225 07 01 19 48 82" },
     ],
   };
@@ -1497,15 +1497,28 @@
           ${plansHtml}
         </div>
         <div id="subscribe-pay" hidden style="font-size:0.88rem;background:var(--green-light);border-radius:10px;padding:10px 12px;margin-bottom:12px;line-height:1.5;"></div>
-        <input type="tel" id="subscribe-tel" placeholder="Ton numéro WhatsApp (facultatif)" autocomplete="tel"
-          style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
         ${isNativeApp() ? "" : `
         <label for="subscribe-app-code" style="display:block;font-size:0.82rem;color:var(--text-muted);margin:0 0 4px;">
           Tu t'abonnes pour l'appli Android ? Colle ici le code de ton appli (bouton 🔑 dans l'appli).
           Laisse vide pour t'abonner sur ce site.</label>
         <input type="text" id="subscribe-app-code" placeholder="ex : dev-abc123…" autocomplete="off" spellcheck="false"
           style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
-        <p id="subscribe-app-code-msg" style="font-size:0.78rem;margin:-6px 0 12px;"></p>`}
+        <p id="subscribe-app-code-msg" style="font-size:0.78rem;margin:-6px 0 12px;"></p>
+        <div id="subscribe-auto" hidden style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:12px;">
+          <p style="font-size:0.88rem;margin:0 0 8px;line-height:1.5;"><strong>2. Active ton accès tout de suite</strong><br>
+            Après ton paiement, écris le numéro avec lequel tu as payé : ton accès s'active en quelques secondes, même la nuit.</p>
+          <input type="tel" id="subscribe-payeur" placeholder="Numéro qui a payé (ex : 76 12 34 56)" autocomplete="tel"
+            style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:8px;">
+          <input type="text" id="subscribe-ref" placeholder="Référence du SMS de paiement (facultatif)" autocomplete="off" spellcheck="false"
+            style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:8px;">
+          <button type="button" id="subscribe-auto-btn"
+            style="width:100%;padding:12px;border-radius:10px;border:none;background:var(--green);color:#fff;font-weight:600;font-size:0.95rem;cursor:pointer;">
+            ✅ J'ai payé : activer mon accès</button>
+          <p id="subscribe-auto-msg" style="font-size:0.82rem;margin:8px 0 0;line-height:1.4;"></p>
+        </div>`}
+        <p id="subscribe-wa-title" hidden style="font-size:0.88rem;margin:0 0 6px;"><strong>3. Un problème ? Écris au bureau</strong></p>
+        <input type="tel" id="subscribe-tel" placeholder="Ton numéro WhatsApp (facultatif)" autocomplete="tel"
+          style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border);font-size:0.9rem;margin-bottom:12px;">
         <a id="subscribe-whatsapp-link" href="#" target="_blank" rel="noopener"
           style="display:block;text-align:center;padding:12px;border-radius:10px;background:#25d366;color:#fff;font-weight:600;text-decoration:none;font-size:0.95rem;">
           💬 Envoyer ma demande sur WhatsApp
@@ -1597,18 +1610,70 @@
     // publier une nouvelle version de l'appli), avec repli sur les valeurs integrees.
     function showPay(info) {
       if (info.whatsapp) { waNumber = info.whatsapp; updateWaLink(); }
+      // Paiement automatique (site uniquement) : l'eleve active lui-meme son acces avec
+      // le numero qui a paye ; WhatsApp ne sert plus qu'en cas de probleme.
+      const auto = overlay.querySelector("#subscribe-auto");
+      const avecAuto = Boolean(auto && info.paiement_auto);
+      if (auto) {
+        auto.hidden = !avecAuto;
+        overlay.querySelector("#subscribe-wa-title").hidden = !avecAuto;
+        overlay.querySelector("#subscribe-intro").textContent = avecAuto
+          ? "Choisis ta formule, paie par Mobile Money, puis écris le numéro qui a payé : ton accès illimité s'active tout de suite."
+          : "Choisis ta formule, puis touche le bouton vert : WhatsApp s'ouvre avec ton message. Envoie-le, puis envoie la capture de ton paiement Mobile Money : ton accès illimité est activé en quelques minutes.";
+      }
       if (!info.methods || !info.methods.length) return;
       const pay = overlay.querySelector("#subscribe-pay");
       pay.innerHTML = "<strong>1. Paie par Mobile Money</strong><br>" +
         info.methods.map((m) => escapeHtml(m.label) + " : <strong>" + escapeHtml(m.number) + "</strong>").join("<br>") +
         (info.beneficiary ? "<br>Au nom de : " + escapeHtml(info.beneficiary) : "") +
-        "<br><strong>2. Touche le bouton vert</strong> et envoie la capture.";
+        (avecAuto ? "<br>Garde le SMS de confirmation de ton paiement."
+          : "<br><strong>2. Touche le bouton vert</strong> et envoie la capture.");
       pay.hidden = false;
     }
     showPay(SUBSCRIBE_PAY_INFO); // affichage immediat, meme hors-ligne
     fetchWithRetry(apiUrl("/api/pay-info"), undefined, 1, 5000).then((r) => r.json()).then((info) => {
       if (info.whatsapp || (info.methods && info.methods.length)) showPay({ ...SUBSCRIBE_PAY_INFO, ...info, methods: (info.methods && info.methods.length) ? info.methods : SUBSCRIBE_PAY_INFO.methods });
     }).catch(() => {});
+
+    const autoBtn = overlay.querySelector("#subscribe-auto-btn");
+    if (autoBtn) autoBtn.addEventListener("click", async () => {
+      const payeur = overlay.querySelector("#subscribe-payeur").value;
+      const ref = overlay.querySelector("#subscribe-ref").value.trim();
+      const msg = overlay.querySelector("#subscribe-auto-msg");
+      const checked = overlay.querySelector('input[name="sub-plan"]:checked');
+      const plan = SUBSCRIBE_PLANS.find((p) => checked && p.id === checked.value) || SUBSCRIBE_PLANS[0];
+      const ko = (texte) => { msg.style.color = "#9b2c2c"; msg.textContent = texte; };
+      if (payeur.replace(/\D/g, "").length < 8 && ref.length < 5) { ko("Écris le numéro avec lequel tu as payé."); return; }
+      const target = targetDeviceId();
+      autoBtn.disabled = true;
+      autoBtn.textContent = "⏳ Vérification du paiement…";
+      msg.textContent = "";
+      try {
+        const res = await fetch(apiUrl("/api/paiement-auto"), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ device_id: target, plan: plan.id, numero: payeur, reference: ref }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.ok) throw new Error(data.error || "Vérification impossible pour le moment. Réessaie dans une minute.");
+        const fin = new Date(data.premium_until + "T00:00:00").toLocaleDateString("fr-FR");
+        if (target !== DEVICE_ID) {
+          // Abonnement pour l'appli Android : c'est l'appli qui verra l'activation.
+          msg.style.color = "var(--green-dark, #1a7a4c)";
+          msg.textContent = "✨ C'est fait ! Accès illimité activé dans ton appli Android jusqu'au " + fin + ". Rouvre l'appli.";
+          autoBtn.textContent = "✅ Accès activé";
+          return;
+        }
+        isPremium = true;
+        setQuota(null, null); // affiche « ✨ Illimité » et masque le bouton d'abonnement
+        document.querySelectorAll(".modal-overlay").forEach((o) => o.remove());
+        addMessage("✨ Ton accès illimité est activé jusqu'au " + fin + " ! Merci, et bon courage pour tes révisions.", "msg-bot");
+      } catch (e) {
+        autoBtn.disabled = false;
+        autoBtn.textContent = "✅ J'ai payé : activer mon accès";
+        ko(e instanceof TypeError ? "Connexion impossible. Réessaie quand tu as du réseau." : e.message);
+      }
+    });
   }
 
   // Apres l'envoi du message, verifie regulierement si l'admin a active l'abonnement

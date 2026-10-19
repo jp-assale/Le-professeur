@@ -119,6 +119,17 @@ def activate_request(request_id: str, device_id: str, days: int, nom: str | None
     return {"already": False, "device_id": device_id, "days": days, "premium_until": until}
 
 
+def extend_premium(device_id: str, days: int) -> str:
+    """Active ou prolonge l'abonnement de `days` jours, en ajoutant ce qu'il reste d'un abonnement
+    encore actif (paiement automatique : meme regle que activate_request). Retourne la date de fin."""
+    remaining = 0
+    if is_premium(device_id):
+        current = get_premium_until(device_id)
+        if current:
+            remaining = max(0, (date.fromisoformat(current) - date.today()).days)
+    return set_premium(device_id, True, days=days + remaining)
+
+
 def list_subscriptions() -> list[dict]:
     """Toutes les activations connues (actives, expirees ou desactivees),
     triees par date d'expiration - pour le tableau de suivi admin."""

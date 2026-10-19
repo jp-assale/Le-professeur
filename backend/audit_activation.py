@@ -64,7 +64,7 @@ for var in ("PAY_ORANGE", "PAY_WAVE", "PAY_WHATSAPP", "PAY_BENEFICIARY"):
 d = c.get("/api/pay-info").get_json()
 check("sans variables : Orange Money + Wave par defaut",
       [(m["label"], m["number"]) for m in d["methods"]] ==
-      [("Orange Money", "+223 71 69 86 94"), ("Wave (Côte d'Ivoire)", "+225 07 01 19 48 82")])
+      [("Orange Money", "+223 70 44 75 82"), ("Wave (Côte d'Ivoire)", "+225 07 01 19 48 82")])
 check("sans variables : numero WhatsApp par defaut", d["whatsapp"] == "22371698694" and d["beneficiary"] is None)
 print("RESUME : %d echec(s)." % len(problems))
 sys.exit(1 if problems else 0)

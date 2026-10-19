@@ -1184,9 +1184,10 @@ def pay_info():
     """Infos de paiement affichees dans l'appli (numero WhatsApp, Mobile Money).
     Modifiables dans les variables d'environnement Render (PAY_*), sans publier
     une nouvelle version de l'appli."""
-    # Numeros confirmes par l'admin (2026-10-12 : Orange Money + WhatsApp ; 2026-10-14 : Wave CI).
+    # Numeros confirmes par l'admin (2026-10-12 : WhatsApp ; 2026-10-14 : Wave CI ; 2026-10-19 : Orange Money
+    # sur le 70 44 75 82, qui recoit les SMS de paiement ; le 71 69 86 94 reste le WhatsApp du bureau).
     # Une variable Render PAY_* les remplace ; une variable VIDE desactive le moyen de paiement.
-    defaults = {"PAY_ORANGE": "+223 71 69 86 94", "PAY_WAVE": "+225 07 01 19 48 82"}
+    defaults = {"PAY_ORANGE": "+223 70 44 75 82", "PAY_WAVE": "+225 07 01 19 48 82"}
     methods = []
     for key, label in (("PAY_ORANGE", "Orange Money"), ("PAY_WAVE", "Wave (Côte d'Ivoire)"),
                        ("PAY_MTN", "MTN MoMo"), ("PAY_MOOV", "Moov Money")):
@@ -1200,7 +1201,80 @@ def pay_info():
         "whatsapp": re.sub(r"\D", "", whatsapp) or None,
         "beneficiary": (os.environ.get("PAY_BENEFICIARY") or "").strip() or None,
         "methods": methods,
+        "paiement_auto": bool(_cle_paiement()),
     })
+
+
+# --- Paiement automatique (sans agregateur, meme principe que JPA Concours) ---
+# Le telephone du bureau transfere les SMS Orange Money et notifications Wave au serveur de JPA Concours,
+# registre UNIQUE des paiements recus sur ces numeros (communs aux applis JPA). L'eleve donne le numero
+# avec lequel il a paye ; ce serveur reserve le paiement dans le registre (cle PAIEMENT_CLE), puis active
+# l'abonnement. Un meme paiement ne peut donc servir qu'une seule fois, toutes applis confondues.
+PAIEMENT_HUB_URL = os.environ.get("PAIEMENT_HUB_URL", "https://jpa-concours.onrender.com/api/paiement/reserver")
+PLANS = {"1-mois": {"label": "1 mois", "price": 2500, "days": 30},
+         "2-mois": {"label": "2 mois", "price": 4500, "days": 60}}
+PAIEMENT_ESSAIS_JOUR = 8
+_paiement_echecs: dict = {}
+_paiement_lock = threading.Lock()
+
+
+def _cle_paiement() -> str:
+    return (os.environ.get("PAIEMENT_CLE") or "").strip()
+
+
+def _echecs_paiement(device_id: str, ajouter: bool = False) -> int:
+    jour = date.today().isoformat()
+    with _paiement_lock:
+        n = _paiement_echecs.get((device_id, jour), 0) + (1 if ajouter else 0)
+        if ajouter:
+            _paiement_echecs[(device_id, jour)] = n
+        return n
+
+
+@app.route("/api/paiement-auto", methods=["POST"])
+def paiement_auto():
+    data = request.get_json(silent=True) or {}
+    device_id = str(data.get("device_id") or "").strip()
+    plan_id = str(data.get("plan") or "")
+    plan = PLANS.get(plan_id)
+    numero = re.sub(r"\D", "", str(data.get("numero") or ""))
+    reference = str(data.get("reference") or "").strip()[:60]
+    if not re.fullmatch(r"[A-Za-z0-9_.-]{6,120}", device_id) or not plan:
+        return jsonify({"error": "Requête invalide."}), 400
+    cle = _cle_paiement()
+    if not cle:
+        return jsonify({"error": "L'activation automatique n'est pas encore disponible : envoie ta demande sur WhatsApp.",
+                        "code": "paiement_auto_off"}), 503
+    if len(numero) < 8 and len(reference) < 5:
+        return jsonify({"error": "Écris le numéro avec lequel tu as payé.", "code": "paiement_numero"}), 400
+    if _echecs_paiement(device_id) >= PAIEMENT_ESSAIS_JOUR:
+        return jsonify({"error": "Trop d'essais aujourd'hui : envoie ta demande sur WhatsApp.", "code": "paiement_bloque"}), 429
+    try:
+        r = requests.post(PAIEMENT_HUB_URL, timeout=25, headers={"X-Paiement-Cle": cle}, json={
+            "app": "scolaire", "client": device_id, "formule": plan_id, "numero": numero,
+            "reference": reference, "montant_min": plan["price"]})
+        reponse = r.json() if r.content else {}
+    except (requests.RequestException, ValueError):
+        return jsonify({"error": "Vérification du paiement momentanément impossible. Réessaie dans une minute, "
+                                 "ou envoie ta demande sur WhatsApp.", "code": "paiement_indisponible"}), 503
+    if r.status_code == 404:
+        _echecs_paiement(device_id, ajouter=True)
+        return jsonify({"error": "Ton paiement n'est pas encore arrivé chez nous. Attends une ou deux minutes, vérifie le numéro, "
+                                 "puis réessaie. Sinon, envoie ta demande sur WhatsApp.", "code": "paiement_introuvable"}), 404
+    if r.status_code == 400 and reponse.get("code") == "paiement_insuffisant":
+        recu = f"{int(reponse.get('recu') or 0):,}".replace(",", " ")
+        prix = f"{plan['price']:,}".replace(",", " ")
+        return jsonify({"error": f"Nous avons bien reçu {recu} F, mais la formule {plan['label']} coûte {prix} F. "
+                                 "Choisis la formule qui correspond à ton paiement.", "code": "paiement_insuffisant"}), 400
+    if r.status_code == 409:
+        return jsonify({"error": "Ce paiement vient d'être utilisé. Réessaie ou écris au bureau sur WhatsApp.",
+                        "code": "paiement_utilise"}), 409
+    if not r.ok or not reponse.get("ok"):
+        return jsonify({"error": "Vérification du paiement impossible pour le moment : envoie ta demande sur WhatsApp.",
+                        "code": "paiement_indisponible"}), 503
+    until = subscription.extend_premium(device_id, plan["days"])
+    funnel.record(device_id, "paiement")
+    return jsonify({"ok": True, "device_id": device_id, "premium_until": until, "montant": reponse.get("montant")})
 
 
 @app.route("/api/admin/premium/list", methods=["GET"])
