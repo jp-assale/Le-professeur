@@ -1548,6 +1548,42 @@
     { id: "2-mois", label: "2 mois", price: 4500, days: 60 },
   ];
 
+  // Video « Comment passer en illimite » (75 s, 2,4 Mo) : beaucoup d'eleves demandaient comment faire.
+  // Chargee seulement si on la demande (donnees mobiles) ; site uniquement, jamais dans l'appli Android
+  // (politique Paiements de Google Play : la fenetre d'abonnement n'existe que sur le site).
+  const TUTO_ILLIMITE = { video: "videos/tuto-illimite.mp4", image: "videos/tuto-illimite.jpg" };
+  function carteTutoIllimite() {
+    return `<button type="button" class="carte-tuto" id="voir-tuto-illimite">
+        <span class="tuto-vignette" style="background-image:url('${TUTO_ILLIMITE.image}')"><span class="tuto-play">▶</span></span>
+        <span class="tuto-texte"><b>Comment passer en illimité ?</b><span>Regarde la vidéo pas à pas (1&nbsp;min&nbsp;15, 2,5&nbsp;Mo).</span></span></button>`;
+  }
+  function ouvrirTutoIllimite(versFormules) {
+    const fond = document.createElement("div");
+    fond.className = "tuto-fond";
+    fond.innerHTML = `<div class="tuto-boite" role="dialog" aria-modal="true" aria-label="Vidéo : comment passer en illimité">
+        <button type="button" class="tuto-fermer" aria-label="Fermer la vidéo">✕</button>
+        <video src="${TUTO_ILLIMITE.video}" poster="${TUTO_ILLIMITE.image}" controls autoplay playsinline preload="auto"></video>
+        <button type="button" class="tuto-ok">J'ai compris : je choisis ma formule</button></div>`;
+    document.body.appendChild(fond);
+    const video = fond.querySelector("video");
+    const fermer = () => {
+      video.pause(); video.removeAttribute("src"); video.load();  // arrete le telechargement
+      fond.remove(); document.removeEventListener("keydown", echap);
+    };
+    const echap = (e) => { if (e.key === "Escape") { e.stopPropagation(); fermer(); } };
+    document.addEventListener("keydown", echap);
+    fond.querySelector(".tuto-fermer").addEventListener("click", fermer);
+    fond.addEventListener("click", (e) => { if (e.target === fond) fermer(); });
+    fond.querySelector(".tuto-ok").addEventListener("click", () => { fermer(); if (versFormules) versFormules(); });
+    video.play().catch(() => { /* lecture automatique refusee : le bouton ▶ de la video reste la */ });
+    video.addEventListener("error", () => {
+      const p = document.createElement("p");
+      p.className = "tuto-erreur";
+      p.textContent = "La vidéo ne se charge pas (réseau trop faible). Suis les étapes de la fenêtre, ou écris-nous sur WhatsApp.";
+      video.replaceWith(p);
+    });
+  }
+
   // Etapes de l'entonnoir que seul l'appareil voit (voir backend/funnel.py) :
   // envoyees une seule fois par appareil, sans jamais bloquer l'eleve.
   function trackFunnel(etape) {
@@ -1582,7 +1618,8 @@
           ton message. Envoie-le, puis envoie la capture de ton paiement Mobile
           Money : ton accès illimité est activé en quelques minutes.
         </p>
-        <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:12px;">
+        ${isNativeApp() ? "" : carteTutoIllimite()}
+        <div id="subscribe-plans" style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:12px;">
           ${plansHtml}
         </div>
         <div id="subscribe-pay" hidden style="font-size:0.88rem;background:var(--green-light);border-radius:10px;padding:10px 12px;margin-bottom:12px;line-height:1.5;"></div>
@@ -1620,6 +1657,9 @@
     document.body.appendChild(overlay);
     overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
     overlay.querySelector("#subscribe-modal-close").addEventListener("click", () => overlay.remove());
+    const tutoBtn = overlay.querySelector("#voir-tuto-illimite");
+    if (tutoBtn) tutoBtn.addEventListener("click", () => ouvrirTutoIllimite(() =>
+      overlay.querySelector("#subscribe-plans").scrollIntoView({ behavior: "smooth", block: "center" })));
 
     const waLink = overlay.querySelector("#subscribe-whatsapp-link");
     const telInput = overlay.querySelector("#subscribe-tel");

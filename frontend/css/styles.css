@@ -938,3 +938,20 @@ body {
 }
 .cours-tag.score { background: transparent; border: 1px solid var(--border); color: var(--text-muted); }
 .pdf-sujet-view.cours-done { opacity: 0.85; }
+
+/* Fenetre « Passer en illimite » (site) : video « Comment passer en illimite » (carte + lecteur plein ecran). */
+.carte-tuto { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; font: inherit; cursor: pointer;
+  background: var(--surface); color: var(--text); border: 2px dashed var(--green); border-radius: 12px; padding: 8px 10px; margin: 0 0 12px; }
+.carte-tuto:focus-visible { outline: 3px solid var(--green-dark); outline-offset: 2px; }
+.tuto-vignette { position: relative; flex-shrink: 0; width: 56px; height: 84px; border-radius: 9px; background: var(--green-dark) center/cover no-repeat; }
+.tuto-play { position: absolute; inset: 0; margin: auto; width: 32px; height: 32px; border-radius: 50%; background: #ffd166; color: #0b3b2e;
+  display: flex; align-items: center; justify-content: center; font-size: 13px; padding-left: 3px; box-shadow: 0 3px 10px rgba(0, 0, 0, .35); }
+.tuto-texte b { display: block; font-size: 0.95rem; }
+.tuto-texte span { display: block; color: var(--text-muted); font-size: 0.82rem; margin-top: 2px; }
+.tuto-fond { position: fixed; inset: 0; z-index: 60; background: rgba(3, 20, 15, .9); display: flex; align-items: center; justify-content: center; padding: 14px; }
+.tuto-boite { position: relative; width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 12px; }
+.tuto-boite video { width: 100%; max-height: calc(100vh - 110px); aspect-ratio: 9 / 16; object-fit: contain; background: #000; border-radius: 16px; }
+.tuto-fermer { position: absolute; top: -6px; right: -6px; z-index: 1; width: 40px; height: 40px; border-radius: 50%; border: none;
+  background: #fff; color: #0b3b2e; font-size: 18px; font-weight: 800; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); cursor: pointer; }
+.tuto-ok { width: 100%; padding: 13px; border: none; border-radius: 12px; background: #ffd166; color: #0b3b2e; font: inherit; font-weight: 700; font-size: 0.95rem; cursor: pointer; }
+.tuto-erreur { background: #fff; color: #10231d; border-radius: 16px; padding: 18px; font-size: 0.95rem; }

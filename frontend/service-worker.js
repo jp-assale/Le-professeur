@@ -1,4 +1,4 @@
-const CACHE_NAME = "aida-shell-v17";
+const CACHE_NAME = "aida-shell-v18";
 const SHELL_FILES = [
   "/",
   "/css/styles.css",
@@ -76,6 +76,8 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
 
   if (req.method !== "GET") return;
+  // Videos : lues par morceaux par le telephone, jamais interceptees ni mises en cache.
+  if (url.pathname.startsWith("/videos/")) return;
 
   const isApi = url.pathname.startsWith("/api/");
   const isCacheableApi = CACHEABLE_API_GET.some((re) => re.test(url.pathname));

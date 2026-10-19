@@ -206,5 +206,21 @@ class CodeAbonnement(unittest.TestCase):
         self.assertEqual(r.get_json()["code_abonnement"], self.code_de(self.site).get_json()["code_abonnement"])
 
 
+class VideoTuto(unittest.TestCase):
+    """Video « Comment passer en illimite » de la fenetre d'abonnement du site."""
+
+    def test_video_servie_par_morceaux_et_hors_cache(self):
+        http = app_module.app.test_client()
+        r = http.get("/videos/tuto-illimite.mp4", headers={"Range": "bytes=0-1023"})
+        self.assertEqual(r.status_code, 206)  # les telephones lisent la video par morceaux
+        self.assertEqual(r.mimetype, "video/mp4")
+        self.assertEqual(len(r.data), 1024)
+        self.assertLess(int(r.headers["Content-Range"].split("/")[1]), 3 * 1024 * 1024)  # legere
+        r.close()
+        self.assertEqual(http.get("/videos/tuto-illimite.jpg").status_code, 200)
+        self.assertIn("videos/tuto-illimite.mp4", http.get("/js/app.js").get_data(as_text=True))
+        self.assertIn('startsWith("/videos/")', http.get("/service-worker.js").get_data(as_text=True))
+
+
 if __name__ == "__main__":
     unittest.main()
