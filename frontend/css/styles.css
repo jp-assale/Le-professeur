@@ -955,3 +955,5 @@ body {
   background: #fff; color: #0b3b2e; font-size: 18px; font-weight: 800; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); cursor: pointer; }
 .tuto-ok { width: 100%; padding: 13px; border: none; border-radius: 12px; background: #ffd166; color: #0b3b2e; font: inherit; font-weight: 700; font-size: 0.95rem; cursor: pointer; }
 .tuto-erreur { background: #fff; color: #10231d; border-radius: 16px; padding: 18px; font-size: 0.95rem; }
+.qs-guide { white-space: normal; margin-top: 10px; }
+.qs-guide .carte-tuto { margin: 0; }

@@ -218,6 +218,12 @@ class VideoTuto(unittest.TestCase):
         self.assertLess(int(r.headers["Content-Range"].split("/")[1]), 3 * 1024 * 1024)  # legere
         r.close()
         self.assertEqual(http.get("/videos/tuto-illimite.jpg").status_code, 200)
+        r = http.get("/videos/decouvrir.mp4", headers={"Range": "bytes=0-99"})  # « Comment marche l'appli »
+        self.assertEqual(r.status_code, 206)
+        self.assertLess(int(r.headers["Content-Range"].split("/")[1]), 3 * 1024 * 1024)
+        r.close()
+        self.assertEqual(http.get("/videos/decouvrir.jpg").status_code, 200)
+        self.assertIn("videos/decouvrir.mp4", http.get("/js/app.js").get_data(as_text=True))
         self.assertIn("videos/tuto-illimite.mp4", http.get("/js/app.js").get_data(as_text=True))
         self.assertIn('startsWith("/videos/")', http.get("/service-worker.js").get_data(as_text=True))
 

@@ -1548,22 +1548,28 @@
     { id: "2-mois", label: "2 mois", price: 4500, days: 60 },
   ];
 
-  // Video « Comment passer en illimite » (75 s, 2,4 Mo) : beaucoup d'eleves demandaient comment faire.
-  // Chargee seulement si on la demande (donnees mobiles) ; site uniquement, jamais dans l'appli Android
-  // (politique Paiements de Google Play : la fenetre d'abonnement n'existe que sur le site).
+  // Videos d'aide du site (chargees seulement si on les demande : donnees mobiles ; jamais dans l'appli
+  // Android, qui ne montre ni prix ni abonnement - politique Paiements de Google Play) :
+  // - « Comment passer en illimite » (fenetre d'abonnement, 1 min 15) : beaucoup d'eleves demandaient comment faire ;
+  // - « Comment marche l'appli » (accueil et menu « Plus », 1 min 37) : telechargement, programme, rubriques.
   const TUTO_ILLIMITE = { video: "videos/tuto-illimite.mp4", image: "videos/tuto-illimite.jpg" };
-  function carteTutoIllimite() {
-    return `<button type="button" class="carte-tuto" id="voir-tuto-illimite">
-        <span class="tuto-vignette" style="background-image:url('${TUTO_ILLIMITE.image}')"><span class="tuto-play">▶</span></span>
-        <span class="tuto-texte"><b>Comment passer en illimité ?</b><span>Regarde la vidéo pas à pas (1&nbsp;min&nbsp;15, 2,5&nbsp;Mo).</span></span></button>`;
+  const GUIDE_APPLI = { video: "videos/decouvrir.mp4", image: "videos/decouvrir.jpg" };
+  function carteVideoAide(id, v, titre, texte) {
+    return `<button type="button" class="carte-tuto" id="${id}">
+        <span class="tuto-vignette" style="background-image:url('${v.image}')"><span class="tuto-play">▶</span></span>
+        <span class="tuto-texte"><b>${titre}</b><span>${texte}</span></span></button>`;
   }
-  function ouvrirTutoIllimite(versFormules) {
+  const carteTutoIllimite = () => carteVideoAide("voir-tuto-illimite", TUTO_ILLIMITE, "Comment passer en illimité ?",
+    "Regarde la vidéo pas à pas (1&nbsp;min&nbsp;15, 2,5&nbsp;Mo).");
+  const carteGuideAppli = () => carteVideoAide("voir-guide-appli", GUIDE_APPLI, "🎬 Comment marche l'appli ?",
+    "La visite guidée en vidéo (1&nbsp;min&nbsp;40, 2,5&nbsp;Mo).");
+  function ouvrirVideoAide(v, titre, ok, apres) {
     const fond = document.createElement("div");
     fond.className = "tuto-fond";
-    fond.innerHTML = `<div class="tuto-boite" role="dialog" aria-modal="true" aria-label="Vidéo : comment passer en illimité">
+    fond.innerHTML = `<div class="tuto-boite" role="dialog" aria-modal="true" aria-label="${titre}">
         <button type="button" class="tuto-fermer" aria-label="Fermer la vidéo">✕</button>
-        <video src="${TUTO_ILLIMITE.video}" poster="${TUTO_ILLIMITE.image}" controls autoplay playsinline preload="auto"></video>
-        <button type="button" class="tuto-ok">J'ai compris : je choisis ma formule</button></div>`;
+        <video src="${v.video}" poster="${v.image}" controls autoplay playsinline preload="auto"></video>
+        <button type="button" class="tuto-ok">${ok}</button></div>`;
     document.body.appendChild(fond);
     const video = fond.querySelector("video");
     const fermer = () => {
@@ -1574,15 +1580,20 @@
     document.addEventListener("keydown", echap);
     fond.querySelector(".tuto-fermer").addEventListener("click", fermer);
     fond.addEventListener("click", (e) => { if (e.target === fond) fermer(); });
-    fond.querySelector(".tuto-ok").addEventListener("click", () => { fermer(); if (versFormules) versFormules(); });
+    fond.querySelector(".tuto-ok").addEventListener("click", () => { fermer(); if (apres) apres(); });
     video.play().catch(() => { /* lecture automatique refusee : le bouton ▶ de la video reste la */ });
     video.addEventListener("error", () => {
       const p = document.createElement("p");
       p.className = "tuto-erreur";
-      p.textContent = "La vidéo ne se charge pas (réseau trop faible). Suis les étapes de la fenêtre, ou écris-nous sur WhatsApp.";
+      p.textContent = "La vidéo ne se charge pas (réseau trop faible). Réessaie plus tard, ou écris-nous sur WhatsApp.";
       video.replaceWith(p);
     });
   }
+  const ouvrirTutoIllimite = (versFormules) =>
+    ouvrirVideoAide(TUTO_ILLIMITE, "Vidéo : comment passer en illimité", "J'ai compris : je choisis ma formule", versFormules);
+  const ouvrirGuideAppli = () =>
+    ouvrirVideoAide(GUIDE_APPLI, "Vidéo : comment marche l'appli", "J'ai compris : c'est parti !",
+      () => { const t = document.getElementById("question-input"); if (t) t.focus(); });
 
   // Etapes de l'entonnoir que seul l'appareil voit (voir backend/funnel.py) :
   // envoyees une seule fois par appareil, sans jamais bloquer l'eleve.
@@ -2156,6 +2167,29 @@
     gratuit.className = "qs-gratuit";
     gratuit.textContent = "✅ Gratuit et sans inscription";
     qs.after(gratuit);
+    const guide = document.createElement("div");
+    guide.className = "qs-guide";
+    guide.innerHTML = carteGuideAppli();
+    gratuit.after(guide);
+  })();
+  // Video « Comment marche l'appli » : carte de l'accueil et entree du menu « Plus » (site seulement).
+  document.addEventListener("click", (e) => {
+    const declencheur = e.target.closest && e.target.closest("#voir-guide-appli, #menu-guide-appli");
+    if (!declencheur) return;
+    if (declencheur.id === "menu-guide-appli") closeSheets();
+    ouvrirGuideAppli();
+  });
+  (function menuGuideAppli() {
+    // L'accueil disparait des la premiere question : le menu « Plus » garde la video accessible.
+    if (isNativeApp()) return;
+    const avant = document.getElementById("device-code-btn");
+    if (!avant) return;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.id = "menu-guide-appli";
+    b.className = "menu-item";
+    b.innerHTML = '<span class="m-ico">🎬</span>Comment marche l’appli ? (vidéo)';
+    avant.parentNode.insertBefore(b, avant);
   })();
   document.addEventListener("click", (e) => {
     const essai = e.target.closest && e.target.closest(".qs-essai");
