@@ -1,5 +1,5 @@
-"""Sujets d'examens (PDF) reserves a l'acces illimite depuis le 24/10/2026 :
-liste visible par tous, ouverture et correction verifiees par le serveur.
+"""Sujets d'examens depuis le 24/10/2026 : les PDF restent gratuits pour tous,
+leur correction par le Prof JPA est reservee a l'acces illimite (verifie par le serveur).
 
     cd backend
     python -m unittest discover tests -v
@@ -30,12 +30,12 @@ class FauxClient:
                                stop_reason="end_turn", usage=SimpleNamespace(input_tokens=2000, output_tokens=400))
 
 
-class SujetsReserves(unittest.TestCase):
+class CorrectionReservee(unittest.TestCase):
     _n = 0
 
     def setUp(self):
-        SujetsReserves._n += 1
-        self.device = f"dev-sujets{SujetsReserves._n}-{id(self)}"
+        CorrectionReservee._n += 1
+        self.device = f"dev-sujets{CorrectionReservee._n}-{id(self)}"
         self.http = app_module.app.test_client()
         self.sujet = pdf_library.list_pdf_sujets()[0]
         self._orig = (app_module.client, app_module.requests.get)
@@ -52,35 +52,29 @@ class SujetsReserves(unittest.TestCase):
         corps.update(extra)
         return self.http.post(f"/api/pdf-sujets/{self.sujet['id']}/corriger", json=corps)
 
-    def test_la_liste_reste_visible_pour_tous(self):
+    def test_les_sujets_restent_gratuits(self):
         r = self.http.get(f"/api/pdf-sujets?pays={self.sujet['pays']}")
         self.assertEqual(r.status_code, 200)
         self.assertIsInstance(r.get_json(), list)  # format inchange pour les anciennes versions de l'appli
         self.assertTrue(r.get_json())
+        r = self.http.get(f"/api/pdf-sujets/{self.sujet['id']}/fichier")  # sans abonnement ni device_id
+        self.assertEqual(r.status_code, 302)
+        self.assertEqual(r.headers["Location"], self.sujet["url"])
 
-    def test_gratuit_ne_peut_ni_ouvrir_ni_corriger(self):
+    def test_gratuit_ne_peut_pas_faire_corriger(self):
         r = self.corriger()
         self.assertEqual(r.status_code, 403)
-        self.assertEqual(r.get_json()["error"], "sujets_reserves")
-        self.assertIn("réservés", r.get_json()["message"])  # affiche tel quel par les anciennes versions de l'appli
+        self.assertEqual(r.get_json()["error"], "correction_reservee")
+        message = r.get_json()["message"]
+        self.assertIn("réservée", message)  # affiche tel quel par les anciennes versions de l'appli
+        self.assertNotIn("http", message)  # ni lien ni prix (regles Google Play)
+        self.assertNotIn("F", message.replace("Prof", ""))
         self.assertEqual(app_module.client.appels, 0)
         self.assertEqual(self.http.get(f"/api/quota?device_id={self.device}").get_json()["remaining"],
                          app_module.DAILY_FREE_LIMIT)  # rien de decompte
 
-        for url in (f"/api/pdf-sujets/{self.sujet['id']}/fichier",
-                    f"/api/pdf-sujets/{self.sujet['id']}/fichier?device_id={self.device}"):
-            r = self.http.get(url)
-            self.assertEqual(r.status_code, 403)
-            page = r.get_data(as_text=True)
-            self.assertIn("réservé", page)
-            self.assertNotIn("http", page)  # ni lien ni prix (regles Google Play)
-            self.assertNotIn("F CFA", page)
-
-    def test_abonne_ouvre_et_corrige(self):
+    def test_abonne_fait_corriger(self):
         subscription.set_premium(self.device, True, days=30)
-        r = self.http.get(f"/api/pdf-sujets/{self.sujet['id']}/fichier?device_id={self.device}")
-        self.assertEqual(r.status_code, 302)
-        self.assertEqual(r.headers["Location"], self.sujet["url"])
         r = self.corriger()
         self.assertEqual(r.status_code, 200, r.get_json())
         self.assertEqual(r.get_json()["answer"], "Correction du sujet.")
@@ -91,10 +85,11 @@ class SujetsReserves(unittest.TestCase):
         subscription.set_premium(self.device, False)
         self.assertEqual(self.corriger().status_code, 403)
 
-    def test_le_site_affiche_le_cadenas(self):
+    def test_le_site_affiche_le_cadenas_sur_la_correction(self):
         js = self.http.get("/js/app.js").get_data(as_text=True)
-        self.assertIn('data.error === "sujets_reserves"', js)
-        self.assertIn('"/fichier?device_id=" + encodeURIComponent(DEVICE_ID)', js)
+        self.assertIn('data.error === "correction_reservee"', js)
+        self.assertIn('workBtn.textContent = "🔒 Corriger avec Le Prof JPA";', js)
+        self.assertIn('viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier");', js)  # PDF ouvert a tous
         self.assertIn("if (isNativeApp()) openInfoIllimiteModal();", js)  # appli Android : aucune fenetre de paiement
 
 

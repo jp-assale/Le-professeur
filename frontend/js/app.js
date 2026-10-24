@@ -518,7 +518,7 @@
         "Il sert aussi si tu changes de téléphone. Tu le retrouves dans le menu « 🔑 Mon code appareil ».";
     }
     addMessage(texte, "msg-bot");
-    if (!epreuvesPanel.hidden) loadEpreuvesList(); // les sujets s'ouvrent
+    if (!epreuvesPanel.hidden) loadEpreuvesList(); // la correction des sujets s'ouvre
   }
 
   // Branche le formulaire du code d'abonnement et le bouton « Copier mon code ».
@@ -605,9 +605,9 @@
       showQuotaExhausted(true);
       return;
     }
-    if (data && data.error === "sujets_reserves") {
+    if (data && data.error === "correction_reservee") {
       isPremium = false;
-      showSujetsReserves();
+      showCorrectionReservee();
       return;
     }
     addMessage((data && (data.message || data.error)) || fallback, "msg-error");
@@ -804,10 +804,10 @@
     chatEl.innerHTML = "";
   }
 
-  // Sujets d'examens reserves a l'acces illimite (24/10/2026, verifie aussi par
-  // le serveur) : la liste reste visible avec un cadenas. Sur le site, la
-  // fenetre d'abonnement ; dans l'appli Android, l'information sans achat
-  // (regles de paiement Google Play, voir infoIllimiteHtml).
+  // Sujets d'examens : les PDF sont gratuits, la correction par le Prof JPA est
+  // reservee a l'acces illimite (24/10/2026, verifie aussi par le serveur). Sur
+  // le site, la fenetre d'abonnement ; dans l'appli Android, l'information sans
+  // achat (regles de paiement Google Play, voir infoIllimiteHtml).
   function ouvrirOffreIllimite() {
     if (isNativeApp()) openInfoIllimiteModal();
     else openSubscribeWhatsAppModal();
@@ -822,13 +822,12 @@
     return btn;
   }
 
-  function bandeauSujetsReserves(nombre) {
+  function bandeauCorrectionReservee() {
     const div = document.createElement("div");
     div.className = "sujets-verrou";
     div.innerHTML =
-      "<p><b>🔒 Sujets d'examens : réservés à l'accès illimité</b></p>" +
-      "<p>Avec l'accès illimité, tu ouvres " + (nombre > 1 ? "les " + nombre + " sujets" : "les sujets") +
-      " de ta classe dans cette matière, et le Prof JPA t'aide à les corriger pas à pas.</p>";
+      "<p><b>📄 Les sujets sont gratuits.</b> 🔒 Leur correction pas à pas par le Prof JPA " +
+      "est réservée à l'accès illimité.</p>";
     const actions = document.createElement("div");
     actions.className = "quota-actions";
     actions.appendChild(boutonOffreIllimite());
@@ -836,11 +835,12 @@
     return div;
   }
 
-  // Sujet refuse par le serveur (abonnement termine entre-temps, par exemple).
-  function showSujetsReserves() {
+  // Correction refusee par le serveur (abonnement termine entre-temps, par exemple).
+  function showCorrectionReservee() {
     const div = document.createElement("div");
     div.className = "msg msg-quota";
-    div.innerHTML = "<p><b>🔒 Les sujets d'examens sont réservés à l'accès illimité</b></p>";
+    div.innerHTML = "<p><b>🔒 La correction des sujets par le Prof JPA est réservée à l'accès illimité</b></p>" +
+      "<p>Le sujet reste gratuit : tu peux l'ouvrir depuis l'onglet « Sujets ».</p>";
     const actions = document.createElement("div");
     actions.className = "quota-actions";
     actions.appendChild(boutonOffreIllimite());
@@ -863,26 +863,14 @@
       epreuvesList.innerHTML = "";
       epreuvesPanel.querySelectorAll(".sujets-verrou").forEach((d) => d.remove());
 
-      if (pdfSujets.length && !isPremium) {
-        epreuvesPanel.insertBefore(bandeauSujetsReserves(pdfSujets.length), epreuvesList);
-        pdfSujets.forEach((s) => {
-          const li = document.createElement("li");
-          li.className = "pdf-sujet-item verrouille";
-          const btn = document.createElement("button");
-          btn.type = "button";
-          btn.className = "pdf-sujet-view";
-          btn.textContent = "🔒 " + s.titre + " (" + s.annee + ")";
-          btn.addEventListener("click", ouvrirOffreIllimite);
-          li.appendChild(btn);
-          epreuvesList.appendChild(li);
-        });
-      } else if (pdfSujets.length) {
+      if (pdfSujets.length) {
+        if (!isPremium) epreuvesPanel.insertBefore(bandeauCorrectionReservee(), epreuvesList);
         pdfSujets.forEach((s) => {
           const li = document.createElement("li");
           li.className = "pdf-sujet-item";
 
           const viewLink = document.createElement("a");
-          viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier?device_id=" + encodeURIComponent(DEVICE_ID));
+          viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier");
           viewLink.target = "_blank";
           viewLink.rel = "noopener";
           viewLink.className = "pdf-sujet-view";
@@ -890,8 +878,14 @@
 
           const workBtn = document.createElement("button");
           workBtn.type = "button";
-          workBtn.textContent = "💬 Corriger avec Le Prof JPA";
-          workBtn.addEventListener("click", () => workOnPdfSujet(s.id, s.titre));
+          if (isPremium) {
+            workBtn.textContent = "💬 Corriger avec Le Prof JPA";
+            workBtn.addEventListener("click", () => workOnPdfSujet(s.id, s.titre));
+          } else {
+            workBtn.className = "correction-verrou";
+            workBtn.textContent = "🔒 Corriger avec Le Prof JPA";
+            workBtn.addEventListener("click", ouvrirOffreIllimite);
+          }
 
           li.appendChild(viewLink);
           li.appendChild(workBtn);

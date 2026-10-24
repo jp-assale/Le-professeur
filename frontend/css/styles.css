@@ -337,18 +337,14 @@ body {
   cursor: pointer;
 }
 
-/* Sujets reserves a l'acces illimite : bandeau dore + liste avec cadenas. */
+/* Correction des sujets reservee a l'acces illimite : bandeau dore + bouton avec cadenas. */
 .sujets-verrou {
   margin: 0 0 8px; padding: 10px 12px; border-radius: 12px; font-size: 0.85rem; line-height: 1.45;
   background: linear-gradient(135deg, #fff7e6, #ffe9bd); color: #4a3200; border: 1px solid #f3d79a;
 }
 [data-theme="dark"] .sujets-verrou { background: linear-gradient(135deg, #3a2e14, #2b2210); color: #f6e3b8; border-color: #5a4720; }
 .sujets-verrou p { margin: 0 0 6px; }
-.pdf-sujet-item.verrouille { border-color: var(--border); background: var(--bg); padding: 0; }
-.epreuves-list .pdf-sujet-item.verrouille .pdf-sujet-view {
-  align-self: stretch; border: none; background: none; color: var(--text-muted);
-  font-weight: 600; font-size: 0.85rem; padding: 10px 12px;
-}
+.pdf-sujet-item button.correction-verrou { border-color: #f3d79a; background: #fff7e6; color: #6b4a00; }
 
 .correction-panel {
   background: var(--surface);

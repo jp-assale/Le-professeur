@@ -949,19 +949,11 @@ def get_methode(methode_id):
     return jsonify(fiche)
 
 
-# Sujets d'examens (PDF) reserves a l'acces illimite depuis le 24/10/2026 : la
-# liste reste visible pour tous, l'ouverture et la correction sont verifiees ici.
-# Textes neutres (aucun prix, aucun lien) : ils s'affichent aussi dans les
-# anciennes versions de l'appli Android (regles de paiement Google Play).
-SUJETS_RESERVES_MESSAGE = "Les sujets d'examens sont réservés à l'accès illimité."
-SUJET_RESERVE_PAGE = (
-    '<!doctype html><html lang="fr"><head><meta charset="utf-8">'
-    '<meta name="viewport" content="width=device-width,initial-scale=1"><title>Sujet réservé</title></head>'
-    '<body style="font-family:system-ui,sans-serif;max-width:420px;margin:15vh auto;padding:0 16px;'
-    'text-align:center;color:#1f2d27"><p style="font-size:2.5rem;margin:0">🔒</p>'
-    '<h1 style="font-size:1.2rem">Sujet réservé à l\'accès illimité</h1>'
-    "<p>Retourne dans Le Prof JPA pour en savoir plus.</p></body></html>"
-)
+# Sujets d'examens : les PDF restent gratuits, leur correction par le Prof JPA
+# est reservee a l'acces illimite depuis le 24/10/2026. Texte neutre (aucun prix,
+# aucun lien) : il s'affiche tel quel dans les anciennes versions de l'appli
+# Android (regles de paiement Google Play).
+CORRECTION_RESERVEE_MESSAGE = "La correction des sujets par le Prof JPA est réservée à l'accès illimité."
 
 
 @app.route("/api/pdf-sujets/<sujet_id>/fichier", methods=["GET"])
@@ -969,8 +961,6 @@ def get_pdf_sujet_file(sujet_id):
     entry = pdf_library.get_pdf_sujet(sujet_id)
     if not entry:
         return jsonify({"error": "PDF introuvable"}), 404
-    if not subscription.is_premium(request.args.get("device_id", "")):
-        return Response(SUJET_RESERVE_PAGE, status=403, mimetype="text/html")
     if entry.get("url"):
         # PDF heberge ailleurs (ex: GitHub Releases) - trop volumineux pour
         # etre committe dans le depot. On redirige simplement vers le fichier.
@@ -1006,7 +996,7 @@ def pdf_sujet_corriger(sujet_id):
     if not device_id:
         return jsonify({"error": "device_id manquant"}), 400
     if not subscription.is_premium(device_id):
-        return jsonify({"error": "sujets_reserves", "message": SUJETS_RESERVES_MESSAGE}), 403
+        return jsonify({"error": "correction_reservee", "message": CORRECTION_RESERVEE_MESSAGE}), 403
 
     weight = UPLOAD_QUESTION_WEIGHT
     premium, _, refus = _check_quota(
