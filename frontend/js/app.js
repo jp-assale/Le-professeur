@@ -4,7 +4,7 @@
   const API_BASE = (window.AIDA_API_BASE_URL || "").replace(/\/$/, "");
   // versionCode de l'appli Android (= android/app/build.gradle, verifie par les
   // tests) : envoye au serveur pour la mise a jour obligatoire (ANDROID_VERSION_MIN).
-  const APP_VERSION_CODE = 38;
+  const APP_VERSION_CODE = 39;
   function apiUrl(path) {
     if (!isNativeApp()) return API_BASE + path;
     return API_BASE + path + (path.includes("?") ? "&" : "?") + "av=" + APP_VERSION_CODE;

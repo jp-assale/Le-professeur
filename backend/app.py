@@ -618,7 +618,7 @@ def _plateforme() -> str:
 
 # Mise a jour obligatoire de l'appli Android : ANDROID_VERSION_MIN (versionCode,
 # 0 = desactive) se regle dans Render, sans nouveau build. Depuis la 2.22
-# (versionCode 38), l'appli envoie son versionCode (?av=) et affiche elle-meme
+# (versionCode 39), l'appli envoie son versionCode (?av=) et affiche elle-meme
 # un ecran « Mettre a jour » ; les versions plus anciennes n'envoient rien et
 # recoivent ce message a la place des reponses du Prof (texte neutre, sans
 # lien ni prix : regles de Google Play).
