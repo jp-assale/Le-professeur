@@ -1,4 +1,5 @@
 import base64
+import functools
 import ipaddress
 import json
 import os
@@ -6,6 +7,7 @@ import re
 import shutil
 import threading
 import time
+from contextlib import contextmanager
 from datetime import date
 
 import requests
@@ -103,6 +105,56 @@ def _appel_ia(**kwargs):
         _ia_slots.release()
 
 
+# Photos et PDF envoyes a l'IA : chaque envoi reste en memoire en 3 ou 4 copies
+# (corps recu, JSON lu, requete vers Claude) pendant toute la reponse, soit
+# ~35 Mo pour une photo de 9 Mo. Plusieurs en meme temps ont fait depasser les
+# 512 Mo de Render (redemarrage le 24/10/2026). On borne donc le volume de
+# fichiers en cours par processus ; au-dela, l'eleve attend comme pour
+# AI_MAX_SIMULTANEOUS. Le site reduit les photos avant l'envoi (~0,5 Mo), seules
+# les anciennes versions de l'appli Android envoient encore la photo d'origine.
+FICHIERS_EN_COURS_MAX = int(os.environ.get("FICHIERS_EN_COURS_MAX", "24000000"))
+_fichiers_en_cours = 0
+_fichiers_cond = threading.Condition()
+
+
+@contextmanager
+def _place_fichier(octets):
+    """Reserve `octets` du volume de fichiers en cours de ce processus. Un
+    fichier plus gros que le plafond passe quand meme, mais seul."""
+    global _fichiers_en_cours
+    octets = min(max(int(octets or 0), 0), FICHIERS_EN_COURS_MAX)
+    fin = time.monotonic() + AI_QUEUE_WAIT_S
+    with _fichiers_cond:
+        while _fichiers_en_cours + octets > FICHIERS_EN_COURS_MAX:
+            reste = fin - time.monotonic()
+            if reste <= 0:
+                raise ServeurOccupe()
+            _fichiers_cond.wait(reste)
+        _fichiers_en_cours += octets
+    try:
+        yield
+    finally:
+        with _fichiers_cond:
+            _fichiers_en_cours -= octets
+            _fichiers_cond.notify_all()
+
+
+def _avec_place_fichier(vue):
+    """Pour les routes qui recoivent une photo ou un PDF : la place est reservee
+    avant meme de lire le corps de la requete."""
+    @functools.wraps(vue)
+    def enveloppe(*args, **kwargs):
+        if (request.content_length or 0) > MAX_UPLOAD_B64_LEN + 100_000:
+            return jsonify({"error": "Fichier trop volumineux (max ~9 Mo)."}), 413
+        try:
+            with _place_fichier(request.content_length):
+                return vue(*args, **kwargs)
+        except ServeurOccupe as exc:
+            msg, status = _friendly_ai_error(exc)
+            return jsonify({"error": msg}), status
+    return enveloppe
+
+
 def _extract_text(response) -> str:
     # Lire les blocs par type : Haiku 5.5 peut commencer par des blocs "thinking".
     text = "".join(b.text for b in response.content if b.type == "text")
@@ -143,6 +195,9 @@ PREMIUM_CAP_MESSAGE = (
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend")
 
 app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
+# Aucun corps de requete au-dela de 21 Mo (le plus gros envoi legitime : un PDF
+# admin de 20 Mo) : sans plafond, un seul envoi geant pouvait remplir la memoire.
+app.config["MAX_CONTENT_LENGTH"] = 21 * 1024 * 1024
 # L'appli Android empaquetee (Capacitor) appelle ce backend depuis une autre
 # origine (https://localhost dans la WebView) - CORS doit etre ouvert sur
 # /api/* pour que ces appels ne soient pas bloques par le navigateur.
@@ -562,6 +617,7 @@ def _plateforme() -> str:
 
 
 @app.route("/api/upload-exercice", methods=["POST"])
+@_avec_place_fichier
 def upload_exercice():
     if client is None:
         return jsonify({
@@ -569,7 +625,7 @@ def upload_exercice():
                      "Voir backend/.env.example."
         }), 500
 
-    payload = request.get_json(silent=True) or {}
+    payload = request.get_json(silent=True, cache=False) or {}  # corps brut non garde : une copie de moins
     device_id = payload.get("device_id", "")
     pays = payload.get("pays", "mali")
     niveau = payload.get("niveau", "college")
@@ -769,6 +825,7 @@ def diagnostic_complete():
 
 
 @app.route("/api/correction-copie", methods=["POST"])
+@_avec_place_fichier
 def correction_copie():
     if client is None:
         return jsonify({
@@ -776,7 +833,7 @@ def correction_copie():
                      "Voir backend/.env.example."
         }), 500
 
-    payload = request.get_json(silent=True) or {}
+    payload = request.get_json(silent=True, cache=False) or {}  # corps brut non garde : une copie de moins
     device_id = payload.get("device_id", "")
     pays = payload.get("pays", "mali")
     niveau = payload.get("niveau", "college")
@@ -790,6 +847,8 @@ def correction_copie():
         return jsonify({"error": "device_id manquant"}), 400
     if not reponse_texte and not (mime_type and data_b64):
         return jsonify({"error": "reponse manquante (texte ou photo)"}), 400
+    if data_b64 and len(data_b64) > MAX_UPLOAD_B64_LEN:
+        return jsonify({"error": "Fichier trop volumineux (max ~9 Mo)."}), 400
     if not isinstance(bareme, int) or bareme <= 0:
         bareme = 20
 
@@ -953,11 +1012,13 @@ def pdf_sujet_corriger(sujet_id):
                 resp = requests.get(entry["url"], timeout=25)
                 resp.raise_for_status()
                 file_bytes = resp.content
+                del resp  # sinon la reponse garde une copie du PDF jusqu'a la fin
             else:
                 path = os.path.join(pdf_library.get_pdf_dir(entry), entry["filename"])
                 with open(path, "rb") as f:
                     file_bytes = f.read()
             data_b64 = base64.b64encode(file_bytes).decode("ascii")
+            del file_bytes
         except Exception as exc:
             return jsonify({"error": f"Impossible de recuperer le PDF: {exc}"}), 502
 
@@ -974,11 +1035,12 @@ def pdf_sujet_corriger(sujet_id):
         ]
 
         try:
-            response = _appel_ia(
-                max_tokens=_cap(1200),
-                system=system_prompt,
-                messages=[{"role": "user", "content": content}],
-            )
+            with _place_fichier(len(data_b64)):
+                response = _appel_ia(
+                    max_tokens=_cap(1200),
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": content}],
+                )
             answer = _extract_text(response)
             usage_log.log_call(MODEL, "pdf-sujet-corriger", response.usage.input_tokens, response.usage.output_tokens, _offre(premium))
         except Exception as exc:

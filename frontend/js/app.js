@@ -1201,6 +1201,43 @@
     });
   }
 
+  // Photo réduite avant l'envoi : le Prof ne lit pas plus fin que ~1600 px, et
+  // une photo de téléphone de 4 à 9 Mo coûtait des données mobiles à l'élève
+  // et ~35 Mo de mémoire au serveur pendant toute la réponse (redémarrage du
+  // serveur de 512 Mo le 24/10/2026). Une photo réduite pèse ~0,3 à 0,6 Mo.
+  const PHOTO_COTE_MAX = 1600;
+
+  function chargerImage(file) {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => { URL.revokeObjectURL(url); resolve(img); };
+      img.onerror = (e) => { URL.revokeObjectURL(url); reject(e); };
+      img.src = url;
+    });
+  }
+
+  async function reduirePhoto(file) {
+    if (!/^image\/(jpeg|png|webp)$/.test(file.type)) return file; // PDF et GIF tels quels
+    try {
+      const img = await chargerImage(file);
+      const w = img.naturalWidth, h = img.naturalHeight;
+      const echelle = Math.min(1, PHOTO_COTE_MAX / Math.max(w, h));
+      if (echelle === 1 && file.size <= 700 * 1024) return file; // déjà légère
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.round(w * echelle);
+      canvas.height = Math.round(h * echelle);
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#fff"; // fond blanc sous les PNG transparents
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/jpeg", 0.85));
+      return blob && blob.size < file.size ? blob : file;
+    } catch (e) {
+      return file; // navigateur trop ancien : on envoie la photo d'origine
+    }
+  }
+
   async function processFileForCorrection(file, displayLabel) {
     const MAX_BYTES = 9 * 1024 * 1024;
     const ALLOWED = ["image/jpeg", "image/png", "image/webp", "image/gif", "application/pdf"];
@@ -1209,6 +1246,8 @@
       addMessage("Format non supporté. Envoie une photo (jpg/png) ou un PDF.", "msg-error");
       return;
     }
+    const nom = file.name;
+    file = await reduirePhoto(file);
     if (file.size > MAX_BYTES) {
       addMessage("Ce fichier est trop volumineux (max ~9 Mo). Essaie une photo plus légère ou recadrée.", "msg-error");
       return;
@@ -1219,7 +1258,7 @@
     chatLog = [];
     clearPersistedChatState();
     clearChat();
-    addMessage("📎 " + (displayLabel || file.name), "msg-user");
+    addMessage("📎 " + (displayLabel || nom), "msg-user");
     const loadingEl = addMessage("Le Prof JPA regarde ton sujet…", "msg-loading");
     sendBtn.disabled = true;
     attachBtn.disabled = true;
@@ -1256,7 +1295,7 @@
         { role: "assistant", content: data.answer },
       ];
       epreuveActive.hidden = false;
-      epreuveActive.textContent = "Sujet envoyé : " + (displayLabel || file.name);
+      epreuveActive.textContent = "Sujet envoyé : " + (displayLabel || nom);
       quitEpreuveBtn.hidden = false;
       persistChatState();
       isPremium = !!data.premium;
