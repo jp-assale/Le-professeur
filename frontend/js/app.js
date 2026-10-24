@@ -2,8 +2,28 @@
   "use strict";
 
   const API_BASE = (window.AIDA_API_BASE_URL || "").replace(/\/$/, "");
+  // versionCode de l'appli Android (= android/app/build.gradle, verifie par les
+  // tests) : envoye au serveur pour la mise a jour obligatoire (ANDROID_VERSION_MIN).
+  const APP_VERSION_CODE = 38;
   function apiUrl(path) {
-    return API_BASE + path;
+    if (!isNativeApp()) return API_BASE + path;
+    return API_BASE + path + (path.includes("?") ? "&" : "?") + "av=" + APP_VERSION_CODE;
+  }
+
+  // Appli trop ancienne (version minimale reglee sur le serveur) : ecran
+  // bloquant avec un bouton vers la fiche Google Play de l'appli (PLAY_STORE_URL).
+  function verifierVersionAppli(minimum) {
+    if (!isNativeApp() || !minimum || APP_VERSION_CODE >= minimum) return;
+    if (document.getElementById("maj-obligatoire")) return;
+    const overlay = document.createElement("div");
+    overlay.id = "maj-obligatoire";
+    overlay.className = "modal-overlay";
+    overlay.innerHTML =
+      '<div class="modal-box maj-box"><p class="maj-ico">🎓</p>' +
+      "<h2>Nouvelle version disponible</h2>" +
+      "<p>Mets à jour Le Prof JPA pour continuer. C'est rapide, et tu gardes tes cours et tes devoirs.</p>" +
+      '<a class="quota-upgrade maj-btn" href="' + PLAY_STORE_URL + '">Mettre à jour</a></div>';
+    document.body.appendChild(overlay);
   }
 
   // Connexion instable frequente sur le terrain (Afrique de l'Ouest) : les
@@ -605,6 +625,10 @@
       showQuotaExhausted(true);
       return;
     }
+    if (data && data.error === "mise_a_jour" && isNativeApp()) {
+      verifierVersionAppli(APP_VERSION_CODE + 1);
+      return;
+    }
     if (data && data.error === "correction_reservee") {
       isPremium = false;
       showCorrectionReservee();
@@ -1191,6 +1215,7 @@
       const data = await res.json();
       isPremium = !!data.premium;
       setQuota(data.remaining, data.limit);
+      verifierVersionAppli(data.android_min);
     } catch (e) {
       quotaBadge.textContent = "";
     }

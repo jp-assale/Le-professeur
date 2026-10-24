@@ -337,6 +337,13 @@ body {
   cursor: pointer;
 }
 
+/* Mise a jour obligatoire de l'appli Android (verifierVersionAppli). */
+.maj-box { text-align: center; }
+.maj-box h2 { font-size: 1.15rem; margin: 4px 0 8px; }
+.maj-box p { line-height: 1.5; margin: 0 0 14px; }
+.maj-ico { font-size: 2.4rem; margin: 0 !important; }
+.maj-btn { display: inline-block; text-decoration: none; border-radius: 999px; padding: 11px 26px; font-weight: 700; }
+
 /* Correction des sujets reservee a l'acces illimite : bandeau dore + bouton avec cadenas. */
 .sujets-verrou {
   margin: 0 0 8px; padding: 10px 12px; border-radius: 12px; font-size: 0.85rem; line-height: 1.45;

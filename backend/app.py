@@ -616,6 +616,42 @@ def _plateforme() -> str:
     return "android" if origin in ("https://localhost", "http://localhost", "capacitor://localhost") else "web"
 
 
+# Mise a jour obligatoire de l'appli Android : ANDROID_VERSION_MIN (versionCode,
+# 0 = desactive) se regle dans Render, sans nouveau build. Depuis la 2.22
+# (versionCode 38), l'appli envoie son versionCode (?av=) et affiche elle-meme
+# un ecran « Mettre a jour » ; les versions plus anciennes n'envoient rien et
+# recoivent ce message a la place des reponses du Prof (texte neutre, sans
+# lien ni prix : regles de Google Play).
+MAJ_MESSAGE = ("Une nouvelle version de l'appli est disponible. Mets-la à jour sur "
+               "Google Play pour continuer : c'est rapide.")
+_ROUTES_IA = ("/api/ask", "/api/upload-exercice", "/api/quiz", "/api/correction-copie",
+              "/api/diagnostic/complete")
+
+
+def _android_version_min() -> int:
+    try:
+        return int(os.environ.get("ANDROID_VERSION_MIN", "0"))
+    except ValueError:
+        return 0
+
+
+@app.before_request
+def _appli_trop_ancienne():
+    minimum = _android_version_min()
+    if not minimum or request.method != "POST" or _plateforme() != "android":
+        return None
+    chemin = request.path
+    if chemin not in _ROUTES_IA and not (chemin.startswith("/api/pdf-sujets/") and chemin.endswith("/corriger")):
+        return None
+    try:
+        version = int(request.args.get("av", "0"))
+    except ValueError:
+        version = 0
+    if version >= minimum:
+        return None
+    return jsonify({"error": "mise_a_jour", "message": MAJ_MESSAGE}), 426
+
+
 @app.route("/api/upload-exercice", methods=["POST"])
 @_avec_place_fichier
 def upload_exercice():
@@ -1440,6 +1476,7 @@ def get_quota():
         "remaining": remaining,
         "limit": limit,
         "premium": subscription.is_premium(device_id),
+        "android_min": _android_version_min(),  # lu par l'appli 2.22+ (ecran « Mettre a jour »)
     })
 
 
