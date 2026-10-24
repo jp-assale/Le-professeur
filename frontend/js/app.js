@@ -518,6 +518,7 @@
         "Il sert aussi si tu changes de téléphone. Tu le retrouves dans le menu « 🔑 Mon code appareil ».";
     }
     addMessage(texte, "msg-bot");
+    if (!epreuvesPanel.hidden) loadEpreuvesList(); // les sujets s'ouvrent
   }
 
   // Branche le formulaire du code d'abonnement et le bouton « Copier mon code ».
@@ -602,6 +603,11 @@
   function addErrorMessage(data, fallback) {
     if (data && data.error === "quota_depasse") {
       showQuotaExhausted(true);
+      return;
+    }
+    if (data && data.error === "sujets_reserves") {
+      isPremium = false;
+      showSujetsReserves();
       return;
     }
     addMessage((data && (data.message || data.error)) || fallback, "msg-error");
@@ -798,24 +804,85 @@
     chatEl.innerHTML = "";
   }
 
+  // Sujets d'examens reserves a l'acces illimite (24/10/2026, verifie aussi par
+  // le serveur) : la liste reste visible avec un cadenas. Sur le site, la
+  // fenetre d'abonnement ; dans l'appli Android, l'information sans achat
+  // (regles de paiement Google Play, voir infoIllimiteHtml).
+  function ouvrirOffreIllimite() {
+    if (isNativeApp()) openInfoIllimiteModal();
+    else openSubscribeWhatsAppModal();
+  }
+
+  function boutonOffreIllimite() {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "quota-upgrade";
+    btn.textContent = isNativeApp() ? "✨ Accès illimité" : "✨ Passer en illimité";
+    btn.addEventListener("click", ouvrirOffreIllimite);
+    return btn;
+  }
+
+  function bandeauSujetsReserves(nombre) {
+    const div = document.createElement("div");
+    div.className = "sujets-verrou";
+    div.innerHTML =
+      "<p><b>🔒 Sujets d'examens : réservés à l'accès illimité</b></p>" +
+      "<p>Avec l'accès illimité, tu ouvres " + (nombre > 1 ? "les " + nombre + " sujets" : "les sujets") +
+      " de ta classe dans cette matière, et le Prof JPA t'aide à les corriger pas à pas.</p>";
+    const actions = document.createElement("div");
+    actions.className = "quota-actions";
+    actions.appendChild(boutonOffreIllimite());
+    div.appendChild(actions);
+    return div;
+  }
+
+  // Sujet refuse par le serveur (abonnement termine entre-temps, par exemple).
+  function showSujetsReserves() {
+    const div = document.createElement("div");
+    div.className = "msg msg-quota";
+    div.innerHTML = "<p><b>🔒 Les sujets d'examens sont réservés à l'accès illimité</b></p>";
+    const actions = document.createElement("div");
+    actions.className = "quota-actions";
+    actions.appendChild(boutonOffreIllimite());
+    div.appendChild(actions);
+    chatEl.appendChild(div);
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
+
   async function loadEpreuvesList() {
     epreuvesList.innerHTML = '<li class="epreuves-empty">Chargement…</li>';
+    epreuvesPanel.querySelectorAll(".sujets-verrou").forEach((d) => d.remove());
     const params = new URLSearchParams({
       pays: selectPays.value,
       niveau: selectNiveau.value,
       matiere: selectMatiere.value,
     });
     try {
+      if (!isPremium) await loadQuota(); // statut a jour (abonnement pris sur un autre appareil)
       const pdfSujets = await fetchWithRetry(apiUrl("/api/pdf-sujets?" + params.toString())).then((r) => r.json());
       epreuvesList.innerHTML = "";
+      epreuvesPanel.querySelectorAll(".sujets-verrou").forEach((d) => d.remove());
 
-      if (pdfSujets.length) {
+      if (pdfSujets.length && !isPremium) {
+        epreuvesPanel.insertBefore(bandeauSujetsReserves(pdfSujets.length), epreuvesList);
+        pdfSujets.forEach((s) => {
+          const li = document.createElement("li");
+          li.className = "pdf-sujet-item verrouille";
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "pdf-sujet-view";
+          btn.textContent = "🔒 " + s.titre + " (" + s.annee + ")";
+          btn.addEventListener("click", ouvrirOffreIllimite);
+          li.appendChild(btn);
+          epreuvesList.appendChild(li);
+        });
+      } else if (pdfSujets.length) {
         pdfSujets.forEach((s) => {
           const li = document.createElement("li");
           li.className = "pdf-sujet-item";
 
           const viewLink = document.createElement("a");
-          viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier");
+          viewLink.href = apiUrl("/api/pdf-sujets/" + s.id + "/fichier?device_id=" + encodeURIComponent(DEVICE_ID));
           viewLink.target = "_blank";
           viewLink.rel = "noopener";
           viewLink.className = "pdf-sujet-view";
